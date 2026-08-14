@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-14T15:17:40-04:00",
+  "generated_at": "2026-08-14T17:51:25-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 17,
@@ -8,17 +8,61 @@
     "events_today": 3,
     "events_with_date": 17,
     "events_free": 0,
-    "events_with_image": 12,
+    "events_with_image": 11,
     "events_with_video": 3,
-    "events_corroborated": 1,
+    "events_corroborated": 0,
     "events_seen_this_run": 14,
-    "sources_total": 38,
-    "sources_ok": 32,
-    "sources_blocked": 3,
+    "sources_total": 79,
+    "sources_ok": 14,
+    "sources_blocked": 0,
     "sources_error": 3,
-    "sources_skipped": 0
+    "sources_skipped": 62
   },
   "filters": {
+    "ui_groups": [
+      {
+        "key": "when",
+        "label": "Cuándo",
+        "selection": "single",
+        "icon": "calendar"
+      },
+      {
+        "key": "categories",
+        "label": "Tipo de evento",
+        "selection": "multi",
+        "icon": "category"
+      },
+      {
+        "key": "departments",
+        "label": "Departamento",
+        "selection": "multi",
+        "icon": "map"
+      },
+      {
+        "key": "cities",
+        "label": "Ciudad",
+        "selection": "multi",
+        "icon": "location_city"
+      },
+      {
+        "key": "price",
+        "label": "Precio",
+        "selection": "single",
+        "icon": "payments"
+      },
+      {
+        "key": "media",
+        "label": "Multimedia",
+        "selection": "multi",
+        "icon": "photo_library"
+      },
+      {
+        "key": "tags",
+        "label": "Temas",
+        "selection": "multi",
+        "icon": "sell"
+      }
+    ],
     "categories": [
       {
         "key": "feria",
@@ -121,15 +165,221 @@
         "label": "Todos",
         "count": 16
       }
+    ],
+    "price": [
+      {
+        "key": "gratis",
+        "label": "Gratis",
+        "count": 0
+      },
+      {
+        "key": "pagado",
+        "label": "Con entrada",
+        "count": 5
+      },
+      {
+        "key": "por_confirmar",
+        "label": "Precio por confirmar",
+        "count": 11
+      }
+    ],
+    "media": [
+      {
+        "key": "con_foto",
+        "label": "Con foto",
+        "count": 10
+      },
+      {
+        "key": "con_video",
+        "label": "Con video",
+        "count": 3
+      }
+    ],
+    "tags": [
+      {
+        "key": "Ml18Xb",
+        "label": "Ml18Xb",
+        "count": 2
+      },
+      {
+        "key": "vvzi1e",
+        "label": "vvzi1e",
+        "count": 1
+      },
+      {
+        "key": "NS0kde",
+        "label": "NS0kde",
+        "count": 1
+      },
+      {
+        "key": "HokZ0d",
+        "label": "HokZ0d",
+        "count": 1
+      },
+      {
+        "key": "d5Qebf",
+        "label": "d5Qebf",
+        "count": 1
+      },
+      {
+        "key": "U8DOt",
+        "label": "U8DOt",
+        "count": 1
+      },
+      {
+        "key": "iOlsLd",
+        "label": "iOlsLd",
+        "count": 1
+      },
+      {
+        "key": "ZxCkTb",
+        "label": "ZxCkTb",
+        "count": 1
+      },
+      {
+        "key": "Quillacollo",
+        "label": "Quillacollo",
+        "count": 1
+      },
+      {
+        "key": "GADC",
+        "label": "GADC",
+        "count": 1
+      },
+      {
+        "key": "TransparenciaLealtadyUndad",
+        "label": "TransparenciaLealtadyUndad",
+        "count": 1
+      },
+      {
+        "key": "GestiónLeonardoLoza",
+        "label": "GestiónLeonardoLoza",
+        "count": 1
+      },
+      {
+        "key": "263",
+        "label": "263",
+        "count": 1
+      },
+      {
+        "key": "LaKerkenchaDeMiSuegra",
+        "label": "LaKerkenchaDeMiSuegra",
+        "count": 1
+      },
+      {
+        "key": "DñaNieves",
+        "label": "DñaNieves",
+        "count": 1
+      },
+      {
+        "key": "LaMadrina",
+        "label": "LaMadrina",
+        "count": 1
+      },
+      {
+        "key": "Oruro",
+        "label": "Oruro",
+        "count": 1
+      },
+      {
+        "key": "Teatro",
+        "label": "Teatro",
+        "count": 1
+      },
+      {
+        "key": "Comedia",
+        "label": "Comedia",
+        "count": 1
+      },
+      {
+        "key": "TeatroBoliviano",
+        "label": "TeatroBoliviano",
+        "count": 1
+      },
+      {
+        "key": "EventosBolivia",
+        "label": "EventosBolivia",
+        "count": 1
+      },
+      {
+        "key": "SuperTicket",
+        "label": "SuperTicket",
+        "count": 1
+      }
+    ],
+    "source_classes": [
+      {
+        "key": "ticketera",
+        "label": "ticketera",
+        "count": 7
+      },
+      {
+        "key": "venue",
+        "label": "venue",
+        "count": 5
+      },
+      {
+        "key": "municipio",
+        "label": "municipio",
+        "count": 1
+      },
+      {
+        "key": "media",
+        "label": "media",
+        "count": 1
+      },
+      {
+        "key": "eventos",
+        "label": "eventos",
+        "count": 1
+      },
+      {
+        "key": "cultura_oficial",
+        "label": "cultura_oficial",
+        "count": 1
+      }
     ]
   },
   "coverage": {
-    "fuentes_totales": 29,
-    "con_datos_alguna_vez": 26,
+    "fuentes_totales": 70,
+    "con_datos_alguna_vez": 34,
     "nunca_vistas": [
+      "fb_casa_moneda_potosi",
+      "fb_ccelp",
+      "fb_centro_cultura_scz",
+      "fb_cinemateca_boliviana",
+      "fb_crc_lapaz",
+      "fb_espacio_patino_lapaz",
+      "fb_fundacion_cultural_bcb",
+      "fb_fundacion_patino_cbba",
       "fb_gam_cbba",
+      "fb_gob_beni",
+      "fb_gob_chuquisaca",
+      "fb_gob_oruro",
+      "fb_gob_pando",
+      "fb_gob_tarija",
+      "fb_goethe_lapaz",
       "fb_lostiempos",
-      "fb_teatro_aire_libre"
+      "fb_manzana1",
+      "fb_ministerio_culturas",
+      "fb_municipio_cobija",
+      "fb_municipio_oruro",
+      "fb_municipio_potosi",
+      "fb_municipio_sucre",
+      "fb_municipio_tarija",
+      "fb_municipio_trinidad",
+      "fb_musef_lapaz",
+      "fb_musef_sucre",
+      "fb_museo_nacional_arte",
+      "fb_tarija_cultura",
+      "fb_teatro_aire_libre",
+      "fb_teatros_municipales_lapaz",
+      "fb_uagrm",
+      "fb_ucb_lapaz",
+      "fb_umsa",
+      "fb_umss",
+      "fb_upsa",
+      "fb_usfx"
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_gam_cbba",
@@ -137,8 +387,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 0.0,
-    "horas_maximo_sin_datos": 0.0
+    "horas_promedio_sin_datos": 2.0,
+    "horas_maximo_sin_datos": 2.6
   },
   "events": [
     {
@@ -152,7 +402,7 @@
       "url": "https://ticket.bo/eventos/el-var-la-gran-final",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "EL VAR La Gran Final | TicketBO",
       "description": "Deportes EL VAR La Gran Final 19 de julio de 2026 · 15:00 hrs Puertas: 12:00 Zu Av. Montenegro 954, La Paz, Bolivia Scroll Fecha 19 JUL domingo 2026 Hora 15:00 Puertas: 12:00 Venue Zu Av. Montenegro 954, La Paz, Bolivia Categoría DEPORTES Apto para todo público 1 Tipos de\nentrada Sobre el evento La final del Mundial en EL VAR El partido más esperado del mundo lo vives en EL VAR — la mejor experiencia para ver fútbol en La Paz. Pantalla gigante de 8x4 metros, ambiente de estadio y tu mesa reservada para que no te pierdas nada.\n\n19 de julio, 2026. La gran final del Mundial, donde el fútbol se ve diferente. Información CÓMO ACCEDER Ingreso desde medio día. Se requiere presentar tu entrada digital en puerta.\n\n🎟️ Las reservas tienen un costo fijo por mesa que garantiza tu lugar durante todo el partido.\n\n🚫 No se permite el ingreso con alimentos o bebidas externas. Evento para toda la familia Restricción de edad Apto para todo público Ubicación CÓMO LLEGAR ZU Av. Montenegro 954, La Paz, Bolivia Ver en Google Maps → El monto pagado corresponde al acceso al evento — NO es canjeable en consumo. Selecciona tus tickets ELIGE TU ENTRADA Mesa 29 disponibles Bs. 100 BOB Precio varía según capacidad de mesa Selección de asiento Seleccionar asiento → EL VAR La Gran Final Bs. 100 Comprar ahora → 🔥 ¡Mesas limitadas — asegura la tuya ahora! Comprar ahora →",
       "original_text": "Deportes EL VAR La Gran Final 19 de julio de 2026 · 15:00 hrs Puertas: 12:00 Zu Av. Montenegro 954, La Paz, Bolivia Scroll Fecha 19 JUL domingo 2026 Hora 15:00 Puertas: 12:00 Venue Zu Av. Montenegro 954, La Paz, Bolivia Categoría DEPORTES Apto para todo público 1 Tipos de\nentrada Sobre el evento La final del Mundial en EL VAR El partido más esperado del mundo lo vives en EL VAR — la mejor experiencia para ver fútbol en La Paz. Pantalla gigante de 8x4 metros, ambiente de estadio y tu mesa reservada para que no te pierdas nada.\n\n19 de julio, 2026. La gran final del Mundial, donde el fútbol se ve diferente. Información CÓMO ACCEDER Ingreso desde medio día. Se requiere presentar tu entrada digital en puerta.\n\n🎟️ Las reservas tienen un costo fijo por mesa que garantiza tu lugar durante todo el partido.\n\n🚫 No se permite el ingreso con alimentos o bebidas externas. Evento para toda la familia Restricción de edad Apto para todo público Ubicación CÓMO LLEGAR ZU Av. Montenegro 954, La Paz, Bolivia Ver en Google Maps → El monto pagado corresponde al acceso al evento — NO es canjeable en consumo. Selecciona tus tickets ELIGE TU ENTRADA Mesa 29 disponibles Bs. 100 BOB Precio varía según capacidad de mesa Selección de asiento Seleccionar asiento → EL VAR La Gran Final Bs. 100 Comprar ahora → 🔥 ¡Mesas limitadas — asegura la tuya ahora! Comprar ahora →",
@@ -253,8 +503,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": false,
@@ -273,7 +523,7 @@
       "url": "https://superticket.bo/Festival-de-Teatro--Urenarte-/",
       "facebook_event_url": null,
       "published_at": "2026-08-14T20:00:00-04:00",
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "Festival de Teatro &quot;Ureñarte&quot;",
       "description": "Festival de Teatro &quot;Ureñarte&quot;\n2026-08-14T20:00:00-04:00\n2026-08-14\nCasa de la Cultura Raúl Otero Reiche\nCalle Libertad 65, entre Ayacucho y Junín\nBs 70.00\n&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2c&quot; data-hveid=&quot;CAEICRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;&lt;span class=&quot;Yjhzub&quot; jsaction=&quot;&quot; jscontroller=&quot;zYmgkd#vvzi1e&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2d&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;margin: 0px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;¡Celebra tres décadas de pasión y arte sobre las tablas!&lt;!--TgQPHd|||[]--&gt;&lt;/span&gt;&lt;!--TgQPHd|||[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2j&quot; data-hveid=&quot;CAEIChAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;El &lt;span class=&quot;Yjhzub&quot; jsaction=&quot;&quot; jscontroller=&quot;zYmgkd#vvzi1e&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2k&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif",
       "original_text": "Festival de Teatro &quot;Ureñarte&quot;\n2026-08-14T20:00:00-04:00\n2026-08-14\nCasa de la Cultura Raúl Otero Reiche\nCalle Libertad 65, entre Ayacucho y Junín\nBs 70.00\n&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2c&quot; data-hveid=&quot;CAEICRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;&lt;span class=&quot;Yjhzub&quot; jsaction=&quot;&quot; jscontroller=&quot;zYmgkd#vvzi1e&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2d&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;margin: 0px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;¡Celebra tres décadas de pasión y arte sobre las tablas!&lt;!--TgQPHd|||[]--&gt;&lt;/span&gt;&lt;!--TgQPHd|||[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2j&quot; data-hveid=&quot;CAEIChAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;El &lt;span class=&quot;Yjhzub&quot; jsaction=&quot;&quot; jscontroller=&quot;zYmgkd#vvzi1e&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2k&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;margin: 0px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;Festival de Teatro Ureñarte&lt;!--TgQPHd|||[]--&gt;&lt;/span&gt; presenta una cartelera imperdible para conmemorar sus &lt;span class=&quot;Yjhzub&quot; jsaction=&quot;&quot; jscontroller=&quot;zYmgkd#vvzi1e&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2l&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;margin: 0px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;30 años en escena&lt;!--TgQPHd|||[]--&gt;&lt;/span&gt;. Disfruta de un fin de semana lleno de drama, comedia y reflexión con tres grandes puestas en escena en la &lt;span class=&quot;Yjhzub&quot; jsaction=&quot;&quot; jscontroller=&quot;zYmgkd#vvzi1e&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2m&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;margin: 0px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;Casa Municipal de Cultura&lt;!--TgQPHd|||[]--&gt;&lt;/span&gt;, siempre a las &lt;span class=&quot;Yjhzub&quot; jsaction=&quot;&quot; jscontroller=&quot;zYmgkd#vvzi1e&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2n&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;margin: 0px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;20:00 Hrs&lt;!--TgQPHd|||[]--&gt;&lt;/span&gt;.&lt;!--TgQPHd|||[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_2t&quot; data-hveid=&quot;CAEICxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: justify;&quot;&gt;&lt;b style=&quot;font-size: 1rem;&quot;&gt;Acompáñanos a vivir la magia del teatro vivo del 14 al 16 de agosto. ¡Te esperamos!&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Google Sans, Arial, sans-serif&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul class=&quot;KsbFXc U6u95&quot; jsaction=&quot;&quot; jscontroller=&quot;mPWODf#NS0kde&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_1n&quot; data-ved=&quot;2ahUKEwi5_5v1gOyVAxVrq5UCHenXHu8Q-7AUegYIAQgHEAA&quot; data-hveid=&quot;CAEIBxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;li class=&quot;Z1qcYe&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;oSLmPe#HokZ0d&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_1o&quot; data-hveid=&quot;CAEIBxAB&quot; data-complete=&quot;true&quot; data-sae=&quot;&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px 0px 12px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;margin: 0px 0px 12px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b style=&quot;font-size: 1rem;&quot;&gt;&lt;span class=&quot;iNqyIf&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;KdQfFc#d5Qebf&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_1p&quot; data-complete=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;margin: 0px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;span class=&quot;Yjhzub&quot; jsaction=&quot;&quot; jscontroller=&quot;zYmgkd#vvzi1e&quot; data-sfc-root=&quot;ep&quot; jsuid=&quot;ikFSL_1q&quot; data-complete=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;margin: 0px; border-bottom: 0px rgb(230, 2",
@@ -387,8 +637,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -532,7 +782,7 @@
       "url": "https://superticket.bo/Concierto-Homenaje-al-Chaco---Los-Canarios-del-Chaco/",
       "facebook_event_url": null,
       "published_at": "2026-08-14T19:30:00-04:00",
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "Concierto Homenaje al Chaco - Los Canarios del Chaco",
       "description": "Concierto Homenaje al Chaco - Los Canarios del Chaco\n2026-08-14T19:30:00-04:00\n2026-08-14\nCentro Cultural Torino\nSocabaya 457\nBs 50.00\nBusca y compra tus entradas a los mejores eventos de Concierto Homenaje al Chaco - Los Canarios del Chaco. Entradas a la venta en SuperTicket.bo desde el 14 Agosto",
       "original_text": "Concierto Homenaje al Chaco - Los Canarios del Chaco\n2026-08-14T19:30:00-04:00\n2026-08-14\nCentro Cultural Torino\nSocabaya 457\nBs 50.00\nBusca y compra tus entradas a los mejores eventos de Concierto Homenaje al Chaco - Los Canarios del Chaco. Entradas a la venta en SuperTicket.bo desde el 14 Agosto",
@@ -636,8 +886,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -656,7 +906,7 @@
       "url": "https://superticket.bo/Curso--Inteligencia-Artificial-para-Emprendedores/",
       "facebook_event_url": null,
       "published_at": "2026-08-17T16:00:00-04:00",
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "Curso: Inteligencia Artificial para Emprendedores",
       "description": "Curso: Inteligencia Artificial para Emprendedores\n2026-08-17T16:00:00-04:00\n2026-08-17\nEdificio Arcadia\nA una cuadra de la Plaza Isabela La Católica\nBs 150.00\nBusca y compra tus entradas a los mejores eventos de Curso: Inteligencia Artificial para Emprendedores. Entradas a la venta en SuperTicket.bo desde el 17 Agosto",
       "original_text": "Curso: Inteligencia Artificial para Emprendedores\n2026-08-17T16:00:00-04:00\n2026-08-17\nEdificio Arcadia\nA una cuadra de la Plaza Isabela La Católica\nBs 150.00\nBusca y compra tus entradas a los mejores eventos de Curso: Inteligencia Artificial para Emprendedores. Entradas a la venta en SuperTicket.bo desde el 17 Agosto",
@@ -763,8 +1013,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -783,7 +1033,7 @@
       "url": "https://superticket.bo/Cena-Show-Tusuy-Bolivia/",
       "facebook_event_url": null,
       "published_at": "2026-08-21T19:30:00-04:00",
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "Cena Show Tusuy Bolivia",
       "description": "Cena Show Tusuy Bolivia\n2026-08-21T19:30:00-04:00\n2026-08-21\nTusuy Bolivia\nCalle Santa Cruz y Linares #263\nBs 0.00\nBusca y compra tus entradas a los mejores eventos de Cena Show Tusuy Bolivia. Entradas a la venta en SuperTicket.bo desde el 21 Agosto",
       "original_text": "Cena Show Tusuy Bolivia\n2026-08-21T19:30:00-04:00\n2026-08-21\nTusuy Bolivia\nCalle Santa Cruz y Linares #263\nBs 0.00\nBusca y compra tus entradas a los mejores eventos de Cena Show Tusuy Bolivia. Entradas a la venta en SuperTicket.bo desde el 21 Agosto",
@@ -888,8 +1138,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -1046,7 +1296,7 @@
       "url": "https://superticket.bo/Festival-de-Orquestas-por-la-Gran-Serenata-a-Montero/",
       "facebook_event_url": null,
       "published_at": "2026-08-30T21:00:00-04:00",
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "Festival de Orquestas por la Gran Serenata a Montero",
       "description": "Festival de Orquestas por la Gran Serenata a Montero\n2026-08-30T21:00:00-04:00\n2026-08-30\nClub de Leones\nC. Sucre 233, Montero\nBs 100.00\nBusca y compra tus entradas a los mejores eventos de Festival de Orquestas por la Gran Serenata a Montero. Entradas a la venta en SuperTicket.bo desde el 30 Agosto",
       "original_text": "Festival de Orquestas por la Gran Serenata a Montero\n2026-08-30T21:00:00-04:00\n2026-08-30\nClub de Leones\nC. Sucre 233, Montero\nBs 100.00\nBusca y compra tus entradas a los mejores eventos de Festival de Orquestas por la Gran Serenata a Montero. Entradas a la venta en SuperTicket.bo desde el 30 Agosto",
@@ -1150,8 +1400,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -1170,10 +1420,10 @@
       "url": "https://www.lostiempos.com/servicios/agenda-cultural",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de…",
-      "description": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Últimas noticias 22h58m Tribunal Agroambiental rinde homenaje a su exdecano Víctor Hugo Claure 13/08/2026 Viva comunicado 13/08/2026 JP Velasco gestiona importación de combustibles con una empresa privada 13/08/2026 Lupo y Camacho son los primeros embajadores designados por el actual Gobierno 13/08/2026 “He tenido una conversación muy corta”: Lara visita San Pedro y habla con Arce Lo más compartido 1 \"No validaré decisiones con las que no coincido: Zaratti renuncia al Viceministerio de Culturas 2 Lupo y Camacho son los primeros embajadores designados por el actual Gobierno 3 El fuego suramericano es encendido en Tiwabaku para los Juegos de Santa Fe 2026 4 JP Velasco gestiona importación de combustibles con una empresa privada 5 El “Súper Niño” ya golpea Bolivia con sequías, heladas y lluvias torrenciales",
-      "original_text": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Últimas noticias 22h58m Tribunal Agroambiental rinde homenaje a su exdecano Víctor Hugo Claure 13/08/2026 Viva comunicado 13/08/2026 JP Velasco gestiona importación de combustibles con una empresa privada 13/08/2026 Lupo y Camacho son los primeros embajadores designados por el actual Gobierno 13/08/2026 “He tenido una conversación muy corta”: Lara visita San Pedro y habla con Arce Lo más compartido 1 \"No validaré decisiones con las que no coincido: Zaratti renuncia al Viceministerio de Culturas 2 Lupo y Camacho son los primeros embajadores designados por el actual Gobierno 3 El fuego suramericano es encendido en Tiwabaku para los Juegos de Santa Fe 2026 4 JP Velasco gestiona importación de combustibles con una empresa privada 5 El “Súper Niño” ya golpea Bolivia con sequías, heladas y lluvias torrenciales",
+      "description": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Lo más leído 1 Comisión de diputados identifica 54 posibles responsables de “gasolina basura” Últimas noticias 15h12m Ahorristas en dólares ya pueden retirar 3.001 y 5.000 del sistema financiero 15h00m Gobierno promulga decreto que reestructura el Órgano Ejecutivo 14h33m Quillacollo brilla con la Entrada de Urkupiña 2026 10h06m Comisión de diputados identifica 54 posibles responsables de “gasolina basura” 22h58m Tribunal Agroambiental rinde homenaje a su exdecano Víctor Hugo Claure Lo más compartido 1 \"No validaré decisiones con las que no coincido: Zaratti renuncia al Viceministerio de Culturas 2 Lupo y Camacho son los primeros embajadores designados por el actual Gobierno 3 El fuego suramericano es encendido en Tiwabaku para los Juegos de Santa Fe 2026 4 JP Velasco gestiona importación de combustibles con una empresa privada 5 El “Súper Niño” ya golpea Bolivia con sequías, heladas y lluvias torrenciales",
+      "original_text": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Lo más leído 1 Comisión de diputados identifica 54 posibles responsables de “gasolina basura” Últimas noticias 15h12m Ahorristas en dólares ya pueden retirar 3.001 y 5.000 del sistema financiero 15h00m Gobierno promulga decreto que reestructura el Órgano Ejecutivo 14h33m Quillacollo brilla con la Entrada de Urkupiña 2026 10h06m Comisión de diputados identifica 54 posibles responsables de “gasolina basura” 22h58m Tribunal Agroambiental rinde homenaje a su exdecano Víctor Hugo Claure Lo más compartido 1 \"No validaré decisiones con las que no coincido: Zaratti renuncia al Viceministerio de Culturas 2 Lupo y Camacho son los primeros embajadores designados por el actual Gobierno 3 El fuego suramericano es encendido en Tiwabaku para los Juegos de Santa Fe 2026 4 JP Velasco gestiona importación de combustibles con una empresa privada 5 El “Súper Niño” ya golpea Bolivia con sequías, heladas y lluvias torrenciales",
       "category": "teatro",
       "subcategories": [
         "concierto",
@@ -1289,8 +1539,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -1299,41 +1549,37 @@
       "price_label": null
     },
     {
-      "id": "8478efc45ea479b2",
-      "source_id": "fb_fexpocruz",
+      "id": "22be7308c12a54fc",
+      "source_id": "web_fexpocruz",
       "source_name": "Fexpocruz",
-      "source_url": "https://www.facebook.com/Fexpocruz/",
+      "source_url": "https://www.fexpocruz.com.bo/",
       "source_class": "venue",
-      "source_tier": 1,
-      "source_icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=D17KWu_1NBoQ7kNvwFQAvCc&_nc_oc=Adr5ijisuTW1Sfl097cRzDF4kP1ARU6fs8ng2p1Ah27kHR_GdO6mKcuLkw3UwHGMzFU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=8zEY5QsfVDCwOPrjo1fWUg&_nc_ss=7f289&oh=00_AQFSEidpLul7Q6ZLrctLboHW53i--q2X2lEZCpWc2MP1gw&oe=6A854F90",
-      "url": "https://www.facebook.com/Fexpocruz/posts/pfbid02QY54d29fUMn5eQYauqLGL1wQ9s8bQEFibuXoAdkx9J4RRs6Nc3n49GWPHciQYfW4l?__cft__[0]=AZbx0McBIVaVTmm7r3Vq56CzZ55rY2M0PIhs0shAY69ESHNHbYZk5k6ONv0srMhgSV2duwCql8-iVOIYgRMU6xpu6bTz3tKm51qrO3NtfuALQgaydy3sf5BcbGu6ln4QVKOic8dQHqZUtbRhh7bGIpmwNIEBpDYfvQ5PEosWlsnEaN3qrNbAT2NKIqd03ikjOBo&__tn__=%2CO%2CP-R",
+      "source_tier": 2,
+      "source_icon_url": "https://cdn.prod.website-files.com/6690a19e0f5a04cb6cbb90c0/6690a27b18b1187ab93e2993_fexpo-logo.avif",
+      "url": "https://www.fexpocruz.com.bo/feria/https-www-fexpocruz-com-bo-expocruz-2026",
       "facebook_event_url": null,
-      "published_at": "Puede ser una imagen de texto que dice \"DÍAS ESPECIALES nexpocrи expocruz, 2026 18 AL 18AL27 27 DE SEP\"",
-      "scraped_at": "2026-08-14T15:17:40-04:00",
-      "title": "Conocé los días especiales de Expocruz 2026!",
-      "description": "Conocé los días especiales de Expocruz 2026!\n\nPreparamos jornadas pensadas para que disfrutés la feria de una manera diferente y compartás en familia y con amigos.\n\nMirá el carrusel y conocé todos...\nConocé los días especiales de Expocruz 2026!\n\nPreparamos jornadas pensadas para que disfrutés la feria de una manera diferente y compartás en familia y...\nConocé los días especiales de Expocruz 2026!\nPreparamos jornadas pensadas para que disfrutés la feria de una manera diferente y compartás en familia y con amigos.\nMirá el carrusel y conocé todos los días especiales de Expocruz 2026. \n Del 18 al 27 de septiembre\n FEXPOCRUZ\n Comprá tus pases y entradas en:\nwww.fexpocruz.com.bo\n#FEXPOCRUZ #Expocruz2026 #RumboAExpocruz2026\nConocé los días especiales de Expocruz 2026!\nPreparamos jornadas pensadas para que disfrutés la feria de una manera diferente y compartás en familia y con amigos.\nMirá el carrusel y conocé todos los días especiales de Expocruz 2026.\nDel 18 al 27 de septiembre\nComprá tus pases y entradas en:\nwww.fexpocruz.com.bo\n#FEXPOCRUZ #Expocruz2026 #RumboAExpocruz2026\nY como se hace para inscribir a mi mascota de raza para su competencia que cada año hacen ?\nNo recuerdo bien\nHola! Edson Alexander Totola Vargas La actividad canina es organizada por Kennel Club Boliviano\nDesde q edad pagan entrada\nHola! Karla Fierro Precio de la entrada Menores: 30 Bs. (De 6 a 12 años)\nMenores de 6 años ingresan libre\nIngresa a www.fexpocruz.com.bo y hacé clic en \"comprá tu entrada aquí\"\nTe esperamos!",
-      "original_text": "Conocé los días especiales de Expocruz 2026!\n\nPreparamos jornadas pensadas para que disfrutés la feria de una manera diferente y compartás en familia y con amigos.\n\nMirá el carrusel y conocé todos...\nConocé los días especiales de Expocruz 2026!\n\nPreparamos jornadas pensadas para que disfrutés la feria de una manera diferente y compartás en familia y...\nConocé los días especiales de Expocruz 2026!\nPreparamos jornadas pensadas para que disfrutés la feria de una manera diferente y compartás en familia y con amigos.\nMirá el carrusel y conocé todos los días especiales de Expocruz 2026. \n Del 18 al 27 de septiembre\n FEXPOCRUZ\n Comprá tus pases y entradas en:\nwww.fexpocruz.com.bo\n#FEXPOCRUZ #Expocruz2026 #RumboAExpocruz2026\nConocé los días especiales de Expocruz 2026!\nPreparamos jornadas pensadas para que disfrutés la feria de una manera diferente y compartás en familia y con amigos.\nMirá el carrusel y conocé todos los días especiales de Expocruz 2026.\nDel 18 al 27 de septiembre\nComprá tus pases y entradas en:\nwww.fexpocruz.com.bo\n#FEXPOCRUZ #Expocruz2026 #RumboAExpocruz2026\nY como se hace para inscribir a mi mascota de raza para su competencia que cada año hacen ?\nNo recuerdo bien\nHola! Edson Alexander Totola Vargas La actividad canina es organizada por Kennel Club Boliviano\nDesde q edad pagan entrada\nHola! Karla Fierro Precio de la entrada Menores: 30 Bs. (De 6 a 12 años)\nMenores de 6 años ingresan libre\nIngresa a www.fexpocruz.com.bo y hacé clic en \"comprá tu entrada aquí\"\nTe esperamos!",
+      "published_at": null,
+      "scraped_at": "2026-08-14T17:51:25-04:00",
+      "title": "Expocruz 2026",
+      "description": "EN Feria Internacional de Santa Cruz Inicio Ferias Expocruz 2026 Sobre Expocruz 2026 🗓️ Del 18 al 27 de Septiembre de 2026 ⏰ HORARIOS: 17:00 a 00:00 hrs 📍 FEXPOCRUZ Es la feria multisectorial más completa de América Latina. Es el escenario donde convergen todos los sectores productivos del país y la región en 10 días de oportunidades, negocios y entretenimiento. En estas avenidas y pabellones se exhibe lo mejor del empresariado nacional e internacional. En este gran evento surgen alianzas y se fortalecen lazos internacionales, comerciales y sociales. Cada septiembre los ojos del mundo se sitúan en Santa Cruz, para un encuentro donde se dinamizan las diferentes actividades económicas a gran escala un ambiente de felicidad, oportunidades, negocios, familia y celebraciones. Expositores y visitantes son el motor de esta muestra ferial, que dimensiona la importancia del esfuerzo en conjunto de todos quienes trabajan por el desarrollo del país y la región. Esta feria trasciende generaciones y se constituye en un punto de convergencia donde se juntan sueños y se concretan nuevos proyectos. ‍ INSCRIPCIÓN DE ANIMALES Confirmá la presencia de tus ejemplares en el sector pecuario de Expocruz 2026. Descargá los formularios de inscripción y el reglamento de participación aquí ‍ Principales Atracciones Expositores Nacionales e Internacionales Oportunidades de Negocio e Inversión Shows y Entretenimiento Promociones y Descuentos dESCUBRÍ LAS Categorías Servicios y Emprendimientos Conocé iniciativas y servicios que impulsan la creatividad empresarial. Maquinaria y Equipos Industriales Descubrí soluciones en maquinaria y equipos que potencian la productividad industrial. Automotriz Explorá la innovación en vehículos y transporte que redefinen el sector automotriz. Consumo Masivo Conocé más del mercado de bienes que marcan tendencia en el consumo masivo. Agroindustria Encontrá prácticas y tecnología claves para optimizar el sector agropecuario. Desarrollo Inmobiliario Descubrí oportunidades en proyectos que están transformando el sector inmobiliario. Industria y Comercio Conocé las soluciones y productos que están revolucionando la industria y el comercio. Tecnologia e Innovación Descubrí las últimas tendencias que están transformando el mundo y los negocios. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Pr",
+      "original_text": "EN Feria Internacional de Santa Cruz Inicio Ferias Expocruz 2026 Sobre Expocruz 2026 🗓️ Del 18 al 27 de Septiembre de 2026 ⏰ HORARIOS: 17:00 a 00:00 hrs 📍 FEXPOCRUZ Es la feria multisectorial más completa de América Latina. Es el escenario donde convergen todos los sectores productivos del país y la región en 10 días de oportunidades, negocios y entretenimiento. En estas avenidas y pabellones se exhibe lo mejor del empresariado nacional e internacional. En este gran evento surgen alianzas y se fortalecen lazos internacionales, comerciales y sociales. Cada septiembre los ojos del mundo se sitúan en Santa Cruz, para un encuentro donde se dinamizan las diferentes actividades económicas a gran escala un ambiente de felicidad, oportunidades, negocios, familia y celebraciones. Expositores y visitantes son el motor de esta muestra ferial, que dimensiona la importancia del esfuerzo en conjunto de todos quienes trabajan por el desarrollo del país y la región. Esta feria trasciende generaciones y se constituye en un punto de convergencia donde se juntan sueños y se concretan nuevos proyectos. ‍ INSCRIPCIÓN DE ANIMALES Confirmá la presencia de tus ejemplares en el sector pecuario de Expocruz 2026. Descargá los formularios de inscripción y el reglamento de participación aquí ‍ Principales Atracciones Expositores Nacionales e Internacionales Oportunidades de Negocio e Inversión Shows y Entretenimiento Promociones y Descuentos dESCUBRÍ LAS Categorías Servicios y Emprendimientos Conocé iniciativas y servicios que impulsan la creatividad empresarial. Maquinaria y Equipos Industriales Descubrí soluciones en maquinaria y equipos que potencian la productividad industrial. Automotriz Explorá la innovación en vehículos y transporte que redefinen el sector automotriz. Consumo Masivo Conocé más del mercado de bienes que marcan tendencia en el consumo masivo. Agroindustria Encontrá prácticas y tecnología claves para optimizar el sector agropecuario. Desarrollo Inmobiliario Descubrí oportunidades en proyectos que están transformando el sector inmobiliario. Industria y Comercio Conocé las soluciones y productos que están revolucionando la industria y el comercio. Tecnologia e Innovación Descubrí las últimas tendencias que están transformando el mundo y los negocios. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
       "category": "feria",
       "subcategories": [
         "exposicion",
         "tecnologia"
       ],
-      "tags": [
-        "FEXPOCRUZ",
-        "Expocruz2026",
-        "RumboAExpocruz2026"
-      ],
+      "tags": [],
       "artists": [],
-      "starts_at": "2026-09-18T00:00:00-04:00",
+      "starts_at": "2026-09-18T17:00:00-04:00",
       "ends_at": "2026-09-27T23:59:00-04:00",
-      "starts_at_ms": 1789704000000,
+      "starts_at_ms": 1789765200000,
       "ends_at_ms": 1790567940000,
-      "date_confidence": "aproximada",
-      "date_source_text": "del 18 al 27 de septiembre",
-      "all_day": true,
+      "date_confidence": "exacta",
+      "date_source_text": "del 18 al 27 de septiembre de 2026",
+      "all_day": false,
       "multi_day": true,
       "doors_time": null,
-      "display_date": "Del 18 al 27 de septiembre",
+      "display_date": "Del 18 al 27 de septiembre · 17:00",
       "days_until": 35,
       "lifecycle": "proximo",
       "department": "Santa Cruz",
@@ -1342,45 +1588,34 @@
       "address": "calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos",
       "latitude": null,
       "longitude": null,
-      "location_query": "Fexpocruz, Santa Cruz de la Sierra, Santa Cruz, Bolivia",
+      "location_query": "Fexpocruz, calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos, Santa Cruz de la Sierra, Bolivia",
       "is_free": false,
-      "price_from": 30.0,
+      "price_from": null,
       "price_to": null,
-      "currency": "BOB",
-      "price_text": "la Fierro Precio de la entrada Menores: 30 Bs. (De 6 a 12 años) Menores de 6 años ing",
+      "currency": null,
+      "price_text": null,
       "ticket_urls": [],
-      "ticket_outlets": [
-        "Tu Entrada"
-      ],
+      "ticket_outlets": [],
       "phones": [
         "75385666"
       ],
       "status": "programado",
-      "relevance_score": 95,
-      "confidence": 0.94,
+      "relevance_score": 84,
+      "confidence": 0.81,
       "filter_reasons": [
         "fecha_futura",
+        "hora_explicita",
         "categoria_feria",
         "sede_detectada",
-        "informacion_de_entradas",
-        "lenguaje_de_convocatoria",
-        "tiene_afiche",
         "fuente_especializada"
       ],
-      "is_official": true,
-      "image_urls": [
-        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/774832392_2115829469815888_2360631038231201647_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s600x600&_nc_cat=100&ccb=1-7&_nc_sid=cae128&_nc_ohc=ttqFoBOCscgQ7kNvwHXy-I3&_nc_oc=AdrGaIC45QYFGhHTw2id3weL3eM-cF3UfDnZ_9ENSYUH51BeTJiNNKgjfILb9bNI23k&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=2b88p-CmfSFd-OKVkgYdoA&_nc_ss=7f289&oh=00_AQGDppj_JyUDWJnn8KJ0S3Uh4_CyUSz_kDTstN7JPgkzRw&oe=6A85330C",
-        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/774832392_2115829469815888_2360631038231201647_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ttqFoBOCscgQ7kNvwHXy-I3&_nc_oc=AdrGaIC45QYFGhHTw2id3weL3eM-cF3UfDnZ_9ENSYUH51BeTJiNNKgjfILb9bNI23k&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=-k4kwuY5r9imcv3n_UzL_Q&_nc_ss=7f289&oh=00_AQHmrc_t_ZGdKAKmpEZkx5gdGAIs9ktGOTujsmCw-tsufQ&oe=6A85330C",
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/773603585_2911976182471161_4174644833245893603_n.png?stp=dst-jpg_tt6&cstp=mx1350x1350&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5R_9FqeFQCMQ7kNvwHlMd6K&_nc_oc=AdqmFcPD7eEQHKMLXIWQvQVdJJMsx3OwABmtcOyidPfdlwVFYt8OirJWeHNs1412yXs&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=-k4kwuY5r9imcv3n_UzL_Q&_nc_ss=7f289&oh=00_AQHUHcDgkiU7ZZvxr412C-obpjHvqBTQr76RMaarzMuKZQ&oe=6A852740",
-        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/774777349_1029117253265515_7514284111333573993_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eyt5Pb6wyz4Q7kNvwFleMYU&_nc_oc=AdqYDGBkSpZWUX4GKFT68BwNDY3wmpZmxCdDPJBfk-Ij4HHHGXOv_gVKKwhJ909TllQ&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=-k4kwuY5r9imcv3n_UzL_Q&_nc_ss=7f289&oh=00_AQHXbvqHWSYlhpbj2u_L1gR-bStY_BiYiCB7Nrc5AmcVRA&oe=6A854535",
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/773981590_1042765708347774_602183269309060203_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=6YjrT41rz9gQ7kNvwEIaqyZ&_nc_oc=AdodA50fSZ6owmf_UJmVlyx3CLrHKEzsR_MqJZ9yxojMWo5deBlVVO8O3uz0vLidArQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=-k4kwuY5r9imcv3n_UzL_Q&_nc_ss=7f289&oh=00_AQE5AKcWg8IspsuRrHZpk_bOdslPfejzYEa0sewzEbxcWQ&oe=6A853D3E",
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/772818231_2047303375913183_4818329532779378381_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=c84WQ07IFe8Q7kNvwG8dEOF&_nc_oc=AdoZ-wU1cZdAfuDNbRsYEItE40n3yDLjie1FEMas5RJTfTKOrLDRufSD-BJcsqJjB3I&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=-k4kwuY5r9imcv3n_UzL_Q&_nc_ss=7f289&oh=00_AQGomBMFoQPvMFG3vk4gYjYSNviEPTExhWzqJ64wPMK_sg&oe=6A855384"
-      ],
+      "is_official": false,
+      "image_urls": [],
       "video_url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FFsK_G_WGdQA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFsK_G_WGdQA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FFsK_G_WGdQA%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
       "video_thumbnail_url": null,
-      "video_type": null,
-      "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/774832392_2115829469815888_2360631038231201647_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s600x600&_nc_cat=100&ccb=1-7&_nc_sid=cae128&_nc_ohc=ttqFoBOCscgQ7kNvwHXy-I3&_nc_oc=AdrGaIC45QYFGhHTw2id3weL3eM-cF3UfDnZ_9ENSYUH51BeTJiNNKgjfILb9bNI23k&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=2b88p-CmfSFd-OKVkgYdoA&_nc_ss=7f289&oh=00_AQGDppj_JyUDWJnn8KJ0S3Uh4_CyUSz_kDTstN7JPgkzRw&oe=6A85330C",
-      "has_image": true,
+      "video_type": "web_embed",
+      "image_url": null,
+      "has_image": false,
       "videos": [
         {
           "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FFsK_G_WGdQA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFsK_G_WGdQA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FFsK_G_WGdQA%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
@@ -1393,16 +1628,9 @@
       ],
       "has_video": true,
       "media": {
-        "images": [
-          "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/774832392_2115829469815888_2360631038231201647_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s600x600&_nc_cat=100&ccb=1-7&_nc_sid=cae128&_nc_ohc=ttqFoBOCscgQ7kNvwHXy-I3&_nc_oc=AdrGaIC45QYFGhHTw2id3weL3eM-cF3UfDnZ_9ENSYUH51BeTJiNNKgjfILb9bNI23k&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=2b88p-CmfSFd-OKVkgYdoA&_nc_ss=7f289&oh=00_AQGDppj_JyUDWJnn8KJ0S3Uh4_CyUSz_kDTstN7JPgkzRw&oe=6A85330C",
-          "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/774832392_2115829469815888_2360631038231201647_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ttqFoBOCscgQ7kNvwHXy-I3&_nc_oc=AdrGaIC45QYFGhHTw2id3weL3eM-cF3UfDnZ_9ENSYUH51BeTJiNNKgjfILb9bNI23k&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=-k4kwuY5r9imcv3n_UzL_Q&_nc_ss=7f289&oh=00_AQHmrc_t_ZGdKAKmpEZkx5gdGAIs9ktGOTujsmCw-tsufQ&oe=6A85330C",
-          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/773603585_2911976182471161_4174644833245893603_n.png?stp=dst-jpg_tt6&cstp=mx1350x1350&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5R_9FqeFQCMQ7kNvwHlMd6K&_nc_oc=AdqmFcPD7eEQHKMLXIWQvQVdJJMsx3OwABmtcOyidPfdlwVFYt8OirJWeHNs1412yXs&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=-k4kwuY5r9imcv3n_UzL_Q&_nc_ss=7f289&oh=00_AQHUHcDgkiU7ZZvxr412C-obpjHvqBTQr76RMaarzMuKZQ&oe=6A852740",
-          "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/774777349_1029117253265515_7514284111333573993_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eyt5Pb6wyz4Q7kNvwFleMYU&_nc_oc=AdqYDGBkSpZWUX4GKFT68BwNDY3wmpZmxCdDPJBfk-Ij4HHHGXOv_gVKKwhJ909TllQ&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=-k4kwuY5r9imcv3n_UzL_Q&_nc_ss=7f289&oh=00_AQHXbvqHWSYlhpbj2u_L1gR-bStY_BiYiCB7Nrc5AmcVRA&oe=6A854535",
-          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/773981590_1042765708347774_602183269309060203_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=6YjrT41rz9gQ7kNvwEIaqyZ&_nc_oc=AdodA50fSZ6owmf_UJmVlyx3CLrHKEzsR_MqJZ9yxojMWo5deBlVVO8O3uz0vLidArQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=-k4kwuY5r9imcv3n_UzL_Q&_nc_ss=7f289&oh=00_AQE5AKcWg8IspsuRrHZpk_bOdslPfejzYEa0sewzEbxcWQ&oe=6A853D3E",
-          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/772818231_2047303375913183_4818329532779378381_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=c84WQ07IFe8Q7kNvwG8dEOF&_nc_oc=AdoZ-wU1cZdAfuDNbRsYEItE40n3yDLjie1FEMas5RJTfTKOrLDRufSD-BJcsqJjB3I&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=-k4kwuY5r9imcv3n_UzL_Q&_nc_ss=7f289&oh=00_AQGomBMFoQPvMFG3vk4gYjYSNviEPTExhWzqJ64wPMK_sg&oe=6A855384"
-        ],
-        "main_image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/774832392_2115829469815888_2360631038231201647_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s600x600&_nc_cat=100&ccb=1-7&_nc_sid=cae128&_nc_ohc=ttqFoBOCscgQ7kNvwHXy-I3&_nc_oc=AdrGaIC45QYFGhHTw2id3weL3eM-cF3UfDnZ_9ENSYUH51BeTJiNNKgjfILb9bNI23k&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=2b88p-CmfSFd-OKVkgYdoA&_nc_ss=7f289&oh=00_AQGDppj_JyUDWJnn8KJ0S3Uh4_CyUSz_kDTstN7JPgkzRw&oe=6A85330C",
-        "image_count": 6,
+        "images": [],
+        "main_image_url": null,
+        "image_count": 0,
         "videos": [
           {
             "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FFsK_G_WGdQA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFsK_G_WGdQA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FFsK_G_WGdQA%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
@@ -1416,16 +1644,6 @@
       },
       "sources": [
         {
-          "id": "fb_fexpocruz",
-          "name": "Fexpocruz",
-          "class": "venue",
-          "tier": 1,
-          "page_url": "https://www.facebook.com/Fexpocruz/",
-          "post_url": "https://www.facebook.com/Fexpocruz/posts/pfbid02QY54d29fUMn5eQYauqLGL1wQ9s8bQEFibuXoAdkx9J4RRs6Nc3n49GWPHciQYfW4l?__cft__[0]=AZbx0McBIVaVTmm7r3Vq56CzZ55rY2M0PIhs0shAY69ESHNHbYZk5k6ONv0srMhgSV2duwCql8-iVOIYgRMU6xpu6bTz3tKm51qrO3NtfuALQgaydy3sf5BcbGu6ln4QVKOic8dQHqZUtbRhh7bGIpmwNIEBpDYfvQ5PEosWlsnEaN3qrNbAT2NKIqd03ikjOBo&__tn__=%2CO%2CP-R",
-          "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=D17KWu_1NBoQ7kNvwFQAvCc&_nc_oc=Adr5ijisuTW1Sfl097cRzDF4kP1ARU6fs8ng2p1Ah27kHR_GdO6mKcuLkw3UwHGMzFU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=8zEY5QsfVDCwOPrjo1fWUg&_nc_ss=7f289&oh=00_AQFSEidpLul7Q6ZLrctLboHW53i--q2X2lEZCpWc2MP1gw&oe=6A854F90",
-          "published_at": "Puede ser una imagen de texto que dice \"DÍAS ESPECIALES nexpocrи expocruz, 2026 18 AL 18AL27 27 DE SEP\""
-        },
-        {
           "id": "web_fexpocruz",
           "name": "Fexpocruz",
           "class": "venue",
@@ -1438,12 +1656,11 @@
       ],
       "source_count": 2,
       "all_urls": [
-        "https://www.facebook.com/Fexpocruz/posts/pfbid02QY54d29fUMn5eQYauqLGL1wQ9s8bQEFibuXoAdkx9J4RRs6Nc3n49GWPHciQYfW4l?__cft__[0]=AZbx0McBIVaVTmm7r3Vq56CzZ55rY2M0PIhs0shAY69ESHNHbYZk5k6ONv0srMhgSV2duwCql8-iVOIYgRMU6xpu6bTz3tKm51qrO3NtfuALQgaydy3sf5BcbGu6ln4QVKOic8dQHqZUtbRhh7bGIpmwNIEBpDYfvQ5PEosWlsnEaN3qrNbAT2NKIqd03ikjOBo&__tn__=%2CO%2CP-R",
         "https://www.fexpocruz.com.bo/feria/https-www-fexpocruz-com-bo-expocruz-2026"
       ],
-      "corroborated": true,
-      "verification": "oficial_y_especializada",
-      "merged_count": 2,
+      "corroborated": false,
+      "verification": "una_fuente",
+      "merged_count": 1,
       "event_id": "evt_b241df7de02d67",
       "first_seen_at": "2026-08-14T09:46:28-04:00",
       "history": [
@@ -1467,19 +1684,31 @@
           "changes": [
             "precio_cambiado"
           ]
+        },
+        {
+          "at": "2026-08-14T17:51:25-04:00",
+          "reason": "actualizacion",
+          "status": "programado",
+          "lifecycle": "proximo",
+          "starts_at": "2026-09-18T17:00:00-04:00",
+          "price_from": null,
+          "source_count": 1,
+          "changes": [
+            "precio_cambiado"
+          ]
         }
       ],
       "changed_this_run": [
         "precio_cambiado"
       ],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
-      "history_count": 2,
+      "history_count": 3,
       "is_upcoming": true,
       "category_label": "Ferias y expos",
       "lifecycle_label": "Próximos",
-      "price_label": "Bs 30"
+      "price_label": null
     },
     {
       "id": "c4b3352c66958a45",
@@ -1629,7 +1858,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/expoauto",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto Del 3 al 7 de marzo de 2027 De 17:00 a 23:30…",
       "description": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto 🗓 Del 3 al 7 de marzo de 2027 ⏰ De 17:00 a 23:30 📍 FEXPOCRUZ Del 3 al 7 de marzo las principales concesionarias del país estarán exhibiendo lo mejor de la industria automotriz a 35 mil visitantes. Son nueve pabellones y áreas externas que van a exhibir modelos de todas las gamas además de maquinaria pesada, accesorios y repuestos automotrices. Habrá una importante presencia de diferentes entidades bancarias, que ofertarán créditos especiales para esta exhibición. El visitante encontrará el vehículo que desee, adecuado a sus requerimientos. El apoyo de la Cámara Automotor Boliviana permite que año a año Santa Cruz se convierta en el centro del sector automotriz del país. Principales Atracciones Tendencias del Sector Automotriz Encuentro de Negocios Lanzamiento de Nuevos Vehículos Promociones y Descuentos dESCUBRÍ LAS Categorías Sistemas de Seguridad Conocé los últimos sistemas de seguridad para proteger y optimizar tu experiencia automotriz. Servicios Técnicos Accedé a servicios técnicos especializados que garantizan el mejor rendimiento para tu automóvil. Lubricantes y Combustibles Descubrí productos de calidad para el cuidado y rendimiento óptimo de tus vehículos. Motocicletas y UTVs Descubrí motocicletas y UTVs innovadores que ofrecen rendimiento y aventura. Herramientas y Accesorios Encontrá herramientas y accesorios esenciales para el mantenimiento y personalización de vehículos. Vehículos Pesados y Livianos Explorá la variedad de vehículos pesados y livianos diseñados para satisfacer tus necesidades. Industria y Maquinaria Conocé las soluciones y productos que están revolucionando la industria y el comercio. Asociaciones Automotrices Conectate con asociaciones clave del sector y fortalecé tu red en la industria automotriz. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sob",
       "original_text": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto 🗓 Del 3 al 7 de marzo de 2027 ⏰ De 17:00 a 23:30 📍 FEXPOCRUZ Del 3 al 7 de marzo las principales concesionarias del país estarán exhibiendo lo mejor de la industria automotriz a 35 mil visitantes. Son nueve pabellones y áreas externas que van a exhibir modelos de todas las gamas además de maquinaria pesada, accesorios y repuestos automotrices. Habrá una importante presencia de diferentes entidades bancarias, que ofertarán créditos especiales para esta exhibición. El visitante encontrará el vehículo que desee, adecuado a sus requerimientos. El apoyo de la Cámara Automotor Boliviana permite que año a año Santa Cruz se convierta en el centro del sector automotriz del país. Principales Atracciones Tendencias del Sector Automotriz Encuentro de Negocios Lanzamiento de Nuevos Vehículos Promociones y Descuentos dESCUBRÍ LAS Categorías Sistemas de Seguridad Conocé los últimos sistemas de seguridad para proteger y optimizar tu experiencia automotriz. Servicios Técnicos Accedé a servicios técnicos especializados que garantizan el mejor rendimiento para tu automóvil. Lubricantes y Combustibles Descubrí productos de calidad para el cuidado y rendimiento óptimo de tus vehículos. Motocicletas y UTVs Descubrí motocicletas y UTVs innovadores que ofrecen rendimiento y aventura. Herramientas y Accesorios Encontrá herramientas y accesorios esenciales para el mantenimiento y personalización de vehículos. Vehículos Pesados y Livianos Explorá la variedad de vehículos pesados y livianos diseñados para satisfacer tus necesidades. Industria y Maquinaria Conocé las soluciones y productos que están revolucionando la industria y el comercio. Asociaciones Automotrices Conectate con asociaciones clave del sector y fortalecé tu red en la industria automotriz. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -1745,8 +1974,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -1765,7 +1994,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/ficad",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad Del 17 al 21 de marzo de 2027 De…",
       "description": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad 🗓 Del 17 al 21 de marzo de 2027 ⏰ De 17:00 a 23:00 📍 FEXPOCRUZ ‍ Ficad reúne en un solo lugar a empresas constructoras, de arquitectura, diseño y mucho más. Este es el espacio para personas que desean construir y remodelar su hogar y para profesionales del rubro que buscan innovadores productos y servicios de primer nivel. En el marco de este evento se llevan a cabo seminarios, foros y simposios referentes al sector. Todos los visitantes de esta feria pueden participar de estas actividades y aprovechar los grandes descuentos. Principales Atracciones Novedades y Tendencias Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Encuentro de Negocios Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Talleres y capacitaciones Mejora tus habilidades con talleres y sesiones educativas clave. Promociones y Descuentos Aprovecha promociones exclusivas y ofertas especiales durante la feria. dESCUBRÍ LAS Categorías Decoración y Paisajismo Inspírate con ideas innovadoras para decorar y transformar espacios interiores y exteriores. Equipamiento para el Hogar Todo lo que necesitás para modernizar y equipar tu hogar con lo último en tecnología y confort. Diseño de Interiores Transformá cualquier espacio con soluciones creativas de diseño interior. Acabados Arquitectónicos Detalles que realzan la estética y la calidad de cualquier proyecto arquitectónico. Sistemas de Iluminación Iluminá tus proyectos con sistemas que combinan eficiencia y estilo. Revestimientos Soluciones en revestimientos que combinan estilo, durabilidad y funcionalidad. Automatización Controlá tu hogar con sistemas de automatización que simplifican tu vida diaria. Materiales e Insumos Materiales de construcción de alta calidad para proyectos duraderos y eficientes. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoa",
       "original_text": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad 🗓 Del 17 al 21 de marzo de 2027 ⏰ De 17:00 a 23:00 📍 FEXPOCRUZ ‍ Ficad reúne en un solo lugar a empresas constructoras, de arquitectura, diseño y mucho más. Este es el espacio para personas que desean construir y remodelar su hogar y para profesionales del rubro que buscan innovadores productos y servicios de primer nivel. En el marco de este evento se llevan a cabo seminarios, foros y simposios referentes al sector. Todos los visitantes de esta feria pueden participar de estas actividades y aprovechar los grandes descuentos. Principales Atracciones Novedades y Tendencias Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Encuentro de Negocios Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Talleres y capacitaciones Mejora tus habilidades con talleres y sesiones educativas clave. Promociones y Descuentos Aprovecha promociones exclusivas y ofertas especiales durante la feria. dESCUBRÍ LAS Categorías Decoración y Paisajismo Inspírate con ideas innovadoras para decorar y transformar espacios interiores y exteriores. Equipamiento para el Hogar Todo lo que necesitás para modernizar y equipar tu hogar con lo último en tecnología y confort. Diseño de Interiores Transformá cualquier espacio con soluciones creativas de diseño interior. Acabados Arquitectónicos Detalles que realzan la estética y la calidad de cualquier proyecto arquitectónico. Sistemas de Iluminación Iluminá tus proyectos con sistemas que combinan eficiencia y estilo. Revestimientos Soluciones en revestimientos que combinan estilo, durabilidad y funcionalidad. Automatización Controlá tu hogar con sistemas de automatización que simplifican tu vida diaria. Materiales e Insumos Materiales de construcción de alta calidad para proyectos duraderos y eficientes. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -1864,8 +2093,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -1884,7 +2113,7 @@
       "url": "https://superticket.bo/LIVE-SOUND-ROCK-FESTIVAL/",
       "facebook_event_url": null,
       "published_at": "2027-04-24T16:00:00-04:00",
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "Live Sound Rock Festival",
       "description": "Live Sound Rock Festival\n2027-04-24T16:00:00-04:00\n2027-04-24\nCancha Tenis Real Santa Cruz\nAvenida San Aurelio y 3er Anillo Externo, Santa Cruz de la Sierra, Bolivia.\nBs None\n&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_t&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIAxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;QUIET RIOT POR PRIMERA VEZ EN BOLIVIA&lt;/span&gt;&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_y&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La banda responsable de himnos inmortales como Metal Health (Bang Your Head), Cum On Feel The Noize y Mama Weer All Crazee Now llegará al país en el marco de su esperado Metal Health Latin American Tour 2027 para ser parte del Festival LIVE SOUND ROCK FEST&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_13&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weigh",
       "original_text": "Live Sound Rock Festival\n2027-04-24T16:00:00-04:00\n2027-04-24\nCancha Tenis Real Santa Cruz\nAvenida San Aurelio y 3er Anillo Externo, Santa Cruz de la Sierra, Bolivia.\nBs None\n&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_t&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIAxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;QUIET RIOT POR PRIMERA VEZ EN BOLIVIA&lt;/span&gt;&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_y&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La banda responsable de himnos inmortales como Metal Health (Bang Your Head), Cum On Feel The Noize y Mama Weer All Crazee Now llegará al país en el marco de su esperado Metal Health Latin American Tour 2027 para ser parte del Festival LIVE SOUND ROCK FEST&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_13&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La formación actual reúne a Rudy Sarzo, Jizzy Pearl, Alex Grossi y Johnny Kelly, manteniendo vivo el legado de una de las bandas más importantes de la historia del Hard Rock y el Heavy Metal.&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_18&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBhAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;El festival LIVE SOUND ROCK FEST 2027 se realizará los días Sabado 24 y Domingo 25 de Abril en las ex-Canchas de Tenis de Real Santa Cruz reuniendo a las bandas nacionales más importantes del género, teniendo como invitado especial y cabeza de cartel la presencia de QUIET RIOT.&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1d&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;24 y 25 de Abril de 2027&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1i&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;Festival Live Sound Rock Fest - Ex- Canchas de Tenis Real Santa Cruz (Avenida San Aurelio y Tercer Anillo Interno)&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1n&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;VENTA DE ENTRADAS EN: https://superticket.bo/LIVE-SOUND-ROCK-FESTIVAL A PARTIR DEL MIERCOLES 17 DE JUNIO&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1s&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIChAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;QUIET RIOT EN BOLIVIA&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1x&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(2",
@@ -1991,8 +2220,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -2011,7 +2240,7 @@
       "url": "https://www.fexpocruz.com.bo/ferias",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "Nuestras Ferias | Fexpocruz",
       "description": "EN Conocé Nuestras Ferias No items found. Agropecruz Abril de 2027 Conocé más Expoleche Abril de 2027 ExpoPet Abril de 2027 Expoagro Mayo de 2027 Conocé más Specialty Coffee Expo 1 al 4 de Julio de 2027 Conocé más Exporunning 16 al 18 de Julio de 2026 Expocruz 2026 18 al 27 de septiembre de 2026 Conocé más Expoauto 3 al 7 de Marzo de 2027 Conocé más Ficad 17 al 21 de Marzo de 2027 Conocé más Expoforest 17 al 21 de Marzo de 2027 Ferias Asociadas Feria del Libro Junio de 2027 Expo Bebé & Kids Mayo de 2027 Finergy Mayo de 2027 Expologistica Junio de 2027 42K 19 de Julio de 2026 Feria Minera 29 al 31 de Julio Outlet de Viajes 31 de julio al 2 de agosto de 2026 ExpoTeleinfo 2 al 4 de septiembre de 2026 Expo Bebé & Kids (Oct) 4 al 5 de Octubre Seminario Alimenta 22 y 23 de Octubre Street Project Noviembre de 2026 Expográfica 13 al 15 de Noviembre de 2026 Bolivia Textil 13 al 15 de Noviembre de 2026 NOTA: Las fechas de las ferias están sujetas a modificaciones sin previo aviso. FEXPOCRUZ no forma parte de la relación de consumo que surja entre el visitante y expositor de la feria, al no ser dueño ni responsable de los productos y/o servicios ofertados, deslindándose de cualquier negociación que éstos mantengan. Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
       "original_text": "EN Conocé Nuestras Ferias No items found. Agropecruz Abril de 2027 Conocé más Expoleche Abril de 2027 ExpoPet Abril de 2027 Expoagro Mayo de 2027 Conocé más Specialty Coffee Expo 1 al 4 de Julio de 2027 Conocé más Exporunning 16 al 18 de Julio de 2026 Expocruz 2026 18 al 27 de septiembre de 2026 Conocé más Expoauto 3 al 7 de Marzo de 2027 Conocé más Ficad 17 al 21 de Marzo de 2027 Conocé más Expoforest 17 al 21 de Marzo de 2027 Ferias Asociadas Feria del Libro Junio de 2027 Expo Bebé & Kids Mayo de 2027 Finergy Mayo de 2027 Expologistica Junio de 2027 42K 19 de Julio de 2026 Feria Minera 29 al 31 de Julio Outlet de Viajes 31 de julio al 2 de agosto de 2026 ExpoTeleinfo 2 al 4 de septiembre de 2026 Expo Bebé & Kids (Oct) 4 al 5 de Octubre Seminario Alimenta 22 y 23 de Octubre Street Project Noviembre de 2026 Expográfica 13 al 15 de Noviembre de 2026 Bolivia Textil 13 al 15 de Noviembre de 2026 NOTA: Las fechas de las ferias están sujetas a modificaciones sin previo aviso. FEXPOCRUZ no forma parte de la relación de consumo que surja entre el visitante y expositor de la feria, al no ser dueño ni responsable de los productos y/o servicios ofertados, deslindándose de cualquier negociación que éstos mantengan. Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -2109,8 +2338,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -2129,7 +2358,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/specialty-coffee-expo",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "Specialty Coffee Expo",
       "description": "EN Specialty Coffee Expo Bolivia Inicio Ferias Specialty Coffee Expo Sobre Specialty Coffee Expo 🗓️ Del 1 al 4 de julio de 2027 ⏰ HORARIOS: Jueves y viernes: 17:00 A 23:00 HRS. Sábado y domingo: 15:30 A 23:00 HRS 📍 FEXPOCRUZ, Pabellones USA y Brasil Specialty Coffee Expo Bolivia, organizada junto a Bolivian Coffee Alliance, es el punto de encuentro del café de especialidad. Una feria donde productores, marcas, baristas, emprendedores, expertos y amantes del café se reúnen a través de degustaciones, workshops con expertos nacionales e internacionales, demostraciones, catas de café y competencias. Cuatro días para compartir tu pasión por el café con amigos y familia. ‍ Principales Atracciones Activaciones de Marcas Campeonatos Nacionales Capacitaciones y Conferencias Catas de Café Públicas dESCUBRÍ LAS Categorías Objetos de Colección Indumentaria y Accesorios Maquinarias profesionales para cafeterías Productores de café de especialidad Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
       "original_text": "EN Specialty Coffee Expo Bolivia Inicio Ferias Specialty Coffee Expo Sobre Specialty Coffee Expo 🗓️ Del 1 al 4 de julio de 2027 ⏰ HORARIOS: Jueves y viernes: 17:00 A 23:00 HRS. Sábado y domingo: 15:30 A 23:00 HRS 📍 FEXPOCRUZ, Pabellones USA y Brasil Specialty Coffee Expo Bolivia, organizada junto a Bolivian Coffee Alliance, es el punto de encuentro del café de especialidad. Una feria donde productores, marcas, baristas, emprendedores, expertos y amantes del café se reúnen a través de degustaciones, workshops con expertos nacionales e internacionales, demostraciones, catas de café y competencias. Cuatro días para compartir tu pasión por el café con amigos y familia. ‍ Principales Atracciones Activaciones de Marcas Campeonatos Nacionales Capacitaciones y Conferencias Catas de Café Públicas dESCUBRÍ LAS Categorías Objetos de Colección Indumentaria y Accesorios Maquinarias profesionales para cafeterías Productores de café de especialidad Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -2226,8 +2455,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -2246,7 +2475,7 @@
       "url": "https://lapaz.bo/eventos-culturales/",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-14T15:17:40-04:00",
+      "scraped_at": "2026-08-14T17:51:25-04:00",
       "title": "Eventos culturales – GOBIERNO AUTÓNOMO MUNICIPAL DE LA PAZ",
       "description": "Portal de Eventos Culturales de la ciudad de La Paz Descubre y explora los eventos culturales de nuestra ciudad Eventos - Calendario Portal de Eventos Culturales Filtrar Eventos Tipo de Función: Todas las funciones VERMOUTH TANDA ENSAYO Auditorio: Todos los auditorios CINE TEATRO MUNICIPAL 6 DE AGOSTO TEATRO MUNICIPAL MODESTA SANJINÉS TEATRO MUNICIPAL ALBERTO SAAVEDRA PÉREZ TEATRO DE CAMARA NORMA MERLO Aplicar Filtros Limpiar Filtros Información de Depuración URL de la API: https://sierra247.lapaz.bo/SierraValle_Oficial/public/api/espacios-culturales-portal-eventos/1/2025/9 Problemas comunes: La API puede no estar disponible Problemas de CORS (Cross-Origin Resource Sharing) Formato de respuesta inesperado La IP 192.168.8.5 es una dirección local, asegúrate de estar en la red correcta Para probar la aplicación, hemos incluido datos de ejemplo. Cargando eventos...",
       "original_text": "Portal de Eventos Culturales de la ciudad de La Paz Descubre y explora los eventos culturales de nuestra ciudad Eventos - Calendario Portal de Eventos Culturales Filtrar Eventos Tipo de Función: Todas las funciones VERMOUTH TANDA ENSAYO Auditorio: Todos los auditorios CINE TEATRO MUNICIPAL 6 DE AGOSTO TEATRO MUNICIPAL MODESTA SANJINÉS TEATRO MUNICIPAL ALBERTO SAAVEDRA PÉREZ TEATRO DE CAMARA NORMA MERLO Aplicar Filtros Limpiar Filtros Información de Depuración URL de la API: https://sierra247.lapaz.bo/SierraValle_Oficial/public/api/espacios-culturales-portal-eventos/1/2025/9 Problemas comunes: La API puede no estar disponible Problemas de CORS (Cross-Origin Resource Sharing) Formato de respuesta inesperado La IP 192.168.8.5 es una dirección local, asegúrate de estar en la red correcta Para probar la aplicación, hemos incluido datos de ejemplo. Cargando eventos...",
@@ -2339,8 +2568,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-14T15:17:40-04:00",
-      "last_confirmed_at": "2026-08-14T15:17:40-04:00",
+      "last_seen_at": "2026-08-14T17:51:25-04:00",
+      "last_confirmed_at": "2026-08-14T17:51:25-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -2359,22 +2588,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lHvg36DW85sQ7kNvwEL-F_l&_nc_oc=Adq2DCfZaCPIj9Dtck4xrws9mV0eP6IJKx14JFpByD_vcSlDjdYlkGQj3xHw3Ly6tL0&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=-ENWFLOmErGY0kIG8gRfeQ&_nc_ss=7f289&oh=00_AQH-_MBHrSn2D-bsykWVC_Ym75qe2n6yYmC7M8ukLIkhlw&oe=6A852D9A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/3130277133828969/?__cft__[0]=AZYNWACzd1m-jZXJPcdrV1eObQy1HvDglLW9KqvyHsYbSbg-2ApPQfWiDLMD6QBY42GluoG5LHkOlxvqhggeRgaqpBjTM7cQJMiG7tobkVE2QqJKfuQzp-4Qnv3ZnwswscIO46NI_WNRVE8gziyYRTgVtelvEuR8JxSLD4mhyK93maQkalTkuo9YhkJrVnVvhW6OA1ECJQK83gssQpC4KvHB&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡ES HOY! TRES NOCHES PARA REÍR SIN PARAR EN LA PAZ La… Ver más ¡ES HOY! TRES NOCHES PARA REÍR SIN PARAR EN LA PAZ La… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -2385,22 +2605,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hMY0bRvfeRkQ7kNvwH4ekdV&_nc_oc=AdroMMVUmwKeww7ARTsAxP8gpXYnnfNem1n5RbDYfUSIAGsrzsCrXlYbNyOgRzH7o98&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=_qAmgVp_LPo9_s1JNr9OzA&_nc_ss=7f289&oh=00_AQEtYVl-N1BNhAVszQ0HTT-rj5eKmL6GQ2DDLSg6BKJwrQ&oe=6A855775",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 36,
-          "category": "concierto",
-          "url": "https://www.facebook.com/reel/1786302952561721/?__cft__[0]=AZaALEJ7y9dkUJCT3qHvHqgXGDSF-0gVDmGbaewP1smem7wb8o1uo0-9m3JvMlLyVDJfaxAihWEQBGiRWTlSX6n81vJyjXESWaBBqNuBXbmMp-RZqo4yW8nRrP4y2UfzV5jMu0ZZzykV-Ked0Ua20HI1oIWkzB_5Z7pv7phFqcwqEja3RF5CobKqpuQYuJeMnmeQ6lYPlLQO1qBp2p3QBmdK&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Falta muy poco para disfrutar de tu infiel favorito en concierto!🌴☀️ Por primera vez en Bolivia 🇧🇴 Beéle Adquiere tus entradas en pre venta antes de que se agoten! 🇧🇴 Unica fecha en el país 🇧🇴... ¡Falta muy poco para disfrutar de tu infiel favorito en concierto!🌴☀️ Por primera vez en Bolivia 🇧🇴 Beéle Adquiere tus entradas en pre venta antes de..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -2411,22 +2622,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mDVLp_luFOoQ7kNvwFJkV2e&_nc_oc=Adp3263dE9Jgp4VvjCGeAVqTIBYk4fYC_l3bpUozg8bP3yk6_kKQSJRUqM9xfhJdWMI&_nc_zt=24&_nc_ht=scontent-fra5-1.xx&_nc_gid=Iw4rPpKIKVHPYBhWRMyEAg&_nc_ss=7f289&oh=00_AQHAoUJaRpx1_t0uVdpMb6tt6dfW-ZxjS-osrtR4Vi3mgA&oe=6A854736",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid023rHh8WdcQD6ttudcMwdTzZjxg4yDPdVf7gfsj588s7jF4S5YgFXkmtRPsiW2PPYNl?__cft__[0]=AZb4K-azfkfYyHB69buMc8gN_CcOICFIMirlxgSt4Hp2MOKzus2SdcMy0LO-c0DczLAGLDn2DdqBE8UJscJNctA6TqH6CvHe8QmGQppi914jj0m9afJ2-vhC9NXix4MBsIKeitOfFJOucg7_pmseT-P1d03tx5hYAb0xWz3dVYBmJipA6_MFfjX5rxPhED2CQIQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -2437,22 +2639,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Pz1VtXVQyn8Q7kNvwHpkEuT&_nc_oc=AdqLl-yNgBH2PVeHbMlYR8HbchNglM6p8QhRyYR-EDuT55DZHL-gvNSbWmSpJ--h0UU&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=jZf5YvZdW7qAnfaH51NDOg&_nc_ss=7f289&oh=00_AQHg5-rID_KmUr2tkKRF5kga4mT6jBhRm9RNIgTWWVzL9w&oe=6A8527C3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028emtiYr1aw1zPJJEVV9aaV8d8UWB7RhRpCRNe3wFD7rHaKRfQxgCRRHPDWQ3diw4l?__cft__[0]=AZbMwvpoKt1y1TU3A64vYt6Qg2Db3mZTdZNTwtxSJqr3Z3bauaa9cDjw-0v92T3Sz4jviOLX0eefTbWy1Sg2MoMkFILuY0vPWswsHefQ4u_c23AwlhF3yqqzEBVE8rhgL-G0t2UTMY_grDBPj58MOqW445Cvoes1TTSEW_zW5PtgPGkrFPeTvTRMbBtUlas9S0M&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -2463,30 +2656,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=D17KWu_1NBoQ7kNvwFQAvCc&_nc_oc=Adr5ijisuTW1Sfl097cRzDF4kP1ARU6fs8ng2p1Ah27kHR_GdO6mKcuLkw3UwHGMzFU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=8zEY5QsfVDCwOPrjo1fWUg&_nc_ss=7f289&oh=00_AQFSEidpLul7Q6ZLrctLboHW53i--q2X2lEZCpWc2MP1gw&oe=6A854F90",
-      "status": "ok",
-      "raw_items": 3,
-      "events": 1,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/Fexpocruz/posts/pfbid02QY54d29fUMn5eQYauqLGL1wQ9s8bQEFibuXoAdkx9J4RRs6Nc3n49GWPHciQYfW4l?comment_id=1186412493939000&__cft__[0]=AZbx0McBIVaVTmm7r3Vq56CzZ55rY2M0PIhs0shAY69ESHNHbYZk5k6ONv0srMhgSV2duwCql8-iVOIYgRMU6xpu6bTz3tKm51qrO3NtfuALQgaydy3sf5BcbGu6ln4QVKOic8dQHqZUtbRhh7bGIpmwNIEBpDYfvQ5PEosWlsnEaN3qrNbAT2NKIqd03ikjOBo&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Y como se hace para inscribir a mi mascota de raza para su competencia que cada año hacen ? No recuerdo bien Edson Alexander Totola Vargas Y como se hace para inscribir a mi mascota de raza para su competencia que cada año hacen ? No recuerdo bien"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/Fexpocruz/posts/pfbid02QY54d29fUMn5eQYauqLGL1wQ9s8bQEFibuXoAdkx9J4RRs6Nc3n49GWPHciQYfW4l?comment_id=1186412493939000&reply_comment_id=2345952726217008&__cft__[0]=AZbx0McBIVaVTmm7r3Vq56CzZ55rY2M0PIhs0shAY69ESHNHbYZk5k6ONv0srMhgSV2duwCql8-iVOIYgRMU6xpu6bTz3tKm51qrO3NtfuALQgaydy3sf5BcbGu6ln4QVKOic8dQHqZUtbRhh7bGIpmwNIEBpDYfvQ5PEosWlsnEaN3qrNbAT2NKIqd03ikjOBo&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Hola! Edson Alexander Totola Vargas La actividad canina es organizada por Kennel Club Boliviano"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -2498,12 +2674,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Teatro al Aire Libre Jaime Laredo La Paz-Bolivia Performance Art Theatre · Página no oficial\\ufeff Más Inicio Información Información Ver todo Cancha Zapata Ciudad La P'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_lapaz",
@@ -2514,22 +2690,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gFqEsIf0zeYQ7kNvwFXzq-G&_nc_oc=Adr-quNChZN5AjsQvkrYXV6047YU41SurMB14YmT56pHmh8qho1MQ5FWXsGdKC9CM2c&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=3oj849cbCS8N7cGMuVkykg&_nc_ss=7f289&oh=00_AQFP6st6v3LNvmBroV0sAENraqDowTrHs3pk7gWsIG-trg&oe=6A853B85",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1747248579492438/?__cft__[0]=AZavrJluemoK-ldpCaFSaERPZwvD9O-0ul6XrqxyOyTdFEnjqae54U7B3Ar4Imippq3_Edhhuh69N2_Er86FYpyd93omxbYQv_Wh4xchsVAahBMnXzPRy_-gKa3dhJjDhf6IhJgC2-iKj6_G9P8shOkihpwf9513fN_ZHdaKTERFuEMKMj1bF4SLqoFzMIa482MzKB9bAWJt-XJlbp6wIccR&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Pese a la predisposición de los trabajadores para salir a realizar la limpieza, la empresa instruyó continuar con las medidas de presión.… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_amun_lapaz",
@@ -2540,22 +2707,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZmLiwqA4VrgQ7kNvwHOFpQ7&_nc_oc=AdpgIkn4R8oLfrDmOS1EMPYoJT2_H3RlPcLy2JsIwEzPu9wKHDoeXA2E9-qLqJcJu9E&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=GsNsPN3jXmK6BjeBdkV5Uw&_nc_ss=7f289&oh=00_AQFNWv8cS14hQDM2MH25Oh98xQxeugDERwwtpap9JLyxvA&oe=6A854DF7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0cScBZiEnyxWivcMePhpXe7XKjcKS6pPJ1QZ3oiAHhBRQ1bEbBvKF25R2psiy1RPPl?__cft__[0]=AZawDj59lzOUrIHPxjtzmufCD-z9miLJjK-qvgynzgLp8uj_8qah_5ZSa4SLkM2pp8aiNMBCTH12vIumCGLdWygQkAhbmUquKYnjgAujGrb32B-qukOulWB34JvBEBAezGGbfW1s-tDa2fdvL2pbI-dvwyVt7akCWVbdGSLQ605TZPMTfJBUTmnJLcolslZhnQI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#AMUN | La Paz Limpia se niega al recojo de basura y equipos municipales asumen la tarea para proteger la salud pública… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -2566,22 +2724,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NPnm437uyf4Q7kNvwGNmvc8&_nc_oc=AdpmHNN4sf6eEqIOEHjXGFOf-NwmTA5Y3DYg3O42UpIcIwWftgIIGTkQidsv53AYykA&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=Du-evcPsFd-2rQYrdV0yCQ&_nc_ss=7f289&oh=00_AQFBw3UsU8eZtBWyDsZRrSM1gfX7VR-LK_tYroKhW5VwfQ&oe=6A853400",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid0WSZA13YA7EMXjaLAoFTR4iqYFZYq6MJSdwAxYHFGNBGspAKfCGy7eUXe1qiNaBzTl?__cft__[0]=AZYXyHQbJ99nuU4aMVWX7Y1Iw0cziUfBeDFO6b6-9Q9Duf626fsoUgWIL_CP_IakK8qipY87hmH0HAW12e1LrxHefdw7EG6DmV6-pTw-co4bTzktbVXWZQEc8KWNuzB8wRHEBRoWpm77dzGh5ByO_Spa_Dtqf0CnHULhZIeQmXPKxX5wo42hlL2W-NlShkM7leU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Alcaldía de El Alto entrega leyes municipales que legalizan el trabajo de 3 asociaciones Kantuta, Multiactiva y El Dorado, con el objetivo de impulsar el desarrollo d… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -2592,30 +2741,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=h-hqdnRCnfYQ7kNvwGaC446&_nc_oc=AdpdewOqRDq6AeNVCgtCxu772Qfmnb3aEDI8L41YeAdBGxV7EcPVZjpEG3ZUV9o1EH0&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=QmkhC5wWi0EDnlI5T92tPw&_nc_ss=7f289&oh=00_AQGYg5pCpjkz2SO3r1W5RhcZN0VbT87R6MeWsxeBGKMpKw&oe=6A852078",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobernaciondelapaz/posts/1502232891932109:3129833457407534?__cft__[0]=AZZ9WSGDemHE1yifFKjE2cwBkTRZDWcTaYtpyrH46bQPMnGrlw5yr-piNtEwOGwZSMnhU7_4A3neAKO41gr393vindEFTv3CjzYayOSYDFgqTfonirk_CfNeyhEY8vrhufvqBCBUma9dhUBDngU0iS15UcvZA3-nSRZIp16yLA2q176YdvTCTtOBidvRHIknYEwLEntPeQk2Zn75nK3fh9K4&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "sigan practicando Ver más comentarios Williams Rodolfo C. Cruz"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobernaciondelapaz/",
-          "has_image": false,
-          "text_preview": "sigan practicando Williams Rodolfo C. Cruz"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gam_cbba",
@@ -2627,12 +2759,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_cbba",
@@ -2643,22 +2775,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WluLECF7A4sQ7kNvwEyVqqV&_nc_oc=AdrTQ2TOgzyQRQyuWB8r9o2Utupfgu91UU_tL8R8M6nuR_52bPwh9R5uThkKbqPglR8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1SGghmDTE60Qd4I5nugHHg&_nc_ss=7f289&oh=00_AQHnS3__3_9whKpGgwst_YFMicqvBaEJYqRMAI9d0rYSwA&oe=6A8552D7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid022sPagvR2isnF5ov9KWBxXUh3VmQk75r9gzTSc22d4RCpf158JKtAEaqnLznccGXyl?__cft__[0]=AZYCHs7p7ff_FBAmlAxbPhJhwoTK7fP_ulc7nCJUT9mrUrHCnt1IikhDhmeL3seepXuaVbdcifBPZIUGojnX-MX9KDq6nMFXtJYNgLSTQK7ZeQCBsE-GyHwXfQI8gBBd9J8VRCwEkoPKf0x3Z2OFtc_vh25ZI1Urt7o5y4T3MG9cCMO0NVgSl1jKU4KIajWxOQE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡APRENDE A ELABORAR SNACKS Y FRITURAS SALADAS!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -2669,30 +2792,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0FAxxd7zsKoQ7kNvwGnNA77&_nc_oc=AdqpVQ0VlHVCrGg7AgPRw8WxdSBFxURDUe1ZSmibdtdb_Kz9n67UPR5wK27nURvab2g&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=IiFCDDR0ToAo-fH9-Lw7iw&_nc_ss=7f289&oh=00_AQEiRryjXTBBvYXTr72kCauZdPCU0CxLCkjYlDPOGFkvAA&oe=6A853D21",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1367540184842611/?__cft__[0]=AZb7ZfamyQjsDi6GQvvaJ3ZQSaTBL8o_Jn6jtQu6GHJHnhhuT3ahXi3wj03PnqI5LNB-rppTtsd_NfnVlQo4pZgS2MEMu-tQ9MLktSfewhZvMpgUlaPf6grdAkucaxQVYQnep671qZd5u8Hxq4oJHi5u9I-X8I_KEJRHpX8AxlY5FzxaiuPt36u4k9LaLBUBucOwyUlBUV8IpeGW4OOr3Qj2&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "EL MUTUALISTA NO SE VENDE, SE DEFIENDE.… Ver más la patria no se vende, se la defiende. Decían los socialistas instalados en el Poder desde el 2005, al cabo de 20 años terminaron regalando y afanándose todo. Hoy los inquilinos del despacho consistorial de SC se afanan en copiar el slogan de los zurdo… Ver más Tenemos problemas para reproducir este video. Más información Ver más comentarios Rodolfo"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1367540184842611/?comment_id=1023027630498968&__cft__[0]=AZb7ZfamyQjsDi6GQvvaJ3ZQSaTBL8o_Jn6jtQu6GHJHnhhuT3ahXi3wj03PnqI5LNB-rppTtsd_NfnVlQo4pZgS2MEMu-tQ9MLktSfewhZvMpgUlaPf6grdAkucaxQVYQnep671qZd5u8Hxq4oJHi5u9I-X8I_KEJRHpX8AxlY5FzxaiuPt36u4k9LaLBUBucOwyUlBUV8IpeGW4OOr3Qj2&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "la patria no se vende, se la defiende. Decían los socialistas instalados en el Poder desde el 2005, al cabo de 20 años terminaron regalando y afanándose todo. Hoy los inquilinos del despacho consistorial de SC se afanan en copiar el slogan de los zurdo… Ver más Rodolfo Guerrero Sanchez"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_scz",
@@ -2703,30 +2809,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-sin11-2.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Nt0xJL99Te8Q7kNvwEpAUsb&_nc_oc=AdoJIjk6O-lASbfOE03DMrbEtz4DAUjaXHyrolc3UJ-TkSY7we49OI69ijC-G_8BR3Y&_nc_zt=24&_nc_ht=scontent-sin11-2.xx&_nc_gid=E-r-G3gGFG-cpNeVhTvsRg&_nc_ss=7f289&oh=00_AQG0CaWrfQ3pCoNSMz9flznAHeF-NL6Q6OihNlbrYj7QUQ&oe=6A8527BE",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1378210473756496/?__cft__[0]=AZadnk69_OdYoFIqK3p4S9KW82ygR2s1Ccmfo_bj2ZxHFNHwwhm7Vn19OZwZmiLCW0bijLgPLOV3gb2wDOtXKuCuVE0g1bntzgOEpk3ogaItNdeSgySoFqkzlvo4Jssag2U47L-WVt89i7TrStd18f7azwnR6nKD6CZPSShzkxK_Q7HRgCXBhqUdXC3KsZ0KlTKNyzKneT9JAIYEzkVM669b&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "El mejor comienzo para tu bebé… Ver más Gracias por la información Tenemos problemas para reproducir este video. Más información Iris Roberto"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1378210473756496/?comment_id=1090496096737732&__cft__[0]=AZadnk69_OdYoFIqK3p4S9KW82ygR2s1Ccmfo_bj2ZxHFNHwwhm7Vn19OZwZmiLCW0bijLgPLOV3gb2wDOtXKuCuVE0g1bntzgOEpk3ogaItNdeSgySoFqkzlvo4Jssag2U47L-WVt89i7TrStd18f7azwnR6nKD6CZPSShzkxK_Q7HRgCXBhqUdXC3KsZ0KlTKNyzKneT9JAIYEzkVM669b&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Iris Roberto Gracias por la información 1 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_lostiempos",
@@ -2738,12 +2827,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_opinion",
@@ -2754,22 +2843,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sin2-2.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ve-D0Ree6LIQ7kNvwGuh21F&_nc_oc=Adq-_MwEfU9LKngAxLGU4ZeEmNWhLddpd3UnIqd17t8jRRULVQ_pcI5p7C2FhBCNG2M&_nc_zt=24&_nc_ht=scontent-sin2-2.xx&_nc_gid=ORYSBpoMbq_CktYu2JkYPA&_nc_ss=7f289&oh=00_AQGxw6avpuKj7P5AV-TcPCDF6IziJq4Dqgux8GuewsvC3w&oe=6A8525FE",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1584497226371049/?__cft__[0]=AZapw6zFamG2HEcWCt9-QjgKkdaHZ5CT-DnnZR_qqu-GjSfOkDdtGvh2XLmAfu2yEPShFVUNXycGqB55upTXGuKR4CAGUo2tj5a02k2DhjOE4VmTG7K4Nerg7bqbBfLJ_qjbX0hCyT7pHPcF99L7DQKJG6p6uuRr-Vks_hG82HAbA_UF2YGS3hbwWowoqMlXcExBdnMOT9ak5YOYZzDxxs9v&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Talento, propósito y cultura: Unifranz entra al Top 40 de los mejores lugares para trabajar en Latinoamérica… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber",
@@ -2780,22 +2860,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=o0tF5aLfrNIQ7kNvwHw0fCx&_nc_oc=AdqnDFUKEjheZb30PMY6FUr1fAzD_hMKraXXk2L6WANxfDiBZVEElPAh0IsfQQY3vT4&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=3RfThM5k4wKAsT5rZJ10ag&_nc_ss=7f289&oh=00_AQETxkCApnKPYAB3mLJbD0kWfG1k26uYIb1KUxo9sNntQg&oe=6A852D4C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 46,
-          "category": "otro",
-          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid02BXRqSavzSGn72vNfQzuySC11M1uPd2Smxqy65GUZZEnjrMHf6D2iW6hb67mLkueDl?__cft__[0]=AZbAO0lXU8HedWR-iun2VAg0YbFv07p34FiLcKqNzC7REZESTS00zEfOAcnVWHumoMNJa0Li57zeKWCVwh6aR4c66HT0pmCd915joWok9sh9v5b_0O9Pf3d8fLW3W7skRlZJuv4fBTNtOye4B_JyVJxDzuuu0jEvhb43DMhPRPQ5WLYnxhAPW949vrsGtaGH3BU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#EspacioEmpresarial | ¡𝗘𝘀𝘁𝗲 𝘀𝗮́𝗯𝗮𝗱𝗼 𝗹𝗹𝗲𝗴𝗮 𝗲𝗹 𝗗𝗲𝘀𝗳𝗶𝗹𝗲 𝗠𝗲𝗴𝗮 𝗣𝗲𝘁𝘀 𝗮 𝗠𝗲𝗴𝗮𝗰𝗲𝗻𝘁𝗿𝗼 𝗔𝘃𝗲𝗻𝗶𝗱𝗮 𝗕𝗿𝗮𝘀𝗶𝗹! ¿Tenés un emprendimiento para perros o gatos? ¡𝗣𝗼𝗱𝗲́𝘀 … Ver más #EspacioEmpresarial | ¡𝗘𝘀𝘁𝗲 𝘀𝗮́𝗯𝗮𝗱𝗼 𝗹𝗹𝗲𝗴𝗮 𝗲𝗹 𝗗𝗲𝘀𝗳𝗶𝗹𝗲 𝗠𝗲𝗴𝗮 𝗣𝗲𝘁𝘀 𝗮 𝗠𝗲𝗴𝗮𝗰𝗲𝗻𝘁𝗿𝗼 𝗔𝘃𝗲𝗻𝗶𝗱𝗮 𝗕𝗿𝗮𝘀𝗶𝗹! ¿Tenés un emprendimiento para perros o gatos? ¡𝗣𝗼𝗱𝗲́𝘀 … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_reduno",
@@ -2806,22 +2877,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=bof_syspR0IQ7kNvwGLoltM&_nc_oc=Adq2HMeLLZ1fEFhuUtkRpM5mWgw0BoSvNn-gOGs4lo3DGOePIi7WII2aiUzw9LwCTAo&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_ss=7f289&oh=00_AQFQXRB8GFHNpKzwN--l0IUqsy4Lj_lOY3WFPXGL3WS9tA&oe=6AA6D53A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2552494975270162/?__cft__[0]=AZb4GkiB_aYRIC6u_YW2SKQ1xY4lQMohRWb8OlCcHX0ga4tBJzATmVKpypHZGoFJ4sh8T4om7gyZZ_IQQBHDtMUKsfREokci01D8pjf4FTFH7w3G5lFDSm-mMG9hUft-wYFLx9MUB27wcAivZ2U-TD81cPMb-RmqGtB_MUmhdZARta1z-Vs29te44mnwyjgsKU8dFBKg_FnzIm9yLwSgdUAL&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Con su paso pícaro, sus saltos y esa energía única, el Oso de la Diablada roba sonrisas a su paso. Pero detrás de cada movimiento hay algo más grande: una promesa d… Ver más Con su paso pícaro, sus saltos y esa energía única, el Oso de la Diablada roba sonrisas a su paso. Pero detrás de cada movimiento hay algo más grande: una promesa d… Ver más Tenemos problemas para reproducir este video. Más in"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_unitel",
@@ -2832,22 +2894,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9pw4eqKCyyIQ7kNvwFvihux&_nc_oc=AdrO1HLV253d0d36bdliE7XPM64nh3_hQYZLW2jjntPTKLuGnDF2EHz7bO7Uhr8czYY&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=xkFWfn2raXuv4oMop6pvlw&_nc_ss=7f289&oh=00_AQFonoIiGMV1mpkklQHp39UOQL4duRCBTyj963u1ghRX8w&oe=6A853CFF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1089657323410440/?__cft__[0]=AZagbcTseRIcDKq-y3oBnrCEKl4z_j82-QXoLeFb2RyCBLLf5x-ZtTmA_UWpRwStItno1YqF6W5etPUuoTdb3KYjKUIJsHazy47Cr4LTwn27c-AsRbWq6TIkEj0r4_I_8mpRCRliX5xX06BoqfXPux67T-JY1r3sSy2nfrbw1IYfXBP3r_naSPY7s9td75n-KvBDtI-j3le_2nH9JyTbKkNN&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La fe por la Virgen de Urkupiña traspasa fronteras. Miles de devotos, entre ellos visitantes de distintos países, llegaron hasta Quillacollo para participar de una de l… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_atb",
@@ -2858,22 +2911,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FZlKt5OyNrQQ7kNvwHkvgop&_nc_oc=AdrIhfHYnYOWHMLu37ArcBV9F3Y1YcJdldMfgT14qDoreXIqCwO1-JuoLykarGrRhoc&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=YNDTf0DO3E-rYN3zVIPIfg&_nc_ss=7f289&oh=00_AQHFgOGMyzU_qYlyPMaZDOXgXLjyoSH5nWbeZW6xq_52Cw&oe=6A853D41",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "concierto",
-          "url": "https://www.facebook.com/ATBDigital/videos/1051655844124824/?__cft__[0]=AZZ3haAJb0oqHkqN8JuXSEVHUPnECMq__-u-yTqftP8OjZoAasPs5oD_vC44s_UsTILE8WnOtQmo007ICAFGe9ZiYM2SF1xXxcW2RMz4as2GfZL5VB5g6P1-wfF50SJ0tUtTZh3bvhiqJdZiaduoiObYEfXwue3PpLSzyxXzYeSVrPp_iIJMA54lcHdHW5VpUwQ2kAYIaqmw9O63wbtB1Gx_&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "EN VIVO Bolívar recibe a San Antonio … Ver más EN VIVO Bolívar recibe a San Antonio … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_bolivision",
@@ -2884,22 +2928,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nlurYPeF9cUQ7kNvwEbBsl-&_nc_oc=Adrmu_m3HSOpYWENg9-yXoVDJ3lvs_bxlhQCiMPi67wfzXzFBgDZqWMHonCXxIpQiJ4&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=mlLcQesOukkp19M99TaQsQ&_nc_ss=7f289&oh=00_AQGLbQuIxUsLmb5I0pH5b7cw6q4gPkmFnpy_xNN9IYH-iw&oe=6A85380C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 12,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2659028594513883/?__cft__[0]=AZbS_dZmkHu0-C0Zm4MnTIoiGSei0lVU97QBTaHLc_a0wPy9cGAbvqO3GAJ9GtyBH5HXuuGAi29Q4qwbuW9jB1oB9F6OLAVT2Zi4UNFD8R2VVKR7w2QXONn8Lqko3o2YudpGH1p_9NElM__4V3ydy3hXOC7zioD2YMYkYgH5thP8DfnjIPbHkT92z_zsq6XJeMf1LIzN5WXXNJz90wG1iTRJ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La basura marca la agenda en las calles de La Paz Personal municipal realiza labores de limpieza en varios sectores ante la acumulación de residuos. #Actualidad #NoticiasBolivisión La basura marca la agenda en las calles de La Paz Personal municipal realiza labores de limpieza en varios sectores ante la acumulación de residuos...."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_erbol",
@@ -2910,22 +2945,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/762867835_1486603256840062_112288559762726375_n.jpg?stp=dst-jpg_tt6&cstp=mx494x494&ctp=s494x494&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GTFdLVUeDsUQ7kNvwHadORZ&_nc_oc=AdpDgEH6sAKfToPpi8Iff0BSxHnMtrsn-JMg0wmozHO2JLizIdj8hyg2peyQuFRAKr4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=5OEtHaKLHWZRnMktF1J4_w&_nc_ss=7f289&oh=00_AQFGE01pJC0fflpydgTpVoidVXo02hO8_CMqv7_RVU0X0A&oe=6A854844",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 54,
-          "category": "otro",
-          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid0YsyuJGHCWY6GdGmZdMxxWWgvo5epzUvVQKZqpNyR7uSA9iBySpsnPPS45uSw16jWl?__cft__[0]=AZYss5381sgrwyRALcjLHtpoJ1ODKEUmDxGIknPiy7lHY0IbYE3TkyNWGYaZoVsYc9u-CRcrcZv7-buDQkT9bdHfUJ0u8qjd2z03sLdN31GHfUuxZUlrddMRa53e0qXeSBmhRYlV2-Ke7eb0lQbmyMnj2IQvgYMbJV7yeplS--Olo9nMmz9if2-o0KduNdngXav7IX3tFoNgoB_fi2iHGk9i&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#ERBOL | LA REVISTA DE ERBOL 𝐋𝐀 𝐓𝐀𝐑𝐃𝐄 𝐄𝐍 𝐃𝐈𝐑𝐄𝐂𝐓𝐎 𝐅𝐞𝐜𝐡𝐚: 14 de Agosto de 2026 𝐇𝐨𝐫𝐚𝐫𝐢𝐨: [15:00 a 18:00 Hrs.] #erbol #bolivia #Endirecto #programa #noticia #urgente #interesante #música #ERBOL | LA REVISTA DE ERBOL 𝐋𝐀 𝐓𝐀𝐑𝐃𝐄 𝐄𝐍 𝐃𝐈𝐑𝐄𝐂𝐓𝐎 𝐅𝐞𝐜𝐡𝐚: 14 de Agosto de 2026 𝐇𝐨𝐫𝐚𝐫𝐢𝐨: [15:00 a 18:00 Hrs.] #erbol #bolivia #Endirecto #programa #noticia #urgente #interesante #música #ERBOL | LA REVISTA DE ERBOL 𝐋𝐀 𝐓𝐀"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_el_diario",
@@ -2936,22 +2962,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DGPyvugvrTgQ7kNvwEezFtD&_nc_oc=AdoLKU9ElaUWbSPFAQyBiVglxZpllNQufvg0dJ7H6A9awEYmQZ0GybqF0Gwiu3QzSFc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=JMCa_ca7x62g0ntg4uOeTA&_nc_ss=7f289&oh=00_AQGDTYsW97RYEujt6IV7pn-Kl6b8cwz8lztwLMLUr-OH0w&oe=6A853E61",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid06xGVTjLMncePcYCDjoRM3oZQeKwTF8usERmpSEZzmAVxhs5rKLNBHMxfWSLLFvLFl?__cft__[0]=AZYg9TZqyr8-rKpNULn5AS_9sp5Ib62TEn1Dun_XqO-ZlyT4hXzYWGApTOn54j3EYDGCctwI5ukKtCyX7p4f95B-U23GvHu5c4TpFeYZNIRaOpLic-4qGP9G2qMKqvoLofkkbFkpeIjGtUttQ48cifabLMw65dfXqLSkKMMBJmXD8gbIp98NCWAyAuGh38UqNn0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#LaPaz #ElDiarioBo… Ver más #LaPaz #ElDiarioBo… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_radio_fides",
@@ -2962,30 +2979,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xchXxnWzbm0Q7kNvwFF6wV9&_nc_oc=Adr8AjR3_DCJ9WdmFCsI7lgr12-bohrEtfrLP888xwwbjoP2zyFtZjxk8ON1HRj_2Yg&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=Mi4ATPzbIdBap6tdlwBhmA&_nc_ss=7f289&oh=00_AQGWMPTgxXraU3EQd1Kzrr0EewOuWd8UQuvQiRPA7KYQ_g&oe=6A853288",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 54,
-          "category": "otro",
-          "url": "https://www.facebook.com/RadioFidesBolivia/videos/893897316737647/?__cft__[0]=AZazta_ycB_2WNzdd_3tyDG79jxaDh7wk-bzNZksfKgbBofYMTaMNg5pLfCc7CfU3ODQ1v5aHyg0IH3Q6aUTNQk9DFfZvkz-uiWuGBK8rgQad6Rsq5y2dRDHw_XeWZYS5cuWdHsJz5CQqMRKvAu1d5RIfDL6eEOkEdJc-iAbBiAg4yoZFhcsonNpPyFgoj2n5LSswHJ0o1BG6IRnh7QMPx-4&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "EN DIRECTO Radio FIDES |14.08.26| … Ver más EN DIRECTO Radio FIDES |14.08.26| … Ver más 𝑼𝒏𝒆𝒕𝒆 𝒂 𝒏𝒖𝒆𝒔𝒕𝒓𝒐 𝒄𝒂𝒏𝒂𝒍 𝒅𝒆 𝒘𝒉𝒂𝒕𝒔𝒂𝒑𝒑 https://whatsapp.com/channel/0029VafYCFYEQIatOkhmc23q CLIC AQUÍ PARA RECIBIR LAS NOTICIAS DIRECTAMENTE EN TU CELULAR Tenemos problemas para reproducir este video. Más información 𝑼𝒏𝒆𝒕𝒆 𝒂 𝒏𝒖𝒆𝒔𝒕𝒓𝒐 𝒄𝒂𝒏𝒂𝒍 𝒅𝒆 𝒘𝒉𝒂𝒕𝒔𝒂𝒑𝒑 https://whatsapp.com/channel/0029VafYCFYEQIatOkhmc23q CLIC AQUÍ P"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/RadioFidesBolivia/videos/893897316737647/?comment_id=2347151852775686&__cft__[0]=AZazta_ycB_2WNzdd_3tyDG79jxaDh7wk-bzNZksfKgbBofYMTaMNg5pLfCc7CfU3ODQ1v5aHyg0IH3Q6aUTNQk9DFfZvkz-uiWuGBK8rgQad6Rsq5y2dRDHw_XeWZYS5cuWdHsJz5CQqMRKvAu1d5RIfDL6eEOkEdJc-iAbBiAg4yoZFhcsonNpPyFgoj2n5LSswHJ0o1BG6IRnh7QMPx-4&__tn__=R]-R",
-          "has_image": true,
-          "text_preview": "𝑼𝒏𝒆𝒕𝒆 𝒂 𝒏𝒖𝒆𝒔𝒕𝒓𝒐 𝒄𝒂𝒏𝒂𝒍 𝒅𝒆 𝒘𝒉𝒂𝒕𝒔𝒂𝒑𝒑 https://whatsapp.com/channel/0029VafYCFYEQIatOkhmc23q CLIC AQUÍ PARA RECIBIR LAS NOTICIAS DIRECTAMENTE EN TU CELULAR 𝑼𝒏𝒆𝒕𝒆 𝒂 𝒏𝒖𝒆𝒔𝒕𝒓𝒐 𝒄𝒂𝒏𝒂𝒍 𝒅𝒆 𝒘𝒉𝒂𝒕𝒔𝒂𝒑𝒑 https://whatsapp.com/channel/0029VafYCFYEQIatOkhmc23q CLIC AQUÍ PARA RECIBIR LAS NOTICIAS DIRECTAMENTE EN TU CELULAR RADIO FIDES - Canal de WhatsApp"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_anf",
@@ -2996,22 +2996,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eVTowTB4U4UQ7kNvwEs_5Wa&_nc_oc=Adr0a3v_ORVMx39gFq2_6QITUWHd7y8oSjoyo0OwcSxSWfA-Imla69maNgnATFfD3WY&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=0EJRpKWQ5lMkXnDyj5iYwg&_nc_ss=7f289&oh=00_AQEA7NZfHHecoQ30ZYXG7MqmdrRbZacnhUfqNN3MthkUKw&oe=6A8540FA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1087095270641363/?__cft__[0]=AZYNH0Yiby544yC9gX_Sf2nm9kN0o-v-BJOjmivfqQjzHzDakz6s8u2nefurX00e0wjYFve9n1U5ZE7Qwmd38kDq8hIJGQxJmxftzxx_wc0-pmNM9QhxVUO_COdmWIH4EFjH458k8rDWHkeLVlgvB1PwB9R7PGThwpsaaNh7xi-e4McWX4yIhskS6DLxJ-KzuQaBz0JBbFdqDX4-RWI8pwUt&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#GrupoFides | #ANF El diputado de Libre, Edgar Zegarra, informó que se prepara un proyecto de ley para permitir que los sectores productivos puedan importar directamen… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_rtp",
@@ -3022,22 +3013,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ji22wCrPJaUQ7kNvwEOO9lo&_nc_oc=AdrvkrCmj4DJpvku7FJGIsguI-wCzNalPULTIDwPU0-aeir2ge6U1op1NiVi6gG_yvo&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=a62CJUbi2zCC1wLd1Cv8GQ&_nc_ss=7f289&oh=00_AQEoUfQPLHlwJkNgCdpYgjHeJ6Vv3eG7YzLcpIRnnXgXrg&oe=6A855285",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/rtpbolivia/posts/pfbid02rXVrugPwbXzPR12G3QFnH2jNyQCiV55CodoRJocHt9Pgyz59N6U2nwEnb9hVeo2sl?__cft__[0]=AZZRJeOr0KiGO5aWzO_hDsn3msjJ_ag4ysnWgvggk2DEDBWdxQQVqZFVCkjOTa8VPWTTSABenRxSOwq2RUWtdEEKUZOmoSUjdzxqYgTTqfU5kihdZ7kcGVT04aWFRqOg07a2j18Wk9N1f-93hNHPb5C373Z1SmBvDDlm1Vrv4TcaFIeMa_AwpwQ0n_wS8JZ2kOM&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¿Está de acuerdo con aumentar el precio del pan si sube el costo de la harina? Sí | No"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_abya_yala",
@@ -3048,22 +3030,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LXh2VWUU1r0Q7kNvwFIuXi3&_nc_oc=Adr6gv9suurWh3Rr4J9YwmObt1x5DTftDqrUYu3t-idtKLk0eOqDBkDWkjPzuZYdWnw&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=u8hklj7ikiv2ux8KedpNfA&_nc_ss=7f289&oh=00_AQENTMIbQKMm8R_jD4OzeAKqnbFizxzq7XacVbDKZopzfQ&oe=6A852182",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1360587666266260/?__cft__[0]=AZYqa0JI0yxYB4N2t9-pX7289Y7vOCbMZxBRxCl88WoU58E68yuQODrHcOfrZKWoLU_9dG8lHlPI8imVgvyiG_QbS8p7JWVkO1pwAHL_AWtwVPoMRVxx3sAvoravGGVa38vJJ4DBa8iesrdMP4NRu-TDdbKI1VFZ7B0mfPpHBqpYt7vEZXhC9qM2D3ENxSpX6-8qrrDMyUledo_3sL2f-CuA&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#ESPACIOPUBLICITARIO ¿Cansado de que el internet se corte justo cuando más lo necesitas? ¡Dile adiós al internet lento y conéctate a la verdadera velocidad! Co… Ver más #ESPACIOPUBLICITARIO ¿Cansado de que el internet se corte justo cuando más lo necesitas? ¡Dile adiós al internet lento y conéctate a la verdadera velocidad! Co… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber_radio",
@@ -3074,38 +3047,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wUk4UN90oAkQ7kNvwE3zYby&_nc_oc=AdoLlKeyoC71wFh7Pkv5Tz8Lh_XZQKfIZ2m33ONUwPejnZMlj2w31hKTyN7Hfu6o6OQ&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=-7CCxegwJKbxBbhOSTf3uw&_nc_ss=7f289&oh=00_AQFNcXzcfCQjs4NR4AFBLsqExd5bWLKVigd-CUbVkym7-A&oe=6A8532E9",
-      "status": "ok",
-      "raw_items": 3,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 3,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1063340812827976/?__cft__[0]=AZYrQUT86RZpPuhyAhf0ZcWGeaKoVRO0u1iQiiFqs3crPZfOV-2C7PGl8YwaGa4VxXcLQal6ai36FbSCtZtcC4cKRh4XQIQIm3KteS5fFscXrqD2M7_Qm2_b-1-rqkI65A3ZNtJqrWKgur9YjLn9QJEQUdXWiZiH50yyupkB79BB6cgq3pkqyKJFmRgS-7gdA1qPaKZN3fzw0VSa5R8wZF5F&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#AquíEstoyENVIVO | Tendremos cinco historias de talento, creatividad y perseverancia. Conoceremos a Ada Alegría, cantautora de 14 años que une sus raíces bolivianas y … Ver más Felicidades al hospital de tercer nivel montero por su trabajo! Esperamos que el SEDES les brinde todo apoyo necesario para que sigan desarrollando ese buen trabajo Que bien doctores, excelente! Tenemos problemas para repro"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1063340812827976/?comment_id=2178016152761456&__cft__[0]=AZYrQUT86RZpPuhyAhf0ZcWGeaKoVRO0u1iQiiFqs3crPZfOV-2C7PGl8YwaGa4VxXcLQal6ai36FbSCtZtcC4cKRh4XQIQIm3KteS5fFscXrqD2M7_Qm2_b-1-rqkI65A3ZNtJqrWKgur9YjLn9QJEQUdXWiZiH50yyupkB79BB6cgq3pkqyKJFmRgS-7gdA1qPaKZN3fzw0VSa5R8wZF5F&__tn__=R]-R",
-          "has_image": false,
-          "text_preview": "Felicidades al hospital de tercer nivel montero por su trabajo! Esperamos que el SEDES les brinde todo apoyo necesario para que sigan desarrollando ese buen trabajo Rebeca Ladislau"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1063340812827976/?comment_id=2151277552475134&__cft__[0]=AZYrQUT86RZpPuhyAhf0ZcWGeaKoVRO0u1iQiiFqs3crPZfOV-2C7PGl8YwaGa4VxXcLQal6ai36FbSCtZtcC4cKRh4XQIQIm3KteS5fFscXrqD2M7_Qm2_b-1-rqkI65A3ZNtJqrWKgur9YjLn9QJEQUdXWiZiH50yyupkB79BB6cgq3pkqyKJFmRgS-7gdA1qPaKZN3fzw0VSa5R8wZF5F&__tn__=R]-R",
-          "has_image": false,
-          "text_preview": "Que bien doctores, excelente! Rebeca Ladislau"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fides_cbba",
@@ -3116,7 +3064,347 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PxbNeyi_AUEQ7kNvwG446Eq&_nc_oc=Adqrk35qjS3UnGinIPphY5FJRtDutb3f-kpW5wBN_WZ6lwcC_oOennnztGcZ4G1M7Mw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Qj8lpcvPVxG9tcHTY_nzTw&_nc_ss=7f289&oh=00_AQEftoooCR4ARkyP1GG4WMUe8YfjP-7qVP3WqfICoPNsgQ&oe=6A8534F7",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_ministerio_culturas",
+      "name": "Ministerio de Culturas, Descolonización y Despatriarcalización",
+      "url": "https://www.facebook.com/viceministeriodeculturasyfolklore/",
+      "type": "facebook_public",
+      "source_class": "cultura_oficial",
+      "tier": 2,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_fundacion_cultural_bcb",
+      "name": "Fundación Cultural BCB",
+      "url": "https://www.facebook.com/fundacion.cultural.BCB/",
+      "type": "facebook_public",
+      "source_class": "cultura_oficial",
+      "tier": 1,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_cinemateca_boliviana",
+      "name": "Cinemateca Boliviana",
+      "url": "https://www.facebook.com/cinemateca.bo/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_ccelp",
+      "name": "Centro Cultural de España en La Paz",
+      "url": "https://www.facebook.com/ccelp.bo/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_museo_nacional_arte",
+      "name": "Museo Nacional de Arte - MNA",
+      "url": "https://www.facebook.com/museonacionaldeartebolivia/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_musef_lapaz",
+      "name": "Museo Nacional de Etnografía y Folklore - MUSEF",
+      "url": "https://www.facebook.com/musef.lapaz.bolivia/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_casa_moneda_potosi",
+      "name": "Casa Nacional de Moneda",
+      "url": "https://www.facebook.com/cnmptsfcbcb/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "Potosí",
+      "city": "Potosí",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_crc_lapaz",
+      "name": "Centro de la Revolución Cultural",
+      "url": "https://www.facebook.com/centrodelarevolucioncultural/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_municipio_sucre",
+      "name": "Gobierno Autónomo Municipal de Sucre",
+      "url": "https://www.facebook.com/MunicipiodeSucreBolivia/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Chuquisaca",
+      "city": "Sucre",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_municipio_oruro",
+      "name": "Gobierno Autónomo Municipal de Oruro",
+      "url": "https://www.facebook.com/AlcaldiaDeOruro/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Oruro",
+      "city": "Oruro",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_municipio_tarija",
+      "name": "Gobierno Autónomo Municipal de Tarija",
+      "url": "https://www.facebook.com/Gobierno.Autonomo.Municipal.Tarija/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Tarija",
+      "city": "Tarija",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_municipio_potosi",
+      "name": "Gobierno Autónomo Municipal de Potosí",
+      "url": "https://www.facebook.com/gobiernomunicipaldepotosi/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Potosí",
+      "city": "Potosí",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_municipio_trinidad",
+      "name": "Gobierno Autónomo Municipal de Trinidad",
+      "url": "https://www.facebook.com/GAMTDD/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Beni",
+      "city": "Trinidad",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_municipio_cobija",
+      "name": "Gobierno Autónomo Municipal de Cobija",
+      "url": "https://www.facebook.com/cobija.gob/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Pando",
+      "city": "Cobija",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_gob_chuquisaca",
+      "name": "Gobernación de Chuquisaca",
+      "url": "https://www.facebook.com/GobChuquisaca/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Chuquisaca",
+      "city": null,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_gob_oruro",
+      "name": "Gobierno Autónomo Departamental de Oruro",
+      "url": "https://www.facebook.com/GobernacionDeOruro/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Oruro",
+      "city": null,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_gob_tarija",
+      "name": "Gobierno Autónomo Departamental de Tarija",
+      "url": "https://www.facebook.com/GADTarija/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Tarija",
+      "city": null,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_gob_pando",
+      "name": "Gobierno Autónomo Departamental de Pando",
+      "url": "https://www.facebook.com/gobiernodepartamentaldepando/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Pando",
+      "city": null,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_gob_beni",
+      "name": "Gobierno Autónomo Departamental del Beni",
+      "url": "https://www.facebook.com/GobernacionDelBeni/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Beni",
+      "city": null,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_fipaz",
+      "name": "FIPAZ - Feria Internacional de La Paz",
+      "url": "https://www.facebook.com/feriafipaz/",
+      "type": "facebook_public",
+      "source_class": "eventos",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Fl8nczwgoVkQ7kNvwGVwqRV&_nc_oc=AdrPJVk3H1z_g6MVq4qnqmzc-_CvT37h852I7Y3VDwutEIfglf49rRp-ijICMulEMEE&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=L5QktM6zVH79nBS5oAGdJg&_nc_ss=7f289&oh=00_AQFgvw11NwjpUR92eEnS024Z6ASCjgCeYfziE502isy1Qw&oe=6A854EE1",
       "status": "ok",
       "raw_items": 1,
       "events": 0,
@@ -3124,14 +3412,434 @@
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
+          "score": 8,
           "category": "otro",
-          "url": "https://www.facebook.com/reel/2562474264214313/?__cft__[0]=AZby6VzM-HLqZTfPWLTuiRHfUxLpHX3e9sRompZ3wkbTmqjpcoD-hhreFDigDTwakHkYn6riA9yYuwh_YKmROo90v1Z3flSXCz8ykuUQxzbzUwIEzWl1EkC5g32uuIDUKnoOcFgpm6Za2QmXi516LyK1_vKhMp0rDTXe4SYd3Lh5HZzW6-uVi2F24cfaxnp_LEJYtN4wP3lDPS-BO3BnqzST&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/reel/1809542017050676/?__cft__[0]=AZavJnMBcSPIbb-VFbx4Et_8tFH40UHcktCOcwHEfCkJFJH8BqxmtzBIRLu7_bYOYkwTPeOfG5RCeUMoYWdmoyNWKPwKCOE-HJvYz4DX2Ci35k7UMtsEr9NGlWipuJQjXierMuM4qyRSZ9tfAca5rtHPssZ1SGHXR_BQQY7CtnQ3vVgbzfrzVSJTiyJFZE1ksufnDf1IJB6F5pSwm8h9Ruaw&__tn__=%2CO%2CP-R",
           "has_image": false,
-          "text_preview": "Vicepresidente denuncia al gerente Nacional de la Caja Nacional de Salud por presunto enriquecimiento ilícito, patrimonio llegaría a más de 7 millones de Bolivianos. Tenemos problemas para reproducir este video. Más información"
+          "text_preview": "Capitulo 1 | FIPAZ 25 AÑOS | El fuego comenzaba a encenderse … Ver más Tenemos problemas para reproducir este video. Más información"
         }
       ],
       "error": null
+    },
+    {
+      "id": "fb_feicobol",
+      "name": "FEICOBOL - Feria Internacional de Cochabamba",
+      "url": "https://www.facebook.com/feicobol/",
+      "type": "facebook_public",
+      "source_class": "eventos",
+      "tier": 1,
+      "region": "Cochabamba",
+      "city": "Cochabamba",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/727465343_1483240530510827_7886276312875895349_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pWnXv9GPQvoQ7kNvwHbhkKX&_nc_oc=Adqevk9PC0HKPPDokHWNElkCShn0hIXRDMCAo3J9gyNF-FZixJhmVPbNNqMftzS2Jrg&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=x5qXgePZhPETNuR2FbRX4A&_nc_ss=7f289&oh=00_AQG8ov0huzHuxPhAumraXQXeukwD_TTdBhaEoDhvdP1lOA&oe=6A856607",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/27526051007095265/?__cft__[0]=AZY-3hrzqILCxPYnk3HpdvMv2vmqxu2bsF75Fes5pdUVnj3g5vNUPG5kb29kUUxNO3rO3MyDQyTx1g2_8GkCyn28MGF0M4qioJaBgIpnT_DRHTNjWUV7qmiAPJj10ZRlvpxfhlPOwb4dCdZqDl4Z8NyJRdKBqh_rZCvgrqxCKWK585ros830MZLB3o9aGwegI-IkvuU0SXoNyi8wUzT7iy4h&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#30SegundosDeVino l Conversamos con Sofía para conocer más sobre su propuesta y lo que podremos disfrutar junto a ellos en esta edición de VINOFEST 2026. ¿Listos pa… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_espacio_patino_lapaz",
+      "name": "Espacio Simón I. Patiño La Paz",
+      "url": "https://www.facebook.com/EspacioPatinoLaPaz/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_alianza_francesa_lapaz",
+      "name": "Alianza Francesa de La Paz",
+      "url": "https://www.facebook.com/aflapaz/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=c1Hv30Btj0wQ7kNvwE7rpq9&_nc_oc=AdqX6ku6rypLzue62RfJPgEkSjFBfeA_LiHjFAtNVVQtuekQMJ0D52rfzglX5CacSi4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=M3XAUtOYcZj-XRwuplH_rQ&_nc_ss=7f289&oh=00_AQEmRx9i9TW7kT7-lmzxVa9AJlsG5JzVHFCwyKBu04-G3A&oe=6A854D87",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/-%C3%BAltimos-cupos-disponiblesel-pr%C3%B3ximo-ciclo-sabatino-para-nivel-inicial-est%C3%A1-por-/1501156852052833/",
+          "has_image": true,
+          "text_preview": "🚨🇫🇷 ¡Últimos cupos disponibles! El próximo ciclo sabatino para nivel inicial está por comenzar y esta es tu oportunidad para aprender francés con nosotros. Todavía puedes inscribirte a nuestros... 🚨🇫🇷 ¡Últimos cupos disponibles! El próximo ciclo sabatino para nivel inicial está por comenzar y esta es tu oportunidad para aprender francés con... ¡Últimos cupos disponibles! El próximo ciclo sabatino "
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_teatros_municipales_lapaz",
+      "name": "Teatros Municipales La Paz",
+      "url": "https://www.facebook.com/teatrosmunicipaleslapaz/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_casa_cultura_cbba",
+      "name": "Casa de la Cultura Cochabamba",
+      "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "Cochabamba",
+      "city": "Cochabamba",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GtH6DyCNAnIQ7kNvwHS7ZFK&_nc_oc=AdoQ4eTgw36fsWuoeFMWGNNqOe6Cc-KeIYUgrSW5ZLpaqbJwFe23__J3KKBjdwOcZVA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=9AZo1Hz8SyU-LK8mikjEAA&_nc_ss=7f289&oh=00_AQH1cm_3wO_Ku6pydD5R2tvZ3hPFozcPcdZrmwMMCgJvBA&oe=6A857847",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/videos/1337562751876374/?__cft__[0]=AZZWzrE0YBnKf5_0LciOu9F6fcxfLO4W8bsh04TYK2Cc6b_FrwUYTAxcQ4iQq0En_PKNog3AbT3Zw8wxeA7olmYaHah5PsgZM7CHUPFkKTwFfKmzUV9hYrf6iuQ7t8V86SUYe6l9wUOlnbW93p-Ul6BxHOTfvBigR5fq14nhd5vLNefKvSrXyxAgna6dX2nUrA0cMIlZrgR5frsAIBFTEorC&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Mira el Futuro que estamos construyendo! Acompáñanos en el Informe de 100 días de Gestión. #E… Ver más ¡Mira el Futuro que estamos construyendo! Acompáñanos en el Informe de 100 días de Gestión. #E… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_manzana1",
+      "name": "Manzana 1 Espacio de Arte",
+      "url": "https://www.facebook.com/Manzana1espaciodearte/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "Santa Cruz",
+      "city": "Santa Cruz de la Sierra",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_casa_melchor_pinto",
+      "name": "Casa Melchor Pinto",
+      "url": "https://www.facebook.com/CasaMelchorPinto/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "Santa Cruz",
+      "city": "Santa Cruz de la Sierra",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=t4Xq3Vzt-v8Q7kNvwGFfckx&_nc_oc=AdqdRZg6etNTuBW4n5aFunXBkFzwjByRccBF3iyc_HTHmGVMEgujeyItl94qiUxxlBc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=DB_9Hx1tfUedzMdyaBTd4w&_nc_ss=7f289&oh=00_AQFZUM3_Xmwjz4hHSj_6Ce4IKP_zdTHrYSYTqmlXYQYsPQ&oe=6A8569BD",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid0jXnPpkpGJ93JQi8zcJ2ieZrXQgKRHNZsvvkvD3YgQytuDKxntWXCkAhj7WEb9sjyl?__cft__[0]=AZYPD3Y1i6v2I0_sGbmzZAs6vX-zp672CUVzYdnpsaFx5x8EhvllYVnQ3t513zip5LhilYMr_aXfkEGZR5D-JgTVMZXHK1Mo92weQ9fd-n1SaHJtNcj1toXH7_gmnAY7JNrHnfli0iWZ6f9cm4tpF-vlRShr1CsEcXuzmq2ooE2Sc0AO1D6gVZvzhnyv8WnT3Lc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "@followers Álbum EL AMOR ES COMO EL CAMBA - Lectura Dramatizada UREÑARTE"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_tarija_cultura",
+      "name": "Dirección de Cultura y Patrimonio - Tarija",
+      "url": "https://www.facebook.com/TarijaCultura/",
+      "type": "facebook_public",
+      "source_class": "cultura_oficial",
+      "tier": 1,
+      "region": "Tarija",
+      "city": "Tarija",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_fundacion_patino_cbba",
+      "name": "Fundación Patiño Cochabamba",
+      "url": "https://www.facebook.com/FundacionPatinoCochabamba/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "Cochabamba",
+      "city": "Cochabamba",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_goethe_lapaz",
+      "name": "Goethe-Institut La Paz",
+      "url": "https://www.facebook.com/goetheinstitut.lapaz/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_alianza_francesa_cbba",
+      "name": "Alianza Francesa de Cochabamba",
+      "url": "https://www.facebook.com/alianza.f.decochabamba/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "Cochabamba",
+      "city": "Cochabamba",
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=EgZbbzyeOPkQ7kNvwHadqqN&_nc_oc=AdpB7emffmyHOTvU8YuxDyNr67WUQeOQy8OYM53RTK0xUNqLvD0n9zdufBpsIsecKLI&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=s5Fr-ZoawpgVA8reygpI-Q&_nc_ss=7f289&oh=00_AQGYgytBZpfp0ncfkG-Cv1HO8jpoFMmORSuf6hfXu-azDw&oe=6A856AD5",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02r9DgpLRvD3uKCYwqG4t3qwJbWob6HcCSXN59qjsWWqWeBCyAKRM7pRsrmXTiFCmYl?__cft__[0]=AZZaHzPXq45rr8E9DWs-hO-E3vflI7jrUzH7rtC1mndRfaeyvYCVSYdBejs2ZS5_4LSE_tHFf35YbGMFheEYQo6S9ZSsgtxN64Mj0aw0DL0O1t7-cvSjxBXx-I2Vq9BeAC7uGQMidLWeCd-KZWy8QatiirW26_oxj9gd8tRF42uYUPnZnQJ-yA7vzahiBt2c2TA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¿Sabes qué es un asistente de idiomas? … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_alianza_francesa_sucre",
+      "name": "Alianza Francesa de Sucre",
+      "url": "https://www.facebook.com/AlianzaFrancesaSucre/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "Chuquisaca",
+      "city": "Sucre",
+      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4OKh7lCcAKkQ7kNvwHUG092&_nc_oc=AdrjOeq7-Wttj4vx8FVWUTS3J6cPcNpbTWPuzD3qZZo7VHYNBBBsp0FJNwka9rJxtj0&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=4B7YRlpW-5idXOqtRTBenQ&_nc_ss=7f289&oh=00_AQEDt_i80iKZYQhzV3MM2syur95E-mzz0v45sT5i3GZyyQ&oe=6A856D52",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid035BwEqPMD3PdYSs3riVPH7sooHNZKbynKAhuEdmQHsp3GKCzA8CXbfdPW52jwRNrxl?__cft__[0]=AZalBIdm5Y_CNRDDtP3QGB3l_278SQFxXa6xnrcD2eXt-TxzyVUeLzBAcWAW8LUaSq36FtV0SlDJTvi9k5oRqZfAyUEA8SYWMYlGKQCJ170UmT6AOap1SwMNwklIr1peva_3fL2FFp4-kXfHjoSIXvHfg-LpvxgLIapE0P7HzK4I2qxiZiHGJIr5DltNPhjHNMc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "ENTRE PLIEGUES… Ver más La Alianza Francesa es una asociación de derecho local con un comité compuesto por ciudadanos bolivianos y franceses residentes en el país, sin afanes lucrativos, dedicada principalmente a la difusión del idioma y de la cultura franceses con el fin de permitir el acceso al más grande número de personas a una visión y una expresión diferentes del mundo, a tiempo de abrilrles"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_centro_cultura_scz",
+      "name": "Centro de la Cultura Plurinacional Santa Cruz",
+      "url": "https://www.facebook.com/CCPSCZ/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "Santa Cruz",
+      "city": "Santa Cruz de la Sierra",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_casa_libertad",
+      "name": "Museo Casa de la Libertad",
+      "url": "https://www.facebook.com/museocasadelalibertad/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "Chuquisaca",
+      "city": "Sucre",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=em4rlhQmyYoQ7kNvwFPgYs2&_nc_oc=Ado2NNCXJmL0Yh6_HxhJbU9T59ZdvMxqyoZzaG5_uCN6AeTpbgqREY0LW7NWf_zwLYo&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=d11oX6cbHQZEBi-zspXOsA&_nc_ss=7f289&oh=00_AQHUXbu4U8TUCWlcb2kFsDtSLrivhq7ZeULacczwVLKFhg&oe=6A8572F7",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/museocasadelalibertad/posts/pfbid0he8sVH4YDJ6KK46GfYGBj4XyfscexPCL61r9LojB6XjSfMP6y2vvHieJtLBYuUUMl?__cft__[0]=AZaam0w14ZLkR6ks5W-hTK4l6jGMChtC8B3VG9BtJK8h88n4_PeThEyMPOg1HxzIcY8lQzP5rMGSGlaf9t4EBUJSbUCsjCnFvSXcIGnpmRgOobBB40wjvwTlH_KNnu8WHriYWks-OkA8qrKDXgITDhZW9hh7JOcZndbzmj7xvnyaQ6pbMRHfN8PmYrCmqgGX5gA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CDL | A través de la “Ruta Histórica del Bicentenario”, la Casa de la Libertad llegó al municipio de Villa de la Independencia, en la provincia de Ayopaya del departam… Ver más Museo histórico Enviar mensaje"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_musef_sucre",
+      "name": "MUSEF Regional Sucre",
+      "url": "https://www.facebook.com/musefsucre/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "Chuquisaca",
+      "city": "Sucre",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_usfx",
+      "name": "Universidad San Francisco Xavier de Chuquisaca",
+      "url": "https://www.facebook.com/FranciscoXavierCh/",
+      "type": "facebook_public",
+      "source_class": "cultura_oficial",
+      "tier": 2,
+      "region": "Chuquisaca",
+      "city": "Sucre",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_umsa",
+      "name": "Universidad Mayor de San Andrés - UMSA",
+      "url": "https://www.facebook.com/UMSAinformacion/",
+      "type": "facebook_public",
+      "source_class": "cultura_oficial",
+      "tier": 2,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_uagrm",
+      "name": "Universidad Autónoma Gabriel René Moreno - UAGRM",
+      "url": "https://www.facebook.com/OficialUAGRM/",
+      "type": "facebook_public",
+      "source_class": "cultura_oficial",
+      "tier": 2,
+      "region": "Santa Cruz",
+      "city": "Santa Cruz de la Sierra",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_umss",
+      "name": "Universidad Mayor de San Simón - UMSS",
+      "url": "https://www.facebook.com/UmssBolOficial/",
+      "type": "facebook_public",
+      "source_class": "cultura_oficial",
+      "tier": 2,
+      "region": "Cochabamba",
+      "city": "Cochabamba",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_ucb_lapaz",
+      "name": "Universidad Católica Boliviana - Sede La Paz",
+      "url": "https://www.facebook.com/UCB.BOLIVIA/",
+      "type": "facebook_public",
+      "source_class": "cultura_oficial",
+      "tier": 2,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
+    },
+    {
+      "id": "fb_upsa",
+      "name": "Universidad Privada de Santa Cruz de la Sierra - UPSA",
+      "url": "https://www.facebook.com/boliviaupsa/",
+      "type": "facebook_public",
+      "source_class": "cultura_oficial",
+      "tier": 2,
+      "region": "Santa Cruz",
+      "city": "Santa Cruz de la Sierra",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "web_superticket",
@@ -3313,7 +4021,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 27,
+          "score": 14,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -3321,7 +4029,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 15,
+          "score": 2,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -3329,11 +4037,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 27,
+          "score": 14,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Gobierno ejecuta el plan para la seguridad de las cinco fronteras con infraestructura e inversión Ver más 2 Caso vehículo de Espinoza: Informe señala a"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Lupo y Camacho son los primeros embajadores designados por el actual Gobierno Ver más 2 JP Velasco gestiona importación de combustibles con una empresa"
         }
       ],
       "error": null

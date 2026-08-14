@@ -1,12 +1,56 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-14T15:17:40-04:00",
+  "generated_at": "2026-08-14T17:51:25-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 16,
     "events_today": 3
   },
   "filters": {
+    "ui_groups": [
+      {
+        "key": "when",
+        "label": "Cuándo",
+        "selection": "single",
+        "icon": "calendar"
+      },
+      {
+        "key": "categories",
+        "label": "Tipo de evento",
+        "selection": "multi",
+        "icon": "category"
+      },
+      {
+        "key": "departments",
+        "label": "Departamento",
+        "selection": "multi",
+        "icon": "map"
+      },
+      {
+        "key": "cities",
+        "label": "Ciudad",
+        "selection": "multi",
+        "icon": "location_city"
+      },
+      {
+        "key": "price",
+        "label": "Precio",
+        "selection": "single",
+        "icon": "payments"
+      },
+      {
+        "key": "media",
+        "label": "Multimedia",
+        "selection": "multi",
+        "icon": "photo_library"
+      },
+      {
+        "key": "tags",
+        "label": "Temas",
+        "selection": "multi",
+        "icon": "sell"
+      }
+    ],
     "categories": [
       {
         "key": "feria",
@@ -108,6 +152,179 @@
         "key": "todos",
         "label": "Todos",
         "count": 16
+      }
+    ],
+    "price": [
+      {
+        "key": "gratis",
+        "label": "Gratis",
+        "count": 0
+      },
+      {
+        "key": "pagado",
+        "label": "Con entrada",
+        "count": 5
+      },
+      {
+        "key": "por_confirmar",
+        "label": "Precio por confirmar",
+        "count": 11
+      }
+    ],
+    "media": [
+      {
+        "key": "con_foto",
+        "label": "Con foto",
+        "count": 10
+      },
+      {
+        "key": "con_video",
+        "label": "Con video",
+        "count": 3
+      }
+    ],
+    "tags": [
+      {
+        "key": "Ml18Xb",
+        "label": "Ml18Xb",
+        "count": 2
+      },
+      {
+        "key": "vvzi1e",
+        "label": "vvzi1e",
+        "count": 1
+      },
+      {
+        "key": "NS0kde",
+        "label": "NS0kde",
+        "count": 1
+      },
+      {
+        "key": "HokZ0d",
+        "label": "HokZ0d",
+        "count": 1
+      },
+      {
+        "key": "d5Qebf",
+        "label": "d5Qebf",
+        "count": 1
+      },
+      {
+        "key": "U8DOt",
+        "label": "U8DOt",
+        "count": 1
+      },
+      {
+        "key": "iOlsLd",
+        "label": "iOlsLd",
+        "count": 1
+      },
+      {
+        "key": "ZxCkTb",
+        "label": "ZxCkTb",
+        "count": 1
+      },
+      {
+        "key": "Quillacollo",
+        "label": "Quillacollo",
+        "count": 1
+      },
+      {
+        "key": "GADC",
+        "label": "GADC",
+        "count": 1
+      },
+      {
+        "key": "TransparenciaLealtadyUndad",
+        "label": "TransparenciaLealtadyUndad",
+        "count": 1
+      },
+      {
+        "key": "GestiónLeonardoLoza",
+        "label": "GestiónLeonardoLoza",
+        "count": 1
+      },
+      {
+        "key": "263",
+        "label": "263",
+        "count": 1
+      },
+      {
+        "key": "LaKerkenchaDeMiSuegra",
+        "label": "LaKerkenchaDeMiSuegra",
+        "count": 1
+      },
+      {
+        "key": "DñaNieves",
+        "label": "DñaNieves",
+        "count": 1
+      },
+      {
+        "key": "LaMadrina",
+        "label": "LaMadrina",
+        "count": 1
+      },
+      {
+        "key": "Oruro",
+        "label": "Oruro",
+        "count": 1
+      },
+      {
+        "key": "Teatro",
+        "label": "Teatro",
+        "count": 1
+      },
+      {
+        "key": "Comedia",
+        "label": "Comedia",
+        "count": 1
+      },
+      {
+        "key": "TeatroBoliviano",
+        "label": "TeatroBoliviano",
+        "count": 1
+      },
+      {
+        "key": "EventosBolivia",
+        "label": "EventosBolivia",
+        "count": 1
+      },
+      {
+        "key": "SuperTicket",
+        "label": "SuperTicket",
+        "count": 1
+      }
+    ],
+    "source_classes": [
+      {
+        "key": "ticketera",
+        "label": "ticketera",
+        "count": 7
+      },
+      {
+        "key": "venue",
+        "label": "venue",
+        "count": 5
+      },
+      {
+        "key": "municipio",
+        "label": "municipio",
+        "count": 1
+      },
+      {
+        "key": "media",
+        "label": "media",
+        "count": 1
+      },
+      {
+        "key": "eventos",
+        "label": "eventos",
+        "count": 1
+      },
+      {
+        "key": "cultura_oficial",
+        "label": "cultura_oficial",
+        "count": 1
       }
     ]
   },
@@ -322,14 +539,14 @@
     },
     {
       "event_id": "evt_b241df7de02d67",
-      "title": "Conocé los días especiales de Expocruz 2026!",
+      "title": "Expocruz 2026",
       "category": "feria",
       "category_label": "Ferias y expos",
-      "starts_at": "2026-09-18T00:00:00-04:00",
-      "starts_at_ms": 1789704000000,
+      "starts_at": "2026-09-18T17:00:00-04:00",
+      "starts_at_ms": 1789765200000,
       "ends_at_ms": 1790567940000,
       "multi_day": true,
-      "display_date": "Del 18 al 27 de septiembre",
+      "display_date": "Del 18 al 27 de septiembre · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
       "days_until": 35,
@@ -337,12 +554,12 @@
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
       "venue": "Fexpocruz",
-      "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/774832392_2115829469815888_2360631038231201647_n.png?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s600x600&_nc_cat=100&ccb=1-7&_nc_sid=cae128&_nc_ohc=ttqFoBOCscgQ7kNvwHXy-I3&_nc_oc=AdrGaIC45QYFGhHTw2id3weL3eM-cF3UfDnZ_9ENSYUH51BeTJiNNKgjfILb9bNI23k&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=2b88p-CmfSFd-OKVkgYdoA&_nc_ss=7f289&oh=00_AQGDppj_JyUDWJnn8KJ0S3Uh4_CyUSz_kDTstN7JPgkzRw&oe=6A85330C",
+      "image_url": null,
       "has_video": true,
       "is_free": false,
-      "price_from": 30.0,
-      "currency": "BOB",
-      "price_label": "Bs 30",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "status": "programado",
       "source_count": 2
     },
