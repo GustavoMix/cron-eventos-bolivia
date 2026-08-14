@@ -1,5 +1,1001 @@
 {
-  "generated_at": "2026-08-14T06:43:07-04:00",
-  "coverage": {},
-  "sources": []
+  "generated_at": "2026-08-14T09:46:28-04:00",
+  "coverage": {
+    "fuentes_totales": 29,
+    "con_datos_alguna_vez": 25,
+    "nunca_vistas": [
+      "fb_eldeber_radio",
+      "fb_gam_cbba",
+      "fb_lostiempos",
+      "fb_teatro_aire_libre"
+    ],
+    "bloqueadas_en_la_ultima_corrida": [
+      "fb_gam_cbba",
+      "fb_lostiempos",
+      "fb_teatro_aire_libre"
+    ],
+    "con_fallos_persistentes": [],
+    "horas_promedio_sin_datos": 0.0,
+    "horas_maximo_sin_datos": 0.0
+  },
+  "sources": [
+    {
+      "id": "fb_superticket",
+      "name": "SuperTicket Bolivia",
+      "url": "https://www.facebook.com/SuperTicketBol/",
+      "type": "facebook_public",
+      "source_class": "ticketera",
+      "tier": 1,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lHvg36DW85sQ7kNvwHpgZKO&_nc_oc=AdoWExEhvGaovsoyHMYKYUFFTfxrdikpJ4i1-HFH4StBXat4xJH_YpRYhrdQ42U6kXM&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=xp3NinjLNHUMR8vrqhRilQ&_nc_ss=7f289&oh=00_AQHX0OAg4qQuPIEtcxsA4nxT8RQkE88xPAzkYbJjVKhF3g&oe=6A84F55A",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": null
+    },
+    {
+      "id": "fb_conciertos_bolivia",
+      "name": "Conciertos en Bolivia",
+      "url": "https://www.facebook.com/ConciertosEnBolivia/",
+      "type": "facebook_public",
+      "source_class": "eventos",
+      "tier": 1,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hMY0bRvfeRkQ7kNvwEDONn6&_nc_oc=AdpVUbTavmbtW98dVXgyRB14CfoAVfW34GSp44d8U57-1TFGNmBX7KsliVLtIW_blAQ&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=hC6H1EE2tKuU_7Jm79PQ8A&_nc_ss=7f289&oh=00_AQHwTIoVjXLPkbGVYYqnUBkSca8HCm6uNFSPng1BCs6t8w&oe=6A84E6F5",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": null
+    },
+    {
+      "id": "fb_eventos_bolivia",
+      "name": "Eventos Bolivia",
+      "url": "https://www.facebook.com/EventosBoliviaOficial/",
+      "type": "facebook_public",
+      "source_class": "eventos",
+      "tier": 1,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mDVLp_luFOoQ7kNvwHTmaZP&_nc_oc=Adqk5OFOrmxZIlZtahhCPsrwQY-FbHF_3s0-XUUfKpJ4_wdx6_RuAklyO5nQsaqAvDE&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=lOH4t38AVFTELaWU77GsFg&_nc_ss=7f289&oh=00_AQF6ksG9Okf5NxdKu8vBm5NAembZBc6hfcALbrReJteDog&oe=6A84D6B6",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid023rHh8WdcQD6ttudcMwdTzZjxg4yDPdVf7gfsj588s7jF4S5YgFXkmtRPsiW2PPYNl?__cft__[0]=AZbjOTUyfHOW_iAE-tJI86k52TSG2y8spb8kmYPcX2awdNL9k4LCdYwYylu8jG3J2OL6BrrYP1ehj7M8VE3FrdgsmZ7krqv8pNp8EsPIFXQXV50XJicBymr1S2bJjOkcc_9DKJUj9mJuCJt6QcrFrI5gGBjFatY-t72HmbweLdsKLkY2sPgs06Y9Xe1D4BJpe1k&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_festivales_eventos",
+      "name": "Festivales & Eventos Bolivia",
+      "url": "https://www.facebook.com/FestivalesEventosBolivia/",
+      "type": "facebook_public",
+      "source_class": "eventos",
+      "tier": 1,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Pz1VtXVQyn8Q7kNvwHedDJY&_nc_oc=AdoCJNZbwQiMy-IjQBUWXh_Y796YVYiGE0i09zaSoYRfRPWFcrAIjxTd3U6yhCNPjpQ&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=luSVXDjnwV8LltrAy85gAQ&_nc_ss=7f289&oh=00_AQG12kAy_NBPHDn9aeUQlg5R_-vdE6BuUP_fWT0_-a78ag&oe=6A84EF83",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid05HHi6XVPZ6akgtKzoQquE8c2pmgdsTvJGKB4hWVMPhiP5oRNzoXKpBV5PYxueS7bl?__cft__[0]=AZbpTqleg-nKUcZocZlju8Ml8rwaxa_YPazHrTERWlZcs2PqTdXccq8ljTeHbg5fkdeI_Ugd1z5O57fb9yuYS5rkCZj8CwA1xjbOa3xm1wXj3Wx-4MUnVA9gOTYs7kxtC-N8UxrVHnwYm0WHKkcViVBrV8V5keP9rrR2f7p94h0cT9ud3nUSUWnRObuYEJBAUqY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_fexpocruz",
+      "name": "Fexpocruz",
+      "url": "https://www.facebook.com/Fexpocruz/",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "Santa Cruz",
+      "city": "Santa Cruz de la Sierra",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=D17KWu_1NBoQ7kNvwGuk3R6&_nc_oc=AdpdgRK07qk99SmrAEa06y7A7GDLNmYwXcSL_ljiNtzFDKmT5L1Avt7FXFOtuR1lfI8&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=-CpzqjNMS8lbNy9GJD9g-Q&_nc_ss=7f289&oh=00_AQE7WzVzG2UTUdHRQEV5P6PNJEkTJM2TYr6WazfHiBfPRQ&oe=6A84DF10",
+      "status": "ok",
+      "raw_items": 3,
+      "events": 1,
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/Fexpocruz/posts/pfbid02QY54d29fUMn5eQYauqLGL1wQ9s8bQEFibuXoAdkx9J4RRs6Nc3n49GWPHciQYfW4l?comment_id=1186412493939000&__cft__[0]=AZbEkltM_xxurigK6F07L7neIKXmYz7ekPq3XhinMkAa51n6EgsVzO8TCbep1N-NZQIrC0BNIWp6xa9_Mnggkf_etZFacEFSOh3g-r_Fe2h8aBo_3wDpsTkHTfqOQFV4RCj5U0ZW-lAkmE1lrPt8I-rKmigqlFVKVMwYvT-wPdXN1a8VwDQKn6FzRpd114aQT2E&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Y como se hace para inscribir a mi mascota de raza para su competencia que cada año hacen ? No recuerdo bien Edson Alexander Totola Vargas Y como se hace para inscribir a mi mascota de raza para su competencia que cada año hacen ? No recuerdo bien"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/Fexpocruz/posts/pfbid02QY54d29fUMn5eQYauqLGL1wQ9s8bQEFibuXoAdkx9J4RRs6Nc3n49GWPHciQYfW4l?comment_id=1186412493939000&reply_comment_id=2345952726217008&__cft__[0]=AZbEkltM_xxurigK6F07L7neIKXmYz7ekPq3XhinMkAa51n6EgsVzO8TCbep1N-NZQIrC0BNIWp6xa9_Mnggkf_etZFacEFSOh3g-r_Fe2h8aBo_3wDpsTkHTfqOQFV4RCj5U0ZW-lAkmE1lrPt8I-rKmigqlFVKVMwYvT-wPdXN1a8VwDQKn6FzRpd114aQT2E&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Hola! Edson Alexander Totola Vargas La actividad canina es organizada por Kennel Club Boliviano"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_teatro_aire_libre",
+      "name": "Teatro al Aire Libre Jaime Laredo",
+      "url": "https://www.facebook.com/profile.php?id=386877428010579",
+      "type": "facebook_public",
+      "source_class": "venue",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "blocked",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Teatro al Aire Libre Jaime Laredo La Paz-Bolivia Performance Art Theatre · Página no oficial\\ufeff Más Inicio Información Información Ver todo Cancha Zapata Ciudad La P'"
+    },
+    {
+      "id": "fb_municipio_lapaz",
+      "name": "Gobierno Autónomo Municipal de La Paz",
+      "url": "https://www.facebook.com/MunicipioLaPaz/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gFqEsIf0zeYQ7kNvwFa_rp8&_nc_oc=AdqsdOGB1km_1SCzhDClfQQM5KDzNYLeFFGDNunmsD6sAnkcF9vS-psspGLtxUWwSMM&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=VTwgpuSK3XkfmFdfcSGwTw&_nc_ss=7f289&oh=00_AQGLbqL3m4YFzoX6AFF8jJ_Mz_IKHT2ZK9mk-q17E0M40g&oe=6A850345",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4954532004774098/?__cft__[0]=AZY7g0A2_2QaiyDZgiKhcAHb4zeEnNXi4mdYj-x-v9WR8QTtmRJjfw3RF9c3FfdXRdiJUYZKwAQnNL1bR91eqGEuROE4ShjQSY35jekqm4d-7Pt2cRQmNPc1t3InIh50_rRWARphTG9xsys4SMZETwWopPxI4Zkn92fCC3UJMmccFLK8SvLnN_3e8037gVp2G5aOTCiZYWr_bmHvZVRjW1GR&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La gente pide algo básico: que se recoja la basura. … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_amun_lapaz",
+      "name": "Agencia Municipal de Noticias La Paz - AMUN",
+      "url": "https://www.facebook.com/AMUNLaPaz/",
+      "type": "facebook_public",
+      "source_class": "cultura_oficial",
+      "tier": 2,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZmLiwqA4VrgQ7kNvwGw0KoA&_nc_oc=Adqz-jvEdKIQ--eiE1gAe56cH5OIAoY05E8vsbk8Nzv8QGmCrNWxLUbEkjJOjVlRww4&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=1TVj0v1B52bMwn6BOj8INA&_nc_ss=7f289&oh=00_AQFAqrenhgNYWmPLKkAyELXZECeA05NrQEKWYTZL3M9Cmw&oe=6A84DD77",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 0,
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0MDKHSXwcL5ZyVZyEhnpLQjUeQZDnnoVmpthU93yC6VFfD8KFa1iGuzjcWoxTyjgvl?__cft__[0]=AZac5-acwfCELjtt09rFuVwfFv2ZBEXRv924_34DMLN9QwpukTjGa9tcSYVqUMXqpPPB7F-blKJZu1BLs_-gddgq6nxGCE7vvM37VUBV5rLVGwaj3tbn__j25RCavhb3QfMPr9qlRJ55Alu6p0CHBny_6s0YR5TlR3XmOiioxqlllFlx2BslZXJ8_LOnSAodCo0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#AMUN | Alcalde Dockweiler fortalece la educación en La Paz con la entrega de mobiliario a la Unidad Educativa Panamá.… Ver más Cuando en otras escuelas, hay que tener muñeca. Ver más comentarios Andres Roque"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0MDKHSXwcL5ZyVZyEhnpLQjUeQZDnnoVmpthU93yC6VFfD8KFa1iGuzjcWoxTyjgvl?comment_id=1072047648654597&__cft__[0]=AZac5-acwfCELjtt09rFuVwfFv2ZBEXRv924_34DMLN9QwpukTjGa9tcSYVqUMXqpPPB7F-blKJZu1BLs_-gddgq6nxGCE7vvM37VUBV5rLVGwaj3tbn__j25RCavhb3QfMPr9qlRJ55Alu6p0CHBny_6s0YR5TlR3XmOiioxqlllFlx2BslZXJ8_LOnSAodCo0&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Cuando en otras escuelas, hay que tener muñeca. Andres Roque"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_alcaldia_el_alto",
+      "name": "Gobierno Autónomo Municipal de El Alto",
+      "url": "https://www.facebook.com/ElAltoAlcaldia/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "La Paz",
+      "city": "El Alto",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NPnm437uyf4Q7kNvwF4a9dv&_nc_oc=Adp-h4dAjeSqNsleVaayTB-uI8ujyFrRO1wsVxhB1b4iTC3WscHbOZg8W6QzW7NB3RA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=OV59ApRXLkagbz2-mVNZoA&_nc_ss=7f289&oh=00_AQHZK0YRKwJJ-yQt33ejzJljHBJbwk8lZTCCyuZe3ZkhgQ&oe=6A84FBC0",
+      "status": "ok",
+      "raw_items": 3,
+      "events": 0,
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1276052737826886/?__cft__[0]=AZZBAOTMGY7Z6fBCyeA3tBgDB7P6siJSkeOsHV26h7G3uHJmaQEHnVemVul6b5lgJjS35Y_TWxRF6CPLm5uIl8FxRGADaq_g98orQkieuO1Vs1tO3Z6Z3o6bNcaS9FkEVAoxqQ2q1ZI-3KqMuWxRHitEn4-xfV1Dhb2Ty-Zn_QMWcW_x--AfV1LhsGgqLR7Num2rcI515UR8UkK745ETy8OZ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "El programa PAN Manitos abre sus puertas para recibir a los más pequeños en un entorno lleno de amor, cuidado y diversión. ¡Los esperamos con los brazos abiertos!… Ver más El programa PAN Manitos abre sus puertas para recibir a los más pequeños en un entorno lleno de amor, cuidado y diversión. ¡Los esperamos con los brazos abiertos!… Ver más ¡Los esperamos con los brazos abiertos! Bolivar Ramos An"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1276052737826886/?comment_id=3225304974336157&__cft__[0]=AZZBAOTMGY7Z6fBCyeA3tBgDB7P6siJSkeOsHV26h7G3uHJmaQEHnVemVul6b5lgJjS35Y_TWxRF6CPLm5uIl8FxRGADaq_g98orQkieuO1Vs1tO3Z6Z3o6bNcaS9FkEVAoxqQ2q1ZI-3KqMuWxRHitEn4-xfV1Dhb2Ty-Zn_QMWcW_x--AfV1LhsGgqLR7Num2rcI515UR8UkK745ETy8OZ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "El programa PAN Manitos abre sus puertas para recibir a los más pequeños en un entorno lleno de amor, cuidado y diversión. ¡Los esperamos con los brazos abiertos! Bolivar Ramos Antonior El programa PAN Manitos abre sus puertas para recibir a los más pequeños en un entorno lleno de amor, cuidado y diversión. ¡Los esperamos con los brazos abiertos!"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1276052737826886/?comment_id=3225304974336157&reply_comment_id=1092858013064974&__cft__[0]=AZZBAOTMGY7Z6fBCyeA3tBgDB7P6siJSkeOsHV26h7G3uHJmaQEHnVemVul6b5lgJjS35Y_TWxRF6CPLm5uIl8FxRGADaq_g98orQkieuO1Vs1tO3Z6Z3o6bNcaS9FkEVAoxqQ2q1ZI-3KqMuWxRHitEn4-xfV1Dhb2Ty-Zn_QMWcW_x--AfV1LhsGgqLR7Num2rcI515UR8UkK745ETy8OZ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Bolivar Ramos Antonior cusles sin los requisitos Faby Rishi Lite"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_gobernacion_lapaz",
+      "name": "Gobierno Autónomo Departamental de La Paz",
+      "url": "https://www.facebook.com/gobernaciondelapaz/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "La Paz",
+      "city": null,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=h-hqdnRCnfYQ7kNvwF1F4yS&_nc_oc=AdpdRPa1PlSbtNPpJjnCoKBFCcm3wjMBA6DNZ-fsiKoeBQr2ehIfd9Nvv2ByrhfiIeA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=8-wqkoWrPalb09YDdROwrw&_nc_ss=7f289&oh=00_AQE5XLC18lgXvj5WqR-DW-ca3b7eQ0PdLdjEhaw-jgTq2w&oe=6A84E838",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/979304718497675:979304718497675?__cft__[0]=AZb5hO8QmqMMTLb9otY5ytIkFosA7KUHMu_uSgmBWBtD4hV3XttNQmj2NG05o8fVexji0Pty9jPSI8yNOBeH_EJPLhoerK67BRC3uArIclyOSRZhduniWXpKMMAGFKeHpF3lcI3-AbDVNGvLMfh7ZrAxONt6ZRo7A4dDzdm2lATuy_lu11CaRmUCln-t_acJAxY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Gobierno Autónomo Departamental de La Paz actualizó su foto de portada. hace un momento"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_gam_cbba",
+      "name": "Gobierno Autónomo Municipal de Cochabamba",
+      "url": "https://www.facebook.com/gamcochabamba/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Cochabamba",
+      "city": "Cochabamba",
+      "icon_url": null,
+      "status": "blocked",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+    },
+    {
+      "id": "fb_gob_cbba",
+      "name": "Gobernación de Cochabamba",
+      "url": "https://www.facebook.com/GobernacionDeCochabamba/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Cochabamba",
+      "city": null,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WluLECF7A4sQ7kNvwEnpqNL&_nc_oc=AdrF3D0pwvGV6mYgr5z6P_yOI5UlMW8hc6wWKn4IwAGf7291eF1pNGCmpCieD_WIxqI&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=eNF-0YwIGtGriltPk4Dlvg&_nc_ss=7f289&oh=00_AQFBnP-YJNgIBENU7xfWN8SwcWimP-WJT5g3XQMf6DnnZQ&oe=6A84E257",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": null
+    },
+    {
+      "id": "fb_gamscs",
+      "name": "Gobierno Autónomo Municipal de Santa Cruz de la Sierra",
+      "url": "https://www.facebook.com/gamscs/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Santa Cruz",
+      "city": "Santa Cruz de la Sierra",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9vKvZhybqIsQ7kNvwGA74Mz&_nc_oc=AdqJdGdRl8iorebuXFtRLE_A_DS3QRu4Xk0NencZxXSIcFkSWeYpmrJ4KupDPn7KNrA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=FtC97fAy3fHLNIhC_tTr6w&_nc_ss=7f289&oh=00_AQH_9hy9uTTrJPd7cbYk6CusnyYSobRx6bqGYs-hAZ2vfg&oe=6A8504E1",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1367540184842611/?__cft__[0]=AZZ5WUDEvsmwS9MWG0X6hXrHupWPf2woNZ1hNUhdS-R1hsaGz6urOJJkO35I6Utp55cIKc-5UphciyiIK9XPJFft2cMh68SErVl20NgVsSib6RsNwHre0E7yhgyX-vQ9EVXZ2Di5A-nU-GfmKum4CHncZN0FYLSsc_UxiNjO8lptGhTxS8z-Bh4lqKB-FknFahIy9HxUr0iCxTcdP6TxrNe6&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "EL MUTUALISTA NO SE VENDE, SE DEFIENDE.… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_gob_scz",
+      "name": "Gobernación de Santa Cruz",
+      "url": "https://www.facebook.com/GobSantaCruz/",
+      "type": "facebook_public",
+      "source_class": "municipio",
+      "tier": 2,
+      "region": "Santa Cruz",
+      "city": null,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Nt0xJL99Te8Q7kNvwGacCVb&_nc_oc=Adp_lf3LP-wIoXPJHT1HgI4fH4cZkUKvLGf1mZYLJwj9sNn4ZOw3gsYig3cH2Kns6BA&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=IUhtx85ycpEg2sjUs1_hJA&_nc_ss=7f289&oh=00_AQGepPn8uqp4jM9avsE5HjbD4F3eaS_c6yHs-Sv86k6LUg&oe=6A84EF7E",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/SecSostenibleymedioambiente/posts/pfbid0ao3mcNqzfFjbsM5CaPL93sm5rDit64Ej2oHNW7MeasEhSix2fMkqeLycEDM8w7Qsl?__cft__[0]=AZbVcwrTcQ7oXB2UZO0OE81m34lmhL4zDnYCu9-cW8eYXF4qSU3mxAEkdfBh5hgK6AnilqgjKwFYiN0lZly04hV-qbZqiwjiuOfSLVMmHP2YmdKe5HbbQ1WN9GY0g_Z0rbfV156HwSd8SlowpkJCl81ReiLPeaNXZ8tn5-tARIKw_XjyRhlggFychj1qkTJ5Ds0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Inició el I Encuentro Internacional de Intercambio de Experiencias en Gestión de Causas de Incendios Forestales… Ver más"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_lostiempos",
+      "name": "Los Tiempos",
+      "url": "https://www.facebook.com/LosTiemposBolivia/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "Cochabamba",
+      "city": "Cochabamba",
+      "icon_url": null,
+      "status": "blocked",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+    },
+    {
+      "id": "fb_opinion",
+      "name": "Diario Opinión",
+      "url": "https://www.facebook.com/DiarioOpinion/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "Cochabamba",
+      "city": "Cochabamba",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ve-D0Ree6LIQ7kNvwGJZ29f&_nc_oc=AdorX00SFa1_WYSHGpMGX8kcKNhWJn5Eb0JujrU54JJUx3kxST8hSAVUxE_AJblSLM0&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=9jZ2vfvO7XprzVtTSJghHQ&_nc_ss=7f289&oh=00_AQHMJE7Mm51CkzcAp1ZoyE2ge7zhFBLf3mWgS8cdJUxQ8w&oe=6A84EDBE",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "festival",
+          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid0ev7Ja1xernzrS7ovpweN3w3HeKcmynFAW3Uj1jc9StDDF51QxVZX9mmv3VitXF2Yl?__cft__[0]=AZYay9X8OZ0PYrZ-eaoPIBDJ99tF9O6FeZszXUQ-INBVo0IIMoLt-YvO_7ahzge8_arhpd-RQdT4ryT8n9GfQkh7DGwOXkspVZ99lX7uIYaGsfAN0Eb6Z8tYIptHZbIqr1opin8SEng9bqRV2suXxMDfar2J9WtboHg9PkUsjXvXr8Vz6EpMwFlUrmW77_2KbfJ7SxXW_kfbNqtM2Tz4bLqVb20y5jQv9o-7ZQmTTHR-Vw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Este es el cronograma de actividades y el rol de ingreso de las fraternidades participantes en la festividad de la Virgen de Urcupiña. Este es el cronograma de actividades y el rol de ingreso de las fraternidades participantes en la festividad de la Virgen de Urcupiña. ¡Vivamos juntos la gran Entrada Folklórica de la Festividad de la Virgen de Urqupiña! Invitamos a toda la población a ser parte de"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_eldeber",
+      "name": "EL DEBER",
+      "url": "https://www.facebook.com/GrupoELDEBER/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "Santa Cruz",
+      "city": "Santa Cruz de la Sierra",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=o0tF5aLfrNIQ7kNvwFc5Qpg&_nc_oc=AdowYVZ8aPf0btAaCmcmUKni_jgT5cnKLtwykAroLivLcVIZ93ok9s7h1ujvh0-mauY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=E4hS2ciBr8AmfHbXRfRDLg&_nc_ss=7f289&oh=00_AQFsowqY708iHZp1utJv6HykyMc0Yk_2_uAclmmubuV-AA&oe=6A84F50C",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid0mLqt5isTPTEUGntUFhbzix3ejWTv3ucDiT7ypjoR7evJ7Pfcyb827aHZFSpSGkfzl?__cft__[0]=AZYD2-e_318e66vxQz2w9jTWSmHd_ofwc_pPWzSiaf4soR_jIKhawUHb5VvLKGjlmITaW1cOLkXWRa2a7-PWyGSYp_Yt60kdiCL4ms4WfZSy44M1LwNYorEqDQbL52YZsIsraM4556YJ6QWZlM5UCsUMI22wvllY8FvhjwYkJr2QWtImSS21bLTAgnBCTI1d5BQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Rafinha superó la molestia que lo tenía en duda y se perfila como titular para el duelo ante el Tigre. Guabirá buscará hacerse fuerte en Montero y salir decidido a qued… Ver más DIEZ.BO Rafinha tiene luz verde para jugar en Guabirá"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_reduno",
+      "name": "Red Uno de Bolivia",
+      "url": "https://www.facebook.com/RedUnotv/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=bof_syspR0IQ7kNvwG7aRSW&_nc_oc=Adqwl4kv1ST5HMblHuPCZiK_c8sPmL4H3VMaUeEbSDupCd0H2C2LJqnrhjLE-dKR5zY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_ss=7f289&oh=00_AQEE46xZ42Hvkc0j8nFn8YHiJa1swKtdj-CJcY3hnIidYA&oe=6AA69CFA",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/RedUnotv/posts/pfbid0nvUGFm6NHkjbDLT8h3icDgUsKNmrKcZnmm7bf9R4QKAR8rybWsvBK5pz7pZWVNril?__cft__[0]=AZZeM0tGSjYNAVAr7VSE6zRvylDwFHDfLmLeZ7F9I6TcAsZ7jpLMwBiPvvLgzjly5b2UdokEfNh1zAKmvxvSVdRpjSqnr1UuM-wK0_nJAPmnXli30U48bccPaJHJc9smNKulSCMxEqqC3c79APC1ohsAVP1poDsI8eCQcc2HcXItVo0PfpGC2E6lnzb2nklseMY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Lee la noticia aquí: https://r-1.tv/417ffd Los controles dejaron tres intervenciones: dos adultos fueron puestos a disposición de las autoridades y un adolescente qu… Ver más Lee la noticia aquí: https://r-1.tv/417ffd Los controles dejaron tres intervenciones: dos adultos fueron puestos a disposición de las autoridades y un adolescente qu… Ver más"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_unitel",
+      "name": "UNITEL Bolivia",
+      "url": "https://www.facebook.com/unitelbolivia/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9pw4eqKCyyIQ7kNvwGmdlRS&_nc_oc=AdofA6sXngEWkgNxh3nFy2nyHR3tThCYz4q9bL-jFLEXfrTq9b72ukpY2I1SzN9r410&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=lUMBkanc7AgLnfwF11t_Vg&_nc_ss=7f289&oh=00_AQGrxSZf0yVJRoG0mXhs5PUfysekWvaQDYbxw-AqVFmjFA&oe=6A8504BF",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 13,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/899910793195386/?__cft__[0]=AZboKXvWwbdSnoqZyqiDQF6oAc7bwTDOQkw1u3YTyjkiv5jQc5xrzJCHVL2x31gyjBmnv1JpzD30JsV_pacbqgHE3HsIcsZC6rij3Wis5b5tcqtG3SsyxrToQZBD1GAP_3csEaSJjUA7ST9JkV0ue9ULIGjr8GvjCXoyJaOOis3Pb9RCml-fgeFum6SJrwWfojqyxkbxpCjqTFnLphow_-ke&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La Policía investiga un secuestro registrado en Santa Cruz, donde los captores exigían Bs 700.000 para liberar a la víctima. El hombre fue encontrado con heridas de 4rm… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_atb",
+      "name": "ATB Digital",
+      "url": "https://www.facebook.com/ATBDigital/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FZlKt5OyNrQQ7kNvwFp96ms&_nc_oc=Ado7-IU9u18dlKSb6oHGBRvKdOd0WF0VNe9i0X9T7AhK03HBg5kdDntZUSG3viSeiYw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=oXE0NA838nVVafoE7_cs-A&_nc_ss=7f289&oh=00_AQHqguJ1w7kx0-UyMZJCBd7U_J9uznfPpllH8bLgDzfYMQ&oe=6A850501",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/ATBDigital/videos/1528195508610498/?__cft__[0]=AZYw0jcbWx66gihm6p7lrQOkwLO22lvwdYE_CEIWZw3-xn-sQDTN7JrrO4SPjBXUJLVHmPPfUmsdO72cLRcVP4pfEk86M8g6rTSxXBo0U3xF6Aav5lB2VTstv7z2jEqGrIzg2KrS6WaAYX36aFh_rQEt7y8EFfe-OKTbFGX0D53F3N4DQmUXBU7oFB3PARK-Vt3jL1ksuas-aPmEcySQL-41&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#EnVivo | \"Tu Mañana\" ¡Comienza tu día con buena energía!… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_bolivision",
+      "name": "Noticias Bolivisión",
+      "url": "https://www.facebook.com/NoticiasBolivision/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lOUyXXqIO6MQ7kNvwEjcI5D&_nc_oc=AdqXrEhjaG67RyFdUm6iHsPz_oje7sUZPY652NuSNaFFX-m7nWYuy15I-mbs5tIWa2g&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=N_2xMWEZCbyaRkawJ2Wrcw&_nc_ss=7f289&oh=00_AQEUNChJfd_McRYvKHWp1pRPHPeJWQJhRoZ6TU8BtV0mPg&oe=6A84FFCC",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/NoticiasBolivision/posts/pfbid05JGiYMHMum3spPMUC2FG7vZR6TN1AfqUGnnTLZFRAeLxVg9wFPjucN5TpY1hFtSkl?__cft__[0]=AZaKFIz9p4d725acAiJPCmnefl-V13ljmSqkvAIFw76Y1JRoDqTTPC7Ry0cOgiBlmM-JXZaXDXUdystNAOSc0QCpQKALgE9V5FBRIqENCaJ9tpQXOitO6kPXEshD2aw4Z4WaGrDSFiVUIO0NiOZJlYZkD4ny8UdZO3YW9lSSnqqpabNty-QzhDV_zKyb_PtY8WG85-fTTo0frZdAxgem9BOZtvvZdF1DioFD-871LZ5Hhg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "El frío dejó daños en bofedales y crías de camélidos … Ver más Red Bolivisión 1 h ·"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_erbol",
+      "name": "Periódico Digital ERBOL",
+      "url": "https://www.facebook.com/ErbolDigital/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/762867835_1486603256840062_112288559762726375_n.jpg?stp=dst-jpg_tt6&cstp=mx494x494&ctp=s494x494&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GTFdLVUeDsUQ7kNvwGZYoId&_nc_oc=Adp62sAm5MGgKN36SfAoTNPgDg0tg17Po586PHmRX6-Qntxzv3Z00VNMF_JAHzTYjvc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=UiLReE2a36GW3WpB2Psykg&_nc_ss=7f289&oh=00_AQEa81IU3oTLU1gHfgKUo8HE2N3sD5DaO7_XneqQd0XnTg&oe=6A84D7C4",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 54,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid02rwXLFoAAACiUoCR6N9xZ8HAfLERUDtbwwrQe8ggfPTpG5u3ejTRVPq8WhjTaQBW7l?__cft__[0]=AZaRO-HBCNq9nZZz628fG04JDbgEmTtOUW3EfNGcGIeI7shw290I2tBy0kXx4IQG74vX3l8xaQd7XL_4z-kXJvTHVAwg6uf-5n4qBGUh2h2zYy79oq1htgKxnvIfg-YLJZQebi5Aij7wrhEcSoG4nluR5PAYgBNjPtx2lOCe2k73V4dc-bJR-MTMGeK0Cyo1nekshzfpgiMQPg18KzJO7R36&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#ERBOL | LA REVISTA DE ERBOL 𝐋𝐀 𝐌𝐀Ñ𝐀𝐍𝐀 𝐄𝐍 𝐃𝐈𝐑𝐄𝐂𝐓𝐎 𝐅𝐞𝐜𝐡𝐚: 14 de agosto de 2026 𝐇𝐨𝐫𝐚𝐫𝐢𝐨: [9:07 a 11:57 AM] #erbol #bolivia #Endirecto #programa #noticia #urgente #interesante #música #ERBOL | LA REVISTA DE ERBOL 𝐋𝐀 𝐌𝐀Ñ𝐀𝐍𝐀 𝐄𝐍 𝐃𝐈𝐑𝐄𝐂𝐓𝐎 𝐅𝐞𝐜𝐡𝐚: 14 de agosto de 2026 𝐇𝐨𝐫𝐚𝐫𝐢𝐨: [9:07 a 11:57 AM] #erbol #bolivia #Endirecto #programa #noticia #urgente #interesante #música #ERBOL | LA REVISTA DE ERBOL 𝐋𝐀 𝐌𝐀Ñ𝐀𝐍𝐀"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_el_diario",
+      "name": "El Diario Bolivia",
+      "url": "https://www.facebook.com/eldiario.bolivia/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oDkWXNN9ClgQ7kNvwHxCmYG&_nc_oc=Adox37R4nqJKdoobIJMvuiqxWll2t4VZOBVJqquKIRCGc9HnZZzkcmtt9LXOGTvaHSs&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=zy0WKmdbohMtjwqzUxTDEQ&_nc_ss=7f289&oh=00_AQEU6Sdaf95xJ6lX2CYIv7lWZ-HBYytlsMEB3sNS2Xh8rQ&oe=6A850621",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid028VGmYSuR8yRnpU2iMYqrxrxSYq21AF6E1eJkWn6aPXzHCfP5dXXX7C8VjdAu3vXtl?__cft__[0]=AZaqahLvW84G6lih0uPPPYzNT9ajawHcBayEHVtKVvFbvQ2fTjxz-cMIlMbqCAlXmWvRyWLPg_qr5zAXYhYRe0auYdrolxVRObtudYMIvaaXuzQ91iuG4qmapt55a9XID_7U2bffkUgnOEPud9tK2cevmToaaoOp44vHXVHJkC-AUTlR_xxCLOTVga0jZ-2mjK5Pozjz3eknDqyA0dn6wDDw&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Sin agua por 18 horas: revise la lista de zonas afectadas en La Paz (09:30) Mira la nota aquí: https://youtube.com/shorts/mrmKdky1xdI?feature=share… Ver más Sin agua por 18 horas: revise la lista de zonas afectadas en La Paz (09:30) Mira la nota aquí: https://youtube.com/shorts/mrmKdky1xdI?feature=share… Ver más YOUTUBE.COM Sin agua por 18 horas: revise la lista de zonas afectadas en La Paz Prepár"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_radio_fides",
+      "name": "Radio Fides de Bolivia",
+      "url": "https://www.facebook.com/RadioFidesBolivia/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xchXxnWzbm0Q7kNvwFND96y&_nc_oc=AdodOCkOeCrMB6i27nLn3WIot4SFL5vNXW1NEVXrB-YS4p5VOCKVssPErhqgl1NRelk&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=yHBALrdc_YD5pHRmmO7kOQ&_nc_ss=7f289&oh=00_AQEyt7OtDxO_kA-4B7Iue_DrDMZrzYtHc9FL88typyjMwA&oe=6A84FA48",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 0,
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1781732212823886/?__cft__[0]=AZbmnktbJBsCMwLs0H7-KLVeAL3DRcGkxT6UKOXXH6kGZRlb4OJ_UR7kr-CvFw70szLf6QU9OnuYMwvVpddNhAPIS18Yet2nRTBr0oBA1SiEWT9gXhzxxNz_DtOJwd59nABo91mdoeHtSLd4xIesVuvfQobIbFvEJZjk-bOEBJ5cHdad4bwePcfF_gTJdbsVZKXPrPCZZEQR6__tSTF_haly&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#GrupoFides | #RadioFidesLaPaz #Economía El analista económico Julio Alvarado señaló a Radio Fides que la escasez de combustibles genera presión sobre los precios, ind… Ver más Que analista se aplazó, con eso los privados se harán más ricos. Tenemos problemas para reproducir este video. Más información Nelson Llusco"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1781732212823886/?comment_id=803122539524244&__cft__[0]=AZbmnktbJBsCMwLs0H7-KLVeAL3DRcGkxT6UKOXXH6kGZRlb4OJ_UR7kr-CvFw70szLf6QU9OnuYMwvVpddNhAPIS18Yet2nRTBr0oBA1SiEWT9gXhzxxNz_DtOJwd59nABo91mdoeHtSLd4xIesVuvfQobIbFvEJZjk-bOEBJ5cHdad4bwePcfF_gTJdbsVZKXPrPCZZEQR6__tSTF_haly&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Que analista se aplazó, con eso los privados se harán más ricos. Nelson Llusco"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_anf",
+      "name": "Agencia de Noticias Fides - ANF",
+      "url": "https://www.facebook.com/ANFidesBolivia/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eVTowTB4U4UQ7kNvwGtpOUY&_nc_oc=Adp1rpOWz2UsIPjadNHReQsVNlevnVT2dIIsr7Nby080ttDiv-8sqBDqLaoHGHQs3JU&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=QF5B3VTDeO1oL-FlSncScA&_nc_ss=7f289&oh=00_AQF0UjZSbggIqxD7Hh_ZTxobJEfv5NZBghc_5-UsSxVzkQ&oe=6A8508BA",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ANFidesBolivia/posts/pfbid02vs1U5Buonw6cxMc642R5vR321wze1PqGD5PbK3USz4ohnpv66NZDTAnrP5V6Z67Gl?__cft__[0]=AZY13QaAnLY36vuFPMPuwrljZPAmq0IVui5xHqRvMdc6JfIsEfGUEjyj3s2GZVl766n4YBZVGTwqpogrMFLakYqdNLFzHrOFFM9pGHAECGdXOsPOxurDRVAgq1jFAFMt9eKUNXhJXI-J4M7YTQB7Fs7jc6A4UZXYbh2SBRDq1bnuDjCKlsDbFXGTMfx--THnVok&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#GrupoFides | #ANF #Política “Para materializar esto, necesitamos un Decreto Supremo nacional que nos permita establecer esta relación entre el Gobierno departamental… Ver más"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_rtp",
+      "name": "RTP Bolivia",
+      "url": "https://www.facebook.com/rtpbolivia/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ji22wCrPJaUQ7kNvwHAg8fx&_nc_oc=AdrEeDSwkjzLmcSsxLE3_AcxxM1_pldBJkZOcv0cQg5HF56gFtxKLpoGNi2hMJ7EuxA&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=YAZva-l9LHdZr2hkVnb4ZA&_nc_ss=7f289&oh=00_AQHJPQ-wf97gG6YkdhQ_sHOjmABIbNWLOZrlJIOPntTv7A&oe=6A84E205",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/rtpbolivia/posts/pfbid0SeAk4pqrpWbbXGLE5m4RGkzKAkMZJvbZ6YPS48MYdwAn9GcsHQH6YAF8ChWa1QDTl?__cft__[0]=AZZnPgvMTCjOMo41QGst3inkfmT75KE-PmxRz_oiSfeCGm7HkPOhQj4XcawGfRQisXY7ZiGDRTbRudd-a_NILQWN_NCvvpqncGWQBgboIfeB0NVhWTnAvUcGs2eI9WETJTxp7h-lnY8WyMnQlTc7ngbZx0dI8W0ZdbFKNbyfDyCgSlZHFw3uDvvh30NjyqEtagA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Opinión Invertir sin obedecer consignas… Ver más #Opinión Invertir sin obedecer consignas… Ver más"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_abya_yala",
+      "name": "Abya Yala TV",
+      "url": "https://www.facebook.com/AbyaYalaTv/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LXh2VWUU1r0Q7kNvwGfn-rM&_nc_oc=Adq6xsVky6lCZwMbjes747jlrDMUokEcky8hpqbOndoxTOdk7W69BJAxaTuwdc4mjus&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=betrg5fzlfOqcaJC_-6W3g&_nc_ss=7f289&oh=00_AQGDn-ghO4QYNRAkK2UaQkq23HMnK0Jj1aBkVkFPFwpHkg&oe=6A84E942",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4544216965815717/?__cft__[0]=AZZGeQ6QAIpqXpKDuqVPv0krRpNgpLvxm-vlLyvYTIrazMbll5C3opsRINY2I9e9AhDqbDr5hUNs0gWLKT4zTfn-ltNTn0Bc_gnimKbLSRLu43V-tOTWsbU0_xdA2Pc9-PBi_1H-xrLwxkM_dklC1iF837PTeDgFR_MHglb8UlbhpfxdRVpHItpNLObeYa2q-nl0azD5Iw4n7pgbxy3OPWyP&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#Internacional La sequía en Roma deja al descubierto los restos del antiguo Puente de Nerón en el río Tíber.… Ver más #Internacional La sequía en Roma deja al descubierto los restos del antiguo Puente de Nerón en el río Tíber.… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "fb_eldeber_radio",
+      "name": "El Deber Radio",
+      "url": "https://www.facebook.com/eldeberradio/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "Santa Cruz",
+      "city": "Santa Cruz de la Sierra",
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: Facebook bloqueó otra fuente antes en esta misma corrida."
+    },
+    {
+      "id": "fb_fides_cbba",
+      "name": "Radio Fides Cochabamba",
+      "url": "https://www.facebook.com/radiofidescb/",
+      "type": "facebook_public",
+      "source_class": "media",
+      "tier": 3,
+      "region": "Cochabamba",
+      "city": "Cochabamba",
+      "icon_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PxbNeyi_AUEQ7kNvwHCC4Nv&_nc_oc=AdovZicI6XqEAQAzRN7UtWP1s-d2TbQmUwsiHSHiUtzHrZiHBZwd27EdxN3AaGtZecI&_nc_zt=24&_nc_ht=scontent-lhr6-1.xx&_nc_gid=9kvpgTGxV0UD3C_Rpm9sgw&_nc_ss=7f289&oh=00_AQG7mUC6WlteN_tX5Jm8bycuTU6gXMsEc0idNxe2qWWWTw&oe=6A84FCB7",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 2,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/reel/1531916315350534/?__cft__[0]=AZZ3tDL0TH39vDOa513hP4NWY4qP4QCgQNbW1cVMzsCi6tgqQvThWlLj-VSnYvhFpxEWumOrgwcJpqfPa_fZr8zezlnJ5zk7gV7tsXGrgLgBGeZerpFAm3u6-EX3wSB7hhsaJq3e77bUVHUrpL0OcLgN_dDqx73MrTfPxxnK1vnhslVw7jzndg01u5ffHs-bCnDIWrEvuH3M2pM1zk3ZTnwD&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#GrupoFides | #FidesCochabamba RESUMEN DE NOTICIAS 13/AGOSTO/2026 Estas son las noticias más importantes de la jornada. Mantente informado siempre por Radio Fides Coc… Ver más #GrupoFides | #FidesCochabamba RESUMEN DE NOTICIAS 13/AGOSTO/2026 Estas son las noticias más importantes de la jornada. Mantente informado siempre por Radio Fides Coc… Ver más Tenemos problemas para reproducir este video. Má"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "web_superticket",
+      "name": "SuperTicket",
+      "url": "https://superticket.bo/",
+      "type": "generic_web",
+      "source_class": "ticketera",
+      "tier": 1,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
+      "status": "ok",
+      "raw_items": 8,
+      "events": 6,
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://superticket.bo/",
+          "has_image": true,
+          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "feria",
+          "url": "https://superticket.bo/Curso--Inteligencia-Artificial-para-Emprendedores-Bolivianos/",
+          "has_image": true,
+          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "web_ticketbo",
+      "name": "TicketBO",
+      "url": "https://ticket.bo/",
+      "type": "generic_web",
+      "source_class": "ticketera",
+      "tier": 1,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://ticket.bo/apple-icon.png?apple-icon.0jzg6hgv0mw3e.png",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 43,
+          "category": "teatro",
+          "url": "https://ticket.bo/",
+          "has_image": false,
+          "text_preview": "Bolivia en modo evento VIVE BOLIVIA SIN LÍMITES BUSCAR Conciertos Teatro Folklore Arte Deportes EVENTO ★ Evento destacado EL VAR La Gran Final 19 de julio 2026 Zu Desde Bs. 100 Ver evento → La Paz ✦ Santa Cruz ✦ Cochabamba ✦ Conciertos ✦ Folklore ✦ Teatro ✦ Experiencias ✦ Arte ✦ Deportes ✦ La Paz ✦ Santa Cruz ✦ Cochabamba ✦ Conciertos ✦ Folklore ✦ Teatro ✦ Experiencias ✦ Arte ✦ Deportes ✦ EVENTOS "
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "web_tuentrada",
+      "name": "Tu Entrada Bolivia",
+      "url": "https://tuentrada.com.bo/",
+      "type": "generic_web",
+      "source_class": "ticketera",
+      "tier": 1,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": "https://tuentrada.com.bo/media/configuracion/ISOLOGO_NEGRO.png",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 0,
+          "category": "exposicion",
+          "url": "https://tuentrada.com.bo/",
+          "has_image": true,
+          "text_preview": "sobre Nosotros × Quienes Somos? Somos una plataforma digital especializada en la venta y promoción online de entradas a eventos . Nos enfocamos en ofrecer el servicio de venta de entradas para todo tipo de eventos (conciertos, teatros, fiestas, eventos deportivos, espectáculos, conferencias) y más. Queremos convertirnos en ser la empresa líder del país en la venta de entradas a eventos, innovando "
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "web_passline",
+      "name": "Passline Bolivia",
+      "url": "https://passlinebolivia.com/",
+      "type": "generic_web",
+      "source_class": "ticketera",
+      "tier": 1,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+    },
+    {
+      "id": "web_agenda_jiwaki",
+      "name": "Agenda Jiwaki - GAMLP",
+      "url": "https://agendajiwaki.lapaz.bo/buscar-eventos/",
+      "type": "generic_web",
+      "source_class": "cultura_oficial",
+      "tier": 1,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "[Errno -2] Name or service not known"
+    },
+    {
+      "id": "web_lapaz_cultura",
+      "name": "Eventos culturales - GAM La Paz",
+      "url": "https://lapaz.bo/eventos-culturales/",
+      "type": "generic_web",
+      "source_class": "cultura_oficial",
+      "tier": 2,
+      "region": "La Paz",
+      "city": "La Paz",
+      "icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://lapaz.bo/calendario-cultural/",
+          "has_image": false,
+          "text_preview": "Portal de Eventos Culturales de la ciudad de La Paz Descubre y explora los eventos culturales de nuestra ciudad Eventos - Calendario Calendario de Eventos Mes Año Septiembre 2025 Lun Mar Mié Jue Vie Sáb Dom Cargando eventos... Calendario Embebido Cargando calendario..."
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "web_minculturas",
+      "name": "Agenda Cultural Plurinacional - Ministerio de Culturas",
+      "url": "https://www.minculturas.gob.bo/agenda-cultural-plurinacional/",
+      "type": "generic_web",
+      "source_class": "cultura_oficial",
+      "tier": 2,
+      "region": "Bolivia",
+      "city": null,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "[Errno -2] Name or service not known"
+    },
+    {
+      "id": "web_lostiempos_agenda",
+      "name": "Agenda Cultural - Los Tiempos",
+      "url": "https://www.lostiempos.com/servicios/agenda-cultural",
+      "type": "generic_web",
+      "source_class": "media",
+      "tier": 2,
+      "region": "Cochabamba",
+      "city": "Cochabamba",
+      "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
+      "status": "ok",
+      "raw_items": 13,
+      "events": 1,
+      "rejected": 12,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 27,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "13/08/2026 Interesante Eclipse solar regala a millones de europeos una fugaz noche En medio del atardecer se hizo la noche. Un eclipse solar sumió ayer en la oscuridad desde los confines del Ártico ruso hasta las islas mediterráneas de España... vista 13/08/2026 Salud Cómo la intensidad y el tipo de ejercicio influyen en la prevención del cáncer El estudio, publicado en la revista BMC Medicine, an"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 15,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "has_image": true,
+          "text_preview": "12/08/2026 Cultura Quiénes fueron los 5 científicos que más vidas salvaron con sus descubrimientos Durante siglos, enfermedades infecciosas, hemorragias, trastornos metabólicos y períodos de escasez de alimentos estuvieron entre las principales amenazas para... vista 11/08/2026 Cultura El filme “La hija cóndor” se apresta a conquistar México y Francia Tras el éxito obtenido en Suiza, la película “"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 27,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 \"No validaré decisiones con las que no coincido: Zaratti renuncia al Viceministerio de Culturas Ver más 2 Lupo y Camacho son los primeros embajadores d"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "web_fexpocruz",
+      "name": "Fexpocruz",
+      "url": "https://www.fexpocruz.com.bo/",
+      "type": "generic_web",
+      "source_class": "venue",
+      "tier": 2,
+      "region": "Santa Cruz",
+      "city": "Santa Cruz de la Sierra",
+      "icon_url": "https://cdn.prod.website-files.com/6690a19e0f5a04cb6cbb90c0/6690a27b18b1187ab93e2993_fexpo-logo.avif",
+      "status": "ok",
+      "raw_items": 8,
+      "events": 5,
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.fexpocruz.com.bo/",
+          "has_image": true,
+          "text_preview": "El espacio ideal para tu evento soñado Nuestro Centro de Convenciones recibe los encuentros sociales, económicos y protocolares más importantes del país, entre seminarios, simposios, bodas y todo tipo de eventos sociales. Reservá aquí Conocé los espacios"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 36,
+          "category": "feria",
+          "url": "https://www.fexpocruz.com.bo/feria/agropecruz",
+          "has_image": false,
+          "text_preview": "EN Feria Agropecuaria Internacional de Santa Cruz Inicio Ferias Agropecruz Sobre Agropecruz 🗓️ Abril 2027 ⏰ De 17:00 a 23:00. 📍FEXPOCRUZ. Agropecruz es un espacio de intercambio donde referentes del sector agropecuario exhiben ganadería de élite y diferentes proveedores de insumos resaltan las cualidades de sus productos. Los principales productores de proteína animal del país esperan esta activid"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 36,
+          "category": "feria",
+          "url": "https://www.fexpocruz.com.bo/feria/expoagro",
+          "has_image": false,
+          "text_preview": "EN Feria Agrícola de Santa Cruz Inicio Ferias Expoagro Sobre Expoagro 🗓️ Mayo de 2027 ⏰ De 09:00 a 16:00 📍FEXPOCRUZ NORTE ‍ Es una feria realizada en FEXPOCRUZ NORTE, dedicada a exhibir lo mejor del mundo del Agro con tendencias, tecnología e innovación junto a expertos del campo. Son 3 días en el que la Feria Agrícola de Santa Cruz reúne a referentes del sector en un evento de networking, confere"
+        }
+      ],
+      "error": null
+    }
+  ]
 }
