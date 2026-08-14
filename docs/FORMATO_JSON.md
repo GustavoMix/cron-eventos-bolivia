@@ -11,12 +11,18 @@ El liviano trae **solo los eventos vigentes** y **solo los campos de una
 tarjeta**. Suele pesar menos de la décima parte del completo. La idea es que la
 pantalla que se abre primero sea la que menos bytes necesita.
 
-URLs crudas (reemplazá `TU_USUARIO`):
+URLs crudas:
 
 ```
-https://raw.githubusercontent.com/TU_USUARIO/cron-eventos-bolivia/main/data/eventos_bolivia_lite.json
-https://raw.githubusercontent.com/TU_USUARIO/cron-eventos-bolivia/main/data/eventos_bolivia.json
+https://raw.githubusercontent.com/GustavoMix/cron-eventos-bolivia/main/data/eventos_bolivia_lite.json
+https://raw.githubusercontent.com/GustavoMix/cron-eventos-bolivia/main/data/eventos_bolivia.json
 ```
+
+Si el repositorio es privado, `raw.githubusercontent.com` devuelve 404 sin
+autenticación. En ese caso hay dos caminos: hacerlo público (los datos son de
+páginas públicas, no hay nada sensible), o servir el JSON desde tu backend.
+Meter un token de GitHub dentro de la app no es una opción: cualquiera puede
+extraerlo del APK.
 
 ## Principios del formato
 
