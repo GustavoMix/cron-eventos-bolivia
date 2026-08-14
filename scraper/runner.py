@@ -1,19 +1,18 @@
 """Orquestación y línea de comandos.
 
-El runner tiene tres modos, y los tres existen por el mismo motivo: repartir
-Facebook entre muchas IPs.
+El runner admite tres modos para trabajar con un catálogo grande de fuentes
+públicas sin intentar leerlo completo en una sola ráfaga:
 
-1. `--planificar-facebook` decide qué fuente va en qué grupo y escribe la matrix
-   de GitHub Actions. Corre en un job propio y chico.
-2. `--facebook-scrape-group-out` lee un grupo y guarda el resultado crudo. Corre
-   en N jobs paralelos, cada uno con su IP.
-3. Sin banderas (o con `--facebook-raw-in`) hace el resto: lee las fuentes web,
-   junta los crudos de Facebook, clasifica, fusiona, reconcilia con el historial
-   y escribe los JSON.
+1. `--planificar-facebook` decide qué fuentes entran en la ola actual y genera
+   la matrix de GitHub Actions.
+2. `--facebook-scrape-group-out` lee un grupo pequeño (por defecto una sola
+   fuente) y guarda el resultado crudo.
+3. Sin banderas (o con `--facebook-raw-in`) consolida los crudos, lee las webs,
+   clasifica, fusiona, reconcilia con el historial y escribe los JSON.
 
-Correrlo sin banderas en una sola máquina también funciona y es lo que conviene
-para probar en local, pero desde una sola IP Facebook cortará después de las
-primeras páginas. Eso no es un bug: es el motivo de que exista el modo repartido.
+La estabilidad se basa en bajo volumen, pausas, rotación entre corridas y corte
+limpio cuando Facebook deja de mostrar contenido público. No se intenta eludir
+login, captcha ni controles de acceso.
 """
 
 import argparse
@@ -226,10 +225,10 @@ async def correr(
     print("=" * 62)
     if crudos_facebook:
         print(f"Facebook: ya leído en {len(crudos_facebook)} job(s) aparte, "
-              f"cada uno con su IP.")
+              f"con grupos pequeños.")
     else:
-        print(f"Facebook: {len(fb_sources)} fuente(s) desde esta misma IP "
-              f"(presupuesto {settings.get('facebook_paginas_por_ip', 2)} páginas).")
+        print(f"Facebook: {len(fb_sources)} fuente(s) en esta ejecución "
+              f"(presupuesto {settings.get('facebook_paginas_por_ip', 2)} página(s) por job).")
     print(f"Web: {len(web_sources)} fuente(s) en paralelo.")
 
     # Facebook
@@ -370,7 +369,7 @@ def _escribir_csv(path: Path, eventos: List[Dict[str, Any]]) -> None:
 
 def main() -> int:
     p = argparse.ArgumentParser(
-        description="Scraper de eventos de Bolivia, con Facebook repartido entre varias IPs.",
+        description="Scraper de eventos de Bolivia con rotación conservadora de fuentes públicas.",
     )
     p.add_argument("--config", default=str(RAIZ / "config" / "sources.yaml"))
     p.add_argument("--out", default=str(RAIZ / "data"))
@@ -382,19 +381,16 @@ def main() -> int:
              "fan-out de CI. Pensado para redirigirse a $GITHUB_OUTPUT.",
     )
     p.add_argument(
-        "--tamano-grupo", type=int, default=2,
-        help="Fuentes por grupo/job (default 2). Facebook corta después de 1-2 "
-             "páginas por IP, así que grupos chicos pierden menos fuentes.",
+        "--tamano-grupo", type=int, default=1,
+        help="Fuentes por grupo/job (default 1). Se prioriza bajo volumen por ejecución.",
     )
     p.add_argument(
-        "--max-grupos", type=int, default=20,
-        help="Tope de jobs paralelos (default 20). Es el tope real de IPs "
-             "simultáneas y por lo tanto la palanca principal de cobertura.",
+        "--max-grupos", type=int, default=8,
+        help="Tope de jobs de Facebook por ola (default 8). El resto queda para la siguiente rotación.",
     )
     p.add_argument(
-        "--grupos-solos", type=int, default=6,
-        help="Cuántas fuentes de máxima prioridad se llevan una IP entera para "
-             "ellas solas (default 6).",
+        "--grupos-solos", type=int, default=8,
+        help="Cuántas fuentes prioritarias van solas en su job (default 8).",
     )
     p.add_argument(
         "--facebook-scrape-group-out", default=None,

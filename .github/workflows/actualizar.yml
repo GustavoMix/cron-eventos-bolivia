@@ -4,24 +4,23 @@ on:
   workflow_dispatch:
     inputs:
       max_grupos:
-        description: "Jobs paralelos (= IPs simultáneas contra Facebook)"
+        description: "Máximo de fuentes Facebook por ola"
         required: false
-        default: "20"
+        default: "8"
       tamano_grupo:
-        description: "Fuentes por job"
+        description: "Fuentes por job (recomendado 1)"
         required: false
-        default: "2"
+        default: "1"
       grupos_solos:
-        description: "Fuentes de máxima prioridad con IP propia"
+        description: "Fuentes prioritarias aisladas en su propio job"
         required: false
-        default: "6"
+        default: "8"
   schedule:
     # Cada 3 horas, en un minuto que no sea el 0. GitHub interpreta cron en UTC.
     #
-    # Tres horas y no treinta minutos a propósito: un evento se anuncia con días
-    # de anticipación, así que refrescar más seguido no encontraría nada nuevo y
-    # sí gastaría el mismo puñado de IPs contra Facebook una y otra vez. Espaciar
-    # las corridas hace que cada una arranque con IPs "frescas".
+    # Tres horas y no treinta minutos: los eventos se anuncian con anticipación.
+    # La rotación reparte el catálogo grande entre varias olas y evita consultar
+    # las mismas páginas innecesariamente.
     - cron: "17 */3 * * *"
 
 permissions:
@@ -62,25 +61,21 @@ jobs:
         id: plan
         run: |
           python main.py --planificar-facebook \
-            --tamano-grupo "${{ github.event.inputs.tamano_grupo || '2' }}" \
-            --max-grupos "${{ github.event.inputs.max_grupos || '20' }}" \
-            --grupos-solos "${{ github.event.inputs.grupos_solos || '6' }}" \
+            --tamano-grupo "${{ github.event.inputs.tamano_grupo || '1' }}" \
+            --max-grupos "${{ github.event.inputs.max_grupos || '8' }}" \
+            --grupos-solos "${{ github.event.inputs.grupos_solos || '8' }}" \
             >> "$GITHUB_OUTPUT"
 
   # ---------------------------------------------------------------------
-  # Un job por grupo. Cada job corre en su propio runner y por lo tanto sale
-  # por su propia IP — que es toda la estrategia. Facebook deja pasar ~2
-  # páginas por IP, así que la única forma de leer 30 fuentes es tener del
-  # orden de 20 IPs, no insistir más desde una sola.
-  #
-  # fail-fast en false: que una IP quede bloqueada no debe cancelar a las
-  # otras diecinueve, que están leyendo sin problema.
+  # Un job por grupo, con una sola fuente por defecto. Así un fallo o bloqueo
+  # puntual no cancela toda la ola y el volumen por job se mantiene bajo.
+  # fail-fast en false: una fuente con error no debe cancelar las demás.
   # ---------------------------------------------------------------------
   leer-facebook:
     needs: planificar
     strategy:
       fail-fast: false
-      max-parallel: 20
+      max-parallel: 6
       matrix: ${{ fromJSON(needs.planificar.outputs.matriz) }}
     runs-on: ubuntu-latest
     timeout-minutes: 12
@@ -102,10 +97,8 @@ jobs:
         run: python -m playwright install --with-deps chromium
 
       - name: Escalonar el arranque
-        # Si los veinte grupos golpean Facebook en el mismo segundo desde IPs
-        # del mismo rango de Azure, el patrón se lee como una sola flota aunque
-        # las IPs sean distintas. Separarlos unos segundos no cuesta nada.
-        run: sleep $(( ${{ matrix.orden }} * 5 + RANDOM % 9 ))
+        # Evita una ráfaga simultánea al inicio de la ola.
+        run: sleep $(( ${{ matrix.orden }} * 8 ))
 
       - name: Leer grupo
         run: |

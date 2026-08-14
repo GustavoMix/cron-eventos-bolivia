@@ -212,6 +212,9 @@ def test_los_filtros_vienen_contados(entorno):
     assert categorias["concierto"]["label"] == "Conciertos"
     assert {c["key"] for c in filtros["cities"]} == {"Cochabamba"}
     assert {f["key"] for f in filtros["when"]} == {"hoy", "esta_semana", "este_mes", "todos"}
+    assert {f["key"] for f in filtros["price"]} == {"gratis", "pagado", "por_confirmar"}
+    assert {f["key"] for f in filtros["media"]} == {"con_foto", "con_video"}
+    assert {g["key"] for g in filtros["ui_groups"]} >= {"when", "categories", "departments", "cities", "price", "media"}
 
 
 def test_la_fuente_bloqueada_se_reporta_como_tal(entorno):

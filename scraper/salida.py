@@ -96,6 +96,50 @@ def _faceta(eventos: List[Dict[str, Any]], campo: str,
     ]
 
 
+def _faceta_lista(eventos: List[Dict[str, Any]], campo: str, limite: int = 20) -> List[Dict[str, Any]]:
+    """Cuenta valores que vienen en listas, por ejemplo tags."""
+    conteo = Counter()
+    for evento in eventos:
+        for valor in evento.get(campo) or []:
+            if valor:
+                conteo[str(valor)] += 1
+    return [
+        {"key": valor, "label": valor, "count": cantidad}
+        for valor, cantidad in conteo.most_common(limite)
+    ]
+
+
+def _faceta_precio(eventos: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    libres = sum(1 for e in eventos if e.get("is_free"))
+    pagados = sum(1 for e in eventos if not e.get("is_free") and e.get("price_from") is not None)
+    confirmar = max(0, len(eventos) - libres - pagados)
+    return [
+        {"key": "gratis", "label": "Gratis", "count": libres},
+        {"key": "pagado", "label": "Con entrada", "count": pagados},
+        {"key": "por_confirmar", "label": "Precio por confirmar", "count": confirmar},
+    ]
+
+
+def _faceta_media(eventos: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    return [
+        {"key": "con_foto", "label": "Con foto", "count": sum(1 for e in eventos if e.get("has_image"))},
+        {"key": "con_video", "label": "Con video", "count": sum(1 for e in eventos if e.get("has_video"))},
+    ]
+
+
+def _grupos_ui() -> List[Dict[str, Any]]:
+    """Metadatos simples para que la app pinte filtros coherentes sin hardcodear labels."""
+    return [
+        {"key": "when", "label": "Cuándo", "selection": "single", "icon": "calendar"},
+        {"key": "categories", "label": "Tipo de evento", "selection": "multi", "icon": "category"},
+        {"key": "departments", "label": "Departamento", "selection": "multi", "icon": "map"},
+        {"key": "cities", "label": "Ciudad", "selection": "multi", "icon": "location_city"},
+        {"key": "price", "label": "Precio", "selection": "single", "icon": "payments"},
+        {"key": "media", "label": "Multimedia", "selection": "multi", "icon": "photo_library"},
+        {"key": "tags", "label": "Temas", "selection": "multi", "icon": "sell"},
+    ]
+
+
 def _faceta_temporal(eventos: List[Dict[str, Any]], ahora: datetime) -> List[Dict[str, Any]]:
     """Los filtros de "cuándo", que son los que la gente usa primero.
 
@@ -204,10 +248,15 @@ def construir_payload(
         # Contadas sobre los próximos: un chip que promete 40 conciertos y al
         # tocarlo muestra 3 porque los otros 37 ya pasaron es un chip roto.
         "filters": {
+            "ui_groups": _grupos_ui(),
             "categories": _faceta(proximos, "category", ETIQUETAS_CATEGORIA),
             "cities": _faceta(proximos, "city"),
             "departments": _faceta(proximos, "department"),
             "when": _faceta_temporal(proximos, ahora),
+            "price": _faceta_precio(proximos),
+            "media": _faceta_media(proximos),
+            "tags": _faceta_lista(proximos, "tags", 24),
+            "source_classes": _faceta(proximos, "source_class"),
         },
         "coverage": cobertura or {},
         "events": visibles,

@@ -1,35 +1,9 @@
-"""Reparto de las fuentes de Facebook entre los jobs de CI.
+"""Rotación de fuentes de Facebook entre jobs de CI.
 
-Este módulo es la estrategia anti-bloqueo escrita en código. El dato duro que la
-motiva, medido en corridas reales: **Facebook deja pasar alrededor de dos
-páginas por IP**. No es un límite que se pueda negociar con pausas más largas ni
-con otro navegador — lo lleva la IP.
-
-De ahí salen las cuatro decisiones de este archivo:
-
-1. **Más IPs, grupos más chicos.** Cada job de GitHub Actions corre en un runner
-   distinto y por lo tanto sale por una IP distinta. La palanca real no es
-   hacer más trucos dentro de un job, es tener más jobs. Con grupos de dos, casi
-   ninguna fuente se pierde en cascada detrás de otra; con grupos de cinco se
-   perdían cuatro por cada bloqueo.
-
-2. **Turnos solos para las que más valen.** Las primeras fuentes de la lista de
-   prioridad no comparten job con nadie: se llevan una IP entera para ellas.
-   El primer turno de una IP es el que casi siempre pasa, y la segunda lectura
-   es una apuesta. Las fuentes que de verdad publican eventos no deberían estar
-   apostando.
-
-3. **Olas, no barridos.** Si hay más fuentes que capacidad de jobs, esta corrida
-   se lleva las más prioritarias y el resto espera a la siguiente. Esto acá se
-   puede hacer y en un proyecto de tránsito no: un bloqueo de carretera caduca
-   en minutos, pero un concierto se anuncia con días o semanas de anticipación.
-   Ver una fuente cada tres horas en vez de cada hora no pierde un solo evento,
-   y permite tener un catálogo de fuentes mucho más grande del que entra en una
-   sola corrida.
-
-4. **Memoria entre corridas.** Se guarda cómo le fue a cada fuente. La que lleva
-   más tiempo sin traer datos sube al primer turno, y el bloqueo no se le cuenta
-   como culpa suya —porque no lo es— así que sigue envejeciendo y sube sola.
+El catálogo es mayor que lo que conviene consultar en una sola ejecución. Este
+módulo prioriza fuentes útiles y antiguas, reparte pocas por corrida y conserva
+memoria del último éxito. El objetivo es cobertura nacional con bajo volumen,
+no un barrido completo en cada cron.
 """
 
 import json
@@ -139,10 +113,8 @@ def planificar_grupos(
     if en_esta_ola and grupos_para_el_resto > 0:
         n = min(grupos_para_el_resto, -(-len(en_esta_ola) // tamano_grupo))
         compartidos: List[List[str]] = [[] for _ in range(n)]
-        # Round-robin y no bloques: repartiendo de a uno, las fuentes más
-        # prioritarias caen cada una en el *primer* turno de un grupo distinto,
-        # que es el turno que casi siempre pasa. En bloques, la primera y la
-        # segunda prioridad competirían dentro del mismo job.
+            # Round-robin: las fuentes más prioritarias quedan repartidas entre
+        # distintos jobs y no se concentran todas en el mismo grupo.
         for i, source in enumerate(en_esta_ola):
             compartidos[i % n].append(source["id"])
         cubos.extend(compartidos)
@@ -245,9 +217,9 @@ def resumen_cobertura(rotacion: Dict[str, Any], sources: List[Dict[str, Any]],
                       ahora: Optional[datetime] = None) -> Dict[str, Any]:
     """Cuánto del catálogo se está alcanzando de verdad.
 
-    Es la métrica que dice si la estrategia está funcionando. Si crece
-    `nunca_vistas` o sube el promedio de horas sin datos, hacen falta más
-    grupos —o sea más IPs—, no más trucos dentro de cada job.
+    Es la métrica que dice si la rotación está alcanzando el catálogo. Si crece
+    `nunca_vistas` o sube mucho el promedio de horas sin datos, conviene ajustar
+    el número de fuentes por ola o la frecuencia del cron.
     """
     if ahora is None:
         ahora = datetime.now(ZoneInfo("America/La_Paz"))

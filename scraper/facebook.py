@@ -1,26 +1,15 @@
 """Lectura de páginas públicas de Facebook.
 
-No inicia sesión, no resuelve captchas y no intenta hacerse pasar por otra
-cosa: lee lo que Facebook muestra a cualquier visitante sin cuenta. Cuando
-Facebook decide no mostrar nada, este módulo lo reconoce, lo reporta y se
-detiene — no insiste.
+No inicia sesión, no resuelve captchas y no intenta eludir controles de acceso.
+Lee únicamente lo que Facebook muestra públicamente a un visitante sin cuenta.
 
-Sobre el bloqueo, que es el hecho central del proyecto:
-
-Facebook corta el acceso público después de una o dos páginas por IP. Eso no se
-arregla con pausas más largas ni con otro User-Agent, porque el límite lo lleva
-la IP, no el patrón de tráfico. La respuesta acá no es esquivar el corte sino
-aceptarlo y trabajar dentro de él: cada job de CI tiene su propia IP, así que se
-usan muchos jobs chicos y de cada uno se aprovechan sus pocas lecturas buenas.
-
-El presupuesto de páginas por IP (`facebook_paginas_por_ip`) hace explícito ese
-límite: aunque un job tenga tres fuentes asignadas y ninguna haya fallado, se
-detiene al llegar al presupuesto. Insistir con la tercera casi nunca trae datos
-y sí aumenta la chance de que esa IP quede marcada para la corrida siguiente.
+La estrategia de estabilidad es deliberadamente conservadora: catálogo grande,
+rotación entre corridas, muy pocas páginas por job, pausas, corte inmediato ante
+bloqueo y conservación del historial. Así una fuente puede estar en el catálogo
+sin necesidad de golpearla en cada ejecución.
 """
 
 import asyncio
-import random
 import re
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import urljoin, urlparse
@@ -337,8 +326,8 @@ async def _enriquecer_post(context, item: RawItem, timeout_ms: int = 12000) -> R
     con toda la información —fecha, lugar, precios, puntos de venta— así que en
     este proyecto el enriquecimiento no es un lujo: es donde aparecen los datos.
 
-    Cada visita gasta una lectura del presupuesto de la IP, así que el runner
-    decide con cuentagotas a qué posts se les gasta.
+    Cada visita consume parte del presupuesto del job, así que el runner
+    decide con cuentagotas qué posts vale la pena enriquecer.
     """
     if not item.item_url or item.item_url == item.source_url:
         return item
@@ -389,6 +378,23 @@ async def _enriquecer_post(context, item: RawItem, timeout_ms: int = 12000) -> R
                     # imagen que la app debería mostrar como principal.
                     item.image_urls.insert(0, img)
                     item.image_urls = item.image_urls[:12]
+        except Exception:
+            pass
+
+        # Si el detalle es un reel/video, conservar siempre la URL pública
+        # canónica. No se extraen streams MP4 internos ni URLs temporales.
+        try:
+            canonical = page.locator('link[rel="canonical"]')
+            if await canonical.count():
+                href = _limpiar_url_fb(await canonical.first.get_attribute("href"))
+                if href:
+                    item.item_url = href
+                    bajo = href.lower()
+                    if any(x in bajo for x in ["/videos/", "/reel/", "watch?v="]):
+                        item.video_url = href
+                        item.video_type = "facebook_reel" if "/reel/" in bajo else "facebook_video"
+                        if not item.video_thumbnail_url and item.image_urls:
+                            item.video_thumbnail_url = item.image_urls[0]
         except Exception:
             pass
 
@@ -534,15 +540,11 @@ async def leer_fuentes_facebook(
 ) -> Dict[str, Any]:
     """Lee las fuentes de este grupo una por una, en un solo navegador.
 
-    Sin concurrencia: N pestañas simultáneas contra Facebook desde una misma IP
-    es exactamente el patrón que dispara el corte. Se navega de página en página
-    como lo haría una persona, con la sesión y las cookies pasando de una a la
-    siguiente.
+    Sin concurrencia dentro del mismo job: se navega una fuente a la vez.
 
-    Tres cosas terminan la corrida antes de tiempo, y las tres son a propósito:
-    un bloqueo confirmado, agotar el presupuesto de páginas de la IP, o quedarse
-    sin fuentes. Las que queden sin leer se reportan como omitidas y el
-    planificador les dará el primer turno en la corrida siguiente.
+    Tres cosas terminan el grupo antes de tiempo: un bloqueo confirmado, agotar
+    el presupuesto de páginas del job o quedarse sin fuentes. Las pendientes se
+    reportan como omitidas y vuelven por rotación en corridas posteriores.
     """
     try:
         from playwright.async_api import async_playwright
@@ -567,18 +569,12 @@ async def leer_fuentes_facebook(
                 "--disable-renderer-backgrounding",
             ],
         )
-        # Un solo contexto para todo el grupo, sin User-Agent propio: el de
-        # Chromium real es menos delator que cualquiera que inventemos.
-        # El viewport se varía unos píxeles porque un tamaño de ventana idéntico
-        # en los treinta jobs los agrupa como una sola flota aunque las IPs sean
-        # distintas. No oculta nada; solo evita que coincidan por accidente.
+        # Un solo contexto para el grupo, sin falsificar huellas del navegador.
+        # La estabilidad viene del bajo volumen y la rotación, no de camuflaje.
         context = await browser.new_context(
             locale="es-BO",
             timezone_id=settings.get("timezone", "America/La_Paz"),
-            viewport={
-                "width": random.choice([1280, 1366, 1440, 1512, 1600]),
-                "height": random.choice([800, 864, 900, 960]),
-            },
+            viewport={"width": 1366, "height": 864},
             service_workers="block",
         )
 
@@ -620,30 +616,19 @@ async def leer_fuentes_facebook(
                 }
                 continue
 
-            ultimo_bloqueo = None
-            for intento in range(2):
-                try:
-                    items = await _leer_fuente(source, settings, context)
-                    resultados[source["id"]] = {"items": items, "error": None}
-                    ultimo_bloqueo = None
-                    break
-                except FacebookBlockedError as exc:
-                    # Un bloqueo aislado puede ser mala suerte con la IP que le
-                    # tocó al runner, incluso en la primerísima solicitud. Se
-                    # reintenta una vez con una pausa larga antes de rendirse.
-                    ultimo_bloqueo = exc
-                    if intento == 0:
-                        await asyncio.sleep(reintento)
-                except Exception as exc:
-                    resultados[source["id"]] = {"items": [], "error": str(exc)}
-                    ultimo_bloqueo = None
-                    break
+            try:
+                items = await _leer_fuente(source, settings, context)
+                resultados[source["id"]] = {"items": items, "error": None}
+            except FacebookBlockedError as exc:
+                # Un bloqueo confirmado corta el grupo: no insistimos ni tratamos
+                # de esquivarlo. La fuente vuelve a entrar por rotación después.
+                resultados[source["id"]] = {"items": [], "error": str(exc)}
+                bloqueado = True
+                await asyncio.sleep(reintento)
+            except Exception as exc:
+                resultados[source["id"]] = {"items": [], "error": str(exc)}
 
             leidas += 1
-
-            if ultimo_bloqueo is not None:
-                resultados[source["id"]] = {"items": [], "error": str(ultimo_bloqueo)}
-                bloqueado = True
 
             quedan = i < len(sources) - 1 and not bloqueado and leidas < presupuesto
             if quedan:

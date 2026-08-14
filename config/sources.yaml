@@ -15,21 +15,23 @@
 settings:
   timezone: America/La_Paz
 
-  # --- Anti-bloqueo de Facebook -------------------------------------------
-  # El número que importa. Medido en corridas reales: Facebook deja pasar ~2
-  # páginas por IP. Subirlo no consigue más datos, solo quema la IP más rápido.
-  facebook_paginas_por_ip: 2
-  facebook_pausa_segundos: 9
-  facebook_pausa_tras_bloqueo: 35
+  # --- Presupuesto respetuoso para Facebook público -------------------------
+  # Nunca se intenta barrer todo el catálogo de una vez. Cada job consulta muy
+  # pocas páginas, con pausas, rotación entre corridas y corte inmediato si la
+  # plataforma deja de mostrar contenido público.
+  # Nombre legado de la clave: significa máximo de páginas públicas por job.
+  facebook_paginas_por_ip: 1
+  facebook_pausa_segundos: 12
+  facebook_pausa_tras_bloqueo: 45
   facebook_espera_segundos: 2.5
   facebook_scrolls: 3
 
   # El enriquecimiento abre el post completo. En este proyecto no es opcional:
   # el feed recorta los afiches con "Ver más" y justo ahí están la fecha, el
-  # lugar y el precio. Cada visita gasta presupuesto de la IP, así que el
-  # scraper elige con cuentagotas a cuáles se lo gasta.
+  # lugar y el precio. Cada visita consume parte del presupuesto del job, así que el
+  # scraper elige con cuentagotas cuáles abre.
   facebook_enriquecer: true
-  facebook_enriquecer_limite: 4
+  facebook_enriquecer_limite: 2
   facebook_enriquecer_timeout_ms: 12000
 
   # --- Fuentes web ---------------------------------------------------------
@@ -318,6 +320,381 @@ sources:
   url: https://www.facebook.com/radiofidescb/
   region: Cochabamba
   city: Cochabamba
+
+
+# --- Catálogo ampliado: cultura, ferias, gobiernos y universidades ----------
+# Estas páginas se recorren por rotación; estar en el catálogo NO significa que
+# las 70 se consulten en una misma corrida. El objetivo es cobertura nacional
+# sin generar una ráfaga de solicitudes contra Facebook.
+
+- id: fb_ministerio_culturas
+  name: Ministerio de Culturas, Descolonización y Despatriarcalización
+  type: facebook_public
+  source_class: cultura_oficial
+  tier: 2
+  url: https://www.facebook.com/viceministeriodeculturasyfolklore/
+  region: Bolivia
+  city: null
+
+- id: fb_fundacion_cultural_bcb
+  name: Fundación Cultural BCB
+  type: facebook_public
+  source_class: cultura_oficial
+  tier: 1
+  url: https://www.facebook.com/fundacion.cultural.BCB/
+  region: Bolivia
+  city: null
+
+- id: fb_cinemateca_boliviana
+  name: Cinemateca Boliviana
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/cinemateca.bo/
+  region: La Paz
+  city: La Paz
+
+- id: fb_ccelp
+  name: Centro Cultural de España en La Paz
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/ccelp.bo/
+  region: La Paz
+  city: La Paz
+
+- id: fb_museo_nacional_arte
+  name: Museo Nacional de Arte - MNA
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/museonacionaldeartebolivia/
+  region: La Paz
+  city: La Paz
+
+- id: fb_musef_lapaz
+  name: Museo Nacional de Etnografía y Folklore - MUSEF
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/musef.lapaz.bolivia/
+  region: La Paz
+  city: La Paz
+
+- id: fb_casa_moneda_potosi
+  name: Casa Nacional de Moneda
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/cnmptsfcbcb/
+  region: Potosí
+  city: Potosí
+
+- id: fb_crc_lapaz
+  name: Centro de la Revolución Cultural
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/centrodelarevolucioncultural/
+  region: La Paz
+  city: La Paz
+
+- id: fb_municipio_sucre
+  name: Gobierno Autónomo Municipal de Sucre
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/MunicipiodeSucreBolivia/
+  region: Chuquisaca
+  city: Sucre
+
+- id: fb_municipio_oruro
+  name: Gobierno Autónomo Municipal de Oruro
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/AlcaldiaDeOruro/
+  region: Oruro
+  city: Oruro
+
+- id: fb_municipio_tarija
+  name: Gobierno Autónomo Municipal de Tarija
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/Gobierno.Autonomo.Municipal.Tarija/
+  region: Tarija
+  city: Tarija
+
+- id: fb_municipio_potosi
+  name: Gobierno Autónomo Municipal de Potosí
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/gobiernomunicipaldepotosi/
+  region: Potosí
+  city: Potosí
+
+- id: fb_municipio_trinidad
+  name: Gobierno Autónomo Municipal de Trinidad
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/GAMTDD/
+  region: Beni
+  city: Trinidad
+
+- id: fb_municipio_cobija
+  name: Gobierno Autónomo Municipal de Cobija
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/cobija.gob/
+  region: Pando
+  city: Cobija
+
+- id: fb_gob_chuquisaca
+  name: Gobernación de Chuquisaca
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/GobChuquisaca/
+  region: Chuquisaca
+  city: null
+
+- id: fb_gob_oruro
+  name: Gobierno Autónomo Departamental de Oruro
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/GobernacionDeOruro/
+  region: Oruro
+  city: null
+
+- id: fb_gob_tarija
+  name: Gobierno Autónomo Departamental de Tarija
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/GADTarija/
+  region: Tarija
+  city: null
+
+- id: fb_gob_pando
+  name: Gobierno Autónomo Departamental de Pando
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/gobiernodepartamentaldepando/
+  region: Pando
+  city: null
+
+- id: fb_gob_beni
+  name: Gobierno Autónomo Departamental del Beni
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/GobernacionDelBeni/
+  region: Beni
+  city: null
+
+- id: fb_fipaz
+  name: FIPAZ - Feria Internacional de La Paz
+  type: facebook_public
+  source_class: eventos
+  tier: 1
+  url: https://www.facebook.com/feriafipaz/
+  region: La Paz
+  city: La Paz
+
+- id: fb_feicobol
+  name: FEICOBOL - Feria Internacional de Cochabamba
+  type: facebook_public
+  source_class: eventos
+  tier: 1
+  url: https://www.facebook.com/feicobol/
+  region: Cochabamba
+  city: Cochabamba
+
+- id: fb_espacio_patino_lapaz
+  name: Espacio Simón I. Patiño La Paz
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/EspacioPatinoLaPaz/
+  region: La Paz
+  city: La Paz
+
+- id: fb_alianza_francesa_lapaz
+  name: Alianza Francesa de La Paz
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/aflapaz/
+  region: La Paz
+  city: La Paz
+
+- id: fb_teatros_municipales_lapaz
+  name: Teatros Municipales La Paz
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/teatrosmunicipaleslapaz/
+  region: La Paz
+  city: La Paz
+
+- id: fb_casa_cultura_cbba
+  name: Casa de la Cultura Cochabamba
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/CasaDeLaCulturaCochabamba/
+  region: Cochabamba
+  city: Cochabamba
+
+- id: fb_manzana1
+  name: Manzana 1 Espacio de Arte
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/Manzana1espaciodearte/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+
+- id: fb_casa_melchor_pinto
+  name: Casa Melchor Pinto
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/CasaMelchorPinto/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+
+- id: fb_tarija_cultura
+  name: Dirección de Cultura y Patrimonio - Tarija
+  type: facebook_public
+  source_class: cultura_oficial
+  tier: 1
+  url: https://www.facebook.com/TarijaCultura/
+  region: Tarija
+  city: Tarija
+
+- id: fb_fundacion_patino_cbba
+  name: Fundación Patiño Cochabamba
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/FundacionPatinoCochabamba/
+  region: Cochabamba
+  city: Cochabamba
+
+- id: fb_goethe_lapaz
+  name: Goethe-Institut La Paz
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/goetheinstitut.lapaz/
+  region: La Paz
+  city: La Paz
+
+- id: fb_alianza_francesa_cbba
+  name: Alianza Francesa de Cochabamba
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/alianza.f.decochabamba/
+  region: Cochabamba
+  city: Cochabamba
+
+- id: fb_alianza_francesa_sucre
+  name: Alianza Francesa de Sucre
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/AlianzaFrancesaSucre/
+  region: Chuquisaca
+  city: Sucre
+
+- id: fb_centro_cultura_scz
+  name: Centro de la Cultura Plurinacional Santa Cruz
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/CCPSCZ/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+
+- id: fb_casa_libertad
+  name: Museo Casa de la Libertad
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/museocasadelalibertad/
+  region: Chuquisaca
+  city: Sucre
+
+- id: fb_musef_sucre
+  name: MUSEF Regional Sucre
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/musefsucre/
+  region: Chuquisaca
+  city: Sucre
+
+- id: fb_usfx
+  name: Universidad San Francisco Xavier de Chuquisaca
+  type: facebook_public
+  source_class: cultura_oficial
+  tier: 2
+  url: https://www.facebook.com/FranciscoXavierCh/
+  region: Chuquisaca
+  city: Sucre
+
+- id: fb_umsa
+  name: Universidad Mayor de San Andrés - UMSA
+  type: facebook_public
+  source_class: cultura_oficial
+  tier: 2
+  url: https://www.facebook.com/UMSAinformacion/
+  region: La Paz
+  city: La Paz
+
+- id: fb_uagrm
+  name: Universidad Autónoma Gabriel René Moreno - UAGRM
+  type: facebook_public
+  source_class: cultura_oficial
+  tier: 2
+  url: https://www.facebook.com/OficialUAGRM/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+
+- id: fb_umss
+  name: Universidad Mayor de San Simón - UMSS
+  type: facebook_public
+  source_class: cultura_oficial
+  tier: 2
+  url: https://www.facebook.com/UmssBolOficial/
+  region: Cochabamba
+  city: Cochabamba
+
+- id: fb_ucb_lapaz
+  name: Universidad Católica Boliviana - Sede La Paz
+  type: facebook_public
+  source_class: cultura_oficial
+  tier: 2
+  url: https://www.facebook.com/UCB.BOLIVIA/
+  region: La Paz
+  city: La Paz
+
+- id: fb_upsa
+  name: Universidad Privada de Santa Cruz de la Sierra - UPSA
+  type: facebook_public
+  source_class: cultura_oficial
+  tier: 2
+  url: https://www.facebook.com/boliviaupsa/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
 
 # ===========================================================================
 # WEB — el piso de garantía: no bloquean y varias publican datos

@@ -14,29 +14,24 @@ ticketeras y agendas culturales, y lo publica como JSON listo para una app.
 El contrato con la app, con las data classes de Kotlin listas para copiar, está
 en **[docs/FORMATO_JSON.md](docs/FORMATO_JSON.md)**.
 
-## El problema y la estrategia
+## Facebook: rotación conservadora
 
-Facebook es la mejor fuente de eventos de Bolivia y también la única que
-bloquea. Deja pasar **~2 páginas por IP** antes de cortar, y ese límite vive en
-la IP, no en nuestro patrón de tráfico: no se arregla con pausas más largas ni
-con otro navegador.
-
-La palanca real es **más IPs y grupos más chicos**. Cada job de GitHub Actions
-es una IP distinta, así que el workflow reparte las fuentes en ~20 jobs de 1-2
-fuentes cada uno:
+Facebook aporta gran parte de la agenda local, pero su contenido público puede
+variar o dejar de mostrarse a automatizaciones. Este proyecto no intenta eludir
+esos controles. En vez de barrer las 70 páginas de una sola vez, usa **olas
+pequeñas**, una fuente por job por defecto, pausas y memoria entre corridas.
 
 ```
-planificar  ─┬─► g01 (IP 1)  ─┐
-             ├─► g02 (IP 2)  ─┤
-             ├─► ...          ├─► consolidar ─► JSON + commit
-             └─► g20 (IP 20) ─┘
+planificar ─┬─► fuente 01 ─┐
+            ├─► fuente 02 ─┤
+            ├─► ...       ├─► consolidar ─► JSON + historial
+            └─► fuente 08 ─┘
 ```
 
-Y por encima de eso, la pieza que hace que alcance: **el catálogo se acumula.**
-Un evento no caduca porque dejemos de verlo — un concierto anunciado hace dos
-semanas sigue en pie aunque hoy nadie lo republique. El historial es la fuente
-de verdad y cada corrida le suma. Por eso una corrida que solo lee 15 de 30
-fuentes no da un catálogo a la mitad: da el de antes más lo nuevo.
+El catálogo se acumula: un evento vigente no desaparece sólo porque su fuente no
+entró en la ola actual. La siguiente corrida continúa la rotación. Ante una
+pantalla de bloqueo/login, el job registra el estado y corta sin intentar
+atravesarla.
 
 Todo el detalle está en **[docs/ESTRATEGIA_FACEBOOK.md](docs/ESTRATEGIA_FACEBOOK.md)**.
 
@@ -103,17 +98,17 @@ python main.py --only web_superticket,web_ticketbo   # solo algunas fuentes
 python main.py --sin-facebook       # solo fuentes web, sin tocar Facebook
 ```
 
-Desde una sola IP, Facebook va a cortar después de las primeras páginas. **Eso
-no es un bug**: es exactamente el motivo de que exista el modo repartido. Para
-probar en local conviene `--sin-facebook` o `--only` con unas pocas fuentes.
+Para probar en local conviene `--sin-facebook` o `--only` con unas pocas
+fuentes. Si Facebook deja de mostrar contenido público, el lector lo registra y
+termina ese grupo.
 
 ### Modos del CLI
 
 ```bash
 # 1. Planificar: imprime la matrix de GitHub Actions
-python main.py --planificar-facebook --max-grupos 20 --tamano-grupo 2 --grupos-solos 6
+python main.py --planificar-facebook --max-grupos 8 --tamano-grupo 1 --grupos-solos 8
 
-# 2. Leer un grupo (esto corre en cada job, con su propia IP)
+# 2. Leer un grupo pequeño (por defecto, una fuente por job)
 python main.py --only fb_superticket --facebook-scrape-group-out data/_interno/raw_g01.json
 
 # 3. Consolidar: junta los crudos, lee las webs, clasifica y escribe los JSON
@@ -141,21 +136,22 @@ tests/
 
 ## Fuentes
 
-29 páginas de Facebook y 9 sitios web, en
-[`config/sources.yaml`](config/sources.yaml). Las de Facebook están ordenadas
-por tier:
+**70 páginas de Facebook y 9 sitios web**, configurados en
+[`config/sources.yaml`](config/sources.yaml). El catálogo cubre los 9
+departamentos y combina:
 
-- **tier 1** — publican eventos como su razón de ser: ticketeras (SuperTicket),
-  páginas de agenda (Conciertos en Bolivia, Eventos Bolivia) y sedes (Fexpocruz,
-  Teatro al Aire Libre).
-- **tier 2** — municipios, gobernaciones y casas de cultura.
-- **tier 3** — medios generales, que publican un evento entre veinte noticias.
+- ticketeras y páginas dedicadas a eventos;
+- teatros, museos, centros culturales y ferias;
+- municipios, gobernaciones y universidades;
+- medios generales como respaldo de descubrimiento.
 
-Las fuentes web son el piso de garantía: no bloquean y varias publican
-`schema.org/Event`, que da la fecha y el precio exactos sin adivinar nada.
+Las fuentes web siguen siendo un respaldo importante y varias pueden publicar
+`schema.org/Event`, que permite obtener fecha, sede y precio con campos
+estructurados.
 
-Para agregar una fuente, sumá una entrada al YAML. Si es de Facebook, el
-planificador la incorpora sola a la rotación en la corrida siguiente.
+La lista completa está en **[docs/FUENTES.md](docs/FUENTES.md)**. Para agregar una
+fuente, sumá una entrada al YAML; si es Facebook, entra automáticamente a la
+rotación.
 
 ## Tests
 
@@ -163,7 +159,7 @@ planificador la incorpora sola a la rotación en la corrida siguiente.
 python -m pytest tests/ -q
 ```
 
-86 tests, sin red. Cubren el parser de fechas caso por caso, el clasificador con
+88 tests, sin red. Cubren el parser de fechas caso por caso, el clasificador con
 afiches y con ruido realista, el reparto en grupos y las olas de rotación, la
 fusión entre fuentes, el historial y una prueba de extremo a extremo del
 pipeline completo — incluida una corrida donde Facebook bloquea todo, para

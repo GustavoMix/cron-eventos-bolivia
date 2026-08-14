@@ -57,13 +57,28 @@ hace scroll:
   "summary": { "events_total": 128, "events_upcoming": 96, "events_today": 7, ... },
 
   "filters": {
+    "ui_groups": [
+      { "key": "when", "label": "Cuándo", "selection": "single", "icon": "calendar" },
+      { "key": "categories", "label": "Tipo de evento", "selection": "multi", "icon": "category" },
+      { "key": "departments", "label": "Departamento", "selection": "multi", "icon": "map" },
+      { "key": "cities", "label": "Ciudad", "selection": "multi", "icon": "location_city" },
+      { "key": "price", "label": "Precio", "selection": "single", "icon": "payments" },
+      { "key": "media", "label": "Multimedia", "selection": "multi", "icon": "photo_library" },
+      { "key": "tags", "label": "Temas", "selection": "multi", "icon": "sell" }
+    ],
     "categories": [ { "key": "concierto", "label": "Conciertos", "count": 24 } ],
     "cities":     [ { "key": "Cochabamba", "label": "Cochabamba", "count": 31 } ],
     "departments":[ { "key": "Santa Cruz", "label": "Santa Cruz", "count": 44 } ],
     "when":       [ { "key": "hoy", "label": "Hoy", "count": 7 },
                     { "key": "esta_semana", "label": "Esta semana", "count": 22 },
                     { "key": "este_mes", "label": "Este mes", "count": 61 },
-                    { "key": "todos", "label": "Todos", "count": 96 } ]
+                    { "key": "todos", "label": "Todos", "count": 96 } ],
+    "price":      [ { "key": "gratis", "label": "Gratis", "count": 18 },
+                    { "key": "pagado", "label": "Con entrada", "count": 56 },
+                    { "key": "por_confirmar", "label": "Precio por confirmar", "count": 22 } ],
+    "media":      [ { "key": "con_foto", "label": "Con foto", "count": 82 },
+                    { "key": "con_video", "label": "Con video", "count": 19 } ],
+    "tags":       [ { "key": "rock", "label": "rock", "count": 11 } ]
   },
 
   "coverage": { ... },   // salud del scraping, útil para diagnóstico
@@ -217,10 +232,22 @@ data class Resumen(
 
 @Serializable
 data class Filtros(
+    @SerialName("ui_groups") val uiGroups: List<GrupoFiltro> = emptyList(),
     val categories: List<Faceta> = emptyList(),
     val cities: List<Faceta> = emptyList(),
     val departments: List<Faceta> = emptyList(),
     val `when`: List<Faceta> = emptyList(),
+    val price: List<Faceta> = emptyList(),
+    val media: List<Faceta> = emptyList(),
+    val tags: List<Faceta> = emptyList(),
+)
+
+@Serializable
+data class GrupoFiltro(
+    val key: String,
+    val label: String,
+    val selection: String,
+    val icon: String,
 )
 
 @Serializable
