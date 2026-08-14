@@ -1,0 +1,415 @@
+# Catálogo de fuentes y parámetros de la corrida.
+#
+# Sobre los tiers, que son lo que decide el orden de prioridad:
+#   tier 1 = publica eventos como su razón de ser (ticketeras, sedes, páginas
+#            de agenda). Es lo que de verdad alimenta la app.
+#   tier 2 = publica eventos seguido pero mezclados con otra cosa (municipios,
+#            casas de cultura, universidades).
+#   tier 3 = publica un evento entre veinte noticias (medios generales).
+#
+# El catálogo de Facebook es a propósito más grande de lo que entra en una sola
+# corrida. El planificador atiende las más prioritarias en cada ola y va rotando;
+# como un evento se anuncia con días de anticipación, ver una fuente cada tres
+# horas en vez de cada hora no pierde nada. Ver docs/ESTRATEGIA_FACEBOOK.md.
+
+settings:
+  timezone: America/La_Paz
+
+  # --- Anti-bloqueo de Facebook -------------------------------------------
+  # El número que importa. Medido en corridas reales: Facebook deja pasar ~2
+  # páginas por IP. Subirlo no consigue más datos, solo quema la IP más rápido.
+  facebook_paginas_por_ip: 2
+  facebook_pausa_segundos: 9
+  facebook_pausa_tras_bloqueo: 35
+  facebook_espera_segundos: 2.5
+  facebook_scrolls: 3
+
+  # El enriquecimiento abre el post completo. En este proyecto no es opcional:
+  # el feed recorta los afiches con "Ver más" y justo ahí están la fecha, el
+  # lugar y el precio. Cada visita gasta presupuesto de la IP, así que el
+  # scraper elige con cuentagotas a cuáles se lo gasta.
+  facebook_enriquecer: true
+  facebook_enriquecer_limite: 4
+  facebook_enriquecer_timeout_ms: 12000
+
+  # --- Fuentes web ---------------------------------------------------------
+  web_concurrencia: 5
+  web_max_enlaces: 12
+  request_timeout_seconds: 20
+  user_agent: EventosBoliviaBot/1.0 (+agenda-publica-de-eventos; crawler respetuoso)
+
+  # --- Clasificación y catálogo -------------------------------------------
+  max_items_por_fuente: 20
+  max_muestras_rechazadas: 3
+  umbral_fusion: 0.30
+  umbral_historial: 0.62
+  # Cuántos días se conserva un evento ya pasado, para que la app pueda mostrar
+  # "esta semana" incluyendo lo de anteayer.
+  conservar_pasados_dias: 4
+  incluir_finalizados: true
+
+sources:
+
+# ===========================================================================
+# FACEBOOK — fuente principal
+# ===========================================================================
+
+# --- Tier 1: ticketeras y páginas dedicadas a eventos ----------------------
+- id: fb_superticket
+  name: SuperTicket Bolivia
+  type: facebook_public
+  source_class: ticketera
+  tier: 1
+  url: https://www.facebook.com/SuperTicketBol/
+  region: Bolivia
+  city: null
+
+- id: fb_conciertos_bolivia
+  name: Conciertos en Bolivia
+  type: facebook_public
+  source_class: eventos
+  tier: 1
+  url: https://www.facebook.com/ConciertosEnBolivia/
+  region: Bolivia
+  city: null
+
+- id: fb_eventos_bolivia
+  name: Eventos Bolivia
+  type: facebook_public
+  source_class: eventos
+  tier: 1
+  url: https://www.facebook.com/EventosBoliviaOficial/
+  region: Bolivia
+  city: null
+
+- id: fb_festivales_eventos
+  name: Festivales & Eventos Bolivia
+  type: facebook_public
+  source_class: eventos
+  tier: 1
+  url: https://www.facebook.com/FestivalesEventosBolivia/
+  region: Bolivia
+  city: null
+
+# --- Tier 1: sedes ---------------------------------------------------------
+- id: fb_fexpocruz
+  name: Fexpocruz
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/Fexpocruz/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+
+- id: fb_teatro_aire_libre
+  name: Teatro al Aire Libre Jaime Laredo
+  type: facebook_public
+  source_class: venue
+  tier: 1
+  url: https://www.facebook.com/profile.php?id=386877428010579
+  region: La Paz
+  city: La Paz
+
+# --- Tier 2: cultura oficial y municipios ---------------------------------
+- id: fb_municipio_lapaz
+  name: Gobierno Autónomo Municipal de La Paz
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/MunicipioLaPaz/
+  region: La Paz
+  city: La Paz
+
+- id: fb_amun_lapaz
+  name: Agencia Municipal de Noticias La Paz - AMUN
+  type: facebook_public
+  source_class: cultura_oficial
+  tier: 2
+  url: https://www.facebook.com/AMUNLaPaz/
+  region: La Paz
+  city: La Paz
+
+- id: fb_alcaldia_el_alto
+  name: Gobierno Autónomo Municipal de El Alto
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/ElAltoAlcaldia/
+  region: La Paz
+  city: El Alto
+
+- id: fb_gobernacion_lapaz
+  name: Gobierno Autónomo Departamental de La Paz
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/gobernaciondelapaz/
+  region: La Paz
+  city: null
+
+- id: fb_gam_cbba
+  name: Gobierno Autónomo Municipal de Cochabamba
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/gamcochabamba/
+  region: Cochabamba
+  city: Cochabamba
+
+- id: fb_gob_cbba
+  name: Gobernación de Cochabamba
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/GobernacionDeCochabamba/
+  region: Cochabamba
+  city: null
+
+- id: fb_gamscs
+  name: Gobierno Autónomo Municipal de Santa Cruz de la Sierra
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/gamscs/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+
+- id: fb_gob_scz
+  name: Gobernación de Santa Cruz
+  type: facebook_public
+  source_class: municipio
+  tier: 2
+  url: https://www.facebook.com/GobSantaCruz/
+  region: Santa Cruz
+  city: null
+
+# --- Tier 3: medios que publican agenda cultural ---------------------------
+- id: fb_lostiempos
+  name: Los Tiempos
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/LosTiemposBolivia/
+  region: Cochabamba
+  city: Cochabamba
+
+- id: fb_opinion
+  name: Diario Opinión
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/DiarioOpinion/
+  region: Cochabamba
+  city: Cochabamba
+
+- id: fb_eldeber
+  name: EL DEBER
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/GrupoELDEBER/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+
+- id: fb_reduno
+  name: Red Uno de Bolivia
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/RedUnotv/
+  region: Bolivia
+  city: null
+
+- id: fb_unitel
+  name: UNITEL Bolivia
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/unitelbolivia/
+  region: Bolivia
+  city: null
+
+- id: fb_atb
+  name: ATB Digital
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/ATBDigital/
+  region: Bolivia
+  city: null
+
+- id: fb_bolivision
+  name: Noticias Bolivisión
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/NoticiasBolivision/
+  region: Bolivia
+  city: null
+
+- id: fb_erbol
+  name: Periódico Digital ERBOL
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/ErbolDigital/
+  region: La Paz
+  city: La Paz
+
+- id: fb_el_diario
+  name: El Diario Bolivia
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/eldiario.bolivia/
+  region: La Paz
+  city: La Paz
+
+- id: fb_radio_fides
+  name: Radio Fides de Bolivia
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/RadioFidesBolivia/
+  region: La Paz
+  city: La Paz
+
+- id: fb_anf
+  name: Agencia de Noticias Fides - ANF
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/ANFidesBolivia/
+  region: Bolivia
+  city: null
+
+- id: fb_rtp
+  name: RTP Bolivia
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/rtpbolivia/
+  region: La Paz
+  city: La Paz
+
+- id: fb_abya_yala
+  name: Abya Yala TV
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/AbyaYalaTv/
+  region: La Paz
+  city: La Paz
+
+- id: fb_eldeber_radio
+  name: El Deber Radio
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/eldeberradio/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+
+- id: fb_fides_cbba
+  name: Radio Fides Cochabamba
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/radiofidescb/
+  region: Cochabamba
+  city: Cochabamba
+
+# ===========================================================================
+# WEB — el piso de garantía: no bloquean y varias publican datos
+# estructurados (schema.org/Event), que es lo más confiable que hay.
+# ===========================================================================
+
+- id: web_superticket
+  name: SuperTicket
+  type: generic_web
+  source_class: ticketera
+  tier: 1
+  url: https://superticket.bo/
+  region: Bolivia
+  city: null
+  follow_links: true
+
+- id: web_ticketbo
+  name: TicketBO
+  type: generic_web
+  source_class: ticketera
+  tier: 1
+  url: https://ticket.bo/
+  region: Bolivia
+  city: null
+  follow_links: true
+
+- id: web_tuentrada
+  name: Tu Entrada Bolivia
+  type: generic_web
+  source_class: ticketera
+  tier: 1
+  url: https://tuentrada.com.bo/
+  region: Bolivia
+  city: null
+  follow_links: true
+
+- id: web_passline
+  name: Passline Bolivia
+  type: generic_web
+  source_class: ticketera
+  tier: 1
+  url: https://passlinebolivia.com/
+  region: Bolivia
+  city: null
+  follow_links: true
+
+- id: web_agenda_jiwaki
+  name: Agenda Jiwaki - GAMLP
+  type: generic_web
+  source_class: cultura_oficial
+  tier: 1
+  url: https://agendajiwaki.lapaz.bo/buscar-eventos/
+  region: La Paz
+  city: La Paz
+  follow_links: true
+
+- id: web_lapaz_cultura
+  name: Eventos culturales - GAM La Paz
+  type: generic_web
+  source_class: cultura_oficial
+  tier: 2
+  url: https://lapaz.bo/eventos-culturales/
+  region: La Paz
+  city: La Paz
+  follow_links: true
+
+- id: web_minculturas
+  name: Agenda Cultural Plurinacional - Ministerio de Culturas
+  type: generic_web
+  source_class: cultura_oficial
+  tier: 2
+  url: https://www.minculturas.gob.bo/agenda-cultural-plurinacional/
+  region: Bolivia
+  city: null
+  follow_links: true
+
+- id: web_lostiempos_agenda
+  name: Agenda Cultural - Los Tiempos
+  type: generic_web
+  source_class: media
+  tier: 2
+  url: https://www.lostiempos.com/servicios/agenda-cultural
+  region: Cochabamba
+  city: Cochabamba
+  follow_links: true
+
+- id: web_fexpocruz
+  name: Fexpocruz
+  type: generic_web
+  source_class: venue
+  tier: 2
+  url: https://www.fexpocruz.com.bo/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+  follow_links: true

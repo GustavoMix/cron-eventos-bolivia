@@ -1,0 +1,196 @@
+name: Actualizar eventos Bolivia
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_grupos:
+        description: "Jobs paralelos (= IPs simultáneas contra Facebook)"
+        required: false
+        default: "20"
+      tamano_grupo:
+        description: "Fuentes por job"
+        required: false
+        default: "2"
+      grupos_solos:
+        description: "Fuentes de máxima prioridad con IP propia"
+        required: false
+        default: "6"
+  schedule:
+    # Cada 3 horas, en un minuto que no sea el 0. GitHub interpreta cron en UTC.
+    #
+    # Tres horas y no treinta minutos a propósito: un evento se anuncia con días
+    # de anticipación, así que refrescar más seguido no encontraría nada nuevo y
+    # sí gastaría el mismo puñado de IPs contra Facebook una y otra vez. Espaciar
+    # las corridas hace que cada una arranque con IPs "frescas".
+    - cron: "17 */3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  # La rama va adentro del grupo a propósito: con un nombre fijo, una corrida
+  # manual desde una rama de trabajo cancelaba a mitad de camino la corrida
+  # programada de main y se perdían los grupos que aún no habían terminado.
+  group: eventos-bolivia-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ---------------------------------------------------------------------
+  # Decide qué fuente va en qué grupo, usando el historial de rotación para
+  # que la que lleva más tiempo sin traer datos se lleve un turno bueno.
+  # ---------------------------------------------------------------------
+  planificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      matriz: ${{ steps.plan.outputs.matriz }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Planificar grupos
+        id: plan
+        run: |
+          python main.py --planificar-facebook \
+            --tamano-grupo "${{ github.event.inputs.tamano_grupo || '2' }}" \
+            --max-grupos "${{ github.event.inputs.max_grupos || '20' }}" \
+            --grupos-solos "${{ github.event.inputs.grupos_solos || '6' }}" \
+            >> "$GITHUB_OUTPUT"
+
+  # ---------------------------------------------------------------------
+  # Un job por grupo. Cada job corre en su propio runner y por lo tanto sale
+  # por su propia IP — que es toda la estrategia. Facebook deja pasar ~2
+  # páginas por IP, así que la única forma de leer 30 fuentes es tener del
+  # orden de 20 IPs, no insistir más desde una sola.
+  #
+  # fail-fast en false: que una IP quede bloqueada no debe cancelar a las
+  # otras diecinueve, que están leyendo sin problema.
+  # ---------------------------------------------------------------------
+  leer-facebook:
+    needs: planificar
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: ${{ fromJSON(needs.planificar.outputs.matriz) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Instalar Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Escalonar el arranque
+        # Si los veinte grupos golpean Facebook en el mismo segundo desde IPs
+        # del mismo rango de Azure, el patrón se lee como una sola flota aunque
+        # las IPs sean distintas. Separarlos unos segundos no cuesta nada.
+        run: sleep $(( ${{ matrix.orden }} * 5 + RANDOM % 9 ))
+
+      - name: Leer grupo
+        run: |
+          python main.py \
+            --only "${{ matrix.fuentes }}" \
+            --facebook-scrape-group-out "data/_interno/facebook_raw_${{ matrix.nombre }}.json"
+
+      - name: Guardar resultado del grupo
+        uses: actions/upload-artifact@v4
+        with:
+          name: facebook-raw-${{ matrix.nombre }}
+          path: data/_interno/facebook_raw_${{ matrix.nombre }}.json
+          if-no-files-found: error
+          retention-days: 1
+
+  # ---------------------------------------------------------------------
+  # Junta todo: los crudos de Facebook, las fuentes web, la clasificación y
+  # el historial. Corre siempre, aunque algunos grupos hayan fallado — con
+  # los que sí llegaron ya alcanza para actualizar el catálogo.
+  # ---------------------------------------------------------------------
+  consolidar:
+    needs: leer-facebook
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Bajar los crudos de Facebook
+        uses: actions/download-artifact@v4
+        with:
+          pattern: facebook-raw-*
+          path: data/_interno/
+          merge-multiple: true
+
+      - name: Clasificar, fusionar y escribir los JSON
+        shell: bash
+        run: |
+          CRUDOS=$(ls data/_interno/facebook_raw_*.json 2>/dev/null | paste -sd,)
+          if [ -z "$CRUDOS" ]; then
+            echo "::warning::No llegó ningún resultado de Facebook en esta corrida."
+            echo "Se sigue solo con las fuentes web; el catálogo se sostiene con el historial."
+            python main.py --sin-facebook
+          else
+            python main.py --facebook-raw-in "$CRUDOS"
+          fi
+
+      - name: Guardar los resultados
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # El directorio entero y no archivo por archivo: en una corrida donde
+          # ningún job de Facebook llegó a entregar, facebook_rotacion.json
+          # todavía no existe y un `git add` de una ruta inexistente aborta el
+          # paso. El .gitignore ya excluye los crudos de los grupos.
+          git add data/
+
+          if git diff --cached --quiet; then
+            echo "Sin cambios para guardar."
+          else
+            git commit -m "Actualizar eventos Bolivia"
+            # La corrida programada y una manual pueden pisarse; si la rama se
+            # movió mientras corríamos, se reintegra y se reintenta en vez de
+            # perder la actualización.
+            for intento in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              echo "Push rechazado (intento $intento); reintegrando y reintentando."
+              git pull --rebase --autostash || true
+              sleep $((intento * 5))
+            done
+            echo "::error::No se pudo guardar después de 3 intentos."
+            exit 1
+          fi
