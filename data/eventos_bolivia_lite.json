@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-14T21:54:48-04:00",
+  "generated_at": "2026-08-14T23:56:27-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 17,
-    "events_today": 3
+    "events_total": 21,
+    "events_today": 4
   },
   "filters": {
     "ui_groups": [
@@ -60,7 +60,7 @@
       {
         "key": "teatro",
         "label": "Teatro",
-        "count": 4
+        "count": 5
       },
       {
         "key": "concierto",
@@ -75,11 +75,21 @@
       {
         "key": "exposicion",
         "label": "Exposiciones",
+        "count": 2
+      },
+      {
+        "key": "nightlife",
+        "label": "Vida nocturna",
         "count": 1
       },
       {
         "key": "otro",
         "label": "Otros",
+        "count": 1
+      },
+      {
+        "key": "taller",
+        "label": "Talleres y cursos",
         "count": 1
       }
     ],
@@ -87,12 +97,12 @@
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 8
+        "count": 10
       },
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 2
+        "count": 3
       },
       {
         "key": "Quillacollo",
@@ -118,22 +128,27 @@
         "key": "Cochabamba",
         "label": "Cochabamba",
         "count": 1
+      },
+      {
+        "key": "Sucre",
+        "label": "Sucre",
+        "count": 1
       }
     ],
     "departments": [
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 9
-      },
-      {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 2
+        "count": 11
       },
       {
         "key": "La Paz",
         "label": "La Paz",
+        "count": 3
+      },
+      {
+        "key": "Cochabamba",
+        "label": "Cochabamba",
         "count": 2
       },
       {
@@ -145,28 +160,33 @@
         "key": "Oruro",
         "label": "Oruro",
         "count": 1
+      },
+      {
+        "key": "Chuquisaca",
+        "label": "Chuquisaca",
+        "count": 1
       }
     ],
     "when": [
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 3
+        "count": 4
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 6
+        "count": 9
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 8
+        "count": 11
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 17
+        "count": 21
       }
     ],
     "price": [
@@ -183,14 +203,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 12
+        "count": 16
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 11
+        "count": 15
       },
       {
         "key": "con_video",
@@ -202,42 +222,42 @@
       {
         "key": "Ml18Xb",
         "label": "Ml18Xb",
-        "count": 2
+        "count": 3
       },
       {
         "key": "vvzi1e",
         "label": "vvzi1e",
-        "count": 1
+        "count": 2
       },
       {
         "key": "NS0kde",
         "label": "NS0kde",
-        "count": 1
+        "count": 2
       },
       {
         "key": "HokZ0d",
         "label": "HokZ0d",
-        "count": 1
+        "count": 2
       },
       {
         "key": "d5Qebf",
         "label": "d5Qebf",
-        "count": 1
+        "count": 2
       },
       {
         "key": "U8DOt",
         "label": "U8DOt",
-        "count": 1
+        "count": 2
       },
       {
         "key": "iOlsLd",
         "label": "iOlsLd",
-        "count": 1
+        "count": 2
       },
       {
         "key": "ZxCkTb",
         "label": "ZxCkTb",
-        "count": 1
+        "count": 2
       },
       {
         "key": "Quillacollo",
@@ -257,6 +277,36 @@
       {
         "key": "GestiónLeonardoLoza",
         "label": "GestiónLeonardoLoza",
+        "count": 1
+      },
+      {
+        "key": "Manzana1",
+        "label": "Manzana1",
+        "count": 1
+      },
+      {
+        "key": "ArteBoliviano",
+        "label": "ArteBoliviano",
+        "count": 1
+      },
+      {
+        "key": "Inauguracion",
+        "label": "Inauguracion",
+        "count": 1
+      },
+      {
+        "key": "SantaCruzDeLaSierra",
+        "label": "SantaCruzDeLaSierra",
+        "count": 1
+      },
+      {
+        "key": "ExposicionDeArte",
+        "label": "ExposicionDeArte",
+        "count": 1
+      },
+      {
+        "key": "CulturaBolivia",
+        "label": "CulturaBolivia",
         "count": 1
       },
       {
@@ -288,48 +338,18 @@
         "key": "FomentoCRC",
         "label": "FomentoCRC",
         "count": 1
-      },
-      {
-        "key": "263",
-        "label": "263",
-        "count": 1
-      },
-      {
-        "key": "LaKerkenchaDeMiSuegra",
-        "label": "LaKerkenchaDeMiSuegra",
-        "count": 1
-      },
-      {
-        "key": "DñaNieves",
-        "label": "DñaNieves",
-        "count": 1
-      },
-      {
-        "key": "LaMadrina",
-        "label": "LaMadrina",
-        "count": 1
-      },
-      {
-        "key": "Oruro",
-        "label": "Oruro",
-        "count": 1
-      },
-      {
-        "key": "Teatro",
-        "label": "Teatro",
-        "count": 1
       }
     ],
     "source_classes": [
       {
-        "key": "ticketera",
-        "label": "ticketera",
-        "count": 7
-      },
-      {
         "key": "venue",
         "label": "venue",
-        "count": 6
+        "count": 9
+      },
+      {
+        "key": "ticketera",
+        "label": "ticketera",
+        "count": 8
       },
       {
         "key": "municipio",
@@ -433,6 +453,58 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_8c01d13ddcc601",
+      "title": "Manzana 1 Espacio de Arte",
+      "category": "exposicion",
+      "category_label": "Exposiciones",
+      "starts_at": "2026-08-14T19:30:00-04:00",
+      "starts_at_ms": 1786750200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Viernes 14 de agosto · 19:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Manzana Uno Espacio de Arte",
+      "image_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.99422-6/774174412_1634548134954420_5196636242509976948_n.png?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=cae128&_nc_ohc=uiuSpp9R2hQQ7kNvwHsGSuR&_nc_oc=AdpUjqGAFRpmejLG4eJv3YeLif2OCmfjgGTg1dVdOkItYPIfkC0NEfqtG-heboKzlNU&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=ENosOXwTguaHRNkMFvmB0g&_nc_ss=7f289&oh=00_AQEa0MYXBn8DTojjRd7b0xmZeb2sq50iFyqaDPGno8P2pA&oe=6A85C123",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_2acff3717ffeab",
+      "title": "Festival de Teatro &quot;Ureñarte&quot;",
+      "category": "teatro",
+      "category_label": "Teatro",
+      "starts_at": "2026-08-15T00:00:00-04:00",
+      "starts_at_ms": 1786766400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 15 de agosto · 00:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 1,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Casa de la Cultura Raúl Otero Reiche",
+      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/07/sur.jpeg",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_9a6cb0e937debb",
       "title": "Centro de la Revolución Cultural",
       "category": "exposicion",
@@ -481,6 +553,32 @@
       "price_from": 150.0,
       "currency": "BOB",
       "price_label": "Bs 150",
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_4449ac0fd64241",
+      "title": "Martes 18 de agosto 19:00 Hrs. - Noche de muestras documentales",
+      "category": "nightlife",
+      "category_label": "Vida nocturna",
+      "starts_at": "2026-08-18T19:00:00-04:00",
+      "starts_at_ms": 1787094000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 18 de agosto · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 4,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.99422-6/773492246_1781265793052437_5199791372190879361_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EZgio6Sh0TwQ7kNvwETHDag&_nc_oc=Adp-NIwuFWFAtETBiJ1VMSAe4AogcDkBWcEc8jB6JoV87uRBoNyNtsN93khTY9g4HbI&_nc_zt=14&_nc_ht=scontent-qro3-1.xx&_nc_gid=3PdPUNvOeyOx6Xli8ssKuA&_nc_ss=7f289&oh=00_AQGlL1JgZRamxzXj82Bv3ZflMqqvdlszXpC_ljgJX5qQjQ&oe=6A85CE12",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "status": "programado",
       "source_count": 1
     },
@@ -788,6 +886,32 @@
       "department": "La Paz",
       "venue": "Teatro Municipal Alberto Saavedra Pérez",
       "image_url": null,
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_4c76d9bd82c806",
+      "title": "MUSEF Regional Sucre",
+      "category": "taller",
+      "category_label": "Talleres y cursos",
+      "starts_at": "2027-08-10T15:30:00-04:00",
+      "starts_at_ms": 1817926200000,
+      "ends_at_ms": 1818907140000,
+      "multi_day": true,
+      "display_date": "Del 10 al 21 de agosto · 15:30",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 361,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": null,
+      "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/771694534_1574782511103583_7343322475350404313_n.jpg?stp=dst-jpg_tt6&cstp=mx1367x2048&ctp=p600x600&_nc_cat=104&ccb=1-7&_nc_sid=cae128&_nc_ohc=L21aiTBDDQMQ7kNvwG0P7Xs&_nc_oc=AdqlxeA4K83qsffqA9zYT58O3q1GSQuirXjcf2lceAk7zItL-pJTnxbKIvKtG-UHhWw&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=iXnqi_QXC3jnjJwtMU01Ug&_nc_ss=7f289&oh=00_AQHgwHVsN-bmCbvUaTxz8dVKQQrTPnSwZ5QjW262s-ZZlg&oe=6A85A789",
       "has_video": false,
       "is_free": false,
       "price_from": null,

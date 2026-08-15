@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-08-14T21:54:48-04:00",
+  "generated_at": "2026-08-14T23:56:27-04:00",
   "coverage": {
     "fuentes_totales": 70,
-    "con_datos_alguna_vez": 42,
+    "con_datos_alguna_vez": 49,
     "nunca_vistas": [
-      "fb_fundacion_cultural_bcb",
       "fb_gam_cbba",
       "fb_gob_beni",
       "fb_gob_chuquisaca",
@@ -12,7 +11,6 @@
       "fb_gob_pando",
       "fb_gob_tarija",
       "fb_lostiempos",
-      "fb_manzana1",
       "fb_ministerio_culturas",
       "fb_municipio_cobija",
       "fb_municipio_oruro",
@@ -20,12 +18,7 @@
       "fb_municipio_sucre",
       "fb_municipio_tarija",
       "fb_municipio_trinidad",
-      "fb_musef_lapaz",
-      "fb_musef_sucre",
-      "fb_museo_nacional_arte",
-      "fb_tarija_cultura",
       "fb_teatro_aire_libre",
-      "fb_teatros_municipales_lapaz",
       "fb_uagrm",
       "fb_ucb_lapaz",
       "fb_umsa",
@@ -39,8 +32,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 4.9,
-    "horas_maximo_sin_datos": 6.6
+    "horas_promedio_sin_datos": 5.9,
+    "horas_maximo_sin_datos": 8.6
   },
   "sources": [
     {
@@ -138,12 +131,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Teatro al Aire Libre Jaime Laredo La Paz-Bolivia Performance Art Theatre · Página no oficial\\ufeff Más Inicio Información Información Ver todo Cancha Zapata Ciudad La P'"
     },
     {
       "id": "fb_municipio_lapaz",
@@ -562,13 +555,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YtRriQIaEm4Q7kNvwHh4_yS&_nc_oc=AdqZ4AKNUZQlGj5UAMR26JFHeCOAodoOb-VQyoXUdNwElqDvU1sEw_C9N4dFITkHKBw&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=zZGt3zIf_khhtNeknzp74A&_nc_ss=7f289&oh=00_AQEpVZJELDU0MxnRwzdNwhZBVuHYyGFF1Wj9IWqTyGhdKg&oe=6A85BD33",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2937818283225977/?__cft__[0]=AZbsaJMj72LnMT3ZlHgxO0pLi_An8E0-qPVgbQQbj1Pun51bOq1MjZfey0k_prYvTxbpAMn1rujirF1_gmxItRwGnbO53Qki60IcTWMwmZOvOv0yAYG1ZsEQabgV1n38ZgO_SJW5b-1kXCvfYX3f9qQ4qqwlpApZdtOq15opK3UpUJKt1VWGoR0NC8_ZrvOhrb3FsxnE_Y_t0syutg8wuH_q&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#FCBCB | Natalicio de Fernando Montes… Ver más Gran pintor boliviano Tenemos problemas para reproducir este video. Más información Veronica Querejazu"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2937818283225977/?comment_id=1043521925088487&__cft__[0]=AZbsaJMj72LnMT3ZlHgxO0pLi_An8E0-qPVgbQQbj1Pun51bOq1MjZfey0k_prYvTxbpAMn1rujirF1_gmxItRwGnbO53Qki60IcTWMwmZOvOv0yAYG1ZsEQabgV1n38ZgO_SJW5b-1kXCvfYX3f9qQ4qqwlpApZdtOq15opK3UpUJKt1VWGoR0NC8_ZrvOhrb3FsxnE_Y_t0syutg8wuH_q&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Gran pintor boliviano Veronica Querejazu"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -579,22 +589,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-1/432766499_812585937576485_5980317798609638070_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iGtE6SViEukQ7kNvwHPrVBi&_nc_oc=AdoAY-yCX6d_VRDXveLIsXKxs9cVYM7zVCyLWRlQh5d0-OzuOmYakBIK6YWOtK6N5Ek&_nc_zt=24&_nc_ht=scontent-hkg1-2.xx&_nc_gid=W8ZWj7xjiBput55n2KGCnA&_nc_ss=7f289&oh=00_AQEO3F-nFvoE70-SgKZo_iUVglmXxIr_aiKOo84DIMqSUQ&oe=6A85B1CA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/cinemateca.bo/posts/pr%C3%B3ximamente-el-realismo-m%C3%A1gico-del-studio-ghibli-estar%C3%A1-de-regreso-en-cinematec/1490692286432510/",
-          "has_image": true,
-          "text_preview": "¡Próximamente! el realismo mágico del Studio Ghibli estará de regreso en Cinemateca boliviana. No te pierdas MI VECINO TOTORO, una de las obras mas maravillosas del director Hayao Miyazaki.... ¡Próximamente! el realismo mágico del Studio Ghibli estará de regreso en Cinemateca boliviana. No te pierdas MI VECINO TOTORO, una de las obras mas... ¡Próximamente! el realismo mágico del Studio Ghibli esta"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -605,22 +606,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Xz6_xWcKIeUQ7kNvwE2ky_R&_nc_oc=AdqBCaJutEp7o037KnvM0w6zPbl9FwpE6GcrDhPxaq7k8tWWOgenAwZSPQmj0dgmZbA&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=IBOsZrzv05Ve2-7u7wUFyQ&_nc_ss=7f289&oh=00_AQHlzmzX5JY-ggSvZGGC1EXHkYPxGhIimnKfYXb7IwXSlg&oe=6A85A656",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02XErnqkeSJc1LABTLWuyR4MScomJDYJpVToMsNNXbCdT6emAXEstVN39aw7uN1g2Yl?__cft__[0]=AZZONEgnA401pPLDVg3MtiRiSqtoo2MdSMCEJIwZG2BfK06DU3a0VePt8naYaBTkzb8t5aCd2fcQcK0rxNUNrJhkYMRKXQE-d-QoiyunOKUEbxHdK56vXhj3s8kx0gT39zM6vi4DrC6UXm3ai-zuk85DINolPlYkT72a-4_sFUUfchSR31_Vp6CAOvuvfCDly6I&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Imágenes, memoria, dignidad e identidad E… Ver más Imágenes, memoria, dignidad e identidad E… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -631,13 +623,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NpMNFEXb36MQ7kNvwHSFRX8&_nc_oc=Ado3CtKPVeM48gOBxEHA4xslwdjWiZEYoEJ7nOnoVLSVRBGzZVAuXB0PCYx_4HjYqBQ&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=BZAK1uqhVcU73J4Hn-f1dg&_nc_ss=7f289&oh=00_AQEcm72Ikld46eZxfiky8qeiqSlnxVfr7wwnqepGIjHcBQ&oe=6A85C2C0",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid0DxCfM3geY6Xt896MfBkRWtP8EVHe9A19fsZu986V9C3yQZS9cJoNhjnYhNknsX8dl?__cft__[0]=AZamFXacWIgNRPbm_oDDy_d2IpwKewhjwDUEwlqeoK8xlQBoqH5khNCN5xiwazer3hxrebzofIVafhW7XRaoJE0eD-gsSraOEXoO1OodTc74-oNX8xjqxj1WV0iLc3mw8qNYG0fW_O1_tqpmE-aAN5wk3UMKyw-cHR0qzjwuefY6jivNZRTgQvbpIzU4IjzQYew&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#MNA | ACUÑACIÓN A GOLPE DE MARTILLO… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -648,13 +649,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mJS5QYA6LAYQ7kNvwHv9KwH&_nc_oc=AdqN6lht0xVqTvEEdLHuNXla6htG1TyB3K6jFob6PXNw3DH_6rwBHp7BWA1DEw7Xatk&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=EcNFOsh_wBsXnM_78FCYvA&_nc_ss=7f289&oh=00_AQEtP9e0mYNW_GBc6rvLYhvP6oK8vWs7roXZgJAegcUh8Q&oe=6A85AFF3",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -665,30 +666,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hIAV193BEYwQ7kNvwHwUldV&_nc_oc=Adpmbm9boYgly3eomUhokvOmlTDfIACZYvomeHcVWuNgc8HZ4X8JVmDnEWh6sgzDHMQ&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=9G3xCix0APZOL9eOkFLe0Q&_nc_ss=7f289&oh=00_AQGLL9sSXUA7_my23ENFh6Gp6_r-Dx8CtYGPNv-VgdeLQw&oe=6A858F4F",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid024S2yrNV57Ep6GfLF3ocy2hGCs7BijZWPhUTxPigidjPnYiy15eaP6wz5gN7kgjenl?__cft__[0]=AZbi1y_qvQ4OOnILIoOehd778LGLD8Qllgew6r7tN8goYaCxd-Mckwn2JDGNlFnkGxJRqajZut2UANbpTf8PHyAQtNn5uYMAmLXmwt6JPmBADHSNkYtKwSN5S78OM4kWPbtIHohNMKoqVMJ2cExg1ZBtDYMUCgB9ipzPD0U4qcRH9XIkE06lp7ANSqPr1f5zbOs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Colonial Tenemos problemas para reproducir este video. Más información Cepeda Castellón Felix"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid024S2yrNV57Ep6GfLF3ocy2hGCs7BijZWPhUTxPigidjPnYiy15eaP6wz5gN7kgjenl?comment_id=27677869368549347&__cft__[0]=AZbi1y_qvQ4OOnILIoOehd778LGLD8Qllgew6r7tN8goYaCxd-Mckwn2JDGNlFnkGxJRqajZut2UANbpTf8PHyAQtNn5uYMAmLXmwt6JPmBADHSNkYtKwSN5S78OM4kWPbtIHohNMKoqVMJ2cExg1ZBtDYMUCgB9ipzPD0U4qcRH9XIkE06lp7ANSqPr1f5zbOs&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Cepeda Castellón Felix Colonial 3 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -699,13 +683,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JJJP4aYThboQ7kNvwHecEzo&_nc_oc=AdptNHEbOJKS5ozCaOvhNqjj1sbXyTGCqXNKbwkp3rrMdJg5NJmON4BVQRI_e1MbhOw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=CoyJYqE0XE4XLdBfT2okIQ&_nc_ss=7f289&oh=00_AQFhZWLwi8LpGy9Jv-pPJBMyEHUS0I7oeI3nGhcjaLDXUg&oe=6A857DD2",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -937,22 +921,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nPFT8ACkBrsQ7kNvwG1tD9h&_nc_oc=AdrPPjkYELvEDV5yvk6HTgC2HraQ5w72Gy3T5vVCx92rY5FKqMZJ-VOsHporqPm9RWA&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=EAuB_72-XH6JVhKEVVvAkA&_nc_ss=7f289&oh=00_AQE_8SeAJ7BN2uEPdzhGDZOgO3nx0PHv6OLXLVEzzUXySA&oe=6A858867",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "feria",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/videos/cultura-%F0%9D%90%8B%F0%9D%90%9A-%F0%9D%90%9F%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%9A-%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%A6%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A8%CC%81-%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%A8-%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%AC-%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%9A%F0%9D%90%AC-%F0%9D%90%AA%F0%9D%90%AE%F0%9D%90%9E-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A6%F0%9D%90%A9%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A6%F0%9D%90%A8%F0%9D%90%AC-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AE%CC%81%F0%9D%90%9A%F0%9D%90%A7durante-l/1398216415520092/",
-          "has_image": true,
-          "text_preview": "#Cultura | 📚 𝐋𝐚 𝐟𝐞𝐫𝐢𝐚 𝐭𝐞𝐫𝐦𝐢𝐧𝐨́, 𝐩𝐞𝐫𝐨 𝐥𝐚𝐬 𝐡𝐢𝐬𝐭𝐨𝐫𝐢𝐚𝐬 𝐪𝐮𝐞 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐢𝐦𝐨𝐬 𝐜𝐨𝐧𝐭𝐢𝐧𝐮́𝐚𝐧. Durante la 30.ª Feria Internacional del Libro de La Paz, nuestros espacios se llenaron de encuentros alrededor de la... #Cultura | 📚 𝐋𝐚 𝐟𝐞𝐫𝐢𝐚 𝐭𝐞𝐫𝐦𝐢𝐧𝐨́, 𝐩𝐞𝐫𝐨 𝐥𝐚𝐬 𝐡𝐢𝐬𝐭𝐨𝐫𝐢𝐚𝐬 𝐪𝐮𝐞 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐢𝐦𝐨𝐬 𝐜𝐨𝐧𝐭𝐢𝐧𝐮́𝐚𝐧. Durante la 30.ª Feria Internacional del Libro de La Paz, nuestros..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -980,13 +955,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8w1ccCAxo4MQ7kNvwFDWikN&_nc_oc=Adrozt_77jdFBnQnkYoVmqsUgf9dGYunfUxCpwfQ3p07WjFw11LIwfskas74gp0RqE0&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=qwOdYv_pfAQ_6t7xJ1tAkw&_nc_ss=7f289&oh=00_AQFckjqbC5NjPYN3fkfFPnEi6IVa4kM4ViJNhwTl0q6uLw&oe=6A85C778",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02M2wUc4Lrhk1VEnPqDbCJwr1Xc4xgPnSWzQAd3QiEsLpvDkF4ooTeh1yjd7Hvpvgul?__cft__[0]=AZbOIhLgVC_ZpvI8WLLzPAB3L6FLdVHi5l1KcYemiRDAkZfDxZWPZ2oCOQutATC2S66aQcqcwlTCPjRyevzfmzUr3RVwvUNhq-A0jUopJCl8TgkLXAFGHELxzovpJCXKBM4mPgkrtMQ0KrCSD1ir6z-itx4922ygT7iGiWKhALMfxpkIiCPjZrkl-4aOtL3ZJfY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "COMUNICADO Ante la actual situación que atraviesa nuestra ciudad, el Gobierno Autónomo Municipal de La Paz continúa trabajando de manera permanente para garantizar la… Ver más COMUNICADO Ante la actual situación que atraviesa nuestra ciudad, el Gobierno Autónomo Municipal de La Paz continúa trabajando de manera permanente para garantizar la… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1014,13 +998,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MX8o_186l14Q7kNvwHRUmgK&_nc_oc=AdqIagkdpGg-buXWcNmjyRlYMX8DhjeshUXjrKYIbMDHjciecAMBIJKGWmAmaosJ1yw&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=HIILycpWN6km5XuFBj65pg&_nc_ss=7f289&oh=00_AQE4wNCnw2RpCe3BStUzmjUT7pgI1e_ocOLIqttNLdZQUg&oe=6A85C097",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1048,13 +1032,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nAdV1OdlyfgQ7kNvwFSwFPU&_nc_oc=Adp5x2Ezry1F8APNq4zcFii8UL9BqXH9n47SY-vsx4l7tfz7stK_4bBGne84dxPJBl8&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=_11OmemAGZi6R2c_ngRnlg&_nc_ss=7f289&oh=00_AQEFz1XRNlLj8KqGYnEeGzMmgX956U4DDLjMbTZEm-zWcA&oe=6A85BB03",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/TarijaCultura/posts/hemos-tenido-la-alegria-de-devolverle-a-la-casa-donde-funciona-la-direcci%C3%B3n-de-p/1335421828742557/",
+          "has_image": true,
+          "text_preview": "Hemos tenido la alegria de devolverle a la casa donde funciona la dirección de Patrimonio Y Cultura y el Archivo histórico, los escritos e historias de su dueño original Dn Francisco Burdett... Hemos tenido la alegria de devolverle a la casa donde funciona la dirección de Patrimonio Y Cultura y el Archivo histórico, los escritos e historias de... Hemos tenido la alegria de devolverle a la casa don"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1065,22 +1058,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=O5WLbiCJ_RMQ7kNvwEB675a&_nc_oc=AdqBuW4JNECp4PwE01kqYS5502PFJMXjLJcSmcBecqKqZ8-3rdeLQeQB-EXD48bEok8&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jYo9kcr4mNrtLbQ4D7RrNQ&_nc_ss=7f289&oh=00_AQG6DGhtKlt9FTJhaoaVhx0MXdDTHwcj_5PrsunP3Lv3OQ&oe=6A8581B4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid0sjioXDbBy6pSs5dry84UUJJ2sSMdVwFexyjbwiM7HbCYPi7WW1hggggKZZ7pVVKVl?__cft__[0]=AZbAnOTaGg8MMT--nse9q47QjPrpsx79LVxOMnshvVzpAeyeZWCpF8ZlPFS9PaHddRCm5YhE1wwRN1AX0wPs9cxh3uvDXU_ZXmNxqLW370wQhrXOIYwn7c212dwA_CY0cTRxYc39-si_JOqJ_D8TIMIP8-8wKkk9wcL07nZDppGRl_-9v-NiZrP_5F6em1Ip8bo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Educación | 𝐃𝐞 𝐮𝐧𝐚 𝐢𝐝𝐞𝐚 𝐞𝐧 𝐥𝐚 𝐩𝐚𝐧𝐭𝐚𝐥𝐥𝐚 𝐚 𝐮𝐧 𝐨𝐛𝐣𝐞𝐭𝐨 𝐞𝐧𝐭𝐫𝐞 𝐭𝐮𝐬 𝐦𝐚𝐧𝐨𝐬. Este agosto abrimos dos Tardes de Prototipad… Ver más #Educación | 𝐃𝐞 𝐮𝐧𝐚 𝐢𝐝𝐞𝐚 𝐞𝐧 𝐥𝐚 𝐩𝐚𝐧𝐭𝐚𝐥𝐥𝐚 𝐚 𝐮𝐧 𝐨𝐛𝐣𝐞𝐭𝐨 𝐞𝐧𝐭𝐫𝐞 𝐭𝐮𝐬 𝐦𝐚𝐧𝐨𝐬. Este agosto abrimos dos Tardes de Prototipad… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1091,22 +1075,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zD3g94JzvrgQ7kNvwHV2eST&_nc_oc=Adp-tg3QhnyQEqhY9P-aLSSR27roio1kmARcc5_a-b2nzXaQJFYQ5LVg13mcZmxe7PM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=LBpWb1PETvWct-MaBLWPMA&_nc_ss=7f289&oh=00_AQHzj7Ag-_IN2ZYjShTaznlDxuob3ov3omr_fAo22hBnMg&oe=6A858B0F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid02b7it33ePpN3B1GtPX5fFMoRR2cCNKbiSS7uRnyrXgdU9pGK1ms76z2di4Drj97i3l?__cft__[0]=AZYuCgmNwhERFtwF2V7Ui3rbgHynsA4n6b6mqjFyh9KowSPYIbMdcD_1WsTzTGLcCP1vLd1ziiFq7bGxTx-z_HvlbC5rfHR-xM0xq5i8YJbhQ7k7MdZR1Wf6cvxttlWCyW5P15vkv_MlLGX7O_yKPNtw4dbF7luJzoWrGzKRzh6ekIXkwJH0OCMD8EaXcU3RYbw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "@Follower ¡El alemán también puede ser una aventura!… Ver más @Follower ¡El alemán también puede ser una aventura!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1151,22 +1126,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QiahYEXgw8sQ7kNvwEidHwM&_nc_oc=AdqQv-TtRODXgot8zIcs5X-oJidQI632YhMzZOyW-xn8m_RnzlhzwNWztcoBUehKYfM&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=64f4gqqxTTSkxFXrnLzuOA&_nc_ss=7f289&oh=00_AQEereBFO7AYZ-ree0mN4hb9jFrFbulV-g4b73WTVrg1mA&oe=6A8586AF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "teatro",
-          "url": "https://www.facebook.com/CCPSCZ/videos/ccpsantacruz-presentaci%C3%B3n-de-teatro-la-cantante-vero-p%C3%A9rez-te-propone-un-plan-pa/2513867709093016/",
-          "has_image": true,
-          "text_preview": "#CCPSantaCruz| PRESENTACIÓN DE TEATRO 🎭 La cantante Vero Pérez te propone un plan para este fin de semana: DOLERE. Una obra escrita y protagonizada por Soledad Ardaya y coproducida junto al Teatro... #CCPSantaCruz| PRESENTACIÓN DE TEATRO 🎭 La cantante Vero Pérez te propone un plan para este fin de semana: DOLERE. Una obra escrita y protagonizada por..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1194,13 +1160,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=F-RNl3N0gdIQ7kNvwEb0YzG&_nc_oc=AdpOMMG5We2AaerYVm153FuB4_CkM50qyIq8oVwLKGn29tf6zc7Ebdfr2-C6G-T9ZXM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=6TPIv55KllVAQ2CfEgJfwA&_nc_ss=7f289&oh=00_AQG2FV-JkltCX3Gi3i3I8QhR9yfJ5uikJrCEoWFx4ykm0A&oe=6A859CA4",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1315,8 +1281,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 8,
-      "events": 6,
+      "raw_items": 7,
+      "events": 5,
       "rejected": 2,
       "rejected_samples": [
         {
@@ -1484,7 +1450,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
+          "score": 0,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1492,7 +1458,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 2,
+          "score": 0,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1500,11 +1466,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
+          "score": 0,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Lupo y Camacho son los primeros embajadores designados por el actual Gobierno Ver más 2 JP Velasco gestiona importación de combustibles con una empresa"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Comisión de diputados identifica 54 posibles responsables de “gasolina basura” Ver más 2 Quillacollo brilla con la Entrada de Urkupiña 2026 Ver más 3 G"
         }
       ],
       "error": null
