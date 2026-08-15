@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-14T17:51:25-04:00",
+  "generated_at": "2026-08-14T21:54:48-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 16,
+    "events_total": 17,
     "events_today": 3
   },
   "filters": {
@@ -73,6 +73,11 @@
         "count": 2
       },
       {
+        "key": "exposicion",
+        "label": "Exposiciones",
+        "count": 1
+      },
+      {
         "key": "otro",
         "label": "Otros",
         "count": 1
@@ -92,6 +97,11 @@
       {
         "key": "Quillacollo",
         "label": "Quillacollo",
+        "count": 1
+      },
+      {
+        "key": "Tarija",
+        "label": "Tarija",
         "count": 1
       },
       {
@@ -127,6 +137,11 @@
         "count": 2
       },
       {
+        "key": "Tarija",
+        "label": "Tarija",
+        "count": 1
+      },
+      {
         "key": "Oruro",
         "label": "Oruro",
         "count": 1
@@ -141,41 +156,41 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 5
+        "count": 6
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 7
+        "count": 8
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 16
+        "count": 17
       }
     ],
     "price": [
       {
         "key": "gratis",
         "label": "Gratis",
-        "count": 0
+        "count": 1
       },
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 5
+        "count": 4
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 11
+        "count": 12
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 10
+        "count": 11
       },
       {
         "key": "con_video",
@@ -245,6 +260,36 @@
         "count": 1
       },
       {
+        "key": "CRC",
+        "label": "CRC",
+        "count": 1
+      },
+      {
+        "key": "CulturaParaTodos",
+        "label": "CulturaParaTodos",
+        "count": 1
+      },
+      {
+        "key": "ElPatrimonioVivo",
+        "label": "ElPatrimonioVivo",
+        "count": 1
+      },
+      {
+        "key": "ExpresionesArtísticas",
+        "label": "ExpresionesArtísticas",
+        "count": 1
+      },
+      {
+        "key": "ArtesVisualesBolivia",
+        "label": "ArtesVisualesBolivia",
+        "count": 1
+      },
+      {
+        "key": "FomentoCRC",
+        "label": "FomentoCRC",
+        "count": 1
+      },
+      {
         "key": "263",
         "label": "263",
         "count": 1
@@ -273,26 +318,6 @@
         "key": "Teatro",
         "label": "Teatro",
         "count": 1
-      },
-      {
-        "key": "Comedia",
-        "label": "Comedia",
-        "count": 1
-      },
-      {
-        "key": "TeatroBoliviano",
-        "label": "TeatroBoliviano",
-        "count": 1
-      },
-      {
-        "key": "EventosBolivia",
-        "label": "EventosBolivia",
-        "count": 1
-      },
-      {
-        "key": "SuperTicket",
-        "label": "SuperTicket",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -304,7 +329,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 5
+        "count": 6
       },
       {
         "key": "municipio",
@@ -349,9 +374,9 @@
       "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/07/sur.jpeg",
       "has_video": false,
       "is_free": false,
-      "price_from": 70.0,
-      "currency": "BOB",
-      "price_label": "Bs 70",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "status": "programado",
       "source_count": 1
     },
@@ -404,6 +429,32 @@
       "price_from": 457.0,
       "currency": "BOB",
       "price_label": "Bs 457",
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_9a6cb0e937debb",
+      "title": "Centro de la Revolución Cultural",
+      "category": "exposicion",
+      "category_label": "Exposiciones",
+      "starts_at": "2026-08-15T10:30:00-04:00",
+      "starts_at_ms": 1786804200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 15 de agosto · 10:30",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 1,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/770774418_1723379609797568_8403896258775339049_n.jpg?stp=dst-jpg_tt6&cstp=mx1244x1600&ctp=p600x600&_nc_cat=100&ccb=1-7&_nc_sid=b96d88&_nc_ohc=6rB7CqWMz1sQ7kNvwHos4kv&_nc_oc=AdqGBvqCAeCnnQTg0TnN9vcs-VM5w-nKW2YGNyYLkaw40rlTCJj98WD9h-YWFhjkLWc&_nc_zt=23&_nc_ht=scontent-sea1-1.xx&_nc_gid=0e0V-MCDJYpogANKY_Bh0g&_nc_ss=7f289&oh=00_AQG7UpanE4Hr5mBtUWsZTwSb5eoY24Rr9L9cNZH9nzz5dg&oe=6A85B154",
+      "has_video": false,
+      "is_free": true,
+      "price_from": null,
+      "currency": null,
+      "price_label": "Entrada libre",
       "status": "programado",
       "source_count": 1
     },
