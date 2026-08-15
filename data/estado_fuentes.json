@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T14:51:30-04:00",
+  "generated_at": "2026-08-15T17:39:32-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -10,6 +10,7 @@
       "fb_teatro_aire_libre"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_alianza_francesa_lapaz",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -17,8 +18,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 15.8,
-    "horas_maximo_sin_datos": 23.6
+    "horas_promedio_sin_datos": 17.8,
+    "horas_maximo_sin_datos": 26.4
   },
   "sources": [
     {
@@ -81,22 +82,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Pz1VtXVQyn8Q7kNvwEv09Rv&_nc_oc=AdopAXlxqOkXvkRFA5qvLMpDhrhIkTTN6dBqzhCyrCkPJk9DfuLkVISm-Ze2cCwZtH4&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=2wZTzF8PhZJYL2Ghn8kFmA&_nc_ss=7f289&oh=00_AQHIGTqRr19p_VRuk1fOX0TAZvevN9cVjp1JNzLLEXczLg&oe=6A867943",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid0578hoPDejcENVTXZthsJHP68hJn9v1kAmiMZ76LuZ7pwDa2ZgBKRqco7XEzfwgGdl?__cft__[0]=AZYeniW55p50DlZ8xXcPKVN9FNYMPBfdHyVxUjJRXBnY4_OVuMHGiV0fJfziNysk6r2HfJrYVycwMxeVEOFDdzVtut88Rn4ZMJD1cZqLKiQEDmNsfkP2At4J3jiqfbiVw_XkIE6B0JlTyIADpLnObvsfdAWR1zPW89V0VSU0tme4OcYhQfaOyPPl147n0tKaUUk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -107,13 +99,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=D17KWu_1NBoQ7kNvwHarecK&_nc_oc=Adpk-QPffbHLTus4SzpUX3jgEEokL04rYinV9aarz7-iIuC2UBEvwtCAhYgTtkZ-btY&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=yotqjTKC3W-NKCadoGMhCQ&_nc_ss=7f289&oh=00_AQHNzroaZFzHTQmmj5Gy0yRdmORQWwKDd6AiwMhiFHSohQ&oe=6A86A110",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -855,22 +847,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BuwoDt4gOZwQ7kNvwF_exII&_nc_oc=Adoi1TYDv6AGgjUDnb2u0ILoezIkzTc3-3gejWnSMZ-6asBpZGxkUUYW7EntqPtoxJk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=jRG16QokkMabawDLHo8Ewg&_nc_ss=7f289&oh=00_AQH9EhHksTWw72kcV2Ib-qRwm2pYMxqcfawrTq3oO14y-A&oe=6A86A061",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/feriafipaz/posts/pfbid036STATC8fKMjmHevvbf9EYdGJvSp5upAxwxKprchp2rQ1rhDuBcXqQi8iLEDXCMBLl?__cft__[0]=AZZjraBqS-eQrCN4o5h9iAHzhPoDhal4dze061_9u6N2XVruLhxIKaps2sfVYOnd--VtTN0DvkvU8rdN6XepRNT69fIRd1pBIX6jJij8D1rpQ2uU5l7ZusnU7DXAPsj8DJ8gOGOjQ2TzgG4K4YaGHNBuEey1bjTQFfNYUgOKfvar2_E2v79EYk1PRvrVZQPbNC0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Capitulo 1 | FIPAZ 25 AÑOS | El fuego comenzaba a encenderse … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -916,12 +899,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1051,13 +1034,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AnjJLzQrH5AQ7kNvwEOXyf9&_nc_oc=AdpeQ2sNoZ2gKqae2Ism1P8sdUE5u4WwzWGo7T4USf7m3uQOdXMc26w-hwmN4w60imY&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kQeVeEiv3aiGUXHa8FTIlA&_nc_ss=7f289&oh=00_AQEHM_R0TBoCdVRT16U3fSllLOSKV6CDcXMSORmT58YOSw&oe=6A86BC55",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid037eg52k4r6oCDThsshDYyeCS6nkNjxDTvLqGVNdkzztQt86zy4kngBp911ekEBoMZl?__cft__[0]=AZakiU8Op9kCj9ikY-jHj1VUKRcefqpWvuTlLiu7PF0n6ClOj4ar_I_PVemY0gCzcxgVrBmmlSNFsOVBaigrcvIoFrTr-y_YVyds2hLd-dZxU5eK7GKl078E9arumfQfMGDg4umNJxds_pD4cr12J_P3lwobBjea547KOyaKSVXOh-pL_NMNx_jGj_i1OQYbK78&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¿Y si te decimos que puedes conocer el mundo sin pasaporte ni maletas? … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1068,13 +1060,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WCI1A79woG8Q7kNvwHPMmmi&_nc_oc=AdqNffYcRQlyxbm2NZqQt1DWCPrLQSynbPs6U8DLcC0n9Lt7ZXIRU4tezOxvXnsy8ug&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=qFp3JSJns7qLLrdTB4jhvg&_nc_ss=7f289&oh=00_AQGZFoMVG6p6oHurMEfRysU04WSTVYqR6fgrqsk9VqUtSQ&oe=6A86BED2",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid021eJ3vDirC8y8g23NS9LNGDVX5XWtFDZmqt8GSLdaLcWYtbe2bStpkWAttrPPem1Ql?__cft__[0]=AZbFjB79DewRF-vvawpEr87KFd8cEkAffyZTvaoS4UoB_hy_Wpc3hVVmD9mTxNPws-5w4-FRnaJsYsto7pith2140m3vbjlQ-NwRub_7XVbnwpH87kG2P3h3KddDextgfCTZ_I9Cc5h4c6adHVF04JQSk0ertOFlcjNrT4wWL3hyB4EFFv-7DBwc1vGDIPOrIAQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "ENTRE PLIEGUES… Ver más La Alianza Francesa es una asociación de derecho local con un comité compuesto por ciudadanos bolivianos y franceses residentes en el país, sin afanes lucrativos, dedicada principalmente a la difusión del idioma y de la cultura franceses con el fin de permitir el acceso al más grande número de personas a una visión y una expresión diferentes del mundo, a tiempo de abrilrles"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
