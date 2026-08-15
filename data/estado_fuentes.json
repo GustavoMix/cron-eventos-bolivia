@@ -1,13 +1,12 @@
 {
-  "generated_at": "2026-08-15T09:02:38-04:00",
+  "generated_at": "2026-08-15T11:39:10-04:00",
   "coverage": {
     "fuentes_totales": 70,
-    "con_datos_alguna_vez": 65,
+    "con_datos_alguna_vez": 66,
     "nunca_vistas": [
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_municipio_trinidad",
       "fb_teatro_aire_libre"
     ],
     "bloqueadas_en_la_ultima_corrida": [
@@ -17,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 12.1,
-    "horas_maximo_sin_datos": 17.7
+    "horas_promedio_sin_datos": 13.6,
+    "horas_maximo_sin_datos": 20.4
   },
   "sources": [
     {
@@ -30,13 +29,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lHvg36DW85sQ7kNvwFBAu7H&_nc_oc=Ado9n8DF5jp-eVcoUH-LGkq836Tuq7Oeth5Ss1pMW-0Zu-Kb5U_1Thz-274-RVazivs&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=LlGpwDsx2TeTnIIoQAyjZg&_nc_ss=7f289&oh=00_AQG_99QzDuIXlY84ODLcdzMbJPgKsVVCHoophTE3qbHyEQ&oe=6A8646DA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02Vsnqh2DcAYKGACvcnZAXze9tr5wAButNwRn7tP2MEhETVhH14bGCkjD9XXms98cUl?__cft__[0]=AZYn39nXq0Wy7Ql1v3HJl-l0zvYGAWA_n3LEn06mNUJYYe9YGcqLmnbhH_1jot-8Xv-j4Ggwb9GNfcxnJ9PiJU3iX0bPTu9dCap9Q_lP8HknJ6FUhg8ztgmhVhTFUfPtAh0_2Om-RRBmQdcYdDqpAh1gT4MMYweBlGuSgiZlj6ZCERb_oXaGZ5R8BY-CbvqfFno&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡MILTON CORTEZ Y SU BANDA LLEGAN A SANTA CRUZ! Un… Ver más ¡MILTON CORTEZ Y SU BANDA LLEGAN A SANTA CRUZ! Un… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -47,13 +55,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hMY0bRvfeRkQ7kNvwFWq9FK&_nc_oc=AdogjMvd1OcdzG4YvpJihAjh-ZA_JFzm-txShunNJe-CvWQoNX2_zeHV7yshD2msH6U&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=N6KRKI0qvwZYTCKIwulTnA&_nc_ss=7f289&oh=00_AQGgfUeTY7IRrBLoCHGgxZuGvE2rlEU1TYOHGFgFW4tVUQ&oe=6A8670B5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 36,
+          "category": "concierto",
+          "url": "https://www.facebook.com/ConciertosEnBolivia/videos/falta-muy-poco-para-disfrutar-de-tu-infiel-favorito-en-concierto%EF%B8%8Fpor-primera-vez/1786302952561721/",
+          "has_image": true,
+          "text_preview": "¡Falta muy poco para disfrutar de tu infiel favorito en concierto!🌴☀️ Por primera vez en Bolivia 🇧🇴 Beéle Adquiere tus entradas en pre venta antes de que se agoten! 🇧🇴 Unica fecha en el país 🇧🇴... ¡Falta muy poco para disfrutar de tu infiel favorito en concierto!🌴☀️ Por primera vez en Bolivia 🇧🇴 Beéle Adquiere tus entradas en pre venta antes de..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -64,13 +81,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mDVLp_luFOoQ7kNvwFlJmaA&_nc_oc=AdofUKdoDSCTMbumEtIkXjNhAQhgkdEc933YCXwiSaeq1D9wqdXMvKniofm8p_M49uA&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=M0tAyfJ9k9p4GH028Mbr3A&_nc_ss=7f289&oh=00_AQEXn9ISr0HTP7mqxJbYd2PDQHb3kVGasHrIKWE0qlQAbQ&oe=6A866076",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid037hjQKBZSFcxXLaw1ijSHUQ9iMeU4sURBcJ6xLSDfV42wpkabCR8fdk6J4ps63Cufl?__cft__[0]=AZYCi9LBoyfWS3SCUrn75cfdQGmUs_Jv35uVMba4n4_tw6J6LMClE2wq9AiS_m2ETIRWdj9r2TvoXcsqyeIOIivd74hqxffJz4hqRZHBrn-IMkBgrRVFqVMITt4GuE5ePPx1kEbb4hobo7ohdMzuAPYPL0744V6LHAaL6U1eUWIg6uTYiV8NJ2zYefsauu0d4_c&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -269,12 +295,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_opinion",
@@ -659,13 +685,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oSIPUSXIJFIQ7kNvwE_zbkx&_nc_oc=AdrBdca7MKj7NdVwMO0WHvXWWVWzAtqplsB5R9gSRLTSaSTI03FG0x8lybY7AzdlQas&_nc_zt=24&_nc_ht=scontent-fra3-2.xx&_nc_gid=DAoCDnYTZAZUIdQy7K9zpw&_nc_ss=7f289&oh=00_AQGkTaYAXMtRgNkEaH1WG5vyS8XwSmBPWWvuI1VopzMDOA&oe=6A8642B8",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_oruro",
@@ -676,22 +702,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": "https://scontent.ficn2-2.fna.fbcdn.net/v/t39.30808-1/693488690_1306639851654691_8009211632152824782_n.jpg?stp=dst-jpg_tt6&cstp=mx1344x1344&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZwDuTs96j1YQ7kNvwE_lW0z&_nc_oc=Ado_EP3jtx5e91LO8oUxCEtvJx-AVipfIqSS2tVX2qt1T6PfPbyKL1rIRI1rHPYY8i8&_nc_zt=24&_nc_ht=scontent.ficn2-2.fna&_nc_gid=iITmkb4U4EjxLJFJwaFvbQ&_nc_ss=7f289&oh=00_AQHSCk-XQglrGl1nCQle3mUQQekWJs3bkn35_skBnHn_2w&oe=6A863D6F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlcaldiaDeOruro/posts/pfbid02gttVs2vizCENug2RFxywVtK4gmKM5VKdwHsBNszC9yePhGXRuHkiVjyoh84HFiWel?__cft__[0]=AZYxRGBsPTMIxZCCyWvG3xiZJQAGG4abt-nHf5Jy_ZS7XT5i3x-EPYXKCKZpbKFEJ39Hx98xvlQi5fQyUp3UMH6fxPNNQ3tGCP_YNX5pJWS35swoExqsCrGgns272a7q7DaAnsiJLcvGHPBdh_BFccg5qU6oNAfWSilHCoKYqf2cC8VOfiHbqhl5xz3hOgneUqM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Las decisiones para Oruro se construyen con sus vecinos!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_tarija",
@@ -702,22 +719,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/734210525_1484423200397079_336268521338765554_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Cs81UIApfb4Q7kNvwHE_X7e&_nc_oc=AdoWwW9tLDENWr7SJoqkU_4jST3n5LSEprhdrqV1QqzvuNXGrVqb7c9EJSkDr8nB_rk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=tgAkgxTgSXlt221kYGKC7Q&_nc_ss=7f289&oh=00_AQGMrqMeB46anU4X_T2lVis8CbWTnmoYyKGT30WE6HJD8A&oe=6A863229",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 34,
-          "category": "nightlife",
-          "url": "https://www.facebook.com/Gobierno.Autonomo.Municipal.Tarija/videos/%EF%B8%8F-san-roque-se-renueva-para-la-fiesta-grande-de-tarijaa-pocos-d%C3%ADas-de-la-fiesta-/1330205355565272/",
-          "has_image": true,
-          "text_preview": "🏛️ San Roque se renueva para la Fiesta Grande de Tarija A pocos días de la Fiesta Grande de Tarija, la iglesia de San Roque, la plaza Campero y las calles aledañas ya lucen renovadas gracias a los... 🏛️ San Roque se renueva para la Fiesta Grande de Tarija A pocos días de la Fiesta Grande de Tarija, la iglesia de San Roque, la plaza Campero y las..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -728,22 +736,13 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VzUS_e8eE9gQ7kNvwHrwb1a&_nc_oc=Adrd2lXy3Z_2OeBKVufu6LPmFA-uc0DU_tTVZVI0pnxDNRy8j9A0FHSYAXuOdSlZ9II&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=pioORq92PthaJwcQrDDc4g&_nc_ss=7f289&oh=00_AQFzsuVfoFd84hsYoa866PjV-XWIi3DQBB-ZR_PkG4JBTA&oe=6A861EA8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1042155281974009/?__cft__[0]=AZbb9g-YGfCa7ks6HVAG1z_-d5lgqcyd5DZBsJ9jMCvwl021Lgh_YBXc5qjracUtkbN3mgmA8W4CL4qi8OwZuegPjstRcQVEb55KcMpoqnuBHMatb2ORqIQB21_d1LiHEiVmV9ZVhaiUy9Y-NTy9AZla64EawUrD0LRaHvO-0fYqNunqXfrTd0cW_8JnTnl0yPRlC39dw3eC3VareX_n3uxx&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡Potosí se disfruta con sabor! … Ver más Bienn.. Tenemos problemas para reproducir este video. Más información Ver más comentarios Nory Aguilar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_trinidad",
@@ -754,13 +753,22 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0XMjQgNEZMIQ7kNvwHNbg8Y&_nc_oc=AdqNwHD9_MozlgtbuUANzr-bdbmldR-2yCBIaPHcDmI_jVWKl7gZwa_4pTwX6Ta-8UE&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=jmykflK_qJdvnaX04UrSqA&_nc_ss=7f289&oh=00_AQFfi3kDplloTCTB6ZkMk6J8X3ngE4vqpgygl5r5w63ZCA&oe=6A86577D",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GAMTDD/posts/pfbid0qPKQQ5vgSBLV8gjtGVa9E3fYTnYt4oBQott2w9aLLrTNW7Qmbeo8rZ6Vif4GbmgPl?__cft__[0]=AZaFXpVCtSZBdkIPJFCgjj4KuwfL4qNPvHexUifwfJ5VKwMdf3hz568vkhl2UvbA83ct67RzGYfHKui7ed08-hlgIqq-Hh1m0Y5VBny8qV5FJ2-II-u5DlZxCWzi-Q-aHFwgVyfvBCI4QIaD7ud04K2rvhzuiadW0zQP1Qu9UG-yXmE2vz6WSh8HjRukhSaKm-E&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "36 AÑOS DE LA MARCHA INDÍGENA DEL 90, UNA HISTORIA QUE MARCÓ A BOLIVIA… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_cobija",
@@ -771,22 +779,13 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aV5wr8vtUQAQ7kNvwH8j7o4&_nc_oc=Adoz1aIFnlQMk0dTmjJwlhStvMCSQg2zdFOE6XvJXTclIst63HwH5j86qJt-P_y6e3U&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=MxfGARwHNeYATtZMQRq1MA&_nc_ss=7f289&oh=00_AQFu0rWpjuMppOpwfrSJh376jMMZF9JxUAUBdLe6Lnhg9g&oe=6A8637EA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1067737225745513/?__cft__[0]=AZaFQtX8pgSGPcFLjwHczcmKCd_teGWCGAYYzjRp8hCY1NVBePSnxoyGd1YDyB2wlKqSGwEbZQ_ZNc9GsAkqH4V6hxfLH6u3exrPFWjPfIzAyU6GvKlFkciwJOBj2fSm91X6Aa4rp3e5pE-078qEEAeaHdtQXbzlIYHBvr5I-jtw0JOKShp6nwN1VVB-Wf1XyyqO2gEjYymlHq4NKn9vKl9v&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "𝗚𝗢𝗕𝗜𝗘𝗥𝗡𝗢 𝗠𝗨𝗡𝗜𝗖𝗜𝗣𝗔𝗟 𝗖𝗢𝗡𝗖𝗟𝗨𝗬𝗘 𝗝𝗢𝗥𝗡𝗔𝗗𝗔𝗦 𝗗𝗘 𝗦𝗢𝗖𝗜𝗔𝗟𝗜𝗭𝗔𝗖𝗜𝗢́𝗡 𝗣𝗔𝗥𝗔 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗥 𝗘𝗟 𝗣𝗟𝗔𝗡 𝗗𝗘 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗗𝗘 𝗖𝗢𝗕𝗜𝗝𝗔 El Gobierno Autónomo Municipal de Cobija lleva adelante la últim… Ver más 𝗚𝗢𝗕𝗜𝗘𝗥𝗡𝗢 𝗠𝗨𝗡𝗜𝗖𝗜𝗣𝗔𝗟 𝗖𝗢𝗡𝗖𝗟𝗨𝗬𝗘 𝗝𝗢𝗥𝗡𝗔𝗗𝗔𝗦 𝗗𝗘 𝗦𝗢𝗖𝗜𝗔𝗟𝗜𝗭𝗔𝗖𝗜𝗢́𝗡 𝗣𝗔𝗥𝗔 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗥 𝗘𝗟 𝗣𝗟𝗔𝗡 𝗗𝗘 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗗𝗘 𝗖𝗢𝗕𝗜𝗝𝗔 El Gobierno Autónomo Municipal de Cobija lleva adelante la últim… Ver más Tenemos problemas para reproducir este video. "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_chuquisaca",
