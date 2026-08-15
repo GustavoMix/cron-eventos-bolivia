@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T11:39:10-04:00",
+  "generated_at": "2026-08-15T14:51:30-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -10,14 +10,15 @@
       "fb_teatro_aire_libre"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 13.6,
-    "horas_maximo_sin_datos": 20.4
+    "horas_promedio_sin_datos": 15.8,
+    "horas_maximo_sin_datos": 23.6
   },
   "sources": [
     {
@@ -29,22 +30,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lHvg36DW85sQ7kNvwFBAu7H&_nc_oc=Ado9n8DF5jp-eVcoUH-LGkq836Tuq7Oeth5Ss1pMW-0Zu-Kb5U_1Thz-274-RVazivs&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=LlGpwDsx2TeTnIIoQAyjZg&_nc_ss=7f289&oh=00_AQG_99QzDuIXlY84ODLcdzMbJPgKsVVCHoophTE3qbHyEQ&oe=6A8646DA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02Vsnqh2DcAYKGACvcnZAXze9tr5wAButNwRn7tP2MEhETVhH14bGCkjD9XXms98cUl?__cft__[0]=AZYn39nXq0Wy7Ql1v3HJl-l0zvYGAWA_n3LEn06mNUJYYe9YGcqLmnbhH_1jot-8Xv-j4Ggwb9GNfcxnJ9PiJU3iX0bPTu9dCap9Q_lP8HknJ6FUhg8ztgmhVhTFUfPtAh0_2Om-RRBmQdcYdDqpAh1gT4MMYweBlGuSgiZlj6ZCERb_oXaGZ5R8BY-CbvqfFno&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡MILTON CORTEZ Y SU BANDA LLEGAN A SANTA CRUZ! Un… Ver más ¡MILTON CORTEZ Y SU BANDA LLEGAN A SANTA CRUZ! Un… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -55,22 +47,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hMY0bRvfeRkQ7kNvwFWq9FK&_nc_oc=AdogjMvd1OcdzG4YvpJihAjh-ZA_JFzm-txShunNJe-CvWQoNX2_zeHV7yshD2msH6U&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=N6KRKI0qvwZYTCKIwulTnA&_nc_ss=7f289&oh=00_AQGgfUeTY7IRrBLoCHGgxZuGvE2rlEU1TYOHGFgFW4tVUQ&oe=6A8670B5",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 36,
-          "category": "concierto",
-          "url": "https://www.facebook.com/ConciertosEnBolivia/videos/falta-muy-poco-para-disfrutar-de-tu-infiel-favorito-en-concierto%EF%B8%8Fpor-primera-vez/1786302952561721/",
-          "has_image": true,
-          "text_preview": "¡Falta muy poco para disfrutar de tu infiel favorito en concierto!🌴☀️ Por primera vez en Bolivia 🇧🇴 Beéle Adquiere tus entradas en pre venta antes de que se agoten! 🇧🇴 Unica fecha en el país 🇧🇴... ¡Falta muy poco para disfrutar de tu infiel favorito en concierto!🌴☀️ Por primera vez en Bolivia 🇧🇴 Beéle Adquiere tus entradas en pre venta antes de..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -81,22 +64,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mDVLp_luFOoQ7kNvwFlJmaA&_nc_oc=AdofUKdoDSCTMbumEtIkXjNhAQhgkdEc933YCXwiSaeq1D9wqdXMvKniofm8p_M49uA&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=M0tAyfJ9k9p4GH028Mbr3A&_nc_ss=7f289&oh=00_AQEXn9ISr0HTP7mqxJbYd2PDQHb3kVGasHrIKWE0qlQAbQ&oe=6A866076",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid037hjQKBZSFcxXLaw1ijSHUQ9iMeU4sURBcJ6xLSDfV42wpkabCR8fdk6J4ps63Cufl?__cft__[0]=AZYCi9LBoyfWS3SCUrn75cfdQGmUs_Jv35uVMba4n4_tw6J6LMClE2wq9AiS_m2ETIRWdj9r2TvoXcsqyeIOIivd74hqxffJz4hqRZHBrn-IMkBgrRVFqVMITt4GuE5ePPx1kEbb4hobo7ohdMzuAPYPL0744V6LHAaL6U1eUWIg6uTYiV8NJ2zYefsauu0d4_c&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -107,13 +81,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Pz1VtXVQyn8Q7kNvwEv09Rv&_nc_oc=AdopAXlxqOkXvkRFA5qvLMpDhrhIkTTN6dBqzhCyrCkPJk9DfuLkVISm-Ze2cCwZtH4&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=2wZTzF8PhZJYL2Ghn8kFmA&_nc_ss=7f289&oh=00_AQHIGTqRr19p_VRuk1fOX0TAZvevN9cVjp1JNzLLEXczLg&oe=6A867943",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid0578hoPDejcENVTXZthsJHP68hJn9v1kAmiMZ76LuZ7pwDa2ZgBKRqco7XEzfwgGdl?__cft__[0]=AZYeniW55p50DlZ8xXcPKVN9FNYMPBfdHyVxUjJRXBnY4_OVuMHGiV0fJfziNysk6r2HfJrYVycwMxeVEOFDdzVtut88Rn4ZMJD1cZqLKiQEDmNsfkP2At4J3jiqfbiVw_XkIE6B0JlTyIADpLnObvsfdAWR1zPW89V0VSU0tme4OcYhQfaOyPPl147n0tKaUUk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -124,13 +107,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=D17KWu_1NBoQ7kNvwHarecK&_nc_oc=Adpk-QPffbHLTus4SzpUX3jgEEokL04rYinV9aarz7-iIuC2UBEvwtCAhYgTtkZ-btY&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=yotqjTKC3W-NKCadoGMhCQ&_nc_ss=7f289&oh=00_AQHNzroaZFzHTQmmj5Gy0yRdmORQWwKDd6AiwMhiFHSohQ&oe=6A86A110",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -753,22 +736,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0XMjQgNEZMIQ7kNvwHNbg8Y&_nc_oc=AdqNwHD9_MozlgtbuUANzr-bdbmldR-2yCBIaPHcDmI_jVWKl7gZwa_4pTwX6Ta-8UE&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=jmykflK_qJdvnaX04UrSqA&_nc_ss=7f289&oh=00_AQFfi3kDplloTCTB6ZkMk6J8X3ngE4vqpgygl5r5w63ZCA&oe=6A86577D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GAMTDD/posts/pfbid0qPKQQ5vgSBLV8gjtGVa9E3fYTnYt4oBQott2w9aLLrTNW7Qmbeo8rZ6Vif4GbmgPl?__cft__[0]=AZaFXpVCtSZBdkIPJFCgjj4KuwfL4qNPvHexUifwfJ5VKwMdf3hz568vkhl2UvbA83ct67RzGYfHKui7ed08-hlgIqq-Hh1m0Y5VBny8qV5FJ2-II-u5DlZxCWzi-Q-aHFwgVyfvBCI4QIaD7ud04K2rvhzuiadW0zQP1Qu9UG-yXmE2vz6WSh8HjRukhSaKm-E&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "36 AÑOS DE LA MARCHA INDÍGENA DEL 90, UNA HISTORIA QUE MARCÓ A BOLIVIA… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_cobija",
@@ -881,13 +855,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BuwoDt4gOZwQ7kNvwF_exII&_nc_oc=Adoi1TYDv6AGgjUDnb2u0ILoezIkzTc3-3gejWnSMZ-6asBpZGxkUUYW7EntqPtoxJk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=jRG16QokkMabawDLHo8Ewg&_nc_ss=7f289&oh=00_AQH9EhHksTWw72kcV2Ib-qRwm2pYMxqcfawrTq3oO14y-A&oe=6A86A061",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/feriafipaz/posts/pfbid036STATC8fKMjmHevvbf9EYdGJvSp5upAxwxKprchp2rQ1rhDuBcXqQi8iLEDXCMBLl?__cft__[0]=AZZjraBqS-eQrCN4o5h9iAHzhPoDhal4dze061_9u6N2XVruLhxIKaps2sfVYOnd--VtTN0DvkvU8rdN6XepRNT69fIRd1pBIX6jJij8D1rpQ2uU5l7ZusnU7DXAPsj8DJ8gOGOjQ2TzgG4K4YaGHNBuEey1bjTQFfNYUgOKfvar2_E2v79EYk1PRvrVZQPbNC0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Capitulo 1 | FIPAZ 25 AÑOS | El fuego comenzaba a encenderse … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -899,12 +882,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1442,11 +1425,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 24,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Comisión de diputados identifica 54 posibles responsables de “gasolina basura” Ver más 2 Quillacollo brilla con la Entrada de Urkupiña 2026 Ver más 3 G"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Quillacollo brilla con la Entrada de Urkupiña 2026 Ver más 2 Gobierno promulga decreto que reestructura el Órgano Ejecutivo Ver más 3 Ahorristas en dól"
         }
       ],
       "error": null

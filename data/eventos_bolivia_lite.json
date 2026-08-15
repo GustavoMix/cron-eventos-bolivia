@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-15T11:39:10-04:00",
+  "generated_at": "2026-08-15T14:51:30-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 18,
+    "events_total": 19,
     "events_today": 3
   },
   "filters": {
@@ -55,7 +55,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 7
+        "count": 8
       },
       {
         "key": "teatro",
@@ -97,7 +97,7 @@
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 8
+        "count": 9
       },
       {
         "key": "La Paz",
@@ -134,7 +134,7 @@
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 9
+        "count": 10
       },
       {
         "key": "La Paz",
@@ -181,7 +181,7 @@
       {
         "key": "todos",
         "label": "Todos",
-        "count": 18
+        "count": 19
       }
     ],
     "price": [
@@ -193,7 +193,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 4
+        "count": 5
       },
       {
         "key": "por_confirmar",
@@ -205,12 +205,12 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 12
+        "count": 13
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 4
+        "count": 5
       }
     ],
     "tags": [
@@ -339,7 +339,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 8
+        "count": 9
       },
       {
         "key": "ticketera",
@@ -626,6 +626,32 @@
       "price_from": null,
       "currency": null,
       "price_label": null,
+      "status": "programado",
+      "source_count": 2
+    },
+    {
+      "event_id": "evt_f4ea8de87e8c3d",
+      "title": "Visitá Expocruz 2026 y podés ganar Bs. 24.000 en efectivo!",
+      "category": "feria",
+      "category_label": "Ferias y expos",
+      "starts_at": "2026-09-27T22:00:00-04:00",
+      "starts_at_ms": 1790560800000,
+      "ends_at_ms": 1790567940000,
+      "multi_day": false,
+      "display_date": "Domingo 27 de septiembre · 22:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 43,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Fexpocruz",
+      "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/772611354_4079759225662656_862747331954755443_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=cae128&_nc_ohc=32WXLccxzxgQ7kNvwEUq7Cc&_nc_oc=AdqFzb7UJ6Zq9KQd4rrX3J7k3PMytEa4yIADisVVSz8IXg3Z3gb7vZE2KDM9-9zKY88&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=4_i4vMd_rNZhy4HNd0m3EQ&_nc_ss=7f289&oh=00_AQFqZGPNW6akRDZIa8p-2CeFfx5Pxiry_qpWLAnn2CkUTg&oe=6A8681A5",
+      "has_video": true,
+      "is_free": false,
+      "price_from": 24.0,
+      "currency": "BOB",
+      "price_label": "Bs 24",
       "status": "programado",
       "source_count": 2
     },
