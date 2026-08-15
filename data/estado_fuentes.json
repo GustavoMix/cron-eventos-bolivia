@@ -1,17 +1,12 @@
 {
-  "generated_at": "2026-08-15T05:43:25-04:00",
+  "generated_at": "2026-08-15T09:02:38-04:00",
   "coverage": {
     "fuentes_totales": 70,
-    "con_datos_alguna_vez": 60,
+    "con_datos_alguna_vez": 65,
     "nunca_vistas": [
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_municipio_cobija",
-      "fb_municipio_oruro",
-      "fb_municipio_potosi",
-      "fb_municipio_sucre",
-      "fb_municipio_tarija",
       "fb_municipio_trinidad",
       "fb_teatro_aire_libre"
     ],
@@ -22,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 9.8,
-    "horas_maximo_sin_datos": 14.4
+    "horas_promedio_sin_datos": 12.1,
+    "horas_maximo_sin_datos": 17.7
   },
   "sources": [
     {
@@ -664,13 +659,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oSIPUSXIJFIQ7kNvwE_zbkx&_nc_oc=AdrBdca7MKj7NdVwMO0WHvXWWVWzAtqplsB5R9gSRLTSaSTI03FG0x8lybY7AzdlQas&_nc_zt=24&_nc_ht=scontent-fra3-2.xx&_nc_gid=DAoCDnYTZAZUIdQy7K9zpw&_nc_ss=7f289&oh=00_AQGkTaYAXMtRgNkEaH1WG5vyS8XwSmBPWWvuI1VopzMDOA&oe=6A8642B8",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_municipio_oruro",
@@ -681,13 +676,22 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent.ficn2-2.fna.fbcdn.net/v/t39.30808-1/693488690_1306639851654691_8009211632152824782_n.jpg?stp=dst-jpg_tt6&cstp=mx1344x1344&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZwDuTs96j1YQ7kNvwE_lW0z&_nc_oc=Ado_EP3jtx5e91LO8oUxCEtvJx-AVipfIqSS2tVX2qt1T6PfPbyKL1rIRI1rHPYY8i8&_nc_zt=24&_nc_ht=scontent.ficn2-2.fna&_nc_gid=iITmkb4U4EjxLJFJwaFvbQ&_nc_ss=7f289&oh=00_AQHSCk-XQglrGl1nCQle3mUQQekWJs3bkn35_skBnHn_2w&oe=6A863D6F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlcaldiaDeOruro/posts/pfbid02gttVs2vizCENug2RFxywVtK4gmKM5VKdwHsBNszC9yePhGXRuHkiVjyoh84HFiWel?__cft__[0]=AZYxRGBsPTMIxZCCyWvG3xiZJQAGG4abt-nHf5Jy_ZS7XT5i3x-EPYXKCKZpbKFEJ39Hx98xvlQi5fQyUp3UMH6fxPNNQ3tGCP_YNX5pJWS35swoExqsCrGgns272a7q7DaAnsiJLcvGHPBdh_BFccg5qU6oNAfWSilHCoKYqf2cC8VOfiHbqhl5xz3hOgneUqM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Las decisiones para Oruro se construyen con sus vecinos!… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_tarija",
@@ -698,13 +702,22 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/734210525_1484423200397079_336268521338765554_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Cs81UIApfb4Q7kNvwHE_X7e&_nc_oc=AdoWwW9tLDENWr7SJoqkU_4jST3n5LSEprhdrqV1QqzvuNXGrVqb7c9EJSkDr8nB_rk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=tgAkgxTgSXlt221kYGKC7Q&_nc_ss=7f289&oh=00_AQGMrqMeB46anU4X_T2lVis8CbWTnmoYyKGT30WE6HJD8A&oe=6A863229",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 34,
+          "category": "nightlife",
+          "url": "https://www.facebook.com/Gobierno.Autonomo.Municipal.Tarija/videos/%EF%B8%8F-san-roque-se-renueva-para-la-fiesta-grande-de-tarijaa-pocos-d%C3%ADas-de-la-fiesta-/1330205355565272/",
+          "has_image": true,
+          "text_preview": "🏛️ San Roque se renueva para la Fiesta Grande de Tarija A pocos días de la Fiesta Grande de Tarija, la iglesia de San Roque, la plaza Campero y las calles aledañas ya lucen renovadas gracias a los... 🏛️ San Roque se renueva para la Fiesta Grande de Tarija A pocos días de la Fiesta Grande de Tarija, la iglesia de San Roque, la plaza Campero y las..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_potosi",
@@ -715,13 +728,22 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VzUS_e8eE9gQ7kNvwHrwb1a&_nc_oc=Adrd2lXy3Z_2OeBKVufu6LPmFA-uc0DU_tTVZVI0pnxDNRy8j9A0FHSYAXuOdSlZ9II&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=pioORq92PthaJwcQrDDc4g&_nc_ss=7f289&oh=00_AQFzsuVfoFd84hsYoa866PjV-XWIi3DQBB-ZR_PkG4JBTA&oe=6A861EA8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1042155281974009/?__cft__[0]=AZbb9g-YGfCa7ks6HVAG1z_-d5lgqcyd5DZBsJ9jMCvwl021Lgh_YBXc5qjracUtkbN3mgmA8W4CL4qi8OwZuegPjstRcQVEb55KcMpoqnuBHMatb2ORqIQB21_d1LiHEiVmV9ZVhaiUy9Y-NTy9AZla64EawUrD0LRaHvO-0fYqNunqXfrTd0cW_8JnTnl0yPRlC39dw3eC3VareX_n3uxx&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Potosí se disfruta con sabor! … Ver más Bienn.. Tenemos problemas para reproducir este video. Más información Ver más comentarios Nory Aguilar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_trinidad",
@@ -749,13 +771,22 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aV5wr8vtUQAQ7kNvwH8j7o4&_nc_oc=Adoz1aIFnlQMk0dTmjJwlhStvMCSQg2zdFOE6XvJXTclIst63HwH5j86qJt-P_y6e3U&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=MxfGARwHNeYATtZMQRq1MA&_nc_ss=7f289&oh=00_AQFu0rWpjuMppOpwfrSJh376jMMZF9JxUAUBdLe6Lnhg9g&oe=6A8637EA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1067737225745513/?__cft__[0]=AZaFQtX8pgSGPcFLjwHczcmKCd_teGWCGAYYzjRp8hCY1NVBePSnxoyGd1YDyB2wlKqSGwEbZQ_ZNc9GsAkqH4V6hxfLH6u3exrPFWjPfIzAyU6GvKlFkciwJOBj2fSm91X6Aa4rp3e5pE-078qEEAeaHdtQXbzlIYHBvr5I-jtw0JOKShp6nwN1VVB-Wf1XyyqO2gEjYymlHq4NKn9vKl9v&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "𝗚𝗢𝗕𝗜𝗘𝗥𝗡𝗢 𝗠𝗨𝗡𝗜𝗖𝗜𝗣𝗔𝗟 𝗖𝗢𝗡𝗖𝗟𝗨𝗬𝗘 𝗝𝗢𝗥𝗡𝗔𝗗𝗔𝗦 𝗗𝗘 𝗦𝗢𝗖𝗜𝗔𝗟𝗜𝗭𝗔𝗖𝗜𝗢́𝗡 𝗣𝗔𝗥𝗔 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗥 𝗘𝗟 𝗣𝗟𝗔𝗡 𝗗𝗘 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗗𝗘 𝗖𝗢𝗕𝗜𝗝𝗔 El Gobierno Autónomo Municipal de Cobija lleva adelante la últim… Ver más 𝗚𝗢𝗕𝗜𝗘𝗥𝗡𝗢 𝗠𝗨𝗡𝗜𝗖𝗜𝗣𝗔𝗟 𝗖𝗢𝗡𝗖𝗟𝗨𝗬𝗘 𝗝𝗢𝗥𝗡𝗔𝗗𝗔𝗦 𝗗𝗘 𝗦𝗢𝗖𝗜𝗔𝗟𝗜𝗭𝗔𝗖𝗜𝗢́𝗡 𝗣𝗔𝗥𝗔 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗥 𝗘𝗟 𝗣𝗟𝗔𝗡 𝗗𝗘 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗗𝗘 𝗖𝗢𝗕𝗜𝗝𝗔 El Gobierno Autónomo Municipal de Cobija lleva adelante la últim… Ver más Tenemos problemas para reproducir este video. "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -766,30 +797,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eTCoXV4aDDMQ7kNvwHs62Io&_nc_oc=AdrDV0AWoD0uN-ifV5ed8lGX5TUOHXsuwrarm27qvmTlVLi0b_BxnDaBUAcT4Ak1dGQ&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=qUZb8BWPFwIfpOt9H43a9Q&_nc_ss=7f289&oh=00_AQEZdMPUol312aEftyv2g9BSmpMN6pnsPlNWt73VfWDaNg&oe=6A8600AA",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid02akKP1KiZrp4P2gXRbhExBcoCt1TZHvqU3maHppASJqRSa6MRb1iKjFNYKpADqgA2l?__cft__[0]=AZZK1kMHllLRsegYoD6T6KdWDhcXrQzlhlA2x5t0iN-n_VWEwPyV7T-HLiqujffi8vP7bolit8WBs4goyt5znFAnofj4D71YW89x6iktbOQqORokAmOAzD8G2-Bo_HJyXGbMv0FE9OcIBteIDSCGDbYpFX_nfB4y1wZzBEpcedheMHTRbtpMSKEq6K_CIi1rlEc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "MÁS DE 30 PROCESOS EN ESTOS PRIMEROS 100 DÍAS: GOBERNACIÓN BAJO EL PRINCIPIO DE LIMPIANDO LA CASA APERTURO PROCESOS POR NOMBRAMIENTOS IRREGULARES, AFECTACIONES A LAS AR… Ver más Excelente . A seguir adelante T.x.Ch CHUQUISACA.GOB.BO MÁS DE 30 PROCESOS EN ESTOS PRIMEROS 100 DÍAS: GOBERNACIÓN BAJO EL PRINCIPIO DE LIMPIANDO LA CASA APERTURO PROCESOS POR NOMBRAMIENTOS IRREGULARES, AFECTACIONES A LAS A"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid02akKP1KiZrp4P2gXRbhExBcoCt1TZHvqU3maHppASJqRSa6MRb1iKjFNYKpADqgA2l?comment_id=1080873450951311&__cft__[0]=AZZK1kMHllLRsegYoD6T6KdWDhcXrQzlhlA2x5t0iN-n_VWEwPyV7T-HLiqujffi8vP7bolit8WBs4goyt5znFAnofj4D71YW89x6iktbOQqORokAmOAzD8G2-Bo_HJyXGbMv0FE9OcIBteIDSCGDbYpFX_nfB4y1wZzBEpcedheMHTRbtpMSKEq6K_CIi1rlEc&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Excelente . A seguir adelante T.x.Ch Rafael Alex Excelente . A seguir adelante T.x.Ch"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_oruro",
@@ -800,30 +814,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/697159968_986023367697068_3492270509500920608_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Y-JJLs3B1kIQ7kNvwEFS1Ky&_nc_oc=AdqAm_H4eZP3F39pwJNh-9jec1KhWMFnjeXVQt2Gr0PrMMeDEQYU9ukWawTJOPwBp7Y&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=D5H9GnZQ3g2Gkb6b9S7KNA&_nc_ss=7f289&oh=00_AQFC6ClLdW38tRS0mHCiKy3knyGLM1CxMUXQnTM0IJa9tw&oe=6A8613B0",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/3216214755433352/?__cft__[0]=AZZuOtm8LSvQlB-w5YCncUjtiEox9VWBJF5hWk2ncriWZ6uq219DesO6yfrcD2vO2zyZhuxQ4HVYkojI9jkkphd8--ka16Gni5ZUjbV0LxDFYEgKm0LQPjzVLfOx5qfdi0to0mm4pI-blK97Vtr38V5W22I06FuBTk5f-z-PYFj5nxEsu6lvTeJmV1vilqLWiWfAiJpt9w6fHkMiLYS9z_-7&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "En un acto representativo llevado a cabo en el Salón Ildefonso Murguía del Gobierno Autónomo Departamental de Oruro, se consolidó la firma de un importante convenio tri… Ver más Pongan solución a la carretera Oruro challapata Tenemos problemas para reproducir este video. Más información Ver más comentarios J Pablo Gamb"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/3216214755433352/?comment_id=802099502965820&__cft__[0]=AZZuOtm8LSvQlB-w5YCncUjtiEox9VWBJF5hWk2ncriWZ6uq219DesO6yfrcD2vO2zyZhuxQ4HVYkojI9jkkphd8--ka16Gni5ZUjbV0LxDFYEgKm0LQPjzVLfOx5qfdi0to0mm4pI-blK97Vtr38V5W22I06FuBTk5f-z-PYFj5nxEsu6lvTeJmV1vilqLWiWfAiJpt9w6fHkMiLYS9z_-7&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Pongan solución a la carretera Oruro challapata J Pablo Gamb"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_tarija",
@@ -834,22 +831,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ov1zuYVDQyQQ7kNvwEWO-Vj&_nc_oc=AdoYPZKYcNh4VbFRtsP8ZFOvTxUM0LKuaTWsCUN29xaESkuNJwtDqzhWi53u3Q33-WI&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=LUdMthsEGP_cAv_yT0_3kw&_nc_ss=7f289&oh=00_AQGJRUPIgAAbBEvzJtDQFtaPE4Qhy6NtazIRdNZsv6BlWw&oe=6A860E67",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1034855225824961/?__cft__[0]=AZalF1h7O6rYae6O8awEKJLJfjLLaPDq0C6-Og8vaZXCxfcxuXyzN7Ew3R77ydhxDMgGE8hlNP9bnsxz8K1OrOdCTyOVEEedz3NMV3EAzJgApwv6K17oNQwIgkHbO-lbMzWtSuAuyFCWkNY3Vy_7ceKf4EpN9eCwH2dmU-6Qa7ur5Tybv_ZEExyd9wC8Es7yiV1KBbfumFLdy33JeJA7TTOO&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Tariquía #Tariquía Tariquía #Tariquía Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_pando",
@@ -860,30 +848,13 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OW2HeqRgKt0Q7kNvwF4_GUm&_nc_oc=Adq6cTMAy8lcMeyq0LVDEI3dIt-VM_Udc9J6h08TN33RNAnguJV0M8lPXvi0qsS1EIc&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=bbUcMvPoCuoZWXIR6rJXDg&_nc_ss=7f289&oh=00_AQFJWFovp61q3S345oBphDcveHNg2rC2EiaV5dRyNxzVow&oe=6A85F250",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02MFVw4bn3JhzGxgUM5Udzkh3PQkJJYMVR3yGf6c7D1TvdFzVNa13jaNMWUyEZkjbml?__cft__[0]=AZb5kF3Q4KmM6N4RDhELEQ-K63QAe4jXDeLPHINYtzVC3ga10TnZhlSJNkMaQ2TtnynWFCaT30tQFQc45o-wDvFhmf7ElCPB4u6ymVRxKorKC57wXHfR6SWUarLvW0ALKOOHFNOdpYkyrF0ygFf73i5x8PIqahRvH2XsTh7hN-gsCaCR-eCbi9zUAhHG0m9GihqEWZhM0X7RNgJRQJKqkxde&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02MFVw4bn3JhzGxgUM5Udzkh3PQkJJYMVR3yGf6c7D1TvdFzVNa13jaNMWUyEZkjbml?comment_id=584098196711804&__cft__[0]=AZb5kF3Q4KmM6N4RDhELEQ-K63QAe4jXDeLPHINYtzVC3ga10TnZhlSJNkMaQ2TtnynWFCaT30tQFQc45o-wDvFhmf7ElCPB4u6ymVRxKorKC57wXHfR6SWUarLvW0ALKOOHFNOdpYkyrF0ygFf73i5x8PIqahRvH2XsTh7hN-gsCaCR-eCbi9zUAhHG0m9GihqEWZhM0X7RNgJRQJKqkxde&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_beni",
@@ -894,30 +865,13 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=d9MaMOJwRLAQ7kNvwFbpV0J&_nc_oc=AdrmXPX1CStL6BaQaI4SlmuyDvywsAxQXrYb_Zi_gUyKBitoeWan1DpV-KFLBeDWp2k&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=irbrS7RP71zfGdDkoOupUA&_nc_ss=7f289&oh=00_AQFc3-NBBMcdowja9E7sx5BVWrM4Gd1Knurw9R11dfr08Q&oe=6A85ECE9",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDelBeni/posts/1689887975362010:1689887975362010?__cft__[0]=AZZt8i8vODG-ZntKh8-v5dcC2-2wbyepqc88T-rEmzvPoqtq2M8SvHyb2L5rU7o6EaZl2N61XiYpWXmZaidjb_XN9Yh8OF9GpO80Fv0hEvmTCxDA_hDD1-TAeHJPSOn7c-1MiuE3Yu-5PWUXzS8e5nlypRC61u8dVf7AovvF-5a-Dj9MbUYRAAfKFT46rHexY9ktmtMMloujM88gc4gV_Q_w&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Ver más comentarios Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDelBeni/",
-          "has_image": false,
-          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fipaz",

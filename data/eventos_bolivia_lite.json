@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-15T05:43:25-04:00",
+  "generated_at": "2026-08-15T09:02:38-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 17,
-    "events_today": 2
+    "events_total": 18,
+    "events_today": 3
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 6
+        "count": 7
       },
       {
         "key": "teatro",
@@ -105,6 +105,11 @@
         "count": 3
       },
       {
+        "key": "Sucre",
+        "label": "Sucre",
+        "count": 2
+      },
+      {
         "key": "Tarija",
         "label": "Tarija",
         "count": 1
@@ -123,11 +128,6 @@
         "key": "Cochabamba",
         "label": "Cochabamba",
         "count": 1
-      },
-      {
-        "key": "Sucre",
-        "label": "Sucre",
-        "count": 1
       }
     ],
     "departments": [
@@ -140,6 +140,11 @@
         "key": "La Paz",
         "label": "La Paz",
         "count": 3
+      },
+      {
+        "key": "Chuquisaca",
+        "label": "Chuquisaca",
+        "count": 2
       },
       {
         "key": "Tarija",
@@ -155,33 +160,28 @@
         "key": "Cochabamba",
         "label": "Cochabamba",
         "count": 1
-      },
-      {
-        "key": "Chuquisaca",
-        "label": "Chuquisaca",
-        "count": 1
       }
     ],
     "when": [
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 2
+        "count": 3
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 5
+        "count": 6
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 8
+        "count": 9
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 17
+        "count": 18
       }
     ],
     "price": [
@@ -193,7 +193,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 3
+        "count": 4
       },
       {
         "key": "por_confirmar",
@@ -205,12 +205,12 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 11
+        "count": 12
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 3
+        "count": 4
       }
     ],
     "tags": [
@@ -285,6 +285,36 @@
         "count": 1
       },
       {
+        "key": "SucreRenace",
+        "label": "SucreRenace",
+        "count": 1
+      },
+      {
+        "key": "AgostoRenace",
+        "label": "AgostoRenace",
+        "count": 1
+      },
+      {
+        "key": "Sucre",
+        "label": "Sucre",
+        "count": 1
+      },
+      {
+        "key": "abuelos",
+        "label": "abuelos",
+        "count": 1
+      },
+      {
+        "key": "abuela",
+        "label": "abuela",
+        "count": 1
+      },
+      {
+        "key": "comida",
+        "label": "comida",
+        "count": 1
+      },
+      {
         "key": "RAE2026",
         "label": "RAE2026",
         "count": 1
@@ -303,36 +333,6 @@
         "key": "DñaNieves",
         "label": "DñaNieves",
         "count": 1
-      },
-      {
-        "key": "LaMadrina",
-        "label": "LaMadrina",
-        "count": 1
-      },
-      {
-        "key": "Oruro",
-        "label": "Oruro",
-        "count": 1
-      },
-      {
-        "key": "Teatro",
-        "label": "Teatro",
-        "count": 1
-      },
-      {
-        "key": "Comedia",
-        "label": "Comedia",
-        "count": 1
-      },
-      {
-        "key": "TeatroBoliviano",
-        "label": "TeatroBoliviano",
-        "count": 1
-      },
-      {
-        "key": "EventosBolivia",
-        "label": "EventosBolivia",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -345,6 +345,11 @@
         "key": "ticketera",
         "label": "ticketera",
         "count": 6
+      },
+      {
+        "key": "municipio",
+        "label": "municipio",
+        "count": 1
       },
       {
         "key": "media",
@@ -413,6 +418,32 @@
       "price_from": null,
       "currency": null,
       "price_label": "Entrada libre",
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_d234edfaa97d8f",
+      "title": "Gobierno Autónomo Municipal de Sucre",
+      "category": "feria",
+      "category_label": "Ferias y expos",
+      "starts_at": "2026-08-15T21:00:00-04:00",
+      "starts_at_ms": 1786842000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 15 de agosto · 21:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": null,
+      "image_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t15.5256-10/775798794_1062693292794150_6992478745405544970_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a27664&_nc_ohc=lBZLH0UdsGYQ7kNvwEK1w2F&_nc_oc=AdpMyM8ojrzE4zYz9MjrSzKvEPvgGSYvW4wM6LEFLEpXrliv-0TS3h14OE1u3QMVZkE&_nc_zt=23&_nc_ht=scontent-fra3-2.xx&_nc_gid=mFfkHXxCpe6yxfQoZFxXfA&_nc_ss=7f289&oh=00_AQENekq6r0B24bGG0IqOGOFxBW3zc4FJ9mkxRe6_C8EtvA&oe=6A864AFF",
+      "has_video": true,
+      "is_free": false,
+      "price_from": 10.0,
+      "currency": "BOB",
+      "price_label": "Bs 10 - 20",
       "status": "programado",
       "source_count": 1
     },
