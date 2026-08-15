@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-14T23:56:27-04:00",
+  "generated_at": "2026-08-15T03:00:39-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 21,
-    "events_today": 4
+    "events_total": 17,
+    "events_today": 2
   },
   "filters": {
     "ui_groups": [
@@ -60,22 +60,17 @@
       {
         "key": "teatro",
         "label": "Teatro",
-        "count": 5
+        "count": 4
       },
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 3
-      },
-      {
-        "key": "festival",
-        "label": "Festivales",
         "count": 2
       },
       {
         "key": "exposicion",
         "label": "Exposiciones",
-        "count": 2
+        "count": 1
       },
       {
         "key": "nightlife",
@@ -88,6 +83,11 @@
         "count": 1
       },
       {
+        "key": "festival",
+        "label": "Festivales",
+        "count": 1
+      },
+      {
         "key": "taller",
         "label": "Talleres y cursos",
         "count": 1
@@ -97,17 +97,12 @@
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 10
+        "count": 8
       },
       {
         "key": "La Paz",
         "label": "La Paz",
         "count": 3
-      },
-      {
-        "key": "Quillacollo",
-        "label": "Quillacollo",
-        "count": 1
       },
       {
         "key": "Tarija",
@@ -139,17 +134,12 @@
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 11
+        "count": 9
       },
       {
         "key": "La Paz",
         "label": "La Paz",
         "count": 3
-      },
-      {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 2
       },
       {
         "key": "Tarija",
@@ -162,6 +152,11 @@
         "count": 1
       },
       {
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 1
+      },
+      {
         "key": "Chuquisaca",
         "label": "Chuquisaca",
         "count": 1
@@ -171,22 +166,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 4
+        "count": 2
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 9
+        "count": 5
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 11
+        "count": 8
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 21
+        "count": 17
       }
     ],
     "price": [
@@ -198,19 +193,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 4
+        "count": 3
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 16
+        "count": 13
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 15
+        "count": 11
       },
       {
         "key": "con_video",
@@ -222,91 +217,41 @@
       {
         "key": "Ml18Xb",
         "label": "Ml18Xb",
-        "count": 3
+        "count": 2
       },
       {
         "key": "vvzi1e",
         "label": "vvzi1e",
-        "count": 2
+        "count": 1
       },
       {
         "key": "NS0kde",
         "label": "NS0kde",
-        "count": 2
+        "count": 1
       },
       {
         "key": "HokZ0d",
         "label": "HokZ0d",
-        "count": 2
+        "count": 1
       },
       {
         "key": "d5Qebf",
         "label": "d5Qebf",
-        "count": 2
+        "count": 1
       },
       {
         "key": "U8DOt",
         "label": "U8DOt",
-        "count": 2
+        "count": 1
       },
       {
         "key": "iOlsLd",
         "label": "iOlsLd",
-        "count": 2
+        "count": 1
       },
       {
         "key": "ZxCkTb",
         "label": "ZxCkTb",
-        "count": 2
-      },
-      {
-        "key": "Quillacollo",
-        "label": "Quillacollo",
-        "count": 1
-      },
-      {
-        "key": "GADC",
-        "label": "GADC",
-        "count": 1
-      },
-      {
-        "key": "TransparenciaLealtadyUndad",
-        "label": "TransparenciaLealtadyUndad",
-        "count": 1
-      },
-      {
-        "key": "GestiónLeonardoLoza",
-        "label": "GestiónLeonardoLoza",
-        "count": 1
-      },
-      {
-        "key": "Manzana1",
-        "label": "Manzana1",
-        "count": 1
-      },
-      {
-        "key": "ArteBoliviano",
-        "label": "ArteBoliviano",
-        "count": 1
-      },
-      {
-        "key": "Inauguracion",
-        "label": "Inauguracion",
-        "count": 1
-      },
-      {
-        "key": "SantaCruzDeLaSierra",
-        "label": "SantaCruzDeLaSierra",
-        "count": 1
-      },
-      {
-        "key": "ExposicionDeArte",
-        "label": "ExposicionDeArte",
-        "count": 1
-      },
-      {
-        "key": "CulturaBolivia",
-        "label": "CulturaBolivia",
         "count": 1
       },
       {
@@ -338,23 +283,68 @@
         "key": "FomentoCRC",
         "label": "FomentoCRC",
         "count": 1
+      },
+      {
+        "key": "RAE2026",
+        "label": "RAE2026",
+        "count": 1
+      },
+      {
+        "key": "263",
+        "label": "263",
+        "count": 1
+      },
+      {
+        "key": "LaKerkenchaDeMiSuegra",
+        "label": "LaKerkenchaDeMiSuegra",
+        "count": 1
+      },
+      {
+        "key": "DñaNieves",
+        "label": "DñaNieves",
+        "count": 1
+      },
+      {
+        "key": "LaMadrina",
+        "label": "LaMadrina",
+        "count": 1
+      },
+      {
+        "key": "Oruro",
+        "label": "Oruro",
+        "count": 1
+      },
+      {
+        "key": "Teatro",
+        "label": "Teatro",
+        "count": 1
+      },
+      {
+        "key": "Comedia",
+        "label": "Comedia",
+        "count": 1
+      },
+      {
+        "key": "TeatroBoliviano",
+        "label": "TeatroBoliviano",
+        "count": 1
+      },
+      {
+        "key": "EventosBolivia",
+        "label": "EventosBolivia",
+        "count": 1
       }
     ],
     "source_classes": [
       {
         "key": "venue",
         "label": "venue",
-        "count": 9
+        "count": 8
       },
       {
         "key": "ticketera",
         "label": "ticketera",
-        "count": 8
-      },
-      {
-        "key": "municipio",
-        "label": "municipio",
-        "count": 1
+        "count": 6
       },
       {
         "key": "media",
@@ -375,110 +365,6 @@
   },
   "events": [
     {
-      "event_id": "evt_133eeb829b2235",
-      "title": "Festival de Teatro &quot;Ureñarte&quot;",
-      "category": "teatro",
-      "category_label": "Teatro",
-      "starts_at": "2026-08-14T00:00:00-04:00",
-      "starts_at_ms": 1786680000000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Viernes 14 de agosto · 00:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Casa de la Cultura Raúl Otero Reiche",
-      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/07/sur.jpeg",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_2624be91e14cb5",
-      "title": "Gobernación de Cochabamba",
-      "category": "festival",
-      "category_label": "Festivales",
-      "starts_at": "2026-08-14T00:00:00-04:00",
-      "starts_at_ms": 1786680000000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Viernes 14 de agosto",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Quillacollo",
-      "department": "Cochabamba",
-      "venue": null,
-      "image_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.99422-6/775260366_1582647649876499_964866287531272151_n.png?stp=dst-jpg_tt6&cstp=mx1279x1593&ctp=p600x600&_nc_cat=109&ccb=1-7&_nc_sid=b96d88&_nc_ohc=pKjoamQTb2QQ7kNvwFhoGlI&_nc_oc=AdqZXvbHVEny3uKt0BJcpFTMYEbHUoGhmd9Xu4A4fieIvyStKAnDFMpMPX1LRuoZ2Nw&_nc_zt=14&_nc_ht=scontent-lhr6-2.xx&_nc_gid=tC28JbjhTGu5L56vYmdX2g&_nc_ss=7f289&oh=00_AQEvsL8mQzXN4_jqPIQ0ONhPS2FJW7hYxWKZ-D8roFCxKQ&oe=6A84F1F7",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_0fe736e8aa2d8d",
-      "title": "Concierto Homenaje al Chaco - Los Canarios del Chaco",
-      "category": "concierto",
-      "category_label": "Conciertos",
-      "starts_at": "2026-08-14T16:00:00-04:00",
-      "starts_at_ms": 1786737600000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Viernes 14 de agosto · 16:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": null,
-      "department": null,
-      "venue": null,
-      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/08/CANARIOS.jpeg",
-      "has_video": false,
-      "is_free": false,
-      "price_from": 457.0,
-      "currency": "BOB",
-      "price_label": "Bs 457",
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_8c01d13ddcc601",
-      "title": "Manzana 1 Espacio de Arte",
-      "category": "exposicion",
-      "category_label": "Exposiciones",
-      "starts_at": "2026-08-14T19:30:00-04:00",
-      "starts_at_ms": 1786750200000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Viernes 14 de agosto · 19:30",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Manzana Uno Espacio de Arte",
-      "image_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.99422-6/774174412_1634548134954420_5196636242509976948_n.png?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=cae128&_nc_ohc=uiuSpp9R2hQQ7kNvwHsGSuR&_nc_oc=AdpUjqGAFRpmejLG4eJv3YeLif2OCmfjgGTg1dVdOkItYPIfkC0NEfqtG-heboKzlNU&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=ENosOXwTguaHRNkMFvmB0g&_nc_ss=7f289&oh=00_AQEa0MYXBn8DTojjRd7b0xmZeb2sq50iFyqaDPGno8P2pA&oe=6A85C123",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_2acff3717ffeab",
       "title": "Festival de Teatro &quot;Ureñarte&quot;",
       "category": "teatro",
@@ -488,9 +374,9 @@
       "ends_at_ms": null,
       "multi_day": false,
       "display_date": "Sábado 15 de agosto · 00:00",
-      "lifecycle": "proximo",
-      "lifecycle_label": "Próximos",
-      "days_until": 1,
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -514,9 +400,9 @@
       "ends_at_ms": null,
       "multi_day": false,
       "display_date": "Sábado 15 de agosto · 10:30",
-      "lifecycle": "proximo",
-      "lifecycle_label": "Próximos",
-      "days_until": 1,
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
       "is_upcoming": true,
       "city": "Tarija",
       "department": "Tarija",
@@ -542,7 +428,7 @@
       "display_date": "Lunes 17 de agosto · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 3,
+      "days_until": 2,
       "is_upcoming": true,
       "city": null,
       "department": null,
@@ -568,7 +454,7 @@
       "display_date": "Martes 18 de agosto · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 4,
+      "days_until": 3,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -594,7 +480,7 @@
       "display_date": "Viernes 21 de agosto · 16:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 7,
+      "days_until": 6,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -620,7 +506,7 @@
       "display_date": "Sábado 29 de agosto · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 15,
+      "days_until": 14,
       "is_upcoming": true,
       "city": "Oruro",
       "department": "Oruro",
@@ -646,7 +532,7 @@
       "display_date": "Domingo 30 de agosto · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 16,
+      "days_until": 15,
       "is_upcoming": true,
       "city": "Montero",
       "department": "Santa Cruz",
@@ -672,7 +558,7 @@
       "display_date": "Lunes 14 de septiembre · 21:15",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 31,
+      "days_until": 30,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -698,7 +584,7 @@
       "display_date": "Del 18 al 27 de septiembre · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 35,
+      "days_until": 34,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -724,7 +610,7 @@
       "display_date": "Domingo 8 de noviembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 86,
+      "days_until": 85,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -750,7 +636,7 @@
       "display_date": "Del 3 al 7 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 201,
+      "days_until": 200,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -776,7 +662,7 @@
       "display_date": "Del 17 al 21 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 215,
+      "days_until": 214,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -802,7 +688,7 @@
       "display_date": "Sábado 24 de abril · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 253,
+      "days_until": 252,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -828,7 +714,7 @@
       "display_date": "Del 1 al 4 de julio",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 321,
+      "days_until": 320,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -854,7 +740,7 @@
       "display_date": "Del 1 al 4 de julio · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 321,
+      "days_until": 320,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -880,7 +766,7 @@
       "display_date": "Viernes 6 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 357,
+      "days_until": 356,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -906,7 +792,7 @@
       "display_date": "Del 10 al 21 de agosto · 15:30",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 361,
+      "days_until": 360,
       "is_upcoming": true,
       "city": "Sucre",
       "department": "Chuquisaca",
