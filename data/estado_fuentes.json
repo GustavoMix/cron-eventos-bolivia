@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T17:39:32-04:00",
+  "generated_at": "2026-08-15T22:01:06-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -10,7 +10,6 @@
       "fb_teatro_aire_libre"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alianza_francesa_lapaz",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -18,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 17.8,
-    "horas_maximo_sin_datos": 26.4
+    "horas_promedio_sin_datos": 20.9,
+    "horas_maximo_sin_datos": 30.7
   },
   "sources": [
     {
@@ -898,13 +897,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=c1Hv30Btj0wQ7kNvwGFCD5F&_nc_oc=AdoEYfvP7vb89Rx5VFdDQUw4pOaNSQbBdAWc-p0PxW5dp1L09MkvpN9Oe83F25E6Hkk&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=UnWQXlmQzpCZbwWuCZkfUQ&_nc_ss=7f289&oh=00_AQG4YUB1mesKjRNgs6Wb_prJ3VJ9CYRVux7-iERJZZwmcw&oe=6A86D747",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/pfbid02EEanAhGt3HvcNBviwCx4wMwWmwu7CjE5pBFY68rKe6EawchR7v1hNRGRFCmQxYzJl?__cft__[0]=AZYglrveJ_omMRa2mpkm_i6SP_77LLVeFPsOMZvnFw-y3I55SRvt4FEDDzStK8wzAatN3FWXo89U8U9fHG1c2kR7GM2BBo3UE7xLZf-5i3rcENjtsdE_CRvzFUMpKwJNuVy8QNCxchixkX30E6mVwnt1K_nK_TOJ8y8Er6cN3aBSP_VzmgrVwXg_HJErm4BqIQ0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Supervivencia francesa para no morir en el intento ¿No… Ver más Supervivencia francesa para no morir en el intento ¿No… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -932,13 +940,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GtH6DyCNAnIQ7kNvwEHsLHh&_nc_oc=Adpy6wMvSBPGJj0fR_BT26T5gKZ02cr_FzoeHbbfSQSpDJ7qj14XqJcKFfIEgGnGXyc&_nc_zt=24&_nc_ht=scontent-cdg6-1.xx&_nc_gid=Bk_kYZftin1q0mT7qUVqJw&_nc_ss=7f289&oh=00_AQEyfn7EkE9iTAWVD9Ymwzgs8CE3TWEkJ4n6Nt-LfCkO7g&oe=6A870207",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/videos/1337562751876374/?__cft__[0]=AZaDQ7D5OxybJUouqnJ7T5-E3ScjgwyxvnaCo6GERKxzxV5rDqxszuqHr9ymlIeFTbO7iOHyRr3iRcsXm2_9dJyy8hLT_KOZuuD4c0Km7icvWoUynKOWzdg61qMXVYpd60OBlySmBsNI-owjoBkDmzDB8FSADQgyfj7MK5XbApXM2puWdtmD_FlW4BejCFBEsSaro51KebjyFxw53YgobjIO&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Mira el Futuro que estamos construyendo! Acompáñanos en el Informe de 100 días de Gestión. #E… Ver más ¡Mira el Futuro que estamos construyendo! Acompáñanos en el Informe de 100 días de Gestión. #E… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -1034,22 +1051,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AnjJLzQrH5AQ7kNvwEOXyf9&_nc_oc=AdpeQ2sNoZ2gKqae2Ism1P8sdUE5u4WwzWGo7T4USf7m3uQOdXMc26w-hwmN4w60imY&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=kQeVeEiv3aiGUXHa8FTIlA&_nc_ss=7f289&oh=00_AQEHM_R0TBoCdVRT16U3fSllLOSKV6CDcXMSORmT58YOSw&oe=6A86BC55",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid037eg52k4r6oCDThsshDYyeCS6nkNjxDTvLqGVNdkzztQt86zy4kngBp911ekEBoMZl?__cft__[0]=AZakiU8Op9kCj9ikY-jHj1VUKRcefqpWvuTlLiu7PF0n6ClOj4ar_I_PVemY0gCzcxgVrBmmlSNFsOVBaigrcvIoFrTr-y_YVyds2hLd-dZxU5eK7GKl078E9arumfQfMGDg4umNJxds_pD4cr12J_P3lwobBjea547KOyaKSVXOh-pL_NMNx_jGj_i1OQYbK78&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¿Y si te decimos que puedes conocer el mundo sin pasaporte ni maletas? … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1060,22 +1068,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WCI1A79woG8Q7kNvwHPMmmi&_nc_oc=AdqNffYcRQlyxbm2NZqQt1DWCPrLQSynbPs6U8DLcC0n9Lt7ZXIRU4tezOxvXnsy8ug&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=qFp3JSJns7qLLrdTB4jhvg&_nc_ss=7f289&oh=00_AQGZFoMVG6p6oHurMEfRysU04WSTVYqR6fgrqsk9VqUtSQ&oe=6A86BED2",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid021eJ3vDirC8y8g23NS9LNGDVX5XWtFDZmqt8GSLdaLcWYtbe2bStpkWAttrPPem1Ql?__cft__[0]=AZbFjB79DewRF-vvawpEr87KFd8cEkAffyZTvaoS4UoB_hy_Wpc3hVVmD9mTxNPws-5w4-FRnaJsYsto7pith2140m3vbjlQ-NwRub_7XVbnwpH87kG2P3h3KddDextgfCTZ_I9Cc5h4c6adHVF04JQSk0ertOFlcjNrT4wWL3hyB4EFFv-7DBwc1vGDIPOrIAQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "ENTRE PLIEGUES… Ver más La Alianza Francesa es una asociación de derecho local con un comité compuesto por ciudadanos bolivianos y franceses residentes en el país, sin afanes lucrativos, dedicada principalmente a la difusión del idioma y de la cultura franceses con el fin de permitir el acceso al más grande número de personas a una visión y una expresión diferentes del mundo, a tiempo de abrilrles"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1103,13 +1102,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qXlmQ102N5MQ7kNvwGUBeIM&_nc_oc=AdrHoayk4yDFhl1VI7iN-rJMWkClgoysfXocjLl3jSJD6oqrZnSGHZrdTDqs6A3gsuc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=4n1KwGhO6jic4XmypWU9XA&_nc_ss=7f289&oh=00_AQHu2LY5m5kQKHH76F-qpG3T8hOQkLjW4pnzJWYcdb5sLw&oe=6A86FCB7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/museocasadelalibertad/posts/pfbid0hwwPknN1DTyK47jqwSQNFhKsrEcyatiHQDHck7vWyNkwKEa4Upmq5L3Zms1NzTJ1l?__cft__[0]=AZau37jQ2GJgafuCdy-9R0F8Q6bT-W3PshiWiitbXtc8x3JPywjmA4SMGIswJ-0C7VYTd6P54pQs7vRAssXd9kmObDybPLg18ZXGPRYM7yQznxfE-Afp3XVls8Zur2m2_EhhG51tRCZLcl3lNcwWBLw16-DRJlzgb3383Ka0zvPEByClRBN1BWYGFzaV8W46M9k&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CDL | A través de la “Ruta Histórica del Bicentenario”, la Casa de la Libertad llegó al municipio de Villa de la Independencia, en la provincia de Ayopaya del departam… Ver más Museo histórico Enviar mensaje"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1430,7 +1438,7 @@
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Quillacollo brilla con la Entrada de Urkupiña 2026 Ver más 2 Gobierno promulga decreto que reestructura el Órgano Ejecutivo Ver más 3 Ahorristas en dól"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Accidente de aviación en Beni, buscan a un sobreviviente extraviado Ver más 2 Presidente Rodrigo Paz participará este sábado en la misa central de la V"
         }
       ],
       "error": null
