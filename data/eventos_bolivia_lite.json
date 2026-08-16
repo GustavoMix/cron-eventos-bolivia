@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-16T05:47:00-04:00",
+  "generated_at": "2026-08-16T09:05:43-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 17,
+    "events_total": 18,
     "events_today": 1
   },
   "filters": {
@@ -63,14 +63,14 @@
         "count": 4
       },
       {
-        "key": "concierto",
-        "label": "Conciertos",
+        "key": "nightlife",
+        "label": "Vida nocturna",
         "count": 2
       },
       {
-        "key": "nightlife",
-        "label": "Vida nocturna",
-        "count": 1
+        "key": "concierto",
+        "label": "Conciertos",
+        "count": 2
       },
       {
         "key": "otro",
@@ -97,7 +97,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 3
+        "count": 4
       },
       {
         "key": "Oruro",
@@ -129,7 +129,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 3
+        "count": 4
       },
       {
         "key": "Oruro",
@@ -156,17 +156,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 4
+        "count": 5
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 7
+        "count": 8
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 17
+        "count": 18
       }
     ],
     "price": [
@@ -183,14 +183,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 13
+        "count": 14
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 11
+        "count": 12
       },
       {
         "key": "con_video",
@@ -202,6 +202,11 @@
       {
         "key": "Ml18Xb",
         "label": "Ml18Xb",
+        "count": 2
+      },
+      {
+        "key": "RAE2026",
+        "label": "RAE2026",
         "count": 2
       },
       {
@@ -237,11 +242,6 @@
       {
         "key": "ZxCkTb",
         "label": "ZxCkTb",
-        "count": 1
-      },
-      {
-        "key": "RAE2026",
-        "label": "RAE2026",
         "count": 1
       },
       {
@@ -324,7 +324,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 8
+        "count": 9
       },
       {
         "key": "ticketera",
@@ -419,6 +419,32 @@
       "department": "La Paz",
       "venue": null,
       "image_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.99422-6/773492246_1781265793052437_5199791372190879361_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EZgio6Sh0TwQ7kNvwETHDag&_nc_oc=Adp-NIwuFWFAtETBiJ1VMSAe4AogcDkBWcEc8jB6JoV87uRBoNyNtsN93khTY9g4HbI&_nc_zt=14&_nc_ht=scontent-qro3-1.xx&_nc_gid=3PdPUNvOeyOx6Xli8ssKuA&_nc_ss=7f289&oh=00_AQGlL1JgZRamxzXj82Bv3ZflMqqvdlszXpC_ljgJX5qQjQ&oe=6A85CE12",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_d33c3e25dcf009",
+      "title": "El miércoles 19 proyectamos - Diálogos Naturales, de Miguel Nina Pérez miguel_nina transbordador_audiovisual",
+      "category": "nightlife",
+      "category_label": "Vida nocturna",
+      "starts_at": "2026-08-19T00:00:00-04:00",
+      "starts_at_ms": 1787112000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 19 de agosto",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 3,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/774267838_2513088109104427_1487715296976115713_n.png?stp=dst-jpg_tt6&cstp=mx853x853&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=hMQO9sJAeekQ7kNvwFliFXD&_nc_oc=AdrprIczg3UZtIhDOQh4BsTPbX5MZSig131Waz-QRa-bt5-KJpE4J-iuNWXuQH0JhBQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=XVBBqmqudDWCNqPkJ9kDlQ&_nc_ss=7f289&oh=00_AQHI6kUffMX3ltjCvoXaG01jEgVggcSpnBASn6_jee-Fqw&oe=6A8770B8",
       "has_video": false,
       "is_free": false,
       "price_from": null,

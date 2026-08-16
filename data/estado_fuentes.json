@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T05:47:00-04:00",
+  "generated_at": "2026-08-16T09:05:43-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -12,14 +12,13 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
-      "fb_goethe_lapaz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 25.1,
-    "horas_maximo_sin_datos": 38.5
+    "horas_promedio_sin_datos": 26.9,
+    "horas_maximo_sin_datos": 41.8
   },
   "sources": [
     {
@@ -609,13 +608,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mJS5QYA6LAYQ7kNvwHKO2C3&_nc_oc=Adp13rnxl7CwcIzxYniOr3vfX4jUYQbTU3tUhS51YkSOQMPxQXhmK5c1gSsRruMIRec&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=JxEWwO_WbrRS3Md5LkVd5g&_nc_ss=7f289&oh=00_AQHs8gYPYUupdnWVCQOXspCsjrNgywKZR8A-MckWf3FlAQ&oe=6A8771F3",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -881,22 +880,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=n4nvPRl9_FgQ7kNvwFh2nOT&_nc_oc=AdqGpPnfpvUE3rElT0CaVEpRXjTtPDR_TSAw6fmOneTeRSg1wc06gU8crIsCjn0M3Z4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=kDymToix4Z42GXKAXEvPOw&_nc_ss=7f289&oh=00_AQEacepEiszbGi4624ey-j8RtUTuM6cyk9b54wgRMZMg9Q&oe=6A874A67",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "feria",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/videos/cultura-%F0%9D%90%8B%F0%9D%90%9A-%F0%9D%90%9F%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%9A-%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%A6%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A8%CC%81-%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%A8-%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%AC-%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%9A%F0%9D%90%AC-%F0%9D%90%AA%F0%9D%90%AE%F0%9D%90%9E-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A6%F0%9D%90%A9%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A6%F0%9D%90%A8%F0%9D%90%AC-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AE%CC%81%F0%9D%90%9A%F0%9D%90%A7durante-l/1398216415520092/",
-          "has_image": true,
-          "text_preview": "#Cultura | 📚 𝐋𝐚 𝐟𝐞𝐫𝐢𝐚 𝐭𝐞𝐫𝐦𝐢𝐧𝐨́, 𝐩𝐞𝐫𝐨 𝐥𝐚𝐬 𝐡𝐢𝐬𝐭𝐨𝐫𝐢𝐚𝐬 𝐪𝐮𝐞 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐢𝐦𝐨𝐬 𝐜𝐨𝐧𝐭𝐢𝐧𝐮́𝐚𝐧. Durante la 30.ª Feria Internacional del Libro de La Paz, nuestros espacios se llenaron de encuentros alrededor de la... #Cultura | 📚 𝐋𝐚 𝐟𝐞𝐫𝐢𝐚 𝐭𝐞𝐫𝐦𝐢𝐧𝐨́, 𝐩𝐞𝐫𝐨 𝐥𝐚𝐬 𝐡𝐢𝐬𝐭𝐨𝐫𝐢𝐚𝐬 𝐪𝐮𝐞 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐢𝐦𝐨𝐬 𝐜𝐨𝐧𝐭𝐢𝐧𝐮́𝐚𝐧. Durante la 30.ª Feria Internacional del Libro de La Paz, nuestros..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -958,13 +948,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V_oN8u_klnkQ7kNvwHgNUlS&_nc_oc=AdqGQTytNaLeXqvVFuZ7pIBrUFXGquFUuClPdh8CFB3EqJerCZrxK9smJdsI4GD3IVQ&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EfU9kfb2CQw9CEtUSGrfmg&_nc_ss=7f289&oh=00_AQE3q8bCD2cabM15SMuaqZbqw2dGFpHoKWpSD58JORKc8Q&oe=6A878297",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0wv4PQAzBroXnoyHdhtdbt82DXvNDcuXwwcvYwZPst8zfKmgVtozuaAQ1gp8rZCZsl?__cft__[0]=AZYaebnsBJFQd4RxwhMBkN98SjyjWsSs2R5ahU0TYtllmjwI8hnOZRyP6UPOoyVP8mMy36xE4_aXBVa-Pe2nln00VUB5Ze3Uehql5Cdp94ieoCKQOkv0grwyjSY-RB-7si8OzfsKIpSnp24MaWzeldKfN5zWzJ9oB8LKc_x3EN8yyRRElRCu9GsImM-5A5gJIf0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Gran noche la que vivimos en la inauguración! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1009,22 +1008,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=O5WLbiCJ_RMQ7kNvwG_lT6M&_nc_oc=AdqpM9sz2MNejAReYYzw2HZ2KSVJyfGFMQ-dsiVNZY0l_jcayQvsWElRlU-BQ1kHI44&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Euv7HtUKOebOZfYNpRDDXA&_nc_ss=7f289&oh=00_AQEJVpO7BGH6XLgvOP3CqBPVX3SUgowY-YOC0MXaZX7VAA&oe=6A8743B4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02wbAWhtX1pcXPXc3i8su6ir4p9x9adHG5JL8sSgeBdpFn7wiXNhp7mzdAkaYeFjSJl?__cft__[0]=AZaTt7pV7O05n8uG9GJWO8yw-C-J10xsouxc_B7sJhGkGxK4oZPRpp8xwMvtvjY-TetHzb45OZaUsXhSREPr64e4gXTCU-EipLBopJya-uHaPc_haDkkc5AbGOMNwT9Yhzk7bgznyebattIilg54wSWjpXB1f74BSfw4OGiHkJn_eLq7B1Mac98Et5RlbWCtelE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Educación | 𝐃𝐞 𝐮𝐧𝐚 𝐢𝐝𝐞𝐚 𝐞𝐧 𝐥𝐚 𝐩𝐚𝐧𝐭𝐚𝐥𝐥𝐚 𝐚 𝐮𝐧 𝐨𝐛𝐣𝐞𝐭𝐨 𝐞𝐧𝐭𝐫𝐞 𝐭𝐮𝐬 𝐦𝐚𝐧𝐨𝐬. Este agosto abrimos dos Tardes de Prototipad… Ver más #Educación | 𝐃𝐞 𝐮𝐧𝐚 𝐢𝐝𝐞𝐚 𝐞𝐧 𝐥𝐚 𝐩𝐚𝐧𝐭𝐚𝐥𝐥𝐚 𝐚 𝐮𝐧 𝐨𝐛𝐣𝐞𝐭𝐨 𝐞𝐧𝐭𝐫𝐞 𝐭𝐮𝐬 𝐦𝐚𝐧𝐨𝐬. Este agosto abrimos dos Tardes de Prototipad… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1035,13 +1025,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zD3g94JzvrgQ7kNvwGgP1s1&_nc_oc=AdqoIw7X8K1_xkgIdwggTQkibwOQe0CJscNOasvFpho1UVXMEOz6lN0AKXDmQBvO8eY&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=FLpvdn13GmisOycHpRfqYQ&_nc_ss=7f289&oh=00_AQG40fa27Xa9BHuW6SH14nOZ-cMKCVwQfy9_PndvX_hn-A&oe=6A87854F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid08zKpaX82sbE3hfkCgsVjEKkutFtTQ95yUkKuMoDdtUbLGGGiPunXMgZXDLjknmoBl?__cft__[0]=AZYGru-w7CXQOsbKjqvV7qJFFM4ELPW2HADiwivWf5YJU0CvqwsEE9AHKhs8ew8JfE61mKbrlnXB2ufQTOzvIA-gw5J3kl9bTX13r-GZFFwbe3GWI37JO79_DKMcxotPJE9OpycdVJmsypuBo9CYpuvirXZhsTGtTgZcESyQp5Cv-fyjEktAh5rDt06H3j88Aw0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "@Follower Aprender alemán es invertir en tu futuro… Ver más @Follower Aprender alemán es invertir en tu futuro… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1331,7 +1330,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
