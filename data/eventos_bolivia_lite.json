@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-15T22:01:06-04:00",
+  "generated_at": "2026-08-16T00:03:56-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 19,
-    "events_today": 3
+    "events_total": 17,
+    "events_today": 1
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 8
+        "count": 7
       },
       {
         "key": "teatro",
@@ -66,11 +66,6 @@
         "key": "concierto",
         "label": "Conciertos",
         "count": 2
-      },
-      {
-        "key": "exposicion",
-        "label": "Exposiciones",
-        "count": 1
       },
       {
         "key": "nightlife",
@@ -105,16 +100,6 @@
         "count": 3
       },
       {
-        "key": "Sucre",
-        "label": "Sucre",
-        "count": 2
-      },
-      {
-        "key": "Tarija",
-        "label": "Tarija",
-        "count": 1
-      },
-      {
         "key": "Oruro",
         "label": "Oruro",
         "count": 1
@@ -127,6 +112,11 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
+        "count": 1
+      },
+      {
+        "key": "Sucre",
+        "label": "Sucre",
         "count": 1
       }
     ],
@@ -142,16 +132,6 @@
         "count": 3
       },
       {
-        "key": "Chuquisaca",
-        "label": "Chuquisaca",
-        "count": 2
-      },
-      {
-        "key": "Tarija",
-        "label": "Tarija",
-        "count": 1
-      },
-      {
         "key": "Oruro",
         "label": "Oruro",
         "count": 1
@@ -160,40 +140,45 @@
         "key": "Cochabamba",
         "label": "Cochabamba",
         "count": 1
+      },
+      {
+        "key": "Chuquisaca",
+        "label": "Chuquisaca",
+        "count": 1
       }
     ],
     "when": [
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 3
+        "count": 1
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 6
+        "count": 4
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 9
+        "count": 7
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 19
+        "count": 17
       }
     ],
     "price": [
       {
         "key": "gratis",
         "label": "Gratis",
-        "count": 1
+        "count": 0
       },
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 5
+        "count": 4
       },
       {
         "key": "por_confirmar",
@@ -205,12 +190,12 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 13
+        "count": 11
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 5
+        "count": 4
       }
     ],
     "tags": [
@@ -255,66 +240,6 @@
         "count": 1
       },
       {
-        "key": "CRC",
-        "label": "CRC",
-        "count": 1
-      },
-      {
-        "key": "CulturaParaTodos",
-        "label": "CulturaParaTodos",
-        "count": 1
-      },
-      {
-        "key": "ElPatrimonioVivo",
-        "label": "ElPatrimonioVivo",
-        "count": 1
-      },
-      {
-        "key": "ExpresionesArtísticas",
-        "label": "ExpresionesArtísticas",
-        "count": 1
-      },
-      {
-        "key": "ArtesVisualesBolivia",
-        "label": "ArtesVisualesBolivia",
-        "count": 1
-      },
-      {
-        "key": "FomentoCRC",
-        "label": "FomentoCRC",
-        "count": 1
-      },
-      {
-        "key": "SucreRenace",
-        "label": "SucreRenace",
-        "count": 1
-      },
-      {
-        "key": "AgostoRenace",
-        "label": "AgostoRenace",
-        "count": 1
-      },
-      {
-        "key": "Sucre",
-        "label": "Sucre",
-        "count": 1
-      },
-      {
-        "key": "abuelos",
-        "label": "abuelos",
-        "count": 1
-      },
-      {
-        "key": "abuela",
-        "label": "abuela",
-        "count": 1
-      },
-      {
-        "key": "comida",
-        "label": "comida",
-        "count": 1
-      },
-      {
         "key": "RAE2026",
         "label": "RAE2026",
         "count": 1
@@ -333,23 +258,78 @@
         "key": "DñaNieves",
         "label": "DñaNieves",
         "count": 1
+      },
+      {
+        "key": "LaMadrina",
+        "label": "LaMadrina",
+        "count": 1
+      },
+      {
+        "key": "Oruro",
+        "label": "Oruro",
+        "count": 1
+      },
+      {
+        "key": "Teatro",
+        "label": "Teatro",
+        "count": 1
+      },
+      {
+        "key": "Comedia",
+        "label": "Comedia",
+        "count": 1
+      },
+      {
+        "key": "TeatroBoliviano",
+        "label": "TeatroBoliviano",
+        "count": 1
+      },
+      {
+        "key": "EventosBolivia",
+        "label": "EventosBolivia",
+        "count": 1
+      },
+      {
+        "key": "SuperTicket",
+        "label": "SuperTicket",
+        "count": 1
+      },
+      {
+        "key": "FEXPOCRUZ",
+        "label": "FEXPOCRUZ",
+        "count": 1
+      },
+      {
+        "key": "Expocruz2026",
+        "label": "Expocruz2026",
+        "count": 1
+      },
+      {
+        "key": "RumboAExpocruz2026",
+        "label": "RumboAExpocruz2026",
+        "count": 1
+      },
+      {
+        "key": "OportunidadesParaTodos",
+        "label": "OportunidadesParaTodos",
+        "count": 1
+      },
+      {
+        "key": "MUSEFSucre",
+        "label": "MUSEFSucre",
+        "count": 1
       }
     ],
     "source_classes": [
       {
         "key": "venue",
         "label": "venue",
-        "count": 9
+        "count": 8
       },
       {
         "key": "ticketera",
         "label": "ticketera",
         "count": 6
-      },
-      {
-        "key": "municipio",
-        "label": "municipio",
-        "count": 1
       },
       {
         "key": "media",
@@ -370,15 +350,15 @@
   },
   "events": [
     {
-      "event_id": "evt_2acff3717ffeab",
+      "event_id": "evt_760a659a56fcf7",
       "title": "Festival de Teatro &quot;Ureñarte&quot;",
       "category": "teatro",
       "category_label": "Teatro",
-      "starts_at": "2026-08-15T00:00:00-04:00",
-      "starts_at_ms": 1786766400000,
+      "starts_at": "2026-08-16T00:00:00-04:00",
+      "starts_at_ms": 1786852800000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Sábado 15 de agosto · 00:00",
+      "display_date": "Domingo 16 de agosto · 00:00",
       "lifecycle": "hoy",
       "lifecycle_label": "Hoy",
       "days_until": 0,
@@ -396,58 +376,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_9a6cb0e937debb",
-      "title": "Centro de la Revolución Cultural",
-      "category": "exposicion",
-      "category_label": "Exposiciones",
-      "starts_at": "2026-08-15T10:30:00-04:00",
-      "starts_at_ms": 1786804200000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Sábado 15 de agosto · 10:30",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Tarija",
-      "department": "Tarija",
-      "venue": null,
-      "image_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/770774418_1723379609797568_8403896258775339049_n.jpg?stp=dst-jpg_tt6&cstp=mx1244x1600&ctp=p600x600&_nc_cat=100&ccb=1-7&_nc_sid=b96d88&_nc_ohc=6rB7CqWMz1sQ7kNvwHos4kv&_nc_oc=AdqGBvqCAeCnnQTg0TnN9vcs-VM5w-nKW2YGNyYLkaw40rlTCJj98WD9h-YWFhjkLWc&_nc_zt=23&_nc_ht=scontent-sea1-1.xx&_nc_gid=0e0V-MCDJYpogANKY_Bh0g&_nc_ss=7f289&oh=00_AQG7UpanE4Hr5mBtUWsZTwSb5eoY24Rr9L9cNZH9nzz5dg&oe=6A85B154",
-      "has_video": false,
-      "is_free": true,
-      "price_from": null,
-      "currency": null,
-      "price_label": "Entrada libre",
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_d234edfaa97d8f",
-      "title": "Gobierno Autónomo Municipal de Sucre",
-      "category": "feria",
-      "category_label": "Ferias y expos",
-      "starts_at": "2026-08-15T21:00:00-04:00",
-      "starts_at_ms": 1786842000000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Sábado 15 de agosto · 21:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Sucre",
-      "department": "Chuquisaca",
-      "venue": null,
-      "image_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t15.5256-10/775798794_1062693292794150_6992478745405544970_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a27664&_nc_ohc=lBZLH0UdsGYQ7kNvwEK1w2F&_nc_oc=AdpMyM8ojrzE4zYz9MjrSzKvEPvgGSYvW4wM6LEFLEpXrliv-0TS3h14OE1u3QMVZkE&_nc_zt=23&_nc_ht=scontent-fra3-2.xx&_nc_gid=mFfkHXxCpe6yxfQoZFxXfA&_nc_ss=7f289&oh=00_AQENekq6r0B24bGG0IqOGOFxBW3zc4FJ9mkxRe6_C8EtvA&oe=6A864AFF",
-      "has_video": true,
-      "is_free": false,
-      "price_from": 10.0,
-      "currency": "BOB",
-      "price_label": "Bs 10 - 20",
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_31bb49d8866b8c",
       "title": "Curso: Inteligencia Artificial para Emprendedores",
       "category": "feria",
@@ -459,7 +387,7 @@
       "display_date": "Lunes 17 de agosto · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 2,
+      "days_until": 1,
       "is_upcoming": true,
       "city": null,
       "department": null,
@@ -485,7 +413,7 @@
       "display_date": "Martes 18 de agosto · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 3,
+      "days_until": 2,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -511,7 +439,7 @@
       "display_date": "Viernes 21 de agosto · 16:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 6,
+      "days_until": 5,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -537,7 +465,7 @@
       "display_date": "Sábado 29 de agosto · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 14,
+      "days_until": 13,
       "is_upcoming": true,
       "city": "Oruro",
       "department": "Oruro",
@@ -563,7 +491,7 @@
       "display_date": "Domingo 30 de agosto · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 15,
+      "days_until": 14,
       "is_upcoming": true,
       "city": "Montero",
       "department": "Santa Cruz",
@@ -589,7 +517,7 @@
       "display_date": "Lunes 14 de septiembre · 21:15",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 30,
+      "days_until": 29,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -615,7 +543,7 @@
       "display_date": "Del 18 al 27 de septiembre · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 34,
+      "days_until": 33,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -641,7 +569,7 @@
       "display_date": "Domingo 27 de septiembre · 22:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 43,
+      "days_until": 42,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -667,7 +595,7 @@
       "display_date": "Domingo 8 de noviembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 85,
+      "days_until": 84,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -693,7 +621,7 @@
       "display_date": "Del 3 al 7 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 200,
+      "days_until": 199,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -719,7 +647,7 @@
       "display_date": "Del 17 al 21 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 214,
+      "days_until": 213,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -745,7 +673,7 @@
       "display_date": "Sábado 24 de abril · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 252,
+      "days_until": 251,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -771,7 +699,7 @@
       "display_date": "Del 1 al 4 de julio",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 320,
+      "days_until": 319,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -797,7 +725,7 @@
       "display_date": "Del 1 al 4 de julio · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 320,
+      "days_until": 319,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -823,7 +751,7 @@
       "display_date": "Viernes 6 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 356,
+      "days_until": 355,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -849,7 +777,7 @@
       "display_date": "Del 10 al 21 de agosto · 15:30",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 360,
+      "days_until": 359,
       "is_upcoming": true,
       "city": "Sucre",
       "department": "Chuquisaca",
