@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T11:38:58-04:00",
+  "generated_at": "2026-08-16T14:52:55-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -14,11 +14,12 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_tarija_cultura",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 27.9,
-    "horas_maximo_sin_datos": 44.4
+    "horas_promedio_sin_datos": 30.1,
+    "horas_maximo_sin_datos": 47.6
   },
   "sources": [
     {
@@ -30,13 +31,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lHvg36DW85sQ7kNvwFlLgXD&_nc_oc=Ado-bjRnE1xqd4fuLpvr10L2qJYWHbsI8puU6pPrW1hT0yYotkL2xa548lj6JoOFau0&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=569j6K9G4bnb5gzvCWXk_g&_nc_ss=7f289&oh=00_AQHNqoFMO8RLJldtsRCbQPCfc8SlWerWYlDJ1EBIPvf3Pg&oe=6A87D09A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid0HZfhsUBgfqFuc1LSHbCMP946YCVEBP1g1ABFogdnBFGefck39pCYHLfFoBekpBjNl?__cft__[0]=AZaXLSGgeiYgtdZqEabeWI62BP1f4mUlTJcN-yEIBAQbOZyB0xT8sDV5uUhpWWr1i8U04gJjNlCcQYBlEUCnrtBPeWg7kk5tLcDHjZCGoxie8J-jk5xGB4zG8lThPS3FBodVCKiZZejV6g_wBK4sJmGZYYikqi6rOaoNhpSkpHLkRo35QQfB_Unk4zXtCg6fQmE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LOS 90 ESTÁN DE VUELTA EN EL ALTO! Pr… Ver más ¡LOS 90 ESTÁN DE VUELTA EN EL ALTO! Pr… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -540,13 +550,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qlbF2u2Rg3YQ7kNvwEvvtWr&_nc_oc=AdrLOyV92Hikr6aHAuOIjI-uqk7nm44AanGQqQKM8Sdcgfmpiz-tRptCzJybOALD2uY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=KlI2KJTSHs81EYoLtvugeA&_nc_ss=7f289&oh=00_AQHo-7z5kHjqy5Ssf1rOIxU2ge184_GdbFwDx-4fqz18EQ&oe=6A87EFB3",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2937818283225977/?__cft__[0]=AZZXQ32pdvAA_c8Oma05iQ9915MAf34xwp4YMHV9CWcp-qKiBe0iJ_pWB2nd1Mh4IzVYQg7iiJAUT7w8RZX0g985BjScdFEtwdUy0Q6-rQAPsnBm9o52XpZwAyibjDwRaghXLgdAC3pkjrCknhDbGRM4EbWqozg37YP7ay2tnAz54d-P0Tdi3h5NBKb1qw35_LIbTtH2on9UN7AVHCKvnMYw&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#FCBCB | Natalicio de Fernando Montes… Ver más Gran pintor boliviano Tenemos problemas para reproducir este video. Más información Veronica Querejazu"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2937818283225977/?comment_id=1043521925088487&__cft__[0]=AZZXQ32pdvAA_c8Oma05iQ9915MAf34xwp4YMHV9CWcp-qKiBe0iJ_pWB2nd1Mh4IzVYQg7iiJAUT7w8RZX0g985BjScdFEtwdUy0Q6-rQAPsnBm9o52XpZwAyibjDwRaghXLgdAC3pkjrCknhDbGRM4EbWqozg37YP7ay2tnAz54d-P0Tdi3h5NBKb1qw35_LIbTtH2on9UN7AVHCKvnMYw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Gran pintor boliviano Veronica Querejazu"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -591,30 +618,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NpMNFEXb36MQ7kNvwH2zOAI&_nc_oc=Adoy0Hr0uMGU-FM5Rc9cxoPd7azl3TxUolUWdOzTVRRKjAGvgPWp9MGEubJIGJrpZm8&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=SZlLdT3D1bCDapbVVzhQVQ&_nc_ss=7f289&oh=00_AQFokGfAoOJ9_iJttXHifRmkbGBHWBBYHy7W_-mYBafR6Q&oe=6A87BD00",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid0Dn3f3uQuifuQiKcj2GGyufa8AQGjZgzLoa3khZTk4F6iaKpfdUUxdqYmEmPk4hCdl?__cft__[0]=AZYhlHmxTA6bWzq3QaTYnLSlrXVKNdJ63brEt7IiZLBPPPEcdnGNSeBAfbeJsk2jNCz04oo4SwWVE8vH4dV9I8w4Ln6UOfeuH4EHjIDuk-LhEJ-dAgQRrY-HqDTQDcR3vYIQ6bF5aBwI2RQyEX5-0mzri5GSfv46YP-GU_EbhiYHaAqvlL7yV2yhZnWYrfeASww&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#MNA | ACUÑACIÓN A GOLPE DE MARTILLO… Ver más Precios horarios fecha ? Ver más comentarios Álvaro Hurtado"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid0Dn3f3uQuifuQiKcj2GGyufa8AQGjZgzLoa3khZTk4F6iaKpfdUUxdqYmEmPk4hCdl?comment_id=2683352705392992&__cft__[0]=AZYhlHmxTA6bWzq3QaTYnLSlrXVKNdJ63brEt7IiZLBPPPEcdnGNSeBAfbeJsk2jNCz04oo4SwWVE8vH4dV9I8w4Ln6UOfeuH4EHjIDuk-LhEJ-dAgQRrY-HqDTQDcR3vYIQ6bF5aBwI2RQyEX5-0mzri5GSfv46YP-GU_EbhiYHaAqvlL7yV2yhZnWYrfeASww&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Álvaro Hurtado Precios horarios fecha ? 1 día"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -931,30 +941,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Rl0kax5DWtAQ7kNvwFj_alY&_nc_oc=AdoCXr0VZOYvlE9a2OL5F4rxQWkKS6AD9_HmPoesF2GJXiAMAQ7OAVtEqteyP3Uf1PI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1O29WaU51TXTlX3pQlKfcQ&_nc_ss=7f289&oh=00_AQHe113qpzPJhTslWc2gAmgM4WGm1tu-CeKw6Dfz7m639w&oe=6A87C1B8",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02owfP8rYFiBEcUJryor9qQduoXsbm4Z54BapvKZ4CSpEbfJJ9JvpFcf5EWbrE5sSYl?__cft__[0]=AZYbJsNQ4QW_C4a1hWbu-b39n9RitSzpshYvDCtYApB5ooAr7-b3y9KfbjQ21MpVjpv1_7xD7wKQN9YdliR_AgIDbPJAuwR3nu4w5gwuh1UkwvTr5h9os3om2GA6wzTxLOll_X7tmm4PMfAqy6PB_joIENbPtsfvv3RVC-MemRibMo25aZoHRh3iQF0EQI5V0Pg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "NECROLÓGICO | SABINO CONDORI PACORICONA La Secretaría Municipal de Ciudad Cultural, Turismo de Altura y Economía Naranja expresa su profundo pesar por el fallecimien… Ver más NECROLÓGICO | SABINO CONDORI PACORICONA La Secretaría Municipal de Ciudad Cultural, Turismo de Altura y Economía Naranja expresa su profundo pesar por el fallecimien… Ver más Mucha fuerza Juanqui Ver más comentarios Vida Tede"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02owfP8rYFiBEcUJryor9qQduoXsbm4Z54BapvKZ4CSpEbfJJ9JvpFcf5EWbrE5sSYl?comment_id=2249194992521008&__cft__[0]=AZYbJsNQ4QW_C4a1hWbu-b39n9RitSzpshYvDCtYApB5ooAr7-b3y9KfbjQ21MpVjpv1_7xD7wKQN9YdliR_AgIDbPJAuwR3nu4w5gwuh1UkwvTr5h9os3om2GA6wzTxLOll_X7tmm4PMfAqy6PB_joIENbPtsfvv3RVC-MemRibMo25aZoHRh3iQF0EQI5V0Pg&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Vida Tedesqui Mucha fuerza Juanqui 18 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1017,12 +1010,12 @@
       "region": "Tarija",
       "city": "Tarija",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Dirección de Cultura y Patrimonio Gobierno Autónomo Departamental de Tarija 14 mil seguidores • 291 seguidos Más Publicaciones Información Reels Fotos Esta página '"
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1135,13 +1128,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=F-RNl3N0gdIQ7kNvwHAphnQ&_nc_oc=AdpdhPTqA8GiK6HrOqQURPAOJa384w-6cmCLZtR9fCA-YkN-Aixz14vNjksc5sbnEfM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ZEpFu1s0cv2idvaofzjULQ&_nc_ss=7f289&oh=00_AQH2lLnOUzkncGCt96y5MrdTko1PCRifnXf6C7a91683rw&oe=6A8796E4",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1420,8 +1413,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1442,10 +1435,10 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 0,
-          "category": "deporte",
+          "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Presidente Rodrigo Paz participará este sábado en la misa central de la Virgen de Urkupiña Ver más 2 Iglesia Católica prepara misas y bendiciones de ma"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Tarija se alista para la primera procesión en honor al patrono San Roque Ver más 2 Reportan el fallecimiento de un hombre no identificado tras la entra"
         }
       ],
       "error": null

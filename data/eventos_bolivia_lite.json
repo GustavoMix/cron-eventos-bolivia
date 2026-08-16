@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-16T11:38:58-04:00",
+  "generated_at": "2026-08-16T14:52:55-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 18,
+    "events_total": 19,
     "events_today": 1
   },
   "filters": {
@@ -60,7 +60,7 @@
       {
         "key": "teatro",
         "label": "Teatro",
-        "count": 4
+        "count": 5
       },
       {
         "key": "nightlife",
@@ -100,6 +100,11 @@
         "count": 4
       },
       {
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 2
+      },
+      {
         "key": "Oruro",
         "label": "Oruro",
         "count": 1
@@ -107,11 +112,6 @@
       {
         "key": "Montero",
         "label": "Montero",
-        "count": 1
-      },
-      {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
         "count": 1
       },
       {
@@ -132,13 +132,13 @@
         "count": 4
       },
       {
-        "key": "Oruro",
-        "label": "Oruro",
-        "count": 1
-      },
-      {
         "key": "Cochabamba",
         "label": "Cochabamba",
+        "count": 2
+      },
+      {
+        "key": "Oruro",
+        "label": "Oruro",
         "count": 1
       },
       {
@@ -166,7 +166,7 @@
       {
         "key": "todos",
         "label": "Todos",
-        "count": 18
+        "count": 19
       }
     ],
     "price": [
@@ -178,7 +178,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 4
+        "count": 5
       },
       {
         "key": "por_confirmar",
@@ -190,7 +190,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 12
+        "count": 13
       },
       {
         "key": "con_video",
@@ -334,7 +334,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 1
+        "count": 2
       },
       {
         "key": "eventos",
@@ -608,6 +608,32 @@
       "price_label": "Bs 24",
       "status": "programado",
       "source_count": 2
+    },
+    {
+      "event_id": "evt_b738d5075ee0af",
+      "title": "\"Almas Heridas - Obra de Teatro para Infancias\"",
+      "category": "teatro",
+      "category_label": "Teatro",
+      "starts_at": "2026-11-06T16:00:00-04:00",
+      "starts_at_ms": 1793995200000,
+      "ends_at_ms": 1794974340000,
+      "multi_day": true,
+      "display_date": "Del 6 al 17 de noviembre · 16:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 82,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "mARTadero",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/459134677_933833945451467_2498078613516548914_n.jpg?itok=T2iJBBk0",
+      "has_video": false,
+      "is_free": false,
+      "price_from": 20.0,
+      "currency": "BOB",
+      "price_label": "Bs 20 - 30",
+      "status": "programado",
+      "source_count": 1
     },
     {
       "event_id": "evt_7fd72b4d56f0d5",
