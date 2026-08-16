@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T09:05:43-04:00",
+  "generated_at": "2026-08-16T11:38:58-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 26.9,
-    "horas_maximo_sin_datos": 41.8
+    "horas_promedio_sin_datos": 27.9,
+    "horas_maximo_sin_datos": 44.4
   },
   "sources": [
     {
@@ -591,13 +591,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NpMNFEXb36MQ7kNvwH2zOAI&_nc_oc=Adoy0Hr0uMGU-FM5Rc9cxoPd7azl3TxUolUWdOzTVRRKjAGvgPWp9MGEubJIGJrpZm8&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=SZlLdT3D1bCDapbVVzhQVQ&_nc_ss=7f289&oh=00_AQFokGfAoOJ9_iJttXHifRmkbGBHWBBYHy7W_-mYBafR6Q&oe=6A87BD00",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid0Dn3f3uQuifuQiKcj2GGyufa8AQGjZgzLoa3khZTk4F6iaKpfdUUxdqYmEmPk4hCdl?__cft__[0]=AZYhlHmxTA6bWzq3QaTYnLSlrXVKNdJ63brEt7IiZLBPPPEcdnGNSeBAfbeJsk2jNCz04oo4SwWVE8vH4dV9I8w4Ln6UOfeuH4EHjIDuk-LhEJ-dAgQRrY-HqDTQDcR3vYIQ6bF5aBwI2RQyEX5-0mzri5GSfv46YP-GU_EbhiYHaAqvlL7yV2yhZnWYrfeASww&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#MNA | ACUÑACIÓN A GOLPE DE MARTILLO… Ver más Precios horarios fecha ? Ver más comentarios Álvaro Hurtado"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid0Dn3f3uQuifuQiKcj2GGyufa8AQGjZgzLoa3khZTk4F6iaKpfdUUxdqYmEmPk4hCdl?comment_id=2683352705392992&__cft__[0]=AZYhlHmxTA6bWzq3QaTYnLSlrXVKNdJ63brEt7IiZLBPPPEcdnGNSeBAfbeJsk2jNCz04oo4SwWVE8vH4dV9I8w4Ln6UOfeuH4EHjIDuk-LhEJ-dAgQRrY-HqDTQDcR3vYIQ6bF5aBwI2RQyEX5-0mzri5GSfv46YP-GU_EbhiYHaAqvlL7yV2yhZnWYrfeASww&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Álvaro Hurtado Precios horarios fecha ? 1 día"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -608,13 +625,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mJS5QYA6LAYQ7kNvwHKO2C3&_nc_oc=Adp13rnxl7CwcIzxYniOr3vfX4jUYQbTU3tUhS51YkSOQMPxQXhmK5c1gSsRruMIRec&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=JxEWwO_WbrRS3Md5LkVd5g&_nc_ss=7f289&oh=00_AQHs8gYPYUupdnWVCQOXspCsjrNgywKZR8A-MckWf3FlAQ&oe=6A8771F3",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -914,13 +931,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Rl0kax5DWtAQ7kNvwFj_alY&_nc_oc=AdoCXr0VZOYvlE9a2OL5F4rxQWkKS6AD9_HmPoesF2GJXiAMAQ7OAVtEqteyP3Uf1PI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1O29WaU51TXTlX3pQlKfcQ&_nc_ss=7f289&oh=00_AQHe113qpzPJhTslWc2gAmgM4WGm1tu-CeKw6Dfz7m639w&oe=6A87C1B8",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02owfP8rYFiBEcUJryor9qQduoXsbm4Z54BapvKZ4CSpEbfJJ9JvpFcf5EWbrE5sSYl?__cft__[0]=AZYbJsNQ4QW_C4a1hWbu-b39n9RitSzpshYvDCtYApB5ooAr7-b3y9KfbjQ21MpVjpv1_7xD7wKQN9YdliR_AgIDbPJAuwR3nu4w5gwuh1UkwvTr5h9os3om2GA6wzTxLOll_X7tmm4PMfAqy6PB_joIENbPtsfvv3RVC-MemRibMo25aZoHRh3iQF0EQI5V0Pg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "NECROLÓGICO | SABINO CONDORI PACORICONA La Secretaría Municipal de Ciudad Cultural, Turismo de Altura y Economía Naranja expresa su profundo pesar por el fallecimien… Ver más NECROLÓGICO | SABINO CONDORI PACORICONA La Secretaría Municipal de Ciudad Cultural, Turismo de Altura y Economía Naranja expresa su profundo pesar por el fallecimien… Ver más Mucha fuerza Juanqui Ver más comentarios Vida Tede"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02owfP8rYFiBEcUJryor9qQduoXsbm4Z54BapvKZ4CSpEbfJJ9JvpFcf5EWbrE5sSYl?comment_id=2249194992521008&__cft__[0]=AZYbJsNQ4QW_C4a1hWbu-b39n9RitSzpshYvDCtYApB5ooAr7-b3y9KfbjQ21MpVjpv1_7xD7wKQN9YdliR_AgIDbPJAuwR3nu4w5gwuh1UkwvTr5h9os3om2GA6wzTxLOll_X7tmm4PMfAqy6PB_joIENbPtsfvv3RVC-MemRibMo25aZoHRh3iQF0EQI5V0Pg&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Vida Tedesqui Mucha fuerza Juanqui 18 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -948,22 +982,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V_oN8u_klnkQ7kNvwHgNUlS&_nc_oc=AdqGQTytNaLeXqvVFuZ7pIBrUFXGquFUuClPdh8CFB3EqJerCZrxK9smJdsI4GD3IVQ&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=EfU9kfb2CQw9CEtUSGrfmg&_nc_ss=7f289&oh=00_AQE3q8bCD2cabM15SMuaqZbqw2dGFpHoKWpSD58JORKc8Q&oe=6A878297",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0wv4PQAzBroXnoyHdhtdbt82DXvNDcuXwwcvYwZPst8zfKmgVtozuaAQ1gp8rZCZsl?__cft__[0]=AZYaebnsBJFQd4RxwhMBkN98SjyjWsSs2R5ahU0TYtllmjwI8hnOZRyP6UPOoyVP8mMy36xE4_aXBVa-Pe2nln00VUB5Ze3Uehql5Cdp94ieoCKQOkv0grwyjSY-RB-7si8OzfsKIpSnp24MaWzeldKfN5zWzJ9oB8LKc_x3EN8yyRRElRCu9GsImM-5A5gJIf0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Gran noche la que vivimos en la inauguración! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1025,22 +1050,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zD3g94JzvrgQ7kNvwGgP1s1&_nc_oc=AdqoIw7X8K1_xkgIdwggTQkibwOQe0CJscNOasvFpho1UVXMEOz6lN0AKXDmQBvO8eY&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=FLpvdn13GmisOycHpRfqYQ&_nc_ss=7f289&oh=00_AQG40fa27Xa9BHuW6SH14nOZ-cMKCVwQfy9_PndvX_hn-A&oe=6A87854F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid08zKpaX82sbE3hfkCgsVjEKkutFtTQ95yUkKuMoDdtUbLGGGiPunXMgZXDLjknmoBl?__cft__[0]=AZYGru-w7CXQOsbKjqvV7qJFFM4ELPW2HADiwivWf5YJU0CvqwsEE9AHKhs8ew8JfE61mKbrlnXB2ufQTOzvIA-gw5J3kl9bTX13r-GZFFwbe3GWI37JO79_DKMcxotPJE9OpycdVJmsypuBo9CYpuvirXZhsTGtTgZcESyQp5Cv-fyjEktAh5rDt06H3j88Aw0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "@Follower Aprender alemán es invertir en tu futuro… Ver más @Follower Aprender alemán es invertir en tu futuro… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1119,13 +1135,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=F-RNl3N0gdIQ7kNvwHAphnQ&_nc_oc=AdpdhPTqA8GiK6HrOqQURPAOJa384w-6cmCLZtR9fCA-YkN-Aixz14vNjksc5sbnEfM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ZEpFu1s0cv2idvaofzjULQ&_nc_ss=7f289&oh=00_AQH2lLnOUzkncGCt96y5MrdTko1PCRifnXf6C7a91683rw&oe=6A8796E4",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1404,17 +1420,9 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 0,
-      "rejected": 13,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 52,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/servicios/agenda-cultural",
-          "has_image": true,
-          "text_preview": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTader"
-        },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 0,
@@ -1429,7 +1437,15 @@
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "12/08/2026 Cultura Quiénes fueron los 5 científicos que más vidas salvaron con sus descubrimientos Durante siglos, enfermedades infecciosas, hemorragias, trastornos metabólicos y períodos de escasez de alimentos estuvieron entre las principales amenazas para... vista 11/08/2026 Cultura El filme “La hija cóndor” se apresta a conquistar México y Francia Tras el éxito obtenido en Suiza, la película “"
+          "text_preview": "16/08/2026 Cultura La resistencia cultural de Ucrania frente al “bibliocidio” ruso Una densa columna de humo negro se elevaba hace unos días sobre la periferia industrial de Járkov, en el noreste de Ucrania. Lo que ardía no era un objetivo... vista 12/08/2026 Cultura Quiénes fueron los 5 científicos que más vidas salvaron con sus descubrimientos Durante siglos, enfermedades infecciosas, hemorragia"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 0,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Presidente Rodrigo Paz participará este sábado en la misa central de la Virgen de Urkupiña Ver más 2 Iglesia Católica prepara misas y bendiciones de ma"
         }
       ],
       "error": null
