@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T03:02:34-04:00",
+  "generated_at": "2026-08-16T05:47:00-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -12,13 +12,14 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
+      "fb_goethe_lapaz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 23.4,
-    "horas_maximo_sin_datos": 35.7
+    "horas_promedio_sin_datos": 25.1,
+    "horas_maximo_sin_datos": 38.5
   },
   "sources": [
     {
@@ -557,22 +558,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/432766499_812585937576485_5980317798609638070_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iGtE6SViEukQ7kNvwGSdIZd&_nc_oc=AdreKSIu6q1MOkfTF78mGzEVIp4UpyLq-rzhLvx790XKKusVZ_83ECdEHITS8wemrC4&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=py8yPwF7W8iGb-TyDqch2A&_nc_ss=7f289&oh=00_AQEbSuOczPGE0dsM7zhHPFycedSMn9T9DiMlrIA9i03iSg&oe=6A873B8A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/cinemateca.bo/videos/la-invitaci%C3%B3n-esta-de-vuelta-aqu%C3%AD-en-cinemateca-boliviana-no-te-pierdas-cuatro-f/1395073462568219/",
-          "has_image": true,
-          "text_preview": "LA INVITACIÓN esta de vuelta aquí en Cinemateca boliviana. No te pierdas cuatro funciones únicas llenas de secretos, tensión y una noche imposible de olvidar. ¡Los espe… Ver más LA INVITACIÓN esta de vuelta aquí en Cinemateca boliviana. No te pierdas cuatro funciones únicas llenas de secretos, tensión y una noche imposible de olvidar. ¡Los espe… Ver más Tenemos problemas para reproducir este video"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -651,13 +643,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CeV5zE9tkPEQ7kNvwG95x5R&_nc_oc=AdrJk8NIaqN82m3X1iV7SOQsJ_F5Kd7eRVJ1exKXTc01URB_vF1MNzBTNjgSCAW5vpw&_nc_zt=24&_nc_ht=scontent-fra5-2.xx&_nc_gid=LTK-qkUCIqSujHbUzjRoKA&_nc_ss=7f289&oh=00_AQFWLfPdRDvP17PDicA2AkdPncOjBAm-Ig-urJivuImfQg&oe=6A873FD2",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -889,13 +881,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=n4nvPRl9_FgQ7kNvwFh2nOT&_nc_oc=AdqGpPnfpvUE3rElT0CaVEpRXjTtPDR_TSAw6fmOneTeRSg1wc06gU8crIsCjn0M3Z4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=kDymToix4Z42GXKAXEvPOw&_nc_ss=7f289&oh=00_AQEacepEiszbGi4624ey-j8RtUTuM6cyk9b54wgRMZMg9Q&oe=6A874A67",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "feria",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/videos/cultura-%F0%9D%90%8B%F0%9D%90%9A-%F0%9D%90%9F%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%9A-%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%A6%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A8%CC%81-%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%A8-%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%AC-%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%9A%F0%9D%90%AC-%F0%9D%90%AA%F0%9D%90%AE%F0%9D%90%9E-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A6%F0%9D%90%A9%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A6%F0%9D%90%A8%F0%9D%90%AC-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AE%CC%81%F0%9D%90%9A%F0%9D%90%A7durante-l/1398216415520092/",
+          "has_image": true,
+          "text_preview": "#Cultura | 📚 𝐋𝐚 𝐟𝐞𝐫𝐢𝐚 𝐭𝐞𝐫𝐦𝐢𝐧𝐨́, 𝐩𝐞𝐫𝐨 𝐥𝐚𝐬 𝐡𝐢𝐬𝐭𝐨𝐫𝐢𝐚𝐬 𝐪𝐮𝐞 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐢𝐦𝐨𝐬 𝐜𝐨𝐧𝐭𝐢𝐧𝐮́𝐚𝐧. Durante la 30.ª Feria Internacional del Libro de La Paz, nuestros espacios se llenaron de encuentros alrededor de la... #Cultura | 📚 𝐋𝐚 𝐟𝐞𝐫𝐢𝐚 𝐭𝐞𝐫𝐦𝐢𝐧𝐨́, 𝐩𝐞𝐫𝐨 𝐥𝐚𝐬 𝐡𝐢𝐬𝐭𝐨𝐫𝐢𝐚𝐬 𝐪𝐮𝐞 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐢𝐦𝐨𝐬 𝐜𝐨𝐧𝐭𝐢𝐧𝐮́𝐚𝐧. Durante la 30.ª Feria Internacional del Libro de La Paz, nuestros..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1008,13 +1009,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=O5WLbiCJ_RMQ7kNvwG_lT6M&_nc_oc=AdqpM9sz2MNejAReYYzw2HZ2KSVJyfGFMQ-dsiVNZY0l_jcayQvsWElRlU-BQ1kHI44&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Euv7HtUKOebOZfYNpRDDXA&_nc_ss=7f289&oh=00_AQEJVpO7BGH6XLgvOP3CqBPVX3SUgowY-YOC0MXaZX7VAA&oe=6A8743B4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02wbAWhtX1pcXPXc3i8su6ir4p9x9adHG5JL8sSgeBdpFn7wiXNhp7mzdAkaYeFjSJl?__cft__[0]=AZaTt7pV7O05n8uG9GJWO8yw-C-J10xsouxc_B7sJhGkGxK4oZPRpp8xwMvtvjY-TetHzb45OZaUsXhSREPr64e4gXTCU-EipLBopJya-uHaPc_haDkkc5AbGOMNwT9Yhzk7bgznyebattIilg54wSWjpXB1f74BSfw4OGiHkJn_eLq7B1Mac98Et5RlbWCtelE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Educación | 𝐃𝐞 𝐮𝐧𝐚 𝐢𝐝𝐞𝐚 𝐞𝐧 𝐥𝐚 𝐩𝐚𝐧𝐭𝐚𝐥𝐥𝐚 𝐚 𝐮𝐧 𝐨𝐛𝐣𝐞𝐭𝐨 𝐞𝐧𝐭𝐫𝐞 𝐭𝐮𝐬 𝐦𝐚𝐧𝐨𝐬. Este agosto abrimos dos Tardes de Prototipad… Ver más #Educación | 𝐃𝐞 𝐮𝐧𝐚 𝐢𝐝𝐞𝐚 𝐞𝐧 𝐥𝐚 𝐩𝐚𝐧𝐭𝐚𝐥𝐥𝐚 𝐚 𝐮𝐧 𝐨𝐛𝐣𝐞𝐭𝐨 𝐞𝐧𝐭𝐫𝐞 𝐭𝐮𝐬 𝐦𝐚𝐧𝐨𝐬. Este agosto abrimos dos Tardes de Prototipad… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1026,12 +1036,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1076,30 +1086,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QiahYEXgw8sQ7kNvwGTulPT&_nc_oc=AdpXA70zUbuBMe6bTBmVIC955fb1xGsV3wRON0VsLfg8J8bA5WdVSN6yPl8-KuLA1ts&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=TttbjbvfaAu48EG269Vclg&_nc_ss=7f289&oh=00_AQG89jAgn0LKUZTSTfXO2VfuIjMLPSCMOGMGCf6RTk5tsw&oe=6A8748AF",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02gttXJGZppgxJHJDdmLDMiSkJ9noY7GDsmqUFpdP3rCwieYapGQMYmdQPh1LktYLhl?__cft__[0]=AZZp6n7O9Ft1Vi9vKILXnShhi_-On63fgiVagUenJvffuJ4vAiG8zgy3h_IIVbxcvgz1zxlmZ_ZfLo1l0SJwK4VhWUf6EKqtYHpvwCsjuKkw5LxHGDK8zZMvLI4HE5i_hkGrfB7QWN3h5pkhyTtcA2tZ9tjQjarClXjVqDx5NboFT10qYufFF6n19ADMhs9Xw5A&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CCPSantaCruz | Conversatorio EVOLUCIÓN DEL ARTE EN BOLIVIA … Ver más #CCPSantaCruz | Conversatorio EVOLUCIÓN DEL ARTE EN BOLIVIA … Ver más ¿El título es afirmación o pregunta?? Jose Arispe"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02gttXJGZppgxJHJDdmLDMiSkJ9noY7GDsmqUFpdP3rCwieYapGQMYmdQPh1LktYLhl?comment_id=1044919161797523&__cft__[0]=AZZp6n7O9Ft1Vi9vKILXnShhi_-On63fgiVagUenJvffuJ4vAiG8zgy3h_IIVbxcvgz1zxlmZ_ZfLo1l0SJwK4VhWUf6EKqtYHpvwCsjuKkw5LxHGDK8zZMvLI4HE5i_hkGrfB7QWN3h5pkhyTtcA2tZ9tjQjarClXjVqDx5NboFT10qYufFF6n19ADMhs9Xw5A&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "¿El título es afirmación o pregunta?? Jose Arispe"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1338,7 +1331,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
