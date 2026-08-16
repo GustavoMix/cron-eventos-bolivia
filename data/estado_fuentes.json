@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:52:55-04:00",
+  "generated_at": "2026-08-16T17:39:52-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -14,12 +14,11 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_tarija_cultura",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 30.1,
-    "horas_maximo_sin_datos": 47.6
+    "horas_promedio_sin_datos": 31.3,
+    "horas_maximo_sin_datos": 50.4
   },
   "sources": [
     {
@@ -31,22 +30,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lHvg36DW85sQ7kNvwFlLgXD&_nc_oc=Ado-bjRnE1xqd4fuLpvr10L2qJYWHbsI8puU6pPrW1hT0yYotkL2xa548lj6JoOFau0&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=569j6K9G4bnb5gzvCWXk_g&_nc_ss=7f289&oh=00_AQHNqoFMO8RLJldtsRCbQPCfc8SlWerWYlDJ1EBIPvf3Pg&oe=6A87D09A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid0HZfhsUBgfqFuc1LSHbCMP946YCVEBP1g1ABFogdnBFGefck39pCYHLfFoBekpBjNl?__cft__[0]=AZaXLSGgeiYgtdZqEabeWI62BP1f4mUlTJcN-yEIBAQbOZyB0xT8sDV5uUhpWWr1i8U04gJjNlCcQYBlEUCnrtBPeWg7kk5tLcDHjZCGoxie8J-jk5xGB4zG8lThPS3FBodVCKiZZejV6g_wBK4sJmGZYYikqi6rOaoNhpSkpHLkRo35QQfB_Unk4zXtCg6fQmE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LOS 90 ESTÁN DE VUELTA EN EL ALTO! Pr… Ver más ¡LOS 90 ESTÁN DE VUELTA EN EL ALTO! Pr… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -57,13 +47,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hMY0bRvfeRkQ7kNvwEDxZma&_nc_oc=Adqi4srDF1t0Qg1epphEes-nIe4N5LhS18Onx2hnh215hD6rj71Yg00__XOGF1Qhfa0&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=Vgb8rH0XAkO_Ayp6rQntzw&_nc_ss=7f289&oh=00_AQEAbyv-8nZ3rWJe168RByODumLIFbuIvmpWd3n8l7sqQA&oe=6A87FA75",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -74,13 +64,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mDVLp_luFOoQ7kNvwF6E_x-&_nc_oc=AdrGXoLxRCA9RMVeK8td922gLcekOrT12EthpLLShyi-f0TN1J9onH_RXdo88DKB3dw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=CtvMyV73x2vX_-1F9skVLQ&_nc_ss=7f289&oh=00_AQE_RZyQpY2Z6BlDbx6A3Si_1GR9RomDteNOL5iPNzvA9A&oe=6A87EA36",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid024A6DQ1w5QWWnxSyScfhbV8Pzd5vxu3nMnNfSwSMdnkQ2eJLNnsdFLRAC8wotp7vSl?__cft__[0]=AZbyrwkriMZ9JaLAdI-7HcSSXml7_QArR7Wulu-SxFdD63i8oci8rwkapvloScheeqrQHyQu5p9WVVS5-SdVqglOhpA_dMJFvagQqnQV3bWZHBlgAAY9_onLEy9PzrkdvuTBuT0Tdj3YluRGXgBnVmsF-0Kn1rrw4IfMnYThh2rVecs6CD8niJL_ki9DR9DfJz0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -550,30 +549,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qlbF2u2Rg3YQ7kNvwEvvtWr&_nc_oc=AdrLOyV92Hikr6aHAuOIjI-uqk7nm44AanGQqQKM8Sdcgfmpiz-tRptCzJybOALD2uY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=KlI2KJTSHs81EYoLtvugeA&_nc_ss=7f289&oh=00_AQHo-7z5kHjqy5Ssf1rOIxU2ge184_GdbFwDx-4fqz18EQ&oe=6A87EFB3",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2937818283225977/?__cft__[0]=AZZXQ32pdvAA_c8Oma05iQ9915MAf34xwp4YMHV9CWcp-qKiBe0iJ_pWB2nd1Mh4IzVYQg7iiJAUT7w8RZX0g985BjScdFEtwdUy0Q6-rQAPsnBm9o52XpZwAyibjDwRaghXLgdAC3pkjrCknhDbGRM4EbWqozg37YP7ay2tnAz54d-P0Tdi3h5NBKb1qw35_LIbTtH2on9UN7AVHCKvnMYw&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#FCBCB | Natalicio de Fernando Montes… Ver más Gran pintor boliviano Tenemos problemas para reproducir este video. Más información Veronica Querejazu"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2937818283225977/?comment_id=1043521925088487&__cft__[0]=AZZXQ32pdvAA_c8Oma05iQ9915MAf34xwp4YMHV9CWcp-qKiBe0iJ_pWB2nd1Mh4IzVYQg7iiJAUT7w8RZX0g985BjScdFEtwdUy0Q6-rQAPsnBm9o52XpZwAyibjDwRaghXLgdAC3pkjrCknhDbGRM4EbWqozg37YP7ay2tnAz54d-P0Tdi3h5NBKb1qw35_LIbTtH2on9UN7AVHCKvnMYw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Gran pintor boliviano Veronica Querejazu"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -1009,13 +991,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nAdV1OdlyfgQ7kNvwEf5a_h&_nc_oc=Ado1DBSkNBDOK9u_Ez6KSOVzBjUOy4QtxvoEkjrW5gSiN5r-F66iSga-xYi60K6DREg&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=OzcwYU1Ez0cIQ_W5WNRDfg&_nc_ss=7f289&oh=00_AQEIc3Ynp-fE9ibTo0lJkTbgdi39EFmDwSgqMwY7zDLgVw&oe=6A87ED83",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Dirección de Cultura y Patrimonio Gobierno Autónomo Departamental de Tarija 14 mil seguidores • 291 seguidos Más Publicaciones Información Reels Fotos Esta página '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/TarijaCultura/posts/hemos-tenido-la-alegria-de-devolverle-a-la-casa-donde-funciona-la-direcci%C3%B3n-de-p/1335421828742557/",
+          "has_image": true,
+          "text_preview": "Hemos tenido la alegria de devolverle a la casa donde funciona la dirección de Patrimonio Y Cultura y el Archivo histórico, los escritos e historias de su dueño original Dn Francisco Burdett... Hemos tenido la alegria de devolverle a la casa donde funciona la dirección de Patrimonio Y Cultura y el Archivo histórico, los escritos e historias de... Hemos tenido la alegria de devolverle a la casa don"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1339,7 +1330,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
