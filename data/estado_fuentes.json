@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T00:03:56-04:00",
+  "generated_at": "2026-08-16T03:02:34-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 21.7,
-    "horas_maximo_sin_datos": 32.8
+    "horas_promedio_sin_datos": 23.4,
+    "horas_maximo_sin_datos": 35.7
   },
   "sources": [
     {
@@ -557,13 +557,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/432766499_812585937576485_5980317798609638070_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iGtE6SViEukQ7kNvwGSdIZd&_nc_oc=AdreKSIu6q1MOkfTF78mGzEVIp4UpyLq-rzhLvx790XKKusVZ_83ECdEHITS8wemrC4&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=py8yPwF7W8iGb-TyDqch2A&_nc_ss=7f289&oh=00_AQEbSuOczPGE0dsM7zhHPFycedSMn9T9DiMlrIA9i03iSg&oe=6A873B8A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/cinemateca.bo/videos/la-invitaci%C3%B3n-esta-de-vuelta-aqu%C3%AD-en-cinemateca-boliviana-no-te-pierdas-cuatro-f/1395073462568219/",
+          "has_image": true,
+          "text_preview": "LA INVITACIÓN esta de vuelta aquí en Cinemateca boliviana. No te pierdas cuatro funciones únicas llenas de secretos, tensión y una noche imposible de olvidar. ¡Los espe… Ver más LA INVITACIÓN esta de vuelta aquí en Cinemateca boliviana. No te pierdas cuatro funciones únicas llenas de secretos, tensión y una noche imposible de olvidar. ¡Los espe… Ver más Tenemos problemas para reproducir este video"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -574,22 +583,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Xz6_xWcKIeUQ7kNvwHgi5DN&_nc_oc=AdryDQp-XM1OoQXmURVWttEfuE57NJdGIBe7nvG7Z5VRfvx4e-ipocQklGMzr3RxjyA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=C4a7mTOEifjGBAEVqTAnYg&_nc_ss=7f289&oh=00_AQH9TmLhf_IfnyWr5VUWCWwAh87hYEXOYuwrgvVklGPG-g&oe=6A86F7D6",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "cine",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid0PXkiYVJNqLgbAeyBxXpPaxt3M4HqVBJ6Y15ZE15hNKQHaJrZhLssAU3JX1QANBbNl?__cft__[0]=AZY1lPr6yL2_osNjsN9wk3h1b4kAjGOhldorIFcuURhJUaN_SEKEOMzsnABTvhvoo6hJ-kn1nHvVydS0YPYSOT8E1i6BsHTPoetvjzCYZ8uwE32Q9ZaZgNrHXZLK-qUgblghLKcWTFzKySuGr6qS3zt3F4k1RAH2GIyrDtLE9DeFnp5-1vB7SkHySbJlWByBTJc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "ACERCA África 2025 - Martes de Cine El … Ver más ACERCA África 2025 - Martes de Cine El … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -634,30 +634,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/773589523_1927875917852648_6420855034461097278_n.png?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s640x640&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Oa_WI0zBv8UQ7kNvwESVg6V&_nc_oc=AdpMAYhjyvgUTLhVzRGHsKgZw269TUZoOyXW7XJMX-aNpcNgJQbgGacJz2sGHenlGA0&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=UtA1zdwxXzK_WLPhb1Giug&_nc_ss=7f289&oh=00_AQFrf5tM3SuuvtW2wb2kRpuQ3V-UGxpfo8kXZ_RCCMg7Cg&oe=6A87154B",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid084V3RNQ3MEEdxEXGBsP98bBdt2BNeE2BogKArsExhMohLQyAfvXxXkstspqxyPLxl?__cft__[0]=AZYTiCPryrgqSCOCOL7bWGUL7XIJu6e5rElDnGkYlHUp3XoavanKWSMtQEYpIJfCDOvZIcxV-mgN0vev7nQhfIIQGVbCteRHtbne9eG46LX3LFqdtSTFG-a3Dd1lFqr-tYKUWL6Kwu04JB3tn2Zvswzqo0z4-XlMb1eXZjQouZ70mIbcPLgKIC7Z4-gVMW-p6ns&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#CNM | 𝐂𝐨𝐧𝐦𝐞𝐦𝐨𝐫𝐚𝐜𝐢ó𝐧 𝐏𝐚𝐭𝐫𝐢𝐦𝐨𝐧𝐢𝐚𝐥 Cada 15 de agosto se c… Ver más #CNM | 𝐂𝐨𝐧𝐦𝐞𝐦𝐨𝐫𝐚𝐜𝐢ó𝐧 𝐏𝐚𝐭𝐫𝐢𝐦𝐨𝐧𝐢𝐚𝐥 Cada 15 de agosto se c… Ver más Que hermosa, impresionante obra de arte! Tenemos problemas para reproducir este video. Más información Ver más comentarios Luis Martinez Barrios"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid084V3RNQ3MEEdxEXGBsP98bBdt2BNeE2BogKArsExhMohLQyAfvXxXkstspqxyPLxl?comment_id=1602743231416596&__cft__[0]=AZYTiCPryrgqSCOCOL7bWGUL7XIJu6e5rElDnGkYlHUp3XoavanKWSMtQEYpIJfCDOvZIcxV-mgN0vev7nQhfIIQGVbCteRHtbne9eG46LX3LFqdtSTFG-a3Dd1lFqr-tYKUWL6Kwu04JB3tn2Zvswzqo0z4-XlMb1eXZjQouZ70mIbcPLgKIC7Z4-gVMW-p6ns&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Que hermosa, impresionante obra de arte! Luis Martinez Barrios"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -668,13 +651,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CeV5zE9tkPEQ7kNvwG95x5R&_nc_oc=AdrJk8NIaqN82m3X1iV7SOQsJ_F5Kd7eRVJ1exKXTc01URB_vF1MNzBTNjgSCAW5vpw&_nc_zt=24&_nc_ht=scontent-fra5-2.xx&_nc_gid=LTK-qkUCIqSujHbUzjRoKA&_nc_ss=7f289&oh=00_AQFWLfPdRDvP17PDicA2AkdPncOjBAm-Ig-urJivuImfQg&oe=6A873FD2",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -991,22 +974,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=esg0DBpn7SwQ7kNvwFReuzA&_nc_oc=Adq_sz8aQ6X52491wAIMl-OusJq1HioZnCwB8V_Oz2kDf4uthvTLiF0qSTyNbCPUGHo&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=HuW3faQleXoR1ITBw5dCDw&_nc_ss=7f289&oh=00_AQGaoW5rqOFJJuKYVIb277UquNnsmqK_IacerVoMa28c3Q&oe=6A86F37D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid03wRXtxvUzC6mnRCopWLwRKx6wcwc3nLJrnQqtGvwFZW3NXuPMqD4po7qMmTKhPhVl?__cft__[0]=AZZBaZ2O-XXuTlN9R1fsEg_VIbmXUkMPXGGLfvYaUYZDrz6m1wQ9cYwGnm_ntH0iG1ShoQ4S1x8J_re3DAQ_VPbRG_XPMcauSpEUDpMiA48unKDxLEwEUVaeYSX7qRrYVkOS3EOO94WaPzzcb5yhDZCcx5u-XMSa2ZHp_yYmcWkNyoZv4UJQncO65AqiCe3pcYqqDpRjWqlc-paT91DgltJgt51DYFyJHMaWkvn4mVxXWw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Esta obra titula: \"La morocuda\" … Ver más Esta obra titula: \"La morocuda\" … Ver más Tenemos problemas para reproducir este video. Más información Terceros Daniela está en Casa Melchor Pinto. 1 día · Santa Cruz de la Sierra, Departamento de Santa Cruz, Bolivia · ﻿Linda Mi Cholita · William Luna ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1102,13 +1076,30 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QiahYEXgw8sQ7kNvwGTulPT&_nc_oc=AdpXA70zUbuBMe6bTBmVIC955fb1xGsV3wRON0VsLfg8J8bA5WdVSN6yPl8-KuLA1ts&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=TttbjbvfaAu48EG269Vclg&_nc_ss=7f289&oh=00_AQG89jAgn0LKUZTSTfXO2VfuIjMLPSCMOGMGCf6RTk5tsw&oe=6A8748AF",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02gttXJGZppgxJHJDdmLDMiSkJ9noY7GDsmqUFpdP3rCwieYapGQMYmdQPh1LktYLhl?__cft__[0]=AZZp6n7O9Ft1Vi9vKILXnShhi_-On63fgiVagUenJvffuJ4vAiG8zgy3h_IIVbxcvgz1zxlmZ_ZfLo1l0SJwK4VhWUf6EKqtYHpvwCsjuKkw5LxHGDK8zZMvLI4HE5i_hkGrfB7QWN3h5pkhyTtcA2tZ9tjQjarClXjVqDx5NboFT10qYufFF6n19ADMhs9Xw5A&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CCPSantaCruz | Conversatorio EVOLUCIÓN DEL ARTE EN BOLIVIA … Ver más #CCPSantaCruz | Conversatorio EVOLUCIÓN DEL ARTE EN BOLIVIA … Ver más ¿El título es afirmación o pregunta?? Jose Arispe"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02gttXJGZppgxJHJDdmLDMiSkJ9noY7GDsmqUFpdP3rCwieYapGQMYmdQPh1LktYLhl?comment_id=1044919161797523&__cft__[0]=AZZp6n7O9Ft1Vi9vKILXnShhi_-On63fgiVagUenJvffuJ4vAiG8zgy3h_IIVbxcvgz1zxlmZ_ZfLo1l0SJwK4VhWUf6EKqtYHpvwCsjuKkw5LxHGDK8zZMvLI4HE5i_hkGrfB7QWN3h5pkhyTtcA2tZ9tjQjarClXjVqDx5NboFT10qYufFF6n19ADMhs9Xw5A&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "¿El título es afirmación o pregunta?? Jose Arispe"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
