@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-16T22:01:10-04:00",
+  "generated_at": "2026-08-17T00:05:31-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 19,
+    "events_total": 18,
     "events_today": 1
   },
   "filters": {
@@ -60,7 +60,7 @@
       {
         "key": "teatro",
         "label": "Teatro",
-        "count": 5
+        "count": 4
       },
       {
         "key": "nightlife",
@@ -92,7 +92,7 @@
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 9
+        "count": 8
       },
       {
         "key": "La Paz",
@@ -124,7 +124,7 @@
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 10
+        "count": 9
       },
       {
         "key": "La Paz",
@@ -156,17 +156,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 5
+        "count": 4
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 8
+        "count": 7
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 19
+        "count": 18
       }
     ],
     "price": [
@@ -183,14 +183,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 14
+        "count": 13
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 13
+        "count": 12
       },
       {
         "key": "con_video",
@@ -200,49 +200,9 @@
     ],
     "tags": [
       {
-        "key": "Ml18Xb",
-        "label": "Ml18Xb",
-        "count": 2
-      },
-      {
         "key": "RAE2026",
         "label": "RAE2026",
         "count": 2
-      },
-      {
-        "key": "vvzi1e",
-        "label": "vvzi1e",
-        "count": 1
-      },
-      {
-        "key": "NS0kde",
-        "label": "NS0kde",
-        "count": 1
-      },
-      {
-        "key": "HokZ0d",
-        "label": "HokZ0d",
-        "count": 1
-      },
-      {
-        "key": "d5Qebf",
-        "label": "d5Qebf",
-        "count": 1
-      },
-      {
-        "key": "U8DOt",
-        "label": "U8DOt",
-        "count": 1
-      },
-      {
-        "key": "iOlsLd",
-        "label": "iOlsLd",
-        "count": 1
-      },
-      {
-        "key": "ZxCkTb",
-        "label": "ZxCkTb",
-        "count": 1
       },
       {
         "key": "263",
@@ -315,8 +275,33 @@
         "count": 1
       },
       {
+        "key": "Ml18Xb",
+        "label": "Ml18Xb",
+        "count": 1
+      },
+      {
         "key": "MUSEFSucre",
         "label": "MUSEFSucre",
+        "count": 1
+      },
+      {
+        "key": "Xilografía",
+        "label": "Xilografía",
+        "count": 1
+      },
+      {
+        "key": "TallerDeArte",
+        "label": "TallerDeArte",
+        "count": 1
+      },
+      {
+        "key": "CulturaViva",
+        "label": "CulturaViva",
+        "count": 1
+      },
+      {
+        "key": "SucreCultural",
+        "label": "SucreCultural",
         "count": 1
       }
     ],
@@ -329,7 +314,7 @@
       {
         "key": "ticketera",
         "label": "ticketera",
-        "count": 6
+        "count": 5
       },
       {
         "key": "media",
@@ -350,32 +335,6 @@
   },
   "events": [
     {
-      "event_id": "evt_760a659a56fcf7",
-      "title": "Festival de Teatro &quot;Ureñarte&quot;",
-      "category": "teatro",
-      "category_label": "Teatro",
-      "starts_at": "2026-08-16T00:00:00-04:00",
-      "starts_at_ms": 1786852800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Domingo 16 de agosto · 00:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Casa de la Cultura Raúl Otero Reiche",
-      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/07/sur.jpeg",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_31bb49d8866b8c",
       "title": "Curso: Inteligencia Artificial para Emprendedores",
       "category": "feria",
@@ -385,9 +344,9 @@
       "ends_at_ms": null,
       "multi_day": false,
       "display_date": "Lunes 17 de agosto · 00:00",
-      "lifecycle": "proximo",
-      "lifecycle_label": "Próximos",
-      "days_until": 1,
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
       "is_upcoming": true,
       "city": null,
       "department": null,
@@ -413,7 +372,7 @@
       "display_date": "Martes 18 de agosto · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 2,
+      "days_until": 1,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -439,7 +398,7 @@
       "display_date": "Miércoles 19 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 3,
+      "days_until": 2,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -465,7 +424,7 @@
       "display_date": "Viernes 21 de agosto · 16:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 5,
+      "days_until": 4,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -491,7 +450,7 @@
       "display_date": "Sábado 29 de agosto · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 13,
+      "days_until": 12,
       "is_upcoming": true,
       "city": "Oruro",
       "department": "Oruro",
@@ -517,7 +476,7 @@
       "display_date": "Domingo 30 de agosto · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 14,
+      "days_until": 13,
       "is_upcoming": true,
       "city": "Montero",
       "department": "Santa Cruz",
@@ -543,7 +502,7 @@
       "display_date": "Lunes 14 de septiembre · 21:15",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 29,
+      "days_until": 28,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -569,7 +528,7 @@
       "display_date": "Del 18 al 27 de septiembre · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 33,
+      "days_until": 32,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -595,7 +554,7 @@
       "display_date": "Domingo 27 de septiembre · 22:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 42,
+      "days_until": 41,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -621,7 +580,7 @@
       "display_date": "Del 6 al 17 de noviembre · 16:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 82,
+      "days_until": 81,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -647,7 +606,7 @@
       "display_date": "Domingo 8 de noviembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 84,
+      "days_until": 83,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -673,7 +632,7 @@
       "display_date": "Del 3 al 7 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 199,
+      "days_until": 198,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -699,7 +658,7 @@
       "display_date": "Del 17 al 21 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 213,
+      "days_until": 212,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -725,7 +684,7 @@
       "display_date": "Sábado 24 de abril · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 251,
+      "days_until": 250,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -751,7 +710,7 @@
       "display_date": "Del 1 al 4 de julio",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 319,
+      "days_until": 318,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -777,7 +736,7 @@
       "display_date": "Del 1 al 4 de julio · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 319,
+      "days_until": 318,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -803,7 +762,7 @@
       "display_date": "Viernes 6 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 355,
+      "days_until": 354,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -829,7 +788,7 @@
       "display_date": "Del 10 al 21 de agosto · 15:30",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 359,
+      "days_until": 358,
       "is_upcoming": true,
       "city": "Sucre",
       "department": "Chuquisaca",

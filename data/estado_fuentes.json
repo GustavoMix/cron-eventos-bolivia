@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T22:01:10-04:00",
+  "generated_at": "2026-08-17T00:05:31-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 33.9,
-    "horas_maximo_sin_datos": 54.7
+    "horas_promedio_sin_datos": 33.4,
+    "horas_maximo_sin_datos": 56.8
   },
   "sources": [
     {
@@ -81,22 +81,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Pz1VtXVQyn8Q7kNvwHrsHXo&_nc_oc=AdpQwXWboHLeAn-udSyZj5Pn1N3v3ZgSGBd5iiJHmLgYljgW5jUl1APAr7I3lh1ME1I&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=1Ws9_CmL86zXPcBxn_bwYw&_nc_ss=7f289&oh=00_AQFwZZe_ofq9oYL3KMsAPTVG9_oZfq3jAmRgaJA3rktCkg&oe=6A883B43",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028xaQz49Uax7sw32mx8n5M6HVxB5Y9H94qvD6SwD3GzyShcWWZhvkpcYH2imz6Pocl?__cft__[0]=AZY5yFtYwK_bIdl6xD4d6iOJcp9bZQa9qnFVYxD0ZVJc7DCaHteJ6lHdd66EtwDLVSBK_xjr8J1fMuN4zR7KCcUGPR2f9kVuP8E8uJhkgS7JWzoj6mQhfNcXfOvAJAiAA1ZTYTWJzgIhjpPvTEsFD28QKD5hMSYfuGCchrxdBuRaZ5Mb9zaNkWsdtHOlAh7-Wqw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -158,22 +149,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZmLiwqA4VrgQ7kNvwHPsBFe&_nc_oc=AdpIg_O2hT5I1geOSQzjC14izV8c1zWhw_vzNHYpbVyCL7Kpbn-V85Y7SREFfIjSQxU&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=jG_zxkFz6EfuLAntuBw-iw&_nc_ss=7f289&oh=00_AQFCgEXA0fjwnOUmHfY9BiUu1AhWFMGrOMjBPp6ewCYc-w&oe=6A882937",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02aKXZynfvoBPKnuXzTpzWfngU49QuDfR5W8gfuGikEccaNSXxQ3Ru38mh1RgUHkzzl?__cft__[0]=AZaTlybUYzDepTNaFMayo6hzGpj7G5s4SVOCmmMeSl3-gcEF_kTNh7nH7DKGNLE-iH3vMzcUqFXyvC00JM73dizQLxybuYtPBnI4oTlYsQ1zBLirpKfYDhPVt0RA1E4gg6TRLZGkhQtpG_FfWSd7RL-BCVQ6_U_DLsW8NC4QUcOqcQOsnRvnFYhx_7HI7QX110o&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#AMUN | Alcaldía muestra predisposición de una solución para ex trabajadores de Sak’a Churu y reitera voluntad de cumplir obligaciones laborales… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -184,13 +166,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i0G22sYP3gUQ7kNvwGHWL1E&_nc_oc=AdoF9sIIV6JwOkZvCsvkh6unWDNIve5KTmhqczvyxs0A6jie_4I4Lr8boo3k-twbrVM&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=0lq9db6Ev93xU6hqHYmtuw&_nc_ss=7f289&oh=00_AQE6KjmH0cAUndRditCB8Ww2sPMXeERFgEj7nCejEffYdA&oe=6A884780",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1019059054272875/?__cft__[0]=AZZoHZaQauGJOdgj_RIzWp3Vc8kETP2CVW7r2xDjdmTrMbeeM84Eq_wndlf_HPaOC-feShynTIra--ZDrIj8j99T5t8Ne0oEpaCw_-KcuLIhN7Zvkbq9mUneebCmhXVaMjbE7mtJDTvmu30kZ9E3YhiSNi85_eLHqltS3RBginhNTuXurqh_AwPGm5ccuDNZJftoq_SpjcLILw7nh3Z1hNFQ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Vacúnate contra el sarampión. La prevención empieza con una vacuna. Protege a tu familia y a quienes te rodean, acudiendo al punto de vacunación más cercano.… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -235,13 +226,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sin2-3.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UfdzU9fb9fAQ7kNvwF86g8D&_nc_oc=AdoIRSQsb-FOlT7n1QQuKCNeXmo9ARRUcST2bmV0BKJkOrlIZER2eTATzYZbF5Ugtbw&_nc_zt=24&_nc_ht=scontent-sin2-3.xx&_nc_gid=HP1OOYpdU_5ZNkozPROQcA&_nc_ss=7f289&oh=00_AQF_M-okkw4d9rd7OvHS3Vph8Go7x1cJ9hppBnPfU4uRPg&oe=6A886657",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid02uD88GxAzCfb92ykD9sqS1Gh4gKbwHykzFNzNUEQsotSoJd7pfi1YTmCjuQryyyfpl?__cft__[0]=AZZE0SLR0xvi67SpYpxKL9IvhONSuX8gkqq9IirWg2yJm-EqDfMsXcuG0XuXwXzMJWW_qIvPD81juEjd3EHeU4meHoSzfF699Ru6zdKj4-RrWH9IYgc82SERyEC-cNmRboCfX-IEz4gmzcHVqE5G409s4utzMGGL7oO_Cx3n51--9JmwMso5ghXv1io0XM80mN8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Por tercer año consecutivo, El gobernador Leonardo Loza llegó hasta el cerro de Cota en el municipio de #Quillacollo con fé y devolución a la virgen de Urqupiña.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gamscs",
@@ -252,13 +252,30 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0FAxxd7zsKoQ7kNvwENYtoz&_nc_oc=AdpEOxSOobYdRokyZTArCBCvYuV3LJIxBoQ95kouUr1dHtWWq81H4zlyikR6x8g9CvU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=uJeeLWTwFO8-Ebo3GMbQrQ&_nc_ss=7f289&oh=00_AQH55NfVL4g5A-P8i4fqI-4h7cDZzWH2Gh9bfqMoL1ZFww&oe=6A8850A1",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/924748367344860/?__cft__[0]=AZYyMBQjYeNTLXq1Ud1F5pl22wyxlU5HPltHs2KJlcS8EaPR2kYMn15Yno_SwwPkAJmgqDlKAR9eJwNRAkAeDBGIBUIKZbxtj5hbOQFFr9Coizu3BGhMRVj7RqudhMuAUUHoxIpUtQ-uiZ-5fPjY0SwVvzLKZSzePbqcghgoC6axUg4jX1ebXMWYpz_WqqT0M-GTfX9RXUvxePA3L2u3LgAZ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Este 17 de agosto celebramos el Día Mundial del Peatón. … Ver más Este 17 de agosto celebramos el Día Mundial del Peatón. … Ver más El 17 de agosto es aniversario de la bandera boliviana no es día del peaton Tenemos problemas para reproducir este video. Más información Ver más comentarios Erika Cristina Reque Barriga"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/924748367344860/?comment_id=1494717799074508&__cft__[0]=AZYyMBQjYeNTLXq1Ud1F5pl22wyxlU5HPltHs2KJlcS8EaPR2kYMn15Yno_SwwPkAJmgqDlKAR9eJwNRAkAeDBGIBUIKZbxtj5hbOQFFr9Coizu3BGhMRVj7RqudhMuAUUHoxIpUtQ-uiZ-5fPjY0SwVvzLKZSzePbqcghgoC6axUg4jX1ebXMWYpz_WqqT0M-GTfX9RXUvxePA3L2u3LgAZ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "El 17 de agosto es aniversario de la bandera boliviana no es día del peaton Erika Cristina Reque Barriga"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -864,22 +881,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BuwoDt4gOZwQ7kNvwF_7yZ_&_nc_oc=AdoUEngkF-TRBiJkcYODX3hB_xMRSdticwFYaBdZPxhSdgdQhS-UfjLscJvYl7ME52s&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Ocro2DvqKmB0APNltgsrAw&_nc_ss=7f289&oh=00_AQFbNo1ZFmRb4Ap8wx_qvEvEUtaASShPZmJ-NKzlIedhlA&oe=6A882A21",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/feriafipaz/posts/pfbid036NdWvZzkWE4DQjnbDih3sVAQaGHw6djuiaLNVyqi7BuDVpniPcbRCGhX8QcY7ddzl?__cft__[0]=AZaNcom4UO8sSVXiZnIMmg-02XWVjJTlXsyrm9koMoLbdCKI4f7PDCcAINNrRcBgBURcfvGwo2sCs8JbGxC5kLWb1e3GVW3JAe_CqrLQjoxATE8L1P3PUhq-23LPj1kX0Noj0lThVa6edrERflpufS_xCpL3vAYJxh_lRsnrt0fZq0ab642GlscVddQ0_Uxjf_Q&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Compartiendo con nuestra hermosa gente #Paceña celebrando en su día de #SanRoque junto a nuestros grandes mejores amigos y compañeros. R… Ver más Compartiendo con nuestra hermosa gente #Paceña celebrando en su día de #SanRoque junto a nuestros grandes mejores amigos y compañeros. R… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -1249,8 +1257,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 7,
-      "events": 5,
+      "raw_items": 6,
+      "events": 4,
       "rejected": 2,
       "rejected_samples": [
         {
@@ -1418,7 +1426,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 8,
+          "score": 26,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
