@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-17T00:05:31-04:00",
+  "generated_at": "2026-08-17T03:21:09-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 18,
+    "events_total": 19,
     "events_today": 1
   },
   "filters": {
@@ -55,7 +55,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 7
+        "count": 6
       },
       {
         "key": "teatro",
@@ -68,18 +68,23 @@
         "count": 2
       },
       {
+        "key": "otro",
+        "label": "Otros",
+        "count": 2
+      },
+      {
         "key": "concierto",
         "label": "Conciertos",
         "count": 2
       },
       {
-        "key": "otro",
-        "label": "Otros",
+        "key": "festival",
+        "label": "Festivales",
         "count": 1
       },
       {
-        "key": "festival",
-        "label": "Festivales",
+        "key": "deporte",
+        "label": "Deportes",
         "count": 1
       },
       {
@@ -115,6 +120,11 @@
         "count": 1
       },
       {
+        "key": "Quillacollo",
+        "label": "Quillacollo",
+        "count": 1
+      },
+      {
         "key": "Sucre",
         "label": "Sucre",
         "count": 1
@@ -134,7 +144,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 2
+        "count": 3
       },
       {
         "key": "Oruro",
@@ -166,7 +176,7 @@
       {
         "key": "todos",
         "label": "Todos",
-        "count": 18
+        "count": 19
       }
     ],
     "price": [
@@ -178,7 +188,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 5
+        "count": 6
       },
       {
         "key": "por_confirmar",
@@ -190,7 +200,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 12
+        "count": 14
       },
       {
         "key": "con_video",
@@ -202,6 +212,26 @@
       {
         "key": "RAE2026",
         "label": "RAE2026",
+        "count": 2
+      },
+      {
+        "key": "FEXPOCRUZ",
+        "label": "FEXPOCRUZ",
+        "count": 2
+      },
+      {
+        "key": "Expocruz2026",
+        "label": "Expocruz2026",
+        "count": 2
+      },
+      {
+        "key": "RumboAExpocruz2026",
+        "label": "RumboAExpocruz2026",
+        "count": 2
+      },
+      {
+        "key": "OportunidadesParaTodos",
+        "label": "OportunidadesParaTodos",
         "count": 2
       },
       {
@@ -255,26 +285,6 @@
         "count": 1
       },
       {
-        "key": "FEXPOCRUZ",
-        "label": "FEXPOCRUZ",
-        "count": 1
-      },
-      {
-        "key": "Expocruz2026",
-        "label": "Expocruz2026",
-        "count": 1
-      },
-      {
-        "key": "RumboAExpocruz2026",
-        "label": "RumboAExpocruz2026",
-        "count": 1
-      },
-      {
-        "key": "OportunidadesParaTodos",
-        "label": "OportunidadesParaTodos",
-        "count": 1
-      },
-      {
         "key": "Ml18Xb",
         "label": "Ml18Xb",
         "count": 1
@@ -319,7 +329,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 2
+        "count": 3
       },
       {
         "key": "eventos",
@@ -518,9 +528,9 @@
     },
     {
       "event_id": "evt_b241df7de02d67",
-      "title": "Expocruz 2026",
-      "category": "feria",
-      "category_label": "Ferias y expos",
+      "title": "Comprá tus entradas para Expocruz 2026 de manera rápida y fácil desde nuestra página web",
+      "category": "otro",
+      "category_label": "Otros",
       "starts_at": "2026-09-18T17:00:00-04:00",
       "starts_at_ms": 1789765200000,
       "ends_at_ms": 1790567940000,
@@ -533,12 +543,12 @@
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
       "venue": "Fexpocruz",
-      "image_url": null,
+      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/774595866_1614571443400376_7559251380062004159_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=108&ccb=1-7&_nc_sid=cae128&_nc_ohc=JnG0F6ea_EkQ7kNvwHFt8Es&_nc_oc=Adrx-vHQSVBJ7ihf_FOs2_kDfip4JC8Kp1LGo6tc_Mx0wElZ_m-K9yfXujw_Ze3FD38&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=dZqSKl0K31Qau7fsX-DIrQ&_nc_ss=7f289&oh=00_AQEOBQxaw14N66HDq01tvILwBbu42u991Ew_VT3kj_2tBQ&oe=6A88814E",
       "has_video": true,
       "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
+      "price_from": 24.0,
+      "currency": "BOB",
+      "price_label": "Bs 24",
       "status": "programado",
       "source_count": 2
     },
@@ -591,6 +601,32 @@
       "price_from": 20.0,
       "currency": "BOB",
       "price_label": "Bs 20 - 30",
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_85458322a09300",
+      "title": "Inauguración de exposición artística",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-11-06T19:00:00-04:00",
+      "starts_at_ms": 1794006000000,
+      "ends_at_ms": 1794974340000,
+      "multi_day": true,
+      "display_date": "Del 6 al 17 de noviembre · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 81,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": "plaza 14 de Septiembre",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/dsc_8641_web.jpg?itok=5XVXhRjJ",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "status": "programado",
       "source_count": 1
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T00:05:31-04:00",
+  "generated_at": "2026-08-17T03:21:09-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 33.4,
-    "horas_maximo_sin_datos": 56.8
+    "horas_promedio_sin_datos": 34.3,
+    "horas_maximo_sin_datos": 60.1
   },
   "sources": [
     {
@@ -98,13 +98,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/774595866_1614571443400376_7559251380062004159_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=JnG0F6ea_EkQ7kNvwHFt8Es&_nc_oc=Adrx-vHQSVBJ7ihf_FOs2_kDfip4JC8Kp1LGo6tc_Mx0wElZ_m-K9yfXujw_Ze3FD38&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=K9OmRJUhgFqB_B5XBIv6zg&_nc_ss=7f289&oh=00_AQHPxCqDUtG97R3mC19E2FBEBPCsZ55A4_wfpKWj9RYOmQ&oe=6A88814E",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -166,22 +166,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i0G22sYP3gUQ7kNvwGHWL1E&_nc_oc=AdoF9sIIV6JwOkZvCsvkh6unWDNIve5KTmhqczvyxs0A6jie_4I4Lr8boo3k-twbrVM&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=0lq9db6Ev93xU6hqHYmtuw&_nc_ss=7f289&oh=00_AQE6KjmH0cAUndRditCB8Ww2sPMXeERFgEj7nCejEffYdA&oe=6A884780",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1019059054272875/?__cft__[0]=AZZoHZaQauGJOdgj_RIzWp3Vc8kETP2CVW7r2xDjdmTrMbeeM84Eq_wndlf_HPaOC-feShynTIra--ZDrIj8j99T5t8Ne0oEpaCw_-KcuLIhN7Zvkbq9mUneebCmhXVaMjbE7mtJDTvmu30kZ9E3YhiSNi85_eLHqltS3RBginhNTuXurqh_AwPGm5ccuDNZJftoq_SpjcLILw7nh3Z1hNFQ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Vacúnate contra el sarampión. La prevención empieza con una vacuna. Protege a tu familia y a quienes te rodean, acudiendo al punto de vacunación más cercano.… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -192,13 +183,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=N_EqB8NT32MQ7kNvwFG7BTh&_nc_oc=AdruIxtETLeRllV_d9xIXIbkbcUwOGQLQHLS5uDcz1e8rT0G9a_CQI_HcL6iy1m_3Y0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NRNl6U3DzD3-6d3Evti0zA&_nc_ss=7f289&oh=00_AQHb1-NZ1OBLbnjoJxZKCy-MMhvIk3mbhtGcemXjVZH_pw&oe=6A88A478",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2034044130551523/?__cft__[0]=AZaxS_kEBthzhmmTF0xA8J1-fqk11xVrYnpEthkv0dOwTLdKCO2KCq5GMwVZW7yo4jSItWsRyDY6pI0XOZZzFvA240yg9TjclOb7OsthJPANpzpFypYuZNQP3iRlpE5OhgIwDFIl2AzZGx8phlzDYXoonCn7YNkTFPwRXSRha61SFpr6icCLnHPms0BzyPcnOZO0Kt9d_FL4zbNQHuC3Oln3&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "San Roque: que alguien se quede también es amor… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -226,22 +226,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-sin2-3.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UfdzU9fb9fAQ7kNvwF86g8D&_nc_oc=AdoIRSQsb-FOlT7n1QQuKCNeXmo9ARRUcST2bmV0BKJkOrlIZER2eTATzYZbF5Ugtbw&_nc_zt=24&_nc_ht=scontent-sin2-3.xx&_nc_gid=HP1OOYpdU_5ZNkozPROQcA&_nc_ss=7f289&oh=00_AQF_M-okkw4d9rd7OvHS3Vph8Go7x1cJ9hppBnPfU4uRPg&oe=6A886657",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid02uD88GxAzCfb92ykD9sqS1Gh4gKbwHykzFNzNUEQsotSoJd7pfi1YTmCjuQryyyfpl?__cft__[0]=AZZE0SLR0xvi67SpYpxKL9IvhONSuX8gkqq9IirWg2yJm-EqDfMsXcuG0XuXwXzMJWW_qIvPD81juEjd3EHeU4meHoSzfF699Ru6zdKj4-RrWH9IYgc82SERyEC-cNmRboCfX-IEz4gmzcHVqE5G409s4utzMGGL7oO_Cx3n51--9JmwMso5ghXv1io0XM80mN8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Por tercer año consecutivo, El gobernador Leonardo Loza llegó hasta el cerro de Cota en el municipio de #Quillacollo con fé y devolución a la virgen de Urqupiña.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -252,30 +243,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0FAxxd7zsKoQ7kNvwENYtoz&_nc_oc=AdpEOxSOobYdRokyZTArCBCvYuV3LJIxBoQ95kouUr1dHtWWq81H4zlyikR6x8g9CvU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=uJeeLWTwFO8-Ebo3GMbQrQ&_nc_ss=7f289&oh=00_AQH55NfVL4g5A-P8i4fqI-4h7cDZzWH2Gh9bfqMoL1ZFww&oe=6A8850A1",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/924748367344860/?__cft__[0]=AZYyMBQjYeNTLXq1Ud1F5pl22wyxlU5HPltHs2KJlcS8EaPR2kYMn15Yno_SwwPkAJmgqDlKAR9eJwNRAkAeDBGIBUIKZbxtj5hbOQFFr9Coizu3BGhMRVj7RqudhMuAUUHoxIpUtQ-uiZ-5fPjY0SwVvzLKZSzePbqcghgoC6axUg4jX1ebXMWYpz_WqqT0M-GTfX9RXUvxePA3L2u3LgAZ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Este 17 de agosto celebramos el Día Mundial del Peatón. … Ver más Este 17 de agosto celebramos el Día Mundial del Peatón. … Ver más El 17 de agosto es aniversario de la bandera boliviana no es día del peaton Tenemos problemas para reproducir este video. Más información Ver más comentarios Erika Cristina Reque Barriga"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/924748367344860/?comment_id=1494717799074508&__cft__[0]=AZYyMBQjYeNTLXq1Ud1F5pl22wyxlU5HPltHs2KJlcS8EaPR2kYMn15Yno_SwwPkAJmgqDlKAR9eJwNRAkAeDBGIBUIKZbxtj5hbOQFFr9Coizu3BGhMRVj7RqudhMuAUUHoxIpUtQ-uiZ-5fPjY0SwVvzLKZSzePbqcghgoC6axUg4jX1ebXMWYpz_WqqT0M-GTfX9RXUvxePA3L2u3LgAZ&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "El 17 de agosto es aniversario de la bandera boliviana no es día del peaton Erika Cristina Reque Barriga"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_scz",
@@ -286,13 +260,38 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WjhmO-mbWJ0Q7kNvwG49XIc&_nc_oc=Adr4dcwNFrScwNF14EtlWTcSC7ZJGKWWWah4Lk-UEwaY4bCoUTWWMVkAfodAlX-N5u0&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=pCY3qEvHR-MAS70-aw1MlA&_nc_ss=7f289&oh=00_AQGEgoWphpISVBlyWcqoNBLPwt8SO7PcDreFxQCbPhQfjw&oe=6A88737E",
+      "status": "ok",
+      "raw_items": 3,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/GobSantaCruz/posts/la-vicegobernadora-paola-aguirre-culmin%C3%B3-una-agenda-de-trabajo-en-la-rep%C3%BAblica-p/1820257296808684/",
+          "has_image": true,
+          "text_preview": "La vicegobernadora, Paola Aguirre, culminó una agenda de trabajo en la República Popular de China, donde sostuvo reuniones y visitas técnicas orientadas a generar nuevas oportunidades de formación,... La vicegobernadora, Paola Aguirre, culminó una agenda de trabajo en la República Popular de China, donde sostuvo reuniones y visitas técnicas orientadas... La vicegobernadora, Paola Aguirre, culminó "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "tecnologia",
+          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid02fiXM6dk1WEGqQDp4M5kGkUL5FZ3i4as9MJ4gBWmhvbaTP6Bw6i6h5D3rDWz5mkbDl?comment_id=1955971471755393&__cft__[0]=AZbt8w-5809LIN6zjqD70xIvi_hUXCpDBXIilH3p3xSdOaQPWj-Jh2I-J_-DTuUtiDiQicAG8EvwAqkz8kmdj1buaFRy4PAhLBnxuSW9BoF9diaqs9jgqZmnj7flvHmEqL1k9u1j37576cNDnrep7aEGKNiorxw6-n9sL7sgZuPCHSk-gTzKiLguAKRMdvZWvPc&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Esto es gestionar con visión y trabajar por el futuro de Santa Cruz, fue trabajo serio que trae becas, tecnología, inversión, acuerdos concretos y proyectos que transformarán nuestra producción y nuestra gente…resultados reales que nos abren puertas al… Ver más Alejandro Zurita Frias"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid02fiXM6dk1WEGqQDp4M5kGkUL5FZ3i4as9MJ4gBWmhvbaTP6Bw6i6h5D3rDWz5mkbDl?comment_id=1955971471755393&reply_comment_id=1981642575878702&__cft__[0]=AZbt8w-5809LIN6zjqD70xIvi_hUXCpDBXIilH3p3xSdOaQPWj-Jh2I-J_-DTuUtiDiQicAG8EvwAqkz8kmdj1buaFRy4PAhLBnxuSW9BoF9diaqs9jgqZmnj7flvHmEqL1k9u1j37576cNDnrep7aEGKNiorxw6-n9sL7sgZuPCHSk-gTzKiLguAKRMdvZWvPc&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Alejandro Zurita Frias , es una buena noticia del otro lado es que tu sabes cual es la contrapartida?.... Mary Brusartorio"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_lostiempos",
@@ -1421,8 +1420,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1442,11 +1441,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 2,
+          "score": 20,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Reportan el fallecimiento de un hombre no identificado tras la entrada de Urkupiña Ver más 2 Sismo de magnitud 4,3 se registra en región chilena de Ata"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 En la misa de Quillacollo destacan don de unidad y sencillez de la Virgen Ver más 2 La fe de miles de feligreses se hace danza en Urkupiña Ver más 3 Pa"
         }
       ],
       "error": null
