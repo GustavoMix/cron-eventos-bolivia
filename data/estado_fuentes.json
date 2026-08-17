@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T09:11:15-04:00",
+  "generated_at": "2026-08-17T11:42:34-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -18,7 +18,7 @@
     ],
     "con_fallos_persistentes": [],
     "horas_promedio_sin_datos": 35.6,
-    "horas_maximo_sin_datos": 65.9
+    "horas_maximo_sin_datos": 68.4
   },
   "sources": [
     {
@@ -1118,13 +1118,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=R-eRkGWhxAMQ7kNvwFlA3NB&_nc_oc=Adquk4eLcKLkMd6TT3JpUYtO86UClaRtvv9vOnW1myC9dENBYsEWX000VkKGx1uAUUI&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=JHTkFc86VqUuNue0G4XlUw&_nc_ss=7f289&oh=00_AQEr9FF8nAq-Ei5ap_6NwVhYDsjXEHbtwtAiaE8MnyO3bA&oe=6A88F260",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 40,
+          "category": "otro",
+          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid0371DVbhUMM5uitUr9rkCsGE1PqrqZFwSaPCgRm2DRh29XT9NREuRa7t8LKY2ahkd4l?__cft__[0]=AZZ0TIIYJJlAelpvR1MU3cxHzWayBBYM02sVbOomaHd9-Rkk-3dqdhed82oUlFWcZFswGKGYfNvJkmt3wa9LELxEGyVtbob8a5dG9aqb7TplTuXYwX963g1j9R74YS03mHeYy5btbv7IVyeZ0BEWcoVmZzRZA9lkVvynzurS-YFn7Cq_b-Odq5n1bpDgJJi3UAM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "17 de agosto | Día de la Bandera Boliviana D… Ver más 17 de agosto | Día de la Bandera Boliviana D… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umsa",
@@ -1135,22 +1144,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FZCBr6r2xm8Q7kNvwETxeIE&_nc_oc=AdqSF_NiSbu2nITHpaLJDvEpbC25YagggJraMYjIGw25Z2fmjsNcCt8kPKpGnxZkVQc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zJ5QPKpkjJdFOqM6Ybh_Xw&_nc_ss=7f289&oh=00_AQG0wVaeC1aZgtnob7Sk0NI3K6obBznRypWqnxddwMC2hA&oe=6A88DA25",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid0wfXzMgtN4mcS5UYMVCfUHFwGkazh7yX3yrHK9Z81EY7yuJnJJ8fCpWPoW2wPoavrl?__cft__[0]=AZYDo66dJobovnnb6rhBVAYbl0lgTO9k8vVMKnuWJDGF5gCddaCintLeb8_4ZQoElS46lApaH5wc32GfpAg6YS70cWD0Fkierxy-kw_7FmVQu9PwIbp-PHvfen62ZpjKznwc55QIoW6aoQQuylHoRngh0W4II-VRpXNWyOkcXlVau31xKGa8GuMpz9Ya7LW4bzs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡22 años llevando música, tradición y alegría con el sello de la #UMSA!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1161,30 +1161,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-mel1-1.xx.fbcdn.net/v/t39.30808-1/761515304_1067546899192869_6937258332610772698_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=O5Nr4ElWH6sQ7kNvwGBuYI1&_nc_oc=Adox1QnGtYBEeFPiUtgczFNFpjjk-PD3igqFVLl2UTSGw8sWqqOL8CMJ3952z8Vrd4c&_nc_zt=24&_nc_ht=scontent-mel1-1.xx&_nc_gid=qVm4HA0BIyQr4mmkN-9rAg&_nc_ss=7f289&oh=00_AQHJl87oVE2M2hX5n2oz-ft0Z6a_uTY3l6ccTx1Tdadu7g&oe=6A88C523",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid0Wnm48F5mNm5oF3Q7ctwek98pRP9yDKBuGr5nCJWvLR9AFzxBqh5cHcSmhG2N6Kxql?__cft__[0]=AZZyuCg8oO_bAIWcfSoh8ySZnJcISn8sJWOIOAYXgknlgZjESnED9OYtBk8KqggAkaMANFuo8idbKhcJfcPr6MB0_IbDwZ4PXgkRwIJgi6DARupFF_FNfC0yiBALB5leQBqfRIuRsHuQ_ZC4ltG_S81o6hkJlYhwn2DOcI25FhzVuUstY-HwZS7wElzusf4IPFg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡𝐄𝐥 𝐦𝐨𝐝𝐞𝐥𝐨 𝐜𝐫𝐮𝐜𝐞𝐧̃𝐨 𝐞𝐬 𝐬𝐞𝐫 𝐬𝐨𝐥𝐢𝐝𝐚𝐫𝐢𝐨𝐬! El primer vicepresidente del … Ver más ¡𝐄𝐥 𝐦𝐨𝐝𝐞𝐥𝐨 𝐜𝐫𝐮𝐜𝐞𝐧̃𝐨 𝐞𝐬 𝐬𝐞𝐫 𝐬𝐨𝐥𝐢𝐝𝐚𝐫𝐢𝐨𝐬! El primer vicepresidente del … Ver más Bravooooo Ver más comentarios BLU MEN'S STORE"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid0Wnm48F5mNm5oF3Q7ctwek98pRP9yDKBuGr5nCJWvLR9AFzxBqh5cHcSmhG2N6Kxql?comment_id=1864089931221769&__cft__[0]=AZZyuCg8oO_bAIWcfSoh8ySZnJcISn8sJWOIOAYXgknlgZjESnED9OYtBk8KqggAkaMANFuo8idbKhcJfcPr6MB0_IbDwZ4PXgkRwIJgi6DARupFF_FNfC0yiBALB5leQBqfRIuRsHuQ_ZC4ltG_S81o6hkJlYhwn2DOcI25FhzVuUstY-HwZS7wElzusf4IPFg&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "BLU MEN'S STORE Bravooooo 2 días"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umss",
@@ -1195,13 +1178,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778957993_1564063425360317_2501883143545776062_n.png?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=hRgXnmzk-OIQ7kNvwEHkTQL&_nc_oc=AdoXuHl2Zr2ye5AdfIINNwX3bARoasJ0TgtcXXamuA9IWBEcNuozYLhIM0oNI1iaSfw&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=060GHsbHDl0eQZUIoG55-A&_nc_ss=7f289&oh=00_AQHd9YifHJAQww_rGAhPKn4xsHgfrI7nUKYqgftptcKQKQ&oe=6A88F56D",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid02zohMQWtH9uWaJdobebSDiPrU3NF2e6YD2LCbtRePbshoU662TMjHtyJAur1bmqLol?__cft__[0]=AZb3cbQ5SFPel0Uu3NkxZsg_GK_hMchAI_xQ39NGsXiSMr1jqfQaWCu6o7zdWG5YFcDWdSdVMy_lQmNaKboXRNBd8OxyGkqhCI1_zbi3miYIbYubnxqO61VaF3-6W5w3AA3cJIKn4JjPJD2qukGe0QC4n6-PsKYGzko5bnDjikJxWUaiOJOWXNykxyxmqeiz67k&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "17 de agosto | Día de la Bandera Boliviana L… Ver más 17 de agosto | Día de la Bandera Boliviana L… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1212,30 +1204,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=t8rRKgkFnaMQ7kNvwFS1cPn&_nc_oc=Ado83ZwwuIaOMLSbWi-oaNBsDCTMnf5XiCca17Y9yepriHglG44djxRXzsDf0Sxg7RE&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=RKnS6tPWMnrv0w651NE_zg&_nc_ss=7f289&oh=00_AQFOyE-01ctWTkexxyyoKURGrFvEeBZEqFUkTehQ_Y43EQ&oe=6A88F272",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/936948282757058/?__cft__[0]=AZYzij38oGqZ0PnPwlUTlMh-lNGgWE4xgMJl_CzGaM30suPb6QLwKcp3R79x_WnzhoCwpscN2nwAhcxX_HrIvrmw1X2zTKiHJLVsTy1gR4FTUXtu3EhuHyooacvXwQb-jVgyucWLETg_kne0L1rZ2yJr3aBLv7CgsAXd5of-NjWJSdslTT5IZn9s4ciJWw9qtsAlfNhmwpTt2YKQIJMD_y18&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Tu vida universitaria está a punto de comenzar… ¿ya sabes dónde?… Ver más Ola carmencita saludos ala distancia un abraso alas nenas Tenemos problemas para reproducir este video. Más información ACREDITA2.SUPERTICKET.IO Acredita2 · SuperTicket Alicia Condori"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/936948282757058/?comment_id=1579723567161672&__cft__[0]=AZYzij38oGqZ0PnPwlUTlMh-lNGgWE4xgMJl_CzGaM30suPb6QLwKcp3R79x_WnzhoCwpscN2nwAhcxX_HrIvrmw1X2zTKiHJLVsTy1gR4FTUXtu3EhuHyooacvXwQb-jVgyucWLETg_kne0L1rZ2yJr3aBLv7CgsAXd5of-NjWJSdslTT5IZn9s4ciJWw9qtsAlfNhmwpTt2YKQIJMD_y18&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Ola carmencita saludos ala distancia un abraso alas nenas Alicia Condori"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_upsa",
@@ -1246,13 +1221,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tgJkZaYLj8QQ7kNvwEjadnW&_nc_oc=AdqQYyqAg6-fpci-doTGPCdw5vUM6ZKsIO_5GCUPG5anPamIC5P4qOyF-SdVGHZaLbU&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=wknySPlF6Ir3_YKOrP8C-Q&_nc_ss=7f289&oh=00_AQEpYawo1mQ1gF28C8_3UtIOB0zFRTu9oWJzqxVp0CbfUQ&oe=6A890F78",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid037WGQrqsW8cmFj8bWRyYLyLzrE6hViM3GCsZ7uzC5Zywy3xZ4ci9vVBc92zHfKWsFl?__cft__[0]=AZZmVhz5YW_8amXJ7uEKEpEGNmzkj1DzOjPaUPlgYk44FzsKdHT-iTD5Xu1XNQDoGZsKspUZBXWfbeXBJPcqvz7EZwk59Uh3QGJYHqEnyAE8s4b8Cl73Yx8yWCsElQJNN9Rqfj3VT6OypOeVhkA3bw_BBcL1noTXhrMm9iBq_x8DMrd0vu9isWYEzeI9waU4ysI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La UPSA se incorpora al ‘Babson Collaborative for Entrepreneurship Education’, una red global liderada por Babson College, reconocida como la universidad número uno del… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_superticket",
@@ -1355,7 +1339,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1429,8 +1413,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 7,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
