@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T11:42:34-04:00",
+  "generated_at": "2026-08-17T15:00:53-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 35.6,
-    "horas_maximo_sin_datos": 68.4
+    "horas_promedio_sin_datos": 37.0,
+    "horas_maximo_sin_datos": 71.7
   },
   "sources": [
     {
@@ -897,13 +897,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mJLiAUnUKusQ7kNvwFO5bf1&_nc_oc=Adp8E-4oOffG1_Zi_gcS4B7RydOeoMnhTiKm317GDUGnGPNgIWo5o8nqpQEznCZ32zQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=pD2nv57TYPnkZA9KMyruzQ&_nc_ss=7f289&oh=00_AQH5W_FSw_3Paxmbt1B4iCJHy9hMrMxCV3w_PMr5CZhJlA&oe=6A894207",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/pfbid02yJz2tqGKsHeQmypkjf222QiXCXyZyHUTvwFFarzPikygiZpdeA53GRjtFrbav5Tel?__cft__[0]=AZaIslBgUUw3kATcly-we_XeymKLto42DCehdzqAgaP7iv6pBtUOmjQiXTvPkrrYNQWfRKyBDq7sObOb1aW3GKLnvBShSqbeVCa1raE-8S0rs9XoCLDQ9FtUm-7IIcSB2jJVQ0QQpmYWHn2y_fvvTHrvY2fXFxBQT7XQq_HzrWtuA-olNcVpMqeZ3Ik8EYNBOKc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "17 de agosto | Día de la Bandera de Bolivia H… Ver más 17 de agosto | Día de la Bandera de Bolivia H… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -931,13 +940,30 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zwwcvM6He4YQ7kNvwFEdPzs&_nc_oc=AdqePC_R5FzLw6oxOkIsiFp0fFL3Vzw2fAvzKEpreuVkXiypQjxV909w-SdvCzEMfmU&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=_vPrXxr1ZUSIxcPgZfgFug&_nc_ss=7f289&oh=00_AQHuebf2Mmna_0saE6em4Hdh0yiXzM60q0G1V7U43n9CWA&oe=6A893487",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "teatro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/-concursos-municipales-2026-participa-en-los-concursos-municipales-2026-y-demues/1083085124379478/",
+          "has_image": true,
+          "text_preview": "🎭🎶🎨 ¡CONCURSOS MUNICIPALES 2026! 🩵 Participa en los Concursos Municipales 2026 y demuestra todo tu talento en las diferentes expresiones artísticas y culturales. 👉🏻 https://bit.ly/4xFyeMC 🎭🎶🎨 ¡CONCURSOS MUNICIPALES 2026! 🩵 Participa en los Concursos Municipales 2026 y demuestra todo tu talento en las diferentes expresiones artísticas y... ¡CONCURSOS MUNICIPALES 2026! Participa en los Concursos Mun"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "teatro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/-concursos-municipales-2026-participa-en-los-concursos-municipales-2026-y-demues/1083085124379478/",
+          "has_image": true,
+          "text_preview": "🎭🎶🎨 ¡CONCURSOS MUNICIPALES 2026! 🩵 Participa en los Concursos Municipales 2026 y demuestra todo tu talento en las diferentes expresiones artísticas y... ¡CONCURSOS MUNICIPALES 2026! Participa en los Concursos Municipales 2026 y demuestra todo tu talento en las diferentes expresiones artísticas y culturales. https://bit.ly/4xFyeMC ¡CONCURSOS MUNICIPALES 2026! Participa en los Concursos Municipales "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -1084,13 +1110,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qXlmQ102N5MQ7kNvwHZdTyR&_nc_oc=Adp7IEfbkOiyypGdeCuJ4UPcP5Dd8XjscPo80MJ_bc7EiictTOBOQJYM94GyhpPY72Q&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zEFfvPkcpox9gsEhLoyy7A&_nc_ss=7f289&oh=00_AQE4YAMxqhg0tl0KokL5Bo1qt9gjc5poyKP2EvRAJdGyAQ&oe=6A892F37",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/museocasadelalibertad/posts/pfbid02mKRaNoidF27iQEqVdJfbDgbfXguA4GihM8aySsB51P1PeftNHnTRmhJs5mzZKsx7l?__cft__[0]=AZbrjTtgqtyMp1X7f-uJBKNc-MYjmQqp945blBmu3FBUpNtOWsR7mPsBlodS5A-Z16puOvAgBViieO0SoCiBylw53zMwUl3CKqnOVsho0fcjaRwS8-lLvFyUM9XuEW0zX60s75QvPNlCCrZkhLz2lxf1BeMWmQO-Lqv4YIpyYOhKLZjyLpL97PEXEIYhSSQ7OJk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CDL | A través de la “Ruta Histórica del Bicentenario”, la Casa de la Libertad llegó al municipio de Villa de la Independencia, en la provincia de Ayopaya del departam… Ver más Museo histórico Enviar mensaje"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1118,22 +1153,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=R-eRkGWhxAMQ7kNvwFlA3NB&_nc_oc=Adquk4eLcKLkMd6TT3JpUYtO86UClaRtvv9vOnW1myC9dENBYsEWX000VkKGx1uAUUI&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=JHTkFc86VqUuNue0G4XlUw&_nc_ss=7f289&oh=00_AQEr9FF8nAq-Ei5ap_6NwVhYDsjXEHbtwtAiaE8MnyO3bA&oe=6A88F260",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 40,
-          "category": "otro",
-          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid0371DVbhUMM5uitUr9rkCsGE1PqrqZFwSaPCgRm2DRh29XT9NREuRa7t8LKY2ahkd4l?__cft__[0]=AZZ0TIIYJJlAelpvR1MU3cxHzWayBBYM02sVbOomaHd9-Rkk-3dqdhed82oUlFWcZFswGKGYfNvJkmt3wa9LELxEGyVtbob8a5dG9aqb7TplTuXYwX963g1j9R74YS03mHeYy5btbv7IVyeZ0BEWcoVmZzRZA9lkVvynzurS-YFn7Cq_b-Odq5n1bpDgJJi3UAM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "17 de agosto | Día de la Bandera Boliviana D… Ver más 17 de agosto | Día de la Bandera Boliviana D… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umsa",
@@ -1178,22 +1204,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778957993_1564063425360317_2501883143545776062_n.png?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=hRgXnmzk-OIQ7kNvwEHkTQL&_nc_oc=AdoXuHl2Zr2ye5AdfIINNwX3bARoasJ0TgtcXXamuA9IWBEcNuozYLhIM0oNI1iaSfw&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=060GHsbHDl0eQZUIoG55-A&_nc_ss=7f289&oh=00_AQHd9YifHJAQww_rGAhPKn4xsHgfrI7nUKYqgftptcKQKQ&oe=6A88F56D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid02zohMQWtH9uWaJdobebSDiPrU3NF2e6YD2LCbtRePbshoU662TMjHtyJAur1bmqLol?__cft__[0]=AZb3cbQ5SFPel0Uu3NkxZsg_GK_hMchAI_xQ39NGsXiSMr1jqfQaWCu6o7zdWG5YFcDWdSdVMy_lQmNaKboXRNBd8OxyGkqhCI1_zbi3miYIbYubnxqO61VaF3-6W5w3AA3cJIKn4JjPJD2qukGe0QC4n6-PsKYGzko5bnDjikJxWUaiOJOWXNykxyxmqeiz67k&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "17 de agosto | Día de la Bandera Boliviana L… Ver más 17 de agosto | Día de la Bandera Boliviana L… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1221,22 +1238,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tgJkZaYLj8QQ7kNvwEjadnW&_nc_oc=AdqQYyqAg6-fpci-doTGPCdw5vUM6ZKsIO_5GCUPG5anPamIC5P4qOyF-SdVGHZaLbU&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=wknySPlF6Ir3_YKOrP8C-Q&_nc_ss=7f289&oh=00_AQEpYawo1mQ1gF28C8_3UtIOB0zFRTu9oWJzqxVp0CbfUQ&oe=6A890F78",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid037WGQrqsW8cmFj8bWRyYLyLzrE6hViM3GCsZ7uzC5Zywy3xZ4ci9vVBc92zHfKWsFl?__cft__[0]=AZZmVhz5YW_8amXJ7uEKEpEGNmzkj1DzOjPaUPlgYk44FzsKdHT-iTD5Xu1XNQDoGZsKspUZBXWfbeXBJPcqvz7EZwk59Uh3QGJYHqEnyAE8s4b8Cl73Yx8yWCsElQJNN9Rqfj3VT6OypOeVhkA3bw_BBcL1noTXhrMm9iBq_x8DMrd0vu9isWYEzeI9waU4ysI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La UPSA se incorpora al ‘Babson Collaborative for Entrepreneurship Education’, una red global liderada por Babson College, reconocida como la universidad número uno del… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "web_superticket",
@@ -1413,32 +1421,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 10,
+      "rejected": 3,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
-          "category": "deporte",
+          "score": 41,
+          "category": "feria",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "16/08/2026 Interesante Miroslava Fernández analiza el rumbo de Bolivia en Pódcast Los Tiempos Bolivia conmemoró sus 201 años de independencia en medio de un escenario político y social profundamente complejo. vista 13/08/2026 Interesante Eclipse solar regala a millones de europeos una fugaz noche En medio del atardecer se hizo la noche. Un eclipse solar sumió ayer en la oscuridad desde los confine"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 16,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "score": 41,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "16/08/2026 Cultura La resistencia cultural de Ucrania frente al “bibliocidio” ruso Una densa columna de humo negro se elevaba hace unos días sobre la periferia industrial de Járkov, en el noreste de Ucrania. Lo que ardía no era un objetivo... vista 12/08/2026 Cultura Quiénes fueron los 5 científicos que más vidas salvaron con sus descubrimientos Durante siglos, enfermedades infecciosas, hemorragia"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Riesgos domésticos 8 objetos del hogar que es mejor no limpiar con papel de cocina 2 El diésel para grandes consumidores pasa a valer Bs 18 por lit"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
+          "score": 41,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "url": "https://www.lostiempos.com/agenda-cultural/ciclo-cine-troje_638605",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 En la misa de Quillacollo destacan don de unidad y sencillez de la Virgen Ver más 2 La fe de miles de feligreses se hace danza en Urkupiña Ver más 3 Pa"
+          "text_preview": "Agenda Cultural Dentro del ciclo de cine dedicado a Álex de la Iglesia, se proyectará La Comunidad (2000). Esta película mezcla comedia negra y terror, revelando los oscuros secretos de una comunidad vecinal, en una trama tan intrigante como provocadora. Tipo de Evento: Cultural Fecha del Evento: Martes, 20 Agosto, 2024 (Todo el día) Dirección: La Troje (av. Capitán Victor Ustáriz km 3,5) Lo más l"
         }
       ],
       "error": null
