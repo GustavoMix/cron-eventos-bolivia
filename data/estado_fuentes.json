@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:00:53-04:00",
+  "generated_at": "2026-08-17T17:52:30-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 37.0,
-    "horas_maximo_sin_datos": 71.7
+    "horas_promedio_sin_datos": 38.0,
+    "horas_maximo_sin_datos": 74.6
   },
   "sources": [
     {
@@ -201,12 +201,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_cbba",
@@ -574,13 +574,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Zq_Ck7fNtcUQ7kNvwElE4lg&_nc_oc=AdouM93cz0OOyN7_Di-_1n2B2CmKHTTzvEp3zPktPr2hAWHVlK8vKUmjCmeN7mF8Q8U&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=KLefhY0Iux30-jQ-y6jrJg&_nc_ss=7f289&oh=00_AQGWGc2jn919z6S3-XktxAu2CcK-9N6qtx6ufsFwMKbt4g&oe=6A896296",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02Er5TtGUwH3bWsTjoGzXS8r64FwTTLnVM9ftE92Qzy48hkrTqN1KXGBmF9fDagqsgl?__cft__[0]=AZbTdG2wQe_k4lLKDGqQqPdYNL8PmgGc198S31U5gtLS8ueTFWJPZBBtkOAVSt1NaJthUjiqaSch66yz6dunHV-RDUj3FAjTMP-joW5ErYRB6XR5z1x-9bUyUpjAH2911LLuw1gizNa4IMKLF9dw7DBwYLPGzxeibygGNiOdYMrwBJeQAkT0P3GvezcCgsyOl6w&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La Escuelita Popular de Skate está de vuelta en el CCELP E… Ver más La Escuelita Popular de Skate está de vuelta en el CCELP E… Ver más mas informacion por favor Tenemos problemas para reproducir este video. Más información Ver más comentarios Milito Gal"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02Er5TtGUwH3bWsTjoGzXS8r64FwTTLnVM9ftE92Qzy48hkrTqN1KXGBmF9fDagqsgl?comment_id=1449229820446066&__cft__[0]=AZbTdG2wQe_k4lLKDGqQqPdYNL8PmgGc198S31U5gtLS8ueTFWJPZBBtkOAVSt1NaJthUjiqaSch66yz6dunHV-RDUj3FAjTMP-joW5ErYRB6XR5z1x-9bUyUpjAH2911LLuw1gizNa4IMKLF9dw7DBwYLPGzxeibygGNiOdYMrwBJeQAkT0P3GvezcCgsyOl6w&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Milito Gal mas informacion por favor 1 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -625,13 +642,38 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tKecLp5GRXUQ7kNvwFeY5lw&_nc_oc=AdqKu7hwBt8Z6Lg29gVnCLF2rJPfta8oELGWPSYFbmZLiZwiVAi_nZuTkn-rhu5fsjU&_nc_zt=24&_nc_ht=scontent-qro1-1.xx&_nc_gid=qMwk2_xkvasY7aag7Idd-w&_nc_ss=7f289&oh=00_AQF0WF_M1fL8a7DiM81ROQhu-REh5eK5COvVFyM5B38cWg&oe=6A894B8F",
+      "status": "ok",
+      "raw_items": 3,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0KRZvxB9DaLWF1BEVszCzUHbun3ZKcDmdpZScWcZyFnEFD1kgVmA7W3yFjHJxkqBYl?__cft__[0]=AZYmWqFOn718Qq7faXiLtDbFyCwohVSorEd9znhRJ8y3M_U3Y-VACzhEtan8eH-CXSuA7BRotYjmKu-JQtOvGBLoycdPW6eYd_vA__TFKoPVvsGH_HtiqdtsSugMB45-6iH3b6I5Dnqkrpj15imgx2q2QxPGGf5uLGvYPbL-fxNn5N7xnGVpJYYnzlh1uy0Ck90&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "DÍA DE LA BANDERA BOLIVIANA… Ver más Felicidades hermanos bolivianos en su día de la bandera desde tocopilla Chile Sergio saludos desde Potosí, esperemos pronta sea tu visita. Tenemos problemas para reproducir este video. Más información Ver más comentarios Sergio Alejandro García Salazar Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0KRZvxB9DaLWF1BEVszCzUHbun3ZKcDmdpZScWcZyFnEFD1kgVmA7W3yFjHJxkqBYl?comment_id=1399224082116206&__cft__[0]=AZYmWqFOn718Qq7faXiLtDbFyCwohVSorEd9znhRJ8y3M_U3Y-VACzhEtan8eH-CXSuA7BRotYjmKu-JQtOvGBLoycdPW6eYd_vA__TFKoPVvsGH_HtiqdtsSugMB45-6iH3b6I5Dnqkrpj15imgx2q2QxPGGf5uLGvYPbL-fxNn5N7xnGVpJYYnzlh1uy0Ck90&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Felicidades hermanos bolivianos en su día de la bandera desde tocopilla Chile Sergio Alejandro García Salazar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0KRZvxB9DaLWF1BEVszCzUHbun3ZKcDmdpZScWcZyFnEFD1kgVmA7W3yFjHJxkqBYl?comment_id=1399224082116206&reply_comment_id=1361809549402450&__cft__[0]=AZYmWqFOn718Qq7faXiLtDbFyCwohVSorEd9znhRJ8y3M_U3Y-VACzhEtan8eH-CXSuA7BRotYjmKu-JQtOvGBLoycdPW6eYd_vA__TFKoPVvsGH_HtiqdtsSugMB45-6iH3b6I5Dnqkrpj15imgx2q2QxPGGf5uLGvYPbL-fxNn5N7xnGVpJYYnzlh1uy0Ck90&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Sergio saludos desde Potosí, esperemos pronta sea tu visita. Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -897,22 +939,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mJLiAUnUKusQ7kNvwFO5bf1&_nc_oc=Adp8E-4oOffG1_Zi_gcS4B7RydOeoMnhTiKm317GDUGnGPNgIWo5o8nqpQEznCZ32zQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=pD2nv57TYPnkZA9KMyruzQ&_nc_ss=7f289&oh=00_AQH5W_FSw_3Paxmbt1B4iCJHy9hMrMxCV3w_PMr5CZhJlA&oe=6A894207",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid02yJz2tqGKsHeQmypkjf222QiXCXyZyHUTvwFFarzPikygiZpdeA53GRjtFrbav5Tel?__cft__[0]=AZaIslBgUUw3kATcly-we_XeymKLto42DCehdzqAgaP7iv6pBtUOmjQiXTvPkrrYNQWfRKyBDq7sObOb1aW3GKLnvBShSqbeVCa1raE-8S0rs9XoCLDQ9FtUm-7IIcSB2jJVQ0QQpmYWHn2y_fvvTHrvY2fXFxBQT7XQq_HzrWtuA-olNcVpMqeZ3Ik8EYNBOKc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "17 de agosto | Día de la Bandera de Bolivia H… Ver más 17 de agosto | Día de la Bandera de Bolivia H… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -940,30 +973,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zwwcvM6He4YQ7kNvwFEdPzs&_nc_oc=AdqePC_R5FzLw6oxOkIsiFp0fFL3Vzw2fAvzKEpreuVkXiypQjxV909w-SdvCzEMfmU&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=_vPrXxr1ZUSIxcPgZfgFug&_nc_ss=7f289&oh=00_AQHuebf2Mmna_0saE6em4Hdh0yiXzM60q0G1V7U43n9CWA&oe=6A893487",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "teatro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/-concursos-municipales-2026-participa-en-los-concursos-municipales-2026-y-demues/1083085124379478/",
-          "has_image": true,
-          "text_preview": "🎭🎶🎨 ¡CONCURSOS MUNICIPALES 2026! 🩵 Participa en los Concursos Municipales 2026 y demuestra todo tu talento en las diferentes expresiones artísticas y culturales. 👉🏻 https://bit.ly/4xFyeMC 🎭🎶🎨 ¡CONCURSOS MUNICIPALES 2026! 🩵 Participa en los Concursos Municipales 2026 y demuestra todo tu talento en las diferentes expresiones artísticas y... ¡CONCURSOS MUNICIPALES 2026! Participa en los Concursos Mun"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "teatro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/-concursos-municipales-2026-participa-en-los-concursos-municipales-2026-y-demues/1083085124379478/",
-          "has_image": true,
-          "text_preview": "🎭🎶🎨 ¡CONCURSOS MUNICIPALES 2026! 🩵 Participa en los Concursos Municipales 2026 y demuestra todo tu talento en las diferentes expresiones artísticas y... ¡CONCURSOS MUNICIPALES 2026! Participa en los Concursos Municipales 2026 y demuestra todo tu talento en las diferentes expresiones artísticas y culturales. https://bit.ly/4xFyeMC ¡CONCURSOS MUNICIPALES 2026! Participa en los Concursos Municipales "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -991,13 +1007,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=esg0DBpn7SwQ7kNvwHM5iDn&_nc_oc=Adpn8RfE8dMVpItQ1xgUSdmxEF_N0hzqiHLm3pWC-ix5gFGESdVfozti8ngmVJwiwtg&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=B8_WXohuZvbByFsAfkEFdQ&_nc_ss=7f289&oh=00_AQGdSmPyJHM867MQ7u_Nu5QVb3rbQ137Dvu_2H-aYaJfAw&oe=6A895E3D",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid027nsF5drJqUohVAgri9qmiSohQeHJcGBwnboo1qtJNXNv1Nd4h8NHf6zqMB2FvFebl?__cft__[0]=AZZUJF92yAChBfuWzOtVwy0gu54mr29j-IRAJRs0GuWFBb51QRq54JC9yd1sSZmLs_k14oMuBRufqDk6v86PTOCtQZCA9cuwFF54z9w1irXDk6RTZSnuLbROO4OQT9Q9vouet6C2zoKNR_IhmSungkh_jGEETmsZdTohKUVTu6DZBGsd_ARVG-Id3R_AbPGlrZjEEbjlDV3mz2ej8a8QKhj0Zy_j-jF7NorDjjGP5mqbjA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Esta obra titula: \"La morocuda\" … Ver más Esta obra titula: \"La morocuda\" … Ver más Tenemos problemas para reproducir este video. Más información Terceros Daniela está en Casa Melchor Pinto. 3 días · Santa Cruz de la Sierra, Departamento de Santa Cruz, Bolivia · ﻿Linda Mi Cholita · William Luna ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1110,22 +1135,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qXlmQ102N5MQ7kNvwHZdTyR&_nc_oc=Adp7IEfbkOiyypGdeCuJ4UPcP5Dd8XjscPo80MJ_bc7EiictTOBOQJYM94GyhpPY72Q&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zEFfvPkcpox9gsEhLoyy7A&_nc_ss=7f289&oh=00_AQE4YAMxqhg0tl0KokL5Bo1qt9gjc5poyKP2EvRAJdGyAQ&oe=6A892F37",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.facebook.com/museocasadelalibertad/posts/pfbid02mKRaNoidF27iQEqVdJfbDgbfXguA4GihM8aySsB51P1PeftNHnTRmhJs5mzZKsx7l?__cft__[0]=AZbrjTtgqtyMp1X7f-uJBKNc-MYjmQqp945blBmu3FBUpNtOWsR7mPsBlodS5A-Z16puOvAgBViieO0SoCiBylw53zMwUl3CKqnOVsho0fcjaRwS8-lLvFyUM9XuEW0zX60s75QvPNlCCrZkhLz2lxf1BeMWmQO-Lqv4YIpyYOhKLZjyLpL97PEXEIYhSSQ7OJk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CDL | A través de la “Ruta Histórica del Bicentenario”, la Casa de la Libertad llegó al municipio de Villa de la Independencia, en la provincia de Ayopaya del departam… Ver más Museo histórico Enviar mensaje"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
@@ -1257,23 +1273,15 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 6,
+      "raw_items": 5,
       "events": 4,
-      "rejected": 2,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 0,
           "category": "otro",
           "url": "https://superticket.bo/",
-          "has_image": true,
-          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "feria",
-          "url": "https://superticket.bo/Curso--Inteligencia-Artificial-para-Emprendedores-Bolivianos/",
           "has_image": true,
           "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
         }
@@ -1347,7 +1355,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
