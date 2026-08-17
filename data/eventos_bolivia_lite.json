@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-17T03:21:09-04:00",
+  "generated_at": "2026-08-17T06:00:37-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 19,
+    "events_total": 21,
     "events_today": 1
   },
   "filters": {
@@ -55,7 +55,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 6
+        "count": 7
       },
       {
         "key": "teatro",
@@ -63,13 +63,13 @@
         "count": 4
       },
       {
-        "key": "nightlife",
-        "label": "Vida nocturna",
-        "count": 2
+        "key": "deporte",
+        "label": "Deportes",
+        "count": 3
       },
       {
-        "key": "otro",
-        "label": "Otros",
+        "key": "nightlife",
+        "label": "Vida nocturna",
         "count": 2
       },
       {
@@ -78,13 +78,13 @@
         "count": 2
       },
       {
-        "key": "festival",
-        "label": "Festivales",
+        "key": "otro",
+        "label": "Otros",
         "count": 1
       },
       {
-        "key": "deporte",
-        "label": "Deportes",
+        "key": "festival",
+        "label": "Festivales",
         "count": 1
       },
       {
@@ -107,6 +107,11 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
+        "count": 3
+      },
+      {
+        "key": "Quillacollo",
+        "label": "Quillacollo",
         "count": 2
       },
       {
@@ -117,11 +122,6 @@
       {
         "key": "Montero",
         "label": "Montero",
-        "count": 1
-      },
-      {
-        "key": "Quillacollo",
-        "label": "Quillacollo",
         "count": 1
       },
       {
@@ -137,14 +137,14 @@
         "count": 9
       },
       {
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 5
+      },
+      {
         "key": "La Paz",
         "label": "La Paz",
         "count": 4
-      },
-      {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 3
       },
       {
         "key": "Oruro",
@@ -176,7 +176,7 @@
       {
         "key": "todos",
         "label": "Todos",
-        "count": 19
+        "count": 21
       }
     ],
     "price": [
@@ -193,14 +193,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 13
+        "count": 15
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 14
+        "count": 15
       },
       {
         "key": "con_video",
@@ -212,26 +212,6 @@
       {
         "key": "RAE2026",
         "label": "RAE2026",
-        "count": 2
-      },
-      {
-        "key": "FEXPOCRUZ",
-        "label": "FEXPOCRUZ",
-        "count": 2
-      },
-      {
-        "key": "Expocruz2026",
-        "label": "Expocruz2026",
-        "count": 2
-      },
-      {
-        "key": "RumboAExpocruz2026",
-        "label": "RumboAExpocruz2026",
-        "count": 2
-      },
-      {
-        "key": "OportunidadesParaTodos",
-        "label": "OportunidadesParaTodos",
         "count": 2
       },
       {
@@ -285,6 +265,26 @@
         "count": 1
       },
       {
+        "key": "FEXPOCRUZ",
+        "label": "FEXPOCRUZ",
+        "count": 1
+      },
+      {
+        "key": "Expocruz2026",
+        "label": "Expocruz2026",
+        "count": 1
+      },
+      {
+        "key": "RumboAExpocruz2026",
+        "label": "RumboAExpocruz2026",
+        "count": 1
+      },
+      {
+        "key": "OportunidadesParaTodos",
+        "label": "OportunidadesParaTodos",
+        "count": 1
+      },
+      {
         "key": "Ml18Xb",
         "label": "Ml18Xb",
         "count": 1
@@ -329,7 +329,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 3
+        "count": 5
       },
       {
         "key": "eventos",
@@ -528,9 +528,9 @@
     },
     {
       "event_id": "evt_b241df7de02d67",
-      "title": "Comprá tus entradas para Expocruz 2026 de manera rápida y fácil desde nuestra página web",
-      "category": "otro",
-      "category_label": "Otros",
+      "title": "Expocruz 2026",
+      "category": "feria",
+      "category_label": "Ferias y expos",
       "starts_at": "2026-09-18T17:00:00-04:00",
       "starts_at_ms": 1789765200000,
       "ends_at_ms": 1790567940000,
@@ -543,12 +543,12 @@
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
       "venue": "Fexpocruz",
-      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/774595866_1614571443400376_7559251380062004159_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=108&ccb=1-7&_nc_sid=cae128&_nc_ohc=JnG0F6ea_EkQ7kNvwHFt8Es&_nc_oc=Adrx-vHQSVBJ7ihf_FOs2_kDfip4JC8Kp1LGo6tc_Mx0wElZ_m-K9yfXujw_Ze3FD38&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=dZqSKl0K31Qau7fsX-DIrQ&_nc_ss=7f289&oh=00_AQEOBQxaw14N66HDq01tvILwBbu42u991Ew_VT3kj_2tBQ&oe=6A88814E",
+      "image_url": null,
       "has_video": true,
       "is_free": false,
-      "price_from": 24.0,
-      "currency": "BOB",
-      "price_label": "Bs 24",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "status": "programado",
       "source_count": 2
     },
@@ -605,6 +605,32 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_dc8d89f2211b77",
+      "title": "Taller de Teatro",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-11-06T19:00:00-04:00",
+      "starts_at_ms": 1794006000000,
+      "ends_at_ms": 1794974340000,
+      "multi_day": true,
+      "display_date": "Del 6 al 17 de noviembre · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 81,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "mARTadero",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/457100609_923896099778585_2550610969352001561_n.jpg?itok=3ae-fcoy",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_85458322a09300",
       "title": "Inauguración de exposición artística",
       "category": "deporte",
@@ -627,6 +653,32 @@
       "price_from": null,
       "currency": null,
       "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_ef77fadc45ccb1",
+      "title": "Concierto para piano",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-11-06T19:00:00-04:00",
+      "starts_at_ms": 1794006000000,
+      "ends_at_ms": 1794974340000,
+      "multi_day": true,
+      "display_date": "Del 6 al 17 de noviembre · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 81,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/16/img-20260816-wa0082.jpg?itok=7GqCuHh9",
+      "has_video": false,
+      "is_free": false,
+      "price_from": 50.0,
+      "currency": "BOB",
+      "price_label": "Bs 50 - 70",
       "status": "programado",
       "source_count": 1
     },

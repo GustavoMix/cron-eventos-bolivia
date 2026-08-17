@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T03:21:09-04:00",
+  "generated_at": "2026-08-17T06:00:37-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 34.3,
-    "horas_maximo_sin_datos": 60.1
+    "horas_promedio_sin_datos": 34.9,
+    "horas_maximo_sin_datos": 62.7
   },
   "sources": [
     {
@@ -98,13 +98,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/774595866_1614571443400376_7559251380062004159_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=JnG0F6ea_EkQ7kNvwHFt8Es&_nc_oc=Adrx-vHQSVBJ7ihf_FOs2_kDfip4JC8Kp1LGo6tc_Mx0wElZ_m-K9yfXujw_Ze3FD38&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=K9OmRJUhgFqB_B5XBIv6zg&_nc_ss=7f289&oh=00_AQHPxCqDUtG97R3mC19E2FBEBPCsZ55A4_wfpKWj9RYOmQ&oe=6A88814E",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -132,13 +132,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vLBPmEl14CwQ7kNvwG1i6Jv&_nc_oc=Adq8ssfQ-Qwj34--af4wi6BnEY6ybpvQpQJV5RMxOgJVMhAAr4UmuE5CHRLRD8Rg6PA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=AZMbDokKcqQx-Qv2SYaykg&_nc_ss=7f289&oh=00_AQEUQD64dnO9UF9geLbHCgeQIer0BvsQl-3kClkbdmmBCQ&oe=6A88BF85",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/MunicipioLaPaz/videos/1035716325863877/?__cft__[0]=AZYzgIe4fvOw-lTmwYLnCX3PlVTX0hGHgAp8DzX0W8WHs6xz2-oXr4lBaLuQXun29vXdYrAGwqqu4h-zRK0UtcnUE3Qt05rUJwWYlPj-nyntx13PG6nOBb9yVDGrhwjjvHmSlmUPm8IGfqlCwWvILjxCrEL-kHw_7iCAj6eCFmhFPlnR3YEaN4bCC8Cc1-8s0EnTXP5JXqIL3uGcxh8GfEEL&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "ENVIVO || JORNADA DE RIEGO Y BPROTECCION DE ÁREAS VERDES Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_amun_lapaz",
@@ -183,22 +192,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=N_EqB8NT32MQ7kNvwFG7BTh&_nc_oc=AdruIxtETLeRllV_d9xIXIbkbcUwOGQLQHLS5uDcz1e8rT0G9a_CQI_HcL6iy1m_3Y0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NRNl6U3DzD3-6d3Evti0zA&_nc_ss=7f289&oh=00_AQHb1-NZ1OBLbnjoJxZKCy-MMhvIk3mbhtGcemXjVZH_pw&oe=6A88A478",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2034044130551523/?__cft__[0]=AZaxS_kEBthzhmmTF0xA8J1-fqk11xVrYnpEthkv0dOwTLdKCO2KCq5GMwVZW7yo4jSItWsRyDY6pI0XOZZzFvA240yg9TjclOb7OsthJPANpzpFypYuZNQP3iRlpE5OhgIwDFIl2AzZGx8phlzDYXoonCn7YNkTFPwRXSRha61SFpr6icCLnHPms0BzyPcnOZO0Kt9d_FL4zbNQHuC3Oln3&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "San Roque: que alguien se quede también es amor… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gam_cbba",
@@ -260,38 +260,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WjhmO-mbWJ0Q7kNvwG49XIc&_nc_oc=Adr4dcwNFrScwNF14EtlWTcSC7ZJGKWWWah4Lk-UEwaY4bCoUTWWMVkAfodAlX-N5u0&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=pCY3qEvHR-MAS70-aw1MlA&_nc_ss=7f289&oh=00_AQGEgoWphpISVBlyWcqoNBLPwt8SO7PcDreFxQCbPhQfjw&oe=6A88737E",
-      "status": "ok",
-      "raw_items": 3,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 3,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/GobSantaCruz/posts/la-vicegobernadora-paola-aguirre-culmin%C3%B3-una-agenda-de-trabajo-en-la-rep%C3%BAblica-p/1820257296808684/",
-          "has_image": true,
-          "text_preview": "La vicegobernadora, Paola Aguirre, culminó una agenda de trabajo en la República Popular de China, donde sostuvo reuniones y visitas técnicas orientadas a generar nuevas oportunidades de formación,... La vicegobernadora, Paola Aguirre, culminó una agenda de trabajo en la República Popular de China, donde sostuvo reuniones y visitas técnicas orientadas... La vicegobernadora, Paola Aguirre, culminó "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "tecnologia",
-          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid02fiXM6dk1WEGqQDp4M5kGkUL5FZ3i4as9MJ4gBWmhvbaTP6Bw6i6h5D3rDWz5mkbDl?comment_id=1955971471755393&__cft__[0]=AZbt8w-5809LIN6zjqD70xIvi_hUXCpDBXIilH3p3xSdOaQPWj-Jh2I-J_-DTuUtiDiQicAG8EvwAqkz8kmdj1buaFRy4PAhLBnxuSW9BoF9diaqs9jgqZmnj7flvHmEqL1k9u1j37576cNDnrep7aEGKNiorxw6-n9sL7sgZuPCHSk-gTzKiLguAKRMdvZWvPc&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Esto es gestionar con visión y trabajar por el futuro de Santa Cruz, fue trabajo serio que trae becas, tecnología, inversión, acuerdos concretos y proyectos que transformarán nuestra producción y nuestra gente…resultados reales que nos abren puertas al… Ver más Alejandro Zurita Frias"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid02fiXM6dk1WEGqQDp4M5kGkUL5FZ3i4as9MJ4gBWmhvbaTP6Bw6i6h5D3rDWz5mkbDl?comment_id=1955971471755393&reply_comment_id=1981642575878702&__cft__[0]=AZbt8w-5809LIN6zjqD70xIvi_hUXCpDBXIilH3p3xSdOaQPWj-Jh2I-J_-DTuUtiDiQicAG8EvwAqkz8kmdj1buaFRy4PAhLBnxuSW9BoF9diaqs9jgqZmnj7flvHmEqL1k9u1j37576cNDnrep7aEGKNiorxw6-n9sL7sgZuPCHSk-gTzKiLguAKRMdvZWvPc&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Alejandro Zurita Frias , es una buena noticia del otro lado es que tu sabes cual es la contrapartida?.... Mary Brusartorio"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_lostiempos",
@@ -1067,13 +1042,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AnjJLzQrH5AQ7kNvwH7BDlf&_nc_oc=AdoCpQQUzVpnW0QW9cXLEug1QiBniordg-qQJ47BDRYp_YIAFRe0XWzIL2qlmJFIYa8&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=WIHBktmnIvfHCDdZ3_xYKA&_nc_ss=7f289&oh=00_AQFPvgXVhqHZ402It4IIlNaI0M5xZQHQ9uleoqm-T7aX2A&oe=6A88B695",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02472t7aSVFateCDF5RfdNFXdQmjZFMkKpDzrXjZ8aDdfZp8EoJLM2MbrUVaiWXdGul?__cft__[0]=AZY9DdXAFiwHfvgNeBlxFrVqIchgprchpbpbmiQa5Ixh0WoCQglFGLN05PiKw3-rWCsC7zV81oeJreDW-9OVvP61KwagLlkRmTTzQRSKXjzE2r6PZqDf9l9cakTMkHDG0h7gMGbmKmTNSRlIpVKRRxYbzAtnHx49l-CvhNXyT5iUCu5C7aCWUFxmU2hdeLapLjc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¿Y si te decimos que puedes conocer el mundo sin pasaporte ni maletas? … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1084,13 +1068,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WCI1A79woG8Q7kNvwHNXpXG&_nc_oc=AdoKuByB0MAYXIjo8HjkSfJdxrjbvVnJI7kEtvHTsVvPDNqb7iFIcQQZGjCc6XP7fto&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=JWCkdbS9nluUlzPR-SA9CA&_nc_ss=7f289&oh=00_AQFKZ0WVm07Ov4XpfSR74JJYt9HtPYcoSO7g8K3HIBXxYQ&oe=6A88B912",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid021U93d5T7NX8JGRn8g5J6BhGN5B8UHCPCH4NU9Wc7PVM3XVftZaYaJuZuzYZKM6gPl?__cft__[0]=AZbo4WWwL-I8ls5owqS12oJ4X3o_4UzHde5NLdwlTj03YYldifUJa4WLWhPb-to0zb25887SEuVPsl_Sm8M4qzFtWaHZ5TOmdwBx6-rijtPzIZVJ7AotURB37Cdx7swWo7cDKc8vlBrcmA9itma0bTtUJJNecTYt4_5BO96ABtMvW93oQvJrh21cXusRO0PKZkY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "ENTRE PLIEGUES… Ver más Muy bien!!!! La Alianza Francesa es una asociación de derecho local con un comité compuesto por ciudadanos bolivianos y franceses residentes en el país, sin afanes lucrativos, dedicada principalmente a la difusión del idioma y de la cultura franceses con el fin de permitir el acceso al más grande número de personas a una visión y una expresión diferentes del mundo, a tiempo"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid021U93d5T7NX8JGRn8g5J6BhGN5B8UHCPCH4NU9Wc7PVM3XVftZaYaJuZuzYZKM6gPl?comment_id=1784914919180024&__cft__[0]=AZbo4WWwL-I8ls5owqS12oJ4X3o_4UzHde5NLdwlTj03YYldifUJa4WLWhPb-to0zb25887SEuVPsl_Sm8M4qzFtWaHZ5TOmdwBx6-rijtPzIZVJ7AotURB37Cdx7swWo7cDKc8vlBrcmA9itma0bTtUJJNecTYt4_5BO96ABtMvW93oQvJrh21cXusRO0PKZkY&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Gilka Gutierrez Muy bien!!!! 1 día"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1420,8 +1421,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
