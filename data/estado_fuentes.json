@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T05:54:00-04:00",
+  "generated_at": "2026-08-18T09:13:00-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -14,11 +14,12 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_museo_nacional_arte",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 43.6,
-    "horas_maximo_sin_datos": 86.6
+    "horas_promedio_sin_datos": 45.6,
+    "horas_maximo_sin_datos": 89.9
   },
   "sources": [
     {
@@ -47,22 +48,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wq4tNwDtC_sQ7kNvwFAZUKP&_nc_oc=AdpOAecCARY2KFx43Kqny1MAqm99yQsE8e7WIEaynwZ52yR_82VvN8lSxgc1NaeK3IQ&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=tFLA1oM8ktjZCFrlSzkJ7Q&_nc_ss=7f289&oh=00_AQGeJa0AscjIvbEEka-a5nSeNpR0pZvDuHuTz-IULjbj0A&oe=6A89F4B5",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1753806735904140/?comment_id=2094982247831517&reply_comment_id=1075542571624007&__cft__[0]=AZY_17QZegGcMCOmBhugOSPbFM6siYI9Hgk39excplmcJmEzdsg66TlXNNMmnmJVi3RhxAttVupfRCfmiItO4_DDTIOCJj5VkhjKavpCLG73TerUrYxXflMpmBuv1uEce8Bx1eJhDlbcWMzdla39tKKsX6ZVlcUWXS5jeLW6TyzHicrqq3JjIxWAW_xXhIgv4ZVD5ndhtx7xZ7DofQ5PG9XD&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Juan Pablo no te gusta la música de Ricardo Montaner?"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -73,13 +65,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YCEzEx7ZGOoQ7kNvwFt7BxW&_nc_oc=Adp9-4XejjHnNSFxOBrDWoh2_1pb4Lu6jmJ8PWE0IajCCql8BMU27PsbiRPBQEr5Ndw&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=ciBX8iO-sGt4rmB5NiO4DQ&_nc_ss=7f289&oh=00_AQHlGJHHb6_5LKC8MvGuSCb-2Ee3vU_U0DYber2MA0lY_Q&oe=6A8A1CB6",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid023ywD6sfLb173ZYCtyEFfNStbc6tWKm8uGEjKN9vLkodPLMEiWKDu2XWBXkkEM7w5l?__cft__[0]=AZb97yKsGjLG2UUZOWmXredWx40zi0p8GK5djVUXbjy407GZWC-4ufgtLM2TtylhUPOwpEw2cwNnU1u6sVn5BZhoXDZ7q_mHrzqSXJAzMrjm4dN2f9HOucunrIHcEt97qQaEML9pRk8Tr__FcPYsU4Pu0y3fWySO_rU1ouzQr5Q4eEyGfiiJ3NfwKQ1GFdtALso&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -601,12 +602,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_musef_lapaz",
@@ -617,22 +618,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KuCGw3H5ZRkQ7kNvwGFt5TQ&_nc_oc=AdpZE2e0azpQBpTiprJJ05WxMVqXPpzadAHpZItiKqV8SyX5ZNad45bTfSCFCpngYQk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=b9PSAFo7ReeTlxlteXSPwA&_nc_ss=7f289&oh=00_AQGfMISPB7faU9gou250jJCETA1NqcbHEqgZfBDozxobrQ&oe=6A8A14F3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 54,
-          "category": "otro",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid02gnzXVo6CNcbyu5da1PK7e346BuazNhgSP8PwnDgTptfRA8K93pXmoUYZiNAvfkjYl?__cft__[0]=AZZMNVWCnmJNeSUmb584DUBiWhlsplS25sEfeB5vEhPm4bTqY2qR2WD4KhcHB9GS0FLFZ6cXvrHPUlGDqMUc6d0EcN0CZSL-5hJMZWiNEJRKft6ZB0LT39HnJc3bL4tQ-_uo3tmZeGaZL2PkdI9HJae6zeZV6moloit3UQUGTouosE2h8_1FtbCwh_JLsOFLLDM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#RAE2026 l 𝗔𝗴𝗲𝗻𝗱𝗮 𝗲𝘀𝘁𝗮 𝗳𝗲𝗰𝗵𝗮: 𝗺𝗶𝗲́𝗿𝗰𝗼𝗹𝗲𝘀 𝟭𝟵 𝗱𝗲 𝗮𝗴𝗼𝘀𝘁𝗼, 𝗽𝗼𝗻𝗲𝗻𝗰𝗶𝗮 𝗺𝗮𝗴𝗶𝘀𝘁𝗿𝗮𝗹 Laurent Pierre Poulet presenta \"Biodiversidad en el corazón del continente: las plantas med… Ver más #RAE2026 l 𝗔𝗴𝗲𝗻𝗱𝗮 𝗲𝘀𝘁𝗮 𝗳𝗲𝗰𝗵𝗮: 𝗺𝗶𝗲́𝗿𝗰𝗼𝗹𝗲𝘀 𝟭𝟵 𝗱𝗲 𝗮𝗴𝗼𝘀𝘁𝗼, 𝗽𝗼𝗻𝗲𝗻𝗰𝗶𝗮 𝗺𝗮𝗴𝗶𝘀𝘁𝗿𝗮𝗹 Laurent Pierre Poulet presenta \"Biodiversidad en el corazón del continente: las plantas med… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -966,22 +958,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V_oN8u_klnkQ7kNvwEV2Ur0&_nc_oc=AdpCPV-Bla87ZltYqf8r7uHi4azesqpwf2FcTU5P4VRqYbAVgPtigpDnPoR-AF5sMhI&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Jm6isYxMyGys0kfcm5Yd5g&_nc_ss=7f289&oh=00_AQFPrWcCfue88_Lq6gCVyOzJsI_I5HAKgQcx7_5gOZ8dxA&oe=6A89ED57",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0wjuP72iT3LJtRxfo4M1GNdJZgxKucwid15dFnGpengQti3AVWS5x5xaEK389dUyyl?__cft__[0]=AZbFIgJfxjH74coc5-n6ipOkwT-qeNoDkQ-JnxZ0aEkXkIT8IyGAqZmhj4VN0r1otQDlULDrwVI1MukR01bhspwRabcy0F6QUjN0dt89sSuSZZC9-riPzSp8epnjmFVgYbN5XeTMd-9zF6Jz4OQ7zLl1use6RXUF0Mc1sSDnqPJmiLnc6O_z1iEMF2QMjQIEvY4&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Gran noche la que vivimos en la inauguración! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1128,13 +1111,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1hGOOwWYPV4Q7kNvwFlXjhc&_nc_oc=Adr2DpFa23hUi0qJ8-h1UH3AriEGzDdGVkNUaR4NWsm_p85BNlW_fdhS2Nt8-hdtA-s&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=-kGgCmW2lzkHtjr9gvJgWg&_nc_ss=7f289&oh=00_AQEkhHkOw5-zagNhlaHla1iuUBYDVDBusC_Col8TJyGpFw&oe=6A8A39E4",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1405,8 +1388,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 9,
-      "rejected": 4,
+      "events": 8,
+      "rejected": 5,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1426,11 +1409,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
-          "category": "deporte",
+          "score": 23,
+          "category": "festival",
           "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 23h38m Gilmer Rojas expone en el ‘Gíldaro Antezana’ 23h01m Disparan contra la abogada Nadia Beller 22h35m Rusia amenaza a Reino Unido por ataques"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Detienen a Fernando Cerimedo en el caso del intento de asesinato de Nadia Beller Últimas noticias 09h07m Tras ganar dos títulos en Perú, “La hija c"
         }
       ],
       "error": null
