@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:13:00-04:00",
+  "generated_at": "2026-08-18T12:11:37-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -14,12 +14,11 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_museo_nacional_arte",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 45.6,
-    "horas_maximo_sin_datos": 89.9
+    "horas_promedio_sin_datos": 47.1,
+    "horas_maximo_sin_datos": 92.9
   },
   "sources": [
     {
@@ -65,22 +64,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YCEzEx7ZGOoQ7kNvwFt7BxW&_nc_oc=Adp9-4XejjHnNSFxOBrDWoh2_1pb4Lu6jmJ8PWE0IajCCql8BMU27PsbiRPBQEr5Ndw&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=ciBX8iO-sGt4rmB5NiO4DQ&_nc_ss=7f289&oh=00_AQHlGJHHb6_5LKC8MvGuSCb-2Ee3vU_U0DYber2MA0lY_Q&oe=6A8A1CB6",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid023ywD6sfLb173ZYCtyEFfNStbc6tWKm8uGEjKN9vLkodPLMEiWKDu2XWBXkkEM7w5l?__cft__[0]=AZb97yKsGjLG2UUZOWmXredWx40zi0p8GK5djVUXbjy407GZWC-4ufgtLM2TtylhUPOwpEw2cwNnU1u6sVn5BZhoXDZ7q_mHrzqSXJAzMrjm4dN2f9HOucunrIHcEt97qQaEML9pRk8Tr__FcPYsU4Pu0y3fWySO_rU1ouzQr5Q4eEyGfiiJ3NfwKQ1GFdtALso&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -279,12 +269,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_opinion",
@@ -534,12 +524,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_cultural_bcb",
@@ -601,13 +591,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=p6OXR5wq36MQ7kNvwE5lknA&_nc_oc=AdonlQcrqyLoUBJm_U9a63O4GIBTqNT-OKVpfjk_aUjsoHU3Gw8EB21nqmUoRebLIjs&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=rSfK2lFcpRO6JsxscS1Q3w&_nc_ss=7f289&oh=00_AQFspIR1aI8flpoy0-9iwdKATYbG-8869oXWVmVa57D8nw&oe=6A8A6000",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid02u4H791KSgUPTazFQPqY2Ld467cYZ9RHoZKZJaFKnJWrRKbDbToEqPqjz8K1KTf78l?__cft__[0]=AZYTj_QaA2IaH5RlqErmW1UzvKAAa5_qx-8GxlIlTTAaZ7RrlvRmXTPeWt_46Nd2CUSvlf7ZEn7LM2ftuLPkqJTvJtEVLBiKg4Az4_q6tZaflDcqGQYRVHbJ9JP2tR_EWFuR4nfOKbvXMOKUKJbt-2joSBxWoc3qRlOgAqAdz5NNi7Ckk7X3XwSuej3Kzq-UN9s&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#MNA | Acompáñanos en una nueva edición de ParlArte junto a Alexandra Bravo, para conocer el fascinante mundo del arte plumaria.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -874,12 +873,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -924,13 +923,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Rl0kax5DWtAQ7kNvwF0vgSZ&_nc_oc=AdqdXc00wl9UjpBpx_TYfZbu_XLut3UlXILV3Sc7c7ldB--g2fyE9wW6C8ZwgDzwfkQ&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=vGv9Hn4e76mE7fw64dhHrw&_nc_ss=7f289&oh=00_AQE0S2x2km0mY3O7c2uFCWYGENtdAu81H3nLguTRC3sslQ&oe=6A8A64B8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1939521693670889/?__cft__[0]=AZaZSpccP56VEkpfaVorfc-I7TaeIB20pmcTjun9N3eVO951AXpQDEv-XktfZfr-fRWwDaI-ZYp1lWvEDIKvNSwWjHN2_AAP2AGk9gZotdy0rPW6u4w2rUbK5woMrQDMMmPX3A80Q7Q7bdbDP5v9ilPv7D9iCO673Ee94nef-5PJVQotomAy6dek32EdJMwQtpRx1y_UbbDjpgafyGgNhy5I&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "HISTORIAS QUE CRUZAN FRONTERAS | BOLIVIA LAB XVIII E… Ver más HISTORIAS QUE CRUZAN FRONTERAS | BOLIVIA LAB XVIII E… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1111,13 +1119,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1hGOOwWYPV4Q7kNvwFlXjhc&_nc_oc=Adr2DpFa23hUi0qJ8-h1UH3AriEGzDdGVkNUaR4NWsm_p85BNlW_fdhS2Nt8-hdtA-s&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=-kGgCmW2lzkHtjr9gvJgWg&_nc_ss=7f289&oh=00_AQEkhHkOw5-zagNhlaHla1iuUBYDVDBusC_Col8TJyGpFw&oe=6A8A39E4",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1388,8 +1396,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 8,
-      "rejected": 5,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1409,11 +1417,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 23,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "score": 47,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Detienen a Fernando Cerimedo en el caso del intento de asesinato de Nadia Beller Últimas noticias 09h07m Tras ganar dos títulos en Perú, “La hija c"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
