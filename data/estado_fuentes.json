@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T12:11:37-04:00",
+  "generated_at": "2026-08-18T15:06:47-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 47.1,
-    "horas_maximo_sin_datos": 92.9
+    "horas_promedio_sin_datos": 47.5,
+    "horas_maximo_sin_datos": 95.8
   },
   "sources": [
     {
@@ -81,13 +81,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NLzjc7uwL4wQ7kNvwG283Es&_nc_oc=AdrUE94rFUAeHzejLTN36F-16mqsnAzgy1rcv7ggkTqdruhH2eWQfknPPL151TqB77Y&_nc_zt=24&_nc_ht=scontent-qro1-1.xx&_nc_gid=wWRPgVhxY8L37lAxWfpALg&_nc_ss=7f289&oh=00_AQGZLx7uiHK07qbtaeSBCrOXEXNi17RnvoM1Pw0_mgRrrQ&oe=6A8A6DC3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028nRQgusjmbZU3Dq6RFQzpmke9ph5tT7HiSFaRSTXUWiQ6UYdvfzUo2Z7ncUdiaHcl?__cft__[0]=AZZOsBMPn-9KqUYLKbfY9e-0S9i7kDK2Cx7XMI1KjLwWq6V-l9kxnFd5nxWJTJKT6l9Kx5pvomZiNfOoqqCJRpxZ3cbea9r-dIwXxARWUBD0LV8oXYsTclLkX3uj0decec1pti247xJmRs5JtCmCAycSemI10iASEnooJXToITuLgVfyAM4alcK-TWigBBLQcnA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -269,12 +278,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_opinion",
@@ -524,12 +533,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_fundacion_cultural_bcb",
@@ -591,22 +600,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=p6OXR5wq36MQ7kNvwE5lknA&_nc_oc=AdonlQcrqyLoUBJm_U9a63O4GIBTqNT-OKVpfjk_aUjsoHU3Gw8EB21nqmUoRebLIjs&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=rSfK2lFcpRO6JsxscS1Q3w&_nc_ss=7f289&oh=00_AQFspIR1aI8flpoy0-9iwdKATYbG-8869oXWVmVa57D8nw&oe=6A8A6000",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid02u4H791KSgUPTazFQPqY2Ld467cYZ9RHoZKZJaFKnJWrRKbDbToEqPqjz8K1KTf78l?__cft__[0]=AZYTj_QaA2IaH5RlqErmW1UzvKAAa5_qx-8GxlIlTTAaZ7RrlvRmXTPeWt_46Nd2CUSvlf7ZEn7LM2ftuLPkqJTvJtEVLBiKg4Az4_q6tZaflDcqGQYRVHbJ9JP2tR_EWFuR4nfOKbvXMOKUKJbt-2joSBxWoc3qRlOgAqAdz5NNi7Ckk7X3XwSuej3Kzq-UN9s&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#MNA | Acompáñanos en una nueva edición de ParlArte junto a Alexandra Bravo, para conocer el fascinante mundo del arte plumaria.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -838,13 +838,30 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BpQ4ulavphAQ7kNvwE_n76G&_nc_oc=AdqVS2KHwMpX6aVUDpNupE67FKgNBJaYC2E1goTcM1mcvrzYLP5deW8URwzmJPujP9c&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=rIVQb_m5lT-_KfEJ12GwKw&_nc_ss=7f289&oh=00_AQF3VaBwWkP3Y_rmYAIwB-K9Izjfs9taH1GWn7cShVBrNA&oe=6A8A8A29",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDelBeni/posts/1689887975362010:1689887975362010?__cft__[0]=AZb4WtwcndPok6WqXQIlrCi9uOVusYlNLwTAgyVNDs3hKyABuW82GjSNXcC2GIPtLqc8SQNmGvJaIDnwtJfISBwZ_0OTIeavP86ouxSYzj8SZqTtFUaw0csSb1WLHYz4tQXv-M_tcNnvMuyiTrpDRFQ3C3Lzn9S8sj65hkdUHDXYmCUJzsVlfN-cQIbYMMu8LiTRhbUIg_j0QrxkGKKamwxE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Ver más comentarios Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDelBeni/",
+          "has_image": false,
+          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fipaz",
@@ -855,13 +872,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent.ficn2-2.fna.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eDGPbTy3BRUQ7kNvwGDgA5z&_nc_oc=Adrk63uwFRbETRpcP0Fw3BDYhMyHKSux9v1bQmb7gDM4VRWKcUPcnR-EOnp-ib_I8Xg&_nc_zt=24&_nc_ht=scontent.ficn2-2.fna&_nc_gid=z_WN6rQojiTBW2VoqlZQYA&_nc_ss=7f289&oh=00_AQFOCxhrmLSIQCv9eaVDK9j6HQUUl26wSjvI4hQbBnzuow&oe=6A8A94E1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1724405998866454/?__cft__[0]=AZbHa_eiB2sPluSZUtknB50n31Ifgm8wwe15mbnVMXk2ex8pJCovOPO46jy39wnCHp9qJDXls8JT1XQQ8YzMCcYMmxblUXrt7jKj6UFqlQXe11PN4eT_qgo9tKyHy7l4PvbZglCwcm1t_8ykDOce9pOmxHMIPmUzovkIXe3X4YPResnHxrXb99uafx9Vulf-pwYerqXy5CVWWDf2QORFo1Ax&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Compartiendo con nuestra hermosa gente #Paceña celebrando en su día de #SanRoque junto a nuestros grandes mejores amigos y compañeros. R… Ver más Compartiendo con nuestra hermosa gente #Paceña celebrando en su día de #SanRoque junto a nuestros grandes mejores amigos y compañeros. R… Ver más Tenemos problemas para reproducir este video. Más información Ronald Gutierrez"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -873,12 +899,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -923,22 +949,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Rl0kax5DWtAQ7kNvwF0vgSZ&_nc_oc=AdqdXc00wl9UjpBpx_TYfZbu_XLut3UlXILV3Sc7c7ldB--g2fyE9wW6C8ZwgDzwfkQ&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=vGv9Hn4e76mE7fw64dhHrw&_nc_ss=7f289&oh=00_AQE0S2x2km0mY3O7c2uFCWYGENtdAu81H3nLguTRC3sslQ&oe=6A8A64B8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1939521693670889/?__cft__[0]=AZaZSpccP56VEkpfaVorfc-I7TaeIB20pmcTjun9N3eVO951AXpQDEv-XktfZfr-fRWwDaI-ZYp1lWvEDIKvNSwWjHN2_AAP2AGk9gZotdy0rPW6u4w2rUbK5woMrQDMMmPX3A80Q7Q7bdbDP5v9ilPv7D9iCO673Ee94nef-5PJVQotomAy6dek32EdJMwQtpRx1y_UbbDjpgafyGgNhy5I&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "HISTORIAS QUE CRUZAN FRONTERAS | BOLIVIA LAB XVIII E… Ver más HISTORIAS QUE CRUZAN FRONTERAS | BOLIVIA LAB XVIII E… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1401,19 +1418,19 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
-          "category": "deporte",
+          "score": 23,
+          "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "16/08/2026 Interesante Miroslava Fernández analiza el rumbo de Bolivia en Pódcast Los Tiempos Bolivia conmemoró sus 201 años de independencia en medio de un escenario político y social profundamente complejo. vista 13/08/2026 Interesante Eclipse solar regala a millones de europeos una fugaz noche En medio del atardecer se hizo la noche. Un eclipse solar sumió ayer en la oscuridad desde los confine"
+          "text_preview": "18/08/2026 Tecnología Ingenieros de IA y analistas de datos, las profesiones que más se necesitan hoy Ingenieros de inteligencia artificial (IA) y analistas de datos se han convertido en las profesiones más solicitadas por la industria tecnológica global,... vista 16/08/2026 Interesante Miroslava Fernández analiza el rumbo de Bolivia en Pódcast Los Tiempos Bolivia conmemoró sus 201 años de indepen"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 33,
+          "score": 21,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 El diésel para grandes consumidores pasa a valer Bs 18 por litro y el precio se calculará cada día Ver más 2 Riesgos domésticos 8 objetos del hogar que"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Sectores cuestionan el DS 5676 y advierten efectos en precios y abastecimiento Ver más 2 Decreto que reorganiza el Gabinete reduce viceministerios a di"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
