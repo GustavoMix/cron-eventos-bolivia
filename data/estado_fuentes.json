@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T22:05:57-04:00",
+  "generated_at": "2026-08-18T00:06:53-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -14,11 +14,12 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_superticket",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 40.9,
-    "horas_maximo_sin_datos": 78.8
+    "horas_promedio_sin_datos": 41.6,
+    "horas_maximo_sin_datos": 80.8
   },
   "sources": [
     {
@@ -31,12 +32,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? SuperTicket 140 mil seguidores • 196 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error téc'"
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -201,12 +202,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gob_cbba",
@@ -557,22 +558,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/770976265_1112553888391359_3735751640385991934_n.png?stp=dst-jpg_tt6&cstp=mx1131x1600&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=6nu0SZGh78QQ7kNvwEVIJca&_nc_oc=Adry3rrJoFmxKZAKdXyeNs49_eCNXIdDdOhoXthLSLS1tR0QXVYbzKPjWIIVMmnZEUc&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=vuwqM9EvJoNpb0ZWrYawCg&_nc_ss=7f289&oh=00_AQGAAzEKTDpJrRR4GZibj4UPH0ZEKEbHQczC5lX5-x9vog&oe=6A899E44",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "cine",
-          "url": "https://www.facebook.com/cinemateca.bo/posts/pfbid0bUUWYUs3ABDi8Kaa2MTtvziR4G86MGEZxht8GVuXbZPokDBSUqEtQwTrAemHYBEul?__cft__[0]=AZYbTMgiD3PJZqP0ATl-d-QgmguJajTuBWtcFBjbAHjPwLcnWnXvd-dFUgq1_hz1bXX3xLZZk-zQmPuFn6VXe0kEXgfGlTHRTZRw6BSgA6Ii9eQE86l6sUMxZMLKqmcv_IAdwgL_NtI6zKPeTsGZzIhG0r1RINYvxZ24STC_Vvg9RYpReChEO0TcEsca9bxsWxE&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Continuamos celebrando los 50 años junto a lo mejor del cine boliviano. En agosto homenajeamos al actor, dramaturgo y director de cine Hugo Roncal, destacado pionero de… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -651,22 +643,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CeV5zE9tkPEQ7kNvwFuhNOL&_nc_oc=AdqeXggclv_MqMjHrqUA68HELUZ4obEt-iNjol6dMIYZKYtAKKTJc0wGrs1eNT6j71A&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=0coIZWn9S0g_bRb7J8pBBQ&_nc_ss=7f289&oh=00_AQEhxM7fbs1fJp25IFrlAFcKpgO77OTrXz1v0sIqWVjpEw&oe=6A89AA92",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/1626301182619221:1626301182619221?__cft__[0]=AZbQ6rp1OI4e1XytGrUhPnuW3olZ1el7qj_rwxOriUYKZ66uShFrE5DfLXTqsIAtfrFypzrSXN0GiV22ZQ6WDOXBoz72vLEpUVt6VQ7hQIvPDVA7EC59Cb9jXVliP0WO6tArsOQIqo_C8cxqhdezGB1lzw-bdl4udhiQ8M2w3CEy0LGO2Sbe3sOQVXDtk902UC8N6iztIKhnfmKgi9Gi3KT-&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Indicador de estado online Activo Centro de la Revolución Cultural actualizó su foto de portada. 18 min"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -898,13 +881,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=n4nvPRl9_FgQ7kNvwHDn4pR&_nc_oc=AdpMu3t_icjwvcmnBS5TcPV4AL-uY1m9pa8JIwqimH0c4BFUuqKN_E1OBRx58NMCyKI&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=RKcPJ8QryNyWUEmQYu_9Bw&_nc_ss=7f289&oh=00_AQHZ4KiJtgh2YBl959ZMqKfvgWWT9A87x8GHtXXehgPfdQ&oe=6A89B527",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid0WGqWfwvcqkLoLwFT2KM8wFEbPKBpasW4qJ8UBYMtE3Ddkc2yBCfz3si82Kw4WDfMl?__cft__[0]=AZYflvq6dMUXblajpOdhbptdYaZhb7a_3I-gEAJkHBzGcsrP99FWYL43zelGq1JlAsoABCGuU1vqXu0doBwRInVzsDf0WBeuH2W9sDBiq0GlQbeyBMeLLNt0jsuZGjqbS336l0IXZWysHsT42FAKSWI9EdTMS6v-MRymmFDvrUFVos_X64BPksBkTaGHTtenIeM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Cultura | CONVERSANDO SOBRE ATAR | ENTRE NUDOS Y MEMORIA… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1085,13 +1077,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=fLNXZKx4VMEQ7kNvwEtZbKa&_nc_oc=AdooGC-GAWgRJWHWLQAVke2vW2nfoSNPgbQHXCM7NytHZfWuC5rFXGE2h4NI8F7_tJA&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=RUdlY1TIbEjqvbtDOGSo2g&_nc_ss=7f289&oh=00_AQGQl2hQsubmLnqrew-DSAOyogLujNNOMpqPLPmQtmw5xw&oe=6A89B36F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02v6LugURVHcymW5JPDBzEmVoTiRU6pfodVpPXUJyaTst3rVcz4irf4GFdXVrpxRqAl?__cft__[0]=AZZ3P9UsJSd2eCV5HAljcCkGWcN3PWIk2aa1zq_IwNQfdcxAq_OrZP50mbGDQ9Pkt1qVmyJ__iL2HY1rSuZ_PITyF9eWGU4ykJucOvDhKnpOg8HAVIg2swRf2OUPr-gESiiu_hU3Rpux73poTX6vIedhWjgw4G19Df9S5scfi9c6NFZycgLg9hW1wjw2dYP5lPU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Indicador de estado online Activo 11 h #CCPSantaCruz| H O Y… Ver más Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1240,23 +1241,15 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 5,
+      "raw_items": 4,
       "events": 3,
-      "rejected": 2,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 0,
           "category": "otro",
           "url": "https://superticket.bo/",
-          "has_image": true,
-          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "feria",
-          "url": "https://superticket.bo/Curso--Inteligencia-Artificial-para-Emprendedores/",
           "has_image": true,
           "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
         }

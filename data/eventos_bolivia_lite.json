@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-17T22:05:57-04:00",
+  "generated_at": "2026-08-18T00:06:53-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 23,
@@ -55,7 +55,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 8
+        "count": 7
       },
       {
         "key": "teatro",
@@ -73,6 +73,11 @@
         "count": 2
       },
       {
+        "key": "cine",
+        "label": "Cine",
+        "count": 2
+      },
+      {
         "key": "concierto",
         "label": "Conciertos",
         "count": 2
@@ -80,11 +85,6 @@
       {
         "key": "otro",
         "label": "Otros",
-        "count": 1
-      },
-      {
-        "key": "cine",
-        "label": "Cine",
         "count": 1
       },
       {
@@ -110,14 +110,14 @@
         "count": 4
       },
       {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
+        "key": "Quillacollo",
+        "label": "Quillacollo",
         "count": 4
       },
       {
-        "key": "Quillacollo",
-        "label": "Quillacollo",
-        "count": 3
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 4
       },
       {
         "key": "Oruro",
@@ -144,7 +144,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 7
+        "count": 8
       },
       {
         "key": "La Paz",
@@ -171,7 +171,7 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 5
+        "count": 4
       },
       {
         "key": "este_mes",
@@ -329,12 +329,12 @@
       {
         "key": "media",
         "label": "media",
-        "count": 7
+        "count": 8
       },
       {
         "key": "ticketera",
         "label": "ticketera",
-        "count": 5
+        "count": 4
       },
       {
         "key": "eventos",
@@ -350,32 +350,6 @@
   },
   "events": [
     {
-      "event_id": "evt_31bb49d8866b8c",
-      "title": "Curso: Inteligencia Artificial para Emprendedores",
-      "category": "feria",
-      "category_label": "Ferias y expos",
-      "starts_at": "2026-08-17T00:00:00-04:00",
-      "starts_at_ms": 1786939200000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Lunes 17 de agosto · 00:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": null,
-      "department": null,
-      "venue": null,
-      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/08/Shop5_Cuadrado_18.jpg",
-      "has_video": false,
-      "is_free": false,
-      "price_from": 150.0,
-      "currency": "BOB",
-      "price_label": "Bs 150",
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_4449ac0fd64241",
       "title": "Martes 18 de agosto 19:00 Hrs. - Noche de muestras documentales",
       "category": "nightlife",
@@ -385,9 +359,9 @@
       "ends_at_ms": null,
       "multi_day": false,
       "display_date": "Martes 18 de agosto · 19:00",
-      "lifecycle": "proximo",
-      "lifecycle_label": "Próximos",
-      "days_until": 1,
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -413,7 +387,7 @@
       "display_date": "Miércoles 19 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 2,
+      "days_until": 1,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -439,7 +413,7 @@
       "display_date": "Viernes 21 de agosto · 16:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 4,
+      "days_until": 3,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -465,7 +439,7 @@
       "display_date": "Sábado 22 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 5,
+      "days_until": 4,
       "is_upcoming": true,
       "city": "Quillacollo",
       "department": "Cochabamba",
@@ -491,7 +465,7 @@
       "display_date": "Sábado 29 de agosto · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 12,
+      "days_until": 11,
       "is_upcoming": true,
       "city": "Oruro",
       "department": "Oruro",
@@ -517,7 +491,7 @@
       "display_date": "Domingo 30 de agosto · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 13,
+      "days_until": 12,
       "is_upcoming": true,
       "city": "Montero",
       "department": "Santa Cruz",
@@ -528,6 +502,32 @@
       "price_from": 100.0,
       "currency": "BOB",
       "price_label": "Bs 100",
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_e8228b24391228",
+      "title": "17/08/2026 Cultura Gilmer Rojas expone en el Gíldaro Antezana La muestra exhibirá durante 15 días la obra del…",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-14T00:00:00-04:00",
+      "starts_at_ms": 1789358400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 14 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 27,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/17/rojas_2.jpg?itok=amHZXJ7G",
+      "has_video": false,
+      "is_free": false,
+      "price_from": 18.0,
+      "currency": "BOB",
+      "price_label": "Bs 18",
       "status": "programado",
       "source_count": 1
     },
@@ -543,7 +543,7 @@
       "display_date": "Lunes 14 de septiembre · 21:15",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 28,
+      "days_until": 27,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -569,7 +569,7 @@
       "display_date": "Del 18 al 27 de septiembre · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 32,
+      "days_until": 31,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -595,7 +595,7 @@
       "display_date": "Domingo 27 de septiembre · 22:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 41,
+      "days_until": 40,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -621,7 +621,7 @@
       "display_date": "Del 6 al 17 de noviembre · 16:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 81,
+      "days_until": 80,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -647,7 +647,7 @@
       "display_date": "Del 6 al 17 de noviembre · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 81,
+      "days_until": 80,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -673,7 +673,7 @@
       "display_date": "Del 6 al 17 de noviembre · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 81,
+      "days_until": 80,
       "is_upcoming": true,
       "city": "Quillacollo",
       "department": "Cochabamba",
@@ -699,7 +699,7 @@
       "display_date": "Del 6 al 17 de noviembre · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 81,
+      "days_until": 80,
       "is_upcoming": true,
       "city": "Quillacollo",
       "department": "Cochabamba",
@@ -725,7 +725,7 @@
       "display_date": "Domingo 8 de noviembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 83,
+      "days_until": 82,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -751,7 +751,7 @@
       "display_date": "Del 3 al 7 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 198,
+      "days_until": 197,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -777,7 +777,7 @@
       "display_date": "Del 17 al 21 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 212,
+      "days_until": 211,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -803,7 +803,7 @@
       "display_date": "Sábado 24 de abril · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 250,
+      "days_until": 249,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -829,7 +829,7 @@
       "display_date": "Del 1 al 4 de julio",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 318,
+      "days_until": 317,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -855,7 +855,7 @@
       "display_date": "Del 1 al 4 de julio · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 318,
+      "days_until": 317,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -881,7 +881,7 @@
       "display_date": "Viernes 6 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 354,
+      "days_until": 353,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -907,7 +907,7 @@
       "display_date": "Del 10 al 21 de agosto · 15:30",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 358,
+      "days_until": 357,
       "is_upcoming": true,
       "city": "Sucre",
       "department": "Chuquisaca",
@@ -933,7 +933,7 @@
       "display_date": "Jueves 12 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 360,
+      "days_until": 359,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
