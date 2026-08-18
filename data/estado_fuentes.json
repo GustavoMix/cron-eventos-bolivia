@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T00:06:53-04:00",
+  "generated_at": "2026-08-18T03:08:55-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -14,12 +14,11 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_superticket",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 41.6,
-    "horas_maximo_sin_datos": 80.8
+    "horas_promedio_sin_datos": 42.7,
+    "horas_maximo_sin_datos": 83.9
   },
   "sources": [
     {
@@ -31,13 +30,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-2TjNHyYJH4Q7kNvwHIlNYu&_nc_oc=AdroPylmvms_lDXSzXRLmsJ1jD4d_sw7FDLxd90VvpCNQO9sMssjuKQvdwTL-N6jiZk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=uWaWt_Pb3V-LFCap0CsIdA&_nc_ss=7f289&oh=00_AQFJgmslPWoAjdvMWeySBHVSOHWfB-lq-Rf_FESD4WKy7g&oe=6A89CADA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? SuperTicket 140 mil seguidores • 196 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error téc'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid0HsUE8yV9fy1G5AtiVSvpUvhatcEc9nYk3BVtHCCZy7ctbMycpmiUDRxEcGgBWsRHl?__cft__[0]=AZbPmjVoRVE34RApEr474R4TqK4xDlAz1RXFO8TsffCi0t_et6OV6VL631zDtrQ8NkP4kYOpghnfjxpum4sIW4-jhUeglWpt-IdgWV-H4c5Gc6wQZNgMugIlYAEg_BHOW7nYXn5wghWrbj22d9zsgKbyOALBz4rRjBbsxRmUt7MHf_XlkYx-YQ4lyRM82wswbZA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LOS 90 ESTÁN DE VUELTA EN EL ALTO! Pr… Ver más ¡LOS 90 ESTÁN DE VUELTA EN EL ALTO! Pr… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -881,22 +889,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=n4nvPRl9_FgQ7kNvwHDn4pR&_nc_oc=AdpMu3t_icjwvcmnBS5TcPV4AL-uY1m9pa8JIwqimH0c4BFUuqKN_E1OBRx58NMCyKI&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=RKcPJ8QryNyWUEmQYu_9Bw&_nc_ss=7f289&oh=00_AQHZ4KiJtgh2YBl959ZMqKfvgWWT9A87x8GHtXXehgPfdQ&oe=6A89B527",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid0WGqWfwvcqkLoLwFT2KM8wFEbPKBpasW4qJ8UBYMtE3Ddkc2yBCfz3si82Kw4WDfMl?__cft__[0]=AZYflvq6dMUXblajpOdhbptdYaZhb7a_3I-gEAJkHBzGcsrP99FWYL43zelGq1JlAsoABCGuU1vqXu0doBwRInVzsDf0WBeuH2W9sDBiq0GlQbeyBMeLLNt0jsuZGjqbS336l0IXZWysHsT42FAKSWI9EdTMS6v-MRymmFDvrUFVos_X64BPksBkTaGHTtenIeM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Cultura | CONVERSANDO SOBRE ATAR | ENTRE NUDOS Y MEMORIA… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1009,13 +1008,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hj22aZ9gt6EQ7kNvwGeH3u-&_nc_oc=Adri9-Pdd9rdV439o_RvuzYVpV1oMXHQYtZA8NdoEy2gbCsdwyXKmrQELmFdyWew-qo&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=qVglgAMgPARIMmRzBaXqjQ&_nc_ss=7f289&oh=00_AQFux_ROuh9gatSaEzfv2REmhb-jHoUe4yoXWnlwcTG1QQ&oe=6A89E6B4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02he2bp2c73ir3iDDHgu9YSZFTSjZ73MURZJRVyEejVjPZkcTzs43cRbkvrpmVGFgVl?__cft__[0]=AZb4icxYjGQJ_UPFNwgLa8QZz5QkXa9Al1Huu7fIgoGjp7BPsGbLs_9Iduhj4i49MlaeBCt3C6SP5fPWo6Z6YrlMevaHnZPQ-YZmsnFl0fu2DRgaO2W8KoLc0oUQawGI7hlBOsRzslzRI36rVbamGPeQpMDjxfF6ZxWmiz7HX7cP2HUS2rH1E-xOwbr0VECZHuM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Cultura | Bolivia, la increíble historia de las elecciones 2025 T… Ver más #Cultura | Bolivia, la increíble historia de las elecciones 2025 T… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1026,13 +1034,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=J7jywmpSxqYQ7kNvwFxNR01&_nc_oc=AdpwEUp8VBWUSRqabRTtrGkSk4k4IKjyJbUY_Ui0BTjwdGErvMWarqGx7OmveL8y2BY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=I3wZ3uXLORJuJNVveu4-fQ&_nc_ss=7f289&oh=00_AQERHqh-hBlwKDiZRBDLdEeXwJBMimSid6FX3n3unM7-0g&oe=6A89F00F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid0EUnMhyD3gLvozGKCew5wFEr4cLnWrV757h6UUUf1ZCyuLPaBHmmWiHHZPpj7zJjwl?__cft__[0]=AZZYfmQMXQkpeusFId69gIY2ZHIYo_OVAFgKKJm8fSS5mwiLxfbrFeiG_WN83krmJBhI_ttInQyk6DhY5RNlI1jLD0zTDfWkXNJxS9v2sdIyMiw5UIoCN_54xe85bMPbi_Oc8H3cfDL3XPeyJu76kdXN3Kox6DtF-XDwsuQ9aLh3t7sWHb0YUjoR3-vfFLr3R3M&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡El alemán está lleno de Redewendungen (expresiones idiomáticas) relacionadas con la comida y las bebidas! Pero, ¿qué significan realmente? La… Ver más ¡El alemán está lleno de Redewendungen (expresiones idiomáticas) relacionadas con la comida y las bebidas! Pero, ¿qué significan realmente? La… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1077,22 +1094,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=fLNXZKx4VMEQ7kNvwEtZbKa&_nc_oc=AdooGC-GAWgRJWHWLQAVke2vW2nfoSNPgbQHXCM7NytHZfWuC5rFXGE2h4NI8F7_tJA&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=RUdlY1TIbEjqvbtDOGSo2g&_nc_ss=7f289&oh=00_AQGQl2hQsubmLnqrew-DSAOyogLujNNOMpqPLPmQtmw5xw&oe=6A89B36F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02v6LugURVHcymW5JPDBzEmVoTiRU6pfodVpPXUJyaTst3rVcz4irf4GFdXVrpxRqAl?__cft__[0]=AZZ3P9UsJSd2eCV5HAljcCkGWcN3PWIk2aa1zq_IwNQfdcxAq_OrZP50mbGDQ9Pkt1qVmyJ__iL2HY1rSuZ_PITyF9eWGU4ykJucOvDhKnpOg8HAVIg2swRf2OUPr-gESiiu_hU3Rpux73poTX6vIedhWjgw4G19Df9S5scfi9c6NFZycgLg9hW1wjw2dYP5lPU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Indicador de estado online Activo 11 h #CCPSantaCruz| H O Y… Ver más Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1323,7 +1331,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1422,7 +1430,7 @@
           "category": "deporte",
           "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Riesgos domésticos 8 objetos del hogar que es mejor no limpiar con papel de cocina 2 El diésel para grandes consumidores pasa a valer Bs 18 por lit"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 23h38m Gilmer Rojas expone en el ‘Gíldaro Antezana’ 23h01m Disparan contra la abogada Nadia Beller 22h35m Rusia amenaza a Reino Unido por ataques"
         }
       ],
       "error": null
