@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T03:08:55-04:00",
+  "generated_at": "2026-08-18T05:54:00-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 42.7,
-    "horas_maximo_sin_datos": 83.9
+    "horas_promedio_sin_datos": 43.6,
+    "horas_maximo_sin_datos": 86.6
   },
   "sources": [
     {
@@ -30,22 +30,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-2TjNHyYJH4Q7kNvwHIlNYu&_nc_oc=AdroPylmvms_lDXSzXRLmsJ1jD4d_sw7FDLxd90VvpCNQO9sMssjuKQvdwTL-N6jiZk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=uWaWt_Pb3V-LFCap0CsIdA&_nc_ss=7f289&oh=00_AQFJgmslPWoAjdvMWeySBHVSOHWfB-lq-Rf_FESD4WKy7g&oe=6A89CADA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid0HsUE8yV9fy1G5AtiVSvpUvhatcEc9nYk3BVtHCCZy7ctbMycpmiUDRxEcGgBWsRHl?__cft__[0]=AZbPmjVoRVE34RApEr474R4TqK4xDlAz1RXFO8TsffCi0t_et6OV6VL631zDtrQ8NkP4kYOpghnfjxpum4sIW4-jhUeglWpt-IdgWV-H4c5Gc6wQZNgMugIlYAEg_BHOW7nYXn5wghWrbj22d9zsgKbyOALBz4rRjBbsxRmUt7MHf_XlkYx-YQ4lyRM82wswbZA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LOS 90 ESTÁN DE VUELTA EN EL ALTO! Pr… Ver más ¡LOS 90 ESTÁN DE VUELTA EN EL ALTO! Pr… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -56,13 +47,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wq4tNwDtC_sQ7kNvwFAZUKP&_nc_oc=AdpOAecCARY2KFx43Kqny1MAqm99yQsE8e7WIEaynwZ52yR_82VvN8lSxgc1NaeK3IQ&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=tFLA1oM8ktjZCFrlSzkJ7Q&_nc_ss=7f289&oh=00_AQGeJa0AscjIvbEEka-a5nSeNpR0pZvDuHuTz-IULjbj0A&oe=6A89F4B5",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1753806735904140/?comment_id=2094982247831517&reply_comment_id=1075542571624007&__cft__[0]=AZY_17QZegGcMCOmBhugOSPbFM6siYI9Hgk39excplmcJmEzdsg66TlXNNMmnmJVi3RhxAttVupfRCfmiItO4_DDTIOCJj5VkhjKavpCLG73TerUrYxXflMpmBuv1uEce8Bx1eJhDlbcWMzdla39tKKsX6ZVlcUWXS5jeLW6TyzHicrqq3JjIxWAW_xXhIgv4ZVD5ndhtx7xZ7DofQ5PG9XD&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Juan Pablo no te gusta la música de Ricardo Montaner?"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -617,13 +617,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KuCGw3H5ZRkQ7kNvwGFt5TQ&_nc_oc=AdpZE2e0azpQBpTiprJJ05WxMVqXPpzadAHpZItiKqV8SyX5ZNad45bTfSCFCpngYQk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=b9PSAFo7ReeTlxlteXSPwA&_nc_ss=7f289&oh=00_AQGfMISPB7faU9gou250jJCETA1NqcbHEqgZfBDozxobrQ&oe=6A8A14F3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 54,
+          "category": "otro",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid02gnzXVo6CNcbyu5da1PK7e346BuazNhgSP8PwnDgTptfRA8K93pXmoUYZiNAvfkjYl?__cft__[0]=AZZMNVWCnmJNeSUmb584DUBiWhlsplS25sEfeB5vEhPm4bTqY2qR2WD4KhcHB9GS0FLFZ6cXvrHPUlGDqMUc6d0EcN0CZSL-5hJMZWiNEJRKft6ZB0LT39HnJc3bL4tQ-_uo3tmZeGaZL2PkdI9HJae6zeZV6moloit3UQUGTouosE2h8_1FtbCwh_JLsOFLLDM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#RAE2026 l 𝗔𝗴𝗲𝗻𝗱𝗮 𝗲𝘀𝘁𝗮 𝗳𝗲𝗰𝗵𝗮: 𝗺𝗶𝗲́𝗿𝗰𝗼𝗹𝗲𝘀 𝟭𝟵 𝗱𝗲 𝗮𝗴𝗼𝘀𝘁𝗼, 𝗽𝗼𝗻𝗲𝗻𝗰𝗶𝗮 𝗺𝗮𝗴𝗶𝘀𝘁𝗿𝗮𝗹 Laurent Pierre Poulet presenta \"Biodiversidad en el corazón del continente: las plantas med… Ver más #RAE2026 l 𝗔𝗴𝗲𝗻𝗱𝗮 𝗲𝘀𝘁𝗮 𝗳𝗲𝗰𝗵𝗮: 𝗺𝗶𝗲́𝗿𝗰𝗼𝗹𝗲𝘀 𝟭𝟵 𝗱𝗲 𝗮𝗴𝗼𝘀𝘁𝗼, 𝗽𝗼𝗻𝗲𝗻𝗰𝗶𝗮 𝗺𝗮𝗴𝗶𝘀𝘁𝗿𝗮𝗹 Laurent Pierre Poulet presenta \"Biodiversidad en el corazón del continente: las plantas med… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -957,13 +966,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V_oN8u_klnkQ7kNvwEV2Ur0&_nc_oc=AdpCPV-Bla87ZltYqf8r7uHi4azesqpwf2FcTU5P4VRqYbAVgPtigpDnPoR-AF5sMhI&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Jm6isYxMyGys0kfcm5Yd5g&_nc_ss=7f289&oh=00_AQFPrWcCfue88_Lq6gCVyOzJsI_I5HAKgQcx7_5gOZ8dxA&oe=6A89ED57",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0wjuP72iT3LJtRxfo4M1GNdJZgxKucwid15dFnGpengQti3AVWS5x5xaEK389dUyyl?__cft__[0]=AZbFIgJfxjH74coc5-n6ipOkwT-qeNoDkQ-JnxZ0aEkXkIT8IyGAqZmhj4VN0r1otQDlULDrwVI1MukR01bhspwRabcy0F6QUjN0dt89sSuSZZC9-riPzSp8epnjmFVgYbN5XeTMd-9zF6Jz4OQ7zLl1use6RXUF0Mc1sSDnqPJmiLnc6O_z1iEMF2QMjQIEvY4&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Gran noche la que vivimos en la inauguración! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1008,22 +1026,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hj22aZ9gt6EQ7kNvwGeH3u-&_nc_oc=Adri9-Pdd9rdV439o_RvuzYVpV1oMXHQYtZA8NdoEy2gbCsdwyXKmrQELmFdyWew-qo&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=qVglgAMgPARIMmRzBaXqjQ&_nc_ss=7f289&oh=00_AQFux_ROuh9gatSaEzfv2REmhb-jHoUe4yoXWnlwcTG1QQ&oe=6A89E6B4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02he2bp2c73ir3iDDHgu9YSZFTSjZ73MURZJRVyEejVjPZkcTzs43cRbkvrpmVGFgVl?__cft__[0]=AZb4icxYjGQJ_UPFNwgLa8QZz5QkXa9Al1Huu7fIgoGjp7BPsGbLs_9Iduhj4i49MlaeBCt3C6SP5fPWo6Z6YrlMevaHnZPQ-YZmsnFl0fu2DRgaO2W8KoLc0oUQawGI7hlBOsRzslzRI36rVbamGPeQpMDjxfF6ZxWmiz7HX7cP2HUS2rH1E-xOwbr0VECZHuM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Cultura | Bolivia, la increíble historia de las elecciones 2025 T… Ver más #Cultura | Bolivia, la increíble historia de las elecciones 2025 T… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1034,22 +1043,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=J7jywmpSxqYQ7kNvwFxNR01&_nc_oc=AdpwEUp8VBWUSRqabRTtrGkSk4k4IKjyJbUY_Ui0BTjwdGErvMWarqGx7OmveL8y2BY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=I3wZ3uXLORJuJNVveu4-fQ&_nc_ss=7f289&oh=00_AQERHqh-hBlwKDiZRBDLdEeXwJBMimSid6FX3n3unM7-0g&oe=6A89F00F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid0EUnMhyD3gLvozGKCew5wFEr4cLnWrV757h6UUUf1ZCyuLPaBHmmWiHHZPpj7zJjwl?__cft__[0]=AZZYfmQMXQkpeusFId69gIY2ZHIYo_OVAFgKKJm8fSS5mwiLxfbrFeiG_WN83krmJBhI_ttInQyk6DhY5RNlI1jLD0zTDfWkXNJxS9v2sdIyMiw5UIoCN_54xe85bMPbi_Oc8H3cfDL3XPeyJu76kdXN3Kox6DtF-XDwsuQ9aLh3t7sWHb0YUjoR3-vfFLr3R3M&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡El alemán está lleno de Redewendungen (expresiones idiomáticas) relacionadas con la comida y las bebidas! Pero, ¿qué significan realmente? La… Ver más ¡El alemán está lleno de Redewendungen (expresiones idiomáticas) relacionadas con la comida y las bebidas! Pero, ¿qué significan realmente? La… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1331,7 +1331,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
