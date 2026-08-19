@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T17:43:26-04:00",
+  "generated_at": "2026-08-18T22:06:36-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 46.3,
-    "horas_maximo_sin_datos": 98.4
+    "horas_promedio_sin_datos": 46.8,
+    "horas_maximo_sin_datos": 102.8
   },
   "sources": [
     {
@@ -269,12 +269,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_opinion",
@@ -676,13 +676,30 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/776384130_2261135671371796_4230840169287606593_n.png?stp=dst-jpg_tt6&cstp=mx1181x1331&ctp=s565x565&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ayNduh8l0KkQ7kNvwE6XFqi&_nc_oc=AdpkjJAsy6nAHtucEUeDRs6CVzxiOVJOckLZvF93nYarQKjV9haQpJYsvV_TJBlS0BU&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=tfs8QfpKI0J3U4f9rsqTKg&_nc_ss=7f289&oh=00_AQEq7C_25xoJOlFgLv6XuaRU1wx_7Pyn2q-DSdohf_gThQ&oe=6A8AD76B",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlcaldiaDeOruro/posts/pfbid0vm7dUstk8W5nr5Jn9BMDkTeqmRiRq4M2JpMMeziit6m79n8YciLdeAuybBP3Rvr4l?__cft__[0]=AZbCl5m1wjtTPs_3VDLBIk3cExKi3tgvR5WDg0QqGwumzv2Uulbo2pnSNGgTFuZIlhmtuvLoewZlqe9WWijzeZRknPGFftIYIPx1E6JAg_5vONZY0rg__Y2jFZCm1BCuex2wt2nFb4Ci6XE2P4io9v18DneuPmQIcfp1EeMsHOg-s6nlKdAQbH-u0jT8WDvYvk8&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¿Tienes un reporte sobre el alumbrado público? El GAMO pone a disposición de la población la línea 72399139 para reportar luminarias apagadas, dañadas o cualquier inc… Ver más Buena iniciativa de servicio al pueblo.... Ver más comentarios Rene Altamirano Espindola"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlcaldiaDeOruro/posts/pfbid0vm7dUstk8W5nr5Jn9BMDkTeqmRiRq4M2JpMMeziit6m79n8YciLdeAuybBP3Rvr4l?comment_id=1040813978799845&__cft__[0]=AZbCl5m1wjtTPs_3VDLBIk3cExKi3tgvR5WDg0QqGwumzv2Uulbo2pnSNGgTFuZIlhmtuvLoewZlqe9WWijzeZRknPGFftIYIPx1E6JAg_5vONZY0rg__Y2jFZCm1BCuex2wt2nFb4Ci6XE2P4io9v18DneuPmQIcfp1EeMsHOg-s6nlKdAQbH-u0jT8WDvYvk8&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Buena iniciativa de servicio al pueblo.... Rene Altamirano Espindola"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_tarija",
@@ -744,13 +761,30 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Wmp_Ua9hPUUQ7kNvwEdFAWE&_nc_oc=AdrTyBLgnf5rA0UXN1ztZyPVaNAQkq1lVFRU82WeKej9WHT3oOgdi6Zv28wjEW11wEw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=EAu1se0JfdQRPRAN76T59g&_nc_ss=7f289&oh=00_AQEfLAWBxmffdti1q93XifK3wH06dXar6fkfch8m22K4sA&oe=6A8AD52A",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/cobija.gob/posts/pfbid023zkdbbcH4rMdNnGHneFTLDKRox6QmFZRmLWD8CZcwvrXFHHxPxQU8j79qhM3SXBl?__cft__[0]=AZaLGHB_Gel9PiC7C1Ij057GIi06wlDlSrPa1bx53aLOz6Cr1VUwZ1Ouk_3NSkbadaIFh0d_qn4InBG7thg9sahFEinUBY8Z3QHvjzDtiG2h1r7_M9XMv9DXe0NjXNxIGokxoarOicvOYX0eZfccUdfliOz0lE_iQmhLx-utwpNsju3thQEWwCq9F2ERY2bYv0o&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝗘𝗟 𝗔𝗟𝗖𝗔𝗟𝗗𝗘 𝗗𝗘 𝗖𝗢𝗕𝗜𝗝𝗔 𝗥𝗘𝗖𝗜𝗕𝗜𝗢́ 𝗔𝗟 𝗖𝗟𝗨𝗕 𝗖𝗛𝗔𝗖𝗢 𝗙𝗖 𝗣𝗥𝗢𝗙𝗘𝗦𝗜𝗢𝗡𝗔𝗟 El alcalde de Cobija, Dr. Diego Suárez Viana, r… Ver más 𝗘𝗟 𝗔𝗟𝗖𝗔𝗟𝗗𝗘 𝗗𝗘 𝗖𝗢𝗕𝗜𝗝𝗔 𝗥𝗘𝗖𝗜𝗕𝗜𝗢́ 𝗔𝗟 𝗖𝗟𝗨𝗕 𝗖𝗛𝗔𝗖𝗢 𝗙𝗖 𝗣𝗥𝗢𝗙𝗘𝗦𝗜𝗢𝗡𝗔𝗟 El alcalde de Cobija, Dr. Diego Suárez Viana, r… Ver más Primero la Seguridad!! Ver más comentarios Arnol Daniel Bravo Meza"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/cobija.gob/posts/pfbid023zkdbbcH4rMdNnGHneFTLDKRox6QmFZRmLWD8CZcwvrXFHHxPxQU8j79qhM3SXBl?comment_id=1078893217946452&__cft__[0]=AZaLGHB_Gel9PiC7C1Ij057GIi06wlDlSrPa1bx53aLOz6Cr1VUwZ1Ouk_3NSkbadaIFh0d_qn4InBG7thg9sahFEinUBY8Z3QHvjzDtiG2h1r7_M9XMv9DXe0NjXNxIGokxoarOicvOYX0eZfccUdfliOz0lE_iQmhLx-utwpNsju3thQEWwCq9F2ERY2bYv0o&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Primero la Seguridad!! Arnol Daniel Bravo Meza"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -761,30 +795,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oZ5938NdHPUQ7kNvwHzZbAW&_nc_oc=AdpsJ1aSfiI1PfhxiZGgHO3Q82oH3ThIFajZqDgFKRE-LM278geTZKTOGu8kpY0XKMk&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=1o06cbCon262O94SwRYjgA&_nc_ss=7f289&oh=00_AQH6KEKw3alhIxIwdp8UURhePSvX3zVwzlXP255ZrDsRug&oe=6A8A9DEA",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid02oyjq9eSNi836qLkULqfcuu5yFXQbvs1hr84ec7PvDNvQCWWYydJKMXgBtoGxxdAAl?__cft__[0]=AZbBZFVhWvNfCiAgvLxpBSZhus5FNOTK4oGX1mFcPnFW-AylTUrj6Ff7L6C8iThquKfGhQTzdR0VZWSj0g_1E5aFUL-sbr_MqnM0OGH_jDiVh80GucnWEXPpeviKKtqJ1dY_kHe1MaAu35XagPrwhOItUqSL1E6g2i1-KVZFtnUH6BzYArAxmMz9lhw1EQBa3II&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝐆𝐎𝐁𝐄𝐑𝐍𝐀𝐃𝐎𝐑 𝐈𝐍𝐒𝐏𝐄𝐂𝐂𝐈𝐎𝐍𝐀 𝐄𝐋 𝐏𝐔𝐄𝐍𝐓𝐄 𝐀𝐉𝐈𝐀𝐋 𝐐𝐔𝐄 𝐂𝐎𝐍𝐄𝐂𝐓𝐀 𝐂𝐇𝐔𝐐𝐔𝐈𝐒𝐀𝐂𝐀 𝐂𝐎𝐍 𝐂𝐎𝐂𝐇𝐀𝐁𝐀𝐌𝐁𝐀 «𝐎𝐁𝐑𝐀 𝐄𝐒𝐓𝐑𝐀𝐓𝐄́𝐆𝐈𝐂𝐀 «𝐘 𝐑𝐀𝐓𝐈𝐅𝐈𝐂𝐀 𝐐𝐔𝐄 𝐄𝐒𝐓𝐀𝐑𝐀́ 𝐃𝐎𝐍𝐃𝐄 𝐒𝐄𝐀 𝐂𝐎𝐍𝐕𝐎𝐂𝐀𝐃𝐎 𝐏𝐀𝐑𝐀 𝐈𝐌𝐏𝐔𝐋𝐒𝐀𝐑 𝐎𝐁𝐑𝐀𝐒 El gober… Ver más 𝐆𝐎𝐁𝐄𝐑𝐍𝐀𝐃𝐎𝐑 𝐈𝐍𝐒𝐏𝐄𝐂𝐂𝐈𝐎𝐍𝐀 𝐄𝐋 𝐏𝐔𝐄𝐍𝐓𝐄 𝐀𝐉𝐈𝐀𝐋 𝐐𝐔𝐄 𝐂𝐎𝐍𝐄𝐂𝐓𝐀 𝐂𝐇𝐔𝐐𝐔𝐈𝐒𝐀𝐂𝐀 𝐂𝐎𝐍 𝐂𝐎𝐂𝐇𝐀𝐁𝐀𝐌𝐁𝐀 «𝐎𝐁𝐑𝐀 𝐄𝐒𝐓𝐑𝐀𝐓𝐄́𝐆𝐈𝐂𝐀 «𝐘 𝐑𝐀𝐓𝐈𝐅𝐈𝐂𝐀 𝐐𝐔𝐄 𝐄𝐒𝐓𝐀𝐑𝐀́ 𝐃𝐎𝐍𝐃𝐄 𝐒𝐄𝐀 𝐂𝐎𝐍𝐕𝐎𝐂𝐀𝐃𝐎 𝐏𝐀𝐑𝐀 𝐈𝐌𝐏𝐔𝐋𝐒𝐀𝐑 𝐎𝐁𝐑𝐀𝐒 El gober… Ver más Realizar la verificación en sitio, incluso b"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid02oyjq9eSNi836qLkULqfcuu5yFXQbvs1hr84ec7PvDNvQCWWYydJKMXgBtoGxxdAAl?comment_id=1769241130919366&__cft__[0]=AZbBZFVhWvNfCiAgvLxpBSZhus5FNOTK4oGX1mFcPnFW-AylTUrj6Ff7L6C8iThquKfGhQTzdR0VZWSj0g_1E5aFUL-sbr_MqnM0OGH_jDiVh80GucnWEXPpeviKKtqJ1dY_kHe1MaAu35XagPrwhOItUqSL1E6g2i1-KVZFtnUH6BzYArAxmMz9lhw1EQBa3II&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Realizar la verificación en sitio, incluso bajo condiciones climáticas adversas, demuestra voluntad política y una gestión enfocada en asegurar el avance efectivo de los proyectos de infraestructura. Dani Corzo Jesus"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_oruro",
@@ -795,30 +812,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=kqnCoP1MuCcQ7kNvwE9Lctq&_nc_oc=AdrwHgUNQy3JayaBxfS1MCu468Oa1CxPsrn8y5P2NejJt5o5qzj253Y0697PjQKVtCo&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=UvXRq5hHTEyflEi04eSELQ&_nc_ss=7f289&oh=00_AQGs-2YeKcgu4FnOMv4Co6TrGN-j1sz3MzSOqgdI2Bhqcw&oe=6A8AB0FA",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/862755763589530/?__cft__[0]=AZZdr4K_e9Fy3eAUp_JVT1Gm1eq88vHGuGohADoq9J8En8aUhEEPILsUndNBz9JbEfVRoMg58b5GwmbywdNbkLQ6xqoNL2sGqO9ELxneepJFywuqZxBPAVvocHNe-wLQ9bujBjlZrj1q4sitx_UXWGLLFmzWAF8znt8n93zh2-H1BoQnrsBIg8_ZbV9z4AgUWJ654HQ_yu5hbMFvXFvTMqKn&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#OruroSeLevanta | Los municipios de Caracollo, Belén y Santiago de Andamarca, cuyos pobladores fueron damnificados por efectos climáticos adversos, hoy recibieron ayuda… Ver más Esa ayuda debía ser para familias más necesitadas, pero se ve que la ayuda que les está dando son las autoridades que tienen viáticos Tenemos problemas para reproducir este video. Más información Ver más comentarios Salomó"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/862755763589530/?comment_id=1199394906599522&__cft__[0]=AZZdr4K_e9Fy3eAUp_JVT1Gm1eq88vHGuGohADoq9J8En8aUhEEPILsUndNBz9JbEfVRoMg58b5GwmbywdNbkLQ6xqoNL2sGqO9ELxneepJFywuqZxBPAVvocHNe-wLQ9bujBjlZrj1q4sitx_UXWGLLFmzWAF8znt8n93zh2-H1BoQnrsBIg8_ZbV9z4AgUWJ654HQ_yu5hbMFvXFvTMqKn&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Esa ayuda debía ser para familias más necesitadas, pero se ve que la ayuda que les está dando son las autoridades que tienen viáticos Salomón Chambilla"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_tarija",
@@ -829,13 +829,30 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Zhl9do_Q7NMQ7kNvwG0Hzgz&_nc_oc=Adrg6K989nCV1NgTUyZIMKPAj0r2VvQrPlJKvQGGHpjtXdSBY-cE5dKXmHVjZXRbCZs&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=do59K5_p4NxxlIyV1NSANQ&_nc_ss=7f289&oh=00_AQG1k2sl96lQDcG2FZlOP0AXf0SQM5rA3xEgCtMOdhxQMg&oe=6A8AE3E7",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GADTarija/posts/pfbid0nyRSCeJtPjz9vVrJsqN1o3zqXNeUvyY59pEQ28pVofEmPYtdJGE5FjEqvj5YNdRAl?__cft__[0]=AZae0RX47HEvGiY_JfFMmwUKpX34aBc8e-SAqOT94-e-R_Qdbdng8JCFN3la-q6d_rHWZKqfMJBvKMt__MV2PDcuJrWAHMGyQtuMcwzHxRJfNtt2NbfZJ5hK_Dzorn5XGoAcXvi2IeSEU0xMz_9-UaRTZrztX3uyzStpabBVqKtmEKZqtSsXFzp1oB1e_pXA2O8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Tarija impulsa la reactivación del proyecto IDTR III para ampliar el acceso a energía eléctrica en comunidades rurales… Ver más Excelente trabajo! Cómo se nota el compromiso y dedicación con Tarija Tenemos problemas para reproducir este video. Más información Organización gubernamental Enviar mensaje Ver más comentarios Socrates Garage"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GADTarija/posts/pfbid0nyRSCeJtPjz9vVrJsqN1o3zqXNeUvyY59pEQ28pVofEmPYtdJGE5FjEqvj5YNdRAl?comment_id=1884570066282293&__cft__[0]=AZae0RX47HEvGiY_JfFMmwUKpX34aBc8e-SAqOT94-e-R_Qdbdng8JCFN3la-q6d_rHWZKqfMJBvKMt__MV2PDcuJrWAHMGyQtuMcwzHxRJfNtt2NbfZJ5hK_Dzorn5XGoAcXvi2IeSEU0xMz_9-UaRTZrztX3uyzStpabBVqKtmEKZqtSsXFzp1oB1e_pXA2O8&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Excelente trabajo! Cómo se nota el compromiso y dedicación con Tarija Socrates Garage"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_pando",
@@ -846,30 +863,13 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=a7jfUC1HeYMQ7kNvwE_tN-y&_nc_oc=AdreqeTRHIbn_bDnZJcjjwrmOLL5Gfbr9KcykW2ihn9n5FI_GIbPLFEcGGFPWz24iLk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=KdIoi-EHYWjaUZN04D2lbQ&_nc_ss=7f289&oh=00_AQGE-Jo3-NShsN2GInzoWR158xxe9tSf0MTtsjSd6v9Elw&oe=6A8A8F90",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02MP9T2xomVGCdWrLm45q3S3FPDbUP14cmppXxyGLxne96ou1fGELheAE5seTvCCF3l?__cft__[0]=AZYz4jnXWda5OzbD8aKDj5iPRZIQBdPnU8GWPUzdZQHqpSDTd7eBzsl_fzcm3zCAaWvCkihI1tRw-i4TIEmOpTTnvScYEd3Cv_K3DImwRY0y9POCJ6hoSJUttPXFkRjzvhFTx8Myu-6etKJFkcB3HRmI8nqz5SHafqXX6LR00tbaLoBKt5ng14NI0tGzqp1obkQF3o083KIUS5h41-3CjH2k&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02MP9T2xomVGCdWrLm45q3S3FPDbUP14cmppXxyGLxne96ou1fGELheAE5seTvCCF3l?comment_id=584098196711804&__cft__[0]=AZYz4jnXWda5OzbD8aKDj5iPRZIQBdPnU8GWPUzdZQHqpSDTd7eBzsl_fzcm3zCAaWvCkihI1tRw-i4TIEmOpTTnvScYEd3Cv_K3DImwRY0y9POCJ6hoSJUttPXFkRjzvhFTx8Myu-6etKJFkcB3HRmI8nqz5SHafqXX6LR00tbaLoBKt5ng14NI0tGzqp1obkQF3o083KIUS5h41-3CjH2k&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_beni",
@@ -1434,7 +1434,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 23,
+          "score": 28,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1442,11 +1442,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 21,
+          "score": 20,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Sectores cuestionan el DS 5676 y advierten efectos en precios y abastecimiento Ver más 2 Decreto que reorganiza el Gabinete reduce viceministerios a di"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Gobierno sobre la propuesta de Tuto: el país necesita “soluciones de corto plazo” Ver más 2 Tras ganar dos títulos en Perú, “La hija cóndor” suma 31 es"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
