@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:19:35-04:00",
+  "generated_at": "2026-08-19T12:17:02-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 45.2,
-    "horas_maximo_sin_datos": 114.0
+    "horas_promedio_sin_datos": 46.4,
+    "horas_maximo_sin_datos": 117.0
   },
   "sources": [
     {
@@ -116,12 +116,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Teatro al Aire Libre Jaime Laredo La Paz-Bolivia Performance Art Theatre · Página no oficial\\ufeff Más Inicio Información Información Ver todo Cancha Zapata Ciudad La P'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_lapaz",
@@ -201,12 +201,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_cbba",
@@ -404,13 +404,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jC91wYOJacQQ7kNvwHbyPfG&_nc_oc=AdpWBRTsS4E663CiDs7WJhz8tdjNrEzkGceVT6nUZNTTmjHVwgMOY7Y90WHizudaxYI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ebfrTVMAbU4wQcTgxWZv3Q&_nc_ss=7f289&oh=00_AQHCF5tlqGY-h-QAQP_kN8h6NPqlkIC7-gBOc4Tx3QTnrQ&oe=6A8B9DA1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid022cYJg1FPLoKv5kij1yxyaEn6FUHRzTN7G8P7fFYCcMYGTnsTsZuVzPNXPLUagMZnl?__cft__[0]=AZazdwTA3WivLb-ZF-I7U4NFmDrYNxsIqnPn_iFLZkNu_TIZZBt2uOgKyCgWtY3dsFqZiz468e2wIfWhG89JHldH7sZ6ysXvEWsLS7YcCfxvUjUkYjfCgO99yT2U8_JoEcCCbhPfyCabrI1yQvxmqHZh531PNq5e21dqbaUBqsUaD-v6iup30BAbM3uyWoTBmik&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Internacional #ElDiarioBo… Ver más #Internacional #ElDiarioBo… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_radio_fides",
@@ -438,22 +447,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=w_xkekdWRSQQ7kNvwGrO6Wu&_nc_oc=Adoi5dUrugIwt3ATC6I6hcSE0JZ5qFRtF2Nh9bOCzLilMLle1nSK130runNRc--13SU&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=9PUyo-EhB5FUgkX5Q0BD3Q&_nc_ss=7f289&oh=00_AQEUaYnOYa-Lo1ZtEfDHrVmPf0nE0RQr7HRgsJYnFvt_dQ&oe=6A8B67FA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1372214764976865/?__cft__[0]=AZbCzX1edXvRXdPjL6OR4JkDFt6H0bH7aQ13lbZTTKEqL3IFjJgGmkhnJ2gJhRsB56SVzZE-Kjg3nSz-2AUxTDPi43d1z5G78LKhAzVP6mcE63cnEiMuj5HZB6-PquC3S26OakkXHxoJ0uY0_aH00HUAQb_e54rgyp0rlYo_IJlrBzlMZHaFE6peCVYZlesHXlD5wO-cFq3pYWE7JF1yBji7&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#GrupoFides | #ANF El presidente, Rodrigo Paz, expresó su solidaridad con Nadia Beller y condenó el hecho de violencia en su contra, al que calificó como una situación… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_rtp",
@@ -533,12 +533,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_cultural_bcb",
@@ -1042,22 +1042,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xK0cBeZvmywQ7kNvwH45bsD&_nc_oc=AdokXWNVsPZfp3Tc3eHvQtNfPpwh6puE7cvMUdxHSq3Lps-zwJxkF6GuLzdMjCJPV-w&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=E-NkbC_narLBnIDupwNL-g&_nc_ss=7f289&oh=00_AQH3jXskZ5dzOI1dPDpYG-SBfDaq0Esm_YoVEodKGCLlWg&oe=6A8B91D5",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02hEDmo5iLWDHkoD9KNBzji4Gg8s1JT53uL6gRHABgbks77a4URWq6SBJoGBqXrFn1l?__cft__[0]=AZaKDG3OqXWylzly1mHyWlu-OrfxXUUcBK8ao_-gYxi_gEjDwIehlrWEAGVyUQ-4iXvIm_b7SyL2xlVDhCYtFq5wo_CF9c7HqOCtvhGMp7gREag2EeiCQxZesQQJazzZX5ccePEfiUXaa_Rh-2_UvVyYx4wrmA_kc_eoVqLN0zvbSMMjPdmfhHL8q8Qr3nEvTrk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡No te pierdas el club de conversación este viernes con Eddy! Nivel: B1 recomendado… Ver más ¡No te pierdas el club de conversación este viernes con Eddy! Nivel: B1 recomendado… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1068,30 +1059,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GS-Tqir0S_oQ7kNvwGErMwD&_nc_oc=Ado4Q_4yG7oQQAo_0UJwg8xhkjwbl9OTrmj3e7be78e7MVMXHs_zgsYw3K-NquKiKCg&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=y3-pSYn0QwllHwd356HKPA&_nc_ss=7f289&oh=00_AQG9t1QbMFsUBX0ir8PSaKc8fhKljvTS4QNNy7_Xz37BUA&oe=6A8B9452",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid021mwZtakaNksriQSxona7JCS9UcgjevvMGF57fzk6KB4ShKJzCfn1dyVtc6fepeJKl?__cft__[0]=AZZD2LMQ7Wtufa0hN7gFbVx26GYG1F6EAgF5mwAYTWhuwfh7w_K8qLpfZRv4ILEnprn3G-vPR0y7kEQZgSi-Fas3PvycB5s1LHDj2Rs5qzRf-AUCWD1O9rfw43krY4ri8TPa-xDwBl4IazK8sAGTSvqzbwIZSajtowhZ26L6x42h6aHrJVJZd3nqbc8zQqthZ7Y&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "ENTRE PLIEGUES… Ver más Muy bien!!!! La Alianza Francesa es una asociación de derecho local con un comité compuesto por ciudadanos bolivianos y franceses residentes en el país, sin afanes lucrativos, dedicada principalmente a la difusión del idioma y de la cultura franceses con el fin de permitir el acceso al más grande número de personas a una visión y una expresión diferentes del mundo, a tiempo"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid021mwZtakaNksriQSxona7JCS9UcgjevvMGF57fzk6KB4ShKJzCfn1dyVtc6fepeJKl?comment_id=1784914919180024&__cft__[0]=AZZD2LMQ7Wtufa0hN7gFbVx26GYG1F6EAgF5mwAYTWhuwfh7w_K8qLpfZRv4ILEnprn3G-vPR0y7kEQZgSi-Fas3PvycB5s1LHDj2Rs5qzRf-AUCWD1O9rfw43krY4ri8TPa-xDwBl4IazK8sAGTSvqzbwIZSajtowhZ26L6x42h6aHrJVJZd3nqbc8zQqthZ7Y&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Gilka Gutierrez Muy bien!!!! 3 días"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
