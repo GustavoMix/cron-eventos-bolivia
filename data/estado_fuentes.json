@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:10:52-04:00",
+  "generated_at": "2026-08-19T17:57:33-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 67,
@@ -15,8 +15,8 @@
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 44.9,
-    "horas_maximo_sin_datos": 119.9
+    "horas_promedio_sin_datos": 42.2,
+    "horas_maximo_sin_datos": 122.7
   },
   "sources": [
     {
@@ -114,12 +114,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "ok",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_lapaz",
@@ -199,12 +199,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_cbba",
@@ -300,22 +300,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3xsdKtUdWB4Q7kNvwHyUgqe&_nc_oc=AdpBj96_EFNGDFtwW4b1jyDPK-f-jUyfY1Bf82vBSdK3EY9d243Mw_VYFdyvqDfbz74&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=FnWdXQ3xw5lkzCXe-qcOgw&_nc_ss=7f289&oh=00_AQFaH2VpbnOUvX3ajdDVayLu5zpw-D2Kak4DVDJwbXnBTA&oe=6A8BC4CC",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid0e37PQnLWMDHsuvNAee5iP4dGXZdbTmK15HZz8ZJeKX9EFjW5haXewvNZvKqfvRYil?__cft__[0]=AZaHiQVppV6L7ZwrsZcb4yvmG-Moal0LYwRi-Rb4VbleRr4YVSXwahib8OCi-h2dkZ2dN3kHKdbUo1JCDPsD07nuMFnriUBVBz7nIjy-yEShx93APPZkXJYvLX4_STQ1q6USEAPIxzskGzuftPUImXha1Gi6QQqRtBBLC-mh-gMvD3pWDTP9-LYnpqyhbTi-n_o&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La primera sesión del Consejo Departamental de Seguridad Ciudadana concentró a las autoridades de diferentes instituciones para trazar acciones tras la ola de crímenes … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_reduno",
@@ -360,22 +351,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SEEqzMaqsTQQ7kNvwHVRuCq&_nc_oc=AdqdcAsxrQ_h_htbtVA-OzdsJQ7DR_0FcN7GJg_hkTNa6tYdukSQkXQpYEmyjBmVtTw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=irkp0_2AQjFm5WeepCn2nQ&_nc_ss=7f289&oh=00_AQHwznPmZO0LrqLeyimBs6pCvnbsUdQgbdJSPUvE2C18rg&oe=6A8BD4C1",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "concierto",
-          "url": "https://www.facebook.com/61567518883240/videos/en-vivo-%EF%B8%8Fsao-paulo-derrota-al-bol%C3%ADvar-%EF%B8%8Fthe-strongest-se-impone-en-el-siles-sigue/2278895212881647/",
-          "has_image": true,
-          "text_preview": "EN VIVO Sao Paulo Derrota al Bolívar … Ver más EN VIVO Sao Paulo Derrota al Bolívar … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_bolivision",
@@ -386,13 +368,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dfJCBpKqWJEQ7kNvwHVkkjL&_nc_oc=AdrSxI2cBP19OyGyVOwmqiMu25DHgqftZl2D__i2CX9BN-rE7TiERHswmXBjaxTqRSc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=HDype5JmJYm74uYBcbimJw&_nc_ss=7f289&oh=00_AQFjKCfuFRJsTWjuhnhW1LJ3G0K-v9wZ5ivrf7q6Sw0l4g&oe=6A8C07CC",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/NoticiasBolivision/posts/pfbid02m7jtipt3ReePGytjRdEZoywiSSjvjm9Czy896B3snu2uNra4XdBzD1YvJJ3w6qCQl?__cft__[0]=AZb0E5kVjcyCPrpQj3n2VSvAiQ8xVPDD6AXrjFS45U2C6ztYKuAffbFcA_kfmoOjaQb5TktfWzEQGOAk-gqZjysLGl13SW4qVtvJ8VkQA3J9C0A5RxdAmf0_IYn1-a8hFZSWt03h_pCEOYu7qvTTfUHyeg_4WN30rxZMzGwv5X6w4PkxoFp-451PKOzds46Qi-k&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "“Sí, lo haré”: Trump confirma que se reunirá con Kim Jong-un… Ver más REDBOLIVISION.TV.BO Trump confirma que se reunirá con Kim Jong-un este año"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_erbol",
@@ -403,13 +394,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/762867835_1486603256840062_112288559762726375_n.jpg?stp=dst-jpg_tt6&cstp=mx494x494&ctp=s494x494&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=scOkamSIut8Q7kNvwEppkM5&_nc_oc=Adq3CLBns-GUysnCAMbg9EXdd40m_v1XtSC_1YKmEpQ7TtUMzlX_Q-7Bv5rx_CWDuVI&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=r09g2yZoaGVC9BeP7cyL5w&_nc_ss=7f289&oh=00_AQFXNLU9ttnJN_6X133nNuULWA4nbL98eGrZAKdhfhp37Q&oe=6A8BDFC4",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_el_diario",
@@ -505,13 +496,30 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0EkXlmMKVzoQ7kNvwH8ADz4&_nc_oc=AdpbKbHKa9Y194N2D04T2CrwttQjNB_4o1x6sLpdkH5zCeJQZL7JtWkdHT0k8ytfDdQ&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=XX0E5qNh4W7GsbMpOdWgkQ&_nc_ss=7f289&oh=00_AQGd8nnpeRlO3LX4vmM488h1FZFlK6uVo7CGzeCxsBqZ-g&oe=6A8C02A9",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldeberradio/videos/1052370880999273/?__cft__[0]=AZbe2NVymXPy241Qovm05Il1cKIDOn-jioYfrxqRBhMEIexpL7WrqWctL2oW9mxGvjGLWSaox2FY-5LRYrDii1UnBUdhNkfuIDwpamWBVU65iDkUHA8eBUw-MTM-akaxmn18n-bQP4wAcWtObg4fJPEYtIn3eisKW2FqEwEjAtlxkG08GR_u_0C8qFbjEQm9sdEVofSSfIAGr9JZyuC8uolS&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#DoblePerspectivaVIVO | Hoy en Doble Perspectiva… Ver más Gracias. Importante información. Dios bendiga al centro NeuroRehabilita. Tenemos problemas para reproducir este video. Más información Miguel Ticona"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldeberradio/videos/1052370880999273/?comment_id=1059480719828689&__cft__[0]=AZbe2NVymXPy241Qovm05Il1cKIDOn-jioYfrxqRBhMEIexpL7WrqWctL2oW9mxGvjGLWSaox2FY-5LRYrDii1UnBUdhNkfuIDwpamWBVU65iDkUHA8eBUw-MTM-akaxmn18n-bQP4wAcWtObg4fJPEYtIn3eisKW2FqEwEjAtlxkG08GR_u_0C8qFbjEQm9sdEVofSSfIAGr9JZyuC8uolS&__tn__=R]-R",
+          "has_image": false,
+          "text_preview": "Gracias. Importante información. Dios bendiga al centro NeuroRehabilita. Miguel Ticona"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fides_cbba",
@@ -540,12 +548,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_fundacion_cultural_bcb",
@@ -1238,8 +1246,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 4,
-      "events": 3,
+      "raw_items": 5,
+      "events": 4,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1320,7 +1328,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1394,8 +1402,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
