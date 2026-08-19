@@ -1,24 +1,22 @@
 {
-  "generated_at": "2026-08-19T12:17:02-04:00",
+  "generated_at": "2026-08-19T15:10:52-04:00",
   "coverage": {
     "fuentes_totales": 70,
-    "con_datos_alguna_vez": 66,
+    "con_datos_alguna_vez": 67,
     "nunca_vistas": [
       "fb_gam_cbba",
       "fb_lostiempos",
-      "fb_ministerio_culturas",
-      "fb_teatro_aire_libre"
+      "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
-      "fb_ministerio_culturas",
-      "fb_teatro_aire_libre"
+      "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 46.4,
-    "horas_maximo_sin_datos": 117.0
+    "horas_promedio_sin_datos": 44.9,
+    "horas_maximo_sin_datos": 119.9
   },
   "sources": [
     {
@@ -116,12 +114,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_municipio_lapaz",
@@ -201,12 +199,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gob_cbba",
@@ -302,13 +300,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3xsdKtUdWB4Q7kNvwHyUgqe&_nc_oc=AdpBj96_EFNGDFtwW4b1jyDPK-f-jUyfY1Bf82vBSdK3EY9d243Mw_VYFdyvqDfbz74&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=FnWdXQ3xw5lkzCXe-qcOgw&_nc_ss=7f289&oh=00_AQFaH2VpbnOUvX3ajdDVayLu5zpw-D2Kak4DVDJwbXnBTA&oe=6A8BC4CC",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid0e37PQnLWMDHsuvNAee5iP4dGXZdbTmK15HZz8ZJeKX9EFjW5haXewvNZvKqfvRYil?__cft__[0]=AZaHiQVppV6L7ZwrsZcb4yvmG-Moal0LYwRi-Rb4VbleRr4YVSXwahib8OCi-h2dkZ2dN3kHKdbUo1JCDPsD07nuMFnriUBVBz7nIjy-yEShx93APPZkXJYvLX4_STQ1q6USEAPIxzskGzuftPUImXha1Gi6QQqRtBBLC-mh-gMvD3pWDTP9-LYnpqyhbTi-n_o&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La primera sesión del Consejo Departamental de Seguridad Ciudadana concentró a las autoridades de diferentes instituciones para trazar acciones tras la ola de crímenes … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_reduno",
@@ -353,13 +360,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SEEqzMaqsTQQ7kNvwHVRuCq&_nc_oc=AdqdcAsxrQ_h_htbtVA-OzdsJQ7DR_0FcN7GJg_hkTNa6tYdukSQkXQpYEmyjBmVtTw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=irkp0_2AQjFm5WeepCn2nQ&_nc_ss=7f289&oh=00_AQHwznPmZO0LrqLeyimBs6pCvnbsUdQgbdJSPUvE2C18rg&oe=6A8BD4C1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "concierto",
+          "url": "https://www.facebook.com/61567518883240/videos/en-vivo-%EF%B8%8Fsao-paulo-derrota-al-bol%C3%ADvar-%EF%B8%8Fthe-strongest-se-impone-en-el-siles-sigue/2278895212881647/",
+          "has_image": true,
+          "text_preview": "EN VIVO Sao Paulo Derrota al Bolívar … Ver más EN VIVO Sao Paulo Derrota al Bolívar … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_bolivision",
@@ -404,22 +420,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jC91wYOJacQQ7kNvwHbyPfG&_nc_oc=AdpWBRTsS4E663CiDs7WJhz8tdjNrEzkGceVT6nUZNTTmjHVwgMOY7Y90WHizudaxYI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ebfrTVMAbU4wQcTgxWZv3Q&_nc_ss=7f289&oh=00_AQHCF5tlqGY-h-QAQP_kN8h6NPqlkIC7-gBOc4Tx3QTnrQ&oe=6A8B9DA1",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid022cYJg1FPLoKv5kij1yxyaEn6FUHRzTN7G8P7fFYCcMYGTnsTsZuVzPNXPLUagMZnl?__cft__[0]=AZazdwTA3WivLb-ZF-I7U4NFmDrYNxsIqnPn_iFLZkNu_TIZZBt2uOgKyCgWtY3dsFqZiz468e2wIfWhG89JHldH7sZ6ysXvEWsLS7YcCfxvUjUkYjfCgO99yT2U8_JoEcCCbhPfyCabrI1yQvxmqHZh531PNq5e21dqbaUBqsUaD-v6iup30BAbM3uyWoTBmik&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Internacional #ElDiarioBo… Ver más #Internacional #ElDiarioBo… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_radio_fides",
@@ -1313,7 +1320,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1392,7 +1399,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 4,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1400,11 +1407,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
+          "score": 24,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "17/08/2026 Cultura Gilmer Rojas expone en el ‘Gíldaro Antezana’ La muestra exhibirá durante 15 días la obra del ganador del Concurso Municipal de Artes Plásticas \"Salón Municipal 14 de Septiembre\" en 2025. vista 17/08/2026 Cultura ‘Comerás flores’ de Lucía Solla Sobra: del deslumbramiento al abismo Hoy nos detenemos ante un fenómeno que ha sacudido las librerías: “Comerás flores”. No es solo una n"
+          "text_preview": "19/08/2026 Cultura ATiTeCuento interpreta “Detrás de las sombras” en la Alianza Francesa El grupo ATiTeCuento pondrá en escena la obra “Detrás de las sombras” en el auditorio de la Alianza Francesa de Cochabamba. El espectáculo levanta telón a las... vista 17/08/2026 Cultura Gilmer Rojas expone en el ‘Gíldaro Antezana’ La muestra exhibirá durante 15 días la obra del ganador del Concurso Municipal "
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1412,7 +1419,7 @@
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Detienen a Fernando Cerimedo en el caso del intento de asesinato de Nadia Beller Ver más 2 \"Intentaron silenciarme\": Nadia Beller apunta a Fernando Cer"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Nadia Beller estaría con cuatro semanas de embarazo Ver más 2 Espinoza consultará al TCP si voto de censura de la ALP en su contra es legal Ver más 3 \""
         }
       ],
       "error": null
