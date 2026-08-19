@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T03:22:17-04:00",
+  "generated_at": "2026-08-19T05:54:49-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 46.3,
-    "horas_maximo_sin_datos": 108.1
+    "horas_promedio_sin_datos": 45.1,
+    "horas_maximo_sin_datos": 110.6
   },
   "sources": [
     {
@@ -98,13 +98,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8BLM0C2o8rkQ7kNvwEyRn3F&_nc_oc=AdopN0UpZBpMYeQo18pHCheaSdMMcjB0dOsTH1TX4IWTDKBCC9BEj4p3lEwKSdCogfo&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=RJ0Ogn5njnkaEbaGbSv-hA&_nc_ss=7f289&oh=00_AQEkjo-4W3ytQj-0wg1SzGt0TxXO7sbpXUA9KpWXOgD8ew&oe=6A8B3E50",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://es-la.facebook.com/login",
+          "has_image": true,
+          "text_preview": "La oportunidad de descubrir novedades está en Expocruz 2026!… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -201,12 +210,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gob_cbba",
@@ -269,12 +278,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_opinion",
@@ -472,13 +481,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oSr8mRjDHYYQ7kNvwE-fBQ4&_nc_oc=Ado0Yunw5W6oMmkq-8fVYjZWydxExbHhdiBIsUNG9olG1gbdcGCn-ciG_ZRI0qr-GsU&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=dvlYpL1rfVMLmjzmXIuP7A&_nc_ss=7f289&oh=00_AQHsdxvqCFvKilbLaNuD8aR_CohbyhQmAJW--0bQ4C_a0A&oe=6A8B4882",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid0GXGyV6jcoQYrjHj6BRfZGZMn3cAysAH5A6XhwYckuWnWvy2KBPaLU87cNDqq5ihgl?__cft__[0]=AZbjSb3527pBgMudGPfpnJ55VuY6kHtKrXfOmjj0hAjy-dZiXaDT20iSEcUccg-BGuHKzVoFMWwMRNbgH_caFvRMTJ7JDZV-CC47vGxxMaK7I7VWTsE_KAteezSjAoKbjQxnbUwcLv9xJ61bXnjRcfkVi27Yp3KIP9lr0fU-BAtxBYxcqof8OtU1sTkrK4PeZvc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Internacional Gobierno de México consultará a más de un millón de docentes sobre el uso de celulares en las escuelas.… Ver más #Internacional Gobierno de México consultará a más de un millón de docentes sobre el uso de celulares en las escuelas.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber_radio",
@@ -540,22 +558,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=07Xkbxm13JgQ7kNvwFpVnCG&_nc_oc=AdqKDiXYGqQD9CWwrnoorCDaTlIESZukGV1x09YdCKF25OMvRQHrZPpCBAf4ZUWjhcM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=lyMD16sqFOGNSvbCwnYdtg&_nc_ss=7f289&oh=00_AQGmsKuAZp-K647LbvksGnxVh_ZKEnE7wnwmxA0qNdaMJQ&oe=6A8B3B73",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid036UxyS2gysKQvV56BJHt9ZGHF3JB9kkpbSmHHwTzSnYugrCJrmg5eYWBe6qLaL4D2l?__cft__[0]=AZYkApcEMmzhGJAiHN6NttXofZ9iP6UcdQ01rXikf7yhfDCFMk6bjxDbStvcI0D9HNDQjXgoRBKPCNsIqv6kKISF3cZY8vR41XIV8uIbO9oMye0e71F3rUvIYkJIpX0plZQGoagCClGfd2oUgXJ666ry_0fepE6iqetmldN2tGyAhYBnNc5Fe4Xq0P5ssQUkWRM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "BOLIVIATV.BO MUSEF inaugura la RAE 2026, un encuentro entre cultura, saberes y medicina"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -736,13 +745,30 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1ZKH5kdKue4Q7kNvwE8dKgP&_nc_oc=AdqESFkjZfkH_uSpGM-vz_GXjGggYstWwOum5kEEzEj-QpQN60084ediDLVnAB6zKKY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=2i-1KA9H9EYgAcz9n4ZQIg&_nc_ss=7f289&oh=00_AQGGfvNBhMOZBmDBHUwQ_khzU4NcwSn-MfHdU6ZfXjz3DA&oe=6A8B653D",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "feria",
+          "url": "https://www.facebook.com/GAMTDD/videos/trinidad-celebra-su-cultura-en-la-iv-feria-cultural-trinidad-vive-con-orgullo-su/1076279341602268/",
+          "has_image": true,
+          "text_preview": "TRINIDAD CELEBRA SU CULTURA EN LA IV FERIA CULTURAL 🎶🎤🎻🎨 Trinidad vive con orgullo su cultura. El Instituto Arnaldo Lijerón Casanovas, junto al Gobierno Autónomo Municipal de Trinidad y la Dirección... TRINIDAD CELEBRA SU CULTURA EN LA IV FERIA CULTURAL 🎶🎤🎻🎨 Trinidad vive con orgullo su cultura. El Instituto Arnaldo Lijerón Casanovas, junto al Gobierno..."
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1076279341602268/?comment_id=1377842793853163&__cft__[0]=AZbPkKisas4dFW_M3hKx91Z8ua3E9lmUiPj5WxcdZoAPtEu68xYJkkHNHrvwWfYm74PS66Vbz7WcQHI5dfZBR20vEkf97Gi1HxGMEO9_iO6FwhCaIgmqVEpJIjUzI6vyFv8Y6LpgG61kDlVISidlgjTrzf99EZq4zvLNLZESlZcTUF6824wrKHCEn8QZCijPpAp5pEWOjy5mBt0TFSM64qnT&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "viernes es 21 de agosto Ariel Candia Arroyo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_cobija",
@@ -873,12 +899,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -991,22 +1017,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=y4pKOgU9AFEQ7kNvwF3WVJe&_nc_oc=Adqh7l5wQHh9vtoCeNM47YdCxxZrLPiEuHe3fHRdohBJkdhWv0SwCu-J32YcZSqxlkI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=7PaLErhpauXLXHMBojez8w&_nc_ss=7f289&oh=00_AQFarBuPNsDATLiLu7OmS9ntKhnizEnUU1MV8AHbCd20nA&oe=6A8B3943",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/TarijaCultura/posts/compartimos-con-ustedes-algunas-im%C3%A1genes-de-lo-vivido-en-la-presentaci%C3%B3n-de-las-/1339265288358211/",
-          "has_image": true,
-          "text_preview": "Compartimos con ustedes algunas imágenes de lo vivido en la presentación de las memorias de Francisco Burdette O’Connor, tituladas “En busca de una Patria”, evento realizado en el Archivo histórico... Compartimos con ustedes algunas imágenes de lo vivido en la presentación de las memorias de Francisco Burdette O’Connor, tituladas “En busca de una... Compartimos con ustedes algunas imágenes de lo v"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1396,8 +1413,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
