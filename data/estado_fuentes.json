@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T05:54:49-04:00",
+  "generated_at": "2026-08-19T09:19:35-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 66,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 45.1,
-    "horas_maximo_sin_datos": 110.6
+    "horas_promedio_sin_datos": 45.2,
+    "horas_maximo_sin_datos": 114.0
   },
   "sources": [
     {
@@ -98,22 +98,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8BLM0C2o8rkQ7kNvwEyRn3F&_nc_oc=AdopN0UpZBpMYeQo18pHCheaSdMMcjB0dOsTH1TX4IWTDKBCC9BEj4p3lEwKSdCogfo&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=RJ0Ogn5njnkaEbaGbSv-hA&_nc_ss=7f289&oh=00_AQEkjo-4W3ytQj-0wg1SzGt0TxXO7sbpXUA9KpWXOgD8ew&oe=6A8B3E50",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 26,
-          "category": "otro",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": true,
-          "text_preview": "La oportunidad de descubrir novedades está en Expocruz 2026!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -447,13 +438,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=w_xkekdWRSQQ7kNvwGrO6Wu&_nc_oc=Adoi5dUrugIwt3ATC6I6hcSE0JZ5qFRtF2Nh9bOCzLilMLle1nSK130runNRc--13SU&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=9PUyo-EhB5FUgkX5Q0BD3Q&_nc_ss=7f289&oh=00_AQEUaYnOYa-Lo1ZtEfDHrVmPf0nE0RQr7HRgsJYnFvt_dQ&oe=6A8B67FA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1372214764976865/?__cft__[0]=AZbCzX1edXvRXdPjL6OR4JkDFt6H0bH7aQ13lbZTTKEqL3IFjJgGmkhnJ2gJhRsB56SVzZE-Kjg3nSz-2AUxTDPi43d1z5G78LKhAzVP6mcE63cnEiMuj5HZB6-PquC3S26OakkXHxoJ0uY0_aH00HUAQb_e54rgyp0rlYo_IJlrBzlMZHaFE6peCVYZlesHXlD5wO-cFq3pYWE7JF1yBji7&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#GrupoFides | #ANF El presidente, Rodrigo Paz, expresó su solidaridad con Nadia Beller y condenó el hecho de violencia en su contra, al que calificó como una situación… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_rtp",
@@ -481,22 +481,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oSr8mRjDHYYQ7kNvwE-fBQ4&_nc_oc=Ado0Yunw5W6oMmkq-8fVYjZWydxExbHhdiBIsUNG9olG1gbdcGCn-ciG_ZRI0qr-GsU&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=dvlYpL1rfVMLmjzmXIuP7A&_nc_ss=7f289&oh=00_AQHsdxvqCFvKilbLaNuD8aR_CohbyhQmAJW--0bQ4C_a0A&oe=6A8B4882",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid0GXGyV6jcoQYrjHj6BRfZGZMn3cAysAH5A6XhwYckuWnWvy2KBPaLU87cNDqq5ihgl?__cft__[0]=AZbjSb3527pBgMudGPfpnJ55VuY6kHtKrXfOmjj0hAjy-dZiXaDT20iSEcUccg-BGuHKzVoFMWwMRNbgH_caFvRMTJ7JDZV-CC47vGxxMaK7I7VWTsE_KAteezSjAoKbjQxnbUwcLv9xJ61bXnjRcfkVi27Yp3KIP9lr0fU-BAtxBYxcqof8OtU1sTkrK4PeZvc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Internacional Gobierno de México consultará a más de un millón de docentes sobre el uso de celulares en las escuelas.… Ver más #Internacional Gobierno de México consultará a más de un millón de docentes sobre el uso de celulares en las escuelas.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber_radio",
@@ -745,30 +736,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1ZKH5kdKue4Q7kNvwE8dKgP&_nc_oc=AdqESFkjZfkH_uSpGM-vz_GXjGggYstWwOum5kEEzEj-QpQN60084ediDLVnAB6zKKY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=2i-1KA9H9EYgAcz9n4ZQIg&_nc_ss=7f289&oh=00_AQGGfvNBhMOZBmDBHUwQ_khzU4NcwSn-MfHdU6ZfXjz3DA&oe=6A8B653D",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "feria",
-          "url": "https://www.facebook.com/GAMTDD/videos/trinidad-celebra-su-cultura-en-la-iv-feria-cultural-trinidad-vive-con-orgullo-su/1076279341602268/",
-          "has_image": true,
-          "text_preview": "TRINIDAD CELEBRA SU CULTURA EN LA IV FERIA CULTURAL 🎶🎤🎻🎨 Trinidad vive con orgullo su cultura. El Instituto Arnaldo Lijerón Casanovas, junto al Gobierno Autónomo Municipal de Trinidad y la Dirección... TRINIDAD CELEBRA SU CULTURA EN LA IV FERIA CULTURAL 🎶🎤🎻🎨 Trinidad vive con orgullo su cultura. El Instituto Arnaldo Lijerón Casanovas, junto al Gobierno..."
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1076279341602268/?comment_id=1377842793853163&__cft__[0]=AZbPkKisas4dFW_M3hKx91Z8ua3E9lmUiPj5WxcdZoAPtEu68xYJkkHNHrvwWfYm74PS66Vbz7WcQHI5dfZBR20vEkf97Gi1HxGMEO9_iO6FwhCaIgmqVEpJIjUzI6vyFv8Y6LpgG61kDlVISidlgjTrzf99EZq4zvLNLZESlZcTUF6824wrKHCEn8QZCijPpAp5pEWOjy5mBt0TFSM64qnT&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "viernes es 21 de agosto Ariel Candia Arroyo"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_cobija",
@@ -1068,13 +1042,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xK0cBeZvmywQ7kNvwH45bsD&_nc_oc=AdokXWNVsPZfp3Tc3eHvQtNfPpwh6puE7cvMUdxHSq3Lps-zwJxkF6GuLzdMjCJPV-w&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=E-NkbC_narLBnIDupwNL-g&_nc_ss=7f289&oh=00_AQH3jXskZ5dzOI1dPDpYG-SBfDaq0Esm_YoVEodKGCLlWg&oe=6A8B91D5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02hEDmo5iLWDHkoD9KNBzji4Gg8s1JT53uL6gRHABgbks77a4URWq6SBJoGBqXrFn1l?__cft__[0]=AZaKDG3OqXWylzly1mHyWlu-OrfxXUUcBK8ao_-gYxi_gEjDwIehlrWEAGVyUQ-4iXvIm_b7SyL2xlVDhCYtFq5wo_CF9c7HqOCtvhGMp7gREag2EeiCQxZesQQJazzZX5ccePEfiUXaa_Rh-2_UvVyYx4wrmA_kc_eoVqLN0zvbSMMjPdmfhHL8q8Qr3nEvTrk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡No te pierdas el club de conversación este viernes con Eddy! Nivel: B1 recomendado… Ver más ¡No te pierdas el club de conversación este viernes con Eddy! Nivel: B1 recomendado… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1085,13 +1068,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GS-Tqir0S_oQ7kNvwGErMwD&_nc_oc=Ado4Q_4yG7oQQAo_0UJwg8xhkjwbl9OTrmj3e7be78e7MVMXHs_zgsYw3K-NquKiKCg&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=y3-pSYn0QwllHwd356HKPA&_nc_ss=7f289&oh=00_AQG9t1QbMFsUBX0ir8PSaKc8fhKljvTS4QNNy7_Xz37BUA&oe=6A8B9452",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid021mwZtakaNksriQSxona7JCS9UcgjevvMGF57fzk6KB4ShKJzCfn1dyVtc6fepeJKl?__cft__[0]=AZZD2LMQ7Wtufa0hN7gFbVx26GYG1F6EAgF5mwAYTWhuwfh7w_K8qLpfZRv4ILEnprn3G-vPR0y7kEQZgSi-Fas3PvycB5s1LHDj2Rs5qzRf-AUCWD1O9rfw43krY4ri8TPa-xDwBl4IazK8sAGTSvqzbwIZSajtowhZ26L6x42h6aHrJVJZd3nqbc8zQqthZ7Y&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "ENTRE PLIEGUES… Ver más Muy bien!!!! La Alianza Francesa es una asociación de derecho local con un comité compuesto por ciudadanos bolivianos y franceses residentes en el país, sin afanes lucrativos, dedicada principalmente a la difusión del idioma y de la cultura franceses con el fin de permitir el acceso al más grande número de personas a una visión y una expresión diferentes del mundo, a tiempo"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid021mwZtakaNksriQSxona7JCS9UcgjevvMGF57fzk6KB4ShKJzCfn1dyVtc6fepeJKl?comment_id=1784914919180024&__cft__[0]=AZZD2LMQ7Wtufa0hN7gFbVx26GYG1F6EAgF5mwAYTWhuwfh7w_K8qLpfZRv4ILEnprn3G-vPR0y7kEQZgSi-Fas3PvycB5s1LHDj2Rs5qzRf-AUCWD1O9rfw43krY4ri8TPa-xDwBl4IazK8sAGTSvqzbwIZSajtowhZ26L6x42h6aHrJVJZd3nqbc8zQqthZ7Y&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Gilka Gutierrez Muy bien!!!! 3 días"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
