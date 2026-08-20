@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T21:57:00-04:00",
+  "generated_at": "2026-08-20T00:04:08-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 67,
@@ -15,8 +15,8 @@
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 39.9,
-    "horas_maximo_sin_datos": 126.7
+    "horas_promedio_sin_datos": 35.4,
+    "horas_maximo_sin_datos": 126.2
   },
   "sources": [
     {
@@ -28,22 +28,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-2TjNHyYJH4Q7kNvwF_ycHn&_nc_oc=AdrfE652BMy4JIIxrvPgbrsPrRvmv9uvy6RLBAi4aOo8-cEpMikXKmskZXYHbpXYM_g&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=50-zRz2GKNLDD8lkYKAr_Q&_nc_ss=7f289&oh=00_AQHZRpLVSV7EOA1HASK-nKlXcjWIKa8vt46ajxMvY0xbOQ&oe=6A8C359A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "tecnologia",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid029Zk7zFjJsxyiVfQC5F85JQwLCCYofDST3q2h2VDxUE61KT7viCgc9EWUNfNf7mCwl?__cft__[0]=AZaC7kONJkQlICvdCDIr4pnUJJQ7PAmKPK8pkVXrvKhZ9GXdxx3aPNs8qj8IeR8DFtl4kUr6G8FB7Zo0hoimJHiUTUY7UqgHNLjyX_uJdfhlWWQWnEPeRpMie4NqfYTPdNBcT9UHG00GxHhDWzQ0zwr5LkeV9hFLDc-a-rNTKXnIy0M0Z7uHvilVandB-wNrqOg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA INTELIGENCIA ARTIFICIAL TAMBIÉN PUEDE SER TU MEJOR ALIADA PARA EMPRENDER! La… Ver más ¡LA INTELIGENCIA ARTIFICIAL TAMBIÉN PUEDE SER TU MEJOR ALIADA PARA EMPRENDER! La… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -292,13 +283,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9kvPaLlPStMQ7kNvwFbOmcC&_nc_oc=AdoQEwkbN9L3OAxwfaWX-jVPWtPhOfsHOgodQZQkAlc-j4LzFFuhSHkl_xQuPHnaPZs&_nc_zt=24&_nc_ht=scontent-sin6-2.xx&_nc_gid=S05Yo-kuKs2-FYJ_DH77ww&_nc_ss=7f289&oh=00_AQGDmnusP_X6CSCg4jo4XiXhyFkkb98kJpt9rxe9jwbJAw&oe=6A8C2DFE",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber",
@@ -326,13 +317,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=SS4dvcJWFcsQ7kNvwELDJEN&_nc_oc=AdpyKHwII1GM5MANw7VZSRe-lKlpPbyDEBqE2oqF0xPAXkz1qK90QaVUSrp5bX0brLg&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_ss=7f289&oh=00_AQFTtM8w1yjGYhBUIdfgGwSCuZWISmUB-YSh_stSPdYWlQ&oe=6AADDD3A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/948820267606990/?__cft__[0]=AZZeS9Eig8VUxWVPWQQT0QzCgtbtTC8zvYL3V-eC-ZUD8HYgTIFZSd7nn6MZbXo7BJpdSGNHuvwOoXyj9bUR-oWU0S4vM8UUlmzjv-yXQpAzexBLPPYt-h_uEeuY0xmqTFsYl9WLq7dNMFbexHWNpITwngsj945ayyMqgcdOEwtOc9WhAi_3r9_oZrMjK72b3WARQ_p8_X5qkRCcg8Rnxl8O&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#Comunidad | EMSA suspenderá el recojo domiciliario de basura este jueves y viernes debido a la falta de diésel. La empresa informó que no recibió los 10 mil litros de … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_unitel",
@@ -343,13 +343,30 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OaxM2lVzbhwQ7kNvwF6QQZz&_nc_oc=Adqw9PUNmlj1nncvdMoWA_BnzqRtxZ2qjuS2CD7qoVuj9w8oVCUxWEzh1Dqu9U_NUPU&_nc_zt=24&_nc_ht=scontent-sin6-3.xx&_nc_gid=TdMkY346kZk7A4F5m_epRw&_nc_ss=7f289&oh=00_AQGIft32GmFV8R3Mi3jAMgvIR0cIpfB5QJjx3Db693-eTQ&oe=6A8C44FF",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1106419808722099/?__cft__[0]=AZZtiGhV7f6lwJVb7FEJzHnn0RQxlEDmnyxlLAAf8P4i1mmSFhnVp4S9ywW467G0K97oT2waLw_5hCrR085MQR_ixu3M9xTBxtfrgu8G9nmUOeVjAoNGgNTBwu8J7zDQcFqGdM6SlOpjd0d3IT43mrH6MAuPWC34CE3FoDfgmO3Bx-GB2YMDa2gkNXP8I990bd6xMAqiOUL01crEcBuoO7z3&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Desde las alturas, la cordillera luce cubierta por un manto blanco tras la nevada, dejando una impresionante postal de los Andes rumbo a La Paz.… Ver más Hermoso paisaje Tenemos problemas para reproducir este video. Más información Maximo Benthin"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1106419808722099/?comment_id=1857452208565457&__cft__[0]=AZZtiGhV7f6lwJVb7FEJzHnn0RQxlEDmnyxlLAAf8P4i1mmSFhnVp4S9ywW467G0K97oT2waLw_5hCrR085MQR_ixu3M9xTBxtfrgu8G9nmUOeVjAoNGgNTBwu8J7zDQcFqGdM6SlOpjd0d3IT43mrH6MAuPWC34CE3FoDfgmO3Bx-GB2YMDa2gkNXP8I990bd6xMAqiOUL01crEcBuoO7z3&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Maximo Benthin Hermoso paisaje 8 min"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_atb",
@@ -428,22 +445,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5p-JsQEDtj0Q7kNvwHcduMp&_nc_oc=AdqV2DW31k4--UYEAz38TONuSRmSwslxbCQ-jN-vtF0sP-ZNaQFt3HVt32mSrIKDFng&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=5uoJ5_KPM-77T5zzvDUQHQ&_nc_ss=7f289&oh=00_AQHefkjRp9bh8z1CeGdDcmqpJzIfURF9uxIfcpEy1gfBGw&oe=6A8C3A88",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02NEazgH59ufW659JoPP4TJKLGrwGPB1FxNgkZtX1uXm2nCuRFYDsqgvy2hhrk2WVl?__cft__[0]=AZYFoATe3b2JrxD3xu2uMV2A3oe3pE4rjgivghpLestRFSFIaYaItkf_tp6xV-mnwcUslFP9QjrZV4qFZzR8qK288bPHrof8r84C1PGztiwUwlAxJ6RwubcY57RV86Vs_HMej8plT2TB4kHeS84kjD-UORCfNQVY7JYzwfXgObuHA7i_UAn6aHlGbVQ0nOnfkSs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#GrupoFides | #RadioFidesLaPaz Medrano señaló que en las próximas horas se emitirá la imputación correspondiente y recordó que el principal investigado en este proces… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_anf",
@@ -471,13 +479,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZTUjcFY8gsMQ7kNvwFNH6FQ&_nc_oc=Ado769gwvUkV0fL9UZpAjvR7TDckjH7eWiHJsW79eCjNUdrTt068VC_3vrvRfq6XGqM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=8QWj_1NmU_KAqxH6VQMFdg&_nc_ss=7f289&oh=00_AQFCnURtn5ufWFVOHUOnkjZo_BFIcTW7caOYZipqvfG2dw&oe=6A8C5A85",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 12,
+          "category": "otro",
+          "url": "https://www.facebook.com/rtpbolivia/videos/-claroscuro-las-voces-que-marcan-la-agendalas-noticias-los-protagonistas-y-los-t/1531419031599427/",
+          "has_image": true,
+          "text_preview": "🌑 CLAROSCURO LAS VOCES QUE MARCAN LA AGENDA Las noticias, los protagonistas y los temas que generan debate están en la mesa. 🎙️ Análisis y diferentes puntos de vista para entender lo que está... 🌑 CLAROSCURO LAS VOCES QUE MARCAN LA AGENDA Las noticias, los protagonistas y los temas que generan debate están en la mesa. 🎙️ Análisis y diferentes..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_abya_yala",
@@ -522,22 +539,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=m86e9Dow7OYQ7kNvwHeRjrm&_nc_oc=Adpu5jSHzsuJjd_F-vphzKSCLH43pgroeVFwh3eevK_txirQ5HC3sMxiRNE0gJv95Rk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Ooxv0Mf_QLXyfGYrFeC-AA&_nc_ss=7f289&oh=00_AQHHk7IH54apsOqf61MbX8lb3oNGTV-S4689uHg9PHHy7w&oe=6A8C3CF7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/radiofidescb/posts/pfbid022VzFhqxue1usXd4tY7XAbpxijqTfWBY6EXURZJQgtdyve6tfK8uhLT8krdCR2eg3l?__cft__[0]=AZYvZUJQbpeU3ng3FY31Da-Hvlxx__g5Us7pBJd_V4XpjMQJT3QEgmRrEwTeIxHyRCgZJDg3wkunyOh_H1bRa0ivv6q35INxiFf6OxP_1cdg6wNI7foqFkm3HXOfPzEUUWAh0kq8VUpvtPCN96S0KWIRJP22myPEUo-KRs37P_soYi_Eqpv1fA6DySalLUW5258&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#GrupoFides | #FidesCochabamba Encuentran restos óseos en Tapacarí. Cruce entre Cami y Chamacoma. La #Policía se trasladó al lugar para verificar y levantar los restos… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ministerio_culturas",
@@ -922,13 +930,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Xp88ppxX8HMQ7kNvwGGaD9G&_nc_oc=AdqIRg7nQXb0lWEHZZJx3DF07UnV_avgTKxoj28hOP2oW0S44KlrTIqZ02T_JMo7rqQ&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=az477xkd5k80_uaxgUoxWA&_nc_ss=7f289&oh=00_AQGaLqckF32F2btR9hUqoH8iq70naBbzxf2AWADIemoAQg&oe=6A8C5587",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/pfbid02Q7wQW7UH1zNducepiHMk1DLTYhqC8W5humVNm4tYbodgUdd19qbG3DyQ3RBdbcW5l?__cft__[0]=AZaQS9IfRIj9Eo60ulZ0PZjVkhlK3Y0o0l53WMKw5ZrggxFeACU5N0dHvuRGyNKwejFbwQepHb96_ksz7j77JxIMM133eJTFxCkwzEO5GaD1Lbqt5ZM1A24cnRZP3jsuXB8DqXucEOh3IxRX1naTJ-acXXN8ONzHbz0vw8gpwf9OpP_FkXc8WQkHyzhlvff9Kfo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Hoy, la Alianza Francesa de La Paz acogió el Comité de Seguimiento del Proyecto Pilcomayo, un espacio de encuentro e intercambio para conocer los primeros resultados… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
