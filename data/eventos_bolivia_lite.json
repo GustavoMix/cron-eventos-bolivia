@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-20T09:16:27-04:00",
+  "generated_at": "2026-08-20T11:53:43-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 27,
+    "events_total": 28,
     "events_today": 4
   },
   "filters": {
@@ -68,6 +68,11 @@
         "count": 4
       },
       {
+        "key": "concierto",
+        "label": "Conciertos",
+        "count": 3
+      },
+      {
         "key": "deporte",
         "label": "Deportes",
         "count": 3
@@ -80,11 +85,6 @@
       {
         "key": "taller",
         "label": "Talleres y cursos",
-        "count": 2
-      },
-      {
-        "key": "concierto",
-        "label": "Conciertos",
         "count": 2
       },
       {
@@ -110,14 +110,14 @@
         "count": 8
       },
       {
-        "key": "Quillacollo",
-        "label": "Quillacollo",
+        "key": "La Paz",
+        "label": "La Paz",
         "count": 4
       },
       {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 3
+        "key": "Quillacollo",
+        "label": "Quillacollo",
+        "count": 4
       },
       {
         "key": "Oruro",
@@ -149,7 +149,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 3
+        "count": 4
       },
       {
         "key": "Oruro",
@@ -171,17 +171,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 7
+        "count": 8
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 13
+        "count": 14
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 27
+        "count": 28
       }
     ],
     "price": [
@@ -198,22 +198,27 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 19
+        "count": 20
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 21
+        "count": 22
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 5
+        "count": 6
       }
     ],
     "tags": [
+      {
+        "key": "RAE2026",
+        "label": "RAE2026",
+        "count": 1
+      },
       {
         "key": "263",
         "label": "263",
@@ -324,7 +329,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 7
+        "count": 8
       },
       {
         "key": "ticketera",
@@ -345,32 +350,6 @@
   },
   "events": [
     {
-      "event_id": "evt_14a09b7b8b1e0e",
-      "title": "Ciclo de cine en La Troje",
-      "category": "festival",
-      "category_label": "Festivales",
-      "starts_at": "2026-08-20T00:00:00-04:00",
-      "starts_at_ms": 1787198400000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Jueves 20 de agosto",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Cochabamba",
-      "department": "Cochabamba",
-      "venue": "cancha FIFA Arena",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_63f74a1dbb4f13",
       "title": "La hermana del narcotraficante uruguayo Sebastián Marset dejó Palmasola y ahora cumplirá detención domiciliaria en…",
       "category": "conferencia",
@@ -388,6 +367,32 @@
       "department": "Cochabamba",
       "venue": null,
       "image_url": "https://external-sin6-2.xx.fbcdn.net/emg1/v/t13/4677677583924157525?url=https%3A%2F%2Fwww.opinion.com.bo%2Fmedia%2Fopinion%2Fimages%2F2026%2F08%2F05%2F2026080516315489177.jpg&fb_obo=1&utld=opinion.com.bo&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&_nc_gid=8_aoVx-02a22dQJkl5X-Mg&_nc_oc=AdrEJBytyzyAHsJHfdTo3nLEeHfvrQo27pMpEEVG7ycb4gRMgnqxGmqfBOl6blbtuNg&ccb=13-1&oh=06_Q3_CAbyaZHVsfhEAipp5-WRe92nIuGAy4zLrBspRIK5CHVra&oe=6A884E7F&_nc_sid=e17101",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_14a09b7b8b1e0e",
+      "title": "Ciclo de cine en La Troje",
+      "category": "festival",
+      "category_label": "Festivales",
+      "starts_at": "2026-08-20T14:00:00-04:00",
+      "starts_at_ms": 1787248800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 20 de agosto · 14:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "cancha FIFA Arena",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
       "has_video": false,
       "is_free": false,
       "price_from": null,
@@ -441,6 +446,32 @@
       "venue": "cancha FIFA Arena",
       "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
       "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_e2b33121e577f8",
+      "title": "16 reacciones · 3 comentarios | 🔴 EN VIVO — Mañana | Mesa 4: Apropiación y mercantilización: reflexiones en tiempos…",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-08-21T00:00:00-04:00",
+      "starts_at_ms": 1787284800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Viernes 21 de agosto",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 1,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t15.5256-10/783027861_1236151665304549_8242806241483769146_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=596eb7&_nc_ohc=82RLnaHYnz0Q7kNvwFvmtw7&_nc_oc=AdomPkD11egXa9mz8oz8kVsj__roHsEYL9_ID2tgzxnfu2pmJAfp-Fd_Ji3dH9t6FDM&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=z3AkPmTakhYQJxk3iY6D-w&_nc_ss=7f289&oh=00_AQHkvfndOFwUqkiS4V7jfduPUMsECFzWfKSNwSQpGd4ihQ&oe=6A8D0615",
+      "has_video": true,
       "is_free": false,
       "price_from": null,
       "currency": null,
@@ -606,7 +637,7 @@
     },
     {
       "event_id": "evt_e8228b24391228",
-      "title": "17/08/2026 Cultura Gilmer Rojas expone en el Gíldaro Antezana La muestra exhibirá durante 15 días la obra del…",
+      "title": "20/08/2026 Cultura Atractiva cartelera para festejar el Día Mundial del Folklore Una cartelera atractiva presenta la…",
       "category": "cine",
       "category_label": "Cine",
       "starts_at": "2026-09-14T00:00:00-04:00",
@@ -620,14 +651,14 @@
       "is_upcoming": true,
       "city": "Quillacollo",
       "department": "Cochabamba",
-      "venue": null,
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/17/rojas_2.jpg?itok=amHZXJ7G",
+      "venue": "cancha FIFA Arena",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/20/12_dc_cartelera_1.jpg?itok=JW4LWx-n",
       "has_video": false,
       "is_free": false,
       "price_from": null,
       "currency": null,
       "price_label": null,
-      "status": "postergado",
+      "status": "programado",
       "source_count": 1
     },
     {
