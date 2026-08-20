@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-20T15:03:27-04:00",
+  "generated_at": "2026-08-20T17:49:02-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 29,
+    "events_total": 30,
     "events_today": 4
   },
   "filters": {
@@ -63,14 +63,14 @@
         "count": 4
       },
       {
-        "key": "teatro",
-        "label": "Teatro",
+        "key": "concierto",
+        "label": "Conciertos",
         "count": 4
       },
       {
-        "key": "concierto",
-        "label": "Conciertos",
-        "count": 3
+        "key": "teatro",
+        "label": "Teatro",
+        "count": 4
       },
       {
         "key": "deporte",
@@ -117,7 +117,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 4
+        "count": 5
       },
       {
         "key": "Quillacollo",
@@ -154,7 +154,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 4
+        "count": 5
       },
       {
         "key": "Chuquisaca",
@@ -176,17 +176,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 8
+        "count": 9
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 15
+        "count": 16
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 29
+        "count": 30
       }
     ],
     "price": [
@@ -203,14 +203,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 21
+        "count": 22
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 23
+        "count": 24
       },
       {
         "key": "con_video",
@@ -237,6 +237,31 @@
       {
         "key": "263",
         "label": "263",
+        "count": 1
+      },
+      {
+        "key": "FestivalHipHopBolivia",
+        "label": "FestivalHipHopBolivia",
+        "count": 1
+      },
+      {
+        "key": "53AñosDeHipHop",
+        "label": "53AñosDeHipHop",
+        "count": 1
+      },
+      {
+        "key": "CulturaUrbana",
+        "label": "CulturaUrbana",
+        "count": 1
+      },
+      {
+        "key": "LaPaz",
+        "label": "LaPaz",
+        "count": 1
+      },
+      {
+        "key": "SMCCTAEN",
+        "label": "SMCCTAEN",
         "count": 1
       },
       {
@@ -313,26 +338,6 @@
         "key": "OportunidadesParaTodos",
         "label": "OportunidadesParaTodos",
         "count": 1
-      },
-      {
-        "key": "Ml18Xb",
-        "label": "Ml18Xb",
-        "count": 1
-      },
-      {
-        "key": "Xilografía",
-        "label": "Xilografía",
-        "count": 1
-      },
-      {
-        "key": "TallerDeArte",
-        "label": "TallerDeArte",
-        "count": 1
-      },
-      {
-        "key": "SucreCultural",
-        "label": "SucreCultural",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -344,7 +349,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 9
+        "count": 10
       },
       {
         "key": "ticketera",
@@ -365,6 +370,32 @@
   },
   "events": [
     {
+      "event_id": "evt_14a09b7b8b1e0e",
+      "title": "Ciclo de cine en La Troje",
+      "category": "festival",
+      "category_label": "Festivales",
+      "starts_at": "2026-08-20T00:00:00-04:00",
+      "starts_at_ms": 1787198400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 20 de agosto",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "cancha FIFA Arena",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "postergado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_63f74a1dbb4f13",
       "title": "La hermana del narcotraficante uruguayo Sebastián Marset dejó Palmasola y ahora cumplirá detención domiciliaria en…",
       "category": "conferencia",
@@ -382,32 +413,6 @@
       "department": "Cochabamba",
       "venue": null,
       "image_url": "https://external-sin6-2.xx.fbcdn.net/emg1/v/t13/4677677583924157525?url=https%3A%2F%2Fwww.opinion.com.bo%2Fmedia%2Fopinion%2Fimages%2F2026%2F08%2F05%2F2026080516315489177.jpg&fb_obo=1&utld=opinion.com.bo&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&_nc_gid=8_aoVx-02a22dQJkl5X-Mg&_nc_oc=AdrEJBytyzyAHsJHfdTo3nLEeHfvrQo27pMpEEVG7ycb4gRMgnqxGmqfBOl6blbtuNg&ccb=13-1&oh=06_Q3_CAbyaZHVsfhEAipp5-WRe92nIuGAy4zLrBspRIK5CHVra&oe=6A884E7F&_nc_sid=e17101",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_14a09b7b8b1e0e",
-      "title": "Ciclo de cine en La Troje",
-      "category": "festival",
-      "category_label": "Festivales",
-      "starts_at": "2026-08-20T14:00:00-04:00",
-      "starts_at_ms": 1787248800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Jueves 20 de agosto · 14:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Cochabamba",
-      "department": "Cochabamba",
-      "venue": "cancha FIFA Arena",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
       "has_video": false,
       "is_free": false,
       "price_from": null,
@@ -439,7 +444,7 @@
       "price_from": null,
       "currency": null,
       "price_label": null,
-      "status": "programado",
+      "status": "postergado",
       "source_count": 1
     },
     {
@@ -465,7 +470,7 @@
       "price_from": null,
       "currency": null,
       "price_label": null,
-      "status": "programado",
+      "status": "postergado",
       "source_count": 1
     },
     {
@@ -543,6 +548,32 @@
       "price_from": 18.0,
       "currency": "BOB",
       "price_label": "Bs 18",
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_8616adc54bc0a1",
+      "title": "Ciudad Cultural, Turismo de Altura y Economía Naranja",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-08-23T00:00:00-04:00",
+      "starts_at_ms": 1787457600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 23 de agosto",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 3,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/779364669_2093222631272019_1827117015381153442_n.png?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=b96d88&_nc_ohc=KYssZ-IMawYQ7kNvwEqdXOl&_nc_oc=AdpYyA41Ad8JNlpl90FANsNWUaAY88bfGXhGmHyeOxHaMjEdb9db8xosn1P5y90W0rg&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=7xTnrVHvZww4ZBekKQM34A&_nc_ss=7f289&oh=00_AQHSDKQVeU2w61M-tkuWg4cXouHLt88E4GH1rKEjwXsXWw&oe=6A8D59E4",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "status": "programado",
       "source_count": 1
     },
@@ -699,7 +730,7 @@
       "price_from": null,
       "currency": null,
       "price_label": null,
-      "status": "programado",
+      "status": "postergado",
       "source_count": 1
     },
     {
