@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-20T11:53:43-04:00",
+  "generated_at": "2026-08-20T15:03:27-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 28,
+    "events_total": 29,
     "events_today": 4
   },
   "filters": {
@@ -96,6 +96,11 @@
         "key": "otro",
         "label": "Otros",
         "count": 1
+      },
+      {
+        "key": "exposicion",
+        "label": "Exposiciones",
+        "count": 1
       }
     ],
     "cities": [
@@ -120,6 +125,11 @@
         "count": 4
       },
       {
+        "key": "Sucre",
+        "label": "Sucre",
+        "count": 2
+      },
+      {
         "key": "Oruro",
         "label": "Oruro",
         "count": 1
@@ -127,11 +137,6 @@
       {
         "key": "Montero",
         "label": "Montero",
-        "count": 1
-      },
-      {
-        "key": "Sucre",
-        "label": "Sucre",
         "count": 1
       }
     ],
@@ -152,13 +157,13 @@
         "count": 4
       },
       {
-        "key": "Oruro",
-        "label": "Oruro",
-        "count": 1
-      },
-      {
         "key": "Chuquisaca",
         "label": "Chuquisaca",
+        "count": 2
+      },
+      {
+        "key": "Oruro",
+        "label": "Oruro",
         "count": 1
       }
     ],
@@ -176,12 +181,12 @@
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 14
+        "count": 15
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 28
+        "count": 29
       }
     ],
     "price": [
@@ -198,14 +203,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 20
+        "count": 21
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 22
+        "count": 23
       },
       {
         "key": "con_video",
@@ -214,6 +219,16 @@
       }
     ],
     "tags": [
+      {
+        "key": "MUSEFSucre",
+        "label": "MUSEFSucre",
+        "count": 2
+      },
+      {
+        "key": "CulturaViva",
+        "label": "CulturaViva",
+        "count": 2
+      },
       {
         "key": "RAE2026",
         "label": "RAE2026",
@@ -270,6 +285,16 @@
         "count": 1
       },
       {
+        "key": "Arte",
+        "label": "Arte",
+        "count": 1
+      },
+      {
+        "key": "SucreBolivia",
+        "label": "SucreBolivia",
+        "count": 1
+      },
+      {
         "key": "FEXPOCRUZ",
         "label": "FEXPOCRUZ",
         "count": 1
@@ -295,11 +320,6 @@
         "count": 1
       },
       {
-        "key": "MUSEFSucre",
-        "label": "MUSEFSucre",
-        "count": 1
-      },
-      {
         "key": "Xilografía",
         "label": "Xilografía",
         "count": 1
@@ -307,11 +327,6 @@
       {
         "key": "TallerDeArte",
         "label": "TallerDeArte",
-        "count": 1
-      },
-      {
-        "key": "CulturaViva",
-        "label": "CulturaViva",
         "count": 1
       },
       {
@@ -329,7 +344,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 8
+        "count": 9
       },
       {
         "key": "ticketera",
@@ -606,6 +621,32 @@
       "price_from": 100.0,
       "currency": "BOB",
       "price_label": "Bs 100",
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_14fbe0425a9f36",
+      "title": "MUSEF Regional Sucre",
+      "category": "exposicion",
+      "category_label": "Exposiciones",
+      "starts_at": "2026-08-30T20:30:00-04:00",
+      "starts_at_ms": 1788136200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 30 de agosto · 20:30",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 10,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": null,
+      "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/774059536_1581812890400545_475533890473175682_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1367&ctp=p600x600&_nc_cat=105&ccb=1-7&_nc_sid=cae128&_nc_ohc=OPbzR6boogAQ7kNvwEcWWAB&_nc_oc=Ado0-ln26FMSDdr10rv_S8U8y13e-E1s6uBAlyroMJN68rmoQEanzy3NUz2WusNXZjY&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=Yk7dV6XI1DZlG210qICNPA&_nc_ss=7f289&oh=00_AQGLObiCD_hmw97PcFfNVWtqCK9bxblSgeuNkxFxO6rG8Q&oe=6A8D3185",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "status": "programado",
       "source_count": 1
     },
