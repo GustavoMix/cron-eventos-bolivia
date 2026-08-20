@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T17:57:33-04:00",
+  "generated_at": "2026-08-19T21:57:00-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 67,
@@ -15,8 +15,8 @@
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 42.2,
-    "horas_maximo_sin_datos": 122.7
+    "horas_promedio_sin_datos": 39.9,
+    "horas_maximo_sin_datos": 126.7
   },
   "sources": [
     {
@@ -28,13 +28,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-2TjNHyYJH4Q7kNvwF_ycHn&_nc_oc=AdrfE652BMy4JIIxrvPgbrsPrRvmv9uvy6RLBAi4aOo8-cEpMikXKmskZXYHbpXYM_g&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=50-zRz2GKNLDD8lkYKAr_Q&_nc_ss=7f289&oh=00_AQHZRpLVSV7EOA1HASK-nKlXcjWIKa8vt46ajxMvY0xbOQ&oe=6A8C359A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "tecnologia",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid029Zk7zFjJsxyiVfQC5F85JQwLCCYofDST3q2h2VDxUE61KT7viCgc9EWUNfNf7mCwl?__cft__[0]=AZaC7kONJkQlICvdCDIr4pnUJJQ7PAmKPK8pkVXrvKhZ9GXdxx3aPNs8qj8IeR8DFtl4kUr6G8FB7Zo0hoimJHiUTUY7UqgHNLjyX_uJdfhlWWQWnEPeRpMie4NqfYTPdNBcT9UHG00GxHhDWzQ0zwr5LkeV9hFLDc-a-rNTKXnIy0M0Z7uHvilVandB-wNrqOg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA INTELIGENCIA ARTIFICIAL TAMBIÉN PUEDE SER TU MEJOR ALIADA PARA EMPRENDER! La… Ver más ¡LA INTELIGENCIA ARTIFICIAL TAMBIÉN PUEDE SER TU MEJOR ALIADA PARA EMPRENDER! La… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -199,12 +208,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gob_cbba",
@@ -283,13 +292,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9kvPaLlPStMQ7kNvwFbOmcC&_nc_oc=AdoQEwkbN9L3OAxwfaWX-jVPWtPhOfsHOgodQZQkAlc-j4LzFFuhSHkl_xQuPHnaPZs&_nc_zt=24&_nc_ht=scontent-sin6-2.xx&_nc_gid=S05Yo-kuKs2-FYJ_DH77ww&_nc_ss=7f289&oh=00_AQGDmnusP_X6CSCg4jo4XiXhyFkkb98kJpt9rxe9jwbJAw&oe=6A8C2DFE",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_eldeber",
@@ -368,22 +377,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dfJCBpKqWJEQ7kNvwHVkkjL&_nc_oc=AdrSxI2cBP19OyGyVOwmqiMu25DHgqftZl2D__i2CX9BN-rE7TiERHswmXBjaxTqRSc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=HDype5JmJYm74uYBcbimJw&_nc_ss=7f289&oh=00_AQFjKCfuFRJsTWjuhnhW1LJ3G0K-v9wZ5ivrf7q6Sw0l4g&oe=6A8C07CC",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/NoticiasBolivision/posts/pfbid02m7jtipt3ReePGytjRdEZoywiSSjvjm9Czy896B3snu2uNra4XdBzD1YvJJ3w6qCQl?__cft__[0]=AZb0E5kVjcyCPrpQj3n2VSvAiQ8xVPDD6AXrjFS45U2C6ztYKuAffbFcA_kfmoOjaQb5TktfWzEQGOAk-gqZjysLGl13SW4qVtvJ8VkQA3J9C0A5RxdAmf0_IYn1-a8hFZSWt03h_pCEOYu7qvTTfUHyeg_4WN30rxZMzGwv5X6w4PkxoFp-451PKOzds46Qi-k&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "“Sí, lo haré”: Trump confirma que se reunirá con Kim Jong-un… Ver más REDBOLIVISION.TV.BO Trump confirma que se reunirá con Kim Jong-un este año"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_erbol",
@@ -394,13 +394,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/762867835_1486603256840062_112288559762726375_n.jpg?stp=dst-jpg_tt6&cstp=mx494x494&ctp=s494x494&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=scOkamSIut8Q7kNvwEppkM5&_nc_oc=Adq3CLBns-GUysnCAMbg9EXdd40m_v1XtSC_1YKmEpQ7TtUMzlX_Q-7Bv5rx_CWDuVI&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=r09g2yZoaGVC9BeP7cyL5w&_nc_ss=7f289&oh=00_AQFXNLU9ttnJN_6X133nNuULWA4nbL98eGrZAKdhfhp37Q&oe=6A8BDFC4",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_el_diario",
@@ -428,13 +428,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5p-JsQEDtj0Q7kNvwHcduMp&_nc_oc=AdqV2DW31k4--UYEAz38TONuSRmSwslxbCQ-jN-vtF0sP-ZNaQFt3HVt32mSrIKDFng&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=5uoJ5_KPM-77T5zzvDUQHQ&_nc_ss=7f289&oh=00_AQHefkjRp9bh8z1CeGdDcmqpJzIfURF9uxIfcpEy1gfBGw&oe=6A8C3A88",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02NEazgH59ufW659JoPP4TJKLGrwGPB1FxNgkZtX1uXm2nCuRFYDsqgvy2hhrk2WVl?__cft__[0]=AZYFoATe3b2JrxD3xu2uMV2A3oe3pE4rjgivghpLestRFSFIaYaItkf_tp6xV-mnwcUslFP9QjrZV4qFZzR8qK288bPHrof8r84C1PGztiwUwlAxJ6RwubcY57RV86Vs_HMej8plT2TB4kHeS84kjD-UORCfNQVY7JYzwfXgObuHA7i_UAn6aHlGbVQ0nOnfkSs&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#GrupoFides | #RadioFidesLaPaz Medrano señaló que en las próximas horas se emitirá la imputación correspondiente y recordó que el principal investigado en este proces… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_anf",
@@ -496,30 +505,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0EkXlmMKVzoQ7kNvwH8ADz4&_nc_oc=AdpbKbHKa9Y194N2D04T2CrwttQjNB_4o1x6sLpdkH5zCeJQZL7JtWkdHT0k8ytfDdQ&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=XX0E5qNh4W7GsbMpOdWgkQ&_nc_ss=7f289&oh=00_AQGd8nnpeRlO3LX4vmM488h1FZFlK6uVo7CGzeCxsBqZ-g&oe=6A8C02A9",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1052370880999273/?__cft__[0]=AZbe2NVymXPy241Qovm05Il1cKIDOn-jioYfrxqRBhMEIexpL7WrqWctL2oW9mxGvjGLWSaox2FY-5LRYrDii1UnBUdhNkfuIDwpamWBVU65iDkUHA8eBUw-MTM-akaxmn18n-bQP4wAcWtObg4fJPEYtIn3eisKW2FqEwEjAtlxkG08GR_u_0C8qFbjEQm9sdEVofSSfIAGr9JZyuC8uolS&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#DoblePerspectivaVIVO | Hoy en Doble Perspectiva… Ver más Gracias. Importante información. Dios bendiga al centro NeuroRehabilita. Tenemos problemas para reproducir este video. Más información Miguel Ticona"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1052370880999273/?comment_id=1059480719828689&__cft__[0]=AZbe2NVymXPy241Qovm05Il1cKIDOn-jioYfrxqRBhMEIexpL7WrqWctL2oW9mxGvjGLWSaox2FY-5LRYrDii1UnBUdhNkfuIDwpamWBVU65iDkUHA8eBUw-MTM-akaxmn18n-bQP4wAcWtObg4fJPEYtIn3eisKW2FqEwEjAtlxkG08GR_u_0C8qFbjEQm9sdEVofSSfIAGr9JZyuC8uolS&__tn__=R]-R",
-          "has_image": false,
-          "text_preview": "Gracias. Importante información. Dios bendiga al centro NeuroRehabilita. Miguel Ticona"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fides_cbba",
@@ -530,13 +522,22 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=m86e9Dow7OYQ7kNvwHeRjrm&_nc_oc=Adpu5jSHzsuJjd_F-vphzKSCLH43pgroeVFwh3eevK_txirQ5HC3sMxiRNE0gJv95Rk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Ooxv0Mf_QLXyfGYrFeC-AA&_nc_ss=7f289&oh=00_AQHHk7IH54apsOqf61MbX8lb3oNGTV-S4689uHg9PHHy7w&oe=6A8C3CF7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/radiofidescb/posts/pfbid022VzFhqxue1usXd4tY7XAbpxijqTfWBY6EXURZJQgtdyve6tfK8uhLT8krdCR2eg3l?__cft__[0]=AZYvZUJQbpeU3ng3FY31Da-Hvlxx__g5Us7pBJd_V4XpjMQJT3QEgmRrEwTeIxHyRCgZJDg3wkunyOh_H1bRa0ivv6q35INxiFf6OxP_1cdg6wNI7foqFkm3HXOfPzEUUWAh0kq8VUpvtPCN96S0KWIRJP22myPEUo-KRs37P_soYi_Eqpv1fA6DySalLUW5258&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#GrupoFides | #FidesCochabamba Encuentran restos óseos en Tapacarí. Cruce entre Cami y Chamacoma. La #Policía se trasladó al lugar para verificar y levantar los restos… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ministerio_culturas",
@@ -1427,7 +1428,7 @@
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Nadia Beller estaría con cuatro semanas de embarazo Ver más 2 Espinoza consultará al TCP si voto de censura de la ALP en su contra es legal Ver más 3 \""
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Beller teme por su vida y denuncia corrupción en el Gobierno Ver más 2 Bolívar se elimina en los octavos de final de la Copa Sudamericana en Brasil Ver"
         }
       ],
       "error": null
