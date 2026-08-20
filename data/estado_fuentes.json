@@ -1,22 +1,20 @@
 {
-  "generated_at": "2026-08-20T00:04:08-04:00",
+  "generated_at": "2026-08-20T03:10:36-04:00",
   "coverage": {
     "fuentes_totales": 70,
-    "con_datos_alguna_vez": 67,
+    "con_datos_alguna_vez": 68,
     "nunca_vistas": [
       "fb_gam_cbba",
-      "fb_lostiempos",
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
-      "fb_lostiempos",
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 35.4,
-    "horas_maximo_sin_datos": 126.2
+    "horas_promedio_sin_datos": 34.5,
+    "horas_maximo_sin_datos": 129.3
   },
   "sources": [
     {
@@ -267,12 +265,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "blocked",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": null
     },
     {
       "id": "fb_opinion",
@@ -317,22 +315,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=SS4dvcJWFcsQ7kNvwELDJEN&_nc_oc=AdpyKHwII1GM5MANw7VZSRe-lKlpPbyDEBqE2oqF0xPAXkz1qK90QaVUSrp5bX0brLg&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_ss=7f289&oh=00_AQFTtM8w1yjGYhBUIdfgGwSCuZWISmUB-YSh_stSPdYWlQ&oe=6AADDD3A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/948820267606990/?__cft__[0]=AZZeS9Eig8VUxWVPWQQT0QzCgtbtTC8zvYL3V-eC-ZUD8HYgTIFZSd7nn6MZbXo7BJpdSGNHuvwOoXyj9bUR-oWU0S4vM8UUlmzjv-yXQpAzexBLPPYt-h_uEeuY0xmqTFsYl9WLq7dNMFbexHWNpITwngsj945ayyMqgcdOEwtOc9WhAi_3r9_oZrMjK72b3WARQ_p8_X5qkRCcg8Rnxl8O&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#Comunidad | EMSA suspenderá el recojo domiciliario de basura este jueves y viernes debido a la falta de diésel. La empresa informó que no recibió los 10 mil litros de … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_unitel",
@@ -343,30 +332,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OaxM2lVzbhwQ7kNvwF6QQZz&_nc_oc=Adqw9PUNmlj1nncvdMoWA_BnzqRtxZ2qjuS2CD7qoVuj9w8oVCUxWEzh1Dqu9U_NUPU&_nc_zt=24&_nc_ht=scontent-sin6-3.xx&_nc_gid=TdMkY346kZk7A4F5m_epRw&_nc_ss=7f289&oh=00_AQGIft32GmFV8R3Mi3jAMgvIR0cIpfB5QJjx3Db693-eTQ&oe=6A8C44FF",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1106419808722099/?__cft__[0]=AZZtiGhV7f6lwJVb7FEJzHnn0RQxlEDmnyxlLAAf8P4i1mmSFhnVp4S9ywW467G0K97oT2waLw_5hCrR085MQR_ixu3M9xTBxtfrgu8G9nmUOeVjAoNGgNTBwu8J7zDQcFqGdM6SlOpjd0d3IT43mrH6MAuPWC34CE3FoDfgmO3Bx-GB2YMDa2gkNXP8I990bd6xMAqiOUL01crEcBuoO7z3&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Desde las alturas, la cordillera luce cubierta por un manto blanco tras la nevada, dejando una impresionante postal de los Andes rumbo a La Paz.… Ver más Hermoso paisaje Tenemos problemas para reproducir este video. Más información Maximo Benthin"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1106419808722099/?comment_id=1857452208565457&__cft__[0]=AZZtiGhV7f6lwJVb7FEJzHnn0RQxlEDmnyxlLAAf8P4i1mmSFhnVp4S9ywW467G0K97oT2waLw_5hCrR085MQR_ixu3M9xTBxtfrgu8G9nmUOeVjAoNGgNTBwu8J7zDQcFqGdM6SlOpjd0d3IT43mrH6MAuPWC34CE3FoDfgmO3Bx-GB2YMDa2gkNXP8I990bd6xMAqiOUL01crEcBuoO7z3&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Maximo Benthin Hermoso paisaje 8 min"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_atb",
@@ -479,22 +451,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZTUjcFY8gsMQ7kNvwFNH6FQ&_nc_oc=Ado769gwvUkV0fL9UZpAjvR7TDckjH7eWiHJsW79eCjNUdrTt068VC_3vrvRfq6XGqM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=8QWj_1NmU_KAqxH6VQMFdg&_nc_ss=7f289&oh=00_AQFCnURtn5ufWFVOHUOnkjZo_BFIcTW7caOYZipqvfG2dw&oe=6A8C5A85",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 12,
-          "category": "otro",
-          "url": "https://www.facebook.com/rtpbolivia/videos/-claroscuro-las-voces-que-marcan-la-agendalas-noticias-los-protagonistas-y-los-t/1531419031599427/",
-          "has_image": true,
-          "text_preview": "🌑 CLAROSCURO LAS VOCES QUE MARCAN LA AGENDA Las noticias, los protagonistas y los temas que generan debate están en la mesa. 🎙️ Análisis y diferentes puntos de vista para entender lo que está... 🌑 CLAROSCURO LAS VOCES QUE MARCAN LA AGENDA Las noticias, los protagonistas y los temas que generan debate están en la mesa. 🎙️ Análisis y diferentes..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_abya_yala",
@@ -658,13 +621,38 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=N4nmGjN4Ls0Q7kNvwHVhF6E&_nc_oc=AdqCYr2TpE0d1ijOKBOO7aQEoVruGz-2ldPiY2u1U33SfL71s5NkcY8kqkRGZdr8zgM&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=fCc84N7k8cIUkCa89QsfIg&_nc_ss=7f289&oh=00_AQGbRGUxzjlaIBe8VS6KEqcwfpSJdZaWqAVj0LlR612uVQ&oe=6A8C5F0F",
+      "status": "ok",
+      "raw_items": 3,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0cxkchXfPvzaSQExavebJRYXcmnUc8FYBxD8tgGesqxep2q9T93Uz5BBg61ukRL2il?__cft__[0]=AZaeJyQ-zueP9s8NdXB5XSa4W-jo_n2nguHrMp_k2A4P7Nch-BGj5kCpAq3wBHF5pX1wQXA81Tn9AJ8olr0kusWXuv7fXPpb_soX4Gp3Uek_JkGW8OQm0O9Z_OfMCM6YQ5yjjtciFj65NeQA8N6_ru_xyoEEy3qJyMPhllaEcPizrbN49a0Qls_DeVbOCMf9Rzk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CNM | 𝐂𝐨𝐧𝐦𝐞𝐦𝐨𝐫𝐚𝐜𝐢ó𝐧 𝐏𝐚𝐭𝐫𝐢𝐦𝐨𝐧𝐢𝐚𝐥 𝐅𝐫𝐚𝐲 𝐕𝐢𝐜𝐞𝐧𝐭𝐞 𝐁𝐞𝐫𝐧𝐞𝐝𝐨: … Ver más #CNM | 𝐂𝐨𝐧𝐦𝐞𝐦𝐨𝐫𝐚𝐜𝐢ó𝐧 𝐏𝐚𝐭𝐫𝐢𝐦𝐨𝐧𝐢𝐚𝐥 𝐅𝐫𝐚𝐲 𝐕𝐢𝐜𝐞𝐧𝐭𝐞 𝐁𝐞𝐫𝐧𝐞𝐝𝐨: … Ver más Qué bueno que lo recuerden, felicidades a la Casa Nacional de Moneda!!! Kenny gracias a ti por valorar nuestro patrimonio. Tenemos problemas para reproducir este video. Más información Ver más comentarios Kenny Prieto Bellido Casa Nacional de Moneda - Fundación Cultural"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0cxkchXfPvzaSQExavebJRYXcmnUc8FYBxD8tgGesqxep2q9T93Uz5BBg61ukRL2il?comment_id=2177805322784257&__cft__[0]=AZaeJyQ-zueP9s8NdXB5XSa4W-jo_n2nguHrMp_k2A4P7Nch-BGj5kCpAq3wBHF5pX1wQXA81Tn9AJ8olr0kusWXuv7fXPpb_soX4Gp3Uek_JkGW8OQm0O9Z_OfMCM6YQ5yjjtciFj65NeQA8N6_ru_xyoEEy3qJyMPhllaEcPizrbN49a0Qls_DeVbOCMf9Rzk&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Qué bueno que lo recuerden, felicidades a la Casa Nacional de Moneda!!! Kenny Prieto Bellido"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0cxkchXfPvzaSQExavebJRYXcmnUc8FYBxD8tgGesqxep2q9T93Uz5BBg61ukRL2il?comment_id=2177805322784257&reply_comment_id=1439598177992044&__cft__[0]=AZaeJyQ-zueP9s8NdXB5XSa4W-jo_n2nguHrMp_k2A4P7Nch-BGj5kCpAq3wBHF5pX1wQXA81Tn9AJ8olr0kusWXuv7fXPpb_soX4Gp3Uek_JkGW8OQm0O9Z_OfMCM6YQ5yjjtciFj65NeQA8N6_ru_xyoEEy3qJyMPhllaEcPizrbN49a0Qls_DeVbOCMf9Rzk&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Kenny gracias a ti por valorar nuestro patrimonio. Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -930,22 +918,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Xp88ppxX8HMQ7kNvwGGaD9G&_nc_oc=AdqIRg7nQXb0lWEHZZJx3DF07UnV_avgTKxoj28hOP2oW0S44KlrTIqZ02T_JMo7rqQ&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=az477xkd5k80_uaxgUoxWA&_nc_ss=7f289&oh=00_AQGaLqckF32F2btR9hUqoH8iq70naBbzxf2AWADIemoAQg&oe=6A8C5587",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid02Q7wQW7UH1zNducepiHMk1DLTYhqC8W5humVNm4tYbodgUdd19qbG3DyQ3RBdbcW5l?__cft__[0]=AZaQS9IfRIj9Eo60ulZ0PZjVkhlK3Y0o0l53WMKw5ZrggxFeACU5N0dHvuRGyNKwejFbwQepHb96_ksz7j77JxIMM133eJTFxCkwzEO5GaD1Lbqt5ZM1A24cnRZP3jsuXB8DqXucEOh3IxRX1naTJ-acXXN8ONzHbz0vw8gpwf9OpP_FkXc8WQkHyzhlvff9Kfo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Hoy, la Alianza Francesa de La Paz acogió el Comité de Seguimiento del Proyecto Pilcomayo, un espacio de encuentro e intercambio para conocer los primeros resultados… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -973,13 +952,30 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-mel1-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zwwcvM6He4YQ7kNvwFWDbrm&_nc_oc=Adqgcb4WMasB9FQu_pBj0c9pxPTtzeAwpH0OSS52K05w0DLvnyZA6rUB_ooMa0juzpI&_nc_zt=24&_nc_ht=scontent-mel1-1.xx&_nc_gid=IqppPRBuJ3rGr6mCCmgUeA&_nc_ss=7f289&oh=00_AQHR9kU63X44KuGQDSw7K4bGMlYUF6mD7gyKc0kssMmAEg&oe=6A8C8047",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid02qePdoUf7zfNYZeLxgZHdc5Ldx9SuUQh5gGgsG6vokz5hxFNmZCy8QA4ddG9aFgJPl?__cft__[0]=AZYagbVPmrMmiVwM0-lnE6ASM7polO2A8N_yuroaYOpWV4SLYTBz2IuchZUhXDblAQv8wCIaIwQ1YU09jvV0m_h4gJes2RI1ZvXDuk1XJo2P9KqdHcCt_iMeW8v4teVAbsWgBGzoYUUBJLzNMVAZREqhOTATKkWAtM9aUrypdvwFiPva-s2Llkyv27IrlV-4FTo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐏𝐚𝐫𝐭𝐢𝐜𝐢𝐩𝐚 del 𝐃𝐢́𝐚 𝐌𝐮𝐧𝐝𝐢𝐚𝐥 𝐝𝐞𝐥 𝐅𝐨𝐥𝐜𝐥𝐨𝐫𝐞 Sé parte de esta linda actividad… Ver más 𝐏𝐚𝐫𝐭𝐢𝐜𝐢𝐩𝐚 del 𝐃𝐢́𝐚 𝐌𝐮𝐧𝐝𝐢𝐚𝐥 𝐝𝐞𝐥 𝐅𝐨𝐥𝐜𝐥𝐨𝐫𝐞 Sé parte de esta linda actividad… Ver más buenas tardes, envie mensaje privado para coordinar actividades artisticas. Muchas gracias! Ver más comentarios Claudio Barbara Muevemundos"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid02qePdoUf7zfNYZeLxgZHdc5Ldx9SuUQh5gGgsG6vokz5hxFNmZCy8QA4ddG9aFgJPl?comment_id=901960095911925&__cft__[0]=AZYagbVPmrMmiVwM0-lnE6ASM7polO2A8N_yuroaYOpWV4SLYTBz2IuchZUhXDblAQv8wCIaIwQ1YU09jvV0m_h4gJes2RI1ZvXDuk1XJo2P9KqdHcCt_iMeW8v4teVAbsWgBGzoYUUBJLzNMVAZREqhOTATKkWAtM9aUrypdvwFiPva-s2Llkyv27IrlV-4FTo&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "buenas tardes, envie mensaje privado para coordinar actividades artisticas. Muchas gracias! Claudio Barbara Muevemundos"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -1007,13 +1003,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tSW1Cr0G5OsQ7kNvwF2tvl4&_nc_oc=Adpcn4yc7uKmpVxrVu6yZkxGFtTB-rbi8N7WfLj84tYrHjGA9IjodY_gLuDsi25xJaA&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=75KdxMk7JzIHF4mslIOLUA&_nc_ss=7f289&oh=00_AQFCUBIA2LXFCwkUPK-PZtT-rJ_7dUyr1B4QQGdXhrh4iA&oe=6A8C71BD",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaMelchorPinto/posts/gracias-querida-aqu%C3%AD-estoy-con-linda-gonzalez-por-la-entrevisatlos-esperamos-est/1409241747970951/",
+          "has_image": true,
+          "text_preview": "Gracias querida AQUÍ ESTOY con Linda Gonzalez por la entrevisat. Los esperamos este viernes 21 de agosto en la presentación del libro de Mónica y a compartir con el público. Gracias querida AQUÍ ESTOY con Linda Gonzalez por la entrevisat. Los esperamos este viernes 21 de agosto en la presentación del libro de Mónica y a... Gracias querida AQUÍ ESTOY con Linda Gonzalez por la entrevisat. Los espera"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1126,13 +1131,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VCMVJN7X2VEQ7kNvwHfts0t&_nc_oc=AdofYEAI0Cg6Kg9ixqG5jpNMJw437sNcEuYRPyBGqMIGOJXWGQKUMpNp2rGKHaKcAdI&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=xIVts39sVrEa24nQIPdfmw&_nc_ss=7f289&oh=00_AQEiSmjoo3IGYOa3K2MDkxlbdQvuwMwbwFfTEqGpurQYWw&oe=6A8C7AF7",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1445,7 +1450,7 @@
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Beller teme por su vida y denuncia corrupción en el Gobierno Ver más 2 Bolívar se elimina en los octavos de final de la Copa Sudamericana en Brasil Ver"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Trump declara el estrecho de Ormuz nuevo territorio de EEUU Ver más 2 La nieve afecta a más de 26.000 familias en el país Ver más 3 Espinoza consultará"
         }
       ],
       "error": null
