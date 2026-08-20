@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:10:36-04:00",
+  "generated_at": "2026-08-20T05:54:42-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -13,8 +13,8 @@
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 34.5,
-    "horas_maximo_sin_datos": 129.3
+    "horas_promedio_sin_datos": 32.8,
+    "horas_maximo_sin_datos": 132.1
   },
   "sources": [
     {
@@ -43,13 +43,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lg_wDhYTJJ8Q7kNvwGgMcqq&_nc_oc=AdqbPdWr6xlI-U1wW_YBdbuYPJ67VMTOEBhLCchceJUBZcapXR0N27IxwI3jAAbdHHg&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=moWuC_bHvAJ4-BPtravbAA&_nc_ss=7f289&oh=00_AQFGcUE08xdXC4nIPUtHOzdDfJBLjxRt9opD_bfhGvKZoA&oe=6A8C97B5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1341558327735110/?__cft__[0]=AZZfkKwHS6avvl8X2wyrzg1SRnlLmmhdIXrn2QKDy56V_-YIxz8qyvtT0xWh4GZSUNnQTLVWm4CKoELSFLm_Kjrx21shjWUfDpPL-i28n2WIp_PNROnBopPzOQtOYNOmwEv4DEAqyDfYGZbPclZWs3bdEj3xVp63I7xiAh_2vX67rF7FBlGhHyvalgE9YTkkSPqtwrozgr-wyQSd9DaCiyvs&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Kudailovers de La Paz y Bolivia hay cambio de lugar, tomar nota L… Ver más Kudailovers de La Paz y Bolivia hay cambio de lugar, tomar nota L… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -145,13 +154,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=k67okc7TJYAQ7kNvwF-Ek7o&_nc_oc=AdrgF_09UyFy5ygChklq6tV5Zip7jnykKAR9RVJlwkLMOiHc4hyJPRAVj3VMgxAUSRo&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=7-2bCqKspE48kvgqE-a_Hw&_nc_ss=7f289&oh=00_AQHwiyPiwhoURmJqN0qFKkkZCc3WN3F7202K4gXc6_TTlw&oe=6A8C8E37",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0LiGZfGfGG5LfXZ7EXHkPVBSjiSY2bnaPuYv1XaPNuhp3xYCm7o3gebEMcHZ4Conal?__cft__[0]=AZYF7DpaRND9d6Vc-ENgd8zozNbB70zd4ScHhp_nc0f6nno3BJ2dr8xRkJpRw0REmM_Y7XYHX9IdvKBNyos-Gb2igTSYpRLeVYh4q9SBVS5utD3-dYkPvhpUNtpHu1uAuRSWkzzwVTpGKp7M5RQaGtk6FYCsHxhbdXsSOoS55UduYv71jLQ8N5RzYen_OeY0utI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#AMUN | Centro de Salud Villa Nuevo Potosí contará en pocas semanas con moderno equipo de Rayos X digital Lee la nota completa aquí: https://n9.cl/p0bj7 #AMUN | Centro de Salud Villa Nuevo Potosí contará en pocas semanas con moderno equipo de Rayos X digital Lee la nota completa aquí: https://n9.cl/p0bj7 Excelente Rosario Laura Bustillo"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0LiGZfGfGG5LfXZ7EXHkPVBSjiSY2bnaPuYv1XaPNuhp3xYCm7o3gebEMcHZ4Conal?comment_id=1069973832157773&__cft__[0]=AZYF7DpaRND9d6Vc-ENgd8zozNbB70zd4ScHhp_nc0f6nno3BJ2dr8xRkJpRw0REmM_Y7XYHX9IdvKBNyos-Gb2igTSYpRLeVYh4q9SBVS5utD3-dYkPvhpUNtpHu1uAuRSWkzzwVTpGKp7M5RQaGtk6FYCsHxhbdXsSOoS55UduYv71jLQ8N5RzYen_OeY0utI&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Rosario Laura Bustillo Excelente 18 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -265,12 +291,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "ok",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_opinion",
@@ -553,13 +579,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/770976265_1112553888391359_3735751640385991934_n.png?stp=dst-jpg_tt6&cstp=mx1131x1600&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=6nu0SZGh78QQ7kNvwH_6CRf&_nc_oc=AdqPSqrenpGM2IHuPDfZAFPJPUvmemp21OKf_hHOEH_Z25UotNf3168bp1E2wa47KNE&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=2qhspRD-ELaaHM5f0Auy4Q&_nc_ss=7f289&oh=00_AQGDGt78z7LNXN9TNGIbDQIm-bDalRfzBl26P-d0iRqv_A&oe=6A8CB1C4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "cine",
+          "url": "https://www.facebook.com/cinemateca.bo/posts/pfbid02HCNaVffsZd4ZpNLrZGkrn3ZHfqXmXyrhkCWNcxFEwbqR6gvdYqW4cMapxc1jEPXDl?__cft__[0]=AZaEEbXxQqiEgiU-PAlwbZAR2F7GEiijZFuU6MHABCM1zaISk3P_WcOPs-6Mm_7cnUkrKeGSRok6fO7or-atGyAq0KCoSH8DcXIo9anXA0MAB2A9wUyeT6VSpEcEnM-w8iI_SvesGPVmq7G9GztXnRyyoyHpnHMN606UwnL8wSa4OargxecXNW40ZwZSpf_0akM&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Continuamos celebrando los 50 años junto a lo mejor del cine boliviano. En agosto homenajeamos al actor, dramaturgo y director de cine Hugo Roncal, destacado pionero de… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -570,13 +605,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-2-FgyAfhxoQ7kNvwE06TUg&_nc_oc=AdrUWZDgnTNoUcZgS5tTEj0hyRrCjG0c-R8uszHw8rIej21LMuOB73Qza0ntuKI1API&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=PyGcvPdbxLzMeG89OBBnzA&_nc_ss=7f289&oh=00_AQEao1L0jaS_zLvQlV18_QuEq83hFt_KGHWcM5ojM9swsg&oe=6A8CAE56",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02PBfKFPNHcgx1JHWcRgoxXLuUSshpLe2ii6u5GeXyewKQG58VD2bd3n2MXYMu3st7l?__cft__[0]=AZZLOQs7b_vHx5e9h8RTViukT5pw5398qka4cIgyVr93FcbpCTwDZtns1FB94sJ3ScYr4cWxEp5lF5m1UJ8ESop-ymPpkDjv_WPRNRQTk6e7XSwvPbDfDcjC9IPIxirRODDSrkrI3ANwtDXFB96gV7hLpGmE_GBWHCocF0YsdA3OoR_jPU_ws75xDJHDp6Mer9A&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Jarana! - No Soy Blair + Casualmente Planificado E… Ver más ¡Jarana! - No Soy Blair + Casualmente Planificado E… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -621,38 +665,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=N4nmGjN4Ls0Q7kNvwHVhF6E&_nc_oc=AdqCYr2TpE0d1ijOKBOO7aQEoVruGz-2ldPiY2u1U33SfL71s5NkcY8kqkRGZdr8zgM&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=fCc84N7k8cIUkCa89QsfIg&_nc_ss=7f289&oh=00_AQGbRGUxzjlaIBe8VS6KEqcwfpSJdZaWqAVj0LlR612uVQ&oe=6A8C5F0F",
-      "status": "ok",
-      "raw_items": 3,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 3,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0cxkchXfPvzaSQExavebJRYXcmnUc8FYBxD8tgGesqxep2q9T93Uz5BBg61ukRL2il?__cft__[0]=AZaeJyQ-zueP9s8NdXB5XSa4W-jo_n2nguHrMp_k2A4P7Nch-BGj5kCpAq3wBHF5pX1wQXA81Tn9AJ8olr0kusWXuv7fXPpb_soX4Gp3Uek_JkGW8OQm0O9Z_OfMCM6YQ5yjjtciFj65NeQA8N6_ru_xyoEEy3qJyMPhllaEcPizrbN49a0Qls_DeVbOCMf9Rzk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CNM | 𝐂𝐨𝐧𝐦𝐞𝐦𝐨𝐫𝐚𝐜𝐢ó𝐧 𝐏𝐚𝐭𝐫𝐢𝐦𝐨𝐧𝐢𝐚𝐥 𝐅𝐫𝐚𝐲 𝐕𝐢𝐜𝐞𝐧𝐭𝐞 𝐁𝐞𝐫𝐧𝐞𝐝𝐨: … Ver más #CNM | 𝐂𝐨𝐧𝐦𝐞𝐦𝐨𝐫𝐚𝐜𝐢ó𝐧 𝐏𝐚𝐭𝐫𝐢𝐦𝐨𝐧𝐢𝐚𝐥 𝐅𝐫𝐚𝐲 𝐕𝐢𝐜𝐞𝐧𝐭𝐞 𝐁𝐞𝐫𝐧𝐞𝐝𝐨: … Ver más Qué bueno que lo recuerden, felicidades a la Casa Nacional de Moneda!!! Kenny gracias a ti por valorar nuestro patrimonio. Tenemos problemas para reproducir este video. Más información Ver más comentarios Kenny Prieto Bellido Casa Nacional de Moneda - Fundación Cultural"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0cxkchXfPvzaSQExavebJRYXcmnUc8FYBxD8tgGesqxep2q9T93Uz5BBg61ukRL2il?comment_id=2177805322784257&__cft__[0]=AZaeJyQ-zueP9s8NdXB5XSa4W-jo_n2nguHrMp_k2A4P7Nch-BGj5kCpAq3wBHF5pX1wQXA81Tn9AJ8olr0kusWXuv7fXPpb_soX4Gp3Uek_JkGW8OQm0O9Z_OfMCM6YQ5yjjtciFj65NeQA8N6_ru_xyoEEy3qJyMPhllaEcPizrbN49a0Qls_DeVbOCMf9Rzk&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Qué bueno que lo recuerden, felicidades a la Casa Nacional de Moneda!!! Kenny Prieto Bellido"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0cxkchXfPvzaSQExavebJRYXcmnUc8FYBxD8tgGesqxep2q9T93Uz5BBg61ukRL2il?comment_id=2177805322784257&reply_comment_id=1439598177992044&__cft__[0]=AZaeJyQ-zueP9s8NdXB5XSa4W-jo_n2nguHrMp_k2A4P7Nch-BGj5kCpAq3wBHF5pX1wQXA81Tn9AJ8olr0kusWXuv7fXPpb_soX4Gp3Uek_JkGW8OQm0O9Z_OfMCM6YQ5yjjtciFj65NeQA8N6_ru_xyoEEy3qJyMPhllaEcPizrbN49a0Qls_DeVbOCMf9Rzk&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Kenny gracias a ti por valorar nuestro patrimonio. Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -663,13 +682,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FYYF6-zFsngQ7kNvwErQ0vt&_nc_oc=AdoknINhl8I1y8bNfu3GVw-5UxW_S2ZWzgS2T2EAHk2Wr1PtSCE0we1C0yhKYIGjLmY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=RbfjlRp-C8JaN03zG6yEGA&_nc_ss=7f289&oh=00_AQHteMaIzkw0_UQRpfmAuCvgH08z83QS0dn4ao2wdh0dMA&oe=6A8C85D2",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://es-la.facebook.com/login",
+          "has_image": true,
+          "text_preview": "#CRC | Presentación de la obra de artes musicales “De Bermejo a Nueva Esperanza”… Ver más Ppppñññ Gina Carol Balderrama Jaldin"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid0TX4fw9feA98rH341r9WW5vBKvnve5NQCATYBP5NyHJGKz1dGfkJ9cXiAu9KnxB7ul?comment_id=2085946118798446&__cft__[0]=AZZooxMsZCiQX1-q63u97BWofEV53LGSnYUORCw6Vt4f8p9j4fo7XGRQ9ZZE_9Hn8i0jp3rIyrwov-iZ3R4BOzT6TDZ1cQP3A40lO6axlYM3NzFAO2O8H0Qq5CLNpv8Vgcti6GrNMxYWIzJtRoclrgJhQzXVTUK0O6e7WjEAWE7ycm7tWqI_QCsXmNsBltYBccs&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Gina Carol Balderrama Jaldin Ppppñññ 5 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -952,30 +988,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-mel1-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zwwcvM6He4YQ7kNvwFWDbrm&_nc_oc=Adqgcb4WMasB9FQu_pBj0c9pxPTtzeAwpH0OSS52K05w0DLvnyZA6rUB_ooMa0juzpI&_nc_zt=24&_nc_ht=scontent-mel1-1.xx&_nc_gid=IqppPRBuJ3rGr6mCCmgUeA&_nc_ss=7f289&oh=00_AQHR9kU63X44KuGQDSw7K4bGMlYUF6mD7gyKc0kssMmAEg&oe=6A8C8047",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid02qePdoUf7zfNYZeLxgZHdc5Ldx9SuUQh5gGgsG6vokz5hxFNmZCy8QA4ddG9aFgJPl?__cft__[0]=AZYagbVPmrMmiVwM0-lnE6ASM7polO2A8N_yuroaYOpWV4SLYTBz2IuchZUhXDblAQv8wCIaIwQ1YU09jvV0m_h4gJes2RI1ZvXDuk1XJo2P9KqdHcCt_iMeW8v4teVAbsWgBGzoYUUBJLzNMVAZREqhOTATKkWAtM9aUrypdvwFiPva-s2Llkyv27IrlV-4FTo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝐏𝐚𝐫𝐭𝐢𝐜𝐢𝐩𝐚 del 𝐃𝐢́𝐚 𝐌𝐮𝐧𝐝𝐢𝐚𝐥 𝐝𝐞𝐥 𝐅𝐨𝐥𝐜𝐥𝐨𝐫𝐞 Sé parte de esta linda actividad… Ver más 𝐏𝐚𝐫𝐭𝐢𝐜𝐢𝐩𝐚 del 𝐃𝐢́𝐚 𝐌𝐮𝐧𝐝𝐢𝐚𝐥 𝐝𝐞𝐥 𝐅𝐨𝐥𝐜𝐥𝐨𝐫𝐞 Sé parte de esta linda actividad… Ver más buenas tardes, envie mensaje privado para coordinar actividades artisticas. Muchas gracias! Ver más comentarios Claudio Barbara Muevemundos"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid02qePdoUf7zfNYZeLxgZHdc5Ldx9SuUQh5gGgsG6vokz5hxFNmZCy8QA4ddG9aFgJPl?comment_id=901960095911925&__cft__[0]=AZYagbVPmrMmiVwM0-lnE6ASM7polO2A8N_yuroaYOpWV4SLYTBz2IuchZUhXDblAQv8wCIaIwQ1YU09jvV0m_h4gJes2RI1ZvXDuk1XJo2P9KqdHcCt_iMeW8v4teVAbsWgBGzoYUUBJLzNMVAZREqhOTATKkWAtM9aUrypdvwFiPva-s2Llkyv27IrlV-4FTo&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "buenas tardes, envie mensaje privado para coordinar actividades artisticas. Muchas gracias! Claudio Barbara Muevemundos"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -1003,22 +1022,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tSW1Cr0G5OsQ7kNvwF2tvl4&_nc_oc=Adpcn4yc7uKmpVxrVu6yZkxGFtTB-rbi8N7WfLj84tYrHjGA9IjodY_gLuDsi25xJaA&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=75KdxMk7JzIHF4mslIOLUA&_nc_ss=7f289&oh=00_AQFCUBIA2LXFCwkUPK-PZtT-rJ_7dUyr1B4QQGdXhrh4iA&oe=6A8C71BD",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaMelchorPinto/posts/gracias-querida-aqu%C3%AD-estoy-con-linda-gonzalez-por-la-entrevisatlos-esperamos-est/1409241747970951/",
-          "has_image": true,
-          "text_preview": "Gracias querida AQUÍ ESTOY con Linda Gonzalez por la entrevisat. Los esperamos este viernes 21 de agosto en la presentación del libro de Mónica y a compartir con el público. Gracias querida AQUÍ ESTOY con Linda Gonzalez por la entrevisat. Los esperamos este viernes 21 de agosto en la presentación del libro de Mónica y a... Gracias querida AQUÍ ESTOY con Linda Gonzalez por la entrevisat. Los espera"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1131,13 +1141,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VCMVJN7X2VEQ7kNvwHfts0t&_nc_oc=AdofYEAI0Cg6Kg9ixqG5jpNMJw437sNcEuYRPyBGqMIGOJXWGQKUMpNp2rGKHaKcAdI&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=xIVts39sVrEa24nQIPdfmw&_nc_ss=7f289&oh=00_AQEiSmjoo3IGYOa3K2MDkxlbdQvuwMwbwFfTEqGpurQYWw&oe=6A8C7AF7",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
