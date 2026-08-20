@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-20T05:54:42-04:00",
+  "generated_at": "2026-08-20T09:16:27-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 24,
-    "events_today": 1
+    "events_total": 27,
+    "events_today": 4
   },
   "filters": {
     "ui_groups": [
@@ -58,6 +58,11 @@
         "count": 8
       },
       {
+        "key": "festival",
+        "label": "Festivales",
+        "count": 4
+      },
+      {
         "key": "teatro",
         "label": "Teatro",
         "count": 4
@@ -91,23 +96,18 @@
         "key": "otro",
         "label": "Otros",
         "count": 1
-      },
-      {
-        "key": "festival",
-        "label": "Festivales",
-        "count": 1
       }
     ],
     "cities": [
       {
-        "key": "Santa Cruz de la Sierra",
-        "label": "Santa Cruz de la Sierra",
+        "key": "Cochabamba",
+        "label": "Cochabamba",
         "count": 8
       },
       {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 5
+        "key": "Santa Cruz de la Sierra",
+        "label": "Santa Cruz de la Sierra",
+        "count": 8
       },
       {
         "key": "Quillacollo",
@@ -139,7 +139,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 9
+        "count": 12
       },
       {
         "key": "Santa Cruz",
@@ -166,22 +166,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 1
+        "count": 4
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 4
+        "count": 7
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 10
+        "count": 13
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 24
+        "count": 27
       }
     ],
     "price": [
@@ -198,14 +198,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 16
+        "count": 19
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 18
+        "count": 21
       },
       {
         "key": "con_video",
@@ -319,7 +319,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 10
+        "count": 13
       },
       {
         "key": "venue",
@@ -345,6 +345,32 @@
   },
   "events": [
     {
+      "event_id": "evt_14a09b7b8b1e0e",
+      "title": "Ciclo de cine en La Troje",
+      "category": "festival",
+      "category_label": "Festivales",
+      "starts_at": "2026-08-20T00:00:00-04:00",
+      "starts_at_ms": 1787198400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 20 de agosto",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "cancha FIFA Arena",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_63f74a1dbb4f13",
       "title": "La hermana del narcotraficante uruguayo Sebastián Marset dejó Palmasola y ahora cumplirá detención domiciliaria en…",
       "category": "conferencia",
@@ -362,6 +388,58 @@
       "department": "Cochabamba",
       "venue": null,
       "image_url": "https://external-sin6-2.xx.fbcdn.net/emg1/v/t13/4677677583924157525?url=https%3A%2F%2Fwww.opinion.com.bo%2Fmedia%2Fopinion%2Fimages%2F2026%2F08%2F05%2F2026080516315489177.jpg&fb_obo=1&utld=opinion.com.bo&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&_nc_gid=8_aoVx-02a22dQJkl5X-Mg&_nc_oc=AdrEJBytyzyAHsJHfdTo3nLEeHfvrQo27pMpEEVG7ycb4gRMgnqxGmqfBOl6blbtuNg&ccb=13-1&oh=06_Q3_CAbyaZHVsfhEAipp5-WRe92nIuGAy4zLrBspRIK5CHVra&oe=6A884E7F&_nc_sid=e17101",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_d94886f41764d2",
+      "title": "Espectáculo de danza: Negra",
+      "category": "festival",
+      "category_label": "Festivales",
+      "starts_at": "2026-08-20T19:00:00-04:00",
+      "starts_at_ms": 1787266800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 20 de agosto · 19:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "cancha FIFA Arena",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_d9d3ac22ad1a40",
+      "title": "Balau: Taller de cajón peruano",
+      "category": "festival",
+      "category_label": "Festivales",
+      "starts_at": "2026-08-20T21:30:00-04:00",
+      "starts_at_ms": 1787275800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 20 de agosto · 21:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "cancha FIFA Arena",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
       "has_video": false,
       "is_free": false,
       "price_from": null,
