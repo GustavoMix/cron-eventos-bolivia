@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T00:02:45-04:00",
+  "generated_at": "2026-08-21T03:12:07-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,13 +9,13 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
-      "fb_fundacion_cultural_bcb",
       "fb_gam_cbba",
-      "fb_ministerio_culturas"
+      "fb_ministerio_culturas",
+      "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 24.2,
-    "horas_maximo_sin_datos": 150.2
+    "horas_promedio_sin_datos": 24.1,
+    "horas_maximo_sin_datos": 153.3
   },
   "sources": [
     {
@@ -27,22 +27,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=STKGhm_hTskQ7kNvwEQ3Hn2&_nc_oc=AdoLk1IedV3p2lDa9fmlxwNktKJHlDFtFSToLkGvR6sOpOixNPGmlmJuDS96d1Rscu4&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=TVYA6auzpTaYa8TimAvxSw&_nc_ss=7f289&oh=00_AQFIgaIiFdoT7wCDNowiqutI8fqt56GR18L74O3atT1XBw&oe=6A8D871A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "tecnologia",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid029sYeFm2mtEHfqzQyDTrbN6vBbsPUD67uw6AgKgY5T1qYVV29hDak7cWuB3nMNjDzl?__cft__[0]=AZY3InQTtYR4SRhjvBWfSs3N2Snb6ZXxXHWOuXqrLHTnbfE6zEEsrFyuBRH1H0p7zhgg30mTD5wocpK2J6QVl7_Yrz7RNj5cCG15F2aJ5IFfO0CVnu_flzU_43Yyib_ZZeXEU1ed-dds_hA327gUjvVvK2w5bhzANV2Tuxc6LONqhKWsDOu2uHRYm8Vsjd2WQ28&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA INTELIGENCIA ARTIFICIAL TAMBIÉN PUEDE SER TU MEJOR ALIADA PARA EMPRENDER! La… Ver más ¡LA INTELIGENCIA ARTIFICIAL TAMBIÉN PUEDE SER TU MEJOR ALIADA PARA EMPRENDER! La… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -122,12 +113,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Teatro al Aire Libre Jaime Laredo La Paz-Bolivia Performance Art Theatre · Página no oficial\\ufeff Más Inicio Información Información Ver todo Cancha Zapata Ciudad La P'"
     },
     {
       "id": "fb_municipio_lapaz",
@@ -546,13 +537,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=07Xkbxm13JgQ7kNvwF14vQ1&_nc_oc=AdqbK17ia6uQB3PMkl2V8SNVD4XNNFQZnPuMCKDsmjcTYesQ_l6ghIjyUcqrDy7OjiY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=vezQ-mUifRWda-sgff81Vg&_nc_ss=7f289&oh=00_AQHCPkFsdbhAI9pwxuLoZjAufaYNpOWmh4drDID49nXIYA&oe=6A8DDE73",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Cultural BCB 29 mil seguidores • 16 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid036nmVhXzSsVaBX1qPBiJPvuz5c3Rsmjomd4bkHqkNFq7j52MnREsNZDo4MCMNniqMl?__cft__[0]=AZbXN0cRR4CdX9AxZGIK0SUZB1FqmRy9HSLpJkfnJd4TBdigr-RbqT3n9GOyZzEa9Qa61-mkD84utNCf6iit1DIJV0UbunhnHDt7cjWFyA01sA5i3XlrumFd5hd87R-r_KSzMQZyjwEoZRuPSBEFzWARIKfBGrXELi9YV-7eCejWSvLBkm9JNpK58QvtFaQSypQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "BOLIVIATV.BO MUSEF inaugura la RAE 2026, un encuentro entre cultura, saberes y medicina"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -767,13 +767,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ImgzlCwKvecQ7kNvwHwXNpO&_nc_oc=Ado0AiJ4HzFOxDRCqg312iyxz2tUq6n9X0ugHvMeoXdfGjoIrfh7bG4U080s_3kJ56U&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=9uPO5PHE-VseE9FZq5o4yQ&_nc_ss=7f289&oh=00_AQGF5McKqtvEVbXITNRSEpymVeFFxlnNV2vik5MQAKkL7A&oe=6A8DB16A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "feria",
+          "url": "https://www.facebook.com/gam.monteagudo/videos/-feximont-2026-feria-exposici%C3%B3n-integral-monteagudo/1509880530891792/",
+          "has_image": true,
+          "text_preview": "FEXIMONT 2026 - FERIA EXPOSICIÓN INTEGRAL MONTEAGUDO Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_oruro",
@@ -784,13 +793,30 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=AIbJJnrzUz0Q7kNvwEZDrXK&_nc_oc=AdoSGMpkrIqaf2LGBmIGCQPJuUyWTg2J0Ma_wBBI1I1ycmJvhLk5ktTW14-Zf9-hCWM&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=bvXxzG0sMEg9X8FKV-qLNA&_nc_ss=7f289&oh=00_AQFf4lrVo29bLcwY5aYF-ibM2OWLowmXRwxya1fcBufRGQ&oe=6A8DC47A",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 12,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeOruro/videos/oruroselevanta-i-gobernador-viajar%C3%A1-a-ee-uu-para-concretar-agenda-de-inversi%C3%B3n-p/1386939960294287/",
+          "has_image": true,
+          "text_preview": "#OruroSeLevanta I Gobernador viajará a EE. UU. para concretar agenda de inversión para nuevos hospitales, energía verde, minería e internet para escuelas del área rural… Ver más El señor gobernador si se merce llamarlo excelentisimo, realmente tiene claro lo que hace en bien de Oruro, Felicidades siga adelante. Tenemos problemas para reproducir este video. Más información Ver más comentarios Emili"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1386939960294287/?comment_id=2269859293781321&__cft__[0]=AZZHXo7SKwBAzQsi2S50noQnYOZoxhkzjEpr6tWMy23-i1sOigDgfaEB7AMSne2ZQ04BOua9I7vr2J2QHxrPawyP6jzkBjk-WIjf870TE8xItDNRAJzwzBUoxmHNIvAs4FIh9pKcZLUdYq6Mov_51bhZCfCtW0Gofv_KKRLLZOT_oUUjrdxfpy1o64VXAxBTSJQXfQWRuad72Jmr3f_1N9nl&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "El señor gobernador si se merce llamarlo excelentisimo, realmente tiene claro lo que hace en bien de Oruro, Felicidades siga adelante. Emilio Balcazar Heredia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_tarija",
@@ -835,13 +861,30 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TvHA19w7A2wQ7kNvwHakAou&_nc_oc=AdpvcYrg2uIx-baOzYpbTXreUbpvGHiFX4_2z8NdFPoGzhmReJBet_7_c5ZlAl6KoFg&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Bfu90giPUNncgnIql4OuZw&_nc_ss=7f289&oh=00_AQHcNexq_E21whGY8ofKHs02te0awtrzj0G17TPFexJ6Ag&oe=6A8DD5E9",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDelBeni/posts/1689887975362010:1689887975362010?__cft__[0]=AZYmj4O0lWSwh3stOxW36WgUCbpSTVdjzEvJ3H7I667XgP1EVldf264nK5CgT8ZGAQrmDOQVje3kd57iwG333qVYtpieQPyY8MPIzmkw-5k6h1itjg8hqznwA8B4BrjBKihsNgA9J_GAbrdyM4EJXNPG-ZPaCLyP27VtKOBv0SFQj95FMSXLJmnrzmXpZtvcBY1o0jDbLw9GyNPZC1pdsYeR&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Ver más comentarios Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDelBeni/",
+          "has_image": false,
+          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fipaz",
@@ -988,22 +1031,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DT4qG0njLKYQ7kNvwGosRzy&_nc_oc=Adp0lkvUpv7kQP2ZTYXBOrVnxZkgDs9-uO60KG1gZwaiYP-BKazv2KNwLtqNfnB-KiE&_nc_zt=24&_nc_ht=scontent-qro1-2.xx&_nc_gid=4wwdgy4jlTvXGCnKOZpYUQ&_nc_ss=7f289&oh=00_AQF7xeYlSnjf-OLHSCydBI4bdVk3finJmcDYnLJHGu2sjg&oe=6A8DA403",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02rQWeTMa54GJbQmi8TQZS9PCGp1DFqQqGp6ZwRQwj3FU51SKkCmtT4KXNezPnrSbvl?__cft__[0]=AZZr_UN4ifrmI2lzd-_3HGEzZx4NcNCT1bLrnA2IpNbOXZn5oBndAh61WlZYLUvpgtQ3mOfJIf7rgMPteF9PTTSZ-hrIR-G6LEl-TT1WmB0x8RLAcy-TldwTFevXtza1-KQ1gfna-wydVtwGBa76SLf8qNu_K9IbMoznM_U-xfc2t1zmX5X63eWU4VkJHNP3mWiCRfZZObHapnaDYXbPXu_NWZa583z7FXwfRjHyG0nLDw&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Participa contándonos la historia de esa mujer que impactó tu comunidad, tu provincia o el departamento …. Escribe una carta y cuéntanos de qué manera lo hizo y por qué… Ver más 𝗟𝗮 𝗚𝗼𝗯𝗲𝗿𝗻𝗮𝗰𝗶𝗼́𝗻 𝗱𝗲 𝗧𝗮𝗿𝗶𝗷𝗮, 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗜𝗟𝗟𝗔 𝘆 𝗹𝗮 𝗘𝗺𝗯𝗮𝗷𝗮𝗱𝗮 𝗱𝗲 𝗙𝗿𝗮𝗻𝗰𝗶𝗮 𝗹𝗮𝗻𝘇𝗮𝗿𝗼𝗻 𝗼𝗳𝗶𝗰𝗶𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗰𝘂𝗹𝘁𝘂𝗿𝗮𝗹 “𝗙𝗼𝗿𝗷𝗮𝗱𝗼𝗿𝗮𝘀 𝗱𝗲 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮: 𝗠𝘂𝗷𝗲𝗿𝗲𝘀 𝗱𝗲𝗹 𝗕𝗶𝗰𝗲𝗻𝘁𝗲𝗻𝗮𝗿𝗶𝗼 𝗲𝗻 𝗧𝗮𝗿… Ver más Tenemos problemas para reproducir este video"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1048,22 +1082,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xK0cBeZvmywQ7kNvwGVNQnG&_nc_oc=AdoaDogqyZkc2YDNzfC5EQ-BPrlxxHQeVMuBeqECxpTcKooYVX_BBI_Kaj5iO5qcM78&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=XXnq0t0XM8w78yQNTot3CQ&_nc_ss=7f289&oh=00_AQHwyheWVgHONwJ36-uaZ2KkZGDIUwne3LjO9e1CdaPXEA&oe=6A8D8C15",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid0C8GiwaMAaNvR8HSTK1eXjQNQX4DKVBWSp9fP845odyqygaugMUZpAxYx1dufg5bFl?__cft__[0]=AZamjFE9CiJx1Agxx6z1paFK74EozZm7bkSM7vLoYjeH4ouGjLZ3EG-MRbPKad2LDvVPpk4bf-BWI5XJfvxH5RF0CRTnrHUILIjHLkchaYBpQjhGUlfN3TOu-rFYAViZSoOMK-a9wfwyaciMMMCbIIi77kkBo_oWS3q6IayPtr9At1fQzHu_zf3wiN8tY5qJz98&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¿Te imaginas enseñando español en Europa representando a Bolivia? … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1074,22 +1099,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sYCPqC0FvtAQ7kNvwEztxZC&_nc_oc=Adp0ll97ls998A61nP6ubhAyEvgxTAB7GiVDFdXQoMeB1qmpMnFK2hJxCupz8pJOzDM&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=_vpShEMsQIV2E_DzBdRuTQ&_nc_ss=7f289&oh=00_AQGBjLiVufm-NWCK69wVs-HJBu9olYA7V9SBYCyIxZn9hw&oe=6A8D8E92",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 36,
-          "category": "nightlife",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid02bLqA21h46iNd7Qn96iw2E7tSDxnkkan5NQRwZMk6WHBP3ASPFbp6zASD7ij5RV9Gl?__cft__[0]=AZb998BgZ_lKlzAVKgQ9g9_UWYEM74g0EAhICXfz_7knBXIukPsTpnnojN4qHd2ZRJFKFWlP5A5cByIkwE4_W3auO579WcHK3wP0XePGxagK1RMb0G5Adi4zm4dA_reiWrKOKXL-beIIpSYCXrHxMZ29gD7PEcBIJLzC8g1crApGaOqggKtQ2iq8iTzyzI3js3o&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Prepárate para una noche de karaoke! Ven a cantar tus canciones favoritas, compartir y pasar un buen momento con amigos. … Ver más ¡Prepárate para una noche de karaoke! Ven a cantar tus canciones favoritas, compartir y pasar un buen momento con amigos. … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
