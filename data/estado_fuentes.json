@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T15:00:43-04:00",
+  "generated_at": "2026-08-21T17:42:54-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,14 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_cinemateca_boliviana",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 26.5,
-    "horas_maximo_sin_datos": 165.2
+    "horas_promedio_sin_datos": 27.7,
+    "horas_maximo_sin_datos": 167.9
   },
   "sources": [
     {
@@ -61,22 +62,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IJjNTQviZjMQ7kNvwHJyTTO&_nc_oc=AdpH0lWNjGYHf1O2IJ8Nj1ru5Ps0Wfznkdph6dY5b0HOULf4JVEKnqPstWHrFDAHfHY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=cvK7bPg9Hd4Bo_UCkcp9pQ&_nc_ss=7f289&oh=00_AQHVelr13HjK0ywNEtt7sLhTE-bzob5MwQixOL52CI65Qw&oe=6A8E81B6",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid037fDuzQKRcmnP6KbsEjBVnRaxjXPSy1vWoQPy5uZZTNhHUH2JmChki25ZmssfV8tYl?__cft__[0]=AZYjBv_6OivC3mRM4sSuNfH9cYw-5WikND48BFAyr7DuOQyQqwQ8hoGdmXIfv1rk3DFbsRGOBkYwWkuNIkKdeYySD2K5CowVvAY3tB4mKIXdxVKJcgCYRMp6rtoKk8htVtEaKzR7Vs3nkOa3b6LP4FobMnoRAJ1pT1Z_VkndRoSAuLVmtmZjJdWMN1BQuLAJUWo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -87,13 +79,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1rp295Iyh5oQ7kNvwG0fr_Q&_nc_oc=AdpJZ7uKgm3SrBIbZvpPB__P0z-iYYc1wV0Q_hdnpL-iugTNOTtK-6KMCXT3TrhL0cU&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=qI1H1d4UDA2cjtp9qP7H1g&_nc_ss=7f289&oh=00_AQFop1HVsQCbJbtS0SHeQF7vP7vzy5slkv3zYjDi5LhEgg&oe=6A8E9A83",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid054dDUbye6n7uVaBTZpskBcydMUfJKPwPPpQpMZs53JVF8eG5Emkv5NqmSSAwe7A5l?__cft__[0]=AZYgcndQiuGFrgioR5WfJMm-Nwt6crg9blt6bC1dQxP5z7dk4LWMc7vyCvcF2pAe90g1ZAoO9PO_txhNB9rIsQ5VOUNMywSyVLQkPYII3uoVGTICVQXmHGY4H_gnKQdy9j_yA9b0Y6VRfPYoyC1SXQpFRSMCppKqzKCZs1ARE56pJ-wEYDj1ioU7cQx1lKEWI5I&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -564,12 +565,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Cinemateca Boliviana 143 mil seguidores • 163 seguidos Más Publicaciones Información Reels Fotos Seguidos Esta página no está disponible en este momento Puede debe'"
     },
     {
       "id": "fb_ccelp",
@@ -580,13 +581,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-2-FgyAfhxoQ7kNvwFQPcUJ&_nc_oc=AdoPl8ox4X-r9kn6L2TsYtJTrI431uT2DysbEvaKCUu9MxlMzzkSGcy2wGSWpNCgbSY&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=Ho-5bgrFQi6c4LRD-xLwqA&_nc_ss=7f289&oh=00_AQGpE-Qdw0GLXzd_8kaOvUZDWWRbnQjS4rl4I4BFcOf57w&oe=6A8EA896",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid0eN1JNnTvKCcRf3fceKSZP4yDSNnVJC3SerrEvfbjTCQSWf9P6Q359Hn41GaEoa1yl?__cft__[0]=AZZ5TsYWBBNRu5M5elIy_Jen7d9DpXS8FuzgeMnjcbY0ueVBa0i73pO06PNR5lhBWTx23ePCCz2p46VN4y_OGIHPX6tDTIzKMMoh6Guvobh0qhpMdWyvJfh_A3Sv89z59jicfIgPYaXDPM2MqPoyuxCAcgtc8v6HU0Ml_llu2AvoHpHtFZoPlHvwIdJ-SDW4CKw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "LUMO sigue recorriendo la ciudad y encontrando nuevos espacio Est… Ver más LUMO sigue recorriendo la ciudad y encontrando nuevos espacio Est… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -631,30 +641,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/778899148_2829842327378878_2153689387996874189_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=4ht1ppxxGF8Q7kNvwHzmVj_&_nc_oc=AdoSVzAgyP9QOK00AM-MIDzAO-hsdGoSPONVV1Vxvhz4hEhi4_0Fn9S3ematdSATitM&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=UQRqORgxXrOyXTkXyPitMQ&_nc_ss=7f289&oh=00_AQERn1P-3c7Z10osCMfdUClyo8J9UBsp7XayPyCePq5ufg&oe=6A8E72AD",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0tVxM3BNigD17z9CBEX5BqdRbDgR7ufeNiHhBvZLs3EdLFqKx4fxXBfvko2FAHdFPl?__cft__[0]=AZZvMBj-nJqIKP2inRkPf_lgtpBQGlhZ56u6vah8SRndDn_SP-tZcdiM3tQebLDQOVaorYDdH4xJ3dzsA2JUbjFRvYBZ8vkfNEUqr7LR7gHxSI7tr2oSWiM4lDPGvXjqkt4EU7LAhwE9BQbg76B2B2ND0esQ5LxCKCN5rnHYM9ZVFDf8LmFey9b3zaoVu-B7T7s&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La Casa Nacional de Moneda expresa sus condolencias a nuestra estimada compañera Cinda Sanabria Garrón y a toda su familia por el sensible fallecimiento de su hermano, … Ver más Mis sentidas condolecias cinda QDDG tu hermano Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia Museo histórico WhatsApp Ver más comentarios Jacqueline Velasco Puma"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0tVxM3BNigD17z9CBEX5BqdRbDgR7ufeNiHhBvZLs3EdLFqKx4fxXBfvko2FAHdFPl?comment_id=2534736637032094&__cft__[0]=AZZvMBj-nJqIKP2inRkPf_lgtpBQGlhZ56u6vah8SRndDn_SP-tZcdiM3tQebLDQOVaorYDdH4xJ3dzsA2JUbjFRvYBZ8vkfNEUqr7LR7gHxSI7tr2oSWiM4lDPGvXjqkt4EU7LAhwE9BQbg76B2B2ND0esQ5LxCKCN5rnHYM9ZVFDf8LmFey9b3zaoVu-B7T7s&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mis sentidas condolecias cinda QDDG tu hermano Jacqueline Velasco Puma"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -665,13 +658,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FYYF6-zFsngQ7kNvwHBBsi8&_nc_oc=Adpo6mzDYRdU2cTFjqzN6cHrGWg09u7Wmes-V1NuOrPeraxkI1e3MGHVZMOJ5Teb0zM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=64FcqkIXOF7rNC8ey8W4Dw&_nc_ss=7f289&oh=00_AQHLMtUIJRuFlUGAaOwpDkDn1kvHOKtFLBiVS3KV8uUvXw&oe=6A8E8012",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "cine",
+          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid02hE1CmcmC1K88Dpvz7rzdm2sxjtPSrSsxtw3j6kP9BUt3EL8nFrwf5uRH8QesW6qel?__cft__[0]=AZZ1ZJG5NMu1tu0o4QjN6_6uqnvV5SHBHTlcY-bZNgvJ-IuAmg47_no2vu3FV7mE-jYmV0rdSKJb1DBUQqV-6wEWxbUkdTPsK-ME9W3SCMwxVxoMSXsVhKEix9ieLMhtVj1YCu5_A0uCG3wwK7QJOPEpwQJjRpxUYaT0R6JZYAaOr0DmPkRuLrWzGsNz55UV180&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CRC I 𝗣𝗿𝗲𝘀𝗲𝗻𝘁𝗮𝗰𝗶𝗼́𝗻 𝗱𝗲𝗹 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗮𝗹 \"𝗖𝗵𝗶𝗹𝗹𝗮𝘄𝗮\", 𝗱𝗲 𝗞𝗮𝗿𝗶𝗻𝗮 𝗛𝗲𝗿𝗿𝗲𝗿𝗮 𝗩𝗶𝗹𝗹𝗮𝗿𝗿𝗼𝗲𝗹 𝘆 𝗠𝗮𝗿𝗶́𝗮 𝗘𝗹𝗶𝘀𝗮𝗯𝗲𝘁 𝗝𝘂𝗿𝗮𝗱𝗼, 𝗲𝗻 𝗹𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗣𝘂𝗻̃𝗮𝗸𝗮 𝗧𝗶𝗻𝘁𝗮 𝗠𝗮𝗿𝗶́𝗮 𝗱𝗲𝗹 𝗠𝘂𝗻𝗶𝗰𝗶𝗽𝗶𝗼 𝗱𝗲 𝗣𝗼𝗼𝗽𝗼́ (𝗢𝗿𝘂… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -954,13 +956,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4KpTSDvHE08Q7kNvwFyP_pF&_nc_oc=AdoresXvKxLClTtgg5Zmj3X8mgVorV5KRRh4TJd7mpN-zDFUMLW-Bkqe9-BFivhpBqY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=_QKE_pm3be1wU39a2W2t3w&_nc_ss=7f289&oh=00_AQHDh5lTDKJPeWaBaMNtpuUlDl2UjOXRK6heJlwm-FQqEw&oe=6A8E7A87",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -988,22 +990,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=prA1PJNxS54Q7kNvwEXoco3&_nc_oc=AdoRpeP2V3088ydBEypQ6az3K7JG_TgIB2R2MHZRNi8r_FisthmP9EuaXvt5xqrRs6g&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=7Uw2JafXVGxxQCVXSZRUUg&_nc_ss=7f289&oh=00_AQH6anvHwTwV620aIAil3bHCC0Rvd1Bqxxd7nsPxsiuO7Q&oe=6A8E6BFD",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid0AUvykeTv7K35hwSQTKxghHRbsBavEpYdAjTykPxKCceMJQQV4sw3G5tC93WQ1wGPl?__cft__[0]=AZaOC3OQ8Xqhy9geIpzBJxMI6t2NSke8VJ9nzak2Heckkws-N2rhjiOQkb80Jvrv-Nq-gMIX4cZW5AZa54mA6vLzA2muzBlPvs61xO_OZyGeawgCmabQ7thtTci6f26bx9Ut4Curdy9k-C1e3puiGkYlgqtq2E0WXp0RJyAC4VpotJmZbcYUoBLddEFt6OZsTys&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Álbum BOLIVIA EN NUESTROS VERSOS - Lectura Poética"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
