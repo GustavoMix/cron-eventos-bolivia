@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T17:49:02-04:00",
+  "generated_at": "2026-08-20T22:02:09-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -13,8 +13,8 @@
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 26.1,
-    "horas_maximo_sin_datos": 144.0
+    "horas_promedio_sin_datos": 24.4,
+    "horas_maximo_sin_datos": 148.2
   },
   "sources": [
     {
@@ -94,13 +94,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8BLM0C2o8rkQ7kNvwE129mj&_nc_oc=Ado9DKVpLZ75LzI7lyquQkc-l7kigUyka7Gb9rC-iN_lk1h7N2J07Uz-Y-ZgElWtRNw&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=4UfdQaqR1WbhABo1oHt3xQ&_nc_ss=7f289&oh=00_AQFqEOSR8c0fz3jwkNJ2VDsb0B4TVFqGWdECb-m32lwJvw&oe=6A8D70D0",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -128,13 +128,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-p5RaAjb5kgQ7kNvwGriuzF&_nc_oc=Adp4O_BaYJ0NFw33Qanjl9jK4Li629dQa7rt2EIglKWq5yKBLXcf_Rw_3XHNt8yYxFQ&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=-uOTDqtyRG65426vd_S0Rw&_nc_ss=7f289&oh=00_AQFzJPNt2fQvDEqscKaZhr_05eumAgJVv9iETT3VYxnnFw&oe=6A8D9505",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0RnUuojCJy6UkFjaTQUHT2hpETu2B3eBRydDevWrhY7HKMTqaDbMqsB9e7fAdkdUpl?__cft__[0]=AZb7jzL_5k1DMVtqDhjR8FfNJqBUk6-H0QmR44mnNTPr8CmRtc-yq56UnhMxhgOtAWtxH6mCeJmWbA6a2RfS9wBhvoyrHLZeP0Ngps--O_zQ1yprm1qgzaz_UGlas7JSHd0ytf1URUzCCLgPfXLu7yVfjPHF2gNW4C__Thrzi8RanGtu_9P1Zxlziouuhtvwb5w&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Una acumulación no tiene por qué convertirse en otra más grande.… Ver más Es su responsabilidad solucionar a la brevedad posible y también ocuparse de limpiar las bocas de tormenta Ver más comentarios Marina Escobar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0RnUuojCJy6UkFjaTQUHT2hpETu2B3eBRydDevWrhY7HKMTqaDbMqsB9e7fAdkdUpl?comment_id=1626861769117763&__cft__[0]=AZb7jzL_5k1DMVtqDhjR8FfNJqBUk6-H0QmR44mnNTPr8CmRtc-yq56UnhMxhgOtAWtxH6mCeJmWbA6a2RfS9wBhvoyrHLZeP0Ngps--O_zQ1yprm1qgzaz_UGlas7JSHd0ytf1URUzCCLgPfXLu7yVfjPHF2gNW4C__Thrzi8RanGtu_9P1Zxlziouuhtvwb5w&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Es su responsabilidad solucionar a la brevedad posible y también ocuparse de limpiar las bocas de tormenta Marina Escobar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_amun_lapaz",
@@ -162,22 +179,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=fXbK8cxNAkcQ7kNvwFFiCW0&_nc_oc=AdpxibnfTfq76lsIZOwpcFm4WCYJ1uKnlQ1n2a58xClu_sM8-mhIZINONATzRXDld1M&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=m7jzb600um1XO3te7uhi1A&_nc_ss=7f289&oh=00_AQFMsdf899TfUTgbBQqOmmwbgbkWpkVpG_Dh_p3l4fCZdw&oe=6A8D5540",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02NuArSnQKS9b7wTiz9KXdMfbA7LuPV93d36BFgbEJjK5RWnjz8k4VG4u3CLWVHKzJl?__cft__[0]=AZZRO-xz4JC-3-EG_GnHcvIoFfclTlkTKZVZbkmtgLDxG9J25mTXlgwojJYRXvG6HtOmRdY0DECB6hSS8DytN4pbg0g-RD1oQaBPb8Po8FffwmCEriuYxMSuTkYeyyddGqK9w4I6KubSjsGpP-zdiswQoLHrZp5zyVKTtaYEyo380r8A3JG2n842BfYFcj3gRqA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El Alto e Israel se acercan para proyectar trabajos conjuntos en distintas áreas… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -188,13 +196,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=H_EySSuD43EQ7kNvwH6AZPt&_nc_oc=AdrRnasu-GMA6_AaUHuUcwGGqdLK8bK5BewgrKCKiVa2kcuGPPkMDW99CR2UyaCb8gI&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=9F6OSYz4hscx5gRy-PCIwg&_nc_ss=7f289&oh=00_AQHhxM48NzzBUYDz8JVWIigU_en8CzGoRaCnV50Tt8PzIg&oe=6A8D79F8",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1388884859853664/?__cft__[0]=AZZorBfGq6aT8xMrS3e-KoKLBG7UshHYfewneIUPTZbhuANQWjJO6_-OQ0zip_DnVGG_x0Rg7EY5x9o1E9equOWI3jDeAgaWc3Po1N6M75NcMy5my0d0fBKqV5X69zxWtPZ6DbslJSOkIjiQExZNLAkxxaopVJeNjLaaqeG55lFuoU1zk9u3WsupwovHCB7pNDvSFpXGguu32GkeUW5RK6tQ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "𝑳𝒂 𝒖𝒏𝒊𝒅𝒂𝒅 𝒏𝒐𝒔 𝒑𝒆𝒓𝒎𝒊𝒕𝒆 𝒂𝒗𝒂𝒏𝒛𝒂𝒓. El gobernador #LuisRevill… Ver más 𝑳𝒂 𝒖𝒏𝒊𝒅𝒂𝒅 𝒏𝒐𝒔 𝒑𝒆𝒓𝒎𝒊𝒕𝒆 𝒂𝒗𝒂𝒏𝒛𝒂𝒓. El gobernador #LuisRevill… Ver más Jajaja jajajaja Tenemos problemas para reproducir este video. Más información Ver más comentarios Bruno Cadena Laime"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1388884859853664/?comment_id=1458146496145779&__cft__[0]=AZZorBfGq6aT8xMrS3e-KoKLBG7UshHYfewneIUPTZbhuANQWjJO6_-OQ0zip_DnVGG_x0Rg7EY5x9o1E9equOWI3jDeAgaWc3Po1N6M75NcMy5my0d0fBKqV5X69zxWtPZ6DbslJSOkIjiQExZNLAkxxaopVJeNjLaaqeG55lFuoU1zk9u3WsupwovHCB7pNDvSFpXGguu32GkeUW5RK6tQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Bruno Cadena Laime Jajaja jajajaja 3 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -222,13 +247,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=biLMFrGysUsQ7kNvwG7LWtS&_nc_oc=AdpcpLKZVDmBnsa5NqQlNXtGulVh5AW0Bk9YeO6g5pbCmARZGTIoE-DhQS2rDk_ONko&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=4zbkmCBM2DbH71E1n8P2-Q&_nc_ss=7f289&oh=00_AQHwH5VyZcN2-kvmes4o2gA2RUo0F7Cc7gYBA4tkGKOtZA&oe=6A8D7417",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid02LPNiQDqC4ZXua48rp4Erw2BxaqrkeshhUxUQsfdnh4kLjHAoanxQw8ge2Z8tY5i5l?__cft__[0]=AZZ8eYaKwO4Zqe-pVgCVQfE54aHbDNKH9L7ehXBHGqEQYMrulZAQdlVr_6VNf37zE_RLREWIin9I9gQDqIzIREiqf5RUbr0e0xj9y2ClTOa-8JXZVBfeF0-rY4bY9HIa0c7RuBEsWalMiWgANZmKPCXXg8nWkmsvh8F0PJLQ0dlbatO15-hNMUxHnvhh3cCvOZU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗠𝗢𝗦 𝗟𝗔 𝗣𝗥𝗘𝗩𝗘𝗡𝗖𝗜𝗢́𝗡 𝗗𝗘 𝗟𝗔 𝗩𝗜𝗢𝗟𝗘𝗡𝗖𝗜𝗔 𝗦𝗘𝗫𝗨𝗔𝗟 𝗘𝗡 𝗡𝗜𝗡̃𝗔𝗦, 𝗡𝗜𝗡̃𝗢𝗦 𝗬 𝗔𝗗𝗢𝗟𝗘𝗦𝗖𝗘𝗡𝗧𝗘𝗦 El Servicio Departamental de Políticas Sociales (SEDEPOS) a través … Ver más 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗠𝗢𝗦 𝗟𝗔 𝗣𝗥𝗘𝗩𝗘𝗡𝗖𝗜𝗢́𝗡 𝗗𝗘 𝗟𝗔 𝗩𝗜𝗢𝗟𝗘𝗡𝗖𝗜𝗔 𝗦𝗘𝗫𝗨𝗔𝗟 𝗘𝗡 𝗡𝗜𝗡̃𝗔𝗦, 𝗡𝗜𝗡̃𝗢𝗦 𝗬 𝗔𝗗𝗢𝗟𝗘𝗦𝗖𝗘𝗡𝗧𝗘𝗦 El Servicio Departamental de Políticas Sociales (SEDEPOS) a través … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gamscs",
@@ -239,22 +273,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NbmXdRwt9gcQ7kNvwGS_0Qx&_nc_oc=AdqKZ8G0BPi0ceBCuY8zBA83Xw3G3RjrnBo-ctmJyJN5hPaKGEBlyYpFHEQ0Cd7-xLI&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=5h2RC5pbiTOpqmzoR4Yqzw&_nc_ss=7f289&oh=00_AQFydJo882LJl-qcTWMX0SS52HBku7P3uqJC9X5DNJT3Gg&oe=6A8D5E61",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/gamscs/posts/905931882371204:905931882371204?__cft__[0]=AZYu4eY6LEz6ZNRbucoMLTBd7qwO0xXCTBuHJQ1j6EqoDqS0p0L_PK_tBSjn2SNA1ITGav2MowyjuvpX3tea2nzWT92j_WR3pzLJjR-XdvxgKR1qPW82mZS3syk5wrVtDzgwaas7ahbXhtKzCN3AIJvfwT7F2HadjP02XzXjD7K7KVO5uPtJ2FfLcg36WoUugTA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "actualizó su foto de portada. 2 min Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_scz",
@@ -265,13 +290,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wLvZzQCO7sYQ7kNvwH83WYz&_nc_oc=AdoD10xGtr80-fy1aMkGMlG2J1YtZuWoUA-YypDb8Zq_TbI6FSgiaBTXERSXBXtn7Ug&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=snufDUB8hFLu4YaF9AtAdQ&_nc_ss=7f289&oh=00_AQESoWwSk8VeYrFKGWL_cIU-uRdSSg5jXH-OCbycBld87w&oe=6A8D813E",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid0LLD7CoUzQbjM6gbmZE9yYMowUAhB4nNPUh2QSUzvj1Y79dV6PgYtRtQkCQAtDUcpl?__cft__[0]=AZYlqzl93k7fNl8vxP4po4h3C_4mApqRN9G1WcrFCa-jsbbQvvXv_SEbAnfRzCZD0HWtoPCOypmww8qhGjncotofPOZ6Y8z1Bylc8Wz4wjDyuBEJ_5_BtHADgUjhvc8Icph5GJbwdNNV3Iog1Jg-0IETrs76UC60qeMW4u_OsK2f0QjO8EOcZQ77kWduLdy4fmA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La vicegobernadora de Santa Cruz, Paola Aguirre, sostuvo una importante reunión con el Cónsul de la República Popular China en Bolivia, con el objetivo de evaluar los a… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_lostiempos",
@@ -605,30 +639,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i-zV-ltTf_wQ7kNvwH6g-m1&_nc_oc=AdrXe-6xIUi7FwtVJP0K2yUggdO_8Z5Yu31BOOrq8cnmG8YFF-BHI9LHHC9y5nmxLTE&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=-xjm-pTbUkprsUrX2iYsJQ&_nc_ss=7f289&oh=00_AQHl3bzhigZb9Y3IADs-2UI4WUtCsXpsqlDdfzt_qip-8g&oe=6A8D3B40",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1057928236975651/?__cft__[0]=AZahkTFnO1J-ArDfcC8GlaQMxEHRG9mGfrvYIHGzY2vavTfAq_AJ8y6iAvKikX3Wr9zW_-hhAqZApN97ATjZBPzelxmIx7S1E4vtssp4DzYNFcSwPbEzzrcaMzCwpn9Gt6YVOJM6KFMcGVOT8VGRmndh1c8J0FRE8qsYmAvzKW6fdkxe471W7DbzZ4-lRU6Q_yKQfqCfuk_t8MxdbAXV4-g3&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "ParlArte: Arte plumaria con Alexandra Bravo Felicidades Tenemos problemas para reproducir este video. Más información Ruth Rocha Monje"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1057928236975651/?comment_id=1001892469578447&__cft__[0]=AZahkTFnO1J-ArDfcC8GlaQMxEHRG9mGfrvYIHGzY2vavTfAq_AJ8y6iAvKikX3Wr9zW_-hhAqZApN97ATjZBPzelxmIx7S1E4vtssp4DzYNFcSwPbEzzrcaMzCwpn9Gt6YVOJM6KFMcGVOT8VGRmndh1c8J0FRE8qsYmAvzKW6fdkxe471W7DbzZ4-lRU6Q_yKQfqCfuk_t8MxdbAXV4-g3&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Ruth Rocha Monje Felicidades 18 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -945,13 +962,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2LZBDWefxkYQ7kNvwGUHNpU&_nc_oc=Ado4YPUcocBmEt1cChQs8S1HMXkAFx9TrpOh-TujRKUMuRqCrETDNu_DYdS4I7-SJAw&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=Oq06e-rUUUmFAt0oDtkeBw&_nc_ss=7f289&oh=00_AQHfl6BL0jF8ChjMVoUyvtCRxtxxlhucKGqstHuW_u57GQ&oe=6A8D3FF8",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1149,22 +1166,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0AQUQC3sdAcQ7kNvwFURD34&_nc_oc=AdrBJBbO-Z4f0gocT9hBUhwOK5zSkRiXio_aBYx5mwLl-9Ss1zAMQAP5W8CxOQx2J04&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=pG2mGpBZIUyYpr6KUPYlBA&_nc_ss=7f289&oh=00_AQF-FcZQHqLG24O-X5l9LWkiXOBZVoYjOoGnUbQEvNlXKA&oe=6A8D5760",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1403125785244839/?__cft__[0]=AZZ47ohqONyN1EXnl8wvJmRHSYyoUJZpRVAJx98gZMM0MHKNMwHQvNU9fBRVbweCXBDCUspApLbP4UAsaoy1YSZJEnUvGqC1qWpBEePdTJnIOfY8-Mhp53C6PzLN_XVmSBCKrGp1jPql94O7fFmOJokXZpAxWOzW7-gyS4LHM1vN_Daudys-7FmSiTzf0pxrzByhvTAyms5F9L1jdOd3nqoB&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La USFX rinde homenaje a Monteagudo por su aniversario, municipio que acoge a varias carreras universitarias y constituye un importante centro de formación académica en… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umsa",

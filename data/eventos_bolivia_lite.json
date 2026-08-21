@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-20T17:49:02-04:00",
+  "generated_at": "2026-08-20T22:02:09-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 30,
@@ -55,7 +55,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 8
+        "count": 7
       },
       {
         "key": "festival",
@@ -78,6 +78,11 @@
         "count": 3
       },
       {
+        "key": "otro",
+        "label": "Otros",
+        "count": 2
+      },
+      {
         "key": "cine",
         "label": "Cine",
         "count": 2
@@ -90,11 +95,6 @@
       {
         "key": "conferencia",
         "label": "Conferencias",
-        "count": 1
-      },
-      {
-        "key": "otro",
-        "label": "Otros",
         "count": 1
       },
       {
@@ -210,7 +210,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 24
+        "count": 25
       },
       {
         "key": "con_video",
@@ -227,6 +227,26 @@
       {
         "key": "CulturaViva",
         "label": "CulturaViva",
+        "count": 2
+      },
+      {
+        "key": "FEXPOCRUZ",
+        "label": "FEXPOCRUZ",
+        "count": 2
+      },
+      {
+        "key": "Expocruz2026",
+        "label": "Expocruz2026",
+        "count": 2
+      },
+      {
+        "key": "RumboAExpocruz2026",
+        "label": "RumboAExpocruz2026",
+        "count": 2
+      },
+      {
+        "key": "OportunidadesParaTodos",
+        "label": "OportunidadesParaTodos",
         "count": 2
       },
       {
@@ -317,26 +337,6 @@
       {
         "key": "SucreBolivia",
         "label": "SucreBolivia",
-        "count": 1
-      },
-      {
-        "key": "FEXPOCRUZ",
-        "label": "FEXPOCRUZ",
-        "count": 1
-      },
-      {
-        "key": "Expocruz2026",
-        "label": "Expocruz2026",
-        "count": 1
-      },
-      {
-        "key": "RumboAExpocruz2026",
-        "label": "RumboAExpocruz2026",
-        "count": 1
-      },
-      {
-        "key": "OportunidadesParaTodos",
-        "label": "OportunidadesParaTodos",
         "count": 1
       }
     ],
@@ -756,19 +756,19 @@
       "price_from": null,
       "currency": null,
       "price_label": null,
-      "status": "programado",
+      "status": "postergado",
       "source_count": 1
     },
     {
       "event_id": "evt_b241df7de02d67",
-      "title": "Expocruz 2026",
-      "category": "feria",
-      "category_label": "Ferias y expos",
-      "starts_at": "2026-09-18T17:00:00-04:00",
-      "starts_at_ms": 1789765200000,
+      "title": "Conocé algunos de los sectores que vas a encontrar en Expocruz 2026!",
+      "category": "otro",
+      "category_label": "Otros",
+      "starts_at": "2026-09-18T00:00:00-04:00",
+      "starts_at_ms": 1789704000000,
       "ends_at_ms": 1790567940000,
       "multi_day": true,
-      "display_date": "Del 18 al 27 de septiembre · 17:00",
+      "display_date": "Del 18 al 27 de septiembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
       "days_until": 29,
@@ -776,7 +776,7 @@
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
       "venue": "Fexpocruz",
-      "image_url": null,
+      "image_url": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.99422-6/782208442_4475124739471710_6620298100946665224_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=cae128&_nc_ohc=VD9_VnXw260Q7kNvwE6USrQ&_nc_oc=AdpxI3tDaS-u1VcKXfJaTRwmAQBGBfkt3FvdvGW4CNIjikNC1p802fWoBWcVo81WvMQ&_nc_zt=14&_nc_ht=scontent-qro1-2.xx&_nc_gid=r-x_Kz-S5GoXOslyUEqlcw&_nc_ss=7f289&oh=00_AQFvYG1GhAbynxeyNn2IQcqCiN0RswRzcrmHMMOmy_0hxQ&oe=6A8D8E68",
       "has_video": true,
       "is_free": false,
       "price_from": null,
