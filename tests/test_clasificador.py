@@ -189,3 +189,80 @@ def test_claves_estables_en_el_dict():
         assert clave in d, f"falta la clave {clave}"
     for clave in ["ticket_urls", "image_urls", "videos", "tags", "artists"]:
         assert isinstance(d[clave], list)
+
+
+AFICHE_CON_RUIDO_DE_FACEBOOK = """16 reacciones · 3 comentarios
+🎸 GRAN CONCIERTO DE LOS KJARKAS EN EL TEATRO
+Sábado 23 de agosto · 20:00 hrs
+Teatro Achá, Cochabamba
+Entradas Bs 80 en SuperTicket https://superticket.bo/kjarkas
+Te esperamos
+"""
+
+AFICHE_VIEJO = """Concierto de Los Kjarkas
+Sábado 12 de julio de 2026, 20:00 hrs
+Teatro Achá, Cochabamba
+Entradas Bs 80 en SuperTicket, te esperamos
+"""
+
+
+def test_el_contador_de_facebook_no_termina_siendo_el_titulo():
+    evento = construir_evento(item(AFICHE_CON_RUIDO_DE_FACEBOOK), SCRAPED, ahora=AHORA)
+    assert "reacciones" not in evento.title
+    assert "Kjarkas" in evento.title
+    # Y el grito se convierte en un título legible.
+    assert evento.title == "Gran Concierto de los Kjarkas en el Teatro"
+
+
+def test_el_evento_no_publica_enlaces_de_compra():
+    evento = construir_evento(item(AFICHE_CON_RUIDO_DE_FACEBOOK), SCRAPED, ahora=AHORA)
+    assert evento.ticket_urls == []
+    assert "superticket.bo" not in evento.description
+    # Pero sí dice dónde se consiguen.
+    assert "SuperTicket" in evento.ticket_outlets
+    assert evento.ticket_info["where_to_buy_label"] == "En SuperTicket"
+    assert evento.ticket_info["purchase_links"] is False
+
+
+def test_un_evento_que_ya_paso_no_entra_al_catalogo():
+    # Antes bastaba con tener sede, precio y ticketera para entrar: así llegaban
+    # al catálogo conciertos de hace meses.
+    assert construir_evento(item(AFICHE_VIEJO), SCRAPED, ahora=AHORA) is None
+    assert analizar(item(AFICHE_VIEJO), ahora=AHORA)["reason"] == "el_evento_ya_paso"
+
+
+def test_el_de_anteayer_sigue_entrando():
+    # La app muestra "esta semana" incluyendo lo que recién pasó.
+    anteayer = AFICHE_CONCIERTO.replace("Sábado 23 de agosto", "12 de agosto")
+    assert construir_evento(item(anteayer), SCRAPED, ahora=AHORA) is not None
+
+
+def test_el_icono_de_la_pagina_no_entra_como_foto():
+    icono = "https://scontent.example/identidad-de-la-pagina.jpg"
+    evento = construir_evento(
+        item(AFICHE_CONCIERTO,
+             image_urls=[icono, "https://scontent.example/afiche-del-show.jpg"],
+             source_icon_url=icono),
+        SCRAPED, ahora=AHORA,
+    )
+    assert evento.image_urls == ["https://scontent.example/afiche-del-show.jpg"]
+
+
+def test_la_fecha_viaja_desarmada_en_el_evento():
+    evento = construir_evento(item(AFICHE_CONCIERTO), SCRAPED, ahora=AHORA)
+    assert evento.display_date_short == "Dom 23 ago · 20:00"
+    assert evento.countdown_label == "En 9 días"
+    assert evento.date_detail["weekday"] == "Domingo"
+    assert evento.date_detail["doors_label"] == "19:00"
+
+
+NOTA_JUDICIAL = """La hermana del narcotraficante uruguayo dejó el penal de
+Palmasol este 20 de agosto tras la audiencia cautelar. La Fiscalía informó que
+seguirá el proceso en libertad. El caso se conocerá el próximo mes.
+"""
+
+
+def test_una_nota_judicial_no_es_un_evento():
+    # Traen fecha, ciudad y foto: sin señales negativas entran al catálogo con
+    # la misma pinta que un concierto.
+    assert construir_evento(item(NOTA_JUDICIAL), SCRAPED, ahora=AHORA) is None

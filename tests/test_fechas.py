@@ -3,7 +3,10 @@ from zoneinfo import ZoneInfo
 
 from scraper.fechas import (
     ciclo_de_vida,
+    cuenta_regresiva,
+    detalle_de_fecha,
     dias_restantes,
+    fecha_corta,
     fecha_legible,
     parsear_fecha,
 )
@@ -155,3 +158,81 @@ def test_ciclo_de_vida():
 def test_dias_restantes():
     f = parsear_fecha("20 de agosto 20:00", ahora=ahora(dia=14))
     assert dias_restantes(f, ahora=ahora(dia=14)) == 6
+
+
+def test_fecha_iso_de_schema_org_con_la_hora_pegada():
+    # `startDate` de schema.org viene así, y es la fecha más confiable del
+    # catálogo: si esta no se lee, las ticketeras no aportan nada.
+    f = parsear_fecha("EL VAR La Gran Final\n2026-09-19T15:00:00-04:00\nLa Paz",
+                      ahora=ahora())
+    assert f.inicio.date().isoformat() == "2026-09-19"
+    assert (f.inicio.hour, f.inicio.minute) == (15, 0)
+    assert f.todo_el_dia is False
+
+
+def test_un_anio_imposible_no_se_toma_como_fecha():
+    # El "© 2019" del pie de página no puede fechar un evento.
+    f = parsear_fecha("Concierto · © 2019 Todos los derechos\n5 de octubre",
+                      ahora=ahora())
+    assert f.inicio.year == 2026
+
+
+def test_una_fecha_iso_vieja_del_html_se_ignora():
+    f = parsear_fecha("Nota publicada 2019-03-04. Feria el 5 de octubre",
+                      ahora=ahora())
+    assert f.inicio.date().isoformat() == "2026-10-05"
+
+
+def test_la_fecha_corta_entra_en_un_chip():
+    f = parsear_fecha("23 de agosto 20:00", ahora=ahora())
+    assert fecha_corta(f) == "Dom 23 ago · 20:00"
+
+
+def test_la_cuenta_regresiva_se_lee_como_una_agenda():
+    hoy = parsear_fecha("14 de agosto 20:00", ahora=ahora())
+    assert cuenta_regresiva(hoy, ahora=ahora()) == "Hoy"
+
+    manana = parsear_fecha("15 de agosto 20:00", ahora=ahora())
+    assert cuenta_regresiva(manana, ahora=ahora()) == "Mañana"
+
+    proximo = parsear_fecha("20 de agosto 20:00", ahora=ahora())
+    assert cuenta_regresiva(proximo, ahora=ahora()) == "En 6 días"
+
+    festival = parsear_fecha("Del 12 al 20 de agosto", ahora=ahora())
+    assert cuenta_regresiva(festival, ahora=ahora()) == "En curso"
+
+
+def test_el_detalle_trae_la_fecha_desarmada_y_escrita():
+    f = parsear_fecha("Sábado 23 de agosto 20:00 hrs, puertas 19:00", ahora=ahora())
+    d = detalle_de_fecha(f, ahora=ahora())
+
+    assert d["known"] is True
+    assert (d["weekday"], d["weekday_short"]) == ("Domingo", "Dom")
+    assert (d["day"], d["month_label"], d["month_short"], d["year"]) == (
+        23, "agosto", "ago", 2026,
+    )
+    assert d["time_label"] == "20:00"
+    assert d["doors_label"] == "19:00"
+    assert d["long_label"] == "Domingo 23 de agosto · 20:00"
+    assert d["countdown_label"] == "En 9 días"
+    assert d["confidence_label"] == "Fecha y hora confirmadas"
+    assert d["is_estimated"] is False
+
+
+def test_el_detalle_sin_fecha_igual_trae_todas_las_claves():
+    f = parsear_fecha("Gracias por acompañarnos", ahora=ahora())
+    d = detalle_de_fecha(f, ahora=ahora())
+    assert d["known"] is False
+    for clave in ["weekday", "day", "month_label", "year", "time_label",
+                  "long_label", "short_label", "countdown_label"]:
+        assert clave in d and d[clave] is None
+
+
+def test_el_anio_aparece_solo_cuando_no_es_el_de_este_ano():
+    este_ano = parsear_fecha("23 de agosto 20:00", ahora=ahora())
+    assert "de 2026" not in fecha_legible(este_ano, ahora=ahora())
+
+    el_que_viene = parsear_fecha("10 de marzo 20:00", ahora=ahora())
+    assert fecha_legible(el_que_viene, ahora=ahora()).endswith(
+        "10 de marzo de 2027 · 20:00"
+    )

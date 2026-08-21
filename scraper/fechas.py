@@ -32,7 +32,7 @@ import re
 import unicodedata
 from dataclasses import dataclass, field
 from datetime import date, datetime, time, timedelta
-from typing import List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 from zoneinfo import ZoneInfo
 
 TZ_BOLIVIA = "America/La_Paz"
@@ -70,6 +70,31 @@ DIAS_SEMANA = {
 DIAS_SEMANA_LARGO = [
     "lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo",
 ]
+
+DIAS_SEMANA_CORTO = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"]
+
+MESES_CORTO = [
+    "", "ene", "feb", "mar", "abr", "may", "jun",
+    "jul", "ago", "sep", "oct", "nov", "dic",
+]
+
+# Un año explícito muy lejos del presente no es una fecha: es el pie de página
+# de un sitio ("© 2019"), el año de fundación de un teatro o una fecha vieja
+# que quedó pegada en el HTML. Se acepta desde el año pasado —un festival puede
+# haber empezado en diciembre— hasta dos años adelante, que es todo lo que se
+# anuncia en la práctica.
+ANIOS_HACIA_ATRAS = 1
+ANIOS_HACIA_ADELANTE = 2
+
+# Cómo se le explica al usuario de dónde salió la fecha. Un evento cuya fecha
+# se dedujo de un "este viernes" merece un asterisco en la pantalla; uno que
+# vino con día y hora escritos, no.
+ETIQUETAS_CONFIANZA = {
+    "exacta": "Fecha y hora confirmadas",
+    "aproximada": "Fecha confirmada, hora por confirmar",
+    "relativa": "Fecha deducida del anuncio",
+    "desconocida": "Sin fecha confirmada",
+}
 
 # Alternancia de nombres de mes ordenada de más larga a más corta: si "sep" va
 # antes que "septiembre" en el patrón, la regex corta la palabra por la mitad y
@@ -132,10 +157,16 @@ def _resolver_anio(dia: int, mes: int, anio: Optional[int], ahora: datetime) -> 
     if anio is not None:
         if anio < 100:
             anio += 2000
-        try:
-            return date(anio, mes, dia)
-        except ValueError:
-            return None
+        # Un año fuera de rango se ignora y se infiere como si no estuviera: es
+        # mucho más probable que sea el "2019" del pie de página que un evento
+        # anunciado con siete años de anticipación.
+        if not (ahora.year - ANIOS_HACIA_ATRAS <= anio <= ahora.year + ANIOS_HACIA_ADELANTE):
+            anio = None
+        else:
+            try:
+                return date(anio, mes, dia)
+            except ValueError:
+                return None
 
     limite = ahora.date() - timedelta(days=DIAS_DE_GRACIA_HACIA_ATRAS)
     for candidato in (ahora.year, ahora.year + 1):
@@ -153,8 +184,13 @@ def _resolver_anio(dia: int, mes: int, anio: Optional[int], ahora: datetime) -> 
 # Horas
 # --------------------------------------------------------------------------
 
+# El corte de la izquierda no puede ser `\b`: en "2026-09-19T15:00" la hora
+# viene pegada a una letra y no hay borde de palabra, así que la hora de todo
+# evento con fecha ISO se leía como 00:00 —el patrón terminaba enganchando los
+# segundos—. Lo que hay que rechazar es que la hora sea la cola de un número
+# más largo, y eso lo dice el lookbehind.
 _RE_HORA_HHMM = re.compile(
-    r"\b(?:a\s+(?:las|hrs\.?)\s+|horas?\s+|hrs\.?\s+)?"
+    r"(?<![\d.,:])(?:a\s+(?:las|hrs\.?)\s+|horas?\s+|hrs\.?\s+)?"
     r"(?P<h>[0-2]?\d)[:.](?P<m>[0-5]\d)\s*"
     r"(?P<suf>a\.?m\.?|p\.?m\.?|hrs?\.?|horas)?",
     re.IGNORECASE,
@@ -294,8 +330,13 @@ _RE_DIA_DE_MES = re.compile(
 # "2026-08-23", "2026-08-23T20:00". Las ticketeras y los sitios con datos
 # estructurados (schema.org/Event) publican así, y es la forma más confiable de
 # todas: no hay que inferir el año ni adivinar si 03/05 es marzo o mayo.
+# El corte se hace con lookarounds y no con `\b`: en un `startDate` de
+# schema.org la fecha viene pegada a la hora ("2026-09-19T15:00:00-04:00") y
+# entre el "9" y la "T" no hay borde de palabra, así que con `\b` el patrón no
+# encontraba **ninguna** de las fechas que publican las ticketeras — que son
+# justamente las más confiables del catálogo.
 _RE_ISO = re.compile(
-    r"\b(?P<anio>20\d{2})-(?P<mes>[01]\d)-(?P<dia>[0-3]\d)\b"
+    r"(?<!\d)(?P<anio>20\d{2})-(?P<mes>[01]\d)-(?P<dia>[0-3]\d)(?!\d)"
 )
 
 # "15/03/2026", "15-03", "15.03.26"
@@ -345,18 +386,23 @@ def _buscar_dias(plano: str, ahora: datetime) -> Optional[Tuple[date, Optional[d
     """
     # Un rango ISO ("2026-09-05 ... 2026-09-07") se arma con las dos primeras
     # fechas si la segunda es posterior; si no, la primera manda sola.
-    iso = list(_RE_ISO.finditer(plano))
-    if iso:
-        def _a_fecha(m):
-            try:
-                return date(int(m.group("anio")), int(m.group("mes")), int(m.group("dia")))
-            except ValueError:
-                return None
+    def _a_fecha(m):
+        anio, mes, dia = int(m.group("anio")), int(m.group("mes")), int(m.group("dia"))
+        # La misma cordura que para los años escritos a mano: una página puede
+        # traer en su HTML la fecha ISO de una nota de hace tres años.
+        if not (ahora.year - ANIOS_HACIA_ATRAS <= anio <= ahora.year + ANIOS_HACIA_ADELANTE):
+            return None
+        try:
+            return date(anio, mes, dia)
+        except ValueError:
+            return None
 
-        d1 = _a_fecha(iso[0])
-        if d1:
-            d2 = _a_fecha(iso[1]) if len(iso) > 1 else None
-            return d1, (d2 if d2 and d2 > d1 else None), iso[0].group(0)
+    iso = [(m, _a_fecha(m)) for m in _RE_ISO.finditer(plano)]
+    iso = [(m, d) for m, d in iso if d]
+    if iso:
+        m1, d1 = iso[0]
+        d2 = iso[1][1] if len(iso) > 1 else None
+        return d1, (d2 if d2 and d2 > d1 else None), m1.group(0)
 
     m = _RE_RANGO_CRUZADO.search(plano)
     if m:
@@ -475,10 +521,16 @@ def parsear_fecha(
 # Presentación: la app no debería tener que formatear fechas en español
 # --------------------------------------------------------------------------
 
-def fecha_legible(fecha: FechaEvento) -> Optional[str]:
+def fecha_legible(fecha: FechaEvento, ahora: Optional[datetime] = None,
+                  tz_nombre: str = TZ_BOLIVIA) -> Optional[str]:
     """Texto listo para pintar en pantalla, ya en español y sin trabajo para la app.
 
     Ejemplos: "Sábado 23 de agosto · 20:00", "Del 5 al 7 de septiembre".
+
+    El año solo aparece cuando el evento no cae en el año en curso. Escribirlo
+    siempre alarga la tarjeta con un dato que el 95 % de las veces es obvio;
+    omitirlo siempre hace que un festival de enero se lea como si fuera el mes
+    que viene.
     """
     if not fecha.inicio:
         return None
@@ -487,20 +539,145 @@ def fecha_legible(fecha: FechaEvento) -> Optional[str]:
     dia_semana = DIAS_SEMANA_LARGO[inicio.weekday()].capitalize()
     mes = MESES_LARGO[inicio.month]
 
+    if ahora is None:
+        ahora = _ahora(tz_nombre)
+    anio = f" de {inicio.year}" if inicio.year != ahora.year else ""
+
     if fecha.multidia and fecha.fin:
         if fecha.inicio.month == fecha.fin.month:
-            base = f"Del {inicio.day} al {fecha.fin.day} de {mes}"
+            base = f"Del {inicio.day} al {fecha.fin.day} de {mes}{anio}"
         else:
             base = (
                 f"Del {inicio.day} de {mes} "
-                f"al {fecha.fin.day} de {MESES_LARGO[fecha.fin.month]}"
+                f"al {fecha.fin.day} de {MESES_LARGO[fecha.fin.month]}{anio}"
             )
     else:
-        base = f"{dia_semana} {inicio.day} de {mes}"
+        base = f"{dia_semana} {inicio.day} de {mes}{anio}"
 
     if not fecha.todo_el_dia:
         base += f" · {inicio.hour:02d}:{inicio.minute:02d}"
     return base
+
+
+def fecha_corta(fecha: FechaEvento) -> Optional[str]:
+    """La misma fecha en el ancho de un chip: "Sáb 23 ago · 20:00"."""
+    if not fecha.inicio:
+        return None
+    inicio = fecha.inicio
+    base = (f"{DIAS_SEMANA_CORTO[inicio.weekday()]} {inicio.day} "
+            f"{MESES_CORTO[inicio.month]}")
+    if fecha.multidia and fecha.fin:
+        base += f" - {fecha.fin.day} {MESES_CORTO[fecha.fin.month]}"
+    elif not fecha.todo_el_dia:
+        base += f" · {inicio.hour:02d}:{inicio.minute:02d}"
+    return base
+
+
+def cuenta_regresiva(fecha: FechaEvento, ahora: Optional[datetime] = None,
+                     tz_nombre: str = TZ_BOLIVIA) -> Optional[str]:
+    """"Hoy", "Mañana", "En 3 días", "Terminó hace 2 días".
+
+    Es el texto que hace que una lista de fechas se lea como una agenda. Va
+    calculado acá y no en la app porque depende de la zona horaria de Bolivia,
+    no de la del teléfono: un usuario en España tiene que ver "mañana" para un
+    evento que en La Paz es mañana.
+    """
+    if not fecha.inicio:
+        return None
+    if ahora is None:
+        ahora = _ahora(tz_nombre)
+
+    ciclo = ciclo_de_vida(fecha, ahora=ahora, tz_nombre=tz_nombre)
+    if ciclo == "en_curso":
+        return "En curso"
+
+    dias = (fecha.inicio.date() - ahora.date()).days
+    if dias == 0:
+        return "Hoy"
+    if dias == 1:
+        return "Mañana"
+    if dias == 2:
+        return "Pasado mañana"
+    if dias > 2:
+        if dias <= 13:
+            return f"En {dias} días"
+        semanas = round(dias / 7)
+        return f"En {semanas} semanas" if dias < 60 else f"En {round(dias / 30)} meses"
+    if dias == -1:
+        return "Fue ayer"
+    return f"Fue hace {abs(dias)} días"
+
+
+def detalle_de_fecha(fecha: FechaEvento, ahora: Optional[datetime] = None,
+                     tz_nombre: str = TZ_BOLIVIA) -> Dict[str, Any]:
+    """Todo lo que se sabe de la fecha, ya desarmado y ya escrito.
+
+    La app no debería tener que formatear ni una coma: acá van el día de la
+    semana, el mes con nombre, la hora, la de puertas, el rango si es de varios
+    días, la cuenta regresiva y las etiquetas corta y larga. Las claves están
+    siempre, con `null` cuando no se sabe, para que el `data class` de Kotlin no
+    tenga que distinguir campo ausente de campo nulo.
+    """
+    if ahora is None:
+        ahora = _ahora(tz_nombre)
+
+    vacio: Dict[str, Any] = {
+        "known": False,
+        "confidence": fecha.confianza,
+        "confidence_label": ETIQUETAS_CONFIANZA.get(fecha.confianza, "Sin fecha"),
+        "is_estimated": True,
+        "source_text": fecha.texto_origen or None,
+        "warnings": list(fecha.avisos or []),
+        "timezone": tz_nombre,
+        "weekday": None, "weekday_short": None,
+        "day": None, "month": None, "month_label": None, "month_short": None,
+        "year": None,
+        "has_time": False, "time_label": None, "doors_label": None,
+        "end_day": None, "end_month_label": None, "end_year": None,
+        "end_time_label": None,
+        "multi_day": False, "days_count": None,
+        "long_label": None, "short_label": None, "range_label": None,
+        "countdown_label": None,
+    }
+    if not fecha.inicio:
+        return vacio
+
+    inicio, fin = fecha.inicio, fecha.fin
+    detalle = dict(vacio)
+    detalle.update({
+        "known": True,
+        "is_estimated": fecha.confianza in {"relativa", "aproximada"},
+        "weekday": DIAS_SEMANA_LARGO[inicio.weekday()].capitalize(),
+        "weekday_short": DIAS_SEMANA_CORTO[inicio.weekday()],
+        "day": inicio.day,
+        "month": inicio.month,
+        "month_label": MESES_LARGO[inicio.month],
+        "month_short": MESES_CORTO[inicio.month],
+        "year": inicio.year,
+        "has_time": not fecha.todo_el_dia,
+        "time_label": None if fecha.todo_el_dia else f"{inicio.hour:02d}:{inicio.minute:02d}",
+        "doors_label": fecha.hora_puertas,
+        "multi_day": bool(fecha.multidia and fin),
+        "long_label": fecha_legible(fecha, ahora=ahora, tz_nombre=tz_nombre),
+        "short_label": fecha_corta(fecha),
+        "countdown_label": cuenta_regresiva(fecha, ahora=ahora, tz_nombre=tz_nombre),
+    })
+
+    if fin:
+        detalle.update({
+            "end_day": fin.day,
+            "end_month_label": MESES_LARGO[fin.month],
+            "end_year": fin.year,
+            "end_time_label": None if fecha.todo_el_dia else f"{fin.hour:02d}:{fin.minute:02d}",
+            "days_count": (fin.date() - inicio.date()).days + 1,
+            "range_label": (
+                f"{inicio.day} de {MESES_LARGO[inicio.month]} — "
+                f"{fin.day} de {MESES_LARGO[fin.month]}"
+            ),
+        })
+    else:
+        detalle["days_count"] = 1
+    return detalle
 
 
 def a_millis(momento: Optional[datetime]) -> Optional[int]:

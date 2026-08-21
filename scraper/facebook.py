@@ -10,10 +10,12 @@ sin necesidad de golpearla en cada ejecución.
 """
 
 import asyncio
+import random
 import re
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import urljoin, urlparse
 
+from . import imagenes as imagenes_mod
 from .models import RawItem
 
 
@@ -42,6 +44,26 @@ RUIDO_DE_INTERFAZ = {
     "ver traduccion", "escribe un comentario", "más opciones", "mas opciones",
 }
 
+# Los contadores de interacción vienen pegados al post y con el número
+# adelante, así que no hay lista de exactos que los atrape: "16 reacciones · 3
+# comentarios" cambia en cada visita. Colarse acá no es inofensivo — el primer
+# renglón con sustancia es el que termina siendo el título del evento, y así es
+# como un concierto se publicaba llamándose "16 reacciones · 3 comentarios".
+_CONTADORES = re.compile(
+    r"^\W*(?:\d[\d.,]*\s*[KkMm]?\s*)?"
+    r"(?:reacci(?:on|ón)(?:es)?|comentarios?|veces compartido|compartid[oa]s?"
+    r"|reproducciones|visualizaciones|vistas|me gusta|seguidor(?:es)?"
+    r"|miembros?|personas m[aá]s)\b",
+    re.IGNORECASE,
+)
+
+# Insignias del reproductor que Facebook mete como texto dentro del article.
+_INSIGNIAS = re.compile(
+    r"^\W*(?:en vivo|live|transmisi[oó]n en vivo|destacad[oa]s?|patrocinado"
+    r"|sugerido para ti|reel|historia)\W*$",
+    re.IGNORECASE,
+)
+
 # Palabras que hacen que valga la pena mirar un post con más detalle. No se usan
 # para aceptar ni rechazar —de eso se encarga el clasificador— sino para decidir
 # a cuáles posts les gastamos una visita extra de enriquecimiento.
@@ -57,15 +79,15 @@ PISTAS_DE_EVENTO = [
 
 
 def _limpiar_imagen(url: Optional[str]) -> Optional[str]:
-    if not url:
+    """Una URL de imagen que valga la pena, o `None`.
+
+    Las reglas de qué es una foto de verdad y qué es un ícono viven en
+    `scraper/imagenes.py`, que es el mismo filtro que usan las fuentes web.
+    """
+    limpia = imagenes_mod.normalizar(url)
+    if not limpia or imagenes_mod.es_ruido(limpia):
         return None
-    url = url.strip()
-    if not url.startswith(("http://", "https://")):
-        return None
-    bajo = url.lower()
-    if any(x in bajo for x in ["emoji.php", "rsrc.php", "static.xx.fbcdn.net", "/images/emoji"]):
-        return None
-    return url
+    return limpia
 
 
 def _limpiar_url_fb(href: Optional[str]) -> Optional[str]:
@@ -97,6 +119,8 @@ def _limpiar_partes(partes: List[str], nombre_fuente: str = "") -> str:
         if len(t) <= 3 and not any(c.isalpha() for c in t):
             continue
         if re.fullmatch(r"\d+[KkMm]?", t):
+            continue
+        if _CONTADORES.match(t) or _INSIGNIAS.match(t):
             continue
         if bajo not in vistos:
             vistos.add(bajo)
@@ -190,35 +214,38 @@ async def _texto_del_post(nodo, nombre_fuente: str) -> str:
 
 
 async def _imagenes_del_post(nodo, icono_fuente: Optional[str]) -> List[str]:
-    """El afiche es el activo más valioso de un evento, así que el filtro de
-    tamaño es generoso: se descartan iconos y avatares, no fotos chicas."""
-    urls: List[str] = []
+    """El afiche del post, medido en el navegador y ordenado por calidad.
+
+    Medir cada `<img>` con `naturalWidth` es la ventaja de leer con un navegador
+    de verdad: acá sí sabemos que esa imagen es de 1080×1080 y aquella otra de
+    32×32, sin descargar nada. Esa medida es lo que separa el afiche del ícono
+    de "compartir", y por eso las imágenes no se bloquean en el router de red
+    aunque cargarlas cueste tiempo.
+    """
+    candidatas: List[Dict[str, Any]] = []
     try:
         imgs = nodo.locator("img[src]")
         n = min(await imgs.count(), 60)
         for i in range(n):
             img = imgs.nth(i)
-            src = _limpiar_imagen(await img.get_attribute("src"))
-            if not src or src == icono_fuente or src in urls:
-                continue
+            src = await img.get_attribute("src")
             try:
                 tam = await img.evaluate(
                     "(e)=>({w:e.naturalWidth||e.width||0,h:e.naturalHeight||e.height||0})"
                 )
-                w, h = int(tam.get("w", 0)), int(tam.get("h", 0))
+                ancho, alto = int(tam.get("w", 0)), int(tam.get("h", 0))
             except Exception:
-                w = h = 0
-            if w and h and (w < 180 or h < 180):
-                continue
-            alt = ((await img.get_attribute("alt")) or "").lower()
-            if any(x in alt for x in [
-                "emoji", "profile picture", "foto del perfil", "reacción", "reaction",
-            ]):
-                continue
-            urls.append(src)
+                ancho = alto = 0
+            candidatas.append({
+                "url": src,
+                "width": ancho,
+                "height": alto,
+                "alt": (await img.get_attribute("alt")) or "",
+                "origen": "post",
+            })
     except Exception:
         pass
-    return urls[:12]
+    return imagenes_mod.elegir(candidatas, icono_fuente, limite=12)
 
 
 async def _video_del_post(nodo, url_post: str, imagenes: List[str]):
@@ -371,13 +398,21 @@ async def _enriquecer_post(context, item: RawItem, timeout_ms: int = 12000) -> R
 
         try:
             og = page.locator('meta[property="og:image"]')
+            candidatas: List[Dict[str, Any]] = []
             if await og.count():
-                img = _limpiar_imagen(await og.first.get_attribute("content"))
-                if img and img != item.source_icon_url and img not in item.image_urls:
-                    # Al frente: og:image es el afiche en tamaño completo y es la
-                    # imagen que la app debería mostrar como principal.
-                    item.image_urls.insert(0, img)
-                    item.image_urls = item.image_urls[:12]
+                # `og:image` es Facebook diciendo "esta es la imagen de este
+                # post": el afiche en tamaño completo, no la miniatura del feed.
+                # Va primera y con el peso más alto del ranking.
+                candidatas.append({
+                    "url": await og.first.get_attribute("content"),
+                    "origen": "og",
+                })
+            candidatas += [
+                {"url": u, "origen": "post"} for u in item.image_urls
+            ]
+            elegidas = imagenes_mod.elegir(candidatas, item.source_icon_url, limite=12)
+            if elegidas:
+                item.image_urls = elegidas
         except Exception:
             pass
 

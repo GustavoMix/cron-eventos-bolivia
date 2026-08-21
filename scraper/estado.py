@@ -28,7 +28,14 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 from zoneinfo import ZoneInfo
 
-from .fechas import TZ_BOLIVIA
+from .fechas import (
+    TZ_BOLIVIA,
+    FechaEvento,
+    cuenta_regresiva,
+    detalle_de_fecha,
+    fecha_corta,
+    fecha_legible,
+)
 
 # Cuántos días se conserva un evento ya terminado. Sirve para que la app pueda
 # mostrar "esta semana" incluyendo lo de anteayer, y para que un evento que se
@@ -140,7 +147,45 @@ def _parse(iso: Optional[str], tz_nombre: str = TZ_BOLIVIA) -> Optional[datetime
     return valor
 
 
-def recalcular_tiempo(d: Dict[str, Any], ahora: datetime) -> Dict[str, Any]:
+def _refrescar_presentacion(d: Dict[str, Any], inicio: Optional[datetime],
+                            fin: Optional[datetime], ahora: datetime,
+                            tz_nombre: str) -> None:
+    """Reescribe los textos de fecha que dependen de cuándo se los mira.
+
+    "En 3 días" es cierto el martes y mentira el viernes. Como el catálogo
+    arrastra eventos que ninguna fuente volvió a publicar, esos textos hay que
+    rehacerlos en cada corrida o la app termina mostrando una cuenta regresiva
+    congelada en el día que se scrapeó el afiche. De paso, un evento guardado
+    por una versión anterior del scraper se completa acá con las claves nuevas.
+    """
+    if inicio is None:
+        d["display_date"] = None
+        d["display_date_short"] = None
+        d["countdown_label"] = None
+        d["date_detail"] = detalle_de_fecha(FechaEvento(), ahora=ahora, tz_nombre=tz_nombre)
+        return
+
+    todo_el_dia = d.get("all_day")
+    if todo_el_dia is None:
+        todo_el_dia = inicio.hour == 0 and inicio.minute == 0
+
+    fecha = FechaEvento(
+        inicio=inicio,
+        fin=fin,
+        hora_puertas=d.get("doors_time"),
+        todo_el_dia=bool(todo_el_dia),
+        multidia=bool(fin and fin.date() != inicio.date()),
+        confianza=d.get("date_confidence") or "aproximada",
+        texto_origen=d.get("date_source_text") or "",
+    )
+    d["display_date"] = fecha_legible(fecha, ahora=ahora, tz_nombre=tz_nombre)
+    d["display_date_short"] = fecha_corta(fecha)
+    d["countdown_label"] = cuenta_regresiva(fecha, ahora=ahora, tz_nombre=tz_nombre)
+    d["date_detail"] = detalle_de_fecha(fecha, ahora=ahora, tz_nombre=tz_nombre)
+
+
+def recalcular_tiempo(d: Dict[str, Any], ahora: datetime,
+                      tz_nombre: str = TZ_BOLIVIA) -> Dict[str, Any]:
     """Vuelve a calcular todo lo que depende de "ahora".
 
     Un evento archivado guarda su fecha, no su estado: el que era "próximo"
@@ -148,8 +193,9 @@ def recalcular_tiempo(d: Dict[str, Any], ahora: datetime) -> Dict[str, Any]:
     corrida, la app mostraría eventos de la semana pasada marcados como que
     faltan tres días.
     """
-    inicio = _parse(d.get("starts_at"))
-    fin = _parse(d.get("ends_at"))
+    inicio = _parse(d.get("starts_at"), tz_nombre)
+    fin = _parse(d.get("ends_at"), tz_nombre)
+    _refrescar_presentacion(d, inicio, fin, ahora, tz_nombre)
 
     if not inicio:
         d["lifecycle"] = "sin_fecha"
@@ -270,7 +316,7 @@ def reconciliar(
         actual["last_confirmed_at"] = generado_en
         actual["seen_this_run"] = True
         actual["history_count"] = len(actual["history"])
-        recalcular_tiempo(actual, ahora)
+        recalcular_tiempo(actual, ahora, tz_nombre)
         resueltos.append(actual)
 
     # Arrastrar lo que no se vio hoy pero sigue en pie.
@@ -280,7 +326,7 @@ def reconciliar(
             continue
 
         copia = dict(viejo)
-        recalcular_tiempo(copia, ahora)
+        recalcular_tiempo(copia, ahora, tz_nombre)
         copia["seen_this_run"] = False
         copia["last_seen_at"] = viejo.get("last_seen_at") or viejo.get("first_seen_at")
 

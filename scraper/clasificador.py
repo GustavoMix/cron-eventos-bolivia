@@ -23,10 +23,15 @@ from zoneinfo import ZoneInfo
 
 from dateutil import parser as dateparser
 
+from . import entradas as entradas_mod
+from . import imagenes as imagenes_mod
 from .fechas import (
     TZ_BOLIVIA,
     ciclo_de_vida,
+    cuenta_regresiva,
+    detalle_de_fecha,
     dias_restantes,
+    fecha_corta,
     fecha_legible,
     parsear_fecha,
     a_millis,
@@ -35,6 +40,12 @@ from .lugares import consulta_de_mapa, resolver_ubicacion
 from .models import Evento, RawItem
 
 UMBRAL_RELEVANCIA = 55
+
+# Cuántos días de gracia tiene un evento ya terminado antes de que se lo
+# rechace de plano. Un afiche del concierto de anteayer sigue sirviendo —la app
+# muestra "esta semana" hacia atrás— pero la crónica de un festival de 2024 no
+# tiene por qué entrar al catálogo como si fuera una novedad.
+DIAS_DE_GRACIA_PASADO = 2
 
 # --------------------------------------------------------------------------
 # Categorías
@@ -160,6 +171,14 @@ DESCARTES = [
     r"\btarifa\b", r"\bcorte de agua\b", r"\bcorte de luz\b",
     r"\bbloqueo\b", r"\bparo\b", r"\bmarcha de protesta\b", r"\baccidente\b",
     r"\bdetenido\b", r"\baprehendid", r"\bhurto\b", r"\brobo\b",
+    # Policiales y judiciales. Vienen de los medios generales, traen fecha,
+    # ciudad y foto, y sin esto entran al catálogo con la misma pinta que un
+    # concierto: en la lista de la app quedaba un narcotraficante entre dos
+    # ferias del libro.
+    r"\bnarcotrafic", r"\bextradici[oó]n\b", r"\bc[aá]rcel\b", r"\bpenal de\b",
+    r"\bfiscal[ií]a\b", r"\bimputad", r"\bsentencia\b", r"\baudiencia cautelar\b",
+    r"\ballanamiento\b", r"\bfemicidio\b", r"\bhomicidio\b", r"\bsecuestro\b",
+    r"\bincautaci[oó]n\b", r"\boperativo policial\b",
 ]
 
 ESTADOS = [
@@ -187,27 +206,9 @@ PRECIO_RE = re.compile(
     re.IGNORECASE,
 )
 
-DOMINIOS_TICKETERA = [
-    "superticket.bo", "ticket.bo", "tuentrada.com.bo", "passlinebolivia.com",
-    "passline.com", "ticketeg.com", "eventbrite.com", "bandsintown.com",
-    "fexpocruz.com.bo", "entradas",
-]
-
-# (patrón a buscar, cómo mostrarlo en la app). Van separados porque el patrón
-# tiene que tolerar cómo se escribe de verdad y el nombre mostrado tiene que
-# verse bien en una lista.
-PUNTOS_VENTA: List[Tuple[str, str]] = [
-    (r"\bfarmacorp\b", "Farmacorp"),
-    (r"\bsuper ?ticket\b", "SuperTicket"),
-    (r"\bticket\.bo\b", "Ticket.bo"),
-    (r"\btu entrada\b", "Tu Entrada"),
-    (r"\bpassline\b", "Passline"),
-    (r"\bticketeg\b", "Ticketeg"),
-    (r"\bboleter[ií]a\b", "Boletería"),
-    (r"\bpuntos? de venta\b", "Puntos de venta"),
-    (r"\bpreventa\b", "Preventa"),
-    (r"\ben puerta\b", "Venta en puerta"),
-]
+# La política de entradas —qué es un enlace de compra y cómo se nombra un punto
+# de venta— vive entera en `scraper/entradas.py`. Acá solo se la usa.
+PUNTOS_VENTA = entradas_mod.PUNTOS_VENTA
 
 TELEFONO_RE = re.compile(
     r"(?:\+?591[\s\-]?)?(?<!\d)([67]\d{7})(?!\d)"      # celulares
@@ -329,19 +330,25 @@ def extraer_precios(texto: str) -> Dict[str, Any]:
 
 
 def extraer_enlaces(texto: str, extra: Optional[List[str]] = None) -> Dict[str, List[str]]:
+    """Los enlaces del anuncio, separando los de compra del resto.
+
+    Los de compra se cuentan pero no se publican: que un afiche enlace a una
+    ticketera es la mejor prueba de que el evento existe de verdad, así que la
+    señal alimenta el puntaje. Lo que no hace es viajar al JSON — `ticket_urls`
+    sale siempre vacío. Ver `scraper/entradas.py`.
+    """
     urls = URL_RE.findall(texto or "") + list(extra or [])
-    entradas = [
-        u for u in urls
-        if any(d in u.lower() for d in DOMINIOS_TICKETERA)
-    ]
-    return {"ticket_urls": _unicos(entradas, 6), "all_urls": _unicos(urls, 12)}
+    de_compra = [u for u in urls if entradas_mod.es_enlace_de_compra(u)]
+    return {
+        "hay_enlace_de_compra": bool(de_compra),
+        "ticket_urls": [],
+        "all_urls": _unicos(entradas_mod.sin_enlaces_de_compra(urls), 12),
+    }
 
 
 def extraer_puntos_venta(texto: str) -> List[str]:
-    plano = _plano(texto)
-    return _unicos(
-        [nombre for patron, nombre in PUNTOS_VENTA if re.search(patron, plano)], 6
-    )
+    """Dónde se consiguen las entradas, en nombres para mostrar (sin enlaces)."""
+    return entradas_mod.detectar_puntos_venta(texto, _plano(texto))
 
 
 def extraer_telefonos(texto: str) -> List[str]:
@@ -375,25 +382,103 @@ def extraer_etiquetas(texto: str) -> List[str]:
     return _unicos(etiquetas, 12)
 
 
+# Cola que los sitios le pegan al `<title>` y que en una tarjeta solo ocupa
+# lugar: "Los Kjarkas en concierto | SuperTicket" es el mismo evento que "Los
+# Kjarkas en concierto", con el nombre de la ticketera encima.
+_COLA_DE_SITIO = re.compile(
+    r"\s*[|\-–—·]\s*(?:ticket\s?bo|superticket|passline|tu\s?entrada|eventbrite"
+    r"|facebook|inicio|home|entradas?|comprar entradas?|tickets?"
+    r"|agenda cultural|cartelera|bolivia)\s*$",
+    re.IGNORECASE,
+)
+
+# Renglones que no sirven como título aunque sean el primero del afiche: los
+# saludos, la navegación del sitio y —sobre todo— los contadores de
+# interacción de Facebook, que llegan pegados al principio del post y así es
+# como un concierto terminaba llamándose "16 reacciones · 3 comentarios".
+_TITULO_INSERVIBLE = re.compile(
+    r"^(?:\W*)(?:"
+    r"(?:hola|buen(?:os|as)\s|atenci[oó]n|comunicado|aviso|compartir"
+    r"|s[ií]guenos|etiqueta a|men[uú]|inicio)\b"
+    # Sin `\b` al final: "reacciones" sigue con una letra y el borde de palabra
+    # nunca se cumpliría.
+    r"|\d[\d.,]*\s*[KkMm]?\s*(?:reacci|comentario|me gusta|compartid|vista"
+    r"|reproducci|visualizaci|seguidor)"
+    r")",
+    re.IGNORECASE,
+)
+
+
+# Las que quedan en minúscula al destildar un título gritado. No es una lista
+# de "stop words" de búsqueda: son solo las palabras que en un título en español
+# no llevan mayúscula.
+_CONECTORES = {
+    "de", "del", "la", "las", "el", "los", "un", "una", "y", "e", "o", "u",
+    "en", "con", "por", "para", "a", "al", "se", "su", "sus", "que", "desde",
+    "hasta", "sin", "sobre", "entre", "the", "of",
+}
+
+
+def _capitalizar(palabra: str, primera: bool) -> str:
+    if palabra.lower() in _CONECTORES and not primera:
+        return palabra.lower()
+    # Siglas cortas que se escriben en mayúscula de verdad: MMA, VAR, DJ.
+    if len(palabra) <= 3 and palabra.isupper():
+        return palabra
+    return palabra.capitalize()
+
+
+def _limpiar_titulo(texto: str) -> str:
+    """Saca emojis, adornos y colas de sitio, y arregla los GRITOS."""
+    limpio = re.sub(r"\s+", " ", texto or "").strip()
+
+    # La cola del sitio se corta ANTES de sacar los símbolos: el separador que
+    # la delata ("| TicketBO") es justamente uno de los que se van, y sin él la
+    # cola queda pegada al título como si fuera parte del nombre del evento.
+    anterior = None
+    while limpio and limpio != anterior:
+        anterior = limpio
+        limpio = _COLA_DE_SITIO.sub("", limpio).strip(" .,;:-·|")
+
+    limpio = re.sub(r"[^\w\sÁÉÍÓÚÜÑáéíóúüñ¡!¿?'\"().,:&/–—-]", " ", limpio)
+    limpio = re.sub(r"\s+", " ", limpio).strip(" .,;:-·|¡!")
+
+    letras = [c for c in limpio if c.isalpha()]
+    if len(letras) >= 8 and all(c.isupper() for c in letras):
+        # "GRAN CONCIERTO DE LOS KJARKAS" gritado entero se lee peor y desalinea
+        # la tipografía de la lista.
+        limpio = " ".join(
+            _capitalizar(p, i == 0) for i, p in enumerate(limpio.split())
+        )
+    return limpio.strip()
+
+
 def titulo_de(item: RawItem, texto: str, categoria: str, fecha_txt: Optional[str]) -> str:
     """Un título corto y presentable.
 
     Los afiches no traen título: traen un bloque de texto que empieza con
-    emojis y saltos de línea. Se toma el primer renglón con sustancia y se lo
-    limpia; si no hay ninguno, se arma uno con la categoría y la fecha.
+    emojis y saltos de línea. Se busca el primer renglón que sirva —y se
+    descartan los que son puro saludo o navegación— y si no hay ninguno se arma
+    uno con la categoría y la fecha.
     """
+    base = ""
     if item.title and len(item.title.strip()) > 10:
-        base = item.title.strip()
-    else:
-        base = ""
-        for linea in (texto or "").splitlines():
-            limpia = re.sub(r"[^\w\sÁÉÍÓÚÑáéíóúñ¡!¿?'\"().,:&/-]", " ", linea)
-            limpia = re.sub(r"\s+", " ", limpia).strip(" .,;:-·|")
-            if len(limpia) >= 12:
-                base = limpia
-                break
+        base = _limpiar_titulo(item.title)
 
-    if not base:
+    if len(base) < 10:
+        nombre_fuente = _plano(item.source_name or "")
+        for linea in (texto or "").splitlines():
+            limpia = _limpiar_titulo(linea)
+            if len(limpia) < 12 or _TITULO_INSERVIBLE.match(limpia):
+                continue
+            # Un renglón que es solo el nombre de la página no dice nada del
+            # evento; el siguiente casi siempre sí.
+            if nombre_fuente and _plano(limpia) == nombre_fuente:
+                continue
+            base = limpia
+            break
+
+    if len(base) < 10:
         etiqueta = categoria.replace("_", " ").capitalize()
         base = f"{etiqueta} en Bolivia" if not fecha_txt else f"{etiqueta} · {fecha_txt}"
 
@@ -501,7 +586,7 @@ def analizar(item: RawItem, ahora=None) -> Dict[str, Any]:
     if precios["price_from"] is not None or precios["is_free"]:
         score += 13
         razones.append("informacion_de_entradas")
-    if enlaces["ticket_urls"] or item.facebook_event_url:
+    if enlaces["hay_enlace_de_compra"] or item.facebook_event_url:
         score += 11
         razones.append("enlace_de_entradas")
     if convocatoria:
@@ -530,10 +615,20 @@ def analizar(item: RawItem, ahora=None) -> Dict[str, Any]:
     # puede ordenar ni avisar cuándo es. Se lo deja pasar solo si trae un evento
     # de Facebook, que la app sí puede abrir para que el usuario vea la fecha.
     utilizable = fecha.tiene_fecha or bool(item.facebook_event_url)
-    aceptado = score >= UMBRAL_RELEVANCIA and utilizable
+
+    # Una agenda con eventos que ya pasaron no es una agenda. Antes esto
+    # dependía solo del puntaje, y un afiche viejo con sede, precio y ticketera
+    # juntaba de sobra para entrar: así llegaban al catálogo conciertos de dos
+    # años atrás. Los días de gracia dejan pasar lo de anteayer, que la app sí
+    # usa para "esta semana".
+    ya_paso = ciclo == "finalizado" and (dias_restantes(fecha, ahora=ahora) or 0) < -DIAS_DE_GRACIA_PASADO
+
+    aceptado = score >= UMBRAL_RELEVANCIA and utilizable and not ya_paso
 
     if aceptado:
         motivo = "aceptado"
+    elif ya_paso:
+        motivo = "el_evento_ya_paso"
     elif not utilizable:
         motivo = "sin_fecha_ni_enlace_de_evento"
     elif pasado and score < UMBRAL_RELEVANCIA:
@@ -583,7 +678,7 @@ def confianza_de(item: RawItem, analisis: Dict[str, Any]) -> float:
 
     if analisis["ubicacion"]["venue"]:
         base += 0.07
-    if analisis["enlaces"]["ticket_urls"] or item.facebook_event_url:
+    if analisis["enlaces"]["hay_enlace_de_compra"] or item.facebook_event_url:
         base += 0.07
     if analisis["score"] >= 80:
         base += 0.06
@@ -602,7 +697,19 @@ def construir_evento(item: RawItem, scraped_at: str, ahora=None) -> Optional[Eve
     precios = analisis["precios"]
     enlaces = analisis["enlaces"]
 
-    legible = fecha_legible(fecha)
+    legible = fecha_legible(fecha, ahora=ahora)
+    detalle_fecha = detalle_de_fecha(fecha, ahora=ahora)
+
+    # El texto que se publica va sin enlaces de compra: en el detalle, el
+    # teléfono convierte cualquier URL suelta en un enlace tocable, así que
+    # dejarla ahí sería publicar el redirect igual, solo que sin botón.
+    texto_publicable = entradas_mod.limpiar_texto(texto)
+
+    galeria = imagenes_mod.limpiar_galeria(item.image_urls, item.source_icon_url)
+    puntos_venta = entradas_mod.detectar_puntos_venta(texto, _plano(texto))
+    telefonos = extraer_telefonos(texto)
+    estado = detectar_estado(texto)
+
     uid = hashlib.sha1(
         f"{item.source_id}|{item.item_url}|{texto[:400]}".encode("utf-8")
     ).hexdigest()[:16]
@@ -621,8 +728,8 @@ def construir_evento(item: RawItem, scraped_at: str, ahora=None) -> Optional[Eve
         scraped_at=scraped_at,
 
         title=titulo_de(item, texto, analisis["category"], legible),
-        description=texto[:2500],
-        original_text=texto[:8000],
+        description=texto_publicable[:2500],
+        original_text=texto_publicable[:8000],
         category=analisis["category"],
         subcategories=analisis["subcategories"],
         tags=extraer_etiquetas(texto),
@@ -638,6 +745,9 @@ def construir_evento(item: RawItem, scraped_at: str, ahora=None) -> Optional[Eve
         multi_day=fecha.multidia,
         doors_time=fecha.hora_puertas,
         display_date=legible,
+        display_date_short=fecha_corta(fecha),
+        countdown_label=cuenta_regresiva(fecha, ahora=ahora),
+        date_detail=detalle_fecha,
         days_until=dias_restantes(fecha, ahora=ahora),
         lifecycle=analisis["lifecycle"],
 
@@ -657,18 +767,27 @@ def construir_evento(item: RawItem, scraped_at: str, ahora=None) -> Optional[Eve
         price_to=precios["price_to"],
         currency=precios["currency"],
         price_text=precios["price_text"],
-        ticket_urls=enlaces["ticket_urls"],
-        ticket_outlets=extraer_puntos_venta(texto),
+        ticket_urls=[],
+        ticket_outlets=puntos_venta,
+        ticket_info=entradas_mod.describir(
+            puntos_venta,
+            precios["is_free"],
+            entradas_mod.etiqueta_de_precio(
+                precios["is_free"], precios["price_from"], precios["price_to"]
+            ),
+            estado,
+            telefonos,
+        ),
 
-        phones=extraer_telefonos(texto),
+        phones=telefonos,
 
-        status=detectar_estado(texto),
+        status=estado,
         relevance_score=analisis["score"],
         confidence=confianza_de(item, analisis),
         filter_reasons=analisis["reasons"],
         is_official=int(item.tier) == 1,
 
-        image_urls=item.image_urls or [],
+        image_urls=galeria,
         video_url=item.video_url,
         video_thumbnail_url=item.video_thumbnail_url,
         video_type=item.video_type,

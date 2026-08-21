@@ -316,12 +316,17 @@ async def correr(
     payload = construir_payload(
         catalogo, diagnostico, generado_en, zona, cobertura,
         incluir_finalizados=bool(settings.get("incluir_finalizados", True)),
+        minimo_calidad=settings.get("minimo_calidad"),
     )
     escribir_json(out_dir / "eventos_bolivia.json", payload)
     escribir_json(out_dir / "eventos_bolivia_lite.json", construir_payload_lite(payload))
     escribir_json(out_dir / "estado_fuentes.json", {
         "generated_at": generado_en,
         "coverage": cobertura,
+        # Qué le falta al catálogo, no solo cuánto tiene: si "Foto del evento"
+        # encabeza `most_missing` corrida tras corrida, el problema está en la
+        # extracción de imágenes y no en el clasificador.
+        "quality": payload["quality"],
         "sources": diagnostico,
     })
     _escribir_csv(out_dir / "eventos_bolivia.csv", payload["events"])
@@ -334,6 +339,14 @@ async def correr(
     print(f"  vistos en esta corrida:    {resumen['events_seen_this_run']}")
     print(f"  con foto:                  {resumen['events_with_image']}")
     print(f"  con video:                 {resumen['events_with_video']}")
+    print(f"  completos (foto+fecha+hora+sede): {resumen['events_complete']}")
+    print(f"  calidad promedio:          {resumen['quality_average']}/100")
+    print(f"  fuera por calidad (<{resumen['quality_min_score']}):    "
+          f"{resumen['events_below_quality']}")
+    faltantes = payload["quality"]["most_missing"][:3]
+    if faltantes:
+        print("  lo que más falta:          "
+              + ", ".join(f"{f['label']} ({f['count']})" for f in faltantes))
     print(f"Fuentes ok/bloq/omit/error:  {resumen['sources_ok']}/"
           f"{resumen['sources_blocked']}/{resumen['sources_skipped']}/"
           f"{resumen['sources_error']}")
@@ -347,11 +360,14 @@ async def correr(
     return 0
 
 
+# `ticket_urls` no está y no es un olvido: el catálogo no publica enlaces de
+# compra. Lo que se revisa a ojo es `ticket_outlets`, que es dónde se consiguen.
 CAMPOS_CSV = [
     "event_id", "title", "category", "starts_at", "display_date", "lifecycle",
-    "days_until", "department", "city", "venue", "address", "is_free",
-    "price_from", "price_to", "price_label", "status", "confidence",
-    "source_count", "image_url", "video_url", "url", "ticket_urls",
+    "countdown_label", "days_until", "department", "city", "venue", "address",
+    "is_free", "price_from", "price_to", "price_label", "ticket_outlets",
+    "status", "confidence", "quality_score", "quality_tier", "quality_missing",
+    "source_count", "image_count", "image_url", "video_url", "url",
 ]
 
 
@@ -363,7 +379,11 @@ def _escribir_csv(path: Path, eventos: List[Dict[str, Any]]) -> None:
         writer.writeheader()
         for evento in eventos:
             fila = {c: evento.get(c) for c in CAMPOS_CSV}
-            fila["ticket_urls"] = " | ".join(evento.get("ticket_urls") or [])
+            fila["ticket_outlets"] = " | ".join(evento.get("ticket_outlets") or [])
+            fila["image_count"] = len(evento.get("image_urls") or [])
+            fila["quality_missing"] = " | ".join(
+                (evento.get("quality") or {}).get("missing") or []
+            )
             writer.writerow(fila)
 
 

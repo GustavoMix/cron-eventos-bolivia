@@ -30,8 +30,13 @@ settings:
   # el feed recorta los afiches con "Ver más" y justo ahí están la fecha, el
   # lugar y el precio. Cada visita consume parte del presupuesto del job, así que el
   # scraper elige con cuentagotas cuáles abre.
+  # Subir este límite es la palanca más directa sobre la calidad del catálogo:
+  # el afiche en alta (`og:image`) y el texto completo con fecha, sede y precio
+  # solo aparecen al abrir el post. Se mantiene bajo igual —tres visitas dentro
+  # del mismo job, sobre la única página que ese job consulta— porque el
+  # presupuesto por IP sigue mandando.
   facebook_enriquecer: true
-  facebook_enriquecer_limite: 2
+  facebook_enriquecer_limite: 3
   facebook_enriquecer_timeout_ms: 12000
 
   # --- Fuentes web ---------------------------------------------------------
@@ -49,6 +54,18 @@ settings:
   # "esta semana" incluyendo lo de anteayer.
   conservar_pasados_dias: 4
   incluir_finalizados: true
+
+  # Puntaje mínimo de completitud para que un evento se publique (0-100). Mide
+  # cuánto de lo que la app necesita pintar llegó de verdad: foto, día, hora,
+  # sede, ciudad, categoría, entradas y descripción. Ver scraper/calidad.py.
+  #
+  #   42 -> deja pasar lo que al menos tiene foto o fecha y algo de contexto
+  #   60 -> solo eventos bien documentados
+  #   80 -> solo eventos completos, catálogo mucho más chico
+  #
+  # Lo que no llega al mínimo NO se borra: se guarda en el historial y entra
+  # cuando alguna fuente aporte el dato que le faltaba.
+  minimo_calidad: 42
 
 sources:
 

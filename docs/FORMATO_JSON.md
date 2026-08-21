@@ -77,8 +77,25 @@ hace scroll:
                     { "key": "pagado", "label": "Con entrada", "count": 56 },
                     { "key": "por_confirmar", "label": "Precio por confirmar", "count": 22 } ],
     "media":      [ { "key": "con_foto", "label": "Con foto", "count": 82 },
+                    { "key": "con_galeria", "label": "Con galería", "count": 41 },
                     { "key": "con_video", "label": "Con video", "count": 19 } ],
+    "quality":    [ { "key": "excelente", "label": "Completo", "count": 38 },
+                    { "key": "bueno", "label": "Bien documentado", "count": 31 },
+                    { "key": "aceptable", "label": "Datos básicos", "count": 27 },
+                    { "key": "incompleto", "label": "Faltan datos", "count": 0 } ],
     "tags":       [ { "key": "rock", "label": "rock", "count": 11 } ]
+  },
+
+  "policy": {            // ver "Entradas: dónde comprar, sin redirección"
+    "purchase_links": false,
+    "external_redirects": false,
+    "note": "El catálogo informa dónde conseguir entradas, sin enlaces de compra ni redirecciones."
+  },
+
+  "quality": {           // cuántos eventos completos hay y qué es lo que más falta
+    "by_tier": [ { "key": "excelente", "label": "Completo", "count": 38 } ],
+    "average_score": 71.4,
+    "most_missing": [ { "label": "Información de entradas", "count": 22 } ]
   },
 
   "coverage": { ... },   // salud del scraping, útil para diagnóstico
@@ -119,6 +136,9 @@ el mismo concierto aparece mañana anunciado por otra página, conserva su id.
 | `starts_at_ms` | `Long?` | Epoch milisegundos. **Usá este para ordenar y filtrar.** |
 | `ends_at` / `ends_at_ms` | `String?` / `Long?` | Solo en eventos de varios días. |
 | `display_date` | `String?` | `"Domingo 23 de agosto · 20:00"`, `"Del 5 al 7 de septiembre"`. |
+| `display_date_short` | `String?` | `"Dom 23 ago · 20:00"`. Para chips y tarjetas angostas. |
+| `countdown_label` | `String?` | `"Hoy"`, `"Mañana"`, `"En 6 días"`, `"En curso"`, `"Fue ayer"`. |
+| `date_detail` | `DateDetail` | La fecha entera desarmada. Ver abajo. |
 | `all_day` | `Boolean` | `true` si el afiche no traía hora. |
 | `multi_day` | `Boolean` | Festival o feria de varios días. |
 | `doors_time` | `String?` | `"19:00"`. Hora de puertas, distinta de la del show. |
@@ -132,8 +152,51 @@ la hora, y `relativa` que la fecha se dedujo de un "este viernes" anclado a la
 fecha de publicación. Si tu app manda notificaciones, conviene tratarlas
 distinto que a una `exacta`.
 
-`lifecycle` **se recalcula en cada corrida**, así que un evento archivado nunca
-queda mostrando "faltan 3 días" para siempre.
+`lifecycle`, `countdown_label`, `display_date` y `date_detail` **se recalculan
+en cada corrida**, así que un evento archivado nunca queda mostrando "faltan 3
+días" para siempre.
+
+#### `date_detail`: la fecha ya desarmada
+
+Existe para que la app no formatee ni una coma. Todas las claves están siempre;
+las que no se saben van en `null`.
+
+```jsonc
+"date_detail": {
+  "known": true,
+  "weekday": "Domingo",        "weekday_short": "Dom",
+  "day": 23,                   "month": 8,
+  "month_label": "agosto",     "month_short": "ago",
+  "year": 2026,
+
+  "has_time": true,            "time_label": "20:00",
+  "doors_label": "19:00",      // puertas, distinta de la del show
+
+  "multi_day": false,          "days_count": 1,
+  "end_day": null,             "end_month_label": null,
+  "end_year": null,            "end_time_label": null,
+  "range_label": null,         // "5 de septiembre — 7 de septiembre"
+
+  "long_label": "Domingo 23 de agosto · 20:00",
+  "short_label": "Dom 23 ago · 20:00",
+  "countdown_label": "En 9 días",
+
+  "confidence": "exacta",
+  "confidence_label": "Fecha y hora confirmadas",
+  "is_estimated": false,       // true si la fecha se dedujo de "este viernes"
+  "source_text": "23 de agosto",
+  "warnings": [],
+  "timezone": "America/La_Paz"
+}
+```
+
+El año aparece en `long_label` **solo cuando el evento no cae en el año en
+curso**: escribirlo siempre alarga la tarjeta con un dato obvio, omitirlo
+siempre hace que un festival de enero se lea como si fuera el mes que viene.
+
+`countdown_label` se calcula en la zona horaria de Bolivia, no en la del
+teléfono: alguien mirando la app desde España tiene que ver "Mañana" para un
+evento que en La Paz es mañana.
 
 ### Dónde
 
@@ -151,8 +214,76 @@ porque los afiches no las traen.
 | `price_from` / `price_to` | `Double?` | Mínimo y máximo. Suele haber dos (preventa y puerta). |
 | `currency` | `String?` | `"BOB"` o `null`. |
 | `price_label` | `String?` | **Ya escrito**: `"Entrada libre"`, `"Bs 80"`, `"Bs 80 - 120"`. |
-| `ticket_urls` | `List<String>` | Enlaces a ticketeras. |
-| `ticket_outlets` | `List<String>` | `["SuperTicket", "Farmacorp"]`. |
+| `ticket_outlets` | `List<String>` | `["SuperTicket", "Farmacorp"]`. Nombres, no enlaces. |
+| `ticket_info` | `TicketInfo` | Dónde se consiguen, en texto. Ver abajo. |
+| `ticket_urls` | `List<String>` | **Siempre `[]`.** Ver la sección siguiente. |
+
+### Entradas: dónde comprar, sin redirección
+
+Este catálogo **no publica enlaces de compra**. Dice dónde se consiguen las
+entradas —"en SuperTicket y Farmacorp", "en boletería del teatro"— y ahí
+termina: no hay ninguna URL en el JSON que abra un checkout, ni en
+`ticket_urls`, ni en `url`, ni en `all_urls`, ni dentro de `description`.
+
+Es una decisión de producto: con un botón de compra la app deja de ser una
+agenda y pasa a ser un intermediario de venta, con precios que cambian, enlaces
+que caducan y responsabilidad sobre una transacción que nadie acá controla.
+
+```jsonc
+"ticket_info": {
+  "is_free": false,
+  "price_label": "Bs 80 - 120",
+  "where_to_buy": ["SuperTicket", "Farmacorp"],
+  "where_to_buy_label": "En SuperTicket y Farmacorp",
+  "note": "Consultá precio y disponibilidad directamente en el punto de venta.",
+  "contact_phones": ["70123456"],
+  "purchase_links": false,
+  "opens_external_checkout": false
+}
+```
+
+`ticket_urls` se conserva vacía y no se elimina para no romper las apps que ya
+la deserializan. Si el enlace principal del evento *era* la ficha de la
+ticketera, `url` viaja en `null` y `has_source_link` en `false`: toda la
+información —fecha, sede, precio, dónde se compra— ya está en el JSON, así que
+lo único que se pierde es el redirect.
+
+La regla se aplica también a lo que viene del historial: un evento guardado por
+una corrida vieja se sanea antes de publicarse, así que el archivo de hoy
+cumple la política de hoy. La implementación está entera en
+`scraper/entradas.py`.
+
+### Calidad: qué tan completo llegó el evento
+
+`relevance_score` mide *confianza* (qué tan seguros estamos de que esto es un
+evento real). `quality` mide *completitud*: cuánto de lo que la app necesita
+pintar llegó de verdad. Un aviso oficial que solo dice "concierto el sábado"
+tiene relevancia alta y calidad baja, y las dos cosas son ciertas.
+
+```jsonc
+"quality_score": 93,          // atajo plano, para ordenar
+"quality_tier": "excelente",  // excelente | bueno | aceptable | incompleto
+"quality": {
+  "score": 93,
+  "tier": "excelente",
+  "label": "Completo",
+  "publishable": true,
+  "complete": true,
+  "has_photo": true, "has_date": true, "has_time": true,
+  "has_venue": true, "has_ticket_info": true,
+  "missing": [],
+  "checks": [ { "key": "foto", "label": "Foto del evento", "ok": true, "weight": 21 } ]
+}
+```
+
+Los eventos que no llegan al mínimo (`summary.quality_min_score`, 42 por
+defecto) **no se publican**, pero tampoco se borran: quedan en el historial y
+entran en cuanto alguna fuente aporte el dato que les faltaba. El corte se
+configura con `minimo_calidad` en `config/sources.yaml`.
+
+Ordenar por `quality_score` dentro del mismo día es lo que hace que la lista
+abra con los eventos que tienen afiche, hora y sede en vez de con los que solo
+tienen un título.
 
 ### Fotos y videos
 
@@ -228,6 +359,15 @@ data class EventosLite(
 data class Resumen(
     @SerialName("events_total") val total: Int = 0,
     @SerialName("events_today") val hoy: Int = 0,
+    @SerialName("events_with_image") val conFoto: Int = 0,
+    @SerialName("events_complete") val completos: Int = 0,
+)
+
+@Serializable
+data class Politica(
+    @SerialName("purchase_links") val enlacesDeCompra: Boolean = false,
+    @SerialName("external_redirects") val redirecciones: Boolean = false,
+    val note: String = "",
 )
 
 @Serializable
@@ -239,6 +379,7 @@ data class Filtros(
     val `when`: List<Faceta> = emptyList(),
     val price: List<Faceta> = emptyList(),
     val media: List<Faceta> = emptyList(),
+    val quality: List<Faceta> = emptyList(),
     val tags: List<Faceta> = emptyList(),
 )
 
@@ -265,6 +406,8 @@ data class EventoLite(
     @SerialName("ends_at_ms") val endsAtMs: Long? = null,
     @SerialName("multi_day") val multiDay: Boolean = false,
     @SerialName("display_date") val displayDate: String? = null,
+    @SerialName("display_date_short") val displayDateShort: String? = null,
+    @SerialName("countdown_label") val countdownLabel: String? = null,
     val lifecycle: String,
     @SerialName("lifecycle_label") val lifecycleLabel: String,
     @SerialName("days_until") val daysUntil: Int? = null,
@@ -275,15 +418,19 @@ data class EventoLite(
     val venue: String? = null,
 
     @SerialName("image_url") val imageUrl: String? = null,
+    @SerialName("has_image") val hasImage: Boolean = false,
     @SerialName("has_video") val hasVideo: Boolean = false,
 
     @SerialName("is_free") val isFree: Boolean = false,
     @SerialName("price_from") val priceFrom: Double? = null,
     val currency: String? = null,
     @SerialName("price_label") val priceLabel: String? = null,
+    @SerialName("ticket_outlets") val ticketOutlets: List<String> = emptyList(),
 
     val status: String = "programado",
     @SerialName("source_count") val sourceCount: Int = 1,
+    @SerialName("quality_score") val qualityScore: Int = 0,
+    @SerialName("quality_tier") val qualityTier: String = "aceptable",
 )
 ```
 
@@ -309,6 +456,9 @@ data class Evento(
     @SerialName("ends_at") val endsAt: String? = null,
     @SerialName("ends_at_ms") val endsAtMs: Long? = null,
     @SerialName("display_date") val displayDate: String? = null,
+    @SerialName("display_date_short") val displayDateShort: String? = null,
+    @SerialName("countdown_label") val countdownLabel: String? = null,
+    @SerialName("date_detail") val dateDetail: DetalleFecha = DetalleFecha(),
     @SerialName("all_day") val allDay: Boolean = true,
     @SerialName("multi_day") val multiDay: Boolean = false,
     @SerialName("doors_time") val doorsTime: String? = null,
@@ -327,9 +477,10 @@ data class Evento(
     @SerialName("price_from") val priceFrom: Double? = null,
     @SerialName("price_to") val priceTo: Double? = null,
     @SerialName("price_label") val priceLabel: String? = null,
-    @SerialName("ticket_urls") val ticketUrls: List<String> = emptyList(),
     @SerialName("ticket_outlets") val ticketOutlets: List<String> = emptyList(),
+    @SerialName("ticket_info") val ticketInfo: InfoEntradas = InfoEntradas(),
     val phones: List<String> = emptyList(),
+    // `ticket_urls` viaja siempre vacía; no hace falta declararla.
 
     @SerialName("image_url") val imageUrl: String? = null,
     @SerialName("image_urls") val imageUrls: List<String> = emptyList(),
@@ -339,6 +490,10 @@ data class Evento(
 
     val status: String = "programado",
     val confidence: Double = 0.0,
+    val quality: Calidad = Calidad(),
+    @SerialName("quality_score") val qualityScore: Int = 0,
+    @SerialName("quality_tier") val qualityTier: String = "aceptable",
+    @SerialName("has_source_link") val hasSourceLink: Boolean = false,
     @SerialName("source_count") val sourceCount: Int = 1,
     val corroborated: Boolean = false,
     val verification: String = "una_fuente",
@@ -347,6 +502,55 @@ data class Evento(
     @SerialName("seen_this_run") val seenThisRun: Boolean = false,
     @SerialName("last_confirmed_at") val lastConfirmedAt: String? = null,
     @SerialName("changed_this_run") val changedThisRun: List<String> = emptyList(),
+)
+
+@Serializable
+data class DetalleFecha(
+    val known: Boolean = false,
+    val weekday: String? = null,
+    @SerialName("weekday_short") val weekdayShort: String? = null,
+    val day: Int? = null,
+    @SerialName("month_label") val monthLabel: String? = null,
+    @SerialName("month_short") val monthShort: String? = null,
+    val year: Int? = null,
+    @SerialName("has_time") val hasTime: Boolean = false,
+    @SerialName("time_label") val timeLabel: String? = null,
+    @SerialName("doors_label") val doorsLabel: String? = null,
+    @SerialName("multi_day") val multiDay: Boolean = false,
+    @SerialName("days_count") val daysCount: Int? = null,
+    @SerialName("range_label") val rangeLabel: String? = null,
+    @SerialName("long_label") val longLabel: String? = null,
+    @SerialName("short_label") val shortLabel: String? = null,
+    @SerialName("countdown_label") val countdownLabel: String? = null,
+    val confidence: String = "desconocida",
+    @SerialName("confidence_label") val confidenceLabel: String = "",
+    @SerialName("is_estimated") val isEstimated: Boolean = true,
+    val timezone: String = "America/La_Paz",
+)
+
+@Serializable
+data class InfoEntradas(
+    @SerialName("is_free") val isFree: Boolean = false,
+    @SerialName("price_label") val priceLabel: String? = null,
+    @SerialName("where_to_buy") val whereToBuy: List<String> = emptyList(),
+    @SerialName("where_to_buy_label") val whereToBuyLabel: String? = null,
+    val note: String = "",
+    @SerialName("contact_phones") val contactPhones: List<String> = emptyList(),
+    // Siempre false: el catálogo informa, no vende.
+    @SerialName("purchase_links") val purchaseLinks: Boolean = false,
+    @SerialName("opens_external_checkout") val opensCheckout: Boolean = false,
+)
+
+@Serializable
+data class Calidad(
+    val score: Int = 0,
+    val tier: String = "aceptable",
+    val label: String = "",
+    val complete: Boolean = false,
+    @SerialName("has_photo") val hasPhoto: Boolean = false,
+    @SerialName("has_time") val hasTime: Boolean = false,
+    @SerialName("has_venue") val hasVenue: Boolean = false,
+    val missing: List<String> = emptyList(),
 )
 
 @Serializable
@@ -408,9 +612,33 @@ val intent = Intent(Intent.ACTION_VIEW,
 )
 ```
 
+**Mostrar primero los eventos completos**:
+
+```kotlin
+events.sortedWith(
+    compareBy<EventoLite>(nullsLast()) { it.startsAtMs }.thenByDescending { it.qualityScore }
+)
+```
+
+**Pintar dónde se consiguen las entradas** (no hay nada que abrir):
+
+```kotlin
+Text(evento.ticketInfo.whereToBuyLabel ?: evento.ticketInfo.note)
+```
+
 ## Versionado
 
-`schema_version` es `"1.0"`. Los cambios que agreguen campos no la suben; si
-alguna vez se quita o se renombra un campo, sube a `"2.0"` y este documento lo
-dirá. Con `ignoreUnknownKeys = true` tu app aguanta cualquier cambio aditivo sin
-tocar nada.
+`schema_version` es `"1.1"`.
+
+**1.0 → 1.1** es aditivo salvo en un punto, y con `ignoreUnknownKeys = true` una
+app de 1.0 sigue funcionando:
+
+- se suman `date_detail`, `display_date_short`, `countdown_label`, `quality`,
+  `quality_score`, `quality_tier`, `ticket_info`, `has_source_link`, la faceta
+  `filters.quality` y los bloques `policy` y `quality` del payload;
+- `ticket_urls` sigue existiendo pero **viaja siempre vacía**. Es el único
+  cambio de comportamiento: una app que pintaba un botón "Comprar" con ese
+  campo ahora no lo pinta. Mostrá `ticket_info.where_to_buy_label` en su lugar.
+
+Los cambios que agreguen campos no suben la versión mayor; si alguna vez se
+quita o se renombra un campo, sube a `"2.0"` y este documento lo dirá.

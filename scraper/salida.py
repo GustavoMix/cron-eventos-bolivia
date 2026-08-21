@@ -27,7 +27,13 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-SCHEMA_VERSION = "1.0"
+from . import calidad as calidad_mod
+from . import entradas as entradas_mod
+
+# 1.1: se suman `date_detail`, `quality` y `ticket_info`; `ticket_urls` pasa a
+# viajar siempre vacío. Todas las claves de 1.0 siguen estando y con el mismo
+# significado, así que una app vieja sigue funcionando contra este JSON.
+SCHEMA_VERSION = "1.1"
 
 # Etiquetas listas para pintar. Van en el JSON y no en la app para que agregar
 # una categoría no obligue a publicar una versión nueva en la tienda.
@@ -65,12 +71,21 @@ ETIQUETAS_CICLO = {
 CAMPOS_LITE = [
     "event_id", "title", "category", "category_label",
     "starts_at", "starts_at_ms", "ends_at_ms", "multi_day",
-    "display_date", "lifecycle", "lifecycle_label", "days_until", "is_upcoming",
+    "display_date", "display_date_short", "countdown_label",
+    "lifecycle", "lifecycle_label", "days_until", "is_upcoming",
     "city", "department", "venue",
-    "image_url", "has_video",
+    "image_url", "has_image", "has_video",
     "is_free", "price_from", "currency", "price_label",
-    "status", "source_count",
+    "ticket_outlets",
+    "status", "source_count", "quality_score", "quality_tier",
 ]
+
+ETIQUETAS_CALIDAD = {
+    "excelente": "Completo",
+    "bueno": "Bien documentado",
+    "aceptable": "Datos básicos",
+    "incompleto": "Faltan datos",
+}
 
 
 def _fecha(iso: Optional[str]) -> Optional[datetime]:
@@ -123,7 +138,23 @@ def _faceta_precio(eventos: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 def _faceta_media(eventos: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return [
         {"key": "con_foto", "label": "Con foto", "count": sum(1 for e in eventos if e.get("has_image"))},
+        {"key": "con_galeria", "label": "Con galería",
+         "count": sum(1 for e in eventos if len(e.get("image_urls") or []) >= 3)},
         {"key": "con_video", "label": "Con video", "count": sum(1 for e in eventos if e.get("has_video"))},
+    ]
+
+
+def _faceta_calidad(eventos: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Un chip para "mostrame solo los eventos completos".
+
+    Es el filtro que más cambia la primera impresión de la app: con él, la
+    pantalla inicial puede abrir mostrando solo eventos con afiche, fecha, hora
+    y sede, y dejar el resto para quien vaya a buscarlo.
+    """
+    conteo = Counter(e.get("quality_tier") for e in eventos if e.get("quality_tier"))
+    return [
+        {"key": nivel, "label": ETIQUETAS_CALIDAD[nivel], "count": conteo.get(nivel, 0)}
+        for nivel in ("excelente", "bueno", "aceptable", "incompleto")
     ]
 
 
@@ -136,6 +167,7 @@ def _grupos_ui() -> List[Dict[str, Any]]:
         {"key": "cities", "label": "Ciudad", "selection": "multi", "icon": "location_city"},
         {"key": "price", "label": "Precio", "selection": "single", "icon": "payments"},
         {"key": "media", "label": "Multimedia", "selection": "multi", "icon": "photo_library"},
+        {"key": "quality", "label": "Nivel de detalle", "selection": "single", "icon": "verified"},
         {"key": "tags", "label": "Temas", "selection": "multi", "icon": "sell"},
     ]
 
@@ -174,6 +206,24 @@ def _faceta_temporal(eventos: List[Dict[str, Any]], ahora: datetime) -> List[Dic
     ]
 
 
+def _fuentes_para_la_app(fuentes: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """El listado de fuentes tal como lo ve la app, sin enlaces a ticketeras.
+
+    Varias fuentes del catálogo **son** ticketeras, así que su `url` es la
+    portada de una tienda de entradas. En el diagnóstico esa URL hace falta
+    —es donde el mantenedor va a ver por qué falló la lectura— pero en el
+    archivo que abre la app sería justo el redirect que este catálogo no
+    publica. El nombre de la fuente se conserva: la atribución no se pierde.
+    """
+    salida = []
+    for fuente in fuentes:
+        copia = dict(fuente)
+        if copia.get("url") and entradas_mod.es_enlace_de_compra(copia["url"]):
+            copia["url"] = None
+        salida.append(copia)
+    return salida
+
+
 def enriquecer_para_la_app(evento: Dict[str, Any]) -> Dict[str, Any]:
     """Agrega las etiquetas ya traducidas y las banderas que la lista necesita."""
     evento["category_label"] = ETIQUETAS_CATEGORIA.get(
@@ -186,23 +236,30 @@ def enriquecer_para_la_app(evento: Dict[str, Any]) -> Dict[str, Any]:
 
     # Un precio ya escrito: la app no debería tener que decidir entre "Gratis",
     # "Bs 80" y "Desde Bs 80" cada vez que pinta una tarjeta.
-    def _monto(valor):
-        # "Bs 80", no "Bs 80.0": los precios de entradas son enteros salvo
-        # excepción, y el decimal colgando se ve mal en una tarjeta.
-        return int(valor) if float(valor).is_integer() else valor
+    evento["price_label"] = entradas_mod.etiqueta_de_precio(
+        bool(evento.get("is_free")), evento.get("price_from"), evento.get("price_to")
+    )
 
-    if evento.get("is_free"):
-        evento["price_label"] = "Entrada libre"
-    elif evento.get("price_from") is not None:
-        desde = evento["price_from"]
-        hasta = evento.get("price_to")
-        evento["price_label"] = (
-            f"Bs {_monto(desde)} - {_monto(hasta)}" if hasta and hasta != desde
-            else f"Bs {_monto(desde)}"
+    # Claves nuevas sobre eventos viejos: los que vienen del historial se
+    # escribieron con un esquema anterior y la app espera el contrato completo.
+    evento.setdefault("date_detail", {})
+    evento.setdefault("display_date_short", None)
+    evento.setdefault("countdown_label", None)
+    evento.setdefault("ticket_outlets", [])
+    if not evento.get("ticket_info"):
+        evento["ticket_info"] = entradas_mod.describir(
+            evento.get("ticket_outlets") or [],
+            bool(evento.get("is_free")),
+            evento["price_label"],
+            evento.get("status") or "programado",
+            evento.get("phones") or [],
         )
-    else:
-        evento["price_label"] = None
 
+    # El saneado se repite acá a propósito. La fusión ya lo hizo para lo de esta
+    # corrida, pero el catálogo arrastra eventos guardados por corridas
+    # anteriores: lo que se publica hoy cumple la política de hoy.
+    entradas_mod.sanear_evento(evento)
+    calidad_mod.anotar(evento)
     return evento
 
 
@@ -213,6 +270,7 @@ def construir_payload(
     zona: str,
     cobertura: Optional[Dict[str, Any]] = None,
     incluir_finalizados: bool = True,
+    minimo_calidad: Optional[int] = None,
 ) -> Dict[str, Any]:
     """El JSON principal: catálogo completo más todo lo precalculado."""
     ahora = _fecha(generado_en) or datetime.now()
@@ -220,10 +278,21 @@ def construir_payload(
     for evento in eventos:
         enriquecer_para_la_app(evento)
 
-    visibles = eventos if incluir_finalizados else [
-        e for e in eventos if e.get("is_upcoming")
+    # El corte de calidad se aplica sobre lo que se publica, no sobre lo que se
+    # archiva: un evento al que hoy le falta el afiche se guarda igual, y si la
+    # próxima corrida se lo trae, entra sin haber perdido su id ni su historial.
+    corte = calidad_mod.MINIMO_PUBLICABLE if minimo_calidad is None else int(minimo_calidad)
+    # `filtrar` además ordena: cronológico, y entre eventos del mismo día
+    # primero el más completo. Eso es lo que hace que la lista abra con los que
+    # tienen afiche, hora y sede en vez de con los que solo tienen un título.
+    publicables = calidad_mod.filtrar(eventos, corte)
+    descartados_por_calidad = len(eventos) - len(publicables)
+
+    visibles = publicables if incluir_finalizados else [
+        e for e in publicables if e.get("is_upcoming")
     ]
     proximos = [e for e in visibles if e.get("is_upcoming")]
+    calidad = calidad_mod.resumen(visibles)
 
     return {
         "schema_version": SCHEMA_VERSION,
@@ -239,6 +308,10 @@ def construir_payload(
             "events_with_video": sum(1 for e in visibles if e.get("has_video")),
             "events_corroborated": sum(1 for e in visibles if e.get("corroborated")),
             "events_seen_this_run": sum(1 for e in visibles if e.get("seen_this_run")),
+            "events_complete": sum(1 for e in visibles if e.get("quality_tier") == "excelente"),
+            "events_below_quality": descartados_por_calidad,
+            "quality_min_score": corte,
+            "quality_average": calidad["average_score"],
             "sources_total": len(fuentes),
             "sources_ok": sum(1 for f in fuentes if f.get("status") == "ok"),
             "sources_blocked": sum(1 for f in fuentes if f.get("status") == "blocked"),
@@ -255,12 +328,23 @@ def construir_payload(
             "when": _faceta_temporal(proximos, ahora),
             "price": _faceta_precio(proximos),
             "media": _faceta_media(proximos),
+            "quality": _faceta_calidad(proximos),
             "tags": _faceta_lista(proximos, "tags", 24),
             "source_classes": _faceta(proximos, "source_class"),
         },
         "coverage": cobertura or {},
+        "quality": calidad,
+        # Parte del contrato, no una nota al pie: este catálogo dice dónde se
+        # compran las entradas y nunca lleva a comprarlas. `ticket_urls` viaja
+        # vacío siempre y ningún campo del JSON abre un checkout.
+        "policy": {
+            "purchase_links": False,
+            "external_redirects": False,
+            "note": ("El catálogo informa dónde conseguir entradas, "
+                     "sin enlaces de compra ni redirecciones."),
+        },
         "events": visibles,
-        "sources": fuentes,
+        "sources": _fuentes_para_la_app(fuentes),
     }
 
 
@@ -278,7 +362,10 @@ def construir_payload_lite(payload: Dict[str, Any]) -> Dict[str, Any]:
         "summary": {
             "events_total": len(proximos),
             "events_today": sum(1 for e in proximos if e.get("lifecycle") == "hoy"),
+            "events_with_image": sum(1 for e in proximos if e.get("has_image")),
+            "events_complete": sum(1 for e in proximos if e.get("quality_tier") == "excelente"),
         },
+        "policy": payload["policy"],
         "filters": payload["filters"],
         "events": [
             {campo: evento.get(campo) for campo in CAMPOS_LITE}

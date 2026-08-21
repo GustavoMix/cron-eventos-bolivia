@@ -53,14 +53,39 @@ sale esto:
 | | |
 |---|---|
 | Fecha y hora | `2026-08-23T20:00:00-04:00` + epoch millis |
-| Para mostrar | `"Domingo 23 de agosto · 20:00"` |
+| Para mostrar | `"Domingo 23 de agosto · 20:00"` · `"Dom 23 ago · 20:00"` · `"En 9 días"` |
+| Fecha desarmada | día de la semana, día, mes, año, hora, puertas y rango, ya escritos |
 | Puertas | `19:00` (dato aparte del show) |
 | Sede | `Teatro Achá` → ciudad y departamento deducidos |
 | Precio | `80.0` a `120.0` BOB → `"Bs 80 - 120"` |
-| Puntos de venta | `["SuperTicket", "Farmacorp"]` |
+| Dónde comprar | `["SuperTicket", "Farmacorp"]` → `"En SuperTicket y Farmacorp"` |
 | Categoría | `concierto` → `"Conciertos"` |
 | Ciclo de vida | `proximo`, faltan 9 días |
 | Fotos y videos | afiche en alta + galería + enlaces de video |
+| Calidad | `93/100`, `excelente`, nada faltante |
+
+## Dos reglas que definen el catálogo
+
+**Solo eventos que se puedan mostrar.** Cada evento se puntúa por completitud
+—foto, día, hora, sede, ciudad, categoría, entradas, descripción— y lo que no
+llega al mínimo no se publica. No se borra: queda en el historial y entra en
+cuanto alguna fuente aporte el dato que le faltaba. El puntaje viaja en el JSON
+con su checklist, así que la app puede ordenar por él y el diagnóstico dice *qué*
+le falta al catálogo, no solo cuánto tiene. Está en
+[`scraper/calidad.py`](scraper/calidad.py).
+
+**Dice dónde comprar, no lleva a comprar.** El JSON no publica ni un enlace de
+compra: ni en `ticket_urls` (que viaja siempre vacía), ni en `url`, ni dentro de
+la descripción. Lo que sí publica es *dónde* se consiguen las entradas, en
+texto: "En SuperTicket y Farmacorp", "En boletería del lugar". Con un botón de
+compra la app deja de ser una agenda y pasa a ser intermediaria de una venta que
+no controla. La política entera está en
+[`scraper/entradas.py`](scraper/entradas.py).
+
+Y para que la foto sea la del evento y no el logo del diario, todas las
+imágenes pasan por [`scraper/imagenes.py`](scraper/imagenes.py): descarta
+logos, avatares y banners, sube cada miniatura a su versión original y ordena
+la galería con el afiche adelante.
 
 El parser de fechas entiende cómo escribe la gente: `"sábado 23 de agosto"`,
 `"del 5 al 7 de septiembre"`, `"este viernes"` (anclado a la fecha de
@@ -119,8 +144,11 @@ python main.py --facebook-raw-in data/_interno/raw_g01.json,data/_interno/raw_g0
 
 ```
 scraper/
-  fechas.py        Fechas y horarios en español boliviano
+  fechas.py        Fechas y horarios en español boliviano, ya desarmados
   lugares.py       Departamentos, ciudades y sedes de los 9 departamentos
+  imagenes.py      Qué imagen es el afiche y cuál es el logo del sitio
+  entradas.py      Dónde se compran las entradas — y ningún enlace de compra
+  calidad.py       Qué tan completo llegó el evento; qué se publica
   clasificador.py  ¿Es un evento? Categoría, precio, entradas, artistas
   facebook.py      Lectura de páginas públicas + detección de bloqueo
   web_sources.py   Ticketeras y agendas; lee schema.org/Event si está
@@ -159,8 +187,13 @@ rotación.
 python -m pytest tests/ -q
 ```
 
-88 tests, sin red. Cubren el parser de fechas caso por caso, el clasificador con
-afiches y con ruido realista, el reparto en grupos y las olas de rotación, la
-fusión entre fuentes, el historial y una prueba de extremo a extremo del
-pipeline completo — incluida una corrida donde Facebook bloquea todo, para
-comprobar que el catálogo sale intacto.
+148 tests, sin red. Cubren el parser de fechas caso por caso, el clasificador con
+afiches y con ruido realista, la elección de fotos con URLs reales de cada CDN,
+el puntaje de calidad, el reparto en grupos y las olas de rotación, la fusión
+entre fuentes, el historial y una prueba de extremo a extremo del pipeline
+completo — incluida una corrida donde Facebook bloquea todo, para comprobar que
+el catálogo sale intacto.
+
+Dos de esas pruebas cuidan las reglas de arriba: una recorre los tres archivos
+que se publican buscando el dominio de cada ticketera, y otra verifica que el
+ícono de la página no termine siendo la foto del evento.

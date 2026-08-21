@@ -16,6 +16,8 @@ import re
 import unicodedata
 from typing import Any, Dict, List, Optional
 
+from . import entradas as entradas_mod
+from . import imagenes as imagenes_mod
 from .models import _bloque_multimedia, _video_dict
 
 VACIAS = {
@@ -224,11 +226,12 @@ def fusionar(eventos: List[Any], umbral: float = 0.30) -> List[Dict[str, Any]]:
         # Rellenar huecos de la mejor versión con lo que traigan las otras.
         for campo in [
             "starts_at", "ends_at", "starts_at_ms", "ends_at_ms", "display_date",
+            "display_date_short", "countdown_label", "date_detail",
             "doors_time", "venue", "address", "city", "department",
             "price_from", "price_to", "currency", "price_text",
             "facebook_event_url", "location_query",
         ]:
-            if d.get(campo) in (None, "", []):
+            if d.get(campo) in (None, "", [], {}):
                 d[campo] = _primer_valor(ordenado, campo)
 
         # Si la mejor versión no traía fecha y otra sí, hay que rehacer todo lo
@@ -237,7 +240,9 @@ def fusionar(eventos: List[Any], umbral: float = 0.30) -> List[Dict[str, Any]]:
             con_fecha = next((e for e in ordenado if e.starts_at), None)
             if con_fecha:
                 for campo in ["date_confidence", "all_day", "multi_day",
-                              "lifecycle", "days_until", "date_source_text"]:
+                              "lifecycle", "days_until", "date_source_text",
+                              "date_detail", "display_date", "display_date_short",
+                              "countdown_label", "doors_time"]:
                     d[campo] = getattr(con_fecha, campo)
 
         # Un solo aviso de cancelación pesa más que cinco publicaciones que aún
@@ -250,7 +255,12 @@ def fusionar(eventos: List[Any], umbral: float = 0.30) -> List[Dict[str, Any]]:
 
         d["is_free"] = any(e.is_free for e in ordenado) and d.get("price_from") is None
 
-        imagenes = _unir_listas(ordenado, "image_urls", 24)
+        # Las fotos de las cinco fuentes se juntan y vuelven a pasar por el
+        # filtro: cada una trajo su propia versión del afiche y varias son la
+        # misma imagen en tamaños distintos.
+        imagenes = imagenes_mod.limpiar_galeria(
+            _unir_listas(ordenado, "image_urls", 40), limite=24
+        )
         videos = []
         for e in ordenado:
             if e.video_url and all(v["url"] != e.video_url for v in videos):
@@ -262,9 +272,23 @@ def fusionar(eventos: List[Any], umbral: float = 0.30) -> List[Dict[str, Any]]:
         d["subcategories"] = _unir_listas(ordenado, "subcategories", 6)
         d["tags"] = _unir_listas(ordenado, "tags", 15)
         d["artists"] = _unir_listas(ordenado, "artists", 10)
-        d["ticket_urls"] = _unir_listas(ordenado, "ticket_urls", 8)
-        d["ticket_outlets"] = _unir_listas(ordenado, "ticket_outlets", 8)
         d["phones"] = _unir_listas(ordenado, "phones", 6)
+
+        # Entradas: se juntan los puntos de venta de todas las fuentes —una
+        # menciona la boletería y otra la farmacia— y se rearma la ficha. Los
+        # enlaces de compra siguen sin existir: `ticket_urls` queda vacío por
+        # contrato. Ver `scraper/entradas.py`.
+        d["ticket_urls"] = []
+        d["ticket_outlets"] = _unir_listas(ordenado, "ticket_outlets", 8)
+        d["ticket_info"] = entradas_mod.describir(
+            d["ticket_outlets"],
+            bool(d.get("is_free")),
+            entradas_mod.etiqueta_de_precio(
+                bool(d.get("is_free")), d.get("price_from"), d.get("price_to")
+            ),
+            d.get("status") or "programado",
+            d["phones"],
+        )
 
         fuentes, vistas, urls = [], set(), []
         for e in sorted(ordenado, key=lambda x: x.source_tier):
@@ -286,11 +310,11 @@ def fusionar(eventos: List[Any], umbral: float = 0.30) -> List[Dict[str, Any]]:
         tiers = sorted({e.source_tier for e in ordenado})
         d["sources"] = fuentes
         d["source_count"] = len(fuentes)
-        d["all_urls"] = urls[:12]
+        d["all_urls"] = entradas_mod.sin_enlaces_de_compra(urls)[:12]
         d["corroborated"] = len(fuentes) >= 2
         d["verification"] = _etiqueta_verificacion(tiers, len(fuentes))
         d["confidence"] = _confianza(mejor.confidence, tiers, len(fuentes))
         d["merged_count"] = len(cluster)
-        salida.append(d)
+        salida.append(entradas_mod.sanear_evento(d))
 
     return salida

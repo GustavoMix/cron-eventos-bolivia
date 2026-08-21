@@ -84,6 +84,11 @@ class Evento:
     multi_day: bool
     doors_time: Optional[str]
     display_date: Optional[str]
+    display_date_short: Optional[str]
+    countdown_label: Optional[str]
+    # La fecha entera desarmada y ya escrita en español: día de la semana, mes,
+    # año, hora, puertas, rango y cuenta regresiva. Ver `fechas.detalle_de_fecha`.
+    date_detail: Dict[str, Any]
     days_until: Optional[int]
     lifecycle: str
 
@@ -102,8 +107,12 @@ class Evento:
     price_to: Optional[float]
     currency: Optional[str]
     price_text: Optional[str]
+    # Siempre vacía, a propósito: el catálogo informa dónde se compra pero no
+    # redirige a comprar. La clave se conserva porque la app ya la deserializa.
+    # Ver `scraper/entradas.py`.
     ticket_urls: List[str]
     ticket_outlets: List[str]
+    ticket_info: Dict[str, Any]
 
     # Cómo contactar
     phones: List[str]

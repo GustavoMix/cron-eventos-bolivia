@@ -21,6 +21,7 @@ from urllib.parse import urljoin, urlparse
 import httpx
 from bs4 import BeautifulSoup
 
+from . import imagenes as imagenes_mod
 from .models import RawItem
 
 TIPOS_DE_EVENTO_JSONLD = {
@@ -139,15 +140,21 @@ def _precio_de_ofertas(offers: Any) -> Tuple[Optional[str], List[str]]:
 
 
 def _imagenes_jsonld(valor: Any, base: str) -> List[str]:
-    salida = []
+    """La imagen que el propio sitio declara para el evento.
+
+    Es la mejor foto que se puede conseguir de una fuente web: no hay que
+    adivinar cuál de las treinta `<img>` de la página es el afiche, porque el
+    JSON-LD lo dice.
+    """
+    candidatas = []
     for img in (valor if isinstance(valor, list) else [valor]):
         if isinstance(img, dict):
-            img = img.get("url")
+            img = img.get("url") or img.get("contentUrl")
         if isinstance(img, str):
             absoluta = _absoluta(base, img)
-            if absoluta and absoluta not in salida:
-                salida.append(absoluta)
-    return salida[:12]
+            if absoluta:
+                candidatas.append({"url": absoluta, "origen": "jsonld"})
+    return imagenes_mod.elegir(candidatas, limite=12)
 
 
 def _texto_desde_evento(obj: Dict[str, Any], sede: Optional[str],
@@ -262,23 +269,41 @@ def _icono(soup: BeautifulSoup, base: str) -> Optional[str]:
 
 
 def _imagenes_html(soup: BeautifulSoup, base: str, icono: Optional[str]) -> List[str]:
-    urls: List[str] = []
-    for prop in ["og:image", "twitter:image"]:
+    """Las fotos de una página sin datos estructurados.
+
+    Acá es donde antes se colaba el logo del diario como afiche del concierto:
+    se tomaba cualquier `<img>` del artículo, en el orden en que estuviera. Se
+    prioriza `og:image` —la imagen que el sitio declara para la nota— y todo lo
+    demás pasa por el filtro de `scraper/imagenes.py`, que descarta la interfaz
+    y sube cada miniatura a su versión original.
+    """
+    candidatas: List[Dict[str, Any]] = []
+    for prop in ["og:image", "og:image:secure_url", "twitter:image"]:
         nodo = (soup.find("meta", attrs={"property": prop})
                 or soup.find("meta", attrs={"name": prop}))
         if nodo and nodo.get("content"):
-            u = _absoluta(base, nodo["content"])
-            if u and u != icono and u not in urls:
-                urls.append(u)
-    for selector in ["article img[src]", "main img[src]", ".event img[src]",
-                     ".entry-content img[src]"]:
+            candidatas.append({"url": _absoluta(base, nodo["content"]), "origen": "og"})
+
+    for selector in ["article img", "main img", ".event img", ".evento img",
+                     ".entry-content img", ".post-content img"]:
         for img in soup.select(selector):
-            u = _absoluta(base, img.get("data-src") or img.get("src"))
-            if u and u != icono and u not in urls:
-                urls.append(u)
-                if len(urls) >= 12:
-                    return urls
-    return urls[:12]
+            fuente = (img.get("data-src") or img.get("data-lazy-src")
+                      or img.get("src"))
+            candidatas.append({
+                "url": _absoluta(base, fuente),
+                "alt": img.get("alt") or "",
+                "width": _entero(img.get("width")),
+                "height": _entero(img.get("height")),
+                "origen": "articulo",
+            })
+    return imagenes_mod.elegir(candidatas, icono, limite=12)
+
+
+def _entero(valor: Any) -> int:
+    try:
+        return int(str(valor).strip().replace("px", ""))
+    except (TypeError, ValueError):
+        return 0
 
 
 def _video(soup: BeautifulSoup, base: str, imagenes: List[str]):

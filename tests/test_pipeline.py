@@ -12,6 +12,7 @@ from zoneinfo import ZoneInfo
 import pytest
 import yaml
 
+from scraper.entradas import es_enlace_de_compra
 from scraper.runner import correr
 from scraper.salida import CAMPOS_LITE
 
@@ -66,6 +67,7 @@ Puertas 19:00
 Teatro Achá, Cochabamba
 Preventa Bs 80 / En puerta Bs 120
 Entradas en SuperTicket y Farmacorp
+Comprá acá: https://superticket.bo/los-kjarkas-teatro-acha/
 ¡Te esperamos! Informes 70123456
 """
 
@@ -96,8 +98,12 @@ def entorno(tmp_path):
         "results": {
             "fb_teatro": {
                 "items": [
+                    # El ícono de la página va primero a propósito: es lo que
+                    # devuelve el DOM de Facebook y no puede terminar siendo la
+                    # foto del evento.
                     _post("fb_teatro", "Teatro Achá", AFICHE,
-                          ["https://img/afiche-kjarkas.jpg"],
+                          ["https://img/fb_teatro-icono.jpg",
+                           "https://img/afiche-kjarkas.jpg"],
                           source_class="venue", tier=1),
                     _post("fb_teatro", "Teatro Achá", FERIA,
                           ["https://img/afiche-feria.jpg"],
@@ -185,6 +191,110 @@ def test_los_datos_del_afiche_llegan_completos_al_json(entorno):
     assert concierto["event_id"].startswith("evt_")
 
 
+def test_la_fecha_llega_desarmada_y_ya_escrita(entorno):
+    config, crudo, salida = entorno
+    _correr(config, crudo, salida)
+
+    payload = json.loads((salida / "eventos_bolivia.json").read_text(encoding="utf-8"))
+    concierto = next(e for e in payload["events"] if e["category"] == "concierto")
+    fecha = concierto["date_detail"]
+
+    assert fecha["known"] is True
+    assert fecha["weekday"] == "Domingo"
+    assert (fecha["day"], fecha["month_label"], fecha["year"]) == (23, "agosto", 2026)
+    assert fecha["has_time"] is True
+    assert fecha["time_label"] == "20:00"
+    assert fecha["doors_label"] == "19:00"
+    assert fecha["long_label"] == "Domingo 23 de agosto · 20:00"
+    assert concierto["display_date_short"] == "Dom 23 ago · 20:00"
+    assert concierto["countdown_label"]
+    assert fecha["confidence"] == "exacta"
+    assert fecha["is_estimated"] is False
+    assert fecha["timezone"] == "America/La_Paz"
+
+
+def test_la_feria_de_varios_dias_trae_el_rango_desarmado(entorno):
+    config, crudo, salida = entorno
+    _correr(config, crudo, salida)
+
+    payload = json.loads((salida / "eventos_bolivia.json").read_text(encoding="utf-8"))
+    feria = next(e for e in payload["events"] if e["category"] == "feria")
+    fecha = feria["date_detail"]
+
+    assert fecha["multi_day"] is True
+    assert fecha["days_count"] == 3
+    assert fecha["range_label"] == "5 de septiembre — 7 de septiembre"
+
+
+def test_ningun_campo_del_json_lleva_a_comprar(entorno):
+    # La regla es de producto y se verifica como tal: no alcanza con que
+    # `ticket_urls` esté vacío, no puede quedar ninguna puerta de salida a un
+    # checkout en todo el archivo que consume la app.
+    config, crudo, salida = entorno
+    _correr(config, crudo, salida)
+
+    for archivo in ("eventos_bolivia.json", "eventos_bolivia_lite.json",
+                    "eventos_bolivia.csv"):
+        texto = (salida / archivo).read_text(encoding="utf-8")
+        for dominio in ("superticket.bo", "passline", "tuentrada", "eventbrite"):
+            assert dominio not in texto, f"{archivo} filtra un enlace de compra"
+
+    payload = json.loads((salida / "eventos_bolivia.json").read_text(encoding="utf-8"))
+
+    # Recorrido campo por campo, para que un campo con enlaces que se agregue
+    # mañana no se salte la regla sin que nadie se entere. Las imágenes quedan
+    # afuera a propósito: el afiche suele estar alojado en el CDN de la
+    # ticketera y ahí la app muestra, no navega.
+    def _urls(nodo, en_imagen=False):
+        if isinstance(nodo, dict):
+            for clave, valor in nodo.items():
+                yield from _urls(valor, en_imagen or any(
+                    x in clave for x in ("image", "thumbnail", "icon", "media")
+                ))
+        elif isinstance(nodo, list):
+            for valor in nodo:
+                yield from _urls(valor, en_imagen)
+        elif isinstance(nodo, str) and nodo.startswith("http") and not en_imagen:
+            yield nodo
+
+    for url in _urls(payload):
+        assert not es_enlace_de_compra(url), f"quedó un enlace de compra: {url}"
+    assert payload["policy"]["purchase_links"] is False
+    assert payload["policy"]["external_redirects"] is False
+
+    concierto = next(e for e in payload["events"] if e["category"] == "concierto")
+    assert concierto["ticket_urls"] == []
+    # Pero sí dice dónde se consiguen.
+    assert concierto["ticket_info"]["where_to_buy_label"].startswith("En ")
+    assert "SuperTicket" in concierto["ticket_info"]["where_to_buy"]
+    assert concierto["ticket_info"]["purchase_links"] is False
+
+
+def test_el_icono_de_la_pagina_no_entra_como_foto_del_evento(entorno):
+    config, crudo, salida = entorno
+    _correr(config, crudo, salida)
+
+    payload = json.loads((salida / "eventos_bolivia.json").read_text(encoding="utf-8"))
+    for evento in payload["events"]:
+        for url in evento["image_urls"]:
+            assert "icono" not in url, f"el ícono de la fuente entró en {evento['title']}"
+
+
+def test_cada_evento_publicado_trae_su_calidad_evaluada(entorno):
+    config, crudo, salida = entorno
+    _correr(config, crudo, salida)
+
+    payload = json.loads((salida / "eventos_bolivia.json").read_text(encoding="utf-8"))
+    assert payload["quality"]["average_score"] > 0
+
+    for evento in payload["events"]:
+        calidad = evento["quality"]
+        assert 0 <= calidad["score"] <= 100
+        assert calidad["tier"] in {"excelente", "bueno", "aceptable", "incompleto"}
+        assert calidad["score"] >= payload["summary"]["quality_min_score"]
+        assert len(calidad["checks"]) == 8
+
+
 def test_la_feria_de_varios_dias_se_lee_como_rango(entorno):
     config, crudo, salida = entorno
     _correr(config, crudo, salida)
@@ -213,8 +323,13 @@ def test_los_filtros_vienen_contados(entorno):
     assert {c["key"] for c in filtros["cities"]} == {"Cochabamba"}
     assert {f["key"] for f in filtros["when"]} == {"hoy", "esta_semana", "este_mes", "todos"}
     assert {f["key"] for f in filtros["price"]} == {"gratis", "pagado", "por_confirmar"}
-    assert {f["key"] for f in filtros["media"]} == {"con_foto", "con_video"}
-    assert {g["key"] for g in filtros["ui_groups"]} >= {"when", "categories", "departments", "cities", "price", "media"}
+    assert {f["key"] for f in filtros["media"]} == {"con_foto", "con_galeria", "con_video"}
+    assert {f["key"] for f in filtros["quality"]} == {
+        "excelente", "bueno", "aceptable", "incompleto"
+    }
+    assert {g["key"] for g in filtros["ui_groups"]} >= {
+        "when", "categories", "departments", "cities", "price", "media", "quality"
+    }
 
 
 def test_la_fuente_bloqueada_se_reporta_como_tal(entorno):
@@ -250,24 +365,31 @@ def test_las_claves_del_contrato_estan_siempre(entorno):
     _correr(config, crudo, salida)
 
     payload = json.loads((salida / "eventos_bolivia.json").read_text(encoding="utf-8"))
-    assert payload["schema_version"] == "1.0"
+    assert payload["schema_version"] == "1.1"
 
     obligatorias = [
         "event_id", "title", "description", "category", "category_label",
-        "starts_at", "starts_at_ms", "ends_at", "display_date", "lifecycle",
+        "starts_at", "starts_at_ms", "ends_at", "display_date",
+        "display_date_short", "countdown_label", "date_detail", "lifecycle",
         "lifecycle_label", "days_until", "is_upcoming", "department", "city",
         "venue", "location_query", "is_free", "price_from", "price_label",
-        "ticket_urls", "image_url", "image_urls", "has_image", "has_video",
-        "videos", "media", "status", "confidence", "sources", "source_count",
-        "first_seen_at", "last_seen_at", "history",
+        "ticket_urls", "ticket_outlets", "ticket_info", "image_url",
+        "image_urls", "has_image", "has_video", "videos", "media", "status",
+        "confidence", "quality", "quality_score", "quality_tier",
+        "sources", "source_count", "first_seen_at", "last_seen_at", "history",
     ]
-    listas = ["image_urls", "videos", "ticket_urls", "tags", "artists", "sources"]
+    listas = [
+        "image_urls", "videos", "ticket_urls", "ticket_outlets", "tags",
+        "artists", "sources",
+    ]
 
     for evento in payload["events"]:
         for clave in obligatorias:
             assert clave in evento, f"falta {clave} en {evento.get('title')}"
         for clave in listas:
             assert isinstance(evento[clave], list), f"{clave} debería ser lista"
+        for clave in ["date_detail", "ticket_info", "quality", "media"]:
+            assert isinstance(evento[clave], dict), f"{clave} debería ser objeto"
 
 
 def test_una_segunda_corrida_conserva_los_ids_y_arrastra_el_catalogo(entorno):
