@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T22:02:09-04:00",
+  "generated_at": "2026-08-21T00:02:45-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,12 +9,13 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
+      "fb_fundacion_cultural_bcb",
       "fb_gam_cbba",
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 24.4,
-    "horas_maximo_sin_datos": 148.2
+    "horas_promedio_sin_datos": 24.2,
+    "horas_maximo_sin_datos": 150.2
   },
   "sources": [
     {
@@ -26,13 +27,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=STKGhm_hTskQ7kNvwEQ3Hn2&_nc_oc=AdoLk1IedV3p2lDa9fmlxwNktKJHlDFtFSToLkGvR6sOpOixNPGmlmJuDS96d1Rscu4&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=TVYA6auzpTaYa8TimAvxSw&_nc_ss=7f289&oh=00_AQFIgaIiFdoT7wCDNowiqutI8fqt56GR18L74O3atT1XBw&oe=6A8D871A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "tecnologia",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid029sYeFm2mtEHfqzQyDTrbN6vBbsPUD67uw6AgKgY5T1qYVV29hDak7cWuB3nMNjDzl?__cft__[0]=AZY3InQTtYR4SRhjvBWfSs3N2Snb6ZXxXHWOuXqrLHTnbfE6zEEsrFyuBRH1H0p7zhgg30mTD5wocpK2J6QVl7_Yrz7RNj5cCG15F2aJ5IFfO0CVnu_flzU_43Yyib_ZZeXEU1ed-dds_hA327gUjvVvK2w5bhzANV2Tuxc6LONqhKWsDOu2uHRYm8Vsjd2WQ28&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA INTELIGENCIA ARTIFICIAL TAMBIÉN PUEDE SER TU MEJOR ALIADA PARA EMPRENDER! La… Ver más ¡LA INTELIGENCIA ARTIFICIAL TAMBIÉN PUEDE SER TU MEJOR ALIADA PARA EMPRENDER! La… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -94,13 +104,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8BLM0C2o8rkQ7kNvwE129mj&_nc_oc=Ado9DKVpLZ75LzI7lyquQkc-l7kigUyka7Gb9rC-iN_lk1h7N2J07Uz-Y-ZgElWtRNw&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=4UfdQaqR1WbhABo1oHt3xQ&_nc_ss=7f289&oh=00_AQFqEOSR8c0fz3jwkNJ2VDsb0B4TVFqGWdECb-m32lwJvw&oe=6A8D70D0",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -128,30 +138,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-p5RaAjb5kgQ7kNvwGriuzF&_nc_oc=Adp4O_BaYJ0NFw33Qanjl9jK4Li629dQa7rt2EIglKWq5yKBLXcf_Rw_3XHNt8yYxFQ&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=-uOTDqtyRG65426vd_S0Rw&_nc_ss=7f289&oh=00_AQFzJPNt2fQvDEqscKaZhr_05eumAgJVv9iETT3VYxnnFw&oe=6A8D9505",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0RnUuojCJy6UkFjaTQUHT2hpETu2B3eBRydDevWrhY7HKMTqaDbMqsB9e7fAdkdUpl?__cft__[0]=AZb7jzL_5k1DMVtqDhjR8FfNJqBUk6-H0QmR44mnNTPr8CmRtc-yq56UnhMxhgOtAWtxH6mCeJmWbA6a2RfS9wBhvoyrHLZeP0Ngps--O_zQ1yprm1qgzaz_UGlas7JSHd0ytf1URUzCCLgPfXLu7yVfjPHF2gNW4C__Thrzi8RanGtu_9P1Zxlziouuhtvwb5w&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Una acumulación no tiene por qué convertirse en otra más grande.… Ver más Es su responsabilidad solucionar a la brevedad posible y también ocuparse de limpiar las bocas de tormenta Ver más comentarios Marina Escobar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0RnUuojCJy6UkFjaTQUHT2hpETu2B3eBRydDevWrhY7HKMTqaDbMqsB9e7fAdkdUpl?comment_id=1626861769117763&__cft__[0]=AZb7jzL_5k1DMVtqDhjR8FfNJqBUk6-H0QmR44mnNTPr8CmRtc-yq56UnhMxhgOtAWtxH6mCeJmWbA6a2RfS9wBhvoyrHLZeP0Ngps--O_zQ1yprm1qgzaz_UGlas7JSHd0ytf1URUzCCLgPfXLu7yVfjPHF2gNW4C__Thrzi8RanGtu_9P1Zxlziouuhtvwb5w&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Es su responsabilidad solucionar a la brevedad posible y también ocuparse de limpiar las bocas de tormenta Marina Escobar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_amun_lapaz",
@@ -196,30 +189,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=H_EySSuD43EQ7kNvwH6AZPt&_nc_oc=AdrRnasu-GMA6_AaUHuUcwGGqdLK8bK5BewgrKCKiVa2kcuGPPkMDW99CR2UyaCb8gI&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=9F6OSYz4hscx5gRy-PCIwg&_nc_ss=7f289&oh=00_AQHhxM48NzzBUYDz8JVWIigU_en8CzGoRaCnV50Tt8PzIg&oe=6A8D79F8",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1388884859853664/?__cft__[0]=AZZorBfGq6aT8xMrS3e-KoKLBG7UshHYfewneIUPTZbhuANQWjJO6_-OQ0zip_DnVGG_x0Rg7EY5x9o1E9equOWI3jDeAgaWc3Po1N6M75NcMy5my0d0fBKqV5X69zxWtPZ6DbslJSOkIjiQExZNLAkxxaopVJeNjLaaqeG55lFuoU1zk9u3WsupwovHCB7pNDvSFpXGguu32GkeUW5RK6tQ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "𝑳𝒂 𝒖𝒏𝒊𝒅𝒂𝒅 𝒏𝒐𝒔 𝒑𝒆𝒓𝒎𝒊𝒕𝒆 𝒂𝒗𝒂𝒏𝒛𝒂𝒓. El gobernador #LuisRevill… Ver más 𝑳𝒂 𝒖𝒏𝒊𝒅𝒂𝒅 𝒏𝒐𝒔 𝒑𝒆𝒓𝒎𝒊𝒕𝒆 𝒂𝒗𝒂𝒏𝒛𝒂𝒓. El gobernador #LuisRevill… Ver más Jajaja jajajaja Tenemos problemas para reproducir este video. Más información Ver más comentarios Bruno Cadena Laime"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1388884859853664/?comment_id=1458146496145779&__cft__[0]=AZZorBfGq6aT8xMrS3e-KoKLBG7UshHYfewneIUPTZbhuANQWjJO6_-OQ0zip_DnVGG_x0Rg7EY5x9o1E9equOWI3jDeAgaWc3Po1N6M75NcMy5my0d0fBKqV5X69zxWtPZ6DbslJSOkIjiQExZNLAkxxaopVJeNjLaaqeG55lFuoU1zk9u3WsupwovHCB7pNDvSFpXGguu32GkeUW5RK6tQ&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Bruno Cadena Laime Jajaja jajajaja 3 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gam_cbba",
@@ -247,22 +223,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=biLMFrGysUsQ7kNvwG7LWtS&_nc_oc=AdpcpLKZVDmBnsa5NqQlNXtGulVh5AW0Bk9YeO6g5pbCmARZGTIoE-DhQS2rDk_ONko&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=4zbkmCBM2DbH71E1n8P2-Q&_nc_ss=7f289&oh=00_AQHwH5VyZcN2-kvmes4o2gA2RUo0F7Cc7gYBA4tkGKOtZA&oe=6A8D7417",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid02LPNiQDqC4ZXua48rp4Erw2BxaqrkeshhUxUQsfdnh4kLjHAoanxQw8ge2Z8tY5i5l?__cft__[0]=AZZ8eYaKwO4Zqe-pVgCVQfE54aHbDNKH9L7ehXBHGqEQYMrulZAQdlVr_6VNf37zE_RLREWIin9I9gQDqIzIREiqf5RUbr0e0xj9y2ClTOa-8JXZVBfeF0-rY4bY9HIa0c7RuBEsWalMiWgANZmKPCXXg8nWkmsvh8F0PJLQ0dlbatO15-hNMUxHnvhh3cCvOZU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗠𝗢𝗦 𝗟𝗔 𝗣𝗥𝗘𝗩𝗘𝗡𝗖𝗜𝗢́𝗡 𝗗𝗘 𝗟𝗔 𝗩𝗜𝗢𝗟𝗘𝗡𝗖𝗜𝗔 𝗦𝗘𝗫𝗨𝗔𝗟 𝗘𝗡 𝗡𝗜𝗡̃𝗔𝗦, 𝗡𝗜𝗡̃𝗢𝗦 𝗬 𝗔𝗗𝗢𝗟𝗘𝗦𝗖𝗘𝗡𝗧𝗘𝗦 El Servicio Departamental de Políticas Sociales (SEDEPOS) a través … Ver más 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗠𝗢𝗦 𝗟𝗔 𝗣𝗥𝗘𝗩𝗘𝗡𝗖𝗜𝗢́𝗡 𝗗𝗘 𝗟𝗔 𝗩𝗜𝗢𝗟𝗘𝗡𝗖𝗜𝗔 𝗦𝗘𝗫𝗨𝗔𝗟 𝗘𝗡 𝗡𝗜𝗡̃𝗔𝗦, 𝗡𝗜𝗡̃𝗢𝗦 𝗬 𝗔𝗗𝗢𝗟𝗘𝗦𝗖𝗘𝗡𝗧𝗘𝗦 El Servicio Departamental de Políticas Sociales (SEDEPOS) a través … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -290,22 +257,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wLvZzQCO7sYQ7kNvwH83WYz&_nc_oc=AdoD10xGtr80-fy1aMkGMlG2J1YtZuWoUA-YypDb8Zq_TbI6FSgiaBTXERSXBXtn7Ug&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=snufDUB8hFLu4YaF9AtAdQ&_nc_ss=7f289&oh=00_AQESoWwSk8VeYrFKGWL_cIU-uRdSSg5jXH-OCbycBld87w&oe=6A8D813E",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid0LLD7CoUzQbjM6gbmZE9yYMowUAhB4nNPUh2QSUzvj1Y79dV6PgYtRtQkCQAtDUcpl?__cft__[0]=AZYlqzl93k7fNl8vxP4po4h3C_4mApqRN9G1WcrFCa-jsbbQvvXv_SEbAnfRzCZD0HWtoPCOypmww8qhGjncotofPOZ6Y8z1Bylc8Wz4wjDyuBEJ_5_BtHADgUjhvc8Icph5GJbwdNNV3Iog1Jg-0IETrs76UC60qeMW4u_OsK2f0QjO8EOcZQ77kWduLdy4fmA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La vicegobernadora de Santa Cruz, Paola Aguirre, sostuvo una importante reunión con el Cónsul de la República Popular China en Bolivia, con el objetivo de evaluar los a… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_lostiempos",
@@ -589,12 +547,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Cultural BCB 29 mil seguidores • 16 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un '"
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -1030,13 +988,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DT4qG0njLKYQ7kNvwGosRzy&_nc_oc=Adp0lkvUpv7kQP2ZTYXBOrVnxZkgDs9-uO60KG1gZwaiYP-BKazv2KNwLtqNfnB-KiE&_nc_zt=24&_nc_ht=scontent-qro1-2.xx&_nc_gid=4wwdgy4jlTvXGCnKOZpYUQ&_nc_ss=7f289&oh=00_AQF7xeYlSnjf-OLHSCydBI4bdVk3finJmcDYnLJHGu2sjg&oe=6A8DA403",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02rQWeTMa54GJbQmi8TQZS9PCGp1DFqQqGp6ZwRQwj3FU51SKkCmtT4KXNezPnrSbvl?__cft__[0]=AZZr_UN4ifrmI2lzd-_3HGEzZx4NcNCT1bLrnA2IpNbOXZn5oBndAh61WlZYLUvpgtQ3mOfJIf7rgMPteF9PTTSZ-hrIR-G6LEl-TT1WmB0x8RLAcy-TldwTFevXtza1-KQ1gfna-wydVtwGBa76SLf8qNu_K9IbMoznM_U-xfc2t1zmX5X63eWU4VkJHNP3mWiCRfZZObHapnaDYXbPXu_NWZa583z7FXwfRjHyG0nLDw&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Participa contándonos la historia de esa mujer que impactó tu comunidad, tu provincia o el departamento …. Escribe una carta y cuéntanos de qué manera lo hizo y por qué… Ver más 𝗟𝗮 𝗚𝗼𝗯𝗲𝗿𝗻𝗮𝗰𝗶𝗼́𝗻 𝗱𝗲 𝗧𝗮𝗿𝗶𝗷𝗮, 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗜𝗟𝗟𝗔 𝘆 𝗹𝗮 𝗘𝗺𝗯𝗮𝗷𝗮𝗱𝗮 𝗱𝗲 𝗙𝗿𝗮𝗻𝗰𝗶𝗮 𝗹𝗮𝗻𝘇𝗮𝗿𝗼𝗻 𝗼𝗳𝗶𝗰𝗶𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗰𝘂𝗹𝘁𝘂𝗿𝗮𝗹 “𝗙𝗼𝗿𝗷𝗮𝗱𝗼𝗿𝗮𝘀 𝗱𝗲 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮: 𝗠𝘂𝗷𝗲𝗿𝗲𝘀 𝗱𝗲𝗹 𝗕𝗶𝗰𝗲𝗻𝘁𝗲𝗻𝗮𝗿𝗶𝗼 𝗲𝗻 𝗧𝗮𝗿… Ver más Tenemos problemas para reproducir este video"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1081,13 +1048,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xK0cBeZvmywQ7kNvwGVNQnG&_nc_oc=AdoaDogqyZkc2YDNzfC5EQ-BPrlxxHQeVMuBeqECxpTcKooYVX_BBI_Kaj5iO5qcM78&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=XXnq0t0XM8w78yQNTot3CQ&_nc_ss=7f289&oh=00_AQHwyheWVgHONwJ36-uaZ2KkZGDIUwne3LjO9e1CdaPXEA&oe=6A8D8C15",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid0C8GiwaMAaNvR8HSTK1eXjQNQX4DKVBWSp9fP845odyqygaugMUZpAxYx1dufg5bFl?__cft__[0]=AZamjFE9CiJx1Agxx6z1paFK74EozZm7bkSM7vLoYjeH4ouGjLZ3EG-MRbPKad2LDvVPpk4bf-BWI5XJfvxH5RF0CRTnrHUILIjHLkchaYBpQjhGUlfN3TOu-rFYAViZSoOMK-a9wfwyaciMMMCbIIi77kkBo_oWS3q6IayPtr9At1fQzHu_zf3wiN8tY5qJz98&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¿Te imaginas enseñando español en Europa representando a Bolivia? … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1098,13 +1074,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sYCPqC0FvtAQ7kNvwEztxZC&_nc_oc=Adp0ll97ls998A61nP6ubhAyEvgxTAB7GiVDFdXQoMeB1qmpMnFK2hJxCupz8pJOzDM&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=_vpShEMsQIV2E_DzBdRuTQ&_nc_ss=7f289&oh=00_AQGBjLiVufm-NWCK69wVs-HJBu9olYA7V9SBYCyIxZn9hw&oe=6A8D8E92",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 36,
+          "category": "nightlife",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid02bLqA21h46iNd7Qn96iw2E7tSDxnkkan5NQRwZMk6WHBP3ASPFbp6zASD7ij5RV9Gl?__cft__[0]=AZb998BgZ_lKlzAVKgQ9g9_UWYEM74g0EAhICXfz_7knBXIukPsTpnnojN4qHd2ZRJFKFWlP5A5cByIkwE4_W3auO579WcHK3wP0XePGxagK1RMb0G5Adi4zm4dA_reiWrKOKXL-beIIpSYCXrHxMZ29gD7PEcBIJLzC8g1crApGaOqggKtQ2iq8iTzyzI3js3o&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Prepárate para una noche de karaoke! Ven a cantar tus canciones favoritas, compartir y pasar un buen momento con amigos. … Ver más ¡Prepárate para una noche de karaoke! Ven a cantar tus canciones favoritas, compartir y pasar un buen momento con amigos. … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1426,12 +1411,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 38,
+          "score": 20,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1439,19 +1424,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
-          "category": "tecnologia",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 50,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Aprehenden a un exviceministro de Luis Arce Ver más 2 Fiscalía solicita detención preventiva de Cerimedo en Chonchocoro por el caso Beller Ver más 3 Mi"
+          "text_preview": "20/08/2026 Cultura Atractiva cartelera para festejar el Día Mundial del Folklore Una cartelera atractiva presenta la celebración del Día Mundial del Folklore que prepara el departamento de cultura de la alcaldía de Cochabamba para este... vista 19/08/2026 Cultura ATiTeCuento interpreta “Detrás de las sombras” en la Alianza Francesa El grupo ATiTeCuento pondrá en escena la obra “Detrás de las sombr"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 14,
+          "category": "tecnologia",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Reyes Villa anuncia encuentro con Quiroga y Doria Medina Ver más 2 “No tengo necesidad de irme”, asegura Tatiana Marset Ver más 3 Aluviones en el norte"
         }
       ],
       "error": null

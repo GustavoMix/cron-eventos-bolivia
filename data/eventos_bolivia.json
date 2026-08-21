@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-20T22:02:09-04:00",
+  "generated_at": "2026-08-21T00:02:45-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 38,
-    "events_upcoming": 30,
-    "events_today": 4,
-    "events_with_date": 38,
+    "events_total": 35,
+    "events_upcoming": 26,
+    "events_today": 2,
+    "events_with_date": 35,
     "events_free": 0,
-    "events_with_image": 33,
+    "events_with_image": 29,
     "events_with_video": 6,
-    "events_corroborated": 2,
-    "events_seen_this_run": 18,
+    "events_corroborated": 1,
+    "events_seen_this_run": 12,
     "sources_total": 79,
-    "sources_ok": 11,
-    "sources_blocked": 3,
+    "sources_ok": 10,
+    "sources_blocked": 4,
     "sources_error": 3,
     "sources_skipped": 62
   },
@@ -67,12 +67,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 7
-      },
-      {
-        "key": "festival",
-        "label": "Festivales",
-        "count": 4
+        "count": 8
       },
       {
         "key": "concierto",
@@ -90,11 +85,6 @@
         "count": 3
       },
       {
-        "key": "otro",
-        "label": "Otros",
-        "count": 2
-      },
-      {
         "key": "cine",
         "label": "Cine",
         "count": 2
@@ -105,8 +95,13 @@
         "count": 2
       },
       {
-        "key": "conferencia",
-        "label": "Conferencias",
+        "key": "otro",
+        "label": "Otros",
+        "count": 1
+      },
+      {
+        "key": "festival",
+        "label": "Festivales",
         "count": 1
       },
       {
@@ -116,11 +111,6 @@
       }
     ],
     "cities": [
-      {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 8
-      },
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
@@ -134,6 +124,11 @@
       {
         "key": "Quillacollo",
         "label": "Quillacollo",
+        "count": 4
+      },
+      {
+        "key": "Cochabamba",
+        "label": "Cochabamba",
         "count": 4
       },
       {
@@ -154,14 +149,14 @@
     ],
     "departments": [
       {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 12
-      },
-      {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
         "count": 9
+      },
+      {
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 8
       },
       {
         "key": "La Paz",
@@ -183,22 +178,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 4
+        "count": 2
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 9
+        "count": 5
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 16
+        "count": 12
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 30
+        "count": 26
       }
     ],
     "price": [
@@ -215,14 +210,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 22
+        "count": 18
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 25
+        "count": 20
       },
       {
         "key": "con_video",
@@ -239,26 +234,6 @@
       {
         "key": "CulturaViva",
         "label": "CulturaViva",
-        "count": 2
-      },
-      {
-        "key": "FEXPOCRUZ",
-        "label": "FEXPOCRUZ",
-        "count": 2
-      },
-      {
-        "key": "Expocruz2026",
-        "label": "Expocruz2026",
-        "count": 2
-      },
-      {
-        "key": "RumboAExpocruz2026",
-        "label": "RumboAExpocruz2026",
-        "count": 2
-      },
-      {
-        "key": "OportunidadesParaTodos",
-        "label": "OportunidadesParaTodos",
         "count": 2
       },
       {
@@ -350,18 +325,38 @@
         "key": "SucreBolivia",
         "label": "SucreBolivia",
         "count": 1
+      },
+      {
+        "key": "FEXPOCRUZ",
+        "label": "FEXPOCRUZ",
+        "count": 1
+      },
+      {
+        "key": "Expocruz2026",
+        "label": "Expocruz2026",
+        "count": 1
+      },
+      {
+        "key": "RumboAExpocruz2026",
+        "label": "RumboAExpocruz2026",
+        "count": 1
+      },
+      {
+        "key": "OportunidadesParaTodos",
+        "label": "OportunidadesParaTodos",
+        "count": 1
       }
     ],
     "source_classes": [
       {
-        "key": "media",
-        "label": "media",
-        "count": 13
-      },
-      {
         "key": "venue",
         "label": "venue",
         "count": 10
+      },
+      {
+        "key": "media",
+        "label": "media",
+        "count": 9
       },
       {
         "key": "ticketera",
@@ -389,332 +384,15 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
+      "fb_fundacion_cultural_bcb",
       "fb_gam_cbba",
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 24.4,
-    "horas_maximo_sin_datos": 148.2
+    "horas_promedio_sin_datos": 24.2,
+    "horas_maximo_sin_datos": 150.2
   },
   "events": [
-    {
-      "id": "80219192d1509829",
-      "source_id": "web_lostiempos_agenda",
-      "source_name": "Agenda Cultural - Los Tiempos",
-      "source_url": "https://www.lostiempos.com/servicios/agenda-cultural",
-      "source_class": "media",
-      "source_tier": 2,
-      "source_icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
-      "url": "https://www.lostiempos.com/agenda-cultural/concierto-piano_638709",
-      "facebook_event_url": null,
-      "published_at": "2024-08-20T16:52:53-04:00",
-      "scraped_at": "2026-08-20T22:02:09-04:00",
-      "title": "Concierto para piano",
-      "description": "Agenda Cultural Conciertos de Piano de Beethoven en Cochabamba ¡Sumérgete en una experiencia musical incomparable! Ars Música Orquesta te invita a presenciar los icónicos conciertos para piano de Ludwig van Beethoven, interpretados por renombrados solistas internacionales. Fechas: 24 y 25 de agosto Hora: 19:00 hrs Lugar: Teatro Instituto Eduardo Laredo Entradas: VIP: 70 Bs Generales: 50 Bs Dirección Concierto N°1: Ana Pérez Dirección Concierto N°2: Leonardo Alvarado Pianista para Concierto N°1: Alejandro Argollo Pianista para Concierto N°2: Sergio Escalera ¡No dejes pasar esta oportunidad única de vivir la grandeza de Beethoven en Cochabamba! Reserva tus entradas ahora a través de WhatsApp: https://wa.me/59177980638 Tipo de Evento: Cultural Fecha del Evento: Domingo, 25 Agosto, 2024 - 19:00 Dirección: Ramón Rivero esquina Oquendo Lo más leído 1 Aluviones en el norte de Chile dejan un muerto y más de 2 mil evacuados 2 Nevada daña a 26.200 familias y deja un muerto en Oruro; Potosí sufre más 3 La ALP da voto de confianza al ministro Zamora luego de su informe sobre BoA 4 Rol de asesor de Paz causa revuelo en el Gobierno; hoy enfrenta su audiencia 5 Nevadas y riadas golpean a Cochabamba y dejan daños en 13 municipios Últimas noticias 17h26m Sismo de magnitud 7,2 sacude Ayacucho, en Perú 16h45m “No tengo necesidad de irme”, asegura Tatiana Marset 16h41m Anapo rechaza el Decreto 5676, que fija el precio referencial del diésel 15h56m Postergan la audiencia cautelar de Cerimedo 12h19m Agropecuarios del Norte Integrado de Santa Cruz marchan y bloquean en Montero Lo más compartido 1 Trump declara el estrecho de Ormuz nuevo territorio de EEUU 2 La nieve afecta a más de 26.000 familias en el país 3 Atractiva cartelera para festejar el Día Mundial del Folklore 4 Espinoza consultará al TCP si voto de censura de la ALP en su contra es legal 5 EMSA suspende el recojo de basura por dos días por falta de diésel En Portada 20/08/2026 Seguridad Postergan la audiencia cautelar de Cerimedo Ninguna de las partes, ni los representantes del Ministerio Público ni el acusado –que rompió en llanto– llegaron a tiempo al juzgado. vista 20/08/2026 Seguridad “No tengo necesidad de irme”, asegura Tatiana Marset Está en detención domiciliaria desde el miércoles, después de cinco meses en Palmasola, una experiencia que le dio “más ganas de estudiar las leyes”. vista 20/08/2026 Seguridad Rol de asesor de Paz causa revuelo en el Gobierno; hoy enfrenta su audiencia La Fiscalía adelantó ayer q",
-      "original_text": "Agenda Cultural Conciertos de Piano de Beethoven en Cochabamba ¡Sumérgete en una experiencia musical incomparable! Ars Música Orquesta te invita a presenciar los icónicos conciertos para piano de Ludwig van Beethoven, interpretados por renombrados solistas internacionales. Fechas: 24 y 25 de agosto Hora: 19:00 hrs Lugar: Teatro Instituto Eduardo Laredo Entradas: VIP: 70 Bs Generales: 50 Bs Dirección Concierto N°1: Ana Pérez Dirección Concierto N°2: Leonardo Alvarado Pianista para Concierto N°1: Alejandro Argollo Pianista para Concierto N°2: Sergio Escalera ¡No dejes pasar esta oportunidad única de vivir la grandeza de Beethoven en Cochabamba! Reserva tus entradas ahora a través de WhatsApp: https://wa.me/59177980638 Tipo de Evento: Cultural Fecha del Evento: Domingo, 25 Agosto, 2024 - 19:00 Dirección: Ramón Rivero esquina Oquendo Lo más leído 1 Aluviones en el norte de Chile dejan un muerto y más de 2 mil evacuados 2 Nevada daña a 26.200 familias y deja un muerto en Oruro; Potosí sufre más 3 La ALP da voto de confianza al ministro Zamora luego de su informe sobre BoA 4 Rol de asesor de Paz causa revuelo en el Gobierno; hoy enfrenta su audiencia 5 Nevadas y riadas golpean a Cochabamba y dejan daños en 13 municipios Últimas noticias 17h26m Sismo de magnitud 7,2 sacude Ayacucho, en Perú 16h45m “No tengo necesidad de irme”, asegura Tatiana Marset 16h41m Anapo rechaza el Decreto 5676, que fija el precio referencial del diésel 15h56m Postergan la audiencia cautelar de Cerimedo 12h19m Agropecuarios del Norte Integrado de Santa Cruz marchan y bloquean en Montero Lo más compartido 1 Trump declara el estrecho de Ormuz nuevo territorio de EEUU 2 La nieve afecta a más de 26.000 familias en el país 3 Atractiva cartelera para festejar el Día Mundial del Folklore 4 Espinoza consultará al TCP si voto de censura de la ALP en su contra es legal 5 EMSA suspende el recojo de basura por dos días por falta de diésel En Portada 20/08/2026 Seguridad Postergan la audiencia cautelar de Cerimedo Ninguna de las partes, ni los representantes del Ministerio Público ni el acusado –que rompió en llanto– llegaron a tiempo al juzgado. vista 20/08/2026 Seguridad “No tengo necesidad de irme”, asegura Tatiana Marset Está en detención domiciliaria desde el miércoles, después de cinco meses en Palmasola, una experiencia que le dio “más ganas de estudiar las leyes”. vista 20/08/2026 Seguridad Rol de asesor de Paz causa revuelo en el Gobierno; hoy enfrenta su audiencia La Fiscalía adelantó ayer que pedirá 180 días de detención preventiva para el asesor del presidente Rodrigo Paz, Fernando Cerimedo, quien enfrentará hoy su... vista 20/08/2026 Seguridad Fiscalía solicita detención preventiva de Cerimedo en Chonchocoro por el caso Beller El Ministerio Público informó que solicitó 180 días de detención preventiva para el asesor presidencial Fernando Cerimedo, imputado por tentativa de... vista 19/08/2026 País Interpelación: Zamora ratifica que BoA no se privatizará y anuncia plan para una sociedad anónima o asociación público - privada En su interpelación en el Legislativo, el ministro de Obras Públicas, Mauricio Zamora, ratificó que Boliviana de Aviación (BoA) no se privatizará, pero anunció... vista 20/08/2026 Cochabamba Justicia ratifica que Pilihuachana es de la Alcaldía de Cochabamba El director de Asuntos Jurídicos y Administrativos de la Alcaldía de Cochabamba, Yarik Montan, señaló que la Justicia negó la tutela de los predios de... vista Actualidad El movimiento telúrico se produjo a unos 108 kilómetros de profundidad, lo que disminuye la probabilidad de daños de... Ver más 20/08/2026 Mundo Sismo de magnitud 7,2 sacude Ayacucho, en Perú Está en detención domiciliaria desde el miércoles, después de cinco meses en Palmasola, una experiencia que le dio “más... Ver más 20/08/2026 Seguridad “No tengo necesidad de irme”, asegura Tatiana Marset Ninguna de las partes, ni los representantes del Ministerio Público ni el acusado –que rompió en llanto– llegaron a... Ver más 20/08/2026 Seguridad Postergan la audiencia cautelar de Cerimedo La Asociación de Productores de Oleaginosas y Trigo (Anapo) rechazó el Decreto Supremo 5676 y considera que la norma... Ver más 20/08/2026 Economía Anapo rechaza el Decreto 5676, que fija el precio referencial del diésel Deportes El proyecto de la FIFA para formar jugadores, pero sobre todo buenas personas, según su declaración, se plasma en La... Ver más 20/08/2026 Fútbol Inauguran la primera cancha FIFA Arena en la zona de Munaypata, en La Paz El Bolívar quedó eliminado de los octavos de final de la Copa Sudamericana después de perder por 3-1 ayer ante Sao... Ver más 19/08/2026 Fútbol Bolívar se elimina en los octavos de final de la Copa Sudamericana en Brasil Sin margen para el error, Bolívar visitará hoy a Sao Paulo, de Brasil, en el encuentro de vuelta de octavos de final de... Ver más 18/08/2026 Fútbol Bolívar ante Sao Paulo, una misión imposible por el pase a cuartos de Copa Sudamericana San Antonio pasará a representar a todo el trópico de Cochabamba y para ello volverá a jugar en esa región y cambiará... Ver más 17/08/2026 Fútbol San Antonio de Bulo Bulo se agranda, ahora representará a todo el trópico Tendencias En los Alpes alemanes, el aumento de las temperaturas está obligando a las mariposas a tomar decisiones que definirán... Ver más 20/08/2026 Medio Ambiente Cómo el cambio climático afecta la supervivencia de las mariposas Ingenieros de inteligencia artificial (IA) y analistas de datos se han convertido en las profesiones más solicitadas... Ver más 18/08/2026 Tecnología Ingenieros de IA y analistas de datos, las profesiones que más se necesitan hoy Bolivia conmemoró sus 201 años de independencia en medio de un escenario político y social profundamente complejo. Ver más 16/08/2026 Interesante Miroslava Fernández analiza el rumbo de Bolivia en Pódcast Los Tiempos El estudio, publicado en la revista BMC Medicine, analizó durante ocho años los hábitos de 59.000 adultos del Reino... Ver más 13/08/2026 Salud Cómo la intensidad y el tipo de ejercicio influyen en la prevención del cáncer Doble Click Una cartelera atractiva presenta la celebración del Día Mundial del Folklore que prepara el departamento de cultura de... Ver más 20/08/2026 Cultura Atractiva cartelera para festejar el Día Mundial del Folklore El grupo ATiTeCuento pondrá en escena la obra “Detrás de las sombras” en el auditorio de la Alianza Francesa de... Ver más 19/08/2026 Cultura ATiTeCuento interpreta “Detrás de las sombras” en la Alianza Francesa La réplica de los dos galardones conquistados en Chile se produjo en Perú, en la trigésima versión del Festival... Ver más 18/08/2026 Cine Tras ganar dos títulos en Perú, “La hija cóndor” suma 31 estrellas La muestra exhibirá durante 15 días la obra del ganador del Concurso Municipal de Artes Plásticas \"Salón Municipal 14... Ver más 17/08/2026 Cultura Gilmer Rojas expone en el ‘Gíldaro Antezana’",
-      "category": "festival",
-      "subcategories": [
-        "concierto",
-        "teatro",
-        "deporte",
-        "cine"
-      ],
-      "tags": [],
-      "artists": [],
-      "starts_at": "2024-08-25T19:00:00-04:00",
-      "ends_at": null,
-      "starts_at_ms": 1724626800000,
-      "ends_at_ms": null,
-      "date_confidence": "exacta",
-      "date_source_text": "25 de agosto",
-      "all_day": false,
-      "multi_day": false,
-      "doors_time": null,
-      "display_date": "Domingo 25 de agosto · 19:00",
-      "days_until": -725,
-      "lifecycle": "finalizado",
-      "department": "Cochabamba",
-      "city": "Cochabamba",
-      "venue": "cancha FIFA Arena",
-      "address": "esquina Oquendo Lo más leído 1 Aluviones en el norte de Chile dejan un muerto",
-      "latitude": null,
-      "longitude": null,
-      "location_query": "cancha FIFA Arena, esquina Oquendo Lo más leído 1 Aluviones en el norte de Chile dejan un muerto, Cochabamba, Bolivia",
-      "is_free": false,
-      "price_from": 50.0,
-      "price_to": 70.0,
-      "currency": "BOB",
-      "price_text": "Instituto Eduardo Laredo Entradas: VIP: 70 Bs Generales: 50 Bs Dirección Concierto N°",
-      "ticket_urls": [],
-      "ticket_outlets": [],
-      "phones": [],
-      "status": "postergado",
-      "relevance_score": 65,
-      "confidence": 0.75,
-      "filter_reasons": [
-        "fecha_pasada",
-        "hora_explicita",
-        "categoria_festival",
-        "sede_detectada",
-        "informacion_de_entradas",
-        "lenguaje_de_convocatoria",
-        "tiene_afiche",
-        "lenguaje_en_pasado"
-      ],
-      "is_official": false,
-      "image_urls": [
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/20/cerimedo_gemidos.jpg?itok=NlP7de9h",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/20/belle_tati.jpg?itok=gqRYkVdX",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/20-8-2026_michel_-_cerimedo_web.jpg.jpeg?itok=lsPtUPHE",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/cerimedo.jpg?itok=Q6fwYWaT",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/19/boa.jpg?itok=EQ6WZYJ8",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/7_me_1_rochaaaaaaa.jpg?itok=WB8rRUXF",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/mapa_sismo_peru.jpg?itok=aJlxmwvP",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/belle_tati.jpg?itok=Y4GL79n3",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/cerimedo_gemidos.jpg?itok=AYpQPVw8",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/soya.jpg?itok=EqEI8DiK",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/10_dep_1_marka_registrada.jpg?itok=HjZ663GP",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/19/11_dep_1_rrss.jpg?itok=g5uKheuB"
-      ],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/20/cerimedo_gemidos.jpg?itok=NlP7de9h",
-      "has_image": true,
-      "videos": [],
-      "has_video": false,
-      "media": {
-        "images": [
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/20/cerimedo_gemidos.jpg?itok=NlP7de9h",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/20/belle_tati.jpg?itok=gqRYkVdX",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/20-8-2026_michel_-_cerimedo_web.jpg.jpeg?itok=lsPtUPHE",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/cerimedo.jpg?itok=Q6fwYWaT",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/19/boa.jpg?itok=EQ6WZYJ8",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/7_me_1_rochaaaaaaa.jpg?itok=WB8rRUXF",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/mapa_sismo_peru.jpg?itok=aJlxmwvP",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/belle_tati.jpg?itok=Y4GL79n3",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/cerimedo_gemidos.jpg?itok=AYpQPVw8",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/soya.jpg?itok=EqEI8DiK",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/10_dep_1_marka_registrada.jpg?itok=HjZ663GP",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/19/11_dep_1_rrss.jpg?itok=g5uKheuB"
-        ],
-        "main_image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/20/cerimedo_gemidos.jpg?itok=NlP7de9h",
-        "image_count": 12,
-        "videos": []
-      },
-      "sources": [
-        {
-          "id": "web_lostiempos_agenda",
-          "name": "Agenda Cultural - Los Tiempos",
-          "class": "media",
-          "tier": 2,
-          "page_url": "https://www.lostiempos.com/servicios/agenda-cultural",
-          "post_url": "https://www.lostiempos.com/agenda-cultural/concierto-piano_638709",
-          "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
-          "published_at": "2024-08-20T16:52:53-04:00"
-        }
-      ],
-      "source_count": 1,
-      "all_urls": [
-        "https://www.lostiempos.com/agenda-cultural/concierto-piano_638709"
-      ],
-      "corroborated": false,
-      "verification": "una_fuente",
-      "merged_count": 1,
-      "event_id": "evt_81b497158133ca",
-      "first_seen_at": "2026-08-20T09:16:27-04:00",
-      "history": [
-        {
-          "at": "2026-08-20T09:16:27-04:00",
-          "reason": "primera_deteccion",
-          "status": "programado",
-          "lifecycle": "finalizado",
-          "starts_at": "2024-08-25T19:00:00-04:00",
-          "price_from": 50.0,
-          "source_count": 1
-        },
-        {
-          "at": "2026-08-20T17:49:02-04:00",
-          "reason": "actualizacion",
-          "status": "postergado",
-          "lifecycle": "finalizado",
-          "starts_at": "2024-08-25T19:00:00-04:00",
-          "price_from": 50.0,
-          "source_count": 1,
-          "changes": [
-            "estado:programado->postergado"
-          ]
-        }
-      ],
-      "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
-      "seen_this_run": true,
-      "history_count": 2,
-      "is_upcoming": false,
-      "category_label": "Festivales",
-      "lifecycle_label": "Finalizados",
-      "price_label": "Bs 50 - 70"
-    },
-    {
-      "id": "75640c34fce05daf",
-      "source_id": "web_lostiempos_agenda",
-      "source_name": "Agenda Cultural - Los Tiempos",
-      "source_url": "https://www.lostiempos.com/servicios/agenda-cultural",
-      "source_class": "media",
-      "source_tier": 2,
-      "source_icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
-      "url": "https://www.lostiempos.com/agenda-cultural/almas-heridas-obra-teatro-infancias_641678",
-      "facebook_event_url": null,
-      "published_at": "2024-09-27T11:03:43-04:00",
-      "scraped_at": "2026-08-20T22:02:09-04:00",
-      "title": "\"Almas Heridas - Obra de Teatro para Infancias\"",
-      "description": "Agenda Cultural Escena ViScERal presenta: \"Almas Heridas - Obra de Teatro para Infancias\" Sinopsis: “Angustias y profundos pesares nos hacen mirar para adentro, los niños generalmente miran para afuera, son muy valientes. Solo los niños que sufren miran para adentro” “Almas Heridas” propone una aproximación empática a las vivencias de 3 pequeños y valientes protagonistas que nos invitan a acompañarlos en su mirar para adentro y mirar para afuera siendo niños. Género: Drama Público: infantil , apta para todo público. *Recomendada para niños desde la edad escolar (6 años para adelante) Fechas: -Sábado 28 de septiembre: 1ra función: 16:00 - 2da función: 19:00 -Domingo 29 de septiembre: 1ra función: 16:00 - 2da función: 19:00 Costo: Adultos: 30 bs - Niños y niñas: 20 bs Tipo de Evento: Cultural Fecha del Evento: Domingo, 29 Septiembre, 2024 - 17:00 Dirección: Proyecto mARTadero Lo más leído 1 Aluviones en el norte de Chile dejan un muerto y más de 2 mil evacuados 2 Nevada daña a 26.200 familias y deja un muerto en Oruro; Potosí sufre más 3 La ALP da voto de confianza al ministro Zamora luego de su informe sobre BoA 4 Rol de asesor de Paz causa revuelo en el Gobierno; hoy enfrenta su audiencia 5 Nevadas y riadas golpean a Cochabamba y dejan daños en 13 municipios Últimas noticias 17h26m Sismo de magnitud 7,2 sacude Ayacucho, en Perú 16h45m “No tengo necesidad de irme”, asegura Tatiana Marset 16h41m Anapo rechaza el Decreto 5676, que fija el precio referencial del diésel 15h56m Postergan la audiencia cautelar de Cerimedo 12h19m Agropecuarios del Norte Integrado de Santa Cruz marchan y bloquean en Montero Lo más compartido 1 Trump declara el estrecho de Ormuz nuevo territorio de EEUU 2 La nieve afecta a más de 26.000 familias en el país 3 Atractiva cartelera para festejar el Día Mundial del Folklore 4 Espinoza consultará al TCP si voto de censura de la ALP en su contra es legal 5 EMSA suspende el recojo de basura por dos días por falta de diésel En Portada 20/08/2026 Seguridad Postergan la audiencia cautelar de Cerimedo Ninguna de las partes, ni los representantes del Ministerio Público ni el acusado –que rompió en llanto– llegaron a tiempo al juzgado. vista 20/08/2026 Seguridad “No tengo necesidad de irme”, asegura Tatiana Marset Está en detención domiciliaria desde el miércoles, después de cinco meses en Palmasola, una experiencia que le dio “más ganas de estudiar las leyes”. vista 20/08/2026 Seguridad Rol de asesor de Paz causa revuelo en el Gobierno; hoy enfr",
-      "original_text": "Agenda Cultural Escena ViScERal presenta: \"Almas Heridas - Obra de Teatro para Infancias\" Sinopsis: “Angustias y profundos pesares nos hacen mirar para adentro, los niños generalmente miran para afuera, son muy valientes. Solo los niños que sufren miran para adentro” “Almas Heridas” propone una aproximación empática a las vivencias de 3 pequeños y valientes protagonistas que nos invitan a acompañarlos en su mirar para adentro y mirar para afuera siendo niños. Género: Drama Público: infantil , apta para todo público. *Recomendada para niños desde la edad escolar (6 años para adelante) Fechas: -Sábado 28 de septiembre: 1ra función: 16:00 - 2da función: 19:00 -Domingo 29 de septiembre: 1ra función: 16:00 - 2da función: 19:00 Costo: Adultos: 30 bs - Niños y niñas: 20 bs Tipo de Evento: Cultural Fecha del Evento: Domingo, 29 Septiembre, 2024 - 17:00 Dirección: Proyecto mARTadero Lo más leído 1 Aluviones en el norte de Chile dejan un muerto y más de 2 mil evacuados 2 Nevada daña a 26.200 familias y deja un muerto en Oruro; Potosí sufre más 3 La ALP da voto de confianza al ministro Zamora luego de su informe sobre BoA 4 Rol de asesor de Paz causa revuelo en el Gobierno; hoy enfrenta su audiencia 5 Nevadas y riadas golpean a Cochabamba y dejan daños en 13 municipios Últimas noticias 17h26m Sismo de magnitud 7,2 sacude Ayacucho, en Perú 16h45m “No tengo necesidad de irme”, asegura Tatiana Marset 16h41m Anapo rechaza el Decreto 5676, que fija el precio referencial del diésel 15h56m Postergan la audiencia cautelar de Cerimedo 12h19m Agropecuarios del Norte Integrado de Santa Cruz marchan y bloquean en Montero Lo más compartido 1 Trump declara el estrecho de Ormuz nuevo territorio de EEUU 2 La nieve afecta a más de 26.000 familias en el país 3 Atractiva cartelera para festejar el Día Mundial del Folklore 4 Espinoza consultará al TCP si voto de censura de la ALP en su contra es legal 5 EMSA suspende el recojo de basura por dos días por falta de diésel En Portada 20/08/2026 Seguridad Postergan la audiencia cautelar de Cerimedo Ninguna de las partes, ni los representantes del Ministerio Público ni el acusado –que rompió en llanto– llegaron a tiempo al juzgado. vista 20/08/2026 Seguridad “No tengo necesidad de irme”, asegura Tatiana Marset Está en detención domiciliaria desde el miércoles, después de cinco meses en Palmasola, una experiencia que le dio “más ganas de estudiar las leyes”. vista 20/08/2026 Seguridad Rol de asesor de Paz causa revuelo en el Gobierno; hoy enfrenta su audiencia La Fiscalía adelantó ayer que pedirá 180 días de detención preventiva para el asesor del presidente Rodrigo Paz, Fernando Cerimedo, quien enfrentará hoy su... vista 20/08/2026 Seguridad Fiscalía solicita detención preventiva de Cerimedo en Chonchocoro por el caso Beller El Ministerio Público informó que solicitó 180 días de detención preventiva para el asesor presidencial Fernando Cerimedo, imputado por tentativa de... vista 19/08/2026 País Interpelación: Zamora ratifica que BoA no se privatizará y anuncia plan para una sociedad anónima o asociación público - privada En su interpelación en el Legislativo, el ministro de Obras Públicas, Mauricio Zamora, ratificó que Boliviana de Aviación (BoA) no se privatizará, pero anunció... vista 20/08/2026 Cochabamba Justicia ratifica que Pilihuachana es de la Alcaldía de Cochabamba El director de Asuntos Jurídicos y Administrativos de la Alcaldía de Cochabamba, Yarik Montan, señaló que la Justicia negó la tutela de los predios de... vista Actualidad El movimiento telúrico se produjo a unos 108 kilómetros de profundidad, lo que disminuye la probabilidad de daños de... Ver más 20/08/2026 Mundo Sismo de magnitud 7,2 sacude Ayacucho, en Perú Está en detención domiciliaria desde el miércoles, después de cinco meses en Palmasola, una experiencia que le dio “más... Ver más 20/08/2026 Seguridad “No tengo necesidad de irme”, asegura Tatiana Marset Ninguna de las partes, ni los representantes del Ministerio Público ni el acusado –que rompió en llanto– llegaron a... Ver más 20/08/2026 Seguridad Postergan la audiencia cautelar de Cerimedo La Asociación de Productores de Oleaginosas y Trigo (Anapo) rechazó el Decreto Supremo 5676 y considera que la norma... Ver más 20/08/2026 Economía Anapo rechaza el Decreto 5676, que fija el precio referencial del diésel Deportes El proyecto de la FIFA para formar jugadores, pero sobre todo buenas personas, según su declaración, se plasma en La... Ver más 20/08/2026 Fútbol Inauguran la primera cancha FIFA Arena en la zona de Munaypata, en La Paz El Bolívar quedó eliminado de los octavos de final de la Copa Sudamericana después de perder por 3-1 ayer ante Sao... Ver más 19/08/2026 Fútbol Bolívar se elimina en los octavos de final de la Copa Sudamericana en Brasil Sin margen para el error, Bolívar visitará hoy a Sao Paulo, de Brasil, en el encuentro de vuelta de octavos de final de... Ver más 18/08/2026 Fútbol Bolívar ante Sao Paulo, una misión imposible por el pase a cuartos de Copa Sudamericana San Antonio pasará a representar a todo el trópico de Cochabamba y para ello volverá a jugar en esa región y cambiará... Ver más 17/08/2026 Fútbol San Antonio de Bulo Bulo se agranda, ahora representará a todo el trópico Tendencias En los Alpes alemanes, el aumento de las temperaturas está obligando a las mariposas a tomar decisiones que definirán... Ver más 20/08/2026 Medio Ambiente Cómo el cambio climático afecta la supervivencia de las mariposas Ingenieros de inteligencia artificial (IA) y analistas de datos se han convertido en las profesiones más solicitadas... Ver más 18/08/2026 Tecnología Ingenieros de IA y analistas de datos, las profesiones que más se necesitan hoy Bolivia conmemoró sus 201 años de independencia en medio de un escenario político y social profundamente complejo. Ver más 16/08/2026 Interesante Miroslava Fernández analiza el rumbo de Bolivia en Pódcast Los Tiempos El estudio, publicado en la revista BMC Medicine, analizó durante ocho años los hábitos de 59.000 adultos del Reino... Ver más 13/08/2026 Salud Cómo la intensidad y el tipo de ejercicio influyen en la prevención del cáncer Doble Click Una cartelera atractiva presenta la celebración del Día Mundial del Folklore que prepara el departamento de cultura de... Ver más 20/08/2026 Cultura Atractiva cartelera para festejar el Día Mundial del Folklore El grupo ATiTeCuento pondrá en escena la obra “Detrás de las sombras” en el auditorio de la Alianza Francesa de... Ver más 19/08/2026 Cultura ATiTeCuento interpreta “Detrás de las sombras” en la Alianza Francesa La réplica de los dos galardones conquistados en Chile se produjo en Perú, en la trigésima versión del Festival... Ver más 18/08/2026 Cine Tras ganar dos títulos en Perú, “La hija cóndor” suma 31 estrellas La muestra exhibirá durante 15 días la obra del ganador del Concurso Municipal de Artes Plásticas \"Salón Municipal 14... Ver más 17/08/2026 Cultura Gilmer Rojas expone en el ‘Gíldaro Antezana’",
-      "category": "teatro",
-      "subcategories": [
-        "festival",
-        "deporte",
-        "cine",
-        "exposicion"
-      ],
-      "tags": [],
-      "artists": [],
-      "starts_at": "2024-09-28T16:00:00-04:00",
-      "ends_at": null,
-      "starts_at_ms": 1727553600000,
-      "ends_at_ms": null,
-      "date_confidence": "exacta",
-      "date_source_text": "sabado 28 de septiembre",
-      "all_day": false,
-      "multi_day": false,
-      "doors_time": null,
-      "display_date": "Sábado 28 de septiembre · 16:00",
-      "days_until": -691,
-      "lifecycle": "finalizado",
-      "department": "Cochabamba",
-      "city": "Cochabamba",
-      "venue": "mARTadero",
-      "address": "zona de Munaypata",
-      "latitude": null,
-      "longitude": null,
-      "location_query": "mARTadero, zona de Munaypata, Cochabamba, Bolivia",
-      "is_free": false,
-      "price_from": 20.0,
-      "price_to": 30.0,
-      "currency": "BOB",
-      "price_text": "00 - 2da función: 19:00 Costo: Adultos: 30 bs - Niños y niñas: 20 bs Tipo de Evento:",
-      "ticket_urls": [],
-      "ticket_outlets": [],
-      "phones": [],
-      "status": "postergado",
-      "relevance_score": 65,
-      "confidence": 0.75,
-      "filter_reasons": [
-        "fecha_pasada",
-        "hora_explicita",
-        "categoria_teatro",
-        "sede_detectada",
-        "informacion_de_entradas",
-        "lenguaje_de_convocatoria",
-        "tiene_afiche",
-        "lenguaje_en_pasado"
-      ],
-      "is_official": false,
-      "image_urls": [
-        "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/459134677_933833945451467_2498078613516548914_n.jpg?itok=T2iJBBk0",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/20/cerimedo_gemidos.jpg?itok=NlP7de9h",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/20/belle_tati.jpg?itok=gqRYkVdX",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/20-8-2026_michel_-_cerimedo_web.jpg.jpeg?itok=lsPtUPHE",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/cerimedo.jpg?itok=Q6fwYWaT",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/19/boa.jpg?itok=EQ6WZYJ8",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/7_me_1_rochaaaaaaa.jpg?itok=WB8rRUXF",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/mapa_sismo_peru.jpg?itok=aJlxmwvP",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/belle_tati.jpg?itok=Y4GL79n3",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/cerimedo_gemidos.jpg?itok=AYpQPVw8",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/soya.jpg?itok=EqEI8DiK",
-        "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/10_dep_1_marka_registrada.jpg?itok=HjZ663GP"
-      ],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/459134677_933833945451467_2498078613516548914_n.jpg?itok=T2iJBBk0",
-      "has_image": true,
-      "videos": [],
-      "has_video": false,
-      "media": {
-        "images": [
-          "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/459134677_933833945451467_2498078613516548914_n.jpg?itok=T2iJBBk0",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/20/cerimedo_gemidos.jpg?itok=NlP7de9h",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/20/belle_tati.jpg?itok=gqRYkVdX",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/20-8-2026_michel_-_cerimedo_web.jpg.jpeg?itok=lsPtUPHE",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/cerimedo.jpg?itok=Q6fwYWaT",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/19/boa.jpg?itok=EQ6WZYJ8",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/7_me_1_rochaaaaaaa.jpg?itok=WB8rRUXF",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/mapa_sismo_peru.jpg?itok=aJlxmwvP",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/belle_tati.jpg?itok=Y4GL79n3",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/cerimedo_gemidos.jpg?itok=AYpQPVw8",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/soya.jpg?itok=EqEI8DiK",
-          "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/media_imagen/2026/8/20/10_dep_1_marka_registrada.jpg?itok=HjZ663GP"
-        ],
-        "main_image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/459134677_933833945451467_2498078613516548914_n.jpg?itok=T2iJBBk0",
-        "image_count": 12,
-        "videos": []
-      },
-      "sources": [
-        {
-          "id": "web_lostiempos_agenda",
-          "name": "Agenda Cultural - Los Tiempos",
-          "class": "media",
-          "tier": 2,
-          "page_url": "https://www.lostiempos.com/servicios/agenda-cultural",
-          "post_url": "https://www.lostiempos.com/agenda-cultural/almas-heridas-obra-teatro-infancias_641678",
-          "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
-          "published_at": "2024-09-27T11:03:43-04:00"
-        }
-      ],
-      "source_count": 1,
-      "all_urls": [
-        "https://www.lostiempos.com/agenda-cultural/almas-heridas-obra-teatro-infancias_641678"
-      ],
-      "corroborated": false,
-      "verification": "una_fuente",
-      "merged_count": 1,
-      "event_id": "evt_d81768db0a7d8c",
-      "first_seen_at": "2026-08-20T09:16:27-04:00",
-      "history": [
-        {
-          "at": "2026-08-20T09:16:27-04:00",
-          "reason": "primera_deteccion",
-          "status": "programado",
-          "lifecycle": "finalizado",
-          "starts_at": "2024-09-28T16:00:00-04:00",
-          "price_from": 20.0,
-          "source_count": 1
-        },
-        {
-          "at": "2026-08-20T17:49:02-04:00",
-          "reason": "actualizacion",
-          "status": "postergado",
-          "lifecycle": "finalizado",
-          "starts_at": "2024-09-28T16:00:00-04:00",
-          "price_from": 20.0,
-          "source_count": 1,
-          "changes": [
-            "estado:programado->postergado"
-          ]
-        }
-      ],
-      "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
-      "seen_this_run": true,
-      "history_count": 2,
-      "is_upcoming": false,
-      "category_label": "Teatro",
-      "lifecycle_label": "Finalizados",
-      "price_label": "Bs 20 - 30"
-    },
     {
       "id": "7238417fdec46404",
       "source_id": "web_ticketbo",
@@ -726,7 +404,7 @@
       "url": "https://ticket.bo/eventos/el-var-la-gran-final",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-20T22:02:09-04:00",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
       "title": "EL VAR La Gran Final | TicketBO",
       "description": "Deportes EL VAR La Gran Final 19 de julio de 2026 · 15:00 hrs Puertas: 12:00 Zu Av. Montenegro 954, La Paz, Bolivia Scroll Fecha 19 JUL domingo 2026 Hora 15:00 Puertas: 12:00 Venue Zu Av. Montenegro 954, La Paz, Bolivia Categoría DEPORTES Apto para todo público 1 Tipos de\nentrada Sobre el evento La final del Mundial en EL VAR El partido más esperado del mundo lo vives en EL VAR — la mejor experiencia para ver fútbol en La Paz. Pantalla gigante de 8x4 metros, ambiente de estadio y tu mesa reservada para que no te pierdas nada.\n\n19 de julio, 2026. La gran final del Mundial, donde el fútbol se ve diferente. Información CÓMO ACCEDER Ingreso desde medio día. Se requiere presentar tu entrada digital en puerta.\n\n🎟️ Las reservas tienen un costo fijo por mesa que garantiza tu lugar durante todo el partido.\n\n🚫 No se permite el ingreso con alimentos o bebidas externas. Evento para toda la familia Restricción de edad Apto para todo público Ubicación CÓMO LLEGAR ZU Av. Montenegro 954, La Paz, Bolivia Ver en Google Maps → El monto pagado corresponde al acceso al evento — NO es canjeable en consumo. Selecciona tus tickets ELIGE TU ENTRADA Mesa 29 disponibles Bs. 100 BOB Precio varía según capacidad de mesa Selección de asiento Seleccionar asiento → EL VAR La Gran Final Bs. 100 Comprar ahora → 🔥 ¡Mesas limitadas — asegura la tuya ahora! Comprar ahora →",
       "original_text": "Deportes EL VAR La Gran Final 19 de julio de 2026 · 15:00 hrs Puertas: 12:00 Zu Av. Montenegro 954, La Paz, Bolivia Scroll Fecha 19 JUL domingo 2026 Hora 15:00 Puertas: 12:00 Venue Zu Av. Montenegro 954, La Paz, Bolivia Categoría DEPORTES Apto para todo público 1 Tipos de\nentrada Sobre el evento La final del Mundial en EL VAR El partido más esperado del mundo lo vives en EL VAR — la mejor experiencia para ver fútbol en La Paz. Pantalla gigante de 8x4 metros, ambiente de estadio y tu mesa reservada para que no te pierdas nada.\n\n19 de julio, 2026. La gran final del Mundial, donde el fútbol se ve diferente. Información CÓMO ACCEDER Ingreso desde medio día. Se requiere presentar tu entrada digital en puerta.\n\n🎟️ Las reservas tienen un costo fijo por mesa que garantiza tu lugar durante todo el partido.\n\n🚫 No se permite el ingreso con alimentos o bebidas externas. Evento para toda la familia Restricción de edad Apto para todo público Ubicación CÓMO LLEGAR ZU Av. Montenegro 954, La Paz, Bolivia Ver en Google Maps → El monto pagado corresponde al acceso al evento — NO es canjeable en consumo. Selecciona tus tickets ELIGE TU ENTRADA Mesa 29 disponibles Bs. 100 BOB Precio varía según capacidad de mesa Selección de asiento Seleccionar asiento → EL VAR La Gran Final Bs. 100 Comprar ahora → 🔥 ¡Mesas limitadas — asegura la tuya ahora! Comprar ahora →",
@@ -744,7 +422,7 @@
       "multi_day": false,
       "doors_time": "12:00",
       "display_date": "Domingo 19 de julio · 15:00",
-      "days_until": -32,
+      "days_until": -33,
       "lifecycle": "finalizado",
       "department": "La Paz",
       "city": "La Paz",
@@ -827,141 +505,14 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": false,
       "category_label": "Deportes",
       "lifecycle_label": "Finalizados",
       "price_label": "Bs 100"
-    },
-    {
-      "id": "3980f3eeab05d0ba",
-      "source_id": "web_superticket",
-      "source_name": "SuperTicket",
-      "source_url": "https://superticket.bo/",
-      "source_class": "ticketera",
-      "source_tier": 1,
-      "source_icon_url": null,
-      "url": "https://superticket.bo/Curso--Inteligencia-Artificial-para-Emprendedores/",
-      "facebook_event_url": null,
-      "published_at": "2026-08-17T16:00:00-04:00",
-      "scraped_at": "2026-08-17T17:52:30-04:00",
-      "title": "Curso: Inteligencia Artificial para Emprendedores",
-      "description": "Curso: Inteligencia Artificial para Emprendedores\n2026-08-17T16:00:00-04:00\n2026-08-17\nEdificio Arcadia\nA una cuadra de la Plaza Isabela La Católica\nBs 150.00\nBusca y compra tus entradas a los mejores eventos de Curso: Inteligencia Artificial para Emprendedores. Entradas a la venta en SuperTicket.bo desde el 17 Agosto",
-      "original_text": "Curso: Inteligencia Artificial para Emprendedores\n2026-08-17T16:00:00-04:00\n2026-08-17\nEdificio Arcadia\nA una cuadra de la Plaza Isabela La Católica\nBs 150.00\nBusca y compra tus entradas a los mejores eventos de Curso: Inteligencia Artificial para Emprendedores. Entradas a la venta en SuperTicket.bo desde el 17 Agosto",
-      "category": "feria",
-      "subcategories": [
-        "taller",
-        "tecnologia"
-      ],
-      "tags": [],
-      "artists": [],
-      "starts_at": "2026-08-17T00:00:00-04:00",
-      "ends_at": null,
-      "starts_at_ms": 1786939200000,
-      "ends_at_ms": null,
-      "date_confidence": "exacta",
-      "date_source_text": "2026-08-17",
-      "all_day": false,
-      "multi_day": false,
-      "doors_time": null,
-      "display_date": "Lunes 17 de agosto · 00:00",
-      "days_until": -3,
-      "lifecycle": "finalizado",
-      "department": null,
-      "city": null,
-      "venue": null,
-      "address": null,
-      "latitude": null,
-      "longitude": null,
-      "location_query": null,
-      "is_free": false,
-      "price_from": 150.0,
-      "price_to": null,
-      "currency": "BOB",
-      "price_text": "cuadra de la Plaza Isabela La Católica Bs 150.00 Busca y compra tus entradas a los mejor",
-      "ticket_urls": [
-        "https://superticket.bo/Curso--Inteligencia-Artificial-para-Emprendedores/"
-      ],
-      "ticket_outlets": [
-        "SuperTicket"
-      ],
-      "phones": [],
-      "status": "programado",
-      "relevance_score": 100,
-      "confidence": 0.93,
-      "filter_reasons": [
-        "fecha_futura",
-        "hora_explicita",
-        "categoria_feria",
-        "informacion_de_entradas",
-        "enlace_de_entradas",
-        "lenguaje_de_convocatoria",
-        "tiene_afiche",
-        "fuente_especializada"
-      ],
-      "is_official": true,
-      "image_urls": [
-        "https://superticket.bo/media/imagenes_eventos/home/2026/08/Shop5_Cuadrado_18.jpg"
-      ],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/08/Shop5_Cuadrado_18.jpg",
-      "has_image": true,
-      "videos": [],
-      "has_video": false,
-      "media": {
-        "images": [
-          "https://superticket.bo/media/imagenes_eventos/home/2026/08/Shop5_Cuadrado_18.jpg"
-        ],
-        "main_image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/08/Shop5_Cuadrado_18.jpg",
-        "image_count": 1,
-        "videos": []
-      },
-      "sources": [
-        {
-          "id": "web_superticket",
-          "name": "SuperTicket",
-          "class": "ticketera",
-          "tier": 1,
-          "page_url": "https://superticket.bo/",
-          "post_url": "https://superticket.bo/Curso--Inteligencia-Artificial-para-Emprendedores/",
-          "icon_url": null,
-          "published_at": "2026-08-17T16:00:00-04:00"
-        }
-      ],
-      "source_count": 1,
-      "all_urls": [
-        "https://superticket.bo/Curso--Inteligencia-Artificial-para-Emprendedores/"
-      ],
-      "corroborated": false,
-      "verification": "una_fuente",
-      "merged_count": 1,
-      "event_id": "evt_31bb49d8866b8c",
-      "first_seen_at": "2026-08-14T09:46:28-04:00",
-      "history": [
-        {
-          "at": "2026-08-14T09:46:28-04:00",
-          "reason": "primera_deteccion",
-          "status": "programado",
-          "lifecycle": "proximo",
-          "starts_at": "2026-08-17T00:00:00-04:00",
-          "price_from": 150.0,
-          "source_count": 1
-        }
-      ],
-      "changed_this_run": [],
-      "last_seen_at": "2026-08-17T17:52:30-04:00",
-      "last_confirmed_at": "2026-08-17T17:52:30-04:00",
-      "seen_this_run": false,
-      "history_count": 1,
-      "is_upcoming": false,
-      "category_label": "Ferias y expos",
-      "lifecycle_label": "Finalizados",
-      "price_label": "Bs 150"
     },
     {
       "id": "a491d576216f1799",
@@ -999,7 +550,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Lunes 17 de agosto · 10:30",
-      "days_until": -3,
+      "days_until": -4,
       "lifecycle": "finalizado",
       "department": "Chuquisaca",
       "city": "Sucre",
@@ -1122,7 +673,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Martes 18 de agosto · 19:00",
-      "days_until": -2,
+      "days_until": -3,
       "lifecycle": "finalizado",
       "department": "Chuquisaca",
       "city": "Sucre",
@@ -1245,7 +796,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Martes 18 de agosto · 19:00",
-      "days_until": -2,
+      "days_until": -3,
       "lifecycle": "finalizado",
       "department": "La Paz",
       "city": "La Paz",
@@ -1368,7 +919,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Miércoles 19 de agosto",
-      "days_until": -1,
+      "days_until": -2,
       "lifecycle": "finalizado",
       "department": "La Paz",
       "city": "La Paz",
@@ -1489,8 +1040,8 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Jueves 20 de agosto",
-      "days_until": 0,
-      "lifecycle": "hoy",
+      "days_until": -1,
+      "lifecycle": "finalizado",
       "department": "Cochabamba",
       "city": "Cochabamba",
       "venue": "cancha FIFA Arena",
@@ -1605,11 +1156,11 @@
       "changed_this_run": [],
       "last_seen_at": "2026-08-20T22:02:09-04:00",
       "last_confirmed_at": "2026-08-20T22:02:09-04:00",
-      "seen_this_run": true,
+      "seen_this_run": false,
       "history_count": 2,
-      "is_upcoming": true,
+      "is_upcoming": false,
       "category_label": "Festivales",
-      "lifecycle_label": "Hoy",
+      "lifecycle_label": "Finalizados",
       "price_label": null
     },
     {
@@ -1641,8 +1192,8 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Jueves 20 de agosto",
-      "days_until": 0,
-      "lifecycle": "hoy",
+      "days_until": -1,
+      "lifecycle": "finalizado",
       "department": "Cochabamba",
       "city": "Cochabamba",
       "venue": null,
@@ -1723,9 +1274,9 @@
       "last_confirmed_at": "2026-08-19T21:57:00-04:00",
       "seen_this_run": false,
       "history_count": 1,
-      "is_upcoming": true,
+      "is_upcoming": false,
       "category_label": "Conferencias",
-      "lifecycle_label": "Hoy",
+      "lifecycle_label": "Finalizados",
       "price_label": null
     },
     {
@@ -1762,8 +1313,8 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Jueves 20 de agosto · 19:00",
-      "days_until": 0,
-      "lifecycle": "hoy",
+      "days_until": -1,
+      "lifecycle": "finalizado",
       "department": "Cochabamba",
       "city": "Cochabamba",
       "venue": "cancha FIFA Arena",
@@ -1879,11 +1430,11 @@
       "changed_this_run": [],
       "last_seen_at": "2026-08-20T22:02:09-04:00",
       "last_confirmed_at": "2026-08-20T22:02:09-04:00",
-      "seen_this_run": true,
+      "seen_this_run": false,
       "history_count": 2,
-      "is_upcoming": true,
+      "is_upcoming": false,
       "category_label": "Festivales",
-      "lifecycle_label": "Hoy",
+      "lifecycle_label": "Finalizados",
       "price_label": null
     },
     {
@@ -1920,8 +1471,8 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Jueves 20 de agosto · 21:30",
-      "days_until": 0,
-      "lifecycle": "hoy",
+      "days_until": -1,
+      "lifecycle": "finalizado",
       "department": "Cochabamba",
       "city": "Cochabamba",
       "venue": "cancha FIFA Arena",
@@ -2039,11 +1590,11 @@
       "changed_this_run": [],
       "last_seen_at": "2026-08-20T22:02:09-04:00",
       "last_confirmed_at": "2026-08-20T22:02:09-04:00",
-      "seen_this_run": true,
+      "seen_this_run": false,
       "history_count": 2,
-      "is_upcoming": true,
+      "is_upcoming": false,
       "category_label": "Festivales",
-      "lifecycle_label": "Hoy",
+      "lifecycle_label": "Finalizados",
       "price_label": null
     },
     {
@@ -2077,8 +1628,8 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Viernes 21 de agosto",
-      "days_until": 1,
-      "lifecycle": "proximo",
+      "days_until": 0,
+      "lifecycle": "hoy",
       "department": "La Paz",
       "city": "La Paz",
       "venue": null,
@@ -2179,7 +1730,7 @@
       "history_count": 1,
       "is_upcoming": true,
       "category_label": "Conciertos",
-      "lifecycle_label": "Próximos",
+      "lifecycle_label": "Hoy",
       "price_label": null
     },
     {
@@ -2193,7 +1744,7 @@
       "url": "https://superticket.bo/Cena-Show-Tusuy-Bolivia/",
       "facebook_event_url": null,
       "published_at": "2026-08-21T19:30:00-04:00",
-      "scraped_at": "2026-08-20T22:02:09-04:00",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
       "title": "Cena Show Tusuy Bolivia",
       "description": "Cena Show Tusuy Bolivia\n2026-08-21T19:30:00-04:00\n2026-08-21\nTusuy Bolivia\nCalle Santa Cruz y Linares #263\nBs 0.00\nBusca y compra tus entradas a los mejores eventos de Cena Show Tusuy Bolivia. Entradas a la venta en SuperTicket.bo desde el 21 Agosto",
       "original_text": "Cena Show Tusuy Bolivia\n2026-08-21T19:30:00-04:00\n2026-08-21\nTusuy Bolivia\nCalle Santa Cruz y Linares #263\nBs 0.00\nBusca y compra tus entradas a los mejores eventos de Cena Show Tusuy Bolivia. Entradas a la venta en SuperTicket.bo desde el 21 Agosto",
@@ -2213,8 +1764,8 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Viernes 21 de agosto · 16:00",
-      "days_until": 1,
-      "lifecycle": "proximo",
+      "days_until": 0,
+      "lifecycle": "hoy",
       "department": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "venue": null,
@@ -2298,13 +1849,13 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
       "category_label": "Otros",
-      "lifecycle_label": "Próximos",
+      "lifecycle_label": "Hoy",
       "price_label": "Bs 263"
     },
     {
@@ -2341,7 +1892,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Sábado 22 de agosto",
-      "days_until": 2,
+      "days_until": 1,
       "lifecycle": "proximo",
       "department": "Cochabamba",
       "city": "Quillacollo",
@@ -2492,7 +2043,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Domingo 23 de agosto",
-      "days_until": 3,
+      "days_until": 2,
       "lifecycle": "proximo",
       "department": "La Paz",
       "city": "La Paz",
@@ -2600,7 +2151,7 @@
       "url": "https://superticket.bo/Curso--Taller-Inteligencia-Artificial-para-Emprendedores-Bolivianos/",
       "facebook_event_url": null,
       "published_at": "2026-08-24T17:00:00-04:00",
-      "scraped_at": "2026-08-20T22:02:09-04:00",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
       "title": "Curso: Taller Inteligencia Artificial para Emprendedores Bolivianos",
       "description": "Curso: Taller Inteligencia Artificial para Emprendedores Bolivianos\n2026-08-24T17:00:00-04:00\n2026-08-24\nEdificio Torre de Las Américas\nFrente a la Plaza Isabela La Católica, Bloque B Mezzanine\nBs 150.00\nBusca y compra tus entradas a los mejores eventos de Curso: Taller Inteligencia Artificial para Emprendedores Bolivianos. Entradas a la venta en SuperTicket.bo desde el 24 Agosto",
       "original_text": "Curso: Taller Inteligencia Artificial para Emprendedores Bolivianos\n2026-08-24T17:00:00-04:00\n2026-08-24\nEdificio Torre de Las Américas\nFrente a la Plaza Isabela La Católica, Bloque B Mezzanine\nBs 150.00\nBusca y compra tus entradas a los mejores eventos de Curso: Taller Inteligencia Artificial para Emprendedores Bolivianos. Entradas a la venta en SuperTicket.bo desde el 24 Agosto",
@@ -2621,7 +2172,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Lunes 24 de agosto · 00:00",
-      "days_until": 4,
+      "days_until": 3,
       "lifecycle": "proximo",
       "department": null,
       "city": null,
@@ -2707,8 +2258,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -2757,7 +2308,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Sábado 29 de agosto · 19:00",
-      "days_until": 9,
+      "days_until": 8,
       "lifecycle": "proximo",
       "department": "Oruro",
       "city": "Oruro",
@@ -2865,7 +2416,7 @@
       "url": "https://superticket.bo/Festival-de-Orquestas-por-la-Gran-Serenata-a-Montero/",
       "facebook_event_url": null,
       "published_at": "2026-08-30T21:00:00-04:00",
-      "scraped_at": "2026-08-20T22:02:09-04:00",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
       "title": "Festival de Orquestas por la Gran Serenata a Montero",
       "description": "Festival de Orquestas por la Gran Serenata a Montero\n2026-08-30T21:00:00-04:00\n2026-08-30\nClub de Leones\nC. Sucre 233, Montero\nBs 100.00\nBusca y compra tus entradas a los mejores eventos de Festival de Orquestas por la Gran Serenata a Montero. Entradas a la venta en SuperTicket.bo desde el 30 Agosto",
       "original_text": "Festival de Orquestas por la Gran Serenata a Montero\n2026-08-30T21:00:00-04:00\n2026-08-30\nClub de Leones\nC. Sucre 233, Montero\nBs 100.00\nBusca y compra tus entradas a los mejores eventos de Festival de Orquestas por la Gran Serenata a Montero. Entradas a la venta en SuperTicket.bo desde el 30 Agosto",
@@ -2883,7 +2434,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Domingo 30 de agosto · 00:00",
-      "days_until": 10,
+      "days_until": 9,
       "lifecycle": "proximo",
       "department": "Santa Cruz",
       "city": "Montero",
@@ -2969,8 +2520,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -3012,7 +2563,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Domingo 30 de agosto · 20:30",
-      "days_until": 10,
+      "days_until": 9,
       "lifecycle": "proximo",
       "department": "Chuquisaca",
       "city": "Sucre",
@@ -3137,7 +2688,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Sábado 5 de septiembre",
-      "days_until": 16,
+      "days_until": 15,
       "lifecycle": "proximo",
       "department": "La Paz",
       "city": "La Paz",
@@ -3275,7 +2826,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Lunes 14 de septiembre",
-      "days_until": 25,
+      "days_until": 24,
       "lifecycle": "proximo",
       "department": "Cochabamba",
       "city": "Quillacollo",
@@ -3428,7 +2979,7 @@
       "changed_this_run": [],
       "last_seen_at": "2026-08-20T22:02:09-04:00",
       "last_confirmed_at": "2026-08-20T22:02:09-04:00",
-      "seen_this_run": true,
+      "seen_this_run": false,
       "history_count": 5,
       "is_upcoming": true,
       "category_label": "Cine",
@@ -3446,10 +2997,10 @@
       "url": "https://www.lostiempos.com/servicios/agenda-cultural",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-20T22:02:09-04:00",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
       "title": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de…",
-      "description": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Lo más leído 1 Aluviones en el norte de Chile dejan un muerto y más de 2 mil evacuados 2 Nevada daña a 26.200 familias y deja un muerto en Oruro; Potosí sufre más 3 La ALP da voto de confianza al ministro Zamora luego de su informe sobre BoA 4 Rol de asesor de Paz causa revuelo en el Gobierno; hoy enfrenta su audiencia 5 Nevadas y riadas golpean a Cochabamba y dejan daños en 13 municipios Últimas noticias 17h26m Sismo de magnitud 7,2 sacude Ayacucho, en Perú 16h45m “No tengo necesidad de irme”, asegura Tatiana Marset 16h41m Anapo rechaza el Decreto 5676, que fija el precio referencial del diésel 15h56m Postergan la audiencia cautelar de Cerimedo 12h19m Agropecuarios del Norte Integrado de Santa Cruz marchan y bloquean en Montero Lo más compartido 1 Trump declara el estrecho de Ormuz nuevo territorio de EEUU 2 La nieve afecta a más de 26.000 familias en el país 3 Atractiva cartelera para festejar el Día Mundial del Folklore 4 Espinoza consultará al TCP si voto de censura de la ALP en su contra es legal 5 EMSA suspende el recojo de basura por dos días por falta de diésel",
-      "original_text": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Lo más leído 1 Aluviones en el norte de Chile dejan un muerto y más de 2 mil evacuados 2 Nevada daña a 26.200 familias y deja un muerto en Oruro; Potosí sufre más 3 La ALP da voto de confianza al ministro Zamora luego de su informe sobre BoA 4 Rol de asesor de Paz causa revuelo en el Gobierno; hoy enfrenta su audiencia 5 Nevadas y riadas golpean a Cochabamba y dejan daños en 13 municipios Últimas noticias 17h26m Sismo de magnitud 7,2 sacude Ayacucho, en Perú 16h45m “No tengo necesidad de irme”, asegura Tatiana Marset 16h41m Anapo rechaza el Decreto 5676, que fija el precio referencial del diésel 15h56m Postergan la audiencia cautelar de Cerimedo 12h19m Agropecuarios del Norte Integrado de Santa Cruz marchan y bloquean en Montero Lo más compartido 1 Trump declara el estrecho de Ormuz nuevo territorio de EEUU 2 La nieve afecta a más de 26.000 familias en el país 3 Atractiva cartelera para festejar el Día Mundial del Folklore 4 Espinoza consultará al TCP si voto de censura de la ALP en su contra es legal 5 EMSA suspende el recojo de basura por dos días por falta de diésel",
+      "description": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Últimas noticias 21h50m Rescatan animales atrapados en la nieve en Potosí 21h29m Hallan una granja de bots y dinero en investigación sobre Cerimedo 21h04m El BCB proyecta una contracción de -3,6% del PIB en 2026 20/08/2026 Paz pide a campesinos trabajar fuerte en agrominería 20/08/2026 Cisterneros anuncian paro nacional desde el lunes Lo más compartido 1 Aluviones en el norte de Chile dejan un muerto y más de 2 mil evacuados 2 Sismo de magnitud 7,2 sacude Ayacucho, en Perú 3 Nevada daña a 26.200 familias y deja un muerto en Oruro; Potosí sufre más 4 Cisterneros anuncian paro nacional desde el lunes 5 La ALP da voto de confianza al ministro Zamora luego de su informe sobre BoA",
+      "original_text": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Últimas noticias 21h50m Rescatan animales atrapados en la nieve en Potosí 21h29m Hallan una granja de bots y dinero en investigación sobre Cerimedo 21h04m El BCB proyecta una contracción de -3,6% del PIB en 2026 20/08/2026 Paz pide a campesinos trabajar fuerte en agrominería 20/08/2026 Cisterneros anuncian paro nacional desde el lunes Lo más compartido 1 Aluviones en el norte de Chile dejan un muerto y más de 2 mil evacuados 2 Sismo de magnitud 7,2 sacude Ayacucho, en Perú 3 Nevada daña a 26.200 familias y deja un muerto en Oruro; Potosí sufre más 4 Cisterneros anuncian paro nacional desde el lunes 5 La ALP da voto de confianza al ministro Zamora luego de su informe sobre BoA",
       "category": "teatro",
       "subcategories": [
         "concierto",
@@ -3469,7 +3020,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Lunes 14 de septiembre · 21:15",
-      "days_until": 25,
+      "days_until": 24,
       "lifecycle": "proximo",
       "department": "Cochabamba",
       "city": "Cochabamba",
@@ -3486,16 +3037,17 @@
       "ticket_urls": [],
       "ticket_outlets": [],
       "phones": [],
-      "status": "postergado",
-      "relevance_score": 88,
-      "confidence": 0.81,
+      "status": "programado",
+      "relevance_score": 76,
+      "confidence": 0.75,
       "filter_reasons": [
         "fecha_futura",
         "hora_explicita",
         "categoria_teatro",
         "sede_detectada",
         "lenguaje_de_convocatoria",
-        "tiene_afiche"
+        "tiene_afiche",
+        "tema_no_es_evento"
       ],
       "is_official": false,
       "image_urls": [
@@ -3622,58 +3174,65 @@
           "changes": [
             "estado:programado->postergado"
           ]
+        },
+        {
+          "at": "2026-08-21T00:02:45-04:00",
+          "reason": "actualizacion",
+          "status": "programado",
+          "lifecycle": "proximo",
+          "starts_at": "2026-09-14T21:15:00-04:00",
+          "price_from": null,
+          "source_count": 1,
+          "changes": [
+            "estado:postergado->programado"
+          ]
         }
       ],
       "changed_this_run": [
-        "estado:programado->postergado"
+        "estado:postergado->programado"
       ],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
-      "history_count": 6,
+      "history_count": 7,
       "is_upcoming": true,
       "category_label": "Teatro",
       "lifecycle_label": "Próximos",
       "price_label": null
     },
     {
-      "id": "9dee874e306cab52",
-      "source_id": "fb_fexpocruz",
+      "id": "22be7308c12a54fc",
+      "source_id": "web_fexpocruz",
       "source_name": "Fexpocruz",
-      "source_url": "https://www.facebook.com/Fexpocruz/",
+      "source_url": "https://www.fexpocruz.com.bo/",
       "source_class": "venue",
-      "source_tier": 1,
-      "source_icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8BLM0C2o8rkQ7kNvwE129mj&_nc_oc=Ado9DKVpLZ75LzI7lyquQkc-l7kigUyka7Gb9rC-iN_lk1h7N2J07Uz-Y-ZgElWtRNw&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=4UfdQaqR1WbhABo1oHt3xQ&_nc_ss=7f289&oh=00_AQFqEOSR8c0fz3jwkNJ2VDsb0B4TVFqGWdECb-m32lwJvw&oe=6A8D70D0",
-      "url": "https://www.facebook.com/Fexpocruz/posts/conoc%C3%A9-algunos-de-los-sectores-que-vas-a-encontrar-en-expocruz-2026-la-50%C2%AA-versi/1455012363327260/",
+      "source_tier": 2,
+      "source_icon_url": "https://cdn.prod.website-files.com/6690a19e0f5a04cb6cbb90c0/6690a27b18b1187ab93e2993_fexpo-logo.avif",
+      "url": "https://www.fexpocruz.com.bo/feria/https-www-fexpocruz-com-bo-expocruz-2026",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-20T22:02:09-04:00",
-      "title": "Conocé algunos de los sectores que vas a encontrar en Expocruz 2026!",
-      "description": "Conocé algunos de los sectores que vas a encontrar en Expocruz 2026! \n\nLa 50.a Versión Internacional reunirá a expositores de distintos sectores, con nuevas propuestas, marcas, ofertas especiales y...\nConocé algunos de los sectores que vas a encontrar en Expocruz 2026! \n\nLa 50.a Versión Internacional reunirá a expositores de distintos sectores, con...\nConocé algunos de los sectores que vas a encontrar en Expocruz 2026! \nLa 50.a Versión Internacional reunirá a expositores de distintos sectores, con nuevas propuestas, marcas, ofertas especiales y oportunidades para todos.\n Del 18 al 27 de septiembre\n FEXPOCRUZ\n Comprá tus entradas y pases online:\n www.fexpocruz.com.bo\n#FEXPOCRUZ #Expocruz2026 #RumboAExpocruz2026 #OportunidadesParaTodos\nConocé algunos de los sectores que vas a encontrar en Expocruz 2026!\nLa 50.a Versión Internacional reunirá a expositores de distintos sectores, con nuevas propuestas, marcas, ofertas especiales y oportunidades para todos.\nDel 18 al 27 de septiembre\nComprá tus entradas y pases online:\nwww.fexpocruz.com.bo\n#FEXPOCRUZ #Expocruz2026 #RumboAExpocruz2026 #OportunidadesParaTodos",
-      "original_text": "Conocé algunos de los sectores que vas a encontrar en Expocruz 2026! \n\nLa 50.a Versión Internacional reunirá a expositores de distintos sectores, con nuevas propuestas, marcas, ofertas especiales y...\nConocé algunos de los sectores que vas a encontrar en Expocruz 2026! \n\nLa 50.a Versión Internacional reunirá a expositores de distintos sectores, con...\nConocé algunos de los sectores que vas a encontrar en Expocruz 2026! \nLa 50.a Versión Internacional reunirá a expositores de distintos sectores, con nuevas propuestas, marcas, ofertas especiales y oportunidades para todos.\n Del 18 al 27 de septiembre\n FEXPOCRUZ\n Comprá tus entradas y pases online:\n www.fexpocruz.com.bo\n#FEXPOCRUZ #Expocruz2026 #RumboAExpocruz2026 #OportunidadesParaTodos\nConocé algunos de los sectores que vas a encontrar en Expocruz 2026!\nLa 50.a Versión Internacional reunirá a expositores de distintos sectores, con nuevas propuestas, marcas, ofertas especiales y oportunidades para todos.\nDel 18 al 27 de septiembre\nComprá tus entradas y pases online:\nwww.fexpocruz.com.bo\n#FEXPOCRUZ #Expocruz2026 #RumboAExpocruz2026 #OportunidadesParaTodos",
-      "category": "otro",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
+      "title": "Expocruz 2026",
+      "description": "EN Feria Internacional de Santa Cruz Inicio Ferias Expocruz 2026 Sobre Expocruz 2026 🗓️ Del 18 al 27 de Septiembre de 2026 ⏰ HORARIOS: 17:00 a 00:00 hrs 📍 FEXPOCRUZ Es la feria multisectorial más completa de América Latina. Es el escenario donde convergen todos los sectores productivos del país y la región en 10 días de oportunidades, negocios y entretenimiento. En estas avenidas y pabellones se exhibe lo mejor del empresariado nacional e internacional. En este gran evento surgen alianzas y se fortalecen lazos internacionales, comerciales y sociales. Cada septiembre los ojos del mundo se sitúan en Santa Cruz, para un encuentro donde se dinamizan las diferentes actividades económicas a gran escala un ambiente de felicidad, oportunidades, negocios, familia y celebraciones. Expositores y visitantes son el motor de esta muestra ferial, que dimensiona la importancia del esfuerzo en conjunto de todos quienes trabajan por el desarrollo del país y la región. Esta feria trasciende generaciones y se constituye en un punto de convergencia donde se juntan sueños y se concretan nuevos proyectos. ‍ INSCRIPCIÓN DE ANIMALES Confirmá la presencia de tus ejemplares en el sector pecuario de Expocruz 2026. Descargá los formularios de inscripción y el reglamento de participación aquí ‍ Principales Atracciones Expositores Nacionales e Internacionales Oportunidades de Negocio e Inversión Shows y Entretenimiento Promociones y Descuentos dESCUBRÍ LAS Categorías Servicios y Emprendimientos Conocé iniciativas y servicios que impulsan la creatividad empresarial. Maquinaria y Equipos Industriales Descubrí soluciones en maquinaria y equipos que potencian la productividad industrial. Automotriz Explorá la innovación en vehículos y transporte que redefinen el sector automotriz. Consumo Masivo Conocé más del mercado de bienes que marcan tendencia en el consumo masivo. Agroindustria Encontrá prácticas y tecnología claves para optimizar el sector agropecuario. Desarrollo Inmobiliario Descubrí oportunidades en proyectos que están transformando el sector inmobiliario. Industria y Comercio Conocé las soluciones y productos que están revolucionando la industria y el comercio. Tecnologia e Innovación Descubrí las últimas tendencias que están transformando el mundo y los negocios. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Pr",
+      "original_text": "EN Feria Internacional de Santa Cruz Inicio Ferias Expocruz 2026 Sobre Expocruz 2026 🗓️ Del 18 al 27 de Septiembre de 2026 ⏰ HORARIOS: 17:00 a 00:00 hrs 📍 FEXPOCRUZ Es la feria multisectorial más completa de América Latina. Es el escenario donde convergen todos los sectores productivos del país y la región en 10 días de oportunidades, negocios y entretenimiento. En estas avenidas y pabellones se exhibe lo mejor del empresariado nacional e internacional. En este gran evento surgen alianzas y se fortalecen lazos internacionales, comerciales y sociales. Cada septiembre los ojos del mundo se sitúan en Santa Cruz, para un encuentro donde se dinamizan las diferentes actividades económicas a gran escala un ambiente de felicidad, oportunidades, negocios, familia y celebraciones. Expositores y visitantes son el motor de esta muestra ferial, que dimensiona la importancia del esfuerzo en conjunto de todos quienes trabajan por el desarrollo del país y la región. Esta feria trasciende generaciones y se constituye en un punto de convergencia donde se juntan sueños y se concretan nuevos proyectos. ‍ INSCRIPCIÓN DE ANIMALES Confirmá la presencia de tus ejemplares en el sector pecuario de Expocruz 2026. Descargá los formularios de inscripción y el reglamento de participación aquí ‍ Principales Atracciones Expositores Nacionales e Internacionales Oportunidades de Negocio e Inversión Shows y Entretenimiento Promociones y Descuentos dESCUBRÍ LAS Categorías Servicios y Emprendimientos Conocé iniciativas y servicios que impulsan la creatividad empresarial. Maquinaria y Equipos Industriales Descubrí soluciones en maquinaria y equipos que potencian la productividad industrial. Automotriz Explorá la innovación en vehículos y transporte que redefinen el sector automotriz. Consumo Masivo Conocé más del mercado de bienes que marcan tendencia en el consumo masivo. Agroindustria Encontrá prácticas y tecnología claves para optimizar el sector agropecuario. Desarrollo Inmobiliario Descubrí oportunidades en proyectos que están transformando el sector inmobiliario. Industria y Comercio Conocé las soluciones y productos que están revolucionando la industria y el comercio. Tecnologia e Innovación Descubrí las últimas tendencias que están transformando el mundo y los negocios. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
+      "category": "feria",
       "subcategories": [
         "exposicion",
         "tecnologia"
       ],
-      "tags": [
-        "FEXPOCRUZ",
-        "Expocruz2026",
-        "RumboAExpocruz2026",
-        "OportunidadesParaTodos"
-      ],
+      "tags": [],
       "artists": [],
-      "starts_at": "2026-09-18T00:00:00-04:00",
+      "starts_at": "2026-09-18T17:00:00-04:00",
       "ends_at": "2026-09-27T23:59:00-04:00",
-      "starts_at_ms": 1789704000000,
+      "starts_at_ms": 1789765200000,
       "ends_at_ms": 1790567940000,
-      "date_confidence": "aproximada",
-      "date_source_text": "del 18 al 27 de septiembre",
-      "all_day": true,
+      "date_confidence": "exacta",
+      "date_source_text": "del 18 al 27 de septiembre de 2026",
+      "all_day": false,
       "multi_day": true,
       "doors_time": null,
-      "display_date": "Del 18 al 27 de septiembre",
-      "days_until": 29,
+      "display_date": "Del 18 al 27 de septiembre · 17:00",
+      "days_until": 28,
       "lifecycle": "proximo",
       "department": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
@@ -3681,7 +3240,7 @@
       "address": "calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos",
       "latitude": null,
       "longitude": null,
-      "location_query": "Fexpocruz, Santa Cruz de la Sierra, Santa Cruz, Bolivia",
+      "location_query": "Fexpocruz, calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos, Santa Cruz de la Sierra, Bolivia",
       "is_free": false,
       "price_from": null,
       "price_to": null,
@@ -3693,25 +3252,22 @@
         "75385666"
       ],
       "status": "programado",
-      "relevance_score": 66,
-      "confidence": 0.88,
+      "relevance_score": 84,
+      "confidence": 0.81,
       "filter_reasons": [
         "fecha_futura",
+        "hora_explicita",
+        "categoria_feria",
         "sede_detectada",
-        "lenguaje_de_convocatoria",
-        "tiene_afiche",
         "fuente_especializada"
       ],
-      "is_official": true,
-      "image_urls": [
-        "https://scontent-qro1-2.xx.fbcdn.net/v/t39.99422-6/782208442_4475124739471710_6620298100946665224_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=cae128&_nc_ohc=VD9_VnXw260Q7kNvwE6USrQ&_nc_oc=AdpxI3tDaS-u1VcKXfJaTRwmAQBGBfkt3FvdvGW4CNIjikNC1p802fWoBWcVo81WvMQ&_nc_zt=14&_nc_ht=scontent-qro1-2.xx&_nc_gid=r-x_Kz-S5GoXOslyUEqlcw&_nc_ss=7f289&oh=00_AQFvYG1GhAbynxeyNn2IQcqCiN0RswRzcrmHMMOmy_0hxQ&oe=6A8D8E68",
-        "https://scontent-qro1-2.xx.fbcdn.net/v/t39.99422-6/782208442_4475124739471710_6620298100946665224_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VD9_VnXw260Q7kNvwE6USrQ&_nc_oc=AdpxI3tDaS-u1VcKXfJaTRwmAQBGBfkt3FvdvGW4CNIjikNC1p802fWoBWcVo81WvMQ&_nc_zt=14&_nc_ht=scontent-qro1-2.xx&_nc_gid=uts51rxHESJft_Csp5Sovg&_nc_ss=7f289&oh=00_AQFw7G7B-kHxsmi3i1vPTVdp6qZZ4w7gLD7b096GOGvZ1w&oe=6A8D8E68"
-      ],
+      "is_official": false,
+      "image_urls": [],
       "video_url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FFsK_G_WGdQA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFsK_G_WGdQA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FFsK_G_WGdQA%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
       "video_thumbnail_url": null,
-      "video_type": null,
-      "image_url": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.99422-6/782208442_4475124739471710_6620298100946665224_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=cae128&_nc_ohc=VD9_VnXw260Q7kNvwE6USrQ&_nc_oc=AdpxI3tDaS-u1VcKXfJaTRwmAQBGBfkt3FvdvGW4CNIjikNC1p802fWoBWcVo81WvMQ&_nc_zt=14&_nc_ht=scontent-qro1-2.xx&_nc_gid=r-x_Kz-S5GoXOslyUEqlcw&_nc_ss=7f289&oh=00_AQFvYG1GhAbynxeyNn2IQcqCiN0RswRzcrmHMMOmy_0hxQ&oe=6A8D8E68",
-      "has_image": true,
+      "video_type": "web_embed",
+      "image_url": null,
+      "has_image": false,
       "videos": [
         {
           "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FFsK_G_WGdQA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFsK_G_WGdQA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FFsK_G_WGdQA%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
@@ -3724,12 +3280,9 @@
       ],
       "has_video": true,
       "media": {
-        "images": [
-          "https://scontent-qro1-2.xx.fbcdn.net/v/t39.99422-6/782208442_4475124739471710_6620298100946665224_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=cae128&_nc_ohc=VD9_VnXw260Q7kNvwE6USrQ&_nc_oc=AdpxI3tDaS-u1VcKXfJaTRwmAQBGBfkt3FvdvGW4CNIjikNC1p802fWoBWcVo81WvMQ&_nc_zt=14&_nc_ht=scontent-qro1-2.xx&_nc_gid=r-x_Kz-S5GoXOslyUEqlcw&_nc_ss=7f289&oh=00_AQFvYG1GhAbynxeyNn2IQcqCiN0RswRzcrmHMMOmy_0hxQ&oe=6A8D8E68",
-          "https://scontent-qro1-2.xx.fbcdn.net/v/t39.99422-6/782208442_4475124739471710_6620298100946665224_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VD9_VnXw260Q7kNvwE6USrQ&_nc_oc=AdpxI3tDaS-u1VcKXfJaTRwmAQBGBfkt3FvdvGW4CNIjikNC1p802fWoBWcVo81WvMQ&_nc_zt=14&_nc_ht=scontent-qro1-2.xx&_nc_gid=uts51rxHESJft_Csp5Sovg&_nc_ss=7f289&oh=00_AQFw7G7B-kHxsmi3i1vPTVdp6qZZ4w7gLD7b096GOGvZ1w&oe=6A8D8E68"
-        ],
-        "main_image_url": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.99422-6/782208442_4475124739471710_6620298100946665224_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=cae128&_nc_ohc=VD9_VnXw260Q7kNvwE6USrQ&_nc_oc=AdpxI3tDaS-u1VcKXfJaTRwmAQBGBfkt3FvdvGW4CNIjikNC1p802fWoBWcVo81WvMQ&_nc_zt=14&_nc_ht=scontent-qro1-2.xx&_nc_gid=r-x_Kz-S5GoXOslyUEqlcw&_nc_ss=7f289&oh=00_AQFvYG1GhAbynxeyNn2IQcqCiN0RswRzcrmHMMOmy_0hxQ&oe=6A8D8E68",
-        "image_count": 2,
+        "images": [],
+        "main_image_url": null,
+        "image_count": 0,
         "videos": [
           {
             "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FFsK_G_WGdQA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFsK_G_WGdQA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FFsK_G_WGdQA%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
@@ -3743,16 +3296,6 @@
       },
       "sources": [
         {
-          "id": "fb_fexpocruz",
-          "name": "Fexpocruz",
-          "class": "venue",
-          "tier": 1,
-          "page_url": "https://www.facebook.com/Fexpocruz/",
-          "post_url": "https://www.facebook.com/Fexpocruz/posts/conoc%C3%A9-algunos-de-los-sectores-que-vas-a-encontrar-en-expocruz-2026-la-50%C2%AA-versi/1455012363327260/",
-          "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8BLM0C2o8rkQ7kNvwE129mj&_nc_oc=Ado9DKVpLZ75LzI7lyquQkc-l7kigUyka7Gb9rC-iN_lk1h7N2J07Uz-Y-ZgElWtRNw&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=4UfdQaqR1WbhABo1oHt3xQ&_nc_ss=7f289&oh=00_AQFqEOSR8c0fz3jwkNJ2VDsb0B4TVFqGWdECb-m32lwJvw&oe=6A8D70D0",
-          "published_at": null
-        },
-        {
           "id": "web_fexpocruz",
           "name": "Fexpocruz",
           "class": "venue",
@@ -3765,12 +3308,11 @@
       ],
       "source_count": 2,
       "all_urls": [
-        "https://www.facebook.com/Fexpocruz/posts/conoc%C3%A9-algunos-de-los-sectores-que-vas-a-encontrar-en-expocruz-2026-la-50%C2%AA-versi/1455012363327260/",
         "https://www.fexpocruz.com.bo/feria/https-www-fexpocruz-com-bo-expocruz-2026"
       ],
-      "corroborated": true,
-      "verification": "oficial_y_especializada",
-      "merged_count": 2,
+      "corroborated": false,
+      "verification": "una_fuente",
+      "merged_count": 1,
       "event_id": "evt_b241df7de02d67",
       "first_seen_at": "2026-08-14T09:46:28-04:00",
       "history": [
@@ -3833,12 +3375,12 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
       "history_count": 5,
       "is_upcoming": true,
-      "category_label": "Otros",
+      "category_label": "Ferias y expos",
       "lifecycle_label": "Próximos",
       "price_label": null
     },
@@ -3879,7 +3421,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Domingo 27 de septiembre · 22:00",
-      "days_until": 38,
+      "days_until": 37,
       "lifecycle": "proximo",
       "department": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
@@ -4039,7 +3581,7 @@
       "multi_day": true,
       "doors_time": null,
       "display_date": "Del 6 al 17 de noviembre · 16:00",
-      "days_until": 78,
+      "days_until": 77,
       "lifecycle": "proximo",
       "department": "Cochabamba",
       "city": "Cochabamba",
@@ -4186,7 +3728,7 @@
       "multi_day": true,
       "doors_time": null,
       "display_date": "Del 6 al 17 de noviembre · 19:00",
-      "days_until": 78,
+      "days_until": 77,
       "lifecycle": "proximo",
       "department": "Cochabamba",
       "city": "Cochabamba",
@@ -4332,7 +3874,7 @@
       "multi_day": true,
       "doors_time": null,
       "display_date": "Del 6 al 17 de noviembre · 19:00",
-      "days_until": 78,
+      "days_until": 77,
       "lifecycle": "proximo",
       "department": "Cochabamba",
       "city": "Quillacollo",
@@ -4478,7 +4020,7 @@
       "multi_day": true,
       "doors_time": null,
       "display_date": "Del 6 al 17 de noviembre · 19:00",
-      "days_until": 78,
+      "days_until": 77,
       "lifecycle": "proximo",
       "department": "Cochabamba",
       "city": "Quillacollo",
@@ -4621,7 +4163,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Domingo 8 de noviembre",
-      "days_until": 80,
+      "days_until": 79,
       "lifecycle": "proximo",
       "department": "La Paz",
       "city": "La Paz",
@@ -4738,7 +4280,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/expoauto",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-20T22:02:09-04:00",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
       "title": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto Del 3 al 7 de marzo de 2027 De 17:00 a 23:30…",
       "description": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto 🗓 Del 3 al 7 de marzo de 2027 ⏰ De 17:00 a 23:30 📍 FEXPOCRUZ Del 3 al 7 de marzo las principales concesionarias del país estarán exhibiendo lo mejor de la industria automotriz a 35 mil visitantes. Son nueve pabellones y áreas externas que van a exhibir modelos de todas las gamas además de maquinaria pesada, accesorios y repuestos automotrices. Habrá una importante presencia de diferentes entidades bancarias, que ofertarán créditos especiales para esta exhibición. El visitante encontrará el vehículo que desee, adecuado a sus requerimientos. El apoyo de la Cámara Automotor Boliviana permite que año a año Santa Cruz se convierta en el centro del sector automotriz del país. Principales Atracciones Tendencias del Sector Automotriz Encuentro de Negocios Lanzamiento de Nuevos Vehículos Promociones y Descuentos dESCUBRÍ LAS Categorías Sistemas de Seguridad Conocé los últimos sistemas de seguridad para proteger y optimizar tu experiencia automotriz. Servicios Técnicos Accedé a servicios técnicos especializados que garantizan el mejor rendimiento para tu automóvil. Lubricantes y Combustibles Descubrí productos de calidad para el cuidado y rendimiento óptimo de tus vehículos. Motocicletas y UTVs Descubrí motocicletas y UTVs innovadores que ofrecen rendimiento y aventura. Herramientas y Accesorios Encontrá herramientas y accesorios esenciales para el mantenimiento y personalización de vehículos. Vehículos Pesados y Livianos Explorá la variedad de vehículos pesados y livianos diseñados para satisfacer tus necesidades. Industria y Maquinaria Conocé las soluciones y productos que están revolucionando la industria y el comercio. Asociaciones Automotrices Conectate con asociaciones clave del sector y fortalecé tu red en la industria automotriz. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sob",
       "original_text": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto 🗓 Del 3 al 7 de marzo de 2027 ⏰ De 17:00 a 23:30 📍 FEXPOCRUZ Del 3 al 7 de marzo las principales concesionarias del país estarán exhibiendo lo mejor de la industria automotriz a 35 mil visitantes. Son nueve pabellones y áreas externas que van a exhibir modelos de todas las gamas además de maquinaria pesada, accesorios y repuestos automotrices. Habrá una importante presencia de diferentes entidades bancarias, que ofertarán créditos especiales para esta exhibición. El visitante encontrará el vehículo que desee, adecuado a sus requerimientos. El apoyo de la Cámara Automotor Boliviana permite que año a año Santa Cruz se convierta en el centro del sector automotriz del país. Principales Atracciones Tendencias del Sector Automotriz Encuentro de Negocios Lanzamiento de Nuevos Vehículos Promociones y Descuentos dESCUBRÍ LAS Categorías Sistemas de Seguridad Conocé los últimos sistemas de seguridad para proteger y optimizar tu experiencia automotriz. Servicios Técnicos Accedé a servicios técnicos especializados que garantizan el mejor rendimiento para tu automóvil. Lubricantes y Combustibles Descubrí productos de calidad para el cuidado y rendimiento óptimo de tus vehículos. Motocicletas y UTVs Descubrí motocicletas y UTVs innovadores que ofrecen rendimiento y aventura. Herramientas y Accesorios Encontrá herramientas y accesorios esenciales para el mantenimiento y personalización de vehículos. Vehículos Pesados y Livianos Explorá la variedad de vehículos pesados y livianos diseñados para satisfacer tus necesidades. Industria y Maquinaria Conocé las soluciones y productos que están revolucionando la industria y el comercio. Asociaciones Automotrices Conectate con asociaciones clave del sector y fortalecé tu red en la industria automotriz. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -4759,7 +4301,7 @@
       "multi_day": true,
       "doors_time": null,
       "display_date": "Del 3 al 7 de marzo · 17:00",
-      "days_until": 195,
+      "days_until": 194,
       "lifecycle": "proximo",
       "department": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
@@ -4854,8 +4396,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -4874,7 +4416,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/ficad",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-20T22:02:09-04:00",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
       "title": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad Del 17 al 21 de marzo de 2027 De…",
       "description": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad 🗓 Del 17 al 21 de marzo de 2027 ⏰ De 17:00 a 23:00 📍 FEXPOCRUZ ‍ Ficad reúne en un solo lugar a empresas constructoras, de arquitectura, diseño y mucho más. Este es el espacio para personas que desean construir y remodelar su hogar y para profesionales del rubro que buscan innovadores productos y servicios de primer nivel. En el marco de este evento se llevan a cabo seminarios, foros y simposios referentes al sector. Todos los visitantes de esta feria pueden participar de estas actividades y aprovechar los grandes descuentos. Principales Atracciones Novedades y Tendencias Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Encuentro de Negocios Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Talleres y capacitaciones Mejora tus habilidades con talleres y sesiones educativas clave. Promociones y Descuentos Aprovecha promociones exclusivas y ofertas especiales durante la feria. dESCUBRÍ LAS Categorías Decoración y Paisajismo Inspírate con ideas innovadoras para decorar y transformar espacios interiores y exteriores. Equipamiento para el Hogar Todo lo que necesitás para modernizar y equipar tu hogar con lo último en tecnología y confort. Diseño de Interiores Transformá cualquier espacio con soluciones creativas de diseño interior. Acabados Arquitectónicos Detalles que realzan la estética y la calidad de cualquier proyecto arquitectónico. Sistemas de Iluminación Iluminá tus proyectos con sistemas que combinan eficiencia y estilo. Revestimientos Soluciones en revestimientos que combinan estilo, durabilidad y funcionalidad. Automatización Controlá tu hogar con sistemas de automatización que simplifican tu vida diaria. Materiales e Insumos Materiales de construcción de alta calidad para proyectos duraderos y eficientes. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoa",
       "original_text": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad 🗓 Del 17 al 21 de marzo de 2027 ⏰ De 17:00 a 23:00 📍 FEXPOCRUZ ‍ Ficad reúne en un solo lugar a empresas constructoras, de arquitectura, diseño y mucho más. Este es el espacio para personas que desean construir y remodelar su hogar y para profesionales del rubro que buscan innovadores productos y servicios de primer nivel. En el marco de este evento se llevan a cabo seminarios, foros y simposios referentes al sector. Todos los visitantes de esta feria pueden participar de estas actividades y aprovechar los grandes descuentos. Principales Atracciones Novedades y Tendencias Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Encuentro de Negocios Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Talleres y capacitaciones Mejora tus habilidades con talleres y sesiones educativas clave. Promociones y Descuentos Aprovecha promociones exclusivas y ofertas especiales durante la feria. dESCUBRÍ LAS Categorías Decoración y Paisajismo Inspírate con ideas innovadoras para decorar y transformar espacios interiores y exteriores. Equipamiento para el Hogar Todo lo que necesitás para modernizar y equipar tu hogar con lo último en tecnología y confort. Diseño de Interiores Transformá cualquier espacio con soluciones creativas de diseño interior. Acabados Arquitectónicos Detalles que realzan la estética y la calidad de cualquier proyecto arquitectónico. Sistemas de Iluminación Iluminá tus proyectos con sistemas que combinan eficiencia y estilo. Revestimientos Soluciones en revestimientos que combinan estilo, durabilidad y funcionalidad. Automatización Controlá tu hogar con sistemas de automatización que simplifican tu vida diaria. Materiales e Insumos Materiales de construcción de alta calidad para proyectos duraderos y eficientes. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -4896,7 +4438,7 @@
       "multi_day": true,
       "doors_time": null,
       "display_date": "Del 17 al 21 de marzo · 17:00",
-      "days_until": 209,
+      "days_until": 208,
       "lifecycle": "proximo",
       "department": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
@@ -4973,8 +4515,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -4993,7 +4535,7 @@
       "url": "https://superticket.bo/LIVE-SOUND-ROCK-FESTIVAL/",
       "facebook_event_url": null,
       "published_at": "2027-04-24T16:00:00-04:00",
-      "scraped_at": "2026-08-20T22:02:09-04:00",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
       "title": "Live Sound Rock Festival",
       "description": "Live Sound Rock Festival\n2027-04-24T16:00:00-04:00\n2027-04-24\nCancha Tenis Real Santa Cruz\nAvenida San Aurelio y 3er Anillo Externo, Santa Cruz de la Sierra, Bolivia.\nBs None\n&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_t&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIAxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;QUIET RIOT POR PRIMERA VEZ EN BOLIVIA&lt;/span&gt;&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_y&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La banda responsable de himnos inmortales como Metal Health (Bang Your Head), Cum On Feel The Noize y Mama Weer All Crazee Now llegará al país en el marco de su esperado Metal Health Latin American Tour 2027 para ser parte del Festival LIVE SOUND ROCK FEST&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_13&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weigh",
       "original_text": "Live Sound Rock Festival\n2027-04-24T16:00:00-04:00\n2027-04-24\nCancha Tenis Real Santa Cruz\nAvenida San Aurelio y 3er Anillo Externo, Santa Cruz de la Sierra, Bolivia.\nBs None\n&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_t&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIAxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;QUIET RIOT POR PRIMERA VEZ EN BOLIVIA&lt;/span&gt;&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_y&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La banda responsable de himnos inmortales como Metal Health (Bang Your Head), Cum On Feel The Noize y Mama Weer All Crazee Now llegará al país en el marco de su esperado Metal Health Latin American Tour 2027 para ser parte del Festival LIVE SOUND ROCK FEST&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_13&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La formación actual reúne a Rudy Sarzo, Jizzy Pearl, Alex Grossi y Johnny Kelly, manteniendo vivo el legado de una de las bandas más importantes de la historia del Hard Rock y el Heavy Metal.&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_18&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBhAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;El festival LIVE SOUND ROCK FEST 2027 se realizará los días Sabado 24 y Domingo 25 de Abril en las ex-Canchas de Tenis de Real Santa Cruz reuniendo a las bandas nacionales más importantes del género, teniendo como invitado especial y cabeza de cartel la presencia de QUIET RIOT.&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1d&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;24 y 25 de Abril de 2027&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1i&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;Festival Live Sound Rock Fest - Ex- Canchas de Tenis Real Santa Cruz (Avenida San Aurelio y Tercer Anillo Interno)&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1n&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;VENTA DE ENTRADAS EN: https://superticket.bo/LIVE-SOUND-ROCK-FESTIVAL A PARTIR DEL MIERCOLES 17 DE JUNIO&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1s&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIChAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;QUIET RIOT EN BOLIVIA&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1x&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(2",
@@ -5015,7 +4557,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Sábado 24 de abril · 00:00",
-      "days_until": 247,
+      "days_until": 246,
       "lifecycle": "proximo",
       "department": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
@@ -5100,8 +4642,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -5120,7 +4662,7 @@
       "url": "https://www.fexpocruz.com.bo/ferias",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-20T22:02:09-04:00",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
       "title": "Nuestras Ferias | Fexpocruz",
       "description": "EN Conocé Nuestras Ferias No items found. Agropecruz Abril de 2027 Conocé más Expoleche Abril de 2027 ExpoPet Abril de 2027 Expoagro Mayo de 2027 Conocé más Specialty Coffee Expo 1 al 4 de Julio de 2027 Conocé más Exporunning 16 al 18 de Julio de 2026 Expocruz 2026 18 al 27 de septiembre de 2026 Conocé más Expoauto 3 al 7 de Marzo de 2027 Conocé más Ficad 17 al 21 de Marzo de 2027 Conocé más Expoforest 17 al 21 de Marzo de 2027 Ferias Asociadas Feria del Libro Junio de 2027 Expo Bebé & Kids Mayo de 2027 Finergy Mayo de 2027 Expologistica Junio de 2027 42K 19 de Julio de 2026 Feria Minera 29 al 31 de Julio Outlet de Viajes 31 de julio al 2 de agosto de 2026 ExpoTeleinfo 2 al 4 de septiembre de 2026 Expo Bebé & Kids (Oct) 4 al 5 de Octubre Seminario Alimenta 22 y 23 de Octubre Street Project Noviembre de 2026 Expográfica 13 al 15 de Noviembre de 2026 Bolivia Textil 13 al 15 de Noviembre de 2026 NOTA: Las fechas de las ferias están sujetas a modificaciones sin previo aviso. FEXPOCRUZ no forma parte de la relación de consumo que surja entre el visitante y expositor de la feria, al no ser dueño ni responsable de los productos y/o servicios ofertados, deslindándose de cualquier negociación que éstos mantengan. Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
       "original_text": "EN Conocé Nuestras Ferias No items found. Agropecruz Abril de 2027 Conocé más Expoleche Abril de 2027 ExpoPet Abril de 2027 Expoagro Mayo de 2027 Conocé más Specialty Coffee Expo 1 al 4 de Julio de 2027 Conocé más Exporunning 16 al 18 de Julio de 2026 Expocruz 2026 18 al 27 de septiembre de 2026 Conocé más Expoauto 3 al 7 de Marzo de 2027 Conocé más Ficad 17 al 21 de Marzo de 2027 Conocé más Expoforest 17 al 21 de Marzo de 2027 Ferias Asociadas Feria del Libro Junio de 2027 Expo Bebé & Kids Mayo de 2027 Finergy Mayo de 2027 Expologistica Junio de 2027 42K 19 de Julio de 2026 Feria Minera 29 al 31 de Julio Outlet de Viajes 31 de julio al 2 de agosto de 2026 ExpoTeleinfo 2 al 4 de septiembre de 2026 Expo Bebé & Kids (Oct) 4 al 5 de Octubre Seminario Alimenta 22 y 23 de Octubre Street Project Noviembre de 2026 Expográfica 13 al 15 de Noviembre de 2026 Bolivia Textil 13 al 15 de Noviembre de 2026 NOTA: Las fechas de las ferias están sujetas a modificaciones sin previo aviso. FEXPOCRUZ no forma parte de la relación de consumo que surja entre el visitante y expositor de la feria, al no ser dueño ni responsable de los productos y/o servicios ofertados, deslindándose de cualquier negociación que éstos mantengan. Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -5142,7 +4684,7 @@
       "multi_day": true,
       "doors_time": null,
       "display_date": "Del 1 al 4 de julio",
-      "days_until": 315,
+      "days_until": 314,
       "lifecycle": "proximo",
       "department": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
@@ -5218,8 +4760,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -5238,7 +4780,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/specialty-coffee-expo",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-20T22:02:09-04:00",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
       "title": "Specialty Coffee Expo",
       "description": "EN Specialty Coffee Expo Bolivia Inicio Ferias Specialty Coffee Expo Sobre Specialty Coffee Expo 🗓️ Del 1 al 4 de julio de 2027 ⏰ HORARIOS: Jueves y viernes: 17:00 A 23:00 HRS. Sábado y domingo: 15:30 A 23:00 HRS 📍 FEXPOCRUZ, Pabellones USA y Brasil Specialty Coffee Expo Bolivia, organizada junto a Bolivian Coffee Alliance, es el punto de encuentro del café de especialidad. Una feria donde productores, marcas, baristas, emprendedores, expertos y amantes del café se reúnen a través de degustaciones, workshops con expertos nacionales e internacionales, demostraciones, catas de café y competencias. Cuatro días para compartir tu pasión por el café con amigos y familia. ‍ Principales Atracciones Activaciones de Marcas Campeonatos Nacionales Capacitaciones y Conferencias Catas de Café Públicas dESCUBRÍ LAS Categorías Objetos de Colección Indumentaria y Accesorios Maquinarias profesionales para cafeterías Productores de café de especialidad Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
       "original_text": "EN Specialty Coffee Expo Bolivia Inicio Ferias Specialty Coffee Expo Sobre Specialty Coffee Expo 🗓️ Del 1 al 4 de julio de 2027 ⏰ HORARIOS: Jueves y viernes: 17:00 A 23:00 HRS. Sábado y domingo: 15:30 A 23:00 HRS 📍 FEXPOCRUZ, Pabellones USA y Brasil Specialty Coffee Expo Bolivia, organizada junto a Bolivian Coffee Alliance, es el punto de encuentro del café de especialidad. Una feria donde productores, marcas, baristas, emprendedores, expertos y amantes del café se reúnen a través de degustaciones, workshops con expertos nacionales e internacionales, demostraciones, catas de café y competencias. Cuatro días para compartir tu pasión por el café con amigos y familia. ‍ Principales Atracciones Activaciones de Marcas Campeonatos Nacionales Capacitaciones y Conferencias Catas de Café Públicas dESCUBRÍ LAS Categorías Objetos de Colección Indumentaria y Accesorios Maquinarias profesionales para cafeterías Productores de café de especialidad Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -5258,7 +4800,7 @@
       "multi_day": true,
       "doors_time": null,
       "display_date": "Del 1 al 4 de julio · 17:00",
-      "days_until": 315,
+      "days_until": 314,
       "lifecycle": "proximo",
       "department": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
@@ -5335,8 +4877,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -5355,7 +4897,7 @@
       "url": "https://lapaz.bo/eventos-culturales/",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-20T22:02:09-04:00",
+      "scraped_at": "2026-08-21T00:02:45-04:00",
       "title": "Eventos culturales – GOBIERNO AUTÓNOMO MUNICIPAL DE LA PAZ",
       "description": "Portal de Eventos Culturales de la ciudad de La Paz Descubre y explora los eventos culturales de nuestra ciudad Eventos - Calendario Portal de Eventos Culturales Filtrar Eventos Tipo de Función: Todas las funciones VERMOUTH TANDA ENSAYO Auditorio: Todos los auditorios CINE TEATRO MUNICIPAL 6 DE AGOSTO TEATRO MUNICIPAL MODESTA SANJINÉS TEATRO MUNICIPAL ALBERTO SAAVEDRA PÉREZ TEATRO DE CAMARA NORMA MERLO Aplicar Filtros Limpiar Filtros Información de Depuración URL de la API: https://sierra247.lapaz.bo/SierraValle_Oficial/public/api/espacios-culturales-portal-eventos/1/2025/9 Problemas comunes: La API puede no estar disponible Problemas de CORS (Cross-Origin Resource Sharing) Formato de respuesta inesperado La IP 192.168.8.5 es una dirección local, asegúrate de estar en la red correcta Para probar la aplicación, hemos incluido datos de ejemplo. Cargando eventos...",
       "original_text": "Portal de Eventos Culturales de la ciudad de La Paz Descubre y explora los eventos culturales de nuestra ciudad Eventos - Calendario Portal de Eventos Culturales Filtrar Eventos Tipo de Función: Todas las funciones VERMOUTH TANDA ENSAYO Auditorio: Todos los auditorios CINE TEATRO MUNICIPAL 6 DE AGOSTO TEATRO MUNICIPAL MODESTA SANJINÉS TEATRO MUNICIPAL ALBERTO SAAVEDRA PÉREZ TEATRO DE CAMARA NORMA MERLO Aplicar Filtros Limpiar Filtros Información de Depuración URL de la API: https://sierra247.lapaz.bo/SierraValle_Oficial/public/api/espacios-culturales-portal-eventos/1/2025/9 Problemas comunes: La API puede no estar disponible Problemas de CORS (Cross-Origin Resource Sharing) Formato de respuesta inesperado La IP 192.168.8.5 es una dirección local, asegúrate de estar en la red correcta Para probar la aplicación, hemos incluido datos de ejemplo. Cargando eventos...",
@@ -5375,7 +4917,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Viernes 6 de agosto",
-      "days_until": 351,
+      "days_until": 350,
       "lifecycle": "proximo",
       "department": "La Paz",
       "city": "La Paz",
@@ -5448,8 +4990,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-20T22:02:09-04:00",
-      "last_confirmed_at": "2026-08-20T22:02:09-04:00",
+      "last_seen_at": "2026-08-21T00:02:45-04:00",
+      "last_confirmed_at": "2026-08-21T00:02:45-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -5492,7 +5034,7 @@
       "multi_day": true,
       "doors_time": null,
       "display_date": "Del 10 al 21 de agosto · 15:30",
-      "days_until": 355,
+      "days_until": 354,
       "lifecycle": "proximo",
       "department": "Chuquisaca",
       "city": "Sucre",
@@ -5618,7 +5160,7 @@
       "multi_day": false,
       "doors_time": null,
       "display_date": "Jueves 12 de agosto",
-      "days_until": 357,
+      "days_until": 356,
       "lifecycle": "proximo",
       "department": "Cochabamba",
       "city": "Cochabamba",
@@ -5740,13 +5282,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=STKGhm_hTskQ7kNvwEQ3Hn2&_nc_oc=AdoLk1IedV3p2lDa9fmlxwNktKJHlDFtFSToLkGvR6sOpOixNPGmlmJuDS96d1Rscu4&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=TVYA6auzpTaYa8TimAvxSw&_nc_ss=7f289&oh=00_AQFIgaIiFdoT7wCDNowiqutI8fqt56GR18L74O3atT1XBw&oe=6A8D871A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "tecnologia",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid029sYeFm2mtEHfqzQyDTrbN6vBbsPUD67uw6AgKgY5T1qYVV29hDak7cWuB3nMNjDzl?__cft__[0]=AZY3InQTtYR4SRhjvBWfSs3N2Snb6ZXxXHWOuXqrLHTnbfE6zEEsrFyuBRH1H0p7zhgg30mTD5wocpK2J6QVl7_Yrz7RNj5cCG15F2aJ5IFfO0CVnu_flzU_43Yyib_ZZeXEU1ed-dds_hA327gUjvVvK2w5bhzANV2Tuxc6LONqhKWsDOu2uHRYm8Vsjd2WQ28&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA INTELIGENCIA ARTIFICIAL TAMBIÉN PUEDE SER TU MEJOR ALIADA PARA EMPRENDER! La… Ver más ¡LA INTELIGENCIA ARTIFICIAL TAMBIÉN PUEDE SER TU MEJOR ALIADA PARA EMPRENDER! La… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -5808,13 +5359,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8BLM0C2o8rkQ7kNvwE129mj&_nc_oc=Ado9DKVpLZ75LzI7lyquQkc-l7kigUyka7Gb9rC-iN_lk1h7N2J07Uz-Y-ZgElWtRNw&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=4UfdQaqR1WbhABo1oHt3xQ&_nc_ss=7f289&oh=00_AQFqEOSR8c0fz3jwkNJ2VDsb0B4TVFqGWdECb-m32lwJvw&oe=6A8D70D0",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -5842,30 +5393,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-p5RaAjb5kgQ7kNvwGriuzF&_nc_oc=Adp4O_BaYJ0NFw33Qanjl9jK4Li629dQa7rt2EIglKWq5yKBLXcf_Rw_3XHNt8yYxFQ&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=-uOTDqtyRG65426vd_S0Rw&_nc_ss=7f289&oh=00_AQFzJPNt2fQvDEqscKaZhr_05eumAgJVv9iETT3VYxnnFw&oe=6A8D9505",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0RnUuojCJy6UkFjaTQUHT2hpETu2B3eBRydDevWrhY7HKMTqaDbMqsB9e7fAdkdUpl?__cft__[0]=AZb7jzL_5k1DMVtqDhjR8FfNJqBUk6-H0QmR44mnNTPr8CmRtc-yq56UnhMxhgOtAWtxH6mCeJmWbA6a2RfS9wBhvoyrHLZeP0Ngps--O_zQ1yprm1qgzaz_UGlas7JSHd0ytf1URUzCCLgPfXLu7yVfjPHF2gNW4C__Thrzi8RanGtu_9P1Zxlziouuhtvwb5w&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Una acumulación no tiene por qué convertirse en otra más grande.… Ver más Es su responsabilidad solucionar a la brevedad posible y también ocuparse de limpiar las bocas de tormenta Ver más comentarios Marina Escobar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0RnUuojCJy6UkFjaTQUHT2hpETu2B3eBRydDevWrhY7HKMTqaDbMqsB9e7fAdkdUpl?comment_id=1626861769117763&__cft__[0]=AZb7jzL_5k1DMVtqDhjR8FfNJqBUk6-H0QmR44mnNTPr8CmRtc-yq56UnhMxhgOtAWtxH6mCeJmWbA6a2RfS9wBhvoyrHLZeP0Ngps--O_zQ1yprm1qgzaz_UGlas7JSHd0ytf1URUzCCLgPfXLu7yVfjPHF2gNW4C__Thrzi8RanGtu_9P1Zxlziouuhtvwb5w&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Es su responsabilidad solucionar a la brevedad posible y también ocuparse de limpiar las bocas de tormenta Marina Escobar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_amun_lapaz",
@@ -5910,30 +5444,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=H_EySSuD43EQ7kNvwH6AZPt&_nc_oc=AdrRnasu-GMA6_AaUHuUcwGGqdLK8bK5BewgrKCKiVa2kcuGPPkMDW99CR2UyaCb8gI&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=9F6OSYz4hscx5gRy-PCIwg&_nc_ss=7f289&oh=00_AQHhxM48NzzBUYDz8JVWIigU_en8CzGoRaCnV50Tt8PzIg&oe=6A8D79F8",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1388884859853664/?__cft__[0]=AZZorBfGq6aT8xMrS3e-KoKLBG7UshHYfewneIUPTZbhuANQWjJO6_-OQ0zip_DnVGG_x0Rg7EY5x9o1E9equOWI3jDeAgaWc3Po1N6M75NcMy5my0d0fBKqV5X69zxWtPZ6DbslJSOkIjiQExZNLAkxxaopVJeNjLaaqeG55lFuoU1zk9u3WsupwovHCB7pNDvSFpXGguu32GkeUW5RK6tQ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "𝑳𝒂 𝒖𝒏𝒊𝒅𝒂𝒅 𝒏𝒐𝒔 𝒑𝒆𝒓𝒎𝒊𝒕𝒆 𝒂𝒗𝒂𝒏𝒛𝒂𝒓. El gobernador #LuisRevill… Ver más 𝑳𝒂 𝒖𝒏𝒊𝒅𝒂𝒅 𝒏𝒐𝒔 𝒑𝒆𝒓𝒎𝒊𝒕𝒆 𝒂𝒗𝒂𝒏𝒛𝒂𝒓. El gobernador #LuisRevill… Ver más Jajaja jajajaja Tenemos problemas para reproducir este video. Más información Ver más comentarios Bruno Cadena Laime"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1388884859853664/?comment_id=1458146496145779&__cft__[0]=AZZorBfGq6aT8xMrS3e-KoKLBG7UshHYfewneIUPTZbhuANQWjJO6_-OQ0zip_DnVGG_x0Rg7EY5x9o1E9equOWI3jDeAgaWc3Po1N6M75NcMy5my0d0fBKqV5X69zxWtPZ6DbslJSOkIjiQExZNLAkxxaopVJeNjLaaqeG55lFuoU1zk9u3WsupwovHCB7pNDvSFpXGguu32GkeUW5RK6tQ&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Bruno Cadena Laime Jajaja jajajaja 3 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gam_cbba",
@@ -5961,22 +5478,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=biLMFrGysUsQ7kNvwG7LWtS&_nc_oc=AdpcpLKZVDmBnsa5NqQlNXtGulVh5AW0Bk9YeO6g5pbCmARZGTIoE-DhQS2rDk_ONko&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=4zbkmCBM2DbH71E1n8P2-Q&_nc_ss=7f289&oh=00_AQHwH5VyZcN2-kvmes4o2gA2RUo0F7Cc7gYBA4tkGKOtZA&oe=6A8D7417",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid02LPNiQDqC4ZXua48rp4Erw2BxaqrkeshhUxUQsfdnh4kLjHAoanxQw8ge2Z8tY5i5l?__cft__[0]=AZZ8eYaKwO4Zqe-pVgCVQfE54aHbDNKH9L7ehXBHGqEQYMrulZAQdlVr_6VNf37zE_RLREWIin9I9gQDqIzIREiqf5RUbr0e0xj9y2ClTOa-8JXZVBfeF0-rY4bY9HIa0c7RuBEsWalMiWgANZmKPCXXg8nWkmsvh8F0PJLQ0dlbatO15-hNMUxHnvhh3cCvOZU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗠𝗢𝗦 𝗟𝗔 𝗣𝗥𝗘𝗩𝗘𝗡𝗖𝗜𝗢́𝗡 𝗗𝗘 𝗟𝗔 𝗩𝗜𝗢𝗟𝗘𝗡𝗖𝗜𝗔 𝗦𝗘𝗫𝗨𝗔𝗟 𝗘𝗡 𝗡𝗜𝗡̃𝗔𝗦, 𝗡𝗜𝗡̃𝗢𝗦 𝗬 𝗔𝗗𝗢𝗟𝗘𝗦𝗖𝗘𝗡𝗧𝗘𝗦 El Servicio Departamental de Políticas Sociales (SEDEPOS) a través … Ver más 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗠𝗢𝗦 𝗟𝗔 𝗣𝗥𝗘𝗩𝗘𝗡𝗖𝗜𝗢́𝗡 𝗗𝗘 𝗟𝗔 𝗩𝗜𝗢𝗟𝗘𝗡𝗖𝗜𝗔 𝗦𝗘𝗫𝗨𝗔𝗟 𝗘𝗡 𝗡𝗜𝗡̃𝗔𝗦, 𝗡𝗜𝗡̃𝗢𝗦 𝗬 𝗔𝗗𝗢𝗟𝗘𝗦𝗖𝗘𝗡𝗧𝗘𝗦 El Servicio Departamental de Políticas Sociales (SEDEPOS) a través … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -6004,22 +5512,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wLvZzQCO7sYQ7kNvwH83WYz&_nc_oc=AdoD10xGtr80-fy1aMkGMlG2J1YtZuWoUA-YypDb8Zq_TbI6FSgiaBTXERSXBXtn7Ug&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=snufDUB8hFLu4YaF9AtAdQ&_nc_ss=7f289&oh=00_AQESoWwSk8VeYrFKGWL_cIU-uRdSSg5jXH-OCbycBld87w&oe=6A8D813E",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid0LLD7CoUzQbjM6gbmZE9yYMowUAhB4nNPUh2QSUzvj1Y79dV6PgYtRtQkCQAtDUcpl?__cft__[0]=AZYlqzl93k7fNl8vxP4po4h3C_4mApqRN9G1WcrFCa-jsbbQvvXv_SEbAnfRzCZD0HWtoPCOypmww8qhGjncotofPOZ6Y8z1Bylc8Wz4wjDyuBEJ_5_BtHADgUjhvc8Icph5GJbwdNNV3Iog1Jg-0IETrs76UC60qeMW4u_OsK2f0QjO8EOcZQ77kWduLdy4fmA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La vicegobernadora de Santa Cruz, Paola Aguirre, sostuvo una importante reunión con el Cónsul de la República Popular China en Bolivia, con el objetivo de evaluar los a… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_lostiempos",
@@ -6303,12 +5802,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Cultural BCB 29 mil seguidores • 16 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un '"
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -6744,13 +6243,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DT4qG0njLKYQ7kNvwGosRzy&_nc_oc=Adp0lkvUpv7kQP2ZTYXBOrVnxZkgDs9-uO60KG1gZwaiYP-BKazv2KNwLtqNfnB-KiE&_nc_zt=24&_nc_ht=scontent-qro1-2.xx&_nc_gid=4wwdgy4jlTvXGCnKOZpYUQ&_nc_ss=7f289&oh=00_AQF7xeYlSnjf-OLHSCydBI4bdVk3finJmcDYnLJHGu2sjg&oe=6A8DA403",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02rQWeTMa54GJbQmi8TQZS9PCGp1DFqQqGp6ZwRQwj3FU51SKkCmtT4KXNezPnrSbvl?__cft__[0]=AZZr_UN4ifrmI2lzd-_3HGEzZx4NcNCT1bLrnA2IpNbOXZn5oBndAh61WlZYLUvpgtQ3mOfJIf7rgMPteF9PTTSZ-hrIR-G6LEl-TT1WmB0x8RLAcy-TldwTFevXtza1-KQ1gfna-wydVtwGBa76SLf8qNu_K9IbMoznM_U-xfc2t1zmX5X63eWU4VkJHNP3mWiCRfZZObHapnaDYXbPXu_NWZa583z7FXwfRjHyG0nLDw&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Participa contándonos la historia de esa mujer que impactó tu comunidad, tu provincia o el departamento …. Escribe una carta y cuéntanos de qué manera lo hizo y por qué… Ver más 𝗟𝗮 𝗚𝗼𝗯𝗲𝗿𝗻𝗮𝗰𝗶𝗼́𝗻 𝗱𝗲 𝗧𝗮𝗿𝗶𝗷𝗮, 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗜𝗟𝗟𝗔 𝘆 𝗹𝗮 𝗘𝗺𝗯𝗮𝗷𝗮𝗱𝗮 𝗱𝗲 𝗙𝗿𝗮𝗻𝗰𝗶𝗮 𝗹𝗮𝗻𝘇𝗮𝗿𝗼𝗻 𝗼𝗳𝗶𝗰𝗶𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗰𝘂𝗹𝘁𝘂𝗿𝗮𝗹 “𝗙𝗼𝗿𝗷𝗮𝗱𝗼𝗿𝗮𝘀 𝗱𝗲 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮: 𝗠𝘂𝗷𝗲𝗿𝗲𝘀 𝗱𝗲𝗹 𝗕𝗶𝗰𝗲𝗻𝘁𝗲𝗻𝗮𝗿𝗶𝗼 𝗲𝗻 𝗧𝗮𝗿… Ver más Tenemos problemas para reproducir este video"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -6795,13 +6303,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xK0cBeZvmywQ7kNvwGVNQnG&_nc_oc=AdoaDogqyZkc2YDNzfC5EQ-BPrlxxHQeVMuBeqECxpTcKooYVX_BBI_Kaj5iO5qcM78&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=XXnq0t0XM8w78yQNTot3CQ&_nc_ss=7f289&oh=00_AQHwyheWVgHONwJ36-uaZ2KkZGDIUwne3LjO9e1CdaPXEA&oe=6A8D8C15",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid0C8GiwaMAaNvR8HSTK1eXjQNQX4DKVBWSp9fP845odyqygaugMUZpAxYx1dufg5bFl?__cft__[0]=AZamjFE9CiJx1Agxx6z1paFK74EozZm7bkSM7vLoYjeH4ouGjLZ3EG-MRbPKad2LDvVPpk4bf-BWI5XJfvxH5RF0CRTnrHUILIjHLkchaYBpQjhGUlfN3TOu-rFYAViZSoOMK-a9wfwyaciMMMCbIIi77kkBo_oWS3q6IayPtr9At1fQzHu_zf3wiN8tY5qJz98&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¿Te imaginas enseñando español en Europa representando a Bolivia? … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -6812,13 +6329,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sYCPqC0FvtAQ7kNvwEztxZC&_nc_oc=Adp0ll97ls998A61nP6ubhAyEvgxTAB7GiVDFdXQoMeB1qmpMnFK2hJxCupz8pJOzDM&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=_vpShEMsQIV2E_DzBdRuTQ&_nc_ss=7f289&oh=00_AQGBjLiVufm-NWCK69wVs-HJBu9olYA7V9SBYCyIxZn9hw&oe=6A8D8E92",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 36,
+          "category": "nightlife",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid02bLqA21h46iNd7Qn96iw2E7tSDxnkkan5NQRwZMk6WHBP3ASPFbp6zASD7ij5RV9Gl?__cft__[0]=AZb998BgZ_lKlzAVKgQ9g9_UWYEM74g0EAhICXfz_7knBXIukPsTpnnojN4qHd2ZRJFKFWlP5A5cByIkwE4_W3auO579WcHK3wP0XePGxagK1RMb0G5Adi4zm4dA_reiWrKOKXL-beIIpSYCXrHxMZ29gD7PEcBIJLzC8g1crApGaOqggKtQ2iq8iTzyzI3js3o&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Prepárate para una noche de karaoke! Ven a cantar tus canciones favoritas, compartir y pasar un buen momento con amigos. … Ver más ¡Prepárate para una noche de karaoke! Ven a cantar tus canciones favoritas, compartir y pasar un buen momento con amigos. … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -7140,12 +6666,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 38,
+          "score": 20,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -7153,19 +6679,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
-          "category": "tecnologia",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 50,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Aprehenden a un exviceministro de Luis Arce Ver más 2 Fiscalía solicita detención preventiva de Cerimedo en Chonchocoro por el caso Beller Ver más 3 Mi"
+          "text_preview": "20/08/2026 Cultura Atractiva cartelera para festejar el Día Mundial del Folklore Una cartelera atractiva presenta la celebración del Día Mundial del Folklore que prepara el departamento de cultura de la alcaldía de Cochabamba para este... vista 19/08/2026 Cultura ATiTeCuento interpreta “Detrás de las sombras” en la Alianza Francesa El grupo ATiTeCuento pondrá en escena la obra “Detrás de las sombr"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 14,
+          "category": "tecnologia",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Reyes Villa anuncia encuentro con Quiroga y Doria Medina Ver más 2 “No tengo necesidad de irme”, asegura Tatiana Marset Ver más 3 Aluviones en el norte"
         }
       ],
       "error": null
