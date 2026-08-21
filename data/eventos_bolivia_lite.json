@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-21T11:53:39-04:00",
+  "generated_at": "2026-08-21T15:00:43-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 26,
-    "events_today": 2
+    "events_total": 28,
+    "events_today": 3
   },
   "filters": {
     "ui_groups": [
@@ -83,13 +83,18 @@
         "count": 2
       },
       {
+        "key": "festival",
+        "label": "Festivales",
+        "count": 2
+      },
+      {
         "key": "otro",
         "label": "Otros",
         "count": 1
       },
       {
-        "key": "festival",
-        "label": "Festivales",
+        "key": "conferencia",
+        "label": "Conferencias",
         "count": 1
       },
       {
@@ -110,13 +115,13 @@
         "count": 5
       },
       {
-        "key": "Quillacollo",
-        "label": "Quillacollo",
-        "count": 4
-      },
-      {
         "key": "Cochabamba",
         "label": "Cochabamba",
+        "count": 5
+      },
+      {
+        "key": "Quillacollo",
+        "label": "Quillacollo",
         "count": 4
       },
       {
@@ -144,7 +149,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 8
+        "count": 9
       },
       {
         "key": "La Paz",
@@ -166,22 +171,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 2
+        "count": 3
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 5
+        "count": 7
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 12
+        "count": 14
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 26
+        "count": 28
       }
     ],
     "price": [
@@ -193,19 +198,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 8
+        "count": 9
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 18
+        "count": 19
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 20
+        "count": 22
       },
       {
         "key": "con_video",
@@ -232,6 +237,21 @@
       {
         "key": "263",
         "label": "263",
+        "count": 1
+      },
+      {
+        "key": "Cocha",
+        "label": "Cocha",
+        "count": 1
+      },
+      {
+        "key": "EsProgreso",
+        "label": "EsProgreso",
+        "count": 1
+      },
+      {
+        "key": "AlcaldíaDeCochabamba",
+        "label": "AlcaldíaDeCochabamba",
         "count": 1
       },
       {
@@ -318,28 +338,13 @@
         "key": "FEXPOCRUZ",
         "label": "FEXPOCRUZ",
         "count": 1
-      },
-      {
-        "key": "Expocruz2026",
-        "label": "Expocruz2026",
-        "count": 1
-      },
-      {
-        "key": "RumboAExpocruz2026",
-        "label": "RumboAExpocruz2026",
-        "count": 1
-      },
-      {
-        "key": "OportunidadesParaTodos",
-        "label": "OportunidadesParaTodos",
-        "count": 1
       }
     ],
     "source_classes": [
       {
         "key": "venue",
         "label": "venue",
-        "count": 10
+        "count": 11
       },
       {
         "key": "media",
@@ -349,7 +354,7 @@
       {
         "key": "ticketera",
         "label": "ticketera",
-        "count": 5
+        "count": 6
       },
       {
         "key": "eventos",
@@ -413,6 +418,32 @@
       "price_from": 263.0,
       "currency": "BOB",
       "price_label": "Bs 263",
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_19e61c47120c13",
+      "title": "Casa de la Cultura Cochabamba",
+      "category": "conferencia",
+      "category_label": "Conferencias",
+      "starts_at": "2026-08-21T19:00:00-04:00",
+      "starts_at_ms": 1787353200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Viernes 21 de agosto · 19:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/778957800_1651781636369168_1323658054443376529_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=p600x600&_nc_cat=100&ccb=1-7&_nc_sid=cae128&_nc_ohc=VoKDetsLof8Q7kNvwHTCKWs&_nc_oc=AdrQ_ovahypKSyavHP3qSl_KA6W6-BSQuLe-KP54JEKLVuV4ex7IWaY3gRFt2siSh48&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=-KsbzAzt089lhaJ7TSZ83g&_nc_ss=7f289&oh=00_AQF-jIbGDv9kXU3SLnOe3KxJjBhuGotFH33gDets7sVfBw&oe=6A8E8AC9",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "status": "programado",
       "source_count": 1
     },
@@ -491,6 +522,32 @@
       "price_from": 150.0,
       "currency": "BOB",
       "price_label": "Bs 150",
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_d5c70cee9f3663",
+      "title": "II Festival Nacional de Folklore",
+      "category": "festival",
+      "category_label": "Festivales",
+      "starts_at": "2026-08-28T16:00:00-04:00",
+      "starts_at_ms": 1787947200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Viernes 28 de agosto · 16:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 7,
+      "is_upcoming": true,
+      "city": null,
+      "department": null,
+      "venue": null,
+      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/08/Shop5_Cuadrado_34.jpg",
+      "has_video": false,
+      "is_free": false,
+      "price_from": 457.0,
+      "currency": "BOB",
+      "price_label": "Bs 457",
       "status": "programado",
       "source_count": 1
     },
