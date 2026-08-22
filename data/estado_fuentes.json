@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T05:46:27-04:00",
+  "generated_at": "2026-08-22T09:05:57-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,14 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_amun_lapaz",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 31.3,
-    "horas_maximo_sin_datos": 179.9
+    "horas_promedio_sin_datos": 32.4,
+    "horas_maximo_sin_datos": 183.2
   },
   "sources": [
     {
@@ -96,13 +95,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CqBkNDfs8RIQ7kNvwGFvrjX&_nc_oc=AdrwixjZ_vtj1hEZYim7jHk5YFIhlV9u7ioCOA0VzCw4vOuFYcwLvFDqwd7-ky-5B2U&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=1yg2tder3n3rOAnf6pho2w&_nc_ss=7f289&oh=00_AQHXJm6oB-RTKk3Fg0mJ0KpatkntIn8ArcaTmJxC4yOtDQ&oe=6A8F6B10",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -147,13 +146,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=k67okc7TJYAQ7kNvwHZN6hj&_nc_oc=Adrvc96pWdMxgpyrkho9VVIhf_aGtSJ7yf0x_Qt7crLUfmg981KxA9qc1pEfQwgNX70&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=mZz7GFnnyj4iJpvSzM2J6Q&_nc_ss=7f289&oh=00_AQH8tDnzZu-kJSPWTQYBokJ6Fh3Ks1m6rY_x3cgqXcfmNg&oe=6A8F6977",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Agencia Municipal de Noticias 42 mil seguidores • 103 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deber'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid043KkcZA1zm7XjU8Mb1JsQrU3Hjm7MjoksF7PmQwXiFiPHimnHR7bvvQpUrsqc7swl?__cft__[0]=AZYk29gR9QJVnleVqCfpe93bE3K1J21PRmHlC0e3doZYtVF-dmHEtzQPTvq4eXAJpPgZmSi3RfsEwI1OFDB3IE7L0lTNzUAWketGYc0-26kjjh4Has-mglnTKfMoibIkjpBx_VuY6dkeGNWrpOPhcmA3zLMjShVG0Lg0E_hD8R9tFL3yfAMQGZ_UrFyJkTnj25U&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#AMUN | Asamblea de la Paceñidad declara emergencia sanitaria y crisis ambiental ratificando apoyo al alcalde César Dockweiler… Ver más Con todo eso de apoyar al alcalde y declarar emergencia sanitaria, la basura va a desaparecer, a la población le interesa que limpien la ciudad Ver más comentarios Alberto Iturri"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid043KkcZA1zm7XjU8Mb1JsQrU3Hjm7MjoksF7PmQwXiFiPHimnHR7bvvQpUrsqc7swl?comment_id=1101610339111850&__cft__[0]=AZYk29gR9QJVnleVqCfpe93bE3K1J21PRmHlC0e3doZYtVF-dmHEtzQPTvq4eXAJpPgZmSi3RfsEwI1OFDB3IE7L0lTNzUAWketGYc0-26kjjh4Has-mglnTKfMoibIkjpBx_VuY6dkeGNWrpOPhcmA3zLMjShVG0Lg0E_hD8R9tFL3yfAMQGZ_UrFyJkTnj25U&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Con todo eso de apoyar al alcalde y declarar emergencia sanitaria, la basura va a desaparecer, a la población le interesa que limpien la ciudad Alberto Iturri"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -470,22 +486,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=C0k0jXGrPMoQ7kNvwHSE4RO&_nc_oc=Adrdly6MEpm-s61uA1lVstJx2BaDjzwGWVG5DQ_RajzrUyBv_zeGWQMSVutAg-wnbVY&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=MLtTFH88CQJi4TqnI0cHNw&_nc_ss=7f289&oh=00_AQFYt5crE6AK4frpYVsxkjugRDLt51vn7zDkOicTLVmJxA&oe=6A8F3D02",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1094704749952814/?__cft__[0]=AZYGPHXTs2tzZaaNPL2IDme-cbxG5b-ALugdaLwLj9bC-2ZriGrmQu_Q6_3XRSaC5KmLAozIn_4iU4uaD464QWqAeLPK2uYQPSipu16Hpo-U4HY3ZpnmmtIzACXQUp9_qWxiG_mxEuJl6iVBIINXLptYgTGOEf_RwW8mtAtykk9oGHlU43wA-KzjQWP9eO7bO58d0T-q_q79KdWr6R4owQJe&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#SantaCruz Fiscal Aguilera afirma que Ministerio Público pidió el penal de máxima seguridad de Chonchocoro para Cerimedo pero que juez lo envió a Palmasola.… Ver más #SantaCruz Fiscal Aguilera afirma que Ministerio Público pidió el penal de máxima seguridad de Chonchocoro para Cerimedo pero que juez lo envió a Palmasola.… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber_radio",
@@ -598,30 +605,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i-zV-ltTf_wQ7kNvwEIKOWy&_nc_oc=AdoGhT1MaCOwem5fztURPz4BuDhlxIh1SvlMPyWJj5HrTMyyAejOgRN67CM6VESM4G4&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=-SGmhvSKwL7ee1HaubfVUQ&_nc_ss=7f289&oh=00_AQEzEPZ-Eyqh0rwkfMfKZkGXO8MOVy4Bfwr_bVC8iD9xFg&oe=6A8F3580",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1057928236975651/?__cft__[0]=AZY2XmnPhy_hmoSiz4xNkAjmAeH1h9nHs4z9_7eweYBqU_MQhIiGVewisQBZg6xWVU1AmX45h2gtp72ePUpi160xnjuNFSO64SlXynJIL6KE-5iHEnZ0fTe8mdT9BKdl-J5RlJ2g37Vj0djQYd5kXPiHMhV1XrADWxW41a3wbj58GYxDdD4RjoSpLl0GLoEYuKO1EtVfIkrjR0xEoDvNh-3M&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "ParlArte: Arte plumaria con Alexandra Bravo Felicidades Tenemos problemas para reproducir este video. Más información Ruth Rocha Monje"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1057928236975651/?comment_id=1001892469578447&__cft__[0]=AZY2XmnPhy_hmoSiz4xNkAjmAeH1h9nHs4z9_7eweYBqU_MQhIiGVewisQBZg6xWVU1AmX45h2gtp72ePUpi160xnjuNFSO64SlXynJIL6KE-5iHEnZ0fTe8mdT9BKdl-J5RlJ2g37Vj0djQYd5kXPiHMhV1XrADWxW41a3wbj58GYxDdD4RjoSpLl0GLoEYuKO1EtVfIkrjR0xEoDvNh-3M&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Ruth Rocha Monje Felicidades 2 días"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -938,22 +928,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wjAj275wXgMQ7kNvwF4QK_V&_nc_oc=AdqjX707Fw7ebumPEVOR_tzzGIIPdpwV8A5X6mMTBWQSzQnNYQ_xRJyIQH50JPU0jfI&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=zUlLGpjkisKrkrUZAsccew&_nc_ss=7f289&oh=00_AQEZiu90YRXkdh8bue4KZuPePNdoSzKuyhE8SLQavd-6OA&oe=6A8F3A38",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid024JB9CtuCpZ1AyqiH5fpH1YZNc6e49B89iT1GvxmhUdDafo5GkJd93tX2b4MmmGvzl?__cft__[0]=AZZUthCssuVXlAMhMot884wPqlfxXr5XD59uq6NjSIdt41P4C0leartSKeU3xcb1b187Z8Snzv7652YpSREKPJGgjWjbrQq7jbiIZ_mVgoMwQLWfVM75Vjtf8gFIZmVQ_W36avEtM8ipwXzdB19TBwHRA0yX5l4QFVQeEnij7OfZBkI284v4ZwbFYJbDHXC_Ojg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "A 55 AÑOS DEL GOLPE DE ESTADO DE BANZER, LA MEMORIA AÚN VIVE… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1066,13 +1047,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VLXTh14OzIwQ7kNvwFM5kOh&_nc_oc=AdrxJMgjtMjXs1g6GNi7hG7bUwYKpH663lBz5enjrHIpZgSyaYOOOhV1Z1O7PeEAMhQ&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=rmvrC8sfycm35e8n6JVpZg&_nc_ss=7f289&oh=00_AQHb5naL-Bi3lDHZT3RIC5fpsoapNk-vDvdwBc_09iUKqg&oe=6A8F8655",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02FNsrSq9z7cSFT1qX2Hr3p1Q1YAt5Dc8LvxtpC9j1PqfhANM79rJtdFkWnZYX1bDNl?__cft__[0]=AZbifZC4nsh_PvP8tGDysIjNPVZrrgv7T0cXqna0kvIWmopavSAaumqzXXTKi9Npt-yAGTkfjiGy_-OYygO5iHMyOBcwSGWX9UPSN10YZIEWjYfHfTof_nPILHFa5Pja3QgvYShkAElV8eYJEHJMksFbCiNOme2Bx0I3VgtqGaE1Gyes_o32kTeYkUufdH29qEU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "VIERNES 28 TARDE DE CUENTA CUENTOS… Ver más VIERNES 28 TARDE DE CUENTA CUENTOS… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1084,12 +1074,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "skipped",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1337,7 +1327,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1436,7 +1426,7 @@
           "category": "tecnologia",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Libre formaliza entrega de su proyecto para la reforma parcial de la Constitución y pide su pronto tratamiento Ver más 2 Los efectos de la emergencia e"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Los efectos de la emergencia económica que tiene Colombia Ver más 2 Libre formaliza entrega de su proyecto para la reforma parcial de la Constitución y"
         }
       ],
       "error": null
