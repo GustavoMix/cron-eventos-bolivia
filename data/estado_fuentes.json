@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T11:39:49-04:00",
+  "generated_at": "2026-08-22T14:54:26-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 31.5,
-    "horas_maximo_sin_datos": 185.8
+    "horas_promedio_sin_datos": 32.0,
+    "horas_maximo_sin_datos": 189.1
   },
   "sources": [
     {
@@ -401,22 +401,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YNLvyrCGV1oQ7kNvwEBI7Pz&_nc_oc=AdoHXGfFqRzmdqA2eLCyGGMxWupsnujbSWWaMJspsQN-ylxVMsSFQCzHObcl3Pzv51E&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=wKPotUe4obDPEvu5fqSBfQ&_nc_ss=7f289&oh=00_AQFzx0ocAIc5xUsKaSUdCDGInnJddtQFecl8fneMzj5QJA&oe=6A8F9221",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "deporte",
-          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid02LBFhDRyWXmijYfBM5CXGTRwCzxCSLRSNi5netFwSy3oB8SGCiUeygkR5G3A6Q6Chl?__cft__[0]=AZY3axTQynPLRrzzNJVkc8kQ651ePHPu1j79pxVd5Dq1O6rV5XgoYkYF-p4IOK8-NGsW9gnQL-_iPYmLxBJiIImx7XE4vajOZXrQNPZGz2pbVxp2PvLw1ilkh_uuqE4HRiJBIj-noYyZf4UykG-SZRBduwlYXftHV2DvnBfOOGAOY4W7cs8oaE4JrWuMA1g2qk4&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "El ráquetbolista chuquisaqueño Conrrado Moscoso sumará un nuevo hito en su carrera al ser designado por tercera ocasión como el abanderado de la delegación boliviana. E… Ver más ELDIARIO.NET www.eldiario.net"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_radio_fides",
@@ -444,22 +435,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_Kly4BYPuBYQ7kNvwFj9YGA&_nc_oc=AdpA1PYaL4ybSY57HxzZG6hE8DFQD9bKx9wFbUHLL703IKsZVG4EMhCg2_3vjw0KE00&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=u2MM7GBy5UVUKi2o5zGkWA&_nc_ss=7f289&oh=00_AQGhRMvQa1QiqfcWnu2pgWEmiWdjg_JPPHy9N4VOSyfX6g&oe=6A8F94BA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1770254314250435/?__cft__[0]=AZbF0yFPk5X1OXCbu1-MdWUalMSjF7_r8ljKxhIRsoP_QkXN2DkFZOw2YMeHultdm07xiRcNZ_FwkdOymTDMflqiokZzqwPh6twAT6fk5ThKByvusM3oEtsaJJGauQmgEa47l0KpjTWGIV3f6pFixc_wLtEE926KeVbMuw7d3xxpZT9jXRyNe6ZkaT28wpkV9eOmfFjgQH8sCs3svY58O3nJ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#GrupoFides | #ANF #Economía El presidente del Ingenio Guabirá, Mariano Aguilera, calificó como muy grave la escasez de combustible y la determinación del Gobierno de … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_rtp",
@@ -997,13 +979,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DT4qG0njLKYQ7kNvwEp7n-5&_nc_oc=AdqYr0s35kX4bEp94BGRVjkFn4vo7iQry27wTxukB76rSxkD_QUOIcefaVlhS-w6OPE&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=5H_DRAFu94NTmt-lp73crg&_nc_ss=7f289&oh=00_AQFVhc8y0noMUQ7JnBrrzv7RrM5-bhQuJMyUfaRoi999Cg&oe=6A8FD683",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02rEMeADJLEpGWMyRZEv9vGd7DBCWM6CX9Bp5QfDU6E2K1oSWyAZKBFNwE9Xsho4E3l?__cft__[0]=AZZp_9k-4rBKVq2SgZb7rnd4D1hhLr2ivvOUReyRvo7F0GorQxPokrBvt9cIpk93IaKNDSFIfUvGTlV2O_9vSIpaU6J4MPSoEQQ0uRtwveaJKc3YgXq9Dczr-FGmrwl4x57_3Mphlp6Vb_qRF0CTPGelbNll887FQHOtvrzQBQLC0WZnm2RgzMtuC7L940z0rwuifTxpNYR8Q2wXI7hhqf6DvzR32T4VnBzXlxX3-B_4KA&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Participa contándonos la historia de esa mujer que impactó tu comunidad, tu provincia o el departamento …. Escribe una carta y cuéntanos de qué manera lo hizo y por qué… Ver más 𝗟𝗮 𝗚𝗼𝗯𝗲𝗿𝗻𝗮𝗰𝗶𝗼́𝗻 𝗱𝗲 𝗧𝗮𝗿𝗶𝗷𝗮, 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗜𝗟𝗟𝗔 𝘆 𝗹𝗮 𝗘𝗺𝗯𝗮𝗷𝗮𝗱𝗮 𝗱𝗲 𝗙𝗿𝗮𝗻𝗰𝗶𝗮 𝗹𝗮𝗻𝘇𝗮𝗿𝗼𝗻 𝗼𝗳𝗶𝗰𝗶𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗰𝘂𝗹𝘁𝘂𝗿𝗮𝗹 “𝗙𝗼𝗿𝗷𝗮𝗱𝗼𝗿𝗮𝘀 𝗱𝗲 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮: 𝗠𝘂𝗷𝗲𝗿𝗲𝘀 𝗱𝗲𝗹 𝗕𝗶𝗰𝗲𝗻𝘁𝗲𝗻𝗮𝗿𝗶𝗼 𝗲𝗻 𝗧𝗮𝗿… Ver más Tenemos problemas para reproducir este video"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1150,13 +1141,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S7XnnYfhJKkQ7kNvwGcL6fe&_nc_oc=AdrEO7iLxJ7vyM5BNNn2jpVfwqFqGopcsgt2Tt8RUQj7PC3F_blqJymAJx-9_S8XFF0&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=0fxBpUeB74RxpSaVjdvLzg&_nc_ss=7f289&oh=00_AQEZIyzzkqhiC-YBq16DqdE4lmkEzIqDKXgE3DjJsP9HgA&oe=6A8FA9E5",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid0a6D4EAcPgg1Aoi5LLbQSZssa74cU3ovQLrz2MYMghN8eWqP3VLyHYQx229mxJbRel?__cft__[0]=AZaQUrpS9alhzRWRVVTPdQTVP_D60Z9fulQljgD5KG-qfAgRNROKD2zMm5tW8dycJiqiOr4cK0E2b-jM_3VbbmMUIeVI1Uw3hDRve9BUxERBjX0KfZ7uocJVFNe56QQqdP9rjieTO4nTRvVxCECOi2InBDl7nGk0yX7ZhJQM14OZTKvmfKFoxiGHIW3xbQWPDgQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Celebramos el 22.º #aniversario de la Tuna Universitaria Mayor de San Andrés, destacando su trayectoria, tradición y alegría, que a través de la #música han acompañ… Ver más Me gustaría unirme, pero, sin usar esos trajes con panty medias. Lawrence De Arabia"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid0a6D4EAcPgg1Aoi5LLbQSZssa74cU3ovQLrz2MYMghN8eWqP3VLyHYQx229mxJbRel?comment_id=2127043661496122&__cft__[0]=AZaQUrpS9alhzRWRVVTPdQTVP_D60Z9fulQljgD5KG-qfAgRNROKD2zMm5tW8dycJiqiOr4cK0E2b-jM_3VbbmMUIeVI1Uw3hDRve9BUxERBjX0KfZ7uocJVFNe56QQqdP9rjieTO4nTRvVxCECOi2InBDl7nGk0yX7ZhJQM14OZTKvmfKFoxiGHIW3xbQWPDgQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Me gustaría unirme, pero, sin usar esos trajes con panty medias. Lawrence De Arabia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1167,30 +1175,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/761515304_1067546899192869_6937258332610772698_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nuVxMu6owDEQ7kNvwGV2Q1K&_nc_oc=AdpzSIZUcGgC9HtabWMaFtroLP5noY8F26eJ9PpQcx0Ptf1zPPkfYmxTuBz696MpkmI&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=DucKtAnDGgBYBb5BtxCRoA&_nc_ss=7f289&oh=00_AQE9_VAR8bmvTsFU9orWNV_jJIlvDuDMXJfmaoVtJceY7w&oe=6A8F94E3",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid02jvinXgSt4AfkhcPwhTdoBZ6LKykorMbZ7yjzr5JDVXaXcH9mDkUaehEKcP5UpGK4l?__cft__[0]=AZZLQVihVeIt7ChBPocyhIMSLTlVO4yPoOIig06COOqwIXc4JP0wX6nCWWLW0fMtIZp4pPfTa-6xvOzaeKJjzwAAlgJbRHFAYJLsWaTvNL_wTsZltVvUgeyjI-PO9yA5hsyD0mWD-8-PXycTpa4_apVxIPN_bJjQlwQpzEGcZb8QQz0Rxosq_xoAe19CedDCmsA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝐒𝐞𝐫𝐯𝐢𝐜𝐢𝐨𝐬 𝐪𝐮𝐞 𝐥𝐥𝐞𝐠𝐚𝐧 𝐚 𝐥𝐚 𝐠𝐞𝐧𝐭𝐞 La UAGRM, a través de la … Ver más 𝐒𝐞𝐫𝐯𝐢𝐜𝐢𝐨𝐬 𝐪𝐮𝐞 𝐥𝐥𝐞𝐠𝐚𝐧 𝐚 𝐥𝐚 𝐠𝐞𝐧𝐭𝐞 La UAGRM, a través de la … Ver más Muy bien excelente gestion Ver más comentarios Hernan Ibarra Palomero"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid02jvinXgSt4AfkhcPwhTdoBZ6LKykorMbZ7yjzr5JDVXaXcH9mDkUaehEKcP5UpGK4l?comment_id=930293436147101&__cft__[0]=AZZLQVihVeIt7ChBPocyhIMSLTlVO4yPoOIig06COOqwIXc4JP0wX6nCWWLW0fMtIZp4pPfTa-6xvOzaeKJjzwAAlgJbRHFAYJLsWaTvNL_wTsZltVvUgeyjI-PO9yA5hsyD0mWD-8-PXycTpa4_apVxIPN_bJjQlwQpzEGcZb8QQz0Rxosq_xoAe19CedDCmsA&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Muy bien excelente gestion Hernan Ibarra Palomero"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umss",
@@ -1201,13 +1192,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/528008658_1169669701863560_4006843970321122842_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mGJX8u2TqfUQ7kNvwHfcMuN&_nc_oc=AdrLoULf0qP2Ep0pTH2KkoHQRx9oe-md-CzWs0wbDVWSSz_U2pAeiGu8NNvLCGdRub0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Wfa-0d7ZpH_LkUZXN08Tjg&_nc_ss=7f289&oh=00_AQFmuoxmg9DEds5MPz3Ys_BZZyMk1UYnFT4AehyMK7QlNg&oe=6A8FD79E",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid0dhZh4gSMNVuHtGNXkxKs54sygyLvnHbuVwg9nXf8DpTu7VE11AwTPuA1aQWgqEkZl?__cft__[0]=AZaC3uEXYJXRsVjRcyZ1SQlioug1Sl5OZSR7cw3VMS0ptnf1XKMsaXpdyY7YBpWXGk2Wf0wI3SH7Gk-aMK-w5ky7FgQ9ZCLk7jKITOTokkX_ahJFwobhi0jVr_pwBzsfre0WU9nMELoTEAzOXabpOb4Q1TPOK2O0NOTJ0_7V15S3iQsHWt14ngu0pBxz6_IacR8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐆𝐫𝐚𝐧 𝐄́𝐱𝐢𝐭𝐨 𝐞𝐧 𝐥𝐚 𝐏𝐫𝐞𝐦𝐢𝐚𝐜𝐢𝐨́𝐧 𝐝𝐞 𝐥𝐚𝐬 𝐎𝐥𝐢𝐦𝐩𝐢𝐚𝐝𝐚𝐬 𝐂𝐢𝐞𝐧𝐭𝐢́𝐟𝐢𝐜𝐚𝐬 ❞𝐎 𝐒𝐀𝐍𝐒𝐈 𝟐𝟎𝟐𝟔❞ En una emotiva y solemne ceremonia, la Universidad Mayor de San Simón (UMSS) y la Facultad … Ver más 𝐆𝐫𝐚𝐧 𝐄́𝐱𝐢𝐭𝐨 𝐞𝐧 𝐥𝐚 𝐏𝐫𝐞𝐦𝐢𝐚𝐜𝐢𝐨́𝐧 𝐝𝐞 𝐥𝐚𝐬 𝐎𝐥𝐢𝐦𝐩𝐢𝐚𝐝𝐚𝐬 𝐂𝐢𝐞𝐧𝐭𝐢́𝐟𝐢𝐜𝐚𝐬 ❞𝐎 𝐒𝐀𝐍𝐒𝐈 𝟐𝟎𝟐𝟔❞ En una emotiva y solemne ceremonia, la Universidad Mayor de San Simón (UMSS) y la Facultad … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1218,22 +1218,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gYi7_YfJQfEQ7kNvwGk0Wew&_nc_oc=AdrWYiWPnc_3C4Caqman8k1PBQXxwZ-hOtVG4JHw-D_2AH-84l8KVd29cil3uHY89Z4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=wSdFfkFyx02nuPB35xJgpg&_nc_ss=7f289&oh=00_AQHg3l89lH__8FO_huGt_rBq6wAIRRhXSi-m9L47ixhCUw&oe=6A8F89F2",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 12,
-          "category": "otro",
-          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid02ECWdNj3y7q1Rg4TtqG7xYLtnqS5gtn6UNDVJf1Wmu5ai35j9Zz1dNGmwdCfQAVt8l?__cft__[0]=AZYqtfxTWOmhwU5my6NsybIzGMlNkNC_u5ItyVh1st-03A7Z19QF67qB5p8_T3kOKqWbJg7M1d93J8Uc_PJ8YM-ifZJpHIBU4DEqosWCXLoEBkqMYkk_11Tf3fFEn2QJj_A1iyvhSXyKmmRIMzz4qUwwtdJVRdvvYY2P2nGEPOIsxkn67z0vFUBMWCtse8irQUg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Mañana es el 𝐎𝐩𝐞𝐧 𝐇𝐨𝐮𝐬𝐞 𝐔.𝐂.𝐁.! Y estamos listos para recibirte y que seas parte de La Cato. Si estás en 5.… Ver más ¡Mañana es el 𝐎𝐩𝐞𝐧 𝐇𝐨𝐮𝐬𝐞 𝐔.𝐂.𝐁.! Y estamos listos para recibirte y que seas parte de La Cato. Si estás en 5.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_upsa",
@@ -1244,13 +1235,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yMVVyrlY668Q7kNvwEXrOor&_nc_oc=Adr5RSn48aTqFNPC-gBl0atop7G9qPtSKgvmzNmbiPbJdjawAAU-zaE93oWpI5wN4_4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ZLN5bB2pcjBC2_pes2k02w&_nc_ss=7f289&oh=00_AQHMI1yX6Q9iBNDWwiBkitV07GG-w0L52FY2wg8fNOaZmA&oe=6A8FA6F8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid02QPSwAbZaNByoqJfvtJ3zGoseDCdCdaXFMn7K7xKShvnq6DE9x2r3HtpeM9e3f41Cl?__cft__[0]=AZbgShAJ7NyKTRsJ9nvKB0MFwgQWs27eyoBefNFjElam8vF-zoB0x4xHEQn2OkrVW3A3Thcg5IImwgmW2FzRLhaVCqI5e_9njjGpmxjZH3jEypwsS-khkegZUeSmVnPcj4SjuFnFEt8UBjm1kDn5spV85YHeiMmo3qkJEekkUG4JVpGWwHvKslhJeq2hxY5iouU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La ‘Cátedra Libre Manfredo Kempff Mercado’ presenta el conversatorio ‘Vida y obra de Sixto Montero Hoyos’, un espacio para conocer y reflexionar sobre la trayectoria de… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_superticket",
@@ -1419,12 +1419,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
+          "score": 22,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1444,7 +1444,7 @@
           "category": "tecnologia",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Los efectos de la emergencia económica que tiene Colombia Ver más 2 Libre formaliza entrega de su proyecto para la reforma parcial de la Constitución y"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 FIFA impone duras sanciones tras los incidentes en la final del Mundial 2026 Ver más 2 Edmand Lara acusa a Fernando Cerimedo de planear un atentado con"
         }
       ],
       "error": null
