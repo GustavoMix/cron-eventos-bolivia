@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T14:54:26-04:00",
+  "generated_at": "2026-08-22T17:40:37-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,13 +9,14 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
+      "fb_fundacion_cultural_bcb",
       "fb_gam_cbba",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 32.0,
-    "horas_maximo_sin_datos": 189.1
+    "horas_promedio_sin_datos": 32.5,
+    "horas_maximo_sin_datos": 191.8
   },
   "sources": [
     {
@@ -44,13 +45,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lg_wDhYTJJ8Q7kNvwH8f_Su&_nc_oc=AdqsVV06Qbzeh2wh9jXBSeqvAb8pIW_VXuN6UcV2Or85tjKUHh0RJ10c3zCOnMkPLvM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=VMJdO5-9aKpYfxliayLpfg&_nc_ss=7f289&oh=00_AQHDu5uITuMSt-haY5q6oYInfN1p5jrmT-RLaRGNe61MVQ&oe=6A8FE375",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1341558327735110/?__cft__[0]=AZZyC2dgyX69neEq6sMzvA7bVTvnFhz2pRCEjShAvtFe-iToTtl7fCcRl_zUsaiM_ej9cJaiOW0kMKjJHbW3mT9jQbPn_hjokYfzACX9X8qeBTs68QPp9tYIAqVWIqmhzXWrkjbg91KSlNAy7763-QETWS2Yul-3xKPRmwERdrl5uvTZUgJEoTFgBZC7MkOigpPfUTODKO4-w3dauRoTq2tw&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Kudailovers de La Paz y Bolivia hay cambio de lugar, tomar nota L… Ver más Kudailovers de La Paz y Bolivia hay cambio de lugar, tomar nota L… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -350,13 +360,30 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=598kS2igu48Q7kNvwGApalD&_nc_oc=AdqQxXZNT2k2Rihld7R5ChdflimDtgXGkeN4c8d3cpwr8oFf96t6y_BI9GI9q15asNs&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=fC_ikVUMuL2V5mUHd8cTEw&_nc_ss=7f289&oh=00_AQHM8GAuWd06k4cIG2hO3XabtFgpma8qLjSyYSOJpMcPZA&oe=6A900181",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ATBDigital/videos/1521281749764300/?__cft__[0]=AZa-RQps23aVHwBC9gnhAkaj9QaWdgnX82sX5zRtjTQ8SpxFezIQsh1nHJOShVWe4iquy01YipCLYYE9LjBl01v8tZJORxjVGVCeQQwnuOas5LHQ8OwpPwGmEaJBVy6XjIla2M679wJkZuTnvb_p5Cjz2qaEeZwhs4xEPSQhsm5OwK0qLfvBBxpjIfKf2mAFaW48qwNWNIaCguux6DLiy_YV&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#LaRedDeportivadeBolivia #FútbolBoliviano … Ver más #LaRedDeportivadeBolivia #FútbolBoliviano … Ver más Vamos tigre Tenemos problemas para reproducir este video. Más información Ver más comentarios Bacilio Rojas"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ATBDigital/videos/1521281749764300/?comment_id=2234074747380230&__cft__[0]=AZa-RQps23aVHwBC9gnhAkaj9QaWdgnX82sX5zRtjTQ8SpxFezIQsh1nHJOShVWe4iquy01YipCLYYE9LjBl01v8tZJORxjVGVCeQQwnuOas5LHQ8OwpPwGmEaJBVy6XjIla2M679wJkZuTnvb_p5Cjz2qaEeZwhs4xEPSQhsm5OwK0qLfvBBxpjIfKf2mAFaW48qwNWNIaCguux6DLiy_YV&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Bacilio Rojas Vamos tigre 22 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_bolivision",
@@ -538,12 +565,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Cultural BCB 29 mil seguidores • 16 seguidos Más Publicaciones Información Reels Fotos Detalles La FCBCB tiene la misión de recuperar, fortalecer, prote'"
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -979,22 +1006,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DT4qG0njLKYQ7kNvwEp7n-5&_nc_oc=AdqYr0s35kX4bEp94BGRVjkFn4vo7iQry27wTxukB76rSxkD_QUOIcefaVlhS-w6OPE&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=5H_DRAFu94NTmt-lp73crg&_nc_ss=7f289&oh=00_AQFVhc8y0noMUQ7JnBrrzv7RrM5-bhQuJMyUfaRoi999Cg&oe=6A8FD683",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02rEMeADJLEpGWMyRZEv9vGd7DBCWM6CX9Bp5QfDU6E2K1oSWyAZKBFNwE9Xsho4E3l?__cft__[0]=AZZp_9k-4rBKVq2SgZb7rnd4D1hhLr2ivvOUReyRvo7F0GorQxPokrBvt9cIpk93IaKNDSFIfUvGTlV2O_9vSIpaU6J4MPSoEQQ0uRtwveaJKc3YgXq9Dczr-FGmrwl4x57_3Mphlp6Vb_qRF0CTPGelbNll887FQHOtvrzQBQLC0WZnm2RgzMtuC7L940z0rwuifTxpNYR8Q2wXI7hhqf6DvzR32T4VnBzXlxX3-B_4KA&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Participa contándonos la historia de esa mujer que impactó tu comunidad, tu provincia o el departamento …. Escribe una carta y cuéntanos de qué manera lo hizo y por qué… Ver más 𝗟𝗮 𝗚𝗼𝗯𝗲𝗿𝗻𝗮𝗰𝗶𝗼́𝗻 𝗱𝗲 𝗧𝗮𝗿𝗶𝗷𝗮, 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗜𝗟𝗟𝗔 𝘆 𝗹𝗮 𝗘𝗺𝗯𝗮𝗷𝗮𝗱𝗮 𝗱𝗲 𝗙𝗿𝗮𝗻𝗰𝗶𝗮 𝗹𝗮𝗻𝘇𝗮𝗿𝗼𝗻 𝗼𝗳𝗶𝗰𝗶𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗰𝘂𝗹𝘁𝘂𝗿𝗮𝗹 “𝗙𝗼𝗿𝗷𝗮𝗱𝗼𝗿𝗮𝘀 𝗱𝗲 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮: 𝗠𝘂𝗷𝗲𝗿𝗲𝘀 𝗱𝗲𝗹 𝗕𝗶𝗰𝗲𝗻𝘁𝗲𝗻𝗮𝗿𝗶𝗼 𝗲𝗻 𝗧𝗮𝗿… Ver más Tenemos problemas para reproducir este video"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1124,13 +1142,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-gru1-2.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yXc9O0teZRIQ7kNvwGK46A1&_nc_oc=AdpwtvVLAlCiefRACkz79e8fRC2aAp6HITYuTyce1wLCmeLW6rtKkn3cVR2AVkieLnQ&_nc_zt=24&_nc_ht=scontent-gru1-2.xx&_nc_gid=trmCNdoJQSIqkel8ky30Iw&_nc_ss=7f289&oh=00_AQFS7KmLuaEuiduZEGaiTFzCVtlPhrN-OKTXTQuxrYFmiw&oe=6A8FFA60",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid02xBneY1tNq36BJB2epczYLrBBE3ZeiXhCpWNzV6PDGP34EXUFe9h1DwP2Cr8ADmB3l?__cft__[0]=AZZWCmc4b2VUgyowNtyT01U9qGYW-VnmUayvxI2fjgumi18zd3k1dBT8IMZVJ2j963R_S2xMrX4pESL6VpftRy5eiE2CSMDLz-KLA9JYt23MpzQ_bdZmGSeBLVXqcTROQlBMZhvn4VhmpNWdEWuNutsu6mO33yN2cKbCdLmmVUno8Vu6oTCWoH8WIDYt-5VRyeuyUsVdDuWyspzNX7krOI4W9Cd9l425W_ZBSnHZU0_7zQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CONVOCATORIA LABORAL… Ver más Facultad de Humanidades y Ciencias de la Educación USFX 1 día ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umsa",
@@ -1141,30 +1168,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S7XnnYfhJKkQ7kNvwGcL6fe&_nc_oc=AdrEO7iLxJ7vyM5BNNn2jpVfwqFqGopcsgt2Tt8RUQj7PC3F_blqJymAJx-9_S8XFF0&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=0fxBpUeB74RxpSaVjdvLzg&_nc_ss=7f289&oh=00_AQEZIyzzkqhiC-YBq16DqdE4lmkEzIqDKXgE3DjJsP9HgA&oe=6A8FA9E5",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid0a6D4EAcPgg1Aoi5LLbQSZssa74cU3ovQLrz2MYMghN8eWqP3VLyHYQx229mxJbRel?__cft__[0]=AZaQUrpS9alhzRWRVVTPdQTVP_D60Z9fulQljgD5KG-qfAgRNROKD2zMm5tW8dycJiqiOr4cK0E2b-jM_3VbbmMUIeVI1Uw3hDRve9BUxERBjX0KfZ7uocJVFNe56QQqdP9rjieTO4nTRvVxCECOi2InBDl7nGk0yX7ZhJQM14OZTKvmfKFoxiGHIW3xbQWPDgQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Celebramos el 22.º #aniversario de la Tuna Universitaria Mayor de San Andrés, destacando su trayectoria, tradición y alegría, que a través de la #música han acompañ… Ver más Me gustaría unirme, pero, sin usar esos trajes con panty medias. Lawrence De Arabia"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid0a6D4EAcPgg1Aoi5LLbQSZssa74cU3ovQLrz2MYMghN8eWqP3VLyHYQx229mxJbRel?comment_id=2127043661496122&__cft__[0]=AZaQUrpS9alhzRWRVVTPdQTVP_D60Z9fulQljgD5KG-qfAgRNROKD2zMm5tW8dycJiqiOr4cK0E2b-jM_3VbbmMUIeVI1Uw3hDRve9BUxERBjX0KfZ7uocJVFNe56QQqdP9rjieTO4nTRvVxCECOi2InBDl7nGk0yX7ZhJQM14OZTKvmfKFoxiGHIW3xbQWPDgQ&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Me gustaría unirme, pero, sin usar esos trajes con panty medias. Lawrence De Arabia"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1192,22 +1202,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/528008658_1169669701863560_4006843970321122842_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mGJX8u2TqfUQ7kNvwHfcMuN&_nc_oc=AdrLoULf0qP2Ep0pTH2KkoHQRx9oe-md-CzWs0wbDVWSSz_U2pAeiGu8NNvLCGdRub0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Wfa-0d7ZpH_LkUZXN08Tjg&_nc_ss=7f289&oh=00_AQFmuoxmg9DEds5MPz3Ys_BZZyMk1UYnFT4AehyMK7QlNg&oe=6A8FD79E",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid0dhZh4gSMNVuHtGNXkxKs54sygyLvnHbuVwg9nXf8DpTu7VE11AwTPuA1aQWgqEkZl?__cft__[0]=AZaC3uEXYJXRsVjRcyZ1SQlioug1Sl5OZSR7cw3VMS0ptnf1XKMsaXpdyY7YBpWXGk2Wf0wI3SH7Gk-aMK-w5ky7FgQ9ZCLk7jKITOTokkX_ahJFwobhi0jVr_pwBzsfre0WU9nMELoTEAzOXabpOb4Q1TPOK2O0NOTJ0_7V15S3iQsHWt14ngu0pBxz6_IacR8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝐆𝐫𝐚𝐧 𝐄́𝐱𝐢𝐭𝐨 𝐞𝐧 𝐥𝐚 𝐏𝐫𝐞𝐦𝐢𝐚𝐜𝐢𝐨́𝐧 𝐝𝐞 𝐥𝐚𝐬 𝐎𝐥𝐢𝐦𝐩𝐢𝐚𝐝𝐚𝐬 𝐂𝐢𝐞𝐧𝐭𝐢́𝐟𝐢𝐜𝐚𝐬 ❞𝐎 𝐒𝐀𝐍𝐒𝐈 𝟐𝟎𝟐𝟔❞ En una emotiva y solemne ceremonia, la Universidad Mayor de San Simón (UMSS) y la Facultad … Ver más 𝐆𝐫𝐚𝐧 𝐄́𝐱𝐢𝐭𝐨 𝐞𝐧 𝐥𝐚 𝐏𝐫𝐞𝐦𝐢𝐚𝐜𝐢𝐨́𝐧 𝐝𝐞 𝐥𝐚𝐬 𝐎𝐥𝐢𝐦𝐩𝐢𝐚𝐝𝐚𝐬 𝐂𝐢𝐞𝐧𝐭𝐢́𝐟𝐢𝐜𝐚𝐬 ❞𝐎 𝐒𝐀𝐍𝐒𝐈 𝟐𝟎𝟐𝟔❞ En una emotiva y solemne ceremonia, la Universidad Mayor de San Simón (UMSS) y la Facultad … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1235,22 +1236,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yMVVyrlY668Q7kNvwEXrOor&_nc_oc=Adr5RSn48aTqFNPC-gBl0atop7G9qPtSKgvmzNmbiPbJdjawAAU-zaE93oWpI5wN4_4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ZLN5bB2pcjBC2_pes2k02w&_nc_ss=7f289&oh=00_AQHMI1yX6Q9iBNDWwiBkitV07GG-w0L52FY2wg8fNOaZmA&oe=6A8FA6F8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid02QPSwAbZaNByoqJfvtJ3zGoseDCdCdaXFMn7K7xKShvnq6DE9x2r3HtpeM9e3f41Cl?__cft__[0]=AZbgShAJ7NyKTRsJ9nvKB0MFwgQWs27eyoBefNFjElam8vF-zoB0x4xHEQn2OkrVW3A3Thcg5IImwgmW2FzRLhaVCqI5e_9njjGpmxjZH3jEypwsS-khkegZUeSmVnPcj4SjuFnFEt8UBjm1kDn5spV85YHeiMmo3qkJEekkUG4JVpGWwHvKslhJeq2hxY5iouU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La ‘Cátedra Libre Manfredo Kempff Mercado’ presenta el conversatorio ‘Vida y obra de Sixto Montero Hoyos’, un espacio para conocer y reflexionar sobre la trayectoria de… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "web_superticket",
@@ -1419,8 +1411,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",

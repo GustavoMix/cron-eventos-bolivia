@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-22T14:54:26-04:00",
+  "generated_at": "2026-08-22T17:40:37-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 28,
-    "events_today": 3
+    "events_total": 29,
+    "events_today": 4
   },
   "filters": {
     "ui_groups": [
@@ -58,8 +58,8 @@
         "count": 8
       },
       {
-        "key": "deporte",
-        "label": "Deportes",
+        "key": "cine",
+        "label": "Cine",
         "count": 5
       },
       {
@@ -73,9 +73,9 @@
         "count": 3
       },
       {
-        "key": "cine",
-        "label": "Cine",
-        "count": 2
+        "key": "deporte",
+        "label": "Deportes",
+        "count": 3
       },
       {
         "key": "taller",
@@ -97,7 +97,7 @@
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 10
+        "count": 11
       },
       {
         "key": "Quillacollo",
@@ -134,7 +134,7 @@
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 11
+        "count": 12
       },
       {
         "key": "Cochabamba",
@@ -161,22 +161,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 3
+        "count": 4
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 7
+        "count": 8
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 13
+        "count": 14
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 28
+        "count": 29
       }
     ],
     "price": [
@@ -193,14 +193,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 20
+        "count": 21
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 22
+        "count": 23
       },
       {
         "key": "con_video",
@@ -334,7 +334,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 11
+        "count": 12
       },
       {
         "key": "venue",
@@ -359,32 +359,6 @@
     ]
   },
   "events": [
-    {
-      "event_id": "evt_78f705a994bfd1",
-      "title": "Ciclo de cine en La Troje",
-      "category": "deporte",
-      "category_label": "Deportes",
-      "starts_at": "2026-08-22T00:00:00-04:00",
-      "starts_at_ms": 1787371200000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Sábado 22 de agosto",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "cancha FIFA Arena",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
     {
       "event_id": "evt_739e39109df424",
       "title": "17/08/2026 Cultura Comerás flores de Lucía Solla Sobra: del deslumbramiento al abismo Hoy nos detenemos ante un…",
@@ -412,10 +386,36 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_d84641cf1eab0a",
+      "title": "Ciclo de cine en La Troje",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-08-22T17:00:00-04:00",
+      "starts_at_ms": 1787432400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 22 de agosto · 17:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "cancha FIFA Arena",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_d5b964b4677271",
       "title": "Espectáculo de danza: Negra",
-      "category": "deporte",
-      "category_label": "Deportes",
+      "category": "cine",
+      "category_label": "Cine",
       "starts_at": "2026-08-22T19:00:00-04:00",
       "starts_at_ms": 1787439600000,
       "ends_at_ms": null,
@@ -429,6 +429,32 @@
       "department": "Santa Cruz",
       "venue": "cancha FIFA Arena",
       "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_78f705a994bfd1",
+      "title": "Balau: Taller de cajón peruano",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-08-22T21:30:00-04:00",
+      "starts_at_ms": 1787448600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 22 de agosto · 21:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "cancha FIFA Arena",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
       "has_video": false,
       "is_free": false,
       "price_from": null,
