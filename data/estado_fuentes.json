@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T03:04:43-04:00",
+  "generated_at": "2026-08-22T05:46:27-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,14 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_amun_lapaz",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 30.7,
-    "horas_maximo_sin_datos": 177.2
+    "horas_promedio_sin_datos": 31.3,
+    "horas_maximo_sin_datos": 179.9
   },
   "sources": [
     {
@@ -27,22 +28,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=STKGhm_hTskQ7kNvwFBwUbb&_nc_oc=AdpaVcdfCsBqg93ubEZAn2qF-_stoPXD7UNUer6rMcNtnMJY2ijwQKfeAhqfrxdMGnY&_nc_zt=24&_nc_ht=scontent-hkg1-2.xx&_nc_gid=8x9QJj8NpC8ak_vCBxZbTQ&_nc_ss=7f289&oh=00_AQG9b9vX7nY9quonDNQEvhBzzcwrg1ahwyxCL_LnCD7jgA&oe=6A8F10DA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid0QdD5S7vEvtSGFWwswX1tSFrdGv3bYq7Z4uPJHWeXj8jJG65KHfxqbeE33tNBZLvVl?__cft__[0]=AZYvwesQEsJ662Y3gsYiaGSDvVFeAJXN-RNhx45c27oOPX1OV7hTzcu0oDgLh_uDpJ3ydXubjh-2GkIenWBjh-ASNAJQ7KGQE1WcxmPHHWU88TkPqNvwbfDHbPDYkIGWMPKYQpv5V4-gZqnI8yQFBDfafSFKAyQFtJki5rpyPx5VDVvLG264x4E9IZs425V_m5s&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡ES HOY! FINTER 2026 ENTRA EN COMPETENCIA Es… Ver más ¡ES HOY! FINTER 2026 ENTRA EN COMPETENCIA Es… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -156,12 +148,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Agencia Municipal de Noticias 42 mil seguidores • 103 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deber'"
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -478,13 +470,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=C0k0jXGrPMoQ7kNvwHSE4RO&_nc_oc=Adrdly6MEpm-s61uA1lVstJx2BaDjzwGWVG5DQ_RajzrUyBv_zeGWQMSVutAg-wnbVY&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=MLtTFH88CQJi4TqnI0cHNw&_nc_ss=7f289&oh=00_AQFYt5crE6AK4frpYVsxkjugRDLt51vn7zDkOicTLVmJxA&oe=6A8F3D02",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1094704749952814/?__cft__[0]=AZYGPHXTs2tzZaaNPL2IDme-cbxG5b-ALugdaLwLj9bC-2ZriGrmQu_Q6_3XRSaC5KmLAozIn_4iU4uaD464QWqAeLPK2uYQPSipu16Hpo-U4HY3ZpnmmtIzACXQUp9_qWxiG_mxEuJl6iVBIINXLptYgTGOEf_RwW8mtAtykk9oGHlU43wA-KzjQWP9eO7bO58d0T-q_q79KdWr6R4owQJe&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#SantaCruz Fiscal Aguilera afirma que Ministerio Público pidió el penal de máxima seguridad de Chonchocoro para Cerimedo pero que juez lo envió a Palmasola.… Ver más #SantaCruz Fiscal Aguilera afirma que Ministerio Público pidió el penal de máxima seguridad de Chonchocoro para Cerimedo pero que juez lo envió a Palmasola.… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber_radio",
@@ -597,13 +598,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i-zV-ltTf_wQ7kNvwEIKOWy&_nc_oc=AdoGhT1MaCOwem5fztURPz4BuDhlxIh1SvlMPyWJj5HrTMyyAejOgRN67CM6VESM4G4&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=-SGmhvSKwL7ee1HaubfVUQ&_nc_ss=7f289&oh=00_AQEzEPZ-Eyqh0rwkfMfKZkGXO8MOVy4Bfwr_bVC8iD9xFg&oe=6A8F3580",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1057928236975651/?__cft__[0]=AZY2XmnPhy_hmoSiz4xNkAjmAeH1h9nHs4z9_7eweYBqU_MQhIiGVewisQBZg6xWVU1AmX45h2gtp72ePUpi160xnjuNFSO64SlXynJIL6KE-5iHEnZ0fTe8mdT9BKdl-J5RlJ2g37Vj0djQYd5kXPiHMhV1XrADWxW41a3wbj58GYxDdD4RjoSpLl0GLoEYuKO1EtVfIkrjR0xEoDvNh-3M&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "ParlArte: Arte plumaria con Alexandra Bravo Felicidades Tenemos problemas para reproducir este video. Más información Ruth Rocha Monje"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1057928236975651/?comment_id=1001892469578447&__cft__[0]=AZY2XmnPhy_hmoSiz4xNkAjmAeH1h9nHs4z9_7eweYBqU_MQhIiGVewisQBZg6xWVU1AmX45h2gtp72ePUpi160xnjuNFSO64SlXynJIL6KE-5iHEnZ0fTe8mdT9BKdl-J5RlJ2g37Vj0djQYd5kXPiHMhV1XrADWxW41a3wbj58GYxDdD4RjoSpLl0GLoEYuKO1EtVfIkrjR0xEoDvNh-3M&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Ruth Rocha Monje Felicidades 2 días"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -614,22 +632,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vqzjFla2PpIQ7kNvwEib8uv&_nc_oc=AdpoMoBhRy4ILaGSqEYjTQKCrlVaJoiH1XgnwJZexcSX2cfJr4Zd48RqVx-CUVspLlc&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=p0OTNDPgAnC919PTiXcCnw&_nc_ss=7f289&oh=00_AQFBil2_MvKhCl8uJU7GILTsk1BphYh78xwJdZUxPWKunA&oe=6A8F22B3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/videos/-en-vivo-noche-clausura-rae-2026-cerramos-la-xl-reuni%C3%B3n-anual-de-etnolog%C3%ADa-prese/1081749034306859/",
-          "has_image": true,
-          "text_preview": "🔴 EN VIVO — Noche | Clausura RAE 2026 Cerramos la XL Reunión Anual de Etnología. Presentación de las Memorias de la RAE 2025, Espacios y territorios que habitamos, a cargo de Wilmer Urrelo; balance... 🔴 EN VIVO — Noche | Clausura RAE 2026 Cerramos la XL Reunión Anual de Etnología. Presentación de las Memorias de la RAE 2025, Espacios y territorios que... EN VIVO — Noche | Clausura RAE 2026… #RAE20"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -929,13 +938,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wjAj275wXgMQ7kNvwF4QK_V&_nc_oc=AdqjX707Fw7ebumPEVOR_tzzGIIPdpwV8A5X6mMTBWQSzQnNYQ_xRJyIQH50JPU0jfI&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=zUlLGpjkisKrkrUZAsccew&_nc_ss=7f289&oh=00_AQEZiu90YRXkdh8bue4KZuPePNdoSzKuyhE8SLQavd-6OA&oe=6A8F3A38",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid024JB9CtuCpZ1AyqiH5fpH1YZNc6e49B89iT1GvxmhUdDafo5GkJd93tX2b4MmmGvzl?__cft__[0]=AZZUthCssuVXlAMhMot884wPqlfxXr5XD59uq6NjSIdt41P4C0leartSKeU3xcb1b187Z8Snzv7652YpSREKPJGgjWjbrQq7jbiIZ_mVgoMwQLWfVM75Vjtf8gFIZmVQ_W36avEtM8ipwXzdB19TBwHRA0yX5l4QFVQeEnij7OfZBkI284v4ZwbFYJbDHXC_Ojg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "A 55 AÑOS DEL GOLPE DE ESTADO DE BANZER, LA MEMORIA AÚN VIVE… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1014,22 +1032,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=X33GKqY-xucQ7kNvwFyMoxu&_nc_oc=Adowik61DkQ4bKNjhBTmu6K1U5RDWcIycLBcF1A2Np76P3aR7LrWG7thTrlAuD8wZvE&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=QOgKFyA8cwcnLi7kZFkwnw&_nc_ss=7f289&oh=00_AQF1oWkzmJc7zDSNHmeW_n5TgHLu737UacZy1EyzivWjLg&oe=6A8F2CB4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02vRTYHMLenkJUTBQtLszJ5NhbeRLtitHwVSsCoDu8iYJemQ1BTyD8BHwtWFX1yDQQl?__cft__[0]=AZZKofyTZy0rMLNby_qRptEjK3olKkUC7ePjtB1m7IOvUicrROJp0CQi6cPX-UYN8uTPsRVjTsUl9PwZeBR1x8NNv7fzzF5brNEv3uPOK1vsTmqF_m4NhJWmNU1xumRWuLEGJAx5zPmvnLbHMZ0uSAcU6rUpiGr5_gIlz5DmFVCTc23DdtHHeEBaworJYlic2Yg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Cultura | Ruta de los Palacios… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1125,22 +1134,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qRsQgP1e14oQ7kNvwFi3vUS&_nc_oc=AdpgsAYYU7m9bj9v_ADYkMxyGSO8MnqvIMt4jtYaZFVtap0c7iXfq5YCykUIkmU80eY&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=S8d5IqwbHuKEG0XxOOUBeQ&_nc_ss=7f289&oh=00_AQHQ-bZUtZvwHJTdcesnU4r3sgQoaXg_ju7dHa5Jl26oYA&oe=6A8F0F64",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid0R74J3oNmfUE7mQinFJpfv1RidZnrQjDk4hP8xJ1SPV5gBTSYJJxK6AKUSZ8h5Rhul?comment_id=1549293296129099&__cft__[0]=AZau4MildFCadqj0nYx8DGTx-NdwKyVvcuMaCWe9dS7zkYWiMzKN6W9SHjrGd1QzH-WERTrCZYC7t29WRUyZ8mhx39nkhKQr4czAFA_TbQpdPV86tLnZKLr-Lqyy5sZR8_Am--sn059K4ftkhPpfw-nfaNxuQfM0jj5xOYr-ZHOtvyf1h_uXO3TwRfhZzVYsaLI&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Felicidades Amilcar Ramiro Quintanilla Arandia un abrazo fuerte hermano todo lo mejor del mundo Lily Pena"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1337,7 +1337,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
