@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T09:05:57-04:00",
+  "generated_at": "2026-08-22T11:39:49-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 32.4,
-    "horas_maximo_sin_datos": 183.2
+    "horas_promedio_sin_datos": 31.5,
+    "horas_maximo_sin_datos": 185.8
   },
   "sources": [
     {
@@ -95,13 +95,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CqBkNDfs8RIQ7kNvwGFvrjX&_nc_oc=AdrwixjZ_vtj1hEZYim7jHk5YFIhlV9u7ioCOA0VzCw4vOuFYcwLvFDqwd7-ky-5B2U&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=1yg2tder3n3rOAnf6pho2w&_nc_ss=7f289&oh=00_AQHXJm6oB-RTKk3Fg0mJ0KpatkntIn8ArcaTmJxC4yOtDQ&oe=6A8F6B10",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -146,30 +146,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=k67okc7TJYAQ7kNvwHZN6hj&_nc_oc=Adrvc96pWdMxgpyrkho9VVIhf_aGtSJ7yf0x_Qt7crLUfmg981KxA9qc1pEfQwgNX70&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=mZz7GFnnyj4iJpvSzM2J6Q&_nc_ss=7f289&oh=00_AQH8tDnzZu-kJSPWTQYBokJ6Fh3Ks1m6rY_x3cgqXcfmNg&oe=6A8F6977",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid043KkcZA1zm7XjU8Mb1JsQrU3Hjm7MjoksF7PmQwXiFiPHimnHR7bvvQpUrsqc7swl?__cft__[0]=AZYk29gR9QJVnleVqCfpe93bE3K1J21PRmHlC0e3doZYtVF-dmHEtzQPTvq4eXAJpPgZmSi3RfsEwI1OFDB3IE7L0lTNzUAWketGYc0-26kjjh4Has-mglnTKfMoibIkjpBx_VuY6dkeGNWrpOPhcmA3zLMjShVG0Lg0E_hD8R9tFL3yfAMQGZ_UrFyJkTnj25U&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#AMUN | Asamblea de la Paceñidad declara emergencia sanitaria y crisis ambiental ratificando apoyo al alcalde César Dockweiler… Ver más Con todo eso de apoyar al alcalde y declarar emergencia sanitaria, la basura va a desaparecer, a la población le interesa que limpien la ciudad Ver más comentarios Alberto Iturri"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid043KkcZA1zm7XjU8Mb1JsQrU3Hjm7MjoksF7PmQwXiFiPHimnHR7bvvQpUrsqc7swl?comment_id=1101610339111850&__cft__[0]=AZYk29gR9QJVnleVqCfpe93bE3K1J21PRmHlC0e3doZYtVF-dmHEtzQPTvq4eXAJpPgZmSi3RfsEwI1OFDB3IE7L0lTNzUAWketGYc0-26kjjh4Has-mglnTKfMoibIkjpBx_VuY6dkeGNWrpOPhcmA3zLMjShVG0Lg0E_hD8R9tFL3yfAMQGZ_UrFyJkTnj25U&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Con todo eso de apoyar al alcalde y declarar emergencia sanitaria, la basura va a desaparecer, a la población le interesa que limpien la ciudad Alberto Iturri"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -418,13 +401,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YNLvyrCGV1oQ7kNvwEBI7Pz&_nc_oc=AdoHXGfFqRzmdqA2eLCyGGMxWupsnujbSWWaMJspsQN-ylxVMsSFQCzHObcl3Pzv51E&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=wKPotUe4obDPEvu5fqSBfQ&_nc_ss=7f289&oh=00_AQFzx0ocAIc5xUsKaSUdCDGInnJddtQFecl8fneMzj5QJA&oe=6A8F9221",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "deporte",
+          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid02LBFhDRyWXmijYfBM5CXGTRwCzxCSLRSNi5netFwSy3oB8SGCiUeygkR5G3A6Q6Chl?__cft__[0]=AZY3axTQynPLRrzzNJVkc8kQ651ePHPu1j79pxVd5Dq1O6rV5XgoYkYF-p4IOK8-NGsW9gnQL-_iPYmLxBJiIImx7XE4vajOZXrQNPZGz2pbVxp2PvLw1ilkh_uuqE4HRiJBIj-noYyZf4UykG-SZRBduwlYXftHV2DvnBfOOGAOY4W7cs8oaE4JrWuMA1g2qk4&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "El ráquetbolista chuquisaqueño Conrrado Moscoso sumará un nuevo hito en su carrera al ser designado por tercera ocasión como el abanderado de la delegación boliviana. E… Ver más ELDIARIO.NET www.eldiario.net"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_radio_fides",
@@ -452,13 +444,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_Kly4BYPuBYQ7kNvwFj9YGA&_nc_oc=AdpA1PYaL4ybSY57HxzZG6hE8DFQD9bKx9wFbUHLL703IKsZVG4EMhCg2_3vjw0KE00&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=u2MM7GBy5UVUKi2o5zGkWA&_nc_ss=7f289&oh=00_AQGhRMvQa1QiqfcWnu2pgWEmiWdjg_JPPHy9N4VOSyfX6g&oe=6A8F94BA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1770254314250435/?__cft__[0]=AZbF0yFPk5X1OXCbu1-MdWUalMSjF7_r8ljKxhIRsoP_QkXN2DkFZOw2YMeHultdm07xiRcNZ_FwkdOymTDMflqiokZzqwPh6twAT6fk5ThKByvusM3oEtsaJJGauQmgEa47l0KpjTWGIV3f6pFixc_wLtEE926KeVbMuw7d3xxpZT9jXRyNe6ZkaT28wpkV9eOmfFjgQH8sCs3svY58O3nJ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#GrupoFides | #ANF #Economía El presidente del Ingenio Guabirá, Mariano Aguilera, calificó como muy grave la escasez de combustible y la determinación del Gobierno de … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_rtp",
@@ -1047,22 +1048,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VLXTh14OzIwQ7kNvwFM5kOh&_nc_oc=AdrxJMgjtMjXs1g6GNi7hG7bUwYKpH663lBz5enjrHIpZgSyaYOOOhV1Z1O7PeEAMhQ&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=rmvrC8sfycm35e8n6JVpZg&_nc_ss=7f289&oh=00_AQHb5naL-Bi3lDHZT3RIC5fpsoapNk-vDvdwBc_09iUKqg&oe=6A8F8655",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02FNsrSq9z7cSFT1qX2Hr3p1Q1YAt5Dc8LvxtpC9j1PqfhANM79rJtdFkWnZYX1bDNl?__cft__[0]=AZbifZC4nsh_PvP8tGDysIjNPVZrrgv7T0cXqna0kvIWmopavSAaumqzXXTKi9Npt-yAGTkfjiGy_-OYygO5iHMyOBcwSGWX9UPSN10YZIEWjYfHfTof_nPILHFa5Pja3QgvYShkAElV8eYJEHJMksFbCiNOme2Bx0I3VgtqGaE1Gyes_o32kTeYkUufdH29qEU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "VIERNES 28 TARDE DE CUENTA CUENTOS… Ver más VIERNES 28 TARDE DE CUENTA CUENTOS… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1074,12 +1066,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "ok",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1175,13 +1167,30 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/761515304_1067546899192869_6937258332610772698_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nuVxMu6owDEQ7kNvwGV2Q1K&_nc_oc=AdpzSIZUcGgC9HtabWMaFtroLP5noY8F26eJ9PpQcx0Ptf1zPPkfYmxTuBz696MpkmI&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=DucKtAnDGgBYBb5BtxCRoA&_nc_ss=7f289&oh=00_AQE9_VAR8bmvTsFU9orWNV_jJIlvDuDMXJfmaoVtJceY7w&oe=6A8F94E3",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid02jvinXgSt4AfkhcPwhTdoBZ6LKykorMbZ7yjzr5JDVXaXcH9mDkUaehEKcP5UpGK4l?__cft__[0]=AZZLQVihVeIt7ChBPocyhIMSLTlVO4yPoOIig06COOqwIXc4JP0wX6nCWWLW0fMtIZp4pPfTa-6xvOzaeKJjzwAAlgJbRHFAYJLsWaTvNL_wTsZltVvUgeyjI-PO9yA5hsyD0mWD-8-PXycTpa4_apVxIPN_bJjQlwQpzEGcZb8QQz0Rxosq_xoAe19CedDCmsA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐒𝐞𝐫𝐯𝐢𝐜𝐢𝐨𝐬 𝐪𝐮𝐞 𝐥𝐥𝐞𝐠𝐚𝐧 𝐚 𝐥𝐚 𝐠𝐞𝐧𝐭𝐞 La UAGRM, a través de la … Ver más 𝐒𝐞𝐫𝐯𝐢𝐜𝐢𝐨𝐬 𝐪𝐮𝐞 𝐥𝐥𝐞𝐠𝐚𝐧 𝐚 𝐥𝐚 𝐠𝐞𝐧𝐭𝐞 La UAGRM, a través de la … Ver más Muy bien excelente gestion Ver más comentarios Hernan Ibarra Palomero"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid02jvinXgSt4AfkhcPwhTdoBZ6LKykorMbZ7yjzr5JDVXaXcH9mDkUaehEKcP5UpGK4l?comment_id=930293436147101&__cft__[0]=AZZLQVihVeIt7ChBPocyhIMSLTlVO4yPoOIig06COOqwIXc4JP0wX6nCWWLW0fMtIZp4pPfTa-6xvOzaeKJjzwAAlgJbRHFAYJLsWaTvNL_wTsZltVvUgeyjI-PO9yA5hsyD0mWD-8-PXycTpa4_apVxIPN_bJjQlwQpzEGcZb8QQz0Rxosq_xoAe19CedDCmsA&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Muy bien excelente gestion Hernan Ibarra Palomero"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umss",
@@ -1209,13 +1218,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gYi7_YfJQfEQ7kNvwGk0Wew&_nc_oc=AdrWYiWPnc_3C4Caqman8k1PBQXxwZ-hOtVG4JHw-D_2AH-84l8KVd29cil3uHY89Z4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=wSdFfkFyx02nuPB35xJgpg&_nc_ss=7f289&oh=00_AQHg3l89lH__8FO_huGt_rBq6wAIRRhXSi-m9L47ixhCUw&oe=6A8F89F2",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 12,
+          "category": "otro",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid02ECWdNj3y7q1Rg4TtqG7xYLtnqS5gtn6UNDVJf1Wmu5ai35j9Zz1dNGmwdCfQAVt8l?__cft__[0]=AZYqtfxTWOmhwU5my6NsybIzGMlNkNC_u5ItyVh1st-03A7Z19QF67qB5p8_T3kOKqWbJg7M1d93J8Uc_PJ8YM-ifZJpHIBU4DEqosWCXLoEBkqMYkk_11Tf3fFEn2QJj_A1iyvhSXyKmmRIMzz4qUwwtdJVRdvvYY2P2nGEPOIsxkn67z0vFUBMWCtse8irQUg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Mañana es el 𝐎𝐩𝐞𝐧 𝐇𝐨𝐮𝐬𝐞 𝐔.𝐂.𝐁.! Y estamos listos para recibirte y que seas parte de La Cato. Si estás en 5.… Ver más ¡Mañana es el 𝐎𝐩𝐞𝐧 𝐇𝐨𝐮𝐬𝐞 𝐔.𝐂.𝐁.! Y estamos listos para recibirte y que seas parte de La Cato. Si estás en 5.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_upsa",
