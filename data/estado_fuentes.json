@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T23:59:39-04:00",
+  "generated_at": "2026-08-22T03:04:43-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,14 +9,13 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
-      "fb_fundacion_patino_cbba",
       "fb_gam_cbba",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 29.8,
-    "horas_maximo_sin_datos": 174.1
+    "horas_promedio_sin_datos": 30.7,
+    "horas_maximo_sin_datos": 177.2
   },
   "sources": [
     {
@@ -28,13 +27,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=STKGhm_hTskQ7kNvwFBwUbb&_nc_oc=AdpaVcdfCsBqg93ubEZAn2qF-_stoPXD7UNUer6rMcNtnMJY2ijwQKfeAhqfrxdMGnY&_nc_zt=24&_nc_ht=scontent-hkg1-2.xx&_nc_gid=8x9QJj8NpC8ak_vCBxZbTQ&_nc_ss=7f289&oh=00_AQG9b9vX7nY9quonDNQEvhBzzcwrg1ahwyxCL_LnCD7jgA&oe=6A8F10DA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid0QdD5S7vEvtSGFWwswX1tSFrdGv3bYq7Z4uPJHWeXj8jJG65KHfxqbeE33tNBZLvVl?__cft__[0]=AZYvwesQEsJ662Y3gsYiaGSDvVFeAJXN-RNhx45c27oOPX1OV7hTzcu0oDgLh_uDpJ3ydXubjh-2GkIenWBjh-ASNAJQ7KGQE1WcxmPHHWU88TkPqNvwbfDHbPDYkIGWMPKYQpv5V4-gZqnI8yQFBDfafSFKAyQFtJki5rpyPx5VDVvLG264x4E9IZs425V_m5s&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡ES HOY! FINTER 2026 ENTRA EN COMPETENCIA Es… Ver más ¡ES HOY! FINTER 2026 ENTRA EN COMPETENCIA Es… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -606,13 +614,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vqzjFla2PpIQ7kNvwEib8uv&_nc_oc=AdpoMoBhRy4ILaGSqEYjTQKCrlVaJoiH1XgnwJZexcSX2cfJr4Zd48RqVx-CUVspLlc&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=p0OTNDPgAnC919PTiXcCnw&_nc_ss=7f289&oh=00_AQFBil2_MvKhCl8uJU7GILTsk1BphYh78xwJdZUxPWKunA&oe=6A8F22B3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/videos/-en-vivo-noche-clausura-rae-2026-cerramos-la-xl-reuni%C3%B3n-anual-de-etnolog%C3%ADa-prese/1081749034306859/",
+          "has_image": true,
+          "text_preview": "🔴 EN VIVO — Noche | Clausura RAE 2026 Cerramos la XL Reunión Anual de Etnología. Presentación de las Memorias de la RAE 2025, Espacios y territorios que habitamos, a cargo de Wilmer Urrelo; balance... 🔴 EN VIVO — Noche | Clausura RAE 2026 Cerramos la XL Reunión Anual de Etnología. Presentación de las Memorias de la RAE 2025, Espacios y territorios que... EN VIVO — Noche | Clausura RAE 2026… #RAE20"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -878,22 +895,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FKWpJyX0ERUQ7kNvwGub8GH&_nc_oc=AdpKqW06gApHRSmkcfH9GTP4tHKpof7hy-mVKDnYqYqkoV7AZRGsPxeWJis2Bmo11zs&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=DiiPRFalN1-B5kyICjKqqA&_nc_ss=7f289&oh=00_AQHUuLdfegoezCDBMM6kSaFu6skufsHU8-1XniUGhhp4nA&oe=6A8EFB27",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02n3uiu49ZRARgsanGo7N78RXeTrW1ZdPUQwTHcTb9QMSBc3T1B6tzgdw1AqLtdS7sl?__cft__[0]=AZbeJ4V_Jcc82nZMjoDJ9U_kvFoAw_c1AP84h_nCkvzlWbJE6pl1ntGYM_t2KlExaOkKWtuZ3W80L9DNeu20ampS61la-YoB0WATZWhJSruhH-R54_fhlgg8OytsH4FO8ALnrDLpOxmBXLJDvHTo0xBvKMeRSzEPGH8nquM9UbjtdVQSy0l3NwkDIXlN7MINxq4&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Educación | ¡𝐄𝐥 𝐖𝐨𝐫𝐤𝐬𝐩𝐚𝐜𝐞 𝐯𝐮𝐞𝐥𝐯𝐞 𝐚 𝐫𝐞𝐜𝐢𝐛𝐢𝐫𝐭𝐞! Retomamos la atención de es… Ver más #Educación | ¡𝐄𝐥 𝐖𝐨𝐫𝐤𝐬𝐩𝐚𝐜𝐞 𝐯𝐮𝐞𝐥𝐯𝐞 𝐚 𝐫𝐞𝐜𝐢𝐛𝐢𝐫𝐭𝐞! Retomamos la atención de es… Ver más Samanta Bryce"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -955,13 +963,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_jfN6xDB_dcQ7kNvwFcosb7&_nc_oc=Ado7YqV6UXbIfBoLKyeiFfstEG1hjvQ1VbnTyaBw53OCCs1KzsDuGmF895pVpu5jWks&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=mUU3VGfTAokd4Pb36KkBoA&_nc_ss=7f289&oh=00_AQGF4ntLl3hNoBT1wry4ztZD7Uj85KSCsON5MGZlIK0QFw&oe=6A8EFB17",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1006,13 +1014,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=X33GKqY-xucQ7kNvwFyMoxu&_nc_oc=Adowik61DkQ4bKNjhBTmu6K1U5RDWcIycLBcF1A2Np76P3aR7LrWG7thTrlAuD8wZvE&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=QOgKFyA8cwcnLi7kZFkwnw&_nc_ss=7f289&oh=00_AQF1oWkzmJc7zDSNHmeW_n5TgHLu737UacZy1EyzivWjLg&oe=6A8F2CB4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02vRTYHMLenkJUTBQtLszJ5NhbeRLtitHwVSsCoDu8iYJemQ1BTyD8BHwtWFX1yDQQl?__cft__[0]=AZZKofyTZy0rMLNby_qRptEjK3olKkUC7ePjtB1m7IOvUicrROJp0CQi6cPX-UYN8uTPsRVjTsUl9PwZeBR1x8NNv7fzzF5brNEv3uPOK1vsTmqF_m4NhJWmNU1xumRWuLEGJAx5zPmvnLbHMZ0uSAcU6rUpiGr5_gIlz5DmFVCTc23DdtHHeEBaworJYlic2Yg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Cultura | Ruta de los Palacios… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1023,30 +1040,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sJyIxkLxMd8Q7kNvwFyFEEX&_nc_oc=Adq4HgoIT4UVQhGHw2-lO2gn1qk2OitR2BQDhRNIznLZgxIY6f0yH7mnjO_kzAUfuJg&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=ct7YloMnLMjmHhCzN3Ihxg&_nc_ss=7f289&oh=00_AQE7VY3ZX5nkrCvJVtkVg_K-BQdP-4h_kT42LTkgJIuCHQ&oe=6A8EFDCF",
-      "status": "ok",
-      "raw_items": 3,
-      "events": 1,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "cine",
-          "url": "https://www.facebook.com/reel/1547016913400735/?__cft__[0]=AZbNFrS9X0BU9PPcKxn1xqhgpBG40D7bQ58b_9Ezin4GAbR1NaF0my689u84WfFZtX6PQ1JOL-3APYba0aYTZE8HorWXzbV0uw7Ce34FwP0Tx4irNK7kh0uLLCVaQUfwRYoREehj7wuY5f--S--Yjz3Dx-ZAlcbrnM-m4GD4f85Xv83qZsjh-bRu9IhIf8Mbcpw87L-OodoZNOiHat18nfrx&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "En el marco de la 18.ª versión de Bolivia Lab, el Goethe-Institut La Paz y la Embajada de Alemania en La Paz llevaron a cabo una proyección especial del cortometraje Br… Ver más Tenemos problemas para reproducir este video. Más información"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid02W44UbBvKzLYnrExZpHvo4f7dbUoaZhP5UFiPioEGtNvwLNf1kvF4BWMBvzzrKxqel?__cft__[0]=AZYTv_iavgL3ST1LrKWVMvqciFVjFXLgOzE6dJ0acOq9oetYkFmqx5aD0Lb0oO_o3FhinpFwVeeWExgyPrQHmTs8N6sBxgSi7fZmFK70-eXHmYLFUK_oomgl7__hlKEcGBZRF3f6MHRy9N2xzmY1Hg6PSdb0sSRbAuXM49PnrHS4TauGSq7YYV1eJgKIe_mIIPM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El Queer Salon es un espacio de encuentro, intercambio y diálogo para la comunidad LGBTQIA+ y personas aliadas, donde compartimos ideas, experiencias y desarrollamos nu… Ver más"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1125,13 +1125,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qRsQgP1e14oQ7kNvwFi3vUS&_nc_oc=AdpgsAYYU7m9bj9v_ADYkMxyGSO8MnqvIMt4jtYaZFVtap0c7iXfq5YCykUIkmU80eY&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=S8d5IqwbHuKEG0XxOOUBeQ&_nc_ss=7f289&oh=00_AQHQ-bZUtZvwHJTdcesnU4r3sgQoaXg_ju7dHa5Jl26oYA&oe=6A8F0F64",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid0R74J3oNmfUE7mQinFJpfv1RidZnrQjDk4hP8xJ1SPV5gBTSYJJxK6AKUSZ8h5Rhul?comment_id=1549293296129099&__cft__[0]=AZau4MildFCadqj0nYx8DGTx-NdwKyVvcuMaCWe9dS7zkYWiMzKN6W9SHjrGd1QzH-WERTrCZYC7t29WRUyZ8mhx39nkhKQr4czAFA_TbQpdPV86tLnZKLr-Lqyy5sZR8_Am--sn059K4ftkhPpfw-nfaNxuQfM0jj5xOYr-ZHOtvyf1h_uXO3TwRfhZzVYsaLI&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Felicidades Amilcar Ramiro Quintanilla Arandia un abrazo fuerte hermano todo lo mejor del mundo Lily Pena"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1423,11 +1432,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 24,
+          "score": 48,
           "category": "tecnologia",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Cisterneros anuncian paro nacional desde el lunes Ver más 2 Óscar Mario Justiniano es el nuevo ministro interino de Economía tras la destitución de Gab"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Libre formaliza entrega de su proyecto para la reforma parcial de la Constitución y pide su pronto tratamiento Ver más 2 Los efectos de la emergencia e"
         }
       ],
       "error": null
