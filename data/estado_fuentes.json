@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T22:04:26-04:00",
+  "generated_at": "2026-08-23T00:03:29-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,14 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alianza_francesa_lapaz",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 34.7,
-    "horas_maximo_sin_datos": 196.2
+    "horas_promedio_sin_datos": 34.0,
+    "horas_maximo_sin_datos": 198.2
   },
   "sources": [
     {
@@ -62,22 +61,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IJjNTQviZjMQ7kNvwFtmzzK&_nc_oc=AdpNW_oyIszr9cBtTblGa2gHQhQ7cHW8sLEaR44Kb4SitZtE2hgn_Jwfg4cyPE232GQ&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=72lTNutVjVRtEIwqoZKMIg&_nc_ss=7f289&oh=00_AQHmv-Ivj-AHDJqeOOoOOE0Vl0WZir_DJJBFY7Y4AxRpsw&oe=6A900B76",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid037V4uhG3goBJWFWgR2ikRWwbzbSy74vEvQNCnKZ5LE9qQBM2uTuBfqzLaafWrNVuCl?__cft__[0]=AZZDWF2X2tAJE4bN8wQyVFPR0t7Iy99ZDjRJIhz-ipCB7NNDPSLMk4uKiC-E_BAIEYbka5EdbUsWxqX2QYx_QLHdnskC9Sqt2HD6DaDcNwjr_idVk7pAM4jts1GZKqWdXnZvB4dBQL7mz8MZSEJNlfNQew0W7XOMcaCkFwOrI4vmSRdWiQTnjhY44LsgAqMpKyw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -88,13 +78,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1rp295Iyh5oQ7kNvwGBcqMT&_nc_oc=AdpwC86af7g4G4oNxXDob671MYvcyMcNin2NDeFZNKAP4AYQJQS-R4P-QA70Bo_9dNs&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Yss2dZuoJxz7H8C3nAgs3g&_nc_ss=7f289&oh=00_AQF9Cg2HaHaioRuONM7n5M_fTO-j2qIlFyNwOZgWlWiflw&oe=6A905C83",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028v4vfGuTxGJv1DYQoNBytb4CQJTUKes3GNyYjL1ndwdfnMUQeN6w7LAAhreXicX9l?__cft__[0]=AZbFsGMwI0Tc4MNzXTQoYI0Y0z8kWOWINjNF-1Ifi4Pn0O0URJuVzHvL_7uoILBPQERBU3Sq6diHl4d4u_-x1PRYKwS260B5u_cS0aJjY1FjAf0qDSwrb5WWhRWiQQwPE19x2JQ1uVsd2wtnNVR3euMZH4TAmaEJCH_vzrHuSbRlPKq6CXN_cEScnVZgyUQRSv0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -309,22 +308,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V18zzlQFFB8Q7kNvwGm12yo&_nc_oc=AdrcvLC_UWN21ctKmhHWXeizDMicSAbJwJVnZRvxRg9vXoK_0HcExufp71DR0Kx_1_I&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Fzz_E2JElRlsAYRwfbzX6w&_nc_ss=7f289&oh=00_AQFOM-2xxW6bqy6bGhzLGrV_u2z84ltPkXqxPnDT2jS4wg&oe=6A9029CC",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid0y4TpVkGAhw2nBnMPkQN4QkoGE2x4qPqJbVQywX1xfvVQNyzQgrfzc3EvJe9id4y9l?__cft__[0]=AZZHcM0MDuRmsz3Ixu4rHPpGKDeSbHK1EKprC4Xns9AdW04ypWCxjLaRCahrhZOsHSV-1bh_wSuSa9ty7OPOVwiElPUDMqHl1sNHp8uyyQx_zPW1XkIE081ev-Le3GBRmR2JTRfhjQyAWnUnO7_D3FvkRSvA6ZMaH2DQRbS_Zts-tbEuShl0uyqTUxBiUn8qJ-s&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Schneider Peña marcó un doblete y fue la figura de una victoria que acerca a los potosinos a la zona media de la tabla. DIEZ.BO Nacional Potosí se impone por 3-0 ante Independiente"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_reduno",
@@ -386,13 +376,30 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg4-2.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TVXTViNbsi8Q7kNvwGw4Oh2&_nc_oc=Adr5Dmx2ff06EtO7YUVI0vxMlHQVMByRRA4ubZPJ9ZFo49mIM4EHMrG5wHr5pgz_gYI&_nc_zt=24&_nc_ht=scontent-hkg4-2.xx&_nc_gid=cCvcDS1MJtHW72ZYNpoL6A&_nc_ss=7f289&oh=00_AQE5RaQ7dxlIbKyuiOIITVqigy1KTTJlWwaa_VV1fp_WGA&oe=6A90348C",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/NoticiasBolivision/posts/pfbid02AesNzLXSqXYY4xJdBx2Wi5Csvn8D1GcWNCjR8RNsGwFAfdTai4UJmH8Q8mewwoAil?__cft__[0]=AZaIiA1UE1MRjOVmMxCzSqOJ-FyJc6TkxEUUw5HAYuwgG-bKC57CcNUmDtiztSjUL3_610wwsRO0XawR6pwk_X1uyla1G1ni-askXWGrWfqOUpwtd7hbgfWYogVzwFb4Ppw7gu8Bjf2rfmqKsR0vKIElcYu9SXTJqdL0lnBo-x1W29If9NwDxyad5ONFPlzZi6s&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¿Reconoce a esta persona? Buscan a sus familiares en Oruro… Ver más Mi cuate es Ver más comentarios Alejandro Colque"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/NoticiasBolivision/posts/pfbid02AesNzLXSqXYY4xJdBx2Wi5Csvn8D1GcWNCjR8RNsGwFAfdTai4UJmH8Q8mewwoAil?comment_id=868007809576147&__cft__[0]=AZaIiA1UE1MRjOVmMxCzSqOJ-FyJc6TkxEUUw5HAYuwgG-bKC57CcNUmDtiztSjUL3_610wwsRO0XawR6pwk_X1uyla1G1ni-askXWGrWfqOUpwtd7hbgfWYogVzwFb4Ppw7gu8Bjf2rfmqKsR0vKIElcYu9SXTJqdL0lnBo-x1W29If9NwDxyad5ONFPlzZi6s&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Alejandro Colque Mi cuate es 1 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_erbol",
@@ -556,22 +563,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MguWvqNd4EAQ7kNvwEMLE4H&_nc_oc=AdppEMcJoHaAEpzKz_pFgnFpT1_How0TUJWr9WesYXtKbz4jNhJ1RHlFhcEQNSaChg4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=gKyB4_E4QFSFlf1s8ZihLA&_nc_ss=7f289&oh=00_AQFXb1Rm20pNj2zh0ptteAvdIicxMXNdS1hH6XooGaZwkg&oe=6A9010F3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid036ccVQPii3thYSuitWPcsrsAL2BeQFjbcuacfaDRoFid4eBveVtwU7nbhCkUUoVRXl?__cft__[0]=AZanoQb2lgqF-GHN54aWv7gHdidJARoca2vTT5D0pTVS4lDkqUDg16RDYq7MG-p5CLcp5irCu1FcCOnxamxYhLFn4t1soXkpF9alRdurJ-_7MaT_Mq3hshxc9MY1-1d-VLTo6_DUcm9oTtQM-5qPU5yLsZwshsslNX3QLJRV6yNNrlbLxzHUL6BWlJn3BoT9KNE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "BOLIVIATV.BO MUSEF inaugura la RAE 2026, un encuentro entre cultura, saberes y medicina"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -922,13 +920,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Brll_dny0VwQ7kNvwHpausJ&_nc_oc=Adpzrwq8QZX_D9hRAWq9yvI_5p70UkHk5_lDXRaUqVsTptNSqd5SpniGBA8TZonm-fc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=p7MIq4Xd2fRvHWC85a0LEQ&_nc_ss=7f289&oh=00_AQHNTbr2-Z7nx1U_h9idAq-twRS7sGQwDvjilkHc7Cg-uQ&oe=6A904A07",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de La Paz 45 mil seguidores • 115 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1752964582495688/?__cft__[0]=AZYQ_Xu3IiPYj2YALNZQHESY5tCRQuTWU2k6Lic0K8jYvdWwexvF_H2AeWgyltXVLsf742IvAnAE0TGO11G9GMq2DHulf-YUsdsqdW19G1DQEPlYOjSZxiGP00KNtxpP4oE7kVH7ScFcwf5uXWhbHsks9ULbBhodZzP1obVw5Vid1hi6UN3jrmgi_z5y0m1WtBd1gCN86E1l7YQwrDGRO7w5&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Ser estudiante de la Alianza Francesa también es esto C… Ver más Ser estudiante de la Alianza Francesa también es esto C… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1109,13 +1116,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uSqoqkNO-zsQ7kNvwE0FMsl&_nc_oc=AdpZF3aUwFL2F9sH6gzQW3o-frPMEo1IGNjLzhO30jvTXyNw8XlnETP3WBUY-HAFMTU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=C0EVwPw_xzq2eCNHbtjffQ&_nc_ss=7f289&oh=00_AQG_nQ4c2SFXYN8Z4J6ibt4ehSatPrXUKpl9M5L1C0ICXQ&oe=6A903737",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1018191467942911/?__cft__[0]=AZahRil5Hnzs5zzCuJcWk1n-NXpc04ecL23R9ZdOJ9ysUCf_-XQoPWUfvs70RLSFrwmK8Y2AqgQg01QLXuV4SExoKc1cPGOvFDE37Akaczo3HPoTihZ30J6T3V-jxvTadQYJqggFyY2BbXQ28WsOGUkw85FAndFQViqBMCfAKk-ToruCJ1MUSskmBeP0r19GC54NsSLpPLEnY04Yv_3j52zc&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#CDL | Si tienes planes de visitar Casa de la Libertad, esta información te será de utilidad. Horarios de atención:… Ver más #CDL | Si tienes planes de visitar Casa de la Libertad, esta información te será de utilidad. Horarios de atención:… Ver más Falta saber, días horarios se atención. Tenemos problemas para reproducir este video. Más información Claudio Ramirez"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1018191467942911/?comment_id=1497149952172065&__cft__[0]=AZahRil5Hnzs5zzCuJcWk1n-NXpc04ecL23R9ZdOJ9ysUCf_-XQoPWUfvs70RLSFrwmK8Y2AqgQg01QLXuV4SExoKc1cPGOvFDE37Akaczo3HPoTihZ30J6T3V-jxvTadQYJqggFyY2BbXQ28WsOGUkw85FAndFQViqBMCfAKk-ToruCJ1MUSskmBeP0r19GC54NsSLpPLEnY04Yv_3j52zc&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Falta saber, días horarios se atención. Claudio Ramirez"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1403,8 +1427,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",

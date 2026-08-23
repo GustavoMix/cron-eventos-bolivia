@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-22T22:04:26-04:00",
+  "generated_at": "2026-08-23T00:03:29-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 29,
-    "events_today": 4
+    "events_total": 25,
+    "events_today": 1
   },
   "filters": {
     "ui_groups": [
@@ -58,11 +58,6 @@
         "count": 8
       },
       {
-        "key": "cine",
-        "label": "Cine",
-        "count": 5
-      },
-      {
         "key": "teatro",
         "label": "Teatro",
         "count": 4
@@ -91,18 +86,18 @@
         "key": "exposicion",
         "label": "Exposiciones",
         "count": 2
+      },
+      {
+        "key": "cine",
+        "label": "Cine",
+        "count": 1
       }
     ],
     "cities": [
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 11
-      },
-      {
-        "key": "Quillacollo",
-        "label": "Quillacollo",
-        "count": 4
+        "count": 8
       },
       {
         "key": "La Paz",
@@ -113,6 +108,11 @@
         "key": "Cochabamba",
         "label": "Cochabamba",
         "count": 4
+      },
+      {
+        "key": "Quillacollo",
+        "label": "Quillacollo",
+        "count": 3
       },
       {
         "key": "Sucre",
@@ -134,12 +134,12 @@
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 12
+        "count": 9
       },
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 8
+        "count": 7
       },
       {
         "key": "La Paz",
@@ -161,22 +161,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 4
+        "count": 1
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 8
+        "count": 6
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 14
+        "count": 10
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 29
+        "count": 25
       }
     ],
     "price": [
@@ -188,19 +188,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 8
+        "count": 7
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 21
+        "count": 18
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 23
+        "count": 19
       },
       {
         "key": "con_video",
@@ -332,14 +332,14 @@
     ],
     "source_classes": [
       {
-        "key": "media",
-        "label": "media",
-        "count": 12
-      },
-      {
         "key": "venue",
         "label": "venue",
         "count": 10
+      },
+      {
+        "key": "media",
+        "label": "media",
+        "count": 8
       },
       {
         "key": "ticketera",
@@ -360,110 +360,6 @@
   },
   "events": [
     {
-      "event_id": "evt_739e39109df424",
-      "title": "17/08/2026 Cultura Comerás flores de Lucía Solla Sobra: del deslumbramiento al abismo Hoy nos detenemos ante un…",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-08-22T00:00:00-04:00",
-      "starts_at_ms": 1787371200000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Sábado 22 de agosto",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Quillacollo",
-      "department": "Cochabamba",
-      "venue": null,
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/17/lecturas_4.jpg?itok=VWx45GM2",
-      "has_video": false,
-      "is_free": false,
-      "price_from": 18.0,
-      "currency": "BOB",
-      "price_label": "Bs 18",
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_d84641cf1eab0a",
-      "title": "Ciclo de cine en La Troje",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-08-22T17:00:00-04:00",
-      "starts_at_ms": 1787432400000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Sábado 22 de agosto · 17:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "cancha FIFA Arena",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_d5b964b4677271",
-      "title": "Espectáculo de danza: Negra",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-08-22T19:00:00-04:00",
-      "starts_at_ms": 1787439600000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Sábado 22 de agosto · 19:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "cancha FIFA Arena",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_78f705a994bfd1",
-      "title": "Balau: Taller de cajón peruano",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-08-22T21:30:00-04:00",
-      "starts_at_ms": 1787448600000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Sábado 22 de agosto · 21:30",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "cancha FIFA Arena",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_8616adc54bc0a1",
       "title": "Ciudad Cultural, Turismo de Altura y Economía Naranja",
       "category": "concierto",
@@ -473,9 +369,9 @@
       "ends_at_ms": null,
       "multi_day": false,
       "display_date": "Domingo 23 de agosto",
-      "lifecycle": "proximo",
-      "lifecycle_label": "Próximos",
-      "days_until": 1,
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -501,7 +397,7 @@
       "display_date": "Lunes 24 de agosto · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 2,
+      "days_until": 1,
       "is_upcoming": true,
       "city": null,
       "department": null,
@@ -527,7 +423,7 @@
       "display_date": "Viernes 28 de agosto · 16:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 6,
+      "days_until": 5,
       "is_upcoming": true,
       "city": null,
       "department": null,
@@ -553,7 +449,7 @@
       "display_date": "Sábado 29 de agosto · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 7,
+      "days_until": 6,
       "is_upcoming": true,
       "city": "Oruro",
       "department": "Oruro",
@@ -579,7 +475,7 @@
       "display_date": "Domingo 30 de agosto · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 8,
+      "days_until": 7,
       "is_upcoming": true,
       "city": "Montero",
       "department": "Santa Cruz",
@@ -605,7 +501,7 @@
       "display_date": "Domingo 30 de agosto · 20:30",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 8,
+      "days_until": 7,
       "is_upcoming": true,
       "city": "Sucre",
       "department": "Chuquisaca",
@@ -631,7 +527,7 @@
       "display_date": "Sábado 5 de septiembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 14,
+      "days_until": 13,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -657,7 +553,7 @@
       "display_date": "Lunes 14 de septiembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 23,
+      "days_until": 22,
       "is_upcoming": true,
       "city": "Quillacollo",
       "department": "Cochabamba",
@@ -683,7 +579,7 @@
       "display_date": "Lunes 14 de septiembre · 21:15",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 23,
+      "days_until": 22,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -709,7 +605,7 @@
       "display_date": "Del 18 al 27 de septiembre · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 27,
+      "days_until": 26,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -735,7 +631,7 @@
       "display_date": "Domingo 27 de septiembre · 22:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 36,
+      "days_until": 35,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -761,7 +657,7 @@
       "display_date": "Del 6 al 17 de noviembre · 16:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 76,
+      "days_until": 75,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -787,7 +683,7 @@
       "display_date": "Del 6 al 17 de noviembre · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 76,
+      "days_until": 75,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -813,7 +709,7 @@
       "display_date": "Del 6 al 17 de noviembre · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 76,
+      "days_until": 75,
       "is_upcoming": true,
       "city": "Quillacollo",
       "department": "Cochabamba",
@@ -839,7 +735,7 @@
       "display_date": "Del 6 al 17 de noviembre · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 76,
+      "days_until": 75,
       "is_upcoming": true,
       "city": "Quillacollo",
       "department": "Cochabamba",
@@ -865,7 +761,7 @@
       "display_date": "Domingo 8 de noviembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 78,
+      "days_until": 77,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -891,7 +787,7 @@
       "display_date": "Del 3 al 7 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 193,
+      "days_until": 192,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -917,7 +813,7 @@
       "display_date": "Del 5 de marzo al 2 de mayo · 23:30",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 195,
+      "days_until": 194,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -943,7 +839,7 @@
       "display_date": "Del 17 al 21 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 207,
+      "days_until": 206,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -969,7 +865,7 @@
       "display_date": "Sábado 24 de abril · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 245,
+      "days_until": 244,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -995,7 +891,7 @@
       "display_date": "Del 1 al 4 de julio",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 313,
+      "days_until": 312,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -1021,7 +917,7 @@
       "display_date": "Del 1 al 4 de julio · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 313,
+      "days_until": 312,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -1047,7 +943,7 @@
       "display_date": "Viernes 6 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 349,
+      "days_until": 348,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -1073,7 +969,7 @@
       "display_date": "Del 10 al 21 de agosto · 15:30",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 353,
+      "days_until": 352,
       "is_upcoming": true,
       "city": "Sucre",
       "department": "Chuquisaca",
@@ -1099,7 +995,7 @@
       "display_date": "Jueves 12 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 355,
+      "days_until": 354,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
