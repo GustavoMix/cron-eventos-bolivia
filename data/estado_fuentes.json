@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T11:40:24-04:00",
+  "generated_at": "2026-08-23T14:53:21-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 32.9,
-    "horas_maximo_sin_datos": 209.8
+    "horas_promedio_sin_datos": 33.2,
+    "horas_maximo_sin_datos": 213.0
   },
   "sources": [
     {
@@ -282,22 +282,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DR3htfBabtIQ7kNvwFad3Bz&_nc_oc=AdqUQnpVv5ePCXui_M180MCDcyxvsyhqo74fZRa1sW4NCCVXE9qYOGDdgbzUcy2jUgA&_nc_zt=24&_nc_ht=scontent-lhr6-1.xx&_nc_gid=CJzgpWp1e87A7zIGRHdgGw&_nc_ss=7f289&oh=00_AQHJSgi10YeMSJ21vUapjIJrIFDQXWBcxzlE1TQLBGH7lw&oe=6A90CB3E",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid0he2qKtyyMdueLja2ZidxX11T7cCQ9BQBXebweRqmZX2dGbx29anZje6XD9V5JHw8l?__cft__[0]=AZaEfScN_73_3FezKDUPeiCprQk8uIvub02pDQIh4fBb_NOycBv5lu-E2mSFBoB6LCqulsYjZcQAiykw5mjI9kJP705vDw1JCrIj9OHeonK40Ba6woYTlEH8fgj7SlhyQ0gmouN7IX_7ztizTpZ8vjjBch0LKT0VvwiAfFs2SNu9944z6UZkceHQ8fzX-hu3gaw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El presidente argentino Javier Milei se refirió por primera vez al caso de Fernando Cerimedo, su exasesor presidencial detenido en la cárcel de Palmasola por intento de… Ver más OPINION.COM.BO \"Nos dejamos de vincular en 2023\": Milei habló por primera vez de Cerimedo tras su detención"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber",
@@ -325,13 +316,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sin6-2.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=rpegEg2_vnQQ7kNvwEhoz7L&_nc_oc=Adofd6B4rfcixNj4Karb8lIl69nDnXCr2tS7WrEbzL_cQAwIh_rVxilS6nlKd183jYU&_nc_zt=24&_nc_ht=scontent-sin6-2.xx&_nc_ss=7f289&oh=00_AQHGjjst-jLhk_uMJAHslh7nNg2xJeMSl9ot799rcoKEnQ&oe=6AB2B2BA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "infantil",
+          "url": "https://www.facebook.com/RedUnotv/posts/pfbid029RmrDdqGJrCNjESWp6T35LTbxAqpa9WU1GmV3nrTY8Sus4urT8upk9mXDxgwf5J7l?__cft__[0]=AZaprVXNve5n39p4WCm71EQYJ5IVlb0ctckVeSdl6oZzZIWwFbt26yhs7RW-SYR5_mbGklFO8cM8oNYG-lfi6tVU6vhFshcnZfkOLJkYmW01m4Y-dUcN0fP5zV-NrN8RErfudkn43MIoxiM7Cq-YUoDxWdaaFDTjMKbbq9IKi49YfgV_KD7EubxH_66iimu5L70&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Economía | Comerciantes de distintos mercados de La Paz reportan un incremento en el precio del pollo y la papa, atribuido principalmente a la falta de combustible y a… Ver más REDUNO.COM.BO ¿Cómo están los precios de los productos de la canasta familiar en La Paz? Te contamos"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_unitel",
@@ -427,30 +427,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=EvVtj5Rn4lwQ7kNvwE3W_wp&_nc_oc=AdomQVgdyjV2S4asAYPidJNvUMBVCX7QbCnmiDaMV3ZKmdPL8fe7NlF69QrnXOdrQm8&_nc_zt=24&_nc_ht=scontent-fra3-2.xx&_nc_gid=HjMsH8jiebJLX0VFoaDUew&_nc_ss=7f289&oh=00_AQGJRYqZid5lcX3Ehd3yC8RENoVpYFTT7Oh-es0FR8IZ4Q&oe=6A90D7C8",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "religioso",
-          "url": "https://www.facebook.com/RadioFidesBolivia/videos/1000298089720033/?__cft__[0]=AZa3OrjPc6KeKMhkadIoixOAM0ML2AQo5tPHiOBfiU2MFfzKSuKL8oZXV1bCIlwImNk1YuQWLG82cpYTzexP8YGFJUKXitiEyQGv8S-KWVRqdIls_Sj_Px93KQKSSEL8E0f6Vxdng6jqcbCSmSCWLIT6voAhZHc5FVBgU5PTHWx3rMBga0LYZjh73B_JvyRiNoTIcxrhyGHZHoF9IQKXI9_h&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "† LA SANTA MISA † www.radiofides.com… Ver más † LA SANTA MISA † www.radiofides.com… Ver más Durante esta transmisión puedes colaborar con mi página enviando estrellas, un regalo digital que nos ayuda a seguir produciendo contenido, como Fides. Tenemos problemas para reproducir este video. Más información Ver más comentarios"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/RadioFidesBolivia/videos/1000298089720033/?comment_id=1333031269044202&__cft__[0]=AZa3OrjPc6KeKMhkadIoixOAM0ML2AQo5tPHiOBfiU2MFfzKSuKL8oZXV1bCIlwImNk1YuQWLG82cpYTzexP8YGFJUKXitiEyQGv8S-KWVRqdIls_Sj_Px93KQKSSEL8E0f6Vxdng6jqcbCSmSCWLIT6voAhZHc5FVBgU5PTHWx3rMBga0LYZjh73B_JvyRiNoTIcxrhyGHZHoF9IQKXI9_h&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Durante esta transmisión puedes colaborar con mi página enviando estrellas, un regalo digital que nos ayuda a seguir produciendo contenido, como Fides."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_anf",
@@ -580,22 +563,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/432766499_812585937576485_5980317798609638070_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dW93rZ9dv_IQ7kNvwHC9WZy&_nc_oc=AdqAnaI8r58U3rXXmbXR_F7htwut5TDZYiZpLf45jCA6joo_tMez5p_vFrrtaRY3ZTg&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=2uCI3WgBmjHOwpGO11H1Yw&_nc_ss=7f289&oh=00_AQFdn3o7xlxZz2PZeag0T3shFSaxIKUoEo2lesMXSknnGQ&oe=6A90E68A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1040176188881507/?__cft__[0]=AZaVKfb8rGXtCdJDM4ICkzpaz0twEtM9VykopQU3ut19K0mfHUGyHGXfmCUtQHIzcw_r6Itgxotujy8TPkWvZ2ZXbbPJ2VHEequZ9AtvDYeksJDlgDKNAF1LmmMhGcf7OOyu73CGr7Gmv2AvDrICKIUEkXnJDLAajdgH4crvqCltSuubrC4ionDio8Z2u0u0-oAvQCiAdyD13xsM6yoxa0ov&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "HOY DOMINGO EN LA CINEMATECA BOLIVIANA La… Ver más HOY DOMINGO EN LA CINEMATECA BOLIVIANA La… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -912,13 +886,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-SSXK-hnB4QQ7kNvwEoSyw1&_nc_oc=AdqVRuN0jCfJNrkaMYShnsz_ppbPIDi2dWpgyfEe7UqSjDtthwmSgHw37Vaw-yc5qIo&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=aZtyVEy0r_-JemvumbmzWQ&_nc_ss=7f289&oh=00_AQEt4xy_92QU2IYISP8FFI_r6p5jxQu-le9TzUhAAG8jcg&oe=6A912DA7",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -980,13 +954,30 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q7ecoGsPpwsQ7kNvwHFFC9P&_nc_oc=AdqSq44u3G_HUAp2SKCCJMlnad54LMVB9849Hy2tJS5hHslrmkLceYSxYRI1OCf71FM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=mCULW6pyeU3Nw1VoSBOkow&_nc_ss=7f289&oh=00_AQFp9lZRdqzRrzAI927GXaOzt3qiatYkceGmR2Lj-sl3Lg&oe=6A912D97",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 42,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/intervenci%C3%B3n-sonora-creada-en-un-taller-de-m%C3%BAsicos-y-actores-dirigidos-por-cergi/1533503458818126/",
+          "has_image": true,
+          "text_preview": "Intervención sonora creada en un taller de músicos y actores dirigidos por Cergio Prudencio. Con esta intervención será inaugurada la exposición de reciclaje Puré Gold que se presentará en Manzana 1... Intervención sonora creada en un taller de músicos y actores dirigidos por Cergio Prudencio. Con esta intervención será inaugurada la exposición de... Intervención sonora creada en un taller de músi"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid02A5898wxBp2h2XbqVyJKUkKFbaekxEJpRpLx3cQZkQt8678wEdnUZpkYg6SRs6fBdl?comment_id=1812089443492844&__cft__[0]=AZbhfPORyC9ldBl3tyX1cHYoxwyVZXb-FtZ4fhDkNidx7RW9oF-tVOeSThgGwipaAqi-FjpJbcxnOmo6q_nLrPeK1w82v6Efsqi2jx6nDbiPgm7QbTc9JNg02t879PKONISY6R_eSSPo1jlqvP25xBFUZel32JqmRM_JXwiVB4eywaTUeX7mLkSZiScRYA5MNnc&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Que idea genial, esperemos a Marzo, en la manzana 1 para escuchar ritmos y sonidos variados. Viva la música Nieves Vedia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1048,13 +1039,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iL6kG3A5PIUQ7kNvwEAvWhU&_nc_oc=Adrm1EwoyyvVsquDNbPMV3WlwlfmBznW1dwJlGTvFMD614ZkRH8bDHDj3-aZzyxeJ48&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=IIerC820lrrkUngQZaIhSw&_nc_ss=7f289&oh=00_AQE_-ppfky2AeHDJa8l2GqKqg-MMoloomoqv-6rwNi4I-Q&oe=6A90F80F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "taller",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/videos/as%C3%AD-fue-la-intervenci%C3%B3n-sonora-creada-en-un-taller-de-m%C3%BAsicos-y-actores-dirigido/1715614376367715/",
+          "has_image": true,
+          "text_preview": "Así fue la intervención sonora creada en un taller de músicos y actores dirigidos por el maestro Cergio Prudencio, una propuesta que explora la acústica, el ritmo y la transformación de materiales... Así fue la intervención sonora creada en un taller de músicos y actores dirigidos por el maestro Cergio Prudencio, una propuesta que explora la acústica,..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1099,30 +1099,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BsuyDkqbVLsQ7kNvwHP6xop&_nc_oc=AdqzUnMkExNjixCUc7_qfMULCbHEutZdql-LhF5hw6yiTC-ZXuuuU50UP5rsNLCqCZA&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Wtbj9bIw5ksTjZXOwEqY6A&_nc_ss=7f289&oh=00_AQHkvkFHYyk1O8c-OBkRCvs-RB0ptYCgASL9Rr-puhyn2A&oe=6A90F3AF",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02HJAQxasRxxw7HQrZXSKj3X6Kq2bVvzzY57HNNMBZYKKXDdbdiE1jxAVj7xUkJCzhl?__cft__[0]=AZbdE_cbUDvl7podRimwsv2ksnxsYhF8_FUYQnqQiYlDfwcDLZjQZkdS26twNPbxXRC35w_8LDqURGVJJJtjpJ-UNIzzETQPovbU0F1_XmH6MZ_k8qEVBRWKu5LzMPvKXQDSrf-9NuB0BSUD-5BXhUloNQOKz1QcaC9paDL5xx43ej4W9yp6C964GCcn1co4A5c&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CCPSantaCruz| Don Isaac Sandoval siempre en nuestra memoria .… Ver más Su legado continúa y se reproduce con quienes valoran la lectura, el conocimiento y el pensamiento crítico al servicio toda la sociedad. Ver más comentarios Vania Sandoval"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02HJAQxasRxxw7HQrZXSKj3X6Kq2bVvzzY57HNNMBZYKKXDdbdiE1jxAVj7xUkJCzhl?comment_id=1112548878110350&__cft__[0]=AZbdE_cbUDvl7podRimwsv2ksnxsYhF8_FUYQnqQiYlDfwcDLZjQZkdS26twNPbxXRC35w_8LDqURGVJJJtjpJ-UNIzzETQPovbU0F1_XmH6MZ_k8qEVBRWKu5LzMPvKXQDSrf-9NuB0BSUD-5BXhUloNQOKz1QcaC9paDL5xx43ej4W9yp6C964GCcn1co4A5c&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Su legado continúa y se reproduce con quienes valoran la lectura, el conocimiento y el pensamiento crítico al servicio toda la sociedad. Vania Sandoval"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1427,32 +1410,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 10,
+      "rejected": 3,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 6,
+          "score": 34,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "22/08/2026 Cocina El Pique Macho representará a Bolivia en el Mundial de Comidas de Ibai Llanos y debutará contra el pastel de choclo de Chile El reconocido streamer español Ibai Llanos dio inicio oficialmente al Mundial de Comidas 2026, un torneo viral en redes sociales donde 16 países compiten... vista 21/08/2026 Tecnología China da un giro y pide a sus robots que trabajen, no bailen En Pekín, l"
+          "text_preview": "23/08/2026 Interesante Alberto Arze, gerente de la ICAM, en Podcast Los Tiempos El aniversario de una marca país no solo es motivo de celebración, sino también un espacio para evaluar la salud del sector productivo. vista 22/08/2026 Cocina El Pique Macho representará a Bolivia en el Mundial de Comidas de Ibai Llanos y debutará contra el pastel de choclo de Chile El reconocido streamer español Ibai"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 50,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "21/08/2026 Cultura Luis Chumacero celebra su titulación con una muestra en la Gastroteca Luis Chumacero materializa hoy uno de sus anhelos: egresar como Licenciado en Artes y Escultura de la Unitepc, y para celebrar esa conquista exhibirá esta... vista 20/08/2026 Cultura Atractiva cartelera para festejar el Día Mundial del Folklore Una cartelera atractiva presenta la celebración del Día Mundial de"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
+          "reason": "tema_ajeno_a_eventos",
+          "score": 42,
           "category": "tecnologia",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Fernando Cerimedo pasa su primera noche en Palmasola por tentativa de feminicidio Ver más 2 Tensión en La Asunta: pobladores se enfrentan en medio de d"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Evo denuncia que Grupo Especial del Ejército tiene la misión de ejecutar el operativo en el Trópico Ver más 2 Policía proyecta una unidad ecoturística "
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 52,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Alberto Arze, gerente de la ICAM, en Podcast Los Tiempos 2 Estos son los 13 que se disputarán la presidencia de Brasil 3 Fuerzas comando bolivianas"
         }
       ],
       "error": null

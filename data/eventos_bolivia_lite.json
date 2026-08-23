@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-23T11:40:24-04:00",
+  "generated_at": "2026-08-23T14:53:21-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 25,
-    "events_today": 1
+    "events_total": 30,
+    "events_today": 5
   },
   "filters": {
     "ui_groups": [
@@ -58,14 +58,19 @@
         "count": 8
       },
       {
-        "key": "teatro",
-        "label": "Teatro",
-        "count": 4
+        "key": "cine",
+        "label": "Cine",
+        "count": 5
       },
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 3
+        "count": 4
+      },
+      {
+        "key": "teatro",
+        "label": "Teatro",
+        "count": 4
       },
       {
         "key": "deporte",
@@ -86,23 +91,18 @@
         "key": "exposicion",
         "label": "Exposiciones",
         "count": 2
-      },
-      {
-        "key": "cine",
-        "label": "Cine",
-        "count": 1
       }
     ],
     "cities": [
       {
+        "key": "La Paz",
+        "label": "La Paz",
+        "count": 9
+      },
+      {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
         "count": 8
-      },
-      {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 4
       },
       {
         "key": "Cochabamba",
@@ -132,6 +132,11 @@
     ],
     "departments": [
       {
+        "key": "La Paz",
+        "label": "La Paz",
+        "count": 9
+      },
+      {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
         "count": 9
@@ -140,11 +145,6 @@
         "key": "Cochabamba",
         "label": "Cochabamba",
         "count": 7
-      },
-      {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 4
       },
       {
         "key": "Chuquisaca",
@@ -161,22 +161,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 1
+        "count": 5
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 6
+        "count": 10
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 10
+        "count": 15
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 25
+        "count": 30
       }
     ],
     "price": [
@@ -193,19 +193,19 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 18
+        "count": 23
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 19
+        "count": 24
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 5
+        "count": 6
       }
     ],
     "tags": [
@@ -242,6 +242,11 @@
       {
         "key": "SMCCTAEN",
         "label": "SMCCTAEN",
+        "count": 1
+      },
+      {
+        "key": "Educación",
+        "label": "Educación",
         "count": 1
       },
       {
@@ -323,23 +328,18 @@
         "key": "Ml18Xb",
         "label": "Ml18Xb",
         "count": 1
-      },
-      {
-        "key": "Xilografía",
-        "label": "Xilografía",
-        "count": 1
       }
     ],
     "source_classes": [
       {
-        "key": "venue",
-        "label": "venue",
-        "count": 10
-      },
-      {
         "key": "media",
         "label": "media",
-        "count": 8
+        "count": 12
+      },
+      {
+        "key": "venue",
+        "label": "venue",
+        "count": 11
       },
       {
         "key": "ticketera",
@@ -360,6 +360,32 @@
   },
   "events": [
     {
+      "event_id": "evt_04ead5995dc3fc",
+      "title": "Ciclo de cine en La Troje",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-08-23T00:00:00-04:00",
+      "starts_at_ms": 1787457600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 23 de agosto",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "estadio Capriles Los",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_8616adc54bc0a1",
       "title": "Ciudad Cultural, Turismo de Altura y Economía Naranja",
       "category": "concierto",
@@ -377,6 +403,84 @@
       "department": "La Paz",
       "venue": null,
       "image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/779364669_2093222631272019_1827117015381153442_n.png?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=b96d88&_nc_ohc=KYssZ-IMawYQ7kNvwEqdXOl&_nc_oc=AdpYyA41Ad8JNlpl90FANsNWUaAY88bfGXhGmHyeOxHaMjEdb9db8xosn1P5y90W0rg&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=7xTnrVHvZww4ZBekKQM34A&_nc_ss=7f289&oh=00_AQHSDKQVeU2w61M-tkuWg4cXouHLt88E4GH1rKEjwXsXWw&oe=6A8D59E4",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_40ad5c112f7603",
+      "title": "Fundación Patiño La Paz",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-08-23T00:00:00-04:00",
+      "starts_at_ms": 1787457600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 23 de agosto",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t15.5256-10/784155018_1651390219844805_1713398330943045227_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a27664&_nc_ohc=6OSS_MzPDQkQ7kNvwFMb_4M&_nc_oc=AdqyHxnPIwFzSyz5kWhpGvyEocgKrCBcOmmppKHV15_uX92RLES4KVtVVrcAF8esFNM&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=1RvDPkinfBy_g0nujrRz-g&_nc_ss=7f289&oh=00_AQG71LZGeVKoom8fId6wSMWQF_sfyG_Sm0bV077wpJZIDQ&oe=6A90FB72",
+      "has_video": true,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_d2e3aff7426e21",
+      "title": "Espectáculo de danza: Negra",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-08-23T19:00:00-04:00",
+      "starts_at_ms": 1787526000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 23 de agosto · 19:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "estadio Capriles Los",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_c229f571a4655e",
+      "title": "Balau: Taller de cajón peruano",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-08-23T21:30:00-04:00",
+      "starts_at_ms": 1787535000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 23 de agosto · 21:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "estadio Capriles Los",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
       "has_video": false,
       "is_free": false,
       "price_from": null,
@@ -565,6 +669,32 @@
       "currency": null,
       "price_label": null,
       "status": "postergado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_8fed0078050790",
+      "title": "23/08/2026 Cultura Por qué no se han podido encontrar los restos de Federico García Lorca Da igual el lugar de…",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-14T17:00:00-04:00",
+      "starts_at_ms": 1789419600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 14 de septiembre · 17:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 22,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "estadio Capriles Ver",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/23/dc_cartelera_2.jpg?itok=6u8gEq8J",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
       "source_count": 1
     },
     {
