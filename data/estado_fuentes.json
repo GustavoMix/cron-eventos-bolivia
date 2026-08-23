@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T05:47:57-04:00",
+  "generated_at": "2026-08-23T09:06:58-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 34.2,
-    "horas_maximo_sin_datos": 203.9
+    "horas_promedio_sin_datos": 34.0,
+    "horas_maximo_sin_datos": 207.3
   },
   "sources": [
     {
@@ -27,13 +27,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Sih9209_PusQ7kNvwHp3uH-&_nc_oc=AdpD0Qrdw7OmPXSA7JiJGwRPeSCF2GiAiJArDS015WQ53PfxKJHFMWRg4v0Puw16gvU&_nc_zt=24&_nc_ht=scontent-hkg1-2.xx&_nc_gid=RmoRQMVVoK2JmpCdq-H0bA&_nc_ss=7f289&oh=00_AQGmvc1LcG60u1stGu6mJBbA8eIo6qWRsURYn4_xFa7l7g&oe=6A90D2DA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid0Qw1bhdDhw72gfjZYhKvqM1EqfifsubJFqmGKCEfZu9VAgJNY992wr94nRHMFP94jl?__cft__[0]=AZYeYMAijAYhHuYNDen-wOnj6LeBxlOCbAX6QNpgzS9h9BkfDAwAlqvJuFSKbJjPz0Eq25ELXiXfj1EgEGVSrp1Y38Rz57gXzCf28n9s8KIDd5YIz_rSqgDefDDROq_YLWYPeOSID5Q6YvrCKdc-9UdeWPrXhY4zAQBvNIiOkPJj96Cff1BjxE8vw4lB_50mfQU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡ES HOY! FINTER 2026 ENTRA EN COMPETENCIA Es… Ver más ¡ES HOY! FINTER 2026 ENTRA EN COMPETENCIA Es… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -163,13 +172,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=298EQO8aTCQQ7kNvwHHdB3Q&_nc_oc=Adq9DlOGVCUDrcrrD-BMpmvf8oGyb2qe2sX4huCxrZU3y2V5-u1MKW0NJlrb_mZZWmw&_nc_zt=24&_nc_ht=scontent-fra5-1.xx&_nc_gid=7GWj9IwEO8wXu7kc1PnqxA&_nc_ss=7f289&oh=00_AQHuzlNYras9JQ9azJFKLpI7JgePWlP8g15e0VWFxWJjpQ&oe=6A90D940",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1784037912749154/?__cft__[0]=AZYczZxkyVxcepXs3PtReYuLedg9ZZo-lgoKYc2uMo0DRh-Q0BkjaLadQT96DtOJ5RKGRpIiChYJO0d2wq0qsrAZErkNwHWul4wFQOcSr5a_OZg4Jzde4BgVIiAuq-aODCgdp0gYFdy_yewBC7nAY4RPA7SFl1iyvs4cf4zzOaJ8n6ORhl6VMWqvbmyg-b0iVHVH-tYwy9mJwo9uZf-Nbbfb&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡LAS 5 MEJORES DE LA SEMANA!… Ver más Buenas noticias Tenemos problemas para reproducir este video. Más información Ver más comentarios Isma Imeil Churqui"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1784037912749154/?comment_id=28522756817413552&__cft__[0]=AZYczZxkyVxcepXs3PtReYuLedg9ZZo-lgoKYc2uMo0DRh-Q0BkjaLadQT96DtOJ5RKGRpIiChYJO0d2wq0qsrAZErkNwHWul4wFQOcSr5a_OZg4Jzde4BgVIiAuq-aODCgdp0gYFdy_yewBC7nAY4RPA7SFl1iyvs4cf4zzOaJ8n6ORhl6VMWqvbmyg-b0iVHVH-tYwy9mJwo9uZf-Nbbfb&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Isma Imeil Churqui Buenas noticias 15 min"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -231,13 +257,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NbmXdRwt9gcQ7kNvwGNTYPv&_nc_oc=Adpf4bfLNENqARgLO_KBL3ONhds6X4cNd0ExLL_-IS_YauGjmyNfaQtG-jcRYpm4NyI&_nc_zt=24&_nc_ht=scontent-qro1-2.xx&_nc_gid=hJWUnjCBd727ZbYSUl2Big&_nc_ss=7f289&oh=00_AQEAVtGh0Obrm40fE6-sjVxrp-THLLb3xRzVsgjXGzaNXQ&oe=6A90AA21",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/gamscs/posts/2230759454431645:2230759454431645?__cft__[0]=AZa5Qce2VQ-I9f8fGwE98o18aVsEHenoXCEQ72Y_sgK2or-skIKuNFypEFzpXIhowGgpT0UZFySMfLWGfXSzXO0KzPTfKnv4vuD-g6MJ9wSHSUj4NUWOs-O_cw3d9FwSP03IpACXZV6TjSIaTlx9nvoTxqRJFKfmSL9nVCrblpRN8fnQ-fLT3o-8xxFD4fXUVhEoYD5lsC9DYZxK5NIlI9QT&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "actualizó su foto de portada. 2 días Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -503,13 +538,22 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z04oHhrnuw4Q7kNvwGoxbEW&_nc_oc=Adpmx7XHfadsbVQAJ7SNuVD_tiNkmy3wzd6Iyz7yqWLaRbZ7TiiL3iINXQ62s-LnnBo&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=4MYul2ETL6CWepm2SIOXrw&_nc_ss=7f289&oh=00_AQGELeFoayJocn2saoLD570npTsBNdMihdf0kf4Gq_r-Pw&oe=6A90DA37",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 28,
+          "category": "feria",
+          "url": "https://www.facebook.com/radiofidescb/videos/publicidad-si-vas-a-estrenar-hazlo-con-todo-y-prep%C3%A1rate-para-la-locura-de-precio/1354685640083679/",
+          "has_image": true,
+          "text_preview": "#publicidad ¡Si vas a estrenar, hazlo con todo! Y prepárate para la locura de precios de feria. Mayor calidad, mejores precios y una garantía que va mucho más allá.… Ver más #publicidad ¡Si vas a estrenar, hazlo con todo! Y prepárate para la locura de precios de feria. Mayor calidad, mejores precios y una garantía que va mucho más allá.… Ver más Tenemos problemas para reproducir este video. Más in"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ministerio_culturas",
@@ -571,22 +615,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tP3U19p36UYQ7kNvwGrogUu&_nc_oc=AdqTpp03yz9Jkb5z6HbxuYEG-ikRgN-CmQ0YlQow8D5xLbSFgL0lEipfc-CwQ9lyyr4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=4YGGKMG_ET-HhC5VPPrcfQ&_nc_ss=7f289&oh=00_AQH4bGMPzondYjJsZSRzpzg5nIhK_2C5A7Q8Y3XOHwaT-Q&oe=6A90A2D6",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02YkEQsUUFEbe3AUK8ko1MvTQtPA2AmMei7PpCm5DrPVrC936CZP7CTE2fBnLA6ifbl?__cft__[0]=AZYCCSPjpVaIUYp9EtTYOcWnzc7QEG5b4YeCcW3OLx0DWE-vytVmMhMGSyKqcrAKlor7L1OzVJCEJm_BFo6vQwB-yImiuawmPH0xpiBQQ_l89nK6GYwLLwCgHSoMiE5mQTa1ceHM2pG-L0Qh0zJ-4TWviEnuHd0izB-JEHXcCg-ap3I09deut8ZrbH7Pu54J6YA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Dos bandas, un escenario. Jarana A… Ver más Dos bandas, un escenario. Jarana A… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -631,30 +666,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ct5mJdrZzCwQ7kNvwFUlEN-&_nc_oc=AdojxDv_2m42XMOAwg2jXtnUNvk3Qht8FRB9TB726YQGzfhIMah026a5fpminQGW7NY&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=WEGzqGku5KWiebY6Jfc9Nw&_nc_ss=7f289&oh=00_AQEJ_0RfiU1OUQvoRnRlsd-rjS_qIJt-mp_j-sNrD5efPA&oe=6A908BCF",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0jBFqeExjzq3g5XnYgLtCq1tmpZgkKxRRCFfZXpEYZBs1s2f6FQVqi9hkw2gxxKvTl?__cft__[0]=AZZn092Zih0xF9AyCIfMLwyk8YQ4YIRtnUjAuvAVuUOY_YIgiU_Fgo6rsmX3PVf-1_nH8bGfLzOkBSkuPTAJmXj48B9Sicz0RT1ndm_hsTVv48JipInwcPvik3fHC4mR7eqqTzG9v3TlxI53Cm-lxH6mCBWQoA8YNYg0KARosq8ZdXgZLNb3PS5KOQtOqkyjKxc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CNM | Espacio Patrimonial… Ver más Que lindo Tenemos problemas para reproducir este video. Más información Ver más comentarios Santiago Chura Morales"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0jBFqeExjzq3g5XnYgLtCq1tmpZgkKxRRCFfZXpEYZBs1s2f6FQVqi9hkw2gxxKvTl?comment_id=1450297283602059&__cft__[0]=AZZn092Zih0xF9AyCIfMLwyk8YQ4YIRtnUjAuvAVuUOY_YIgiU_Fgo6rsmX3PVf-1_nH8bGfLzOkBSkuPTAJmXj48B9Sicz0RT1ndm_hsTVv48JipInwcPvik3fHC4mR7eqqTzG9v3TlxI53Cm-lxH6mCBWQoA8YNYg0KARosq8ZdXgZLNb3PS5KOQtOqkyjKxc&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Santiago Chura Morales Que lindo 1 día"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -665,22 +683,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Z4_hGZ1QTUMQ7kNvwE9fmWS&_nc_oc=AdrtVwzWhqyI73moGrn0MhGUaHUMTcPiFLSHDdnOx5vwXIs-pFnibkjY02-817JZn9I&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=KSHRsmaw_AWk50knZiHPow&_nc_ss=7f289&oh=00_AQEBjfBa60vAh9ESz5JQqZ4ephnPnGg8CNyANcHHh03LyQ&oe=6A907A52",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/crc-presentaci%C3%B3n-de-la-obra-de-artes-visuales-barro-y-memoriaen-el-marco-del-fom/1733684042100458/",
-          "has_image": true,
-          "text_preview": "#CRC | Presentación de la obra de artes visuales “Barro y Memoria” En el marco del fomento a la productividad cultural y la creación artística 2026, el Centro de la Revolución Cultural, dependiente... #CRC | Presentación de la obra de artes visuales “Barro y Memoria” En el marco del fomento a la productividad cultural y la creación artística 2026, el... #CRC | Presentación de la obra de artes visu"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -878,22 +887,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/782992818_1017884344403564_3614258269210393611_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=p526x296&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3FAq5TrtxG4Q7kNvwHU86HA&_nc_oc=Adpn7WWD64ckx3QBkkX0XtuI8mXjhe_q8NGCVFxfoAECNnlIP98WvRwYKxLEApx2TlI&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1T905KQaflfaU2N5EPn87w&_nc_ss=7f289&oh=00_AQG0TBYatiNcjvX9hAt3i1gR7aJxv0sEf93K9RuiS4TKJA&oe=6A907C9F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "feria",
-          "url": "https://www.facebook.com/feriafipaz/posts/pfbid02KEKd6iyyQEr4PtcgajXf8czNQq2doALLTnViTisPp4AQPFJzQC4SyTQWnXPrfhW5l?__cft__[0]=AZbHrLFRmBWO2GiAjgToG8wFRYWL2I8J_ZIXABzfg2ibqfs_ME5R-hEBCRSnChxMbX3D0sDZqZMnZOwAfJvk9HdvF1xplQVnFxVPq784x-XaZ6dL6HFz7e1MFZbqQ3sQrhazRM1-g2ci9KmL-I2Ep5BBoMUyrWJCFfEI7tZPjHNeLsG8aZHqiEE_WrKxNHHod5qgLQqFB17jrQayVESYzvocfDxvJ0NsyqaNirHXgEhUrw&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Rueda de Negocios 2026 | FIPAZ 25 AÑOS … Ver más Rueda de Negocios - FIPAZ 1 día ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
