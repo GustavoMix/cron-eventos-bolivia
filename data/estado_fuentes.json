@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T17:40:37-04:00",
+  "generated_at": "2026-08-22T22:04:26-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_alianza_francesa_lapaz",
       "fb_feicobol",
-      "fb_fundacion_cultural_bcb",
       "fb_gam_cbba",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 32.5,
-    "horas_maximo_sin_datos": 191.8
+    "horas_promedio_sin_datos": 34.7,
+    "horas_maximo_sin_datos": 196.2
   },
   "sources": [
     {
@@ -45,22 +45,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lg_wDhYTJJ8Q7kNvwH8f_Su&_nc_oc=AdqsVV06Qbzeh2wh9jXBSeqvAb8pIW_VXuN6UcV2Or85tjKUHh0RJ10c3zCOnMkPLvM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=VMJdO5-9aKpYfxliayLpfg&_nc_ss=7f289&oh=00_AQHDu5uITuMSt-haY5q6oYInfN1p5jrmT-RLaRGNe61MVQ&oe=6A8FE375",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1341558327735110/?__cft__[0]=AZZyC2dgyX69neEq6sMzvA7bVTvnFhz2pRCEjShAvtFe-iToTtl7fCcRl_zUsaiM_ej9cJaiOW0kMKjJHbW3mT9jQbPn_hjokYfzACX9X8qeBTs68QPp9tYIAqVWIqmhzXWrkjbg91KSlNAy7763-QETWS2Yul-3xKPRmwERdrl5uvTZUgJEoTFgBZC7MkOigpPfUTODKO4-w3dauRoTq2tw&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Kudailovers de La Paz y Bolivia hay cambio de lugar, tomar nota L… Ver más Kudailovers de La Paz y Bolivia hay cambio de lugar, tomar nota L… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -71,13 +62,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IJjNTQviZjMQ7kNvwFtmzzK&_nc_oc=AdpNW_oyIszr9cBtTblGa2gHQhQ7cHW8sLEaR44Kb4SitZtE2hgn_Jwfg4cyPE232GQ&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=72lTNutVjVRtEIwqoZKMIg&_nc_ss=7f289&oh=00_AQHmv-Ivj-AHDJqeOOoOOE0Vl0WZir_DJJBFY7Y4AxRpsw&oe=6A900B76",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid037V4uhG3goBJWFWgR2ikRWwbzbSy74vEvQNCnKZ5LE9qQBM2uTuBfqzLaafWrNVuCl?__cft__[0]=AZZDWF2X2tAJE4bN8wQyVFPR0t7Iy99ZDjRJIhz-ipCB7NNDPSLMk4uKiC-E_BAIEYbka5EdbUsWxqX2QYx_QLHdnskC9Sqt2HD6DaDcNwjr_idVk7pAM4jts1GZKqWdXnZvB4dBQL7mz8MZSEJNlfNQew0W7XOMcaCkFwOrI4vmSRdWiQTnjhY44LsgAqMpKyw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -309,13 +309,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V18zzlQFFB8Q7kNvwGm12yo&_nc_oc=AdrcvLC_UWN21ctKmhHWXeizDMicSAbJwJVnZRvxRg9vXoK_0HcExufp71DR0Kx_1_I&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Fzz_E2JElRlsAYRwfbzX6w&_nc_ss=7f289&oh=00_AQFOM-2xxW6bqy6bGhzLGrV_u2z84ltPkXqxPnDT2jS4wg&oe=6A9029CC",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid0y4TpVkGAhw2nBnMPkQN4QkoGE2x4qPqJbVQywX1xfvVQNyzQgrfzc3EvJe9id4y9l?__cft__[0]=AZZHcM0MDuRmsz3Ixu4rHPpGKDeSbHK1EKprC4Xns9AdW04ypWCxjLaRCahrhZOsHSV-1bh_wSuSa9ty7OPOVwiElPUDMqHl1sNHp8uyyQx_zPW1XkIE081ev-Le3GBRmR2JTRfhjQyAWnUnO7_D3FvkRSvA6ZMaH2DQRbS_Zts-tbEuShl0uyqTUxBiUn8qJ-s&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Schneider Peña marcó un doblete y fue la figura de una victoria que acerca a los potosinos a la zona media de la tabla. DIEZ.BO Nacional Potosí se impone por 3-0 ante Independiente"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_reduno",
@@ -360,30 +369,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=598kS2igu48Q7kNvwGApalD&_nc_oc=AdqQxXZNT2k2Rihld7R5ChdflimDtgXGkeN4c8d3cpwr8oFf96t6y_BI9GI9q15asNs&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=fC_ikVUMuL2V5mUHd8cTEw&_nc_ss=7f289&oh=00_AQHM8GAuWd06k4cIG2hO3XabtFgpma8qLjSyYSOJpMcPZA&oe=6A900181",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/ATBDigital/videos/1521281749764300/?__cft__[0]=AZa-RQps23aVHwBC9gnhAkaj9QaWdgnX82sX5zRtjTQ8SpxFezIQsh1nHJOShVWe4iquy01YipCLYYE9LjBl01v8tZJORxjVGVCeQQwnuOas5LHQ8OwpPwGmEaJBVy6XjIla2M679wJkZuTnvb_p5Cjz2qaEeZwhs4xEPSQhsm5OwK0qLfvBBxpjIfKf2mAFaW48qwNWNIaCguux6DLiy_YV&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#LaRedDeportivadeBolivia #FútbolBoliviano … Ver más #LaRedDeportivadeBolivia #FútbolBoliviano … Ver más Vamos tigre Tenemos problemas para reproducir este video. Más información Ver más comentarios Bacilio Rojas"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/ATBDigital/videos/1521281749764300/?comment_id=2234074747380230&__cft__[0]=AZa-RQps23aVHwBC9gnhAkaj9QaWdgnX82sX5zRtjTQ8SpxFezIQsh1nHJOShVWe4iquy01YipCLYYE9LjBl01v8tZJORxjVGVCeQQwnuOas5LHQ8OwpPwGmEaJBVy6XjIla2M679wJkZuTnvb_p5Cjz2qaEeZwhs4xEPSQhsm5OwK0qLfvBBxpjIfKf2mAFaW48qwNWNIaCguux6DLiy_YV&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Bacilio Rojas Vamos tigre 22 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_bolivision",
@@ -564,13 +556,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MguWvqNd4EAQ7kNvwEMLE4H&_nc_oc=AdppEMcJoHaAEpzKz_pFgnFpT1_How0TUJWr9WesYXtKbz4jNhJ1RHlFhcEQNSaChg4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=gKyB4_E4QFSFlf1s8ZihLA&_nc_ss=7f289&oh=00_AQFXb1Rm20pNj2zh0ptteAvdIicxMXNdS1hH6XooGaZwkg&oe=6A9010F3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Cultural BCB 29 mil seguidores • 16 seguidos Más Publicaciones Información Reels Fotos Detalles La FCBCB tiene la misión de recuperar, fortalecer, prote'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid036ccVQPii3thYSuitWPcsrsAL2BeQFjbcuacfaDRoFid4eBveVtwU7nbhCkUUoVRXl?__cft__[0]=AZanoQb2lgqF-GHN54aWv7gHdidJARoca2vTT5D0pTVS4lDkqUDg16RDYq7MG-p5CLcp5irCu1FcCOnxamxYhLFn4t1soXkpF9alRdurJ-_7MaT_Mq3hshxc9MY1-1d-VLTo6_DUcm9oTtQM-5qPU5yLsZwshsslNX3QLJRV6yNNrlbLxzHUL6BWlJn3BoT9KNE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "BOLIVIATV.BO MUSEF inaugura la RAE 2026, un encuentro entre cultura, saberes y medicina"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -922,12 +923,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de La Paz 45 mil seguidores • 115 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1142,22 +1143,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-gru1-2.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yXc9O0teZRIQ7kNvwGK46A1&_nc_oc=AdpwtvVLAlCiefRACkz79e8fRC2aAp6HITYuTyce1wLCmeLW6rtKkn3cVR2AVkieLnQ&_nc_zt=24&_nc_ht=scontent-gru1-2.xx&_nc_gid=trmCNdoJQSIqkel8ky30Iw&_nc_ss=7f289&oh=00_AQFS7KmLuaEuiduZEGaiTFzCVtlPhrN-OKTXTQuxrYFmiw&oe=6A8FFA60",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid02xBneY1tNq36BJB2epczYLrBBE3ZeiXhCpWNzV6PDGP34EXUFe9h1DwP2Cr8ADmB3l?__cft__[0]=AZZWCmc4b2VUgyowNtyT01U9qGYW-VnmUayvxI2fjgumi18zd3k1dBT8IMZVJ2j963R_S2xMrX4pESL6VpftRy5eiE2CSMDLz-KLA9JYt23MpzQ_bdZmGSeBLVXqcTROQlBMZhvn4VhmpNWdEWuNutsu6mO33yN2cKbCdLmmVUno8Vu6oTCWoH8WIDYt-5VRyeuyUsVdDuWyspzNX7krOI4W9Cd9l425W_ZBSnHZU0_7zQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CONVOCATORIA LABORAL… Ver más Facultad de Humanidades y Ciencias de la Educación USFX 1 día ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umsa",
@@ -1411,16 +1403,16 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
+          "score": 6,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "21/08/2026 Tecnología China da un giro y pide a sus robots que trabajen, no bailen En Pekín, los robots todavía bailan, boxean y juegan al ping-pong para atraer las miradas. Pero el verdadero desafío ya no está en el espectáculo, sino en... vista 20/08/2026 Medio Ambiente Cómo el cambio climático afecta la supervivencia de las mariposas En los Alpes alemanes, el aumento de las temperaturas está ob"
+          "text_preview": "22/08/2026 Cocina El Pique Macho representará a Bolivia en el Mundial de Comidas de Ibai Llanos y debutará contra el pastel de choclo de Chile El reconocido streamer español Ibai Llanos dio inicio oficialmente al Mundial de Comidas 2026, un torneo viral en redes sociales donde 16 países compiten... vista 21/08/2026 Tecnología China da un giro y pide a sus robots que trabajen, no bailen En Pekín, l"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1432,11 +1424,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 48,
+          "score": 14,
           "category": "tecnologia",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 FIFA impone duras sanciones tras los incidentes en la final del Mundial 2026 Ver más 2 Edmand Lara acusa a Fernando Cerimedo de planear un atentado con"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Embajador del Perú en Bolivia agradece a socios bolivianos por su cooperación Ver más 2 Bolivia vence a Uruguay en su debut del Sudamericano Sub-20 de "
         }
       ],
       "error": null
