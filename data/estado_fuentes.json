@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T14:53:21-04:00",
+  "generated_at": "2026-08-23T17:40:45-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 33.2,
-    "horas_maximo_sin_datos": 213.0
+    "horas_promedio_sin_datos": 31.3,
+    "horas_maximo_sin_datos": 215.8
   },
   "sources": [
     {
@@ -214,13 +214,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=biLMFrGysUsQ7kNvwGf3oo3&_nc_oc=AdqRBbLjZqwxcZYWv9Z_J99T6_3-JXfz30H0blVBNOcMTnBZKKwowQHH-GZtnMo0JfE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=VOAAwNO9SjcYBJ6zjI76mQ&_nc_ss=7f289&oh=00_AQGwAjTJPd1ASe2BqF_aLXookKvGN5JsUC-p9izzFq6WtA&oe=6A913057",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid0Kx9gBZwpQ1siyLr2pidQymKpaWE7N1Ltxv5r4Ed2HgFkiKMqXG3reES9RTN59HNYl?__cft__[0]=AZYg8MDdrv8vS7Mz3CxlmT8F_9vPKGX1sroX_xYXYojqMfP8EcBNUsBkILfK4r9JkPexa-_G7PFWM-joj9mBXA6xlWzThuMPiWQ-eYWbBwZNQZniEP5uMZP_ja6A5Nb444WqHtKRtJadHoeSzCNVbb9zAN6ENUKXuXKIEApYkFjxtQKS20z4VN7x8PaiLN0q_es&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La Gobernación de Cochabamba, a través de la Secretaría Departamental de Obras y Servicios y el SEDCAM, concluyó los trabajos de reposición de plataforma en la Ruta 432… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gamscs",
@@ -248,13 +257,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=K4aTmAjD3e8Q7kNvwF-9koT&_nc_oc=Ado8KxEhxLFB_0-zbw57LmReGKEaetw7c45Y6pW5jJFcWELzz20n0cAw4GkvVYxiW8c&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=r2fX01mHjt-znorhgHn17Q&_nc_ss=7f289&oh=00_AQF7zYFiuqJzijbIYi5ycfSrz2-zZqDAdzcudOQvbd2KKA&oe=6A913D7E",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "taller",
+          "url": "https://www.facebook.com/GobSantaCruz/posts/bomberos-desconcentrados-de-la-gobernaci%C3%B3n-en-coordinaci%C3%B3n-con-la-fundaci%C3%B3n-amig/1826393989528348/",
+          "has_image": true,
+          "text_preview": "Bomberos desconcentrados de la Gobernación, en coordinación con la Fundación Amigos de la Naturaleza (FAN), desarrollaron en el municipio de Roboré el primer curso de Técnicas Intermedias para el... Bomberos desconcentrados de la Gobernación, en coordinación con la Fundación Amigos de la Naturaleza (FAN), desarrollaron en el municipio de Roboré el... Bomberos desconcentrados de la Gobernación, en "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_lostiempos",
@@ -316,22 +334,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sin6-2.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=rpegEg2_vnQQ7kNvwEhoz7L&_nc_oc=Adofd6B4rfcixNj4Karb8lIl69nDnXCr2tS7WrEbzL_cQAwIh_rVxilS6nlKd183jYU&_nc_zt=24&_nc_ht=scontent-sin6-2.xx&_nc_ss=7f289&oh=00_AQHGjjst-jLhk_uMJAHslh7nNg2xJeMSl9ot799rcoKEnQ&oe=6AB2B2BA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "infantil",
-          "url": "https://www.facebook.com/RedUnotv/posts/pfbid029RmrDdqGJrCNjESWp6T35LTbxAqpa9WU1GmV3nrTY8Sus4urT8upk9mXDxgwf5J7l?__cft__[0]=AZaprVXNve5n39p4WCm71EQYJ5IVlb0ctckVeSdl6oZzZIWwFbt26yhs7RW-SYR5_mbGklFO8cM8oNYG-lfi6tVU6vhFshcnZfkOLJkYmW01m4Y-dUcN0fP5zV-NrN8RErfudkn43MIoxiM7Cq-YUoDxWdaaFDTjMKbbq9IKi49YfgV_KD7EubxH_66iimu5L70&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Economía | Comerciantes de distintos mercados de La Paz reportan un incremento en el precio del pollo y la papa, atribuido principalmente a la falta de combustible y a… Ver más REDUNO.COM.BO ¿Cómo están los precios de los productos de la canasta familiar en La Paz? Te contamos"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_unitel",
@@ -342,13 +351,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KoCxHnVpoyYQ7kNvwG_ooA9&_nc_oc=AdokSG3oMEXN0pW4VNb7seJDo-NPwFt4q9nw4htkps40sYyAz2FTulBT4sQN36MCnM0&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=-oHvTFOopIPGeqvYTI24GQ&_nc_ss=7f289&oh=00_AQFBDkqQAdxUES4-MMn-TIF9fael4G9fKnASZzIAwxOeQQ&oe=6A9152BF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/28576781231913997/?__cft__[0]=AZYCc4VCZuIIZy8u2N2zlbWc6l6WiZb5gUkhmdqTefmAduWt78tDBrUC0ewjPHMEpldFYZYwzbz9Wf2LH9S4ZWt0SbNAfMRS3L3NBYOdFQURz59hLt7RKHqXrd3zUwKeytgTS25JT0a2q7sMHqwwDU9RJkYg_lOwK8QiEwEt7uR8__PMW0eu2UiFqGjGdGnbtyHDTtwjl-sklgTo3qrHS1Qg&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Japón registró un nuevo sismo de magnitud 6.0 en la costa norte del país, con mayor intensidad en Hokkaido. Es el segundo movimiento de consideración en menos de un día… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_atb",
@@ -461,13 +479,30 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4MYsMD0EnBYQ7kNvwHjlKxQ&_nc_oc=Adq-ofn8kCoIfEmwxHBZPUaaxiUcNyKBthr3sXDv0_Y0I2x6zsqZ9DLPIOq1hALwXDU&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=5B85yieFcgwNh_G7mKzIJA&_nc_ss=7f289&oh=00_AQEThMJGAu35mxpXi5PHGVFCQDtJYjD6MJWE0QWPbX2dhA&oe=6A913005",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1527244352777469/?__cft__[0]=AZYTj3GqDvN4fxmGrYmJykZH0oyQ099ZQ0ztfYegPSRq_yUw83Es-ZYXR6mXGKHim2KoiqO9pPgJQsMUrwUCKaIgfKsJl2pejLUfY1v0IF4nZ2ov5wOpSOAgLKKrG4lpup4Pc-qBQLTrg-nYmmx0Xklmyuwa1E5fJrrYG4ORRxyT1MrPUqMSC-6mG-PI0TUhs6X4VImDkOBlRnyxv0WrG3CR&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#NoticieroPopular Israel fortalece su cooperación hídrica en Bolivia, ante los posibles efectos del fenómeno climático del Súper Niño. #NoticieroPopular Israel fortalece su cooperación hídrica en Bolivia, ante los posibles efectos del fenómeno climático del Súper Niño. Liberen a Palestina!!! Netanyahu geN0<|d4!! Tenemos problemas para reproducir este video. Más información Ver más comentarios Boav"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1527244352777469/?comment_id=1824211741894667&__cft__[0]=AZYTj3GqDvN4fxmGrYmJykZH0oyQ099ZQ0ztfYegPSRq_yUw83Es-ZYXR6mXGKHim2KoiqO9pPgJQsMUrwUCKaIgfKsJl2pejLUfY1v0IF4nZ2ov5wOpSOAgLKKrG4lpup4Pc-qBQLTrg-nYmmx0Xklmyuwa1E5fJrrYG4ORRxyT1MrPUqMSC-6mG-PI0TUhs6X4VImDkOBlRnyxv0WrG3CR&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Liberen a Palestina!!! Netanyahu geN0<|d4!! Boav Asac"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_abya_yala",
@@ -886,13 +921,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-SSXK-hnB4QQ7kNvwEoSyw1&_nc_oc=AdqVRuN0jCfJNrkaMYShnsz_ppbPIDi2dWpgyfEe7UqSjDtthwmSgHw37Vaw-yc5qIo&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=aZtyVEy0r_-JemvumbmzWQ&_nc_ss=7f289&oh=00_AQEt4xy_92QU2IYISP8FFI_r6p5jxQu-le9TzUhAAG8jcg&oe=6A912DA7",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -954,30 +989,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q7ecoGsPpwsQ7kNvwHFFC9P&_nc_oc=AdqSq44u3G_HUAp2SKCCJMlnad54LMVB9849Hy2tJS5hHslrmkLceYSxYRI1OCf71FM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=mCULW6pyeU3Nw1VoSBOkow&_nc_ss=7f289&oh=00_AQFp9lZRdqzRrzAI927GXaOzt3qiatYkceGmR2Lj-sl3Lg&oe=6A912D97",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 42,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/intervenci%C3%B3n-sonora-creada-en-un-taller-de-m%C3%BAsicos-y-actores-dirigidos-por-cergi/1533503458818126/",
-          "has_image": true,
-          "text_preview": "Intervención sonora creada en un taller de músicos y actores dirigidos por Cergio Prudencio. Con esta intervención será inaugurada la exposición de reciclaje Puré Gold que se presentará en Manzana 1... Intervención sonora creada en un taller de músicos y actores dirigidos por Cergio Prudencio. Con esta intervención será inaugurada la exposición de... Intervención sonora creada en un taller de músi"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid02A5898wxBp2h2XbqVyJKUkKFbaekxEJpRpLx3cQZkQt8678wEdnUZpkYg6SRs6fBdl?comment_id=1812089443492844&__cft__[0]=AZbhfPORyC9ldBl3tyX1cHYoxwyVZXb-FtZ4fhDkNidx7RW9oF-tVOeSThgGwipaAqi-FjpJbcxnOmo6q_nLrPeK1w82v6Efsqi2jx6nDbiPgm7QbTc9JNg02t879PKONISY6R_eSSPo1jlqvP25xBFUZel32JqmRM_JXwiVB4eywaTUeX7mLkSZiScRYA5MNnc&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Que idea genial, esperemos a Marzo, en la manzana 1 para escuchar ritmos y sonidos variados. Viva la música Nieves Vedia"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1039,22 +1057,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iL6kG3A5PIUQ7kNvwEAvWhU&_nc_oc=Adrm1EwoyyvVsquDNbPMV3WlwlfmBznW1dwJlGTvFMD614ZkRH8bDHDj3-aZzyxeJ48&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=IIerC820lrrkUngQZaIhSw&_nc_ss=7f289&oh=00_AQE_-ppfky2AeHDJa8l2GqKqg-MMoloomoqv-6rwNi4I-Q&oe=6A90F80F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "taller",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/videos/as%C3%AD-fue-la-intervenci%C3%B3n-sonora-creada-en-un-taller-de-m%C3%BAsicos-y-actores-dirigido/1715614376367715/",
-          "has_image": true,
-          "text_preview": "Así fue la intervención sonora creada en un taller de músicos y actores dirigidos por el maestro Cergio Prudencio, una propuesta que explora la acústica, el ritmo y la transformación de materiales... Así fue la intervención sonora creada en un taller de músicos y actores dirigidos por el maestro Cergio Prudencio, una propuesta que explora la acústica,..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
