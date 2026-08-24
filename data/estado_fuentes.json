@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T17:40:45-04:00",
+  "generated_at": "2026-08-23T22:02:36-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 31.3,
-    "horas_maximo_sin_datos": 215.8
+    "horas_promedio_sin_datos": 32.7,
+    "horas_maximo_sin_datos": 220.2
   },
   "sources": [
     {
@@ -180,13 +180,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=98y_mac1yDMQ7kNvwG6HqPd&_nc_oc=AdrrixHin72R2n9rimjhlYLDiPiWmGnnD3QFC52o79DFp5-k0bV-DrpQjs4PrNCpiio&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=21hHpHB9RKnCuBW_Uno7aA&_nc_ss=7f289&oh=00_AQGVVfElE1-qjh0jCg48BWESo0BI-m3hsrqTvO5b8Td65A&oe=6A916E78",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid02QjKnGiZfAgZ6hVnRFKpbgYnHwSeJg8KvQF4B6XtL116P8r9CWN3gWGN83RAPVN4el?__cft__[0]=AZZoUBVcailzhRzUflBNjmDNDhvmYsz4G7cxyObRfoqhkrUr7gOFey07j_NMc7ZAS1A07waj_Ogv3LGkQGbIT2wI8x47vn4DNfgdJwQ5Xwny755irvMWbzF_NqIM_8DtFZot32s--iW7shU2cjOIHS_SXC974tTt_KV0PRdoJ-XOqArk1JDB7uYe7Z4S-meHHwc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Llegamos a la localidad de San José de Uchupiamonas, dentro del Parque Nacional Madidi. Allí, el gobernador escuchó las necesidades y prioridades de la población, y coo… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -214,22 +223,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=biLMFrGysUsQ7kNvwGf3oo3&_nc_oc=AdqRBbLjZqwxcZYWv9Z_J99T6_3-JXfz30H0blVBNOcMTnBZKKwowQHH-GZtnMo0JfE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=VOAAwNO9SjcYBJ6zjI76mQ&_nc_ss=7f289&oh=00_AQGwAjTJPd1ASe2BqF_aLXookKvGN5JsUC-p9izzFq6WtA&oe=6A913057",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid0Kx9gBZwpQ1siyLr2pidQymKpaWE7N1Ltxv5r4Ed2HgFkiKMqXG3reES9RTN59HNYl?__cft__[0]=AZYg8MDdrv8vS7Mz3CxlmT8F_9vPKGX1sroX_xYXYojqMfP8EcBNUsBkILfK4r9JkPexa-_G7PFWM-joj9mBXA6xlWzThuMPiWQ-eYWbBwZNQZniEP5uMZP_ja6A5Nb444WqHtKRtJadHoeSzCNVbb9zAN6ENUKXuXKIEApYkFjxtQKS20z4VN7x8PaiLN0q_es&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La Gobernación de Cochabamba, a través de la Secretaría Departamental de Obras y Servicios y el SEDCAM, concluyó los trabajos de reposición de plataforma en la Ruta 432… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -257,22 +257,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=K4aTmAjD3e8Q7kNvwF-9koT&_nc_oc=Ado8KxEhxLFB_0-zbw57LmReGKEaetw7c45Y6pW5jJFcWELzz20n0cAw4GkvVYxiW8c&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=r2fX01mHjt-znorhgHn17Q&_nc_ss=7f289&oh=00_AQF7zYFiuqJzijbIYi5ycfSrz2-zZqDAdzcudOQvbd2KKA&oe=6A913D7E",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "taller",
-          "url": "https://www.facebook.com/GobSantaCruz/posts/bomberos-desconcentrados-de-la-gobernaci%C3%B3n-en-coordinaci%C3%B3n-con-la-fundaci%C3%B3n-amig/1826393989528348/",
-          "has_image": true,
-          "text_preview": "Bomberos desconcentrados de la Gobernación, en coordinación con la Fundación Amigos de la Naturaleza (FAN), desarrollaron en el municipio de Roboré el primer curso de Técnicas Intermedias para el... Bomberos desconcentrados de la Gobernación, en coordinación con la Fundación Amigos de la Naturaleza (FAN), desarrollaron en el municipio de Roboré el... Bomberos desconcentrados de la Gobernación, en "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_lostiempos",
@@ -351,22 +342,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KoCxHnVpoyYQ7kNvwG_ooA9&_nc_oc=AdokSG3oMEXN0pW4VNb7seJDo-NPwFt4q9nw4htkps40sYyAz2FTulBT4sQN36MCnM0&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=-oHvTFOopIPGeqvYTI24GQ&_nc_ss=7f289&oh=00_AQFBDkqQAdxUES4-MMn-TIF9fael4G9fKnASZzIAwxOeQQ&oe=6A9152BF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/28576781231913997/?__cft__[0]=AZYCc4VCZuIIZy8u2N2zlbWc6l6WiZb5gUkhmdqTefmAduWt78tDBrUC0ewjPHMEpldFYZYwzbz9Wf2LH9S4ZWt0SbNAfMRS3L3NBYOdFQURz59hLt7RKHqXrd3zUwKeytgTS25JT0a2q7sMHqwwDU9RJkYg_lOwK8QiEwEt7uR8__PMW0eu2UiFqGjGdGnbtyHDTtwjl-sklgTo3qrHS1Qg&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Japón registró un nuevo sismo de magnitud 6.0 en la costa norte del país, con mayor intensidad en Hokkaido. Es el segundo movimiento de consideración en menos de un día… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_atb",
@@ -479,30 +461,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4MYsMD0EnBYQ7kNvwHjlKxQ&_nc_oc=Adq-ofn8kCoIfEmwxHBZPUaaxiUcNyKBthr3sXDv0_Y0I2x6zsqZ9DLPIOq1hALwXDU&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=5B85yieFcgwNh_G7mKzIJA&_nc_ss=7f289&oh=00_AQEThMJGAu35mxpXi5PHGVFCQDtJYjD6MJWE0QWPbX2dhA&oe=6A913005",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1527244352777469/?__cft__[0]=AZYTj3GqDvN4fxmGrYmJykZH0oyQ099ZQ0ztfYegPSRq_yUw83Es-ZYXR6mXGKHim2KoiqO9pPgJQsMUrwUCKaIgfKsJl2pejLUfY1v0IF4nZ2ov5wOpSOAgLKKrG4lpup4Pc-qBQLTrg-nYmmx0Xklmyuwa1E5fJrrYG4ORRxyT1MrPUqMSC-6mG-PI0TUhs6X4VImDkOBlRnyxv0WrG3CR&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#NoticieroPopular Israel fortalece su cooperación hídrica en Bolivia, ante los posibles efectos del fenómeno climático del Súper Niño. #NoticieroPopular Israel fortalece su cooperación hídrica en Bolivia, ante los posibles efectos del fenómeno climático del Súper Niño. Liberen a Palestina!!! Netanyahu geN0<|d4!! Tenemos problemas para reproducir este video. Más información Ver más comentarios Boav"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1527244352777469/?comment_id=1824211741894667&__cft__[0]=AZYTj3GqDvN4fxmGrYmJykZH0oyQ099ZQ0ztfYegPSRq_yUw83Es-ZYXR6mXGKHim2KoiqO9pPgJQsMUrwUCKaIgfKsJl2pejLUfY1v0IF4nZ2ov5wOpSOAgLKKrG4lpup4Pc-qBQLTrg-nYmmx0Xklmyuwa1E5fJrrYG4ORRxyT1MrPUqMSC-6mG-PI0TUhs6X4VImDkOBlRnyxv0WrG3CR&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Liberen a Palestina!!! Netanyahu geN0<|d4!! Boav Asac"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_abya_yala",
@@ -649,13 +614,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Go7ugyOhd6kQ7kNvwHbIMbD&_nc_oc=AdpgD9xZHMyY8-vbYmjVqSVrggFRWDvjWfAgoDVZxXBZxyvtsOxrEyxun2r2lxtlJ38&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=XwkuxaZ49-XDxkrcHeXVAQ&_nc_ss=7f289&oh=00_AQETp_NxMbctPiPjDVgidvoUiMAUdMvLIbiG55-8gVCIGw&oe=6A918D73",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -1040,13 +1005,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Z_gsk0zXwpAQ7kNvwGjXHsd&_nc_oc=AdqbjP3qVFv3f3r9Jhteh0XtJyYFNRsGjjyK2U3HpptJOL8G2ZzZSnGgxcKmkIym6Sg&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=WEHLCgLTbpvWU-f7lZsV2Q&_nc_ss=7f289&oh=00_AQE5oEANnBTN4er6hDe8v7WpHuVThHexmtbS1vD7Bzv6xw&oe=6A915F34",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid0rspMNBiHwVjJfwdLydNFuryLL3Twjf6nW8Uh8xwtj9Fe2L3dCyb8bvDGq3sBUXcgl?__cft__[0]=AZbrPvdM721P9GpLZFgIwkB-pTvMfmBXQldo-ivPKOKjoUDRcurrwbq3MySQQ_Fq1tx9-CFPSDwmHHxOTLQb3lJDwgDKy7vQaDgN2nM5RlR8Rxsn8ZOuZndAHrQa3PQz6eEZDiTgUAwZYehagi2MW_mE97Ix01pboqgf7oswhXWIWR7pKpOoRxZi8DdKPDGl9eI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Cultura | Ruta de los Palacios… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1142,13 +1116,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7A1SJ194y3wQ7kNvwG2yMFC&_nc_oc=Adqi8m6ddRhipirgJ6fQ493M8OwVuJGkESTZR5pmPhMuPOPDW8uZj6BTIvDDyzuzh04&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=0J9FbTRKn_Qj_QuBe35sIA&_nc_ss=7f289&oh=00_AQF3JrQjR0wxd9GtCrj6IA5sIAc_ZKtrYdp3HnLFzXtsLw&oe=6A917A24",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid0RQrpKJgEft6UbanzRsD6w4UibcaNPXMTMXCtAsg2CeicS7UR1jHJg3yppLHamGpCl?comment_id=1549293296129099&__cft__[0]=AZZ6AuH9UFvOglr0DMNixmPZPgFU7EQPJ-fcx9YqYTehcs2GOL7zwsqI4fsDxcAA24Lquu0vqerycEpzx1CFntTsDRpWPnfplMHtbdCa24rD9NgotuJJ9IIqR1VdA0Ck7r8Lkk0-vPHkJ81l65U6t5c_wSe_rfotTDscS9LdPnP1QDglpO4wV9N3TrmI6jIPRKE&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Felicidades Amilcar Ramiro Quintanilla Arandia un abrazo fuerte hermano todo lo mejor del mundo Lily Pena"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1416,38 +1399,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
-      "status": "ok",
-      "raw_items": 13,
-      "events": 10,
-      "rejected": 3,
-      "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/tendencias",
-          "has_image": true,
-          "text_preview": "23/08/2026 Interesante Alberto Arze, gerente de la ICAM, en Podcast Los Tiempos El aniversario de una marca país no solo es motivo de celebración, sino también un espacio para evaluar la salud del sector productivo. vista 22/08/2026 Cocina El Pique Macho representará a Bolivia en el Mundial de Comidas de Ibai Llanos y debutará contra el pastel de choclo de Chile El reconocido streamer español Ibai"
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 42,
-          "category": "tecnologia",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
-          "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Evo denuncia que Grupo Especial del Ejército tiene la misión de ejecutar el operativo en el Trópico Ver más 2 Policía proyecta una unidad ecoturística "
-        },
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 52,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Alberto Arze, gerente de la ICAM, en Podcast Los Tiempos 2 Estos son los 13 que se disputarán la presidencia de Brasil 3 Fuerzas comando bolivianas"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Server error '502 Bad Gateway' for url 'https://www.lostiempos.com/servicios/agenda-cultural' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502"
     },
     {
       "id": "web_fexpocruz",

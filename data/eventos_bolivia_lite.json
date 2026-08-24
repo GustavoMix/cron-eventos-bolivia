@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-23T17:40:45-04:00",
+  "generated_at": "2026-08-23T22:02:36-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 30,
+    "events_total": 31,
     "events_today": 5
   },
   "filters": {
@@ -65,7 +65,7 @@
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 4
+        "count": 5
       },
       {
         "key": "teatro",
@@ -97,7 +97,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 9
+        "count": 10
       },
       {
         "key": "Santa Cruz de la Sierra",
@@ -134,7 +134,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 9
+        "count": 10
       },
       {
         "key": "Santa Cruz",
@@ -166,24 +166,24 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 10
+        "count": 11
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 15
+        "count": 16
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 30
+        "count": 31
       }
     ],
     "price": [
       {
         "key": "gratis",
         "label": "Gratis",
-        "count": 0
+        "count": 1
       },
       {
         "key": "pagado",
@@ -200,7 +200,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 24
+        "count": 25
       },
       {
         "key": "con_video",
@@ -247,6 +247,11 @@
       {
         "key": "Educación",
         "label": "Educación",
+        "count": 1
+      },
+      {
+        "key": "Concierto",
+        "label": "Concierto",
         "count": 1
       },
       {
@@ -323,11 +328,6 @@
         "key": "OportunidadesParaTodos",
         "label": "OportunidadesParaTodos",
         "count": 1
-      },
-      {
-        "key": "Ml18Xb",
-        "label": "Ml18Xb",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -339,7 +339,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 11
+        "count": 12
       },
       {
         "key": "ticketera",
@@ -516,6 +516,32 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_5bce39ac717a93",
+      "title": "Museo Nacional de Etnografia y Folklore",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-08-24T19:00:00-04:00",
+      "starts_at_ms": 1787612400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 24 de agosto · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 1,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.99422-6/780893533_1073768215632761_7358862550715623375_n.png?stp=dst-jpg_tt6&cstp=mx1131x1131&ctp=s600x600&_nc_cat=102&ccb=1-7&_nc_sid=cae128&_nc_ohc=WKTzKy90dNkQ7kNvwFgunO8&_nc_oc=Adr6ILyLN5vA9UCrXq2rU_GZmDYxBG5C3T49upHc6oNbp6u2X37yd2rPp3YIiu6-a0g&_nc_zt=14&_nc_ht=scontent-ams2-1.xx&_nc_gid=dlkZG4L0yTq65HCBwdCMQw&_nc_ss=7f289&oh=00_AQFGYXbF64cKXWYlpLVO8CI6gRVLaAg4M1qggmzunjyhYg&oe=6A91867B",
+      "has_video": false,
+      "is_free": true,
+      "price_from": null,
+      "currency": null,
+      "price_label": "Entrada libre",
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_d5c70cee9f3663",
       "title": "II Festival Nacional de Folklore",
       "category": "festival",
@@ -610,7 +636,7 @@
       "city": "Sucre",
       "department": "Chuquisaca",
       "venue": null,
-      "image_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/774059536_1581812890400545_475533890473175682_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1367&ctp=p600x600&_nc_cat=105&ccb=1-7&_nc_sid=cae128&_nc_ohc=c03y8_TT6WgQ7kNvwGkavOW&_nc_oc=Adp-RgcBMbv-C-Y5Wm4qX_Ry4f2Qhax1CO7tTQKct2d4mpXfdFQFl47ktK5BGpAXaQQ&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=UMGOo20L5FRDdahbtjzo3A&_nc_ss=7f289&oh=00_AQEYeOo8SDrylBqEQlonfjn_vCwfNkQkAkSKWoGbOxpdyg&oe=6A8F2BC5",
+      "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/774059536_1581812890400545_475533890473175682_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1367&ctp=p600x600&_nc_cat=105&ccb=1-7&_nc_sid=cae128&_nc_ohc=c03y8_TT6WgQ7kNvwH8C6Hu&_nc_oc=AdpRiheFCLvUGZwy7Y4edYErCy49I1mlR7AFWo_EH8sa5frM_W7bTsn0uvW1tzW9Ero&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=mP6YMvDMqZKOEtkINSKgAw&_nc_ss=7f289&oh=00_AQH5pDj1mMC8FYqiFggVDBMGOfRSzAb3wGvnOT6WpX0RuA&oe=6A915E45",
       "has_video": false,
       "is_free": false,
       "price_from": null,
