@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T22:02:36-04:00",
+  "generated_at": "2026-08-24T00:08:46-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,12 +10,14 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
+      "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_teatro_aire_libre"
+      "fb_teatro_aire_libre",
+      "fb_teatros_municipales_lapaz"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 32.7,
-    "horas_maximo_sin_datos": 220.2
+    "horas_promedio_sin_datos": 33.1,
+    "horas_maximo_sin_datos": 222.3
   },
   "sources": [
     {
@@ -129,13 +131,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=js4XtN8G68QQ7kNvwE1avNI&_nc_oc=Adq-CO5Atp1rLrEuE1-SCg8stcbRfFoCsdSg-WaxUioenTFVZ1YNbOYcD8AomwEW3GE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=6-170ZCEKpJBSyPD8si-lA&_nc_ss=7f289&oh=00_AQFHYEgcWroitXALsTSpJocLjSirvGJZlDj8Ct892Edt1g&oe=6A918985",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1737456460699021/?__cft__[0]=AZYI78nanVIiNeOX4zHNZGzpu1Jqg4RKcMlLicPR7-NwIqbtX3jIsgddRUs2vwN8BABSVMnHhOQsvEcPFz1IjpMuKnK0Pw8jIrU4S6aBlB-XsVGYYzEaxiNYSPtxHNCoH8ann-imx_Vj1srM8J_1-ukkSLuzno5--1gGVwQKdebvMcUAhnogS1cV3-nrLkGLE094Uarh1QxFtNLGyjvxoKes&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "OPERACIÓN ESCOBA EN SAN FRANCISCO… Ver más Alcalde cumpla con la empresa de La Paz Limpia y Trébol a favor de los trabajadores Tenemos problemas para reproducir este video. Más información Ver más comentarios Maria Sangally"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1737456460699021/?comment_id=1377426687930866&__cft__[0]=AZYI78nanVIiNeOX4zHNZGzpu1Jqg4RKcMlLicPR7-NwIqbtX3jIsgddRUs2vwN8BABSVMnHhOQsvEcPFz1IjpMuKnK0Pw8jIrU4S6aBlB-XsVGYYzEaxiNYSPtxHNCoH8ann-imx_Vj1srM8J_1-ukkSLuzno5--1gGVwQKdebvMcUAhnogS1cV3-nrLkGLE094Uarh1QxFtNLGyjvxoKes&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Alcalde cumpla con la empresa de La Paz Limpia y Trébol a favor de los trabajadores Maria Sangally"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_amun_lapaz",
@@ -180,22 +199,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=98y_mac1yDMQ7kNvwG6HqPd&_nc_oc=AdrrixHin72R2n9rimjhlYLDiPiWmGnnD3QFC52o79DFp5-k0bV-DrpQjs4PrNCpiio&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=21hHpHB9RKnCuBW_Uno7aA&_nc_ss=7f289&oh=00_AQGVVfElE1-qjh0jCg48BWESo0BI-m3hsrqTvO5b8Td65A&oe=6A916E78",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid02QjKnGiZfAgZ6hVnRFKpbgYnHwSeJg8KvQF4B6XtL116P8r9CWN3gWGN83RAPVN4el?__cft__[0]=AZZoUBVcailzhRzUflBNjmDNDhvmYsz4G7cxyObRfoqhkrUr7gOFey07j_NMc7ZAS1A07waj_Ogv3LGkQGbIT2wI8x47vn4DNfgdJwQ5Xwny755irvMWbzF_NqIM_8DtFZot32s--iW7shU2cjOIHS_SXC974tTt_KV0PRdoJ-XOqArk1JDB7uYe7Z4S-meHHwc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Llegamos a la localidad de San José de Uchupiamonas, dentro del Parque Nacional Madidi. Allí, el gobernador escuchó las necesidades y prioridades de la población, y coo… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gam_cbba",
@@ -275,12 +285,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_opinion",
@@ -597,13 +607,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/783799810_1726701101786560_57118929818797424_n.png?stp=dst-jpg_tt6&cstp=mx1024x1280&ctp=s640x640&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=eTf9YSCJOhQQ7kNvwEmIULF&_nc_oc=Adq5LsHbmWmKd1GGS_hWJHFZfEb0jZgGzKn-2Tm4E_tPREUPpFGhW-UQv2iMJXgs-ZI&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=kHB7Snu-23gtH0naWxzgvg&_nc_ss=7f289&oh=00_AQEDe5UI8bQXbxemtbEl-8klk6hXM25Bd4MMIsBQh64F-g&oe=6A91A2F7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 42,
+          "category": "otro",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid0ULgUaTHnHWPYJKf5XgJAb7acP3W7VAHFX4y8CLUjHHsFFajQmQghQou2hNx42NQzl?__cft__[0]=AZZ_o6Qqb856cvSV49es7KBXDsOo00B7Mc4lOauj2NRnBz3oH6PzKKhUhAFP1VgH18fv3WnPzhxP9o9PKlwA3H6GQ7gQ8rKBfj-wBhdf5HQudSb0exNSTr2Ce48yiWutgeWHuRbOzFU1BZR9akSh8oNOE5iFapDod0eQO0VMoswO7gw_X5A7kjQjNZKWtWX5sX0&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#MNA | Hoy celebramos al Museo Nacional de Etnografia y Folklore por un año más de trayectoria, compromiso y dedicación a la cultura boliviana.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -614,13 +633,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Go7ugyOhd6kQ7kNvwHbIMbD&_nc_oc=AdpgD9xZHMyY8-vbYmjVqSVrggFRWDvjWfAgoDVZxXBZxyvtsOxrEyxun2r2lxtlJ38&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=XwkuxaZ49-XDxkrcHeXVAQ&_nc_ss=7f289&oh=00_AQETp_NxMbctPiPjDVgidvoUiMAUdMvLIbiG55-8gVCIGw&oe=6A918D73",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -921,12 +940,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Ciudad Cultural, Turismo de Altura y Economía Naranja 43 mil seguidores • 400 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en '"
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1005,22 +1024,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Z_gsk0zXwpAQ7kNvwGjXHsd&_nc_oc=AdqbjP3qVFv3f3r9Jhteh0XtJyYFNRsGjjyK2U3HpptJOL8G2ZzZSnGgxcKmkIym6Sg&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=WEHLCgLTbpvWU-f7lZsV2Q&_nc_ss=7f289&oh=00_AQE5oEANnBTN4er6hDe8v7WpHuVThHexmtbS1vD7Bzv6xw&oe=6A915F34",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid0rspMNBiHwVjJfwdLydNFuryLL3Twjf6nW8Uh8xwtj9Fe2L3dCyb8bvDGq3sBUXcgl?__cft__[0]=AZbrPvdM721P9GpLZFgIwkB-pTvMfmBXQldo-ivPKOKjoUDRcurrwbq3MySQQ_Fq1tx9-CFPSDwmHHxOTLQb3lJDwgDKy7vQaDgN2nM5RlR8Rxsn8ZOuZndAHrQa3PQz6eEZDiTgUAwZYehagi2MW_mE97Ix01pboqgf7oswhXWIWR7pKpOoRxZi8DdKPDGl9eI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Cultura | Ruta de los Palacios… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1116,22 +1126,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7A1SJ194y3wQ7kNvwG2yMFC&_nc_oc=Adqi8m6ddRhipirgJ6fQ493M8OwVuJGkESTZR5pmPhMuPOPDW8uZj6BTIvDDyzuzh04&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=0J9FbTRKn_Qj_QuBe35sIA&_nc_ss=7f289&oh=00_AQF3JrQjR0wxd9GtCrj6IA5sIAc_ZKtrYdp3HnLFzXtsLw&oe=6A917A24",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid0RQrpKJgEft6UbanzRsD6w4UibcaNPXMTMXCtAsg2CeicS7UR1jHJg3yppLHamGpCl?comment_id=1549293296129099&__cft__[0]=AZZ6AuH9UFvOglr0DMNixmPZPgFU7EQPJ-fcx9YqYTehcs2GOL7zwsqI4fsDxcAA24Lquu0vqerycEpzx1CFntTsDRpWPnfplMHtbdCa24rD9NgotuJJ9IIqR1VdA0Ck7r8Lkk0-vPHkJ81l65U6t5c_wSe_rfotTDscS9LdPnP1QDglpO4wV9N3TrmI6jIPRKE&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Felicidades Amilcar Ramiro Quintanilla Arandia un abrazo fuerte hermano todo lo mejor del mundo Lily Pena"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1399,13 +1400,38 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Server error '502 Bad Gateway' for url 'https://www.lostiempos.com/servicios/agenda-cultural' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502"
+      "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
+      "status": "ok",
+      "raw_items": 13,
+      "events": 9,
+      "rejected": 4,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 38,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "23/08/2026 Interesante Alberto Arze, gerente de la ICAM, en Podcast Los Tiempos El aniversario de una marca país no solo es motivo de celebración, sino también un espacio para evaluar la salud del sector productivo. vista 23/08/2026 Ciencia Eclipse \"Luna de sangre\" en Bolivia: ¿Cuándo y cómo verlo? Bolivia se prepara para observar un nuevo fenómeno astronómico: un eclipse parcial de Luna, que podr"
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 40,
+          "category": "tecnologia",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Tensión en La Asunta: pobladores se enfrentan en medio de denuncias de actividades mineras ilegales en el río Boopi Ver más 2 Eclipse \"Luna de sangre\" "
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 52,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Al menos seis sectores dan ultimátum al Gobierno; piden abrogar decreto sobre diésel o bloquearán 2 Alberto Arze, gerente de la ICAM, en Podcast Lo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_fexpocruz",
