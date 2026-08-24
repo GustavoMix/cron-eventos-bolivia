@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T03:24:52-04:00",
+  "generated_at": "2026-08-24T06:08:08-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_alianza_francesa_sucre",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -15,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 33.6,
-    "horas_maximo_sin_datos": 225.6
+    "horas_promedio_sin_datos": 35.0,
+    "horas_maximo_sin_datos": 228.3
   },
   "sources": [
     {
@@ -96,13 +97,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/783323362_1417573943597142_2302410697481524625_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=6ihP--vzT5kQ7kNvwGkjEk_&_nc_oc=AdoMzpyUWVWqy9MlmsgkkwD1rRQTx4O5-4BOWjw9f2wh2AoWpzv_jyqzlPeS42D01kU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=t1cJMZgF0hsUePkupL_R2Q&_nc_ss=7f289&oh=00_AQG1EkJ2fwjAQBBIykiy4yglX_DLYPBSAG-gqeyUWA05_Q&oe=6A91DF5C",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -759,22 +760,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=k5F_ApkaXLsQ7kNvwElxXzV&_nc_oc=AdrwzlwNleinABH1K3a28aPut_F-Y7A727gXXEgdLjDoaKTGJ0htAmLaXK2Hxy_oiqM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=KzUR8q-AYCPpGG3yXlCUdQ&_nc_ss=7f289&oh=00_AQEXsAmowYmHmGTm4MF1qZOvcBTgCU1s1VyPnMa-EQksbw&oe=6A91DE2A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": true,
-          "text_preview": "Así se vivió el Día 3 FEXPO 2026 NOCHE CHAQUEÑA en el Pabellón B del Gobierno Autónomo Departamental de Chuquisaca."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_oruro",
@@ -836,30 +828,13 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ser7DhgVwxAQ7kNvwF9YqWY&_nc_oc=AdrYQfMiDf0dDMvCUFGAo4nz5L1mXmmVBxqoJLqW9CR5aKM4xSmjHgH9VEOZ8paKoqg&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=BghMsPXXQGYZ77653d9PaQ&_nc_ss=7f289&oh=00_AQF-47eWpVcnSzrNglp9AW-tXOSnO6uqxukuV4ea2rdHlg&oe=6A91CA69",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDelBeni/posts/1689887975362010:1689887975362010?__cft__[0]=AZYxfvdVNWqBCKDyCHJRJl0JL8PAEXN5pcVk53LHnZ7xsWqfNVO-JuN66upY46QR3gmV_2KxG43y93fWz6fytCJ8EZ5pA-AoW0AQWyv5Fx1byhbrjoOdnP0ItOt-p3VsXs_aWxK8YtwJwRyK44SOs5mz9itSqOD9YBNuMwnHOrHTP6gs-eXKQlyLnIrjtCdIFtCJWX-6EhzriTMp0wYj4ev7&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Ver más comentarios Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDelBeni/",
-          "has_image": false,
-          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fipaz",
@@ -938,30 +913,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wjAj275wXgMQ7kNvwFHZfLV&_nc_oc=AdrX83OpBMnwB-B6Xo448QobZda91Em3T9tn8SpPaKBSGd-kfhnadoOoY8zia1lEAiw&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=yj1VsP8m7QSdzEx04YMRiA&_nc_ss=7f289&oh=00_AQFlpSTzIDA5cuTo20--1VrWxNjYPLP3G6XyxU4vTucBYQ&oe=6A91DD38",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "festival",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": true,
-          "text_preview": "¡ASÍ SE VIVIÓ EL ÚLTIMO DÍA DEL FESTIVAL HIP HOP! La Plaza San Francisco se llenó de música, talento, batallas y toda la energía de la cultura urbana. Vivi… Ver más ¡ASÍ SE VIVIÓ EL ÚLTIMO DÍA DEL FESTIVAL HIP HOP! La Plaza San Francisco se llenó de música, talento, batallas y toda la energía de la cultura urbana. Vivi… Ver más Y cuando el festival de limpiar la ciudad? Vlad Sparda"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "festival",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": false,
-          "text_preview": "Y cuando el festival de limpiar la ciudad? Vlad Sparda"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1074,13 +1032,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VLXTh14OzIwQ7kNvwHSyAU9&_nc_oc=AdrVM69bwjw8uSpniXIPqOPCEsWxjUovhqiyHN2MKUZ4pZzwnNuLldE4J8AXlsY5Jek&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=sNTtkxg-kW7F0AvlNx41mQ&_nc_ss=7f289&oh=00_AQHMLskf453hK4gNzZQ1g7CyNo8JGyEbsbsv2fh-we_5mg&oe=6A91F115",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02FggNiLTT7vmbhfWeFWbqJWoWUDvqXy4HRKQ8PhF37qcspwHBP4coYqo9Duk1hcUKl?__cft__[0]=AZbX04yUCnPe88bpJkScLZk_KLrwBVFWh_HgR1wBRHGon7lFMdBsEM0M61nL26tyXRkY0HXAJiqMW_5mfY4-OZOimbeMEThEsPCOsztGrPlcpNY7gcLlwccS-VPhqix5sWIVgqlATdbc-IGJ18NpBvDD4aODOQ7U_k3qRsel2H2QGTZyLVwU88dN86qlFHeZnjY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "VIERNES 28 TARDE DE CUENTA CUENTOS… Ver más VIERNES 28 TARDE DE CUENTA CUENTOS… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1092,12 +1059,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de Sucre 9,3 mil seguidores • 50 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a'"
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1373,13 +1340,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "timed out"
+      "icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://lapaz.bo/calendario-cultural/",
+          "has_image": false,
+          "text_preview": "Portal de Eventos Culturales de la ciudad de La Paz Descubre y explora los eventos culturales de nuestra ciudad Eventos - Calendario Calendario de Eventos Mes Año Septiembre 2025 Lun Mar Mié Jue Vie Sáb Dom Cargando eventos... Calendario Embebido Cargando calendario..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_minculturas",
@@ -1427,7 +1403,7 @@
           "category": "tecnologia",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Tensión en La Asunta: pobladores se enfrentan en medio de denuncias de actividades mineras ilegales en el río Boopi Ver más 2 Eclipse \"Luna de sangre\" "
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Al menos seis sectores dan ultimátum al Gobierno; piden abrogar decreto sobre diésel o bloquearán Ver más 2 Alberto Arze, gerente de la ICAM, en Podcas"
         },
         {
           "reason": "relevancia_insuficiente",
@@ -1435,7 +1411,7 @@
           "category": "cine",
           "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Al menos seis sectores dan ultimátum al Gobierno; piden abrogar decreto sobre diésel o bloquearán 2 Alberto Arze, gerente de la ICAM, en Podcast Lo"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 21h02m Evistas convocan a concentración masiva y desafían el estado de excepción 23/08/2026 La Asunta se declara en desastre tras riadas por las "
         }
       ],
       "error": null
