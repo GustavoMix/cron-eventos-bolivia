@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T15:03:49-04:00",
+  "generated_at": "2026-08-24T17:49:04-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,15 +9,15 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
-      "fb_festivales_eventos",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_municipio_potosi",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 36.3,
-    "horas_maximo_sin_datos": 237.2
+    "horas_promedio_sin_datos": 37.2,
+    "horas_maximo_sin_datos": 240.0
   },
   "sources": [
     {
@@ -63,22 +63,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S-ZCrcyREQEQ7kNvwGzRatL&_nc_oc=AdoDl37aNwQy9Vxv8GHkxnNMtnkPh4ExZ69NwXhWVT2YumKVnIqah0DRUtDjyJotyAE&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=k5sq_G9Sj2blOAR7rV3rig&_nc_ss=7f289&oh=00_AQEqjXfut-sslUEUytA8S5aDJqNa7F0pLSD7TqdMLkyH6Q&oe=6A927636",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid023wRin6RKx63wNNjbP86ZXxJHTrRnHTMv9bT2FgpHqrVV1ndjm8SWMPumnJ7qec8Pl?__cft__[0]=AZao8NokVOTtOlukrUP-0Uk8mJNJdWRTVHgtOc_qqfLD8lsksro2Zf1N9b7kmlsrdCYJ9CUcO5jwywKD6PQU_E55L9lZLsRAclMGtoZ3Bxq6ur5eeneAG1DtDoh-73rBYSTz-IrBoMlkY09IolT4LP90eD0BN9enRWCbPs87Zbz7TILnlA47avf5Yytj1UySjDk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -89,13 +80,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VAsp4GNAwf0Q7kNvwEKh2G1&_nc_oc=AdqbIeGiFjv13KRd-AYBYRFP4fA57SQdL4uLj4orFCbzsJqo4ZTnDfBW_1I4LhIbjcw&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=qwINuUzeKp_2gmUbVlJovw&_nc_ss=7f289&oh=00_AQF4oo8zIH8JVdLu_LhN36z4m0_vUtrdg9BJ8NZlyh6FIA&oe=6A928F03",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Festivales & Eventos Bolivia 121 mil seguidores • 249 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deber'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028juvN8dj8hAaTHzCAqpv4JZHvyLFSeHRzjAwzqoM8r1o3BBJGwD2Up1MXGTiWY2Xl?__cft__[0]=AZZuJ3GPBUM7uMAe0PYNvahijQffXDlwRsAYweQVcFANa79C9d5O5p7OXQKkzAZesXH-91ZS7x_qUzsx__Oh9KsiE7Omrzv6LghtoRhrVqVRunXYlLXVBHkAuLuNKS5zWT_FGCvCwmhN2emxZTXchk4FgVgNqPKjPAITlMKOlqscL50NWl7l16I7GSRO8N_JiDY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -667,13 +667,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XiYnznariFQQ7kNvwEm9z34&_nc_oc=AdoIx5hJvFJgKvxIqaU5xFOUWj4u619NATCJg44FdnMBRfpSIbxf7n1s2i-HdVSXHiY&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=17fmLjZ9BRy5HD8IcsXP2Q&_nc_ss=7f289&oh=00_AQEfFe8CQtRRTn3unmBojUmBCIT_MSFiqM4_bSVw7IPNxA&oe=6A9290B8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 46,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/videos/-hoy-los-lunes-se-bailan-en-la-fexpo-qui%C3%A9n-dijo-que-empezar-la-semana-era-aburri/1076242891764852/",
+          "has_image": true,
+          "text_preview": "¡HOY LOS LUNES SE BAILAN EN LA FEXPO! ¿Quién dijo que empezar la semana era aburrido? Llega la esperada NOCHE CESSA al Campo Ferial de Lajastambo. ​Pr… Ver más ¡HOY LOS LUNES SE BAILAN EN LA FEXPO! ¿Quién dijo que empezar la semana era aburrido? Llega la esperada NOCHE CESSA al Campo Ferial de Lajastambo. ​Pr… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_oruro",
@@ -684,22 +693,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/693488690_1306639851654691_8009211632152824782_n.jpg?stp=dst-jpg_tt6&cstp=mx1344x1344&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7yTgWf0OYDQQ7kNvwEQixCu&_nc_oc=AdqqwJAuLLZDsY4hEHOGUxJ82UJdgevfs-HFaPrkoyQzXxVc5JgeGlPmIAjjNhhUAb4&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=qrUIhjIVluKDRlmrPBljJQ&_nc_ss=7f289&oh=00_AQE63V5TfONv0-uNvyWWrEnP-iK9D0_4XNfJ2CQwLh02yQ&oe=6A92532F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlcaldiaDeOruro/posts/pfbid0SSNyNzeWUH36bz4kTxup6uuJp61JjYRLpACayQYZL6fcmbkHjLaU2eT2kywc2o4bl?__cft__[0]=AZam6fd7IQ-JCqzkPSHFQucpzrJ608m0wGvS5UAOBFLqOKkwS6e_LFQSyZI2xXV2BGTELRN6tysrvrGMXP2nleeNmTRmcLBw33NI7A7fbVFKdR16yfRiq9fNmAr4xAUxHPcyTxj0uO5-HG84Z_nd1PjBORlB6zXdp-xRF259LsxJeT_grtcf1lB2tGnS32dEm4Q&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Por prevención y ante las condiciones climáticas que aún se presentan en la ciudad, la Unidad de Gestión de Riesgos mantiene delimitados algunos sectores de la Plaza… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_tarija",
@@ -728,12 +728,12 @@
       "region": "Potosí",
       "city": "Potosí",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Potosí 93 mil seguidores • 47 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pued'"
     },
     {
       "id": "fb_municipio_trinidad",
@@ -1400,19 +1400,19 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 38,
+          "score": 32,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "23/08/2026 Interesante Alberto Arze, gerente de la ICAM, en Podcast Los Tiempos El aniversario de una marca país no solo es motivo de celebración, sino también un espacio para evaluar la salud del sector productivo. vista 23/08/2026 Ciencia Eclipse \"Luna de sangre\" en Bolivia: ¿Cuándo y cómo verlo? Bolivia se prepara para observar un nuevo fenómeno astronómico: un eclipse parcial de Luna, que podr"
+          "text_preview": "24/08/2026 Medio Ambiente El mono araña entra en peligro de extinción en Bolivia, pero el tráfico de crías no da tregua El mono araña o marimono (Ateles chamek), el primate más grande de Bolivia, fue recategorizado este año de Vulnerable (VU) a En Peligro (EN) en el Libro Rojo... vista 23/08/2026 Interesante Alberto Arze, gerente de la ICAM, en Podcast Los Tiempos El aniversario de una marca país "
         },
         {
           "reason": "relevancia_insuficiente",
-          "score": 40,
+          "score": 46,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Estos son los 13 que se disputarán la presidencia de Brasil Ver más 2 La Asunta se declara en desastre tras riadas por las intensas lluvias Ver más 3 F"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Eclipse \"Luna de sangre\" en Bolivia: ¿Cuándo y cómo verlo? Ver más 2 \"La Hija Cóndor\" llega a Francia, México y Estados Unidos y apunta a los premios Ó"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
