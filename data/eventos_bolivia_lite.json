@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-24T09:16:58-04:00",
+  "generated_at": "2026-08-24T11:59:02-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 26,
+    "events_total": 27,
     "events_today": 2
   },
   "filters": {
@@ -68,6 +68,11 @@
         "count": 3
       },
       {
+        "key": "cine",
+        "label": "Cine",
+        "count": 3
+      },
+      {
         "key": "deporte",
         "label": "Deportes",
         "count": 3
@@ -86,11 +91,6 @@
         "key": "exposicion",
         "label": "Exposiciones",
         "count": 2
-      },
-      {
-        "key": "cine",
-        "label": "Cine",
-        "count": 2
       }
     ],
     "cities": [
@@ -105,14 +105,14 @@
         "count": 5
       },
       {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
+        "key": "Quillacollo",
+        "label": "Quillacollo",
         "count": 4
       },
       {
-        "key": "Quillacollo",
-        "label": "Quillacollo",
-        "count": 3
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 4
       },
       {
         "key": "Sucre",
@@ -139,7 +139,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 7
+        "count": 8
       },
       {
         "key": "La Paz",
@@ -171,12 +171,12 @@
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 11
+        "count": 12
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 26
+        "count": 27
       }
     ],
     "price": [
@@ -193,14 +193,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 18
+        "count": 19
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 20
+        "count": 21
       },
       {
         "key": "con_video",
@@ -329,7 +329,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 9
+        "count": 10
       },
       {
         "key": "ticketera",
@@ -524,6 +524,32 @@
       "venue": null,
       "image_url": "https://scontent-qro1-2.xx.fbcdn.net/v/t15.5256-10/780031935_1767672464363973_5941914073962381951_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a27664&_nc_ohc=yhjcIJ4PNCYQ7kNvwG07U0J&_nc_oc=AdpeZOvWh5pZ583qQFMAFR0aDhfjEAAdIZ4zdK1Yczc67LlZCeNrB8Vuap1w6qpvAcE&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=fwvxLFc3iOXsYf4pXhq8eg&_nc_ss=7f289&oh=00_AQEtcYHKJ52dVJb28gvAWa_BOU6AQVmmV8XnmhKywl4fqw&oe=6A8BF570",
       "has_video": true,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_1983438f057d00",
+      "title": "23/08/2026 Cultura Por qué no se han podido encontrar los restos de Federico García Lorca Da igual el lugar de…",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-14T00:00:00-04:00",
+      "starts_at_ms": 1789358400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 14 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 21,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": "estadio Capriles Los",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/23/dc_cartelera_2.jpg?itok=6u8gEq8J",
+      "has_video": false,
       "is_free": false,
       "price_from": null,
       "currency": null,

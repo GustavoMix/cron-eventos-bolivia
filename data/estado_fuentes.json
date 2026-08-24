@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T09:16:58-04:00",
+  "generated_at": "2026-08-24T11:59:02-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 35.7,
-    "horas_maximo_sin_datos": 231.4
+    "horas_promedio_sin_datos": 35.0,
+    "horas_maximo_sin_datos": 234.1
   },
   "sources": [
     {
@@ -45,30 +45,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gYagTYxhSRcQ7kNvwE9xohv&_nc_oc=AdpuIQGHThzMPXl8mld3baF0eQSHLdzk6f9WBUvBx9SmiAHHVzcYGsLT8DYmHb_VCHk&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RPYkv7h-FFzducgNC8a3pQ&_nc_ss=7f289&oh=00_AQEs8_L6AbnhguBFWjjI7yeiPF3E77bcrdD_YamjNqInDw&oe=6A9215F5",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/ConciertosEnBolivia/videos/se-puso-fuerte-el-concierto-de-be%C3%A9le-por-primera-vez-en-bolivia-tu-infiel-favori/2154235828636765/",
-          "has_image": true,
-          "text_preview": "Se puso fuerte el concierto de Beéle 🔥✨ por primera vez en Bolivia 🇧🇴 Tu infiel favorito encendió Santa Cruz de la Sierra 🙌🏼 🎥 Ricardo Troche Mackay #BeeleEnBolivia #ConciertosEnBolivia #SantaCruz Se puso fuerte el concierto de Beéle 🔥✨ por primera vez en Bolivia 🇧🇴 Tu infiel favorito encendió Santa Cruz de la Sierra 🙌🏼 🎥 Ricardo Troche Mackay..."
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "deporte",
-          "url": "https://www.facebook.com/reel/2154235828636765/?comment_id=1771443203878161&__cft__[0]=AZav0wTZowqE8TT9IzjbVjKS065PZuydFFVPWSKPFppLXUvBD-5mOkxKndTYlkCnrPl2bZPAFobYr8698bA_Kt2J8de8uFHQzrrcVU91f55aadcG8ParmKyjcYX0gvYKZ1IrdcTdV4YdqfIKjl_5-DHnD3NygaoFRaLvfP3p83nviNQ8qf1nJBQnh2-kxMEMYo9W4DcCxO4Pn4ZxgxWcDOrS&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Cualquier cosa, pero para los camb4s es lo maximo Boris Peralta Copa"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -759,13 +742,22 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hNqkLBEyiZgQ7kNvwFOnyGu&_nc_oc=Adrv6diC77GENhDON1z8jKHW8s8uNdiXyej9BlxVeqmsGPh-iPlgUKoXBMbyycWErJI&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=hyOlV-IXP8CZ3l2J36nI5A&_nc_ss=7f289&oh=00_AQGrkNxATq3S5uIfSeGGyJFtU5ie44ttTEGbYXzQNSwABA&oe=6A924DAA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/cobija.gob/posts/pfbid02Jn7SfKVARyzQ8pV8pewhKepnwJsoTo7Bh7n4cvz1onYYkNyyYNXm6ruFgsr3aGbKl?__cft__[0]=AZbez9jL1f5kKz_eppubyYcAF5cxizGFMcmuzN4oJj63L2Y3jgKkJn4Car5R_lVWD6iK3KSwka3gnpRbZ44Zt9q-drt6zwmDb-E_36BjdsQCqAXqPjWWFJa71b_ZwlRh0DoMFdBzv_MIppGcPUNyqC1t22Jt8dwA-gjv2M6mfGti9fdZ8T7BC_BZBkEYv6Tc5lg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗩𝗢 𝗗𝗘 𝗖𝗢𝗡𝗧𝗥𝗢𝗟 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘 𝗟𝗔 𝗙𝗜𝗦𝗖𝗔𝗟𝗜𝗭𝗔𝗖𝗜𝗢́𝗡 𝗘𝗡 𝗕𝗔𝗥𝗘𝗦, 𝗖𝗔𝗡𝗧𝗜𝗡𝗔𝗦 𝗬 𝗠𝗢𝗧𝗘𝗟𝗘𝗦 El Gobierno Autónomo Municipal de Cobija, en coordinación con la… Ver más 𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗩𝗢 𝗗𝗘 𝗖𝗢𝗡𝗧𝗥𝗢𝗟 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘 𝗟𝗔 𝗙𝗜𝗦𝗖𝗔𝗟𝗜𝗭𝗔𝗖𝗜𝗢́𝗡 𝗘𝗡 𝗕𝗔𝗥𝗘𝗦, 𝗖𝗔𝗡𝗧𝗜𝗡𝗔𝗦 𝗬 𝗠𝗢𝗧𝗘𝗟𝗘𝗦 El Gobierno Autónomo Municipal de Cobija, en coordinación con la… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -793,30 +785,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=iT2p0-tyk7IQ7kNvwHXhr0B&_nc_oc=Adr2mH1eQEGUX3Zy1CB_6Cm6-fCRMZ8fGKamzieY2trbUqiBiVfBTj330F6WVSGhwEM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Gddf2oyPTNN4eA1LX6WGZg&_nc_ss=7f289&oh=00_AQHsGNdyEoQReBc3HgaF_qEK3rgZoEqWHs--hNB7HhFMSA&oe=6A92297A",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeOruro/posts/pfbid0786ta2aPFozpKRhUejKVGkQVZkRqiPjVqTKVPKw8TskVazPiaf6SbayGJVRQ4GgPl?__cft__[0]=AZbm3oLKTvSmQQMVohvfzx7P70G9tSPD1duXVuK7uXb_Hr7me5bmqXaNWNm-KWd7xRraCYG7Mo8QndxxRTK7fyG2tMoM7zhkRzfMPqUzFJXlBMr2pdQa6izFNr8vAMxOo_W5m99o6IeyePIdWI2KAz6N5zuNO4r-kATCBDA7K5ezuX4_Cmo8EgOw9JOIdHQyZx0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#OruroSeLevanta | Oruro se prepara para vivir un espectáculo único que aglutina música, cultura y producción. #GobiernoDeUnidad… Ver más #OruroSeLevanta | Oruro se prepara para vivir un espectáculo único que aglutina música, cultura y producción. #GobiernoDeUnidad… Ver más @destacar Ver más comentarios Gabriel Quiroga"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeOruro/posts/pfbid0786ta2aPFozpKRhUejKVGkQVZkRqiPjVqTKVPKw8TskVazPiaf6SbayGJVRQ4GgPl?comment_id=1647718266745691&__cft__[0]=AZbm3oLKTvSmQQMVohvfzx7P70G9tSPD1duXVuK7uXb_Hr7me5bmqXaNWNm-KWd7xRraCYG7Mo8QndxxRTK7fyG2tMoM7zhkRzfMPqUzFJXlBMr2pdQa6izFNr8vAMxOo_W5m99o6IeyePIdWI2KAz6N5zuNO4r-kATCBDA7K5ezuX4_Cmo8EgOw9JOIdHQyZx0&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Gabriel Quiroga @destacar 10 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_tarija",
@@ -827,13 +802,30 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=f-dHFH4HmYUQ7kNvwEJGSxB&_nc_oc=AdqHfVDA2xJt3hTUWByZiOZ5Im8azX6ak_W48W-ZCZPSecOd5rJHXRYHevOhjygBEHE&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-sJia88Hvp2lCLJx7t47og&_nc_ss=7f289&oh=00_AQGsN8OpsS6-ZsEOpIZ_9c4M5cK0z3YefZIMYpbzLtgx_Q&oe=6A922427",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GADTarija/posts/pfbid0L5967mtVet2CtfuGtSyZhSARhKchAvjdfmK8uLkYrY6jPhDpDMxzNusbQRA1SDyjl?__cft__[0]=AZYBVmoPM0KXTVnTu5fKwwJuSpd-bu6siKKFV_0FMk4xRaTzUpD_nCyUFcif2RGgZO-JExluKo48LbdxlQ9Of8C22Tj6Q1vLIYMDRVLBDALG5dmpRulELjddnpuUmHaRO6XdoFXPVb-EUt8xC9hGOp-wf1b9Po0pi03bIbv9grjWVQ3I0kaDIAeuBZZjbN8rGns&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Felicidades Bermejo!… Ver más Felicidades mi querido Bermejo Ver más comentarios Marco M Rocha - Asambleísta Departamental"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GADTarija/posts/pfbid0L5967mtVet2CtfuGtSyZhSARhKchAvjdfmK8uLkYrY6jPhDpDMxzNusbQRA1SDyjl?comment_id=905733909275868&__cft__[0]=AZYBVmoPM0KXTVnTu5fKwwJuSpd-bu6siKKFV_0FMk4xRaTzUpD_nCyUFcif2RGgZO-JExluKo48LbdxlQ9Of8C22Tj6Q1vLIYMDRVLBDALG5dmpRulELjddnpuUmHaRO6XdoFXPVb-EUt8xC9hGOp-wf1b9Po0pi03bIbv9grjWVQ3I0kaDIAeuBZZjbN8rGns&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Felicidades mi querido Bermejo Marco M Rocha - Asambleísta Departamental"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_pando",
@@ -844,13 +836,30 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9q1Nx_D6v3QQ7kNvwFA2QPD&_nc_oc=Adrj_kEA5WiNhLS9CajDKOcMCn60IeLatx77HncFWiqfFW7ki_5K2neijRlpr_yeYoI&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=fUMVt22lmZNxU_vSubc4Yg&_nc_ss=7f289&oh=00_AQEtdt9nHNGDec2U3uhR7qhQKMJUaqjWlcEic69DU3S-aA&oe=6A924050",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0HVCFXWdw16M7tjSa9pRMgMjS2xfBykYoretuycpGLvtHWENLZLZRUxmsQf2uH91Wl?__cft__[0]=AZalC7m8u5IroF4GN8aPGm-Dq_bluRgzTsspJ_1wRn3cx6x86iig_EBm1dEHvo3zrfFIjj4UaRsFCABPBmtnE4-7_L_bLHwG5LTvDbdYgMM5iEgqCONG79wiBUK0xSYKwtQWTvizwUg88MVtQ93g6DLMR8u6FSxzkUgfhmFrEPsVg0cH0Nlby-ayRnPQKhxz-B0xhdm_GjHXGdIBpuxrYIsE&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0HVCFXWdw16M7tjSa9pRMgMjS2xfBykYoretuycpGLvtHWENLZLZRUxmsQf2uH91Wl?comment_id=584098196711804&__cft__[0]=AZalC7m8u5IroF4GN8aPGm-Dq_bluRgzTsspJ_1wRn3cx6x86iig_EBm1dEHvo3zrfFIjj4UaRsFCABPBmtnE4-7_L_bLHwG5LTvDbdYgMM5iEgqCONG79wiBUK0xSYKwtQWTvizwUg88MVtQ93g6DLMR8u6FSxzkUgfhmFrEPsVg0cH0Nlby-ayRnPQKhxz-B0xhdm_GjHXGdIBpuxrYIsE&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_beni",
@@ -1082,22 +1091,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BTu_q6DmDGcQ7kNvwENWffP&_nc_oc=AdqWpbHgQ_YEoJcYx6d6jNiVviq4NOu-sdtXMIGATltT0mU06ANnSFZ7TDmg2TECGdQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=baNOkCBuHv6Ze0u-yIo5SA&_nc_ss=7f289&oh=00_AQFwMnI06qhKJ10nVQTXNgV_Ro0kHzs4b1gIYpLpt07EVA&oe=6A922BD2",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 36,
-          "category": "nightlife",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid02bUUfzNinHTWf7yBve9gfcigGk4ig59cSzQNxLnLrixdeWn3rNjG7ezpGfv1RwMVRl?__cft__[0]=AZa-HohHwSlWfp_UTXxyZs3Z1SNNrFuy0uvt1IvPrrsPLkgfkAtP58K8BDOSL96sqwiTVZQLMYLp_pDgm2QhIC609wE1Ij6TvKNRXI_xcgQB8AVX4sJTIK8c5wVtEG4MGevxo0IaOWQGNpZ7Jbj8O9HUdVm3-JvLP9aLcW621p7ewotl6ZdJ5_POo7CatQeDECo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Prepárate para una noche de karaoke! Ven a cantar tus canciones favoritas, compartir y pasar un buen momento con amigos. … Ver más ¡Prepárate para una noche de karaoke! Ven a cantar tus canciones favoritas, compartir y pasar un buen momento con amigos. … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1345,7 +1345,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1433,10 +1433,10 @@
         {
           "reason": "relevancia_insuficiente",
           "score": 40,
-          "category": "tecnologia",
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Al menos seis sectores dan ultimátum al Gobierno; piden abrogar decreto sobre diésel o bloquearán Ver más 2 Alberto Arze, gerente de la ICAM, en Podcas"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Estos son los 13 que se disputarán la presidencia de Brasil Ver más 2 La Asunta se declara en desastre tras riadas por las intensas lluvias Ver más 3 F"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
