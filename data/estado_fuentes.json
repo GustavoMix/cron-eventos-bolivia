@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T11:59:02-04:00",
+  "generated_at": "2026-08-24T15:03:49-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,14 +9,15 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
+      "fb_festivales_eventos",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 35.0,
-    "horas_maximo_sin_datos": 234.1
+    "horas_promedio_sin_datos": 36.3,
+    "horas_maximo_sin_datos": 237.2
   },
   "sources": [
     {
@@ -62,13 +63,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S-ZCrcyREQEQ7kNvwGzRatL&_nc_oc=AdoDl37aNwQy9Vxv8GHkxnNMtnkPh4ExZ69NwXhWVT2YumKVnIqah0DRUtDjyJotyAE&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=k5sq_G9Sj2blOAR7rV3rig&_nc_ss=7f289&oh=00_AQEqjXfut-sslUEUytA8S5aDJqNa7F0pLSD7TqdMLkyH6Q&oe=6A927636",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid023wRin6RKx63wNNjbP86ZXxJHTrRnHTMv9bT2FgpHqrVV1ndjm8SWMPumnJ7qec8Pl?__cft__[0]=AZao8NokVOTtOlukrUP-0Uk8mJNJdWRTVHgtOc_qqfLD8lsksro2Zf1N9b7kmlsrdCYJ9CUcO5jwywKD6PQU_E55L9lZLsRAclMGtoZ3Bxq6ur5eeneAG1DtDoh-73rBYSTz-IrBoMlkY09IolT4LP90eD0BN9enRWCbPs87Zbz7TILnlA47avf5Yytj1UySjDk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -80,12 +90,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Festivales & Eventos Bolivia 121 mil seguidores • 249 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deber'"
     },
     {
       "id": "fb_fexpocruz",
@@ -674,13 +684,22 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/693488690_1306639851654691_8009211632152824782_n.jpg?stp=dst-jpg_tt6&cstp=mx1344x1344&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7yTgWf0OYDQQ7kNvwEQixCu&_nc_oc=AdqqwJAuLLZDsY4hEHOGUxJ82UJdgevfs-HFaPrkoyQzXxVc5JgeGlPmIAjjNhhUAb4&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=qrUIhjIVluKDRlmrPBljJQ&_nc_ss=7f289&oh=00_AQE63V5TfONv0-uNvyWWrEnP-iK9D0_4XNfJ2CQwLh02yQ&oe=6A92532F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlcaldiaDeOruro/posts/pfbid0SSNyNzeWUH36bz4kTxup6uuJp61JjYRLpACayQYZL6fcmbkHjLaU2eT2kywc2o4bl?__cft__[0]=AZam6fd7IQ-JCqzkPSHFQucpzrJ608m0wGvS5UAOBFLqOKkwS6e_LFQSyZI2xXV2BGTELRN6tysrvrGMXP2nleeNmTRmcLBw33NI7A7fbVFKdR16yfRiq9fNmAr4xAUxHPcyTxj0uO5-HG84Z_nd1PjBORlB6zXdp-xRF259LsxJeT_grtcf1lB2tGnS32dEm4Q&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Por prevención y ante las condiciones climáticas que aún se presentan en la ciudad, la Unidad de Gestión de Riesgos mantiene delimitados algunos sectores de la Plaza… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_tarija",
@@ -742,22 +761,13 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hNqkLBEyiZgQ7kNvwFOnyGu&_nc_oc=Adrv6diC77GENhDON1z8jKHW8s8uNdiXyej9BlxVeqmsGPh-iPlgUKoXBMbyycWErJI&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=hyOlV-IXP8CZ3l2J36nI5A&_nc_ss=7f289&oh=00_AQGrkNxATq3S5uIfSeGGyJFtU5ie44ttTEGbYXzQNSwABA&oe=6A924DAA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/cobija.gob/posts/pfbid02Jn7SfKVARyzQ8pV8pewhKepnwJsoTo7Bh7n4cvz1onYYkNyyYNXm6ruFgsr3aGbKl?__cft__[0]=AZbez9jL1f5kKz_eppubyYcAF5cxizGFMcmuzN4oJj63L2Y3jgKkJn4Car5R_lVWD6iK3KSwka3gnpRbZ44Zt9q-drt6zwmDb-E_36BjdsQCqAXqPjWWFJa71b_ZwlRh0DoMFdBzv_MIppGcPUNyqC1t22Jt8dwA-gjv2M6mfGti9fdZ8T7BC_BZBkEYv6Tc5lg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗩𝗢 𝗗𝗘 𝗖𝗢𝗡𝗧𝗥𝗢𝗟 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘 𝗟𝗔 𝗙𝗜𝗦𝗖𝗔𝗟𝗜𝗭𝗔𝗖𝗜𝗢́𝗡 𝗘𝗡 𝗕𝗔𝗥𝗘𝗦, 𝗖𝗔𝗡𝗧𝗜𝗡𝗔𝗦 𝗬 𝗠𝗢𝗧𝗘𝗟𝗘𝗦 El Gobierno Autónomo Municipal de Cobija, en coordinación con la… Ver más 𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗩𝗢 𝗗𝗘 𝗖𝗢𝗡𝗧𝗥𝗢𝗟 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘 𝗟𝗔 𝗙𝗜𝗦𝗖𝗔𝗟𝗜𝗭𝗔𝗖𝗜𝗢́𝗡 𝗘𝗡 𝗕𝗔𝗥𝗘𝗦, 𝗖𝗔𝗡𝗧𝗜𝗡𝗔𝗦 𝗬 𝗠𝗢𝗧𝗘𝗟𝗘𝗦 El Gobierno Autónomo Municipal de Cobija, en coordinación con la… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -802,30 +812,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=f-dHFH4HmYUQ7kNvwEJGSxB&_nc_oc=AdqHfVDA2xJt3hTUWByZiOZ5Im8azX6ak_W48W-ZCZPSecOd5rJHXRYHevOhjygBEHE&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-sJia88Hvp2lCLJx7t47og&_nc_ss=7f289&oh=00_AQGsN8OpsS6-ZsEOpIZ_9c4M5cK0z3YefZIMYpbzLtgx_Q&oe=6A922427",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GADTarija/posts/pfbid0L5967mtVet2CtfuGtSyZhSARhKchAvjdfmK8uLkYrY6jPhDpDMxzNusbQRA1SDyjl?__cft__[0]=AZYBVmoPM0KXTVnTu5fKwwJuSpd-bu6siKKFV_0FMk4xRaTzUpD_nCyUFcif2RGgZO-JExluKo48LbdxlQ9Of8C22Tj6Q1vLIYMDRVLBDALG5dmpRulELjddnpuUmHaRO6XdoFXPVb-EUt8xC9hGOp-wf1b9Po0pi03bIbv9grjWVQ3I0kaDIAeuBZZjbN8rGns&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Felicidades Bermejo!… Ver más Felicidades mi querido Bermejo Ver más comentarios Marco M Rocha - Asambleísta Departamental"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GADTarija/posts/pfbid0L5967mtVet2CtfuGtSyZhSARhKchAvjdfmK8uLkYrY6jPhDpDMxzNusbQRA1SDyjl?comment_id=905733909275868&__cft__[0]=AZYBVmoPM0KXTVnTu5fKwwJuSpd-bu6siKKFV_0FMk4xRaTzUpD_nCyUFcif2RGgZO-JExluKo48LbdxlQ9Of8C22Tj6Q1vLIYMDRVLBDALG5dmpRulELjddnpuUmHaRO6XdoFXPVb-EUt8xC9hGOp-wf1b9Po0pi03bIbv9grjWVQ3I0kaDIAeuBZZjbN8rGns&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Felicidades mi querido Bermejo Marco M Rocha - Asambleísta Departamental"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_pando",
@@ -836,30 +829,13 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9q1Nx_D6v3QQ7kNvwFA2QPD&_nc_oc=Adrj_kEA5WiNhLS9CajDKOcMCn60IeLatx77HncFWiqfFW7ki_5K2neijRlpr_yeYoI&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=fUMVt22lmZNxU_vSubc4Yg&_nc_ss=7f289&oh=00_AQEtdt9nHNGDec2U3uhR7qhQKMJUaqjWlcEic69DU3S-aA&oe=6A924050",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0HVCFXWdw16M7tjSa9pRMgMjS2xfBykYoretuycpGLvtHWENLZLZRUxmsQf2uH91Wl?__cft__[0]=AZalC7m8u5IroF4GN8aPGm-Dq_bluRgzTsspJ_1wRn3cx6x86iig_EBm1dEHvo3zrfFIjj4UaRsFCABPBmtnE4-7_L_bLHwG5LTvDbdYgMM5iEgqCONG79wiBUK0xSYKwtQWTvizwUg88MVtQ93g6DLMR8u6FSxzkUgfhmFrEPsVg0cH0Nlby-ayRnPQKhxz-B0xhdm_GjHXGdIBpuxrYIsE&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0HVCFXWdw16M7tjSa9pRMgMjS2xfBykYoretuycpGLvtHWENLZLZRUxmsQf2uH91Wl?comment_id=584098196711804&__cft__[0]=AZalC7m8u5IroF4GN8aPGm-Dq_bluRgzTsspJ_1wRn3cx6x86iig_EBm1dEHvo3zrfFIjj4UaRsFCABPBmtnE4-7_L_bLHwG5LTvDbdYgMM5iEgqCONG79wiBUK0xSYKwtQWTvizwUg88MVtQ93g6DLMR8u6FSxzkUgfhmFrEPsVg0cH0Nlby-ayRnPQKhxz-B0xhdm_GjHXGdIBpuxrYIsE&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_beni",
@@ -1345,7 +1321,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1419,8 +1395,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 8,
-      "rejected": 5,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
