@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-25T12:04:47-04:00",
+  "generated_at": "2026-08-25T15:01:45-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 29,
-    "events_today": 2
+    "events_total": 32,
+    "events_today": 5
   },
   "filters": {
     "ui_groups": [
@@ -53,14 +53,14 @@
     ],
     "categories": [
       {
-        "key": "feria",
-        "label": "Ferias y expos",
+        "key": "cine",
+        "label": "Cine",
         "count": 8
       },
       {
-        "key": "cine",
-        "label": "Cine",
-        "count": 5
+        "key": "feria",
+        "label": "Ferias y expos",
+        "count": 8
       },
       {
         "key": "teatro",
@@ -107,12 +107,17 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 5
+        "count": 6
       },
       {
         "key": "Quillacollo",
         "label": "Quillacollo",
         "count": 4
+      },
+      {
+        "key": "Potosí",
+        "label": "Potosí",
+        "count": 2
       },
       {
         "key": "Sucre",
@@ -144,7 +149,12 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 5
+        "count": 6
+      },
+      {
+        "key": "Potosí",
+        "label": "Potosí",
+        "count": 2
       },
       {
         "key": "Chuquisaca",
@@ -161,22 +171,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 2
+        "count": 5
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 7
+        "count": 10
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 13
+        "count": 16
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 29
+        "count": 32
       }
     ],
     "price": [
@@ -193,14 +203,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 23
+        "count": 26
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 23
+        "count": 26
       },
       {
         "key": "con_video",
@@ -334,7 +344,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 13
+        "count": 16
       },
       {
         "key": "venue",
@@ -359,6 +369,32 @@
     ]
   },
   "events": [
+    {
+      "event_id": "evt_287e252b26b32d",
+      "title": "Espectáculo de danza: Negra",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-08-25T19:00:00-04:00",
+      "starts_at_ms": 1787698800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 25 de agosto · 19:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "estadio Capriles Tendencias Entre",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
     {
       "event_id": "evt_ce37b7282e94c1",
       "title": "Espectáculo de danza: Negra",
@@ -386,6 +422,32 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_ef23deb9f45383",
+      "title": "Balau: Taller de cajón peruano",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-08-25T21:30:00-04:00",
+      "starts_at_ms": 1787707800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 25 de agosto · 21:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Potosí",
+      "department": "Potosí",
+      "venue": "estadio Capriles Tendencias Entre",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_c82bad84a9c48d",
       "title": "Balau: Taller de cajón peruano",
       "category": "cine",
@@ -403,6 +465,32 @@
       "department": "Cochabamba",
       "venue": "estadio Capriles Tendencias Entre",
       "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_ee0ab80b4bc7eb",
+      "title": "Ciclo de cine en La Troje",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-08-25T22:00:00-04:00",
+      "starts_at_ms": 1787709600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 25 de agosto · 22:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Potosí",
+      "department": "Potosí",
+      "venue": "estadio Capriles Tendencias Entre",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
       "has_video": false,
       "is_free": false,
       "price_from": null,

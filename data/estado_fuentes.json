@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T12:04:47-04:00",
+  "generated_at": "2026-08-25T15:01:45-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 40.6,
-    "horas_maximo_sin_datos": 258.2
+    "horas_promedio_sin_datos": 41.0,
+    "horas_maximo_sin_datos": 261.2
   },
   "sources": [
     {
@@ -555,13 +555,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-1/432766499_812585937576485_5980317798609638070_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dW93rZ9dv_IQ7kNvwFzN8o8&_nc_oc=AdoYVnzgbZRcoqbBnSAIJbYeV69CclSqDN2YCV74l8FmETe_ZoGI7d7y5tQ9YxONa7M&_nc_zt=24&_nc_ht=scontent-hkg1-2.xx&_nc_gid=gd15QBwSZUdp1h52VfUFKw&_nc_ss=7f289&oh=00_AQE3NTNeOI3yavDbbDSkfwx_mwgsmgFRpmuyle1F-uIFAA&oe=6A93C1CA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "cine",
+          "url": "https://www.facebook.com/reel/1366971832217285/?__cft__[0]=AZalSCHEE9F9cFGsDfv3lo62ESQ2QW14crbrOJNQC772Dqpl9dIXq5GeA9OtwyyGq-t_bT6hhV-1QoS_YnSvfeuTYRzqx4U1jWI84_m4skgr4OgJfzzxRy4OybIY3wxvOv0bhy7q4_V6Zs6JUM6oIfGp07u50HjAxGuI3IZ9IWrqxh9-DfVqa9o0NW5AqvGT9glfJLqtBU5A0EiEUN0M6JQT&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La película más querida del Studio Ghibli regresa a Cinemateca boliviana. No te pierdas MI VECINO TOTORO, una de las obras más maravillosas del director Hayao Miyazaki.… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -725,22 +734,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PeABQuefqkoQ7kNvwEpIBKq&_nc_oc=AdphXyFoCu0YYQwmM-71mOIPxQDaARIj_tECqGvbVUbyIdgDhOVHyLQ-YYDraZ2tBKU&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=qDgyLUSAvxaAH_uUprj56Q&_nc_ss=7f289&oh=00_AQH9WeLLPxe8Foyj5xpdE-vpTeotOY_QFB2EPaiD2F6tfQ&oe=6A93867D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 40,
-          "category": "otro",
-          "url": "https://www.facebook.com/GAMTDD/posts/pfbid0y1xCznpesRMGctiihkSakEvdya3cCFG9L7QnRgxnQNa46A9bGgkwQsfXhM1MwLLPl?__cft__[0]=AZaQc-q40MYbQKAC3HsOGnqOFBqBLQQ2_TfXZyjhThPoLMWz4WDyyMomZulC7zucx_hgFlVypObo08N2OYiNqF-07RzrFhHqoo-eAnxt9WsdMxRnC6PXyeV1JMU0SHEA5E7LZAl8_E-3-73jzgGeyy11ASJ0emNabtF1HtHcOuVFvpcc3CPHjyJRn7u_IS2KjZE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Hoy 25 de agosto celebramos a quienes con tijera, creatividad y mucho talento transforman cada corte en confianza. … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_cobija",
@@ -1074,13 +1074,30 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BsuyDkqbVLsQ7kNvwFMIsbt&_nc_oc=AdqPphX7CLkselj_-fA48vy6GypUvChH8kG6JfsSAVnimnoYx_tfabRy16AnkeEsyXo&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=G3gTFUl6HugPklxDIVeh2w&_nc_ss=7f289&oh=00_AQGZkx02JsafLv_omp5M5SyT2Q-92q7-O4cJUoW9C9jO0Q&oe=6A93CEEF",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "teatro",
+          "url": "https://es-la.facebook.com/login",
+          "has_image": true,
+          "text_preview": "#CCP| Obra de teatro: LA NIÑA DE LA FOTO … Ver más muy buena!! Analía Villarroel Leigue"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid027Zf47TvauJKaRdZw4sZAE3D9vZU52EFyv7uvNCxjhtNnUTUoff9PChYtpDmLvyqHl?comment_id=1337878201463588&__cft__[0]=AZYbfs_5Zrw1wT_-t52rtZVcdWRLeiccnyCjc1R2E-sgILnAOBO3oHDef5ttnqv60DKyOyIQJ7wv34iBgLxc7F3h967Bt-GO2fajcYaVXFDL7BnFxk-0gQdMdhgh-brcqsKV-azkcojzq9fOSpiHa2AxI-qL6jHzL6Sgc9LWspymWBai8SBzrIJY6wabmxcaVs8&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Analía Villarroel Leigue muy buena!! 14 min"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1142,13 +1159,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QLzD5Bdj6c0Q7kNvwGy5NSX&_nc_oc=AdpNaobJskMg89IpAJCEPOclUjPrfTuLs7LUob3lHHCi52a3lm4dO52MPzyNH0oZzns&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=uCcvtdPnN94MUEyfC4tmEQ&_nc_ss=7f289&oh=00_AQFwj4-sc2Kc1eTONlHmKREAniElsZoofuPbO-U8LYYOWA&oe=6A939E65",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid033UfqPgtakGVxdh7GoKPCcptrt9fxR2KvGfJxbp49Uvze9sEdk1bjrpoSNcRxsunrl?__cft__[0]=AZZBSHHmJue3oTNd5Lw-x-1GlLejVChzmS3RclZawCCuyaqpVDzZZg7_oVM2IsauC-QclTUotsMIDROSb_zua8mI1fHnS4qwSY-50DETuuYlZjokmlNIr6QvINy7y82EiI_YQqWmlplr7JO9D5KX5IbnsaH4dJ0y-bvSkdbwMa2Y68JqJ5rxr5LH4rO40l4sTtI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La #UMSA fortalece la seguridad y bienestar de su personal con la entrega de 1.300 dotaciones L… Ver más La #UMSA fortalece la seguridad y bienestar de su personal con la entrega de 1.300 dotaciones L… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1159,22 +1185,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/761515304_1067546899192869_6937258332610772698_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=C0e3B9qOFIYQ7kNvwHUHtpq&_nc_oc=AdqD-2qt-qh2C6RsAis_1F3SkBdJ4w_XXvO1AluU98wgQ_18dP8fUxen0m6vpdSQtHQ&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=eAlUASsaLmHVZJCHwX7kAQ&_nc_ss=7f289&oh=00_AQEqC8tYfmS-Vo8SaUMieKJsPWuwsifGxiqKnkCOufzneA&oe=6A938963",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid02YRzep6i5sxgQLYXeRsLpkVyv9XBP1C1Hai2oDhRKJ6eUPH38ghNWqgrEGMitEFM1l?__cft__[0]=AZaWMeSBcknbIfhC-cK3PATkPcGK2SmcQXxURDSstr6pA9fUcsaj5W8h8S6hLg-1YIk0ZPUb2antL7q89T7qyZuwOlNFWF-rbl-bzNo-BikrMgcBQyilft7vFPA8jnT1aZHY0I4AANeTmR4GGvr84EI9Di5ojz78t7mifEhP5BM29_iWkvWh6LdWYs00ZoemLZc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡𝟓𝟗 𝐚𝐧̃𝐨𝐬 𝐜𝐨𝐧𝐬𝐭𝐫𝐮𝐲𝐞𝐧𝐝𝐨 𝐜𝐢𝐞𝐧𝐜𝐢𝐚 𝐞 𝐢𝐧𝐧𝐨𝐯𝐚𝐜𝐢𝐨́𝐧! La UAGRM celebra con orgullo el 59°… Ver más ¡𝟓𝟗 𝐚𝐧̃𝐨𝐬 𝐜𝐨𝐧𝐬𝐭𝐫𝐮𝐲𝐞𝐧𝐝𝐨 𝐜𝐢𝐞𝐧𝐜𝐢𝐚 𝐞 𝐢𝐧𝐧𝐨𝐯𝐚𝐜𝐢𝐨́𝐧! La UAGRM celebra con orgullo el 59°… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umss",
@@ -1202,22 +1219,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OV-IuJz9HfsQ7kNvwG3T7ic&_nc_oc=Adrx3c6b6EhxZarjJPusWVzRoCpHP3-GCEZF5a7umS2f0Dyl5ym_JZajItfvV81mV_Q&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=tOV3HcYKDpup7noO8id06w&_nc_ss=7f289&oh=00_AQG8aNCOrAbksav_VlXyWJI-Cigwu98_66tVJniC6wU6Vg&oe=6A937E72",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 54,
-          "category": "otro",
-          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/-sum%C3%A9monos-a-la-mega-recolecci%C3%B3n-de-bolsas-pl%C3%A1sticas-peque%C3%B1as-acciones-pueden-ge/1517892173716076/",
-          "has_image": true,
-          "text_preview": "🌱 ¡Sumémonos a la Mega Recolección de Bolsas Plásticas! 🌎 Pequeñas acciones pueden generar grandes cambios. Te invitamos a ser parte de esta iniciativa de Hábitos Sostenibles de la UCB, aportando las... 🌱 ¡Sumémonos a la Mega Recolección de Bolsas Plásticas! 🌎 Pequeñas acciones pueden generar grandes cambios. Te invitamos a ser parte de esta iniciativa... ¡Sumémonos a la Mega Recolección de Bolsas"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_upsa",
@@ -1403,8 +1411,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 6,
+      "rejected": 7,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
