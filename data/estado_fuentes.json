@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T21:57:54-04:00",
+  "generated_at": "2026-08-25T00:04:12-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 38.4,
-    "horas_maximo_sin_datos": 244.1
+    "horas_promedio_sin_datos": 38.3,
+    "horas_maximo_sin_datos": 246.2
   },
   "sources": [
     {
@@ -28,13 +28,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Sih9209_PusQ7kNvwHmTb5_&_nc_oc=Adq1XTdgwMnN_qjz37Glu2-Jnh5w71M6w6F3BIa3cmH6AuBSqTvt1TdiyNYioFkrCt0&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=WByDLvU-0ZSkfiB5NJezVQ&_nc_ss=7f289&oh=00_AQFCVqw2ORS6dD4zFS0By7a3PeeMi0RLesN1IhFLK4ZhHA&oe=6A92CD1A",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -691,30 +691,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-1/734210525_1484423200397079_336268521338765554_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7_cot2y01aYQ7kNvwHV9Sfx&_nc_oc=AdreVyMa-8GO_EH5kz50uvZ1WBbHn-1qRHJg629TrlvX3LordC7-Ytl42VM4inBWJsU&_nc_zt=24&_nc_ht=scontent-qro1-2.xx&_nc_gid=QAFwFlAjon091-ZOQOTVrA&_nc_ss=7f289&oh=00_AQEW_4YmbPzmBzQRHr6ndvgNUAlFjAVBaaHVcUMLJ638Aw&oe=6A92B869",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/Gobierno.Autonomo.Municipal.Tarija/posts/pfbid034hz2vo6K8aHTNGLGdEyscxigrhEAtBxsFcEeu1YpMhpdBShudLVFyE3wmRb4m7X3l?__cft__[0]=AZbGgrJxwwTVvEE2_ImVY8ZmH1P8QsrBYsI-noAbAH1XORN6dij02sjyJ_J5J7oTddpwirFVHr-oOe0dmviVmK_NKtnphuyBMJqs61YM6HvtsXnPyk9ISjWlH_mMDphJxhzfhEnfiQ3E_BHdXJv5d7oT2xxq0s9RNlJ9_dPCuFbqTglTFzkXZ8CYd7abtsEY0II&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Triple vía al norte toma impulso… Ver más Ornato publico en esa avenida BIEN GRACIAS Ver más comentarios Jhonatan Subia Aviles"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/Gobierno.Autonomo.Municipal.Tarija/posts/pfbid034hz2vo6K8aHTNGLGdEyscxigrhEAtBxsFcEeu1YpMhpdBShudLVFyE3wmRb4m7X3l?comment_id=1568775008044263&__cft__[0]=AZbGgrJxwwTVvEE2_ImVY8ZmH1P8QsrBYsI-noAbAH1XORN6dij02sjyJ_J5J7oTddpwirFVHr-oOe0dmviVmK_NKtnphuyBMJqs61YM6HvtsXnPyk9ISjWlH_mMDphJxhzfhEnfiQ3E_BHdXJv5d7oT2xxq0s9RNlJ9_dPCuFbqTglTFzkXZ8CYd7abtsEY0II&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Ornato publico en esa avenida BIEN GRACIAS Jhonatan Subia Aviles"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -725,30 +708,13 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=R2vMiHn4XnQQ7kNvwHSuut8&_nc_oc=AdqL01_1tOJP1pekbGTg7m6BFWHOF43RB54su7WFZNKcB40VBQHMva0XY81yqKurFxw&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=elddWgo3qqmzaN-HU8dGHQ&_nc_ss=7f289&oh=00_AQG0T1Df7IcAaJjjSx2tZ-o0bvEF-3VqII7Ucis-er3PYg&oe=6A92DD28",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/810623295445479/?__cft__[0]=AZZX0Hhz-gNEI7Y9be5IJGmmUn28SJinWCqC31RuQEqA-mAZ3NxJF-vXkbcdhzTBcoPToopoaiKwZs3hVFUKpcCqIxQPjA9zGTGRZ7euTUt7cUjjT86YJ28UIhJSKeyTs_Zcq7nlCaXdyd3iqOZjdOeETyqeTrAH68PEsI6Ocjf2jW6DFfY5V8U7sNejAbF2huDVlQaA3r8eagD24SGlkltr&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "CH'UTILLOS: INSPECCIÓN Y ÚLTIMOS DETALLES EN LA RUTA FESTIVA… Ver más Los últimos detalles me los imagino o que Jaja Tenemos problemas para reproducir este video. Más información Ver más comentarios Axel Fernando Bellido Los últimos detalles me los imagino o que Jaja"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/810623295445479/?comment_id=1055942854071572&__cft__[0]=AZZX0Hhz-gNEI7Y9be5IJGmmUn28SJinWCqC31RuQEqA-mAZ3NxJF-vXkbcdhzTBcoPToopoaiKwZs3hVFUKpcCqIxQPjA9zGTGRZ7euTUt7cUjjT86YJ28UIhJSKeyTs_Zcq7nlCaXdyd3iqOZjdOeETyqeTrAH68PEsI6Ocjf2jW6DFfY5V8U7sNejAbF2huDVlQaA3r8eagD24SGlkltr&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Los últimos detalles me los imagino o que Jaja Axel Fernando Bellido Los últimos detalles me los imagino o que Jaja"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_trinidad",
@@ -878,13 +844,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/782992818_1017884344403564_3614258269210393611_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=p526x296&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3FAq5TrtxG4Q7kNvwG4bGvt&_nc_oc=AdoPQpEWP76WganZ-OxfJptI91Rzpl0E_GQQ3j8IIYe6L-68ACx3zuD8bREqqwhJqPQ&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=m5Z7n7UTrsZJuAhQQot3Wg&_nc_ss=7f289&oh=00_AQFel41jJMD2w4WybsAcieZC3Se0FQaUN7qZYry53D2thw&oe=6A92E75F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "feria",
+          "url": "https://www.facebook.com/feriafipaz/posts/pfbid02KY89NEHSQGj2Ui92jgJcEAUoPuZCJEQv9JtkbTyR5M7yTumtxKSpL1oUpTpyEhiul?__cft__[0]=AZaucowkkVlENqHNJUUKvGejOsUnLzS3GPEs9fepZFBjwWfb4qZNmVhlUGj8BkwjPvxPlHGe6HWaH0YbmBjDWXmItgRZ7h9kDEfOOhYu1tPLCvhgJEXD3CELdD5fRaB_Au4hYR6b5iWQt8w7NYBa9EOEce7izr-e3A7CuuCcpLNW2FC1RgtlcBdm5DHVWp0Y-d18iVaTkEZvd0Nhu6S-LgjgGRwJkffFQDekM_6ukPhC8A&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Rueda de Negocios 2026 | FIPAZ 25 AÑOS … Ver más Rueda de Negocios - FIPAZ 3 días ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -929,13 +904,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Brll_dny0VwQ7kNvwGV0FO6&_nc_oc=AdrB8m71JvSMHFi_FCn11tf3OpHHOreS5oITzwmekSR6imXFgHUZ9Vqi7Zp2t9PhtgA&_nc_zt=24&_nc_ht=scontent-fra3-2.xx&_nc_gid=NZXuxlv2qW7bJ8Q0QiVAig&_nc_ss=7f289&oh=00_AQEYottxF9u4UPXFYssICBhlqiBLmW5hNBAlzuEMW6-9wA&oe=6A92ED07",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/pfbid09feNjqDuUsHoJDCkFHFi4fkDC7sJvFC2CMHbquYWuAwrcPo3umExzupP512Ecn7dl?__cft__[0]=AZamcej-qKC5NbodrtCnpNccUIavChwKP88QkV_IvdJNs75VXCrZxitc5UmZcZabx1PWYu6rQPSErrjnhNK6qGs2OI5w1G1rtB3ojpUZG5rbEX49iDvlnTnr0734WbQJsfdMMhyCiO0lPp8MlQII3J4ZzfgbAPIexrY4PDKmFsab2mq0n1WQcAB7UzQzX-e0M7Q&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐌𝐀𝐑𝐃𝐈 𝐒𝐎𝐈𝐑, 𝐎𝐍 𝐏𝐀𝐑𝐋𝐄 𝐅𝐑𝐀𝐍Ç𝐀𝐈𝐒 À 𝐋𝐀 𝐏𝐀𝐙 ¿Te animas a practicar tu fran… Ver más 𝐌𝐀𝐑𝐃𝐈 𝐒𝐎𝐈𝐑, 𝐎𝐍 𝐏𝐀𝐑𝐋𝐄 𝐅𝐑𝐀𝐍Ç𝐀𝐈𝐒 À 𝐋𝐀 𝐏𝐀𝐙 ¿Te animas a practicar tu fran… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1014,13 +998,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=j6jX7couIOEQ7kNvwGNY0Cs&_nc_oc=Ado2LauQyDLBnm5B4n3_k1jP1pvpPmPPleuHoneutpV33vu9fQuZiXjnNZSRyeiX-K4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=NJp_QqkYu3s10gYnMMGzKw&_nc_ss=7f289&oh=00_AQFvfFM4EG9rmC46dImgDPFn_0TKksoDZChj94F7O7s3PQ&oe=6A92EA03",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02r4Cds52bRAkbbJunnARXt39Uqoqn8NgjP6sN1E7j9nqgEosgJFeWhvFkH3SAr1exl?__cft__[0]=AZZ4hv62ekdepHIIbAsQheMRFr5SfuTTUHtcaVwTZqp-U_gshWcKn3TG26r0bBg5NpYMeuZlSGByAV_J8D5QPB6cisfOwWr2DLsQTgLQHN71ejINM0JV1dt2M7iQ7ZJwGIwxhYSr6Fsms9SkXrNyKgDusQDa7lDR7cNSp4wvNipk2DBcdyxhwDeiwZ207pUcWCZuwlqOqSuUJD_z1htBwW_rEpI4XMq0eMsEb4rLz4WXFw&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Participa contándonos la historia de esa mujer que impactó tu comunidad, tu provincia o el departamento …. Escribe una carta y cuéntanos de qué manera lo hizo y por qué… Ver más 𝗟𝗮 𝗚𝗼𝗯𝗲𝗿𝗻𝗮𝗰𝗶𝗼́𝗻 𝗱𝗲 𝗧𝗮𝗿𝗶𝗷𝗮, 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗜𝗟𝗟𝗔 𝘆 𝗹𝗮 𝗘𝗺𝗯𝗮𝗷𝗮𝗱𝗮 𝗱𝗲 𝗙𝗿𝗮𝗻𝗰𝗶𝗮 𝗹𝗮𝗻𝘇𝗮𝗿𝗼𝗻 𝗼𝗳𝗶𝗰𝗶𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗰𝘂𝗹𝘁𝘂𝗿𝗮𝗹 “𝗙𝗼𝗿𝗷𝗮𝗱𝗼𝗿𝗮𝘀 𝗱𝗲 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮: 𝗠𝘂𝗷𝗲𝗿𝗲𝘀 𝗱𝗲𝗹 𝗕𝗶𝗰𝗲𝗻𝘁𝗲𝗻𝗮𝗿𝗶𝗼 𝗲𝗻 𝗧𝗮𝗿… Ver más Tenemos problemas para reproducir este video"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1254,23 +1247,15 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 5,
+      "raw_items": 4,
       "events": 3,
-      "rejected": 2,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 0,
           "category": "otro",
           "url": "https://superticket.bo/",
-          "has_image": true,
-          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "taller",
-          "url": "https://superticket.bo/Curso--Taller-Inteligencia-Artificial-para-Emprendedores-Bolivianos/",
           "has_image": true,
           "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
         }
@@ -1418,8 +1403,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1430,20 +1415,20 @@
           "text_preview": "24/08/2026 Medio Ambiente El mono araña entra en peligro de extinción en Bolivia, pero el tráfico de crías no da tregua El mono araña o marimono (Ateles chamek), el primate más grande de Bolivia, fue recategorizado este año de Vulnerable (VU) a En Peligro (EN) en el Libro Rojo... vista 23/08/2026 Interesante Alberto Arze, gerente de la ICAM, en Podcast Los Tiempos El aniversario de una marca país "
         },
         {
-          "reason": "relevancia_insuficiente",
-          "score": 46,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
-          "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Eclipse \"Luna de sangre\" en Bolivia: ¿Cuándo y cómo verlo? Ver más 2 \"La Hija Cóndor\" llega a Francia, México y Estados Unidos y apunta a los premios Ó"
-        },
-        {
           "reason": "tema_ajeno_a_eventos",
           "score": 50,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+        },
+        {
+          "reason": "tema_ajeno_a_eventos",
+          "score": 50,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "has_image": true,
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
