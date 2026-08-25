@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T15:01:45-04:00",
+  "generated_at": "2026-08-25T17:49:22-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 41.0,
-    "horas_maximo_sin_datos": 261.2
+    "horas_promedio_sin_datos": 40.9,
+    "horas_maximo_sin_datos": 264.0
   },
   "sources": [
     {
@@ -555,22 +555,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-1/432766499_812585937576485_5980317798609638070_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dW93rZ9dv_IQ7kNvwFzN8o8&_nc_oc=AdoYVnzgbZRcoqbBnSAIJbYeV69CclSqDN2YCV74l8FmETe_ZoGI7d7y5tQ9YxONa7M&_nc_zt=24&_nc_ht=scontent-hkg1-2.xx&_nc_gid=gd15QBwSZUdp1h52VfUFKw&_nc_ss=7f289&oh=00_AQE3NTNeOI3yavDbbDSkfwx_mwgsmgFRpmuyle1F-uIFAA&oe=6A93C1CA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "cine",
-          "url": "https://www.facebook.com/reel/1366971832217285/?__cft__[0]=AZalSCHEE9F9cFGsDfv3lo62ESQ2QW14crbrOJNQC772Dqpl9dIXq5GeA9OtwyyGq-t_bT6hhV-1QoS_YnSvfeuTYRzqx4U1jWI84_m4skgr4OgJfzzxRy4OybIY3wxvOv0bhy7q4_V6Zs6JUM6oIfGp07u50HjAxGuI3IZ9IWrqxh9-DfVqa9o0NW5AqvGT9glfJLqtBU5A0EiEUN0M6JQT&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La película más querida del Studio Ghibli regresa a Cinemateca boliviana. No te pierdas MI VECINO TOTORO, una de las obras más maravillosas del director Hayao Miyazaki.… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -887,13 +878,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lpxyqUmPEM0Q7kNvwHpiDVj&_nc_oc=Adqy5mNh5NxwPKVcUNdMkTezkj-xZZTT1WewA2Ca-lQpv9Q2Phh2RH8GuhACB9ElxX8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=R6yFsiMKU61_ygyC3KJMTg&_nc_ss=7f289&oh=00_AQG0yPebVDm1T7Cuo8R0RJmDSmbkm1O0armC0n1VWyNMSg&oe=6A93D0A7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/28000811506270795/?__cft__[0]=AZaH_B050nEkIGov5ve8TuOdraBV6Ce1qJ_o-tI46JJDuyZ8RrhNxTzqG9Q55M_bNLj73vFJ0N3PeAjOX9vGZ01A7lxkqx2T1pG1w2-oWwk7bU3yYbX9deBQNGnbDRZuRGRtFtzI4x7qt1orMw8Peguxmh_qfZcuc1-zoyl3JPaKTLsAfD4iEopjtiuYLofeqgzZnXRK3fd_LYKShxPjkH1q&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#EmbajadoresPatiño I Conocer lo que hacemos también es una forma de sentirnos más parte de ello … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1074,30 +1074,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BsuyDkqbVLsQ7kNvwFMIsbt&_nc_oc=AdqPphX7CLkselj_-fA48vy6GypUvChH8kG6JfsSAVnimnoYx_tfabRy16AnkeEsyXo&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=G3gTFUl6HugPklxDIVeh2w&_nc_ss=7f289&oh=00_AQGZkx02JsafLv_omp5M5SyT2Q-92q7-O4cJUoW9C9jO0Q&oe=6A93CEEF",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "teatro",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": true,
-          "text_preview": "#CCP| Obra de teatro: LA NIÑA DE LA FOTO … Ver más muy buena!! Analía Villarroel Leigue"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid027Zf47TvauJKaRdZw4sZAE3D9vZU52EFyv7uvNCxjhtNnUTUoff9PChYtpDmLvyqHl?comment_id=1337878201463588&__cft__[0]=AZYbfs_5Zrw1wT_-t52rtZVcdWRLeiccnyCjc1R2E-sgILnAOBO3oHDef5ttnqv60DKyOyIQJ7wv34iBgLxc7F3h967Bt-GO2fajcYaVXFDL7BnFxk-0gQdMdhgh-brcqsKV-azkcojzq9fOSpiHa2AxI-qL6jHzL6Sgc9LWspymWBai8SBzrIJY6wabmxcaVs8&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Analía Villarroel Leigue muy buena!! 14 min"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1159,22 +1142,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QLzD5Bdj6c0Q7kNvwGy5NSX&_nc_oc=AdpNaobJskMg89IpAJCEPOclUjPrfTuLs7LUob3lHHCi52a3lm4dO52MPzyNH0oZzns&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=uCcvtdPnN94MUEyfC4tmEQ&_nc_ss=7f289&oh=00_AQFwj4-sc2Kc1eTONlHmKREAniElsZoofuPbO-U8LYYOWA&oe=6A939E65",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid033UfqPgtakGVxdh7GoKPCcptrt9fxR2KvGfJxbp49Uvze9sEdk1bjrpoSNcRxsunrl?__cft__[0]=AZZBSHHmJue3oTNd5Lw-x-1GlLejVChzmS3RclZawCCuyaqpVDzZZg7_oVM2IsauC-QclTUotsMIDROSb_zua8mI1fHnS4qwSY-50DETuuYlZjokmlNIr6QvINy7y82EiI_YQqWmlplr7JO9D5KX5IbnsaH4dJ0y-bvSkdbwMa2Y68JqJ5rxr5LH4rO40l4sTtI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La #UMSA fortalece la seguridad y bienestar de su personal con la entrega de 1.300 dotaciones L… Ver más La #UMSA fortalece la seguridad y bienestar de su personal con la entrega de 1.300 dotaciones L… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1202,13 +1176,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/781869362_2882403178785320_22275318099246343_n.png?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=p526x296&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=4hKhjvXqvQgQ7kNvwGXQJg2&_nc_oc=AdqTxGNCVUzmst7MS987g7NtdQZMA_7g-Cpl06CbJWWWPGIvNwTu-x30PMFivoUtJAE&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=KRZxHJTV6An5fpNCZUNzOQ&_nc_ss=7f289&oh=00_AQFr8uquaXiBF0uKwEYZnNu2vVxismapmaJQVD18DSq51Q&oe=6A93D808",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid022CqxefwzmDc9bdPUsNnhydKsCmYdm1qKbEFWYipVzGLpQSvfZRZJ7BERpeJhSe5Vl?__cft__[0]=AZY4e4-v5Mo0LjGDr_g1X1-YaZK94j3F5eaAqTn3UzrO66jSQFghHS_VLEYfw801eds16DTzahwmEuRLEuWJp9sImvTaI7YefONETHseu8oVMaJVSCTk8TU79GU78EtorQExMEcwL5wSu_WqMUJZ4GxKuP874_QQVb8My292rw1tQq6kNkKwm3I0U9iSw-yUjgg&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Práctica Empresarial DTIC 2/2026! ¿Eres estudiante UMSS? Postúlate para Práctica Empresarial con el DTIC y descubre un espacio donde el aprendizaje y el crecimient… Ver más ¡Práctica Empresarial DTIC 2/2026! ¿Eres estudiante UMSS? Postúlate para Práctica Empresarial con el DTIC y descubre un espacio donde el aprendizaje y el crecimient… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1236,13 +1219,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pwVyR3Y4ZTYQ7kNvwHMLB34&_nc_oc=Adrs8BSPpBDh4JdJDeEscL0r-iTLuV_o6Q5KqOeR2inpu9TJ24dyhys14lG5SrxDoss&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=e-NS9EBGHg-UW5mNv_7rfw&_nc_ss=7f289&oh=00_AQFd1gsgdEfugGCU0ZM6GpsKCmtDi2ItVADvk27jrXY9EA&oe=6A93D3B8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 4,
+          "category": "deporte",
+          "url": "https://www.facebook.com/boliviaupsa/posts/la-25%C2%BA-copa-upsa-pre-promociones-ya-est%C3%A1-en-marcha-el-campeonato-de-f%C3%BAtbol-y-vol/1088455483575116/",
+          "has_image": true,
+          "text_preview": "La 25º Copa UPSA Pre Promociones ya está en marcha. El campeonato de fútbol y voleibol comenzó con el sorteo de los grupos y los primeros encuentros que marcarán el inicio de dos meses de... La 25º Copa UPSA Pre Promociones ya está en marcha. El campeonato de fútbol y voleibol comenzó con el sorteo de los grupos y los primeros encuentros que... La 25º Copa UPSA Pre Promociones ya está en marcha. E"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_superticket",
@@ -1411,32 +1403,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 6,
-      "rejected": 7,
+      "events": 7,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
+          "score": 46,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "25/08/2026 Interesante Hallan huellas de tortugas del Cretácico en Torotoro, el primer registro en Sudamérica Entre cañones, cavernas, formaciones rocosas y huellas que conservan la memoria de millones de años, el Parque Nacional Torotoro, ubicado en el departamento de... vista 24/08/2026 Medio Ambiente El mono araña entra en peligro de extinción en Bolivia, pero el tráfico de crías no da tregua E"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 50,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 44,
+          "category": "otro",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/08/2026 Cultura Cartelera: El festival de piano y la feria cultural japonesa atraen la atención La quinta edición del Festival de Piano a cuatro manos reunirá a 130 músicos del país y la Asociación Cultural Boliviana Japonesa exhibirá la cultura y... vista 23/08/2026 Cultura Por qué no se han podido encontrar los restos de Federico García Lorca Da igual el lugar de España en el que te encuentre"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Desastres naturales: 3 municipios de Cochabamba, en emergencia Ver más 2 Caen otros dos entrenadores; ya suman 34 los despedidos en los clubes de la Di"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 6,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 54,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Cartelera: El festival de piano y la feria cultural japonesa atraen la atención Ver más 2 Gobierno lanza la Fase II del Programa Nacional de Empleo Ver"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1450,38 +1442,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://cdn.prod.website-files.com/6690a19e0f5a04cb6cbb90c0/6690a27b18b1187ab93e2993_fexpo-logo.avif",
-      "status": "ok",
-      "raw_items": 8,
-      "events": 5,
-      "rejected": 3,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.fexpocruz.com.bo/",
-          "has_image": true,
-          "text_preview": "El espacio ideal para tu evento soñado Nuestro Centro de Convenciones recibe los encuentros sociales, económicos y protocolares más importantes del país, entre seminarios, simposios, bodas y todo tipo de eventos sociales. Reservá aquí Conocé los espacios"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 36,
-          "category": "feria",
-          "url": "https://www.fexpocruz.com.bo/feria/agropecruz",
-          "has_image": false,
-          "text_preview": "EN Feria Agropecuaria Internacional de Santa Cruz Inicio Ferias Agropecruz Sobre Agropecruz 🗓️ Abril 2027 ⏰ De 17:00 a 23:00. 📍FEXPOCRUZ. Agropecruz es un espacio de intercambio donde referentes del sector agropecuario exhiben ganadería de élite y diferentes proveedores de insumos resaltan las cualidades de sus productos. Los principales productores de proteína animal del país esperan esta activid"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 36,
-          "category": "feria",
-          "url": "https://www.fexpocruz.com.bo/feria/expoagro",
-          "has_image": false,
-          "text_preview": "EN Feria Agrícola de Santa Cruz Inicio Ferias Expoagro Sobre Expoagro 🗓️ Mayo de 2027 ⏰ De 09:00 a 16:00 📍FEXPOCRUZ NORTE ‍ Es una feria realizada en FEXPOCRUZ NORTE, dedicada a exhibir lo mejor del mundo del Agro con tendencias, tecnología e innovación junto a expertos del campo. Son 3 días en el que la Feria Agrícola de Santa Cruz reúne a referentes del sector en un evento de networking, confere"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Server error '504 Gateway Timeout' for url 'https://www.fexpocruz.com.bo/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
     }
   ]
 }
