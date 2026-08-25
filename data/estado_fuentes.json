@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T05:56:31-04:00",
+  "generated_at": "2026-08-25T09:17:03-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,6 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_casa_moneda_potosi",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -16,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 40.5,
-    "horas_maximo_sin_datos": 252.1
+    "horas_promedio_sin_datos": 41.2,
+    "horas_maximo_sin_datos": 255.4
   },
   "sources": [
     {
@@ -148,13 +147,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AFYi2adJmOwQ7kNvwH-hCq2&_nc_oc=Adpcf3EfVxGzn3B-RqkFEqcpHuFEkD4YDWIDebeVWBPmBtGhHpEsudCai5rcQlMHK3E&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=hJCYhP_uQrS_TClqzm4RtA&_nc_ss=7f289&oh=00_AQEb9r_rO57Th1xOH9bAsqsFOriQiCwOUZzU-fwF9-CH1w&oe=6A935DF7",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02aBtUQRWutRSYmyP3XwcYiFUp4euUzN8C13xFDcWY64g5E7B897doyCc5x6JX2dWql?__cft__[0]=AZYfOPEf383nZ9A7S3URBGdS3_y4g_l0HrLMHJJaQQPxh4XLbu831_AvTqqbMcYe3-hUrSXXf-3RLF5WMxAXfX6BJAjf__b-nHwFEi8I3xAJkdQlCaHNohGFaOUuNS4YTSbI6hC12HWDyMwWTyg9q0JZgN931KXNTbxmdHT8FLlBVgHRwcL5oT3dXPwghcu4398&__tn__=%2CP-R",
+          "has_image": true,
+          "text_preview": "#AMUN | Alcalde Dockweiler asiste a convocatoria de Brigada Parlamentaria para explicar situación de emergencia sanitaria, empresarios desairan con su ausencia Lee l… Ver más #AMUN | Alcalde Dockweiler asiste a convocatoria de Brigada Parlamentaria para explicar situación de emergencia sanitaria, empresarios desairan con su ausencia Lee l… Ver más Si no puede manejar la alcaldia, que renunnncia..."
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02aBtUQRWutRSYmyP3XwcYiFUp4euUzN8C13xFDcWY64g5E7B897doyCc5x6JX2dWql?comment_id=1604160294713247&__cft__[0]=AZYfOPEf383nZ9A7S3URBGdS3_y4g_l0HrLMHJJaQQPxh4XLbu831_AvTqqbMcYe3-hUrSXXf-3RLF5WMxAXfX6BJAjf__b-nHwFEi8I3xAJkdQlCaHNohGFaOUuNS4YTSbI6hC12HWDyMwWTyg9q0JZgN931KXNTbxmdHT8FLlBVgHRwcL5oT3dXPwghcu4398&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Si no puede manejar la alcaldia, que renunnncia... Jaime Doza"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -539,30 +555,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZGvjnlEDzhkQ7kNvwF-Bax2&_nc_oc=Ado8uLTeAZGW9T08lIiUwMdM7hC8sQkwUfQGxanJ3OVQX0Pyaum1s2i8JsX2a8o3LsI&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=e67eGyjsbqvtKiXpEs9HGA&_nc_ss=7f289&oh=00_AQEWrIHqL_JE0JB7Qlp6-_ph2QLi9wvuZWTBdGz1_F--Rg&oe=6A932473",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid0LraAEZ8wXpBT84cAuJWa6WNLuKQ7Rt6MWs3VUA74nY7ghygYcwq5w1trD1zhBeyMl?__cft__[0]=AZaQkL2Po-FT0gla8vuPNdfDsziilOa0HaQ3c2ygNc6MRpGPkUwrv0JUa3zny8jl-uxGfwsEZmknCpLKBWdYW_bTiWIWSZwD_cWjrPM1p1kkS4_0uv9f3oIGMrbAtJxB0IRJ8FGKaat6Rf0dzULPyvyyV50KEMCFgKMhi-_C6fby0hb2dkzRZiijZCclY_uHNgA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#FCBCB l 𝐑𝐨𝐬𝐭𝐫𝐨𝐬 𝐝𝐞𝐥 𝐏𝐚𝐭𝐫𝐢𝐦𝐨𝐧𝐢𝐨 “La Triple Trinidad… Ver más #FCBCB l 𝐑𝐨𝐬𝐭𝐫𝐨𝐬 𝐝𝐞𝐥 𝐏𝐚𝐭𝐫𝐢𝐦𝐨𝐧𝐢𝐨 “La Triple Trinidad… Ver más Parece que José es un autorretrato del pintor... Lucho Juaniquina"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid0LraAEZ8wXpBT84cAuJWa6WNLuKQ7Rt6MWs3VUA74nY7ghygYcwq5w1trD1zhBeyMl?comment_id=1779028783125973&__cft__[0]=AZaQkL2Po-FT0gla8vuPNdfDsziilOa0HaQ3c2ygNc6MRpGPkUwrv0JUa3zny8jl-uxGfwsEZmknCpLKBWdYW_bTiWIWSZwD_cWjrPM1p1kkS4_0uv9f3oIGMrbAtJxB0IRJ8FGKaat6Rf0dzULPyvyyV50KEMCFgKMhi-_C6fby0hb2dkzRZiijZCclY_uHNgA&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Parece que José es un autorretrato del pintor... Lucho Juaniquina"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -590,22 +589,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tP3U19p36UYQ7kNvwFrno_q&_nc_oc=Adq7Iie9FYzVrrHdjAEFUbX_DEI_PwZe4i8JWvokhmdZcxmjMvP3DDSMjEKurAztGzc&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=CXMh6_qirJl9bJ3NRy3N4w&_nc_ss=7f289&oh=00_AQHHoExY42SpHA70TzXoutTMP-WWg9YRCIyoGQbLfkZn0g&oe=6A9345D6",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "cine",
-          "url": "https://www.facebook.com/reel/1105251108733777/?__cft__[0]=AZYVoDkz69uMEQBDpzkGslvOfEvZk46z3C2yqnsjV8RGnmXaNu-GqIZHBOnLcgzh1aubnlehhMQ0QeNaKehVxMSTmCgRfzWy8Jv2cdrZKceMZEIoK7yGgHOlVNuio9xaRv4xdvZAF0tF1fLwqfpDwMXctCDpvhLu8lHvi2Xpm0mRwifMGoaXXGBJ5ewpm2JFjwV_-O5y0XoHajt0sc1X3uOa&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "ACERCA África 2025 - Martes de Cine El … Ver más ACERCA África 2025 - Martes de Cine El … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -650,13 +640,22 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.99422-6/783799420_1045269031608730_8350335793659817783_n.png?stp=dst-jpg_tt6&cstp=mx1878x2048&ctp=s565x565&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=PzLVAlkdVkQQ7kNvwG9hry3&_nc_oc=AdoiN8eYvWxdk2-Q4-UkhmQVf8aB4-ElecRlgZgGM85uU8pn33REBPBilvn6KDQomwY&_nc_zt=14&_nc_ht=scontent-ams2-1.xx&_nc_gid=hMmD9MC1U7kk6Qlu4nJNOw&_nc_ss=7f289&oh=00_AQE_E44FFxgDTZkH-OvsZ8sgVj6y0eek1aJYpLQUzor7qQ&oe=6A9375E6",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia 14 mil seguidores • 0 seguidos Más Publicaciones Información Reels Fotos Esta página no e'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid02MM5JEzarZp1TwBD6UMC5wZkQGZtRaKudjmJJRnqgmcNQ4d4QYHhN37eCyB8S32RFl?__cft__[0]=AZY7qJu1r3Ko1gdkPuEQ6Pwo8BijVPhhZQkHyX9tnh9MSf7-33eEPJW2T7nujtr4IE0E1B7F8dSBrBHxHmlx_0kLBL-9tb3CPos2asmSNHuZK-lqi5cRnfrv-p37TsG6IEyr-plq6miUN2srVH_EM7iBlEj8Ed_GT-KE8kYVViDXl3JDHFDP5IWcoxlMtPb-q8o&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia 19 h MUSEF: 64 AÑOS… Ver más Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -667,13 +666,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JYdAl3xHTgUQ7kNvwESgNTz&_nc_oc=AdoNu8Uo8WhjKSc42MlDWz9oOsYJlyNK5BcpOpaZ-Pt0qAUdoXH6XBZdu3OWAOur8os&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=xaOr3v5-mTZxbJ3uNbU6FA&_nc_ss=7f289&oh=00_AQGogjL2FJ0M1lulflROLuY3U0mDu6mcxOSzhw48BNbUeQ&oe=6A935592",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid0HU6xZxNPPvktErNWU2GDuEqNu4Gg82eihk3YfPBrQD8q4gXtMWrijpQVhYmtkyxSl?__cft__[0]=AZYrvHDXb6xmHKppnesxJf1RB9KwEyDrXtqhd3PVL7BNC7-xePyyQAMewkizR17w4p3_n0thVB5yZsNAl-mZ-bmc9sN4ABuTnTEQcPfOjdQUYlODAPTu4TJa84IIxSPoWmgJPAMFDRIDhbkfzO4Hu4wtVOqZa3cgRIkIa1JLW_WqvY30vrTdjmj0LKp_Iw3uB3k&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CRC | 𝐀𝐬𝐢 𝐬𝐞 𝐯𝐢𝐯𝐢𝐨 𝐥𝐚 𝐏𝐫𝐞𝐬𝐞𝐧𝐭𝐚𝐜𝐢𝐨́𝐧 𝐝𝐞 𝐥𝐚 𝐨𝐛𝐫𝐚 𝐝𝐞 𝐚𝐫𝐭𝐞𝐬 𝐦𝐮𝐬𝐢𝐜𝐚𝐥𝐞𝐬 “𝐃𝐞 𝐁𝐞𝐫𝐦𝐞𝐣𝐨 𝐚 𝐍𝐮𝐞𝐯𝐚 𝐄𝐬𝐩𝐞𝐫𝐚𝐧𝐳𝐚” 𝐞𝐧 𝐒𝐚𝐦𝐚𝐢𝐩𝐚𝐭𝐚 En el marco del fomento a la productividad cultural y l… Ver más #CRC | 𝐀𝐬𝐢 𝐬𝐞 𝐯𝐢𝐯𝐢𝐨 𝐥𝐚 𝐏𝐫𝐞𝐬𝐞𝐧𝐭𝐚𝐜𝐢𝐨́𝐧 𝐝𝐞 𝐥𝐚 𝐨𝐛𝐫𝐚 𝐝𝐞 𝐚𝐫𝐭𝐞𝐬 𝐦𝐮𝐬𝐢𝐜𝐚𝐥𝐞𝐬 “𝐃𝐞 𝐁𝐞𝐫𝐦𝐞𝐣𝐨 𝐚 𝐍𝐮𝐞𝐯𝐚 𝐄𝐬𝐩𝐞𝐫𝐚𝐧𝐳𝐚” 𝐞𝐧 𝐒𝐚𝐦𝐚𝐢𝐩𝐚𝐭𝐚 En el marco del fomento a la productividad cultural y l… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -1423,8 +1431,8 @@
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         },
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 50,
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 52,
           "category": "cine",
           "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
