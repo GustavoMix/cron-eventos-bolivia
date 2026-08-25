@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-24T17:49:04-04:00",
+  "generated_at": "2026-08-24T21:57:54-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 27,
+    "events_total": 28,
     "events_today": 2
   },
   "filters": {
@@ -58,14 +58,14 @@
         "count": 8
       },
       {
-        "key": "teatro",
-        "label": "Teatro",
+        "key": "concierto",
+        "label": "Conciertos",
         "count": 4
       },
       {
-        "key": "concierto",
-        "label": "Conciertos",
-        "count": 3
+        "key": "teatro",
+        "label": "Teatro",
+        "count": 4
       },
       {
         "key": "cine",
@@ -102,7 +102,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 5
+        "count": 6
       },
       {
         "key": "Quillacollo",
@@ -144,7 +144,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 5
+        "count": 6
       },
       {
         "key": "Chuquisaca",
@@ -166,17 +166,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 6
+        "count": 7
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 12
+        "count": 13
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 27
+        "count": 28
       }
     ],
     "price": [
@@ -193,14 +193,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 19
+        "count": 20
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 21
+        "count": 22
       },
       {
         "key": "con_video",
@@ -209,6 +209,16 @@
       }
     ],
     "tags": [
+      {
+        "key": "EventosBolivia",
+        "label": "EventosBolivia",
+        "count": 2
+      },
+      {
+        "key": "SuperTicket",
+        "label": "SuperTicket",
+        "count": 2
+      },
       {
         "key": "MUSEFSucre",
         "label": "MUSEFSucre",
@@ -260,13 +270,33 @@
         "count": 1
       },
       {
-        "key": "EventosBolivia",
-        "label": "EventosBolivia",
+        "key": "ViveBolivia",
+        "label": "ViveBolivia",
         "count": 1
       },
       {
-        "key": "SuperTicket",
-        "label": "SuperTicket",
+        "key": "PeñaJamuy",
+        "label": "PeñaJamuy",
+        "count": 1
+      },
+      {
+        "key": "LaPaz",
+        "label": "LaPaz",
+        "count": 1
+      },
+      {
+        "key": "MusicaEnVivo",
+        "label": "MusicaEnVivo",
+        "count": 1
+      },
+      {
+        "key": "MusicaBoliviana",
+        "label": "MusicaBoliviana",
+        "count": 1
+      },
+      {
+        "key": "ConciertosBolivia",
+        "label": "ConciertosBolivia",
         "count": 1
       },
       {
@@ -298,26 +328,6 @@
         "key": "OportunidadesParaTodos",
         "label": "OportunidadesParaTodos",
         "count": 1
-      },
-      {
-        "key": "Ml18Xb",
-        "label": "Ml18Xb",
-        "count": 1
-      },
-      {
-        "key": "Xilografía",
-        "label": "Xilografía",
-        "count": 1
-      },
-      {
-        "key": "TallerDeArte",
-        "label": "TallerDeArte",
-        "count": 1
-      },
-      {
-        "key": "SucreCultural",
-        "label": "SucreCultural",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -334,7 +344,7 @@
       {
         "key": "ticketera",
         "label": "ticketera",
-        "count": 5
+        "count": 6
       },
       {
         "key": "eventos",
@@ -445,6 +455,32 @@
       "department": "Oruro",
       "venue": null,
       "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.99422-6/774267819_1618547099988934_5725811835952575194_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s600x600&_nc_cat=109&ccb=1-7&_nc_sid=cae128&_nc_ohc=zMFYj6inoWYQ7kNvwE4famK&_nc_oc=AdqEvGl2usGxNZjbLLQ-y8FMOJg_NZJ-13WOfarTZrCXKjLFtGDDmCbEp6n_mvvS1N4&_nc_zt=14&_nc_ht=scontent-ams2-1.xx&_nc_gid=lrKvuLktTthCHIDKZ-n-HQ&_nc_ss=7f289&oh=00_AQH9bbEOA0HgDrg0sSnBD3OjYqB_urwSyDpwHKFJEFHcQw&oe=6A85033C",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_f3964b494c306b",
+      "title": "SuperTicket",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-08-29T22:00:00-04:00",
+      "starts_at_ms": 1788055200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 29 de agosto · 22:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 5,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.99422-6/784927671_1228639703673299_2952058216694611258_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s600x600&_nc_cat=111&ccb=1-7&_nc_sid=cae128&_nc_ohc=wEeiHTPTagQQ7kNvwGRbUe6&_nc_oc=AdplQHXABidRdi8k0HxrgbNPnazuvzmDJ8_yPfunFlYRaehf4KQkLPl16k_Jnnom7PY&_nc_zt=14&_nc_ht=scontent-dfw5-1.xx&_nc_gid=5YE3vafuGTngaOlDrIKpxw&_nc_ss=7f289&oh=00_AQFFucT_590ZOWc3w_95LpNC4Q_OsP8Q8qM91LEyL4-Vyg&oe=6A92D725",
       "has_video": false,
       "is_free": false,
       "price_from": null,
