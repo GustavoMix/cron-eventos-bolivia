@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T17:49:22-04:00",
+  "generated_at": "2026-08-25T22:02:16-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 40.9,
-    "horas_maximo_sin_datos": 264.0
+    "horas_promedio_sin_datos": 42.3,
+    "horas_maximo_sin_datos": 268.2
   },
   "sources": [
     {
@@ -878,22 +878,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lpxyqUmPEM0Q7kNvwHpiDVj&_nc_oc=Adqy5mNh5NxwPKVcUNdMkTezkj-xZZTT1WewA2Ca-lQpv9Q2Phh2RH8GuhACB9ElxX8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=R6yFsiMKU61_ygyC3KJMTg&_nc_ss=7f289&oh=00_AQG0yPebVDm1T7Cuo8R0RJmDSmbkm1O0armC0n1VWyNMSg&oe=6A93D0A7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/28000811506270795/?__cft__[0]=AZaH_B050nEkIGov5ve8TuOdraBV6Ce1qJ_o-tI46JJDuyZ8RrhNxTzqG9Q55M_bNLj73vFJ0N3PeAjOX9vGZ01A7lxkqx2T1pG1w2-oWwk7bU3yYbX9deBQNGnbDRZuRGRtFtzI4x7qt1orMw8Peguxmh_qfZcuc1-zoyl3JPaKTLsAfD4iEopjtiuYLofeqgzZnXRK3fd_LYKShxPjkH1q&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#EmbajadoresPatiño I Conocer lo que hacemos también es una forma de sentirnos más parte de ello … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -955,13 +946,30 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cC-lrtR7y8cQ7kNvwF8fD3E&_nc_oc=Adof8wu12JTr6PKb2Cd3EnI0T9gnR60W23xJmTHvf9otTUs-QpRdJXxrVSAzGywNOfg&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=2cvjhbpKVAPaN-3-45o5XA&_nc_ss=7f289&oh=00_AQEb8eCuT-U2xqocRdZP1JfjfXaMGGSajTR64lPg0xGnSQ&oe=6A9408D7",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 42,
+          "category": "exposicion",
+          "url": "https://es-la.facebook.com/login",
+          "has_image": true,
+          "text_preview": "ACTO DE VANDALISMO EN LA EXPOSICIÓN \"TRANSITANDO SCZ\". Manzana 1 Espacio de Arte lamenta el acto vandálico ocurrido en el predio público Arte en la Plaza, donde dos per… Ver más Cruceño de oro , por que discriminar la técnica, el estilo ,todo el arte que hay en un trazo de pintura ..., esa es la expresión popular..., la voz de muchos en la mano de un artista... Ver más comentarios Xavi Doces Ver l"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0qswJnUd3RLrgDbLvyZPseaiHB3H5jSMcMAT1XNRgz8Z7Km8mBWYvFHouGsF5nmMol?comment_id=1044195248402117&__cft__[0]=AZZuv0ce88JpZqZCxV74QG2UqLQM_RxpQm1_zz2fMU1FmwkkMdzDVkU_ZoRC-V09BvHy4xR30n7tFAmw2vPK7Eam6iVS17Yi2WUgcWnxRHXTLhWFlnPMSpGLpYfVxMWaU6rRN8XHF0E6nHh9wYqIPYGyBbix8fq9Ajvzavw5khxXyo5cexbJZtaRX6kl4m-YyMs&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Cruceño de oro , por que discriminar la técnica, el estilo ,todo el arte que hay en un trazo de pintura ..., esa es la expresión popular..., la voz de muchos en la mano de un artista... Xavi Doces"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1023,13 +1031,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iL6kG3A5PIUQ7kNvwFc4u4X&_nc_oc=Adp8-mdelm_IxdblyBqu6JV6izPOVPgc3Uqo0VAFPj3aNqSXLWMXduVIXbGbZFRRsbI&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=Q90wk82rQIIZlY4iVsMlbQ&_nc_ss=7f289&oh=00_AQFr-vQRrERoRKBPnjK3hqC1j6bINw7_bR_rXmNdvkM_ww&oe=6A940B8F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid02mXswoVo3K6hj7499BHPUH4wyREt1uNEUDMdJfQzgrSZEhaUYdbe2PygWm3CRFi9sl?__cft__[0]=AZYYtpwk-zIkF9f-VBqSmhwtfmRvTje2oL70TOWinFs6it4a7AE9Fe_MfZZzQ3NY3u-5DbOxC16_5av3AaDXxWE7HL6Mw9XdojWf76g5RGYvAS3amCwXDq70t0JiYuNIvia-kBWLCPGXz4egr0prdTINti4A3kREA1fjtf8zHz_uQAXiwL8Hrgu1xHsruLTiIOY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Editorial El Cuervo invita a conversar sobre la novela Luz Azul - Manubiduyepe de Juan Pablo Piñeiro: una obra fascinante que entrelaza el humor y la crudeza de la selv… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1125,13 +1142,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_Mff1huOHTAQ7kNvwH_3aDc&_nc_oc=AdqUslRCtls4OIIbosOBs1ynOqMBOFMZt1QnVOnFGi3GpHIu0lg7u0ZXVxR0HBE4hl8&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=JkDrO7cTrJsl4aD6zSg5Gg&_nc_ss=7f289&oh=00_AQEwXgCAUVqAt4IM49AXA_5Slo4WaMUQE5RStFRvJRHfSQ&oe=6A942720",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid03Svde8FcbdJYbUnm6inxatZpBtbWY8Wrceqj2BVfEC2B2DgST7ssQeV2h78sFJNTl?__cft__[0]=AZaZZACtjCJx7Ak51rEqgGWT1DX9qaMAoQzKQLma-mYI1iNZGby7J4CYC8_GdRS4J4BD0iOi3Mr_Wj_5KclV1VM0w3zdcKCZYeRbV9zIasvzhYlQoG-RgIgUe4AM5EV-btUX4wWvjWwsq65xQne_vAPEcYFLr5FOmff7GCiZ2ZisK_L-IJkizNj9cFSNmz0aKdI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Formar profesionales también es enseñar a cuidar, servir y salvar vidas. La… Ver más Formar profesionales también es enseñar a cuidar, servir y salvar vidas. La… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umsa",
@@ -1176,22 +1202,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/781869362_2882403178785320_22275318099246343_n.png?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=p526x296&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=4hKhjvXqvQgQ7kNvwGXQJg2&_nc_oc=AdqTxGNCVUzmst7MS987g7NtdQZMA_7g-Cpl06CbJWWWPGIvNwTu-x30PMFivoUtJAE&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=KRZxHJTV6An5fpNCZUNzOQ&_nc_ss=7f289&oh=00_AQFr8uquaXiBF0uKwEYZnNu2vVxismapmaJQVD18DSq51Q&oe=6A93D808",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid022CqxefwzmDc9bdPUsNnhydKsCmYdm1qKbEFWYipVzGLpQSvfZRZJ7BERpeJhSe5Vl?__cft__[0]=AZY4e4-v5Mo0LjGDr_g1X1-YaZK94j3F5eaAqTn3UzrO66jSQFghHS_VLEYfw801eds16DTzahwmEuRLEuWJp9sImvTaI7YefONETHseu8oVMaJVSCTk8TU79GU78EtorQExMEcwL5wSu_WqMUJZ4GxKuP874_QQVb8My292rw1tQq6kNkKwm3I0U9iSw-yUjgg&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡Práctica Empresarial DTIC 2/2026! ¿Eres estudiante UMSS? Postúlate para Práctica Empresarial con el DTIC y descubre un espacio donde el aprendizaje y el crecimient… Ver más ¡Práctica Empresarial DTIC 2/2026! ¿Eres estudiante UMSS? Postúlate para Práctica Empresarial con el DTIC y descubre un espacio donde el aprendizaje y el crecimient… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1219,22 +1236,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pwVyR3Y4ZTYQ7kNvwHMLB34&_nc_oc=Adrs8BSPpBDh4JdJDeEscL0r-iTLuV_o6Q5KqOeR2inpu9TJ24dyhys14lG5SrxDoss&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=e-NS9EBGHg-UW5mNv_7rfw&_nc_ss=7f289&oh=00_AQFd1gsgdEfugGCU0ZM6GpsKCmtDi2ItVADvk27jrXY9EA&oe=6A93D3B8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 4,
-          "category": "deporte",
-          "url": "https://www.facebook.com/boliviaupsa/posts/la-25%C2%BA-copa-upsa-pre-promociones-ya-est%C3%A1-en-marcha-el-campeonato-de-f%C3%BAtbol-y-vol/1088455483575116/",
-          "has_image": true,
-          "text_preview": "La 25º Copa UPSA Pre Promociones ya está en marcha. El campeonato de fútbol y voleibol comenzó con el sorteo de los grupos y los primeros encuentros que marcarán el inicio de dos meses de... La 25º Copa UPSA Pre Promociones ya está en marcha. El campeonato de fútbol y voleibol comenzó con el sorteo de los grupos y los primeros encuentros que... La 25º Copa UPSA Pre Promociones ya está en marcha. E"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "web_superticket",
@@ -1247,8 +1255,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 4,
-      "events": 3,
+      "raw_items": 5,
+      "events": 4,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1423,8 +1431,8 @@
           "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Desastres naturales: 3 municipios de Cochabamba, en emergencia Ver más 2 Caen otros dos entrenadores; ya suman 34 los despedidos en los clubes de la Di"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
+          "reason": "tema_ajeno_a_eventos",
+          "score": 50,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
@@ -1442,13 +1450,38 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Server error '504 Gateway Timeout' for url 'https://www.fexpocruz.com.bo/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+      "icon_url": "https://cdn.prod.website-files.com/6690a19e0f5a04cb6cbb90c0/6690a27b18b1187ab93e2993_fexpo-logo.avif",
+      "status": "ok",
+      "raw_items": 8,
+      "events": 5,
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.fexpocruz.com.bo/",
+          "has_image": true,
+          "text_preview": "El espacio ideal para tu evento soñado Nuestro Centro de Convenciones recibe los encuentros sociales, económicos y protocolares más importantes del país, entre seminarios, simposios, bodas y todo tipo de eventos sociales. Reservá aquí Conocé los espacios"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 36,
+          "category": "feria",
+          "url": "https://www.fexpocruz.com.bo/feria/agropecruz",
+          "has_image": false,
+          "text_preview": "EN Feria Agropecuaria Internacional de Santa Cruz Inicio Ferias Agropecruz Sobre Agropecruz 🗓️ Abril 2027 ⏰ De 17:00 a 23:00. 📍FEXPOCRUZ. Agropecruz es un espacio de intercambio donde referentes del sector agropecuario exhiben ganadería de élite y diferentes proveedores de insumos resaltan las cualidades de sus productos. Los principales productores de proteína animal del país esperan esta activid"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 36,
+          "category": "feria",
+          "url": "https://www.fexpocruz.com.bo/feria/expoagro",
+          "has_image": false,
+          "text_preview": "EN Feria Agrícola de Santa Cruz Inicio Ferias Expoagro Sobre Expoagro 🗓️ Mayo de 2027 ⏰ De 09:00 a 16:00 📍FEXPOCRUZ NORTE ‍ Es una feria realizada en FEXPOCRUZ NORTE, dedicada a exhibir lo mejor del mundo del Agro con tendencias, tecnología e innovación junto a expertos del campo. Son 3 días en el que la Feria Agrícola de Santa Cruz reúne a referentes del sector en un evento de networking, confere"
+        }
+      ],
+      "error": null
     }
   ]
 }
