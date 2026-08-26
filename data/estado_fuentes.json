@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T03:13:31-04:00",
+  "generated_at": "2026-08-26T06:09:42-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_eventos_bolivia",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -15,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 43.2,
-    "horas_maximo_sin_datos": 273.4
+    "horas_promedio_sin_datos": 44.8,
+    "horas_maximo_sin_datos": 276.3
   },
   "sources": [
     {
@@ -45,30 +46,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gYagTYxhSRcQ7kNvwEoSjEb&_nc_oc=AdoKK3tzD2buu7UiPWqN3uPYoU6k4_InsyOBwo9uAEoIuVsn1lCv4aXtRCFYYkRiITM&_nc_zt=24&_nc_ht=scontent-qro1-1.xx&_nc_gid=TQReSyEubuaLbrKagMnapQ&_nc_ss=7f289&oh=00_AQEqf9KcVcYTqueUlzu-XwKBMvthOOwr3AOC3ckFcgueUA&oe=6A944875",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1381019750819754/?__cft__[0]=AZYThiTbzIoN27awwJSNqKRBAWkcARUaRDlOZW8PX_IofZ6ou7100XBbxDN-m1UDL0dliK1mz-5Do06bBxM5agHLkpMSq5NJqPJgyCrdfT2AVGSO3_JjqP-YTBMIZ17Q8vUxc_U0pL1g5J1ljoJ-ebol0Q4m1mKkLYVLo9rLRIj8zhMGLQR7R8A2DRwg9EEVpXs4NAW6yistNtwJZTzXqkIp&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Bolivia están listos? M… Ver más Bolivia están listos? M… Ver más Laurita Tenemos problemas para reproducir este video. Más información Daniel Vocal Villanueva"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1381019750819754/?comment_id=1611392970508535&__cft__[0]=AZYThiTbzIoN27awwJSNqKRBAWkcARUaRDlOZW8PX_IofZ6ou7100XBbxDN-m1UDL0dliK1mz-5Do06bBxM5agHLkpMSq5NJqPJgyCrdfT2AVGSO3_JjqP-YTBMIZ17Q8vUxc_U0pL1g5J1ljoJ-ebol0Q4m1mKkLYVLo9rLRIj8zhMGLQR7R8A2DRwg9EEVpXs4NAW6yistNtwJZTzXqkIp&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Daniel Vocal Villanueva Laurita 3 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -80,12 +64,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Indicador de estado activo Eventos Bolivia 427 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este moment'"
     },
     {
       "id": "fb_festivales_eventos",
@@ -113,13 +97,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=B8t-2ab-5zUQ7kNvwHxBP0I&_nc_oc=AdpEh7XJQ2i2_L9h66qQHUqxKWF2ZZ59XTOz96n2IPaXRSMO33tzUi5PWi5ivh-WA7U&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=nLh974LjuP7iglF-Keq-Nw&_nc_ss=7f289&oh=00_AQGMJWa5GeTrwuBtuLI_A0tOGXuiPcCZgR-dgNILml54vA&oe=6A9478D0",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -606,30 +590,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VF6_THT0is4Q7kNvwFD0HV4&_nc_oc=AdoltIJTCLO1PFmVR-W6ynlwoNixTTVi-p2GX7fLB3fM1P4qpNtV7AIRE17e1oYh7dM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=TnixqKsQ8eWTc8mVJyojQg&_nc_ss=7f289&oh=00_AQF3P4hN8PyLmIo04EjsYeec6EpCDy1-lqIK9Vlo4EhknQ&oe=6A947B80",
-      "status": "ok",
-      "raw_items": 3,
-      "events": 1,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid0S5CDRP9XtNqy3qtyqqXMzXwNUp4oShYRyvs6H18NGphCPeKPT1et4228yTGeD9FTl?comment_id=1472751917924368&__cft__[0]=AZZUL8D_JnnkEUDgAHvh2VovJgFwrVv2QWTgko741mWs-qn1OCrUsnCUcRZncJYlg-d4s_sc4G57d0SlNOGtHzwS8rcs7sMkiMELL_6n3GwHjYG4Hp0-g9kss5P5kiWnq1tl_NoRNgUmKPbbO42Krusn8-mm1VhYtoC9tX58xDAYhdVDiT3F0bHDdyxAY60bRyE&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Gracias al Museo Nacional de Arte - MNA y a Patricia Mariaca por la actividad. Antonio Mariaca Arguedas"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid0S5CDRP9XtNqy3qtyqqXMzXwNUp4oShYRyvs6H18NGphCPeKPT1et4228yTGeD9FTl?comment_id=1472751917924368&reply_comment_id=4663110144011363&__cft__[0]=AZZUL8D_JnnkEUDgAHvh2VovJgFwrVv2QWTgko741mWs-qn1OCrUsnCUcRZncJYlg-d4s_sc4G57d0SlNOGtHzwS8rcs7sMkiMELL_6n3GwHjYG4Hp0-g9kss5P5kiWnq1tl_NoRNgUmKPbbO42Krusn8-mm1VhYtoC9tX58xDAYhdVDiT3F0bHDdyxAY60bRyE&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Patricia Mariaca GIPHY 15 h"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -946,22 +913,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LoVBum6_PxwQ7kNvwElEhav&_nc_oc=Adpy-Z7vDplFtMSIEYij1cit5i5hKdLxO4lxDpW_5pBZypiJNwZY8oQ3c-YOeGINxsw&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=7p4dYPG4eTX8M62dtcR-qQ&_nc_ss=7f289&oh=00_AQFAQGKsLKxnreATbeLMZr_l9mSXQ2kLBD0xzj2NvuOCGg&oe=6A948038",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "cine",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid026K2sRAJfDQ6RQtXWq7ady83B6pK3Dp8A6UVc66nLAUho1rpLmhMuG5ix4kq1SU2Kl?__cft__[0]=AZYj-yJUVPJZNB8geRVBOQYSwGGo0t5VlmP5WaBxnuiT8UuQdE6z9G7AziAdOaMj1wnARXiBBiNwSHITX2cQRH0_AAwRnxkfT_ilqlb8egO_FpaA4fzhddm6rRDfjsFzNWvbqZXBKTHlisFhW0QQXGBOSQ4WlT5nT6sDY1mQrZ00UWpyKSUZsHSPy_x631TXj5A&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CINE, CULTURA Y ARTE BAJO LAS ESTRELLAS … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1074,13 +1032,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=y1pLjlmfRlcQ7kNvwHRLD5O&_nc_oc=AdrGSqnODAppbgdn6oC9zZcOJ0-sYXZTb93YnuYycDZ5FZOOI3ZCjla34wudNscI5Oc&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=nfKW_3iYEO7yZzS4wkwMdQ&_nc_ss=7f289&oh=00_AQGYzWDJiM7JOW0h2Sol94pTrw736S6PKLbz3xriERJt5w&oe=6A949415",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02SkHmZUoayERyrfVUMAgK6SAnvN1E2pMJpFtcXrxg6nWMcb7Ke91a3kzGfiTGXjfdl?__cft__[0]=AZaQh9hZ6XbaqlaNG8GeoBx7eMq2nBhBJa51zEF3nV6v22G7EuCHu0qp5hIdhNFertlliElaoP7vVguNCoI7PK3UcOTsDH-ugUPlQLjVYuvXO1X7K3MpiL5Jvf2ZPxDDWNLtveFTbwD6cfzdkSgMTXYvLFw-CJRtEntkgUUzYegeT_bAL4xhhnFuV16joRh6pCI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "MARTES 1 & MIÉRCOLES 2 MUESTRA INTERNACIONAL DE PELÍCULAS - BOLIVIA LAB 2026… Ver más MARTES 1 & MIÉRCOLES 2 MUESTRA INTERNACIONAL DE PELÍCULAS - BOLIVIA LAB 2026… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1436,7 +1403,7 @@
           "category": "otro",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 COB exige archivar proyecto de ley que elimina privilegio de dirigentes Ver más 2 Lara convoca a nueva sesión para interpelar al Ministro de Gobierno s"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 EEUU lanza el plan ‘Paria Económico’ para asfixiar a Irán Ver más 2 Luto en la música: Muere la cantautora estadounidense Dolly Parton Ver más 3 Persis"
         },
         {
           "reason": "tema_ajeno_a_eventos",
