@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:09:42-04:00",
+  "generated_at": "2026-08-26T09:23:59-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,6 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_eventos_bolivia",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -16,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 44.8,
-    "horas_maximo_sin_datos": 276.3
+    "horas_promedio_sin_datos": 46.1,
+    "horas_maximo_sin_datos": 279.5
   },
   "sources": [
     {
@@ -63,13 +62,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=M2jAAVnN95IQ7kNvwFjSUb-&_nc_oc=AdrJsYxSIGneQGn9gNfxpzGq4xRdr88Tu6Qe4PLC_2Dee0BCm1AVn7NE6SY-JJMr7bU&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=gQUUkcgYdds7HcHEcNOmnQ&_nc_ss=7f289&oh=00_AQHbGe1yiS1fEk7TnxIirvwZJVdmI2-lbfK10V66Bb4WWQ&oe=6A94A8B6",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Indicador de estado activo Eventos Bolivia 427 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este moment'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid023mGiUx9b8b8BQ7moC18wbnKyE9VY1QwFh9xj5mn1WpvxBywoVevZuMHQGyt2Qh7Ql?__cft__[0]=AZYDPRO-yT5SwNQQKmvFO3OjgWOK1eg3NQfxxVmKhegZPZMPss_fqhLo4NIe9_o4k2GdznJd-hDZshkPVx_tCZUe0x9RGzausmFMdfO6meRRm1Zk6BxMfN2FTS-uO_qFEIvCAsB4tUIsz_nIwEANBZ00DAITYmt9xDkQWA2w9facSLr7oBF_X0gA_To0QrMcyxo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -80,13 +88,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jsW9KZkTO3wQ7kNvwFM-ABo&_nc_oc=AdroaxF6BgmwKvmHTJP3Yzkd5rc4EV_gsjFab2Jsx5f8e1iw3Y_0dOq2nRFYfV_xVy0&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-LrPyt65uLd98NAkdYkVQQ&_nc_ss=7f289&oh=00_AQFGtZ6v8cQPOSc7__LaLVD6cDOQaVXvIdfkBCcDUvbbxw&oe=6A94C183",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid05CGjSy1NHS2E6752ELtJQvXFT9iYEypEJLKzQpDL2ejsq2J4aT6s3LXto2isMD4Cl?__cft__[0]=AZZRNsbQK0s9PvzaqGxkkPuAv9qndsiWLghKzETnZ87a8PIxUBOsvIt0q8GIFdgFcu47QRVV0ofL4ZKVKjORbChCEekpriui8-RZyDMEP47M_NMyA-Bbjn8nQEIoybmBW-ZPdU8IMzt6tM_Gl5s6vGs61CHnWI7px-JUujti-zcL7_YqGtpNKF7AZEuwkEtKAqQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -97,13 +114,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=B8t-2ab-5zUQ7kNvwHxBP0I&_nc_oc=AdpEh7XJQ2i2_L9h66qQHUqxKWF2ZZ59XTOz96n2IPaXRSMO33tzUi5PWi5ivh-WA7U&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=nLh974LjuP7iglF-Keq-Nw&_nc_ss=7f289&oh=00_AQGMJWa5GeTrwuBtuLI_A0tOGXuiPcCZgR-dgNILml54vA&oe=6A9478D0",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -1032,22 +1049,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=y1pLjlmfRlcQ7kNvwHRLD5O&_nc_oc=AdrGSqnODAppbgdn6oC9zZcOJ0-sYXZTb93YnuYycDZ5FZOOI3ZCjla34wudNscI5Oc&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=nfKW_3iYEO7yZzS4wkwMdQ&_nc_ss=7f289&oh=00_AQGYzWDJiM7JOW0h2Sol94pTrw736S6PKLbz3xriERJt5w&oe=6A949415",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02SkHmZUoayERyrfVUMAgK6SAnvN1E2pMJpFtcXrxg6nWMcb7Ke91a3kzGfiTGXjfdl?__cft__[0]=AZaQh9hZ6XbaqlaNG8GeoBx7eMq2nBhBJa51zEF3nV6v22G7EuCHu0qp5hIdhNFertlliElaoP7vVguNCoI7PK3UcOTsDH-ugUPlQLjVYuvXO1X7K3MpiL5Jvf2ZPxDDWNLtveFTbwD6cfzdkSgMTXYvLFw-CJRtEntkgUUzYegeT_bAL4xhhnFuV16joRh6pCI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "MARTES 1 & MIÉRCOLES 2 MUESTRA INTERNACIONAL DE PELÍCULAS - BOLIVIA LAB 2026… Ver más MARTES 1 & MIÉRCOLES 2 MUESTRA INTERNACIONAL DE PELÍCULAS - BOLIVIA LAB 2026… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1058,13 +1066,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BTu_q6DmDGcQ7kNvwHY9sBo&_nc_oc=Adr97bSG8a6lE-IDLRVijtMmSdscwj6jFg7ZLctzNYt8Z-3wjZc6dmQnz8XazI80zDE&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=CJxPDjr8Tiack3id2peKYg&_nc_ss=7f289&oh=00_AQGWLHZ9-y0kj5HKOdOhxcmYffWnFWndmv9c9rdZb0XGyQ&oe=6A94CED2",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2262504604590608/?__cft__[0]=AZY_2gwuAmaOqdd4EhMNk-g9yNdeOKZax73PIG-ESN0MWYSkx3kxEVo92DTl48CWB4OU3Civrje7hTuuI1ADl3OTppgtvkCjMHQ_NVekN2-fWVBZ8EfAwPpnN1pBkNsufO0pXerrRkZrf4kMOuLaaPU6jV9VK_SRKGTj8AREaV6bSwVCqieg7pIMEgoUt4jJoykehDN7B2h9BbI2Ur4V1cdi&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1386,8 +1403,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
