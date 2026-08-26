@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-26T00:05:50-04:00",
+  "generated_at": "2026-08-26T03:13:31-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 28,
-    "events_today": 0
+    "events_total": 29,
+    "events_today": 1
   },
   "filters": {
     "ui_groups": [
@@ -88,6 +88,11 @@
         "count": 2
       },
       {
+        "key": "conferencia",
+        "label": "Conferencias",
+        "count": 1
+      },
+      {
         "key": "taller",
         "label": "Talleres y cursos",
         "count": 1
@@ -102,7 +107,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 5
+        "count": 6
       },
       {
         "key": "Cochabamba",
@@ -144,7 +149,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 5
+        "count": 6
       },
       {
         "key": "Oruro",
@@ -161,22 +166,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 0
+        "count": 1
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 5
+        "count": 6
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 12
+        "count": 13
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 28
+        "count": 29
       }
     ],
     "price": [
@@ -193,14 +198,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 21
+        "count": 22
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 22
+        "count": 23
       },
       {
         "key": "con_video",
@@ -228,6 +233,11 @@
         "key": "CulturaViva",
         "label": "CulturaViva",
         "count": 2
+      },
+      {
+        "key": "MNA",
+        "label": "MNA",
+        "count": 1
       },
       {
         "key": "LaKerkenchaDeMiSuegra",
@@ -323,11 +333,6 @@
         "key": "OportunidadesParaTodos",
         "label": "OportunidadesParaTodos",
         "count": 1
-      },
-      {
-        "key": "Ml18Xb",
-        "label": "Ml18Xb",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -339,7 +344,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 9
+        "count": 10
       },
       {
         "key": "ticketera",
@@ -359,6 +364,32 @@
     ]
   },
   "events": [
+    {
+      "event_id": "evt_691a76dae8fc57",
+      "title": "MNA Hoy vivimos una jornada de color y creación junto a Patricia Mariaca ... Ver más",
+      "category": "conferencia",
+      "category_label": "Conferencias",
+      "starts_at": "2026-08-26T00:00:00-04:00",
+      "starts_at_ms": 1787716800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 26 de agosto",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Museo Nacional de Arte",
+      "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/779786970_2317932522291095_5172766956915039118_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=hj4TuzFR2w8Q7kNvwH8CWkf&_nc_oc=Ado-BkBM9WHGzhWaHB6k86oj6zXptb8hcVUYYFB6noqiUcB67xFjeDYYvDabVjOUjqQ&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=9uZY3qa0RBvdFrLpY6HTQg&_nc_ss=7f289&oh=00_AQElkhIpda76AhOWE4m7JB2DHvy7QUXIJY6tElz8cdg8NQ&oe=6A944BD8",
+      "has_video": false,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "status": "programado",
+      "source_count": 1
+    },
     {
       "event_id": "evt_d5c70cee9f3663",
       "title": "II Festival Nacional de Folklore",
