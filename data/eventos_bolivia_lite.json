@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-25T22:02:16-04:00",
+  "generated_at": "2026-08-26T00:05:50-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 33,
-    "events_today": 5
+    "events_total": 28,
+    "events_today": 0
   },
   "filters": {
     "ui_groups": [
@@ -53,11 +53,6 @@
     ],
     "categories": [
       {
-        "key": "cine",
-        "label": "Cine",
-        "count": 8
-      },
-      {
         "key": "feria",
         "label": "Ferias y expos",
         "count": 8
@@ -76,6 +71,11 @@
         "key": "deporte",
         "label": "Deportes",
         "count": 4
+      },
+      {
+        "key": "cine",
+        "label": "Cine",
+        "count": 3
       },
       {
         "key": "festival",
@@ -100,24 +100,19 @@
         "count": 8
       },
       {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 7
-      },
-      {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 6
+        "count": 5
+      },
+      {
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 5
       },
       {
         "key": "Quillacollo",
         "label": "Quillacollo",
         "count": 4
-      },
-      {
-        "key": "Potosí",
-        "label": "Potosí",
-        "count": 2
       },
       {
         "key": "Oruro",
@@ -137,24 +132,19 @@
     ],
     "departments": [
       {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 11
-      },
-      {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
         "count": 9
       },
       {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 6
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 9
       },
       {
-        "key": "Potosí",
-        "label": "Potosí",
-        "count": 2
+        "key": "La Paz",
+        "label": "La Paz",
+        "count": 5
       },
       {
         "key": "Oruro",
@@ -171,22 +161,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 5
+        "count": 0
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 10
+        "count": 5
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 17
+        "count": 12
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 33
+        "count": 28
       }
     ],
     "price": [
@@ -203,14 +193,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 26
+        "count": 21
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 27
+        "count": 22
       },
       {
         "key": "con_video",
@@ -344,7 +334,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 16
+        "count": 11
       },
       {
         "key": "venue",
@@ -370,136 +360,6 @@
   },
   "events": [
     {
-      "event_id": "evt_287e252b26b32d",
-      "title": "Espectáculo de danza: Negra",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-08-25T19:00:00-04:00",
-      "starts_at_ms": 1787698800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Martes 25 de agosto · 19:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "La Paz",
-      "department": "La Paz",
-      "venue": "estadio Capriles Tendencias Entre",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_ce37b7282e94c1",
-      "title": "Espectáculo de danza: Negra",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-08-25T19:00:00-04:00",
-      "starts_at_ms": 1787698800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Martes 25 de agosto · 19:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Cochabamba",
-      "department": "Cochabamba",
-      "venue": "estadio Capriles Tendencias Entre",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_ef23deb9f45383",
-      "title": "Balau: Taller de cajón peruano",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-08-25T21:30:00-04:00",
-      "starts_at_ms": 1787707800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Martes 25 de agosto · 21:30",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Potosí",
-      "department": "Potosí",
-      "venue": "estadio Capriles Tendencias Entre",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_c82bad84a9c48d",
-      "title": "Balau: Taller de cajón peruano",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-08-25T21:30:00-04:00",
-      "starts_at_ms": 1787707800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Martes 25 de agosto · 21:30",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Cochabamba",
-      "department": "Cochabamba",
-      "venue": "estadio Capriles Tendencias Entre",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_ee0ab80b4bc7eb",
-      "title": "Ciclo de cine en La Troje",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-08-25T22:00:00-04:00",
-      "starts_at_ms": 1787709600000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Martes 25 de agosto · 22:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Potosí",
-      "department": "Potosí",
-      "venue": "estadio Capriles Tendencias Entre",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
-      "has_video": false,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_d5c70cee9f3663",
       "title": "II Festival Nacional de Folklore",
       "category": "festival",
@@ -511,7 +371,7 @@
       "display_date": "Viernes 28 de agosto · 16:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 3,
+      "days_until": 2,
       "is_upcoming": true,
       "city": null,
       "department": null,
@@ -537,7 +397,7 @@
       "display_date": "Sábado 29 de agosto · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 4,
+      "days_until": 3,
       "is_upcoming": true,
       "city": "Oruro",
       "department": "Oruro",
@@ -563,7 +423,7 @@
       "display_date": "Sábado 29 de agosto · 22:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 4,
+      "days_until": 3,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -589,7 +449,7 @@
       "display_date": "Domingo 30 de agosto · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 5,
+      "days_until": 4,
       "is_upcoming": true,
       "city": "Montero",
       "department": "Santa Cruz",
@@ -615,12 +475,12 @@
       "display_date": "Domingo 30 de agosto · 20:30",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 5,
+      "days_until": 4,
       "is_upcoming": true,
       "city": "Sucre",
       "department": "Chuquisaca",
       "venue": null,
-      "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/774059536_1581812890400545_475533890473175682_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1367&ctp=p600x600&_nc_cat=105&ccb=1-7&_nc_sid=cae128&_nc_ohc=c03y8_TT6WgQ7kNvwH8C6Hu&_nc_oc=AdpRiheFCLvUGZwy7Y4edYErCy49I1mlR7AFWo_EH8sa5frM_W7bTsn0uvW1tzW9Ero&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=mP6YMvDMqZKOEtkINSKgAw&_nc_ss=7f289&oh=00_AQH5pDj1mMC8FYqiFggVDBMGOfRSzAb3wGvnOT6WpX0RuA&oe=6A915E45",
+      "image_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/774059536_1581812890400545_475533890473175682_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1367&ctp=p600x600&_nc_cat=105&ccb=1-7&_nc_sid=cae128&_nc_ohc=pju04WKh2YQQ7kNvwH6EXUJ&_nc_oc=AdoFYLYyCSz1n3A0sL1grIyWjFE0J-bqGmmMyxO778uoBg_WdvZfUKZgnWwYkyTESBM&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=kIrqvqD6SjypbG-pT5J9bg&_nc_ss=7f289&oh=00_AQEhiZUSrszXUs5dFjVMlvesA0kKqK7icQ8c0IteFfwjLQ&oe=6A943985",
       "has_video": false,
       "is_free": false,
       "price_from": null,
@@ -641,7 +501,7 @@
       "display_date": "Sábado 5 de septiembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 11,
+      "days_until": 10,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -667,7 +527,7 @@
       "display_date": "Lunes 14 de septiembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 20,
+      "days_until": 19,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -693,7 +553,7 @@
       "display_date": "Lunes 14 de septiembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 20,
+      "days_until": 19,
       "is_upcoming": true,
       "city": "Quillacollo",
       "department": "Cochabamba",
@@ -719,7 +579,7 @@
       "display_date": "Lunes 14 de septiembre · 21:15",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 20,
+      "days_until": 19,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -745,7 +605,7 @@
       "display_date": "Lunes 14 de septiembre · 22:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 20,
+      "days_until": 19,
       "is_upcoming": true,
       "city": "Quillacollo",
       "department": "Cochabamba",
@@ -771,7 +631,7 @@
       "display_date": "Jueves 17 de septiembre · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 23,
+      "days_until": 22,
       "is_upcoming": true,
       "city": "Oruro",
       "department": "Oruro",
@@ -797,7 +657,7 @@
       "display_date": "Del 18 al 27 de septiembre · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 24,
+      "days_until": 23,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -823,7 +683,7 @@
       "display_date": "Domingo 27 de septiembre · 22:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 33,
+      "days_until": 32,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -849,7 +709,7 @@
       "display_date": "Del 6 al 17 de noviembre · 16:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 73,
+      "days_until": 72,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -875,7 +735,7 @@
       "display_date": "Del 6 al 17 de noviembre · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 73,
+      "days_until": 72,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -901,7 +761,7 @@
       "display_date": "Del 6 al 17 de noviembre · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 73,
+      "days_until": 72,
       "is_upcoming": true,
       "city": "Quillacollo",
       "department": "Cochabamba",
@@ -927,7 +787,7 @@
       "display_date": "Del 6 al 17 de noviembre · 19:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 73,
+      "days_until": 72,
       "is_upcoming": true,
       "city": "Quillacollo",
       "department": "Cochabamba",
@@ -953,7 +813,7 @@
       "display_date": "Domingo 8 de noviembre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 75,
+      "days_until": 74,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -979,7 +839,7 @@
       "display_date": "Del 3 al 7 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 190,
+      "days_until": 189,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -1005,7 +865,7 @@
       "display_date": "Del 5 de marzo al 2 de mayo · 23:30",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 192,
+      "days_until": 191,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -1031,7 +891,7 @@
       "display_date": "Del 17 al 21 de marzo · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 204,
+      "days_until": 203,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -1057,7 +917,7 @@
       "display_date": "Sábado 24 de abril · 00:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 242,
+      "days_until": 241,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -1083,7 +943,7 @@
       "display_date": "Del 1 al 4 de julio",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 310,
+      "days_until": 309,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -1109,7 +969,7 @@
       "display_date": "Del 1 al 4 de julio · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 310,
+      "days_until": 309,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
@@ -1135,7 +995,7 @@
       "display_date": "Viernes 6 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 346,
+      "days_until": 345,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
@@ -1161,7 +1021,7 @@
       "display_date": "Del 10 al 21 de agosto · 15:30",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 350,
+      "days_until": 349,
       "is_upcoming": true,
       "city": "Sucre",
       "department": "Chuquisaca",
@@ -1187,7 +1047,7 @@
       "display_date": "Jueves 12 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 352,
+      "days_until": 351,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
@@ -1213,7 +1073,7 @@
       "display_date": "Miércoles 18 de agosto",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
-      "days_until": 358,
+      "days_until": 357,
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
