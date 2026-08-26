@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T09:23:59-04:00",
+  "generated_at": "2026-08-26T12:38:13-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -16,7 +16,7 @@
     ],
     "con_fallos_persistentes": [],
     "horas_promedio_sin_datos": 46.1,
-    "horas_maximo_sin_datos": 279.5
+    "horas_maximo_sin_datos": 282.8
   },
   "sources": [
     {
@@ -28,13 +28,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dzF3_3k3uMcQ7kNvwGZK_8_&_nc_oc=AdqbJnJcyELkUledO_qei69tsQm0_3-g59rAJ0DxMt1gKaKHyC0UTY43JeOWjB-A674&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=yT6AsX8bfEqekP9R_PtwOw&_nc_ss=7f289&oh=00_AQFfVbfL7ZPVwFiy03Nwhb7IgQ9qQOlzcrqhd6q4u7L1ZQ&oe=6A94FF9A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid033JQSqsasKY82CBwbG8A6q1hf1CHBHjaasseJsuXBEcYRTjPkBg2jbMuQGE3hTFQdl?__cft__[0]=AZZ3rJMu7i0R4tuEjmO-GZ2M22s32tps753GHFcMVRKT3Pl8ISarYP3LQowtoi_NXZ5vYhwmC18bRL7FIGhW11qsffTZ6jQRVHofEPJTAgslUTD5sJqUmb6HWqaj8-4A5EYY2DhDVjtQF7DDL5PAYvcPE5cF8AfGRKx73XJuocM1BRWbJUpPwgxjJP30Fd7Zj34&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡COCHABAMBA SE PREPARA PARA VIVIR UNA NOCHE MUY OLIVIA RODRIGO! S… Ver más ¡COCHABAMBA SE PREPARA PARA VIVIR UNA NOCHE MUY OLIVIA RODRIGO! S… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -62,22 +71,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=M2jAAVnN95IQ7kNvwFjSUb-&_nc_oc=AdrJsYxSIGneQGn9gNfxpzGq4xRdr88Tu6Qe4PLC_2Dee0BCm1AVn7NE6SY-JJMr7bU&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=gQUUkcgYdds7HcHEcNOmnQ&_nc_ss=7f289&oh=00_AQHbGe1yiS1fEk7TnxIirvwZJVdmI2-lbfK10V66Bb4WWQ&oe=6A94A8B6",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid023mGiUx9b8b8BQ7moC18wbnKyE9VY1QwFh9xj5mn1WpvxBywoVevZuMHQGyt2Qh7Ql?__cft__[0]=AZYDPRO-yT5SwNQQKmvFO3OjgWOK1eg3NQfxxVmKhegZPZMPss_fqhLo4NIe9_o4k2GdznJd-hDZshkPVx_tCZUe0x9RGzausmFMdfO6meRRm1Zk6BxMfN2FTS-uO_qFEIvCAsB4tUIsz_nIwEANBZ00DAITYmt9xDkQWA2w9facSLr7oBF_X0gA_To0QrMcyxo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -88,22 +88,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jsW9KZkTO3wQ7kNvwFM-ABo&_nc_oc=AdroaxF6BgmwKvmHTJP3Yzkd5rc4EV_gsjFab2Jsx5f8e1iw3Y_0dOq2nRFYfV_xVy0&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-LrPyt65uLd98NAkdYkVQQ&_nc_ss=7f289&oh=00_AQFGtZ6v8cQPOSc7__LaLVD6cDOQaVXvIdfkBCcDUvbbxw&oe=6A94C183",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid05CGjSy1NHS2E6752ELtJQvXFT9iYEypEJLKzQpDL2ejsq2J4aT6s3LXto2isMD4Cl?__cft__[0]=AZZRNsbQK0s9PvzaqGxkkPuAv9qndsiWLghKzETnZ87a8PIxUBOsvIt0q8GIFdgFcu47QRVV0ofL4ZKVKjORbChCEekpriui8-RZyDMEP47M_NMyA-Bbjn8nQEIoybmBW-ZPdU8IMzt6tM_Gl5s6vGs61CHnWI7px-JUujti-zcL7_YqGtpNKF7AZEuwkEtKAqQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -182,13 +173,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HgLsTfgAkvUQ7kNvwFBOMW-&_nc_oc=AdpfH2_VrbJ3TUwiMWVAlnECcwLtgWaNrru2iy9gfLxtRw0eF3qNb15nt6p6koW9AcY&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pa-ympCze6UbNMFJQ2ukwA&_nc_ss=7f289&oh=00_AQFtl9Oo0GzmILs1bCuMjD8IbAXTB4t2z3FeTBiGop1htw&oe=6A94CDC0",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1358248443147108/?__cft__[0]=AZYWK5-gO8k8o_uY1ZcLqMYb6YEIQOrzpkfOLSGNP9EQsAA9fop8uZllRWrAtUdZmULFfdlO02fO_mFk_8wV4Cr62DGfKBZN3ShhSHcNNn8WcMIM3IDNAz3LpmfPEmAm7aspoNdJ0SuKdLjBRK6711YiGKSu9g5kafRpAMfFsSLwVvSixgGNWwE1CetxCBU3j6skQA_v9CAMNtKaxAFCR-vl&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "INICIOS DE OBRAS EN EL DISTRITO 4 S… Ver más INICIOS DE OBRAS EN EL DISTRITO 4 S… Ver más Felicidades Franz Tenemos problemas para reproducir este video. Más información Ver más comentarios Isma Imeil Churqui"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1358248443147108/?comment_id=1746761257455764&__cft__[0]=AZYWK5-gO8k8o_uY1ZcLqMYb6YEIQOrzpkfOLSGNP9EQsAA9fop8uZllRWrAtUdZmULFfdlO02fO_mFk_8wV4Cr62DGfKBZN3ShhSHcNNn8WcMIM3IDNAz3LpmfPEmAm7aspoNdJ0SuKdLjBRK6711YiGKSu9g5kafRpAMfFsSLwVvSixgGNWwE1CetxCBU3j6skQA_v9CAMNtKaxAFCR-vl&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Isma Imeil Churqui Felicidades Franz 31 min"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -488,13 +496,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iI37BXrVNv0Q7kNvwG89Mna&_nc_oc=AdrR7ZrLTDPehkq3N8PEVGog4-Am4JIZWrXY755llOLSoQKEXB0Kvv_SzMZTr7XqYuU&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=Zemr4Fgh6pqdPJAhENShow&_nc_ss=7f289&oh=00_AQFw3DtqmHJtTdlcwMyZP9Q2wa7_2KBbkiED8SC6ijsBKA&oe=6A94F382",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid02LdaP5ghoJaWtu3PKq4iVLBgRt3eTXLKq1sbNJVvR39Rxjgmzr6ufK5Y8NWVjVcjXl?__cft__[0]=AZbC7PAMT7sN1JfQRz5c0aJXkbA2gowHjGjSMHGhxsNfxo9L8-WT5zqeprH6l-gYDkF_d9xq9S0Z2vkAY1mbpk-6EJLboHAGLvU3fTB0JeVUlWa0jMRNTyT-isUal7xfjxLhdB9B0Ig-VKSCWF1ECsCROGpTCCUIQWzvONRy1lb-eT2dJCFa_Bxks5BIlInd8fg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Moscú El presidente de Rusia, Vladímir Putin, envía un mensaje de apoyo y cooperación estratégica al liderazgo de Siria en el marco de las relaciones bilaterales.… Ver más #Moscú El presidente de Rusia, Vladímir Putin, envía un mensaje de apoyo y cooperación estratégica al liderazgo de Siria en el marco de las relaciones bilaterales.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber_radio",
@@ -1066,22 +1083,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BTu_q6DmDGcQ7kNvwHY9sBo&_nc_oc=Adr97bSG8a6lE-IDLRVijtMmSdscwj6jFg7ZLctzNYt8Z-3wjZc6dmQnz8XazI80zDE&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=CJxPDjr8Tiack3id2peKYg&_nc_ss=7f289&oh=00_AQGWLHZ9-y0kj5HKOdOhxcmYffWnFWndmv9c9rdZb0XGyQ&oe=6A94CED2",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2262504604590608/?__cft__[0]=AZY_2gwuAmaOqdd4EhMNk-g9yNdeOKZax73PIG-ESN0MWYSkx3kxEVo92DTl48CWB4OU3Civrje7hTuuI1ADl3OTppgtvkCjMHQ_NVekN2-fWVBZ8EfAwPpnN1pBkNsufO0pXerrRkZrf4kMOuLaaPU6jV9VK_SRKGTj8AREaV6bSwVCqieg7pIMEgoUt4jJoykehDN7B2h9BbI2Ur4V1cdi&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1247,8 +1255,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 5,
-      "events": 4,
+      "raw_items": 6,
+      "events": 5,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1403,32 +1411,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
+          "score": 33,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "25/08/2026 Interesante Hallan huellas de tortugas del Cretácico en Torotoro, el primer registro en Sudamérica Entre cañones, cavernas, formaciones rocosas y huellas que conservan la memoria de millones de años, el Parque Nacional Torotoro, ubicado en el departamento de... vista 24/08/2026 Medio Ambiente El mono araña entra en peligro de extinción en Bolivia, pero el tráfico de crías no da tregua E"
         },
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 32,
-          "category": "otro",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 41,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 EEUU lanza el plan ‘Paria Económico’ para asfixiar a Irán Ver más 2 Luto en la música: Muere la cantautora estadounidense Dolly Parton Ver más 3 Persis"
+          "text_preview": "26/08/2026 Cultura “La noche del demonio” supera $us 60 millones en su estreno mundial La película La noche del demonio: Fuera del más allá debutó el 21 de agosto de 2026 con una recaudación mundial de 60,1 millones de dólares en su primer fin de... vista 24/08/2026 Cultura Cartelera: El festival de piano y la feria cultural japonesa atraen la atención La quinta edición del Festival de Piano a cua"
         },
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 50,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 33,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 El ministro de Hidrocarburos es interpelado por contratos y el abastecimiento de combustible Ver más 2 Cocapata clama por ayuda: nevada afectó a famili"
         }
       ],
       "error": null
