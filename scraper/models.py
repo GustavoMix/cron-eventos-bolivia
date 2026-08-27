@@ -47,6 +47,11 @@ class RawItem:
     facebook_event_url: Optional[str] = None
     external_links: List[str] = field(default_factory=list)
 
+    # Campos confiables obtenidos de fuentes estructuradas (agendas oficiales,
+    # carteleras, ticketeras). El clasificador sigue siendo el único pipeline,
+    # pero estos valores pueden prevalecer sobre inferencias de texto.
+    structured_data: Dict[str, Any] = field(default_factory=dict)
+
 
 @dataclass
 class Evento:
@@ -104,6 +109,18 @@ class Evento:
     price_text: Optional[str]
     ticket_urls: List[str]
     ticket_outlets: List[str]
+
+    # Datos enriquecidos de fuentes estructuradas
+    organizer: Optional[str]
+    audience: Optional[str]
+    age_restriction: Optional[str]
+    duration_minutes: Optional[int]
+    showtimes: List[str]
+    formats: List[str]
+    occurrences: List[str]
+    content_genre: Optional[str]
+    director: Optional[str]
+    cast: List[str]
 
     # Cómo contactar
     phones: List[str]

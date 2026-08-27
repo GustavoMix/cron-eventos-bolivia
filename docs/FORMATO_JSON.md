@@ -50,7 +50,7 @@ hace scroll:
 
 ```jsonc
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "generated_at": "2026-08-14T06:37:11-04:00",
   "timezone": "America/La_Paz",
 
@@ -81,6 +81,12 @@ hace scroll:
     "tags":       [ { "key": "rock", "label": "rock", "count": 11 } ]
   },
 
+  "sections": {
+    "today": ["evt_..."], "tomorrow": [], "this_weekend": [],
+    "free": [], "featured": []
+  },
+  "coverage_by_department": { "La Paz": { "events_upcoming": 12, ... }, ... },
+  "coverage_by_category": { "cine": { "events_upcoming": 18, ... }, ... },
   "coverage": { ... },   // salud del scraping, útil para diagnóstico
   "events":   [ ... ],
   "sources":  [ ... ]
@@ -153,6 +159,26 @@ porque los afiches no las traen.
 | `price_label` | `String?` | **Ya escrito**: `"Entrada libre"`, `"Bs 80"`, `"Bs 80 - 120"`. |
 | `ticket_urls` | `List<String>` | Enlaces a ticketeras. |
 | `ticket_outlets` | `List<String>` | `["SuperTicket", "Farmacorp"]`. |
+
+
+### Funciones, cine y calidad editorial
+
+| Campo | Tipo | Notas |
+|---|---|---|
+| `occurrences` | `List<String>` | Todas las funciones exactas en ISO cuando la fuente las publica. |
+| `showtimes` | `List<String>` | Horas compactas (`19:30`, `21:45`). |
+| `formats` | `List<String>` | Formatos de cine/función (`2D`, `3D PLUS`, etc.). |
+| `organizer` | `String?` | Organizador oficial. |
+| `audience` / `age_restriction` | `String?` | Público y clasificación/edad. |
+| `duration_minutes` | `Int?` | Duración cuando existe. |
+| `content_genre` | `String?` | Género de la obra/película cuando la fuente lo publica. |
+| `director` | `String?` | Dirección, principalmente para cine. |
+| `cast` | `List<String>` | Reparto cuando existe. |
+| `quality_score` | `Int` | 0–100 según completitud y confiabilidad de la ficha. |
+| `is_featured` | `Boolean` | Evento vigente, no cancelado/postergado y con calidad suficiente. |
+
+`occurrences` evita duplicar una obra de teatro tres veces o una película veinte
+veces: una ficha puede contener todas sus funciones.
 
 ### Fotos y videos
 
@@ -410,7 +436,7 @@ val intent = Intent(Intent.ACTION_VIEW,
 
 ## Versionado
 
-`schema_version` es `"1.0"`. Los cambios que agreguen campos no la suben; si
-alguna vez se quita o se renombra un campo, sube a `"2.0"` y este documento lo
-dirá. Con `ignoreUnknownKeys = true` tu app aguanta cualquier cambio aditivo sin
+`schema_version` es `"1.1"`. Los cambios aditivos relevantes pueden subir la
+versión menor para que la app sepa qué capacidades existen; si alguna vez se
+quita o se renombra un campo, sube la versión mayor y este documento lo dirá. Con `ignoreUnknownKeys = true` tu app aguanta cualquier cambio aditivo sin
 tocar nada.

@@ -97,6 +97,8 @@ def test_categorias():
     assert detectar_categoria("Feria del libro en el campo ferial")[0] == "feria"
     assert detectar_categoria("Maratón 10K inscripciones abiertas")[0] == "deporte"
     assert detectar_categoria("Taller de cerámica, cupos limitados")[0] == "taller"
+    assert detectar_categoria("Velada literaria y club de lectura con poesía")[0] == "literatura"
+    assert detectar_categoria("Recorrido turístico guiado por el patrimonio de la ciudad")[0] == "turismo"
     assert detectar_categoria("Comunicado institucional")[0] == "otro"
 
 
@@ -189,3 +191,12 @@ def test_claves_estables_en_el_dict():
         assert clave in d, f"falta la clave {clave}"
     for clave in ["ticket_urls", "image_urls", "videos", "tags", "artists"]:
         assert isinstance(d[clave], list)
+
+
+def test_agenda_cultural_oficial_recibe_bono_de_fuente_especializada():
+    a = analizar(item(
+        "LECTURAS EN BRAILLE\n27 de agosto 15:00\nActividad abierta al público",
+        source_class="cultura_oficial", tier=1, image_urls=[],
+    ), ahora=AHORA)
+    assert a["accepted"] is True
+    assert "fuente_especializada" in a["reasons"]

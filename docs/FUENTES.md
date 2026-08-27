@@ -2,7 +2,7 @@
 
 Generado desde `config/sources.yaml`. Para agregar o quitar una fuente, editá ese archivo; el planificador la incorpora a la rotación en la corrida siguiente.
 
-**70 páginas de Facebook** y **9 sitios web**.
+**70 páginas de Facebook** y **23 sitios web**.
 
 Las fuentes de Facebook se leen por **olas pequeñas**, no todas juntas. Los tiers sólo marcan prioridad: tier 1 aporta eventos directamente; tier 2 mezcla agenda con contenido institucional; tier 3 son medios generales.
 
@@ -93,17 +93,31 @@ Las fuentes de Facebook se leen por **olas pequeñas**, no todas juntas. Los tie
 
 ## Web
 
-| Sitio | Tipo | Alcance | URL |
-|---|---|---|---|
-| SuperTicket | Ticketera | Bolivia | `https://superticket.bo/` |
-| TicketBO | Ticketera | Bolivia | `https://ticket.bo/` |
-| Tu Entrada Bolivia | Ticketera | Bolivia | `https://tuentrada.com.bo/` |
-| Passline Bolivia | Ticketera | Bolivia | `https://passlinebolivia.com/` |
-| Agenda Jiwaki - GAMLP | Cultura / institución | La Paz | `https://agendajiwaki.lapaz.bo/buscar-eventos/` |
-| Eventos culturales - GAM La Paz | Cultura / institución | La Paz | `https://lapaz.bo/eventos-culturales/` |
-| Agenda Cultural Plurinacional - Ministerio de Culturas | Cultura / institución | Bolivia | `https://www.minculturas.gob.bo/agenda-cultural-plurinacional/` |
-| Agenda Cultural - Los Tiempos | Medio | Cochabamba | `https://www.lostiempos.com/servicios/agenda-cultural` |
-| Fexpocruz | Sede / centro cultural | Santa Cruz | `https://www.fexpocruz.com.bo/` |
+| Sitio | Tipo | Alcance | Ciudad | Parser | URL |
+|---|---|---|---|---|---|
+| SuperTicket | ticketera | Bolivia | — | `genérico` | `https://superticket.bo/` |
+| TicketBO | ticketera | Bolivia | — | `genérico` | `https://ticket.bo/` |
+| Tu Entrada Bolivia | ticketera | Bolivia | — | `genérico` | `https://tuentrada.com.bo/` |
+| Passline Bolivia | ticketera | Bolivia | — | `genérico` | `https://passlinebolivia.com/` |
+| Agenda Jiwaki - GAMLP | cultura oficial | La Paz | La Paz | `jiwaki` | `https://lapaz.bo/agendajiwaki/` |
+| Eventos culturales - GAM La Paz | cultura oficial | La Paz | La Paz | `genérico` | `https://lapaz.bo/eventos-culturales/` |
+| Ministerio de Turismo Sostenible, Culturas, Folklore y Gastronomía | cultura oficial | Bolivia | — | `genérico` | `https://www.turismoyculturas.gob.bo/` |
+| Agenda Cultural - Los Tiempos | media | Cochabamba | Cochabamba | `genérico` | `https://www.lostiempos.com/servicios/agenda-cultural` |
+| Fexpocruz | venue | Santa Cruz | Santa Cruz de la Sierra | `genérico` | `https://www.fexpocruz.com.bo/` |
+| Agenda Cultural y Turística - Santa Cruz de la Sierra | cultura oficial | Santa Cruz | Santa Cruz de la Sierra | `santa_cruz_agenda` | `https://culturayturismo.gmsantacruz.gob.bo/eventos?vista=calendario` |
+| Bolivia.com Cine - La Paz | cartelera cine | La Paz | La Paz | `bolivia_com_cine` | `https://www.bolivia.com/cine/cartelera/la-paz-c41` |
+| Bolivia.com Cine - El Alto | cartelera cine | La Paz | El Alto | `bolivia_com_cine` | `https://www.bolivia.com/cine/cartelera/el-alto-c87` |
+| Bolivia.com Cine - Cochabamba | cartelera cine | Cochabamba | Cochabamba | `bolivia_com_cine` | `https://www.bolivia.com/cine/cartelera/cochabamba-c42` |
+| Bolivia.com Cine - Quillacollo | cartelera cine | Cochabamba | Quillacollo | `bolivia_com_cine` | `https://www.bolivia.com/cine/cartelera/quillacollo-c210` |
+| Bolivia.com Cine - Santa Cruz | cartelera cine | Santa Cruz | Santa Cruz de la Sierra | `bolivia_com_cine` | `https://www.bolivia.com/cine/cartelera/santa-cruz-c43` |
+| Bolivia.com Cine - Sucre | cartelera cine | Chuquisaca | Sucre | `bolivia_com_cine` | `https://www.bolivia.com/cine/cartelera/sucre-c147` |
+| Bolivia.com Cine - Tarija | cartelera cine | Tarija | Tarija | `bolivia_com_cine` | `https://www.bolivia.com/cine/cartelera/tarija-c44` |
+| Cultura - Gobernación del Beni | cultura oficial | Beni | Trinidad | `genérico` | `https://beni.gob.bo/category/cultura/` |
+| Gobierno Autónomo Municipal de Potosí | cultura oficial | Potosí | Potosí | `genérico` | `https://potosi.bo/` |
+| Gobierno Autónomo Departamental de Tarija | cultura oficial | Tarija | Tarija | `genérico` | `https://www.tarija.gob.bo/` |
+| Universidad Técnica de Oruro - Cultura | cultura oficial | Oruro | Oruro | `genérico` | `https://www.uto.edu.bo/` |
+| Gobierno Autónomo Municipal de Sucre | cultura oficial | Chuquisaca | Sucre | `genérico` | `https://sucre.bo/noticias/` |
+| Gobierno Autónomo Departamental de Pando | cultura oficial | Pando | Cobija | `genérico` | `https://pando.gob.bo/` |
 
 ## Verificación y mantenimiento
 

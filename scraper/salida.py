@@ -27,7 +27,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-SCHEMA_VERSION = "1.0"
+SCHEMA_VERSION = "1.1"
 
 # Etiquetas listas para pintar. Van en el JSON y no en la app para que agregar
 # una categoría no obligue a publicar una versión nueva en la tienda.
@@ -41,6 +41,8 @@ ETIQUETAS_CATEGORIA = {
     "gastronomia": "Gastronomía",
     "cine": "Cine",
     "exposicion": "Exposiciones",
+    "literatura": "Literatura y libros",
+    "turismo": "Turismo y patrimonio",
     "conferencia": "Conferencias",
     "taller": "Talleres y cursos",
     "infantil": "Para niños",
@@ -67,8 +69,11 @@ CAMPOS_LITE = [
     "starts_at", "starts_at_ms", "ends_at_ms", "multi_day",
     "display_date", "lifecycle", "lifecycle_label", "days_until", "is_upcoming",
     "city", "department", "venue",
-    "image_url", "has_video",
+    "image_url", "has_video", "video_thumbnail_url",
     "is_free", "price_from", "currency", "price_label",
+    "organizer", "showtimes", "formats", "occurrences",
+    "content_genre", "duration_minutes", "age_restriction", "director", "cast",
+    "quality_score", "is_featured",
     "status", "source_count",
 ]
 
@@ -174,6 +179,120 @@ def _faceta_temporal(eventos: List[Dict[str, Any]], ahora: datetime) -> List[Dic
     ]
 
 
+DEPARTAMENTOS_BOLIVIA = [
+    "La Paz", "Cochabamba", "Santa Cruz", "Chuquisaca", "Oruro",
+    "Potosí", "Tarija", "Beni", "Pando",
+]
+
+
+def _quality_score(evento: Dict[str, Any]) -> int:
+    """Puntaje editorial simple y explicable para ordenar destacados.
+
+    Favorece datos que hacen una tarjeta realmente útil: fecha, afiche, sede,
+    entradas y una fuente confiable. No mide popularidad ni inventa tendencias.
+    """
+    score = 0
+    if evento.get("starts_at"):
+        score += 24
+    if evento.get("has_image"):
+        score += 14
+    if evento.get("has_video"):
+        score += 7
+    if evento.get("venue"):
+        score += 10
+    if evento.get("city"):
+        score += 6
+    if evento.get("is_free") or evento.get("price_from") is not None or evento.get("ticket_urls"):
+        score += 8
+    tier = evento.get("source_tier")
+    if tier == 1:
+        score += 9
+    elif tier == 2:
+        score += 5
+    if evento.get("corroborated"):
+        score += 8
+    if evento.get("organizer"):
+        score += 5
+    if evento.get("showtimes") or evento.get("occurrences"):
+        score += 5
+    if evento.get("formats"):
+        score += 2
+    if evento.get("address") or evento.get("location_query"):
+        score += 2
+    return max(0, min(100, score))
+
+
+def _proximo_fin_de_semana(ahora: datetime):
+    """Devuelve sábado/domingo del fin de semana actual o próximo."""
+    hoy = ahora.date()
+    # weekday: lunes=0 ... sábado=5, domingo=6.
+    dias_hasta_sabado = (5 - hoy.weekday()) % 7
+    if hoy.weekday() == 6:  # domingo: conservar el fin de semana actual
+        sabado = hoy - timedelta(days=1)
+    else:
+        sabado = hoy + timedelta(days=dias_hasta_sabado)
+    return sabado, sabado + timedelta(days=1)
+
+
+def _secciones(eventos: List[Dict[str, Any]], ahora: datetime) -> Dict[str, List[str]]:
+    hoy = ahora.date()
+    manana = hoy + timedelta(days=1)
+    sabado, domingo = _proximo_fin_de_semana(ahora)
+    salida = {"today": [], "tomorrow": [], "this_weekend": [], "free": [], "featured": []}
+    for evento in eventos:
+        if not evento.get("is_upcoming") or not evento.get("event_id"):
+            continue
+        inicio = _fecha(evento.get("starts_at"))
+        fin = _fecha(evento.get("ends_at")) or inicio
+        inicio_dia = inicio.date() if inicio else None
+        fin_dia = fin.date() if fin else inicio_dia
+        event_id = evento["event_id"]
+        if inicio_dia and inicio_dia <= hoy <= (fin_dia or inicio_dia):
+            salida["today"].append(event_id)
+        if inicio_dia and inicio_dia <= manana <= (fin_dia or inicio_dia):
+            salida["tomorrow"].append(event_id)
+        if inicio_dia and fin_dia and inicio_dia <= domingo and fin_dia >= sabado:
+            salida["this_weekend"].append(event_id)
+        if evento.get("is_free"):
+            salida["free"].append(event_id)
+        if evento.get("is_featured"):
+            salida["featured"].append(event_id)
+    return salida
+
+
+def _cobertura_departamentos(eventos: List[Dict[str, Any]], fuentes: List[Dict[str, Any]]) -> Dict[str, Dict[str, int]]:
+    """Radiografía nacional; devuelve los nueve departamentos aunque estén en cero."""
+    salida: Dict[str, Dict[str, int]] = {}
+    for departamento in DEPARTAMENTOS_BOLIVIA:
+        evs = [e for e in eventos if e.get("department") == departamento]
+        proximos = [e for e in evs if e.get("is_upcoming")]
+        fs = [f for f in fuentes if f.get("region") == departamento]
+        salida[departamento] = {
+            "events_total": len(evs),
+            "events_upcoming": len(proximos),
+            "events_with_image": sum(1 for e in proximos if e.get("has_image")),
+            "events_with_video": sum(1 for e in proximos if e.get("has_video")),
+            "sources_total": len(fs),
+            "sources_ok": sum(1 for f in fs if f.get("status") == "ok"),
+        }
+    return salida
+
+
+def _cobertura_categorias(eventos: List[Dict[str, Any]]) -> Dict[str, Dict[str, int]]:
+    salida: Dict[str, Dict[str, int]] = {}
+    for categoria in sorted({e.get("category") for e in eventos if e.get("category")}):
+        evs = [e for e in eventos if e.get("category") == categoria]
+        proximos = [e for e in evs if e.get("is_upcoming")]
+        salida[categoria] = {
+            "label": ETIQUETAS_CATEGORIA.get(categoria, categoria),
+            "events_total": len(evs),
+            "events_upcoming": len(proximos),
+            "events_with_image": sum(1 for e in proximos if e.get("has_image")),
+            "events_with_video": sum(1 for e in proximos if e.get("has_video")),
+        }
+    return salida
+
+
 def enriquecer_para_la_app(evento: Dict[str, Any]) -> Dict[str, Any]:
     """Agrega las etiquetas ya traducidas y las banderas que la lista necesita."""
     evento["category_label"] = ETIQUETAS_CATEGORIA.get(
@@ -183,6 +302,24 @@ def enriquecer_para_la_app(evento: Dict[str, Any]) -> Dict[str, Any]:
         evento.get("lifecycle") or "sin_fecha", "Sin fecha confirmada"
     )
     evento.setdefault("is_upcoming", evento.get("lifecycle") in {"proximo", "hoy", "en_curso"})
+    # Los catálogos históricos creados con versiones anteriores no tenían estos
+    # campos. Mantener listas vacías evita contratos variables en la app.
+    evento.setdefault("showtimes", [])
+    evento.setdefault("formats", [])
+    evento.setdefault("occurrences", [])
+    evento.setdefault("organizer", None)
+    evento.setdefault("content_genre", None)
+    evento.setdefault("director", None)
+    evento.setdefault("cast", [])
+    evento.setdefault("duration_minutes", None)
+    evento.setdefault("age_restriction", None)
+    evento.setdefault("video_thumbnail_url", None)
+    evento["quality_score"] = _quality_score(evento)
+    evento["is_featured"] = bool(
+        evento.get("is_upcoming")
+        and evento.get("status") not in {"cancelado", "postergado"}
+        and evento["quality_score"] >= 65
+    )
 
     # Un precio ya escrito: la app no debería tener que decidir entre "Gratis",
     # "Bs 80" y "Desde Bs 80" cada vez que pinta una tarjeta.
@@ -258,6 +395,9 @@ def construir_payload(
             "tags": _faceta_lista(proximos, "tags", 24),
             "source_classes": _faceta(proximos, "source_class"),
         },
+        "sections": _secciones(visibles, ahora),
+        "coverage_by_department": _cobertura_departamentos(visibles, fuentes),
+        "coverage_by_category": _cobertura_categorias(visibles),
         "coverage": cobertura or {},
         "events": visibles,
         "sources": fuentes,
@@ -280,6 +420,9 @@ def construir_payload_lite(payload: Dict[str, Any]) -> Dict[str, Any]:
             "events_today": sum(1 for e in proximos if e.get("lifecycle") == "hoy"),
         },
         "filters": payload["filters"],
+        "sections": payload.get("sections", {}),
+        "coverage_by_department": payload.get("coverage_by_department", {}),
+        "coverage_by_category": payload.get("coverage_by_category", {}),
         "events": [
             {campo: evento.get(campo) for campo in CAMPOS_LITE}
             for evento in proximos

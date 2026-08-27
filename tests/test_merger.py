@@ -111,3 +111,72 @@ def test_un_evento_solo_queda_marcado_como_no_corroborado():
     assert d["source_count"] == 1
     assert d["corroborated"] is False
     assert d["verification"] == "una_fuente"
+
+
+def test_datos_estructurados_de_una_fuente_oficial_llegan_al_evento():
+    item = RawItem(
+        source_id="web_oficial", source_name="Agenda oficial",
+        source_url="https://agenda.bo/", item_url="https://agenda.bo/e/1",
+        text="MAMMA MIA! El Musical\n28 de agosto 19:30\nTeatro Municipal\nEntradas Bs 100",
+        source_class="cultura_oficial", tier=1,
+        image_urls=["https://img/poster.jpg"],
+        structured_data={
+            "organizer": "Fundación ArteCanto",
+            "audience": "Todo público",
+            "age_restriction": "Todas las edades",
+            "duration_minutes": 120,
+            "showtimes": ["19:30", "18:00"],
+            "formats": ["Musical", "Canto en vivo"],
+            "content_genre": "Musical",
+            "director": "Directora Uno",
+            "cast": ["Actriz A", "Actor B"],
+            "venue": "Teatro Casa Municipal de Cultura",
+            "address": "Calle Libertad, Santa Cruz de la Sierra",
+            "city": "Santa Cruz de la Sierra",
+            "department": "Santa Cruz",
+            "price_from": 100.0,
+            "price_to": 130.0,
+            "currency": "BOB",
+        },
+    )
+    e = construir_evento(item, SCRAPED, ahora=AHORA)
+    assert e is not None
+    assert e.organizer == "Fundación ArteCanto"
+    assert e.audience == "Todo público"
+    assert e.age_restriction == "Todas las edades"
+    assert e.duration_minutes == 120
+    assert e.showtimes == ["19:30", "18:00"]
+    assert e.formats == ["Musical", "Canto en vivo"]
+    assert e.content_genre == "Musical"
+    assert e.director == "Directora Uno"
+    assert e.cast == ["Actriz A", "Actor B"]
+    assert e.venue == "Teatro Casa Municipal de Cultura"
+    assert e.address == "Calle Libertad, Santa Cruz de la Sierra"
+    assert e.city == "Santa Cruz de la Sierra"
+    assert e.department == "Santa Cruz"
+    assert e.price_from == 100.0
+    assert e.price_to == 130.0
+
+
+def test_fusion_conserva_metadatos_y_combina_horarios_formatos():
+    a = evento(
+        CONCIERTO_TEATRO, "web_a", tier=1,
+        structured_data={
+            "organizer": "Productora Uno",
+            "showtimes": ["20:00", "22:00"],
+            "formats": ["2D"],
+        },
+    )
+    b = evento(
+        CONCIERTO_MEDIO, "web_b", tier=2,
+        structured_data={
+            "audience": "Todo público",
+            "showtimes": ["18:00", "20:00"],
+            "formats": ["2D", "3D"],
+        },
+    )
+    d = fusionar([a, b])[0]
+    assert d["organizer"] == "Productora Uno"
+    assert d["audience"] == "Todo público"
+    assert d["showtimes"] == ["20:00", "22:00", "18:00"]
+    assert d["formats"] == ["2D", "3D"]

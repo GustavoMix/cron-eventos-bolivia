@@ -203,6 +203,7 @@ async def correr(
     only: Optional[str] = None,
     crudos_facebook: Optional[List[Path]] = None,
     sin_facebook: bool = False,
+    ahora: Optional[datetime] = None,
 ) -> int:
     cfg = cargar_config(config_path)
     settings, sources = cfg["settings"], cfg["sources"]
@@ -213,8 +214,14 @@ async def correr(
         sources = _fuentes_web(sources)
 
     zona = settings.get("timezone", "America/La_Paz")
-    generado_en = ahora_iso(zona)
-    ahora = datetime.fromisoformat(generado_en)
+    zona_info = ZoneInfo(zona)
+    if ahora is None:
+        ahora = datetime.now(zona_info)
+    elif ahora.tzinfo is None:
+        ahora = ahora.replace(tzinfo=zona_info)
+    else:
+        ahora = ahora.astimezone(zona_info)
+    generado_en = ahora.isoformat(timespec="seconds")
     max_muestras = int(settings.get("max_muestras_rechazadas", 3))
 
     fb_sources = _fuentes_facebook(sources)

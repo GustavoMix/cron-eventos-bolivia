@@ -3,7 +3,7 @@
 ## Catálogo
 
 - 70 páginas públicas de Facebook.
-- 9 fuentes web de respaldo.
+- 23 fuentes web, incluyendo agendas oficiales, ticketeras y carteleras de cine.
 - Cobertura de los 9 departamentos de Bolivia.
 - Más municipios, gobernaciones, universidades, museos, centros culturales, ferias y sedes.
 
@@ -46,4 +46,4 @@ Se conserva `schema_version: 1.0` y los campos anteriores. Los filtros y datos d
 
 ## Validación
 
-La suite offline incluye 88 tests y valida además que el catálogo tenga exactamente 70 fuentes de Facebook, URLs/IDs únicos y presencia de los 9 departamentos.
+La suite offline incluye 102 tests y valida además que el catálogo tenga exactamente 70 fuentes de Facebook, URLs/IDs únicos y presencia de los 9 departamentos.

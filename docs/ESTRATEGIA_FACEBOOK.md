@@ -58,7 +58,7 @@ las fuentes menos vistas ganen prioridad.
 
 ### 6. Fuentes web como respaldo
 
-Las 9 fuentes web se procesan aparte. Cuando exponen `schema.org/Event`, se usan
+Las 23 fuentes web se procesan aparte. Cuando exponen `schema.org/Event`, se usan
 campos estructurados de fecha, sede y precio en vez de intentar deducirlos del
 texto.
 

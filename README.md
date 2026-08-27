@@ -72,6 +72,20 @@ Y descarta lo que no es un evento futuro: crónicas de lo de anoche
 laborales, promociones. Cada descarte queda registrado con su motivo en
 `estado_fuentes.json`.
 
+
+### Fuentes especializadas 2026
+
+Además del lector web genérico, el cron incluye parsers específicos para tres
+fuentes donde vale la pena conservar la estructura original:
+
+- **Agenda Cultural y Turística de Santa Cruz**: afiche, varias funciones, sede, dirección, público, edades, organizador, precio, contacto y video público cuando exista.
+- **Agenda Jiwaki (La Paz)**: ficha individual, fecha/hora exacta, recinto, afiche y embeds públicos de YouTube/Vimeo.
+- **Bolivia.com Cine**: La Paz, El Alto, Cochabamba, Quillacollo, Santa Cruz, Sucre y Tarija; agrupa cada película por sala y día y conserva horarios, formatos, póster/tráiler cuando aparece, género, duración, clasificación, dirección y reparto.
+
+El JSON `1.1` también trae `sections` (`today`, `tomorrow`, `this_weekend`,
+`free`, `featured`), `quality_score` por evento y cobertura por departamento y
+categoría. Así la app no necesita recalcular estas vistas en cada scroll.
+
 ## Uso
 
 ### En GitHub Actions (lo normal)
@@ -123,7 +137,8 @@ scraper/
   lugares.py       Departamentos, ciudades y sedes de los 9 departamentos
   clasificador.py  ¿Es un evento? Categoría, precio, entradas, artistas
   facebook.py      Lectura de páginas públicas + detección de bloqueo
-  web_sources.py   Ticketeras y agendas; lee schema.org/Event si está
+  web_sources.py   Ticketeras/agendas; conserva schema.org/Event estructurado
+  specialized_sources.py  Santa Cruz, Jiwaki y cartelera de cine Bolivia.com
   planificador.py  Reparto en grupos, olas de rotación, memoria entre corridas
   merger.py        Un evento anunciado por cinco fuentes es uno solo
   estado.py        Historial: el catálogo que se acumula
@@ -136,7 +151,7 @@ tests/
 
 ## Fuentes
 
-**70 páginas de Facebook y 9 sitios web**, configurados en
+**70 páginas de Facebook y 23 sitios web**, configurados en
 [`config/sources.yaml`](config/sources.yaml). El catálogo cubre los 9
 departamentos y combina:
 
@@ -159,7 +174,7 @@ rotación.
 python -m pytest tests/ -q
 ```
 
-88 tests, sin red. Cubren el parser de fechas caso por caso, el clasificador con
+102 tests, sin red. Cubren el parser de fechas caso por caso, el clasificador con
 afiches y con ruido realista, el reparto en grupos y las olas de rotación, la
 fusión entre fuentes, el historial y una prueba de extremo a extremo del
 pipeline completo — incluida una corrida donde Facebook bloquea todo, para

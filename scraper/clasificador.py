@@ -25,6 +25,7 @@ from dateutil import parser as dateparser
 
 from .fechas import (
     TZ_BOLIVIA,
+    FechaEvento,
     ciclo_de_vida,
     dias_restantes,
     fecha_legible,
@@ -89,6 +90,16 @@ CATEGORIAS: List[Tuple[str, List[str]]] = [
         r"\bexposici[oó]n\b", r"\bmuestra\b", r"\bgaler[ií]a\b", r"\bvernissage\b",
         r"\binauguraci[oó]n de la muestra\b", r"\bcolecci[oó]n\b", r"\bretrospectiva\b",
         r"\bartes visuales\b", r"\bfotograf[ií]a\b", r"\bpintura\b", r"\bescultura\b",
+    ]),
+    ("literatura", [
+        r"\bliterari[oa]\b", r"\bclub de lectura\b", r"\blectura(?:s)?\b",
+        r"\bpoes[ií]a\b", r"\bpoeta\b", r"\bpresentaci[oó]n de (?:un )?libro\b",
+        r"\bencuentro de escritores\b", r"\bbiblioteca\b",
+    ]),
+    ("turismo", [
+        r"\btur[ií]stic[oa]\b", r"\bturismo\b", r"\bvisita guiada\b",
+        r"\brecorrido guiado\b", r"\bruta cultural\b", r"\bruta patrimonial\b",
+        r"\bpatrimonio (?:hist[oó]rico|cultural)\b",
     ]),
     ("conferencia", [
         r"\bconferencia\b", r"\bcongreso\b", r"\bseminario\b", r"\bsimposio\b",
@@ -512,7 +523,7 @@ def analizar(item: RawItem, ahora=None) -> Dict[str, Any]:
         # mucho más probable que sea texto periodístico que una convocatoria.
         score += 6
         razones.append("tiene_afiche")
-    if item.source_class in {"eventos", "ticketera", "venue"}:
+    if item.source_class in {"eventos", "ticketera", "venue", "cultura_oficial", "cartelera_cine"}:
         score += 8
         razones.append("fuente_especializada")
 
@@ -601,6 +612,32 @@ def construir_evento(item: RawItem, scraped_at: str, ahora=None) -> Optional[Eve
     ubicacion = analisis["ubicacion"]
     precios = analisis["precios"]
     enlaces = analisis["enlaces"]
+    estructurados = item.structured_data or {}
+
+    # Las agendas oficiales y carteleras ya conocen la fecha exacta. Cuando la
+    # entregan, no tiene sentido preferir una inferencia desde el texto.
+    inicio_estructurado = estructurados.get("starts_at")
+    if inicio_estructurado:
+        try:
+            inicio = datetime.fromisoformat(str(inicio_estructurado))
+            if inicio.tzinfo is None:
+                inicio = inicio.replace(tzinfo=ZoneInfo(TZ_BOLIVIA))
+            fin = None
+            if estructurados.get("ends_at"):
+                fin = datetime.fromisoformat(str(estructurados["ends_at"]))
+                if fin.tzinfo is None:
+                    fin = fin.replace(tzinfo=ZoneInfo(TZ_BOLIVIA))
+            fecha = FechaEvento(
+                inicio=inicio,
+                fin=fin,
+                hora_puertas=estructurados.get("doors_time") or fecha.hora_puertas,
+                todo_el_dia=bool(estructurados.get("all_day", False)),
+                multidia=bool(fin and fin.date() != inicio.date()),
+                confianza="exacta",
+                texto_origen=str(inicio_estructurado),
+            )
+        except (TypeError, ValueError):
+            pass
 
     legible = fecha_legible(fecha)
     uid = hashlib.sha1(
@@ -639,28 +676,41 @@ def construir_evento(item: RawItem, scraped_at: str, ahora=None) -> Optional[Eve
         doors_time=fecha.hora_puertas,
         display_date=legible,
         days_until=dias_restantes(fecha, ahora=ahora),
-        lifecycle=analisis["lifecycle"],
+        lifecycle=ciclo_de_vida(fecha, ahora=ahora),
 
-        department=ubicacion["department"],
-        city=ubicacion["city"],
-        venue=ubicacion["venue"],
-        address=ubicacion["address"],
-        latitude=None,
-        longitude=None,
+        department=estructurados.get("department") or ubicacion["department"],
+        city=estructurados.get("city") or ubicacion["city"],
+        venue=estructurados.get("venue") or ubicacion["venue"],
+        address=estructurados.get("address") or ubicacion["address"],
+        latitude=estructurados.get("latitude"),
+        longitude=estructurados.get("longitude"),
         location_query=consulta_de_mapa(
-            ubicacion["venue"], ubicacion["address"],
-            ubicacion["city"], ubicacion["department"],
+            estructurados.get("venue") or ubicacion["venue"],
+            estructurados.get("address") or ubicacion["address"],
+            estructurados.get("city") or ubicacion["city"],
+            estructurados.get("department") or ubicacion["department"],
         ),
 
-        is_free=precios["is_free"],
-        price_from=precios["price_from"],
-        price_to=precios["price_to"],
-        currency=precios["currency"],
-        price_text=precios["price_text"],
-        ticket_urls=enlaces["ticket_urls"],
+        is_free=(bool(estructurados["is_free"]) if "is_free" in estructurados else precios["is_free"]),
+        price_from=(estructurados.get("price_from") if estructurados.get("price_from") is not None else precios["price_from"]),
+        price_to=(estructurados.get("price_to") if estructurados.get("price_to") is not None else precios["price_to"]),
+        currency=estructurados.get("currency") or precios["currency"],
+        price_text=estructurados.get("price_text") or precios["price_text"],
+        ticket_urls=list(dict.fromkeys((estructurados.get("ticket_urls") or []) + enlaces["ticket_urls"])),
         ticket_outlets=extraer_puntos_venta(texto),
 
-        phones=extraer_telefonos(texto),
+        organizer=estructurados.get("organizer"),
+        audience=estructurados.get("audience"),
+        age_restriction=estructurados.get("age_restriction"),
+        duration_minutes=estructurados.get("duration_minutes"),
+        showtimes=list(estructurados.get("showtimes") or []),
+        formats=list(estructurados.get("formats") or []),
+        occurrences=list(estructurados.get("occurrences") or []),
+        content_genre=estructurados.get("content_genre"),
+        director=estructurados.get("director"),
+        cast=list(estructurados.get("cast") or []),
+
+        phones=list(dict.fromkeys((estructurados.get("phones") or []) + extraer_telefonos(texto))),
 
         status=detectar_estado(texto),
         relevance_score=analisis["score"],

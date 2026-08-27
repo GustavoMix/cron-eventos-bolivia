@@ -42,6 +42,7 @@ settings:
 
   # --- Clasificación y catálogo -------------------------------------------
   max_items_por_fuente: 20
+  cine_enriquecer_limite: 12
   max_muestras_rechazadas: 3
   umbral_fusion: 0.30
   umbral_historial: 0.62
@@ -746,10 +747,12 @@ sources:
   type: generic_web
   source_class: cultura_oficial
   tier: 1
-  url: https://agendajiwaki.lapaz.bo/buscar-eventos/
+  url: https://lapaz.bo/agendajiwaki/
   region: La Paz
   city: La Paz
-  follow_links: true
+  parser: jiwaki
+  max_items: 40
+  follow_links: false
 
 - id: web_lapaz_cultura
   name: Eventos culturales - GAM La Paz
@@ -761,12 +764,12 @@ sources:
   city: La Paz
   follow_links: true
 
-- id: web_minculturas
-  name: Agenda Cultural Plurinacional - Ministerio de Culturas
+- id: web_turismo_culturas
+  name: Ministerio de Turismo Sostenible, Culturas, Folklore y Gastronomía
   type: generic_web
   source_class: cultura_oficial
-  tier: 2
-  url: https://www.minculturas.gob.bo/agenda-cultural-plurinacional/
+  tier: 1
+  url: https://www.turismoyculturas.gob.bo/
   region: Bolivia
   city: null
   follow_links: true
@@ -789,4 +792,174 @@ sources:
   url: https://www.fexpocruz.com.bo/
   region: Santa Cruz
   city: Santa Cruz de la Sierra
+  follow_links: true
+
+
+# ---------------------------------------------------------------------------
+# Agendas estructuradas y cartelera de cine verificadas en 2026
+# ---------------------------------------------------------------------------
+
+- id: web_scz_agenda
+  name: Agenda Cultural y Turística - Santa Cruz de la Sierra
+  type: generic_web
+  source_class: cultura_oficial
+  tier: 1
+  url: https://culturayturismo.gmsantacruz.gob.bo/eventos?vista=calendario
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+  parser: santa_cruz_agenda
+  max_items: 40
+  follow_links: false
+
+- id: web_cine_lapaz
+  name: Bolivia.com Cine - La Paz
+  type: generic_web
+  source_class: cartelera_cine
+  tier: 2
+  url: https://www.bolivia.com/cine/cartelera/la-paz-c41
+  region: La Paz
+  city: La Paz
+  parser: bolivia_com_cine
+  max_salas: 8
+  max_items: 60
+  follow_links: false
+
+- id: web_cine_el_alto
+  name: Bolivia.com Cine - El Alto
+  type: generic_web
+  source_class: cartelera_cine
+  tier: 2
+  url: https://www.bolivia.com/cine/cartelera/el-alto-c87
+  region: La Paz
+  city: El Alto
+  parser: bolivia_com_cine
+  max_salas: 8
+  max_items: 40
+  follow_links: false
+
+- id: web_cine_cochabamba
+  name: Bolivia.com Cine - Cochabamba
+  type: generic_web
+  source_class: cartelera_cine
+  tier: 2
+  url: https://www.bolivia.com/cine/cartelera/cochabamba-c42
+  region: Cochabamba
+  city: Cochabamba
+  parser: bolivia_com_cine
+  max_salas: 8
+  max_items: 60
+  follow_links: false
+
+- id: web_cine_quillacollo
+  name: Bolivia.com Cine - Quillacollo
+  type: generic_web
+  source_class: cartelera_cine
+  tier: 2
+  url: https://www.bolivia.com/cine/cartelera/quillacollo-c210
+  region: Cochabamba
+  city: Quillacollo
+  parser: bolivia_com_cine
+  max_salas: 4
+  max_items: 30
+  follow_links: false
+
+- id: web_cine_santa_cruz
+  name: Bolivia.com Cine - Santa Cruz
+  type: generic_web
+  source_class: cartelera_cine
+  tier: 2
+  url: https://www.bolivia.com/cine/cartelera/santa-cruz-c43
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+  parser: bolivia_com_cine
+  max_salas: 10
+  max_items: 70
+  follow_links: false
+
+- id: web_cine_sucre
+  name: Bolivia.com Cine - Sucre
+  type: generic_web
+  source_class: cartelera_cine
+  tier: 2
+  url: https://www.bolivia.com/cine/cartelera/sucre-c147
+  region: Chuquisaca
+  city: Sucre
+  parser: bolivia_com_cine
+  max_salas: 6
+  max_items: 40
+  follow_links: false
+
+- id: web_cine_tarija
+  name: Bolivia.com Cine - Tarija
+  type: generic_web
+  source_class: cartelera_cine
+  tier: 2
+  url: https://www.bolivia.com/cine/cartelera/tarija-c44
+  region: Tarija
+  city: Tarija
+  parser: bolivia_com_cine
+  max_salas: 6
+  max_items: 40
+  follow_links: false
+
+# Fuentes oficiales/regionales adicionales. El lector genérico aprovecha
+# schema.org/Event cuando existe y, si no, descubre publicaciones relevantes.
+- id: web_beni_cultura
+  name: Cultura - Gobernación del Beni
+  type: generic_web
+  source_class: cultura_oficial
+  tier: 2
+  url: https://beni.gob.bo/category/cultura/
+  region: Beni
+  city: Trinidad
+  follow_links: true
+
+- id: web_potosi_municipio
+  name: Gobierno Autónomo Municipal de Potosí
+  type: generic_web
+  source_class: cultura_oficial
+  tier: 2
+  url: https://potosi.bo/
+  region: Potosí
+  city: Potosí
+  follow_links: true
+
+- id: web_tarija_gob
+  name: Gobierno Autónomo Departamental de Tarija
+  type: generic_web
+  source_class: cultura_oficial
+  tier: 2
+  url: https://www.tarija.gob.bo/
+  region: Tarija
+  city: Tarija
+  follow_links: true
+
+- id: web_uto_cultura
+  name: Universidad Técnica de Oruro - Cultura
+  type: generic_web
+  source_class: cultura_oficial
+  tier: 2
+  url: https://www.uto.edu.bo/
+  region: Oruro
+  city: Oruro
+  follow_links: true
+
+- id: web_sucre_municipio
+  name: Gobierno Autónomo Municipal de Sucre
+  type: generic_web
+  source_class: cultura_oficial
+  tier: 2
+  url: https://sucre.bo/noticias/
+  region: Chuquisaca
+  city: Sucre
+  follow_links: true
+
+- id: web_pando_oficial
+  name: Gobierno Autónomo Departamental de Pando
+  type: generic_web
+  source_class: cultura_oficial
+  tier: 2
+  url: https://pando.gob.bo/
+  region: Pando
+  city: Cobija
   follow_links: true

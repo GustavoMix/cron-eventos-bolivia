@@ -22,6 +22,7 @@ import httpx
 from bs4 import BeautifulSoup
 
 from .models import RawItem
+from .specialized_sources import leer_fuente_especializada
 
 TIPOS_DE_EVENTO_JSONLD = {
     "event", "musicevent", "theaterevent", "festival", "sportsevent",
@@ -150,6 +151,60 @@ def _imagenes_jsonld(valor: Any, base: str) -> List[str]:
     return salida[:12]
 
 
+
+
+def _nombre_entidad(valor: Any) -> Optional[str]:
+    valor = _primero(valor)
+    if isinstance(valor, str):
+        return valor.strip() or None
+    if isinstance(valor, dict):
+        nombre = valor.get("name")
+        return nombre.strip() if isinstance(nombre, str) and nombre.strip() else None
+    return None
+
+
+def _datos_ofertas(offers: Any) -> Dict[str, Any]:
+    valores: List[float] = []
+    urls: List[str] = []
+    moneda = None
+    for oferta in (offers if isinstance(offers, list) else [offers]):
+        if not isinstance(oferta, dict):
+            continue
+        moneda = moneda or oferta.get("priceCurrency")
+        for clave in ("price", "lowPrice", "highPrice"):
+            valor = oferta.get(clave)
+            if valor in (None, ""):
+                continue
+            try:
+                valores.append(float(str(valor).replace(",", ".")))
+            except ValueError:
+                pass
+        url = oferta.get("url")
+        if isinstance(url, str) and url not in urls:
+            urls.append(url)
+    return {
+        "price_from": min(valores) if valores else None,
+        "price_to": max(valores) if valores else None,
+        "currency": str(moneda) if moneda else None,
+        "ticket_urls": urls[:8],
+        "is_free": bool(valores) and max(valores) == 0,
+    }
+
+
+def _video_jsonld(valor: Any, base: str) -> Tuple[Optional[str], Optional[str], Optional[str]]:
+    valor = _primero(valor)
+    if isinstance(valor, str):
+        return _absoluta(base, valor), None, "web_video"
+    if not isinstance(valor, dict):
+        return None, None, None
+    url = valor.get("embedUrl") or valor.get("contentUrl") or valor.get("url")
+    thumb = _primero(valor.get("thumbnailUrl") or valor.get("thumbnail"))
+    return (
+        _absoluta(base, url) if isinstance(url, str) else None,
+        _absoluta(base, thumb) if isinstance(thumb, str) else None,
+        "web_embed" if isinstance(url, str) and ("youtube" in url or "vimeo" in url) else "web_video",
+    )
+
 def _texto_desde_evento(obj: Dict[str, Any], sede: Optional[str],
                         direccion: Optional[str], precio: Optional[str]) -> str:
     """Rearma el evento estructurado como un bloque de texto.
@@ -188,7 +243,24 @@ def _eventos_estructurados(soup: BeautifulSoup, base: str,
 
             sede, direccion = _nombre_de_lugar(obj.get("location"))
             precio, urls_compra = _precio_de_ofertas(obj.get("offers"))
+            datos_oferta = _datos_ofertas(obj.get("offers"))
             url_evento = _absoluta(base, obj.get("url")) or base
+            video_url, video_thumb, video_type = _video_jsonld(obj.get("video"), base)
+            organizer = _nombre_entidad(obj.get("organizer"))
+            audience = _nombre_entidad(obj.get("audience"))
+            structured = {
+                "starts_at": obj.get("startDate"),
+                "ends_at": obj.get("endDate"),
+                "venue": sede,
+                "address": direccion,
+                "city": source.get("city"),
+                "department": source.get("region"),
+                "organizer": organizer,
+                "audience": audience,
+                "content_genre": obj.get("genre") if isinstance(obj.get("genre"), str) else None,
+                **datos_oferta,
+            }
+            structured = {k: v for k, v in structured.items() if v not in (None, "", [])}
 
             items.append(RawItem(
                 source_id=source["id"],
@@ -203,7 +275,9 @@ def _eventos_estructurados(soup: BeautifulSoup, base: str,
                 source_class=source.get("source_class", "web"),
                 tier=int(source.get("tier", 2)),
                 image_urls=_imagenes_jsonld(obj.get("image"), base),
+                video_url=video_url, video_thumbnail_url=video_thumb, video_type=video_type,
                 external_links=[u for u in urls_compra if u][:6],
+                structured_data=structured,
             ))
     return items
 
@@ -312,9 +386,13 @@ def _item_html(source: Dict[str, Any], url_item: str, soup: BeautifulSoup,
 
 
 def leer_fuente_web(source: Dict[str, Any], settings: Dict[str, Any]) -> List[RawItem]:
+    especializada = leer_fuente_especializada(source, settings)
+    if especializada is not None:
+        return especializada
+
     url = source["url"]
     timeout = float(settings.get("request_timeout_seconds", 20))
-    max_items = int(settings.get("max_items_por_fuente", 20))
+    max_items = max(1, int(source.get("max_items", settings.get("max_items_por_fuente", 20))))
     seguir = bool(source.get("follow_links", True))
     max_enlaces = int(settings.get("web_max_enlaces", 12))
 

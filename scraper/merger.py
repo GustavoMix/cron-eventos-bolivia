@@ -227,6 +227,8 @@ def fusionar(eventos: List[Any], umbral: float = 0.30) -> List[Dict[str, Any]]:
             "doors_time", "venue", "address", "city", "department",
             "price_from", "price_to", "currency", "price_text",
             "facebook_event_url", "location_query",
+            "organizer", "audience", "age_restriction", "duration_minutes",
+            "content_genre", "director", "latitude", "longitude",
         ]:
             if d.get(campo) in (None, "", []):
                 d[campo] = _primer_valor(ordenado, campo)
@@ -264,6 +266,10 @@ def fusionar(eventos: List[Any], umbral: float = 0.30) -> List[Dict[str, Any]]:
         d["artists"] = _unir_listas(ordenado, "artists", 10)
         d["ticket_urls"] = _unir_listas(ordenado, "ticket_urls", 8)
         d["ticket_outlets"] = _unir_listas(ordenado, "ticket_outlets", 8)
+        d["showtimes"] = _unir_listas(ordenado, "showtimes", 32)
+        d["formats"] = _unir_listas(ordenado, "formats", 16)
+        d["occurrences"] = _unir_listas(ordenado, "occurrences", 64)
+        d["cast"] = _unir_listas(ordenado, "cast", 24)
         d["phones"] = _unir_listas(ordenado, "phones", 6)
 
         fuentes, vistas, urls = [], set(), []

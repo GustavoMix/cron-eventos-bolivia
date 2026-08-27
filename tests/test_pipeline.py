@@ -125,7 +125,10 @@ def entorno(tmp_path):
 
 
 def _correr(config, crudo, salida):
-    return asyncio.run(correr(config, salida, only=None, crudos_facebook=[crudo]))
+    ahora = __import__("datetime").datetime(2026, 8, 14, 10, 0, tzinfo=TZ)
+    return asyncio.run(correr(
+        config, salida, only=None, crudos_facebook=[crudo], ahora=ahora
+    ))
 
 
 def test_el_pipeline_completo_escribe_los_cuatro_archivos(entorno):
@@ -250,7 +253,7 @@ def test_las_claves_del_contrato_estan_siempre(entorno):
     _correr(config, crudo, salida)
 
     payload = json.loads((salida / "eventos_bolivia.json").read_text(encoding="utf-8"))
-    assert payload["schema_version"] == "1.0"
+    assert payload["schema_version"] == "1.1"
 
     obligatorias = [
         "event_id", "title", "description", "category", "category_label",
@@ -341,3 +344,32 @@ def test_el_csv_sale_bien_formado(entorno):
         filas = list(csv.DictReader(f))
     assert filas
     assert all(fila["event_id"] for fila in filas)
+
+
+def test_payload_incluye_secciones_calidad_y_cobertura_nacional(entorno):
+    config, crudo, salida = entorno
+    _correr(config, crudo, salida)
+    payload = json.loads((salida / "eventos_bolivia.json").read_text(encoding="utf-8"))
+
+    assert set(payload["sections"]) == {"today", "tomorrow", "this_weekend", "free", "featured"}
+    assert all(isinstance(ids, list) for ids in payload["sections"].values())
+    assert set(payload["coverage_by_department"]) == {
+        "La Paz", "Cochabamba", "Santa Cruz", "Chuquisaca", "Oruro",
+        "Potosí", "Tarija", "Beni", "Pando",
+    }
+    assert payload["coverage_by_department"]["Cochabamba"]["events_upcoming"] == 2
+    assert "concierto" in payload["coverage_by_category"]
+
+    for evento in payload["events"]:
+        assert 0 <= evento["quality_score"] <= 100
+        assert isinstance(evento["is_featured"], bool)
+        assert isinstance(evento["occurrences"], list)
+
+
+def test_lite_incluye_campos_para_tarjetas_ricas(entorno):
+    config, crudo, salida = entorno
+    _correr(config, crudo, salida)
+    lite = json.loads((salida / "eventos_bolivia_lite.json").read_text(encoding="utf-8"))
+    evento = lite["events"][0]
+    for campo in ["quality_score", "is_featured", "organizer", "showtimes", "formats", "occurrences", "video_thumbnail_url"]:
+        assert campo in evento
