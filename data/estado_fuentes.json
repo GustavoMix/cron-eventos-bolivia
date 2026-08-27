@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T16:06:55-04:00",
+  "generated_at": "2026-08-26T20:50:48-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 46.4,
-    "horas_maximo_sin_datos": 286.3
+    "horas_promedio_sin_datos": 47.8,
+    "horas_maximo_sin_datos": 291.0
   },
   "sources": [
     {
@@ -215,13 +215,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YtqL3abv884Q7kNvwEVQGPR&_nc_oc=Adoaft7YTCAdZDe3MYLxjQd488_3DqcYithUe9sPIgmI9IRisRiCxonObtyLvBq14W4&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=uLA01YO6oA24EDMf4139CA&_nc_ss=7f289&oh=00_AQGpF6BbcvU5uZskQk82d9OVF_SJ-qNpn3R9H8vST29cDQ&oe=6A955D17",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid037xbFLWSPwmR11n5V7HwPpop3jSzjhhAUT6dCEpjS7zwUE4aZTG17fwFxq1eWajddl?__cft__[0]=AZa9k_c4BxZsJElfLJsgYdVqVr1r1EutUEcKbEeZbShUfTOYtwr0xWQ0bbYQIxNH5quCwa7QVDrulIiKqxIBu9Qc1jPfA8VCiLY3fvpXY8bOGPT8163Wy0AVGPGHKAeyWse96inkvfXKrro6q2WfUuzqzTHW93m_u0SS6x5EHDeDUNmW1FDqImVKtHGdegR-VI4&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "El Gobernador Leonardo Loza saludó la multitudinaria concentración por la vida, dignidad y soberanía de Bolivia, de las organizaciones sociales y sectores productivos q… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gamscs",
@@ -232,22 +241,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sin11-2.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tAGjc0vZUW4Q7kNvwGwJb2a&_nc_oc=Adq_w_zXxP7CX4Ypza7__f6phiZmKmuzhEZcLpN0HGYBYMnwCk3q9Ef75WEixii7UOk&_nc_zt=24&_nc_ht=scontent-sin11-2.xx&_nc_gid=QGUhzKjoO-ggi5CZX4SPmg&_nc_ss=7f289&oh=00_AQGxv6X8kTPHpB4wFxjL3__g30ZDzXAU_iGZKRJA7jpb1Q&oe=6A950F21",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1385746056861655/?__cft__[0]=AZbwDsRzFd327HiXXTcVc2P1CWC1a2ZMLr5A8NtiF7TiJzxelzZis62UR_XBnjIuOdekNyRE0mD2XJ-oNGUSik2j3IoDUv-Il48TsAcIyMBg0GHsDMQwnEMivOS6rX96Gp9TMQOw9pNyB_VIoPV-rolMxV7NQjS8-rRGKooJcw5TGDj6oZsUR-rAycpixGnNHXKUNqLPTZwheQ4UsKz0dn2X&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡ULTIMOS DÍAS! Si tu inmueble está dentro de los casos observados por rebajas irregulares, tenés hasta el lunes 31 de agosto para ponerte al día.… Ver más ¡ULTIMOS DÍAS! Si tu inmueble está dentro de los casos observados por rebajas irregulares, tenés hasta el lunes 31 de agosto para ponerte al día.… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_scz",
@@ -411,13 +411,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DG5WvS7P4DgQ7kNvwGR3NM5&_nc_oc=AdoxNAf8lk0QRXjVb7kRMtOFv85pSSYclNILRNIgBZ6mSmFky3psyB70BpWrskM31-c&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=w4hb4VFjJgHC3S89Yy7XaQ&_nc_ss=7f289&oh=00_AQGoogFDN71fUMJhM6ePsqgwi8fkzQ7lPqxPHzZB38QJeQ&oe=6A9548A1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid02nm5rpsXCSxi5DzgdJKrYcQnBEQcvLdaYr7ETcfcW16urFNhjJ5bFSj2RwLGoTnLTl?__cft__[0]=AZbQ4L8sZAlAcHvckba-GWMiP3DKqeG1RnbBM43JxC1M6O-Q7mVGnTPpbQ9fLsxJVbEru6ADXg66n75mQ81mnbmnyoBlUuwcjJY57Iac2lpef5egGSVsH1M6BO-iVvvXnzEMxutzc6zJpKoe5kagyQ_GPKJLv2lqspjxa7-prYbXeb1u7BwTaPlii3sVbCuv1QhvsfEjc27s7phjehpLMDoW&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Irán elogia a China por rechazar las sanciones y amenazas de Estados Unidos (19:10) Lea la nota aquí: https://www.eldiario.net/.../iran-elogia-a-china-por.../… Ver más Irán elogia a China por rechazar las sanciones y amenazas de Estados Unidos (19:10) Lea la nota aquí: https://www.eldiario.net/.../iran-elogia-a-china-por.../… Ver más ELDIARIO.NET Irán elogia a China por rechazar las sanciones y am"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_radio_fides",
@@ -445,22 +454,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Pp2DYPGVuNwQ7kNvwGyl92u&_nc_oc=Adrb05lCqnTSh7m3GveqwmaO77IeAFiqoXuLkBa6DNlxw0AgLpEmsZfDuRNfx7kwEiI&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=Jp1DvXH1FU8H-UPH8yaAvw&_nc_ss=7f289&oh=00_AQG30SN5D5VLhBpSg6vz0brLG6qPuz9znGUt2V1OElWKBg&oe=6A9512FA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1080225801069174/?__cft__[0]=AZbnHnKkJCLSUP89XSV0isc1ChvPoeOfJNNvqPa5D9PXV3GAsUW3oKw9wJl7_La3Xi1jGsF7GTqLXJJ_vez-IP2ZFaXK7qsffhm2FXpMXhJQzpGhGhvVFSgy5F1DZ6kLFhBilgIam25LiRyyXq9XVH93Ma6GjlwAxN7emd9cpQqIeKVhMlm01NIPvsfORwLS-g6mR_MmqnM112sxIzz6S0cN&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "[ Innovación y Educación] Brenes plantea que el verdadero valor de la educación superior puede observarse en la trayectoria de sus graduados y en la contribución que … Ver más [ Innovación y Educación] Brenes plantea que el verdadero valor de la educación superior puede observarse en la trayectoria de sus graduados y en la contribución que … Ver más Tenemos problemas para reproducir este video. Má"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_rtp",
@@ -862,22 +862,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Jxr-iVnLD3sQ7kNvwGwPdVl&_nc_oc=AdqdXgG_OAo4snyuzJ9Dbllu_RAaFdAd-fxyVoY4E01u12f5vtsGtogLvrD4vi3Pg2Y&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=FUN3jFufbBYgscw9NElfxg&_nc_ss=7f289&oh=00_AQH_SJN4GnJf3ary_P9IJJSEa4_MHLW0FA84W40SFXfxwQ&oe=6A9520E1",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/feriafipaz/posts/pfbid0MmkxXiyPL4ExvyjqPDRw2kiPYXGnYBtxiVSovvBKYSb1a5cwi78bSzNuYfjJdrAWl?__cft__[0]=AZaebCu2hTsIeWTPROO2zAVWCCydgcJCWdwiyfpVkismLHL6lW-QbW_OqP4IoFTkpXuvIlWqpvSD22S2eEkBT8NR6hVkOrzgGE5x07MAiHyUq1tCw49vA0kxDkczDWJS-LSRcpRWJSgWEUaM7lhZ_b4zf1QJ6NkQsvXpYqnFBlyEh0O_Ca_Lfs70OcZMWIUdGTY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "2 h CAP. 1 | FIPAZ | HISTORIA … Ver más Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -922,13 +913,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wnhO7DgZM80Q7kNvwHLy5Re&_nc_oc=AdpZt8mZcu91fi004eZFC8w0DR1z8tv7Ne7nlun0OgxmXeDuDBhV1mEgk0JO806jOrM&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=dw_-wldtbHnBSxytPWZgYg&_nc_ss=7f289&oh=00_AQFtbjDdameKDXG9Hd6lO2JCu3TcaDRvcdjf8OsIj8n6-w&oe=6A9557C7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/pfbid02mDRWyiXL6hfLsXnjoo3o32nSc4jMj5ktzeGnmj8g9ttcAdUbsnTEXDRxZpCraY7Al?__cft__[0]=AZaeJpKj3YHrSuGKfYo0_7YZMisp2zCIEAzYR-bTD4fVQEA-OIFdKsVNJls98QTRDmppcYsKhwbrZQ8Ftcfw0AG7mX_KzGMgLMUOny_c180Z9ANCVGc9kq0UXKYzeToYysekXmaZP6QobSXqf34DgHKJcXRJDmkypf-feAG-l2XIvn4Pul4rtAdUnxARuBYuOUI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Miércoles de diccionario francés! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1408,7 +1408,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 33,
+          "score": 27,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1424,11 +1424,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 33,
-          "category": "cine",
+          "score": 41,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 El ministro de Hidrocarburos es interpelado por contratos y el abastecimiento de combustible Ver más 2 Cocapata clama por ayuda: nevada afectó a famili"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Yapacaní da 2 días al Gobierno para abrogar decreto del diésel Ver más 2 Morales evalúa hacer ajustes al decreto del ‘dieselazo’; pero descarta la abro"
         }
       ],
       "error": null
