@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T11:36:12-04:00",
+  "generated_at": "2026-08-27T20:28:14-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_casa_moneda_potosi",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -15,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 57.1,
-    "horas_maximo_sin_datos": 305.7
+    "horas_promedio_sin_datos": 63.7,
+    "horas_maximo_sin_datos": 314.6
   },
   "sources": [
     {
@@ -181,13 +182,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MAltPI7H6goQ7kNvwHKWMtZ&_nc_oc=AdridhiZaUWUIc3d-KgVKzNrMwkEfuAAZNHm_Sb5HL3GAeVGlIORjkZnbghCzxYgVlo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NWf9p9u0FDcKfI-P81LtzQ&_nc_ss=7f289&oh=00_AQG_FUTon4x1pElaAOQJ6lCR-xnjSEFl0cEIPXHjSK-z5Q&oe=6A96B478",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid033LVppWVkQ3X9Tbk86WP8Cvn5B6ojRE7CmGuCF15D2MJeAzaT41Umejndk6nYowZl?__cft__[0]=AZaXg5YWsX5hm3BiEmizz_Myipa2KkljW0yqhMDmEEb_V818Zk3mip-WaRzIPPC92Yzo4ub74LIcTz6iyPP959yJV2yfLzGeSm6Jbmcpoea4-8rdfo1oHWOCOlpLdZMAz5XX7eoL-vrwgcuBtci7eH-5wMiQu_DOJzu3Z_ZSL8LC-EvqMVPPCu8-k0neiNn9v0Q&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐆𝐨𝐛𝐞𝐫𝐧𝐚𝐝𝐨𝐫 𝐩𝐨𝐬𝐞𝐬𝐢𝐨𝐧𝐚 𝐚 𝐬𝐮𝐛𝐠𝐨𝐛𝐞𝐫𝐧𝐚𝐝𝐨𝐫𝐞𝐬 𝐩𝐫𝐨𝐯𝐢𝐧𝐜𝐢𝐚𝐥𝐞𝐬 𝐛𝐚𝐣𝐨 𝐦𝐚𝐧𝐝𝐚𝐭𝐨𝐬 𝐝𝐞 𝐡𝐨𝐧𝐞𝐬𝐭𝐢𝐝𝐚𝐝 𝐲 𝐭𝐫𝐚𝐛𝐚𝐣𝐨 El gobernador de La Paz, Luis Revilla, posesionó a los nuevos subgobernadores… Ver más 𝐆𝐨𝐛𝐞𝐫𝐧𝐚𝐝𝐨𝐫 𝐩𝐨𝐬𝐞𝐬𝐢𝐨𝐧𝐚 𝐚 𝐬𝐮𝐛𝐠𝐨𝐛𝐞𝐫𝐧𝐚𝐝𝐨𝐫𝐞𝐬 𝐩𝐫𝐨𝐯𝐢𝐧𝐜𝐢𝐚𝐥𝐞𝐬 𝐛𝐚𝐣𝐨 𝐦𝐚𝐧𝐝𝐚𝐭𝐨𝐬 𝐝𝐞 𝐡𝐨𝐧𝐞𝐬𝐭𝐢𝐝𝐚𝐝 𝐲 𝐭𝐫𝐚𝐛𝐚𝐣𝐨 El gobernador de La Paz, Luis Revilla, posesionó a los nuevos subgobernadores… Ver más En hora buena la participación activa de las a"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid033LVppWVkQ3X9Tbk86WP8Cvn5B6ojRE7CmGuCF15D2MJeAzaT41Umejndk6nYowZl?comment_id=2045240376364667&__cft__[0]=AZaXg5YWsX5hm3BiEmizz_Myipa2KkljW0yqhMDmEEb_V818Zk3mip-WaRzIPPC92Yzo4ub74LIcTz6iyPP959yJV2yfLzGeSm6Jbmcpoea4-8rdfo1oHWOCOlpLdZMAz5XX7eoL-vrwgcuBtci7eH-5wMiQu_DOJzu3Z_ZSL8LC-EvqMVPPCu8-k0neiNn9v0Q&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "En hora buena la participación activa de las autoridades de las subgobernaciones! Chipal Chicv"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -249,30 +267,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=m2p7JyzAG-QQ7kNvwHjKpfk&_nc_oc=AdpC9BYJtHpcZbSuxLBQerqVBkNo1hFY4oORh0QDjVqe4DkYbvSM1Y08expaTq2Jn50&_nc_zt=24&_nc_ht=scontent-lhr6-1.xx&_nc_gid=fy-yJUBsvC7_augD5l3U3A&_nc_ss=7f289&oh=00_AQF_kkurQRoqXHhYeLzhoyoRZKgphZybCcfEFBgrXU-Pvw&oe=6A9612FE",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid0wjagBF8LL8efxcq6yxzCxFVF6eWL4vRSFtPFJDn8JCzQ9Zy3XNXDgVERrZLzgdHtl?__cft__[0]=AZbGg8paZVTVKN5jqNtidB4v-E2l2uJR55ZSSFllCvbZe5LgIts3hkw_YYtgARpJJTB6TM6Qa0HiKQ1gElJtHFX4nWago1zRcSgviuBgpdP6N6lBGE8alGJmWzfk985oKbFIUsxNwHoxHnyuXcglzx5FNw8N1TxPrpXnZifEu_pcB7SVaBUkJM2lDl495W12s14&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La vicegobernadora Paola Aguirre anunció la suspensión del paro de los trabajadores de salud.… Ver más ¡Que bueno! Ver más comentarios Martha Marcelina Bravo"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid0wjagBF8LL8efxcq6yxzCxFVF6eWL4vRSFtPFJDn8JCzQ9Zy3XNXDgVERrZLzgdHtl?comment_id=1768823670909194&__cft__[0]=AZbGg8paZVTVKN5jqNtidB4v-E2l2uJR55ZSSFllCvbZe5LgIts3hkw_YYtgARpJJTB6TM6Qa0HiKQ1gElJtHFX4nWago1zRcSgviuBgpdP6N6lBGE8alGJmWzfk985oKbFIUsxNwHoxHnyuXcglzx5FNw8N1TxPrpXnZifEu_pcB7SVaBUkJM2lDl495W12s14&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Martha Marcelina Bravo ¡Que bueno! 13 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_lostiempos",
@@ -589,22 +590,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0y_Be8gy8lEQ7kNvwGkw77u&_nc_oc=AdqnPBkxLfIPft5hErwbWaaS7boZNIUmcNjAuji9VXyDaTQvb0jWibcxsfglKRmdO5M&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=iyRQ-JiQaEIAcASnVNMSEQ&_nc_ss=7f289&oh=00_AQH0Bc8IclSU8UXFkJvXkyr8XRxRjjWLis-V5vYqhHu3Hw&oe=6A962116",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "cine",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid0nSQoGfzzy7niXb8o1JthbghPHX2w3vy6VDpigBu1p7Fys2tUPTsRcGBq2qxwALvVl?__cft__[0]=AZZcYF2E_e5X0EMWIfalW6Gup5dKlB0_IHdy_957wjtznj5pkImWS0GAuVemimKWr6UFlzRpF9ux2lWOdCWzLMDT6GTvQm1J2PL6JWzMK2ZLfWi4QCF4-C5hJFayidPcDbUVJ9JowKKqziGIF6RyWf57rd7Js6WWzkLSIorhaIRZxfTfEpIkxSrD63SuyhJ9iN8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Cerramos un recorrido por el cine africano contemporáneo Est… Ver más Cerramos un recorrido por el cine africano contemporáneo Est… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -650,12 +642,12 @@
       "region": "Potosí",
       "city": "Potosí",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia 14 mil seguidores • 0 seguidos Más Publicaciones Información Reels Fotos Esta página no e'"
     },
     {
       "id": "fb_crc_lapaz",
@@ -666,13 +658,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JYdAl3xHTgUQ7kNvwE6PPEg&_nc_oc=Adp7_tWDZcjjbEaX6cMT_ft6a_Svr1q583UMTniAH7Agds8PAzdfkYWkPhdWmENVV3o&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=cZPZrDnTIWulEyv8bc2FKg&_nc_ss=7f289&oh=00_AQHb0Pc6bbXpoMNC3u71TYZgRJZRC1iCpIAt4e8kTnVV2Q&oe=6A96A152",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "turismo",
+          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid02EeWMxqo8nZURpgvVNkd9rCGLNBLZJ3s5dwm99nz3SdhNDLebqVnNxosVrkKdGsRyl?__cft__[0]=AZb9WO4e52iTJSfXyd6ifRgtpllM9zEFg1_GS7eUUQD8B2x1jU3uNmlwK9-hXuEIJy6DG5KJMxf9GwiQVAvg_u8EGGdoqhWPlNpUUf0jhM51_IzGIGyerHnVIHMoZkI0oGA-xm28T70v1M1vE7TmdGVB9xXUR-CSyj76HgfuLx4IR7PUqureD-M0Cn56Qrq2DF4&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CRC | Visita Guiada \"Dialogos con la Muerte\"… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -1006,22 +1007,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dELWAULllFAQ7kNvwEeX1Z7&_nc_oc=Adrz-t9nDd-85Emz5H-VUCaCxcrbDexV6k3JcVqwZQehAZSZgJpqznZouQWnqgBxYAI&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=gtPrzhDEWefAk-eFBOCycw&_nc_ss=7f289&oh=00_AQEPQ5Ij40WZoD-LrJ545fNGFUjj83AZHHm1qFmEde7WxA&oe=6A9635C3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/TarijaCultura/posts/estamos-trabajando-sin-parar-para-que-el-departamento-celebre-como-merece-el-bic/1346589784292428/",
-          "has_image": true,
-          "text_preview": "Estamos trabajando sin parar para que el Departamento celebre, como merece, el Bicentenario de su adhesión a Bolivia. Diseñamos un calendario de actividades y proyectos, cobijados en un marco... Estamos trabajando sin parar para que el Departamento celebre, como merece, el Bicentenario de su adhesión a Bolivia. Diseñamos un calendario de... Estamos trabajando sin parar para que el Departamento cel"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1436,32 +1428,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 0,
+      "rejected": 13,
       "rejected_samples": [
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/tendencias",
+          "reason": "tema_ajeno_a_eventos",
+          "score": 52,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/servicios/agenda-cultural",
           "has_image": true,
-          "text_preview": "25/08/2026 Interesante Hallan huellas de tortugas del Cretácico en Torotoro, el primer registro en Sudamérica Entre cañones, cavernas, formaciones rocosas y huellas que conservan la memoria de millones de años, el Parque Nacional Torotoro, ubicado en el departamento de... vista 24/08/2026 Medio Ambiente El mono araña entra en peligro de extinción en Bolivia, pero el tráfico de crías no da tregua E"
+          "text_preview": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTader"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 28,
+          "score": 24,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "27/08/2026 Ciencia En Bolivia el eclipse parcial de Luna será visible desde las 22:33 de hoy Agosto está siendo un mes extraordinario para los aficionados a la astronomía. Después del espectacular eclipse solar total del 12 de agosto, que convirtió a... vista 25/08/2026 Interesante Hallan huellas de tortugas del Cretácico en Torotoro, el primer registro en Sudamérica Entre cañones, cavernas, forma"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 10,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "26/08/2026 Cultura “La noche del demonio” supera $us 60 millones en su estreno mundial La película La noche del demonio: Fuera del más allá debutó el 21 de agosto de 2026 con una recaudación mundial de 60,1 millones de dólares en su primer fin de... vista 24/08/2026 Cultura Cartelera: El festival de piano y la feria cultural japonesa atraen la atención La quinta edición del Festival de Piano a cua"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 12,
-          "category": "otro",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
-          "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Represalia: Canadá contraataca a Estados Unidos con aranceles Ver más 2 Ingresos por importaciones crecen en un 21,8% Ver más 3 Gobierno dice que se pe"
         }
       ],
       "error": null
@@ -1561,8 +1553,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 26,
-      "events": 26,
+      "raw_items": 32,
+      "events": 32,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1621,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 46,
-      "events": 46,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1646,8 +1638,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 0,
-      "events": 0,
+      "raw_items": 8,
+      "events": 8,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1680,18 +1672,10 @@
       "city": "Trinidad",
       "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
       "status": "ok",
-      "raw_items": 4,
-      "events": 1,
+      "raw_items": 5,
+      "events": 2,
       "rejected": 3,
       "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 42,
-          "category": "religioso",
-          "url": "https://beni.gob.bo/category/cultura/",
-          "has_image": true,
-          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 22/08/2026 GOBERNACIÓN ACOMPAÑÓ LA SESIÓN DE HONOR POR LOS 317 ANIVERSARIO DEL MUNICIPIO DE SAN JOAQUÍN En representación del Gobernador del Beni, Jesús Egüez Rivero, la Primera Dama del departamento Marí... Leer más → Cultura - 21/08/2026 GOBERNACIÓN PARTICIPÓ DE LA SOLEMNE EUCARÍSTIA Y PROCESIÓN EN CONMEMORACIÓN POR LOS 317 ANIV"
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 30,
@@ -1707,6 +1691,14 @@
           "url": "https://beni.gob.bo/departamento/agricultura",
           "has_image": true,
           "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "religioso",
+          "url": "https://beni.gob.bo/category/cultura?page=2",
+          "has_image": true,
+          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 13/07/2026 GOBERNADOR PARTICIPA EN LA MISA Y NOVENA EN HONOR A LA VIRGEN DEL CARMEN, PATRONA DE RIBERALTA Como parte de su visita oficial a la provincia Vaca Díez, el gobernador del Beni, Jesús Egüez Rivero... Leer más → Cultura - 06/06/2026 GOBERNACIÓN DEL BENI Y ASOCIACIÓN DE DESCENDIENTES BOLIVIANO-JAPONES ARTICULAN ACCIONES PA"
         }
       ],
       "error": null
