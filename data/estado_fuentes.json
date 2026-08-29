@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T16:58:25-04:00",
+  "generated_at": "2026-08-29T19:21:46-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 91.3,
-    "horas_maximo_sin_datos": 359.1
+    "horas_promedio_sin_datos": 89.8,
+    "horas_maximo_sin_datos": 361.5
   },
   "sources": [
     {
@@ -589,13 +589,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rEsBRCjg_JEQ7kNvwGDsaw7&_nc_oc=AdocgTFsywBgR3pYnxKIykjUoll_-sJtejU5GUwKb2X1bgiBRSFSa629rTMsGtDIRAw&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=tFh4YJSrUUtlw8Lbd3Z52w&_nc_ss=7f289&oh=00_AQI2KhNQ_g2uHFLlNUbsIbS3YUulnkgDX4iOrxLY-4aCUw&oe=6A995100",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid0iPB31qDknM79xyxRXwzNsbbxTaVbnS49yaiFbHg5hkxc4XCGAsRGoDWYqERZAfHnl?__cft__[0]=AZYdJVBh3ssQWBxn4_hP06Fgh9m9KuXCr80AfrYY7qyS-ATcw3nIfdqyQoiaUhh8SuCwZQDuugG23eeUqnV8II3vGMX4q2bwB4JxkYcHfD2Cj0xJBRNeG_X6BVIP7t-f4COYTAua0jYpbFFEUuHEqv1y1bg-MBH4kdS-zs-YlQnngHi0CBUQQh_Zgob2jWxkyfA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#MNA | 60 años haciendo historia … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -606,22 +615,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V3Hmt6FFBN0Q7kNvwFsIVpR&_nc_oc=AdpGVOThM9kwmN7SXcv9y4vYPJyvT_o6KG9dZgJp7MMOykLXxzHj3o_EmmwYG7LaPuM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=JBk-FchuRTYFOr5mx0HWDg&_nc_ss=7f289&oh=00_AQLN-aM1_4b6NoWRlWmmj_FhlOToCm1kz7bGelQTLHVLLA&oe=6A9905F3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid0xMd2oq7GDJdzAToiwFieWZD23LBnky3eMsdsXbXhaDKDFxws3wrzFGoTtfM2p6VBl?__cft__[0]=AZbhcMPxNv_c1Ybebqtn1kE5ek1rAVDiflY0bbMyNnfOO0ikt5GoGGGe0-1DEXNt51ocwg53UkKRIYuvKhhPKWmkUKk6F93H86ZvY6CTFKhZfQpDEc3lKJfLGhyN7WiXpGS4_uVcHAGB9KgoxXWjqRbSLbvKO9FEoqxh7tmlWYaY2swnBbg8LJEua0QNHX728cwMQsuKIYPLXOoT3A9b5hGKGUZO8Yhr2xzALbHQ2iCdCA&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#RAETrinidad l Muchas gracias a Radio Patujú FM 95.2 por la entrevista e invitar a la población trinitaria a participar de nuestra RAE2026 sede Trinidad.… Ver más Convocan a investigadores benianos a participar en la Reunión Anual de Etnología. Tenemos problemas para reproducir este video. Más información Radio Patujú FM 95.2 23 h ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -853,30 +853,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5QxyzwL1JoQQ7kNvwGTl9ak&_nc_oc=AdonyKbELczwQfz1wz8lbyg5ij8gzuW4L0JyKevC6GaLWHHBkYV-V5lFTWZajO7b3Ds&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=4j9x1oExD04U-8lXpe4O7A&_nc_ss=7f289&oh=00_AQKuf-oXGP1QMx9ICmOIv0JdF1BVRPABYlMqaZ2UthpXdA&oe=6A991561",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "feria",
-          "url": "https://www.facebook.com/feriafipaz/posts/habilitamos-el-pabell%C3%B3n-americano-en-fipaz-2026-habilitamos-reservas-de-stands-e/1501967261963793/",
-          "has_image": true,
-          "text_preview": "¡HABILITAMOS EL PABELLÓN AMERICANO EN FIPAZ 2026! 🔥 Habilitamos RESERVAS de STANDS en PABELLÓN AMERICANO – Bloque Verde, Planta Alta. Con grandes novedades y NUEVO INGRESO para los más de 250 mil... ¡HABILITAMOS EL PABELLÓN AMERICANO EN FIPAZ 2026! 🔥 Habilitamos RESERVAS de STANDS en PABELLÓN AMERICANO – Bloque Verde, Planta Alta. Con grandes... ¡HABILITAMOS EL PABELLÓN AMERICANO EN FIPAZ 2026! Ha"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "feria",
-          "url": "https://www.facebook.com/feriafipaz/posts/habilitamos-el-pabell%C3%B3n-americano-en-fipaz-2026-habilitamos-reservas-de-stands-e/1501967261963793/",
-          "has_image": true,
-          "text_preview": "¡HABILITAMOS EL PABELLÓN AMERICANO EN FIPAZ 2026! 🔥 Habilitamos RESERVAS de STANDS en PABELLÓN AMERICANO – Bloque Verde, Planta Alta. Con grandes... ¡HABILITAMOS EL PABELLÓN AMERICANO EN FIPAZ 2026! Habilitamos RESERVAS de STANDS en PABELLÓN AMERICANO – Bloque Verde, Planta Alta. Con grandes novedades y NUEVO INGRESO para los más de 250 mil visitantes. Flujo masivo de clientes potenciales Miles de"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -938,13 +921,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent.ficn2-2.fna.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gf3ykc6-m-8Q7kNvwGapBJy&_nc_oc=AdoD9yrBDrmE8CC9VPb6Wf1x8SVhIr3p80WDZxiRjWKPPvIU3IWAe5wMN2BWeKLqd04&_nc_zt=24&_nc_ht=scontent.ficn2-2.fna&_nc_gid=4oujsp61vpGBejre3rtJQg&_nc_ss=7f289&oh=00_AQJblX3tZ2-WzBsAsyVUI-__VS4Rpf7gc1h-AOcu8c9tWQ&oe=6A9955B8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "danza",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02R6x9Yj7qhf37cAXYtVL881A3GgGLEswCYi3kieidBpqtUjTDZRPySbbe7bjAnLb5l?__cft__[0]=AZZzo_gcZqpR9d7v44ShDkUB-C8LsPFqRBskruo4WJCLjbwEWTKvwqT84obc2EjRRgkvqFrXux1_RnBqTHOKaD2hhknkqgGLsuxklfLm4u4esozJV0s_Tcv7o67gLHTGTT8i-RiQYH1HKk0yeyRHkr-DUOqd-X_hCvvpYlJcjELH5-kbRByccwYXn70W2L551EI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Celebremos juntos la danza y la experiencia! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1057,13 +1049,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QGSy4awuhcgQ7kNvwHLtb3r&_nc_oc=Adq_VPbbsmQZ8Ahq5uIAkqJFO9F2lbUGFuSgwMVnprIw4jdk6qd2YDtRUZdKb_T9DoI&_nc_zt=24&_nc_ht=scontent-fra5-2.xx&_nc_gid=i3JEyQV7QFpKUX3AxJ8Y7Q&_nc_ss=7f289&oh=00_AQJ8-J91rrAwHK3TN70B8DXO3esQ5dKf8KUdaW4Istau2g&oe=6A993155",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1096897546119840/?__cft__[0]=AZaGGmMRGiSnsX8e-fbxKFy0hhxn1Mc5nTsLwO7fjWLSh8Des6ryI33sW2FiiRYONP7wU8yEy7dDagk2ao1LVNjGbOPEyGKPMTi9SKXCfpDnTp3Nb-MSZwASztAmy2J9iaQdfAKL1OaRuMMOWwE-8kWav4sl2umsREexNbVw1QPdNaxlxvJCWXnjXiJEXvzNpTsYdweTy0dLOjtujYMTlqWK&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Y tú, ¿también te animas a ser asistente de lengua? H… Ver más Y tú, ¿también te animas a ser asistente de lengua? H… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1125,22 +1126,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z4-VFB3bDFkQ7kNvwGVTx4v&_nc_oc=AdpRehcJscmqj1R5G6Zm0BMFhas-EeG5988K99sXi8X-CTc7ZjoKpRc325moXiHrCx0&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=c1BD39r6yv6E-Nk4txQdLw&_nc_ss=7f289&oh=00_AQIB80HPlc3LYM7fttHVAuWLk-FIPkahh1g9wd6S9yhkCg&oe=6A992AE4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "infantil",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid055wURPRwdmj63ZY9spNNAvf3Uonqha3V25BGpnG3D6pE2trn1DxEEXoXnBu5fTUCl?__cft__[0]=AZbWzx145j02OVDeEaPbGuWp__55u_HQEfSmKbpPEtRJlGk1np3ef7D91EEr9YUPU3dARyr4N_beMz0Sovol9s42t9MSjakQF8R9ve7bGabqFlIWtntM4FtoEeFoaEywGL7SRMl_5-GMwEqbYVi6s7ivEXsJAeSWmmFcBVeqW25ngjOvCPkKNrdslsIsBt-mWSY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#MUSEFSucre | ¡Recibimos la visita de niños y niñas! Nos sentimos muy felices de recibir a un grupo de estudiantes de la Unidad Educativa \"Jaime Mendoza\" para conoce… Ver más #MUSEFSucre | ¡Recibimos la visita de niños y niñas! Nos sentimos muy felices de recibir a un grupo de estudiantes de la Unidad Educativa \"Jaime Mendoza\" para conoce… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1337,7 +1329,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1436,7 +1428,7 @@
           "category": "otro",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Detienen a un coronel de la FAB en Bolivia por orden de la DEA de EEUU Ver más 2 Cerimedo evita referirse sobre su relación con Paz en su declaración c"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Viva Cashback 1 Ver más 2 Velasco y Libre exigen a la Policía no presionar a fiscales que indagan el caso Cerimedo Ver más 3 Viva Pack Ver más 4 Dispon"
         }
       ],
       "error": null
@@ -1823,12 +1815,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "[Errno 101] Network is unreachable"
     }
   ]
 }
