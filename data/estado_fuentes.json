@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T12:46:16-04:00",
+  "generated_at": "2026-08-29T16:58:25-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 90.8,
-    "horas_maximo_sin_datos": 354.9
+    "horas_promedio_sin_datos": 91.3,
+    "horas_maximo_sin_datos": 359.1
   },
   "sources": [
     {
@@ -606,13 +606,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V3Hmt6FFBN0Q7kNvwFsIVpR&_nc_oc=AdpGVOThM9kwmN7SXcv9y4vYPJyvT_o6KG9dZgJp7MMOykLXxzHj3o_EmmwYG7LaPuM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=JBk-FchuRTYFOr5mx0HWDg&_nc_ss=7f289&oh=00_AQLN-aM1_4b6NoWRlWmmj_FhlOToCm1kz7bGelQTLHVLLA&oe=6A9905F3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid0xMd2oq7GDJdzAToiwFieWZD23LBnky3eMsdsXbXhaDKDFxws3wrzFGoTtfM2p6VBl?__cft__[0]=AZbhcMPxNv_c1Ybebqtn1kE5ek1rAVDiflY0bbMyNnfOO0ikt5GoGGGe0-1DEXNt51ocwg53UkKRIYuvKhhPKWmkUKk6F93H86ZvY6CTFKhZfQpDEc3lKJfLGhyN7WiXpGS4_uVcHAGB9KgoxXWjqRbSLbvKO9FEoqxh7tmlWYaY2swnBbg8LJEua0QNHX728cwMQsuKIYPLXOoT3A9b5hGKGUZO8Yhr2xzALbHQ2iCdCA&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#RAETrinidad l Muchas gracias a Radio Patujú FM 95.2 por la entrevista e invitar a la población trinitaria a participar de nuestra RAE2026 sede Trinidad.… Ver más Convocan a investigadores benianos a participar en la Reunión Anual de Etnología. Tenemos problemas para reproducir este video. Más información Radio Patujú FM 95.2 23 h ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -844,13 +853,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5QxyzwL1JoQQ7kNvwGTl9ak&_nc_oc=AdonyKbELczwQfz1wz8lbyg5ij8gzuW4L0JyKevC6GaLWHHBkYV-V5lFTWZajO7b3Ds&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=4j9x1oExD04U-8lXpe4O7A&_nc_ss=7f289&oh=00_AQKuf-oXGP1QMx9ICmOIv0JdF1BVRPABYlMqaZ2UthpXdA&oe=6A991561",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "feria",
+          "url": "https://www.facebook.com/feriafipaz/posts/habilitamos-el-pabell%C3%B3n-americano-en-fipaz-2026-habilitamos-reservas-de-stands-e/1501967261963793/",
+          "has_image": true,
+          "text_preview": "¡HABILITAMOS EL PABELLÓN AMERICANO EN FIPAZ 2026! 🔥 Habilitamos RESERVAS de STANDS en PABELLÓN AMERICANO – Bloque Verde, Planta Alta. Con grandes novedades y NUEVO INGRESO para los más de 250 mil... ¡HABILITAMOS EL PABELLÓN AMERICANO EN FIPAZ 2026! 🔥 Habilitamos RESERVAS de STANDS en PABELLÓN AMERICANO – Bloque Verde, Planta Alta. Con grandes... ¡HABILITAMOS EL PABELLÓN AMERICANO EN FIPAZ 2026! Ha"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "feria",
+          "url": "https://www.facebook.com/feriafipaz/posts/habilitamos-el-pabell%C3%B3n-americano-en-fipaz-2026-habilitamos-reservas-de-stands-e/1501967261963793/",
+          "has_image": true,
+          "text_preview": "¡HABILITAMOS EL PABELLÓN AMERICANO EN FIPAZ 2026! 🔥 Habilitamos RESERVAS de STANDS en PABELLÓN AMERICANO – Bloque Verde, Planta Alta. Con grandes... ¡HABILITAMOS EL PABELLÓN AMERICANO EN FIPAZ 2026! Habilitamos RESERVAS de STANDS en PABELLÓN AMERICANO – Bloque Verde, Planta Alta. Con grandes novedades y NUEVO INGRESO para los más de 250 mil visitantes. Flujo masivo de clientes potenciales Miles de"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -946,22 +972,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dexqFNyFoP0Q7kNvwH0senH&_nc_oc=AdpTOZZB0gOfL44D8yF6gJOgU0SsKBBQTP1Re0OG8IUrD1P1Vc37kqX6QdvPCX9_4Oo&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=7M3w8tso03IJJvcM0Z_6-w&_nc_ss=7f289&oh=00_AQI4z58GIxiG5EVZdYAftbsO9qTe9sCZchX-ksVpjAVcXA&oe=6A98DE57",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0zvarxGZrWHaMbnZKXhRGgnqpmLak5jbfn5XcKZ1DLfqsyNiJ5PBeA59y6UVmDejWl?__cft__[0]=AZZSYQ-e-WICynsAzHqOfpFrCnbACCH3F2h1LwS5VQpFubTRHHWwt4AolL6Bg9Rj14JE6E69VRfwzuCi4aN7kut4eI_NoJwyPfoGE78xjgt8sntrsmaG_yP_SLL6rmxyNe2wbKDD6XKikOvx2u0ATEoAjlr5qEM2RyzU1uWDMXllfCmlb-OdOHKaMQtFXuoGf6M&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "ROJO, la muestra pictórica de la reconocida pintora y poeta María Zanutti.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1006,22 +1023,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=op-GPB4RlzkQ7kNvwFKI_Kz&_nc_oc=Adq0xfED44ylpYXzQE64zCzzVH3NlWsC4OG_qHyuVt8f0mR25kAbA9521yQByUQNOC0&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=DswztwjX0dNlQasX9zEWrA&_nc_ss=7f289&oh=00_AQJK-esMlwUT7TKIggcRnLZOIxB9MccDlyAUJrUrz4yjdg&oe=6A98D7B4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02B1d6dxgXnQkHsQRnQdtSvKNqawooGikKHCqAGo4H3YTwux2SVBeyNhSf2No8zeRpl?__cft__[0]=AZanUCkxY_iZitdDTYAgYzt662HaJn-ETEhfNEYsQL9OGlZPOr5sjLXeSQRfbIhOIL4Fmm4QJc2vaqBmKWLIUynABYNZJkeL1LoYgLhozUXn0ZclMPQPdHgaixRZo-j_0Rzc7W65GV7jtUt0zPDzLiuANrv4f5_jl_KBnhhcVUf7C9dLDM1zYaIFnnzwQzjMjE0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Convocatoria | Buscamos empresas especializadas para fortalecer y modernizar nuestros sistemas de seguridad y monitoreo.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1032,22 +1040,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/787682274_1028634076836247_1640462159885288722_n.png?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s640x640&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=4H3pUQIa-N8Q7kNvwGT_PXG&_nc_oc=Adq7C4acK7tO7O-UlSa1cHHOvKOeZMuI49e6vFqf2lpYXWUJHrub73s__uyYd81B0cE&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=TqmewulYnsb7989i1-Y5aQ&_nc_ss=7f289&oh=00_AQJqFavLrg71aRQZ1fzYHfsjmk2M1TQmh9I85bkgPTiC6w&oe=6A98E18E",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid0Dvnp57fbFx4D2EepNJx7Lxz498rYhUwqdUAbZqgkExyZ4uWQQoVjF72KnVrPtgajl?__cft__[0]=AZbdHWVOQXtBpJozBF1z3AKBMufuzqGzguyuo139MSIdwOfUIKeW7hbX0S0E9k1-mMO-OhGzPHyLLnznkLJul3yPotqXobQleIqgRrIKLKYHSfe949vt0TenkhGnCGottp9zTXYtnKYjmUMnMvRz9kpw7aRZbigYuuuF6ivwocF74F3cg5EH7zjOmev2YfzYk6M&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Cada reseña de 5 estrellas refleja el compromiso de nuestro equipo con la enseñanza de calidad, la excelente atención al público y la gestión cultural. ¡Gra… Ver más Cada reseña de 5 estrellas refleja el compromiso de nuestro equipo con la enseñanza de calidad, la excelente atención al público y la gestión cultural. ¡Gra… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1126,13 +1125,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z4-VFB3bDFkQ7kNvwGVTx4v&_nc_oc=AdpRehcJscmqj1R5G6Zm0BMFhas-EeG5988K99sXi8X-CTc7ZjoKpRc325moXiHrCx0&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=c1BD39r6yv6E-Nk4txQdLw&_nc_ss=7f289&oh=00_AQIB80HPlc3LYM7fttHVAuWLk-FIPkahh1g9wd6S9yhkCg&oe=6A992AE4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "infantil",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid055wURPRwdmj63ZY9spNNAvf3Uonqha3V25BGpnG3D6pE2trn1DxEEXoXnBu5fTUCl?__cft__[0]=AZbWzx145j02OVDeEaPbGuWp__55u_HQEfSmKbpPEtRJlGk1np3ef7D91EEr9YUPU3dARyr4N_beMz0Sovol9s42t9MSjakQF8R9ve7bGabqFlIWtntM4FtoEeFoaEywGL7SRMl_5-GMwEqbYVi6s7ivEXsJAeSWmmFcBVeqW25ngjOvCPkKNrdslsIsBt-mWSY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#MUSEFSucre | ¡Recibimos la visita de niños y niñas! Nos sentimos muy felices de recibir a un grupo de estudiantes de la Unidad Educativa \"Jaime Mendoza\" para conoce… Ver más #MUSEFSucre | ¡Recibimos la visita de niños y niñas! Nos sentimos muy felices de recibir a un grupo de estudiantes de la Unidad Educativa \"Jaime Mendoza\" para conoce… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1403,12 +1411,20 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 28,
+          "score": 20,
+          "category": "tecnologia",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "27/08/2026 Ciencia En Bolivia el eclipse parcial de Luna será visible desde las 22:33 de hoy Agosto está siendo un mes extraordinario para los aficionados a la astronomía. Después del espectacular eclipse solar total del 12 de agosto, que convirtió a... vista 25/08/2026 Interesante Hallan huellas de tortugas del Cretácico en Torotoro, el primer registro en Sudamérica Entre cañones, cavernas, forma"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 0,
           "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1416,19 +1432,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 12,
+          "score": 0,
           "category": "otro",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Catástrofes naturales: así se desencadenó la mortífera riada de Nepal Ver más 2 Sokol no declara en la Fiscalía \"por motivos laborales\" Ver más 3 Gobie"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 10,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Detienen a un coronel de la FAB en Bolivia por orden de la DEA de EEUU Ver más 2 Cerimedo evita referirse sobre su relación con Paz en su declaración c"
         }
       ],
       "error": null
@@ -1596,8 +1604,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 42,
-      "events": 42,
+      "raw_items": 39,
+      "events": 39,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1630,8 +1638,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
