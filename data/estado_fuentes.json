@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T01:26:59-04:00",
+  "generated_at": "2026-08-30T07:56:54-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,14 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alianza_francesa_sucre",
-      "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 92.4,
-    "horas_maximo_sin_datos": 367.6
+    "horas_promedio_sin_datos": 87.7,
+    "horas_maximo_sin_datos": 256.8
   },
   "sources": [
     {
@@ -97,13 +95,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.99422-6/789347905_1428551292513001_2742293853098171395_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Pei9eVyZHDEQ7kNvwHhg23o&_nc_oc=AdonZRNe2bD_zE0RcW_dQT3c2SkD1M-PAw5cNy_-0up-ORS-j1MNuuF4OLls1ztZO8k&_nc_zt=14&_nc_ht=scontent-fra5-2.xx&_nc_gid=ScTPtgdYUO1RdStU7kPkVw&_nc_ss=7f289&oh=00_AQIMdAandL4o4L96w_5ByE-JnoRQIWJlLaRFi_zQWPaQww&oe=6A9976C3",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -131,30 +129,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=y_VsmQWXqisQ7kNvwFaUBuJ&_nc_oc=AdqSbZHYCBUvY1Yfg5_o1JDZnCdD0A7_ifjP-_6kH5cqAug_7tiClrBY5uZalBg4ACA&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=DNGWs4Hw7JQF4qO5K8rYbw&_nc_ss=7f289&oh=00_AQJjCLTP6zZpegJyE8HkvmEjPzsC44KSGIFhpjChobwoFA&oe=6A99AAC5",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0qzAWDSUoNsqW7TdPjm5UzHviBRYcjr3ZU9wfZhdKE9xrrKnkF68VgTEk7qqVSe9Kl?__cft__[0]=AZaNfi_FkkqISo-TsV-zX9Jae3CIiaD9zC6lRlFUszUZyg-8dpfaFpQX3hv03DdLMreS-X8sSziWbPnQpPTyyTYuftYPOlTvDBUM1VBJcXCCD_8uPibO8u4GnKCChcPWfSas5kASkddPpzLrNoP-WOWPLwNzGeeH8LIjDcn7bkfSz6u7V3UzCphoWDT5LsJyujw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La Paz garantiza la continuidad en la disposición de residuos… Ver más Buen trabajo señor Alcalde Ver más comentarios Rous Virginia"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0qzAWDSUoNsqW7TdPjm5UzHviBRYcjr3ZU9wfZhdKE9xrrKnkF68VgTEk7qqVSe9Kl?comment_id=2110035753719863&__cft__[0]=AZaNfi_FkkqISo-TsV-zX9Jae3CIiaD9zC6lRlFUszUZyg-8dpfaFpQX3hv03DdLMreS-X8sSziWbPnQpPTyyTYuftYPOlTvDBUM1VBJcXCCD_8uPibO8u4GnKCChcPWfSas5kASkddPpzLrNoP-WOWPLwNzGeeH8LIjDcn7bkfSz6u7V3UzCphoWDT5LsJyujw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Buen trabajo señor Alcalde Rous Virginia"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_amun_lapaz",
@@ -777,13 +758,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6lsVDSm9JqEQ7kNvwETOyh3&_nc_oc=AdoNVi2ELGcVcaYBS6jZA8c3Nm2z8mznu4_o8Bta1PzJzHgQSMCdj92ew7ONq-Vev88&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=3g8SgaPvS4g5-0K6p4P1bg&_nc_ss=7f289&oh=00_AQLGMT0wS1iOnQI39L8ttxb2fWeJZ7V5J6BY0AAg7_ygUA&oe=6A99FF6A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobChuquisaca/videos/2169144877342150/?__cft__[0]=AZbFGhfpWySCZsBn0PLzQ_LpPCFhFXJf-4raD-58Rq1EeD3PLFYDUjHvGq7XkoebQnkt_8AqPKKZfL8hBCmszWeClhuznF02CTA1Co7GF_QSXhDXQ3ll9cDf8f07OQ5uU40Tu2plOKD6-GxGGbH_AxFhFsnmIh9Gc0C01YIIcW-t8KCij5Hi67916uyzoMOFtSNA2ZcuK_S8PFL1w0bUtTcf&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "@Seguidores Tenemos problemas para reproducir este video. Más información Ver más comentarios"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_oruro",
@@ -845,13 +835,30 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=O1plq9VAZOsQ7kNvwHpR667&_nc_oc=AdoMMg-O3496n5_WgSpn6_hs0CtZnp1lD0eHmtLaP_pBnS50yXIqZn1ZNGdYftQm8u8&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=tU0fX7By4vq-lC47I_ihLw&_nc_ss=7f289&oh=00_AQIpUDsikkbALEDBZmPzZIowdvQ5OdzXZkBBEncl8ojY6w&oe=6A99EBA9",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDelBeni/posts/1689887975362010:1689887975362010?__cft__[0]=AZbVP255yM4V5nDuZmW2rtf591b09MgbjvQ30uU-nBBw2V3DQ4MAG8LO_LE4zlHBwr1d9dNqM1JNhSUolCzLfP8MjJuaMaNd3p_yOrdL78_EyuhBZdAfUVunVYR9RndRaavOZzm25lJzu3N3QDA8lFk_EJyNEqZY4Va5IXSo_2lgwfXsd3D0zvP0_XMO9W59ZNooQGDNOZtfUKrAD6sCrIj3&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Ver más comentarios Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDelBeni/",
+          "has_image": false,
+          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fipaz",
@@ -880,12 +887,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "blocked",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1066,13 +1073,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bnR-RAzveY0Q7kNvwGIZbKp&_nc_oc=Ado5hfYTXLoRmJbEO-iAicvsMdY8acDw8rgW-HIcDp5ubL8NFTU-R5QuewBJgg8ZEPU&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=Y8HHewuRY1UJTpeSfQmgLw&_nc_ss=7f289&oh=00_AQLx9BV5pVC5Adqg4oTXMD_-SE3rrnlOw9dem_l58lvt2A&oe=6A99DC92",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de Sucre 9,3 mil seguidores • 50 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HHqhCKGBAjVoZxPZMDU39QjmvzKNUcgrGyExXXNdocJASUU4QWfnajs2XzFuvUe5l?__cft__[0]=AZaJ-TwXJqgkSOj7_1zZsKTuu4DnmsGzVH_X-pozZfhFubSPSM8pu2iwkkd_KySlVW_E--thLRGTQDP3lADZcq99YjGw1Jw99fa6tbOXtoTQ0S1DYjHBAy0v1TUjWGfXTVcge2LuHd3cC_yWMWVokYt0C4BFGmWsFmSOqORQL4xFkMmp8pI1TtExcGaOR526p9I&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HHqhCKGBAjVoZxPZMDU39QjmvzKNUcgrGyExXXNdocJASUU4QWfnajs2XzFuvUe5l?comment_id=1079850634463156&__cft__[0]=AZaJ-TwXJqgkSOj7_1zZsKTuu4DnmsGzVH_X-pozZfhFubSPSM8pu2iwkkd_KySlVW_E--thLRGTQDP3lADZcq99YjGw1Jw99fa6tbOXtoTQ0S1DYjHBAy0v1TUjWGfXTVcge2LuHd3cC_yWMWVokYt0C4BFGmWsFmSOqORQL4xFkMmp8pI1TtExcGaOR526p9I&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
