@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T12:43:55-04:00",
+  "generated_at": "2026-08-30T17:08:39-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 85.1,
-    "horas_maximo_sin_datos": 261.6
+    "horas_promedio_sin_datos": 81.4,
+    "horas_maximo_sin_datos": 266.0
   },
   "sources": [
     {
@@ -146,22 +146,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QEXEgHWzd-YQ7kNvwH-Sred&_nc_oc=AdoEbXtRWv3BzQH63myPjUBlHKB392T05y_DiBhsjS5INYFxuZtlA9bsuGEPReu1pDo&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=VAUWMGb3o6Ne4miXoYE3HA&_nc_ss=7f289&oh=00_AQJRmZpDUPQJx-wBFal-n2OZLCBlOfXeq10N760h4xPl5w&oe=6A9A2DB7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0zvUaSY6HFsi2pbHvxDeT8Y1hEMKPz6Q6Wf41sXzBcKkH8p7Eg7x1TJke6L2zwwcRl?__cft__[0]=AZYXSir0XtA2dwVKsvBPN_nbRc8WUv1oRFlSUvlBqKij31zQ6WcxMODPCeo4Ow26fLFhO6QKFoGtnmglsucw7uEQHAVOKVLmZJKBJ3key2otqs7RnUx7rdrESFYbN1b9ww8AqoQGAXMr24F0DlIELUjUOjgFKAFp0bgPm8KdpC4xtjn34SSw8ALPg7ov2x96YG4&__tn__=%2CP-R",
-          "has_image": true,
-          "text_preview": "#AMUN | GAMLP evalúa avances y resultados estratégicos de sus 9 secretarías para garantizar el cumplimiento de metas anuales Lee la nota completa aquí; https://n9.cl/796xi #AMUN | GAMLP evalúa avances y resultados estratégicos de sus 9 secretarías para garantizar el cumplimiento de metas anuales Lee la nota completa aquí; https://n9.cl/796xi"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -750,13 +741,22 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sin2-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=H1IrEEWRthgQ7kNvwEAXaJp&_nc_oc=AdrQ5n860MBw0wEiVCLYDYdX9YHSviWirJNV-4fPWXedVdhkz6D7gyFeClB1-AxSeIc&_nc_zt=24&_nc_ht=scontent-sin2-1.xx&_nc_gid=Dn6FX8nq-eTie0DMWcvYdQ&_nc_ss=7f289&oh=00_AQL6YcHbORmNUHwt9Yj3gt_ujoahI7MJE7BJrR5zxAbqOw&oe=6A9A6EEA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1077218334664280/?__cft__[0]=AZYvaPZkhaMYwGpZMSlG3a2gHFyFoeHI5K4YRs5zGeJcpVLHq2urVYUqw4oIMcYPBxi2YQlt1QWJhgXHLoqRJhPwT_iN_bZJk7iEtOogvHqLw0TPLrWi8a7_97gle174IS0sVsXKM7NNayCbwuhbSkWc07uKPiU8gCZ2b7N9OFpOJs3HX31K8lpZIudwYuXFla4m1uJA2yrNXE2FLD2YMrew&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Juntos prevenimos el Dengue y la Chikungunya!… Ver más Tenemos problemas para reproducir este video. Más información PC Alvarito"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -784,30 +784,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=gMz_8mlkHCwQ7kNvwGnbWLu&_nc_oc=AdqnVd2wfq1TCmfMtDUWr8Kfjd11W7YIOuET8GhrjE0ilRfoiudW0DgveGJZVmkld5U&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=GcSLYi6lkkCsgFwxLVcJCw&_nc_ss=7f289&oh=00_AQKKx-tJQ0JZpOkP-pmbbvQaoAI34zUVhsAtTnLWLOoYRQ&oe=6A9A4ABA",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeOruro/posts/pfbid0sJW6o73GJmAnERSD7Smt9RhL5VFFHSTzujMm8H5MfZpZyLWghdwJpjx7JZDTb4z7l?__cft__[0]=AZZMkr7hdpGVcAqrxCkmMkmim4Da_uR0SPTG0gR4IRbArEuZhAz6HrCCp1od36fj3FMJ5O8w8kMVEGc5bs8EvpK24P3hgEb1KGSLJ1nBw3M6XD0LM7YzFqqGcbvbnOyEL7vM_-aYgOGVkQfPYK7E3LUIzzgNAqE3p2B0qkyOQXjfsvfHpmlMNShrc_YqhJio5Wo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡La Iglesia San Pedro de Challacollo ahora también cuenta con el Emblema Azul!… Ver más Es importante reconocer el patrimonio material, la iglesia de Challapata requiere similar esfuerzo de conservación y para ello también deben darle el estatus de protección emblema azul patrimonial Unesco. Ver más comentarios Franklin Mamani"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeOruro/posts/pfbid0sJW6o73GJmAnERSD7Smt9RhL5VFFHSTzujMm8H5MfZpZyLWghdwJpjx7JZDTb4z7l?comment_id=1023082237443831&__cft__[0]=AZZMkr7hdpGVcAqrxCkmMkmim4Da_uR0SPTG0gR4IRbArEuZhAz6HrCCp1od36fj3FMJ5O8w8kMVEGc5bs8EvpK24P3hgEb1KGSLJ1nBw3M6XD0LM7YzFqqGcbvbnOyEL7vM_-aYgOGVkQfPYK7E3LUIzzgNAqE3p2B0qkyOQXjfsvfHpmlMNShrc_YqhJio5Wo&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Es importante reconocer el patrimonio material, la iglesia de Challapata requiere similar esfuerzo de conservación y para ello también deben darle el estatus de protección emblema azul patrimonial Unesco. Franklin Mamani"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_tarija",
@@ -818,13 +801,22 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=huJtrPXXv5cQ7kNvwGToXnJ&_nc_oc=Adp-MWjYVVCFBiDUhStKnACRB82V0jzHTSl2H2HE5N56nu7V-AGAc3U-vPxHYEKAFnU&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=i_PwkXQdmS4oK5W0VOKgdQ&_nc_ss=7f289&oh=00_AQJ-MjD-vZnrD6laj07W_MpG54gDeAXjRhyEGGL8xaIL0w&oe=6A9A7DA7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GADTarija/posts/pfbid02jJU7Dyup5BpzoHvvhGBPufCwKDfssSGkSUnPdv3zTwrwDpkZ1NHRStWpt1JzqnRHl?__cft__[0]=AZbL6sHUN_-OU56vuLztuBvmLr-6ZsU-oBYFGugmEiBK1XMLqlpWheEmYhf7p-u0p2nX1k1qzO1XByX7Lm6nZ5AI9mf32GLn7iOPAX57RCaT5D0Om0aLK4YK1zp1UXJpQCwoJggKYs4gS5ADX0pf5BSP_UPYyICWiwL-eZxSCQvIHMchLorGgCP7b7NvTyX3etyPUQXBTgMFRzigskXmb5fVoRRV2J0uuNqGIbuGYceQZg&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La salud nuestra prioridad Tenemos problemas para reproducir este video. Más información Maria Rene Soruco Campero 4 h ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_pando",
@@ -835,30 +827,13 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yzzkwUrQ2HkQ7kNvwF8jBXR&_nc_oc=AdqAJnTdrpoA_23CCWPgraguZypenHV4Tde7YYnObwOrbQjSvfMW4_47SPw-a8EACv8&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=7wpJ-LADS0Q5o-3_pET0Pg&_nc_ss=7f289&oh=00_AQKn_jRaKzxjnZ6lLsMBT_ZI0mz6amS-48q_yx-CA6mg1Q&oe=6A9A2950",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0HSgmCjPvN7jPwhibMZZ6r2KSjD8ajMy1i7ZUkbNawXPp45EXZwir7wa4ccGYNjzDl?__cft__[0]=AZaHW9Yw2T0MdeKLveGLsgHmlVhAbFQ7w41_fVxj9cu5DfYBOkTEoSsCTB09d1Tdm-1QW0_4C2SQBD8YrXoY59n-QYtVHTx5dkLIx0NQxqi7Am4tVuRnCCT14q_hIpNAMVYWC0F4BbtkwyXw45OaiEbVgDRYnz1GxQKYeo3DCA0sR8GxxihPuDyCfWNImJaPnqFc2E-AhiFA9XkjFFaBaf3Y&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0HSgmCjPvN7jPwhibMZZ6r2KSjD8ajMy1i7ZUkbNawXPp45EXZwir7wa4ccGYNjzDl?comment_id=584098196711804&__cft__[0]=AZaHW9Yw2T0MdeKLveGLsgHmlVhAbFQ7w41_fVxj9cu5DfYBOkTEoSsCTB09d1Tdm-1QW0_4C2SQBD8YrXoY59n-QYtVHTx5dkLIx0NQxqi7Am4tVuRnCCT14q_hIpNAMVYWC0F4BbtkwyXw45OaiEbVgDRYnz1GxQKYeo3DCA0sR8GxxihPuDyCfWNImJaPnqFc2E-AhiFA9XkjFFaBaf3Y&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_beni",
@@ -937,22 +912,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SNKxWRGuQ4AQ7kNvwEcwdvF&_nc_oc=AdoMa9Mw7FzVbr1nueORcrxb7iDkhtGuWVKQRWwKcdz4YOtvo0G-YMhN6dgcTOsRj78&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=vHgqfQdaFCb3Y0SOhwMwHg&_nc_ss=7f289&oh=00_AQI7QtoK73P3i1Mfe4F_p6NGEodp5EoUpHCybwYA7Ns83Q&oe=6A9A2D47",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid0385366eAbvGgQgYYcae7WcvgRyJFeX4zEDbbarZfkh15VLJJ3EHxyNPt4oJqhe7hXl?__cft__[0]=AZaQZ70LideLNQjXaXYwat1H2-_M7ggM6AdolgZtjjRHSjBAZIiFPo5YXjHyv5UCgOGgggtl2vL_15adakr1houx4BRv0T5pJY42VdfLYhB5abSsLVDrFo2p9HuNW3C3rhXNk-9_J5Y8k2ZoQkdm6XnqumMeMvU_X5eAbX6XEKle_b356mjFU3ZU5cjeKiQEYXg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Un espacio para descubrir nuevos beneficios… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1201,13 +1167,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/761515304_1067546899192869_6937258332610772698_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qYD_Ip-n6U8Q7kNvwEz2SJc&_nc_oc=AdqQ54a6V9mnwFBtX8-I2-4H8s-gJCgAaGFJrWZI0RrdGJD-PXu2UttowcMfjy3M2Mo&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=4RUSCHbsQus1qhszS-smKA&_nc_ss=7f289&oh=00_AQIvGIZKYJ8voGQyZefRqRwJIOC7ZISW6Qi9daGnqFKH7Q&oe=6A9A5923",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid02oNUHTwtnHEKb1JFgxEQL3cgksrhuA8KPYknYNS45UqdpDEctj5wXxGGVvhb5obf5l?__cft__[0]=AZYTzUaN-9oN887dlZ8XKZRzOewbMNq6AUKVX5FTndCbIVPB7XMe2umzjaauX9eC3jx5BxlZ-TerHYDUenZ_gL8rlooXKRd1p8OIELsHygit9fmMeBO3QrezWyylLi1DKvJOy-jbr6Tho08Bwd7EKl40wPoIzw7jgqHGVjKl4Swa5xAL4itCyqJxv3d1QxsFZgU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐀𝐥𝐢𝐚𝐧𝐳𝐚𝐬 𝐩𝐚𝐫𝐚 𝐜𝐫𝐞𝐜𝐞𝐫 El rector de la U… Ver más 𝐀𝐥𝐢𝐚𝐧𝐳𝐚𝐬 𝐩𝐚𝐫𝐚 𝐜𝐫𝐞𝐜𝐞𝐫 El rector de la U… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umss",
@@ -1235,13 +1210,38 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=StKTse0TEQEQ7kNvwEa4ujV&_nc_oc=AdpVT55v1NxkNq3bJobHwU8xpTiSIwEqHDyUgARYnA_d4UoIv3sGjW7VxqN2fnyK7WM&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=vJIUWr9AqqdbQWBrq7Z5Yg&_nc_ss=7f289&oh=00_AQLrCfw9acvYrd2vYsHWNNhnk37y9gR_1MsKbEwqur0MuA&oe=6A9A8672",
+      "status": "ok",
+      "raw_items": 3,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid05pKAPFubgb4S8ki1skycEBKvGTyxg8MsYr8yjj4b2276p3f1va6RS1n8P8z5UE9Kl?__cft__[0]=AZZfPRpI12-IudeGnyeSO0q6zOnUSJyXgrOuqIsZJyIb-ZLF9T6P304gCpH-Zk_2iJS8Hd3FJpsRdx4yeiEQ4Lf8hihj5mY_ZsJJfX1ktZZ7SXbvei2IzOLm_HwnNqh7xQNFl7Af85jClhGjYuKHFuW81lxgCIT_4ib3uaUoRG5oDSh1X2HpqDbQZDF2SsCEVB0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Detrás de cada meta alcanzada, hay amor, apoyo y alguien que nunca dejó de creer. Ho… Ver más Detrás de cada meta alcanzada, hay amor, apoyo y alguien que nunca dejó de creer. Ho… Ver más Pablo felicidades flamante contador Heredia Benjamin Tadeo muchas gracias Bro, siempre me gustó contar la plata Benjamin Tadeo Pablo Bazán Heredia"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid05pKAPFubgb4S8ki1skycEBKvGTyxg8MsYr8yjj4b2276p3f1va6RS1n8P8z5UE9Kl?comment_id=1096910703017015&__cft__[0]=AZZfPRpI12-IudeGnyeSO0q6zOnUSJyXgrOuqIsZJyIb-ZLF9T6P304gCpH-Zk_2iJS8Hd3FJpsRdx4yeiEQ4Lf8hihj5mY_ZsJJfX1ktZZ7SXbvei2IzOLm_HwnNqh7xQNFl7Af85jClhGjYuKHFuW81lxgCIT_4ib3uaUoRG5oDSh1X2HpqDbQZDF2SsCEVB0&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Pablo felicidades flamante contador Heredia Benjamin Tadeo"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid05pKAPFubgb4S8ki1skycEBKvGTyxg8MsYr8yjj4b2276p3f1va6RS1n8P8z5UE9Kl?comment_id=1096910703017015&reply_comment_id=1433958638720222&__cft__[0]=AZZfPRpI12-IudeGnyeSO0q6zOnUSJyXgrOuqIsZJyIb-ZLF9T6P304gCpH-Zk_2iJS8Hd3FJpsRdx4yeiEQ4Lf8hihj5mY_ZsJJfX1ktZZ7SXbvei2IzOLm_HwnNqh7xQNFl7Af85jClhGjYuKHFuW81lxgCIT_4ib3uaUoRG5oDSh1X2HpqDbQZDF2SsCEVB0&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Benjamin Tadeo muchas gracias Bro, siempre me gustó contar la plata Pablo Bazán Heredia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_upsa",
@@ -1432,7 +1432,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
+          "score": 50,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1440,19 +1440,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 22,
           "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "28/08/2026 Cultura La arcilla de Huayculi se transforma en instrumento sonoro con la tecnología La arcilla de Huayculi, departamento de Cochabamba, dejará de ser solo materia para vasijas y objetos utilitarios para convertirse en una interfaz capaz de... vista 28/08/2026 Cultura Bolivia Lab 2026 lleva adelante la Muestra Internacional de Películas En el marco del XV Taller Internacional de Guion –"
+          "text_preview": "30/08/2026 Cultura Después de todo, ¿qué es, realmente, lo postmoderno, Cachín Antezana? Hace algunos años tuve una conversación con Luis H. “Cachín” Antezana sobre el postmodernismo. Partí de una pregunta que parecía básica, casi obvia: ¿qué es lo... vista 28/08/2026 Cultura La arcilla de Huayculi se transforma en instrumento sonoro con la tecnología La arcilla de Huayculi, departamento de Cochab"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 22,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Cisterneros y Gobierno inician diálogo para suspender el paro del sector Ver más 2 Detienen a un coronel de la FAB en Bolivia por orden de la DEA de EE"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Ecuador se declara en alerta roja por el fenómeno de El Niño Ver más 2 Cerimedo dice que iba a establecerse en Bolivia y que Paz solo era su amigo Ver "
         }
       ],
       "error": null
@@ -1552,8 +1552,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 35,
-      "events": 35,
+      "raw_items": 41,
+      "events": 41,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1586,8 +1586,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,8 +1603,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 7,
+      "events": 7,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1620,8 +1620,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 41,
-      "events": 41,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1654,8 +1654,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
