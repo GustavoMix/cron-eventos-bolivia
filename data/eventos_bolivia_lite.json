@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-08-31T01:37:07-04:00",
+  "generated_at": "2026-08-31T09:51:20-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 43,
+    "events_total": 44,
     "events_today": 13
   },
   "filters": {
@@ -60,7 +60,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 10
+        "count": 11
       },
       {
         "key": "deporte",
@@ -105,14 +105,14 @@
         "count": 12
       },
       {
-        "key": "La Paz",
-        "label": "La Paz",
+        "key": "Cochabamba",
+        "label": "Cochabamba",
         "count": 9
       },
       {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 8
+        "key": "La Paz",
+        "label": "La Paz",
+        "count": 9
       },
       {
         "key": "Quillacollo",
@@ -149,7 +149,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 13
+        "count": 14
       },
       {
         "key": "Santa Cruz",
@@ -196,17 +196,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 16
+        "count": 17
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 25
+        "count": 26
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 43
+        "count": 44
       }
     ],
     "price": [
@@ -223,14 +223,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 36
+        "count": 37
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 37
+        "count": 38
       },
       {
         "key": "con_video",
@@ -332,13 +332,13 @@
     ],
     "source_classes": [
       {
-        "key": "cartelera_cine",
-        "label": "cartelera_cine",
-        "count": 13
-      },
-      {
         "key": "media",
         "label": "media",
+        "count": 14
+      },
+      {
+        "key": "cartelera_cine",
+        "label": "cartelera_cine",
         "count": 13
       },
       {
@@ -413,15 +413,15 @@
       "events_with_image": 8,
       "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 23,
-      "events_upcoming": 13,
-      "events_with_image": 13,
+      "events_total": 26,
+      "events_upcoming": 14,
+      "events_with_image": 14,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
       "events_total": 27,
@@ -437,7 +437,7 @@
       "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 1
     },
     "Oruro": {
       "events_total": 3,
@@ -453,7 +453,7 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 1
     },
     "Tarija": {
       "events_total": 5,
@@ -461,7 +461,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Beni": {
       "events_total": 1,
@@ -477,7 +477,7 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 1
     }
   },
   "coverage_by_category": {
@@ -490,7 +490,7 @@
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 5,
+      "events_total": 6,
       "events_upcoming": 4,
       "events_with_image": 4,
       "events_with_video": 1
@@ -518,9 +518,9 @@
     },
     "feria": {
       "label": "Ferias y expos",
-      "events_total": 11,
-      "events_upcoming": 10,
-      "events_with_image": 5,
+      "events_total": 12,
+      "events_upcoming": 11,
+      "events_with_image": 6,
       "events_with_video": 4
     },
     "festival": {
@@ -539,7 +539,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 5,
+      "events_total": 6,
       "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
@@ -1896,6 +1896,44 @@
       "director": null,
       "cast": [],
       "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_5d95fcf4b3aedb",
+      "title": "Espectáculos",
+      "category": "feria",
+      "category_label": "Ferias y expos",
+      "starts_at": "2026-09-02T17:15:00-04:00",
+      "starts_at_ms": 1788383700000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 2 de septiembre · 17:15",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 2,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "estadio Hernando... Ver",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/7/24/12_dc_cartelera_1_0.jpg?itok=9MQ7b8B8",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
