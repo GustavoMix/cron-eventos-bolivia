@@ -1,20 +1,20 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-08-31T16:53:03-04:00",
+  "generated_at": "2026-08-31T20:41:14-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 101,
-    "events_upcoming": 47,
+    "events_upcoming": 48,
     "events_today": 14,
     "events_with_date": 101,
     "events_free": 0,
     "events_with_image": 95,
-    "events_with_video": 5,
+    "events_with_video": 6,
     "events_corroborated": 2,
     "events_seen_this_run": 33,
     "sources_total": 93,
-    "sources_ok": 25,
-    "sources_blocked": 4,
+    "sources_ok": 24,
+    "sources_blocked": 5,
     "sources_error": 2,
     "sources_skipped": 62
   },
@@ -72,7 +72,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 11
+        "count": 12
       },
       {
         "key": "deporte",
@@ -114,7 +114,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 12
+        "count": 13
       },
       {
         "key": "Santa Cruz de la Sierra",
@@ -166,7 +166,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 12
+        "count": 13
       },
       {
         "key": "Santa Cruz",
@@ -208,17 +208,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 19
+        "count": 20
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 28
+        "count": 29
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 47
+        "count": 48
       }
     ],
     "price": [
@@ -235,19 +235,19 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 40
+        "count": 41
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 41
+        "count": 42
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 5
+        "count": 6
       }
     ],
     "tags": [
@@ -264,6 +264,21 @@
       {
         "key": "SucreRenace",
         "label": "SucreRenace",
+        "count": 1
+      },
+      {
+        "key": "feriainternacional",
+        "label": "feriainternacional",
+        "count": 1
+      },
+      {
+        "key": "ticket",
+        "label": "ticket",
+        "count": 1
+      },
+      {
+        "key": "LaPaz",
+        "label": "LaPaz",
         "count": 1
       },
       {
@@ -371,7 +386,7 @@
       {
         "key": "ticketera",
         "label": "ticketera",
-        "count": 3
+        "count": 4
       },
       {
         "key": "eventos",
@@ -399,6 +414,7 @@
     ],
     "tomorrow": [],
     "this_weekend": [
+      "evt_c183f2b7b229e8",
       "evt_8e7a04f1a6b6ee"
     ],
     "free": [],
@@ -426,10 +442,10 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 31,
-      "events_upcoming": 12,
-      "events_with_image": 11,
-      "events_with_video": 2,
+      "events_total": 32,
+      "events_upcoming": 13,
+      "events_with_image": 12,
+      "events_with_video": 3,
       "sources_total": 26,
       "sources_ok": 5
     },
@@ -442,7 +458,7 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 25,
+      "events_total": 24,
       "events_upcoming": 11,
       "events_with_image": 6,
       "events_with_video": 3,
@@ -455,7 +471,7 @@
       "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 3,
@@ -501,7 +517,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 60,
+      "events_total": 59,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0
@@ -536,10 +552,10 @@
     },
     "feria": {
       "label": "Ferias y expos",
-      "events_total": 12,
-      "events_upcoming": 11,
-      "events_with_image": 6,
-      "events_with_video": 4
+      "events_total": 13,
+      "events_upcoming": 12,
+      "events_with_image": 7,
+      "events_with_video": 5
     },
     "festival": {
       "label": "Festivales",
@@ -581,11 +597,12 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_tarija_cultura",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 72.9,
-    "horas_maximo_sin_datos": 289.7
+    "horas_promedio_sin_datos": 69.5,
+    "horas_maximo_sin_datos": 293.5
   },
   "events": [
     {
@@ -599,7 +616,7 @@
       "url": "https://www.lostiempos.com/agenda-cultural/concierto-piano_638709",
       "facebook_event_url": null,
       "published_at": "2024-08-20T16:52:53-04:00",
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Concierto para piano",
       "description": "Agenda Cultural Conciertos de Piano de Beethoven en Cochabamba ¡Sumérgete en una experiencia musical incomparable! Ars Música Orquesta te invita a presenciar los icónicos conciertos para piano de Ludwig van Beethoven, interpretados por renombrados solistas internacionales. Fechas: 24 y 25 de agosto Hora: 19:00 hrs Lugar: Teatro Instituto Eduardo Laredo Entradas: VIP: 70 Bs Generales: 50 Bs Dirección Concierto N°1: Ana Pérez Dirección Concierto N°2: Leonardo Alvarado Pianista para Concierto N°1: Alejandro Argollo Pianista para Concierto N°2: Sergio Escalera ¡No dejes pasar esta oportunidad única de vivir la grandeza de Beethoven en Cochabamba! Reserva tus entradas ahora a través de WhatsApp: https://wa.me/59177980638 Tipo de Evento: Cultural Fecha del Evento: Domingo, 25 Agosto, 2024 - 19:00 Dirección: Ramón Rivero esquina Oquendo Lo más leído 1 Los 7 efectos que sufre la piel al dormir menos de siete horas 2 La Policía Boliviana tendrá nuevo Comandante General en las próximas horas 3 El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 4 Cochabamba: hombre con antecedentes por narcotráfico es acribillado en Entre Ríos 5 5 formas de vivir la solidaridad en familia Últimas noticias 16h17m Nueva viceministra de Telecomunicaciones priorizará transparencia 12h33m 5 formas de vivir la solidaridad en familia 12h27m Juegos Mundiales de Robots Humanoides Cierra en china, con más de 2.000 robots 12h23m El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 12h15m Los 7 efectos que sufre la piel al dormir menos de siete horas Lo más compartido 1 Evismo anuncia una marcha para el 4 de septiembre en Cochabamba contra las “políticas neoliberales” 2 Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía 3 La Tierra tiembla todos los días, pero ¿están aumentando los sismos? 4 Felcc investiga el asesinato de un hombre con 23 disparos en Entre Ríos 5 Del escenario rural al “glamour” global: la revolución estética con la que Dolly Parton transformó el country En Portada 31/08/2026 País Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía El ministro de Gobierno, Marco Antonio Oviedo, confirmó la renuncia del comandante general de la Policía Boliviana, Mirko Sokol, y anunció que al mediodía de... vista 31/08/2026 País La Policía Boliviana tendrá nuevo Comandante General en ",
       "original_text": "Agenda Cultural Conciertos de Piano de Beethoven en Cochabamba ¡Sumérgete en una experiencia musical incomparable! Ars Música Orquesta te invita a presenciar los icónicos conciertos para piano de Ludwig van Beethoven, interpretados por renombrados solistas internacionales. Fechas: 24 y 25 de agosto Hora: 19:00 hrs Lugar: Teatro Instituto Eduardo Laredo Entradas: VIP: 70 Bs Generales: 50 Bs Dirección Concierto N°1: Ana Pérez Dirección Concierto N°2: Leonardo Alvarado Pianista para Concierto N°1: Alejandro Argollo Pianista para Concierto N°2: Sergio Escalera ¡No dejes pasar esta oportunidad única de vivir la grandeza de Beethoven en Cochabamba! Reserva tus entradas ahora a través de WhatsApp: https://wa.me/59177980638 Tipo de Evento: Cultural Fecha del Evento: Domingo, 25 Agosto, 2024 - 19:00 Dirección: Ramón Rivero esquina Oquendo Lo más leído 1 Los 7 efectos que sufre la piel al dormir menos de siete horas 2 La Policía Boliviana tendrá nuevo Comandante General en las próximas horas 3 El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 4 Cochabamba: hombre con antecedentes por narcotráfico es acribillado en Entre Ríos 5 5 formas de vivir la solidaridad en familia Últimas noticias 16h17m Nueva viceministra de Telecomunicaciones priorizará transparencia 12h33m 5 formas de vivir la solidaridad en familia 12h27m Juegos Mundiales de Robots Humanoides Cierra en china, con más de 2.000 robots 12h23m El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 12h15m Los 7 efectos que sufre la piel al dormir menos de siete horas Lo más compartido 1 Evismo anuncia una marcha para el 4 de septiembre en Cochabamba contra las “políticas neoliberales” 2 Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía 3 La Tierra tiembla todos los días, pero ¿están aumentando los sismos? 4 Felcc investiga el asesinato de un hombre con 23 disparos en Entre Ríos 5 Del escenario rural al “glamour” global: la revolución estética con la que Dolly Parton transformó el country En Portada 31/08/2026 País Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía El ministro de Gobierno, Marco Antonio Oviedo, confirmó la renuncia del comandante general de la Policía Boliviana, Mirko Sokol, y anunció que al mediodía de... vista 31/08/2026 País La Policía Boliviana tendrá nuevo Comandante General en las próximas horas En las próximas horas, el gobierno procederá a la renovación del Alto Mando Policial, incluyendo a su Comandante, el general Mirko Sokol, quien llegó a la cima... vista 31/08/2026 País Policía alista el traslado de Cerimedo a Chonchocoro por segunda detención La Policía Departamental de La Paz informó ayer que alista el traslado del exasesor presidencial Fernando Cerimedo del penal de Palmasola de Santa Cruz a... vista 31/08/2026 País Cívicos cruceños definirán medidas por la crisis por diésel y CAO pide anular decreto El vicepresidente del Comité pro Santa Cruz, Agustín Zambrana, informó ayer que al haberse agotado la vía de exigir soluciones al Gobierno nacional por la... vista 30/08/2026 Seguridad Acribillan a una persona en San Ignacio de Velasco frente a un surtidor El municipio cruceño de San Ignacio de Velasco cierra la semana con un nuevo hecho violento: un hombre fue asesinado a tiros, afuera de una licorería ubicada... vista 31/08/2026 Seguridad Cochabamba: hombre con antecedentes por narcotráfico es acribillado en Entre Ríos Un hombre perdió la vida este domingo luego de ser acribillado mientras compraba bebidas alcohólicas. El hecho se suscitó en el municipio de Entre Ríos del... vista Actualidad “Tengo más de 37 años de trayectoria profesional, he trabajado en la empresa privada”, declara Cynthia Aramayo Aguilar. Ver más 31/08/2026 Economía Nueva viceministra de Telecomunicaciones priorizará transparencia El ministro de Gobierno, Marco Antonio Oviedo, confirmó la renuncia del comandante general de la Policía Boliviana,... Ver más 31/08/2026 País Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía La festividad religiosa de San Joaquín de Jaihuayco fue reconocida como Patrimonio Cultural Inmaterial del departamento... Ver más 31/08/2026 Cochabamba Declaran patrimonio departamental la festividad de San Joaquín El silencio y la profunda depresión consumían los días de una adolescente de 14 años en un municipio del área rural del... Ver más 31/08/2026 Seguridad Oruro, escenario de una historia desgarradora de violencia sexual Deportes Bolívar dominó el clásico nacional con autoridad y golpeó primero en el estadio Hernando Siles. La velocidad de los... Ver más 31/08/2026 Fútbol Bolívar domina el clásico nacional y gana por goleada en el Siles Su rendimiento no solo representa logros individuales, sino que evidencia su crecimiento en competencia, ganó y... Ver más 31/08/2026 Multideportivo Valeria Quispe será abanderada del país en Juegos Odesur Santa Fe 2026 Bolívar y The Strongest protagonizarán hoy domingo el clásico nacional a partir de las 17:15 en el estadio Hernando... Ver más 30/08/2026 Fútbol Bolívar y The Strongest, un clásico sin tregua Brindar explicaciones a través de los altoparlantes de los estadios sobre las decisiones luego de revisar el VAR no... Ver más 28/08/2026 Fútbol La FBF determinó que los jueces expliquen sus decisiones tras revisar las imágenes del VAR Tendencias El lago Titicaca se deja recorrer de muchas maneras. A 177 kilómetros al noroeste de La Paz, en la Península Challapata... Ver más 31/08/2026 Medio Ambiente Aviturismo en Escoma: comunidades aymaras se unen para proteger el hábitat del zambullidor del Titicaca Agosto está siendo un mes extraordinario para los aficionados a la astronomía. Después del espectacular eclipse solar... Ver más 27/08/2026 Ciencia En Bolivia el eclipse parcial de Luna será visible desde las 22:33 de hoy Entre cañones, cavernas, formaciones rocosas y huellas que conservan la memoria de millones de años, el Parque Nacional... Ver más 25/08/2026 Interesante Hallan huellas de tortugas del Cretácico en Torotoro, el primer registro en Sudamérica El mono araña o marimono (Ateles chamek), el primate más grande de Bolivia, fue recategorizado este año de Vulnerable (... Ver más 24/08/2026 Medio Ambiente El mono araña entra en peligro de extinción en Bolivia, pero el tráfico de crías no da tregua Doble Click No es casualidad que corrientes ateas y creyentes confluyan más o menos en lo mismo cuando analizan las potenciales... Ver más 31/08/2026 Cultura La IA bajo la mirada de la Iglesia y la filosofía El estreno de la película boliviana “Cielo” en los cines de Cochabamba y el concierto de Grillo Villegas conmemorando... Ver más 31/08/2026 Cine Cartelera: El filme boliviano “Cielo” se estrena en Cochabamba Soy ruso y tomé la decisión más loca del año: ¡voy a bailar morenada en la fiesta de Urkupiña!\". Con ese desafío,... Ver más 30/08/2026 Vida Nikita Kovalchuk, un ruso en Podcast Los Tiempos Hace algunos años tuve una conversación con Luis H. “Cachín” Antezana sobre el postmodernismo. Partí de una pregunta... Ver más 30/08/2026 Cultura Después de todo, ¿qué es, realmente, lo postmoderno, Cachín Antezana?",
@@ -736,8 +753,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": false,
@@ -758,7 +775,7 @@
       "url": "https://www.lostiempos.com/agenda-cultural/almas-heridas-obra-teatro-infancias_641678",
       "facebook_event_url": null,
       "published_at": "2024-09-27T11:03:43-04:00",
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "\"Almas Heridas - Obra de Teatro para Infancias\"",
       "description": "Agenda Cultural Escena ViScERal presenta: \"Almas Heridas - Obra de Teatro para Infancias\" Sinopsis: “Angustias y profundos pesares nos hacen mirar para adentro, los niños generalmente miran para afuera, son muy valientes. Solo los niños que sufren miran para adentro” “Almas Heridas” propone una aproximación empática a las vivencias de 3 pequeños y valientes protagonistas que nos invitan a acompañarlos en su mirar para adentro y mirar para afuera siendo niños. Género: Drama Público: infantil , apta para todo público. *Recomendada para niños desde la edad escolar (6 años para adelante) Fechas: -Sábado 28 de septiembre: 1ra función: 16:00 - 2da función: 19:00 -Domingo 29 de septiembre: 1ra función: 16:00 - 2da función: 19:00 Costo: Adultos: 30 bs - Niños y niñas: 20 bs Tipo de Evento: Cultural Fecha del Evento: Domingo, 29 Septiembre, 2024 - 17:00 Dirección: Proyecto mARTadero Lo más leído 1 Los 7 efectos que sufre la piel al dormir menos de siete horas 2 La Policía Boliviana tendrá nuevo Comandante General en las próximas horas 3 El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 4 Cochabamba: hombre con antecedentes por narcotráfico es acribillado en Entre Ríos 5 5 formas de vivir la solidaridad en familia Últimas noticias 16h17m Nueva viceministra de Telecomunicaciones priorizará transparencia 12h33m 5 formas de vivir la solidaridad en familia 12h27m Juegos Mundiales de Robots Humanoides Cierra en china, con más de 2.000 robots 12h23m El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 12h15m Los 7 efectos que sufre la piel al dormir menos de siete horas Lo más compartido 1 Evismo anuncia una marcha para el 4 de septiembre en Cochabamba contra las “políticas neoliberales” 2 Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía 3 La Tierra tiembla todos los días, pero ¿están aumentando los sismos? 4 Felcc investiga el asesinato de un hombre con 23 disparos en Entre Ríos 5 Del escenario rural al “glamour” global: la revolución estética con la que Dolly Parton transformó el country En Portada 31/08/2026 País Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía El ministro de Gobierno, Marco Antonio Oviedo, confirmó la renuncia del comandante general de la Policía Boliviana, Mirko Sokol, y anunció que al mediodía de... vista 31/08/2026 País La Policía ",
       "original_text": "Agenda Cultural Escena ViScERal presenta: \"Almas Heridas - Obra de Teatro para Infancias\" Sinopsis: “Angustias y profundos pesares nos hacen mirar para adentro, los niños generalmente miran para afuera, son muy valientes. Solo los niños que sufren miran para adentro” “Almas Heridas” propone una aproximación empática a las vivencias de 3 pequeños y valientes protagonistas que nos invitan a acompañarlos en su mirar para adentro y mirar para afuera siendo niños. Género: Drama Público: infantil , apta para todo público. *Recomendada para niños desde la edad escolar (6 años para adelante) Fechas: -Sábado 28 de septiembre: 1ra función: 16:00 - 2da función: 19:00 -Domingo 29 de septiembre: 1ra función: 16:00 - 2da función: 19:00 Costo: Adultos: 30 bs - Niños y niñas: 20 bs Tipo de Evento: Cultural Fecha del Evento: Domingo, 29 Septiembre, 2024 - 17:00 Dirección: Proyecto mARTadero Lo más leído 1 Los 7 efectos que sufre la piel al dormir menos de siete horas 2 La Policía Boliviana tendrá nuevo Comandante General en las próximas horas 3 El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 4 Cochabamba: hombre con antecedentes por narcotráfico es acribillado en Entre Ríos 5 5 formas de vivir la solidaridad en familia Últimas noticias 16h17m Nueva viceministra de Telecomunicaciones priorizará transparencia 12h33m 5 formas de vivir la solidaridad en familia 12h27m Juegos Mundiales de Robots Humanoides Cierra en china, con más de 2.000 robots 12h23m El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 12h15m Los 7 efectos que sufre la piel al dormir menos de siete horas Lo más compartido 1 Evismo anuncia una marcha para el 4 de septiembre en Cochabamba contra las “políticas neoliberales” 2 Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía 3 La Tierra tiembla todos los días, pero ¿están aumentando los sismos? 4 Felcc investiga el asesinato de un hombre con 23 disparos en Entre Ríos 5 Del escenario rural al “glamour” global: la revolución estética con la que Dolly Parton transformó el country En Portada 31/08/2026 País Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía El ministro de Gobierno, Marco Antonio Oviedo, confirmó la renuncia del comandante general de la Policía Boliviana, Mirko Sokol, y anunció que al mediodía de... vista 31/08/2026 País La Policía Boliviana tendrá nuevo Comandante General en las próximas horas En las próximas horas, el gobierno procederá a la renovación del Alto Mando Policial, incluyendo a su Comandante, el general Mirko Sokol, quien llegó a la cima... vista 31/08/2026 País Policía alista el traslado de Cerimedo a Chonchocoro por segunda detención La Policía Departamental de La Paz informó ayer que alista el traslado del exasesor presidencial Fernando Cerimedo del penal de Palmasola de Santa Cruz a... vista 31/08/2026 País Cívicos cruceños definirán medidas por la crisis por diésel y CAO pide anular decreto El vicepresidente del Comité pro Santa Cruz, Agustín Zambrana, informó ayer que al haberse agotado la vía de exigir soluciones al Gobierno nacional por la... vista 30/08/2026 Seguridad Acribillan a una persona en San Ignacio de Velasco frente a un surtidor El municipio cruceño de San Ignacio de Velasco cierra la semana con un nuevo hecho violento: un hombre fue asesinado a tiros, afuera de una licorería ubicada... vista 31/08/2026 Seguridad Cochabamba: hombre con antecedentes por narcotráfico es acribillado en Entre Ríos Un hombre perdió la vida este domingo luego de ser acribillado mientras compraba bebidas alcohólicas. El hecho se suscitó en el municipio de Entre Ríos del... vista Actualidad “Tengo más de 37 años de trayectoria profesional, he trabajado en la empresa privada”, declara Cynthia Aramayo Aguilar. Ver más 31/08/2026 Economía Nueva viceministra de Telecomunicaciones priorizará transparencia El ministro de Gobierno, Marco Antonio Oviedo, confirmó la renuncia del comandante general de la Policía Boliviana,... Ver más 31/08/2026 País Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía La festividad religiosa de San Joaquín de Jaihuayco fue reconocida como Patrimonio Cultural Inmaterial del departamento... Ver más 31/08/2026 Cochabamba Declaran patrimonio departamental la festividad de San Joaquín El silencio y la profunda depresión consumían los días de una adolescente de 14 años en un municipio del área rural del... Ver más 31/08/2026 Seguridad Oruro, escenario de una historia desgarradora de violencia sexual Deportes Bolívar dominó el clásico nacional con autoridad y golpeó primero en el estadio Hernando Siles. La velocidad de los... Ver más 31/08/2026 Fútbol Bolívar domina el clásico nacional y gana por goleada en el Siles Su rendimiento no solo representa logros individuales, sino que evidencia su crecimiento en competencia, ganó y... Ver más 31/08/2026 Multideportivo Valeria Quispe será abanderada del país en Juegos Odesur Santa Fe 2026 Bolívar y The Strongest protagonizarán hoy domingo el clásico nacional a partir de las 17:15 en el estadio Hernando... Ver más 30/08/2026 Fútbol Bolívar y The Strongest, un clásico sin tregua Brindar explicaciones a través de los altoparlantes de los estadios sobre las decisiones luego de revisar el VAR no... Ver más 28/08/2026 Fútbol La FBF determinó que los jueces expliquen sus decisiones tras revisar las imágenes del VAR Tendencias El lago Titicaca se deja recorrer de muchas maneras. A 177 kilómetros al noroeste de La Paz, en la Península Challapata... Ver más 31/08/2026 Medio Ambiente Aviturismo en Escoma: comunidades aymaras se unen para proteger el hábitat del zambullidor del Titicaca Agosto está siendo un mes extraordinario para los aficionados a la astronomía. Después del espectacular eclipse solar... Ver más 27/08/2026 Ciencia En Bolivia el eclipse parcial de Luna será visible desde las 22:33 de hoy Entre cañones, cavernas, formaciones rocosas y huellas que conservan la memoria de millones de años, el Parque Nacional... Ver más 25/08/2026 Interesante Hallan huellas de tortugas del Cretácico en Torotoro, el primer registro en Sudamérica El mono araña o marimono (Ateles chamek), el primate más grande de Bolivia, fue recategorizado este año de Vulnerable (... Ver más 24/08/2026 Medio Ambiente El mono araña entra en peligro de extinción en Bolivia, pero el tráfico de crías no da tregua Doble Click No es casualidad que corrientes ateas y creyentes confluyan más o menos en lo mismo cuando analizan las potenciales... Ver más 31/08/2026 Cultura La IA bajo la mirada de la Iglesia y la filosofía El estreno de la película boliviana “Cielo” en los cines de Cochabamba y el concierto de Grillo Villegas conmemorando... Ver más 31/08/2026 Cine Cartelera: El filme boliviano “Cielo” se estrena en Cochabamba Soy ruso y tomé la decisión más loca del año: ¡voy a bailar morenada en la fiesta de Urkupiña!\". Con ese desafío,... Ver más 30/08/2026 Vida Nikita Kovalchuk, un ruso en Podcast Los Tiempos Hace algunos años tuve una conversación con Luis H. “Cachín” Antezana sobre el postmodernismo. Partí de una pregunta... Ver más 30/08/2026 Cultura Después de todo, ¿qué es, realmente, lo postmoderno, Cachín Antezana?",
@@ -895,8 +912,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": false,
@@ -917,7 +934,7 @@
       "url": "https://ticket.bo/eventos/el-var-la-gran-final",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "EL VAR La Gran Final | TicketBO",
       "description": "Deportes EL VAR La Gran Final 19 de julio de 2026 · 15:00 hrs Puertas: 12:00 Zu Av. Montenegro 954, La Paz, Bolivia Scroll Fecha 19 JUL domingo 2026 Hora 15:00 Puertas: 12:00 Venue Zu Av. Montenegro 954, La Paz, Bolivia Categoría DEPORTES Apto para todo público 1 Tipos de\nentrada Sobre el evento La final del Mundial en EL VAR El partido más esperado del mundo lo vives en EL VAR — la mejor experiencia para ver fútbol en La Paz. Pantalla gigante de 8x4 metros, ambiente de estadio y tu mesa reservada para que no te pierdas nada.\n\n19 de julio, 2026. La gran final del Mundial, donde el fútbol se ve diferente. Información CÓMO ACCEDER Ingreso desde medio día. Se requiere presentar tu entrada digital en puerta.\n\n🎟️ Las reservas tienen un costo fijo por mesa que garantiza tu lugar durante todo el partido.\n\n🚫 No se permite el ingreso con alimentos o bebidas externas. Evento para toda la familia Restricción de edad Apto para todo público Ubicación CÓMO LLEGAR ZU Av. Montenegro 954, La Paz, Bolivia Ver en Google Maps → El monto pagado corresponde al acceso al evento — NO es canjeable en consumo. Selecciona tus tickets ELIGE TU ENTRADA Mesa 29 disponibles Bs. 100 BOB Precio varía según capacidad de mesa Selección de asiento Seleccionar asiento → EL VAR La Gran Final Bs. 100 Comprar ahora → 🔥 ¡Mesas limitadas — asegura la tuya ahora! Comprar ahora →",
       "original_text": "Deportes EL VAR La Gran Final 19 de julio de 2026 · 15:00 hrs Puertas: 12:00 Zu Av. Montenegro 954, La Paz, Bolivia Scroll Fecha 19 JUL domingo 2026 Hora 15:00 Puertas: 12:00 Venue Zu Av. Montenegro 954, La Paz, Bolivia Categoría DEPORTES Apto para todo público 1 Tipos de\nentrada Sobre el evento La final del Mundial en EL VAR El partido más esperado del mundo lo vives en EL VAR — la mejor experiencia para ver fútbol en La Paz. Pantalla gigante de 8x4 metros, ambiente de estadio y tu mesa reservada para que no te pierdas nada.\n\n19 de julio, 2026. La gran final del Mundial, donde el fútbol se ve diferente. Información CÓMO ACCEDER Ingreso desde medio día. Se requiere presentar tu entrada digital en puerta.\n\n🎟️ Las reservas tienen un costo fijo por mesa que garantiza tu lugar durante todo el partido.\n\n🚫 No se permite el ingreso con alimentos o bebidas externas. Evento para toda la familia Restricción de edad Apto para todo público Ubicación CÓMO LLEGAR ZU Av. Montenegro 954, La Paz, Bolivia Ver en Google Maps → El monto pagado corresponde al acceso al evento — NO es canjeable en consumo. Selecciona tus tickets ELIGE TU ENTRADA Mesa 29 disponibles Bs. 100 BOB Precio varía según capacidad de mesa Selección de asiento Seleccionar asiento → EL VAR La Gran Final Bs. 100 Comprar ahora → 🔥 ¡Mesas limitadas — asegura la tuya ahora! Comprar ahora →",
@@ -1028,8 +1045,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": false,
@@ -1175,237 +1192,6 @@
       "category_label": "Ferias y expos",
       "lifecycle_label": "Finalizados",
       "quality_score": 51,
-      "is_featured": false,
-      "price_label": null
-    },
-    {
-      "id": "601f0b503af64b69",
-      "source_id": "web_cine_santa_cruz",
-      "source_name": "Bolivia.com Cine - Santa Cruz",
-      "source_url": "https://www.bolivia.com/cine/cartelera/santa-cruz-c43",
-      "source_class": "cartelera_cine",
-      "source_tier": 2,
-      "source_icon_url": null,
-      "url": "https://www.bolivia.com/cine/santa-cruz/spider-man-un-nuevo-dia-12132_43",
-      "facebook_event_url": null,
-      "published_at": null,
-      "scraped_at": "2026-08-27T20:28:14-04:00",
-      "title": "Película en cartelera de cine",
-      "description": "Película en cartelera de cine\n27/08/2026 17:15\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Las Brisas Shopping Mall (4o anillo y Av. Banzer)\nHorarios: 17:15, 20:00, 22:50, 13:25, 16:20, 19:20\nFormatos: 2D, 2D XL",
-      "original_text": "Película en cartelera de cine\n27/08/2026 17:15\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Las Brisas Shopping Mall (4o anillo y Av. Banzer)\nHorarios: 17:15, 20:00, 22:50, 13:25, 16:20, 19:20\nFormatos: 2D, 2D XL",
-      "category": "cine",
-      "subcategories": [],
-      "tags": [],
-      "artists": [],
-      "starts_at": "2026-08-27T17:15:00-04:00",
-      "ends_at": null,
-      "starts_at_ms": 1787865300000,
-      "ends_at_ms": null,
-      "date_confidence": "exacta",
-      "date_source_text": "2026-08-27T17:15:00-04:00",
-      "all_day": false,
-      "multi_day": false,
-      "doors_time": null,
-      "display_date": "Jueves 27 de agosto · 17:15",
-      "days_until": -4,
-      "lifecycle": "finalizado",
-      "department": "Santa Cruz",
-      "city": "Santa Cruz de la Sierra",
-      "venue": "Multicine",
-      "address": "Las Brisas Shopping Mall (4º anillo y Av. Banzer)",
-      "latitude": null,
-      "longitude": null,
-      "location_query": "Multicine, Las Brisas Shopping Mall (4º anillo y Av. Banzer), Santa Cruz de la Sierra, Bolivia",
-      "is_free": false,
-      "price_from": null,
-      "price_to": null,
-      "currency": null,
-      "price_text": null,
-      "ticket_urls": [],
-      "ticket_outlets": [],
-      "organizer": null,
-      "audience": null,
-      "age_restriction": null,
-      "duration_minutes": null,
-      "showtimes": [
-        "17:15",
-        "20:00",
-        "22:50",
-        "13:25",
-        "16:20",
-        "19:20",
-        "14:10",
-        "16:00",
-        "18:00",
-        "19:30",
-        "21:10",
-        "12:40",
-        "19:10",
-        "22:25",
-        "22:10",
-        "13:10",
-        "17:20",
-        "19:40",
-        "22:00",
-        "12:00",
-        "18:20",
-        "20:30",
-        "22:40",
-        "13:40",
-        "15:50",
-        "22:35",
-        "13:00",
-        "15:10",
-        "14:20",
-        "12:30",
-        "15:30"
-      ],
-      "formats": [
-        "2D",
-        "2D XL",
-        "2D SUB"
-      ],
-      "occurrences": [
-        "2026-08-27T17:15:00-04:00",
-        "2026-08-27T20:00:00-04:00",
-        "2026-08-27T22:50:00-04:00",
-        "2026-08-27T13:25:00-04:00",
-        "2026-08-27T16:20:00-04:00",
-        "2026-08-27T19:20:00-04:00",
-        "2026-08-27T14:10:00-04:00",
-        "2026-08-27T16:00:00-04:00",
-        "2026-08-27T18:00:00-04:00",
-        "2026-08-27T19:30:00-04:00",
-        "2026-08-27T21:10:00-04:00",
-        "2026-08-27T12:40:00-04:00",
-        "2026-08-27T19:10:00-04:00",
-        "2026-08-27T22:25:00-04:00",
-        "2026-08-27T22:10:00-04:00",
-        "2026-08-27T13:10:00-04:00",
-        "2026-08-27T17:20:00-04:00",
-        "2026-08-27T19:40:00-04:00",
-        "2026-08-27T22:00:00-04:00",
-        "2026-08-27T12:00:00-04:00",
-        "2026-08-27T18:20:00-04:00",
-        "2026-08-27T20:30:00-04:00",
-        "2026-08-27T22:40:00-04:00",
-        "2026-08-27T13:40:00-04:00",
-        "2026-08-27T15:50:00-04:00",
-        "2026-08-27T22:35:00-04:00",
-        "2026-08-27T13:00:00-04:00",
-        "2026-08-27T15:10:00-04:00",
-        "2026-08-27T14:20:00-04:00",
-        "2026-08-27T12:30:00-04:00",
-        "2026-08-27T15:30:00-04:00"
-      ],
-      "content_genre": null,
-      "director": null,
-      "cast": [],
-      "phones": [],
-      "status": "programado",
-      "relevance_score": 90,
-      "confidence": 0.81,
-      "filter_reasons": [
-        "fecha_futura",
-        "hora_explicita",
-        "categoria_cine",
-        "sede_detectada",
-        "tiene_afiche",
-        "fuente_especializada"
-      ],
-      "is_official": false,
-      "image_urls": [
-        "https://cdn.bolivia.com/cine/2026/5/spider-man-un-nuevo-dia-47429.jpg",
-        "https://cdn.bolivia.com/cine/2022/2/harry-potter-y-la-piedra-filosofal-40980.jpg",
-        "https://cdn.bolivia.com/cine/2026/5/la-odisea-47428.jpg",
-        "https://cdn.bolivia.com/cine/2026/8/la-guerra-de-los-ultimos-47694.jpg",
-        "https://cdn.bolivia.com/cine/2026/8/la-noche-del-demonio-estan-entre-nosotros-47638.jpg",
-        "https://cdn.bolivia.com/cine/2024/2/donde-habita-el-diablo-42772.jpg",
-        "https://cdn.bolivia.com/cine/2026/8/solo-por-una-noche-47689.jpg",
-        "https://cdn.bolivia.com/cine/2026/8/impacto-mortal-47695.jpg",
-        "https://cdn.bolivia.com/cine/2016/3/trainspotting-47672.jpg",
-        "https://cdn.bolivia.com/cine/2026/8/el-final-de-la-calle-oak-47640.jpg",
-        "https://cdn.bolivia.com/cine/2013/8/mi-vecino-totoro-47665.jpg",
-        "https://cdn.bolivia.com/cine/2026/7/paw-patrol-la-dino-pelicula-47559.jpg"
-      ],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "image_url": "https://cdn.bolivia.com/cine/2026/5/spider-man-un-nuevo-dia-47429.jpg",
-      "has_image": true,
-      "videos": [],
-      "has_video": false,
-      "media": {
-        "images": [
-          "https://cdn.bolivia.com/cine/2026/5/spider-man-un-nuevo-dia-47429.jpg",
-          "https://cdn.bolivia.com/cine/2022/2/harry-potter-y-la-piedra-filosofal-40980.jpg",
-          "https://cdn.bolivia.com/cine/2026/5/la-odisea-47428.jpg",
-          "https://cdn.bolivia.com/cine/2026/8/la-guerra-de-los-ultimos-47694.jpg",
-          "https://cdn.bolivia.com/cine/2026/8/la-noche-del-demonio-estan-entre-nosotros-47638.jpg",
-          "https://cdn.bolivia.com/cine/2024/2/donde-habita-el-diablo-42772.jpg",
-          "https://cdn.bolivia.com/cine/2026/8/solo-por-una-noche-47689.jpg",
-          "https://cdn.bolivia.com/cine/2026/8/impacto-mortal-47695.jpg",
-          "https://cdn.bolivia.com/cine/2016/3/trainspotting-47672.jpg",
-          "https://cdn.bolivia.com/cine/2026/8/el-final-de-la-calle-oak-47640.jpg",
-          "https://cdn.bolivia.com/cine/2013/8/mi-vecino-totoro-47665.jpg",
-          "https://cdn.bolivia.com/cine/2026/7/paw-patrol-la-dino-pelicula-47559.jpg"
-        ],
-        "main_image_url": "https://cdn.bolivia.com/cine/2026/5/spider-man-un-nuevo-dia-47429.jpg",
-        "image_count": 12,
-        "videos": []
-      },
-      "sources": [
-        {
-          "id": "web_cine_santa_cruz",
-          "name": "Bolivia.com Cine - Santa Cruz",
-          "class": "cartelera_cine",
-          "tier": 2,
-          "page_url": "https://www.bolivia.com/cine/cartelera/santa-cruz-c43",
-          "post_url": "https://www.bolivia.com/cine/santa-cruz/spider-man-un-nuevo-dia-12132_43",
-          "icon_url": null,
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "all_urls": [
-        "https://www.bolivia.com/cine/santa-cruz/spider-man-un-nuevo-dia-12132_43",
-        "https://www.bolivia.com/cine/santa-cruz/harry-potter-y-la-piedra-filosofal-8114_43",
-        "https://www.bolivia.com/cine/santa-cruz/la-odisea-12131_43",
-        "https://www.bolivia.com/cine/santa-cruz/la-guerra-de-los-ultimos-12225_43",
-        "https://www.bolivia.com/cine/santa-cruz/la-noche-del-demonio-estan-entre-nosotros-12203_43",
-        "https://www.bolivia.com/cine/santa-cruz/donde-habita-el-diablo-8922_43",
-        "https://www.bolivia.com/cine/santa-cruz/solo-por-una-noche-12220_43",
-        "https://www.bolivia.com/cine/santa-cruz/impacto-mortal-12226_43",
-        "https://www.bolivia.com/cine/santa-cruz/trainspotting-5669_43",
-        "https://www.bolivia.com/cine/santa-cruz/el-final-de-la-calle-oak-12204_43",
-        "https://www.bolivia.com/cine/santa-cruz/mi-vecino-totoro-4308_43",
-        "https://www.bolivia.com/cine/santa-cruz/paw-patrol-la-dino-pelicula-12180_43"
-      ],
-      "corroborated": false,
-      "verification": "una_fuente",
-      "merged_count": 12,
-      "event_id": "evt_227fbdf5a543b7",
-      "first_seen_at": "2026-08-27T11:36:12-04:00",
-      "history": [
-        {
-          "at": "2026-08-27T11:36:12-04:00",
-          "reason": "primera_deteccion",
-          "status": "programado",
-          "lifecycle": "hoy",
-          "starts_at": "2026-08-27T13:10:00-04:00",
-          "price_from": null,
-          "source_count": 1
-        }
-      ],
-      "changed_this_run": [],
-      "last_seen_at": "2026-08-27T20:28:14-04:00",
-      "last_confirmed_at": "2026-08-27T20:28:14-04:00",
-      "seen_this_run": false,
-      "history_count": 1,
-      "is_upcoming": false,
-      "category_label": "Cine",
-      "lifecycle_label": "Finalizados",
-      "quality_score": 68,
       "is_featured": false,
       "price_label": null
     },
@@ -11063,7 +10849,7 @@
       "changed_this_run": [],
       "last_seen_at": "2026-08-31T16:53:03-04:00",
       "last_confirmed_at": "2026-08-31T16:53:03-04:00",
-      "seen_this_run": true,
+      "seen_this_run": false,
       "history_count": 1,
       "is_upcoming": true,
       "category_label": "Teatro",
@@ -11083,7 +10869,7 @@
       "url": "https://www.bolivia.com/cine/cochabamba/spider-man-un-nuevo-dia-12132_42",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 10:30\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Av. Ramón Rivero y puente de la Recoleta\nHorarios: 10:30, 13:40, 16:50, 20:00, 11:00, 14:10, 17:20, 20:30, 12:40, 15:50, 19:00\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada, 4D E-Motion 3D - Doblada",
       "original_text": "Película en cartelera de cine\n31/08/2026 10:30\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Av. Ramón Rivero y puente de la Recoleta\nHorarios: 10:30, 13:40, 16:50, 20:00, 11:00, 14:10, 17:20, 20:30, 12:40, 15:50, 19:00\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada, 4D E-Motion 3D - Doblada",
@@ -11296,8 +11082,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -11318,7 +11104,7 @@
       "url": "https://www.bolivia.com/cine/santa-cruz/spider-man-un-nuevo-dia-12132_43",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 10:30\nSala: Trompillo - Cine Center\nCiudad: Salas de Cine\nDirección: Avenida El Trompillo Segundo Anillo\nHorarios: 10:30, 12:40, 13:40, 15:50, 16:50, 19:00, 20:00, 22:10, 11:00, 14:10, 17:20, 20:30\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada, 4D E-Motion 3D - Doblada",
       "original_text": "Película en cartelera de cine\n31/08/2026 10:30\nSala: Trompillo - Cine Center\nCiudad: Salas de Cine\nDirección: Avenida El Trompillo Segundo Anillo\nHorarios: 10:30, 12:40, 13:40, 15:50, 16:50, 19:00, 20:00, 22:10, 11:00, 14:10, 17:20, 20:30\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada, 4D E-Motion 3D - Doblada",
@@ -11545,8 +11331,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -11567,7 +11353,7 @@
       "url": "https://www.bolivia.com/cine/sucre/coyote-vs-acme-12215_147",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 10:35\nSala: Cine SAS\nCiudad: Salas de Cine\nDirección: c. Juan Jose Perez No. 331\nHorarios: 10:35, 15:05, 18:35\nFormatos: 2D DOBLADA",
       "original_text": "Película en cartelera de cine\n31/08/2026 10:35\nSala: Cine SAS\nCiudad: Salas de Cine\nDirección: c. Juan Jose Perez No. 331\nHorarios: 10:35, 15:05, 18:35\nFormatos: 2D DOBLADA",
@@ -11732,8 +11518,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -11754,7 +11540,7 @@
       "url": "https://www.bolivia.com/cine/la-paz/coyote-vs-acme-12215_41",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 10:40\nSala: Monje Campero\nCiudad: Salas de Cine\nDirección: Av. 16 de Julio #1495\nHorarios: 10:40, 15:10, 20:10\nFormatos: 2D",
       "original_text": "Película en cartelera de cine\n31/08/2026 10:40\nSala: Monje Campero\nCiudad: Salas de Cine\nDirección: Av. 16 de Julio #1495\nHorarios: 10:40, 15:10, 20:10\nFormatos: 2D",
@@ -11908,8 +11694,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -11930,7 +11716,7 @@
       "url": "https://www.bolivia.com/cine/la-paz/la-guerra-de-los-ultimos-12225_41",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 11:30\nSala: Cine Center (MegaCenter) - Cine Center\nCiudad: Salas de Cine\nDirección: Av. Rafael Pabon Zona Irpavi frente al colegio Militar (Zona Sur)\nHorarios: 11:30, 14:10, 16:50, 19:30, 22:10, 11:00, 13:40, 16:20, 19:00, 21:40\nFormatos: 2D - Doblada, 2D Atmos - Doblada",
       "original_text": "Película en cartelera de cine\n31/08/2026 11:30\nSala: Cine Center (MegaCenter) - Cine Center\nCiudad: Salas de Cine\nDirección: Av. Rafael Pabon Zona Irpavi frente al colegio Militar (Zona Sur)\nHorarios: 11:30, 14:10, 16:50, 19:30, 22:10, 11:00, 13:40, 16:20, 19:00, 21:40\nFormatos: 2D - Doblada, 2D Atmos - Doblada",
@@ -12147,8 +11933,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -12169,7 +11955,7 @@
       "url": "https://www.bolivia.com/cine/tarija/coyote-vs-acme-12215_44",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 12:00\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Avenida Circunvalación s/n (barrio Guadalquivir)\nHorarios: 12:00, 12:30, 13:30, 14:30, 15:00, 17:00, 19:30, 22:00\nFormatos: 2D - Doblada",
       "original_text": "Película en cartelera de cine\n31/08/2026 12:00\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Avenida Circunvalación s/n (barrio Guadalquivir)\nHorarios: 12:00, 12:30, 13:30, 14:30, 15:00, 17:00, 19:30, 22:00\nFormatos: 2D - Doblada",
@@ -12376,8 +12162,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -12398,7 +12184,7 @@
       "url": "https://www.bolivia.com/cine/quillacollo/coyote-vs-acme-12215_210",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 12:30\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Kilómetro 12, al lado de la Terminal de Buses\nHorarios: 12:30, 15:00, 17:30, 20:00\nFormatos: 2D - Doblada",
       "original_text": "Película en cartelera de cine\n31/08/2026 12:30\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Kilómetro 12, al lado de la Terminal de Buses\nHorarios: 12:30, 15:00, 17:30, 20:00\nFormatos: 2D - Doblada",
@@ -12571,8 +12357,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -12593,7 +12379,7 @@
       "url": "https://www.bolivia.com/cine/la-paz/coyote-vs-acme-12215_41",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 12:45\nSala: Plaza 21 Mall - Multicine\nCiudad: Salas de Cine\nDirección: Calle 21 de Calacoto, Pasaje Cordero\nHorarios: 12:45, 15:00, 17:20, 19:00, 18:00\nFormatos: 2D PLUS, 2D PLUS SUB",
       "original_text": "Película en cartelera de cine\n31/08/2026 12:45\nSala: Plaza 21 Mall - Multicine\nCiudad: Salas de Cine\nDirección: Calle 21 de Calacoto, Pasaje Cordero\nHorarios: 12:45, 15:00, 17:20, 19:00, 18:00\nFormatos: 2D PLUS, 2D PLUS SUB",
@@ -12755,8 +12541,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -12777,7 +12563,7 @@
       "url": "https://www.bolivia.com/cine/santa-cruz/spider-man-un-nuevo-dia-12132_43",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 13:10\nSala: Brasil - Cine Center\nCiudad: Salas de Cine\nDirección: Tercer anillo, Avenida Brasil esquina entrada a la Feria de Barrio Lindo\nHorarios: 13:10, 16:20, 19:30, 12:40, 15:50, 19:00\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada",
       "original_text": "Película en cartelera de cine\n31/08/2026 13:10\nSala: Brasil - Cine Center\nCiudad: Salas de Cine\nDirección: Tercer anillo, Avenida Brasil esquina entrada a la Feria de Barrio Lindo\nHorarios: 13:10, 16:20, 19:30, 12:40, 15:50, 19:00\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada",
@@ -12966,8 +12752,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -12988,7 +12774,7 @@
       "url": "https://www.bolivia.com/cine/santa-cruz/coyote-vs-acme-12215_43",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 13:10\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Las Brisas Shopping Mall (4o anillo y Av. Banzer)\nHorarios: 13:10, 15:20, 16:20, 17:30, 18:25, 19:40, 20:30, 21:50\nFormatos: 2D",
       "original_text": "Película en cartelera de cine\n31/08/2026 13:10\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Las Brisas Shopping Mall (4o anillo y Av. Banzer)\nHorarios: 13:10, 15:20, 16:20, 17:30, 18:25, 19:40, 20:30, 21:50\nFormatos: 2D",
@@ -13204,8 +12990,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -13226,7 +13012,7 @@
       "url": "https://www.bolivia.com/cine/la-paz/coyote-vs-acme-12215_41",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 13:50\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Av. Arce 2631\nHorarios: 13:50, 16:00, 17:40, 18:10, 20:20, 22:30, 12:30, 14:45, 20:00, 12:50, 15:00, 17:10, 19:20\nFormatos: 2D, 2D PLUS, 2D XL",
       "original_text": "Película en cartelera de cine\n31/08/2026 13:50\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Av. Arce 2631\nHorarios: 13:50, 16:00, 17:40, 18:10, 20:20, 22:30, 12:30, 14:45, 20:00, 12:50, 15:00, 17:10, 19:20\nFormatos: 2D, 2D PLUS, 2D XL",
@@ -13458,8 +13244,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -13480,7 +13266,7 @@
       "url": "https://www.bolivia.com/cine/el-alto/coyote-vs-acme-12215_87",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 15:00\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Av. Juan Pablo II - Zona Rio Seco\nHorarios: 15:00, 13:50, 16:00, 18:10, 20:15, 22:20, 17:10, 19:15\nFormatos: 2D, 2D - 2D KRONOS, 2D XL - 2D XL KRONOS",
       "original_text": "Película en cartelera de cine\n31/08/2026 15:00\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Av. Juan Pablo II - Zona Rio Seco\nHorarios: 15:00, 13:50, 16:00, 18:10, 20:15, 22:20, 17:10, 19:15\nFormatos: 2D, 2D - 2D KRONOS, 2D XL - 2D XL KRONOS",
@@ -13687,8 +13473,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -13709,7 +13495,7 @@
       "url": "https://www.bolivia.com/cine/santa-cruz/spider-man-un-nuevo-dia-12132_43",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n31/08/2026 18:30\nSala: Cinemark - Ventura - Cinemark\nCiudad: Salas de Cine\nDirección: Ventura Mall - Av. San Martín esq. 4o anillo\nHorarios: 18:30, 21:30, 13:10, 14:30, 16:20, 17:30, 19:20, 22:20, 15:30, 14:20, 12:20, 13:30, 16:40, 21:40, 20:40\nFormatos: 2D - DBOX - Doblada, 2D - Doblada, 2D - PRE - Doblada, 3D - PRE - Doblada, 3D - PRE - Subtitulada, DBOX - 2D - Doblada, PRE - 2D - Doblada, PRE - 3D - Subtitulada",
       "original_text": "Película en cartelera de cine\n31/08/2026 18:30\nSala: Cinemark - Ventura - Cinemark\nCiudad: Salas de Cine\nDirección: Ventura Mall - Av. San Martín esq. 4o anillo\nHorarios: 18:30, 21:30, 13:10, 14:30, 16:20, 17:30, 19:20, 22:20, 15:30, 14:20, 12:20, 13:30, 16:40, 21:40, 20:40\nFormatos: 2D - DBOX - Doblada, 2D - Doblada, 2D - PRE - Doblada, 3D - PRE - Doblada, 3D - PRE - Subtitulada, DBOX - 2D - Doblada, PRE - 2D - Doblada, PRE - 3D - Subtitulada",
@@ -13930,8 +13716,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -13942,7 +13728,7 @@
       "price_label": null
     },
     {
-      "id": "effb90d854b59c78",
+      "id": "30336f524015ddac",
       "source_id": "web_sucre_municipio",
       "source_name": "Gobierno Autónomo Municipal de Sucre",
       "source_url": "https://sucre.bo/noticias/",
@@ -13952,10 +13738,10 @@
       "url": "https://sucre.bo/embajadores-de-cinco-paises-sostienen-agenda-de-cooperacion-con-la-alcaldesa-de-sucre/",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "EMBAJADORES DE CINCO PAÍSES SOSTIENEN AGENDA DE COOPERACIÓN CON LA ALCALDESA DE SUCRE - GAMS",
-      "description": "Inicio / Noticias / EMBAJADORES DE CINCO PAÍSES SOSTIENEN AGENDA DE COOPERACIÓN CON LA ALCALDESA DE SUCRE EMBAJADORES DE CINCO PAÍSES SOSTIENEN AGENDA DE COOPERACIÓN CON LA ALCALDESA DE SUCRE Wilbert Tamares Choque hace 3 semanas Noticias 153 Vistas Compartir Facebook Articulos Relacionados ALCALDÍA DE SUCRE DISUELVE CONTRATO CON QUARTZ 21 POR INCUMPLIMIENTO hace 2 semanas FIRMAN CONVENIO PARA IMPULSAR PRÁCTICAS PROFESIONALES DE ESTUDIANTES DE DERECHO EN LA ALCALDÍA hace 2 semanas ALCALDÍA DE SUCRE BENEFICIA CON NUEVO PAVIMENTO RÍGIDO A LA ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas La alcaldesa de Sucre, Fátima Tardío, sostuvo la tarde de este miércoles en el Palacete de El Guereo una agenda oficial con cinco embajadores acreditados en Bolivia, con el objetivo de fortalecer las relaciones de cooperación internacional y gestionar nuevas oportunidades de desarrollo para el municipio. La Máxima Autoridad Ejecutica recibió al embajador del Reino Unido, Richard Porter; al embajador de Japón, Shigeharu Orihara; al embajador del Perú, Carlos Daniel Chávez-Taffur Schmidt; al embajador de la India, Rohit Vadhwana; y al embajador de la República Popular China, Wang Liang, reunión orientada a consolidar el relacionamiento institucional con países cooperantes. Durante las reuniones se abordaron mecanismos para impulsar futuras iniciativas conjuntas en áreas estratégicas como cultura, turismo, educación, salud, desarrollo económico e intercambio de experiencias, además de fortalecer los vínculos diplomáticos que permitan canalizar proyectos de cooperación en beneficio del municipio de Sucre. #SucreRenace Anteriores ALCALDESA DE SUCRE INSPECCIONA AVANCE DEL SISTEMA DE ADUCCIÓN DE TÚNELES DEL PROYECTO SUCRE III JUNTO A LA EMBAJADA DE ALEMANIA Y ELAPAS Siguiente ALCALDÍA DE SUCRE DISTINGUE A INSTITUCIONES, EMBAJADAS COOPERANTES Y PERSONALIDADES CON LA ESTATUILLA “JUANA AZURDUY DE PADILLA”",
-      "original_text": "Inicio / Noticias / EMBAJADORES DE CINCO PAÍSES SOSTIENEN AGENDA DE COOPERACIÓN CON LA ALCALDESA DE SUCRE EMBAJADORES DE CINCO PAÍSES SOSTIENEN AGENDA DE COOPERACIÓN CON LA ALCALDESA DE SUCRE Wilbert Tamares Choque hace 3 semanas Noticias 153 Vistas Compartir Facebook Articulos Relacionados ALCALDÍA DE SUCRE DISUELVE CONTRATO CON QUARTZ 21 POR INCUMPLIMIENTO hace 2 semanas FIRMAN CONVENIO PARA IMPULSAR PRÁCTICAS PROFESIONALES DE ESTUDIANTES DE DERECHO EN LA ALCALDÍA hace 2 semanas ALCALDÍA DE SUCRE BENEFICIA CON NUEVO PAVIMENTO RÍGIDO A LA ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas La alcaldesa de Sucre, Fátima Tardío, sostuvo la tarde de este miércoles en el Palacete de El Guereo una agenda oficial con cinco embajadores acreditados en Bolivia, con el objetivo de fortalecer las relaciones de cooperación internacional y gestionar nuevas oportunidades de desarrollo para el municipio. La Máxima Autoridad Ejecutica recibió al embajador del Reino Unido, Richard Porter; al embajador de Japón, Shigeharu Orihara; al embajador del Perú, Carlos Daniel Chávez-Taffur Schmidt; al embajador de la India, Rohit Vadhwana; y al embajador de la República Popular China, Wang Liang, reunión orientada a consolidar el relacionamiento institucional con países cooperantes. Durante las reuniones se abordaron mecanismos para impulsar futuras iniciativas conjuntas en áreas estratégicas como cultura, turismo, educación, salud, desarrollo económico e intercambio de experiencias, además de fortalecer los vínculos diplomáticos que permitan canalizar proyectos de cooperación en beneficio del municipio de Sucre. #SucreRenace Anteriores ALCALDESA DE SUCRE INSPECCIONA AVANCE DEL SISTEMA DE ADUCCIÓN DE TÚNELES DEL PROYECTO SUCRE III JUNTO A LA EMBAJADA DE ALEMANIA Y ELAPAS Siguiente ALCALDÍA DE SUCRE DISTINGUE A INSTITUCIONES, EMBAJADAS COOPERANTES Y PERSONALIDADES CON LA ESTATUILLA “JUANA AZURDUY DE PADILLA”",
+      "description": "Inicio / Noticias / EMBAJADORES DE CINCO PAÍSES SOSTIENEN AGENDA DE COOPERACIÓN CON LA ALCALDESA DE SUCRE EMBAJADORES DE CINCO PAÍSES SOSTIENEN AGENDA DE COOPERACIÓN CON LA ALCALDESA DE SUCRE Wilbert Tamares Choque hace 3 semanas Noticias 157 Vistas Compartir Facebook Articulos Relacionados ALCALDÍA DE SUCRE DISUELVE CONTRATO CON QUARTZ 21 POR INCUMPLIMIENTO hace 2 semanas FIRMAN CONVENIO PARA IMPULSAR PRÁCTICAS PROFESIONALES DE ESTUDIANTES DE DERECHO EN LA ALCALDÍA hace 2 semanas ALCALDÍA DE SUCRE BENEFICIA CON NUEVO PAVIMENTO RÍGIDO A LA ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas La alcaldesa de Sucre, Fátima Tardío, sostuvo la tarde de este miércoles en el Palacete de El Guereo una agenda oficial con cinco embajadores acreditados en Bolivia, con el objetivo de fortalecer las relaciones de cooperación internacional y gestionar nuevas oportunidades de desarrollo para el municipio. La Máxima Autoridad Ejecutica recibió al embajador del Reino Unido, Richard Porter; al embajador de Japón, Shigeharu Orihara; al embajador del Perú, Carlos Daniel Chávez-Taffur Schmidt; al embajador de la India, Rohit Vadhwana; y al embajador de la República Popular China, Wang Liang, reunión orientada a consolidar el relacionamiento institucional con países cooperantes. Durante las reuniones se abordaron mecanismos para impulsar futuras iniciativas conjuntas en áreas estratégicas como cultura, turismo, educación, salud, desarrollo económico e intercambio de experiencias, además de fortalecer los vínculos diplomáticos que permitan canalizar proyectos de cooperación en beneficio del municipio de Sucre. #SucreRenace Anteriores ALCALDESA DE SUCRE INSPECCIONA AVANCE DEL SISTEMA DE ADUCCIÓN DE TÚNELES DEL PROYECTO SUCRE III JUNTO A LA EMBAJADA DE ALEMANIA Y ELAPAS Siguiente ALCALDÍA DE SUCRE DISTINGUE A INSTITUCIONES, EMBAJADAS COOPERANTES Y PERSONALIDADES CON LA ESTATUILLA “JUANA AZURDUY DE PADILLA”",
+      "original_text": "Inicio / Noticias / EMBAJADORES DE CINCO PAÍSES SOSTIENEN AGENDA DE COOPERACIÓN CON LA ALCALDESA DE SUCRE EMBAJADORES DE CINCO PAÍSES SOSTIENEN AGENDA DE COOPERACIÓN CON LA ALCALDESA DE SUCRE Wilbert Tamares Choque hace 3 semanas Noticias 157 Vistas Compartir Facebook Articulos Relacionados ALCALDÍA DE SUCRE DISUELVE CONTRATO CON QUARTZ 21 POR INCUMPLIMIENTO hace 2 semanas FIRMAN CONVENIO PARA IMPULSAR PRÁCTICAS PROFESIONALES DE ESTUDIANTES DE DERECHO EN LA ALCALDÍA hace 2 semanas ALCALDÍA DE SUCRE BENEFICIA CON NUEVO PAVIMENTO RÍGIDO A LA ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas La alcaldesa de Sucre, Fátima Tardío, sostuvo la tarde de este miércoles en el Palacete de El Guereo una agenda oficial con cinco embajadores acreditados en Bolivia, con el objetivo de fortalecer las relaciones de cooperación internacional y gestionar nuevas oportunidades de desarrollo para el municipio. La Máxima Autoridad Ejecutica recibió al embajador del Reino Unido, Richard Porter; al embajador de Japón, Shigeharu Orihara; al embajador del Perú, Carlos Daniel Chávez-Taffur Schmidt; al embajador de la India, Rohit Vadhwana; y al embajador de la República Popular China, Wang Liang, reunión orientada a consolidar el relacionamiento institucional con países cooperantes. Durante las reuniones se abordaron mecanismos para impulsar futuras iniciativas conjuntas en áreas estratégicas como cultura, turismo, educación, salud, desarrollo económico e intercambio de experiencias, además de fortalecer los vínculos diplomáticos que permitan canalizar proyectos de cooperación en beneficio del municipio de Sucre. #SucreRenace Anteriores ALCALDESA DE SUCRE INSPECCIONA AVANCE DEL SISTEMA DE ADUCCIÓN DE TÚNELES DEL PROYECTO SUCRE III JUNTO A LA EMBAJADA DE ALEMANIA Y ELAPAS Siguiente ALCALDÍA DE SUCRE DISTINGUE A INSTITUCIONES, EMBAJADAS COOPERANTES Y PERSONALIDADES CON LA ESTATUILLA “JUANA AZURDUY DE PADILLA”",
       "category": "turismo",
       "subcategories": [],
       "tags": [
@@ -14067,8 +13853,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -14236,6 +14022,160 @@
       "price_label": null
     },
     {
+      "id": "c51112cbadb62e06",
+      "source_id": "fb_superticket",
+      "source_name": "SuperTicket Bolivia",
+      "source_url": "https://www.facebook.com/SuperTicketBol/",
+      "source_class": "ticketera",
+      "source_tier": 1,
+      "source_icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sfxMVwX2PEwQ7kNvwG4YJvG&_nc_oc=AdqQCVsKkjUYGEZ1gNYdr_kqsfkE8bwwsGnfP-WrMTpSfo6SL7Fjb1kpPu66Ik3U4ow&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AQ03E0QrlRF-uNGb6IFHLA&_nc_ss=7f289&oh=00_AQL05CyYGW2WQ1oyhgu5gQOmCLAUWEdNWoy-Y8HrXV1nbw&oe=6A9C079A",
+      "url": "https://www.facebook.com/SuperTicketBol/posts/1512854470870822/",
+      "facebook_event_url": null,
+      "published_at": null,
+      "scraped_at": "2026-08-31T20:41:14-04:00",
+      "title": "SuperTicket",
+      "description": "🎟️ ¿Quieres comprar tu entrada para La Paz Expone 2026? 🙌\n\n¡Ahora puedes adquirirla de manera rápida y segura a través de SuperTicket! 💻📲\n\n👉 En este video te mostramos paso a paso cómo comprar tu...\n¿Quieres comprar tu entrada para La Paz Expone 2026? \n¡Ahora puedes adquirirla de manera rápida y segura a través de SuperTicket! \n En este video te mostramos paso a paso cómo comprar tu entrada y ser parte de la gran feria internacional.\n Del 3 al 13 de septiembre\n Campo Ferial Chuquiago Marka \n ¡Compra tu entrada y prepárate para vivir LAPAZEXPONE 2026! \nCompra tus entradas en Superticket ahora \n#feriainternacional #ticket #LaPaz\n¿Quieres comprar tu entrada para La Paz Expone 2026?\n¡Ahora puedes adquirirla de manera rápida y segura a través de SuperTicket!\nEn este video te mostramos paso a paso cómo comprar tu entrada y ser parte de la gran feria internacional.\nDel 3 al 13 de septiembre\nCampo Ferial Chuquiago Marka\n¡Compra tu entrada y prepárate para vivir LAPAZEXPONE 2026!\nCompra tus entradas en Superticket ahora\n#feriainternacional #ticket #LaPaz",
+      "original_text": "🎟️ ¿Quieres comprar tu entrada para La Paz Expone 2026? 🙌\n\n¡Ahora puedes adquirirla de manera rápida y segura a través de SuperTicket! 💻📲\n\n👉 En este video te mostramos paso a paso cómo comprar tu...\n¿Quieres comprar tu entrada para La Paz Expone 2026? \n¡Ahora puedes adquirirla de manera rápida y segura a través de SuperTicket! \n En este video te mostramos paso a paso cómo comprar tu entrada y ser parte de la gran feria internacional.\n Del 3 al 13 de septiembre\n Campo Ferial Chuquiago Marka \n ¡Compra tu entrada y prepárate para vivir LAPAZEXPONE 2026! \nCompra tus entradas en Superticket ahora \n#feriainternacional #ticket #LaPaz\n¿Quieres comprar tu entrada para La Paz Expone 2026?\n¡Ahora puedes adquirirla de manera rápida y segura a través de SuperTicket!\nEn este video te mostramos paso a paso cómo comprar tu entrada y ser parte de la gran feria internacional.\nDel 3 al 13 de septiembre\nCampo Ferial Chuquiago Marka\n¡Compra tu entrada y prepárate para vivir LAPAZEXPONE 2026!\nCompra tus entradas en Superticket ahora\n#feriainternacional #ticket #LaPaz",
+      "category": "feria",
+      "subcategories": [],
+      "tags": [
+        "feriainternacional",
+        "ticket",
+        "LaPaz"
+      ],
+      "artists": [],
+      "starts_at": "2026-09-03T00:00:00-04:00",
+      "ends_at": "2026-09-13T23:59:00-04:00",
+      "starts_at_ms": 1788408000000,
+      "ends_at_ms": 1789358340000,
+      "date_confidence": "aproximada",
+      "date_source_text": "del 3 al 13 de septiembre",
+      "all_day": true,
+      "multi_day": true,
+      "doors_time": null,
+      "display_date": "Del 3 al 13 de septiembre",
+      "days_until": 3,
+      "lifecycle": "proximo",
+      "department": "La Paz",
+      "city": "La Paz",
+      "venue": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "location_query": "La Paz, Bolivia",
+      "is_free": false,
+      "price_from": null,
+      "price_to": null,
+      "currency": null,
+      "price_text": null,
+      "ticket_urls": [],
+      "ticket_outlets": [
+        "SuperTicket",
+        "Tu Entrada"
+      ],
+      "organizer": null,
+      "audience": null,
+      "age_restriction": null,
+      "duration_minutes": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "director": null,
+      "cast": [],
+      "phones": [],
+      "status": "programado",
+      "relevance_score": 76,
+      "confidence": 0.73,
+      "filter_reasons": [
+        "fecha_futura",
+        "categoria_feria",
+        "lenguaje_de_convocatoria",
+        "tiene_afiche",
+        "fuente_especializada"
+      ],
+      "is_official": true,
+      "image_urls": [
+        "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/787872799_2448108655713854_642365928815214026_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a27664&_nc_ohc=LhvwyLTT5IAQ7kNvwHmMQ7V&_nc_oc=AdofSBVNu-u0HHsXyTBmJrkkeexBEJOKqHGxfS8TbfsrxIMxy34kA3u3ntyiSNi-99g&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Wjt7-U0FdlKjYqciRADCrg&_nc_ss=7f289&oh=00_AQIJbCQFDpxeq-5Cez0-cVuw5ExrhBm7j56hr1nJ1JMy6Q&oe=6A9BD9D6"
+      ],
+      "video_url": "https://www.facebook.com/reel/1706391727712749/?__cft__[0]=AZasElv6HQdAQM4kBoejWkktOv5UpGZ2uYiKVebBq3gjwKG5sCfwgZbBPhBYghUvCDeoMiqeBYZjdTJB768bRTkiHQk1WzJnW-Bs4QAH63adMJ2OkBAXF0Egj0iwtFuKUl-cuG8DLHTSNy_Mb-1qfLxNkrMtARGWionrO7bNboX3S4XrsCA3fENGR__Ggn3AT5a0WVrKqgpSgtLAZ7dBiWqQ0a6P4D-DFteCflVcbpHfjA&__tn__=%2CO%2CP-y-R",
+      "video_thumbnail_url": null,
+      "video_type": "facebook_reel",
+      "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/787872799_2448108655713854_642365928815214026_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a27664&_nc_ohc=LhvwyLTT5IAQ7kNvwHmMQ7V&_nc_oc=AdofSBVNu-u0HHsXyTBmJrkkeexBEJOKqHGxfS8TbfsrxIMxy34kA3u3ntyiSNi-99g&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Wjt7-U0FdlKjYqciRADCrg&_nc_ss=7f289&oh=00_AQIJbCQFDpxeq-5Cez0-cVuw5ExrhBm7j56hr1nJ1JMy6Q&oe=6A9BD9D6",
+      "has_image": true,
+      "videos": [
+        {
+          "url": "https://www.facebook.com/reel/1706391727712749/?__cft__[0]=AZasElv6HQdAQM4kBoejWkktOv5UpGZ2uYiKVebBq3gjwKG5sCfwgZbBPhBYghUvCDeoMiqeBYZjdTJB768bRTkiHQk1WzJnW-Bs4QAH63adMJ2OkBAXF0Egj0iwtFuKUl-cuG8DLHTSNy_Mb-1qfLxNkrMtARGWionrO7bNboX3S4XrsCA3fENGR__Ggn3AT5a0WVrKqgpSgtLAZ7dBiWqQ0a6P4D-DFteCflVcbpHfjA&__tn__=%2CO%2CP-y-R",
+          "thumbnail_url": null,
+          "type": "facebook_reel",
+          "provider": "facebook",
+          "use_official_embed": true,
+          "source_id": "fb_superticket"
+        }
+      ],
+      "has_video": true,
+      "media": {
+        "images": [
+          "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/787872799_2448108655713854_642365928815214026_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a27664&_nc_ohc=LhvwyLTT5IAQ7kNvwHmMQ7V&_nc_oc=AdofSBVNu-u0HHsXyTBmJrkkeexBEJOKqHGxfS8TbfsrxIMxy34kA3u3ntyiSNi-99g&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Wjt7-U0FdlKjYqciRADCrg&_nc_ss=7f289&oh=00_AQIJbCQFDpxeq-5Cez0-cVuw5ExrhBm7j56hr1nJ1JMy6Q&oe=6A9BD9D6"
+        ],
+        "main_image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/787872799_2448108655713854_642365928815214026_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a27664&_nc_ohc=LhvwyLTT5IAQ7kNvwHmMQ7V&_nc_oc=AdofSBVNu-u0HHsXyTBmJrkkeexBEJOKqHGxfS8TbfsrxIMxy34kA3u3ntyiSNi-99g&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Wjt7-U0FdlKjYqciRADCrg&_nc_ss=7f289&oh=00_AQIJbCQFDpxeq-5Cez0-cVuw5ExrhBm7j56hr1nJ1JMy6Q&oe=6A9BD9D6",
+        "image_count": 1,
+        "videos": [
+          {
+            "url": "https://www.facebook.com/reel/1706391727712749/?__cft__[0]=AZasElv6HQdAQM4kBoejWkktOv5UpGZ2uYiKVebBq3gjwKG5sCfwgZbBPhBYghUvCDeoMiqeBYZjdTJB768bRTkiHQk1WzJnW-Bs4QAH63adMJ2OkBAXF0Egj0iwtFuKUl-cuG8DLHTSNy_Mb-1qfLxNkrMtARGWionrO7bNboX3S4XrsCA3fENGR__Ggn3AT5a0WVrKqgpSgtLAZ7dBiWqQ0a6P4D-DFteCflVcbpHfjA&__tn__=%2CO%2CP-y-R",
+            "thumbnail_url": null,
+            "type": "facebook_reel",
+            "provider": "facebook",
+            "use_official_embed": true,
+            "source_id": "fb_superticket"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "fb_superticket",
+          "name": "SuperTicket Bolivia",
+          "class": "ticketera",
+          "tier": 1,
+          "page_url": "https://www.facebook.com/SuperTicketBol/",
+          "post_url": "https://www.facebook.com/SuperTicketBol/posts/1512854470870822/",
+          "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sfxMVwX2PEwQ7kNvwG4YJvG&_nc_oc=AdqQCVsKkjUYGEZ1gNYdr_kqsfkE8bwwsGnfP-WrMTpSfo6SL7Fjb1kpPu66Ik3U4ow&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AQ03E0QrlRF-uNGb6IFHLA&_nc_ss=7f289&oh=00_AQL05CyYGW2WQ1oyhgu5gQOmCLAUWEdNWoy-Y8HrXV1nbw&oe=6A9C079A",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "all_urls": [
+        "https://www.facebook.com/SuperTicketBol/posts/1512854470870822/"
+      ],
+      "corroborated": false,
+      "verification": "una_fuente",
+      "merged_count": 1,
+      "event_id": "evt_c183f2b7b229e8",
+      "first_seen_at": "2026-08-31T20:41:14-04:00",
+      "history": [
+        {
+          "at": "2026-08-31T20:41:14-04:00",
+          "reason": "primera_deteccion",
+          "status": "programado",
+          "lifecycle": "proximo",
+          "starts_at": "2026-09-03T00:00:00-04:00",
+          "price_from": null,
+          "source_count": 1
+        }
+      ],
+      "changed_this_run": [],
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
+      "seen_this_run": true,
+      "history_count": 1,
+      "is_upcoming": true,
+      "category_label": "Ferias y expos",
+      "lifecycle_label": "Próximos",
+      "quality_score": 62,
+      "is_featured": false,
+      "price_label": null
+    },
+    {
       "id": "42d963392ea156ac",
       "source_id": "web_lostiempos_agenda",
       "source_name": "Agenda Cultural - Los Tiempos",
@@ -14246,7 +14186,7 @@
       "url": "https://www.lostiempos.com/doble-click/espectaculos",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Espectáculos",
       "description": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Evismo anuncia una marcha para el 4 de septiembre en Cochabamba contra las “políticas neoliberales” Ver más 2 Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía Ver más 3 Felcc investiga el asesinato de un hombre con 23 disparos en Entre Ríos Ver más 4 Del escenario rural al “glamour” global: la revolución estética con la que Dolly Parton transformó el country Ver más 5 Acribillan a una persona en San Ignacio de Velasco frente a un surtidor Ver más 6 ¡Una noche palo de rosa! Los 15 años de Luciana Mariel Ruiz Ver más 7 El TSE iniciará en Cochabamba el proceso de reforma electoral este 2 de septiembre Ver más 8 Impacto del eclipse lunar de agosto en el amor: qué proyecta la astrología para cada signo Ver más 9 La Policía Boliviana tendrá nuevo Comandante General en las próximas horas Ver más 10 Los 7 efectos que sufre la piel al dormir menos de siete horas Ver más Tweets by LosTiemposBol En Portada 31/08/2026 País Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía El ministro de Gobierno, Marco Antonio Oviedo, confirmó la renuncia del comandante general de la Policía Boliviana, Mirko Sokol, y anunció que al mediodía de... vista 31/08/2026 País La Policía Boliviana tendrá nuevo Comandante General en las próximas horas En las próximas horas, el gobierno procederá a la renovación del Alto Mando Policial, incluyendo a su Comandante, el general Mirko Sokol, quien llegó a la cima... vista 31/08/2026 País Policía alista el traslado de Cerimedo a Chonchocoro por segunda detención La Policía Departamental de La Paz informó ayer que alista el traslado del exasesor presidencial Fernando Cerimedo del penal de Palmasola de Santa Cruz a... vista 31/08/2026 País Cívicos cruceños definirán medidas por la crisis por diésel y CAO pide anular decreto El vicepresidente del Comité pro Santa Cruz, Agustín Zambrana, informó ayer que al haberse agotado la vía de exigir soluciones al Gobierno nacional por la... vista 30/08/2026 Seguridad Acribillan a una persona en San Ignacio de Velasco frente a un surtidor El municipio cruceño de San Ignacio de Velasco cierra la semana con un nuevo hecho violento: un hombre ",
       "original_text": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Evismo anuncia una marcha para el 4 de septiembre en Cochabamba contra las “políticas neoliberales” Ver más 2 Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía Ver más 3 Felcc investiga el asesinato de un hombre con 23 disparos en Entre Ríos Ver más 4 Del escenario rural al “glamour” global: la revolución estética con la que Dolly Parton transformó el country Ver más 5 Acribillan a una persona en San Ignacio de Velasco frente a un surtidor Ver más 6 ¡Una noche palo de rosa! Los 15 años de Luciana Mariel Ruiz Ver más 7 El TSE iniciará en Cochabamba el proceso de reforma electoral este 2 de septiembre Ver más 8 Impacto del eclipse lunar de agosto en el amor: qué proyecta la astrología para cada signo Ver más 9 La Policía Boliviana tendrá nuevo Comandante General en las próximas horas Ver más 10 Los 7 efectos que sufre la piel al dormir menos de siete horas Ver más Tweets by LosTiemposBol En Portada 31/08/2026 País Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía El ministro de Gobierno, Marco Antonio Oviedo, confirmó la renuncia del comandante general de la Policía Boliviana, Mirko Sokol, y anunció que al mediodía de... vista 31/08/2026 País La Policía Boliviana tendrá nuevo Comandante General en las próximas horas En las próximas horas, el gobierno procederá a la renovación del Alto Mando Policial, incluyendo a su Comandante, el general Mirko Sokol, quien llegó a la cima... vista 31/08/2026 País Policía alista el traslado de Cerimedo a Chonchocoro por segunda detención La Policía Departamental de La Paz informó ayer que alista el traslado del exasesor presidencial Fernando Cerimedo del penal de Palmasola de Santa Cruz a... vista 31/08/2026 País Cívicos cruceños definirán medidas por la crisis por diésel y CAO pide anular decreto El vicepresidente del Comité pro Santa Cruz, Agustín Zambrana, informó ayer que al haberse agotado la vía de exigir soluciones al Gobierno nacional por la... vista 30/08/2026 Seguridad Acribillan a una persona en San Ignacio de Velasco frente a un surtidor El municipio cruceño de San Ignacio de Velasco cierra la semana con un nuevo hecho violento: un hombre fue asesinado a tiros, afuera de una licorería ubicada... vista 31/08/2026 Seguridad Cochabamba: hombre con antecedentes por narcotráfico es acribillado en Entre Ríos Un hombre perdió la vida este domingo luego de ser acribillado mientras compraba bebidas alcohólicas. El hecho se suscitó en el municipio de Entre Ríos del... vista Deportes Bolívar dominó el clásico nacional con autoridad y golpeó primero en el estadio Hernando Siles. La velocidad de los... Ver más 31/08/2026 Fútbol Bolívar domina el clásico nacional y gana por goleada en el Siles Su rendimiento no solo representa logros individuales, sino que evidencia su crecimiento en competencia, ganó y... Ver más 31/08/2026 Multideportivo Valeria Quispe será abanderada del país en Juegos Odesur Santa Fe 2026 Bolívar y The Strongest protagonizarán hoy domingo el clásico nacional a partir de las 17:15 en el estadio Hernando... Ver más 30/08/2026 Fútbol Bolívar y The Strongest, un clásico sin tregua Brindar explicaciones a través de los altoparlantes de los estadios sobre las decisiones luego de revisar el VAR no... Ver más 28/08/2026 Fútbol La FBF determinó que los jueces expliquen sus decisiones tras revisar las imágenes del VAR Tendencias El lago Titicaca se deja recorrer de muchas maneras. A 177 kilómetros al noroeste de La Paz, en la Península Challapata... Ver más 31/08/2026 Medio Ambiente Aviturismo en Escoma: comunidades aymaras se unen para proteger el hábitat del zambullidor del Titicaca Agosto está siendo un mes extraordinario para los aficionados a la astronomía. Después del espectacular eclipse solar... Ver más 27/08/2026 Ciencia En Bolivia el eclipse parcial de Luna será visible desde las 22:33 de hoy Entre cañones, cavernas, formaciones rocosas y huellas que conservan la memoria de millones de años, el Parque Nacional... Ver más 25/08/2026 Interesante Hallan huellas de tortugas del Cretácico en Torotoro, el primer registro en Sudamérica El mono araña o marimono (Ateles chamek), el primate más grande de Bolivia, fue recategorizado este año de Vulnerable (... Ver más 24/08/2026 Medio Ambiente El mono araña entra en peligro de extinción en Bolivia, pero el tráfico de crías no da tregua",
@@ -14377,8 +14317,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -14690,7 +14630,7 @@
       "price_label": null
     },
     {
-      "id": "6953f71a8173599b",
+      "id": "d38c573f5a9fe96a",
       "source_id": "web_beni_cultura",
       "source_name": "Cultura - Gobernación del Beni",
       "source_url": "https://beni.gob.bo/category/cultura/",
@@ -14700,10 +14640,10 @@
       "url": "https://beni.gob.bo/blog/gobernacion-impulsa-la-promocion-turistica-de-bella-vista-rumbo-a-la-feria-del-pescado",
       "facebook_event_url": null,
       "published_at": "2026-08-11 18:37:20",
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "GOBERNACIÓN IMPULSA LA PROMOCIÓN TURÍSTICA DE BELLA VISTA RUMBO A LA FERIA DEL PESCADO",
-      "description": "GOBERNACIÓN IMPULSA LA PROMOCIÓN TURÍSTICA DE BELLA VISTA RUMBO A LA FERIA DEL PESCADO Cultura 11/08/2026 Por deborah ychu 54 visitas La Gobernación del Beni a través de la Secretaría Departamental de Obras Públicas y Servicios, junto con la Dirección Departamental de Turismo y Dirección de Movimientos Sociales, sostuvieron una reunión de coordinación con autoridades de la provincia Iténez, entre ellas el Asambleísta de la Provincia Iténez Ronald Molina, La Sub alcaldesa de Bella Vista Magdalena Muñoz para fortalecer la organización de la Feria del Pescado, que se realizará del 11 al 13 de septiembre. Con el objetivo de potenciar el turismo y posicionar a Bella Vista como un destino atractivo del departamento, La Gobernación del Beni a través de la Secretaría Departamental de Obras Públicas y Servicios, junto con la Dirección Departamental de Turismo y Dirección de Movimientos Sociales, sostuvieron una reunión de coordinación con autoridades de la provincia Iténez, entre ellas el Asambleísta de la Provincia Iténez Ronald Molina, La Sub alcaldesa de Bella Vista Magdalena Muñoz para fortalecer la organización de la Feria del Pescado, que se realizará del 11 al 13 de septiembre. En la reunión se coordinaron acciones orientadas al mejoramiento de los caminos y accesos a la comunidad, así como también el control del pescado en las trancas y además de fortalecer la promoción turística mediante material informativo, banners y otras estrategias de difusión, con el propósito de atraer visitantes y proyectar esta actividad gastronómica a nivel departamental y nacional, con el compromiso de trabajar de manera coordinada con las autoridades municipales y comunitarias para impulsar el turismo, la gastronomía y el desarrollo económico local, consolidando la Feria del Pescado como un importante atractivo turístico de Bella Vista. Archivado en: Cultura Compartir:",
-      "original_text": "GOBERNACIÓN IMPULSA LA PROMOCIÓN TURÍSTICA DE BELLA VISTA RUMBO A LA FERIA DEL PESCADO Cultura 11/08/2026 Por deborah ychu 54 visitas La Gobernación del Beni a través de la Secretaría Departamental de Obras Públicas y Servicios, junto con la Dirección Departamental de Turismo y Dirección de Movimientos Sociales, sostuvieron una reunión de coordinación con autoridades de la provincia Iténez, entre ellas el Asambleísta de la Provincia Iténez Ronald Molina, La Sub alcaldesa de Bella Vista Magdalena Muñoz para fortalecer la organización de la Feria del Pescado, que se realizará del 11 al 13 de septiembre. Con el objetivo de potenciar el turismo y posicionar a Bella Vista como un destino atractivo del departamento, La Gobernación del Beni a través de la Secretaría Departamental de Obras Públicas y Servicios, junto con la Dirección Departamental de Turismo y Dirección de Movimientos Sociales, sostuvieron una reunión de coordinación con autoridades de la provincia Iténez, entre ellas el Asambleísta de la Provincia Iténez Ronald Molina, La Sub alcaldesa de Bella Vista Magdalena Muñoz para fortalecer la organización de la Feria del Pescado, que se realizará del 11 al 13 de septiembre. En la reunión se coordinaron acciones orientadas al mejoramiento de los caminos y accesos a la comunidad, así como también el control del pescado en las trancas y además de fortalecer la promoción turística mediante material informativo, banners y otras estrategias de difusión, con el propósito de atraer visitantes y proyectar esta actividad gastronómica a nivel departamental y nacional, con el compromiso de trabajar de manera coordinada con las autoridades municipales y comunitarias para impulsar el turismo, la gastronomía y el desarrollo económico local, consolidando la Feria del Pescado como un importante atractivo turístico de Bella Vista. Archivado en: Cultura Compartir:",
+      "description": "GOBERNACIÓN IMPULSA LA PROMOCIÓN TURÍSTICA DE BELLA VISTA RUMBO A LA FERIA DEL PESCADO Cultura 11/08/2026 Por deborah ychu 55 visitas La Gobernación del Beni a través de la Secretaría Departamental de Obras Públicas y Servicios, junto con la Dirección Departamental de Turismo y Dirección de Movimientos Sociales, sostuvieron una reunión de coordinación con autoridades de la provincia Iténez, entre ellas el Asambleísta de la Provincia Iténez Ronald Molina, La Sub alcaldesa de Bella Vista Magdalena Muñoz para fortalecer la organización de la Feria del Pescado, que se realizará del 11 al 13 de septiembre. Con el objetivo de potenciar el turismo y posicionar a Bella Vista como un destino atractivo del departamento, La Gobernación del Beni a través de la Secretaría Departamental de Obras Públicas y Servicios, junto con la Dirección Departamental de Turismo y Dirección de Movimientos Sociales, sostuvieron una reunión de coordinación con autoridades de la provincia Iténez, entre ellas el Asambleísta de la Provincia Iténez Ronald Molina, La Sub alcaldesa de Bella Vista Magdalena Muñoz para fortalecer la organización de la Feria del Pescado, que se realizará del 11 al 13 de septiembre. En la reunión se coordinaron acciones orientadas al mejoramiento de los caminos y accesos a la comunidad, así como también el control del pescado en las trancas y además de fortalecer la promoción turística mediante material informativo, banners y otras estrategias de difusión, con el propósito de atraer visitantes y proyectar esta actividad gastronómica a nivel departamental y nacional, con el compromiso de trabajar de manera coordinada con las autoridades municipales y comunitarias para impulsar el turismo, la gastronomía y el desarrollo económico local, consolidando la Feria del Pescado como un importante atractivo turístico de Bella Vista. Archivado en: Cultura Compartir:",
+      "original_text": "GOBERNACIÓN IMPULSA LA PROMOCIÓN TURÍSTICA DE BELLA VISTA RUMBO A LA FERIA DEL PESCADO Cultura 11/08/2026 Por deborah ychu 55 visitas La Gobernación del Beni a través de la Secretaría Departamental de Obras Públicas y Servicios, junto con la Dirección Departamental de Turismo y Dirección de Movimientos Sociales, sostuvieron una reunión de coordinación con autoridades de la provincia Iténez, entre ellas el Asambleísta de la Provincia Iténez Ronald Molina, La Sub alcaldesa de Bella Vista Magdalena Muñoz para fortalecer la organización de la Feria del Pescado, que se realizará del 11 al 13 de septiembre. Con el objetivo de potenciar el turismo y posicionar a Bella Vista como un destino atractivo del departamento, La Gobernación del Beni a través de la Secretaría Departamental de Obras Públicas y Servicios, junto con la Dirección Departamental de Turismo y Dirección de Movimientos Sociales, sostuvieron una reunión de coordinación con autoridades de la provincia Iténez, entre ellas el Asambleísta de la Provincia Iténez Ronald Molina, La Sub alcaldesa de Bella Vista Magdalena Muñoz para fortalecer la organización de la Feria del Pescado, que se realizará del 11 al 13 de septiembre. En la reunión se coordinaron acciones orientadas al mejoramiento de los caminos y accesos a la comunidad, así como también el control del pescado en las trancas y además de fortalecer la promoción turística mediante material informativo, banners y otras estrategias de difusión, con el propósito de atraer visitantes y proyectar esta actividad gastronómica a nivel departamental y nacional, con el compromiso de trabajar de manera coordinada con las autoridades municipales y comunitarias para impulsar el turismo, la gastronomía y el desarrollo económico local, consolidando la Feria del Pescado como un importante atractivo turístico de Bella Vista. Archivado en: Cultura Compartir:",
       "category": "turismo",
       "subcategories": [
         "feria",
@@ -14811,8 +14751,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -15205,7 +15145,7 @@
       "url": "https://www.lostiempos.com/servicios/agenda-cultural",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de…",
       "description": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Lo más leído 1 Los 7 efectos que sufre la piel al dormir menos de siete horas 2 La Policía Boliviana tendrá nuevo Comandante General en las próximas horas 3 El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 4 Cochabamba: hombre con antecedentes por narcotráfico es acribillado en Entre Ríos 5 5 formas de vivir la solidaridad en familia Últimas noticias 12h33m 5 formas de vivir la solidaridad en familia 12h27m Juegos Mundiales de Robots Humanoides Cierra en china, con más de 2.000 robots 12h23m El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 12h15m Los 7 efectos que sufre la piel al dormir menos de siete horas 10h49m ¡Una noche palo de rosa! Los 15 años de Luciana Mariel Ruiz Lo más compartido 1 Evismo anuncia una marcha para el 4 de septiembre en Cochabamba contra las “políticas neoliberales” 2 Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía 3 La Tierra tiembla todos los días, pero ¿están aumentando los sismos? 4 Felcc investiga el asesinato de un hombre con 23 disparos en Entre Ríos 5 Del escenario rural al “glamour” global: la revolución estética con la que Dolly Parton transformó el country",
       "original_text": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Lo más leído 1 Los 7 efectos que sufre la piel al dormir menos de siete horas 2 La Policía Boliviana tendrá nuevo Comandante General en las próximas horas 3 El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 4 Cochabamba: hombre con antecedentes por narcotráfico es acribillado en Entre Ríos 5 5 formas de vivir la solidaridad en familia Últimas noticias 12h33m 5 formas de vivir la solidaridad en familia 12h27m Juegos Mundiales de Robots Humanoides Cierra en china, con más de 2.000 robots 12h23m El Kaa-Iya revela una planta nueva para Bolivia y redescubre un cactus en peligro de extinción 12h15m Los 7 efectos que sufre la piel al dormir menos de siete horas 10h49m ¡Una noche palo de rosa! Los 15 años de Luciana Mariel Ruiz Lo más compartido 1 Evismo anuncia una marcha para el 4 de septiembre en Cochabamba contra las “políticas neoliberales” 2 Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía 3 La Tierra tiembla todos los días, pero ¿están aumentando los sismos? 4 Felcc investiga el asesinato de un hombre con 23 disparos en Entre Ríos 5 Del escenario rural al “glamour” global: la revolución estética con la que Dolly Parton transformó el country",
@@ -15406,8 +15346,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 7,
       "is_upcoming": true,
@@ -15597,7 +15537,7 @@
       "url": "https://superticket.bo/Tranzas-en-Concierto--Oruro-/",
       "facebook_event_url": null,
       "published_at": "2026-09-17T20:00:00-04:00",
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Tranzas en Concierto (Oruro)",
       "description": "Tranzas en Concierto (Oruro)\n2026-09-17T20:00:00-04:00\n2026-09-17\nSuper Multiteatro\nCalle Pagador. Entre Herrera y 1 de Noviembre\nBs 150.00\nBusca y compra tus entradas a los mejores eventos de Tranzas en Concierto (Oruro). Entradas a la venta en SuperTicket.bo desde el 17 Septiembre",
       "original_text": "Tranzas en Concierto (Oruro)\n2026-09-17T20:00:00-04:00\n2026-09-17\nSuper Multiteatro\nCalle Pagador. Entre Herrera y 1 de Noviembre\nBs 150.00\nBusca y compra tus entradas a los mejores eventos de Tranzas en Concierto (Oruro). Entradas a la venta en SuperTicket.bo desde el 17 Septiembre",
@@ -15723,8 +15663,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 2,
       "is_upcoming": true,
@@ -15745,7 +15685,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/https-www-fexpocruz-com-bo-expocruz-2026",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Expocruz 2026",
       "description": "EN Feria Internacional de Santa Cruz Inicio Ferias Expocruz 2026 Sobre Expocruz 2026 🗓️ Del 18 al 27 de Septiembre de 2026 ⏰ HORARIOS: 17:00 a 00:00 hrs 📍 FEXPOCRUZ Es la feria multisectorial más completa de América Latina. Es el escenario donde convergen todos los sectores productivos del país y la región en 10 días de oportunidades, negocios y entretenimiento. En estas avenidas y pabellones se exhibe lo mejor del empresariado nacional e internacional. En este gran evento surgen alianzas y se fortalecen lazos internacionales, comerciales y sociales. Cada septiembre los ojos del mundo se sitúan en Santa Cruz, para un encuentro donde se dinamizan las diferentes actividades económicas a gran escala un ambiente de felicidad, oportunidades, negocios, familia y celebraciones. Expositores y visitantes son el motor de esta muestra ferial, que dimensiona la importancia del esfuerzo en conjunto de todos quienes trabajan por el desarrollo del país y la región. Esta feria trasciende generaciones y se constituye en un punto de convergencia donde se juntan sueños y se concretan nuevos proyectos. ‍ INSCRIPCIÓN DE ANIMALES Confirmá la presencia de tus ejemplares en el sector pecuario de Expocruz 2026. Descargá los formularios de inscripción y el reglamento de participación aquí ‍ Principales Atracciones Expositores Nacionales e Internacionales Oportunidades de Negocio e Inversión Shows y Entretenimiento Promociones y Descuentos dESCUBRÍ LAS Categorías Servicios y Emprendimientos Conocé iniciativas y servicios que impulsan la creatividad empresarial. Maquinaria y Equipos Industriales Descubrí soluciones en maquinaria y equipos que potencian la productividad industrial. Automotriz Explorá la innovación en vehículos y transporte que redefinen el sector automotriz. Consumo Masivo Conocé más del mercado de bienes que marcan tendencia en el consumo masivo. Agroindustria Encontrá prácticas y tecnología claves para optimizar el sector agropecuario. Desarrollo Inmobiliario Descubrí oportunidades en proyectos que están transformando el sector inmobiliario. Industria y Comercio Conocé las soluciones y productos que están revolucionando la industria y el comercio. Tecnologia e Innovación Descubrí las últimas tendencias que están transformando el mundo y los negocios. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Pr",
       "original_text": "EN Feria Internacional de Santa Cruz Inicio Ferias Expocruz 2026 Sobre Expocruz 2026 🗓️ Del 18 al 27 de Septiembre de 2026 ⏰ HORARIOS: 17:00 a 00:00 hrs 📍 FEXPOCRUZ Es la feria multisectorial más completa de América Latina. Es el escenario donde convergen todos los sectores productivos del país y la región en 10 días de oportunidades, negocios y entretenimiento. En estas avenidas y pabellones se exhibe lo mejor del empresariado nacional e internacional. En este gran evento surgen alianzas y se fortalecen lazos internacionales, comerciales y sociales. Cada septiembre los ojos del mundo se sitúan en Santa Cruz, para un encuentro donde se dinamizan las diferentes actividades económicas a gran escala un ambiente de felicidad, oportunidades, negocios, familia y celebraciones. Expositores y visitantes son el motor de esta muestra ferial, que dimensiona la importancia del esfuerzo en conjunto de todos quienes trabajan por el desarrollo del país y la región. Esta feria trasciende generaciones y se constituye en un punto de convergencia donde se juntan sueños y se concretan nuevos proyectos. ‍ INSCRIPCIÓN DE ANIMALES Confirmá la presencia de tus ejemplares en el sector pecuario de Expocruz 2026. Descargá los formularios de inscripción y el reglamento de participación aquí ‍ Principales Atracciones Expositores Nacionales e Internacionales Oportunidades de Negocio e Inversión Shows y Entretenimiento Promociones y Descuentos dESCUBRÍ LAS Categorías Servicios y Emprendimientos Conocé iniciativas y servicios que impulsan la creatividad empresarial. Maquinaria y Equipos Industriales Descubrí soluciones en maquinaria y equipos que potencian la productividad industrial. Automotriz Explorá la innovación en vehículos y transporte que redefinen el sector automotriz. Consumo Masivo Conocé más del mercado de bienes que marcan tendencia en el consumo masivo. Agroindustria Encontrá prácticas y tecnología claves para optimizar el sector agropecuario. Desarrollo Inmobiliario Descubrí oportunidades en proyectos que están transformando el sector inmobiliario. Industria y Comercio Conocé las soluciones y productos que están revolucionando la industria y el comercio. Tecnologia e Innovación Descubrí las últimas tendencias que están transformando el mundo y los negocios. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -15920,8 +15860,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 5,
       "is_upcoming": true,
@@ -15942,7 +15882,7 @@
       "url": "https://superticket.bo/Tranzas-en-Concierto--La-Paz-/",
       "facebook_event_url": null,
       "published_at": "2026-09-18T20:00:00-04:00",
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Tranzas en Concierto (La Paz)",
       "description": "Tranzas en Concierto (La Paz)\n2026-09-18T20:00:00-04:00\n2026-09-18\nCampo Ferial Chuquiago Marka, Bloque Verde\nAv. Costanera\nBs 120.00\nBusca y compra tus entradas a los mejores eventos de Tranzas en Concierto (La Paz). Entradas a la venta en SuperTicket.bo desde el 18 Septiembre",
       "original_text": "Tranzas en Concierto (La Paz)\n2026-09-18T20:00:00-04:00\n2026-09-18\nCampo Ferial Chuquiago Marka, Bloque Verde\nAv. Costanera\nBs 120.00\nBusca y compra tus entradas a los mejores eventos de Tranzas en Concierto (La Paz). Entradas a la venta en SuperTicket.bo desde el 18 Septiembre",
@@ -16068,8 +16008,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 2,
       "is_upcoming": true,
@@ -17029,7 +16969,7 @@
       "price_label": null
     },
     {
-      "id": "1896b34ce48bce60",
+      "id": "52d5dbd239f6f31c",
       "source_id": "web_sucre_municipio",
       "source_name": "Gobierno Autónomo Municipal de Sucre",
       "source_url": "https://sucre.bo/noticias/",
@@ -17039,10 +16979,10 @@
       "url": "https://sucre.bo/noticias/",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "GAMS Gobierno Autonomo Municipal de Sucre",
-      "description": "ALCALDÍA DE SUCRE DISUELVE CONTRATO CON QUARTZ 21 POR INCUMPLIMIENTO hace 2 semanas Noticias 398 Durante una conferencia de prensa, secretarios municipales y asesores de la Alcaldía de Sucre, informaron hoy oficialmente la disolución del contrato con la empresa Quartz 21, debido a una serie de incumplimientos, entre ellos la suspensión de trabajos, subcontratación no autorizada, incumplimiento de plazos y la falta de avances en ... Leer más » Compartir Facebook FIRMAN CONVENIO PARA IMPULSAR PRÁCTICAS PROFESIONALES DE ESTUDIANTES DE DERECHO EN LA ALCALDÍA hace 2 semanas Noticias 232 El Gobierno Autónomo Municipal de Sucre GAMS y la Universidad San Francisco Xavier de Chuquisaca, firmaron este martes un Convenio Específico que permitirá a estudiantes, egresados y titulados de la Facultad de Derecho desarrollar pasantías, prácticas profesionales y prácticas laborales al interior de la institución municipal. “Con este convenio abrimos ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE BENEFICIA CON NUEVO PAVIMENTO RÍGIDO A LA ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas Noticias 415 La alcaldesa Municipal de Sucre, Dra. Fátima Tardío Quiroga, entregó este viernes la obra de Construcción de Pavimento Rígido de la Calle S/D en la Junta Vecinal 10 de Noviembre, ubicada en la Zona Alta Norte del Distrito 3, con una inversión de Bs 231.610, destinada a mejorar la transitabilidad ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE PRESENTA SISTEMA DIGITAL DE DIAGNÓSTICO DISTRITAL PARA SOLUCIONAR PROBLEMAS DEL DERECHO PROPIETARIO hace 3 semanas Noticias 456 La Alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, presentó este jueves, el nuevo Sistema Digital de Diagnóstico Distrital, una herramienta que busca conocer el estado actual de los trámites de derecho propietario y dar solución a procesos que se encuentran paralizados desde hace varios años. La plataforma permitirá solucionar macroproyectos ... Leer más » Compartir Facebook ESTE 4 DE SEPTIEMBRE SUCRE SERÁ SEDE DEL XXVII CONGRESO INTERNACIONAL DE FLACMA hace 3 semanas Noticias 463 La Alcaldesa de Sucre, Fátima Tardío, anunció hoy oficialmente que, la capital será sede del XXVII Congreso Internacional de FLACMA – Federación Latinoamericana de Ciudades, Municipios y Asociaciones, evento que reunirá alrededor de 50 alcaldes de 25 países de América Latina, el próximo 4 de septiembre. «Hoy se cumplen 100 ... Leer más » Compartir Facebook EXPO JUSTICIA 2026: ALCALDÍA DE SUCRE SOCIALIZA CON LA POBLACIÓN SU PLATAFORMA D",
-      "original_text": "ALCALDÍA DE SUCRE DISUELVE CONTRATO CON QUARTZ 21 POR INCUMPLIMIENTO hace 2 semanas Noticias 398 Durante una conferencia de prensa, secretarios municipales y asesores de la Alcaldía de Sucre, informaron hoy oficialmente la disolución del contrato con la empresa Quartz 21, debido a una serie de incumplimientos, entre ellos la suspensión de trabajos, subcontratación no autorizada, incumplimiento de plazos y la falta de avances en ... Leer más » Compartir Facebook FIRMAN CONVENIO PARA IMPULSAR PRÁCTICAS PROFESIONALES DE ESTUDIANTES DE DERECHO EN LA ALCALDÍA hace 2 semanas Noticias 232 El Gobierno Autónomo Municipal de Sucre GAMS y la Universidad San Francisco Xavier de Chuquisaca, firmaron este martes un Convenio Específico que permitirá a estudiantes, egresados y titulados de la Facultad de Derecho desarrollar pasantías, prácticas profesionales y prácticas laborales al interior de la institución municipal. “Con este convenio abrimos ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE BENEFICIA CON NUEVO PAVIMENTO RÍGIDO A LA ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas Noticias 415 La alcaldesa Municipal de Sucre, Dra. Fátima Tardío Quiroga, entregó este viernes la obra de Construcción de Pavimento Rígido de la Calle S/D en la Junta Vecinal 10 de Noviembre, ubicada en la Zona Alta Norte del Distrito 3, con una inversión de Bs 231.610, destinada a mejorar la transitabilidad ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE PRESENTA SISTEMA DIGITAL DE DIAGNÓSTICO DISTRITAL PARA SOLUCIONAR PROBLEMAS DEL DERECHO PROPIETARIO hace 3 semanas Noticias 456 La Alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, presentó este jueves, el nuevo Sistema Digital de Diagnóstico Distrital, una herramienta que busca conocer el estado actual de los trámites de derecho propietario y dar solución a procesos que se encuentran paralizados desde hace varios años. La plataforma permitirá solucionar macroproyectos ... Leer más » Compartir Facebook ESTE 4 DE SEPTIEMBRE SUCRE SERÁ SEDE DEL XXVII CONGRESO INTERNACIONAL DE FLACMA hace 3 semanas Noticias 463 La Alcaldesa de Sucre, Fátima Tardío, anunció hoy oficialmente que, la capital será sede del XXVII Congreso Internacional de FLACMA – Federación Latinoamericana de Ciudades, Municipios y Asociaciones, evento que reunirá alrededor de 50 alcaldes de 25 países de América Latina, el próximo 4 de septiembre. «Hoy se cumplen 100 ... Leer más » Compartir Facebook EXPO JUSTICIA 2026: ALCALDÍA DE SUCRE SOCIALIZA CON LA POBLACIÓN SU PLATAFORMA DIGITAL DE DENUNCIAS hace 3 semanas Noticias , Sin categoría 252 La Dirección Municipal de Transparencia y Lucha Contra la Corrupción del Gobierno Autónomo Municipal de Sucre participó este lunes en la Expo Justicia 2026, desarrollada en instalaciones del Parque Bolívar, frente al Tribunal Supremo de Justicia y el Consejo de la Magistratura, donde socializó con la población el uso de ... Leer más » Compartir Facebook HISTÓRICO ACTO LEGISLATIVO EN NUESTRA CIUDAD hace 3 semanas Noticias 144 En un ambiente de solemnidad y compromiso democrático, se lleva a cabo la Sesión de Honor de la Cámara de Senadores. El acto legislativo está encabezado por el Vicepresidente Edmand Lara. En este preciso instante, el Presidente Rodrigo Paz dirige su discurso oficial a las autoridades y a la ciudadanía ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE DISTINGUE A INSTITUCIONES, EMBAJADAS COOPERANTES Y PERSONALIDADES CON LA ESTATUILLA “JUANA AZURDUY DE PADILLA” hace 3 semanas Noticias 366 En el marco de la conmemoración de los 201 años de la Independencia de Bolivia, el Gobierno Autónomo Municipal de Sucre realizó el acto de distinción con la estatuilla “Juana Azurduy de Padilla” a instituciones, embajadas, organismos de cooperación y personalidades que destacan por su aporte al desarrollo y fortalecimiento ... Leer más » Compartir Facebook EMBAJADORES DE CINCO PAÍSES SOSTIENEN AGENDA DE COOPERACIÓN CON LA ALCALDESA DE SUCRE hace 3 semanas Noticias 152 La alcaldesa de Sucre, Fátima Tardío, sostuvo la tarde de este miércoles en el Palacete de El Guereo una agenda oficial con cinco embajadores acreditados en Bolivia, con el objetivo de fortalecer las relaciones de cooperación internacional y gestionar nuevas oportunidades de desarrollo para el municipio. La Máxima Autoridad Ejecutica ... Leer más » Compartir Facebook ALCALDESA DE SUCRE INSPECCIONA AVANCE DEL SISTEMA DE ADUCCIÓN DE TÚNELES DEL PROYECTO SUCRE III JUNTO A LA EMBAJADA DE ALEMANIA Y ELAPAS hace 4 semanas Noticias 411 La alcaldesa de Sucre, Dra. Fátima Tardío Quiroga junto a representantes de la Embajada de Alemania en Bolivia y la gerencia de ELAPAS, realizó la mañana de este miércoles una inspección técnica al proyecto Sucre III – Fase I – Lote 3 “Sistema de Aducción Túneles” en la comunidad de ... Leer más » Compartir Facebook Pagina 1 de 927 1 2 3 4 5 » 10 20 30 ... Ultimo »",
+      "description": "ALCALDÍA DE SUCRE DISUELVE CONTRATO CON QUARTZ 21 POR INCUMPLIMIENTO hace 2 semanas Noticias 412 Durante una conferencia de prensa, secretarios municipales y asesores de la Alcaldía de Sucre, informaron hoy oficialmente la disolución del contrato con la empresa Quartz 21, debido a una serie de incumplimientos, entre ellos la suspensión de trabajos, subcontratación no autorizada, incumplimiento de plazos y la falta de avances en ... Leer más » Compartir Facebook FIRMAN CONVENIO PARA IMPULSAR PRÁCTICAS PROFESIONALES DE ESTUDIANTES DE DERECHO EN LA ALCALDÍA hace 2 semanas Noticias 240 El Gobierno Autónomo Municipal de Sucre GAMS y la Universidad San Francisco Xavier de Chuquisaca, firmaron este martes un Convenio Específico que permitirá a estudiantes, egresados y titulados de la Facultad de Derecho desarrollar pasantías, prácticas profesionales y prácticas laborales al interior de la institución municipal. “Con este convenio abrimos ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE BENEFICIA CON NUEVO PAVIMENTO RÍGIDO A LA ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas Noticias 420 La alcaldesa Municipal de Sucre, Dra. Fátima Tardío Quiroga, entregó este viernes la obra de Construcción de Pavimento Rígido de la Calle S/D en la Junta Vecinal 10 de Noviembre, ubicada en la Zona Alta Norte del Distrito 3, con una inversión de Bs 231.610, destinada a mejorar la transitabilidad ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE PRESENTA SISTEMA DIGITAL DE DIAGNÓSTICO DISTRITAL PARA SOLUCIONAR PROBLEMAS DEL DERECHO PROPIETARIO hace 3 semanas Noticias 460 La Alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, presentó este jueves, el nuevo Sistema Digital de Diagnóstico Distrital, una herramienta que busca conocer el estado actual de los trámites de derecho propietario y dar solución a procesos que se encuentran paralizados desde hace varios años. La plataforma permitirá solucionar macroproyectos ... Leer más » Compartir Facebook ESTE 4 DE SEPTIEMBRE SUCRE SERÁ SEDE DEL XXVII CONGRESO INTERNACIONAL DE FLACMA hace 3 semanas Noticias 469 La Alcaldesa de Sucre, Fátima Tardío, anunció hoy oficialmente que, la capital será sede del XXVII Congreso Internacional de FLACMA – Federación Latinoamericana de Ciudades, Municipios y Asociaciones, evento que reunirá alrededor de 50 alcaldes de 25 países de América Latina, el próximo 4 de septiembre. «Hoy se cumplen 100 ... Leer más » Compartir Facebook EXPO JUSTICIA 2026: ALCALDÍA DE SUCRE SOCIALIZA CON LA POBLACIÓN SU PLATAFORMA D",
+      "original_text": "ALCALDÍA DE SUCRE DISUELVE CONTRATO CON QUARTZ 21 POR INCUMPLIMIENTO hace 2 semanas Noticias 412 Durante una conferencia de prensa, secretarios municipales y asesores de la Alcaldía de Sucre, informaron hoy oficialmente la disolución del contrato con la empresa Quartz 21, debido a una serie de incumplimientos, entre ellos la suspensión de trabajos, subcontratación no autorizada, incumplimiento de plazos y la falta de avances en ... Leer más » Compartir Facebook FIRMAN CONVENIO PARA IMPULSAR PRÁCTICAS PROFESIONALES DE ESTUDIANTES DE DERECHO EN LA ALCALDÍA hace 2 semanas Noticias 240 El Gobierno Autónomo Municipal de Sucre GAMS y la Universidad San Francisco Xavier de Chuquisaca, firmaron este martes un Convenio Específico que permitirá a estudiantes, egresados y titulados de la Facultad de Derecho desarrollar pasantías, prácticas profesionales y prácticas laborales al interior de la institución municipal. “Con este convenio abrimos ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE BENEFICIA CON NUEVO PAVIMENTO RÍGIDO A LA ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas Noticias 420 La alcaldesa Municipal de Sucre, Dra. Fátima Tardío Quiroga, entregó este viernes la obra de Construcción de Pavimento Rígido de la Calle S/D en la Junta Vecinal 10 de Noviembre, ubicada en la Zona Alta Norte del Distrito 3, con una inversión de Bs 231.610, destinada a mejorar la transitabilidad ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE PRESENTA SISTEMA DIGITAL DE DIAGNÓSTICO DISTRITAL PARA SOLUCIONAR PROBLEMAS DEL DERECHO PROPIETARIO hace 3 semanas Noticias 460 La Alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, presentó este jueves, el nuevo Sistema Digital de Diagnóstico Distrital, una herramienta que busca conocer el estado actual de los trámites de derecho propietario y dar solución a procesos que se encuentran paralizados desde hace varios años. La plataforma permitirá solucionar macroproyectos ... Leer más » Compartir Facebook ESTE 4 DE SEPTIEMBRE SUCRE SERÁ SEDE DEL XXVII CONGRESO INTERNACIONAL DE FLACMA hace 3 semanas Noticias 469 La Alcaldesa de Sucre, Fátima Tardío, anunció hoy oficialmente que, la capital será sede del XXVII Congreso Internacional de FLACMA – Federación Latinoamericana de Ciudades, Municipios y Asociaciones, evento que reunirá alrededor de 50 alcaldes de 25 países de América Latina, el próximo 4 de septiembre. «Hoy se cumplen 100 ... Leer más » Compartir Facebook EXPO JUSTICIA 2026: ALCALDÍA DE SUCRE SOCIALIZA CON LA POBLACIÓN SU PLATAFORMA DIGITAL DE DENUNCIAS hace 3 semanas Noticias , Sin categoría 255 La Dirección Municipal de Transparencia y Lucha Contra la Corrupción del Gobierno Autónomo Municipal de Sucre participó este lunes en la Expo Justicia 2026, desarrollada en instalaciones del Parque Bolívar, frente al Tribunal Supremo de Justicia y el Consejo de la Magistratura, donde socializó con la población el uso de ... Leer más » Compartir Facebook HISTÓRICO ACTO LEGISLATIVO EN NUESTRA CIUDAD hace 3 semanas Noticias 148 En un ambiente de solemnidad y compromiso democrático, se lleva a cabo la Sesión de Honor de la Cámara de Senadores. El acto legislativo está encabezado por el Vicepresidente Edmand Lara. En este preciso instante, el Presidente Rodrigo Paz dirige su discurso oficial a las autoridades y a la ciudadanía ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE DISTINGUE A INSTITUCIONES, EMBAJADAS COOPERANTES Y PERSONALIDADES CON LA ESTATUILLA “JUANA AZURDUY DE PADILLA” hace 3 semanas Noticias 369 En el marco de la conmemoración de los 201 años de la Independencia de Bolivia, el Gobierno Autónomo Municipal de Sucre realizó el acto de distinción con la estatuilla “Juana Azurduy de Padilla” a instituciones, embajadas, organismos de cooperación y personalidades que destacan por su aporte al desarrollo y fortalecimiento ... Leer más » Compartir Facebook EMBAJADORES DE CINCO PAÍSES SOSTIENEN AGENDA DE COOPERACIÓN CON LA ALCALDESA DE SUCRE hace 3 semanas Noticias 156 La alcaldesa de Sucre, Fátima Tardío, sostuvo la tarde de este miércoles en el Palacete de El Guereo una agenda oficial con cinco embajadores acreditados en Bolivia, con el objetivo de fortalecer las relaciones de cooperación internacional y gestionar nuevas oportunidades de desarrollo para el municipio. La Máxima Autoridad Ejecutica ... Leer más » Compartir Facebook ALCALDESA DE SUCRE INSPECCIONA AVANCE DEL SISTEMA DE ADUCCIÓN DE TÚNELES DEL PROYECTO SUCRE III JUNTO A LA EMBAJADA DE ALEMANIA Y ELAPAS hace 4 semanas Noticias 412 La alcaldesa de Sucre, Dra. Fátima Tardío Quiroga junto a representantes de la Embajada de Alemania en Bolivia y la gerencia de ELAPAS, realizó la mañana de este miércoles una inspección técnica al proyecto Sucre III – Fase I – Lote 3 “Sistema de Aducción Túneles” en la comunidad de ... Leer más » Compartir Facebook Pagina 1 de 927 1 2 3 4 5 » 10 20 30 ... Ultimo »",
       "category": "conferencia",
       "subcategories": [
         "feria"
@@ -17064,10 +17004,10 @@
       "department": "Chuquisaca",
       "city": "Sucre",
       "venue": null,
-      "address": "ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas Noticias 415 La alcaldesa Mun",
+      "address": "ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas Noticias 420 La alcaldesa Mun",
       "latitude": null,
       "longitude": null,
-      "location_query": "ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas Noticias 415 La alcaldesa Mun, Sucre, Chuquisaca, Bolivia",
+      "location_query": "ZONA ALTA NORTE DEL DISTRITO 3 hace 2 semanas Noticias 420 La alcaldesa Mun, Sucre, Chuquisaca, Bolivia",
       "is_free": false,
       "price_from": 231.61,
       "price_to": null,
@@ -17167,8 +17107,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -17189,7 +17129,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/expoauto",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto Del 3 al 7 de marzo de 2027 De 17:00 a 23:30…",
       "description": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto 🗓 Del 3 al 7 de marzo de 2027 ⏰ De 17:00 a 23:30 📍 FEXPOCRUZ Del 3 al 7 de marzo las principales concesionarias del país estarán exhibiendo lo mejor de la industria automotriz a 35 mil visitantes. Son nueve pabellones y áreas externas que van a exhibir modelos de todas las gamas además de maquinaria pesada, accesorios y repuestos automotrices. Habrá una importante presencia de diferentes entidades bancarias, que ofertarán créditos especiales para esta exhibición. El visitante encontrará el vehículo que desee, adecuado a sus requerimientos. El apoyo de la Cámara Automotor Boliviana permite que año a año Santa Cruz se convierta en el centro del sector automotriz del país. Principales Atracciones Tendencias del Sector Automotriz Encuentro de Negocios Lanzamiento de Nuevos Vehículos Promociones y Descuentos dESCUBRÍ LAS Categorías Sistemas de Seguridad Conocé los últimos sistemas de seguridad para proteger y optimizar tu experiencia automotriz. Servicios Técnicos Accedé a servicios técnicos especializados que garantizan el mejor rendimiento para tu automóvil. Lubricantes y Combustibles Descubrí productos de calidad para el cuidado y rendimiento óptimo de tus vehículos. Motocicletas y UTVs Descubrí motocicletas y UTVs innovadores que ofrecen rendimiento y aventura. Herramientas y Accesorios Encontrá herramientas y accesorios esenciales para el mantenimiento y personalización de vehículos. Vehículos Pesados y Livianos Explorá la variedad de vehículos pesados y livianos diseñados para satisfacer tus necesidades. Industria y Maquinaria Conocé las soluciones y productos que están revolucionando la industria y el comercio. Asociaciones Automotrices Conectate con asociaciones clave del sector y fortalecé tu red en la industria automotriz. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sob",
       "original_text": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto 🗓 Del 3 al 7 de marzo de 2027 ⏰ De 17:00 a 23:30 📍 FEXPOCRUZ Del 3 al 7 de marzo las principales concesionarias del país estarán exhibiendo lo mejor de la industria automotriz a 35 mil visitantes. Son nueve pabellones y áreas externas que van a exhibir modelos de todas las gamas además de maquinaria pesada, accesorios y repuestos automotrices. Habrá una importante presencia de diferentes entidades bancarias, que ofertarán créditos especiales para esta exhibición. El visitante encontrará el vehículo que desee, adecuado a sus requerimientos. El apoyo de la Cámara Automotor Boliviana permite que año a año Santa Cruz se convierta en el centro del sector automotriz del país. Principales Atracciones Tendencias del Sector Automotriz Encuentro de Negocios Lanzamiento de Nuevos Vehículos Promociones y Descuentos dESCUBRÍ LAS Categorías Sistemas de Seguridad Conocé los últimos sistemas de seguridad para proteger y optimizar tu experiencia automotriz. Servicios Técnicos Accedé a servicios técnicos especializados que garantizan el mejor rendimiento para tu automóvil. Lubricantes y Combustibles Descubrí productos de calidad para el cuidado y rendimiento óptimo de tus vehículos. Motocicletas y UTVs Descubrí motocicletas y UTVs innovadores que ofrecen rendimiento y aventura. Herramientas y Accesorios Encontrá herramientas y accesorios esenciales para el mantenimiento y personalización de vehículos. Vehículos Pesados y Livianos Explorá la variedad de vehículos pesados y livianos diseñados para satisfacer tus necesidades. Industria y Maquinaria Conocé las soluciones y productos que están revolucionando la industria y el comercio. Asociaciones Automotrices Conectate con asociaciones clave del sector y fortalecé tu red en la industria automotriz. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -17316,8 +17256,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -17502,7 +17442,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/ficad",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad Del 17 al 21 de marzo de 2027 De…",
       "description": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad 🗓 Del 17 al 21 de marzo de 2027 ⏰ De 17:00 a 23:00 📍 FEXPOCRUZ ‍ Ficad reúne en un solo lugar a empresas constructoras, de arquitectura, diseño y mucho más. Este es el espacio para personas que desean construir y remodelar su hogar y para profesionales del rubro que buscan innovadores productos y servicios de primer nivel. En el marco de este evento se llevan a cabo seminarios, foros y simposios referentes al sector. Todos los visitantes de esta feria pueden participar de estas actividades y aprovechar los grandes descuentos. Principales Atracciones Novedades y Tendencias Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Encuentro de Negocios Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Talleres y capacitaciones Mejora tus habilidades con talleres y sesiones educativas clave. Promociones y Descuentos Aprovecha promociones exclusivas y ofertas especiales durante la feria. dESCUBRÍ LAS Categorías Decoración y Paisajismo Inspírate con ideas innovadoras para decorar y transformar espacios interiores y exteriores. Equipamiento para el Hogar Todo lo que necesitás para modernizar y equipar tu hogar con lo último en tecnología y confort. Diseño de Interiores Transformá cualquier espacio con soluciones creativas de diseño interior. Acabados Arquitectónicos Detalles que realzan la estética y la calidad de cualquier proyecto arquitectónico. Sistemas de Iluminación Iluminá tus proyectos con sistemas que combinan eficiencia y estilo. Revestimientos Soluciones en revestimientos que combinan estilo, durabilidad y funcionalidad. Automatización Controlá tu hogar con sistemas de automatización que simplifican tu vida diaria. Materiales e Insumos Materiales de construcción de alta calidad para proyectos duraderos y eficientes. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoa",
       "original_text": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad 🗓 Del 17 al 21 de marzo de 2027 ⏰ De 17:00 a 23:00 📍 FEXPOCRUZ ‍ Ficad reúne en un solo lugar a empresas constructoras, de arquitectura, diseño y mucho más. Este es el espacio para personas que desean construir y remodelar su hogar y para profesionales del rubro que buscan innovadores productos y servicios de primer nivel. En el marco de este evento se llevan a cabo seminarios, foros y simposios referentes al sector. Todos los visitantes de esta feria pueden participar de estas actividades y aprovechar los grandes descuentos. Principales Atracciones Novedades y Tendencias Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Encuentro de Negocios Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Talleres y capacitaciones Mejora tus habilidades con talleres y sesiones educativas clave. Promociones y Descuentos Aprovecha promociones exclusivas y ofertas especiales durante la feria. dESCUBRÍ LAS Categorías Decoración y Paisajismo Inspírate con ideas innovadoras para decorar y transformar espacios interiores y exteriores. Equipamiento para el Hogar Todo lo que necesitás para modernizar y equipar tu hogar con lo último en tecnología y confort. Diseño de Interiores Transformá cualquier espacio con soluciones creativas de diseño interior. Acabados Arquitectónicos Detalles que realzan la estética y la calidad de cualquier proyecto arquitectónico. Sistemas de Iluminación Iluminá tus proyectos con sistemas que combinan eficiencia y estilo. Revestimientos Soluciones en revestimientos que combinan estilo, durabilidad y funcionalidad. Automatización Controlá tu hogar con sistemas de automatización que simplifican tu vida diaria. Materiales e Insumos Materiales de construcción de alta calidad para proyectos duraderos y eficientes. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -17612,8 +17552,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -17634,7 +17574,7 @@
       "url": "https://superticket.bo/LIVE-SOUND-ROCK-FESTIVAL/",
       "facebook_event_url": null,
       "published_at": "2027-04-24T16:00:00-04:00",
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Live Sound Rock Festival",
       "description": "Live Sound Rock Festival\n2027-04-24T16:00:00-04:00\n2027-04-24\nCancha Tenis Real Santa Cruz\nAvenida San Aurelio y 3er Anillo Externo, Santa Cruz de la Sierra, Bolivia.\nBs None\n&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_t&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIAxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;QUIET RIOT POR PRIMERA VEZ EN BOLIVIA&lt;/span&gt;&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_y&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La banda responsable de himnos inmortales como Metal Health (Bang Your Head), Cum On Feel The Noize y Mama Weer All Crazee Now llegará al país en el marco de su esperado Metal Health Latin American Tour 2027 para ser parte del Festival LIVE SOUND ROCK FEST&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_13&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weigh",
       "original_text": "Live Sound Rock Festival\n2027-04-24T16:00:00-04:00\n2027-04-24\nCancha Tenis Real Santa Cruz\nAvenida San Aurelio y 3er Anillo Externo, Santa Cruz de la Sierra, Bolivia.\nBs None\n&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_t&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIAxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;QUIET RIOT POR PRIMERA VEZ EN BOLIVIA&lt;/span&gt;&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_y&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La banda responsable de himnos inmortales como Metal Health (Bang Your Head), Cum On Feel The Noize y Mama Weer All Crazee Now llegará al país en el marco de su esperado Metal Health Latin American Tour 2027 para ser parte del Festival LIVE SOUND ROCK FEST&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_13&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La formación actual reúne a Rudy Sarzo, Jizzy Pearl, Alex Grossi y Johnny Kelly, manteniendo vivo el legado de una de las bandas más importantes de la historia del Hard Rock y el Heavy Metal.&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_18&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBhAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;El festival LIVE SOUND ROCK FEST 2027 se realizará los días Sabado 24 y Domingo 25 de Abril en las ex-Canchas de Tenis de Real Santa Cruz reuniendo a las bandas nacionales más importantes del género, teniendo como invitado especial y cabeza de cartel la presencia de QUIET RIOT.&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1d&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;24 y 25 de Abril de 2027&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1i&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;Festival Live Sound Rock Fest - Ex- Canchas de Tenis Real Santa Cruz (Avenida San Aurelio y Tercer Anillo Interno)&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1n&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;VENTA DE ENTRADAS EN: https://superticket.bo/LIVE-SOUND-ROCK-FESTIVAL A PARTIR DEL MIERCOLES 17 DE JUNIO&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1s&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIChAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;QUIET RIOT EN BOLIVIA&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1x&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(2",
@@ -17763,8 +17703,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 2,
       "is_upcoming": true,
@@ -17785,7 +17725,7 @@
       "url": "https://www.fexpocruz.com.bo/ferias",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Nuestras Ferias | Fexpocruz",
       "description": "EN Conocé Nuestras Ferias No items found. Agropecruz Abril de 2027 Conocé más Expoleche Abril de 2027 ExpoPet Abril de 2027 Expoagro Mayo de 2027 Conocé más Specialty Coffee Expo 1 al 4 de Julio de 2027 Conocé más Exporunning 16 al 18 de Julio de 2026 Expocruz 2026 18 al 27 de septiembre de 2026 Conocé más Expoauto 3 al 7 de Marzo de 2027 Conocé más Ficad 17 al 21 de Marzo de 2027 Conocé más Expoforest 17 al 21 de Marzo de 2027 Ferias Asociadas Feria del Libro Junio de 2027 Expo Bebé & Kids Mayo de 2027 Finergy Mayo de 2027 Expologistica Junio de 2027 42K 19 de Julio de 2026 Feria Minera 29 al 31 de Julio Outlet de Viajes 31 de julio al 2 de agosto de 2026 ExpoTeleinfo 2 al 4 de septiembre de 2026 Expo Bebé & Kids (Oct) 4 al 5 de Octubre Seminario Alimenta 22 y 23 de Octubre Street Project Noviembre de 2026 Expográfica 13 al 15 de Noviembre de 2026 Bolivia Textil 13 al 15 de Noviembre de 2026 NOTA: Las fechas de las ferias están sujetas a modificaciones sin previo aviso. FEXPOCRUZ no forma parte de la relación de consumo que surja entre el visitante y expositor de la feria, al no ser dueño ni responsable de los productos y/o servicios ofertados, deslindándose de cualquier negociación que éstos mantengan. Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
       "original_text": "EN Conocé Nuestras Ferias No items found. Agropecruz Abril de 2027 Conocé más Expoleche Abril de 2027 ExpoPet Abril de 2027 Expoagro Mayo de 2027 Conocé más Specialty Coffee Expo 1 al 4 de Julio de 2027 Conocé más Exporunning 16 al 18 de Julio de 2026 Expocruz 2026 18 al 27 de septiembre de 2026 Conocé más Expoauto 3 al 7 de Marzo de 2027 Conocé más Ficad 17 al 21 de Marzo de 2027 Conocé más Expoforest 17 al 21 de Marzo de 2027 Ferias Asociadas Feria del Libro Junio de 2027 Expo Bebé & Kids Mayo de 2027 Finergy Mayo de 2027 Expologistica Junio de 2027 42K 19 de Julio de 2026 Feria Minera 29 al 31 de Julio Outlet de Viajes 31 de julio al 2 de agosto de 2026 ExpoTeleinfo 2 al 4 de septiembre de 2026 Expo Bebé & Kids (Oct) 4 al 5 de Octubre Seminario Alimenta 22 y 23 de Octubre Street Project Noviembre de 2026 Expográfica 13 al 15 de Noviembre de 2026 Bolivia Textil 13 al 15 de Noviembre de 2026 NOTA: Las fechas de las ferias están sujetas a modificaciones sin previo aviso. FEXPOCRUZ no forma parte de la relación de consumo que surja entre el visitante y expositor de la feria, al no ser dueño ni responsable de los productos y/o servicios ofertados, deslindándose de cualquier negociación que éstos mantengan. Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -17894,8 +17834,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -17916,7 +17856,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/specialty-coffee-expo",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Specialty Coffee Expo",
       "description": "EN Specialty Coffee Expo Bolivia Inicio Ferias Specialty Coffee Expo Sobre Specialty Coffee Expo 🗓️ Del 1 al 4 de julio de 2027 ⏰ HORARIOS: Jueves y viernes: 17:00 A 23:00 HRS. Sábado y domingo: 15:30 A 23:00 HRS 📍 FEXPOCRUZ, Pabellones USA y Brasil Specialty Coffee Expo Bolivia, organizada junto a Bolivian Coffee Alliance, es el punto de encuentro del café de especialidad. Una feria donde productores, marcas, baristas, emprendedores, expertos y amantes del café se reúnen a través de degustaciones, workshops con expertos nacionales e internacionales, demostraciones, catas de café y competencias. Cuatro días para compartir tu pasión por el café con amigos y familia. ‍ Principales Atracciones Activaciones de Marcas Campeonatos Nacionales Capacitaciones y Conferencias Catas de Café Públicas dESCUBRÍ LAS Categorías Objetos de Colección Indumentaria y Accesorios Maquinarias profesionales para cafeterías Productores de café de especialidad Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
       "original_text": "EN Specialty Coffee Expo Bolivia Inicio Ferias Specialty Coffee Expo Sobre Specialty Coffee Expo 🗓️ Del 1 al 4 de julio de 2027 ⏰ HORARIOS: Jueves y viernes: 17:00 A 23:00 HRS. Sábado y domingo: 15:30 A 23:00 HRS 📍 FEXPOCRUZ, Pabellones USA y Brasil Specialty Coffee Expo Bolivia, organizada junto a Bolivian Coffee Alliance, es el punto de encuentro del café de especialidad. Una feria donde productores, marcas, baristas, emprendedores, expertos y amantes del café se reúnen a través de degustaciones, workshops con expertos nacionales e internacionales, demostraciones, catas de café y competencias. Cuatro días para compartir tu pasión por el café con amigos y familia. ‍ Principales Atracciones Activaciones de Marcas Campeonatos Nacionales Capacitaciones y Conferencias Catas de Café Públicas dESCUBRÍ LAS Categorías Objetos de Colección Indumentaria y Accesorios Maquinarias profesionales para cafeterías Productores de café de especialidad Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -18024,8 +17964,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -18046,7 +17986,7 @@
       "url": "https://lapaz.bo/eventos-culturales/",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "Eventos culturales – GOBIERNO AUTÓNOMO MUNICIPAL DE LA PAZ",
       "description": "Portal de Eventos Culturales de la ciudad de La Paz Descubre y explora los eventos culturales de nuestra ciudad Eventos - Calendario Portal de Eventos Culturales Filtrar Eventos Tipo de Función: Todas las funciones VERMOUTH TANDA ENSAYO Auditorio: Todos los auditorios CINE TEATRO MUNICIPAL 6 DE AGOSTO TEATRO MUNICIPAL MODESTA SANJINÉS TEATRO MUNICIPAL ALBERTO SAAVEDRA PÉREZ TEATRO DE CAMARA NORMA MERLO Aplicar Filtros Limpiar Filtros Información de Depuración URL de la API: https://sierra247.lapaz.bo/SierraValle_Oficial/public/api/espacios-culturales-portal-eventos/1/2025/9 Problemas comunes: La API puede no estar disponible Problemas de CORS (Cross-Origin Resource Sharing) Formato de respuesta inesperado La IP 192.168.8.5 es una dirección local, asegúrate de estar en la red correcta Para probar la aplicación, hemos incluido datos de ejemplo. Cargando eventos...",
       "original_text": "Portal de Eventos Culturales de la ciudad de La Paz Descubre y explora los eventos culturales de nuestra ciudad Eventos - Calendario Portal de Eventos Culturales Filtrar Eventos Tipo de Función: Todas las funciones VERMOUTH TANDA ENSAYO Auditorio: Todos los auditorios CINE TEATRO MUNICIPAL 6 DE AGOSTO TEATRO MUNICIPAL MODESTA SANJINÉS TEATRO MUNICIPAL ALBERTO SAAVEDRA PÉREZ TEATRO DE CAMARA NORMA MERLO Aplicar Filtros Limpiar Filtros Información de Depuración URL de la API: https://sierra247.lapaz.bo/SierraValle_Oficial/public/api/espacios-culturales-portal-eventos/1/2025/9 Problemas comunes: La API puede no estar disponible Problemas de CORS (Cross-Origin Resource Sharing) Formato de respuesta inesperado La IP 192.168.8.5 es una dirección local, asegúrate de estar en la red correcta Para probar la aplicación, hemos incluido datos de ejemplo. Cargando eventos...",
@@ -18150,8 +18090,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -18466,7 +18406,7 @@
       "url": "https://www.lostiempos.com/tendencias",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "31/08/2026 Medio Ambiente Aviturismo en Escoma: comunidades aymaras se unen para proteger el hábitat del zambullidor…",
       "description": "31/08/2026 Medio Ambiente Aviturismo en Escoma: comunidades aymaras se unen para proteger el hábitat del zambullidor del Titicaca El lago Titicaca se deja recorrer de muchas maneras. A 177 kilómetros al noroeste de La Paz, en la Península Challapata, municipio de Escoma, una de ellas... vista 27/08/2026 Ciencia En Bolivia el eclipse parcial de Luna será visible desde las 22:33 de hoy Agosto está siendo un mes extraordinario para los aficionados a la astronomía. Después del espectacular eclipse solar total del 12 de agosto, que convirtió a... vista 25/08/2026 Interesante Hallan huellas de tortugas del Cretácico en Torotoro, el primer registro en Sudamérica Entre cañones, cavernas, formaciones rocosas y huellas que conservan la memoria de millones de años, el Parque Nacional Torotoro, ubicado en el departamento de... vista 24/08/2026 Medio Ambiente El mono araña entra en peligro de extinción en Bolivia, pero el tráfico de crías no da tregua El mono araña o marimono (Ateles chamek), el primate más grande de Bolivia, fue recategorizado este año de Vulnerable (VU) a En Peligro (EN) en el Libro Rojo... vista 23/08/2026 Interesante Alberto Arze, gerente de la ICAM, en Podcast Los Tiempos El aniversario de una marca país no solo es motivo de celebración, sino también un espacio para evaluar la salud del sector productivo. vista 23/08/2026 Ciencia Eclipse \"Luna de sangre\" en Bolivia: ¿Cuándo y cómo verlo? Bolivia se prepara para observar un nuevo fenómeno astronómico: un eclipse parcial de Luna, que podrá apreciarse en todo el territorio nacional entre la noche ... vista 22/08/2026 Cocina El Pique Macho representará a Bolivia en el Mundial de Comidas de Ibai Llanos y debutará contra el pastel de choclo de Chile El reconocido streamer español Ibai Llanos dio inicio oficialmente al Mundial de Comidas 2026, un torneo viral en redes sociales donde 16 países compiten... vista 21/08/2026 Tecnología China da un giro y pide a sus robots que trabajen, no bailen En Pekín, los robots todavía bailan, boxean y juegan al ping-pong para atraer las miradas. Pero el verdadero desafío ya no está en el espectáculo, sino en... vista 20/08/2026 Medio Ambiente Cómo el cambio climático afecta la supervivencia de las mariposas En los Alpes alemanes, el aumento de las temperaturas está obligando a las mariposas a tomar decisiones que definirán su futuro. vista 18/08/2026 Tecnología Ingenieros de IA y analistas de datos, las profesiones que más se necesitan hoy Ingenieros de inteligencia ar",
       "original_text": "31/08/2026 Medio Ambiente Aviturismo en Escoma: comunidades aymaras se unen para proteger el hábitat del zambullidor del Titicaca El lago Titicaca se deja recorrer de muchas maneras. A 177 kilómetros al noroeste de La Paz, en la Península Challapata, municipio de Escoma, una de ellas... vista 27/08/2026 Ciencia En Bolivia el eclipse parcial de Luna será visible desde las 22:33 de hoy Agosto está siendo un mes extraordinario para los aficionados a la astronomía. Después del espectacular eclipse solar total del 12 de agosto, que convirtió a... vista 25/08/2026 Interesante Hallan huellas de tortugas del Cretácico en Torotoro, el primer registro en Sudamérica Entre cañones, cavernas, formaciones rocosas y huellas que conservan la memoria de millones de años, el Parque Nacional Torotoro, ubicado en el departamento de... vista 24/08/2026 Medio Ambiente El mono araña entra en peligro de extinción en Bolivia, pero el tráfico de crías no da tregua El mono araña o marimono (Ateles chamek), el primate más grande de Bolivia, fue recategorizado este año de Vulnerable (VU) a En Peligro (EN) en el Libro Rojo... vista 23/08/2026 Interesante Alberto Arze, gerente de la ICAM, en Podcast Los Tiempos El aniversario de una marca país no solo es motivo de celebración, sino también un espacio para evaluar la salud del sector productivo. vista 23/08/2026 Ciencia Eclipse \"Luna de sangre\" en Bolivia: ¿Cuándo y cómo verlo? Bolivia se prepara para observar un nuevo fenómeno astronómico: un eclipse parcial de Luna, que podrá apreciarse en todo el territorio nacional entre la noche ... vista 22/08/2026 Cocina El Pique Macho representará a Bolivia en el Mundial de Comidas de Ibai Llanos y debutará contra el pastel de choclo de Chile El reconocido streamer español Ibai Llanos dio inicio oficialmente al Mundial de Comidas 2026, un torneo viral en redes sociales donde 16 países compiten... vista 21/08/2026 Tecnología China da un giro y pide a sus robots que trabajen, no bailen En Pekín, los robots todavía bailan, boxean y juegan al ping-pong para atraer las miradas. Pero el verdadero desafío ya no está en el espectáculo, sino en... vista 20/08/2026 Medio Ambiente Cómo el cambio climático afecta la supervivencia de las mariposas En los Alpes alemanes, el aumento de las temperaturas está obligando a las mariposas a tomar decisiones que definirán su futuro. vista 18/08/2026 Tecnología Ingenieros de IA y analistas de datos, las profesiones que más se necesitan hoy Ingenieros de inteligencia artificial (IA) y analistas de datos se han convertido en las profesiones más solicitadas por la industria tecnológica global,... vista 16/08/2026 Interesante Miroslava Fernández analiza el rumbo de Bolivia en Pódcast Los Tiempos Bolivia conmemoró sus 201 años de independencia en medio de un escenario político y social profundamente complejo. vista 13/08/2026 Interesante Eclipse solar regala a millones de europeos una fugaz noche En medio del atardecer se hizo la noche. Un eclipse solar sumió ayer en la oscuridad desde los confines del Ártico ruso hasta las islas mediterráneas de España... vista 13/08/2026 Salud Cómo la intensidad y el tipo de ejercicio influyen en la prevención del cáncer El estudio, publicado en la revista BMC Medicine, analizó durante ocho años los hábitos de 59.000 adultos del Reino Unido y halló que añadir 15 minutos de... vista 12/08/2026 Interesante Unos 55 países observarán el eclipse de Sol número 16 del siglo XXI, no será visible desde Bolivia Hoy tendrá lugar un eclipse solar total, un evento que ocurre cuando la Luna se ubica entre la Tierra y el Sol y bloquea completamente su luz durante unos... vista 1 de 2 siguiente › Lo más leído 1 Evismo anuncia una marcha para el 4 de septiembre en Cochabamba contra las “políticas neoliberales” Ver más 2 Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía Ver más 3 Felcc investiga el asesinato de un hombre con 23 disparos en Entre Ríos Ver más 4 Del escenario rural al “glamour” global: la revolución estética con la que Dolly Parton transformó el country Ver más 5 Acribillan a una persona en San Ignacio de Velasco frente a un surtidor Ver más 6 ¡Una noche palo de rosa! Los 15 años de Luciana Mariel Ruiz Ver más 7 El TSE iniciará en Cochabamba el proceso de reforma electoral este 2 de septiembre Ver más 8 Impacto del eclipse lunar de agosto en el amor: qué proyecta la astrología para cada signo Ver más 9 La Policía Boliviana tendrá nuevo Comandante General en las próximas horas Ver más 10 Los 7 efectos que sufre la piel al dormir menos de siete horas Ver más Tweets by LosTiemposBol En Portada 31/08/2026 País Ministro Oviedo confirma la renuncia de Sokol y anuncia posesión de nuevo comandante de la Policía para el mediodía El ministro de Gobierno, Marco Antonio Oviedo, confirmó la renuncia del comandante general de la Policía Boliviana, Mirko Sokol, y anunció que al mediodía de... vista 31/08/2026 País La Policía Boliviana tendrá nuevo Comandante General en las próximas horas En las próximas horas, el gobierno procederá a la renovación del Alto Mando Policial, incluyendo a su Comandante, el general Mirko Sokol, quien llegó a la cima... vista 31/08/2026 País Policía alista el traslado de Cerimedo a Chonchocoro por segunda detención La Policía Departamental de La Paz informó ayer que alista el traslado del exasesor presidencial Fernando Cerimedo del penal de Palmasola de Santa Cruz a... vista 31/08/2026 País Cívicos cruceños definirán medidas por la crisis por diésel y CAO pide anular decreto El vicepresidente del Comité pro Santa Cruz, Agustín Zambrana, informó ayer que al haberse agotado la vía de exigir soluciones al Gobierno nacional por la... vista 30/08/2026 Seguridad Acribillan a una persona en San Ignacio de Velasco frente a un surtidor El municipio cruceño de San Ignacio de Velasco cierra la semana con un nuevo hecho violento: un hombre fue asesinado a tiros, afuera de una licorería ubicada... vista 31/08/2026 Seguridad Cochabamba: hombre con antecedentes por narcotráfico es acribillado en Entre Ríos Un hombre perdió la vida este domingo luego de ser acribillado mientras compraba bebidas alcohólicas. El hecho se suscitó en el municipio de Entre Ríos del... vista Deportes Bolívar dominó el clásico nacional con autoridad y golpeó primero en el estadio Hernando Siles. La velocidad de los... Ver más 31/08/2026 Fútbol Bolívar domina el clásico nacional y gana por goleada en el Siles Su rendimiento no solo representa logros individuales, sino que evidencia su crecimiento en competencia, ganó y... Ver más 31/08/2026 Multideportivo Valeria Quispe será abanderada del país en Juegos Odesur Santa Fe 2026 Bolívar y The Strongest protagonizarán hoy domingo el clásico nacional a partir de las 17:15 en el estadio Hernando... Ver más 30/08/2026 Fútbol Bolívar y The Strongest, un clásico sin tregua Brindar explicaciones a través de los altoparlantes de los estadios sobre las decisiones luego de revisar el VAR no... Ver más 28/08/2026 Fútbol La FBF determinó que los jueces expliquen sus decisiones tras revisar las imágenes del VAR Doble Click No es casualidad que corrientes ateas y creyentes confluyan más o menos en lo mismo cuando analizan las potenciales... Ver más 31/08/2026 Cultura La IA bajo la mirada de la Iglesia y la filosofía El estreno de la película boliviana “Cielo” en los cines de Cochabamba y el concierto de Grillo Villegas conmemorando... Ver más 31/08/2026 Cine Cartelera: El filme boliviano “Cielo” se estrena en Cochabamba Soy ruso y tomé la decisión más loca del año: ¡voy a bailar morenada en la fiesta de Urkupiña!\". Con ese desafío,... Ver más 30/08/2026 Vida Nikita Kovalchuk, un ruso en Podcast Los Tiempos Hace algunos años tuve una conversación con Luis H. “Cachín” Antezana sobre el postmodernismo. Partí de una pregunta... Ver más 30/08/2026 Cultura Después de todo, ¿qué es, realmente, lo postmoderno, Cachín Antezana?",
@@ -18602,8 +18542,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -18950,7 +18890,7 @@
       "url": "https://www.uto.edu.bo/la-uto-alista-la-feria-profesiografica-para-presentar-su-oferta-academica-de-48-carreras-profesionales/",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-08-31T16:53:03-04:00",
+      "scraped_at": "2026-08-31T20:41:14-04:00",
       "title": "La UTO alista la Feria Profesiográfica para presentar su oferta académica de 48 carreras profesionales",
       "description": "Organizada por la Dirección de Vinculación, la actividad de orientación vocacional se desarrollará del 27 al 29 de agosto Oruro, agosto de 2026. — Con el objetivo de orientar a los futuros bachilleres y a la juventud en la elección de su carrera profesional, la Universidad Técnica de Oruro (UTO) , a través de la Dirección de Vinculación , ultima los detalles para la realización de la Feria Profesiográfica , un espacio diseñado para exponer de forma integral la oferta académica de la institución. El evento se llevará a cabo del 27 al 29 de agosto , reuniendo a docentes y universitarios de las diferentes facultades para brindar información detallada sobre planes de estudio, perfil profesional, campo laboral y modalidades de graduación. Entre los aspectos centrales de esta feria de orientación destacan: Oferta Completa: Presentación de las 48 carreras de formación profesional que ofrece la Universidad Técnica de Oruro en sus distintas áreas del conocimiento. Orientación Vocacional: Interacción directa entre los postulantes y los equipos de cada unidad académica para resolver dudas sobre el ejercicio profesional y las exigencias de formación. Fechas de Realización: Tres jornadas continuas de exposición, programadas del 27 al 29 de agosto , dirigidas a estudiantes de secundaria y a la comunidad en general. Con la puesta en marcha de esta Feria Profesiográfica , la Universidad Técnica de Oruro reafirma su compromiso con la juventud, facilitando herramientas clave para la toma de decisiones vocacionales y abriendo las puertas de la educación superior pública en el departamento. #UTO #RTvU #FeriaProfesiográfica #Carreras #Vinculación #OrientaciónVocacional #Oruro2026 Ver en TikTok",
       "original_text": "Organizada por la Dirección de Vinculación, la actividad de orientación vocacional se desarrollará del 27 al 29 de agosto Oruro, agosto de 2026. — Con el objetivo de orientar a los futuros bachilleres y a la juventud en la elección de su carrera profesional, la Universidad Técnica de Oruro (UTO) , a través de la Dirección de Vinculación , ultima los detalles para la realización de la Feria Profesiográfica , un espacio diseñado para exponer de forma integral la oferta académica de la institución. El evento se llevará a cabo del 27 al 29 de agosto , reuniendo a docentes y universitarios de las diferentes facultades para brindar información detallada sobre planes de estudio, perfil profesional, campo laboral y modalidades de graduación. Entre los aspectos centrales de esta feria de orientación destacan: Oferta Completa: Presentación de las 48 carreras de formación profesional que ofrece la Universidad Técnica de Oruro en sus distintas áreas del conocimiento. Orientación Vocacional: Interacción directa entre los postulantes y los equipos de cada unidad académica para resolver dudas sobre el ejercicio profesional y las exigencias de formación. Fechas de Realización: Tres jornadas continuas de exposición, programadas del 27 al 29 de agosto , dirigidas a estudiantes de secundaria y a la comunidad en general. Con la puesta en marcha de esta Feria Profesiográfica , la Universidad Técnica de Oruro reafirma su compromiso con la juventud, facilitando herramientas clave para la toma de decisiones vocacionales y abriendo las puertas de la educación superior pública en el departamento. #UTO #RTvU #FeriaProfesiográfica #Carreras #Vinculación #OrientaciónVocacional #Oruro2026 Ver en TikTok",
@@ -19067,8 +19007,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-08-31T16:53:03-04:00",
-      "last_confirmed_at": "2026-08-31T16:53:03-04:00",
+      "last_seen_at": "2026-08-31T20:41:14-04:00",
+      "last_confirmed_at": "2026-08-31T20:41:14-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -19089,13 +19029,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sfxMVwX2PEwQ7kNvwG4YJvG&_nc_oc=AdqQCVsKkjUYGEZ1gNYdr_kqsfkE8bwwsGnfP-WrMTpSfo6SL7Fjb1kpPu66Ik3U4ow&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AQ03E0QrlRF-uNGb6IFHLA&_nc_ss=7f289&oh=00_AQL05CyYGW2WQ1oyhgu5gQOmCLAUWEdNWoy-Y8HrXV1nbw&oe=6A9C079A",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -19361,22 +19301,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=57jtx3V6U-QQ7kNvwGylgzq&_nc_oc=Adq-gu5nlz0IeFsIo6EviBAFO0DvN8GByFRq3yxk5P36AGBVHKOjiUzvzMSRESLDSLM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=tqn8SL3ZVWmigSsFpdvXCw&_nc_ss=7f289&oh=00_AQIZPZ7S__cqagI0j3SoYMqpfxPNGPn1oQ-AV30zYdulXA&oe=6A9BCF0C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 34,
-          "category": "deporte",
-          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid02rzbHR7eGJSEqCiFzQzMBJwK6o1j2ivnzEforMjd96t2ACUQVUXKxM7E6P5wfxGP2l?__cft__[0]=AZaE9SwIQ_a4HmRyt-iIgiexRLwKHNEeQ4KjwVxZFhFPXCmjc2I3dfQgaCw0BRKtxeQl5AtW-Uha05sCmOUEFt_tQApPdJ_U9ZwLdDUkrQlNHDlBEjJENGEfigvtbBuHXFcKi96ogFHIxH8ZSCuYdGfFTsaa8GLr8ylEMqJIg2htVBWrWiqBezg5W5yul3ePKOs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El pique macho boliviano continúa en carrera y se mete entre los platos que disputarán la siguiente fase del Mundial de Comidas. Ibai Llanos, el streamer español impuls… Ver más Qué pena ELDEBER.COM.BO Bolivia avanza en el Mundial de Comidas, tras vencer a Chile Olson Mc"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_reduno",
@@ -19438,22 +19369,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Pcg09-OxN2IQ7kNvwEfjFMO&_nc_oc=AdozetU92zvj_vnIOoZ9QWGS8TbK4B0Hzhr8novBSa1wOuAPOrAJ88WyrVok8Fn8DlI&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=CjR3EtYHr_-gvtvzYkEF3A&_nc_ss=7f289&oh=00_AQL1ZbbNx60a92l3QNtpax19VMP9TTvbZXNhMP7zF2hDNA&oe=6A9BA18C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/920985087262181/?__cft__[0]=AZZZXJlIkAeqAF6mMcJ1ktEPLLWlveiNuI5YXiVo_L7QnRxX-iWtNCq9N3uavu6VpGikfV7XOfn2e5TjGGIOpstFQE03CEGfC-fzC1lRVLdbtcXamGpPN4zk9VVXrtSKqEMfxzdxuPWxv0YxDVIu3X8vxi1FBgWVjwoKqm03YDwn9v8HgUM9eewXkUEj95w4b1NqasU7hkZ3c8w7y6Id1n9S&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Un incendio de magnitud afecta al Parque Tunari, en el municipio de Sacaba, #Cochabamba, donde las llamas han consumido gran parte de la serranía y afectado la vegetaci… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_erbol",
@@ -19464,13 +19386,30 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/762867835_1486603256840062_112288559762726375_n.jpg?stp=dst-jpg_tt6&cstp=mx494x494&ctp=s494x494&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=a7aahu2Ec2MQ7kNvwGGUKW3&_nc_oc=AdocjQLfsOQX_hFtl1lOsxPyn7xRCdyH9Oa1uRAGoJZf9lIkkXJhXbcUMgzeUPJ3g4A&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_tfhPFNnJ-K4TtQfblv2gQ&_nc_ss=7f289&oh=00_AQKnNfHPTv-SXXHACilxH4yRTflsmQIlJrYP3j7DYT7_Vw&oe=6A9BEA04",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid02xXtTdN5DZmYtwvr15te3HzZkrEs7E8WFLhP6CJPrEQBeP5VG7MBpArySDFFxji5cl?__cft__[0]=AZbLYjT75QvaAsNTGkVXtEFtoiARZZj-gq3zJ7VuhKrVY-zm4x2m-1GjjOLnFZGDr022SUeIFeHZUOVDmLU8zuogy0sv0riyC125Z6l8CK305ytZNiIMEKDfbzm2Vj7RxL1q8Hz_B28J8COkcMP94U_C1FUBfY9bllCCohkdsBLcDYpVsuMZMim9pom1oocsVjY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "“No planteé que era una condición levantar la subvención. Lo que yo decía era que para llegar a un acuerdo con el Fondo Monetario había que cumplir varias condiciones. … Ver más Malenko CINICO ERBOL.COM.BO Aramayo niega que el FMI haya condicionado el retiro de la subvención al diésel Ver más comentarios Juan Pablo Garcia"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid02xXtTdN5DZmYtwvr15te3HzZkrEs7E8WFLhP6CJPrEQBeP5VG7MBpArySDFFxji5cl?comment_id=1764640698021348&__cft__[0]=AZbLYjT75QvaAsNTGkVXtEFtoiARZZj-gq3zJ7VuhKrVY-zm4x2m-1GjjOLnFZGDr022SUeIFeHZUOVDmLU8zuogy0sv0riyC125Z6l8CK305ytZNiIMEKDfbzm2Vj7RxL1q8Hz_B28J8COkcMP94U_C1FUBfY9bllCCohkdsBLcDYpVsuMZMim9pom1oocsVjY&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Juan Pablo Garcia Malenko CINICO 13 min"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_el_diario",
@@ -19566,13 +19505,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ma6CpuH7V-IQ7kNvwHMQ5RS&_nc_oc=AdooI1Q60XUt1Tr3FBK-VImBaniaJFAj_7XPxp9ev6Qruv6vcxuv3vkMl2NNKIFGILw&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=Wpet4f32HTURbWpl3Bdw3Q&_nc_ss=7f289&oh=00_AQJjDvF-L9sbCEk4prwW3afenLcYEnWCaiyZNKBOrN7nUg&oe=6A9C0CE9",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 40,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldeberradio/videos/889417534252003/?__cft__[0]=AZYrqgxPX63f9_kxgKKKBgAm1Y-sBAUBXKDgXLB4pP11cKYsSkHYH13xHvdHT0SiU3PUHmA8PtLO3zSh_m1YLcMO2nW-FUkEMpxlKH1DeWp59MEp2vcnJSoejA1XyDdqweYHK9za_gulFiPk-EOfJhexvEYTTO8kMLhvrN433ICWz0NW4q9inP-VFzxvr84a7Fsx-foinrVlW7VzKfrIFjv1&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Este lunes, Thalma Roca llega a Lo Que No Ves para una entrevista exclusiva junto a Kathryn Chávez, donde compartirá detalles de su trayectoria, desafíos y experiencias… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fides_cbba",
@@ -19719,13 +19667,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PSXzMZRaGW4Q7kNvwFIzNRq&_nc_oc=AdrO6wENA7mjAiU5HVhC8yYkeajU_V3wi7W6EMFZH0jc-cgmwWm3VsJVU0yg6yk1ELU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=E0Md-XR3hvJjRA5Qy9TU2Q&_nc_ss=7f289&oh=00_AQLs8pCO86NN8BkQon01fi_s4TEGuK-tphH5fXIiA-lE5g&oe=6A9BAF12",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -20060,12 +20008,12 @@
       "region": "Tarija",
       "city": "Tarija",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -20195,22 +20143,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IjwZCmTKtu0Q7kNvwGcbBOn&_nc_oc=Adoj2cePdsz4jEXYMdzkPbAKwOMvTkcPQBsdL8GEdd_ttCW3umFgK6Biftxo-cHu1RM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=G90pq6MZEIL7jCw06hxWBg&_nc_ss=7f289&oh=00_AQKk96dxfe_LEI6EWJdRTd2guMF7whexadHTQx9rxPXguA&oe=6A9BD7E0",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid032vM7Zac6fheEvKBBv7NMJHCdET5EWVXd2HqsWRHuDQgpy2bbnPtSfnz8EppL3Zuvl?__cft__[0]=AZasgEG4oiB6hbQ7XhgyFAgI_ut4bHZssQfzDDfCR-wF6gZbGyahuVhYacgNvdLIDa1Q-ZJd6aMnNDJDvRZC2By4RZ5viaGqED37WzBBG8J8ulBzNMdQ2fupuCvtEmpdkFMX2-Vpy20SRszdzeuA_ceenYNf_MQOc32I8ACjheO9Lgu0ZWAnzstbTlK4zKQycW4&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "SRA. LIDIA MORÓN DE IBARRA Q.D.D.G. SRA. LIDIA MORÓN DE IBARRA Q.D.D.G."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umsa",

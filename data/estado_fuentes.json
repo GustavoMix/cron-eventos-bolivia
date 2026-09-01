@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T16:53:03-04:00",
+  "generated_at": "2026-08-31T20:41:14-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,11 +11,12 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_tarija_cultura",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 72.9,
-    "horas_maximo_sin_datos": 289.7
+    "horas_promedio_sin_datos": 69.5,
+    "horas_maximo_sin_datos": 293.5
   },
   "sources": [
     {
@@ -27,13 +28,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sfxMVwX2PEwQ7kNvwG4YJvG&_nc_oc=AdqQCVsKkjUYGEZ1gNYdr_kqsfkE8bwwsGnfP-WrMTpSfo6SL7Fjb1kpPu66Ik3U4ow&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AQ03E0QrlRF-uNGb6IFHLA&_nc_ss=7f289&oh=00_AQL05CyYGW2WQ1oyhgu5gQOmCLAUWEdNWoy-Y8HrXV1nbw&oe=6A9C079A",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -299,22 +300,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=57jtx3V6U-QQ7kNvwGylgzq&_nc_oc=Adq-gu5nlz0IeFsIo6EviBAFO0DvN8GByFRq3yxk5P36AGBVHKOjiUzvzMSRESLDSLM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=tqn8SL3ZVWmigSsFpdvXCw&_nc_ss=7f289&oh=00_AQIZPZ7S__cqagI0j3SoYMqpfxPNGPn1oQ-AV30zYdulXA&oe=6A9BCF0C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 34,
-          "category": "deporte",
-          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid02rzbHR7eGJSEqCiFzQzMBJwK6o1j2ivnzEforMjd96t2ACUQVUXKxM7E6P5wfxGP2l?__cft__[0]=AZaE9SwIQ_a4HmRyt-iIgiexRLwKHNEeQ4KjwVxZFhFPXCmjc2I3dfQgaCw0BRKtxeQl5AtW-Uha05sCmOUEFt_tQApPdJ_U9ZwLdDUkrQlNHDlBEjJENGEfigvtbBuHXFcKi96ogFHIxH8ZSCuYdGfFTsaa8GLr8ylEMqJIg2htVBWrWiqBezg5W5yul3ePKOs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El pique macho boliviano continúa en carrera y se mete entre los platos que disputarán la siguiente fase del Mundial de Comidas. Ibai Llanos, el streamer español impuls… Ver más Qué pena ELDEBER.COM.BO Bolivia avanza en el Mundial de Comidas, tras vencer a Chile Olson Mc"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_reduno",
@@ -376,22 +368,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Pcg09-OxN2IQ7kNvwEfjFMO&_nc_oc=AdozetU92zvj_vnIOoZ9QWGS8TbK4B0Hzhr8novBSa1wOuAPOrAJ88WyrVok8Fn8DlI&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=CjR3EtYHr_-gvtvzYkEF3A&_nc_ss=7f289&oh=00_AQL1ZbbNx60a92l3QNtpax19VMP9TTvbZXNhMP7zF2hDNA&oe=6A9BA18C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/920985087262181/?__cft__[0]=AZZZXJlIkAeqAF6mMcJ1ktEPLLWlveiNuI5YXiVo_L7QnRxX-iWtNCq9N3uavu6VpGikfV7XOfn2e5TjGGIOpstFQE03CEGfC-fzC1lRVLdbtcXamGpPN4zk9VVXrtSKqEMfxzdxuPWxv0YxDVIu3X8vxi1FBgWVjwoKqm03YDwn9v8HgUM9eewXkUEj95w4b1NqasU7hkZ3c8w7y6Id1n9S&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Un incendio de magnitud afecta al Parque Tunari, en el municipio de Sacaba, #Cochabamba, donde las llamas han consumido gran parte de la serranía y afectado la vegetaci… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_erbol",
@@ -402,13 +385,30 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/762867835_1486603256840062_112288559762726375_n.jpg?stp=dst-jpg_tt6&cstp=mx494x494&ctp=s494x494&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=a7aahu2Ec2MQ7kNvwGGUKW3&_nc_oc=AdocjQLfsOQX_hFtl1lOsxPyn7xRCdyH9Oa1uRAGoJZf9lIkkXJhXbcUMgzeUPJ3g4A&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=_tfhPFNnJ-K4TtQfblv2gQ&_nc_ss=7f289&oh=00_AQKnNfHPTv-SXXHACilxH4yRTflsmQIlJrYP3j7DYT7_Vw&oe=6A9BEA04",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid02xXtTdN5DZmYtwvr15te3HzZkrEs7E8WFLhP6CJPrEQBeP5VG7MBpArySDFFxji5cl?__cft__[0]=AZbLYjT75QvaAsNTGkVXtEFtoiARZZj-gq3zJ7VuhKrVY-zm4x2m-1GjjOLnFZGDr022SUeIFeHZUOVDmLU8zuogy0sv0riyC125Z6l8CK305ytZNiIMEKDfbzm2Vj7RxL1q8Hz_B28J8COkcMP94U_C1FUBfY9bllCCohkdsBLcDYpVsuMZMim9pom1oocsVjY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "“No planteé que era una condición levantar la subvención. Lo que yo decía era que para llegar a un acuerdo con el Fondo Monetario había que cumplir varias condiciones. … Ver más Malenko CINICO ERBOL.COM.BO Aramayo niega que el FMI haya condicionado el retiro de la subvención al diésel Ver más comentarios Juan Pablo Garcia"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid02xXtTdN5DZmYtwvr15te3HzZkrEs7E8WFLhP6CJPrEQBeP5VG7MBpArySDFFxji5cl?comment_id=1764640698021348&__cft__[0]=AZbLYjT75QvaAsNTGkVXtEFtoiARZZj-gq3zJ7VuhKrVY-zm4x2m-1GjjOLnFZGDr022SUeIFeHZUOVDmLU8zuogy0sv0riyC125Z6l8CK305ytZNiIMEKDfbzm2Vj7RxL1q8Hz_B28J8COkcMP94U_C1FUBfY9bllCCohkdsBLcDYpVsuMZMim9pom1oocsVjY&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Juan Pablo Garcia Malenko CINICO 13 min"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_el_diario",
@@ -504,13 +504,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ma6CpuH7V-IQ7kNvwHMQ5RS&_nc_oc=AdooI1Q60XUt1Tr3FBK-VImBaniaJFAj_7XPxp9ev6Qruv6vcxuv3vkMl2NNKIFGILw&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=Wpet4f32HTURbWpl3Bdw3Q&_nc_ss=7f289&oh=00_AQJjDvF-L9sbCEk4prwW3afenLcYEnWCaiyZNKBOrN7nUg&oe=6A9C0CE9",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 40,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldeberradio/videos/889417534252003/?__cft__[0]=AZYrqgxPX63f9_kxgKKKBgAm1Y-sBAUBXKDgXLB4pP11cKYsSkHYH13xHvdHT0SiU3PUHmA8PtLO3zSh_m1YLcMO2nW-FUkEMpxlKH1DeWp59MEp2vcnJSoejA1XyDdqweYHK9za_gulFiPk-EOfJhexvEYTTO8kMLhvrN433ICWz0NW4q9inP-VFzxvr84a7Fsx-foinrVlW7VzKfrIFjv1&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Este lunes, Thalma Roca llega a Lo Que No Ves para una entrevista exclusiva junto a Kathryn Chávez, donde compartirá detalles de su trayectoria, desafíos y experiencias… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fides_cbba",
@@ -657,13 +666,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PSXzMZRaGW4Q7kNvwFIzNRq&_nc_oc=AdrO6wENA7mjAiU5HVhC8yYkeajU_V3wi7W6EMFZH0jc-cgmwWm3VsJVU0yg6yk1ELU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=E0Md-XR3hvJjRA5Qy9TU2Q&_nc_ss=7f289&oh=00_AQLs8pCO86NN8BkQon01fi_s4TEGuK-tphH5fXIiA-lE5g&oe=6A9BAF12",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -998,12 +1007,12 @@
       "region": "Tarija",
       "city": "Tarija",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1133,22 +1142,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IjwZCmTKtu0Q7kNvwGcbBOn&_nc_oc=Adoj2cePdsz4jEXYMdzkPbAKwOMvTkcPQBsdL8GEdd_ttCW3umFgK6Biftxo-cHu1RM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=G90pq6MZEIL7jCw06hxWBg&_nc_ss=7f289&oh=00_AQKk96dxfe_LEI6EWJdRTd2guMF7whexadHTQx9rxPXguA&oe=6A9BD7E0",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid032vM7Zac6fheEvKBBv7NMJHCdET5EWVXd2HqsWRHuDQgpy2bbnPtSfnz8EppL3Zuvl?__cft__[0]=AZasgEG4oiB6hbQ7XhgyFAgI_ut4bHZssQfzDDfCR-wF6gZbGyahuVhYacgNvdLIDa1Q-ZJd6aMnNDJDvRZC2By4RZ5viaGqED37WzBBG8J8ulBzNMdQ2fupuCvtEmpdkFMX2-Vpy20SRszdzeuA_ceenYNf_MQOc32I8ACjheO9Lgu0ZWAnzstbTlK4zKQycW4&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "SRA. LIDIA MORÓN DE IBARRA Q.D.D.G. SRA. LIDIA MORÓN DE IBARRA Q.D.D.G."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umsa",

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-08-31T16:53:03-04:00",
+  "generated_at": "2026-08-31T20:41:14-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 47,
+    "events_total": 48,
     "events_today": 14
   },
   "filters": {
@@ -60,7 +60,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 11
+        "count": 12
       },
       {
         "key": "deporte",
@@ -102,7 +102,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 12
+        "count": 13
       },
       {
         "key": "Santa Cruz de la Sierra",
@@ -154,7 +154,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 12
+        "count": 13
       },
       {
         "key": "Santa Cruz",
@@ -196,17 +196,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 19
+        "count": 20
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 28
+        "count": 29
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 47
+        "count": 48
       }
     ],
     "price": [
@@ -223,19 +223,19 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 40
+        "count": 41
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 41
+        "count": 42
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 5
+        "count": 6
       }
     ],
     "tags": [
@@ -252,6 +252,21 @@
       {
         "key": "SucreRenace",
         "label": "SucreRenace",
+        "count": 1
+      },
+      {
+        "key": "feriainternacional",
+        "label": "feriainternacional",
+        "count": 1
+      },
+      {
+        "key": "ticket",
+        "label": "ticket",
+        "count": 1
+      },
+      {
+        "key": "LaPaz",
+        "label": "LaPaz",
         "count": 1
       },
       {
@@ -359,7 +374,7 @@
       {
         "key": "ticketera",
         "label": "ticketera",
-        "count": 3
+        "count": 4
       },
       {
         "key": "eventos",
@@ -387,6 +402,7 @@
     ],
     "tomorrow": [],
     "this_weekend": [
+      "evt_c183f2b7b229e8",
       "evt_8e7a04f1a6b6ee"
     ],
     "free": [],
@@ -414,10 +430,10 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 31,
-      "events_upcoming": 12,
-      "events_with_image": 11,
-      "events_with_video": 2,
+      "events_total": 32,
+      "events_upcoming": 13,
+      "events_with_image": 12,
+      "events_with_video": 3,
       "sources_total": 26,
       "sources_ok": 5
     },
@@ -430,7 +446,7 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 25,
+      "events_total": 24,
       "events_upcoming": 11,
       "events_with_image": 6,
       "events_with_video": 3,
@@ -443,7 +459,7 @@
       "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 3,
@@ -489,7 +505,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 60,
+      "events_total": 59,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0
@@ -524,10 +540,10 @@
     },
     "feria": {
       "label": "Ferias y expos",
-      "events_total": 12,
-      "events_upcoming": 11,
-      "events_with_image": 6,
-      "events_with_video": 4
+      "events_total": 13,
+      "events_upcoming": 12,
+      "events_with_image": 7,
+      "events_with_video": 5
     },
     "festival": {
       "label": "Festivales",
@@ -1978,6 +1994,44 @@
       "director": null,
       "cast": [],
       "quality_score": 61,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_c183f2b7b229e8",
+      "title": "SuperTicket",
+      "category": "feria",
+      "category_label": "Ferias y expos",
+      "starts_at": "2026-09-03T00:00:00-04:00",
+      "starts_at_ms": 1788408000000,
+      "ends_at_ms": 1789358340000,
+      "multi_day": true,
+      "display_date": "Del 3 al 13 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 3,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/787872799_2448108655713854_642365928815214026_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a27664&_nc_ohc=LhvwyLTT5IAQ7kNvwHmMQ7V&_nc_oc=AdofSBVNu-u0HHsXyTBmJrkkeexBEJOKqHGxfS8TbfsrxIMxy34kA3u3ntyiSNi-99g&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Wjt7-U0FdlKjYqciRADCrg&_nc_ss=7f289&oh=00_AQIJbCQFDpxeq-5Cez0-cVuw5ExrhBm7j56hr1nJ1JMy6Q&oe=6A9BD9D6",
+      "has_video": true,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 62,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
