@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T04:41:17-04:00",
+  "generated_at": "2026-09-01T10:11:59-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,13 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_conciertos_bolivia",
       "fb_gam_cbba",
       "fb_lostiempos",
-      "fb_ministerio_culturas",
-      "fb_teatro_aire_libre"
+      "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 70.3,
-    "horas_maximo_sin_datos": 301.5
+    "horas_promedio_sin_datos": 62.4,
+    "horas_maximo_sin_datos": 295.0
   },
   "sources": [
     {
@@ -45,13 +43,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FCC6J08BFcQQ7kNvwEP-3TK&_nc_oc=AdpfvtjepgiVd-ROZ2XpuSo3JI1On36sjGIeRn-Js9u-849KJOLeljhrpYhhbzHQr7o&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=UJ7bI0LenBIFDaYav8mXMg&_nc_ss=7f289&oh=00_AQKx7Wr17Au_cZJ6WFcInIH-GqpyQlyxFVYffiEnkFbYzA&oe=6A9CA1F5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Conciertos en Bolivia 53 mil seguidores • 34 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un e'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/999859663080243/?__cft__[0]=AZhSxvFd1kDZ2oAzcDKwZ3L15VImtOdi7bytPoQFbByKF5XFsU-Ciqv7dmx4GYmX2oGdXEioj7a6zjhdSpsOjwLBPfJTIC0HenaixUfU2SxQDn1VedPI7BZ8xWMCO6C2RTyduVkGratwdzLBITPHl_xYHxkE-OVwgF0TfxjaYpMaA-tAUhIV6p4XqtpzMC5-2fjS&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "𝑳𝑨 𝑽𝑶𝒁 𝑫𝑬𝑻𝑹𝑨́𝑺 𝑫𝑬 𝑼𝑵𝑨 𝑫𝑬 𝑳𝑨𝑺 𝑪𝑼𝑬𝑪𝑨𝑺 𝑴𝑨́𝑺 𝑸𝑼𝑬𝑹𝑰𝑫𝑨𝑺 𝑫𝑬 𝑩𝑶𝑳𝑰𝑽𝑰𝑨. Milton Cortez llega con sus grandes éxitos, su ba… Ver más 𝑳𝑨 𝑽𝑶𝒁 𝑫𝑬𝑻𝑹𝑨́𝑺 𝑫𝑬 𝑼𝑵𝑨 𝑫𝑬 𝑳𝑨𝑺 𝑪𝑼𝑬𝑪𝑨𝑺 𝑴𝑨́𝑺 𝑸𝑼𝑬𝑹𝑰𝑫𝑨𝑺 𝑫𝑬 𝑩𝑶𝑳𝑰𝑽𝑰𝑨. Milton Cortez llega con sus grandes éxitos, su ba… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -114,12 +121,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "blocked",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Teatro al Aire Libre Jaime Laredo La Paz-Bolivia Performance Art Theatre · Página no oficial\\ufeff Más Inicio Información Información Ver todo Cancha Zapata Ciudad La P'"
+      "error": null
     },
     {
       "id": "fb_municipio_lapaz",
@@ -283,13 +290,22 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8zpy3N7qBAMQ7kNvwFWRMrh&_nc_oc=Adqzd7Os3PNlCkMMio80aavfC4teUHFqeZ07h0RFvKAVWuE4bjPg_dWipmmhpcegad0&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=N-c9AQGq5C1j0XfoJxi-oA&_nc_ss=7f289&oh=00_AQLGWrlRdSGusNyKcwjuQCcoqojDpLiUjKNPokhoYb-WnA&oe=6A9CA8BE",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid02gDFkusfrJ9BfNGwfJrbdEaEMp8krSghkpNfme67Miz5rJDnKBQoKrLkBPBZgAcFRl?__cft__[0]=AZjxyXOa0Sb9n2jMYHKA_veire9k-dUN7hPonRnVACkZwKmU6Pkf-ozToBHScI-XF1_AhWRu8-dQj7w6f_5C6W9O1MIME22fT705QEgezkbe4BJPKlrhNHN3CzS-kS9gZWHI9g9Z6GDOsBxaEsMZeW7mpScIivkjDtWsU15aHXTlB345UnFfGuz-P04&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "El presidente del Estado, Rodrigo Paz, emitió en las últimas horas el nuevo decreto 5693 que establece la flexibilización de las reglas a entidades de intermediación fi… Ver más OPINION.COM.BO Paz emite decreto para flexibilizar reglas a entidades financieras y resguardar su solvencia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber",
@@ -419,13 +435,30 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lWLv0NRGIEoQ7kNvwEPxyNC&_nc_oc=AdqfbgeX-9JPfTNGGWvkmAHXTkrnILa5PHF-77asfof9oL6yyhXvqIFijkKtKAf77Yo&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=gN1a23_s0cVItuExWSKIXQ&_nc_ss=7f289&oh=00_AQJ9YrQgT-90qn855im2N_ssMnhWi99OaSEmy2FjIim_UQ&oe=6A9CB548",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1080411701025544/?__cft__[0]=AZgLPKz_B1KDm7WiZFiWMW3GQYNFUX6rchKg7dXUyX9yWxWTHJIarpk3p5v6fBopJ9oZE4-rLuoTiKHzbiVq7V2kCUZJuaIGBopsJPgB6cBCtQrTNi1TfvjoObAcePxU2iM_mr3oLZfDApHiGUNOlLW_C-RBkJO0rufCW9pFOmPpKkQgKazpqWJll2eFxCQKSU_U&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#GrupoFides | No te pierdas la segunda temporada de #HablarDeBoliviaConUnaTazaDeCafé con @AndrsGomezV. Espera el primer programa este martes 1 de septiembre (19:00) … Ver más Cómo me habiera gustado que seas nuestro gobernador Tenemos problemas para reproducir este video. Más información Maria Lora"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1080411701025544/?comment_id=1285933843526912&__cft__[0]=AZgLPKz_B1KDm7WiZFiWMW3GQYNFUX6rchKg7dXUyX9yWxWTHJIarpk3p5v6fBopJ9oZE4-rLuoTiKHzbiVq7V2kCUZJuaIGBopsJPgB6cBCtQrTNi1TfvjoObAcePxU2iM_mr3oLZfDApHiGUNOlLW_C-RBkJO0rufCW9pFOmPpKkQgKazpqWJll2eFxCQKSU_U&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Cómo me habiera gustado que seas nuestro gobernador Maria Lora"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_anf",
@@ -504,22 +537,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OVJ6Kys9jw0Q7kNvwExFU0B&_nc_oc=Ado_2YFPL_W4HkSql463Tvm51pf3VvqDoFl8EjyWBNnIpQOanFpU9WT8dFimPW4avpk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=SIRNOBf1-6j5KaVriZUKlw&_nc_ss=7f289&oh=00_AQKAZ_S9A0OiA7ATrZ-stS7h1BdlTALofR6YGy0hHfraXw&oe=6A9C4737",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/radiofidescb/posts/pfbid037WVYtiXxwfQBCZXFXQnwtmN5Nh2THmjbk5xwegscH26MHEDsAiXWQhBWuTdmVhiEl?__cft__[0]=AZgyXtX_JgnO-WIVH7XenH6WpsfJn7ayJQ1KVUfeQbyi_gY-rSM-ZN-uiaBG4MkN8gtwFTxgY_144t6oDRKdcafFjiMMHyHFz_KPzv-amwHooi3nUYOIUmEb5ZQalJ3qrq6mP_b2kW70DbnTo4-_0TH-r7D5G0KOtIZA-Le_2JY5JNjrGIP21bN9mUM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#GrupoFides | #FidesCochabamba Presidente Paz posesionó al coronel Adrián Javier Álvarez Arismendi como nuevo comandante General interino de la Policía Boliviana. Asi… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ministerio_culturas",
@@ -632,13 +656,22 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eg4OOrCHB4EQ7kNvwGYaluU&_nc_oc=Adr7_SgarGbGzwRbPHcvOLOBxmyKBW5hSak2sfAi0_2fRe7vpCukyxWAO7uHsLz94WQ&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=0UG1mQ5yMD_ogDYartRNPw&_nc_ss=7f289&oh=00_AQKIyq-1d9V5C3Yx6ki0zZcO9jxxkwSzHpSqjAy_VgcSyg&oe=6A9CA18F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1715208189766455/?__cft__[0]=AZhihb2U-R-B87V-QLs9lJqvv-B5FxxQIo1gso6_yfaF8sRvKtzmHZyCUt-rF7OUekfx1fUqxZESiQTXbgyInGJ3eO0xrDgeaiBGinQFhCQ6p2z2S4SEzMQYoNKDDDdCl79pnMSgZ7L6-LhZ-e3zR3NQcG0eEFTZ-6LzEFiNJEUaJqYoLe820Gc2HAocqFj6Yiv1&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Tradición, música y patrimonio se encuentran en Potosí.… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -734,30 +767,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=juQY2k1mxqwQ7kNvwHcb_u9&_nc_oc=AdrSupf2ouGvjaA6NvqFByCQfQERfTPWjQGfwNGISIriX6U32bKy-P87kJj6cAr7XU0&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=47-VRDct00KeeTKiCE-CwQ&_nc_ss=7f289&oh=00_AQKuzmFnY8fFUkTIhb-69kVSCMnERwuX2YiVKDyo2tAdFA&oe=6A9C507D",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "deporte",
-          "url": "https://www.facebook.com/GAMTDD/videos/inici%C3%B3-el-campeonato-de-futsal-sub-10-y-sub-12-en-trinidaden-un-ambiente-lleno-d/1286787571186533/",
-          "has_image": true,
-          "text_preview": "INICIÓ EL CAMPEONATO DE FUTSAL SUB-10 Y SUB-12 EN TRINIDAD En un ambiente lleno de entusiasmo y espíritu deportivo, el Gobierno Autónomo Municipal de Trinidad (GAM-T), a través de la Dirección... INICIÓ EL CAMPEONATO DE FUTSAL SUB-10 Y SUB-12 EN TRINIDAD En un ambiente lleno de entusiasmo y espíritu deportivo, el Gobierno Autónomo Municipal de..."
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1286787571186533/?comment_id=1594472015677263&__cft__[0]=AZjVIeQefN_uQfnA7g5ADz3qRIlcqMJT102f324TrVPo-pQ9nnBoSuuxNX0uSAJSDS-md-RhA-imlDlPigBuYN236u6x48a8OdE6AkWvlWjnG8eOgvmBQyDqATjHc4chLFYnbpipkVxgw4hDteKRNoec7d0QjSDoIduFc84d5CjJ_43TD8IKUFmojuavxCjDn61Y&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mucho éxito director municipal d deportes muchas gracias por apoyar al deporte estudiantil en formación siga adelante Jose David Ayala Ojeda"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_cobija",
@@ -1006,22 +1022,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z7ij_5WsQY4Q7kNvwE-L3CP&_nc_oc=AdqbEm-Ld90CPOEw0dO9U0H4-KmU0yXgkiciK-F5iNylazCstROyPL5_M96jFR72W1Q&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=JLWV7RYKxb91TljdnveGCA&_nc_ss=7f289&oh=00_AQLWRF4p2DTW46HxEM5u2z5QrG_IVAHmkM8mq6uOHuKZCg&oe=6A9C5CC3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 50,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/TarijaCultura/posts/as%C3%AD-se-vivi%C3%B3-el-lanzamiento-de-las-jornadas-sobre-historia-denominadas-la-cuesti/1350797827204957/",
-          "has_image": true,
-          "text_preview": "Así se vivió el lanzamiento de las Jornadas sobre historia denominadas “La cuestión de Tarija”, evento que todos los viernes del mes, desde este 4 de septiembre, hasta octubre, ofrece exposiciones... Así se vivió el lanzamiento de las Jornadas sobre historia denominadas “La cuestión de Tarija”, evento que todos los viernes del mes, desde este 4 de... Así se vivió el lanzamiento de las Jornadas sob"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1457,7 +1464,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
+          "score": 46,
           "category": "cine",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
@@ -1561,8 +1568,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 43,
-      "events": 43,
+      "raw_items": 31,
+      "events": 31,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1612,8 +1619,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 7,
-      "events": 7,
+      "raw_items": 6,
+      "events": 6,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1663,8 +1670,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 2,
+      "events": 2,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1781,8 +1788,8 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 3,
-      "events": 1,
+      "raw_items": 4,
+      "events": 2,
       "rejected": 2,
       "rejected_samples": [
         {
