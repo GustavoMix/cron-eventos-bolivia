@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T00:35:59-04:00",
+  "generated_at": "2026-09-02T07:21:53-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,13 +8,14 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 50.1,
-    "horas_maximo_sin_datos": 309.4
+    "horas_promedio_sin_datos": 51.7,
+    "horas_maximo_sin_datos": 316.2
   },
   "sources": [
     {
@@ -213,22 +214,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_2Q6k2RsGOcQ7kNvwEBOFwG&_nc_oc=AdolGcBWZSl7xnnTV_BxQV0GxzNprdJH0b5kvBmblqfdoYOOs20WoabOI-rzzXGCaXw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=q_btMqGMFd6Zte6NsuYwbw&_nc_ss=7f289&oh=00_AQKHwyUbtAGuVq3RfFBRKja21WUZIvwz3zrYrQ00fBOgHA&oe=6A9D7E57",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 40,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/a-216-a%C3%B1os-de-nuestra-gesta-libertaria-te-invitamos-a-conocer-y-ser-parte-del-pr/1588840429954337/",
-          "has_image": true,
-          "text_preview": "A 216 años de nuestra Gesta Libertaria, te invitamos a conocer y ser parte del Programa Oficial del 13 y 14 de septiembre. 📲 Escanea el código QR y descarga el programa completo para acompañar las... A 216 años de nuestra Gesta Libertaria, te invitamos a conocer y ser parte del Programa Oficial del 13 y 14 de septiembre. 📲 Escanea el código QR y... A 216 años de nuestra Gesta Libertaria, te invita"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -239,38 +231,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=k_AnyxXUovQQ7kNvwGROHdk&_nc_oc=AdpAFeTjTHtH6uHqhltjRRgmtEBC9THGLsnv0pjtdgrykD3eNwqOVO0N_oJ8hbKBq58&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=0sJVB7RxTVirP-Ijr6lBJw&_nc_ss=7f289&oh=00_AQLISJvo8YSReAmwtZw2ZqxoWZwXBqAzNyMIf5Jc6ErYSQ&oe=6A9D68A1",
-      "status": "ok",
-      "raw_items": 3,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 3,
-      "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1411156884451485/?__cft__[0]=AZi6EWXkqWAHn9pxToePg-tuYlfoefHl5vILKUoSULo200jP6P7nXYApy4ZRZfkk5rh5w_4b6rw0gtGrtBUJW7CHEEZV84sehiVc73MsHyc3pDpoPHcl5xpv2UEIXdkzwcMsZBFmST1M-p_pe5eztGEWM2jNEipUHnaO83HgUqS8ufaee4J9lT2gJ0Ymduc76AMY&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡Santa Cruz ya tiene nueva Reina! El pueblo eligió y hoy presentamos con orgullo a Camila Zenteno, nuestra nueva Reina de Santa Cruz. … Ver más ¡Santa Cruz ya tiene nueva Reina! El pueblo eligió y hoy presentamos con orgullo a Camila Zenteno, nuestra nueva Reina de Santa Cruz. … Ver más Deberían de habilitare votaciones por Internet para que el mismo pueblo proponga candidatas y también vote para "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1411156884451485/?comment_id=1341636758051157&__cft__[0]=AZi6EWXkqWAHn9pxToePg-tuYlfoefHl5vILKUoSULo200jP6P7nXYApy4ZRZfkk5rh5w_4b6rw0gtGrtBUJW7CHEEZV84sehiVc73MsHyc3pDpoPHcl5xpv2UEIXdkzwcMsZBFmST1M-p_pe5eztGEWM2jNEipUHnaO83HgUqS8ufaee4J9lT2gJ0Ymduc76AMY&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Deberían de habilitare votaciones por Internet para que el mismo pueblo proponga candidatas y también vote para elegirla Guisela Velarde Zurita"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1411156884451485/?comment_id=1341636758051157&reply_comment_id=2866492940400973&__cft__[0]=AZi6EWXkqWAHn9pxToePg-tuYlfoefHl5vILKUoSULo200jP6P7nXYApy4ZRZfkk5rh5w_4b6rw0gtGrtBUJW7CHEEZV84sehiVc73MsHyc3pDpoPHcl5xpv2UEIXdkzwcMsZBFmST1M-p_pe5eztGEWM2jNEipUHnaO83HgUqS8ufaee4J9lT2gJ0Ymduc76AMY&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Guisela Velarde Zurita asi se realizo la elección....te enteraste un poco tarde no? Barg Cast"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_scz",
@@ -570,22 +537,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WG5VS5HgaJcQ7kNvwFEPWMl&_nc_oc=Adqqmcqfvp7ZT9O6vR5R4zMwE9NoazORQ2Wss46poewFT08EvTOrYvLfMs8EA5TOHPE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=rtbEQwReCh8oXeQTxocYZQ&_nc_ss=7f289&oh=00_AQJnRX_De0SBeZWmk1ZWVh5iHpnmv-Dm95xke8ehdkCGlQ&oe=6A9D7833",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid02MmyjsZ4UdWcTJgLWbPeE8DteMhnqYkJVRQLAsuzXvGUTKQuQdY5vf5VpGp5d5QhUl?__cft__[0]=AZgRh_XeSYwJoWDf9pChh0jE9FgytxSBSqgXUmNPOyj81iyi28pBsB2x79x3hyy0cIDBZCeBd3G2LXrkf53rl325ySmIPiy4WLMVnci-724A2-KCRj7s3R9wAuL3FkI_GRNDXmqhc6UtTK2OKBKyuA9JHoeU2bhDSpoR0_zDTQYgA311R343Rubx9kQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Fundación Cultural BCB reconoce los 100 años de la Anba Hernando Siles … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -647,13 +605,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_Brgqpp8laUQ7kNvwGZP22W&_nc_oc=AdrlGyNSylH45TExiTKTtaEqdLFV_7gjGzj0CMjUFO75xDKDZ4acj3Uiv1bbKlj7d60&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=hu8K_T3pGDh7Mz0UQIPzdg&_nc_ss=7f289&oh=00_AQLmsstNI8TjJ5ZeW_e7Lh0UjU4obLLWVJbeYeYegVmvNw&oe=6A9DDB73",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/agendacultural-l-%F0%9D%97%A6%F0%9D%97%B2%F0%9D%97%BD%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%B2%F0%9D%97%BA%F0%9D%97%AF%F0%9D%97%BF%F0%9D%97%B2-%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%B4%F0%9D%97%AE-%F0%9D%97%B0%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B4%F0%9D%97%AE%F0%9D%97%B1%F0%9D%97%BC-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B0%F0%9D%98%82%F0%9D%97%B9%F0%9D%98%81%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%AE-%F0%9D%97%AE%F0%9D%97%B9-%F0%9D%97%A0%F0%9D%97%A8%F0%9D%97%A6%F0%9D%97%98%F0%9D%97%99conciertos-ferias-r/1571215895049471/",
+          "has_image": true,
+          "text_preview": "#AgendaCultural l 🎶 𝗦𝗲𝗽𝘁𝗶𝗲𝗺𝗯𝗿𝗲 𝗹𝗹𝗲𝗴𝗮 𝗰𝗮𝗿𝗴𝗮𝗱𝗼 𝗱𝗲 𝗰𝘂𝗹𝘁𝘂𝗿𝗮 𝗮𝗹 𝗠𝗨𝗦𝗘𝗙 Conciertos, ferias, recitales de charango, conversatorios y la #RAE viajando hasta Trinidad. Un mes para celebrar la música, el... #AgendaCultural l 🎶 𝗦𝗲𝗽𝘁𝗶𝗲𝗺𝗯𝗿𝗲 𝗹𝗹𝗲𝗴𝗮 𝗰𝗮𝗿𝗴𝗮𝗱𝗼 𝗱𝗲 𝗰𝘂𝗹𝘁𝘂𝗿𝗮 𝗮𝗹 𝗠𝗨𝗦𝗘𝗙 Conciertos, ferias, recitales de charango, conversatorios y la #RAE viajando hasta... #AgendaCultural l 𝗦𝗲𝗽𝘁𝗶𝗲𝗺𝗯𝗿𝗲 𝗹𝗹𝗲𝗴𝗮 𝗰𝗮𝗿𝗴𝗮𝗱𝗼 𝗱𝗲 𝗰𝘂𝗹𝘁𝘂𝗿𝗮"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -903,12 +870,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -919,22 +886,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=opQ56QScBGsQ7kNvwFRGFIq&_nc_oc=Adp_-aVknde_tUn5ZTdgVAL_8VSocYQbZKaz6ON3MLL9nWPyLVqxn5T_GyUdoyujbuE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Xb3hXIlyelXwb4WVyG2big&_nc_ss=7f289&oh=00_AQLHsafN4t5DzNlA1qbrcPDjivxIh2TqGMlTDE3IvLMbvw&oe=6A9D7BA7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1697982181258359/?__cft__[0]=AZgWdj0T6lAYXo5h1Z8N5b3aQ3WfDdkoh5B53q-Id8BfcdXOpFRBGscw0NSSvqmzfO7mky1mlq8XQJ5uIAcJzrAxFF9VqGsL6FcJQUjVMh1JR-W7fP8Dr7cLKU1a-OFu_7W9Z_PsFRrKpITGEnmLKEXDKM_abm3iRqvvz-EWuzxZZqjd14QAfpVymXFAAFze0Jkj&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#EmbajadoresPatiño I Conociendo nuestros espacios desde la mirada de nuestros colegas… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -996,13 +954,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nCTGmC-UGDQQ7kNvwE_wiuu&_nc_oc=AdpX9PtS8eaf7ihawQWY3-a6ELVlZ2e2SesSS6-udiesRF8RibUHT6OmIzUJrGZJTO0&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=fQOzrwnCmU7AyRgBhoTEmw&_nc_ss=7f289&oh=00_AQJNo4vtuQbuwEQMEbOBqIarDLzZk7ohLCOZVslczRSC-w&oe=6A9DEC17",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/videos/invitaci%C3%B3n-te-esperamos-en-las-salas-de-la-planta-baja-para-participar-de-nativa/1095291232875669/",
+          "has_image": true,
+          "text_preview": "*INVITACIÓN.* Te esperamos en las salas de la planta baja para participar de *NATIVA: Intervención sonora*. Una experiencia de escucha que propone recorrer paisajes sonoros intervenidos en diálogo... *INVITACIÓN.* Te esperamos en las salas de la planta baja para participar de *NATIVA: Intervención sonora*. Una experiencia de escucha que propone..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1047,22 +1014,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QfODpvOQsMUQ7kNvwGf8Qbd&_nc_oc=AdriK2oVglkDJjVlbX2csPFDzSOXPyVGyXMvJJVeja9tfFdsZk3-mA6EHGtwgJPdoU8&_nc_zt=24&_nc_ht=scontent-qro1-1.xx&_nc_gid=YsELz1j4W7L_moZl73ywWw&_nc_ss=7f289&oh=00_AQI7rpLzOv8g-gyQgUkQk2p5u7nE_eCaenLqSBSjOGcOqg&oe=6A9D74F4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/830569040083505/?__cft__[0]=AZgWOkLFBaR1-nERw5-naUNr1SVE04uZZdR6nd0YnRu0CiGsH3V42R4bKfKL_4ANd-6_76S5QAgWoyMmHLsMAHPKYH19Jni1LF0OhU0_0tuj2G4-feOW29Xa0D0TnAC9y-wsJH82faUMzALKXSPN9HJIiuurk38e_sefdQmXLgjuo33R6SuRBeAGLJo8A9pYrfEC&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#EmbajadoresPatiño I Conociendo nuestros espacios desde la mirada de nuestros colegas… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1073,13 +1031,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=W79_itbo1nIQ7kNvwH9Olgn&_nc_oc=AdrQHPbrf0aZ9i4sgLSQYWBHBa5b9iFTnCE_Dexx_T9XYoNR5MD0AyjrtSVRRlJk_Y0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zTcjLcZ3JwVdxxAB92zzbA&_nc_ss=7f289&oh=00_AQIaUWwmrirc2GuOP7wbgCyWhIcT16ukjoyze6dfcrgpmA&oe=6A9DEECF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid0EaUEKDFLk9k3mBcVh1RqawCwT6QKYuMAXwPZFMSj5vziBnxMEQ3Yq3b7j7iqtdsml?__cft__[0]=AZjpbfTYYmDiAMI6tIASd9tcGUNKxZYPF6i1qbhRYBHKGs7qPjHNbVeggtEAGNAose1dTYrztTn_W4e2kZbp93O6XgU5bgGc89sD_cpmWYZsX5iUCqtkTrWEbwzrAL-Q5BIlktTNrVVgju9jAPXswUyeICC_vYyUgwn3dGzEFz0bRh3jool4VvZ2Py8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Bienvenido, septiembre! C… Ver más ¡Bienvenido, septiembre! C… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1158,13 +1125,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Z03Kcc1bkn0Q7kNvwFehSP9&_nc_oc=AdoNoZ7_zYFMyfMAzfNtDnL0eRS4fY0dkKegS8kHEtrsZBLPkGGSs0-qtn5TVu-u53Y&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=c6im8R65dpKlXynoeRyI-g&_nc_ss=7f289&oh=00_AQIHuzfbo-Mw6IiPAgVpaEM30Jn0ZqXI2D3LLSbccpsc1A&oe=6A9DC824",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 50,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/musefsucre/posts/musefsucre-%F0%9D%90%93aller-de-arte-y-graficadesde-el-1-de-septiembre-mes-de-la-primera-in/1592933905955110/",
+          "has_image": true,
+          "text_preview": "#MUSEFSucre | ✨🖌 𝐓ALLER DE ARTE Y GRAFICA Desde el 1 de septiembre MES DE LA PRIMERA, Iniciamos un nuevo ciclo con el Taller de Técnicas de Expresión Artísticas para niños, jóvenes y adultos donde... #MUSEFSucre | ✨🖌 𝐓ALLER DE ARTE Y GRAFICA Desde el 1 de septiembre MES DE LA PRIMERA, Iniciamos un nuevo ciclo con el Taller de Técnicas de Expresión... #MUSEFSucre | 𝐓ALLER DE ARTE Y GRAFICA Desde el"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid08tsf1ZTWvYvJz8BtzpvnSefM4mCAtsvsNuVp3CvzVDfMkjNqNcQm8gNwfSiRHLNHl?comment_id=1026983337010519&__cft__[0]=AZjpWa-xNg9HJaqlcGAiaCTSD9nBh_diSq8MBFXm9MTNGgH5pq3eo7gpKsxT28ZPnmbajf01ctzB6HkDI0Lb-xHSlZfmWpV7gufRJpGcZCb2Nwv9FNg_TvBEShxJH_TLrIczBUYw7meZUNWY_-L6LjD5pS2alm4a08NYl7OT_eRPFJFO2U8KgJAZ1Qg&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Muchas gracias MUSEF Regional Sucre Maryy Ríos"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1361,7 +1345,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1855,12 +1839,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": null
     }
   ]
 }
