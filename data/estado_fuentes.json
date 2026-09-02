@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T07:21:53-04:00",
+  "generated_at": "2026-09-02T12:37:12-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 51.7,
-    "horas_maximo_sin_datos": 316.2
+    "horas_promedio_sin_datos": 50.9,
+    "horas_maximo_sin_datos": 321.4
   },
   "sources": [
     {
@@ -248,13 +248,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RAFGnMGmve8Q7kNvwHAZdFW&_nc_oc=AdobMX2cVn_y0bTuXcxhSLweCH7KZkVI42eOZPapT2EbiQdzstnSrvGqbmGnmXzQaA8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=cj2V5JHFUd7cBWIISlySPQ&_nc_ss=7f289&oh=00_AQKHn9EJ-4KQ8Ia1q12d9Eznm_Z6dH-dNgdmgFFps04oOg&oe=6A9E343E",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid0LZkwdhJexbGLriXAvfccqJNUxHp69s2gW9uKeCcGTfGspPq54fQLSPSGnd2Gd8D8l?__cft__[0]=AZjsA7RgJzTy75b_4B-psnf9RMALQJRzAS2azG5zRGYdNvpRip5h2ek6a5fOGiwIxVtJg9ydsTkynjbk5iPv2UEz43Xh7rbQoMnQkwZF66xCbl81UIjtElS73kd1wMDqICudIGbmcLIJXKPqY-r4Ip91CIGBRISOg50SwOWc-14mPNdjK-bwwngD8CL2_tIOlVBH5hviS48vMwQXch4&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Hoy va a ser un gran día para SCZ JP Velasco 4 h · Ver más comentarios Matías Ernesto"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_lostiempos",
@@ -588,13 +597,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=goKJ84SD9dkQ7kNvwE0dzyJ&_nc_oc=Adp5XB_PgCY3jroNn6IY6ghNrsa-23H-Stpz85-XBiWArOyA1TOsR3ky-Oj38u1xJLE&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=XU3drdHuoFxOSphJ1BNTLg&_nc_ss=7f289&oh=00_AQLJlnP2HWURKFvTYpzmRy4BmPPo3S9AHzLsK7NVw1LMBg&oe=6A9E2680",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid02UZMWAoFnTVhkky2gJoHx4KbkzmTwGNJw3DpTnAGnSt98nDgHLtaS4Y5xuE6yH23Xl?__cft__[0]=AZjvg0BlzudSCxGIV9RppsCGOYlCjc9bx9qHkl5NuYVmu7h0ze-z3FKrYAgIv6PjMBti0JYlLLR90snV3kCHYJRLOMh6p_zzeQqz88Q6qDCYbqVuaac5Rx9yZ4jbodQTpopSu3TgOYuKwi07sjw_dY8rYWSbmcQ5cqIBz9NpL4M4el_HrQW5DYpy_iU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#MNA | Septiembre llega con arte, encuentros y nuevas historias … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -605,22 +623,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_Brgqpp8laUQ7kNvwGZP22W&_nc_oc=AdrlGyNSylH45TExiTKTtaEqdLFV_7gjGzj0CMjUFO75xDKDZ4acj3Uiv1bbKlj7d60&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=hu8K_T3pGDh7Mz0UQIPzdg&_nc_ss=7f289&oh=00_AQLmsstNI8TjJ5ZeW_e7Lh0UjU4obLLWVJbeYeYegVmvNw&oe=6A9DDB73",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/agendacultural-l-%F0%9D%97%A6%F0%9D%97%B2%F0%9D%97%BD%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%B2%F0%9D%97%BA%F0%9D%97%AF%F0%9D%97%BF%F0%9D%97%B2-%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%B4%F0%9D%97%AE-%F0%9D%97%B0%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B4%F0%9D%97%AE%F0%9D%97%B1%F0%9D%97%BC-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B0%F0%9D%98%82%F0%9D%97%B9%F0%9D%98%81%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%AE-%F0%9D%97%AE%F0%9D%97%B9-%F0%9D%97%A0%F0%9D%97%A8%F0%9D%97%A6%F0%9D%97%98%F0%9D%97%99conciertos-ferias-r/1571215895049471/",
-          "has_image": true,
-          "text_preview": "#AgendaCultural l 🎶 𝗦𝗲𝗽𝘁𝗶𝗲𝗺𝗯𝗿𝗲 𝗹𝗹𝗲𝗴𝗮 𝗰𝗮𝗿𝗴𝗮𝗱𝗼 𝗱𝗲 𝗰𝘂𝗹𝘁𝘂𝗿𝗮 𝗮𝗹 𝗠𝗨𝗦𝗘𝗙 Conciertos, ferias, recitales de charango, conversatorios y la #RAE viajando hasta Trinidad. Un mes para celebrar la música, el... #AgendaCultural l 🎶 𝗦𝗲𝗽𝘁𝗶𝗲𝗺𝗯𝗿𝗲 𝗹𝗹𝗲𝗴𝗮 𝗰𝗮𝗿𝗴𝗮𝗱𝗼 𝗱𝗲 𝗰𝘂𝗹𝘁𝘂𝗿𝗮 𝗮𝗹 𝗠𝗨𝗦𝗘𝗙 Conciertos, ferias, recitales de charango, conversatorios y la #RAE viajando hasta... #AgendaCultural l 𝗦𝗲𝗽𝘁𝗶𝗲𝗺𝗯𝗿𝗲 𝗹𝗹𝗲𝗴𝗮 𝗰𝗮𝗿𝗴𝗮𝗱𝗼 𝗱𝗲 𝗰𝘂𝗹𝘁𝘂𝗿𝗮"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -920,13 +929,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8X23QXYaADIQ7kNvwHCz97a&_nc_oc=AdoaY8cg-8Zdw9xrgDJO5wXMmAZ_rNDYLdbDQBJD4xzwYJI4a8YX_dJpvLnpSzJqfnk&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=JhMvQuOXniN6l4VC12OATw&_nc_ss=7f289&oh=00_AQIuwdfSWF2RHeDz7thFJXncJaOsDE3P56KTWpLIgW4IDg&oe=6A9E2B38",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "danza",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02usgdyffePQ1EXmnYpr3sQcbiS69MRi9nqt7A9WDZUNUQCfWjprD5Y3meubdudxCJl?__cft__[0]=AZj1ZGJEKRmquGw774NxLor4Ot5p9xeuW-c3dB7gJF_uJWyl6KE8xHgdMYhWJEaFhcTn5atQDO0HpKAyYOITCSaX3dkqTSJDUY4CFB6_OMG8brLkpxlpcdzUkoZfFuYOcgIVK69FEs-3Wapikx2Mh0NVIiA6eAJ2MqHulOAbP6gEjKsaWA4GGq56Fsk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "MORENADA, HISTORIA Y TRADICIÓN Una danza que lleva en sus colores, personajes y símbolos parte de la identidad cultural de Bolivia. E… Ver más MORENADA, HISTORIA Y TRADICIÓN Una danza que lleva en sus colores, personajes y símbolos parte de la identidad cultural de Bolivia. E… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -954,22 +972,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nCTGmC-UGDQQ7kNvwE_wiuu&_nc_oc=AdpX9PtS8eaf7ihawQWY3-a6ELVlZ2e2SesSS6-udiesRF8RibUHT6OmIzUJrGZJTO0&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=fQOzrwnCmU7AyRgBhoTEmw&_nc_ss=7f289&oh=00_AQJNo4vtuQbuwEQMEbOBqIarDLzZk7ohLCOZVslczRSC-w&oe=6A9DEC17",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/videos/invitaci%C3%B3n-te-esperamos-en-las-salas-de-la-planta-baja-para-participar-de-nativa/1095291232875669/",
-          "has_image": true,
-          "text_preview": "*INVITACIÓN.* Te esperamos en las salas de la planta baja para participar de *NATIVA: Intervención sonora*. Una experiencia de escucha que propone recorrer paisajes sonoros intervenidos en diálogo... *INVITACIÓN.* Te esperamos en las salas de la planta baja para participar de *NATIVA: Intervención sonora*. Una experiencia de escucha que propone..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1031,22 +1040,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=W79_itbo1nIQ7kNvwH9Olgn&_nc_oc=AdrQHPbrf0aZ9i4sgLSQYWBHBa5b9iFTnCE_Dexx_T9XYoNR5MD0AyjrtSVRRlJk_Y0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zTcjLcZ3JwVdxxAB92zzbA&_nc_ss=7f289&oh=00_AQIaUWwmrirc2GuOP7wbgCyWhIcT16ukjoyze6dfcrgpmA&oe=6A9DEECF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid0EaUEKDFLk9k3mBcVh1RqawCwT6QKYuMAXwPZFMSj5vziBnxMEQ3Yq3b7j7iqtdsml?__cft__[0]=AZjpbfTYYmDiAMI6tIASd9tcGUNKxZYPF6i1qbhRYBHKGs7qPjHNbVeggtEAGNAose1dTYrztTn_W4e2kZbp93O6XgU5bgGc89sD_cpmWYZsX5iUCqtkTrWEbwzrAL-Q5BIlktTNrVVgju9jAPXswUyeICC_vYyUgwn3dGzEFz0bRh3jool4VvZ2Py8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Bienvenido, septiembre! C… Ver más ¡Bienvenido, septiembre! C… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1057,13 +1057,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8ubfPXJ9oOcQ7kNvwGUYJUG&_nc_oc=Adqz40m4Ucb8xln8FG7fdCedIfUjJvcMEHdU0ce0Myw5m-ovX1sA0LNZKkeaTLOgi7Q&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=-YkssJpx2kMIbhqgp09dSQ&_nc_ss=7f289&oh=00_AQKFbf0Tpaa9vweukW-nEYoU5AYW7z1WmZUii-OH9ofIMA&oe=6A9E06D5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02NyKyPUxTz56yfqwj6sPm6MPuvDo2fYyA4kGnFn3ZDgTVNhPG8pdcV7qMoFMqWozRl?__cft__[0]=AZjLiVLEnTspZ1kCLPyRBPI5x47SzqbDT5nz1VwQqJZaAWE9lqQM-8QMUcUMDwSq2yXQg-yFaI3s7-UJQwfK9GPsyK8H77CLcb3lMv25KdphiIAoOLfRe8P0y0xW4tOxuQ3bs7xTMTlyzsUfS6Mxjnc3Am7kDuhh1-mg3J6WyFY6EVzwv5EOyXr9EDA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡No te pierdas el club de conversación este viernes con Tanguy! Nivel: B1 recomendado… Ver más ¡No te pierdas el club de conversación este viernes con Tanguy! Nivel: B1 recomendado… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1125,30 +1134,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Z03Kcc1bkn0Q7kNvwFehSP9&_nc_oc=AdoNoZ7_zYFMyfMAzfNtDnL0eRS4fY0dkKegS8kHEtrsZBLPkGGSs0-qtn5TVu-u53Y&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=c6im8R65dpKlXynoeRyI-g&_nc_ss=7f289&oh=00_AQIHuzfbo-Mw6IiPAgVpaEM30Jn0ZqXI2D3LLSbccpsc1A&oe=6A9DC824",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 50,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/musefsucre/posts/musefsucre-%F0%9D%90%93aller-de-arte-y-graficadesde-el-1-de-septiembre-mes-de-la-primera-in/1592933905955110/",
-          "has_image": true,
-          "text_preview": "#MUSEFSucre | ✨🖌 𝐓ALLER DE ARTE Y GRAFICA Desde el 1 de septiembre MES DE LA PRIMERA, Iniciamos un nuevo ciclo con el Taller de Técnicas de Expresión Artísticas para niños, jóvenes y adultos donde... #MUSEFSucre | ✨🖌 𝐓ALLER DE ARTE Y GRAFICA Desde el 1 de septiembre MES DE LA PRIMERA, Iniciamos un nuevo ciclo con el Taller de Técnicas de Expresión... #MUSEFSucre | 𝐓ALLER DE ARTE Y GRAFICA Desde el"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid08tsf1ZTWvYvJz8BtzpvnSefM4mCAtsvsNuVp3CvzVDfMkjNqNcQm8gNwfSiRHLNHl?comment_id=1026983337010519&__cft__[0]=AZjpWa-xNg9HJaqlcGAiaCTSD9nBh_diSq8MBFXm9MTNGgH5pq3eo7gpKsxT28ZPnmbajf01ctzB6HkDI0Lb-xHSlZfmWpV7gufRJpGcZCb2Nwv9FNg_TvBEShxJH_TLrIczBUYw7meZUNWY_-L6LjD5pS2alm4a08NYl7OT_eRPFJFO2U8KgJAZ1Qg&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Muchas gracias MUSEF Regional Sucre Maryy Ríos"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1345,7 +1337,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1444,9 +1436,18 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 13,
-      "rejected": 0,
-      "rejected_samples": [],
+      "events": 12,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 39,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "has_image": true,
+          "text_preview": "02/09/2026 Cultura Thaqhata conquista su primer galardón internacional y va por más El cortometraje boliviano Thaqhata alcanzó su primera estrella en el contexto universal en el Festival Internacional del Cine de los Andes (FICA), en Cusco,... vista 31/08/2026 Cultura La IA bajo la mirada de la Iglesia y la filosofía No es casualidad que corrientes ateas y creyentes confluyan más o menos en lo mis"
+        }
+      ],
       "error": null
     },
     {
@@ -1774,7 +1775,7 @@
           "category": "concierto",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
-          "text_preview": "feria profesiografica pago qr bus Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para e"
+          "text_preview": "pago qr bus Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para esta nueva gestión: Res"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
@@ -1839,12 +1840,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "[Errno 101] Network is unreachable"
     }
   ]
 }
