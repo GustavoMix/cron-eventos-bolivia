@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-02T17:05:48-04:00",
+  "generated_at": "2026-09-02T19:21:55-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 49,
-    "events_today": 16
+    "events_total": 51,
+    "events_today": 18
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 17
+        "count": 20
       },
       {
         "key": "feria",
@@ -65,7 +65,7 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 7
+        "count": 6
       },
       {
         "key": "concierto",
@@ -97,7 +97,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 13
+        "count": 15
       },
       {
         "key": "Santa Cruz de la Sierra",
@@ -142,14 +142,14 @@
     ],
     "departments": [
       {
+        "key": "La Paz",
+        "label": "La Paz",
+        "count": 15
+      },
+      {
         "key": "Cochabamba",
         "label": "Cochabamba",
         "count": 14
-      },
-      {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 13
       },
       {
         "key": "Santa Cruz",
@@ -186,22 +186,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 16
+        "count": 18
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 20
+        "count": 22
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 29
+        "count": 31
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 49
+        "count": 51
       }
     ],
     "price": [
@@ -213,19 +213,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 11
+        "count": 7
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 38
+        "count": 44
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 44
+        "count": 45
       },
       {
         "key": "con_video",
@@ -234,21 +234,6 @@
       }
     ],
     "tags": [
-      {
-        "key": "FEXPOCRUZ",
-        "label": "FEXPOCRUZ",
-        "count": 2
-      },
-      {
-        "key": "Expocruz2026",
-        "label": "Expocruz2026",
-        "count": 2
-      },
-      {
-        "key": "OportunidadesParaTodos",
-        "label": "OportunidadesParaTodos",
-        "count": 2
-      },
       {
         "key": "SucreRenace",
         "label": "SucreRenace",
@@ -275,8 +260,18 @@
         "count": 1
       },
       {
-        "key": "RumboAExpocruz2026",
-        "label": "RumboAExpocruz2026",
+        "key": "FEXPOCRUZ",
+        "label": "FEXPOCRUZ",
+        "count": 1
+      },
+      {
+        "key": "Expocruz2026",
+        "label": "Expocruz2026",
+        "count": 1
+      },
+      {
+        "key": "OportunidadesParaTodos",
+        "label": "OportunidadesParaTodos",
         "count": 1
       },
       {
@@ -349,7 +344,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 17
+        "count": 19
       },
       {
         "key": "cartelera_cine",
@@ -387,6 +382,7 @@
       "evt_c3c86916109954",
       "evt_2d4954f42be22a",
       "evt_85adb558540fea",
+      "evt_daffc3021e23ef",
       "evt_a650d3d21b1b96",
       "evt_225ed759c7cd70",
       "evt_125a36458e256d",
@@ -395,6 +391,7 @@
       "evt_5d95fcf4b3aedb",
       "evt_b27bf84bae6259",
       "evt_d19b0a2f92899c",
+      "evt_c010f47b13bfd5",
       "evt_f7ad706580c05f"
     ],
     "tomorrow": [
@@ -419,23 +416,19 @@
       "evt_4b62fe890949b9",
       "evt_b27bf84bae6259",
       "evt_d19b0a2f92899c",
-      "evt_f7ad706580c05f",
-      "evt_fbb72036092517",
       "evt_8cb970f0050dc7",
-      "evt_b241df7de02d67",
       "evt_a57be552692d03",
       "evt_f4ea8de87e8c3d",
       "evt_b738d5075ee0af",
       "evt_2821894c1d5322",
-      "evt_ab2d744f1fbd8e",
-      "evt_eb0182ea391c59"
+      "evt_ab2d744f1fbd8e"
     ]
   },
   "coverage_by_department": {
     "La Paz": {
       "events_total": 43,
-      "events_upcoming": 13,
-      "events_with_image": 12,
+      "events_upcoming": 15,
+      "events_with_image": 14,
       "events_with_video": 3,
       "sources_total": 26,
       "sources_ok": 6
@@ -446,15 +439,15 @@
       "events_with_image": 14,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 24,
+      "events_total": 23,
       "events_upcoming": 11,
-      "events_with_image": 7,
+      "events_with_image": 6,
       "events_with_video": 3,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
       "events_total": 8,
@@ -462,10 +455,10 @@
       "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
-      "events_total": 4,
+      "events_total": 3,
       "events_upcoming": 2,
       "events_with_image": 2,
       "events_with_video": 0,
@@ -502,15 +495,15 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 1
     }
   },
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 69,
-      "events_upcoming": 17,
-      "events_with_image": 17,
+      "events_total": 68,
+      "events_upcoming": 20,
+      "events_with_image": 20,
       "events_with_video": 0
     },
     "concierto": {
@@ -523,8 +516,8 @@
     "deporte": {
       "label": "Deportes",
       "events_total": 8,
-      "events_upcoming": 7,
-      "events_with_image": 7,
+      "events_upcoming": 6,
+      "events_with_image": 6,
       "events_with_video": 0
     },
     "exposicion": {
@@ -538,7 +531,7 @@
       "label": "Ferias y expos",
       "events_total": 15,
       "events_upcoming": 14,
-      "events_with_image": 10,
+      "events_with_image": 9,
       "events_with_video": 5
     },
     "festival": {
@@ -557,7 +550,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 5,
+      "events_total": 4,
       "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
@@ -1193,6 +1186,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_daffc3021e23ef",
+      "title": "Ciclo de cine en La Troje",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-02T14:50:00-04:00",
+      "starts_at_ms": 1788375000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 2 de septiembre · 14:50",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Estadio Hernando Siles",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_a650d3d21b1b96",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1766,15 +1797,15 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_f7ad706580c05f",
-      "title": "Espectáculos",
-      "category": "deporte",
-      "category_label": "Deportes",
-      "starts_at": "2026-09-02T22:33:00-04:00",
-      "starts_at_ms": 1788402780000,
+      "event_id": "evt_c010f47b13bfd5",
+      "title": "Espectáculo de danza: Negra",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-02T19:00:00-04:00",
+      "starts_at_ms": 1788390000000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Miércoles 2 de septiembre · 22:33",
+      "display_date": "Miércoles 2 de septiembre · 19:00",
       "lifecycle": "hoy",
       "lifecycle_label": "Hoy",
       "days_until": 0,
@@ -1782,13 +1813,13 @@
       "city": "La Paz",
       "department": "La Paz",
       "venue": "Estadio Hernando Siles",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/7/24/12_dc_cartelera_1_0.jpg?itok=9MQ7b8B8",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 1.0,
-      "currency": "BOB",
-      "price_label": "Bs 1 - 18",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -1798,8 +1829,46 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
+      "quality_score": 61,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_f7ad706580c05f",
+      "title": "Balau: Taller de cajón peruano",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-02T21:30:00-04:00",
+      "starts_at_ms": 1788399000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 2 de septiembre · 21:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Estadio Hernando Siles",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
@@ -2090,9 +2159,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 1.0,
-      "currency": "BOB",
-      "price_label": "Bs 1",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -2102,8 +2171,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
@@ -2185,14 +2254,14 @@
     },
     {
       "event_id": "evt_b241df7de02d67",
-      "title": "Todo lo que necesitás saber sobre Expocruz 2026 lo encontrás en https://www.fexpocruz.com.bo/expocruz-2026",
+      "title": "Expocruz 2026",
       "category": "feria",
       "category_label": "Ferias y expos",
-      "starts_at": "2026-09-18T00:00:00-04:00",
-      "starts_at_ms": 1789704000000,
+      "starts_at": "2026-09-18T17:00:00-04:00",
+      "starts_at_ms": 1789765200000,
       "ends_at_ms": 1790567940000,
       "multi_day": true,
-      "display_date": "Del 18 al 27 de septiembre",
+      "display_date": "Del 18 al 27 de septiembre · 17:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
       "days_until": 16,
@@ -2200,13 +2269,13 @@
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
       "venue": "Fexpocruz",
-      "image_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.99422-6/793000787_1370993658568431_7639678625741635128_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=cae128&_nc_ohc=gNn2n-OlF3YQ7kNvwEHzzEb&_nc_oc=AdqplvSuDWBWtzDHu2KMcEYL-2hQGMWj9lI7oPl3WX-aBf-Ipi7CSm5V3rNUOxmg5KE&_nc_zt=14&_nc_ht=scontent-fra5-2.xx&_nc_gid=uhYTBJxRBJCcMF2GWhEvqQ&_nc_ss=7f289&oh=00_AQJRWXwqZxalRNYM_HmZlDmZ5rBLRwJb1pQ5a9fJDmC23w&oe=6A9E6AD9",
+      "image_url": null,
       "has_video": true,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 24.0,
-      "currency": "BOB",
-      "price_label": "Bs 24",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -2216,8 +2285,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 88,
-      "is_featured": true,
+      "quality_score": 54,
+      "is_featured": false,
       "status": "programado",
       "source_count": 2
     },
@@ -2926,9 +2995,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 1.0,
-      "currency": "BOB",
-      "price_label": "Bs 1 - 18",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -2938,8 +3007,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },

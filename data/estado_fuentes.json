@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T17:05:48-04:00",
+  "generated_at": "2026-09-02T19:21:55-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 48.2,
-    "horas_maximo_sin_datos": 325.9
+    "horas_promedio_sin_datos": 43.4,
+    "horas_maximo_sin_datos": 328.2
   },
   "sources": [
     {
@@ -95,13 +95,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DC7KDWp6v8cQ7kNvwEtB5eW&_nc_oc=AdpV06tvsaSzcnLedKaGwNhbpWwE9uBr8AyBwDWSzaSIiGl_Ipmot9jUi5ZBBAAwXyg&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=-q6-Ehgirr7oezdB_u8TCA&_nc_ss=7f289&oh=00_AQIfgCc9xWUT9iM13qEZmohZQU-AaaBDelFEd7J9iWkpTw&oe=6A9E5C10",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -180,30 +180,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Hh4F2u-8Ln0Q7kNvwF8e6B_&_nc_oc=Adr-LGOVHoZVFMNhjbP9WXuOssJEi5LAdQRSMOjdW_lpwubd6VIZ87BSfja_gLH-y9c&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=Dg6U5YP4U3_xjDVLqQBwQw&_nc_ss=7f289&oh=00_AQLkAPHxbu5ATz-2RgGAQfoQLiB-63M-LuUAPb9JNcBMsg&oe=6A9E6538",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobernaciondelapaz/videos/4619485561608159/?__cft__[0]=AZim4xwfJAyXzBrF29Stu47PfbUYQHoCE2Jne9ewVNyCELLqbsIyX4b0O-vnzbNCsGHQuONXl-uFSQtjSZIYplTrvA4VI7ljX_D5AE7KP4ozcqR531wIQ2Qxlgp5gVgMfvgSZqjfAaBKgcDfeFwY8avmqAfY0TZov2XHWvxXdqz9jnL8ZUx8i1bjeLUGZqhUmNo&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#EnVivo | Socialización del proyecto de ley de “Regulación y articulación del financiamiento climático y de biodiversidad en Bolivia”… Ver más #EnVivo | Socialización del proyecto de ley de “Regulación y articulación del financiamiento climático y de biodiversidad en Bolivia”… Ver más Buen trabajo Tenemos problemas para reproducir este video. Más información Juan Ma López"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobernaciondelapaz/videos/4619485561608159/?comment_id=1003786736019805&__cft__[0]=AZim4xwfJAyXzBrF29Stu47PfbUYQHoCE2Jne9ewVNyCELLqbsIyX4b0O-vnzbNCsGHQuONXl-uFSQtjSZIYplTrvA4VI7ljX_D5AE7KP4ozcqR531wIQ2Qxlgp5gVgMfvgSZqjfAaBKgcDfeFwY8avmqAfY0TZov2XHWvxXdqz9jnL8ZUx8i1bjeLUGZqhUmNo&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Juan Ma López Buen trabajo 2 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gam_cbba",
@@ -418,13 +401,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IXcjYrYiaZMQ7kNvwHiesj7&_nc_oc=AdqnkjcGwJLJcVTZdt7UOHBOKa3Xbvznf7G_xWpPLjm8j5LO587q5IXqMd0P0vO4SJY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=o9FCCcKQcVjoDYc-eeKEig&_nc_ss=7f289&oh=00_AQLhyAxZK2nxdHp7KF7w7it7G0mL4YXEEfPlvfvFEiYunA&oe=6A9E8321",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid0PkykJeyXKGw4FxrLHjsCH3ZaKP3RmHsygwdaypYGQKgw2c6Ro6rAFxGtE13Nq3z3l?__cft__[0]=AZjTcdh0GN-dEv0k60-6y4JSlkk7Pw7mAhUkcyi2Hohm04ECogj6_vcrrMuFnWWiu7o4hvTJPYxdNZfCbykEexVLHsH1sfHjZNFGo0IKZWs-aZIo1uLQlTQWEih8utjz08mPw94Ezqce-9S6b_DqYOlaNxXmYrv7wRHXXq7_ofiLQawQwrbJ9i5JYhI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Anvisa suspende la producción de detergentes en planta de Unilever en Brasil (18:50) Lea la nota aquí: https://www.eldiario.net/.../anvisa-suspende-la.../… Ver más Anvisa suspende la producción de detergentes en planta de Unilever en Brasil (18:50) Lea la nota aquí: https://www.eldiario.net/.../anvisa-suspende-la.../… Ver más ELDIARIO.NET Anvisa suspende la producción de detergentes en planta de U"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_radio_fides",
@@ -452,13 +444,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1DLBpXBMgJMQ7kNvwF4JV-A&_nc_oc=Adp3GQ_pSVTr3LWZKsNLr7HmsK9RGkfFWMYTvg6QFokdsI7qq7Eqqwz7p3K09jKhxCs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=fk0clhCBD6D27i_p5Alv3g&_nc_ss=7f289&oh=00_AQKLh8mSX5VnBVPrtUhtUWhISlt9N1SZOhYp9-KqOSM4gw&oe=6A9E85BA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ANFidesBolivia/posts/pfbid028Smj3uBDcWTGKXHcaffvDE37bGLuRjmXL4MUWevpu8eDGx4A9eLnck2M4in7THbnl?__cft__[0]=AZguPNm1G8HFu96C4n7UqmUKLIVkbs9A9b2hiLkaHpF_BgfpQzG0WWd0hkphPwWjtpZnzsEJkWPLJLrngii9HoumtHoCjB4RzyhuKqP8PbplfmyHwXOsToWeBgq0v3tS_67FoanubWBvc_peUCDSN28u4fJJkTAvyiK_DE7tRv04SFJZN5qMlaF4lnY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#GrupoFides | #ANF te invita a leer y comentar la nueva columna de #OPINIÓN de Gary Antonio Rodríguez, titulada ¡NOS ESTÁN ROBANDO LA ESPERANZA! -->>https://acortar.link/GJSZXe #GrupoFides | #ANF te invita a leer y comentar la nueva columna de #OPINIÓN de Gary Antonio Rodríguez, titulada ¡NOS ESTÁN ROBANDO LA ESPERANZA! -->>https://acortar.link/GJSZXe"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_rtp",
@@ -486,22 +487,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2LUSWkA5tl4Q7kNvwFNals_&_nc_oc=Adqf2UKzIQWWyGCHj48DzQTE3fNIFfQeeD78Pn9IK5_DpyI0AzFODUieZPjV5s8IdOE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=c8Ajg7G7x-JjXLrjpCQEwg&_nc_ss=7f289&oh=00_AQLjo7SOUNtn4OXCYlKmYYNIkAnPQWowZCLMfXHVZCR5JA&oe=6A9E6642",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid05kiEVWZSQYLn4U1T78GVUZK9BY3BYQanFemdkuUcR25ABxvZbWm8e3KNTctGuMJkl?__cft__[0]=AZil6OJPBAEJKU5uj06OobrzUJ6HjifkSdiH5O3o1ih1ao5y0ltuCoVj9xaa93Pam5b6u4Rnjjmbwe1ttqj0DhpvWRZ8jJVQ4IH31q2wGhh0Xl1UJUPOCdLiy5IVLBiowUlit4dBGLJatRwcIOkUxvKeR4APFNfbFkuD3Wo8xR0FG2o2dAs-X-BjUek&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#LaPaz Parte civil en el caso de desfalco al Banco Unión solicita la monetización urgente de los bienes inmuebles y muebles secuestrados al principal acusado Juan Par… Ver más #LaPaz Parte civil en el caso de desfalco al Banco Unión solicita la monetización urgente de los bienes inmuebles y muebles secuestrados al principal acusado Juan Par… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber_radio",
@@ -920,13 +912,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xd0vope9W2YQ7kNvwGbonoh&_nc_oc=AdqNS1JUCtbrL-efl9_dbfR-BkqevSmLIx0Ot-r-AJlPHT4w0xRWhtSfWA0mEojqumY&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=Tg-oEh73zsp68sYMFVH8ww&_nc_ss=7f289&oh=00_AQLjGNaIt4v5g6RGOUi9kiIKgcAYNnt44chk4Byqx_gxaA&oe=6A9E9247",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/pfbid02JsgnQUesrPp1EqN8HHUBHoj4nMAYM7NS1B4hYTquMoVGzHy8ynPxpNh7AdxCr51ol?__cft__[0]=AZjCISDIg84QhMS1xCUsw6ltRY1LMQg1sgGOmNbwXTkqee_ZpFa-h07XCw45-0FqdHb4m0Jr8ZPwjCmAsaAJSEgnPPVv5yKvBaBRH6BHsIaQgRBOgCLG12blR8Ra6YmwpJrP9eYuT181Eq8bdsJ53hSFOq9MYzk0Ufm2X2JqfTgN1viEi_m9wLexD8s&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Miércoles 9 de septiembre a 19h00 \"MEDIATECA\" Alianza Francesa Sopocachi ¿Quieres practicar francés en un ambiente amistoso y relajado? 🪑‍🗣 Si c… Ver más Miércoles 9 de septiembre a 19h00 \"MEDIATECA\" Alianza Francesa Sopocachi ¿Quieres practicar francés en un ambiente amistoso y relajado? 🪑‍🗣 Si c… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -954,13 +955,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CkcSQ4rKknYQ7kNvwGOxUgk&_nc_oc=AdrBlC-RWiEKSs9EQIg7oM-ZHvhDOGu9K9ll1NYpB0E8xd1JrtIhkD6op_T_o5A0UHo&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=baD29X3cfNfnla3hS4ne8g&_nc_ss=7f289&oh=00_AQKSxhWid_sHfKTH3i8r3BBOFbhpoDpPRUYv3ApW8LhdkQ&oe=6A9E84C7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid0tHWeMqa2Gm6A4hfsPkWgVrdjvwbUiNbyMKvP8RHryYopjmDiGfk3vJJSXqU71Rg1l?__cft__[0]=AZh84AuO1IxFQ7YZ2PjjPUN75uXkITjWZiIbWJgQr1fTzylnG3Q70mOiP1rMBJtXm3W8ylEC90y1pjKQwZm4cdu0h_lP216WlMt3pf1T1xkyTwX0Zw8FIieut5tFADknXlnu-lRW57AI6Tk_GG5scfPhfdnsOsCR6pCMRfUM4v9o0P9KdEsz-kILiGw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐋𝐚𝐧𝐳𝐚𝐦𝐢𝐞𝐧𝐭𝐨 𝐝𝐞 𝐥𝐚 𝐀𝐠𝐞𝐧𝐝𝐚 𝐂𝐮𝐥𝐭𝐮𝐫𝐚𝐥 𝐝𝐞 𝐒𝐞𝐩𝐭𝐢𝐞𝐦𝐛𝐫𝐞 En homenaje a los 𝟐𝟏𝟔 𝐚𝐧̃𝐨𝐬 𝐝𝐞 𝐥𝐢𝐛𝐞𝐫𝐭𝐚𝐝… Ver más 𝐋𝐚𝐧𝐳𝐚𝐦𝐢𝐞𝐧𝐭𝐨 𝐝𝐞 𝐥𝐚 𝐀𝐠𝐞𝐧𝐝𝐚 𝐂𝐮𝐥𝐭𝐮𝐫𝐚𝐥 𝐝𝐞 𝐒𝐞𝐩𝐭𝐢𝐞𝐦𝐛𝐫𝐞 En homenaje a los 𝟐𝟏𝟔 𝐚𝐧̃𝐨𝐬 𝐝𝐞 𝐥𝐢𝐛𝐞𝐫𝐭𝐚𝐝… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -1073,30 +1083,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q3hf_4YuTH8Q7kNvwEwP224&_nc_oc=AdojQ-NoMoiYbdq_aJPsRp8v6F_7zlLNI-cILT0hl_MLS2QK0pzk-QVEHO8D2YKfZw8&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=cHrHZBp2H--dGy_sOHOBQQ&_nc_ss=7f289&oh=00_AQJ-JySLLrgDU7yB6G0PT9XTGEq4z5azLPsdOpONaSdh-A&oe=6A9E79D2",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid02Ly8Q5qvGCcHqojUnjdKvXb6JYQ2grFXBpqD7KAxzxCDUgwBQAieSd91uC57AMrAnl?__cft__[0]=AZjAR7AFVq_gl6NiEoJOWz4UuY4VCiKJQAbyfgwJDfz-LVDfuppMR1LdA3gaKTkba1Yq_XrDD09D9Imf5jnhK9cTQtL7XwuP-1UdLuQ9gCSNifPBPM8qmlXThLErBZ6FPC6WS4NNEwqEm-yYumXomiF6bvMpESAdhXxDU-YFxxBn12vmSrGA9TFNqUs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid02Ly8Q5qvGCcHqojUnjdKvXb6JYQ2grFXBpqD7KAxzxCDUgwBQAieSd91uC57AMrAnl?comment_id=1079850634463156&__cft__[0]=AZjAR7AFVq_gl6NiEoJOWz4UuY4VCiKJQAbyfgwJDfz-LVDfuppMR1LdA3gaKTkba1Yq_XrDD09D9Imf5jnhK9cTQtL7XwuP-1UdLuQ9gCSNifPBPM8qmlXThLErBZ6FPC6WS4NNEwqEm-yYumXomiF6bvMpESAdhXxDU-YFxxBn12vmSrGA9TFNqUs&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1344,7 +1337,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1448,7 +1441,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 39,
+          "score": 46,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1816,7 +1809,7 @@
           "category": "feria",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝐀𝐑𝐑𝐈𝐁𝐀𝐍 𝐀 𝐋𝐀 𝐂𝐀𝐏𝐈𝐓𝐀𝐋 𝐀𝐔𝐓𝐎𝐑𝐈D𝐀𝐃𝐄𝐒 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋𝐄𝐒 𝐏𝐀𝐑𝐀 𝐏𝐀𝐑𝐓𝐈𝐂𝐈𝐏𝐀𝐑 𝐃𝐄𝐋 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐎 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐗𝐗𝐕𝐈𝐈 𝐅𝐋𝐀𝐂𝐌𝐀 hace 1 día Noticias 84 Autoridades internacionales arribaron hoy a la Capital de Bolivia para participar del Congreso Internacional XXVII FLACMA, se trata de: Luis Rodríguez, Alcalde del Distrito Municipal La Otra Banda – República Dominicana, Walther Ayala, Alcalde del municipio de Fray Bartol"
+          "text_preview": "𝐀𝐑𝐑𝐈𝐁𝐀𝐍 𝐀 𝐋𝐀 𝐂𝐀𝐏𝐈𝐓𝐀𝐋 𝐀𝐔𝐓𝐎𝐑𝐈D𝐀𝐃𝐄𝐒 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋𝐄𝐒 𝐏𝐀𝐑𝐀 𝐏𝐀𝐑𝐓𝐈𝐂𝐈𝐏𝐀𝐑 𝐃𝐄𝐋 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐎 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐗𝐗𝐕𝐈𝐈 𝐅𝐋𝐀𝐂𝐌𝐀 hace 1 día Noticias 87 Autoridades internacionales arribaron hoy a la Capital de Bolivia para participar del Congreso Internacional XXVII FLACMA, se trata de: Luis Rodríguez, Alcalde del Distrito Municipal La Otra Banda – República Dominicana, Walther Ayala, Alcalde del municipio de Fray Bartol"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
@@ -1847,12 +1840,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": null
     }
   ]
 }
