@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T19:21:00-04:00",
+  "generated_at": "2026-09-02T00:35:59-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -13,8 +13,8 @@
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 53.3,
-    "horas_maximo_sin_datos": 304.2
+    "horas_promedio_sin_datos": 50.1,
+    "horas_maximo_sin_datos": 309.4
   },
   "sources": [
     {
@@ -60,22 +60,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nqIvUC5lxo4Q7kNvwFtftTz&_nc_oc=AdqiRTvEMK_DIVd2Jwj-ryIk1JBw_mY9032jBiR7rT7lj0vXlzsV70ud3E0XmZr8DWc&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AGXJLC7GxmtcyKPAiPo8qw&_nc_ss=7f289&oh=00_AQLQhxpjorj3CwyU0C6ck7tWHkvrpJ0ddoRnjmKWjQm7bg&oe=6A9D3A76",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid037aCwLqqQM5fFnWqEFo9V8QFMw4vuzjWvAuqFg2USU7SsJ54rYq5Wt3BNrSPHrZf6l?__cft__[0]=AZjwrbJN0IOjPaDo7D4bcIjXzZ2nA8QLZ2mGOjLggm-q2kAk_BTCTXExqUESWx9l3zXNrBwGgkUKFZ3Y1XwCJD6IumqY1MKYkx1utQS5UsNoww_GNSIkhHPXY6BOMqfbOBNIglHsjgJQm9Qp7cG8c_41dB4qO8F-2O2iybFSQPikR6py5xzShMsAkE8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -171,22 +162,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Q1Igc-qZwDMQ7kNvwGfAanM&_nc_oc=Adroyjg4W0muDT4u0isb0Nbw10Lb4TSLfPoRCjWWP92gHWEzuHeVMeBf_d_CbkFZOnQ&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=d_ejtHe2DuEYoYRpV3PzcQ&_nc_ss=7f289&oh=00_AQIhCLqaa7mwP7GXcGNK_WAT5e4S70xgwJ5REgXGoPwPyA&oe=6A9D2740",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2499319237213601/?__cft__[0]=AZicHeKSObmcLF6s7CzmUc0ZghxYAXvOaIbznWe4H8v9FQCglD4KhSyuvR3bVCLK8yCiQhs3XELxRFTIhCP4ccTfjNrJflLIwnWYjnzVoFqudBlScu8-M3s-Og1llf7_5Wc-q_NhbnaXdV2CSqIv5cX0KPFk8nk1ekmUd6ZVZn3A-g24sQm145P6xdbF4xWVwV8t&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Avanza el mejoramiento vial en el Distrito 3 con trabajos de bacheo en la avenida Topáter, para brindar una vía más segura y transitable a la población. #E… Ver más Avanza el mejoramiento vial en el Distrito 3 con trabajos de bacheo en la avenida Topáter, para brindar una vía más segura y transitable a la población. #E… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -231,13 +213,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_2Q6k2RsGOcQ7kNvwEBOFwG&_nc_oc=AdolGcBWZSl7xnnTV_BxQV0GxzNprdJH0b5kvBmblqfdoYOOs20WoabOI-rzzXGCaXw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=q_btMqGMFd6Zte6NsuYwbw&_nc_ss=7f289&oh=00_AQKHwyUbtAGuVq3RfFBRKja21WUZIvwz3zrYrQ00fBOgHA&oe=6A9D7E57",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 40,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/a-216-a%C3%B1os-de-nuestra-gesta-libertaria-te-invitamos-a-conocer-y-ser-parte-del-pr/1588840429954337/",
+          "has_image": true,
+          "text_preview": "A 216 años de nuestra Gesta Libertaria, te invitamos a conocer y ser parte del Programa Oficial del 13 y 14 de septiembre. 📲 Escanea el código QR y descarga el programa completo para acompañar las... A 216 años de nuestra Gesta Libertaria, te invitamos a conocer y ser parte del Programa Oficial del 13 y 14 de septiembre. 📲 Escanea el código QR y... A 216 años de nuestra Gesta Libertaria, te invita"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gamscs",
@@ -248,13 +239,38 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=k_AnyxXUovQQ7kNvwGROHdk&_nc_oc=AdpAFeTjTHtH6uHqhltjRRgmtEBC9THGLsnv0pjtdgrykD3eNwqOVO0N_oJ8hbKBq58&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=0sJVB7RxTVirP-Ijr6lBJw&_nc_ss=7f289&oh=00_AQLISJvo8YSReAmwtZw2ZqxoWZwXBqAzNyMIf5Jc6ErYSQ&oe=6A9D68A1",
+      "status": "ok",
+      "raw_items": 3,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1411156884451485/?__cft__[0]=AZi6EWXkqWAHn9pxToePg-tuYlfoefHl5vILKUoSULo200jP6P7nXYApy4ZRZfkk5rh5w_4b6rw0gtGrtBUJW7CHEEZV84sehiVc73MsHyc3pDpoPHcl5xpv2UEIXdkzwcMsZBFmST1M-p_pe5eztGEWM2jNEipUHnaO83HgUqS8ufaee4J9lT2gJ0Ymduc76AMY&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Santa Cruz ya tiene nueva Reina! El pueblo eligió y hoy presentamos con orgullo a Camila Zenteno, nuestra nueva Reina de Santa Cruz. … Ver más ¡Santa Cruz ya tiene nueva Reina! El pueblo eligió y hoy presentamos con orgullo a Camila Zenteno, nuestra nueva Reina de Santa Cruz. … Ver más Deberían de habilitare votaciones por Internet para que el mismo pueblo proponga candidatas y también vote para "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1411156884451485/?comment_id=1341636758051157&__cft__[0]=AZi6EWXkqWAHn9pxToePg-tuYlfoefHl5vILKUoSULo200jP6P7nXYApy4ZRZfkk5rh5w_4b6rw0gtGrtBUJW7CHEEZV84sehiVc73MsHyc3pDpoPHcl5xpv2UEIXdkzwcMsZBFmST1M-p_pe5eztGEWM2jNEipUHnaO83HgUqS8ufaee4J9lT2gJ0Ymduc76AMY&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Deberían de habilitare votaciones por Internet para que el mismo pueblo proponga candidatas y también vote para elegirla Guisela Velarde Zurita"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1411156884451485/?comment_id=1341636758051157&reply_comment_id=2866492940400973&__cft__[0]=AZi6EWXkqWAHn9pxToePg-tuYlfoefHl5vILKUoSULo200jP6P7nXYApy4ZRZfkk5rh5w_4b6rw0gtGrtBUJW7CHEEZV84sehiVc73MsHyc3pDpoPHcl5xpv2UEIXdkzwcMsZBFmST1M-p_pe5eztGEWM2jNEipUHnaO83HgUqS8ufaee4J9lT2gJ0Ymduc76AMY&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Guisela Velarde Zurita asi se realizo la elección....te enteraste un poco tarde no? Barg Cast"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -350,22 +366,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vqgXbErTU3MQ7kNvwHbfP07&_nc_oc=AdqlEDeB6NzIBsbvH9yj5PlIzINIbRlDT3NW-iwJyJ_jJt72dqZFPkwlmepCQJzcrb8&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=4TQQJa0ftVhqTenfUicGXg&_nc_ss=7f289&oh=00_AQIX6WiNpc2TWJZeYS2ysXUFpuV9NZFWJJzqPSeY1zoTxw&oe=6A9D303F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "feria",
-          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid07DEsM95u87RDNm1vMBkrdPer5DDWwZVDiQZkMs68BDskLznSYxZU3Qf53fssrYJ8l?__cft__[0]=AZhWo6DyS8HWFdWFjd1mLw3pUMrO3CtGPKRCE7z_tlBVoJznTrOakFnsps4HgoPeNWG1VeWnTzdZF_9kR47oz0RakXI2WR8K18Idb0hIF7a1bDFimVlSOxE7G7AEgo6xXojgvHYIX9ZsOkBU35J6nXtmCC5r18Q89S8xBmUF3UIEEtE-cnmxINajJ3Q&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El club ‘ciudadano’ anunció la contratación del mediocampista argentino sobre el final del mercado de pases tras comprarlo al Chelsea cambio de 167 millones de dólares.… Ver más FUTBOL.UNITEL.BO Manchester City hace oficial el fichaje del argentino Enzo Fernández hasta 2031"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_atb",
@@ -478,22 +485,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=k_5D_i1G2J8Q7kNvwHN04fd&_nc_oc=Adpoq5_8DEeo34Iq0ThJQh0NflprOm8RFjuDmEGE_qZ1wUnjO6xnL8TR_7yr9ji1BXI&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=q3mAXHbXH1N8hO04jpJT_g&_nc_ss=7f289&oh=00_AQLqn0wgRVyuT9rJpIvF3KNWzKJUFkt9SHHZfwSW9p_LpA&oe=6A9D45C5",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1372927928244457/?__cft__[0]=AZj3CD71j_-Kschf4wKX3f6E7p6AIoIMrRTqzCZ8rne8ArSSU10vTypyk5uhAo8wK9AAryyNQX7BPiYRTLojXaS-i-vwUioq2VCTDCUkaYyPOjDAG3HKDblyNri-vvLh5qOEORfKuR5We8qgWt-40RaKsOcN1rMzvFOnfCndQNAaAarl2f7X3OSjyjEMQd7PBs2J&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#NoticieroPopular La Central Obrera Boliviana (COB), a través de su ejecutivo Mario Argollo, rechaza una posible ampliación del estado de excepción. #NoticieroPopular La Central Obrera Boliviana (COB), a través de su ejecutivo Mario Argollo, rechaza una posible ampliación del estado de excepción. Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_abya_yala",
@@ -561,7 +559,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_fundacion_cultural_bcb",
@@ -572,13 +570,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WG5VS5HgaJcQ7kNvwFEPWMl&_nc_oc=Adqqmcqfvp7ZT9O6vR5R4zMwE9NoazORQ2Wss46poewFT08EvTOrYvLfMs8EA5TOHPE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=rtbEQwReCh8oXeQTxocYZQ&_nc_ss=7f289&oh=00_AQJnRX_De0SBeZWmk1ZWVh5iHpnmv-Dm95xke8ehdkCGlQ&oe=6A9D7833",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid02MmyjsZ4UdWcTJgLWbPeE8DteMhnqYkJVRQLAsuzXvGUTKQuQdY5vf5VpGp5d5QhUl?__cft__[0]=AZgRh_XeSYwJoWDf9pChh0jE9FgytxSBSqgXUmNPOyj81iyi28pBsB2x79x3hyy0cIDBZCeBd3G2LXrkf53rl325ySmIPiy4WLMVnci-724A2-KCRj7s3R9wAuL3FkI_GRNDXmqhc6UtTK2OKBKyuA9JHoeU2bhDSpoR0_zDTQYgA311R343Rubx9kQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Fundación Cultural BCB reconoce los 100 años de la Anba Hernando Siles … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -878,30 +885,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=w7LNQmbxy1sQ7kNvwEp6Y1n&_nc_oc=AdpRHbAZ7Bvg9CGT1LY4rOGH5WjSfc1Wt9WNMaBi-BdD8qj_5qFX8tmp3Bc0THVhYNk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=WwpntCCfzn2v8UsgxsDNnQ&_nc_ss=7f289&oh=00_AQKd5PrE9tZUdj7cS7Azdi_7EFYHWOjjbjo2HlTgjc5BZA&oe=6A9D4221",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "feria",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": true,
-          "text_preview": "¡HABILITAMOS EL PABELLÓN AMERICANO EN FIPAZ 2026! … Ver más Con ansias de que llegue la feria Ver más comentarios Kevin Gutierrez"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "feria",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": false,
-          "text_preview": "Con ansias de que llegue la feria Kevin Gutierrez"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -929,13 +919,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=opQ56QScBGsQ7kNvwFRGFIq&_nc_oc=Adp_-aVknde_tUn5ZTdgVAL_8VSocYQbZKaz6ON3MLL9nWPyLVqxn5T_GyUdoyujbuE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Xb3hXIlyelXwb4WVyG2big&_nc_ss=7f289&oh=00_AQLHsafN4t5DzNlA1qbrcPDjivxIh2TqGMlTDE3IvLMbvw&oe=6A9D7BA7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1697982181258359/?__cft__[0]=AZgWdj0T6lAYXo5h1Z8N5b3aQ3WfDdkoh5B53q-Id8BfcdXOpFRBGscw0NSSvqmzfO7mky1mlq8XQJ5uIAcJzrAxFF9VqGsL6FcJQUjVMh1JR-W7fP8Dr7cLKU1a-OFu_7W9Z_PsFRrKpITGEnmLKEXDKM_abm3iRqvvz-EWuzxZZqjd14QAfpVymXFAAFze0Jkj&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#EmbajadoresPatiño I Conociendo nuestros espacios desde la mirada de nuestros colegas… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1048,13 +1047,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QfODpvOQsMUQ7kNvwGf8Qbd&_nc_oc=AdriK2oVglkDJjVlbX2csPFDzSOXPyVGyXMvJJVeja9tfFdsZk3-mA6EHGtwgJPdoU8&_nc_zt=24&_nc_ht=scontent-qro1-1.xx&_nc_gid=YsELz1j4W7L_moZl73ywWw&_nc_ss=7f289&oh=00_AQI7rpLzOv8g-gyQgUkQk2p5u7nE_eCaenLqSBSjOGcOqg&oe=6A9D74F4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/830569040083505/?__cft__[0]=AZgWOkLFBaR1-nERw5-naUNr1SVE04uZZdR6nd0YnRu0CiGsH3V42R4bKfKL_4ANd-6_76S5QAgWoyMmHLsMAHPKYH19Jni1LF0OhU0_0tuj2G4-feOW29Xa0D0TnAC9y-wsJH82faUMzALKXSPN9HJIiuurk38e_sefdQmXLgjuo33R6SuRBeAGLJo8A9pYrfEC&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#EmbajadoresPatiño I Conociendo nuestros espacios desde la mirada de nuestros colegas… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1353,7 +1361,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1452,34 +1460,9 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
-      "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
-          "category": "concierto",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "31/08/2026 Cultura La IA bajo la mirada de la Iglesia y la filosofía No es casualidad que corrientes ateas y creyentes confluyan más o menos en lo mismo cuando analizan las potenciales amenazas de la Inteligencia Artificial (IA... vista 30/08/2026 Cultura Después de todo, ¿qué es, realmente, lo postmoderno, Cachín Antezana? Hace algunos años tuve una conversación con Luis H. “Cachín” Antezana sobr"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
-          "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Nueva viceministra de Telecomunicaciones priorizará transparencia Ver más 2 Beller ya es “testigo protegida” y pide ampliar declaración contra Cerimedo"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
-          "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
-        }
-      ],
+      "events": 13,
+      "rejected": 0,
+      "rejected_samples": [],
       "error": null
     },
     {
@@ -1543,6 +1526,14 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/b35fe2df-a958-4b6b-8c6d-d7bfd2687216",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c695ed97-7b2c-4d01-9000-ad1c5c3e6b97",
           "has_image": true,
           "text_preview": ""
@@ -1551,15 +1542,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/583b18d3-7623-4286-9d18-2e6bf7a89d36",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/75f7068d-9c92-49f7-a9b9-ad3d56a28f59",
           "has_image": true,
           "text_preview": ""
         }
@@ -1577,8 +1560,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 32,
-      "events": 32,
+      "raw_items": 36,
+      "events": 36,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1611,8 +1594,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1645,8 +1628,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 42,
-      "events": 42,
+      "raw_items": 48,
+      "events": 48,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1872,12 +1855,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "[Errno 101] Network is unreachable"
     }
   ]
 }
