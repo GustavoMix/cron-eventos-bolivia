@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T07:16:50-04:00",
+  "generated_at": "2026-09-03T12:28:00-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,14 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_amun_lapaz",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 49.2,
-    "horas_maximo_sin_datos": 340.1
+    "horas_promedio_sin_datos": 49.0,
+    "horas_maximo_sin_datos": 345.3
   },
   "sources": [
     {
@@ -130,22 +129,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6G34a08whWwQ7kNvwExLr6G&_nc_oc=AdptUqFwl9GOW8dS51r6mOo6wN-QmQ-ERJwVxIFzZzbg6HFPQT9Bf2ulL5GrYaoJ74Y&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=D3vbSSI6BCRjeubyjPidLw&_nc_ss=7f289&oh=00_AQLEUulU11_8RMdq4e1glS7JX8TbemsYHpnwns3xynzRKg&oe=6A9F2905",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0PyKWZZG4DqvQJ7sb5M6yG97Haee5oh8z65PbDJQBUgd25JMCkBuGh3zLZcGFh9sPl?__cft__[0]=AZjHwfrP6wnqdMCG3PKa-zigaE2Bi5aNQkkU9sF5bCH15fEKn2HY1I7MR_2nDq8fpx3e0ZbHYxTQgrLGwXmXXwNNh1-3doS07Z8cguey67xSrNnerrARt1ytV66zi1twFLzeCXrHLIi8X60sCKfu3VXPhWyWVYko_SwEESjIOMxaJPQL0oU6W5t-jNg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "9 h #Comunicado Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_amun_lapaz",
@@ -156,13 +146,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KB2sJwhYv8AQ7kNvwFHkRTp&_nc_oc=AdrL0Cdj31Wylzg6ZX2_fC_idXCNP2TbGtq-3SNvUCH0r0F0kHlfQLIvX7ulTHdp-lQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Win9ysrPUcfssvmFS_RHpQ&_nc_ss=7f289&oh=00_AQLTQ36S8E8xqfkstKX70-PFh9H_JxSB56VnXoT6idR2HQ&oe=6A9F73B7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "festival",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02ieaF8baRHfFJK7rouCStmvn6hesDeHuoWPrVUAJM96q7sH5CSPLuBWgtxRbUSiVGl?__cft__[0]=AZi65aKkp21ZIH3icsjZKgNZ_A6GtGorYpUwXfYHDZtckLEp3l9JALgE9gYPO6pL3NPCF7cLqoggP6vDPED1dbJFnAGGqCPR2i1dABYn0eCX9JJ2wUOnZzIKDk9W9-mVDWW89C4qfVoInsiG53iwp2yKJ-32nDaS_Pnv9TOfFGWdal12xlKtSgd4pRQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "En encuentro de Alcaldes de la Red de Ciudades del BID Dockweiler destaca el análisis de financiamiento y riesgos.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -581,22 +580,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aw8JsXNWrUIQ7kNvwEcLL_a&_nc_oc=AdoK7de6JTKhVbI2PahCDOFpFkMiT0bFKMb2Z7ROcylyfs6TncFrBFcNOHQ2yqWHdng&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_zFF_LPDCoIyqmROF9WuXQ&_nc_ss=7f289&oh=00_AQK9QOvnwk2dfbizYeO4DBmN5cA481wG8SVTnEyLiWtcJg&oe=6A9F2356",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 56,
-          "category": "festival",
-          "url": "https://www.facebook.com/ccelp.bo/posts/-agenda-septiembre-septiembre-llega-con-una-programaci%C3%B3n-que-re%C3%BAne-artes-esc%C3%A9nic/1541870657984912/",
-          "has_image": true,
-          "text_preview": "✨📅 Agenda septiembre ✨📅 Septiembre llega con una programación que reúne artes escénicas, cine, música, literatura, formación, mediación y actividades para las infancias, en diálogo con los derechos... ✨📅 Agenda septiembre ✨📅 Septiembre llega con una programación que reúne artes escénicas, cine, música, literatura, formación, mediación y actividades... Agenda septiembre Septiembre llega con una pro"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -658,22 +648,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UxZhtlVbZ3sQ7kNvwHM7H1-&_nc_oc=AdrHoHBg9X4bvqz8mePSDuKOHFm2lQocXDGEuylfT37SW-uqOxPnzCbTnUZqv665LEw&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=JU0PtCvg1N2BbT-dz-q3JQ&_nc_ss=7f289&oh=00_AQLGZzCT5-JeYHiRt48-CNotsZTyXX8H_oMjvEQx3QqI1w&oe=6A9F3312",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid0BY6YX8zRGbKpdid2hBTrBGLX9ZcwbCwC5uuvUk6r8trk7hr4CxDW16H1CPZDZ5JDl?__cft__[0]=AZgJQ_4YeLKXlbEhM-paxWpAueRa2qiX5UjUJN0iGAVS1NY5X-3kG0Elti2troRlz-KOc8jgFoamqTWFIkP6c1lKYnWX39iB7eZuRYdC_o7pmHaGnVy6tlxT0B0hasvF0LpJRofWJAJIsW8vFiSHXL-XP2-35yS2Ga-TQp1BUVnwXpqPy-uvU7_cUtA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CRC | “Nina, memorias de mercurio”… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -1160,13 +1141,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dePiXtaGk8EQ7kNvwGU0I2_&_nc_oc=AdrL9sT1RlFiXBZgs7WTViR_BsG4gQ6Y2nFkmwC5CajGWxcqsz82MlTPoONnI5cjMu4&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=nZEg_eK3JA3P9KzUbytGjw&_nc_ss=7f289&oh=00_AQIdZOQM5wqzSxg8MBI2nBQwVlfW8Uzj7csl4yfM0dqNzw&oe=6A9F7BE5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "deporte",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid0QovDuk7mLtAYjX9K8bwHWH7ytgmPNJxQpfGxvBWd3ZHKJ2nhwU7yoPNEYQvjn4k9l?__cft__[0]=AZgX6bAymjzlxMQMkwELO44n-6wLTgaT6sbQOF7zTi8etrPYjrOMPhnD38cB1h-e4qBNF3Lxt7EBGdjJy613h_v_pLt9-MfLa30Mf7B2wCSLP9fi8KhFX70f7D50097O-tRjBMXwgTzfVY8NvLSsSn7WnSu_e8hUJDk4isPMic7qtcAJAyeKL_Z7Kdg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#ConvocatoriaBachilleres| La Facultad de Odontología convoca a estudiantes de Sexto de Secundaria y bachilleres interesados en postular a la Carrera de Odontología, m… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1177,13 +1167,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/791477565_1093784559902436_1122510819657018021_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5pD9UPyWhHcQ7kNvwFlyvWe&_nc_oc=AdrCJ-VPc6jx1Cfd8WqU-i4ijXZQ6kijudKD42RwgDQHTgaXco8prEGF33TIdhLlZ7Q&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=wwGfUXKEE1r_Sm6YoOtMdw&_nc_ss=7f289&oh=00_AQKpWPfoxqyPezH0yC3po8TYqPFfH8cEDM7x-AU8ZBAA_g&oe=6A9F89D4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid0qYimCPppGPtfgrrnFyiggAMwUTjGEPu8cdzUuSBAVcgdwimPdNivLcxA2aG1KDmAl?__cft__[0]=AZhWXkT6UROoWq4cMOaEdD1vVGg-PuGw20Hy7ShtPyFg0h-E5Bm5A-zfW5h4svUcXBD13YMJ_Cyq_ulP1rDUHAu-LndP-TaBt8a1yJ_99G2SHf-z0ihWOW08nxpYDVs8SEf2Esy6JIJLUOivUAaO29wvrqX5-hpPGAPv92tTTKhaah3znO2JYw3-ZDA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐂𝐨𝐧𝐞𝐜𝐭𝐚𝐧𝐝𝐨 𝐚 𝐁𝐨𝐥𝐢𝐯𝐢𝐚 𝐜𝐨𝐧 𝐞𝐥 𝐦𝐮𝐧𝐝𝐨 La rectora en ejercicio, In… Ver más 𝐂𝐨𝐧𝐞𝐜𝐭𝐚𝐧𝐝𝐨 𝐚 𝐁𝐨𝐥𝐢𝐯𝐢𝐚 𝐜𝐨𝐧 𝐞𝐥 𝐦𝐮𝐧𝐝𝐨 La rectora en ejercicio, In… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umss",
@@ -1211,13 +1210,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ztk7TbVSJx4Q7kNvwFNPMHx&_nc_oc=AdoHv_8srVMLMpBrknA6h9Gyp5wKATXtFB6Uw45Eyp5_YzXYldwpSff2pPz2YNIkBLc&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=vDwDaNbFnc-mSLm1_x0ofw&_nc_ss=7f289&oh=00_AQKh02Lt_0iZ6vAVmRYSLHBTWfqtyCJI-WYGUDYdqMozew&oe=6A9F5BF2",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid06pdmQtmrUDRnY1xQWdXSTiT3LE7rCA6CQkffmuWAyNPCoYb4TzD4auurgprdLBmMl?__cft__[0]=AZghTORm1u5LFJo0MS90MVPvQGRY2ocSipHxsQ9BsfNcCYhXk8WPwCH7GpQmXpoh5x2XGV0GbqcOf_zTuDIH6yHNErG4zt6N28QbdEkOkxQbMmMUGH5ojUNAc3vBvjehPX4cJNPtJYHod-NCymES2hyS1mAoPj6UKdEu1jUuanfec_ehyQ5u4VMeTnFWiKW-oBgv6oY9q-uRbMBQQiE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡𝐔𝐧𝐢𝐝𝐨𝐬 𝐩𝐨𝐫 𝐥𝐚 𝐀𝐦𝐚𝐳𝐨𝐧𝐢́𝐚 𝐲 𝐧𝐮𝐞𝐬𝐭𝐫𝐚 𝐂𝐚𝐬𝐚 𝐂𝐨𝐦𝐮́𝐧! La U.C.B. recibió, el pasado 26 de agosto de 2026, la visita de Ximena Lombana, Secretaria Ejecutiva Regional de la … Ver más ¡𝐔𝐧𝐢𝐝𝐨𝐬 𝐩𝐨𝐫 𝐥𝐚 𝐀𝐦𝐚𝐳𝐨𝐧𝐢́𝐚 𝐲 𝐧𝐮𝐞𝐬𝐭𝐫𝐚 𝐂𝐚𝐬𝐚 𝐂𝐨𝐦𝐮́𝐧! La U.C.B. recibió, el pasado 26 de agosto de 2026, la visita de Ximena Lombana, Secretaria Ejecutiva Regional de la … Ver más Universidad Católica Boliviana San Pablo 1 día ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_upsa",
@@ -1428,16 +1436,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 12,
-      "rejected": 1,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
+          "score": 27,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "02/09/2026 Cultura Filme \"Thaqhata\" conquista su primer galardón internacional y va por más El cortometraje boliviano 'Thaqhata' alcanzó su primera estrella en el contexto universal en el Festival Internacional del Cine de los Andes (FICA),... vista 31/08/2026 Cultura La IA bajo la mirada de la Iglesia y la filosofía No es casualidad que corrientes ateas y creyentes confluyan más o menos en lo mis"
+          "text_preview": "03/09/2026 Cultura Exposición Sol de septiembre rinde homenaje a Cochabamba Unos 40 artistas plásticos tomarán parte de la exposición “Sol de septiembre” que se inaugura mañana en el salón Melchor Pérez de Holguín. vista 02/09/2026 Cultura Filme \"Thaqhata\" conquista su primer galardón internacional y va por más El cortometraje boliviano 'Thaqhata' alcanzó su primera estrella en el contexto univers"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 29,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Decreto establece la adquisición de diésel hasta 2.500 litros a Bs 9,8 para pequeños productores Ver más 2 Bloquean carreteras en 4 municipios de Santa"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 28,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1537,8 +1561,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 8,
-      "events": 8,
+      "raw_items": 17,
+      "events": 17,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1757,9 +1781,9 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 3,
-      "events": 1,
-      "rejected": 2,
+      "raw_items": 1,
+      "events": 0,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
@@ -1768,14 +1792,6 @@
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "pago qr bus Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para esta nueva gestión: Res"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "conferencia",
-          "url": "https://www.uto.edu.bo/la-fcs-inaugura-el-curso-preuniversitario-para-postulantes-a-las-carreras-del-area-de-la-salud/",
-          "has_image": true,
-          "text_preview": "La actividad académica brinda preparación formativa a los estudiantes que aspiran a ingresar a la Facultad de Ciencias de la Salud de la UTO Oruro, agosto de 2026. — Con una importante asistencia de postulantes, la Facultad de Ciencias de la Salud (FCS) de la Universidad Técnica de Oruro (UTO) inauguró oficialmente el Curso Preuniversitario , un ciclo formativo intensivo orientado a nivelar y prep"
         }
       ],
       "error": null
@@ -1801,7 +1817,7 @@
           "category": "feria",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝐀𝐑𝐑𝐈𝐁𝐀𝐍 𝐀 𝐋𝐀 𝐂𝐀𝐏𝐈𝐓𝐀𝐋 𝐀𝐔𝐓𝐎𝐑𝐈D𝐀𝐃𝐄𝐒 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋𝐄𝐒 𝐏𝐀𝐑𝐀 𝐏𝐀𝐑𝐓𝐈𝐂𝐈𝐏𝐀𝐑 𝐃𝐄𝐋 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐎 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐗𝐗𝐕𝐈𝐈 𝐅𝐋𝐀𝐂𝐌𝐀 hace 2 días Noticias 101 Autoridades internacionales arribaron hoy a la Capital de Bolivia para participar del Congreso Internacional XXVII FLACMA, se trata de: Luis Rodríguez, Alcalde del Distrito Municipal La Otra Banda – República Dominicana, Walther Ayala, Alcalde del municipio de Fray Bart"
+          "text_preview": "𝐀𝐑𝐑𝐈𝐁𝐀𝐍 𝐀 𝐋𝐀 𝐂𝐀𝐏𝐈𝐓𝐀𝐋 𝐀𝐔𝐓𝐎𝐑𝐈D𝐀𝐃𝐄𝐒 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋𝐄𝐒 𝐏𝐀𝐑𝐀 𝐏𝐀𝐑𝐓𝐈𝐂𝐈𝐏𝐀𝐑 𝐃𝐄𝐋 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐎 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐗𝐗𝐕𝐈𝐈 𝐅𝐋𝐀𝐂𝐌𝐀 hace 2 días Noticias 115 Autoridades internacionales arribaron hoy a la Capital de Bolivia para participar del Congreso Internacional XXVII FLACMA, se trata de: Luis Rodríguez, Alcalde del Distrito Municipal La Otra Banda – República Dominicana, Walther Ayala, Alcalde del municipio de Fray Bart"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",

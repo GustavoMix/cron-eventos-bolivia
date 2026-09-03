@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-03T07:16:50-04:00",
+  "generated_at": "2026-09-03T12:28:00-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 45,
+    "events_total": 46,
     "events_today": 11
   },
   "filters": {
@@ -55,7 +55,7 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 15
+        "count": 16
       },
       {
         "key": "feria",
@@ -112,7 +112,7 @@
       {
         "key": "Quillacollo",
         "label": "Quillacollo",
-        "count": 5
+        "count": 6
       },
       {
         "key": "Oruro",
@@ -144,7 +144,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 13
+        "count": 14
       },
       {
         "key": "La Paz",
@@ -201,7 +201,7 @@
       {
         "key": "todos",
         "label": "Todos",
-        "count": 45
+        "count": 46
       }
     ],
     "price": [
@@ -213,7 +213,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 7
+        "count": 8
       },
       {
         "key": "por_confirmar",
@@ -225,7 +225,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 39
+        "count": 40
       },
       {
         "key": "con_video",
@@ -334,7 +334,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 16
+        "count": 17
       },
       {
         "key": "cartelera_cine",
@@ -371,8 +371,8 @@
       "evt_c1d56f4d8b6604",
       "evt_ab3211e7a7394a",
       "evt_7477b7089a857d",
-      "evt_728f744453f2da",
       "evt_f8b3f7ac91b030",
+      "evt_728f744453f2da",
       "evt_25b5f483216c9b",
       "evt_604e6d0bc12128",
       "evt_83fa560c5db5e1",
@@ -394,8 +394,8 @@
       "evt_c1d56f4d8b6604",
       "evt_ab3211e7a7394a",
       "evt_7477b7089a857d",
-      "evt_728f744453f2da",
       "evt_f8b3f7ac91b030",
+      "evt_728f744453f2da",
       "evt_25b5f483216c9b",
       "evt_604e6d0bc12128",
       "evt_83fa560c5db5e1",
@@ -410,7 +410,7 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 47,
+      "events_total": 37,
       "events_upcoming": 12,
       "events_with_image": 11,
       "events_with_video": 3,
@@ -418,23 +418,23 @@
       "sources_ok": 7
     },
     "Cochabamba": {
-      "events_total": 22,
-      "events_upcoming": 13,
-      "events_with_image": 13,
+      "events_total": 23,
+      "events_upcoming": 14,
+      "events_with_image": 14,
       "events_with_video": 0,
       "sources_total": 13,
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 27,
+      "events_total": 26,
       "events_upcoming": 11,
       "events_with_image": 6,
       "events_with_video": 3,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Chuquisaca": {
-      "events_total": 8,
+      "events_total": 7,
       "events_upcoming": 2,
       "events_with_image": 2,
       "events_with_video": 0,
@@ -485,9 +485,9 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 80,
-      "events_upcoming": 15,
-      "events_with_image": 15,
+      "events_total": 69,
+      "events_upcoming": 16,
+      "events_with_image": 16,
       "events_with_video": 0
     },
     "concierto": {
@@ -1040,6 +1040,128 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_f8b3f7ac91b030",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-03T12:40:00-04:00",
+      "starts_at_ms": 1788453600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 3 de septiembre · 12:40",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Multicine",
+      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "12:40",
+        "13:50",
+        "14:50",
+        "16:00",
+        "17:00",
+        "18:10",
+        "19:10",
+        "20:20",
+        "21:15",
+        "22:30",
+        "13:20",
+        "15:35",
+        "17:50",
+        "20:10",
+        "22:25",
+        "13:10",
+        "15:20",
+        "17:30",
+        "19:40",
+        "21:50",
+        "13:00",
+        "18:40",
+        "18:00",
+        "13:40",
+        "16:30",
+        "19:30",
+        "22:20",
+        "15:50",
+        "12:10",
+        "15:00",
+        "15:30",
+        "16:50"
+      ],
+      "formats": [
+        "2D",
+        "2D PLUS",
+        "2D XL",
+        "3D",
+        "4D E-MOTION",
+        "2D PLUS SUB"
+      ],
+      "occurrences": [
+        "2026-09-03T12:40:00-04:00",
+        "2026-09-03T13:50:00-04:00",
+        "2026-09-03T14:50:00-04:00",
+        "2026-09-03T16:00:00-04:00",
+        "2026-09-03T17:00:00-04:00",
+        "2026-09-03T18:10:00-04:00",
+        "2026-09-03T19:10:00-04:00",
+        "2026-09-03T20:20:00-04:00",
+        "2026-09-03T21:15:00-04:00",
+        "2026-09-03T22:30:00-04:00",
+        "2026-09-03T13:20:00-04:00",
+        "2026-09-03T15:35:00-04:00",
+        "2026-09-03T17:50:00-04:00",
+        "2026-09-03T20:10:00-04:00",
+        "2026-09-03T22:25:00-04:00",
+        "2026-09-03T13:10:00-04:00",
+        "2026-09-03T15:20:00-04:00",
+        "2026-09-03T17:30:00-04:00",
+        "2026-09-03T19:40:00-04:00",
+        "2026-09-03T21:50:00-04:00",
+        "2026-09-03T13:00:00-04:00",
+        "2026-09-03T18:40:00-04:00",
+        "2026-09-03T18:00:00-04:00",
+        "2026-09-03T13:40:00-04:00",
+        "2026-09-03T16:30:00-04:00",
+        "2026-09-03T19:30:00-04:00",
+        "2026-09-03T22:20:00-04:00",
+        "2026-09-03T15:50:00-04:00",
+        "2026-09-03T12:10:00-04:00",
+        "2026-09-03T15:00:00-04:00",
+        "2026-09-03T15:30:00-04:00",
+        "2026-09-03T16:50:00-04:00",
+        "2026-09-03T21:30:00-04:00",
+        "2026-09-03T19:00:00-04:00",
+        "2026-09-03T21:00:00-04:00",
+        "2026-09-03T20:00:00-04:00",
+        "2026-09-03T12:00:00-04:00",
+        "2026-09-03T18:45:00-04:00",
+        "2026-09-03T20:45:00-04:00",
+        "2026-09-03T22:45:00-04:00",
+        "2026-09-03T14:00:00-04:00",
+        "2026-09-03T14:30:00-04:00",
+        "2026-09-03T13:25:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_728f744453f2da",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1076,56 +1198,6 @@
         "2026-09-03T13:10:00-04:00",
         "2026-09-03T16:20:00-04:00",
         "2026-09-03T19:30:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_f8b3f7ac91b030",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-09-03T19:00:00-04:00",
-      "starts_at_ms": 1788476400000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Jueves 3 de septiembre · 19:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "La Paz",
-      "department": "La Paz",
-      "venue": "Multicine",
-      "image_url": "https://cdn.bolivia.com/cine/2007/1/terminator-2-el-juicio-final-39843.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "19:00",
-        "21:00",
-        "21:30"
-      ],
-      "formats": [
-        "2D",
-        "2D PLUS SUB",
-        "3D"
-      ],
-      "occurrences": [
-        "2026-09-03T19:00:00-04:00",
-        "2026-09-03T21:00:00-04:00",
-        "2026-09-03T21:30:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2454,6 +2526,44 @@
       "quality_score": 61,
       "is_featured": false,
       "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_adc2c807f56a31",
+      "title": "02/09/2026 Salud Cuál es el verdadero impacto de dormir con la ventana abierta en el organismo Dormir con la ventana…",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2027-08-12T22:33:00-04:00",
+      "starts_at_ms": 1818124380000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 12 de agosto · 22:33",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 343,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/2/11_dc_1.jpg?itok=-SPQufah",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 9.8,
+      "currency": "BOB",
+      "price_label": "Bs 9.8",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
+      "status": "postergado",
       "source_count": 1
     },
     {
