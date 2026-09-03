@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:21:55-04:00",
+  "generated_at": "2026-09-03T00:36:17-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,14 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_ccelp",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 43.4,
-    "horas_maximo_sin_datos": 328.2
+    "horas_promedio_sin_datos": 45.9,
+    "horas_maximo_sin_datos": 333.4
   },
   "sources": [
     {
@@ -27,13 +28,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TND_ZJ4wNlAQ7kNvwHERhA9&_nc_oc=AdqJJyKaLBK9rQir2syNWpzdSoCUla3DpX6vnuS35iGjtwnkqRX7U8KqUDg8XvkNiCE&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=HxtRrqB6yLvKQtPY2us3EQ&_nc_ss=7f289&oh=00_AQJBp-IWw6-2QbUf_GI9pUvM8th1noyB6JzZFaHUG6qTqg&oe=6A9EE2DA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02e1NUX29xrWtGUeGJ7hNvej1aq71hAcb1yyHVp7Nega1rrdXqDHCPvsysR2GQ5RCGl?__cft__[0]=AZgqBOPgV39uDtvuKTW9r1jdMd7ENwkkAtSHn1HwJ6eeBNeIKLf59IFHQVD2vCjv7u44ca1zme5sVDfkaEQL1LCEPUxn7NXsJ2Hr2h94uwO8K9u4biFnyL6zqQcW5kRPeKSELUtibCpCqJrnpQK7GJCT9apTCTFbTKc3KQ3nMTPJYK-RDQIPWMM1US8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡SUCRE SE PREPARA PARA VIVIR UNA EXPERIENCIA K-POP LLENA DE MÚSICA, DIVERSIÓN Y SORPRESAS! Ll… Ver más ¡SUCRE SE PREPARA PARA VIVIR UNA EXPERIENCIA K-POP LLENA DE MÚSICA, DIVERSIÓN Y SORPRESAS! Ll… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -401,22 +411,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IXcjYrYiaZMQ7kNvwHiesj7&_nc_oc=AdqnkjcGwJLJcVTZdt7UOHBOKa3Xbvznf7G_xWpPLjm8j5LO587q5IXqMd0P0vO4SJY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=o9FCCcKQcVjoDYc-eeKEig&_nc_ss=7f289&oh=00_AQLhyAxZK2nxdHp7KF7w7it7G0mL4YXEEfPlvfvFEiYunA&oe=6A9E8321",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid0PkykJeyXKGw4FxrLHjsCH3ZaKP3RmHsygwdaypYGQKgw2c6Ro6rAFxGtE13Nq3z3l?__cft__[0]=AZjTcdh0GN-dEv0k60-6y4JSlkk7Pw7mAhUkcyi2Hohm04ECogj6_vcrrMuFnWWiu7o4hvTJPYxdNZfCbykEexVLHsH1sfHjZNFGo0IKZWs-aZIo1uLQlTQWEih8utjz08mPw94Ezqce-9S6b_DqYOlaNxXmYrv7wRHXXq7_ofiLQawQwrbJ9i5JYhI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Anvisa suspende la producción de detergentes en planta de Unilever en Brasil (18:50) Lea la nota aquí: https://www.eldiario.net/.../anvisa-suspende-la.../… Ver más Anvisa suspende la producción de detergentes en planta de Unilever en Brasil (18:50) Lea la nota aquí: https://www.eldiario.net/.../anvisa-suspende-la.../… Ver más ELDIARIO.NET Anvisa suspende la producción de detergentes en planta de U"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_radio_fides",
@@ -444,22 +445,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1DLBpXBMgJMQ7kNvwF4JV-A&_nc_oc=Adp3GQ_pSVTr3LWZKsNLr7HmsK9RGkfFWMYTvg6QFokdsI7qq7Eqqwz7p3K09jKhxCs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=fk0clhCBD6D27i_p5Alv3g&_nc_ss=7f289&oh=00_AQKLh8mSX5VnBVPrtUhtUWhISlt9N1SZOhYp9-KqOSM4gw&oe=6A9E85BA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/ANFidesBolivia/posts/pfbid028Smj3uBDcWTGKXHcaffvDE37bGLuRjmXL4MUWevpu8eDGx4A9eLnck2M4in7THbnl?__cft__[0]=AZguPNm1G8HFu96C4n7UqmUKLIVkbs9A9b2hiLkaHpF_BgfpQzG0WWd0hkphPwWjtpZnzsEJkWPLJLrngii9HoumtHoCjB4RzyhuKqP8PbplfmyHwXOsToWeBgq0v3tS_67FoanubWBvc_peUCDSN28u4fJJkTAvyiK_DE7tRv04SFJZN5qMlaF4lnY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#GrupoFides | #ANF te invita a leer y comentar la nueva columna de #OPINIÓN de Gary Antonio Rodríguez, titulada ¡NOS ESTÁN ROBANDO LA ESPERANZA! -->>https://acortar.link/GJSZXe #GrupoFides | #ANF te invita a leer y comentar la nueva columna de #OPINIÓN de Gary Antonio Rodríguez, titulada ¡NOS ESTÁN ROBANDO LA ESPERANZA! -->>https://acortar.link/GJSZXe"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_rtp",
@@ -590,12 +582,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Centro Cultural de España en La Paz 31 mil seguidores • 426 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede'"
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -912,22 +904,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xd0vope9W2YQ7kNvwGbonoh&_nc_oc=AdqNS1JUCtbrL-efl9_dbfR-BkqevSmLIx0Ot-r-AJlPHT4w0xRWhtSfWA0mEojqumY&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=Tg-oEh73zsp68sYMFVH8ww&_nc_ss=7f289&oh=00_AQLjGNaIt4v5g6RGOUi9kiIKgcAYNnt44chk4Byqx_gxaA&oe=6A9E9247",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid02JsgnQUesrPp1EqN8HHUBHoj4nMAYM7NS1B4hYTquMoVGzHy8ynPxpNh7AdxCr51ol?__cft__[0]=AZjCISDIg84QhMS1xCUsw6ltRY1LMQg1sgGOmNbwXTkqee_ZpFa-h07XCw45-0FqdHb4m0Jr8ZPwjCmAsaAJSEgnPPVv5yKvBaBRH6BHsIaQgRBOgCLG12blR8Ra6YmwpJrP9eYuT181Eq8bdsJ53hSFOq9MYzk0Ufm2X2JqfTgN1viEi_m9wLexD8s&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Miércoles 9 de septiembre a 19h00 \"MEDIATECA\" Alianza Francesa Sopocachi ¿Quieres practicar francés en un ambiente amistoso y relajado? 🪑‍🗣 Si c… Ver más Miércoles 9 de septiembre a 19h00 \"MEDIATECA\" Alianza Francesa Sopocachi ¿Quieres practicar francés en un ambiente amistoso y relajado? 🪑‍🗣 Si c… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -955,22 +938,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CkcSQ4rKknYQ7kNvwGOxUgk&_nc_oc=AdrBlC-RWiEKSs9EQIg7oM-ZHvhDOGu9K9ll1NYpB0E8xd1JrtIhkD6op_T_o5A0UHo&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=baD29X3cfNfnla3hS4ne8g&_nc_ss=7f289&oh=00_AQKSxhWid_sHfKTH3i8r3BBOFbhpoDpPRUYv3ApW8LhdkQ&oe=6A9E84C7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid0tHWeMqa2Gm6A4hfsPkWgVrdjvwbUiNbyMKvP8RHryYopjmDiGfk3vJJSXqU71Rg1l?__cft__[0]=AZh84AuO1IxFQ7YZ2PjjPUN75uXkITjWZiIbWJgQr1fTzylnG3Q70mOiP1rMBJtXm3W8ylEC90y1pjKQwZm4cdu0h_lP216WlMt3pf1T1xkyTwX0Zw8FIieut5tFADknXlnu-lRW57AI6Tk_GG5scfPhfdnsOsCR6pCMRfUM4v9o0P9KdEsz-kILiGw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝐋𝐚𝐧𝐳𝐚𝐦𝐢𝐞𝐧𝐭𝐨 𝐝𝐞 𝐥𝐚 𝐀𝐠𝐞𝐧𝐝𝐚 𝐂𝐮𝐥𝐭𝐮𝐫𝐚𝐥 𝐝𝐞 𝐒𝐞𝐩𝐭𝐢𝐞𝐦𝐛𝐫𝐞 En homenaje a los 𝟐𝟏𝟔 𝐚𝐧̃𝐨𝐬 𝐝𝐞 𝐥𝐢𝐛𝐞𝐫𝐭𝐚𝐝… Ver más 𝐋𝐚𝐧𝐳𝐚𝐦𝐢𝐞𝐧𝐭𝐨 𝐝𝐞 𝐥𝐚 𝐀𝐠𝐞𝐧𝐝𝐚 𝐂𝐮𝐥𝐭𝐮𝐫𝐚𝐥 𝐝𝐞 𝐒𝐞𝐩𝐭𝐢𝐞𝐦𝐛𝐫𝐞 En homenaje a los 𝟐𝟏𝟔 𝐚𝐧̃𝐨𝐬 𝐝𝐞 𝐥𝐢𝐛𝐞𝐫𝐭𝐚𝐝… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -998,13 +972,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q_B03n144LwQ7kNvwG2J787&_nc_oc=Adrt0kMJoGp-UQ6YoWLsw6WTQH4BqzNDLlGKPwGa-b50LHlJNYpU8knguiURQ29vNLU&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Pf7XEpLzTBC9rLQvLXZTGw&_nc_ss=7f289&oh=00_AQLN_934ciZ8FLfuzScHjHSg2TiSzcw7vk4ofP-Hqr6vJQ&oe=6A9EE6BD",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/CasaMelchorPinto/videos/exposici%C3%B3n-confesi%C3%B3n-p%C3%BAblica-de-elisa-aparicio-est%C3%A1s-pinturas-son-un-completo-mi/1357162653291266/",
+          "has_image": true,
+          "text_preview": "Exposición \"Confesión Pública\" de Elisa Aparicio ✨ Estás pinturas son un completo misterio para la artista. Cada obra es una confesión abierta cuyo significado, una vez expuesto, ya no le pertenece.... Exposición \"Confesión Pública\" de Elisa Aparicio ✨ Estás pinturas son un completo misterio para la artista. Cada obra es una confesión abierta cuyo..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1117,13 +1100,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=N4usip6qSlkQ7kNvwHbPDA9&_nc_oc=Adrib1XNyOnmLhskAnRLuOOw5nd_35hBPvP3AtYPM4KdX6ziyl9zq8J1W9Gpm5g-InY&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=I4_pHo3Hh7B4l-5EE8y1ZQ&_nc_ss=7f289&oh=00_AQIQUVVJc8S34GKIWTprp1xwkXQhFVwXCBYbH-wLmdu4mA&oe=6A9EB7B7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/museocasadelalibertad/posts/pfbid024CHU4UjtHTK41CkaM2yXyK4yzs1KdcaTkbATJFE4Ewifk2eA8BdPzz9tugLGascUl?__cft__[0]=AZg5t5l-rqxQXELJQhaNO6D6f_Q0kHq5eFz-Ym8GwRSp0maTsntaWe8kKk5U2Y7yviVkfzwjv6l4iVMcUMrA_7w-beyUA_mN5U2GuDR8EeCZ666bGarR4xLdvXl5Z_HfLUcF0GX4Rpea4X-Qqj-ffpooopQ0WWtT45Mnx_ATCnea7aOBa5XwjIlp70c&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CDL | Horarios de visitas en Casa de la Libertad."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1436,18 +1428,9 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 12,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "02/09/2026 Cultura Thaqhata conquista su primer galardón internacional y va por más El cortometraje boliviano Thaqhata alcanzó su primera estrella en el contexto universal en el Festival Internacional del Cine de los Andes (FICA), en Cusco,... vista 31/08/2026 Cultura La IA bajo la mirada de la Iglesia y la filosofía No es casualidad que corrientes ateas y creyentes confluyan más o menos en lo mis"
-        }
-      ],
+      "events": 13,
+      "rejected": 0,
+      "rejected_samples": [],
       "error": null
     },
     {
@@ -1511,14 +1494,6 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/b35fe2df-a958-4b6b-8c6d-d7bfd2687216",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c695ed97-7b2c-4d01-9000-ad1c5c3e6b97",
           "has_image": true,
           "text_preview": ""
@@ -1527,7 +1502,15 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/75f7068d-9c92-49f7-a9b9-ad3d56a28f59",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/7541aabb-2bf6-4b91-b0f7-d68e84adc679",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/5990df56-2bfc-403d-8bf7-6c9f69303e0e",
           "has_image": true,
           "text_preview": ""
         }
@@ -1545,8 +1528,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 30,
-      "events": 30,
+      "raw_items": 8,
+      "events": 8,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1562,8 +1545,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1579,8 +1562,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1596,8 +1579,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 7,
-      "events": 7,
+      "raw_items": 6,
+      "events": 6,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1613,8 +1596,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
-      "events": 38,
+      "raw_items": 15,
+      "events": 15,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1630,8 +1613,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 8,
-      "events": 8,
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1647,8 +1630,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1809,7 +1792,7 @@
           "category": "feria",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝐀𝐑𝐑𝐈𝐁𝐀𝐍 𝐀 𝐋𝐀 𝐂𝐀𝐏𝐈𝐓𝐀𝐋 𝐀𝐔𝐓𝐎𝐑𝐈D𝐀𝐃𝐄𝐒 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋𝐄𝐒 𝐏𝐀𝐑𝐀 𝐏𝐀𝐑𝐓𝐈𝐂𝐈𝐏𝐀𝐑 𝐃𝐄𝐋 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐎 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐗𝐗𝐕𝐈𝐈 𝐅𝐋𝐀𝐂𝐌𝐀 hace 1 día Noticias 87 Autoridades internacionales arribaron hoy a la Capital de Bolivia para participar del Congreso Internacional XXVII FLACMA, se trata de: Luis Rodríguez, Alcalde del Distrito Municipal La Otra Banda – República Dominicana, Walther Ayala, Alcalde del municipio de Fray Bartol"
+          "text_preview": "𝐀𝐑𝐑𝐈𝐁𝐀𝐍 𝐀 𝐋𝐀 𝐂𝐀𝐏𝐈𝐓𝐀𝐋 𝐀𝐔𝐓𝐎𝐑𝐈D𝐀𝐃𝐄𝐒 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋𝐄𝐒 𝐏𝐀𝐑𝐀 𝐏𝐀𝐑𝐓𝐈𝐂𝐈𝐏𝐀𝐑 𝐃𝐄𝐋 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐎 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐗𝐗𝐕𝐈𝐈 𝐅𝐋𝐀𝐂𝐌𝐀 hace 1 día Noticias 97 Autoridades internacionales arribaron hoy a la Capital de Bolivia para participar del Congreso Internacional XXVII FLACMA, se trata de: Luis Rodríguez, Alcalde del Distrito Municipal La Otra Banda – República Dominicana, Walther Ayala, Alcalde del municipio de Fray Bartol"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
