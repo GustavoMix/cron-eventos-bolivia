@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-03T12:28:00-04:00",
+  "generated_at": "2026-09-03T17:05:39-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 46,
-    "events_today": 11
+    "events_total": 47,
+    "events_today": 12
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 16
+        "count": 17
       },
       {
         "key": "feria",
@@ -115,14 +115,14 @@
         "count": 6
       },
       {
-        "key": "Oruro",
-        "label": "Oruro",
+        "key": "Sucre",
+        "label": "Sucre",
         "count": 3
       },
       {
-        "key": "Sucre",
-        "label": "Sucre",
-        "count": 2
+        "key": "Oruro",
+        "label": "Oruro",
+        "count": 3
       },
       {
         "key": "Tarija",
@@ -157,14 +157,14 @@
         "count": 11
       },
       {
-        "key": "Bolivia",
-        "label": "Bolivia",
+        "key": "Chuquisaca",
+        "label": "Chuquisaca",
         "count": 3
       },
       {
-        "key": "Chuquisaca",
-        "label": "Chuquisaca",
-        "count": 2
+        "key": "Bolivia",
+        "label": "Bolivia",
+        "count": 3
       },
       {
         "key": "Oruro",
@@ -186,22 +186,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 12
+        "count": 13
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 15
+        "count": 16
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 24
+        "count": 25
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 46
+        "count": 47
       }
     ],
     "price": [
@@ -218,14 +218,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 38
+        "count": 39
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 40
+        "count": 41
       },
       {
         "key": "con_video",
@@ -247,6 +247,11 @@
       {
         "key": "LaPaz",
         "label": "LaPaz",
+        "count": 1
+      },
+      {
+        "key": "1495",
+        "label": "1495",
         "count": 1
       },
       {
@@ -339,7 +344,7 @@
       {
         "key": "cartelera_cine",
         "label": "cartelera_cine",
-        "count": 11
+        "count": 12
       },
       {
         "key": "venue",
@@ -367,14 +372,15 @@
     "today": [
       "evt_c183f2b7b229e8",
       "evt_d104af80f6a369",
+      "evt_f8b3f7ac91b030",
       "evt_938f4a7e0e428d",
       "evt_c1d56f4d8b6604",
+      "evt_ba1b0ff4cd135d",
       "evt_ab3211e7a7394a",
       "evt_7477b7089a857d",
-      "evt_f8b3f7ac91b030",
+      "evt_604e6d0bc12128",
       "evt_728f744453f2da",
       "evt_25b5f483216c9b",
-      "evt_604e6d0bc12128",
       "evt_83fa560c5db5e1",
       "evt_32ddf4517d2311"
     ],
@@ -390,14 +396,15 @@
     "free": [],
     "featured": [
       "evt_d104af80f6a369",
+      "evt_f8b3f7ac91b030",
       "evt_938f4a7e0e428d",
       "evt_c1d56f4d8b6604",
+      "evt_ba1b0ff4cd135d",
       "evt_ab3211e7a7394a",
       "evt_7477b7089a857d",
-      "evt_f8b3f7ac91b030",
+      "evt_604e6d0bc12128",
       "evt_728f744453f2da",
       "evt_25b5f483216c9b",
-      "evt_604e6d0bc12128",
       "evt_83fa560c5db5e1",
       "evt_32ddf4517d2311",
       "evt_8cb970f0050dc7",
@@ -410,15 +417,15 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 37,
+      "events_total": 35,
       "events_upcoming": 12,
       "events_with_image": 11,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 7
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 23,
+      "events_total": 22,
       "events_upcoming": 14,
       "events_with_image": 14,
       "events_with_video": 0,
@@ -426,20 +433,20 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 26,
+      "events_total": 24,
       "events_upcoming": 11,
       "events_with_image": 6,
       "events_with_video": 3,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
-      "events_total": 7,
-      "events_upcoming": 2,
-      "events_with_image": 2,
+      "events_total": 8,
+      "events_upcoming": 3,
+      "events_with_image": 3,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Oruro": {
       "events_total": 2,
@@ -458,7 +465,7 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 5,
+      "events_total": 4,
       "events_upcoming": 1,
       "events_with_image": 1,
       "events_with_video": 0,
@@ -471,7 +478,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 2
     },
     "Pando": {
       "events_total": 0,
@@ -485,9 +492,9 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 69,
-      "events_upcoming": 16,
-      "events_with_image": 16,
+      "events_total": 64,
+      "events_upcoming": 17,
+      "events_with_image": 17,
       "events_with_video": 0
     },
     "concierto": {
@@ -698,6 +705,68 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_f8b3f7ac91b030",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-03T10:40:00-04:00",
+      "starts_at_ms": 1788446400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 3 de septiembre · 10:40",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Monje Campero",
+      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "10:40",
+        "15:00",
+        "17:25",
+        "19:40",
+        "21:50",
+        "17:15",
+        "19:35",
+        "12:50",
+        "13:00",
+        "10:15"
+      ],
+      "formats": [
+        "2D"
+      ],
+      "occurrences": [
+        "2026-09-03T10:40:00-04:00",
+        "2026-09-03T15:00:00-04:00",
+        "2026-09-03T17:25:00-04:00",
+        "2026-09-03T19:40:00-04:00",
+        "2026-09-03T21:50:00-04:00",
+        "2026-09-03T17:15:00-04:00",
+        "2026-09-03T19:35:00-04:00",
+        "2026-09-03T12:50:00-04:00",
+        "2026-09-03T13:00:00-04:00",
+        "2026-09-03T10:15:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_938f4a7e0e428d",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -879,6 +948,81 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_ba1b0ff4cd135d",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-03T11:00:00-04:00",
+      "starts_at_ms": 1788447600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 3 de septiembre · 11:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": "Cine SAS",
+      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "11:00",
+        "14:45",
+        "17:00",
+        "18:55",
+        "10:15",
+        "21:00",
+        "16:05",
+        "18:45",
+        "10:10",
+        "20:50",
+        "12:45",
+        "14:50",
+        "21:25",
+        "14:10",
+        "12:55",
+        "16:40"
+      ],
+      "formats": [
+        "2D DOBLADA",
+        "3D DOBLADA"
+      ],
+      "occurrences": [
+        "2026-09-03T11:00:00-04:00",
+        "2026-09-03T14:45:00-04:00",
+        "2026-09-03T17:00:00-04:00",
+        "2026-09-03T18:55:00-04:00",
+        "2026-09-03T10:15:00-04:00",
+        "2026-09-03T21:00:00-04:00",
+        "2026-09-03T16:05:00-04:00",
+        "2026-09-03T18:45:00-04:00",
+        "2026-09-03T10:10:00-04:00",
+        "2026-09-03T20:50:00-04:00",
+        "2026-09-03T12:45:00-04:00",
+        "2026-09-03T14:50:00-04:00",
+        "2026-09-03T21:25:00-04:00",
+        "2026-09-03T14:10:00-04:00",
+        "2026-09-03T12:55:00-04:00",
+        "2026-09-03T16:40:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_ab3211e7a7394a",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1040,7 +1184,7 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_f8b3f7ac91b030",
+      "event_id": "evt_604e6d0bc12128",
       "title": "Película en cartelera de cine",
       "category": "cine",
       "category_label": "Cine",
@@ -1242,50 +1386,6 @@
       ],
       "occurrences": [
         "2026-09-03T21:00:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_604e6d0bc12128",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-09-03T21:15:00-04:00",
-      "starts_at_ms": 1788484500000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Jueves 3 de septiembre · 21:15",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "La Paz",
-      "department": "La Paz",
-      "venue": "Plaza 21 Mall - Multicine",
-      "image_url": "https://cdn.bolivia.com/cine/2007/1/terminator-2-el-juicio-final-39843.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "21:15"
-      ],
-      "formats": [
-        "2D PLUS SUB"
-      ],
-      "occurrences": [
-        "2026-09-03T21:15:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
