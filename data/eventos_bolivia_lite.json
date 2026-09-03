@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-03T17:05:39-04:00",
+  "generated_at": "2026-09-03T19:19:53-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 47,
-    "events_today": 12
+    "events_total": 49,
+    "events_today": 14
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 17
+        "count": 20
       },
       {
         "key": "feria",
@@ -65,7 +65,7 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 7
+        "count": 6
       },
       {
         "key": "concierto",
@@ -107,7 +107,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 8
+        "count": 10
       },
       {
         "key": "Quillacollo",
@@ -144,7 +144,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 14
+        "count": 16
       },
       {
         "key": "La Paz",
@@ -186,22 +186,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 13
+        "count": 15
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 16
+        "count": 18
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 25
+        "count": 27
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 47
+        "count": 49
       }
     ],
     "price": [
@@ -213,19 +213,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 8
+        "count": 12
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 39
+        "count": 37
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 41
+        "count": 43
       },
       {
         "key": "con_video",
@@ -339,7 +339,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 17
+        "count": 19
       },
       {
         "key": "cartelera_cine",
@@ -371,6 +371,7 @@
   "sections": {
     "today": [
       "evt_c183f2b7b229e8",
+      "evt_1cfdfe41290fc3",
       "evt_d104af80f6a369",
       "evt_f8b3f7ac91b030",
       "evt_938f4a7e0e428d",
@@ -380,6 +381,7 @@
       "evt_7477b7089a857d",
       "evt_604e6d0bc12128",
       "evt_728f744453f2da",
+      "evt_e99c29fdc200aa",
       "evt_25b5f483216c9b",
       "evt_83fa560c5db5e1",
       "evt_32ddf4517d2311"
@@ -407,6 +409,7 @@
       "evt_25b5f483216c9b",
       "evt_83fa560c5db5e1",
       "evt_32ddf4517d2311",
+      "evt_fbb72036092517",
       "evt_8cb970f0050dc7",
       "evt_a57be552692d03",
       "evt_f4ea8de87e8c3d",
@@ -425,20 +428,20 @@
       "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 22,
-      "events_upcoming": 14,
-      "events_with_image": 14,
+      "events_total": 26,
+      "events_upcoming": 16,
+      "events_with_image": 16,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 24,
+      "events_total": 23,
       "events_upcoming": 11,
       "events_with_image": 6,
       "events_with_video": 3,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Chuquisaca": {
       "events_total": 8,
@@ -446,7 +449,7 @@
       "events_with_image": 3,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 2,
@@ -454,7 +457,7 @@
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 2
     },
     "Potosí": {
       "events_total": 0,
@@ -478,7 +481,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 1
     },
     "Pando": {
       "events_total": 0,
@@ -492,9 +495,9 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 64,
-      "events_upcoming": 17,
-      "events_with_image": 17,
+      "events_total": 66,
+      "events_upcoming": 20,
+      "events_with_image": 20,
       "events_with_video": 0
     },
     "concierto": {
@@ -506,9 +509,9 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 8,
-      "events_upcoming": 7,
-      "events_with_image": 7,
+      "events_total": 7,
+      "events_upcoming": 6,
+      "events_with_image": 6,
       "events_with_video": 0
     },
     "exposicion": {
@@ -534,7 +537,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 4,
+      "events_total": 6,
       "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
@@ -584,6 +587,44 @@
       "quality_score": 62,
       "is_featured": false,
       "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_1cfdfe41290fc3",
+      "title": "Ciclo de cine en La Troje",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-03T00:00:00-04:00",
+      "starts_at_ms": 1788408000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 3 de septiembre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 16.5,
+      "currency": "BOB",
+      "price_label": "Bs 16.5",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
+      "status": "postergado",
       "source_count": 1
     },
     {
@@ -1354,6 +1395,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_e99c29fdc200aa",
+      "title": "Espectáculo de danza: Negra",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-03T19:00:00-04:00",
+      "starts_at_ms": 1788476400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 3 de septiembre · 19:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 16.5,
+      "currency": "BOB",
+      "price_label": "Bs 16.5",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
+      "status": "postergado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_25b5f483216c9b",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1737,9 +1816,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
+      "price_from": 16.5,
+      "currency": "BOB",
+      "price_label": "Bs 16.5",
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -1749,8 +1828,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 61,
-      "is_featured": false,
+      "quality_score": 69,
+      "is_featured": true,
       "status": "programado",
       "source_count": 1
     },
@@ -2592,9 +2671,9 @@
     },
     {
       "event_id": "evt_72f17feca5726b",
-      "title": "27/08/2026 Ciencia En Bolivia el eclipse parcial de Luna será visible desde las 22:33 de hoy Agosto está siendo un…",
-      "category": "deporte",
-      "category_label": "Deportes",
+      "title": "03/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal…",
+      "category": "cine",
+      "category_label": "Cine",
       "starts_at": "2027-08-12T22:33:00-04:00",
       "starts_at_ms": 1818124380000,
       "ends_at_ms": null,
@@ -2606,14 +2685,14 @@
       "is_upcoming": true,
       "city": "Cochabamba",
       "department": "Cochabamba",
-      "venue": "estadio Hernando... Ver",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/8/27/12_dc_cartelera_1.jpg?itok=saKCDMIb",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/3/parabas_0.jpg?itok=2zxRwXU1",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
+      "price_from": 16.5,
+      "currency": "BOB",
+      "price_label": "Bs 16.5",
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -2623,9 +2702,9 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 61,
+      "quality_score": 59,
       "is_featured": false,
-      "status": "programado",
+      "status": "postergado",
       "source_count": 1
     },
     {

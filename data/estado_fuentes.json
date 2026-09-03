@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T17:05:39-04:00",
+  "generated_at": "2026-09-03T19:19:53-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,12 +11,11 @@
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
-      "fb_ministerio_culturas",
-      "fb_umss"
+      "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 49.7,
-    "horas_maximo_sin_datos": 349.9
+    "horas_promedio_sin_datos": 47.0,
+    "horas_maximo_sin_datos": 352.2
   },
   "sources": [
     {
@@ -45,22 +44,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FCC6J08BFcQQ7kNvwE5K2_7&_nc_oc=AdpqYPsRi7kCoq_oRJMH1BBF3UavBm8yMEnpcuNY6mNPNW71DojQRaIxDGelsKnB2a8&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=DiKHlkWqkSd412oHWvY7tg&_nc_ss=7f289&oh=00_AQIywmbkZrSRWjm5GttI09_7i3oI3_5akn39xQ1C_6TS8g&oe=6A9FB575",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/ConciertosEnBolivia/videos/t-o-m-%C3%A1-s-m-a-n-z-i-de-k-u-d-a-i-confirma-su-llegada-y-el-lugar-del-show-en-su-h/1054848140585123/",
-          "has_image": true,
-          "text_preview": "T O M Á S M A N Z I de K U D A I confirma su llegada y el lugar del show✨ en su #HarakiriTour 🗓️ Domingo 27 de septiembre 2026 📍 Arena La Paz Campo Ferial Chuquiago Marka Las entradas 🎟️... T O M Á S M A N Z I de K U D A I confirma su llegada y el lugar del show✨ en su #HarakiriTour 🗓️ Domingo 27 de septiembre 2026 📍 Arena La Paz Campo..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -88,13 +78,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=78GUuDLsk9cQ7kNvwEfC8Xb&_nc_oc=AdryAC8KoOpmXgZ1xsUA1mRP1ao_cDcyZLkyJykdhf4Y8uqzL-CmDg6fxz-ql1Lr0Yc&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=1z1OCfWxP-kmKslpo1Aj9Q&_nc_ss=7f289&oh=00_AQKW3zfejjEp8WOEX1crkKuI6PxFR2i6Bd8Fu9ZlVkStuw&oe=6A9FBE03",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028q3x1iRSgQdfd3atG729CWdYwaiHLUJjXyPCUUTHtJUkWqMf12L3heucqyZbP8xLl?__cft__[0]=AZjGAXmbQcRYIkGs3wU44rwSKJpfp2oPDa5rznE2vO--lp58KQ-D_Lmbh3wStabHjbrVtVbQBBEOFYpLCZ0vblEURwxQGvtW5XAmGrJGGU2eTUDbUotvKdBo5IEq8OGUWmMRuxVJgGvgVPSH0swz2FW3kvtSUl7MnLy8EznT7WtSk3pgwX5pV76oaRE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -768,22 +767,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zth1-GtjhQ0Q7kNvwGjOgrU&_nc_oc=AdruJmEg4M7MwS3vfMP3mZG8R0EAQNs00iwAW7qFa54lG6BKfFdMa0kcfabwcRymHhs&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=1VF7U0encPFCfnvJVgvgiQ&_nc_ss=7f289&oh=00_AQIVYVjzn7rr3kmRguxsW2jfwl_vBlmvB76ckArJMZBtRQ&oe=6A9FB5EA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid0fqxhc3gANgjbs3GudoLhQZ55AfHrtyVBpAc3WcQ8nCMMnXPhJVX6T1qSiascuLv1l?__cft__[0]=AZjOlDLs2PkIPd8zqKhd-ijU8vWe5h2chkGId-E-oaCIbiFxJGtU_zJEXHTXHnXEZIQVxmB8xPjRf4k74IAt36YX48Yu9TN2WfeAdBMqKXTOQEeOzogFI0GgrG5wAogG5ud_gdoBjCv-BkMQa0LHDsxgwiLkxeMg_oxgnU_1OIKMp6krMPc5kZStik1PyK9ZCrwsY575nD22oFYR92o&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "𝗚𝗢𝗕𝗘𝗥𝗡𝗔𝗖𝗜𝗢́𝗡 𝗬 𝗚𝗥𝗨𝗣𝗢 𝗜𝗡𝗖𝗟𝗨𝗦𝗜𝗢́𝗡-𝗟𝗢𝗦 𝗔𝗨𝗧𝗘𝗡𝗧𝗜𝗖𝗢𝗦 𝗗𝗘𝗟 𝗦𝗨𝗥 𝗟𝗔𝗡𝗭𝗔𝗡 𝗘𝗟 𝗠𝗔𝗧𝗘𝗥𝗜𝗔𝗟 𝗔𝗨𝗗𝗜𝗢𝗩𝗜𝗦𝗨𝗔𝗟 𝗗𝗘𝗗𝗜𝗖𝗔𝗗𝗢 𝗔 𝗟𝗔 𝗠𝗔𝗠𝗜𝗧𝗔 𝗚𝗨𝗔𝗟𝗔𝗟𝗔 «𝗩𝗜𝗥𝗚𝗘𝗡𝗖𝗜𝗧𝗔 𝗗𝗘 𝗚𝗨𝗔𝗗𝗔𝗟𝗨𝗣𝗘» La Dirección Departamental … Ver más 𝗚𝗢𝗕𝗘𝗥𝗡𝗔𝗖𝗜𝗢́𝗡 𝗬 𝗚𝗥𝗨𝗣𝗢 𝗜𝗡𝗖𝗟𝗨𝗦𝗜𝗢́𝗡-𝗟𝗢𝗦 𝗔𝗨𝗧𝗘𝗡𝗧𝗜𝗖𝗢𝗦 𝗗𝗘𝗟 𝗦𝗨𝗥 𝗟𝗔𝗡𝗭𝗔𝗡 𝗘𝗟 𝗠𝗔𝗧𝗘𝗥𝗜𝗔𝗟 𝗔𝗨𝗗𝗜𝗢𝗩𝗜𝗦𝗨𝗔𝗟 𝗗𝗘𝗗𝗜𝗖𝗔𝗗𝗢 𝗔 𝗟𝗔 𝗠𝗔𝗠𝗜𝗧𝗔 𝗚𝗨𝗔𝗟𝗔𝗟𝗔 «𝗩𝗜𝗥𝗚𝗘𝗡𝗖𝗜𝗧𝗔 𝗗𝗘 𝗚𝗨𝗔𝗗𝗔𝗟𝗨𝗣𝗘» La Dirección Departamental … Ver más Tenemos problemas para reproducir este video"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_oruro",
@@ -794,13 +784,22 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=nBq0VKYmgfIQ7kNvwECBjCq&_nc_oc=AdroDWjm_9grKlLZ7K1rmk5eX_IpJWbzwOIYp2DRd_4rY2S3hYUJ9CJMzy5lnD50CEQ&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=uBCVu1KMrZ4eBXMmzSb4HQ&_nc_ss=7f289&oh=00_AQI-IyY3txIGmDErHMEAxE5JcNcpPq9E-5f2_hVjj-Serw&oe=6A9FC8FA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1947728383298486/?__cft__[0]=AZgcRXs1UEJKZftuWYpxIuAPmFm7qaFWXACj6ZtUM1m7OeuQoHBPwr79FDVU6548Eu73SnfyHHhdaL3MQr0jNnXcN0E0Gm_kvy_dlQnreORvjPppooXlXlJSjBJYLl8k4bOA1xXvvvTzky3-lFfYNBxsIDiqOLdIfAxKH1zDl0QON8ZUFoa-sG5RADFRV_HwGLBO&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Ya falta poco para festejar los 200 años de Creación de Nuestro Departamento. Con una cartelera de lujo:… Ver más Ya falta poco para festejar los 200 años de Creación de Nuestro Departamento. Con una cartelera de lujo:… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_tarija",
@@ -845,30 +844,13 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WRC2n_vJE6cQ7kNvwHHbVYi&_nc_oc=AdoxfILNH5UqszslWN2Cqa8VjC1oTfV-BSPHC5alMMJR6MiVutLCoTFGGoqsLNcaBzM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=cNs5pGJqE-143KU6M96lSQ&_nc_ss=7f289&oh=00_AQKGgzv3sCNeGMjQIhQSeANjzdK3TSikIwWxWfk3hP6Yhw&oe=6A9FA229",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDelBeni/posts/1689887975362010:1689887975362010?__cft__[0]=AZgSaJ6qhPfYBjU1j3swv1rj50pbeOWCrcWr6836USLf_hXi3IEoQ7GryycRLUZIpv7WFNGI_eK12ESCiQHMZXO2vMR5ii1PJmusnhXq_3jl13G7JY3d7q-j6z2K2MNkSiYwlac429kTxYMVh-WipSqBCCBy0EPjry-1Wt0NncHq7KZqaSEjbh8J0PzZHg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Ver más comentarios Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDelBeni/",
-          "has_image": false,
-          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fipaz",
@@ -1202,13 +1184,30 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/528008658_1169669701863560_4006843970321122842_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=G7HHn81TurIQ7kNvwEuvCvB&_nc_oc=Adp7eSWC03KGRtzduYaAMBSpUNqJxdVAJidES-OX9s2pSkRZG0mA3jZhbWP7NcGbde0&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=Wd8gUIfQqFJ8JP5cxMXwDw&_nc_ss=7f289&oh=00_AQJ9GdTnGkrDgBEWxXLiS84uAaRIX6OaQtk53M3-eUjAwQ&oe=6A9FE1DE",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? UMSS - Universidad Mayor de San Simón 132 mil seguidores • 272 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pu'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/28126020903716882/?__cft__[0]=AZi5hpXJKiDDjk_rjauQzN30_r3W9Jnb0BS8Jriaqfn-Ccvtr4akgXDe1Xgvw4AigeHjKBP6tuUNsFG7e3s4I7SDiX5FTswEG3wWqc0Io8sDw9iWare6HRITCVES2G-IkcitnztAwzoI5ROlgBQRjkTsoczDwoJPz9U9FSuE-mQGERrNh1HAN8obd0Mqwa-wRbk5&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¿No sabes cómo conectarte al Wi-Fi de la UMSS? Aquí te enseño en 30 segundos #WiFi-UMSS Hmmm... el guión se me hace conocido Tenemos problemas para reproducir este video. Más información Ver más comentarios Benjamin Thawne"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/28126020903716882/?comment_id=2044830656149435&__cft__[0]=AZi5hpXJKiDDjk_rjauQzN30_r3W9Jnb0BS8Jriaqfn-Ccvtr4akgXDe1Xgvw4AigeHjKBP6tuUNsFG7e3s4I7SDiX5FTswEG3wWqc0Io8sDw9iWare6HRITCVES2G-IkcitnztAwzoI5ROlgBQRjkTsoczDwoJPz9U9FSuE-mQGERrNh1HAN8obd0Mqwa-wRbk5&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Hmmm... el guión se me hace conocido Benjamin Thawne"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1236,13 +1235,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vjofvkMHXFoQ7kNvwE1xYuA&_nc_oc=AdovRVxHo6lhPjmmQXXZe2l6PfkSgYy6iuutlI8W3TRphZzTCNlOHlgpP5ugmjBdNlw&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=VOdQeLne4_-ZOQUDvWNynA&_nc_ss=7f289&oh=00_AQIrcZdmSO7-3IWuN-0wazQLbIje2t-Ft75_GOME4Dl7Vw&oe=6A9FE978",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/boliviaupsa/posts/el-5050-se-ha-convertido-en-uno-de-los-debates-pol%C3%ADticos-y-econ%C3%B3micos-m%C3%A1s-releva/1096232796130718/",
+          "has_image": true,
+          "text_preview": "El 50/50 se ha convertido en uno de los debates políticos y económicos más relevantes de la Bolivia actual: ¿Cómo deberían distribuirse los recursos y qué implica esto para las regiones y el modelo... El 50/50 se ha convertido en uno de los debates políticos y económicos más relevantes de la Bolivia actual: ¿Cómo deberían distribuirse los recursos y... El 50/50 se ha convertido en uno de los debat"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_superticket",
@@ -1436,12 +1444,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 7,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 27,
+          "score": 25,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1449,19 +1457,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 29,
+          "score": 27,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Decreto establece la adquisición de diésel hasta 2.500 litros a Bs 9,8 para pequeños productores Ver más 2 Bloquean carreteras en 4 municipios de Santa"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 YPFB dejará de comercializar hidrocarburos Ver más 2 ICAM presenta la séptima edición del Catálogo de Negocios Verdes Ver más 3 Cocaleros toman un reté"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 28,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 44,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1745,7 +1753,7 @@
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
+          "score": 30,
           "category": "turismo",
           "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
           "has_image": false,
@@ -1817,7 +1825,7 @@
           "category": "feria",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝐀𝐑𝐑𝐈𝐁𝐀𝐍 𝐀 𝐋𝐀 𝐂𝐀𝐏𝐈𝐓𝐀𝐋 𝐀𝐔𝐓𝐎𝐑𝐈D𝐀𝐃𝐄𝐒 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋𝐄𝐒 𝐏𝐀𝐑𝐀 𝐏𝐀𝐑𝐓𝐈𝐂𝐈𝐏𝐀𝐑 𝐃𝐄𝐋 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐎 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐗𝐗𝐕𝐈𝐈 𝐅𝐋𝐀𝐂𝐌𝐀 hace 2 días Noticias 124 Autoridades internacionales arribaron hoy a la Capital de Bolivia para participar del Congreso Internacional XXVII FLACMA, se trata de: Luis Rodríguez, Alcalde del Distrito Municipal La Otra Banda – República Dominicana, Walther Ayala, Alcalde del municipio de Fray Bart"
+          "text_preview": "𝐀𝐑𝐑𝐈𝐁𝐀𝐍 𝐀 𝐋𝐀 𝐂𝐀𝐏𝐈𝐓𝐀𝐋 𝐀𝐔𝐓𝐎𝐑𝐈D𝐀𝐃𝐄𝐒 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋𝐄𝐒 𝐏𝐀𝐑𝐀 𝐏𝐀𝐑𝐓𝐈𝐂𝐈𝐏𝐀𝐑 𝐃𝐄𝐋 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐎 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐗𝐗𝐕𝐈𝐈 𝐅𝐋𝐀𝐂𝐌𝐀 hace 2 días Noticias 129 Autoridades internacionales arribaron hoy a la Capital de Bolivia para participar del Congreso Internacional XXVII FLACMA, se trata de: Luis Rodríguez, Alcalde del Distrito Municipal La Otra Banda – República Dominicana, Walther Ayala, Alcalde del municipio de Fray Bart"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
