@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-03T00:36:17-04:00",
+  "generated_at": "2026-09-03T07:16:50-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 44,
+    "events_total": 45,
     "events_today": 11
   },
   "filters": {
@@ -65,7 +65,7 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 6
+        "count": 7
       },
       {
         "key": "concierto",
@@ -95,14 +95,14 @@
     ],
     "cities": [
       {
-        "key": "Santa Cruz de la Sierra",
-        "label": "Santa Cruz de la Sierra",
+        "key": "La Paz",
+        "label": "La Paz",
         "count": 12
       },
       {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 11
+        "key": "Santa Cruz de la Sierra",
+        "label": "Santa Cruz de la Sierra",
+        "count": 12
       },
       {
         "key": "Cochabamba",
@@ -149,7 +149,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 11
+        "count": 12
       },
       {
         "key": "Santa Cruz",
@@ -201,7 +201,7 @@
       {
         "key": "todos",
         "label": "Todos",
-        "count": 44
+        "count": 45
       }
     ],
     "price": [
@@ -213,19 +213,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 8
+        "count": 7
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 36
+        "count": 38
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 38
+        "count": 39
       },
       {
         "key": "con_video",
@@ -334,7 +334,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 15
+        "count": 16
       },
       {
         "key": "cartelera_cine",
@@ -405,18 +405,17 @@
       "evt_f4ea8de87e8c3d",
       "evt_b738d5075ee0af",
       "evt_2821894c1d5322",
-      "evt_ab2d744f1fbd8e",
-      "evt_eb0182ea391c59"
+      "evt_ab2d744f1fbd8e"
     ]
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 48,
-      "events_upcoming": 11,
-      "events_with_image": 10,
+      "events_total": 47,
+      "events_upcoming": 12,
+      "events_with_image": 11,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 7
     },
     "Cochabamba": {
       "events_total": 22,
@@ -432,7 +431,7 @@
       "events_with_image": 6,
       "events_with_video": 3,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
       "events_total": 8,
@@ -440,7 +439,7 @@
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 2,
@@ -486,7 +485,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 81,
+      "events_total": 80,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0
@@ -501,8 +500,8 @@
     "deporte": {
       "label": "Deportes",
       "events_total": 8,
-      "events_upcoming": 6,
-      "events_with_image": 6,
+      "events_upcoming": 7,
+      "events_with_image": 7,
       "events_with_video": 0
     },
     "exposicion": {
@@ -2402,9 +2401,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 1.0,
-      "currency": "BOB",
-      "price_label": "Bs 1 - 9.8",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -2414,8 +2413,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
@@ -2529,6 +2528,44 @@
       "director": null,
       "cast": [],
       "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_9bfc4730029f06",
+      "title": "Espectáculos",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2027-08-28T14:50:00-04:00",
+      "starts_at_ms": 1819479000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 28 de agosto · 14:50",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 359,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Estadio Hernando Siles",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/7/24/12_dc_cartelera_1_0.jpg?itok=9MQ7b8B8",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
