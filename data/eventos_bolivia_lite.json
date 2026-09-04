@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-04T16:48:38-04:00",
+  "generated_at": "2026-09-04T19:06:07-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 50,
+    "events_total": 51,
     "events_today": 16
   },
   "filters": {
@@ -65,7 +65,7 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 6
+        "count": 7
       },
       {
         "key": "concierto",
@@ -140,6 +140,11 @@
         "count": 1
       },
       {
+        "key": "Potosí",
+        "label": "Potosí",
+        "count": 1
+      },
+      {
         "key": "Trinidad",
         "label": "Trinidad",
         "count": 1
@@ -182,6 +187,11 @@
         "count": 1
       },
       {
+        "key": "Potosí",
+        "label": "Potosí",
+        "count": 1
+      },
+      {
         "key": "Beni",
         "label": "Beni",
         "count": 1
@@ -196,17 +206,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 19
+        "count": 20
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 27
+        "count": 28
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 50
+        "count": 51
       }
     ],
     "price": [
@@ -223,14 +233,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 37
+        "count": 38
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 44
+        "count": 45
       },
       {
         "key": "con_video",
@@ -367,6 +377,11 @@
         "count": 4
       },
       {
+        "key": "municipio",
+        "label": "municipio",
+        "count": 1
+      },
+      {
         "key": "eventos",
         "label": "eventos",
         "count": 1
@@ -395,11 +410,13 @@
     ],
     "tomorrow": [
       "evt_c183f2b7b229e8",
-      "evt_8e7a04f1a6b6ee"
+      "evt_8e7a04f1a6b6ee",
+      "evt_5c969b30be9216"
     ],
     "this_weekend": [
       "evt_c183f2b7b229e8",
-      "evt_8e7a04f1a6b6ee"
+      "evt_8e7a04f1a6b6ee",
+      "evt_5c969b30be9216"
     ],
     "free": [],
     "featured": [
@@ -432,7 +449,7 @@
       "events_with_image": 11,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 5
     },
     "Cochabamba": {
       "events_total": 25,
@@ -440,10 +457,10 @@
       "events_with_image": 16,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 24,
+      "events_total": 23,
       "events_upcoming": 11,
       "events_with_image": 6,
       "events_with_video": 3,
@@ -456,7 +473,7 @@
       "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 4
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 2,
@@ -467,12 +484,12 @@
       "sources_ok": 1
     },
     "Potosí": {
-      "events_total": 0,
-      "events_upcoming": 0,
-      "events_with_image": 0,
+      "events_total": 1,
+      "events_upcoming": 1,
+      "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 1
     },
     "Tarija": {
       "events_total": 4,
@@ -496,13 +513,13 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 1
     }
   },
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 67,
+      "events_total": 66,
       "events_upcoming": 20,
       "events_with_image": 20,
       "events_with_video": 0
@@ -523,9 +540,9 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 7,
-      "events_upcoming": 6,
-      "events_with_image": 6,
+      "events_total": 8,
+      "events_upcoming": 7,
+      "events_with_image": 7,
       "events_with_video": 0
     },
     "exposicion": {
@@ -1653,6 +1670,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_5c969b30be9216",
+      "title": "Gobierno Autónomo Municipal de Potosí",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-09-05T14:00:00-04:00",
+      "starts_at_ms": 1788631200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 5 de septiembre · 14:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 1,
+      "is_upcoming": true,
+      "city": "Potosí",
+      "department": "Potosí",
+      "venue": null,
+      "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/793721432_28307198945566479_950002392839055741_n.png?stp=dst-jpg_tt6&cstp=mx917x1574&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=cae128&_nc_ohc=iavkXPl6qaAQ7kNvwGhrcGA&_nc_oc=Adq-7Zja2ZOhgxCLErAc53JUpsalnL2X7tC9s8fehNI5V7IJyEOebsbCI9z8oNTsM2g&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=IJo0DL0omzRO8Tov2rthAA&_nc_ss=7f289&oh=00_AQK7yRfXIe0ctZQApB7BhOWEs3eZVyqed5cAIAElKk2t4A&oe=6AA12481",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_46eadf6dd09226",
       "title": "GOBERNACIÓN IMPULSA LA PROMOCIÓN TURÍSTICA DE BELLA VISTA RUMBO A LA FERIA DEL PESCADO",
       "category": "turismo",
@@ -2379,11 +2434,11 @@
       "title": "GAMS Gobierno Autonomo Municipal de Sucre",
       "category": "conferencia",
       "category_label": "Conferencias",
-      "starts_at": "2027-05-25T03:00:00-04:00",
-      "starts_at_ms": 1811228400000,
+      "starts_at": "2027-05-25T05:00:00-04:00",
+      "starts_at_ms": 1811235600000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Martes 25 de mayo · 03:00",
+      "display_date": "Martes 25 de mayo · 05:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
       "days_until": 263,
