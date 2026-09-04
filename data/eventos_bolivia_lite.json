@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-04T00:35:21-04:00",
+  "generated_at": "2026-09-04T07:20:36-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 47,
@@ -213,12 +213,12 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 10
+        "count": 9
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 37
+        "count": 38
       }
     ],
     "media": [
@@ -408,7 +408,6 @@
       "evt_3b76b0fba2c91e",
       "evt_3d6f4bdcfb4185",
       "evt_92882181c05c64",
-      "evt_fbb72036092517",
       "evt_8cb970f0050dc7",
       "evt_a57be552692d03",
       "evt_f4ea8de87e8c3d",
@@ -427,7 +426,7 @@
       "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 27,
+      "events_total": 25,
       "events_upcoming": 14,
       "events_with_image": 14,
       "events_with_video": 0,
@@ -440,7 +439,7 @@
       "events_with_image": 6,
       "events_with_video": 3,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Chuquisaca": {
       "events_total": 8,
@@ -464,7 +463,7 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 0
     },
     "Tarija": {
       "events_total": 5,
@@ -472,7 +471,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Beni": {
       "events_total": 1,
@@ -488,13 +487,13 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 0
     }
   },
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 78,
+      "events_total": 77,
       "events_upcoming": 18,
       "events_with_image": 18,
       "events_with_video": 0
@@ -536,7 +535,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 4,
+      "events_total": 3,
       "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
@@ -1735,9 +1734,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 16.5,
-      "currency": "BOB",
-      "price_label": "Bs 16.5",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -1747,8 +1746,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
