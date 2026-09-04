@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T07:20:36-04:00",
+  "generated_at": "2026-09-04T12:24:32-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,11 +12,12 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_municipio_cobija",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 51.9,
-    "horas_maximo_sin_datos": 364.2
+    "horas_promedio_sin_datos": 53.6,
+    "horas_maximo_sin_datos": 369.2
   },
   "sources": [
     {
@@ -555,22 +556,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/432766499_812585937576485_5980317798609638070_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YeqIuOYC-2YQ7kNvwFO9_iQ&_nc_oc=Adq6GucCDn6d1E40zg2gG2Oor-Iq5M7u1NRw094678ab_OXflCobVhwd8ffzBPJsx5A&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=h-u8L5L8AuztvKdb2C9OSg&_nc_ss=7f289&oh=00_AQKpgpirs3_MBBuGXg4wTkHRG_4TI8zfnahRAkLJuLl4kw&oe=6AA0804A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "cine",
-          "url": "https://www.facebook.com/reel/1607072397478415/?__cft__[0]=AZjftI4qYzbFUWG9mKCVVwK76AQnFRl2AvXXfOqRTXVH5OXdYGqTZOkGQcqEoh7uA8fWwtVb8Yk1Tfx-0f0Z0N98_heeoU7o4WRHncM1PCsrikjGRsKsOPkeQ3Mgoox-H5Pus3PWDVFjjzPtn6IcEOVyBv0aGPLvfsAIecwCw5iA7lsrXW3zkvUjPBAdThkjmYAv&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Comenzamos el ciclo \"Edward Yang: vidas entrelazadas\" que el \"Cineclub Elipsis\" dedica a la filmografía de este gran representante de la Nueva Ola del cine taiwanés. Ma… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -683,13 +675,22 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/693488690_1306639851654691_8009211632152824782_n.jpg?stp=dst-jpg_tt6&cstp=mx1344x1344&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UgwoLdHegOgQ7kNvwH66eb6&_nc_oc=AdrRzdPA4LD6QQc9ZW-q1jtqTkVKCZRZW92TTKJTmZJRo9lyQsOBl9qqfNGETT3601o&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=vTr37D7ky8A7cTj2ezPw7A&_nc_ss=7f289&oh=00_AQICvE84s2FRHCzpuiF5kQnN5hZtv6YzHhAotPojqflXrg&oe=6AA0D3AF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlcaldiaDeOruro/posts/pfbid02XTeZNpDnbPh5wfMUHmBpiNL5hxGH1XPvr2HdhvxxqTnDqwqWLpyXpevony1xp1CVl?__cft__[0]=AZi9bD5xX67z9Y6FjVfKZ4beHg-zGcaQZDZBG6tfxBC94m-GDdnwYJlJ0YOjaIdp98uTeZe1nWG5oDNwUo3306DEdYsSmlEZpKM4pqEwQ2OBrIl_ZGBiIddQQIkz0JCTQIklyLfPSnMT9fzDBB7Y5lpg6lbdxW2k32pIcXssDTjXZQ3YnRp-M3TE3q4&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Más transparencia y mejores condiciones para nuestras unidades educativas. Se realizó la apertura de propuestas para la adquisición de material de limpieza destinado… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_tarija",
@@ -752,12 +753,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Cobija 20 mil seguidores • 234 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pue'"
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -802,13 +803,22 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xFNQD-g0LIcQ7kNvwEMOnzi&_nc_oc=Ado9d0Tyxwstccmi3ulpYAeKqdfo21fnSuqVIrNZ19lGpc8DRef-nWtBaaO1sGvwjKM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=6gfzf4U29qtDC41s6xVpoQ&_nc_ss=7f289&oh=00_AQI_GRyQvb-SAKH3kK9c7VB6TNGV75IEapCU4DIFuwoZuQ&oe=6AA0DCE7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GADTarija/posts/pfbid04W65ESacZPg29tKXC66tKATkSnc1h7KykPSuVSb1ZLQQhisazDanhCsou44RqbTwl?__cft__[0]=AZgc_5WJm8NWb5k_tsX4llFTRLEFt_0azZ62NFrMRQnxVqSQW93GFW4ATZ8iFapvBPkDMgMsO4sNqtoLCGiXVqTrnOwhNo_fgxrjUQvSGa1Pn3bEru8_GaHW1V8aFFR9WIbUzB8B7tc2FL8CbavzwTjHoyGT9kTafQpnIoepQ0WmBwpsg8JwRaLH3CM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Con el firme propósito de reforzar la protección de la infancia y la adolescencia, se llevó a cabo la Cumbre Departamental de Tarija: Fortaleciendo la Prevención y Prot… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_pando",
@@ -989,22 +999,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/365986260_596068646011216_2024033539762208732_n.jpg?stp=dst-jpg_tt6&cstp=mx358x360&ctp=s358x360&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Nm3maoteWvwQ7kNvwFOwrbw&_nc_oc=AdqITXl96Bm4ezkRCsAHfrIFWestIrmy_tL-BzalWNqt8pfLTol8bbOb4zKOkh-s_IE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Du6ClRU3aDRmlOrWw5H4kw&_nc_ss=7f289&oh=00_AQLruqtsQWi56zfxStBrM-zvCKCVOYUPoMXyHLzEWSilSQ&oe=6AA08983",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid01G8wRegUqJpLthTpsPHmtrLcorHJuZQAzCkJhgTEZcg1gSkW6Rc5c9NT6bPCEPCwl?__cft__[0]=AZjBKPALHoJzZo2xLQVRxLYjZSEOIFiKzWJrBXZ0hvZ8OysMyBQN4hUIoLvVCvnsa8AZxDyd2BngZJnTGGyTNUayV3RgkzTX2Jjw8XA9Au_3Xirnrz6Bndrxqx9eK4As8atfRVyGZmSPqGheS-ZNK1uRz9naDCzZdvD5xV3dE88ckg-E9TZmgWeaO1w&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Convocatoria de Cartas para la Memoria Colectiva en #Tarija … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1083,22 +1084,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Vat5mNKiqmUQ7kNvwG3OhA5&_nc_oc=AdppDSavmRimEapTlW1DcHaUol8zKNUl-HZFbJhuh4Tno3tWGwsb-6c9iyt4-IPypzw&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=DMD4rf9xMt637FBmESKQrA&_nc_ss=7f289&oh=00_AQKQHCQaFf-uvonPKz8YlgM3uzFUkLFKFpHJpxf_UFqcTA&oe=6AA08D6F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02dgv3hEtFe1cR3oSaBM7PEMzWjRMQcHy99KDkJSeocppXdB4UxaPP9eA7LpxLvGknl?__cft__[0]=AZgFfRPrYerHcsQet5qd5rwr_1Y6r3LI7r8gjEvmW2StPuv5XsefbM3ZJ6erGHA0mM27JCWo42HPtLIN0VzeDHifti0pUNUXbySXYg1kSgN8cX7e60VVFLepZKx3efg7BMKCV-eXgaHkRWJPNyxtvPm-erLe0lgV6m0iiZ_qchwJhKHehUsN392wD8U&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El cielo se prende en naranja. La primavera empieza a saludarnos. … Ver más El cielo se prende en naranja. La primavera empieza a saludarnos. … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1329,7 +1321,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1437,7 +1429,7 @@
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "03/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal boliviano Saturnina y Avelino apenas comienzan a descubrir el mundo, pero su nacimiento ya marca un hito para la conservación de la paraba azul en Bolivia. vista 02/09/2026 Salud Cuál es el verdadero impacto de dormir con la ventana abierta en el organismo Dormir con la ventana abierta parec"
+          "text_preview": "04/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal boliviano Saturnina y Avelino apenas comienzan a descubrir el mundo, pero su nacimiento ya marca un hito para la conservación de la paraba azul en Bolivia. Los dos... vista 03/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal boliviano S"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1553,8 +1545,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 23,
-      "events": 23,
+      "raw_items": 31,
+      "events": 31,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1587,8 +1579,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1621,8 +1613,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 15,
-      "events": 15,
+      "raw_items": 16,
+      "events": 16,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1655,8 +1647,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 2,
+      "events": 2,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1800,17 +1792,9 @@
       "icon_url": "https://sucre.bo/wp-content/uploads/2026/05/header_web_2026.png",
       "status": "ok",
       "raw_items": 4,
-      "events": 0,
-      "rejected": 4,
+      "events": 1,
+      "rejected": 3,
       "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 49,
-          "category": "feria",
-          "url": "https://sucre.bo/noticias/",
-          "has_image": true,
-          "text_preview": "𝐀𝐑𝐑𝐈𝐁𝐀𝐍 𝐀 𝐋𝐀 𝐂𝐀𝐏𝐈𝐓𝐀𝐋 𝐀𝐔𝐓𝐎𝐑𝐈D𝐀𝐃𝐄𝐒 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋𝐄𝐒 𝐏𝐀𝐑𝐀 𝐏𝐀𝐑𝐓𝐈𝐂𝐈𝐏𝐀𝐑 𝐃𝐄𝐋 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐎 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐗𝐗𝐕𝐈𝐈 𝐅𝐋𝐀𝐂𝐌𝐀 hace 3 días Noticias 140 Autoridades internacionales arribaron hoy a la Capital de Bolivia para participar del Congreso Internacional XXVII FLACMA, se trata de: Luis Rodríguez, Alcalde del Distrito Municipal La Otra Banda – República Dominicana, Walther Ayala, Alcalde del municipio de Fray Bart"
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 30,
@@ -1826,6 +1810,14 @@
           "url": "https://sucre.bo/direccion-de-gestion-de-recursos-humanos/",
           "has_image": false,
           "text_preview": "Inicio / DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS xoso tin chelsea thông tin chuyển nhượng câu lạc bộ bóng đá arsenal bóng đá atalanta bundesliga cầu thủ haaland UEFA everton xoso futebol ao vivo futemax multicanais onbet https://bsport.fit https://onbet88.ooo https://i9bet.biz https://hi88.ooo https://okvip.at https://f8bet.at https://fb88.cash https://vn8"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "turismo",
+          "url": "https://sucre.bo/secretaria-municipal-turismo-cultura/",
+          "has_image": false,
+          "text_preview": "Inicio / SECRETARÍA MUNICIPAL DE TURISMO Y CULTURA SECRETARÍA MUNICIPAL DE TURISMO Y CULTURA DIRECCIÓN: Calle Argentina Nº 65 TELÉFONO: 64-69160 SECRETARIO : Lic. Oscar Alfaro Vega ￼ OBJETIVO GENERAL: Posicionar al Municipio de Sucre como el principal referente turístico y cultural del país en el marco de su riqueza patrimonial, histórica, arquitectónica, cultural, paleontológica, gastronómi"
         }
       ],
       "error": null
@@ -1840,12 +1832,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": null
     }
   ]
 }
