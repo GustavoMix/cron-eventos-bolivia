@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T19:19:53-04:00",
+  "generated_at": "2026-09-04T00:35:21-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_ministerio_culturas"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 47.0,
-    "horas_maximo_sin_datos": 352.2
+    "horas_promedio_sin_datos": 48.2,
+    "horas_maximo_sin_datos": 357.4
   },
   "sources": [
     {
@@ -61,13 +61,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=u05jOJcqU8IQ7kNvwESLCEt&_nc_oc=AdqER0Udq3kdKkFpqO22PFbRQdAbsIsLWtqpg9Vyq0SwVRZcMcGTeD0SyKHBZoyoffA&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=hzdg54edbUDtowhGSZHK0w&_nc_ss=7f289&oh=00_AQLagFqj6uiW8AxTFMKtiJcGO9ylj3MUYTCqntms5-3qug&oe=6AA015B6",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid037t1TcM8sMLe7suzfYtstct7tcw8R47ayxMBnrJNcd18K3G4HW3rZcyoXHBc2DBoWl?__cft__[0]=AZgq_ne9fhQHwoh-e9yxBaKGtQzZsDR5UJrXv4mg8l1OkDC9hViknh6Od1dmh63-u9GWrKE_TPn3iH4r-3T8RAzBUFmFzf5eEylVKNBFxNjX1OO9CgZq5nWJWGa95Dngq71kSWqEjbdnuIZMDM9px3v8bcp3ieAe_UyJfUzwpOKeHYPQHRMiczGl3dA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -78,22 +87,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=78GUuDLsk9cQ7kNvwEfC8Xb&_nc_oc=AdryAC8KoOpmXgZ1xsUA1mRP1ao_cDcyZLkyJykdhf4Y8uqzL-CmDg6fxz-ql1Lr0Yc&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=1z1OCfWxP-kmKslpo1Aj9Q&_nc_ss=7f289&oh=00_AQKW3zfejjEp8WOEX1crkKuI6PxFR2i6Bd8Fu9ZlVkStuw&oe=6A9FBE03",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028q3x1iRSgQdfd3atG729CWdYwaiHLUJjXyPCUUTHtJUkWqMf12L3heucqyZbP8xLl?__cft__[0]=AZjGAXmbQcRYIkGs3wU44rwSKJpfp2oPDa5rznE2vO--lp58KQ-D_Lmbh3wStabHjbrVtVbQBBEOFYpLCZ0vblEURwxQGvtW5XAmGrJGGU2eTUDbUotvKdBo5IEq8OGUWmMRuxVJgGvgVPSH0swz2FW3kvtSUl7MnLy8EznT7WtSk3pgwX5pV76oaRE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -631,13 +631,30 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=unAAqY2fwX8Q7kNvwFPo2A9&_nc_oc=Adq5jzD0iEisEQuq5ZWiiySsflJNMvPOfP54nXemrpcAz1bfCJ9nR-Gc5NaSEcQwRaw&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=gRKPtnQacKaCPAdOyHVWfQ&_nc_ss=7f289&oh=00_AQKwUDh2oRI8y2vd4BfItbf-g2eetZXxGfJpOBXlCNA4Gw&oe=6AA0258F",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0ecYC7yMkuBChAQ6emjVgP6Sui7fmJqarnnQPG1MH2mSvjnCWbmVZsaTjbcrAja25l?__cft__[0]=AZgbs5I2WZDu-oNo6jNWaG0Pc4scfEzDA6PCdzr5WtPec1b6pcZxtwCbmVj0j_zlVNtrK-ZnuVKifMWBHWU81nbMsoXYNCRLdgtTyWrdVrJyuxQgwMknMlv7pT2po10hue6BvNvGtPSI37JPsckfA1K5Wl1CGN_6obxl8mLOaoogbfDsxA2-bOjQQSw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CONMEMORACIÓN PATRIMONIAL | San Gregorio Magno… Ver más El gran Marcos Zapata Tenemos problemas para reproducir este video. Más información Heinz Antonio Basagoitia"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0ecYC7yMkuBChAQ6emjVgP6Sui7fmJqarnnQPG1MH2mSvjnCWbmVZsaTjbcrAja25l?comment_id=28748780291373121&__cft__[0]=AZgbs5I2WZDu-oNo6jNWaG0Pc4scfEzDA6PCdzr5WtPec1b6pcZxtwCbmVj0j_zlVNtrK-ZnuVKifMWBHWU81nbMsoXYNCRLdgtTyWrdVrJyuxQgwMknMlv7pT2po10hue6BvNvGtPSI37JPsckfA1K5Wl1CGN_6obxl8mLOaoogbfDsxA2-bOjQQSw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "El gran Marcos Zapata Heinz Antonio Basagoitia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -784,22 +801,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=nBq0VKYmgfIQ7kNvwECBjCq&_nc_oc=AdroDWjm_9grKlLZ7K1rmk5eX_IpJWbzwOIYp2DRd_4rY2S3hYUJ9CJMzy5lnD50CEQ&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=uBCVu1KMrZ4eBXMmzSb4HQ&_nc_ss=7f289&oh=00_AQI-IyY3txIGmDErHMEAxE5JcNcpPq9E-5f2_hVjj-Serw&oe=6A9FC8FA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1947728383298486/?__cft__[0]=AZgcRXs1UEJKZftuWYpxIuAPmFm7qaFWXACj6ZtUM1m7OeuQoHBPwr79FDVU6548Eu73SnfyHHhdaL3MQr0jNnXcN0E0Gm_kvy_dlQnreORvjPppooXlXlJSjBJYLl8k4bOA1xXvvvTzky3-lFfYNBxsIDiqOLdIfAxKH1zDl0QON8ZUFoa-sG5RADFRV_HwGLBO&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Ya falta poco para festejar los 200 años de Creación de Nuestro Departamento. Con una cartelera de lujo:… Ver más Ya falta poco para festejar los 200 años de Creación de Nuestro Departamento. Con una cartelera de lujo:… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_tarija",
@@ -827,13 +835,30 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JNxoje2ZtrYQ7kNvwF_hFij&_nc_oc=AdomnwhUAcr4rWM3579KTAovhIKMk9oPivg1SDtTJw96CxtIEJERxralWVV0OHIwVOg&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=A7YeqyxctQqb-G_CKSufeg&_nc_ss=7f289&oh=00_AQLjQ_67rHtmq-RopILBR2lr9I5QjuLPnfeu0Ncc37fmuw&oe=6AA01810",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02MRmzMmMUQ8QSdEo9CYStYJUZKsR5sednuHreoJVD4G1HMSv9k4UBA8c1Hb5XbxoYl?__cft__[0]=AZhWABr8odTuzTOzGEnwoZMgWxymjWuJ1ftVc7bQyEHxcpwYrCuQx79nDgowLrFzfUiR2QEp_Z49SbLojzXKcslcDM4gjJtyvhrM9gp96SBrZWSVl82v7NtWGKxSwq-xeDuoNtIdYRSYE3xuDnswDqpas2_-RjMXA-b5xtFZqYYqxMXX1_azYZJPljB0QniueiAatpbcqA&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02MRmzMmMUQ8QSdEo9CYStYJUZKsR5sednuHreoJVD4G1HMSv9k4UBA8c1Hb5XbxoYl?comment_id=584098196711804&__cft__[0]=AZhWABr8odTuzTOzGEnwoZMgWxymjWuJ1ftVc7bQyEHxcpwYrCuQx79nDgowLrFzfUiR2QEp_Z49SbLojzXKcslcDM4gjJtyvhrM9gp96SBrZWSVl82v7NtWGKxSwq-xeDuoNtIdYRSYE3xuDnswDqpas2_-RjMXA-b5xtFZqYYqxMXX1_azYZJPljB0QniueiAatpbcqA&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_beni",
@@ -861,13 +886,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t51.82787-15/791494150_18443768869127611_2346753046352855064_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YG1m2iP8g3gQ7kNvwGFjjOi&_nc_oc=Adrw_INMj2puqNEZCh7vjhCYm2JfAioYe7D1XOGichPnTe8jLmNIihxSAg7XGzNN4Ss&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=7w3pSopUVvEkOLY-qyGp3A&_nc_ss=7f289&oh=00_AQIYeUgNekYFECcFUtr1_QEiV7rIFSd14PLll-cChjlWRg&oe=6AA02323",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/feriafipaz/posts/pfbid031TiDdTFAYDHQrpgtPnfdNoi11qdTuZMJFcKZnetYXnsC1gbHT1uL8MBvkimHXZqSl?__cft__[0]=AZibWKfzjHwMO7ff2D-0ehnF849K-1kco0bIylZGFCVoYauRzne6T7no8qGtMX8y-A1xVXAtt1mTz0-7C1aFoWEa5DN0_S0ZI6kr7GkPEfNw8-bvPUodMVSryI-zOIwOOyeuIb7_BBNVROEfUHvAr9KWDk9j6Kl6PUj4wFp16g_kxDyFbEfBIc8rhhU&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "A solo 60 días de una versión épica de FIPAZ 25 AÑOS R… Ver más A solo 60 días de una versión épica de FIPAZ 25 AÑOS R… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -1184,30 +1218,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/528008658_1169669701863560_4006843970321122842_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=G7HHn81TurIQ7kNvwEuvCvB&_nc_oc=Adp7eSWC03KGRtzduYaAMBSpUNqJxdVAJidES-OX9s2pSkRZG0mA3jZhbWP7NcGbde0&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=Wd8gUIfQqFJ8JP5cxMXwDw&_nc_ss=7f289&oh=00_AQJ9GdTnGkrDgBEWxXLiS84uAaRIX6OaQtk53M3-eUjAwQ&oe=6A9FE1DE",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/28126020903716882/?__cft__[0]=AZi5hpXJKiDDjk_rjauQzN30_r3W9Jnb0BS8Jriaqfn-Ccvtr4akgXDe1Xgvw4AigeHjKBP6tuUNsFG7e3s4I7SDiX5FTswEG3wWqc0Io8sDw9iWare6HRITCVES2G-IkcitnztAwzoI5ROlgBQRjkTsoczDwoJPz9U9FSuE-mQGERrNh1HAN8obd0Mqwa-wRbk5&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¿No sabes cómo conectarte al Wi-Fi de la UMSS? Aquí te enseño en 30 segundos #WiFi-UMSS Hmmm... el guión se me hace conocido Tenemos problemas para reproducir este video. Más información Ver más comentarios Benjamin Thawne"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/28126020903716882/?comment_id=2044830656149435&__cft__[0]=AZi5hpXJKiDDjk_rjauQzN30_r3W9Jnb0BS8Jriaqfn-Ccvtr4akgXDe1Xgvw4AigeHjKBP6tuUNsFG7e3s4I7SDiX5FTswEG3wWqc0Io8sDw9iWare6HRITCVES2G-IkcitnztAwzoI5ROlgBQRjkTsoczDwoJPz9U9FSuE-mQGERrNh1HAN8obd0Mqwa-wRbk5&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Hmmm... el guión se me hace conocido Benjamin Thawne"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1235,22 +1252,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vjofvkMHXFoQ7kNvwE1xYuA&_nc_oc=AdovRVxHo6lhPjmmQXXZe2l6PfkSgYy6iuutlI8W3TRphZzTCNlOHlgpP5ugmjBdNlw&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=VOdQeLne4_-ZOQUDvWNynA&_nc_ss=7f289&oh=00_AQIrcZdmSO7-3IWuN-0wazQLbIje2t-Ft75_GOME4Dl7Vw&oe=6A9FE978",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/boliviaupsa/posts/el-5050-se-ha-convertido-en-uno-de-los-debates-pol%C3%ADticos-y-econ%C3%B3micos-m%C3%A1s-releva/1096232796130718/",
-          "has_image": true,
-          "text_preview": "El 50/50 se ha convertido en uno de los debates políticos y económicos más relevantes de la Bolivia actual: ¿Cómo deberían distribuirse los recursos y qué implica esto para las regiones y el modelo... El 50/50 se ha convertido en uno de los debates políticos y económicos más relevantes de la Bolivia actual: ¿Cómo deberían distribuirse los recursos y... El 50/50 se ha convertido en uno de los debat"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "web_superticket",
@@ -1444,12 +1452,20 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 25,
+          "score": 51,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "03/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal boliviano Saturnina y Avelino apenas comienzan a descubrir el mundo, pero su nacimiento ya marca un hito para la conservación de la paraba azul en Bolivia. vista 02/09/2026 Salud Cuál es el verdadero impacto de dormir con la ventana abierta en el organismo Dormir con la ventana abierta parec"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 7,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1457,19 +1473,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 27,
+          "score": 9,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 YPFB dejará de comercializar hidrocarburos Ver más 2 ICAM presenta la séptima edición del Catálogo de Negocios Verdes Ver más 3 Cocaleros toman un reté"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 44,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
-          "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Tras acuerdo, levantan bloqueos en San Julián y Cuatro Cañadas; Yapacaní mantiene la medida Ver más 2 Presunto sicario afirma que se entregará y presen"
         }
       ],
       "error": null
@@ -1535,15 +1543,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c695ed97-7b2c-4d01-9000-ad1c5c3e6b97",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/7541aabb-2bf6-4b91-b0f7-d68e84adc679",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/d32e4bcc-c03f-4a8d-878d-45fd7cc3efe7",
           "has_image": true,
           "text_preview": ""
         },
@@ -1552,6 +1552,14 @@
           "score": 0,
           "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/5990df56-2bfc-403d-8bf7-6c9f69303e0e",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/9322c4d7-09f9-4add-b631-743b5b088532",
           "has_image": true,
           "text_preview": ""
         }
@@ -1569,8 +1577,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 24,
-      "events": 24,
+      "raw_items": 23,
+      "events": 23,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1825,7 +1833,7 @@
           "category": "feria",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝐀𝐑𝐑𝐈𝐁𝐀𝐍 𝐀 𝐋𝐀 𝐂𝐀𝐏𝐈𝐓𝐀𝐋 𝐀𝐔𝐓𝐎𝐑𝐈D𝐀𝐃𝐄𝐒 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋𝐄𝐒 𝐏𝐀𝐑𝐀 𝐏𝐀𝐑𝐓𝐈𝐂𝐈𝐏𝐀𝐑 𝐃𝐄𝐋 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐎 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐗𝐗𝐕𝐈𝐈 𝐅𝐋𝐀𝐂𝐌𝐀 hace 2 días Noticias 129 Autoridades internacionales arribaron hoy a la Capital de Bolivia para participar del Congreso Internacional XXVII FLACMA, se trata de: Luis Rodríguez, Alcalde del Distrito Municipal La Otra Banda – República Dominicana, Walther Ayala, Alcalde del municipio de Fray Bart"
+          "text_preview": "𝐀𝐑𝐑𝐈𝐁𝐀𝐍 𝐀 𝐋𝐀 𝐂𝐀𝐏𝐈𝐓𝐀𝐋 𝐀𝐔𝐓𝐎𝐑𝐈D𝐀𝐃𝐄𝐒 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋𝐄𝐒 𝐏𝐀𝐑𝐀 𝐏𝐀𝐑𝐓𝐈𝐂𝐈𝐏𝐀𝐑 𝐃𝐄𝐋 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐎 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐗𝐗𝐕𝐈𝐈 𝐅𝐋𝐀𝐂𝐌𝐀 hace 2 días Noticias 135 Autoridades internacionales arribaron hoy a la Capital de Bolivia para participar del Congreso Internacional XXVII FLACMA, se trata de: Luis Rodríguez, Alcalde del Distrito Municipal La Otra Banda – República Dominicana, Walther Ayala, Alcalde del municipio de Fray Bart"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
