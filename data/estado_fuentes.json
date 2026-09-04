@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:24:32-04:00",
+  "generated_at": "2026-09-04T16:48:38-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,12 +12,11 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_municipio_cobija",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 53.6,
-    "horas_maximo_sin_datos": 369.2
+    "horas_promedio_sin_datos": 53.2,
+    "horas_maximo_sin_datos": 373.6
   },
   "sources": [
     {
@@ -658,13 +657,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Cf_PUufZw-EQ7kNvwEg97Ef&_nc_oc=AdoipneI9hLS2O2EhAzHyIWIGQm08vfl_A6prrTDep90O1o-0DhHHVzbo9T6FgLpFj8&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=olv-H8ZEyHDIRiM-HcvyEA&_nc_ss=7f289&oh=00_AQJHLJgTUxGFBWFRyJBaAz47DglCSBUHhF7fIKx9MxmkRA&oe=6AA11138",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 40,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/videos/%F0%9D%90%94%F0%9D%90%8D-%F0%9D%90%83%C3%AD%F0%9D%90%80-%F0%9D%90%83%F0%9D%90%84-%F0%9D%90%82%F0%9D%90%8E%F0%9D%90%8B%F0%9D%90%8E%F0%9D%90%91-%F0%9D%90%8C%C3%BA%F0%9D%90%92%F0%9D%90%88%F0%9D%90%82%F0%9D%90%80-%F0%9D%90%98-%F0%9D%90%85%F0%9D%90%84-la-plaza-25-de-mayo-se-llen%C3%B3-de-vida-con-la-mini-ent/1592123829233410/",
+          "has_image": true,
+          "text_preview": "𝐔𝐍 𝐃Í𝐀 𝐃𝐄 𝐂𝐎𝐋𝐎𝐑, 𝐌Ú𝐒𝐈𝐂𝐀 𝐘 𝐅𝐄 La Plaza 25 de Mayo se llenó de vida con la Mini Entrada en honor a la Virgen de Guadalupe. Junto a las autoridades internacionales de FL… Ver más 𝐔𝐍 𝐃Í𝐀 𝐃𝐄 𝐂𝐎𝐋𝐎𝐑, 𝐌Ú𝐒𝐈𝐂𝐀 𝐘 𝐅𝐄 La Plaza 25 de Mayo se llenó de vida con la Mini Entrada en honor a la Virgen de Guadalupe. Junto a las autoridades internacionales de FL… Ver más Tenemos problemas para reproducir este video. Má"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_oruro",
@@ -675,22 +683,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/693488690_1306639851654691_8009211632152824782_n.jpg?stp=dst-jpg_tt6&cstp=mx1344x1344&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UgwoLdHegOgQ7kNvwH66eb6&_nc_oc=AdrRzdPA4LD6QQc9ZW-q1jtqTkVKCZRZW92TTKJTmZJRo9lyQsOBl9qqfNGETT3601o&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=vTr37D7ky8A7cTj2ezPw7A&_nc_ss=7f289&oh=00_AQICvE84s2FRHCzpuiF5kQnN5hZtv6YzHhAotPojqflXrg&oe=6AA0D3AF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlcaldiaDeOruro/posts/pfbid02XTeZNpDnbPh5wfMUHmBpiNL5hxGH1XPvr2HdhvxxqTnDqwqWLpyXpevony1xp1CVl?__cft__[0]=AZi9bD5xX67z9Y6FjVfKZ4beHg-zGcaQZDZBG6tfxBC94m-GDdnwYJlJ0YOjaIdp98uTeZe1nWG5oDNwUo3306DEdYsSmlEZpKM4pqEwQ2OBrIl_ZGBiIddQQIkz0JCTQIklyLfPSnMT9fzDBB7Y5lpg6lbdxW2k32pIcXssDTjXZQ3YnRp-M3TE3q4&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Más transparencia y mejores condiciones para nuestras unidades educativas. Se realizó la apertura de propuestas para la adquisición de material de limpieza destinado… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_tarija",
@@ -752,13 +751,30 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sin2-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QFtJrL5qf5UQ7kNvwHs3sgW&_nc_oc=Adql6WAMQWNQYTZMffhdxu2TLkFzDy-kausf5OYD4o-tZzhFyFKD9lRzzQ32dm4DBOw&_nc_zt=24&_nc_ht=scontent-sin2-1.xx&_nc_gid=zIKzCAP9R7v_7iv0jR7WCA&_nc_ss=7f289&oh=00_AQKTENGezfHyC0Q66BUKJbBEqtR5_L2pEoL2EeGz8BFOqw&oe=6AA1066A",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Cobija 20 mil seguidores • 234 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pue'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1610838937163350/?__cft__[0]=AZhH_o7Ng5obGowTqNx5IEkcMXCEipBTzCKmyJapQGitj6F--_X9A6y9xTb99I3kBWlT7tJY20Q-ZVLGGjW3D6hMWn90JRY4K3uNH2ADgM_IZSaXR9pQJyGXGohPVaQh3QoNuzRifT9W40b8AMW2hPElb1Y4hNgjHL2fZDZlOiBeVgCEdZ741AAGTz8V0F36c-qm&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "𝗔𝗥𝗥𝗔𝗡𝗖𝗢́ 𝗘𝗟 𝗜𝗡𝗧𝗘𝗥𝗣𝗥𝗢𝗠𝗢 𝟮𝟬𝟮𝟲 Cobija vive una gran f… Ver más 𝗔𝗥𝗥𝗔𝗡𝗖𝗢́ 𝗘𝗟 𝗜𝗡𝗧𝗘𝗥𝗣𝗥𝗢𝗠𝗢 𝟮𝟬𝟮𝟲 Cobija vive una gran f… Ver más Q bién Tenemos problemas para reproducir este video. Más información Ver más comentarios Lilian Vidaurre Flores"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1610838937163350/?comment_id=926625336674264&__cft__[0]=AZhH_o7Ng5obGowTqNx5IEkcMXCEipBTzCKmyJapQGitj6F--_X9A6y9xTb99I3kBWlT7tJY20Q-ZVLGGjW3D6hMWn90JRY4K3uNH2ADgM_IZSaXR9pQJyGXGohPVaQh3QoNuzRifT9W40b8AMW2hPElb1Y4hNgjHL2fZDZlOiBeVgCEdZ741AAGTz8V0F36c-qm&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Lilian Vidaurre Flores Q bién 1 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -803,22 +819,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xFNQD-g0LIcQ7kNvwEMOnzi&_nc_oc=Ado9d0Tyxwstccmi3ulpYAeKqdfo21fnSuqVIrNZ19lGpc8DRef-nWtBaaO1sGvwjKM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=6gfzf4U29qtDC41s6xVpoQ&_nc_ss=7f289&oh=00_AQI_GRyQvb-SAKH3kK9c7VB6TNGV75IEapCU4DIFuwoZuQ&oe=6AA0DCE7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GADTarija/posts/pfbid04W65ESacZPg29tKXC66tKATkSnc1h7KykPSuVSb1ZLQQhisazDanhCsou44RqbTwl?__cft__[0]=AZgc_5WJm8NWb5k_tsX4llFTRLEFt_0azZ62NFrMRQnxVqSQW93GFW4ATZ8iFapvBPkDMgMsO4sNqtoLCGiXVqTrnOwhNo_fgxrjUQvSGa1Pn3bEru8_GaHW1V8aFFR9WIbUzB8B7tc2FL8CbavzwTjHoyGT9kTafQpnIoepQ0WmBwpsg8JwRaLH3CM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Con el firme propósito de reforzar la protección de la infancia y la adolescencia, se llevó a cabo la Cumbre Departamental de Tarija: Fortaleciendo la Prevención y Prot… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_pando",
@@ -1135,13 +1142,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_A1zBUAV2EsQ7kNvwEzFpCF&_nc_oc=Adp4V_2FusC0W01FnvQk7AY2tixams-Ylayur1f9mcgjg1DpSaQJ9NQ6Z_6SJyw6m-s&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=DX3ZK5YKazsCU8ca4wIC4Q&_nc_ss=7f289&oh=00_AQIv2Au_XAp1oiTT_zzYQIUpAMdSO_5s_MmxvpgH_mp_8A&oe=6AA0E5A0",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid027GQbijdbyGqxSPrtQSQFqKY3tgZCRZp5PFDeURZHvifaLNrb418cQWVCUpi2RQQkl?__cft__[0]=AZjIncMHj7T2dK8SYO40BcuVhMKVRQevyDEYmvHc24PcZpgE10jqJJNhfHC6nJPM8df1sy-3Q7aSQznh7PGFKYIPv0_y0P78Kh-A5NwDT4rdyKGK_xqz3LOSIvpNw31UPkUIV3154_ughD0mV6NvjaNnF6w2DyQJ4bud7gNC8Y2iAI8NJOzOc0Q5kBc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "36 min #convocatorialaboralbolivia Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umsa",
@@ -1420,8 +1436,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1441,11 +1457,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 9,
+          "score": 37,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Tras acuerdo, levantan bloqueos en San Julián y Cuatro Cañadas; Yapacaní mantiene la medida Ver más 2 Presunto sicario afirma que se entregará y presen"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Libre propone que la Asamblea lidere la reforma a la CPE y que Paz aporte con su silencio Ver más 2 Bolívar visitará a Independiente y Always Ready a O"
         }
       ],
       "error": null
@@ -1545,8 +1561,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 31,
-      "events": 31,
+      "raw_items": 23,
+      "events": 23,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1579,8 +1595,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1596,8 +1612,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 6,
-      "events": 6,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1613,8 +1629,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 16,
-      "events": 16,
+      "raw_items": 26,
+      "events": 26,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1630,8 +1646,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1647,8 +1663,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
-      "events": 2,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
