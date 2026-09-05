@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-05T16:22:49-04:00",
+  "generated_at": "2026-09-05T18:59:13-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 47,
+    "events_total": 48,
     "events_today": 13
   },
   "filters": {
@@ -78,6 +78,11 @@
         "count": 3
       },
       {
+        "key": "exposicion",
+        "label": "Exposiciones",
+        "count": 2
+      },
+      {
         "key": "turismo",
         "label": "Turismo y patrimonio",
         "count": 1
@@ -85,11 +90,6 @@
       {
         "key": "nightlife",
         "label": "Vida nocturna",
-        "count": 1
-      },
-      {
-        "key": "exposicion",
-        "label": "Exposiciones",
         "count": 1
       },
       {
@@ -107,7 +107,7 @@
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 12
+        "count": 13
       },
       {
         "key": "La Paz",
@@ -159,7 +159,7 @@
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 11
+        "count": 12
       },
       {
         "key": "La Paz",
@@ -206,17 +206,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 15
+        "count": 16
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 24
+        "count": 25
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 47
+        "count": 48
       }
     ],
     "price": [
@@ -228,12 +228,12 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 10
+        "count": 9
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 37
+        "count": 39
       }
     ],
     "media": [
@@ -357,13 +357,13 @@
         "count": 17
       },
       {
-        "key": "cartelera_cine",
-        "label": "cartelera_cine",
-        "count": 9
-      },
-      {
         "key": "venue",
         "label": "venue",
+        "count": 10
+      },
+      {
+        "key": "cartelera_cine",
+        "label": "cartelera_cine",
         "count": 9
       },
       {
@@ -447,24 +447,24 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 31,
+      "events_total": 29,
       "events_upcoming": 9,
       "events_with_image": 8,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 5
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 30,
+      "events_total": 28,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 23,
-      "events_upcoming": 11,
+      "events_total": 24,
+      "events_upcoming": 12,
       "events_with_image": 6,
       "events_with_video": 4,
       "sources_total": 13,
@@ -495,7 +495,7 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 5,
+      "events_total": 4,
       "events_upcoming": 1,
       "events_with_image": 1,
       "events_with_video": 0,
@@ -522,7 +522,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 69,
+      "events_total": 64,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0
@@ -550,8 +550,8 @@
     },
     "exposicion": {
       "label": "Exposiciones",
-      "events_total": 1,
-      "events_upcoming": 1,
+      "events_total": 2,
+      "events_upcoming": 2,
       "events_with_image": 1,
       "events_with_video": 0
     },
@@ -1391,6 +1391,44 @@
       "quality_score": 51,
       "is_featured": false,
       "status": "postergado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_d51af7cc558e1f",
+      "title": "Mié, 9 de sep. a las 7:00 p. m. -04",
+      "category": "exposicion",
+      "category_label": "Exposiciones",
+      "starts_at": "2026-09-09T19:00:00-04:00",
+      "starts_at_ms": 1788994800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 9 de septiembre · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 4,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": null,
+      "image_url": null,
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 41,
+      "is_featured": false,
+      "status": "programado",
       "source_count": 1
     },
     {
@@ -2478,9 +2516,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 6.0,
-      "currency": "BOB",
-      "price_label": "Bs 6",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -2490,7 +2528,7 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 59,
+      "quality_score": 51,
       "is_featured": false,
       "status": "postergado",
       "source_count": 1

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T16:22:49-04:00",
+  "generated_at": "2026-09-05T18:59:13-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 59.2,
-    "horas_maximo_sin_datos": 397.2
+    "horas_promedio_sin_datos": 58.8,
+    "horas_maximo_sin_datos": 399.8
   },
   "sources": [
     {
@@ -96,13 +96,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Bl17hBynyoQQ7kNvwGucuWx&_nc_oc=AdqhmrcyLv-vjtFwt0pcYhvYUUzY9EfjCXW0BZoTYvHTDWRRdAWFkd1hewLlI6Ms1Jg&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=RN0SKDpmEoKMp47tZTBXZQ&_nc_ss=7f289&oh=00_AQKt0A2C0YlIep1tt-UTAykxXH4-a0xrBrZJmXSw9DMI-Q&oe=6AA25090",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -895,30 +895,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PTOlDteCn5cQ7kNvwG0N3h8&_nc_oc=AdqFTRXY0edm8pXXhH6Ax09pLolZmrUy6mfoZIHhvH94BdAeSh9V3mO6YK62KLg8oes&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=hmoDLXk3jyqxkKek5nz21Q&_nc_ss=7f289&oh=00_AQI84tnfWAmUuCxNlHLLoGpYXXJH3rvNogBhsXr4mcicOg&oe=6AA24E87",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid02MoBZhCCbt665yf2XHM677UoJcDpd8WMZp3tooCn8ZdqEaYc8GWj28q1wSET3hFrAl?__cft__[0]=AZjgonhAvYlo03T3DVN32NNfVc8ClFCQPo0Nv8oHXI8fBsHBHArGWM1RLbYtBFTf_gZQu_QygECZnksklTmVqEYdpJoBO3BqUtiwcRKLUgluovXEDbWkKMl_OncQMrvpot1WB7JVj9NFGT7Pvv4eu54KMkLNXaKUlcNwaaFdSQntRUiNWhfJr1Eik7Q&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Francés para no morir en el intento! ¿T… Ver más ¡Francés para no morir en el intento! ¿T… Ver más LA CHANCHULLA QUE SALVA!!! Enzo Yapari"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid02MoBZhCCbt665yf2XHM677UoJcDpd8WMZp3tooCn8ZdqEaYc8GWj28q1wSET3hFrAl?comment_id=4414284425505277&__cft__[0]=AZjgonhAvYlo03T3DVN32NNfVc8ClFCQPo0Nv8oHXI8fBsHBHArGWM1RLbYtBFTf_gZQu_QygECZnksklTmVqEYdpJoBO3BqUtiwcRKLUgluovXEDbWkKMl_OncQMrvpot1WB7JVj9NFGT7Pvv4eu54KMkLNXaKUlcNwaaFdSQntRUiNWhfJr1Eik7Q&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Enzo Yapari LA CHANCHULLA QUE SALVA!!! 2 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -946,13 +929,30 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DG_45qvYPnwQ7kNvwFoEu-k&_nc_oc=AdpEzhaE2x0L_vVrx2hW7RyEU_PjdOi4dBD47KLaSMaws6vP1mHf80bJGizaQp8XYfs&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=XTyu2Is1orRvUakz7gQSfA&_nc_ss=7f289&oh=00_AQKs9NoMYXuu_ufuq7HRgocqKaQN0ghrWyhXMEUVT75wFQ&oe=6AA27947",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid05ArjZd9hyB8GLba1cD3cwEN5KsrPCNVqG1kKqEcPua5KdUPrN5PE3hFc3wBupzNyl?__cft__[0]=AZgMnjxqBuc6q6SQ29N-NoR0tAMI1zSIn9B6eqNbbHL49Zricsf0u9NmkDPHZvCmpJQkpG_zwD4QLTxb6TnnHIwbekJouOW_k3OPKmUgmVwwrqyT46BFmhMv3BY9aOp5rtNeon9WhW0cMe4uyXh97xjY91UPpTOVs9IAdPB47JpBhPZFSKFjmS7NzZw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡𝐂𝐞𝐥𝐞𝐛𝐫𝐚𝐦𝐨𝐬 𝐞𝐧 𝐠𝐫𝐚𝐧𝐝𝐞 𝐧𝐮𝐞𝐬𝐭𝐫𝐨 𝐚𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐢𝐨! Anoche vivimos nuestra 𝐑𝐞𝐭𝐫𝐞𝐭𝐚 𝐝𝐞 𝐀𝐧… Ver más ¡𝐂𝐞𝐥𝐞𝐛𝐫𝐚𝐦𝐨𝐬 𝐞𝐧 𝐠𝐫𝐚𝐧𝐝𝐞 𝐧𝐮𝐞𝐬𝐭𝐫𝐨 𝐚𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐢𝐨! Anoche vivimos nuestra 𝐑𝐞𝐭𝐫𝐞𝐭𝐚 𝐝𝐞 𝐀𝐧… Ver más Grande Esther Marisol! Ver más comentarios Ana Ross"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid05ArjZd9hyB8GLba1cD3cwEN5KsrPCNVqG1kKqEcPua5KdUPrN5PE3hFc3wBupzNyl?comment_id=2212782346248733&__cft__[0]=AZgMnjxqBuc6q6SQ29N-NoR0tAMI1zSIn9B6eqNbbHL49Zricsf0u9NmkDPHZvCmpJQkpG_zwD4QLTxb6TnnHIwbekJouOW_k3OPKmUgmVwwrqyT46BFmhMv3BY9aOp5rtNeon9WhW0cMe4uyXh97xjY91UPpTOVs9IAdPB47JpBhPZFSKFjmS7NzZw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Ana Ross Grande Esther Marisol! 1 día"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -980,13 +980,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-qro1-1.xx.fbcdn.net/v/t39.99422-6/795385887_1665864268531957_5779280662447024541_n.png?stp=dst-jpg_tt6&cstp=mx2048x1073&ctp=s526x296&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Fvll2rFkWboQ7kNvwEPxW7h&_nc_oc=AdpekqmBKeONKNVNyzlrSPsggu7M3YohWICeTzhm8ClbxXAUuqspCm3pPrjxY0BHU-4&_nc_zt=14&_nc_ht=scontent-qro1-1.xx&_nc_gid=1EFcWvoS_KSUXnCM86JLrw&_nc_ss=7f289&oh=00_AQJP_GoG-KQgIG_iSuwOBHXx4_fSZB3IrL5Iecn0EXBvmA&oe=6AA260EA",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1065,30 +1065,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=525UHQ_hp0cQ7kNvwEEgMKL&_nc_oc=AdqYCmHi0QJ1FcJ6qoKvl72ntYNjv8V_Ct3Qz0ZcMtLStNL9AkjzcWdu11FK8BX3Zcw&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=dLrVkEJZStTADebSYwxejg&_nc_ss=7f289&oh=00_AQLtuXsiSIjowX2VkSORE30VUvxh-KGA3ggEkmn15Egsog&oe=6AA23612",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HFLCsY2AXs1QMXRZ8pUQ3uSvcVqCEriEtoAo6PUnGrM9Mf69SzTy7eA8toEULEm2l?__cft__[0]=AZhFbTjp6DJj4i1-bBzBOdM3D7tE5km2QVbnMYUNizOtZIgkC3K5astnC76bWD9iugVgnjlQghuGAP60_esNQatAHUqQw7oUipKYjopYRMvkECigTgIS-nhbU8NBk1xtWvgIWbBrb_WaXyX5Lqao1fT57AJb7eAT-QJs-cxX6F7eQ3JqiN0Jz2xlot0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HFLCsY2AXs1QMXRZ8pUQ3uSvcVqCEriEtoAo6PUnGrM9Mf69SzTy7eA8toEULEm2l?comment_id=1079850634463156&__cft__[0]=AZhFbTjp6DJj4i1-bBzBOdM3D7tE5km2QVbnMYUNizOtZIgkC3K5astnC76bWD9iugVgnjlQghuGAP60_esNQatAHUqQw7oUipKYjopYRMvkECigTgIS-nhbU8NBk1xtWvgIWbBrb_WaXyX5Lqao1fT57AJb7eAT-QJs-cxX6F7eQ3JqiN0Jz2xlot0&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1116,13 +1099,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZLs_lIgIQc0Q7kNvwF6UIr_&_nc_oc=AdpCC0TEuZiNlAwymil-Us_EjPPAarMA54AmH3LWna6tESppNmIKW5lL2dQrZ0ge4nk&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=htRIW-BiEG5xi6srrZPkEg&_nc_ss=7f289&oh=00_AQIFSlZ427Cz7GsdQDQFuqJzezyxDTdWNz5WOi0mE-wJ9A&oe=6AA273F7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 42,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/museocasadelalibertad/videos/cdl-en-conmemoraci%C3%B3n-de-los-50-a%C3%B1os-del-instituto-polit%C3%A9cnico-tom%C3%A1s-katari-iptk-/2112915866101853/",
+          "has_image": true,
+          "text_preview": "#CDL | En conmemoración de los 50 años del Instituto Politécnico Tomás Katari (IPTK), Casa de la Libertad acoge la exposición fotográfica \"Rostros del Pueblo\", con una interesante colección de... #CDL | En conmemoración de los 50 años del Instituto Politécnico Tomás Katari (IPTK), Casa de la Libertad acoge la exposición fotográfica \"Rostros del..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1440,7 +1432,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 39,
+          "score": 12,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
