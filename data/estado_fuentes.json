@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:37:56-04:00",
+  "generated_at": "2026-09-05T11:17:10-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,14 +9,16 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
+      "fb_fundacion_cultural_bcb",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_museo_nacional_arte",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 57.0,
-    "horas_maximo_sin_datos": 387.5
+    "horas_promedio_sin_datos": 60.7,
+    "horas_maximo_sin_datos": 392.1
   },
   "sources": [
     {
@@ -28,22 +30,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iueUhpA75NwQ7kNvwE32XVo&_nc_oc=AdpU-GO2766Rfp5FYJsZBSanrx4-1W1RjEwebQGXo1TWLe5VT5ORlZWoxCk7LVQP1A4&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=vD7ljiNWkGXGnd4XErjwVw&_nc_ss=7f289&oh=00_AQL3uYpF-ErcT8HwJHC2PrNYwGWra7NQw7L1eFCpTd2TUA&oe=6AA1BE1A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid059L4CnaryPYDA2TgCUiDQsPAA4kZL6AgkYdDhiRuyh27HKPfzXQiAk9FqzNAXiLQl?__cft__[0]=AZjIm5jbAqH8q_nAJs2YHcTnPCyVRkoAIFloJTCYAgCWgkwQ4iaKpvyynBbUS2gUl5mwTjLJrOSm8n94UNLgjyS389DWWw-UNJU6BCwhaZ7WQ8BPfH5ssEsgmHFudBazuHc9vlhfg6HV8QWWb6PoObKTGf2pcdCQFodLZcTv5N5jjH-ZetzdFIkuAlY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡EL ANIME LLEGA A POTOSÍ EN UNA EXPERIENCIA SINFÓNICA! Las… Ver más ¡EL ANIME LLEGA A POTOSÍ EN UNA EXPERIENCIA SINFÓNICA! Las… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -548,12 +541,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Cultural BCB 29 mil seguidores • 16 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un '"
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -599,12 +592,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_musef_lapaz",
@@ -700,30 +693,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/734210525_1484423200397079_336268521338765554_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Iqu-VY3rIUkQ7kNvwF-s23Z&_nc_oc=AdrzI26VGY2-V2nCvQp9k_Tbt3y7kjjrBmPvGgg5y7WQsR2tQoI6FdpFyVFNbC8hpzo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=0RhARwhk-IidfCk5JiCntw&_nc_ss=7f289&oh=00_AQKeHy_f_lM1gOLoTihSYMpFGwBnEkE5c4iiqizm7QKsGw&oe=6AA1A969",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "festival",
-          "url": "https://www.facebook.com/61558082977474/videos/xxxvii-festival-del-canto-y-la-aloja-2026-viernes-4-de-septiembre/1530613362153677/",
-          "has_image": true,
-          "text_preview": "XXXVII FESTIVAL DEL CANTO Y LA ALOJA 2026 XXXVII FESTIVAL DEL CANTO Y LA ALOJA 2026 Donde es? Hermoso grupo RENACER futuros artistas Tarijeños en el festival del canto y la Aloja"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/Gobierno.Autonomo.Municipal.Tarija/videos/3082454355276425/?comment_id=2269765913788231&__cft__[0]=AZiaTg1lO2vb5aHvAWrIC6ZYOyBfGXuFuE8u3aezMDpjZE64-BD6c2clC0agKKDBV3qdBVl0EpSHfnPqmLEuiArb6188W7LfuOgHJArBkDkvY-iXrzo34AuQQq58z4UGtdIgNYbfzk5gg_vIUIDqHc9KW0Yu5iiSEqs8WCVh7_SB0QnLbWyzmdGt2s1vnBoex9s&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mauricio SN Donde es? 9 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -1057,13 +1033,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V_fkKTd2kpQQ7kNvwE59NYB&_nc_oc=AdrQ3LhVwU7T5H-QfZpqCTuccadpChN9sB0yH3WtBk3uuFdqVQSu8UaHNiI412FgGOg&_nc_zt=24&_nc_ht=scontent.fhan14-1.fna&_nc_gid=255cT9Iimjl5wu_4yVNyUg&_nc_ss=7f289&oh=00_AQLCLzgWG84U_voSflUCylC2I7x-V0f_WrgOWNix_NKj8A&oe=6AA1FB55",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid06sFqUEAeRrhZrQthEfBunTPNgHZUfYkNyzpgcg5iUnVD8bp9ExDPUSdmBnZd6Pyml?__cft__[0]=AZhAP1ryD9dRrCBajv7csLI6A45-ngVvHXVjllF7B_Ee6SIVmPWg2OuOSvinm6icfjdYVjgP8qmV-absvIJtSpfJAZOlxbejVqhsW47e5DD4aF-dWOG4oUI35zvqU8hcGuP4pZJNNu9BIcte-fesrHmpcEkiMALa4tyKvyOdfMBQcUFC58vfFfuG4WU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¿Estás preparando una postulación a una beca?… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1125,22 +1110,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DaEsdgDU4FUQ7kNvwErxGFO&_nc_oc=AdrwSjF2EmTIMleHLKm5_ljix8SkogMhannmebPuJZ1qPde5cxKzlmHCNfpYsi9Lxbs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=B8xeBjn1U4pVoMRz42ItRQ&_nc_ss=7f289&oh=00_AQKRhxwqj2wdvwhTM3RCp6Rn6c7zXTAcOwSVg3IHpsnwTQ&oe=6AA1BCA4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/musefsucre/posts/musefsucre-taller-de-dise%C3%B1o-de-la-figura-humana-y-anatom%C3%ADa-art%C3%ADsticacompartimos-/1596821805566320/",
-          "has_image": true,
-          "text_preview": "#MUSEFSucre | 🎨🔥 ¡Taller de diseño de la figura humana y anatomía artística! Compartimos un espacio de aprendizaje con el maestro Roly H. Huari (La Paz), quien propone creatividad e imaginación en el... #MUSEFSucre | 🎨🔥 ¡Taller de diseño de la figura humana y anatomía artística! Compartimos un espacio de aprendizaje con el maestro Roly H. Huari (La Paz),... #MUSEFSucre | ¡Taller de diseño de la fi"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1441,7 +1417,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 39,
+          "score": 26,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1449,7 +1425,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
+          "score": 28,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
