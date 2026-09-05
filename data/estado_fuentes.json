@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:06:07-04:00",
+  "generated_at": "2026-09-05T00:30:38-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 51.9,
-    "horas_maximo_sin_datos": 375.9
+    "horas_promedio_sin_datos": 54.5,
+    "horas_maximo_sin_datos": 381.3
   },
   "sources": [
     {
@@ -606,13 +606,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aYOhbEF8-tYQ7kNvwFqP16r&_nc_oc=AdqC77wUDlZ902c-lgOYS37PPZRmVVHXWavncE2ZEERlP2qHZSyn_p3NmpwdlOwUsZM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=4bboF2BGP6eKCKmjYV_ZtQ&_nc_ss=7f289&oh=00_AQI1YMyWDNJEKoveeSyLBAUfQWmQCvB8ZIErBNlu2i10yQ&oe=6AA15F73",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid0GDV56URfnatwDseEarfm8m7Z1uQewt9fiJGHFkd8WUjEJUJe4rapZq3D4aUHZZCBl?__cft__[0]=AZglRQh7tamLb82YZfUtCELtmx-oMRxEs7jXQX8Cc3jfy_oRS9oGWZ1vloc1UAu8WSJAc5wQL_jo4hqQXLUGeoh-RT6gCTtdEpE2MKtISuTTVdA4j2GKOYiAs4ucFT07SW3pJyG56xwHlbnCOVfRtwpAFa20OPnfOxkgtoYZV2SqnppNr7Yc2PUY5DA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Findesemana l 𝗨𝗻𝗮 𝘃𝗶𝘀𝗶𝘁𝗮 𝗽𝗮𝗿𝗮 𝗺𝗶𝗿𝗮𝗿 𝗰𝗼𝗻 𝗰𝗮𝗹𝗺𝗮, 𝗮𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝘆 𝗱𝗲𝗷𝗮𝗿𝘀𝗲 𝘀𝗼𝗿𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝗽𝗼𝗿 𝗲𝗹 𝗽𝗮𝘁𝗿𝗶𝗺𝗼𝗻𝗶𝗼 𝗾𝘂𝗲 𝗰𝗼𝗻𝘀𝗲𝗿𝘃𝗮𝗺𝗼𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗿𝘁𝗲 Hay objetos que guardan mucho más qu… Ver más #Findesemana l 𝗨𝗻𝗮 𝘃𝗶𝘀𝗶𝘁𝗮 𝗽𝗮𝗿𝗮 𝗺𝗶𝗿𝗮𝗿 𝗰𝗼𝗻 𝗰𝗮𝗹𝗺𝗮, 𝗮𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝘆 𝗱𝗲𝗷𝗮𝗿𝘀𝗲 𝘀𝗼𝗿𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝗽𝗼𝗿 𝗲𝗹 𝗽𝗮𝘁𝗿𝗶𝗺𝗼𝗻𝗶𝗼 𝗾𝘂𝗲 𝗰𝗼𝗻𝘀𝗲𝗿𝘃𝗮𝗺𝗼𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗿𝘁𝗲 Hay objetos que guardan mucho más qu… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -708,22 +717,13 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Y2ZOtHS9jXwQ7kNvwGo4DOp&_nc_oc=AdqMIFy7rhoO7sWYDKVpK_kGt3liTqJGZzsUo6FvAbYwijvSkUNMztGuFbDy-OFC96E&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=nWcSGZfd238YYensJaiIBg&_nc_ss=7f289&oh=00_AQJmWC_-okfLlImqFk5N4EpqvjFIJ-w8CJmPA65C7IFKAg&oe=6AA12568",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/posts/pfbid0daFip6kASWxNfx911asqxcnxuEBiTg8e3PeBTXW7er5muEScRAT6vqYsBGAnAgotl?comment_id=1821032709254158&__cft__[0]=AZgtExzXDAIFsnJHMnuHp7sxi1c6CkDz6MnkYleQ1QXKZVjjWNGc63kMMqiyS7cux_ZOvXMnhYR3G1BV27zRZkQ6XnM44glU4nI5R74fLQD8evDgpF8RKyDYACqq65nJ5BrEcAXeeORBx3jE97Pae1CzyaSNxM4AWqnKps0QFNCIBlY8I_Vcu2g8ZEI&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Buena iniciativa deportiva Lic Cervantes Emery Flores"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_trinidad",
@@ -887,22 +887,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mkDfPGHEA_8Q7kNvwGug0Wb&_nc_oc=AdqcAG-laZoDpopeNlgu2-UCExBK7vzJATe48rFc7b3VY4fm6o3H0PW9-BY3kTcn-lA&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=L4b0VX1chhZNQ4JFxLyC7A&_nc_ss=7f289&oh=00_AQIMw8nhsc5pvbwX0WjK1APnEOlbB5x23ym0SqWjGdhW3w&oe=6AA137E7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02JG5uv7XeitEd5cGkkg2MK4rqFo8bkrYyULbn76y6jEBS54Y5Errqj1y8aqA4QGp7l?__cft__[0]=AZjJtplIp2cZQGgcxvfcbtM7lUF9xVZzJGV9m3RVdS0hMsRZg_FzGpYJ0cIEvlPF8I2Uupd1q0HuU8Yjohiq06LBZweGihA4QNF8kFfaKGHFSkmBP0ONZ9zrNfDslq6wFOY4905CsqIJd-Wfx8i9Cq4fTTvtIqq0wnIGHtZbyJdMkVg8zb5j02S28b8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Cultura | Últimos días para visitar “Personajes en mi ciudad”… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -964,13 +955,38 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bIC5f2SHAZ0Q7kNvwH8pnO5&_nc_oc=AdpV-jtEkadvlE4HDR2bv3Xv7PWjDWO2GF4fSZ1FCXcgDxoLLvUNXyN5n4znudrO28Y&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=1Syia_EVAz_XYWqUUex4nw&_nc_ss=7f289&oh=00_AQJsm4ef-n_Gd8kjLgAvhX8aj4tnLeTqjnFvs7E4bIEwPw&oe=6AA17017",
+      "status": "ok",
+      "raw_items": 3,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 39,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0atdWKJFKWnjyRxgZjyjqGSj7qY57VZvVdAcP3hksDxSZSM8QrTsxmPvpkAH7xS7Ul?__cft__[0]=AZiLCQrvYpetrViO8ICc49EZoUp0qlhPsehWZ49D-Y6cM9CsC3RS1tyu9n8b766D_Po-6liAdiPMQlaVAa07zoGiVzpCZ8cvzuOfxKuDNW-qHfPJ7K3h8Lyfc3s2XGf7j1TpSBS95QECWWcEv2NtQVEgs2xAU7vWVqAnfgxbe45hg8sJaR_tjycwoJs&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "LA PUJA SUBE DE Bs 100 EN Bs 100 O MÚLTIPLOS DE 100. El remate de Manzana 1 Espacio es una oportunidad para elegir entre obras únicas y originales, variedad de autores,… Ver más Las pinturas y cuadros son una buena forma de blanquear y lavar dinero Erick H Marin de la Fuente algo que nunca vas a poder Álbum SUBASTA 03 - 07 SEPTIEMBRE Erick H Marin de la Fuente Jose Ivar Chavez Mendivil"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0atdWKJFKWnjyRxgZjyjqGSj7qY57VZvVdAcP3hksDxSZSM8QrTsxmPvpkAH7xS7Ul?comment_id=1553582633185795&__cft__[0]=AZiLCQrvYpetrViO8ICc49EZoUp0qlhPsehWZ49D-Y6cM9CsC3RS1tyu9n8b766D_Po-6liAdiPMQlaVAa07zoGiVzpCZ8cvzuOfxKuDNW-qHfPJ7K3h8Lyfc3s2XGf7j1TpSBS95QECWWcEv2NtQVEgs2xAU7vWVqAnfgxbe45hg8sJaR_tjycwoJs&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Las pinturas y cuadros son una buena forma de blanquear y lavar dinero Erick H Marin de la Fuente"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0atdWKJFKWnjyRxgZjyjqGSj7qY57VZvVdAcP3hksDxSZSM8QrTsxmPvpkAH7xS7Ul?comment_id=1553582633185795&reply_comment_id=1587976142772187&__cft__[0]=AZiLCQrvYpetrViO8ICc49EZoUp0qlhPsehWZ49D-Y6cM9CsC3RS1tyu9n8b766D_Po-6liAdiPMQlaVAa07zoGiVzpCZ8cvzuOfxKuDNW-qHfPJ7K3h8Lyfc3s2XGf7j1TpSBS95QECWWcEv2NtQVEgs2xAU7vWVqAnfgxbe45hg8sJaR_tjycwoJs&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Erick H Marin de la Fuente algo que nunca vas a poder Jose Ivar Chavez Mendivil"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1015,22 +1031,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QfODpvOQsMUQ7kNvwEi32ai&_nc_oc=AdpN-g9-sfaHZ3IG_wWrXkOuIUn1-AlZQEJimWaJfn3dKrafSUCO8uwGiSc9KWXE7ZQ&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=2k34oX9jKvB-jLaNdt8E2g&_nc_ss=7f289&oh=00_AQJt45EmASlVlDjaRlv1c_I_zNhAdMjOL6pv90seP9bI4w&oe=6AA13134",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02zpaeM1uza5gLutMhdgwwJPS6SRAKMbJ3aMMwHnrYY4oczQ5dz93v6br25ohZP3Xdl?__cft__[0]=AZhmz4uvyDY4gap5_vx76ujNc4VIRyL6RIzYzNIMRK1ph-22Si3Yo1lC_9qHoPjeFx8DATtLkyz3-6AfYCjbCzLSu_ZkPGbZBM91VxKEJNfNmV3CqEnW6ZsJCJZ0S6iQiS6ksYDknNotPX_xM8bzr39i6aui6drmLi4KJg8Yez9L3dG8yAYPLTyh0BQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Educación I Impulsamos el talento, la creatividad y las ideas que construyen futuro.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1041,13 +1048,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1xBaUDsv6OYQ7kNvwEiwuGD&_nc_oc=AdpVktVBmMPNvhQz_XfSirZGBikCg7x0-A7VuZOeT5wW0aeMLDYwfWrRyYIycmP4CMo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=oukGN0EXx1JnqKm_j3pqmw&_nc_ss=7f289&oh=00_AQLycBrUVB2wTawOFSMsyL7b1KJVKbOvxRJcB_E8C6kuyQ&oe=6AA172CF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid02JSgL3mjnmzaM2QYmj1ub4ffT6tc5TgMEPMARLAif9T7dAaAAqwCgADLW6hMfMB5El?__cft__[0]=AZjAFHDskluSdksJ2vUMBR2guGB64BouuX30MRoEmcQS_48294qaSgMfZwrcVhZGV3k0vz1Y-di5GWuzwjDaUn9LovmHE31Mgce2iVWETscbOrrhRxKMSDfnePmg_KX1BZ8zsEjna9ZO9knd_xb9Z86YxaQIo45vKSa9ajCz7gbpE_gZlRgv0wA7jVQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¿Ya leyó los textos del especial Rupturas?… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1428,17 +1444,9 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 6,
+      "rejected": 7,
       "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 51,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/tendencias",
-          "has_image": true,
-          "text_preview": "04/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal boliviano Saturnina y Avelino apenas comienzan a descubrir el mundo, pero su nacimiento ya marca un hito para la conservación de la paraba azul en Bolivia. Los dos... vista 03/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal boliviano S"
-        },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 21,
@@ -1454,6 +1462,14 @@
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Detectan despachos irregulares de combustibles en YPFB Ver más 2 Rodrigo Paz afirma que \"la subvención nos está matando\" y liberará la importación de c"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 47,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "has_image": true,
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1519,7 +1535,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/d32e4bcc-c03f-4a8d-878d-45fd7cc3efe7",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c695ed97-7b2c-4d01-9000-ad1c5c3e6b97",
           "has_image": true,
           "text_preview": ""
         },
@@ -1527,7 +1543,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/5990df56-2bfc-403d-8bf7-6c9f69303e0e",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/baa63d13-93e0-4c78-9d58-99dbc2ae2f1e",
           "has_image": true,
           "text_preview": ""
         },
@@ -1535,7 +1551,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/9322c4d7-09f9-4add-b631-743b5b088532",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/1b385592-cd84-4382-a496-1b13efe9ea35",
           "has_image": true,
           "text_preview": ""
         }
@@ -1553,8 +1569,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 23,
-      "events": 23,
+      "raw_items": 16,
+      "events": 16,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1570,8 +1586,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1587,8 +1603,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1604,8 +1620,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 8,
+      "events": 8,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1621,8 +1637,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 26,
-      "events": 26,
+      "raw_items": 29,
+      "events": 29,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1655,8 +1671,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 16,
+      "events": 16,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
