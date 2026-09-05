@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-05T11:17:10-04:00",
+  "generated_at": "2026-09-05T13:24:29-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 44,
-    "events_today": 11
+    "events_total": 45,
+    "events_today": 12
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 15
+        "count": 16
       },
       {
         "key": "feria",
@@ -112,7 +112,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 7
+        "count": 8
       },
       {
         "key": "Quillacollo",
@@ -149,7 +149,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 13
+        "count": 14
       },
       {
         "key": "Santa Cruz",
@@ -196,22 +196,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 12
+        "count": 13
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 13
+        "count": 14
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 21
+        "count": 22
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 44
+        "count": 45
       }
     ],
     "price": [
@@ -223,7 +223,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 9
+        "count": 10
       },
       {
         "key": "por_confirmar",
@@ -235,7 +235,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 38
+        "count": 39
       },
       {
         "key": "con_video",
@@ -349,7 +349,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 15
+        "count": 16
       },
       {
         "key": "cartelera_cine",
@@ -396,7 +396,8 @@
       "evt_f0a3c5272da8f2",
       "evt_42f68032bc29fb",
       "evt_5c969b30be9216",
-      "evt_8fd94d5a8bc552"
+      "evt_8fd94d5a8bc552",
+      "evt_fceefb022e8227"
     ],
     "tomorrow": [
       "evt_c183f2b7b229e8"
@@ -413,7 +414,8 @@
       "evt_f0a3c5272da8f2",
       "evt_42f68032bc29fb",
       "evt_5c969b30be9216",
-      "evt_8fd94d5a8bc552"
+      "evt_8fd94d5a8bc552",
+      "evt_fceefb022e8227"
     ],
     "free": [],
     "featured": [
@@ -437,23 +439,23 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 34,
+      "events_total": 33,
       "events_upcoming": 9,
       "events_with_image": 8,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 6
     },
     "Cochabamba": {
-      "events_total": 28,
-      "events_upcoming": 13,
-      "events_with_image": 13,
+      "events_total": 29,
+      "events_upcoming": 14,
+      "events_with_image": 14,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 26,
+      "events_total": 24,
       "events_upcoming": 10,
       "events_with_image": 5,
       "events_with_video": 3,
@@ -512,9 +514,9 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 74,
-      "events_upcoming": 15,
-      "events_with_image": 15,
+      "events_total": 72,
+      "events_upcoming": 16,
+      "events_with_image": 16,
       "events_with_video": 0
     },
     "concierto": {
@@ -1441,6 +1443,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_fceefb022e8227",
+      "title": "Balau: Taller de cajón peruano",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-05T21:30:00-04:00",
+      "starts_at_ms": 1788658200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 5 de septiembre · 21:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
+      "status": "postergado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_46eadf6dd09226",
       "title": "GOBERNACIÓN IMPULSA LA PROMOCIÓN TURÍSTICA DE BELLA VISTA RUMBO A LA FERIA DEL PESCADO",
       "category": "turismo",
@@ -2167,11 +2207,11 @@
       "title": "GAMS Gobierno Autonomo Municipal de Sucre",
       "category": "conferencia",
       "category_label": "Conferencias",
-      "starts_at": "2027-05-25T21:00:00-04:00",
-      "starts_at_ms": 1811293200000,
+      "starts_at": "2027-05-25T23:00:00-04:00",
+      "starts_at_ms": 1811300400000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Martes 25 de mayo · 21:00",
+      "display_date": "Martes 25 de mayo · 23:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
       "days_until": 262,
@@ -2487,9 +2527,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
+      "price_from": 6.0,
+      "currency": "BOB",
+      "price_label": "Bs 6",
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -2499,7 +2539,7 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 51,
+      "quality_score": 59,
       "is_featured": false,
       "status": "postergado",
       "source_count": 1
