@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T00:41:50-04:00",
+  "generated_at": "2026-09-06T06:59:23-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -16,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 62.0,
-    "horas_maximo_sin_datos": 405.5
+    "horas_promedio_sin_datos": 65.3,
+    "horas_maximo_sin_datos": 411.8
   },
   "sources": [
     {
@@ -46,13 +46,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2E4b6xA3E3MQ7kNvwE46APp&_nc_oc=AdrRaWPZ7LOFrN9mtRBbcCUSTY5UmoS4H2tz6uTRuDNtTmITyYHpGlG_UEVaDGSjpf4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=fFzmuS9DhIhHj3EwYIqKdQ&_nc_ss=7f289&oh=00_AQIe_o1yqhhXu6wcImkodHgrGBPKQEFAwihB6I_hkC-GGg&oe=6AA2C8F5",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -80,13 +80,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z-3kYYRBimEQ7kNvwFpKfBX&_nc_oc=AdpyeGGGPB4zdCRH42cdkHvpH9OUd4G-z98WrEur81kdJtxJ9QBQWNmeb8CDa-DzdsU&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=pF_gpDLtVLjmHXH4H9tcKQ&_nc_ss=7f289&oh=00_AQID93S4Sx3AbG7sILcW_gJnbdEgwjnphNTMpGCgmVroVQ&oe=6AA309C3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028etwia9hrxswhD6HYfLwCKwMrtvFqthn4gTxRfqMUW9J75VcurSSMiVRViZKGNETl?__cft__[0]=AZiiNL2-_3GtQr4sMKLoaJWn3wma3RnZGhntVpGGWI_Q3QyWmeVhCnwQGWl59gL16Fjq6kkxkco4iAUMlixEyvHTATu9RRu5aksiAmh-JnkBYwmKHIqNhyJSPDDQS1tKSrbwThWFdmGftNjNqvItiziapNovZdpzQqknvIJgKyuy3yAnB1h5q-zVwt4&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -353,12 +362,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? ATB Digital 10 mil seguidores • 114 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técn'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_bolivision",
@@ -573,13 +582,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ABSV1vGO8WEQ7kNvwHoELld&_nc_oc=Adq2kvDSkFPN9RcPE_eu7TCEO5xfyAZy-sJmnMB_9YY7947zzd0_Yvs6INBknpiYGzY&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=C55EwhmOgYCxPGs6TTbEBw&_nc_ss=7f289&oh=00_AQI3swX1ku3TDqEjUWSLIh7SMhXmprP6IQes3rfp-yOYnQ&oe=6AA317D6",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02uZtHkoqtG8VH5HtPoTRLpMBrsMNbvqz6PfoFTEaCeBq6Kn7xTLKfG1ysVTsM5Gtfl?__cft__[0]=AZj9_mbX3ksIeX3y04U9D60HFX7I8eL9fWAcNFGJPr4R6gh_XgYYvyMqqDG7KVLSTPmhlBoderNGgWvNY7sIP9oCqHGBOGcI07d63H2Mj2shF7ngp73OJreNKeNDpVYX4xbhQwAtnt6osEWkUEsd2nOXD2mBn5FSgjui7hqlcHz6teUstBvGT2Ay9os&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "El hechizo de Martuca - Cuarto de Escape Un … Ver más El hechizo de Martuca - Cuarto de Escape Un … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -641,13 +659,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z_eKuSLNZbsQ7kNvwHoRdef&_nc_oc=Adq3K29obbG3Ys0gOH8nbhQ46gv5f0OwEeyFea_V9GNbn2_XN0DbtXgTGuiFMw3mAGA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=ACLJ6YOdRNGt2PbFedRtYw&_nc_ss=7f289&oh=00_AQJk6W3w_zg2s8ZrO0BmgpPDtA-rwA4KjiYFn2KwveNmlg&oe=6AA32792",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid04PKQNM4ngM87RmkAGJig9yHLQHfqt7YDkMjpr8JzCqFLAfALK861kE1WtCQCyMVsl?__cft__[0]=AZh-70g5F_Ul_zXnc0ZmunVimPxZmFsqtU-mcQ5HtMzUnU7AQSFyGZl_ID2u6-3csCjYFvgcaq9VfUKM96EIJzkYZbiodHT8b3u5DA8nR6dTzpEPpr2r3N8kLWxK7Swz--3phCcD4FwvYPDXa98smokDXhPdGcSbCzkVp69sXdLJQ3iWIIqK1hBj5HA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CRC | Nuevas sonoridades para el charango… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -726,22 +753,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MI3f0coXRsgQ7kNvwGB7-Oq&_nc_oc=AdqFD956Dmrye-ZJSBgPI4i0Evl3fj8DTDL23J8I-7VNhU9xHt8jq032PUCU8aadRBE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=PgWxR5Dr8_ksHgmGsTW9Nw&_nc_ss=7f289&oh=00_AQIdQYufGsiQJEOe9GmcHwk_WcE_ek0iHbZ4JPEvb7qVwQ&oe=6AA2AFBD",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 40,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1403687174423890/?__cft__[0]=AZgNxm3-3gdyqwVO_G0DLGk6ThH-GSOoeeEkl9wqV_643f5hNZ40-46weea8j9IOiOa0h1yjt8gSlbopvQHhBhmo9vpBDbgHFuq9QcSXcrxjMxdDCcspdu-S9NBPX0N7JtVJB_uN4j5eEqHQAApLipxXJe8mF0UFr63Aw_FwI9AXPNZwfTUj2SFi5ubyaT2NMIZ3&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "ESTE 6 DE SEPTIEMBRE DALE UN RESPIRO A TRINIDAD Llega el Día del Peatón y del Ciclista Es… Ver más ESTE 6 DE SEPTIEMBRE DALE UN RESPIRO A TRINIDAD Llega el Día del Peatón y del Ciclista Es… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_cobija",
@@ -1312,7 +1330,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1411,32 +1429,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 7,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 38,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/tendencias",
-          "has_image": true,
-          "text_preview": "04/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal boliviano Saturnina y Avelino apenas comienzan a descubrir el mundo, pero su nacimiento ya marca un hito para la conservación de la paraba azul en Bolivia. Los dos... vista 03/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal boliviano S"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 12,
+          "score": 8,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "03/09/2026 Cultura Exposición Sol de septiembre rinde homenaje a Cochabamba Unos 40 artistas plásticos tomarán parte de la exposición “Sol de septiembre” que se inaugura mañana en el salón Melchor Pérez de Holguín. vista 02/09/2026 Cultura Filme \"Thaqhata\" conquista su primer galardón internacional y va por más El cortometraje boliviano 'Thaqhata' alcanzó su primera estrella en el contexto univers"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
+          "reason": "tema_ajeno_a_eventos",
+          "score": 10,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Tragedia: Sedes reporta más de 50 heridos por explosión en cuartel en Viacha Ver más 2 Hay cerca de 60 heridos por explosiones en cuartel de Viacha Ver"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Buscan a 14 uniformados desaparecidos en la explosión en Viacha Ver más 2 Un día para el peatón y la adopción de mascotas Ver más 3 Viacha declara tres"
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 48,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "has_image": true,
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1823,12 +1841,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "[Errno 101] Network is unreachable"
     }
   ]
 }
