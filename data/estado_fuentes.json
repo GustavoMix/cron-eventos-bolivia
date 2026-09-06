@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T18:59:13-04:00",
+  "generated_at": "2026-09-06T00:41:50-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_atb",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -15,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 58.8,
-    "horas_maximo_sin_datos": 399.8
+    "horas_promedio_sin_datos": 62.0,
+    "horas_maximo_sin_datos": 405.5
   },
   "sources": [
     {
@@ -45,13 +46,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2E4b6xA3E3MQ7kNvwE46APp&_nc_oc=AdrRaWPZ7LOFrN9mtRBbcCUSTY5UmoS4H2tz6uTRuDNtTmITyYHpGlG_UEVaDGSjpf4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=fFzmuS9DhIhHj3EwYIqKdQ&_nc_ss=7f289&oh=00_AQIe_o1yqhhXu6wcImkodHgrGBPKQEFAwihB6I_hkC-GGg&oe=6AA2C8F5",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -352,12 +353,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? ATB Digital 10 mil seguidores • 114 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técn'"
     },
     {
       "id": "fb_bolivision",
@@ -725,13 +726,22 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MI3f0coXRsgQ7kNvwGB7-Oq&_nc_oc=AdqFD956Dmrye-ZJSBgPI4i0Evl3fj8DTDL23J8I-7VNhU9xHt8jq032PUCU8aadRBE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=PgWxR5Dr8_ksHgmGsTW9Nw&_nc_ss=7f289&oh=00_AQIdQYufGsiQJEOe9GmcHwk_WcE_ek0iHbZ4JPEvb7qVwQ&oe=6AA2AFBD",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 40,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1403687174423890/?__cft__[0]=AZgNxm3-3gdyqwVO_G0DLGk6ThH-GSOoeeEkl9wqV_643f5hNZ40-46weea8j9IOiOa0h1yjt8gSlbopvQHhBhmo9vpBDbgHFuq9QcSXcrxjMxdDCcspdu-S9NBPX0N7JtVJB_uN4j5eEqHQAApLipxXJe8mF0UFr63Aw_FwI9AXPNZwfTUj2SFi5ubyaT2NMIZ3&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "ESTE 6 DE SEPTIEMBRE DALE UN RESPIRO A TRINIDAD Llega el Día del Peatón y del Ciclista Es… Ver más ESTE 6 DE SEPTIEMBRE DALE UN RESPIRO A TRINIDAD Llega el Día del Peatón y del Ciclista Es… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_cobija",
@@ -929,30 +939,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DG_45qvYPnwQ7kNvwFoEu-k&_nc_oc=AdpEzhaE2x0L_vVrx2hW7RyEU_PjdOi4dBD47KLaSMaws6vP1mHf80bJGizaQp8XYfs&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=XTyu2Is1orRvUakz7gQSfA&_nc_ss=7f289&oh=00_AQKs9NoMYXuu_ufuq7HRgocqKaQN0ghrWyhXMEUVT75wFQ&oe=6AA27947",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid05ArjZd9hyB8GLba1cD3cwEN5KsrPCNVqG1kKqEcPua5KdUPrN5PE3hFc3wBupzNyl?__cft__[0]=AZgMnjxqBuc6q6SQ29N-NoR0tAMI1zSIn9B6eqNbbHL49Zricsf0u9NmkDPHZvCmpJQkpG_zwD4QLTxb6TnnHIwbekJouOW_k3OPKmUgmVwwrqyT46BFmhMv3BY9aOp5rtNeon9WhW0cMe4uyXh97xjY91UPpTOVs9IAdPB47JpBhPZFSKFjmS7NzZw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡𝐂𝐞𝐥𝐞𝐛𝐫𝐚𝐦𝐨𝐬 𝐞𝐧 𝐠𝐫𝐚𝐧𝐝𝐞 𝐧𝐮𝐞𝐬𝐭𝐫𝐨 𝐚𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐢𝐨! Anoche vivimos nuestra 𝐑𝐞𝐭𝐫𝐞𝐭𝐚 𝐝𝐞 𝐀𝐧… Ver más ¡𝐂𝐞𝐥𝐞𝐛𝐫𝐚𝐦𝐨𝐬 𝐞𝐧 𝐠𝐫𝐚𝐧𝐝𝐞 𝐧𝐮𝐞𝐬𝐭𝐫𝐨 𝐚𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐢𝐨! Anoche vivimos nuestra 𝐑𝐞𝐭𝐫𝐞𝐭𝐚 𝐝𝐞 𝐀𝐧… Ver más Grande Esther Marisol! Ver más comentarios Ana Ross"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid05ArjZd9hyB8GLba1cD3cwEN5KsrPCNVqG1kKqEcPua5KdUPrN5PE3hFc3wBupzNyl?comment_id=2212782346248733&__cft__[0]=AZgMnjxqBuc6q6SQ29N-NoR0tAMI1zSIn9B6eqNbbHL49Zricsf0u9NmkDPHZvCmpJQkpG_zwD4QLTxb6TnnHIwbekJouOW_k3OPKmUgmVwwrqyT46BFmhMv3BY9aOp5rtNeon9WhW0cMe4uyXh97xjY91UPpTOVs9IAdPB47JpBhPZFSKFjmS7NzZw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Ana Ross Grande Esther Marisol! 1 día"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -980,13 +973,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-qro1-1.xx.fbcdn.net/v/t39.99422-6/795385887_1665864268531957_5779280662447024541_n.png?stp=dst-jpg_tt6&cstp=mx2048x1073&ctp=s526x296&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Fvll2rFkWboQ7kNvwEPxW7h&_nc_oc=AdpekqmBKeONKNVNyzlrSPsggu7M3YohWICeTzhm8ClbxXAUuqspCm3pPrjxY0BHU-4&_nc_zt=14&_nc_ht=scontent-qro1-1.xx&_nc_gid=1EFcWvoS_KSUXnCM86JLrw&_nc_ss=7f289&oh=00_AQJP_GoG-KQgIG_iSuwOBHXx4_fSZB3IrL5Iecn0EXBvmA&oe=6AA260EA",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1099,22 +1092,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZLs_lIgIQc0Q7kNvwF6UIr_&_nc_oc=AdpCC0TEuZiNlAwymil-Us_EjPPAarMA54AmH3LWna6tESppNmIKW5lL2dQrZ0ge4nk&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=htRIW-BiEG5xi6srrZPkEg&_nc_ss=7f289&oh=00_AQIFSlZ427Cz7GsdQDQFuqJzezyxDTdWNz5WOi0mE-wJ9A&oe=6AA273F7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 42,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/museocasadelalibertad/videos/cdl-en-conmemoraci%C3%B3n-de-los-50-a%C3%B1os-del-instituto-polit%C3%A9cnico-tom%C3%A1s-katari-iptk-/2112915866101853/",
-          "has_image": true,
-          "text_preview": "#CDL | En conmemoración de los 50 años del Instituto Politécnico Tomás Katari (IPTK), Casa de la Libertad acoge la exposición fotográfica \"Rostros del Pueblo\", con una interesante colección de... #CDL | En conmemoración de los 50 años del Instituto Politécnico Tomás Katari (IPTK), Casa de la Libertad acoge la exposición fotográfica \"Rostros del..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
@@ -1427,9 +1411,17 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 38,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "04/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal boliviano Saturnina y Avelino apenas comienzan a descubrir el mundo, pero su nacimiento ya marca un hito para la conservación de la paraba azul en Bolivia. Los dos... vista 03/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal boliviano S"
+        },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 12,
@@ -1440,19 +1432,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
+          "score": 14,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Acribillado en el Urubó llevaba Bs 6.000 adheridos al cuerpo y tenía antecedentes por narcotráfico Ver más 2 Fiscalía de La Paz investiga la muerte de "
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Tragedia: Sedes reporta más de 50 heridos por explosión en cuartel en Viacha Ver más 2 Hay cerca de 60 heridos por explosiones en cuartel de Viacha Ver"
         }
       ],
       "error": null
@@ -1518,7 +1502,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c695ed97-7b2c-4d01-9000-ad1c5c3e6b97",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/435460f5-c804-45fe-960b-10dac59c4435",
           "has_image": true,
           "text_preview": ""
         },
@@ -1534,7 +1518,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/1b385592-cd84-4382-a496-1b13efe9ea35",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
           "has_image": true,
           "text_preview": ""
         }
@@ -1552,8 +1536,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 25,
-      "events": 25,
+      "raw_items": 28,
+      "events": 28,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1586,8 +1570,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1620,8 +1604,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 25,
-      "events": 25,
+      "raw_items": 30,
+      "events": 30,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1654,8 +1638,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
-      "events": 2,
+      "raw_items": 3,
+      "events": 3,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1736,8 +1720,8 @@
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 37,
-          "category": "turismo",
+          "score": 24,
+          "category": "feria",
           "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
           "has_image": false,
           "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
