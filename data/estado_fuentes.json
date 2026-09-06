@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T06:59:23-04:00",
+  "generated_at": "2026-09-06T11:31:28-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_atb",
       "fb_feicobol",
+      "fb_fipaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 65.3,
-    "horas_maximo_sin_datos": 411.8
+    "horas_promedio_sin_datos": 66.7,
+    "horas_maximo_sin_datos": 416.3
   },
   "sources": [
     {
@@ -63,13 +63,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=u05jOJcqU8IQ7kNvwFsepdc&_nc_oc=AdqKtcxUQfUnL3b1dY9XAlTuRXKxRVw-aommSlmWsaiwrgVmNICK5ZB5mQ_uBUE5pXE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=9NoYtXI2n4JhvXnvQCOywA&_nc_ss=7f289&oh=00_AQIAjwb0C6KHd92F7ARDhBHyeQ34cw7rrYoZkAXf0vMSiQ&oe=6AA36176",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid037hrTKCs8XgiuZ8HovGDxpY481D26hNGgCsseknRkzgMQg1vYz8tC5xBgfWkecL3rl?__cft__[0]=AZhMpDOy_zGevvUzzGQvl_SiWZ0lEPPcyFPovWS210mBdvC_KwWHEtowZ3KqvlqARVIbXBdqSxU3BdOJ58Bz4jzvsZl-yfOEr2yqGv9BB36gIB28GH-dwEi-XBxfH-Xofa703kpnsR1NtfJZLw0i33NrxVgyZCkRvWR21ZasuROdkqQda2RTZiSzRmo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -80,22 +89,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z-3kYYRBimEQ7kNvwFpKfBX&_nc_oc=AdpyeGGGPB4zdCRH42cdkHvpH9OUd4G-z98WrEur81kdJtxJ9QBQWNmeb8CDa-DzdsU&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=pF_gpDLtVLjmHXH4H9tcKQ&_nc_ss=7f289&oh=00_AQID93S4Sx3AbG7sILcW_gJnbdEgwjnphNTMpGCgmVroVQ&oe=6AA309C3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028etwia9hrxswhD6HYfLwCKwMrtvFqthn4gTxRfqMUW9J75VcurSSMiVRViZKGNETl?__cft__[0]=AZiiNL2-_3GtQr4sMKLoaJWn3wma3RnZGhntVpGGWI_Q3QyWmeVhCnwQGWl59gL16Fjq6kkxkco4iAUMlixEyvHTATu9RRu5aksiAmh-JnkBYwmKHIqNhyJSPDDQS1tKSrbwThWFdmGftNjNqvItiziapNovZdpzQqknvIJgKyuy3yAnB1h5q-zVwt4&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -361,13 +361,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uSdzzIqIoWsQ7kNvwESx484&_nc_oc=Adr5sLgtZL3jABWghVD3Mw2lwKmFTmJE8dwE0WDVtPI9mwboMARZpzy3vsFDU-Qiatg&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=OfMa9Rfg8ii4Dwr-XKa3RA&_nc_ss=7f289&oh=00_AQKBQwuEuSYXuDtZdVFlKpWCzeCK8nB0WDM4nommJjuuxA&oe=6AA35781",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/ATBDigital/videos/2543131482868090/?comment_id=1563040895617331&__cft__[0]=AZikfRniiZgWaAqc6nv9k9BUrLnnxBkIjBdvLH-skfM_q3F7r4Hl8u16_JOhh9yqVznHWdnBEVGMC7TwtHky6jzEIAoBgEWIEPQlY_EoTIzKOn54EKlwvcCeQvGehlsahJBF44k_L-5gtNFibjwsYHdban52Yy0fw4dtQsMD9cZU30MWzGdjrAeIkY4Ma60TPZA&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Vamos Oriente vamos si se puede hoy es una victoria del Verdolaga Grover Chura"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_bolivision",
@@ -582,22 +591,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ABSV1vGO8WEQ7kNvwHoELld&_nc_oc=Adq2kvDSkFPN9RcPE_eu7TCEO5xfyAZy-sJmnMB_9YY7947zzd0_Yvs6INBknpiYGzY&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=C55EwhmOgYCxPGs6TTbEBw&_nc_ss=7f289&oh=00_AQI3swX1ku3TDqEjUWSLIh7SMhXmprP6IQes3rfp-yOYnQ&oe=6AA317D6",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02uZtHkoqtG8VH5HtPoTRLpMBrsMNbvqz6PfoFTEaCeBq6Kn7xTLKfG1ysVTsM5Gtfl?__cft__[0]=AZj9_mbX3ksIeX3y04U9D60HFX7I8eL9fWAcNFGJPr4R6gh_XgYYvyMqqDG7KVLSTPmhlBoderNGgWvNY7sIP9oCqHGBOGcI07d63H2Mj2shF7ngp73OJreNKeNDpVYX4xbhQwAtnt6osEWkUEsd2nOXD2mBn5FSgjui7hqlcHz6teUstBvGT2Ay9os&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El hechizo de Martuca - Cuarto de Escape Un … Ver más El hechizo de Martuca - Cuarto de Escape Un … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -659,22 +659,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z_eKuSLNZbsQ7kNvwHoRdef&_nc_oc=Adq3K29obbG3Ys0gOH8nbhQ46gv5f0OwEeyFea_V9GNbn2_XN0DbtXgTGuiFMw3mAGA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=ACLJ6YOdRNGt2PbFedRtYw&_nc_ss=7f289&oh=00_AQJk6W3w_zg2s8ZrO0BmgpPDtA-rwA4KjiYFn2KwveNmlg&oe=6AA32792",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid04PKQNM4ngM87RmkAGJig9yHLQHfqt7YDkMjpr8JzCqFLAfALK861kE1WtCQCyMVsl?__cft__[0]=AZh-70g5F_Ul_zXnc0ZmunVimPxZmFsqtU-mcQ5HtMzUnU7AQSFyGZl_ID2u6-3csCjYFvgcaq9VfUKM96EIJzkYZbiodHT8b3u5DA8nR6dTzpEPpr2r3N8kLWxK7Swz--3phCcD4FwvYPDXa98smokDXhPdGcSbCzkVp69sXdLJQ3iWIIqK1hBj5HA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CRC | Nuevas sonoridades para el charango… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -873,12 +864,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_feicobol",
@@ -1429,24 +1420,16 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 8,
+      "rejected": 5,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 8,
+          "score": 26,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "03/09/2026 Cultura Exposición Sol de septiembre rinde homenaje a Cochabamba Unos 40 artistas plásticos tomarán parte de la exposición “Sol de septiembre” que se inaugura mañana en el salón Melchor Pérez de Holguín. vista 02/09/2026 Cultura Filme \"Thaqhata\" conquista su primer galardón internacional y va por más El cortometraje boliviano 'Thaqhata' alcanzó su primera estrella en el contexto univers"
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 10,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
-          "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Buscan a 14 uniformados desaparecidos en la explosión en Viacha Ver más 2 Un día para el peatón y la adopción de mascotas Ver más 3 Viacha declara tres"
         },
         {
           "reason": "relevancia_insuficiente",
@@ -1455,6 +1438,14 @@
           "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
           "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 34,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Estrecho de Magallanes: ¿el Ormuz latinoamericano? 2 Viacha sufre por las dos explosiones de magnitud y Defensa indaga las causas 3 Cepal proyecta "
         }
       ],
       "error": null

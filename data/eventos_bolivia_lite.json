@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-06T06:59:23-04:00",
+  "generated_at": "2026-09-06T11:31:28-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 45,
-    "events_today": 10
+    "events_total": 47,
+    "events_today": 11
   },
   "filters": {
     "ui_groups": [
@@ -65,12 +65,12 @@
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 5
+        "count": 6
       },
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 5
+        "count": 6
       },
       {
         "key": "teatro",
@@ -117,7 +117,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 7
+        "count": 8
       },
       {
         "key": "Quillacollo",
@@ -149,7 +149,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 13
+        "count": 14
       },
       {
         "key": "Santa Cruz",
@@ -191,22 +191,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 11
+        "count": 12
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 13
+        "count": 15
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 22
+        "count": 24
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 45
+        "count": 47
       }
     ],
     "price": [
@@ -223,19 +223,19 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 36
+        "count": 38
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 38
+        "count": 40
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 7
+        "count": 8
       }
     ],
     "tags": [
@@ -252,6 +252,11 @@
       {
         "key": "LaPaz",
         "label": "LaPaz",
+        "count": 1
+      },
+      {
+        "key": "LaRedDeportivaDeBolivia",
+        "label": "LaRedDeportivaDeBolivia",
         "count": 1
       },
       {
@@ -344,7 +349,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 14
+        "count": 16
       },
       {
         "key": "venue",
@@ -377,6 +382,7 @@
     "today": [
       "evt_c183f2b7b229e8",
       "evt_282cca6f8c9c1e",
+      "evt_c78390acf6623a",
       "evt_fb9b0c4ef915ca",
       "evt_bb6c393867a2ae",
       "evt_9b17b4775d4403",
@@ -393,6 +399,7 @@
     "this_weekend": [
       "evt_c183f2b7b229e8",
       "evt_282cca6f8c9c1e",
+      "evt_c78390acf6623a",
       "evt_fb9b0c4ef915ca",
       "evt_bb6c393867a2ae",
       "evt_9b17b4775d4403",
@@ -426,23 +433,23 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 29,
+      "events_total": 26,
       "events_upcoming": 8,
       "events_with_image": 7,
       "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 6
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 34,
-      "events_upcoming": 13,
-      "events_with_image": 13,
+      "events_total": 35,
+      "events_upcoming": 14,
+      "events_with_image": 14,
       "events_with_video": 0,
       "sources_total": 13,
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 27,
+      "events_total": 26,
       "events_upcoming": 12,
       "events_with_image": 6,
       "events_with_video": 4,
@@ -450,7 +457,7 @@
       "sources_ok": 3
     },
     "Chuquisaca": {
-      "events_total": 8,
+      "events_total": 7,
       "events_upcoming": 4,
       "events_with_image": 4,
       "events_with_video": 0,
@@ -501,17 +508,17 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 75,
+      "events_total": 70,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 5,
-      "events_upcoming": 5,
-      "events_with_image": 5,
-      "events_with_video": 2
+      "events_total": 6,
+      "events_upcoming": 6,
+      "events_with_image": 6,
+      "events_with_video": 3
     },
     "conferencia": {
       "label": "Conferencias",
@@ -522,9 +529,9 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 8,
-      "events_upcoming": 5,
-      "events_with_image": 5,
+      "events_total": 9,
+      "events_upcoming": 6,
+      "events_with_image": 6,
       "events_with_video": 0
     },
     "exposicion": {
@@ -643,6 +650,44 @@
       "director": null,
       "cast": [],
       "quality_score": 54,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_c78390acf6623a",
+      "title": "3,7 mil reproducciones · 51 reacciones | 🔴EN VIVO��\n#LaRedDeportivaDeBolivia\n#OrientePetrolero🆚#AlwaysReady | ATB…",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-09-06T00:00:00-04:00",
+      "starts_at_ms": 1788667200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 6 de septiembre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": null,
+      "department": null,
+      "venue": null,
+      "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/797624622_2980761532289820_2699809047125590029_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a27664&_nc_ohc=pat22MCdjv0Q7kNvwHnexAV&_nc_oc=AdpmsSwW8cuwXhOsobZyWK3vt8ENiECkDjKnnzqaHTLMTYZh1RKDgg9pm4bOaUCkgyI&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=M2tiHL93HklntpAHvJx_Ng&_nc_ss=7f289&oh=00_AQIzf4enXDa6weZz2wJRUG-x7aO1tp-52FBZaG9bpE3u9w&oe=6AA3726A",
+      "has_video": true,
+      "video_thumbnail_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/797624622_2980761532289820_2699809047125590029_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a27664&_nc_ohc=pat22MCdjv0Q7kNvwHnexAV&_nc_oc=AdpmsSwW8cuwXhOsobZyWK3vt8ENiECkDjKnnzqaHTLMTYZh1RKDgg9pm4bOaUCkgyI&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=M2tiHL93HklntpAHvJx_Ng&_nc_ss=7f289&oh=00_AQIzf4enXDa6weZz2wJRUG-x7aO1tp-52FBZaG9bpE3u9w&oe=6AA3726A",
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 45,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
@@ -1445,6 +1490,44 @@
       "department": "Beni",
       "venue": null,
       "image_url": "https://beni.gob.bo/storage/posts/438a2f96-f57e-4dbc-9dc1-6794cdd9e2cd/conversions/01KZSFQRNEBYZ7S0YQT5DM6WGS-og.webp",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_8db9f3debc8f1c",
+      "title": "Espectáculos",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-09-12T00:00:00-04:00",
+      "starts_at_ms": 1789185600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 12 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 6,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/7/24/12_dc_cartelera_1_0.jpg?itok=9MQ7b8B8",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
