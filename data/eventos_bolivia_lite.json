@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-06T16:27:18-04:00",
+  "generated_at": "2026-09-06T18:56:25-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 48,
@@ -218,12 +218,12 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 9
+        "count": 8
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 39
+        "count": 40
       }
     ],
     "media": [
@@ -436,7 +436,7 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 25,
+      "events_total": 24,
       "events_upcoming": 9,
       "events_with_image": 8,
       "events_with_video": 2,
@@ -444,20 +444,20 @@
       "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 35,
+      "events_total": 32,
       "events_upcoming": 14,
       "events_with_image": 14,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 25,
+      "events_total": 23,
       "events_upcoming": 12,
       "events_with_image": 6,
       "events_with_video": 4,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
       "events_total": 7,
@@ -481,10 +481,10 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 1
     },
     "Tarija": {
-      "events_total": 5,
+      "events_total": 4,
       "events_upcoming": 1,
       "events_with_image": 1,
       "events_with_video": 0,
@@ -511,7 +511,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 68,
+      "events_total": 62,
       "events_upcoming": 16,
       "events_with_image": 16,
       "events_with_video": 0
@@ -546,7 +546,7 @@
     },
     "feria": {
       "label": "Ferias y expos",
-      "events_total": 14,
+      "events_total": 13,
       "events_upcoming": 11,
       "events_with_image": 6,
       "events_with_video": 4
@@ -2713,6 +2713,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_adc2c807f56a31",
+      "title": "06/09/2026 Interesante Walter Gonzáles, periodista, habla sobre Urkupiña, Quillacollo y sus retos como ciudad, en…",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2027-08-12T22:33:00-04:00",
+      "starts_at_ms": 1818124380000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 12 de agosto · 22:33",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 340,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/6/walter.jpg?itok=DsuaQseP",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_72f17feca5726b",
       "title": "04/09/2026 Medio Ambiente Dos pichones de paraba azul nacen por primera vez en una caja nido en el Pantanal…",
       "category": "cine",
@@ -2748,44 +2786,6 @@
       "quality_score": 51,
       "is_featured": false,
       "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_adc2c807f56a31",
-      "title": "02/09/2026 Salud Cuál es el verdadero impacto de dormir con la ventana abierta en el organismo Dormir con la ventana…",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2027-08-12T22:33:00-04:00",
-      "starts_at_ms": 1818124380000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Jueves 12 de agosto · 22:33",
-      "lifecycle": "proximo",
-      "lifecycle_label": "Próximos",
-      "days_until": 340,
-      "is_upcoming": true,
-      "city": "Quillacollo",
-      "department": "Cochabamba",
-      "venue": null,
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/2/11_dc_1.jpg?itok=-SPQufah",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": 9.8,
-      "currency": "BOB",
-      "price_label": "Bs 9.8",
-      "organizer": null,
-      "showtimes": [],
-      "formats": [],
-      "occurrences": [],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 59,
-      "is_featured": false,
-      "status": "postergado",
       "source_count": 1
     },
     {
