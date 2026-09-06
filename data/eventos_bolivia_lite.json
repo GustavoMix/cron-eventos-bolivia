@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-06T11:31:28-04:00",
+  "generated_at": "2026-09-06T16:27:18-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 47,
-    "events_today": 11
+    "events_total": 48,
+    "events_today": 12
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 15
+        "count": 16
       },
       {
         "key": "feria",
@@ -112,7 +112,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 9
+        "count": 10
       },
       {
         "key": "Cochabamba",
@@ -159,7 +159,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 8
+        "count": 9
       },
       {
         "key": "Chuquisaca",
@@ -191,22 +191,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 12
+        "count": 13
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 15
+        "count": 16
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 24
+        "count": 25
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 47
+        "count": 48
       }
     ],
     "price": [
@@ -223,14 +223,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 38
+        "count": 39
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 40
+        "count": 41
       },
       {
         "key": "con_video",
@@ -352,14 +352,14 @@
         "count": 16
       },
       {
-        "key": "venue",
-        "label": "venue",
+        "key": "cartelera_cine",
+        "label": "cartelera_cine",
         "count": 10
       },
       {
-        "key": "cartelera_cine",
-        "label": "cartelera_cine",
-        "count": 9
+        "key": "venue",
+        "label": "venue",
+        "count": 10
       },
       {
         "key": "cultura_oficial",
@@ -383,6 +383,7 @@
       "evt_c183f2b7b229e8",
       "evt_282cca6f8c9c1e",
       "evt_c78390acf6623a",
+      "evt_795b51f75d1813",
       "evt_fb9b0c4ef915ca",
       "evt_bb6c393867a2ae",
       "evt_9b17b4775d4403",
@@ -400,6 +401,7 @@
       "evt_c183f2b7b229e8",
       "evt_282cca6f8c9c1e",
       "evt_c78390acf6623a",
+      "evt_795b51f75d1813",
       "evt_fb9b0c4ef915ca",
       "evt_bb6c393867a2ae",
       "evt_9b17b4775d4403",
@@ -412,6 +414,7 @@
     ],
     "free": [],
     "featured": [
+      "evt_795b51f75d1813",
       "evt_fb9b0c4ef915ca",
       "evt_bb6c393867a2ae",
       "evt_9b17b4775d4403",
@@ -433,12 +436,12 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 26,
-      "events_upcoming": 8,
-      "events_with_image": 7,
+      "events_total": 25,
+      "events_upcoming": 9,
+      "events_with_image": 8,
       "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 5
     },
     "Cochabamba": {
       "events_total": 35,
@@ -449,12 +452,12 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 26,
+      "events_total": 25,
       "events_upcoming": 12,
       "events_with_image": 6,
       "events_with_video": 4,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Chuquisaca": {
       "events_total": 7,
@@ -502,15 +505,15 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 1
     }
   },
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 70,
-      "events_upcoming": 15,
-      "events_with_image": 15,
+      "events_total": 68,
+      "events_upcoming": 16,
+      "events_with_image": 16,
       "events_with_video": 0
     },
     "concierto": {
@@ -689,6 +692,141 @@
       "cast": [],
       "quality_score": 45,
       "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_795b51f75d1813",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-06T10:30:00-04:00",
+      "starts_at_ms": 1788705000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 6 de septiembre · 10:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Multicine",
+      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "10:30",
+        "11:40",
+        "12:40",
+        "13:50",
+        "14:50",
+        "16:00",
+        "17:00",
+        "18:10",
+        "19:10",
+        "20:20",
+        "21:15",
+        "22:30",
+        "13:20",
+        "15:35",
+        "17:50",
+        "20:10",
+        "22:25",
+        "11:00",
+        "13:10",
+        "15:20",
+        "17:30",
+        "19:40",
+        "21:50",
+        "13:00",
+        "18:40",
+        "10:50",
+        "13:40",
+        "16:30",
+        "19:30",
+        "22:20",
+        "15:50",
+        "12:10"
+      ],
+      "formats": [
+        "2D",
+        "2D PLUS",
+        "2D XL",
+        "3D",
+        "4D E-MOTION",
+        "2D PLUS SUB"
+      ],
+      "occurrences": [
+        "2026-09-06T10:30:00-04:00",
+        "2026-09-06T11:40:00-04:00",
+        "2026-09-06T12:40:00-04:00",
+        "2026-09-06T13:50:00-04:00",
+        "2026-09-06T14:50:00-04:00",
+        "2026-09-06T16:00:00-04:00",
+        "2026-09-06T17:00:00-04:00",
+        "2026-09-06T18:10:00-04:00",
+        "2026-09-06T19:10:00-04:00",
+        "2026-09-06T20:20:00-04:00",
+        "2026-09-06T21:15:00-04:00",
+        "2026-09-06T22:30:00-04:00",
+        "2026-09-06T13:20:00-04:00",
+        "2026-09-06T15:35:00-04:00",
+        "2026-09-06T17:50:00-04:00",
+        "2026-09-06T20:10:00-04:00",
+        "2026-09-06T22:25:00-04:00",
+        "2026-09-06T11:00:00-04:00",
+        "2026-09-06T13:10:00-04:00",
+        "2026-09-06T15:20:00-04:00",
+        "2026-09-06T17:30:00-04:00",
+        "2026-09-06T19:40:00-04:00",
+        "2026-09-06T21:50:00-04:00",
+        "2026-09-06T13:00:00-04:00",
+        "2026-09-06T18:40:00-04:00",
+        "2026-09-06T10:50:00-04:00",
+        "2026-09-06T13:40:00-04:00",
+        "2026-09-06T16:30:00-04:00",
+        "2026-09-06T19:30:00-04:00",
+        "2026-09-06T22:20:00-04:00",
+        "2026-09-06T15:50:00-04:00",
+        "2026-09-06T12:10:00-04:00",
+        "2026-09-06T15:00:00-04:00",
+        "2026-09-06T22:10:00-04:00",
+        "2026-09-06T12:15:00-04:00",
+        "2026-09-06T15:30:00-04:00",
+        "2026-09-06T16:45:00-04:00",
+        "2026-09-06T16:50:00-04:00",
+        "2026-09-06T21:30:00-04:00",
+        "2026-09-06T12:20:00-04:00",
+        "2026-09-06T17:20:00-04:00",
+        "2026-09-06T18:45:00-04:00",
+        "2026-09-06T19:50:00-04:00",
+        "2026-09-06T21:40:00-04:00",
+        "2026-09-06T19:45:00-04:00",
+        "2026-09-06T22:00:00-04:00",
+        "2026-09-06T14:30:00-04:00",
+        "2026-09-06T19:00:00-04:00",
+        "2026-09-06T21:00:00-04:00",
+        "2026-09-06T12:00:00-04:00",
+        "2026-09-06T14:00:00-04:00",
+        "2026-09-06T17:45:00-04:00",
+        "2026-09-06T20:00:00-04:00",
+        "2026-09-06T18:00:00-04:00",
+        "2026-09-06T21:10:00-04:00",
+        "2026-09-06T13:25:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
       "status": "programado",
       "source_count": 1
     },

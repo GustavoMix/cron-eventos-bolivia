@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:31:28-04:00",
+  "generated_at": "2026-09-06T16:27:18-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_alcaldia_el_alto",
       "fb_feicobol",
-      "fb_fipaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 66.7,
-    "horas_maximo_sin_datos": 416.3
+    "horas_promedio_sin_datos": 69.0,
+    "horas_maximo_sin_datos": 421.3
   },
   "sources": [
     {
@@ -63,22 +63,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=u05jOJcqU8IQ7kNvwFsepdc&_nc_oc=AdqKtcxUQfUnL3b1dY9XAlTuRXKxRVw-aommSlmWsaiwrgVmNICK5ZB5mQ_uBUE5pXE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=9NoYtXI2n4JhvXnvQCOywA&_nc_ss=7f289&oh=00_AQIAjwb0C6KHd92F7ARDhBHyeQ34cw7rrYoZkAXf0vMSiQ&oe=6AA36176",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid037hrTKCs8XgiuZ8HovGDxpY481D26hNGgCsseknRkzgMQg1vYz8tC5xBgfWkecL3rl?__cft__[0]=AZhMpDOy_zGevvUzzGQvl_SiWZ0lEPPcyFPovWS210mBdvC_KwWHEtowZ3KqvlqARVIbXBdqSxU3BdOJ58Bz4jzvsZl-yfOEr2yqGv9BB36gIB28GH-dwEi-XBxfH-Xofa703kpnsR1NtfJZLw0i33NrxVgyZCkRvWR21ZasuROdkqQda2RTZiSzRmo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA CUENTA REGRESIVA COMIENZA: SOLO POR 48 HORAS! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -175,12 +166,12 @@
       "region": "La Paz",
       "city": "El Alto",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de El Alto 218 mil seguidores • 37 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pu'"
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -242,13 +233,30 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9VP3HOqRSPMQ7kNvwEUnX9d&_nc_oc=Adq4YiEvNdHeT9921Y6RiX0WxOOznn8raJOGk0IJN8HDbdf822ASBAgildufd-dpM6E&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ZueSi_tleCfE0Pu2h5ofZQ&_nc_ss=7f289&oh=00_AQIY06b6cY4fC1a1sEby_4M3-2iaUQa345jlm6a_mGNhOw&oe=6AA38FA1",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/28729868373315111/?__cft__[0]=AZgHtb4iSuTl4EHSaFDeAfHnNn6CVw8Yh5shQw8ro6aRqMcIEyfPB-UGKyIH6qBWdzIoCRQdgUuQwHDnCDx15zNb0Gd9WuUC6jg1GW2jC8P_XyRBABHTq-PjvS0l59Dn4BIpC0ACmtasITEgJtiT5Tc9Zq6tOhFNjCE727chWuRm78FsiqZ5KhwwcQ0Ld1LpMrDx&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Los terrenos del Mercado Mutualista son de todos los cruceños. Hoy se dio un paso importante para defender lo que siempre fue de Santa Cruz.… Ver más Los terrenos del Mercado Mutualista son de todos los cruceños. Hoy se dio un paso importante para defender lo que siempre fue de Santa Cruz.… Ver más Entonces tenemos que rotar los puestos de ventas para que todos tengamos ingresos Tenemos problemas "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/28729868373315111/?comment_id=1616741986462155&__cft__[0]=AZgHtb4iSuTl4EHSaFDeAfHnNn6CVw8Yh5shQw8ro6aRqMcIEyfPB-UGKyIH6qBWdzIoCRQdgUuQwHDnCDx15zNb0Gd9WuUC6jg1GW2jC8P_XyRBABHTq-PjvS0l59Dn4BIpC0ACmtasITEgJtiT5Tc9Zq6tOhFNjCE727chWuRm78FsiqZ5KhwwcQ0Ld1LpMrDx&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Entonces tenemos que rotar los puestos de ventas para que todos tengamos ingresos Jorge Nuñez"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -361,22 +369,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uSdzzIqIoWsQ7kNvwESx484&_nc_oc=Adr5sLgtZL3jABWghVD3Mw2lwKmFTmJE8dwE0WDVtPI9mwboMARZpzy3vsFDU-Qiatg&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=OfMa9Rfg8ii4Dwr-XKa3RA&_nc_ss=7f289&oh=00_AQKBQwuEuSYXuDtZdVFlKpWCzeCK8nB0WDM4nommJjuuxA&oe=6AA35781",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/ATBDigital/videos/2543131482868090/?comment_id=1563040895617331&__cft__[0]=AZikfRniiZgWaAqc6nv9k9BUrLnnxBkIjBdvLH-skfM_q3F7r4Hl8u16_JOhh9yqVznHWdnBEVGMC7TwtHky6jzEIAoBgEWIEPQlY_EoTIzKOn54EKlwvcCeQvGehlsahJBF44k_L-5gtNFibjwsYHdban52Yy0fw4dtQsMD9cZU30MWzGdjrAeIkY4Ma60TPZA&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Vamos Oriente vamos si se puede hoy es una victoria del Verdolaga Grover Chura"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_bolivision",
@@ -863,13 +862,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/796691321_1507553864738466_9040909670630607640_n.jpg?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6sACXiR6HfUQ7kNvwE4-jMg&_nc_oc=Ado3or-TPpjYFAPSDHNRxRWBxm-VnnDf5OFldM5EmIBY2nFhHDCryJXIkT_4QPDhjZs&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fsNZ603v-BVXckzio36lUQ&_nc_ss=7f289&oh=00_AQJvvDyshQHozGh-I1iXabwR4MMmmxN5L0oxSgEICWsFkg&oe=6AA3A768",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/feriafipaz/posts/pfbid0dSB3MaB3RL2Nb47n2RmK89EhuYwfY2xMASr3RoVRpvLE9L3SYa1yHBFihwPAEdeTl?__cft__[0]=AZht1kG3_yxiiLIYkOHYC7ak_IgXg0p7N29W7LbAVCmf4v9aAJLt48Zhu4R00LrB5Y8hcj_u8yZJqaaRUSPnwDKdmd349CU599bkwuZQhFyn72nB_v2AzmJcxbQIyzVtR7jWnEkRk7drK9cXRVKxkOy8iBRopd_58Tv-3xkCe6aP8V4ivT23qPJFUGs&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#Convocatoria | Artesanos en #Metal y #Hierro"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -1321,7 +1329,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1545,8 +1553,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 28,
-      "events": 28,
+      "raw_items": 42,
+      "events": 42,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1832,12 +1840,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": null
     }
   ]
 }
