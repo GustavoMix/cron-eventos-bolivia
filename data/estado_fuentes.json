@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T08:34:38-04:00",
+  "generated_at": "2026-09-07T15:12:48-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 69.6,
-    "horas_maximo_sin_datos": 437.4
+    "horas_promedio_sin_datos": 71.9,
+    "horas_maximo_sin_datos": 444.0
   },
   "sources": [
     {
@@ -28,13 +28,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0fLjmh15zGkQ7kNvwGfUz0g&_nc_oc=AdpwiCabqMXp_WrG3-Bs1bEnj6tHUnQ9g-4WgdazQnE-TiKVO6mxI-MUxu10Yqp71N0&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=fD_6bZDjfXrnewy2UnEo4g&_nc_ss=7f289&oh=00_AQIRFn4e0XxPqwCSEGVHc2nezibkdDrRG4y327W_wYtJoA&oe=6AA4D19A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02ASknCYYUaaRk7e8MCfwd7KMsoCbSQPNSrawxuMTeddFBFyC4MxwKE5nVTqSZDufMl?__cft__[0]=AZjr5OdR0_uzVaTlUU9xQZBLMpZQ00KMVfUv0-iNzmdPHnzX7D_OJabBlPJNBIvfi49-HUTgaXkO31aVrbJNRbnYOOg6iyYYfR31zpiadDpeOG1IVX2zC53AlK9X12vkQPvc18tLH6NjZHDnCsHe70xa1Amebz3t4wjae_YhGFiSiG34UYYXnvy6ONs&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "LA PAZ, PREPÁRATE PARA UNA NOCHE QUE VA A SONAR DIFERENTE L… Ver más LA PAZ, PREPÁRATE PARA UNA NOCHE QUE VA A SONAR DIFERENTE L… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -181,13 +190,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sII6bG6epgwQ7kNvwEcd8AD&_nc_oc=AdoRgfWfbVFwsjANnnAZv5PrvjRo5OxZ6kprDQJeXLB3v-0NEhDKhrnlU9zYUatn4G0&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=tS29jkRvWiYGpsccSvf3Ug&_nc_ss=7f289&oh=00_AQIm8ynt5oP6vYDd0qVj8feePRsM00BsyMxrSIOTShMWuw&oe=6AA4C478",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/gobernaciondelapaz/videos/-envivo-conferencia-de-prensa-del-gobernador-luis-revilla-unidosnadanosdetiene-l/1456011009670770/",
+          "has_image": true,
+          "text_preview": "#EnVivo | Conferencia de prensa del Gobernador Luis Revilla. … Ver más Dios me la bendiga mi licen.Paolita Ricalde Tenemos problemas para reproducir este video. Más información Ver más comentarios Yovanita LR"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1456011009670770/?comment_id=1826272031879749&__cft__[0]=AZjNav9hZoi7zCbQX48iVsuRzWzBZUvfLyiKGA6GGGtDWz-REO8WWC7rEHoZZG9geN9B6QFKRx1PsfsK1M4GDhBm-wCTAl_ujUnC3tj8_yqQQVIL_UHsPXaMakNYKLUPU2h9zw0UhVsYfPP5ywh2YWNb8Z7Jseq-8BMSfFgZzwWNWmv6IF3H77d0XWM1IQvrmk7j&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Dios me la bendiga mi licen.Paolita Ricalde Yovanita LR"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -249,13 +275,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2iFEtgrpw6QQ7kNvwESpKjE&_nc_oc=AdqCYxCbN199bt4s3Vo6UjNno_DQp24u9euxRDuBfOLEg4Zix4PHldbtIMZ6L2G_KJk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=GYdh17fW4mLL8Onyd1RApw&_nc_ss=7f289&oh=00_AQIk0K24tu4QBvuyXs-gZR3pZ20OSamsV5JDsFzfulljkQ&oe=6AA4CBBE",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid0ULue3ZbLvufnM5fJ1rPDYbUKPx2KS3ZviRH7bc2fvYdkUt8V1xCBEW7f2Jpytwidl?__cft__[0]=AZgXCfC-MxtAEu9tgceyqwoZhKOHfVDQ-RIil1_9GZjSHvwrvYG6yupYZ-dd57FQDdi19026tmkdoMHWBhwU8NrRVkoZMF3LpR0pUX-gtwrcpFdiN0TlXvjXGaB5uafzP8WlKEa0Ew1D8F40Sex0KXN_e3N5XGN0AHHZuXnrwye_FsETHFaKWk-uiAU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Fortalecemos la prevención y respuesta ante incendios forestales… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_lostiempos",
@@ -385,30 +420,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/762867835_1486603256840062_112288559762726375_n.jpg?stp=dst-jpg_tt6&cstp=mx494x494&ctp=s494x494&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2ZzWBejLTVkQ7kNvwHWjuHe&_nc_oc=Adqsdgj7mtdYBCv1Zh3s1uQMHJdqJNI_UbCBXU_gQTrh-MPuaNgUKZEieg9yI9DcUIo&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=SiHJPhFeoQQrvGTP4AUB7A&_nc_ss=7f289&oh=00_AQLbLLjzcgNxEH_no6ngIEjofOvAM8ax8h9_ROtb2kvvcQ&oe=6AA47BC4",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid02rRwZSQ6TSHkhEUc87JV8NNCBDyhFSXCJzt7B9MkdHjk5FgH9dLmtiQAMXGMYYoPZl?__cft__[0]=AZjWDXcowLLaLvVp9YTl_nuJiymXl-N9QKw7bLyV_rgEWGLG4EtfHDp6R6sD6r-W_lZ7rPdHXpuHHV6RsW-RXxN9j4wprolCtTdlJrj6p7WdO7qwmzhux1g7UBkxBPs3XSdGfzqjGf19IudL9rpBXTL-3WRMPU-CwIIvFajtDTAZ04fjR7-hn4iXp4c&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Con este hallazgo, son siete los cuerpos recuperados de las 14 personas que permanecían no localizadas, según el reporte del Ministerio de Defensa. DE LOS 17 MUERTOS 10 FUERON MUTILADOS Y PULVERIZADOS, DE TODOS MODOS ESTE GOBIERNO EN OCTUBRE LOS SACARA A LOS SOLDADITOS COMO CARNE DE CAÑÓN CONTRA SUS PROPIOS PADRES. ERBOL.COM.BO Hallan el cuerpo de un sargento y suman siete los decesos confirmados "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid02rRwZSQ6TSHkhEUc87JV8NNCBDyhFSXCJzt7B9MkdHjk5FgH9dLmtiQAMXGMYYoPZl?comment_id=3395060560703467&__cft__[0]=AZjWDXcowLLaLvVp9YTl_nuJiymXl-N9QKw7bLyV_rgEWGLG4EtfHDp6R6sD6r-W_lZ7rPdHXpuHHV6RsW-RXxN9j4wprolCtTdlJrj6p7WdO7qwmzhux1g7UBkxBPs3XSdGfzqjGf19IudL9rpBXTL-3WRMPU-CwIIvFajtDTAZ04fjR7-hn4iXp4c&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "DE LOS 17 MUERTOS 10 FUERON MUTILADOS Y PULVERIZADOS, DE TODOS MODOS ESTE GOBIERNO EN OCTUBRE LOS SACARA A LOS SOLDADITOS COMO CARNE DE CAÑÓN CONTRA SUS PROPIOS PADRES. Andres Leigue"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_el_diario",
@@ -572,22 +590,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/799503706_1730403111557010_8107248368575113969_n.png?stp=dst-jpg_tt6&cstp=mx512x640&ctp=s512x640&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5593YOig5GUQ7kNvwHY_qnV&_nc_oc=AdpouqPXu2Dkmw5LK92Pmoi30XwQH-ciwAfxjvA21jHq8yR8feojFZFVLi8O4ZS1vyg&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=YvQpVKACr3cUt-_Al7-VlA&_nc_ss=7f289&oh=00_AQJEkRuoZ-6ieKhjgwrWcgJDZsI5sGtp9Qur6Nlz3X4Bjg&oe=6AA4737C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/cinemateca.bo/posts/pfbid0WLtX9ZUu2BT1Rax2G3zANkqbcpfQsqhV4vgYXsGQG3Bn9B89A4qBRX7Y3VyeksXXl?__cft__[0]=AZjGP92cMgjMXkHAkSwiDKEtK1kJuJ0y9Fc5oV2v7Df3OhBBib6OKEhepPyHRaJPo9FuKZZlhgWxupNDsCZmA-X_sGcToTeIDe-rwLZuCz57q5tTGsc8kfw0RTSHz-cmiTfacWMZTyEKHka6SFcACdpoBaVaAPqHu4ZzIlxJTjAlhpDXqlXLng-VRYU&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "3 min Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -1091,22 +1100,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LKQKR9_fJBgQ7kNvwEmD6v-&_nc_oc=AdqDRkGGBeSFsHoujJepn-QS4_Vt8pITNqPrJkwejPPpag8Tf1yrFQcZcylB7hDC5mc&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=2JxwF4OUV4kF16rpKcgUVA&_nc_ss=7f289&oh=00_AQLnkURD2j3TpWQ_fhHHQ5m_H4RsbMSp-axMiqNfiKo9gQ&oe=6AA481EF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02cF9ppjZWwQwJA26pENphfm315f75KAfE6MCsgV1wyeEXENTNQxAFw3xXcBjm5keNl?__cft__[0]=AZh9KqwkiMxe1pMKy32hs1gAHkbFKj1hXeVnj_obqEnCW-kNmnBKZBIgPuBTOdKFEv9YiCw-W6bBx6JMeELUNnq0HP3eQGzwlr-foYAi3x1uGtwHHSh0jBHLqtRtk1xNpfzevRiphwhnENLP5x6g8-HrfRQdDES3_EJBoNHYtK1YjrxtXd49n_VDwDY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "2 días #CCP | SEPTIEMBRE … Ver más Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1436,32 +1436,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 8,
-      "rejected": 5,
+      "events": 7,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
+          "score": 18,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "03/09/2026 Cultura Exposición Sol de septiembre rinde homenaje a Cochabamba Unos 40 artistas plásticos tomarán parte de la exposición “Sol de septiembre” que se inaugura mañana en el salón Melchor Pérez de Holguín. vista 02/09/2026 Cultura Filme \"Thaqhata\" conquista su primer galardón internacional y va por más El cortometraje boliviano 'Thaqhata' alcanzó su primera estrella en el contexto univers"
+          "text_preview": "07/09/2026 Cultura Cartelera: Debuta Metanoia Brass Ensamble y la serenata atrae la atención Metanoia Brass Ensamble hace su debut oficial en el Cine Teatro Capitol, mientras la Fexco Arena se apresta a albergar a la serenata en conmemoración de los... vista 03/09/2026 Cultura Exposición Sol de septiembre rinde homenaje a Cochabamba Unos 40 artistas plásticos tomarán parte de la exposición “Sol de"
         },
         {
-          "reason": "relevancia_insuficiente",
-          "score": 48,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 32,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Walter Gonzáles, periodista, habla sobre Urkupiña, Quillacollo y sus retos como ciudad, en Podcast Los Tiempos Ver más 2 Hallan el cuerpo de un sargent"
         },
         {
-          "reason": "relevancia_insuficiente",
-          "score": 34,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 38,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 08h05m Oruro, escenario de una historia desgarradora de violencia sexual 08h03m Plantean ajustar el mecanismo de censura en la Asamblea Legislati"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1561,8 +1561,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 41,
-      "events": 41,
+      "raw_items": 24,
+      "events": 24,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1595,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1612,8 +1612,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1629,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 29,
-      "events": 29,
+      "raw_items": 25,
+      "events": 25,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1663,8 +1663,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 3,
-      "events": 3,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1740,17 +1740,9 @@
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
       "raw_items": 6,
-      "events": 0,
-      "rejected": 6,
+      "events": 2,
+      "rejected": 4,
       "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "feria",
-          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
-          "has_image": false,
-          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 8,
@@ -1766,6 +1758,14 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
           "has_image": false,
           "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/desconcentradas",
+          "has_image": false,
+          "text_preview": "0 % Normativa - Desconcentradas MANUAL DE ORGANIZACION Y FUNCIONES - PROCEDIMIENTOS PROSOL MANUAL - PROSOL - RESOLUCION 371.pdf Descarga Detalles Manual de Organización y Funciones - Programa GNV - 2023 MOF - PROGRAMA - GNV - 2023.pdf Descarga Detalles Manual de Organización y Funciones - Servicio Departamental de Agropecuario MOF - SEDAG 2023.pdf Descarga Detalles Manual de Organización y Funcion"
         }
       ],
       "error": null
