@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-07T15:12:48-04:00",
+  "generated_at": "2026-09-07T19:32:34-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 52,
-    "events_today": 15
+    "events_total": 56,
+    "events_today": 17
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 19
+        "count": 20
       },
       {
         "key": "feria",
@@ -65,17 +65,17 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 7
+        "count": 8
+      },
+      {
+        "key": "turismo",
+        "label": "Turismo y patrimonio",
+        "count": 4
       },
       {
         "key": "concierto",
         "label": "Conciertos",
         "count": 4
-      },
-      {
-        "key": "turismo",
-        "label": "Turismo y patrimonio",
-        "count": 3
       },
       {
         "key": "teatro",
@@ -88,6 +88,11 @@
         "count": 2
       },
       {
+        "key": "taller",
+        "label": "Talleres y cursos",
+        "count": 2
+      },
+      {
         "key": "nightlife",
         "label": "Vida nocturna",
         "count": 1
@@ -95,11 +100,6 @@
       {
         "key": "conferencia",
         "label": "Conferencias",
-        "count": 1
-      },
-      {
-        "key": "taller",
-        "label": "Talleres y cursos",
         "count": 1
       }
     ],
@@ -112,7 +112,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 10
+        "count": 11
       },
       {
         "key": "Quillacollo",
@@ -125,19 +125,24 @@
         "count": 8
       },
       {
+        "key": "Tarija",
+        "label": "Tarija",
+        "count": 5
+      },
+      {
         "key": "Sucre",
         "label": "Sucre",
         "count": 4
       },
       {
-        "key": "Tarija",
-        "label": "Tarija",
-        "count": 3
-      },
-      {
         "key": "Oruro",
         "label": "Oruro",
         "count": 3
+      },
+      {
+        "key": "El Alto",
+        "label": "El Alto",
+        "count": 1
       },
       {
         "key": "Trinidad",
@@ -159,17 +164,17 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 9
+        "count": 11
+      },
+      {
+        "key": "Tarija",
+        "label": "Tarija",
+        "count": 5
       },
       {
         "key": "Chuquisaca",
         "label": "Chuquisaca",
         "count": 4
-      },
-      {
-        "key": "Tarija",
-        "label": "Tarija",
-        "count": 3
       },
       {
         "key": "Bolivia",
@@ -191,22 +196,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 16
+        "count": 18
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 24
+        "count": 28
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 29
+        "count": 33
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 52
+        "count": 56
       }
     ],
     "price": [
@@ -223,14 +228,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 44
+        "count": 48
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 43
+        "count": 45
       },
       {
         "key": "con_video",
@@ -349,17 +354,17 @@
       {
         "key": "cartelera_cine",
         "label": "cartelera_cine",
+        "count": 12
+      },
+      {
+        "key": "cultura_oficial",
+        "label": "cultura_oficial",
         "count": 10
       },
       {
         "key": "venue",
         "label": "venue",
         "count": 10
-      },
-      {
-        "key": "cultura_oficial",
-        "label": "cultura_oficial",
-        "count": 8
       },
       {
         "key": "ticketera",
@@ -381,13 +386,15 @@
       "evt_258642894f6a6b",
       "evt_a736341e69ccf1",
       "evt_07b6ad98ea86c2",
+      "evt_2c7aea640b975f",
       "evt_92291c6cd67c6a",
+      "evt_c18e13023efd47",
       "evt_d8a324dd279ae4",
       "evt_fb3d5138a52e06",
       "evt_455bf033395d4e",
-      "evt_c18e13023efd47",
       "evt_1665ab22da403f",
       "evt_491b48227734cd",
+      "evt_4199a3bcdedd9e",
       "evt_e918c0d4936b92",
       "evt_a2b346cc683a3e",
       "evt_73bd256c4c2d7d"
@@ -405,13 +412,15 @@
     "featured": [
       "evt_a736341e69ccf1",
       "evt_07b6ad98ea86c2",
+      "evt_2c7aea640b975f",
       "evt_92291c6cd67c6a",
+      "evt_c18e13023efd47",
       "evt_d8a324dd279ae4",
       "evt_fb3d5138a52e06",
       "evt_455bf033395d4e",
-      "evt_c18e13023efd47",
       "evt_1665ab22da403f",
       "evt_491b48227734cd",
+      "evt_4199a3bcdedd9e",
       "evt_a2b346cc683a3e",
       "evt_8cb970f0050dc7",
       "evt_a57be552692d03",
@@ -425,20 +434,20 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 22,
-      "events_upcoming": 9,
-      "events_with_image": 8,
+      "events_total": 24,
+      "events_upcoming": 11,
+      "events_with_image": 10,
       "events_with_video": 2,
       "sources_total": 26,
       "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 32,
+      "events_total": 31,
       "events_upcoming": 18,
       "events_with_image": 18,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
       "events_total": 24,
@@ -446,7 +455,7 @@
       "events_with_image": 6,
       "events_with_video": 4,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
       "events_total": 7,
@@ -473,12 +482,12 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 6,
-      "events_upcoming": 3,
+      "events_total": 8,
+      "events_upcoming": 5,
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Beni": {
       "events_total": 1,
@@ -500,9 +509,9 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 60,
-      "events_upcoming": 19,
-      "events_with_image": 19,
+      "events_total": 59,
+      "events_upcoming": 20,
+      "events_with_image": 20,
       "events_with_video": 0
     },
     "concierto": {
@@ -521,9 +530,9 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 10,
-      "events_upcoming": 7,
-      "events_with_image": 7,
+      "events_total": 11,
+      "events_upcoming": 8,
+      "events_with_image": 8,
       "events_with_video": 0
     },
     "exposicion": {
@@ -549,22 +558,22 @@
     },
     "taller": {
       "label": "Talleres y cursos",
-      "events_total": 1,
-      "events_upcoming": 1,
+      "events_total": 2,
+      "events_upcoming": 2,
       "events_with_image": 1,
       "events_with_video": 0
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 3,
+      "events_total": 4,
       "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
     },
     "turismo": {
       "label": "Turismo y patrimonio",
-      "events_total": 3,
-      "events_upcoming": 3,
+      "events_total": 4,
+      "events_upcoming": 4,
       "events_with_image": 1,
       "events_with_video": 0
     }
@@ -862,6 +871,84 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_2c7aea640b975f",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-07T12:00:00-04:00",
+      "starts_at_ms": 1788796800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 7 de septiembre · 12:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Plaza 21 Mall - Multicine",
+      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "12:00",
+        "13:00",
+        "15:15",
+        "16:00",
+        "17:30",
+        "18:15",
+        "19:50",
+        "22:10",
+        "19:00",
+        "17:10",
+        "21:50",
+        "21:15",
+        "13:10",
+        "15:30",
+        "20:30",
+        "19:30",
+        "14:15"
+      ],
+      "formats": [
+        "2D PLUS",
+        "2D PLUS SUB",
+        "3D PLUS"
+      ],
+      "occurrences": [
+        "2026-09-07T12:00:00-04:00",
+        "2026-09-07T13:00:00-04:00",
+        "2026-09-07T15:15:00-04:00",
+        "2026-09-07T16:00:00-04:00",
+        "2026-09-07T17:30:00-04:00",
+        "2026-09-07T18:15:00-04:00",
+        "2026-09-07T19:50:00-04:00",
+        "2026-09-07T22:10:00-04:00",
+        "2026-09-07T19:00:00-04:00",
+        "2026-09-07T17:10:00-04:00",
+        "2026-09-07T21:50:00-04:00",
+        "2026-09-07T21:15:00-04:00",
+        "2026-09-07T13:10:00-04:00",
+        "2026-09-07T15:30:00-04:00",
+        "2026-09-07T20:30:00-04:00",
+        "2026-09-07T19:30:00-04:00",
+        "2026-09-07T14:15:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_92291c6cd67c6a",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -981,6 +1068,119 @@
         "2026-09-07T18:00:00-04:00",
         "2026-09-07T21:10:00-04:00",
         "2026-09-07T13:25:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_c18e13023efd47",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-07T13:10:00-04:00",
+      "starts_at_ms": 1788801000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 7 de septiembre · 13:10",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Multicine",
+      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "13:10",
+        "15:20",
+        "17:30",
+        "19:40",
+        "21:50",
+        "19:20",
+        "12:00",
+        "14:10",
+        "16:20",
+        "18:30",
+        "20:40",
+        "22:50",
+        "13:40",
+        "15:45",
+        "16:50",
+        "19:35",
+        "22:20",
+        "16:05",
+        "19:00",
+        "21:10",
+        "14:50",
+        "17:20",
+        "19:50",
+        "21:20",
+        "15:40",
+        "17:50",
+        "20:00",
+        "18:20",
+        "20:30",
+        "22:40",
+        "14:20",
+        "12:20"
+      ],
+      "formats": [
+        "2D",
+        "2D SUB",
+        "2D XL"
+      ],
+      "occurrences": [
+        "2026-09-07T13:10:00-04:00",
+        "2026-09-07T15:20:00-04:00",
+        "2026-09-07T17:30:00-04:00",
+        "2026-09-07T19:40:00-04:00",
+        "2026-09-07T21:50:00-04:00",
+        "2026-09-07T19:20:00-04:00",
+        "2026-09-07T12:00:00-04:00",
+        "2026-09-07T14:10:00-04:00",
+        "2026-09-07T16:20:00-04:00",
+        "2026-09-07T18:30:00-04:00",
+        "2026-09-07T20:40:00-04:00",
+        "2026-09-07T22:50:00-04:00",
+        "2026-09-07T13:40:00-04:00",
+        "2026-09-07T15:45:00-04:00",
+        "2026-09-07T16:50:00-04:00",
+        "2026-09-07T19:35:00-04:00",
+        "2026-09-07T22:20:00-04:00",
+        "2026-09-07T16:05:00-04:00",
+        "2026-09-07T19:00:00-04:00",
+        "2026-09-07T21:10:00-04:00",
+        "2026-09-07T14:50:00-04:00",
+        "2026-09-07T17:20:00-04:00",
+        "2026-09-07T19:50:00-04:00",
+        "2026-09-07T21:20:00-04:00",
+        "2026-09-07T15:40:00-04:00",
+        "2026-09-07T17:50:00-04:00",
+        "2026-09-07T20:00:00-04:00",
+        "2026-09-07T18:20:00-04:00",
+        "2026-09-07T20:30:00-04:00",
+        "2026-09-07T22:40:00-04:00",
+        "2026-09-07T14:20:00-04:00",
+        "2026-09-07T12:20:00-04:00",
+        "2026-09-07T13:00:00-04:00",
+        "2026-09-07T13:30:00-04:00",
+        "2026-09-07T22:10:00-04:00",
+        "2026-09-07T15:00:00-04:00",
+        "2026-09-07T14:00:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -1195,102 +1395,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_c18e13023efd47",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-09-07T16:50:00-04:00",
-      "starts_at_ms": 1788814200000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Lunes 7 de septiembre · 16:50",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Trompillo - Cine Center",
-      "image_url": "https://cdn.bolivia.com/cine/2026/5/spider-man-un-nuevo-dia-47429.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "16:50",
-        "20:00",
-        "17:20",
-        "20:30",
-        "15:10",
-        "20:50",
-        "17:00",
-        "19:30",
-        "22:00",
-        "18:20",
-        "16:30",
-        "21:50",
-        "19:00",
-        "15:40",
-        "18:00",
-        "20:20",
-        "22:40",
-        "17:30",
-        "22:30",
-        "22:10",
-        "19:15",
-        "21:40",
-        "19:50",
-        "22:20"
-      ],
-      "formats": [
-        "2D - Doblada",
-        "2D CXC Atmos - Doblada",
-        "4D E-Motion 3D - Doblada",
-        "4D E-Motion 2D - Doblada",
-        "2D Atmos - Doblada",
-        "3D Atmos - Doblada",
-        "2D"
-      ],
-      "occurrences": [
-        "2026-09-07T16:50:00-04:00",
-        "2026-09-07T20:00:00-04:00",
-        "2026-09-07T17:20:00-04:00",
-        "2026-09-07T20:30:00-04:00",
-        "2026-09-07T15:10:00-04:00",
-        "2026-09-07T20:50:00-04:00",
-        "2026-09-07T17:00:00-04:00",
-        "2026-09-07T19:30:00-04:00",
-        "2026-09-07T22:00:00-04:00",
-        "2026-09-07T18:20:00-04:00",
-        "2026-09-07T16:30:00-04:00",
-        "2026-09-07T21:50:00-04:00",
-        "2026-09-07T19:00:00-04:00",
-        "2026-09-07T15:40:00-04:00",
-        "2026-09-07T18:00:00-04:00",
-        "2026-09-07T20:20:00-04:00",
-        "2026-09-07T22:40:00-04:00",
-        "2026-09-07T17:30:00-04:00",
-        "2026-09-07T22:30:00-04:00",
-        "2026-09-07T22:10:00-04:00",
-        "2026-09-07T19:15:00-04:00",
-        "2026-09-07T21:40:00-04:00",
-        "2026-09-07T19:50:00-04:00",
-        "2026-09-07T22:20:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_1665ab22da403f",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1426,6 +1530,117 @@
         "2026-09-07T21:30:00-04:00",
         "2026-09-07T15:20:00-04:00",
         "2026-09-07T15:40:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_4199a3bcdedd9e",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-07T17:40:00-04:00",
+      "starts_at_ms": 1788817200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 7 de septiembre · 17:40",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "El Alto",
+      "department": "La Paz",
+      "venue": "Multicine",
+      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "17:40",
+        "13:50",
+        "16:00",
+        "18:10",
+        "20:15",
+        "22:20",
+        "12:40",
+        "14:50",
+        "17:00",
+        "19:10",
+        "21:20",
+        "15:15",
+        "18:45",
+        "17:20",
+        "19:50",
+        "14:15",
+        "14:20",
+        "18:00",
+        "20:00",
+        "22:45",
+        "17:10",
+        "15:10",
+        "19:40",
+        "21:50",
+        "22:55",
+        "12:00",
+        "14:00",
+        "12:10",
+        "20:45",
+        "13:20",
+        "21:10",
+        "19:45"
+      ],
+      "formats": [
+        "2D",
+        "2D - 2D KRONOS",
+        "2D XL - 2D XL KRONOS",
+        "3D"
+      ],
+      "occurrences": [
+        "2026-09-07T17:40:00-04:00",
+        "2026-09-07T13:50:00-04:00",
+        "2026-09-07T16:00:00-04:00",
+        "2026-09-07T18:10:00-04:00",
+        "2026-09-07T20:15:00-04:00",
+        "2026-09-07T22:20:00-04:00",
+        "2026-09-07T12:40:00-04:00",
+        "2026-09-07T14:50:00-04:00",
+        "2026-09-07T17:00:00-04:00",
+        "2026-09-07T19:10:00-04:00",
+        "2026-09-07T21:20:00-04:00",
+        "2026-09-07T15:15:00-04:00",
+        "2026-09-07T18:45:00-04:00",
+        "2026-09-07T17:20:00-04:00",
+        "2026-09-07T19:50:00-04:00",
+        "2026-09-07T14:15:00-04:00",
+        "2026-09-07T14:20:00-04:00",
+        "2026-09-07T18:00:00-04:00",
+        "2026-09-07T20:00:00-04:00",
+        "2026-09-07T22:45:00-04:00",
+        "2026-09-07T17:10:00-04:00",
+        "2026-09-07T15:10:00-04:00",
+        "2026-09-07T19:40:00-04:00",
+        "2026-09-07T21:50:00-04:00",
+        "2026-09-07T22:55:00-04:00",
+        "2026-09-07T12:00:00-04:00",
+        "2026-09-07T14:00:00-04:00",
+        "2026-09-07T12:10:00-04:00",
+        "2026-09-07T20:45:00-04:00",
+        "2026-09-07T13:20:00-04:00",
+        "2026-09-07T21:10:00-04:00",
+        "2026-09-07T19:45:00-04:00",
+        "2026-09-07T21:55:00-04:00",
+        "2026-09-07T13:00:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -1783,6 +1998,82 @@
       "quality_score": 61,
       "is_featured": false,
       "status": "postergado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_a282bd48f3c636",
+      "title": "Desarrollo Productivo, Recursos Naturales y Medio Ambiente",
+      "category": "turismo",
+      "category_label": "Turismo y patrimonio",
+      "starts_at": "2026-09-14T00:00:00-04:00",
+      "starts_at_ms": 1789358400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 14 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 7,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": null,
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 37,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_e596a512c7d2a1",
+      "title": "0 Recursos Humanos ELABORACIÓN Y PRESENTACION DE LA PROGRAMACIÓN OPERATIVA ANUAL INDIVIDUAL (POAI) - GESTIÓN 2026…",
+      "category": "taller",
+      "category_label": "Talleres y cursos",
+      "starts_at": "2026-09-14T00:00:00-04:00",
+      "starts_at_ms": 1789358400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 14 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 7,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": null,
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 37,
+      "is_featured": false,
+      "status": "programado",
       "source_count": 1
     },
     {
@@ -2700,8 +2991,8 @@
     {
       "event_id": "evt_adc2c807f56a31",
       "title": "07/09/2026 Interesante Devoción y cultura Santuario de la Purísima Concepción de Cotoca En el departamento de Santa…",
-      "category": "cine",
-      "category_label": "Cine",
+      "category": "deporte",
+      "category_label": "Deportes",
       "starts_at": "2027-08-12T22:33:00-04:00",
       "starts_at_ms": 1818124380000,
       "ends_at_ms": null,
