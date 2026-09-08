@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T07:22:06-04:00",
+  "generated_at": "2026-09-08T12:41:02-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 75.9,
-    "horas_maximo_sin_datos": 460.2
+    "horas_promedio_sin_datos": 76.6,
+    "horas_maximo_sin_datos": 465.5
   },
   "sources": [
     {
@@ -606,13 +606,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gH847huAfdkQ7kNvwHoOhNT&_nc_oc=AdowtcPQ_Ii5Ztnw7tj2waW6npCggu24CesYXF6gzcp3EjYT92buD6Jjr5ikEX_J9Tg&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=X8PutxZ3mrmkjL-pSB1fxw&_nc_ss=7f289&oh=00_AQK3eZ6Mo3rzPIBlx2HbgYRXuvR9U6fCIv3nOCphLGq9Yg&oe=6AA5FCB3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid02Ktmmz15kpJBgurP4xqoPk4j1agTVnrqV7kh7T5nzcZzXdv8pPCSabBYAs9S3Lxg7l?__cft__[0]=AZjp611TGIYltyW0BITWUhPBgeSXZEcTXG1qX52oxxAUQAmUuulEzNHC35kvjCXxX6YqePCoVqtEuUzN6Omusumk28uishlOyyCqSGeM7_QOwhbJQ9P17d1xcXSSYQXfuxO-URlAmmADNjoOeSJbsBhjzYPvQWsbcJP3xYYhJIzCTJCuCdc4CimFsn8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Findesemana l 𝗨𝗻𝗮 𝘃𝗶𝘀𝗶𝘁𝗮 𝗽𝗮𝗿𝗮 𝗺𝗶𝗿𝗮𝗿 𝗰𝗼𝗻 𝗰𝗮𝗹𝗺𝗮, 𝗮𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝘆 𝗱𝗲𝗷𝗮𝗿𝘀𝗲 𝘀𝗼𝗿𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝗽𝗼𝗿 𝗲𝗹 𝗽𝗮𝘁𝗿𝗶𝗺𝗼𝗻𝗶𝗼 𝗾𝘂𝗲 𝗰𝗼𝗻𝘀𝗲𝗿𝘃𝗮𝗺𝗼𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗿𝘁𝗲 Hay objetos que guardan mucho más qu… Ver más #Findesemana l 𝗨𝗻𝗮 𝘃𝗶𝘀𝗶𝘁𝗮 𝗽𝗮𝗿𝗮 𝗺𝗶𝗿𝗮𝗿 𝗰𝗼𝗻 𝗰𝗮𝗹𝗺𝗮, 𝗮𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝘆 𝗱𝗲𝗷𝗮𝗿𝘀𝗲 𝘀𝗼𝗿𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝗽𝗼𝗿 𝗲𝗹 𝗽𝗮𝘁𝗿𝗶𝗺𝗼𝗻𝗶𝗼 𝗾𝘂𝗲 𝗰𝗼𝗻𝘀𝗲𝗿𝘃𝗮𝗺𝗼𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗿𝘁𝗲 Hay objetos que guardan mucho más qu… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -946,22 +955,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=u00bjIkvdToQ7kNvwELa0aM&_nc_oc=Ado2299xDEUJ-UwVR_LIMK7NaK7UgPCo-YzkDNGR1comsHsak411gR_yiiUQ-fNdUV0&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=-0a0rmVn16jzGkZi-A0I_Q&_nc_ss=7f289&oh=00_AQL-flN3QTEWjPXE_BUAx5xYD8WfmwEyylU27nWEjdgy1g&oe=6AA5D517",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/invitaci%C3%B3nen-la-recta-final-de-su-exposici%C3%B3n-unidad-m%C3%BAltiple-fiorenza-dar%C3%A1-dos-t/1547983107370161/",
-          "has_image": true,
-          "text_preview": "INVITACIÓN.En la recta final de su exposición UNIDAD MÚLTIPLE. Fiorenza dará dos talleres y pintura en vivo. Participe. No se requiere experiencia. Serán hermosas vivencias del arte. 🍏 INVITACIÓN.En la recta final de su exposición UNIDAD MÚLTIPLE. Fiorenza dará dos talleres y pintura en vivo. Participe. No se requiere experiencia.... INVITACIÓN.En la recta final de su exposición UNIDAD MÚLTIPLE. F"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1023,22 +1023,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jXJOt4dRbjYQ7kNvwERoKDx&_nc_oc=AdrAg-oo9IUPDCpFQ48mjZq4FJDJcGxVGHM867TbvwUmAIG4d1G6EbUKkZplRT8u7a8&_nc_zt=24&_nc_ht=scontent-sin6-2.xx&_nc_gid=BuIiV_H-A7kDBBLl47Atrg&_nc_ss=7f289&oh=00_AQIgwJG8Bf_Lk8RL-uY3am8ivgtawUIsdTUu8qhfUhmaew&oe=6AA5D7CF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1089391367203425/?__cft__[0]=AZjJGXYoFCwIi00Vbq_n-cyQPAHeKZDIldpqsc6G0yK3debtNPMs3GbUyPjk3otMVjJzintm1KJaZGpJiDRfGdZNU_o8q1j7kcGng-bONsqk49qPRQePaJCZ-ftnIhoRkcsWrzA38agLxMno-oGc1J8SqP8_0wMku-Y52XW7OLPTWS96SFu0qTRIbNgPa338foAR&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡Haz que el alemán te lleve más lejos! … Ver más ¡Haz que el alemán te lleve más lejos! … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1151,30 +1142,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent.ficn2-2.fna.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=igf3RhRY48AQ7kNvwEhp_qX&_nc_oc=AdoYi7rKVcJAm3sFNwFRmgClzZ4mgCFHXglQX7015siyVxyojC1W0z4LabgDr7SheRc&_nc_zt=24&_nc_ht=scontent.ficn2-2.fna&_nc_gid=-UY2C1fAM9tSX3kNHEpKqw&_nc_ss=7f289&oh=00_AQJw2MsUQA3ZYWvgXuJqS9tXJeg-SOxtvlF8GM3ZyXrCoQ&oe=6AA5DB25",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid0bZ5EoaUPfDbrLaajp5SpMSQ8JSam6U8HcDTLAWbFxArkP7MR2DfwCUk1fSAibDLgl?__cft__[0]=AZhxXgUCoJ0fgM8p3cYqnAia5oZPiyC4TxF6AJM03EvTfBH2Wz2259j8h1fE1U4xUrBXn9tQQppkeNA7Ejercoo2GgGPE9TxKYZLiNDPBlyrACTJAf1enwkyboPfB_OSRH2ezzULedZ4j5zO8CXaYrQriyS5RhlRH_EgPG6gz0GGOW1o8zTG74wdH0Q&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#UMSAesNoticia | Cada día, #LaPaz genera alrededor de 700 toneladas de #residuos. Mucho de lo que termina en un relleno sanitario podría tener otra vida y convertirs… Ver más Sería bueno que el Gobierno Municipal aplique el concepto de Valorización de Residuos Ver más comentarios Andres Rossel Limachi"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid0bZ5EoaUPfDbrLaajp5SpMSQ8JSam6U8HcDTLAWbFxArkP7MR2DfwCUk1fSAibDLgl?comment_id=28412064368449292&__cft__[0]=AZhxXgUCoJ0fgM8p3cYqnAia5oZPiyC4TxF6AJM03EvTfBH2Wz2259j8h1fE1U4xUrBXn9tQQppkeNA7Ejercoo2GgGPE9TxKYZLiNDPBlyrACTJAf1enwkyboPfB_OSRH2ezzULedZ4j5zO8CXaYrQriyS5RhlRH_EgPG6gz0GGOW1o8zTG74wdH0Q&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Sería bueno que el Gobierno Municipal aplique el concepto de Valorización de Residuos Andres Rossel Limachi"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1202,13 +1176,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/626975137_1322726976557831_3597067865912040017_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=r50rPLmNq9gQ7kNvwFK5zwq&_nc_oc=AdoF44Kgc_MiOAs9o6dhMW_ap-W5eyP_K-PUaHxcqj2NGaiwxRgnq4nhdeDBkKADaC4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=h6G2EibkcbSJoJ4iLLaLbg&_nc_ss=7f289&oh=00_AQI4SSSddhPlJ4mF7_kXvbtWnW8_T-oJ0ilTpHUQ6A4Bzg&oe=6AA6136B",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1067323659242637/?__cft__[0]=AZjmeONZUdC5nnnS7C4eeDLJTGERUj4HnDgppFSVUnmucLRfoAZjgbBqKQflAiHsaxLd_qTADR5NheF6bqpoOasGipfi3EEKjEQ88FE66ru62wtbs1AK7QQimt8VgLSL8o7n_I6w-Ed3oVHJRTh5Cw2a6qV2nGu3MwvKp8fvCOcpt776oDWTpwPhRaRFxK5po957&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡La UMSS se conecta! E… Ver más ¡La UMSS se conecta! E… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1236,13 +1219,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HJKdvo2_A_QQ7kNvwHQcfcw&_nc_oc=AdriGH5sUKRWDzP5Pc8550R1J6TAbztWHEuOjsgxOpGmEm_w4m9VFL83KK7nEmKOTn4&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=jRI9tIXZ5h9pkSHyrNeKWA&_nc_ss=7f289&oh=00_AQLCEUdLJO9cTMxC6pB-cFI5Nng7H4hWCjjEZ039z04d0Q&oe=6AA61078",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid02vpjExTXmAHmUkVkqKDG4F3gQcLYkNZ3BUjHs4AZogjK3kbjX8PYRx7gHnqq26vdgl?__cft__[0]=AZjQcyjDzClC-F_2us2J5qmqAngz73hzdOJHolHxIMYM9K7udQFRgbgUkOwrY3VA3eX0xPlFtZULibUXnx_GnlRgVrpK5SSYU7XZpqQzHaBjqCXTQoQn7I1klyTj0az6LFTwmUAyy5ERGf0htVV2kDMQIbQOlr2SLxhHFMZ9NdiCFuzzx76XXabWRpy7lVnsbXIYzVHzYQ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La música puede convertirse en una forma de recorrer la historia, encontrarnos con otras culturas y llevar nuestra identidad.… Ver más El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó."
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_superticket",
@@ -1444,32 +1436,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 9,
-      "rejected": 4,
+      "events": 8,
+      "rejected": 5,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
+          "score": 46,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "07/09/2026 Cultura Cartelera: Debuta Metanoia Brass Ensamble y la serenata atrae la atención Metanoia Brass Ensamble hace su debut oficial en el Cine Teatro Capitol, mientras la Fexco Arena se apresta a albergar a la serenata en conmemoración de los... vista 03/09/2026 Cultura Exposición Sol de septiembre rinde homenaje a Cochabamba Unos 40 artistas plásticos tomarán parte de la exposición “Sol de"
         },
         {
-          "reason": "relevancia_insuficiente",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 46,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Hallan el cuerpo de un sargento entre los escombros de Viacha Ver más 2 El manual de estilo de Zendaya 5 claves de alta costura para construir una iden"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         },
         {
-          "reason": "relevancia_insuficiente",
-          "score": 52,
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 46,
           "category": "deporte",
           "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 23h52m Muere Miguel Urioste, el diputado que destapó los casos CAC-Fancesa y Bolibras 23h43m Gobierno autoriza a refinerías importar petróleo par"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Trasladan a Cerimedo al penal de Chonchocoro por el caso enriquecimiento ilícito 2 Fernando Cerimedo ya está recluido en Chonchocoro tras operativo"
         }
       ],
       "error": null
@@ -1527,9 +1519,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
+      "raw_items": 37,
       "events": 0,
-      "rejected": 38,
+      "rejected": 37,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1637,8 +1629,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 54,
-      "events": 54,
+      "raw_items": 55,
+      "events": 55,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1748,9 +1740,17 @@
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
       "raw_items": 6,
-      "events": 2,
-      "rejected": 4,
+      "events": 0,
+      "rejected": 6,
       "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "festival",
+          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
+          "has_image": false,
+          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
+        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 8,
@@ -1766,14 +1766,6 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
           "has_image": false,
           "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/desconcentradas",
-          "has_image": false,
-          "text_preview": "0 % Normativa - Desconcentradas MANUAL DE ORGANIZACION Y FUNCIONES - PROCEDIMIENTOS PROSOL MANUAL - PROSOL - RESOLUCION 371.pdf Descarga Detalles Manual de Organización y Funciones - Programa GNV - 2023 MOF - PROGRAMA - GNV - 2023.pdf Descarga Detalles Manual de Organización y Funciones - Servicio Departamental de Agropecuario MOF - SEDAG 2023.pdf Descarga Detalles Manual de Organización y Funcion"
         }
       ],
       "error": null

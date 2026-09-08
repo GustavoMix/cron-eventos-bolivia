@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-08T07:22:06-04:00",
+  "generated_at": "2026-09-08T12:41:02-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 53,
-    "events_today": 13
+    "events_total": 56,
+    "events_today": 14
   },
   "filters": {
     "ui_groups": [
@@ -58,14 +58,14 @@
         "count": 18
       },
       {
+        "key": "deporte",
+        "label": "Deportes",
+        "count": 12
+      },
+      {
         "key": "feria",
         "label": "Ferias y expos",
         "count": 11
-      },
-      {
-        "key": "deporte",
-        "label": "Deportes",
-        "count": 9
       },
       {
         "key": "concierto",
@@ -115,13 +115,13 @@
         "count": 11
       },
       {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 8
-      },
-      {
         "key": "Quillacollo",
         "label": "Quillacollo",
+        "count": 11
+      },
+      {
+        "key": "Cochabamba",
+        "label": "Cochabamba",
         "count": 8
       },
       {
@@ -154,7 +154,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 16
+        "count": 19
       },
       {
         "key": "Santa Cruz",
@@ -196,22 +196,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 14
+        "count": 15
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 24
+        "count": 27
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 29
+        "count": 32
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 53
+        "count": 56
       }
     ],
     "price": [
@@ -228,14 +228,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 45
+        "count": 48
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 44
+        "count": 47
       },
       {
         "key": "con_video",
@@ -349,7 +349,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 17
+        "count": 20
       },
       {
         "key": "cartelera_cine",
@@ -389,10 +389,11 @@
       "evt_7676905627ce9e",
       "evt_824967ed5a08f2",
       "evt_20bc13a996fcac",
+      "evt_be1c578fa14d41",
       "evt_ef008694476075",
       "evt_f810dedb09e9d0",
-      "evt_be1c578fa14d41",
       "evt_fcc1484c667f47",
+      "evt_f68d5806af3b4d",
       "evt_5ef3949c29dff6"
     ],
     "tomorrow": [
@@ -415,9 +416,9 @@
       "evt_7676905627ce9e",
       "evt_824967ed5a08f2",
       "evt_20bc13a996fcac",
+      "evt_be1c578fa14d41",
       "evt_ef008694476075",
       "evt_f810dedb09e9d0",
-      "evt_be1c578fa14d41",
       "evt_fcc1484c667f47",
       "evt_5ef3949c29dff6",
       "evt_8cb970f0050dc7",
@@ -432,20 +433,20 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 28,
+      "events_total": 26,
       "events_upcoming": 11,
       "events_with_image": 10,
       "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 6
+      "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 37,
-      "events_upcoming": 16,
-      "events_with_image": 16,
+      "events_total": 38,
+      "events_upcoming": 19,
+      "events_with_image": 19,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
       "events_total": 26,
@@ -456,7 +457,7 @@
       "sources_ok": 4
     },
     "Chuquisaca": {
-      "events_total": 8,
+      "events_total": 7,
       "events_upcoming": 4,
       "events_with_image": 4,
       "events_with_video": 0,
@@ -507,7 +508,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 66,
+      "events_total": 63,
       "events_upcoming": 18,
       "events_with_image": 18,
       "events_with_video": 0
@@ -528,9 +529,9 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 17,
-      "events_upcoming": 9,
-      "events_with_image": 9,
+      "events_total": 19,
+      "events_upcoming": 12,
+      "events_with_image": 12,
       "events_with_video": 0
     },
     "exposicion": {
@@ -563,7 +564,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 5,
+      "events_total": 4,
       "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
@@ -1346,6 +1347,129 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_be1c578fa14d41",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-08T12:50:00-04:00",
+      "starts_at_ms": 1788886200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 8 de septiembre · 12:50",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "12:50",
+        "15:10",
+        "17:30",
+        "19:00",
+        "19:50",
+        "22:20",
+        "14:20",
+        "12:20",
+        "12:30",
+        "15:00",
+        "17:20",
+        "13:30",
+        "20:30",
+        "13:00",
+        "16:30",
+        "20:00",
+        "17:00",
+        "13:20",
+        "15:30",
+        "18:30",
+        "19:30",
+        "21:30",
+        "22:30",
+        "17:10",
+        "19:40",
+        "22:00",
+        "16:50",
+        "15:20",
+        "17:40",
+        "20:10",
+        "22:40",
+        "18:20"
+      ],
+      "formats": [
+        "2D - Doblada",
+        "2D - PRE - Doblada",
+        "DBOX - 2D - Doblada",
+        "PRE - 2D - Doblada",
+        "2D - XD - DBOX - Doblada",
+        "PRE - 2D - Subtitulada",
+        "XD - 2D - DBOX - Doblada",
+        "2D - DBOX - Doblada"
+      ],
+      "occurrences": [
+        "2026-09-08T12:50:00-04:00",
+        "2026-09-08T15:10:00-04:00",
+        "2026-09-08T17:30:00-04:00",
+        "2026-09-08T19:00:00-04:00",
+        "2026-09-08T19:50:00-04:00",
+        "2026-09-08T22:20:00-04:00",
+        "2026-09-08T14:20:00-04:00",
+        "2026-09-08T12:20:00-04:00",
+        "2026-09-08T12:30:00-04:00",
+        "2026-09-08T15:00:00-04:00",
+        "2026-09-08T17:20:00-04:00",
+        "2026-09-08T13:30:00-04:00",
+        "2026-09-08T20:30:00-04:00",
+        "2026-09-08T13:00:00-04:00",
+        "2026-09-08T16:30:00-04:00",
+        "2026-09-08T20:00:00-04:00",
+        "2026-09-08T17:00:00-04:00",
+        "2026-09-08T13:20:00-04:00",
+        "2026-09-08T15:30:00-04:00",
+        "2026-09-08T18:30:00-04:00",
+        "2026-09-08T19:30:00-04:00",
+        "2026-09-08T21:30:00-04:00",
+        "2026-09-08T22:30:00-04:00",
+        "2026-09-08T17:10:00-04:00",
+        "2026-09-08T19:40:00-04:00",
+        "2026-09-08T22:00:00-04:00",
+        "2026-09-08T16:50:00-04:00",
+        "2026-09-08T15:20:00-04:00",
+        "2026-09-08T17:40:00-04:00",
+        "2026-09-08T20:10:00-04:00",
+        "2026-09-08T22:40:00-04:00",
+        "2026-09-08T18:20:00-04:00",
+        "2026-09-08T13:50:00-04:00",
+        "2026-09-08T16:40:00-04:00",
+        "2026-09-08T19:20:00-04:00",
+        "2026-09-08T22:10:00-04:00",
+        "2026-09-08T12:10:00-04:00",
+        "2026-09-08T14:10:00-04:00",
+        "2026-09-08T16:20:00-04:00",
+        "2026-09-08T14:30:00-04:00",
+        "2026-09-08T21:40:00-04:00",
+        "2026-09-08T20:50:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_ef008694476075",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1553,128 +1677,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_be1c578fa14d41",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-09-08T13:30:00-04:00",
-      "starts_at_ms": 1788888600000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Martes 8 de septiembre · 13:30",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/5/la-odisea-47428.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "13:30",
-        "16:30",
-        "20:00",
-        "17:00",
-        "13:00",
-        "20:30",
-        "12:20",
-        "12:50",
-        "15:10",
-        "17:30",
-        "19:00",
-        "19:50",
-        "22:20",
-        "14:20",
-        "12:30",
-        "15:00",
-        "17:20",
-        "13:20",
-        "15:30",
-        "18:30",
-        "19:30",
-        "21:30",
-        "22:30",
-        "15:20",
-        "17:40",
-        "20:10",
-        "22:40",
-        "18:20",
-        "13:50",
-        "16:40",
-        "19:20",
-        "22:10"
-      ],
-      "formats": [
-        "2D - DBOX - XD - Doblada",
-        "2D - PRE - Subtitulada",
-        "2D - XD - DBOX - Doblada",
-        "PRE - 2D - Doblada",
-        "XD - 2D - DBOX - Doblada",
-        "2D - DBOX - Doblada",
-        "2D - Doblada",
-        "2D - PRE - Doblada",
-        "PRE - 2D - Subtitulada"
-      ],
-      "occurrences": [
-        "2026-09-08T13:30:00-04:00",
-        "2026-09-08T16:30:00-04:00",
-        "2026-09-08T20:00:00-04:00",
-        "2026-09-08T17:00:00-04:00",
-        "2026-09-08T13:00:00-04:00",
-        "2026-09-08T20:30:00-04:00",
-        "2026-09-08T12:20:00-04:00",
-        "2026-09-08T12:50:00-04:00",
-        "2026-09-08T15:10:00-04:00",
-        "2026-09-08T17:30:00-04:00",
-        "2026-09-08T19:00:00-04:00",
-        "2026-09-08T19:50:00-04:00",
-        "2026-09-08T22:20:00-04:00",
-        "2026-09-08T14:20:00-04:00",
-        "2026-09-08T12:30:00-04:00",
-        "2026-09-08T15:00:00-04:00",
-        "2026-09-08T17:20:00-04:00",
-        "2026-09-08T13:20:00-04:00",
-        "2026-09-08T15:30:00-04:00",
-        "2026-09-08T18:30:00-04:00",
-        "2026-09-08T19:30:00-04:00",
-        "2026-09-08T21:30:00-04:00",
-        "2026-09-08T22:30:00-04:00",
-        "2026-09-08T15:20:00-04:00",
-        "2026-09-08T17:40:00-04:00",
-        "2026-09-08T20:10:00-04:00",
-        "2026-09-08T22:40:00-04:00",
-        "2026-09-08T18:20:00-04:00",
-        "2026-09-08T13:50:00-04:00",
-        "2026-09-08T16:40:00-04:00",
-        "2026-09-08T19:20:00-04:00",
-        "2026-09-08T22:10:00-04:00",
-        "2026-09-08T12:10:00-04:00",
-        "2026-09-08T14:10:00-04:00",
-        "2026-09-08T16:20:00-04:00",
-        "2026-09-08T16:50:00-04:00",
-        "2026-09-08T22:00:00-04:00",
-        "2026-09-08T14:30:00-04:00",
-        "2026-09-08T21:40:00-04:00",
-        "2026-09-08T20:50:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_fcc1484c667f47",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1786,6 +1788,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_f68d5806af3b4d",
+      "title": "Espectáculo de danza: Negra",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-09-08T19:00:00-04:00",
+      "starts_at_ms": 1788908400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 8 de septiembre · 19:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": "estadio Ramón Aguilera Costas",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_5ef3949c29dff6",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1863,6 +1903,82 @@
       "director": null,
       "cast": [],
       "quality_score": 41,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_3e3c55ad82eac0",
+      "title": "Ciclo de cine en La Troje",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-09-10T19:15:00-04:00",
+      "starts_at_ms": 1789082100000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 10 de septiembre · 19:15",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 2,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": "estadio Ramón Aguilera Costas",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_f303446e2563b6",
+      "title": "Balau: Taller de cajón peruano",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-09-10T21:30:00-04:00",
+      "starts_at_ms": 1789090200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 10 de septiembre · 21:30",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 2,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": "estadio Ramón Aguilera Costas",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
