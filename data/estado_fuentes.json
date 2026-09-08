@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T00:37:35-04:00",
+  "generated_at": "2026-09-08T07:22:06-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 73.2,
-    "horas_maximo_sin_datos": 453.4
+    "horas_promedio_sin_datos": 75.9,
+    "horas_maximo_sin_datos": 460.2
   },
   "sources": [
     {
@@ -147,30 +147,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uzQGUmQCYvgQ7kNvwFSyo3U&_nc_oc=AdqHMMgCx5IIhsBnpETWNh2VglkPA8yDm85364kffqaA4zv0vJ3_u6wccjjlBkmkiV4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=mq0-voD7nX6YxidNh5n9oQ&_nc_ss=7f289&oh=00_AQJMY_VZ1bg0bwbchFNzvZYUTivAz-uFcIggkPGWAu9rRg&oe=6AA56277",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0JdAa1Peigxqd5DMkQLoqeG4UZXgFLkvPqrf6PwwdSCiooeGnQnfay3i3dzxn68jRl?__cft__[0]=AZijfd3VmgiHn2eP8mBMljD9_nYgJbcWTvWAFoyYn6WVIPkNPAMSY89CDcbcSM6rvBRoP9zgyZ3A63YDVKwfwocOryzXKBoItP5Sn1lntIjwHZGpx_LkuNdg23nQJdE24Z-F2NII3MfwzfqkURpUuWP0fuGS43ixuWmqk0kEc6PyuP3flDoJ36WLRj8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#AMUN | Alcaldía opera de manera oportuna ante presunta “bomba de tiempo” dejada por empresa Colina en el relleno de Sak’a Churu.… Ver más Oportuno ... Ver más comentarios Roberto A Baya"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0JdAa1Peigxqd5DMkQLoqeG4UZXgFLkvPqrf6PwwdSCiooeGnQnfay3i3dzxn68jRl?comment_id=2678402662612340&__cft__[0]=AZijfd3VmgiHn2eP8mBMljD9_nYgJbcWTvWAFoyYn6WVIPkNPAMSY89CDcbcSM6rvBRoP9zgyZ3A63YDVKwfwocOryzXKBoItP5Sn1lntIjwHZGpx_LkuNdg23nQJdE24Z-F2NII3MfwzfqkURpUuWP0fuGS43ixuWmqk0kEc6PyuP3flDoJ36WLRj8&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Roberto A Baya Oportuno ... 5 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -963,13 +946,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=u00bjIkvdToQ7kNvwELa0aM&_nc_oc=Ado2299xDEUJ-UwVR_LIMK7NaK7UgPCo-YzkDNGR1comsHsak411gR_yiiUQ-fNdUV0&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=-0a0rmVn16jzGkZi-A0I_Q&_nc_ss=7f289&oh=00_AQL-flN3QTEWjPXE_BUAx5xYD8WfmwEyylU27nWEjdgy1g&oe=6AA5D517",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/invitaci%C3%B3nen-la-recta-final-de-su-exposici%C3%B3n-unidad-m%C3%BAltiple-fiorenza-dar%C3%A1-dos-t/1547983107370161/",
+          "has_image": true,
+          "text_preview": "INVITACIÓN.En la recta final de su exposición UNIDAD MÚLTIPLE. Fiorenza dará dos talleres y pintura en vivo. Participe. No se requiere experiencia. Serán hermosas vivencias del arte. 🍏 INVITACIÓN.En la recta final de su exposición UNIDAD MÚLTIPLE. Fiorenza dará dos talleres y pintura en vivo. Participe. No se requiere experiencia.... INVITACIÓN.En la recta final de su exposición UNIDAD MÚLTIPLE. F"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1031,13 +1023,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jXJOt4dRbjYQ7kNvwERoKDx&_nc_oc=AdrAg-oo9IUPDCpFQ48mjZq4FJDJcGxVGHM867TbvwUmAIG4d1G6EbUKkZplRT8u7a8&_nc_zt=24&_nc_ht=scontent-sin6-2.xx&_nc_gid=BuIiV_H-A7kDBBLl47Atrg&_nc_ss=7f289&oh=00_AQIgwJG8Bf_Lk8RL-uY3am8ivgtawUIsdTUu8qhfUhmaew&oe=6AA5D7CF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1089391367203425/?__cft__[0]=AZjJGXYoFCwIi00Vbq_n-cyQPAHeKZDIldpqsc6G0yK3debtNPMs3GbUyPjk3otMVjJzintm1KJaZGpJiDRfGdZNU_o8q1j7kcGng-bONsqk49qPRQePaJCZ-ftnIhoRkcsWrzA38agLxMno-oGc1J8SqP8_0wMku-Y52XW7OLPTWS96SFu0qTRIbNgPa338foAR&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Haz que el alemán te lleve más lejos! … Ver más ¡Haz que el alemán te lleve más lejos! … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1150,13 +1151,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent.ficn2-2.fna.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=igf3RhRY48AQ7kNvwEhp_qX&_nc_oc=AdoYi7rKVcJAm3sFNwFRmgClzZ4mgCFHXglQX7015siyVxyojC1W0z4LabgDr7SheRc&_nc_zt=24&_nc_ht=scontent.ficn2-2.fna&_nc_gid=-UY2C1fAM9tSX3kNHEpKqw&_nc_ss=7f289&oh=00_AQJw2MsUQA3ZYWvgXuJqS9tXJeg-SOxtvlF8GM3ZyXrCoQ&oe=6AA5DB25",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid0bZ5EoaUPfDbrLaajp5SpMSQ8JSam6U8HcDTLAWbFxArkP7MR2DfwCUk1fSAibDLgl?__cft__[0]=AZhxXgUCoJ0fgM8p3cYqnAia5oZPiyC4TxF6AJM03EvTfBH2Wz2259j8h1fE1U4xUrBXn9tQQppkeNA7Ejercoo2GgGPE9TxKYZLiNDPBlyrACTJAf1enwkyboPfB_OSRH2ezzULedZ4j5zO8CXaYrQriyS5RhlRH_EgPG6gz0GGOW1o8zTG74wdH0Q&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#UMSAesNoticia | Cada día, #LaPaz genera alrededor de 700 toneladas de #residuos. Mucho de lo que termina en un relleno sanitario podría tener otra vida y convertirs… Ver más Sería bueno que el Gobierno Municipal aplique el concepto de Valorización de Residuos Ver más comentarios Andres Rossel Limachi"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid0bZ5EoaUPfDbrLaajp5SpMSQ8JSam6U8HcDTLAWbFxArkP7MR2DfwCUk1fSAibDLgl?comment_id=28412064368449292&__cft__[0]=AZhxXgUCoJ0fgM8p3cYqnAia5oZPiyC4TxF6AJM03EvTfBH2Wz2259j8h1fE1U4xUrBXn9tQQppkeNA7Ejercoo2GgGPE9TxKYZLiNDPBlyrACTJAf1enwkyboPfB_OSRH2ezzULedZ4j5zO8CXaYrQriyS5RhlRH_EgPG6gz0GGOW1o8zTG74wdH0Q&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Sería bueno que el Gobierno Municipal aplique el concepto de Valorización de Residuos Andres Rossel Limachi"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1167,22 +1185,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/791477565_1093784559902436_1122510819657018021_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VS3nXZlAFeIQ7kNvwGS6HwN&_nc_oc=AdpdEbnqS_o8zZBmZLLN49aI5hoyBkIPPuZefAu2EEktAYVIfITaYqh58y1KDFam5pg&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=7my74EO1l8zoJ9O0GKKKOA&_nc_ss=7f289&oh=00_AQLwKJQOaxMxnJYTRG95u3aWmewWST6RP2Cd0rTmNvhVvg&oe=6AA57894",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1699352051163481/?__cft__[0]=AZiyr6LzNzgBtnwsbkKUqXbWAuZAiz2BbxExDUq7DjphccaamhIYMQfJEqx817pGPTukluImXy68skQxm7hZxQQi7fu48jxu_vww0OUkFU0vK3i3i4_cnzaoIpr50kcnaUFxMnuKl_D7stZoC8zQZycctVNOYnya9BOIh-pJLT4bv7hKGRiuPCLufmNImLoxXiTp&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡Arrancamos el mes de los cruceños con el fervor en lo más alto! Hoy la UAGRM se vistió de verde, blanco y verde para celebrar nuestra identidad.… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umss",
@@ -1210,22 +1219,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2x8I0q58poUQ7kNvwGlReP6&_nc_oc=Ado6i_PopZsvQSSl-gcxVTC_1idj3axFW17fAgoNhB75p8r7nwQc6gma01y35EM4igE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=zgKmuLHeeEyNubPFjMHFcQ&_nc_ss=7f289&oh=00_AQJAE5rzZyVVPiZZ0PI7AJJMt7zF_Owt4znTKOKds0RRxw&oe=6AA54AB2",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid0w4pSF4RxCCPwWbpPxamdZrjTRica9emG7yGsfUAXFipXb3tnmA586ZQxPZFZzW27l?__cft__[0]=AZgkDpaijK4PXBoFlUcTE9j8mAKYW-_CoW_dht0vftbyK4O6wyxyxVVOS8_cEDSRGsseHRWd5XeHjifxV-7uhHA_RwcvVQAgKTA5R3eO5dvjmKUQNrcwIKX3P9OfTL7elIi2XIfphRa24LFkvNTkdT0MSStJrBcfE-UrCu8PPGtN6OkJ03pTIZ8SuFyc62TWSgxGlZ8G4tF1gDVJEi8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝐂𝐞𝐥𝐞𝐛𝐫𝐚𝐦𝐨𝐬 𝐜𝐨𝐧 𝐩𝐫𝐨𝐟𝐮𝐧𝐝𝐚 𝐚𝐥𝐞𝐠𝐫𝐢́𝐚 𝐲 𝐠𝐫𝐚𝐭𝐢𝐭𝐮𝐝 𝐮𝐧𝐚 𝐯𝐢𝐝𝐚 𝐝𝐞𝐝𝐢𝐜𝐚𝐝𝐚 𝐚 𝐥𝐚 𝐟𝐞 𝐲 𝐚𝐥 𝐬𝐞𝐫𝐯𝐢𝐜𝐢𝐨. “𝐔𝐧 𝐬𝐚𝐜𝐞𝐫𝐝𝐨𝐭𝐞 𝐬𝐚𝐧𝐭𝐨 𝐡𝐚𝐜𝐞 𝐟𝐥𝐨𝐫𝐞𝐜𝐞𝐫 𝐥𝐚 𝐬𝐚𝐧𝐭𝐢𝐝𝐚𝐝 𝐚 𝐬𝐮 𝐚𝐥𝐫𝐞𝐝𝐞𝐝𝐨𝐫”. Papa … Ver más 𝐂𝐞𝐥𝐞𝐛𝐫𝐚𝐦𝐨𝐬 𝐜𝐨𝐧 𝐩𝐫𝐨𝐟𝐮𝐧𝐝𝐚 𝐚𝐥𝐞𝐠𝐫𝐢́𝐚 𝐲 𝐠𝐫𝐚𝐭𝐢𝐭𝐮𝐝 𝐮𝐧𝐚 𝐯𝐢𝐝𝐚 𝐝𝐞𝐝𝐢𝐜𝐚𝐝𝐚 𝐚 𝐥𝐚 𝐟𝐞 𝐲 𝐚𝐥 𝐬𝐞𝐫𝐯𝐢𝐜𝐢𝐨. “𝐔𝐧 𝐬𝐚𝐜𝐞𝐫𝐝𝐨𝐭𝐞 𝐬𝐚𝐧𝐭𝐨 𝐡𝐚𝐜𝐞 𝐟𝐥𝐨𝐫𝐞𝐜𝐞𝐫 𝐥𝐚 𝐬𝐚𝐧𝐭𝐢𝐝𝐚𝐝 𝐚 𝐬𝐮 𝐚𝐥𝐫𝐞𝐝𝐞𝐝𝐨𝐫”. Papa … Ver más Universidad Católica Boliviana San Pablo 8 h ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_upsa",
@@ -1345,7 +1345,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1444,32 +1444,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 9,
+      "rejected": 4,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 18,
+          "score": 32,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "07/09/2026 Cultura Cartelera: Debuta Metanoia Brass Ensamble y la serenata atrae la atención Metanoia Brass Ensamble hace su debut oficial en el Cine Teatro Capitol, mientras la Fexco Arena se apresta a albergar a la serenata en conmemoración de los... vista 03/09/2026 Cultura Exposición Sol de septiembre rinde homenaje a Cochabamba Unos 40 artistas plásticos tomarán parte de la exposición “Sol de"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "reason": "relevancia_insuficiente",
+          "score": 46,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Hallan el cuerpo de un sargento entre los escombros de Viacha Ver más 2 El manual de estilo de Zendaya 5 claves de alta costura para construir una iden"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "reason": "relevancia_insuficiente",
           "score": 52,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 23h52m Muere Miguel Urioste, el diputado que destapó los casos CAC-Fancesa y Bolibras 23h43m Gobierno autoriza a refinerías importar petróleo par"
         }
       ],
       "error": null
@@ -1856,12 +1856,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": null
     }
   ]
 }
