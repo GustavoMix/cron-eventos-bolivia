@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T12:41:02-04:00",
+  "generated_at": "2026-09-08T17:12:18-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 76.6,
-    "horas_maximo_sin_datos": 465.5
+    "horas_promedio_sin_datos": 76.1,
+    "horas_maximo_sin_datos": 470.0
   },
   "sources": [
     {
@@ -504,13 +504,22 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6wOReHPS8s8Q7kNvwHJ984P&_nc_oc=AdoFNTMDwzGBPLybbUvCi4gnN5hxWRzxW5B66DxhCPAUcRh56DK4gL6syr3sa-rY2OI&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=wLxI8Ppf5v_TWcmfpnwzXQ&_nc_ss=7f289&oh=00_AQLAJhM0_7GZMnLRYO_dRT13l9UXSvPUxPgPD6DDa7xgTw&oe=6AA662B7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "concierto",
+          "url": "https://www.facebook.com/DosisdeFutbolOficial/videos/en-vivo-dosis-de-futbol/27924894637212055/",
+          "has_image": true,
+          "text_preview": "EN VIVO DOSIS DE FUTBOL Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ministerio_culturas",
@@ -606,22 +615,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gH847huAfdkQ7kNvwHoOhNT&_nc_oc=AdowtcPQ_Ii5Ztnw7tj2waW6npCggu24CesYXF6gzcp3EjYT92buD6Jjr5ikEX_J9Tg&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=X8PutxZ3mrmkjL-pSB1fxw&_nc_ss=7f289&oh=00_AQK3eZ6Mo3rzPIBlx2HbgYRXuvR9U6fCIv3nOCphLGq9Yg&oe=6AA5FCB3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid02Ktmmz15kpJBgurP4xqoPk4j1agTVnrqV7kh7T5nzcZzXdv8pPCSabBYAs9S3Lxg7l?__cft__[0]=AZjp611TGIYltyW0BITWUhPBgeSXZEcTXG1qX52oxxAUQAmUuulEzNHC35kvjCXxX6YqePCoVqtEuUzN6Omusumk28uishlOyyCqSGeM7_QOwhbJQ9P17d1xcXSSYQXfuxO-URlAmmADNjoOeSJbsBhjzYPvQWsbcJP3xYYhJIzCTJCuCdc4CimFsn8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Findesemana l 𝗨𝗻𝗮 𝘃𝗶𝘀𝗶𝘁𝗮 𝗽𝗮𝗿𝗮 𝗺𝗶𝗿𝗮𝗿 𝗰𝗼𝗻 𝗰𝗮𝗹𝗺𝗮, 𝗮𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝘆 𝗱𝗲𝗷𝗮𝗿𝘀𝗲 𝘀𝗼𝗿𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝗽𝗼𝗿 𝗲𝗹 𝗽𝗮𝘁𝗿𝗶𝗺𝗼𝗻𝗶𝗼 𝗾𝘂𝗲 𝗰𝗼𝗻𝘀𝗲𝗿𝘃𝗮𝗺𝗼𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗿𝘁𝗲 Hay objetos que guardan mucho más qu… Ver más #Findesemana l 𝗨𝗻𝗮 𝘃𝗶𝘀𝗶𝘁𝗮 𝗽𝗮𝗿𝗮 𝗺𝗶𝗿𝗮𝗿 𝗰𝗼𝗻 𝗰𝗮𝗹𝗺𝗮, 𝗮𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝘆 𝗱𝗲𝗷𝗮𝗿𝘀𝗲 𝘀𝗼𝗿𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝗽𝗼𝗿 𝗲𝗹 𝗽𝗮𝘁𝗿𝗶𝗺𝗼𝗻𝗶𝗼 𝗾𝘂𝗲 𝗰𝗼𝗻𝘀𝗲𝗿𝘃𝗮𝗺𝗼𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗿𝘁𝗲 Hay objetos que guardan mucho más qu… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -1040,13 +1040,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pgvcbYXCcn4Q7kNvwFHJ3dq&_nc_oc=Adr_bBqkmXT8PweOSAYA8lzsZcVWMA5J5RxRGagfMkKJsBKbRep4xbrVjq-HS_jvOsk&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=Z7fhY-5Xrmd2kd7w5Eb4lg&_nc_ss=7f289&oh=00_AQLWdXQLWWZKZZ1MT_GEB0VA_erLGQLzosW2vBAOtBwlHw&oe=6AA66055",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1040415322100341/?__cft__[0]=AZiL8UtaGH743GiCJCRmzSvjYIZjK87llPfzJaqQgoA3EKlVFF7evcCQre-eMODWeADGnrhlbnqLw87CAAKheuaXhVeZV0hESHwCMsMvqoPK-Fh0_C1vmzJ5YB9bx3zV-Cih0ILPMr9dysYuYak925bR8KorR8YCxQcJkS8wG0od9nz5IPaJTGUUyz1x0vEKzKAz&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¿Francia? ¿Bélgica? ¿Suiza? Estos … Ver más ¿Francia? ¿Bélgica? ¿Suiza? Estos … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1108,13 +1117,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3uca_Cf0tKkQ7kNvwFl2OAp&_nc_oc=Adoos_ApB1gMB6AarRLqi3vvQBx6gzqQ9_POAfXIfpOmob9INj5yH8GRJqIhgcxM0MA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=kXWvDj_c6YI6po2Zp8mtUw&_nc_ss=7f289&oh=00_AQKvcvi99P2Ybdtx29Wvg6g3buHTN0VTyGra5mBa2dE7Pw&oe=6AA659E4",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid0xda9MUcffnqzawfyozWQidRcGMUoH7FBGvR72yinXGJn7YNqFptt6tTatSocKa8Ql?comment_id=1317290680334072&__cft__[0]=AZiekJWPLIug-omDKhYgzVJ0UoDYl1sG4IqU9oW5SU84jaBw0hocJy8xF9LHDo5AA-2EU9_DLGkR5N084bsmCJQr7Kkz1qVwNkCtnuWrHKjetP9XnR9LcX1LfBgXzQsBhgAZzXfa65UP-LgVNILtV7v20Dnd5Qz5x3fX-qKpm1TMnu97U3ULrTBZiaw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Genial puertas abiertas al arte pictórico Miriam Sotomayor"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1176,22 +1194,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/626975137_1322726976557831_3597067865912040017_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=r50rPLmNq9gQ7kNvwFK5zwq&_nc_oc=AdoF44Kgc_MiOAs9o6dhMW_ap-W5eyP_K-PUaHxcqj2NGaiwxRgnq4nhdeDBkKADaC4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=h6G2EibkcbSJoJ4iLLaLbg&_nc_ss=7f289&oh=00_AQI4SSSddhPlJ4mF7_kXvbtWnW8_T-oJ0ilTpHUQ6A4Bzg&oe=6AA6136B",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1067323659242637/?__cft__[0]=AZjmeONZUdC5nnnS7C4eeDLJTGERUj4HnDgppFSVUnmucLRfoAZjgbBqKQflAiHsaxLd_qTADR5NheF6bqpoOasGipfi3EEKjEQ88FE66ru62wtbs1AK7QQimt8VgLSL8o7n_I6w-Ed3oVHJRTh5Cw2a6qV2nGu3MwvKp8fvCOcpt776oDWTpwPhRaRFxK5po957&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡La UMSS se conecta! E… Ver más ¡La UMSS se conecta! E… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1219,22 +1228,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HJKdvo2_A_QQ7kNvwHQcfcw&_nc_oc=AdriGH5sUKRWDzP5Pc8550R1J6TAbztWHEuOjsgxOpGmEm_w4m9VFL83KK7nEmKOTn4&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=jRI9tIXZ5h9pkSHyrNeKWA&_nc_ss=7f289&oh=00_AQLCEUdLJO9cTMxC6pB-cFI5Nng7H4hWCjjEZ039z04d0Q&oe=6AA61078",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid02vpjExTXmAHmUkVkqKDG4F3gQcLYkNZ3BUjHs4AZogjK3kbjX8PYRx7gHnqq26vdgl?__cft__[0]=AZjQcyjDzClC-F_2us2J5qmqAngz73hzdOJHolHxIMYM9K7udQFRgbgUkOwrY3VA3eX0xPlFtZULibUXnx_GnlRgVrpK5SSYU7XZpqQzHaBjqCXTQoQn7I1klyTj0az6LFTwmUAyy5ERGf0htVV2kDMQIbQOlr2SLxhHFMZ9NdiCFuzzx76XXabWRpy7lVnsbXIYzVHzYQ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La música puede convertirse en una forma de recorrer la historia, encontrarnos con otras culturas y llevar nuestra identidad.… Ver más El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "web_superticket",
@@ -1436,12 +1436,20 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 8,
-      "rejected": 5,
+      "events": 6,
+      "rejected": 7,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
+          "score": 32,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "08/09/2026 Tecnología Qué celulares Android y iPhone quedarán sin la aplicación de Netflix Netflix dejará de funcionar en una amplia gama de celulares antiguos desde el 10 de septiembre de 2026. La medida alcanzará a teléfonos Android y iPhone que no... vista 07/09/2026 Interesante Devoción y cultura Santuario de la Purísima Concepción de Cotoca En el departamento de Santa Cruz a 17 kilómetros al "
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 0,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1449,19 +1457,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
+          "score": 32,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Trasladan a Cerimedo al penal de Chonchocoro por el caso enriquecimiento ilícito 2 Fernando Cerimedo ya está recluido en Chonchocoro tras operativo"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 \"La Hija Cóndor\" representará a Bolivia en los Premios Óscar y Goya 2027 Ver más 2 Fernando Cerimedo ya está recluido en Chonchocoro tras operativo de "
         }
       ],
       "error": null
@@ -1519,9 +1519,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
+      "raw_items": 40,
       "events": 0,
-      "rejected": 37,
+      "rejected": 40,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1595,8 +1595,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1629,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 55,
-      "events": 55,
+      "raw_items": 40,
+      "events": 40,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1781,14 +1781,14 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 1,
-      "events": 0,
+      "raw_items": 2,
+      "events": 1,
       "rejected": 1,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
           "score": 18,
-          "category": "concierto",
+          "category": "tecnologia",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "pago qr bus Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para esta nueva gestión: Res"
