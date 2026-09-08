@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T19:32:34-04:00",
+  "generated_at": "2026-09-08T00:37:35-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 72.8,
-    "horas_maximo_sin_datos": 448.4
+    "horas_promedio_sin_datos": 73.2,
+    "horas_maximo_sin_datos": 453.4
   },
   "sources": [
     {
@@ -147,13 +147,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uzQGUmQCYvgQ7kNvwFSyo3U&_nc_oc=AdqHMMgCx5IIhsBnpETWNh2VglkPA8yDm85364kffqaA4zv0vJ3_u6wccjjlBkmkiV4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=mq0-voD7nX6YxidNh5n9oQ&_nc_ss=7f289&oh=00_AQJMY_VZ1bg0bwbchFNzvZYUTivAz-uFcIggkPGWAu9rRg&oe=6AA56277",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0JdAa1Peigxqd5DMkQLoqeG4UZXgFLkvPqrf6PwwdSCiooeGnQnfay3i3dzxn68jRl?__cft__[0]=AZijfd3VmgiHn2eP8mBMljD9_nYgJbcWTvWAFoyYn6WVIPkNPAMSY89CDcbcSM6rvBRoP9zgyZ3A63YDVKwfwocOryzXKBoItP5Sn1lntIjwHZGpx_LkuNdg23nQJdE24Z-F2NII3MfwzfqkURpUuWP0fuGS43ixuWmqk0kEc6PyuP3flDoJ36WLRj8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#AMUN | Alcaldía opera de manera oportuna ante presunta “bomba de tiempo” dejada por empresa Colina en el relleno de Sak’a Churu.… Ver más Oportuno ... Ver más comentarios Roberto A Baya"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0JdAa1Peigxqd5DMkQLoqeG4UZXgFLkvPqrf6PwwdSCiooeGnQnfay3i3dzxn68jRl?comment_id=2678402662612340&__cft__[0]=AZijfd3VmgiHn2eP8mBMljD9_nYgJbcWTvWAFoyYn6WVIPkNPAMSY89CDcbcSM6rvBRoP9zgyZ3A63YDVKwfwocOryzXKBoItP5Sn1lntIjwHZGpx_LkuNdg23nQJdE24Z-F2NII3MfwzfqkURpUuWP0fuGS43ixuWmqk0kEc6PyuP3flDoJ36WLRj8&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Roberto A Baya Oportuno ... 5 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -878,22 +895,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LyvVClKv__8Q7kNvwEkXBMu&_nc_oc=Adr8OfDZx-M-qbQ9UdTrFSHBG2LTpwmiqLmIHL1Rsay6kgTpST-FJLaPYm-V-JKGDQA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=1AN0P4UxrtVkZ511yXsOUQ&_nc_ss=7f289&oh=00_AQLWI9wxCZ74KNO_4a5Xq768RhhxhrIV_vIqZyFSo2NHig&oe=6AA52C67",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02xuqrVDXpj1ghpuAkM8atfQUTq7zpKZxf7EuM9Fewo6ABMHFnU7wxeZ1bSVCACgzRl?__cft__[0]=AZieiXGuWWSy4ivxB7_uCe-GPypUS-R5taRHk43sob3yb5hTGACyp5orSlKFHO3j7Zmie1idFqK4q076B5rjRN74x0g-OwVuTw3qOLoRK2YIAzPuLDMNTNVjvbBm-FbodpWVEzrzmURMZiGBTHEASPntzCistJW8sPXZAHDe67gWS0aXtlBlK0uuAVA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Cultura | Crear, imaginar y experimentar también es una forma de descubrir la ciudad.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -989,22 +997,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vE43ZeEQOPMQ7kNvwHrvRZy&_nc_oc=AdqlKz7-quntSMLdvocOytYwdEgCQ4o3nvp5CJmmN9_GXh8QlfuTZ8bHrb9mzWhC31k&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=CQgCUyYAFDNhmdGkY61msQ&_nc_ss=7f289&oh=00_AQIbrnB--XkYS5DBA5D8L1-wLYI5Eo3y7PKs1fxzDogGDA&oe=6AA50AEA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1111512291304625/?__cft__[0]=AZj-D40BGTC23pI6i3NWphfOkhv9J5C48T4oMBQFsnMi4yZUXn6wXrVIJwu4tVUe-49RWLQhR7eEyNoBTSFGzD0BnrNVkEU5oC_bmZPyt3vGPKagNLDuy3E0MQgEcIf0We9qgyMiC1bKSpnx4sTmKuqVmh3vui8FMty1rZ0k0cYcoqch--j1KGb0D_Ya8ANOlept&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Tarija, pueblo de fe … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1015,22 +1014,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=psBj3SR9hUoQ7kNvwFwEajS&_nc_oc=AdoODnk5AoJYeISaDMIvwb5FraIfaUahPYyVgZAh58UX7vj0Bi2r_adq5DEeVfwEsHg&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=ajg2Gd_mImsotwn32shSwg&_nc_ss=7f289&oh=00_AQIVviWrUMhqZgfyy2YAebYgt-sOtRIaxuNTqLg4gvDt8A&oe=6AA525B4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02Aqgz2LgFNmz1zZupVwtz8nqAxSYkBwBwdn2QpjfHnBvJozqVVKvveUN9xVuBkJmJl?__cft__[0]=AZgWfdsNS9wIPId3gKJtU-weEDeWgSpAWBEQEo7abiE0ezAlW0UF2qTTX5ZW_78Rz4CthT0D9Wv4Gk8rPCWOsnMcAIYO6ldQSxlwSy_e3CG_7Ik9M1dKNPets5VR02DhYJAJeIFkI29nfPjktSAvT2qsts-Q3QHmxxshQCrjqzsI_mckISpw0Yxhn5E&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Convocatoria | 𝐈𝐧𝐯𝐢𝐭𝐚𝐦𝐨𝐬 𝐚 𝐞𝐦𝐩𝐫𝐞𝐬𝐚𝐬 𝐲 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐬 𝐞𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐚𝐝𝐚𝐬 𝐞𝐧 𝐥𝐚 𝐢𝐧𝐬𝐭𝐚𝐥𝐚𝐜𝐢𝐨́𝐧 𝐝𝐞 𝐬𝐮𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐨 𝐞𝐥𝐞́𝐜𝐭𝐫𝐢𝐜𝐨. La Fundación Patiño invita a empresas y personas especiali… Ver más #Convocatoria | 𝐈𝐧𝐯𝐢𝐭𝐚𝐦𝐨𝐬 𝐚 𝐞𝐦𝐩𝐫𝐞𝐬𝐚𝐬 𝐲 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐬 𝐞𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐚𝐝𝐚𝐬 𝐞𝐧 𝐥𝐚 𝐢𝐧𝐬𝐭𝐚𝐥𝐚𝐜𝐢𝐨́𝐧 𝐝𝐞 𝐬𝐮𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐨 𝐞𝐥𝐞́𝐜𝐭𝐫𝐢𝐜𝐨. La Fundación Patiño invita a empresas y personas especiali… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1177,13 +1167,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/791477565_1093784559902436_1122510819657018021_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VS3nXZlAFeIQ7kNvwGS6HwN&_nc_oc=AdpdEbnqS_o8zZBmZLLN49aI5hoyBkIPPuZefAu2EEktAYVIfITaYqh58y1KDFam5pg&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=7my74EO1l8zoJ9O0GKKKOA&_nc_ss=7f289&oh=00_AQLwKJQOaxMxnJYTRG95u3aWmewWST6RP2Cd0rTmNvhVvg&oe=6AA57894",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 42,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1699352051163481/?__cft__[0]=AZiyr6LzNzgBtnwsbkKUqXbWAuZAiz2BbxExDUq7DjphccaamhIYMQfJEqx817pGPTukluImXy68skQxm7hZxQQi7fu48jxu_vww0OUkFU0vK3i3i4_cnzaoIpr50kcnaUFxMnuKl_D7stZoC8zQZycctVNOYnya9BOIh-pJLT4bv7hKGRiuPCLufmNImLoxXiTp&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Arrancamos el mes de los cruceños con el fervor en lo más alto! Hoy la UAGRM se vistió de verde, blanco y verde para celebrar nuestra identidad.… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umss",
@@ -1211,13 +1210,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2x8I0q58poUQ7kNvwGlReP6&_nc_oc=Ado6i_PopZsvQSSl-gcxVTC_1idj3axFW17fAgoNhB75p8r7nwQc6gma01y35EM4igE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=zgKmuLHeeEyNubPFjMHFcQ&_nc_ss=7f289&oh=00_AQJAE5rzZyVVPiZZ0PI7AJJMt7zF_Owt4znTKOKds0RRxw&oe=6AA54AB2",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid0w4pSF4RxCCPwWbpPxamdZrjTRica9emG7yGsfUAXFipXb3tnmA586ZQxPZFZzW27l?__cft__[0]=AZgkDpaijK4PXBoFlUcTE9j8mAKYW-_CoW_dht0vftbyK4O6wyxyxVVOS8_cEDSRGsseHRWd5XeHjifxV-7uhHA_RwcvVQAgKTA5R3eO5dvjmKUQNrcwIKX3P9OfTL7elIi2XIfphRa24LFkvNTkdT0MSStJrBcfE-UrCu8PPGtN6OkJ03pTIZ8SuFyc62TWSgxGlZ8G4tF1gDVJEi8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐂𝐞𝐥𝐞𝐛𝐫𝐚𝐦𝐨𝐬 𝐜𝐨𝐧 𝐩𝐫𝐨𝐟𝐮𝐧𝐝𝐚 𝐚𝐥𝐞𝐠𝐫𝐢́𝐚 𝐲 𝐠𝐫𝐚𝐭𝐢𝐭𝐮𝐝 𝐮𝐧𝐚 𝐯𝐢𝐝𝐚 𝐝𝐞𝐝𝐢𝐜𝐚𝐝𝐚 𝐚 𝐥𝐚 𝐟𝐞 𝐲 𝐚𝐥 𝐬𝐞𝐫𝐯𝐢𝐜𝐢𝐨. “𝐔𝐧 𝐬𝐚𝐜𝐞𝐫𝐝𝐨𝐭𝐞 𝐬𝐚𝐧𝐭𝐨 𝐡𝐚𝐜𝐞 𝐟𝐥𝐨𝐫𝐞𝐜𝐞𝐫 𝐥𝐚 𝐬𝐚𝐧𝐭𝐢𝐝𝐚𝐝 𝐚 𝐬𝐮 𝐚𝐥𝐫𝐞𝐝𝐞𝐝𝐨𝐫”. Papa … Ver más 𝐂𝐞𝐥𝐞𝐛𝐫𝐚𝐦𝐨𝐬 𝐜𝐨𝐧 𝐩𝐫𝐨𝐟𝐮𝐧𝐝𝐚 𝐚𝐥𝐞𝐠𝐫𝐢́𝐚 𝐲 𝐠𝐫𝐚𝐭𝐢𝐭𝐮𝐝 𝐮𝐧𝐚 𝐯𝐢𝐝𝐚 𝐝𝐞𝐝𝐢𝐜𝐚𝐝𝐚 𝐚 𝐥𝐚 𝐟𝐞 𝐲 𝐚𝐥 𝐬𝐞𝐫𝐯𝐢𝐜𝐢𝐨. “𝐔𝐧 𝐬𝐚𝐜𝐞𝐫𝐝𝐨𝐭𝐞 𝐬𝐚𝐧𝐭𝐨 𝐡𝐚𝐜𝐞 𝐟𝐥𝐨𝐫𝐞𝐜𝐞𝐫 𝐥𝐚 𝐬𝐚𝐧𝐭𝐢𝐝𝐚𝐝 𝐚 𝐬𝐮 𝐚𝐥𝐫𝐞𝐝𝐞𝐝𝐨𝐫”. Papa … Ver más Universidad Católica Boliviana San Pablo 8 h ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_upsa",
@@ -1248,14 +1256,22 @@
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
       "raw_items": 4,
-      "events": 3,
-      "rejected": 1,
+      "events": 2,
+      "rejected": 2,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 0,
           "category": "otro",
           "url": "https://superticket.bo/",
+          "has_image": true,
+          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "concierto",
+          "url": "https://superticket.bo/Tranzas-en-Concierto--La-Paz-/",
           "has_image": true,
           "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
         }
@@ -1329,7 +1345,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "timed out"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1428,8 +1444,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1441,19 +1457,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
-          "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Walter Gonzáles, periodista, habla sobre Urkupiña, Quillacollo y sus retos como ciudad, en Podcast Los Tiempos Ver más 2 Hallan el cuerpo de un sargent"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 38,
+          "score": 52,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 52,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "has_image": true,
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1511,9 +1527,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
+      "raw_items": 38,
       "events": 0,
-      "rejected": 39,
+      "rejected": 38,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1527,7 +1543,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/583b18d3-7623-4286-9d18-2e6bf7a89d36",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/de843f94-9d29-498c-a7b7-3896b8835e1c",
           "has_image": true,
           "text_preview": ""
         },
@@ -1535,7 +1551,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/bfa68f79-1d91-450c-9af9-30880a029f13",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/583b18d3-7623-4286-9d18-2e6bf7a89d36",
           "has_image": true,
           "text_preview": ""
         }
@@ -1553,8 +1569,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 31,
-      "events": 31,
+      "raw_items": 33,
+      "events": 33,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1587,8 +1603,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1621,8 +1637,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
-      "events": 40,
+      "raw_items": 54,
+      "events": 54,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1840,12 +1856,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "[Errno 101] Network is unreachable"
     }
   ]
 }
