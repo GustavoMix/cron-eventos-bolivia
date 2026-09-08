@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T17:12:18-04:00",
+  "generated_at": "2026-09-08T19:27:05-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 76.1,
-    "horas_maximo_sin_datos": 470.0
+    "horas_promedio_sin_datos": 72.2,
+    "horas_maximo_sin_datos": 472.3
   },
   "sources": [
     {
@@ -45,13 +45,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q3eJNsh83tYQ7kNvwFPPdat&_nc_oc=AdpWJX6NisI_cabdN5t5_h1_mEduOHJCSVuXZryN-LocnwaH_9wsugubHLkYTsN45xY&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=VruL3JhNUoAQ_wO3_oGXSA&_nc_ss=7f289&oh=00_AQKjr-yIGxUCX_OtOGjeLR-zMS3CRV8ItvaRq9kKn5YqyQ&oe=6AA68535",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/ConciertosEnBolivia/posts/pfbid02T8uPdfYkFpf5ET62VapT8VqPJCV9Aakv7dPmegzzG5fN43RwQBRCkcqhi3a6HxBBl?__cft__[0]=AZiF0Db-qVQJC8qs9trOZ_MVjIL74DdxljE7QnXTVMpeA4ZpCkc6LyXPCIxwWeJzvz6Ok3KwscMHU_rZrhXJjXEac02wTDoBAySfYRhbJOXLQqX2pNrDOym1Fx-JgXdbheD7cAwAmMMgu-wrANq0Hmeo192Q4tTg8E37m-EoCRE-avh5J1NnXc8xYzQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CONFIRMADO Camila regresa a La Paz 29 de noviembre 2026 #Camil… Ver más CONFIRMADO Camila regresa a La Paz 29 de noviembre 2026 #Camil… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -283,13 +292,22 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=X3G4OR0TU3kQ7kNvwFBr8a-&_nc_oc=Adr7lIKzCSBj53jJ5T8QhejfHat8uf8TQptuJ7SaS871KVwQSHlMVH0I-fXVu_pNbFQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=0VmBZDX4qu9VVXbipZ7q1A&_nc_ss=7f289&oh=00_AQL31kOIm4PV5VZ8mHUGaHMselX5kWmPaQOvlhlrLY4Fmg&oe=6AA653BE",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid02sv7HLmrqba1Ba2tbfqGYDjqGxBAjRrqohVt3zhzPf8GYkY1XiAvSfMyJ3z9cGGevl?__cft__[0]=AZhE6JYaUV3zfCYk6VW_xDJYbWmP18rNjN5jEQ4P2z5BJF2gix1kX0-Tp5CfYFFOpdaIdWWWvS7LwrAUOHV910PhPr9bcTND_ufD_tiaILg-ZY2QrqgB1R6ctQfXLK6cardcbjgz1wpdPM144Eq0KX1kLgE-sgRRATkB-6hnPyOnK3RiwT-upczVVtg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Este municipio activa un plan operativo de emergencia energética para blindar servicios básicos y obras clave. OPINION.COM.BO Falta diésel: Colcapirhua prioriza ambulancias, carros basureros y los que llevan medicamentos"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber",
@@ -419,13 +437,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hoDatFLZJFcQ7kNvwGoI12t&_nc_oc=AdqvhRbLVK6A1sqoBNA7PcbEjdasRtPeN5COK_GRv-yVULbp_crG44rxtfFi1sxkXtI&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=cCf8AJVYN1rMyQE3W4Urgg&_nc_ss=7f289&oh=00_AQK0peGEO0VUcVP35YSg_QvBkp42pWFGDdZ2B-Nw-y2kLw&oe=6AA66048",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4106985946271855/?__cft__[0]=AZhmSE7Fk6t72hlOKxK5HmRRbSaIhOjrnRC_5-19LvZj_u9gdvQxoqEfW6lPZCfndJLjrGf5oplqdqkrjckBp7fw55AkzOxp_UpiHVYfGX7MfOlVRLcT6aHg2WXwe7BqeNpLGsQ8vQu5HeSq9rEv8Qbs8U5944CB9-YJTiF81y-QJF5FcxpxXgdnVognEj7OyX01&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "TELETÓN UNICEF 2026 / ¿SE RESPETAN LOS DDHH EN LOS CUARTELES? Franco Clavijo - Jefe de comunicacion de Unicef… Ver más TELETÓN UNICEF 2026 / ¿SE RESPETAN LOS DDHH EN LOS CUARTELES? Franco Clavijo - Jefe de comunicacion de Unicef… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_anf",
@@ -504,22 +531,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6wOReHPS8s8Q7kNvwHJ984P&_nc_oc=AdoFNTMDwzGBPLybbUvCi4gnN5hxWRzxW5B66DxhCPAUcRh56DK4gL6syr3sa-rY2OI&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=wLxI8Ppf5v_TWcmfpnwzXQ&_nc_ss=7f289&oh=00_AQLAJhM0_7GZMnLRYO_dRT13l9UXSvPUxPgPD6DDa7xgTw&oe=6AA662B7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "concierto",
-          "url": "https://www.facebook.com/DosisdeFutbolOficial/videos/en-vivo-dosis-de-futbol/27924894637212055/",
-          "has_image": true,
-          "text_preview": "EN VIVO DOSIS DE FUTBOL Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ministerio_culturas",
@@ -1040,22 +1058,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pgvcbYXCcn4Q7kNvwFHJ3dq&_nc_oc=Adr_bBqkmXT8PweOSAYA8lzsZcVWMA5J5RxRGagfMkKJsBKbRep4xbrVjq-HS_jvOsk&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=Z7fhY-5Xrmd2kd7w5Eb4lg&_nc_ss=7f289&oh=00_AQLWdXQLWWZKZZ1MT_GEB0VA_erLGQLzosW2vBAOtBwlHw&oe=6AA66055",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1040415322100341/?__cft__[0]=AZiL8UtaGH743GiCJCRmzSvjYIZjK87llPfzJaqQgoA3EKlVFF7evcCQre-eMODWeADGnrhlbnqLw87CAAKheuaXhVeZV0hESHwCMsMvqoPK-Fh0_C1vmzJ5YB9bx3zV-Cih0ILPMr9dysYuYak925bR8KorR8YCxQcJkS8wG0od9nz5IPaJTGUUyz1x0vEKzKAz&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¿Francia? ¿Bélgica? ¿Suiza? Estos … Ver más ¿Francia? ¿Bélgica? ¿Suiza? Estos … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1117,22 +1126,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3uca_Cf0tKkQ7kNvwFl2OAp&_nc_oc=Adoos_ApB1gMB6AarRLqi3vvQBx6gzqQ9_POAfXIfpOmob9INj5yH8GRJqIhgcxM0MA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=kXWvDj_c6YI6po2Zp8mtUw&_nc_ss=7f289&oh=00_AQKvcvi99P2Ybdtx29Wvg6g3buHTN0VTyGra5mBa2dE7Pw&oe=6AA659E4",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid0xda9MUcffnqzawfyozWQidRcGMUoH7FBGvR72yinXGJn7YNqFptt6tTatSocKa8Ql?comment_id=1317290680334072&__cft__[0]=AZiekJWPLIug-omDKhYgzVJ0UoDYl1sG4IqU9oW5SU84jaBw0hocJy8xF9LHDo5AA-2EU9_DLGkR5N084bsmCJQr7Kkz1qVwNkCtnuWrHKjetP9XnR9LcX1LfBgXzQsBhgAZzXfa65UP-LgVNILtV7v20Dnd5Qz5x3fX-qKpm1TMnu97U3ULrTBZiaw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Genial puertas abiertas al arte pictórico Miriam Sotomayor"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1349,12 +1349,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "timed out"
     },
     {
       "id": "web_lapaz_cultura",
@@ -1365,22 +1365,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://lapaz.bo/calendario-cultural/",
-          "has_image": false,
-          "text_preview": "Portal de Eventos Culturales de la ciudad de La Paz Descubre y explora los eventos culturales de nuestra ciudad Eventos - Calendario Calendario de Eventos Mes Año Septiembre 2025 Lun Mar Mié Jue Vie Sáb Dom Cargando eventos... Calendario Embebido Cargando calendario..."
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "timed out"
     },
     {
       "id": "web_turismo_culturas",
@@ -1436,8 +1427,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 6,
-      "rejected": 7,
+      "events": 7,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1629,8 +1620,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
-      "events": 40,
+      "raw_items": 39,
+      "events": 39,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
