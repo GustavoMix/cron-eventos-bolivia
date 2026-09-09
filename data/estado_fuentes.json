@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T00:43:49-04:00",
+  "generated_at": "2026-09-09T07:25:31-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,14 +9,15 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
+      "fb_fexpocruz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 73.0,
-    "horas_maximo_sin_datos": 477.6
+    "horas_promedio_sin_datos": 77.1,
+    "horas_maximo_sin_datos": 484.2
   },
   "sources": [
     {
@@ -97,12 +98,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fexpocruz 291 mil seguidores • 204 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técni'"
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -130,22 +131,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z-_u-YJ5X_4Q7kNvwHMbCGd&_nc_oc=AdqHKPTjKIJvoQF_zoSTSkxO5FiBrkEg04m1QgpNvG9J_Fd35c2qhdLFBgtEB4Z4nBA&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=eJlLRGYiz8BJgvSexJxP0A&_nc_ss=7f289&oh=00_AQI3Xmjh3y1CDBbk6si7nZ7CQ36EBUqbp8wls0F23K-0Gw&oe=6AA6A185",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0HirYWnQsgD7hzqQcZFNER8eya5FTkgPtdFDr2SdWZuVvFzgtLhTgCH6rMqHMKf5ol?__cft__[0]=AZh9Rih8Ubmd9um1EdP_tuLnrIcsSuMcJ7GfQFC6DuWrgVittRyJ-C_gXUXExj_ltuIPB4GNuIV1nQOp1sHBBYbQR4R2YWQg-pl6JmnUCty0uSbdhAjLcHUhdOgX89FQurF_mQ0GKNnRdNDk9_lYj3D1aMBB4IBYOm5fzqM3jQyK4B_dzwDuQxzwCsA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Sak’a Churu requiere respuestas, responsabilidades y soluciones.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_amun_lapaz",
@@ -598,30 +590,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JmbigGR66pYQ7kNvwGCi7Sg&_nc_oc=AdpXCLQgjKiMhFDFLb_i9sTG8j4DDDP6ioqPxe_5INsYCideAcpBMgCZorq-Wn_aff4&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=jCPFxUApcl3pxSnMubR1hw&_nc_ss=7f289&oh=00_AQIxwuNJCHCGmCkDk0YHmk8oKh1iwPQFLeSkcpw8u66Xfg&oe=6AA6B840",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1096502706172964/?__cft__[0]=AZgUjnpIm2OPpDHAk9x_O2XDMko1HjtIlcRZEF-WjKd3dgEaFLeHrniFLT91o5ZRwfF8JTxMCkKk475OUsN-64u3YRkswS7Ir6mjcpSG8UEc9yhti7_-huTZIxH1Q4xF1rGsyAEq637_gRkFx5b8AcbiMYuEJXmzRp8_X3hWWykMTgwIBvATIlcSC8Gga6m_H44&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "ParlArte con Fabricio Lara Muy orientador el conversatorio, motivador para la practica del arte. Tenemos problemas para reproducir este video. Más información Ver más comentarios Ruth Rocha Monje"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1096502706172964/?comment_id=2968964200121931&__cft__[0]=AZgUjnpIm2OPpDHAk9x_O2XDMko1HjtIlcRZEF-WjKd3dgEaFLeHrniFLT91o5ZRwfF8JTxMCkKk475OUsN-64u3YRkswS7Ir6mjcpSG8UEc9yhti7_-huTZIxH1Q4xF1rGsyAEq637_gRkFx5b8AcbiMYuEJXmzRp8_X3hWWykMTgwIBvATIlcSC8Gga6m_H44&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Muy orientador el conversatorio, motivador para la practica del arte. Ruth Rocha Monje"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -921,13 +896,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i5DvJfpa2-4Q7kNvwFbvuVy&_nc_oc=Adq_XdT9nXGIu7YDTKys2irmoFpb47DlqktqGbfpPg_7fID9AiB_NNi-y4E6adSX_Jw&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=xQPoLePCWcXLQ2g2RBf3xg&_nc_ss=7f289&oh=00_AQIvCIAIkzyRJ75Fk87FRV444XipX3c9vOw24DuuLjdp8Q&oe=6AA72407",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/pfbid0pbTryj3fE5BvdFoguNiBBgSWmzWXkwgkzzydvTPkiw4aSjJUt1PzmL5oaN94YouJl?__cft__[0]=AZjjo_yn3pBJ-zLBEoFKEIzEVpxhMCF1FQuDkpQKOMsMbYRddoYcrpLUBolLgggx5n5hJg5cAcmt-jo_4yMBDv10m5wofP6cbEP0pdI2tqp90U5b8cU9oQ1TfbqJBehB9IocRvbO67-8S4Bb85kTYDDCh8hjVesjCrcrPLK5WldKiBlEX8ZPflayV00&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Miércoles 9 de septiembre a 19h00 \"MEDIATECA\" Alianza Francesa Sopocachi ¿Quieres practicar francés en un ambiente amistoso y relajado? 🪑‍🗣 Si c… Ver más Miércoles 9 de septiembre a 19h00 \"MEDIATECA\" Alianza Francesa Sopocachi ¿Quieres practicar francés en un ambiente amistoso y relajado? 🪑‍🗣 Si c… Ver más Que se replique en Cochabamba Vb Yela"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/pfbid0pbTryj3fE5BvdFoguNiBBgSWmzWXkwgkzzydvTPkiw4aSjJUt1PzmL5oaN94YouJl?comment_id=2009518999714117&__cft__[0]=AZjjo_yn3pBJ-zLBEoFKEIzEVpxhMCF1FQuDkpQKOMsMbYRddoYcrpLUBolLgggx5n5hJg5cAcmt-jo_4yMBDv10m5wofP6cbEP0pdI2tqp90U5b8cU9oQ1TfbqJBehB9IocRvbO67-8S4Bb85kTYDDCh8hjVesjCrcrPLK5WldKiBlEX8ZPflayV00&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Vb Yela Que se replique en Cochabamba 8 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -938,22 +930,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bNx43OMbT2UQ7kNvwHnY5kp&_nc_oc=AdoXbc015RkSaJV5sssu8QNhow2jB3tjWnfv68aK1fq_yCvynlakcWyJLzzJQep2Ilc&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=lj33KhiCBvM8KGFnR7CO9w&_nc_ss=7f289&oh=00_AQL3IYovHlSadT3UZlMgtAxyeYzW_YWET7oCNBlalv4hdw&oe=6AA6BCF8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "festival",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/cubos-delirio-y-el-gran-cierre-as%C3%AD-cay%C3%B3-el-tel%C3%B3n-del-xv-fitaz-festival-internaci/1103031008757060/",
-          "has_image": true,
-          "text_preview": "🎭✨Cubos, delirio y el gran cierre: así cayó el telón del XV FITAZ Festival Internacional de Teatro de La Paz ✨🎭 Así se vivió el cierre de la programación oficial del XV FITAZ en La Paz, una jornada... 🎭✨Cubos, delirio y el gran cierre: así cayó el telón del XV FITAZ Festival Internacional de Teatro de La Paz ✨🎭 Así se vivió el cierre de la... Cubos, delirio y el gran cierre: así cayó el telón del "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1083,13 +1066,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MQtuOubmMM8Q7kNvwG8Zv9H&_nc_oc=AdpWrDKtSbkRuXC45GDZNd9dFkno1610gP-cghExDTuGF9UwM9LzF4lKQ01m_T-rKOc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=eOT4CnvqtyvOF2RqVLwwIQ&_nc_ss=7f289&oh=00_AQJWPEYZtzHY3pvwrE2GKOSS-eZdbGap3MRdszDsi1tj0g&oe=6AA70B92",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HNyiqu3tiV8mvEGDQWTeM7im7vxUbiWAHLuTonPUMdNxXC4b9wVQEm9kNebTUu38l?__cft__[0]=AZj_aovA7Nj4gka_628DHYWKbiv5AG1ezZxGbNsG5tUAnEL7YhvrYf8mB3K_P0Fxjn7xyE0h_k03DS-ZG-dh_IHup_LEZuxWVaz7VDCgyXX18xoYxrz0ghh8fBgZSM8U3ZlulQ4SSzBfXWKuzUgTdwo_ADkDxFibF6NDzxtzevqtf7ppkH_y6dWQ5D8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 42,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HNyiqu3tiV8mvEGDQWTeM7im7vxUbiWAHLuTonPUMdNxXC4b9wVQEm9kNebTUu38l?comment_id=1079850634463156&__cft__[0]=AZj_aovA7Nj4gka_628DHYWKbiv5AG1ezZxGbNsG5tUAnEL7YhvrYf8mB3K_P0Fxjn7xyE0h_k03DS-ZG-dh_IHup_LEZuxWVaz7VDCgyXX18xoYxrz0ghh8fBgZSM8U3ZlulQ4SSzBfXWKuzUgTdwo_ADkDxFibF6NDzxtzevqtf7ppkH_y6dWQ5D8&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
