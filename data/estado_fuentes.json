@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T19:27:05-04:00",
+  "generated_at": "2026-09-09T00:43:49-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 72.2,
-    "horas_maximo_sin_datos": 472.3
+    "horas_promedio_sin_datos": 73.0,
+    "horas_maximo_sin_datos": 477.6
   },
   "sources": [
     {
@@ -45,22 +45,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q3eJNsh83tYQ7kNvwFPPdat&_nc_oc=AdpWJX6NisI_cabdN5t5_h1_mEduOHJCSVuXZryN-LocnwaH_9wsugubHLkYTsN45xY&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=VruL3JhNUoAQ_wO3_oGXSA&_nc_ss=7f289&oh=00_AQKjr-yIGxUCX_OtOGjeLR-zMS3CRV8ItvaRq9kKn5YqyQ&oe=6AA68535",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/ConciertosEnBolivia/posts/pfbid02T8uPdfYkFpf5ET62VapT8VqPJCV9Aakv7dPmegzzG5fN43RwQBRCkcqhi3a6HxBBl?__cft__[0]=AZiF0Db-qVQJC8qs9trOZ_MVjIL74DdxljE7QnXTVMpeA4ZpCkc6LyXPCIxwWeJzvz6Ok3KwscMHU_rZrhXJjXEac02wTDoBAySfYRhbJOXLQqX2pNrDOym1Fx-JgXdbheD7cAwAmMMgu-wrANq0Hmeo192Q4tTg8E37m-EoCRE-avh5J1NnXc8xYzQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CONFIRMADO Camila regresa a La Paz 29 de noviembre 2026 #Camil… Ver más CONFIRMADO Camila regresa a La Paz 29 de noviembre 2026 #Camil… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -139,13 +130,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z-_u-YJ5X_4Q7kNvwHMbCGd&_nc_oc=AdqHKPTjKIJvoQF_zoSTSkxO5FiBrkEg04m1QgpNvG9J_Fd35c2qhdLFBgtEB4Z4nBA&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=eJlLRGYiz8BJgvSexJxP0A&_nc_ss=7f289&oh=00_AQI3Xmjh3y1CDBbk6si7nZ7CQ36EBUqbp8wls0F23K-0Gw&oe=6AA6A185",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0HirYWnQsgD7hzqQcZFNER8eya5FTkgPtdFDr2SdWZuVvFzgtLhTgCH6rMqHMKf5ol?__cft__[0]=AZh9Rih8Ubmd9um1EdP_tuLnrIcsSuMcJ7GfQFC6DuWrgVittRyJ-C_gXUXExj_ltuIPB4GNuIV1nQOp1sHBBYbQR4R2YWQg-pl6JmnUCty0uSbdhAjLcHUhdOgX89FQurF_mQ0GKNnRdNDk9_lYj3D1aMBB4IBYOm5fzqM3jQyK4B_dzwDuQxzwCsA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Sak’a Churu requiere respuestas, responsabilidades y soluciones.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_amun_lapaz",
@@ -292,22 +292,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=X3G4OR0TU3kQ7kNvwFBr8a-&_nc_oc=Adr7lIKzCSBj53jJ5T8QhejfHat8uf8TQptuJ7SaS871KVwQSHlMVH0I-fXVu_pNbFQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=0VmBZDX4qu9VVXbipZ7q1A&_nc_ss=7f289&oh=00_AQL31kOIm4PV5VZ8mHUGaHMselX5kWmPaQOvlhlrLY4Fmg&oe=6AA653BE",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid02sv7HLmrqba1Ba2tbfqGYDjqGxBAjRrqohVt3zhzPf8GYkY1XiAvSfMyJ3z9cGGevl?__cft__[0]=AZhE6JYaUV3zfCYk6VW_xDJYbWmP18rNjN5jEQ4P2z5BJF2gix1kX0-Tp5CfYFFOpdaIdWWWvS7LwrAUOHV910PhPr9bcTND_ufD_tiaILg-ZY2QrqgB1R6ctQfXLK6cardcbjgz1wpdPM144Eq0KX1kLgE-sgRRATkB-6hnPyOnK3RiwT-upczVVtg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Este municipio activa un plan operativo de emergencia energética para blindar servicios básicos y obras clave. OPINION.COM.BO Falta diésel: Colcapirhua prioriza ambulancias, carros basureros y los que llevan medicamentos"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber",
@@ -437,22 +428,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hoDatFLZJFcQ7kNvwGoI12t&_nc_oc=AdqvhRbLVK6A1sqoBNA7PcbEjdasRtPeN5COK_GRv-yVULbp_crG44rxtfFi1sxkXtI&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=cCf8AJVYN1rMyQE3W4Urgg&_nc_ss=7f289&oh=00_AQK0peGEO0VUcVP35YSg_QvBkp42pWFGDdZ2B-Nw-y2kLw&oe=6AA66048",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/4106985946271855/?__cft__[0]=AZhmSE7Fk6t72hlOKxK5HmRRbSaIhOjrnRC_5-19LvZj_u9gdvQxoqEfW6lPZCfndJLjrGf5oplqdqkrjckBp7fw55AkzOxp_UpiHVYfGX7MfOlVRLcT6aHg2WXwe7BqeNpLGsQ8vQu5HeSq9rEv8Qbs8U5944CB9-YJTiF81y-QJF5FcxpxXgdnVognEj7OyX01&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "TELETÓN UNICEF 2026 / ¿SE RESPETAN LOS DDHH EN LOS CUARTELES? Franco Clavijo - Jefe de comunicacion de Unicef… Ver más TELETÓN UNICEF 2026 / ¿SE RESPETAN LOS DDHH EN LOS CUARTELES? Franco Clavijo - Jefe de comunicacion de Unicef… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_anf",
@@ -616,13 +598,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JmbigGR66pYQ7kNvwGCi7Sg&_nc_oc=AdpXCLQgjKiMhFDFLb_i9sTG8j4DDDP6ioqPxe_5INsYCideAcpBMgCZorq-Wn_aff4&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=jCPFxUApcl3pxSnMubR1hw&_nc_ss=7f289&oh=00_AQIxwuNJCHCGmCkDk0YHmk8oKh1iwPQFLeSkcpw8u66Xfg&oe=6AA6B840",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1096502706172964/?__cft__[0]=AZgUjnpIm2OPpDHAk9x_O2XDMko1HjtIlcRZEF-WjKd3dgEaFLeHrniFLT91o5ZRwfF8JTxMCkKk475OUsN-64u3YRkswS7Ir6mjcpSG8UEc9yhti7_-huTZIxH1Q4xF1rGsyAEq637_gRkFx5b8AcbiMYuEJXmzRp8_X3hWWykMTgwIBvATIlcSC8Gga6m_H44&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "ParlArte con Fabricio Lara Muy orientador el conversatorio, motivador para la practica del arte. Tenemos problemas para reproducir este video. Más información Ver más comentarios Ruth Rocha Monje"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1096502706172964/?comment_id=2968964200121931&__cft__[0]=AZgUjnpIm2OPpDHAk9x_O2XDMko1HjtIlcRZEF-WjKd3dgEaFLeHrniFLT91o5ZRwfF8JTxMCkKk475OUsN-64u3YRkswS7Ir6mjcpSG8UEc9yhti7_-huTZIxH1Q4xF1rGsyAEq637_gRkFx5b8AcbiMYuEJXmzRp8_X3hWWykMTgwIBvATIlcSC8Gga6m_H44&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Muy orientador el conversatorio, motivador para la practica del arte. Ruth Rocha Monje"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -939,13 +938,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bNx43OMbT2UQ7kNvwHnY5kp&_nc_oc=AdoXbc015RkSaJV5sssu8QNhow2jB3tjWnfv68aK1fq_yCvynlakcWyJLzzJQep2Ilc&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=lj33KhiCBvM8KGFnR7CO9w&_nc_ss=7f289&oh=00_AQL3IYovHlSadT3UZlMgtAxyeYzW_YWET7oCNBlalv4hdw&oe=6AA6BCF8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "festival",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/cubos-delirio-y-el-gran-cierre-as%C3%AD-cay%C3%B3-el-tel%C3%B3n-del-xv-fitaz-festival-internaci/1103031008757060/",
+          "has_image": true,
+          "text_preview": "🎭✨Cubos, delirio y el gran cierre: así cayó el telón del XV FITAZ Festival Internacional de Teatro de La Paz ✨🎭 Así se vivió el cierre de la programación oficial del XV FITAZ en La Paz, una jornada... 🎭✨Cubos, delirio y el gran cierre: así cayó el telón del XV FITAZ Festival Internacional de Teatro de La Paz ✨🎭 Así se vivió el cierre de la... Cubos, delirio y el gran cierre: así cayó el telón del "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1349,12 +1357,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": null
     },
     {
       "id": "web_lapaz_cultura",
@@ -1365,13 +1373,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "timed out"
+      "icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://lapaz.bo/calendario-cultural/",
+          "has_image": false,
+          "text_preview": "Portal de Eventos Culturales de la ciudad de La Paz Descubre y explora los eventos culturales de nuestra ciudad Eventos - Calendario Calendario de Eventos Mes Año Septiembre 2025 Lun Mar Mié Jue Vie Sáb Dom Cargando eventos... Calendario Embebido Cargando calendario..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_turismo_culturas",
@@ -1427,32 +1444,16 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 12,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/tendencias",
-          "has_image": true,
-          "text_preview": "08/09/2026 Tecnología Qué celulares Android y iPhone quedarán sin la aplicación de Netflix Netflix dejará de funcionar en una amplia gama de celulares antiguos desde el 10 de septiembre de 2026. La medida alcanzará a teléfonos Android y iPhone que no... vista 07/09/2026 Interesante Devoción y cultura Santuario de la Purísima Concepción de Cotoca En el departamento de Santa Cruz a 17 kilómetros al "
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 40,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "07/09/2026 Cultura Cartelera: Debuta Metanoia Brass Ensamble y la serenata atrae la atención Metanoia Brass Ensamble hace su debut oficial en el Cine Teatro Capitol, mientras la Fexco Arena se apresta a albergar a la serenata en conmemoración de los... vista 03/09/2026 Cultura Exposición Sol de septiembre rinde homenaje a Cochabamba Unos 40 artistas plásticos tomarán parte de la exposición “Sol de"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
-          "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 \"La Hija Cóndor\" representará a Bolivia en los Premios Óscar y Goya 2027 Ver más 2 Fernando Cerimedo ya está recluido en Chonchocoro tras operativo de "
         }
       ],
       "error": null
@@ -1518,23 +1519,23 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/1b385592-cd84-4382-a496-1b13efe9ea35",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/47ead88c-b108-469d-9622-73e2a7c749f1",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/de843f94-9d29-498c-a7b7-3896b8835e1c",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/583b18d3-7623-4286-9d18-2e6bf7a89d36",
           "has_image": true,
           "text_preview": ""
         }
@@ -1552,8 +1553,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 33,
-      "events": 33,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1586,8 +1587,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1620,8 +1621,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
-      "events": 39,
+      "raw_items": 43,
+      "events": 43,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1654,8 +1655,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 2,
+      "events": 2,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1773,8 +1774,8 @@
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
       "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
+      "events": 0,
+      "rejected": 2,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
@@ -1783,6 +1784,14 @@
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "pago qr bus Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para esta nueva gestión: Res"
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "taller",
+          "url": "https://www.uto.edu.bo/en-sevaruyo-curso-de-diseno-y-programacion-sistemas-domoticos-robotica-con-ia-realizado-por-la-uto/",
+          "has_image": true,
+          "text_preview": "Oruro, 8 de septiembre de 2026. — Autoridades Originarias el Sub alcalde, y Director del establecimiento Educativo Distrito Municipal II Sevaruyo, en acto público agradecieron a la Universidad Técnica de Oruro, por haber realizado este curso de capacitación en el Municipio, facilitando el acceso de los estudiantes de Secundaria. Seguir la Noticia"
         }
       ],
       "error": null
