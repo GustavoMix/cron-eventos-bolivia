@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T12:41:28-04:00",
+  "generated_at": "2026-09-09T16:59:09-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 78.6,
-    "horas_maximo_sin_datos": 489.5
+    "horas_promedio_sin_datos": 79.0,
+    "horas_maximo_sin_datos": 493.8
   },
   "sources": [
     {
@@ -62,13 +62,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UL1wyyFr-EsQ7kNvwHtytns&_nc_oc=Adpt8nnNCw8UG26aeAKs73XiHsAPwKzVQmNp2g_eAQA-C-tKiJaHlCIlHkFzcK-qBgI&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=jT2Y16oZXfbDX9tSypY9tA&_nc_ss=7f289&oh=00_AQI9xkMZboVrVoDLOs11kCj9IPV7jN7UUGmzBxHK1kEDrA&oe=6AA78E36",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid032RJVXFt9xMUBxvDXyd5FtXpnh1yKyxTG9v5mhFP3BLxF9uyAuhfCaYPzWFuw12eAl?__cft__[0]=AZiXNEZ93voI7cwwyG_mpYJjhV78Yun2GrrZlmpHwb2m-A6YdAQhF4xLvJABeWDpGXkRUXFESr6tn1E3ggsWZhQLds7PEQ_NlOaR6bKYKZcdK-T-twWu2FOoxa3CgwQGLtmh8E1xJFViMDMe8hK0wS0Hv7u3EmKARRXT1SubX3dJ0rpBZd5AzwiX138&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡SANTA CRUZ EMPIEZA LA CUENTA REGRESIVA PARA UNA NOCHE HISTÓRICA! A… Ver más ¡SANTA CRUZ EMPIEZA LA CUENTA REGRESIVA PARA UNA NOCHE HISTÓRICA! A… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -79,22 +88,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Qe42lUU5pqQQ7kNvwGVF9Bn&_nc_oc=AdodevEgF9k29LWOQCVHD5w8k9WcYODKGi2tb6dCTiEZrsyIQXHHpusef_ndDmK1Ay4&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=8qDU-rtw7igu_0so3hCpvw&_nc_ss=7f289&oh=00_AQKPvaNynQhQPfxGfHlFXNyO5CWz8mVJdmxV1KvobxcyQQ&oe=6AA76EC3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028nYTgwBS3Vn63RK5Ep7hfhEDHvbEm9V2DAntTsNHXtrQ5y82cAxzmqCCBrcnGa39l?__cft__[0]=AZhtBbsarF6iuflViEnN4RRNQuNd_e0vWfozK8_nu5FNG5nJrZ15nkWyuaKxuV4ojiounoqftKBuUMJ-N3qF-qK1Te4q25LaWjIbiTa48FTkxZdHoXDNFWGYFCWTqqrbzU7G36mAAScEQyBtXSAss6KoGQdAwLxjFapyhfeUs9GpLHKkD8V4o6S1k3I&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -105,13 +105,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=l_FH_-w7L6YQ7kNvwGW8UV1&_nc_oc=AdoEVuERVaFWecdsm7UDmlzEg0m6Lw2eA3GlAblU90YhZ4USD9s-vDmsrl7H2gITQKM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=UBkszOcqDainDa1IrIzKKw&_nc_ss=7f289&oh=00_AQKFEAvnLgX3Eb7tnfUrwNkuLZ5w-xlczp0zgQ-pp1Dm0A&oe=6AA75E50",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -938,22 +938,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YjpWcZtw6eIQ7kNvwE8JtYe&_nc_oc=AdrTjfbCC8_9QRFSMyXMtAax0IR0ssaxj9NVhi4TOd-l1O0XdKMiChe2ql9wWr19ARE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=QJKO95-NWifBnJKfWBTscA&_nc_ss=7f289&oh=00_AQLoK6N06ruXXpcr9OULvMIFXH5uDMtVQKPSg9yoPiyp7A&oe=6AA74EC7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/-%F0%9D%90%84%F0%9D%90%AC%F0%9D%90%9C%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A2%F0%9D%90%A8%CC%81%F0%9D%90%A7-%F0%9D%90%87%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%A8%CC%81%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9Ate-invitamos-a-ser-parte-de-la-%F0%9D%90%84%F0%9D%90%AC%F0%9D%90%9C%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A2%F0%9D%90%A8%CC%81%F0%9D%90%A7-%F0%9D%90%87%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%A8%CC%81/1102614399093217/",
-          "has_image": true,
-          "text_preview": "🩵 𝐄𝐬𝐜𝐞𝐧𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨́𝐧 𝐇𝐢𝐬𝐭𝐨́𝐫𝐢𝐜𝐚 Te invitamos a ser parte de la 𝐄𝐬𝐜𝐞𝐧𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨́𝐧 𝐇𝐢𝐬𝐭𝐨́𝐫𝐢𝐜𝐚 de los sucesos revolucionarios ocurridos el 14 de septiembre de 1810, una fecha que marcó un momento importante... 🩵 𝐄𝐬𝐜𝐞𝐧𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨́𝐧 𝐇𝐢𝐬𝐭𝐨́𝐫𝐢𝐜𝐚 Te invitamos a ser parte de la 𝐄𝐬𝐜𝐞𝐧𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨́𝐧 𝐇𝐢𝐬𝐭𝐨́𝐫𝐢𝐜𝐚 de los sucesos revolucionarios ocurridos el 14 de septiembre de... 𝐄𝐬𝐜𝐞𝐧𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨́𝐧 𝐇𝐢𝐬𝐭𝐨́𝐫𝐢𝐜𝐚 Te invitamos a se"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -981,13 +972,30 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NashtbjH5AwQ7kNvwGU7vIQ&_nc_oc=AdrxpEnJaai-qT8XCo8Mo11oFzhLfbyTNws4FnZ62dheZR9_W8HpZjFykJUUiz3X-7I&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=_dK8mDGJzw1nPUD__pUeZg&_nc_ss=7f289&oh=00_AQIR4SufDRgvVtqLbWin4zD_bzM73bl4Ptd8ZEJtTD_NkQ&oe=6AA7B0BD",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2804878279897516/?__cft__[0]=AZg6e1CNE_wqOOm2hCFVoK7a9jDw_oKj0xosHkS3lX3iMWas7EA_JSsfvTLkPeyIhCFUAwsIUy22sJrRgr2thVisid8OlIPzp2StQugHb_2JcgRCEARFMBmZeOY_AdbTwGri0oPCLGMZWjsFFnn9EoFFf_1Fk6_Ab8a-QPFMo_Zrk30C5JpkPEULSUbBNpbaKu3K&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "“Guardianes de los Bosques”, tres cuentos que nos acercan a la naturaleza y nos invitan a cuidar nuestros bosques y su biodiversidad.… Ver más Gracias Casa Melchor Pinto, me emocionan mucho sus palabras. Tenemos problemas para reproducir este video. Más información María José Parejas"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2804878279897516/?comment_id=2162533554309110&__cft__[0]=AZg6e1CNE_wqOOm2hCFVoK7a9jDw_oKj0xosHkS3lX3iMWas7EA_JSsfvTLkPeyIhCFUAwsIUy22sJrRgr2thVisid8OlIPzp2StQugHb_2JcgRCEARFMBmZeOY_AdbTwGri0oPCLGMZWjsFFnn9EoFFf_1Fk6_Ab8a-QPFMo_Zrk30C5JpkPEULSUbBNpbaKu3K&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Gracias Casa Melchor Pinto, me emocionan mucho sus palabras. María José Parejas"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1100,13 +1108,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zHpSb08vEDAQ7kNvwEsacpr&_nc_oc=AdqlRZDlXytorSg-x2VyioymeAzJwhz05LQM2CWLD8XNo8P2f6IHWmw63VZ0JcqaIwI&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=nSknFLBS8_4ON4HGt3DsSg&_nc_ss=7f289&oh=00_AQLAo1z1Ce0Ca94-eu0lAQLYYbOa3bV8pq2NbARXHAc5NA&oe=6AA781B7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/museocasadelalibertad/posts/pfbid0TnFmTSCw2WdGcdJnqUoQvUFRvoN8poNd7xFMsdM854U6jLeakXCWz83N7eYvq4t4l?__cft__[0]=AZgrO62MnslX7KnHNKPnw7TYxuWwSI7DEnZxGGxalfpUWUL-HMprzdSLAcHbDsur5mZRWFiDXNNDh0B9dfpF2Z_Uo70pzvY5xym7dF9O7g2ul423x_DqNEGSh4NNJ0YVJk_rV3i671M1G8j1Nq7r6tEGrE-OSbZQHm8869aLUqmJn2P6mTVEpT-FWn0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CDL | Comunicado de Casa de la Libertad"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1427,16 +1444,24 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
+          "score": 12,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "07/09/2026 Cultura Cartelera: Debuta Metanoia Brass Ensamble y la serenata atrae la atención Metanoia Brass Ensamble hace su debut oficial en el Cine Teatro Capitol, mientras la Fexco Arena se apresta a albergar a la serenata en conmemoración de los... vista 03/09/2026 Cultura Exposición Sol de septiembre rinde homenaje a Cochabamba Unos 40 artistas plásticos tomarán parte de la exposición “Sol de"
+          "text_preview": "09/09/2026 Cultura Pruebas PISA: países de América Latina profundizan su retroceso educativo Los resultados de PISA 2025 mostraron un nuevo retroceso de varios países de América Latina frente al promedio de la Organización para la Cooperación y el... vista 07/09/2026 Cultura Cartelera: Debuta Metanoia Brass Ensamble y la serenata atrae la atención Metanoia Brass Ensamble hace su debut oficial en e"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 54,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Un tribunal de Egipto condena a muerte a doce personas, entre ellas a Sarah Khalifa, presentadora de televisión, por cargos de drogas Ver más 2 ONU ale"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1445,14 +1470,6 @@
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 El precio del petróleo superó los $us 100 ante ataques entre EEUU e Irán en Ormuz 2 Burger King Bolivia y Toei Animation presentan un menú por tiem"
         }
       ],
       "error": null
@@ -1620,8 +1637,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 43,
-      "events": 43,
+      "raw_items": 42,
+      "events": 42,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1772,25 +1789,17 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 2,
+      "raw_items": 1,
       "events": 0,
-      "rejected": 2,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
           "score": 18,
-          "category": "tecnologia",
+          "category": "concierto",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "pago qr bus Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para esta nueva gestión: Res"
-        },
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 36,
-          "category": "taller",
-          "url": "https://www.uto.edu.bo/en-sevaruyo-curso-de-diseno-y-programacion-sistemas-domoticos-robotica-con-ia-realizado-por-la-uto/",
-          "has_image": true,
-          "text_preview": "Oruro, 8 de septiembre de 2026. — Autoridades Originarias el Sub alcalde, y Director del establecimiento Educativo Distrito Municipal II Sevaruyo, en acto público agradecieron a la Universidad Técnica de Oruro, por haber realizado este curso de capacitación en el Municipio, facilitando el acceso de los estudiantes de Secundaria. Seguir la Noticia"
         }
       ],
       "error": null
