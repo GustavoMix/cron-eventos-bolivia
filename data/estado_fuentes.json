@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T16:59:09-04:00",
+  "generated_at": "2026-09-09T19:17:19-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 79.0,
-    "horas_maximo_sin_datos": 493.8
+    "horas_promedio_sin_datos": 75.8,
+    "horas_maximo_sin_datos": 496.1
   },
   "sources": [
     {
@@ -62,22 +62,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UL1wyyFr-EsQ7kNvwHtytns&_nc_oc=Adpt8nnNCw8UG26aeAKs73XiHsAPwKzVQmNp2g_eAQA-C-tKiJaHlCIlHkFzcK-qBgI&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=jT2Y16oZXfbDX9tSypY9tA&_nc_ss=7f289&oh=00_AQI9xkMZboVrVoDLOs11kCj9IPV7jN7UUGmzBxHK1kEDrA&oe=6AA78E36",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EventosBoliviaOficial/posts/pfbid032RJVXFt9xMUBxvDXyd5FtXpnh1yKyxTG9v5mhFP3BLxF9uyAuhfCaYPzWFuw12eAl?__cft__[0]=AZiXNEZ93voI7cwwyG_mpYJjhV78Yun2GrrZlmpHwb2m-A6YdAQhF4xLvJABeWDpGXkRUXFESr6tn1E3ggsWZhQLds7PEQ_NlOaR6bKYKZcdK-T-twWu2FOoxa3CgwQGLtmh8E1xJFViMDMe8hK0wS0Hv7u3EmKARRXT1SubX3dJ0rpBZd5AzwiX138&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡SANTA CRUZ EMPIEZA LA CUENTA REGRESIVA PARA UNA NOCHE HISTÓRICA! A… Ver más ¡SANTA CRUZ EMPIEZA LA CUENTA REGRESIVA PARA UNA NOCHE HISTÓRICA! A… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -326,13 +317,30 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=Q3s1h3lXgb0Q7kNvwEPS336&_nc_oc=AdpgamWYr_1a7i4ss5b73KG5sVBt18_hs_6G2KCqxG4IuX2JkUlw7MMovLYQofXk3II&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_ss=7f289&oh=00_AQJKUc_hAkGUML42GXLpgHSr6UJO-Qf0Jeipy9f5vo9TVw&oe=6AC9547A",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/RedUnotv/posts/pfbid0byyWPVUJr1pbxJeM1KPocgiEMs95Tk9hMcjXUDi2Dc9DU8x4UZDWtyp7cZ9it1WCl?__cft__[0]=AZhPeAUihvnWZ9glNhIPbMFhIHwr_auUAiEjGQ02M2zVcDn_avmnnFfm9PkiyD4ySh14N6PGAPmc6-7m5iSDN1Ce7j_P5QAYqZvApNjOmO5M5iYOHpFlnw7dIlddhIvRKDCL-XhmdPVsVN07lpkQBEt49-oEWOMrEKz0EHsgQJVjPV7i3zwsn4Stjh4&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "https://r-1.tv/b4fa8d | ncelotti afirmó que su prioridad es \"darle oportunidad a los jóvenes que pueden estar en el próximo Mundial\". talisca tiene que ser la novedad Luis Fernando Villcaes López"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/RedUnotv/posts/pfbid0byyWPVUJr1pbxJeM1KPocgiEMs95Tk9hMcjXUDi2Dc9DU8x4UZDWtyp7cZ9it1WCl?comment_id=1112412577966312&__cft__[0]=AZhPeAUihvnWZ9glNhIPbMFhIHwr_auUAiEjGQ02M2zVcDn_avmnnFfm9PkiyD4ySh14N6PGAPmc6-7m5iSDN1Ce7j_P5QAYqZvApNjOmO5M5iYOHpFlnw7dIlddhIvRKDCL-XhmdPVsVN07lpkQBEt49-oEWOMrEKz0EHsgQJVjPV7i3zwsn4Stjh4&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "talisca tiene que ser la novedad Luis Fernando Villcaes López"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_unitel",
@@ -547,13 +555,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=24abELasBG8Q7kNvwEhPqbs&_nc_oc=Ado0EoyOHjBkkfbvNIC9KsvES9uN0sK0tVd-U5bTIntIsceUUdXC3W-QkCKqrI8idiY&_nc_zt=24&_nc_ht=scontent-fra5-1.xx&_nc_gid=F-hBjaoO5lUeeWouVw3vWQ&_nc_ss=7f289&oh=00_AQLkS614PjVZbqJCseI1H7VqvPAKCmBceZmD43wJ6-pIsQ&oe=6AA7CBF3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2188807278349155/?__cft__[0]=AZhV6I7o78uKufBV_D7wLqRQwKXtOIFt5hOM6qMnAk-d3fFRomtO2ebWCQMTlc8L8LIuOQcP9sDSIKOLtn_3aJBXAnFhgCckU4MvlkCKeS8CALOU1clI3ecNFP0z0-nRyd5XOdUnh-0jwSlS5wo2-_W0h8jt_kUc4UVSsg6Z85XnKM2Fq9AUCvubqr47ni2u1ADC&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#FCBCB | Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -853,13 +870,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/794196557_1419549800320618_6486613559052503778_n.jpg?stp=dst-jpg_tt6&cstp=mx1152x1440&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=wE89bZ5XxSQQ7kNvwEn7-E1&_nc_oc=AdqL8Ztm2rwWCG_l9LXxuRx79AsO19YZbxhfDVNsOgYWUOu-UrTYlRU1QCW3AqL4S-4&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=RSk8h8Lj5jdGnKK_QICIwA&_nc_ss=7f289&oh=00_AQLgfj6lp-uLMxnbato_lNgrvKIxax_lqyi8R0l85Lp2LA&oe=6AA7D401",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 42,
+          "category": "feria",
+          "url": "https://www.facebook.com/feriafipaz/posts/caf%C3%A9-copacabana-/1510869167740269/",
+          "has_image": true,
+          "text_preview": "Café Copacabana 🔥 Café Copacabana El sabor que nos acompaña todos los días también será parte de FIPAZ. Te esperamos para compartir juntos una nueva edición de la feria y disfrutar de todo el sabor de Café Copacabana. ¡Nos vemos en FIPAZ! #CAFÉCOPACABANA #DESPIERTATUSSENTIDOS #FIPAZ2026 El sabor que nos acompaña todos los días también será parte de FIPAZ. Te esperamos para compartir juntos una nue"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -972,30 +998,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NashtbjH5AwQ7kNvwGU7vIQ&_nc_oc=AdrxpEnJaai-qT8XCo8Mo11oFzhLfbyTNws4FnZ62dheZR9_W8HpZjFykJUUiz3X-7I&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=_dK8mDGJzw1nPUD__pUeZg&_nc_ss=7f289&oh=00_AQIR4SufDRgvVtqLbWin4zD_bzM73bl4Ptd8ZEJtTD_NkQ&oe=6AA7B0BD",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2804878279897516/?__cft__[0]=AZg6e1CNE_wqOOm2hCFVoK7a9jDw_oKj0xosHkS3lX3iMWas7EA_JSsfvTLkPeyIhCFUAwsIUy22sJrRgr2thVisid8OlIPzp2StQugHb_2JcgRCEARFMBmZeOY_AdbTwGri0oPCLGMZWjsFFnn9EoFFf_1Fk6_Ab8a-QPFMo_Zrk30C5JpkPEULSUbBNpbaKu3K&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "“Guardianes de los Bosques”, tres cuentos que nos acercan a la naturaleza y nos invitan a cuidar nuestros bosques y su biodiversidad.… Ver más Gracias Casa Melchor Pinto, me emocionan mucho sus palabras. Tenemos problemas para reproducir este video. Más información María José Parejas"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2804878279897516/?comment_id=2162533554309110&__cft__[0]=AZg6e1CNE_wqOOm2hCFVoK7a9jDw_oKj0xosHkS3lX3iMWas7EA_JSsfvTLkPeyIhCFUAwsIUy22sJrRgr2thVisid8OlIPzp2StQugHb_2JcgRCEARFMBmZeOY_AdbTwGri0oPCLGMZWjsFFnn9EoFFf_1Fk6_Ab8a-QPFMo_Zrk30C5JpkPEULSUbBNpbaKu3K&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Gracias Casa Melchor Pinto, me emocionan mucho sus palabras. María José Parejas"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1108,22 +1117,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zHpSb08vEDAQ7kNvwEsacpr&_nc_oc=AdqlRZDlXytorSg-x2VyioymeAzJwhz05LQM2CWLD8XNo8P2f6IHWmw63VZ0JcqaIwI&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=nSknFLBS8_4ON4HGt3DsSg&_nc_ss=7f289&oh=00_AQLAo1z1Ce0Ca94-eu0lAQLYYbOa3bV8pq2NbARXHAc5NA&oe=6AA781B7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.facebook.com/museocasadelalibertad/posts/pfbid0TnFmTSCw2WdGcdJnqUoQvUFRvoN8poNd7xFMsdM854U6jLeakXCWz83N7eYvq4t4l?__cft__[0]=AZgrO62MnslX7KnHNKPnw7TYxuWwSI7DEnZxGGxalfpUWUL-HMprzdSLAcHbDsur5mZRWFiDXNNDh0B9dfpF2Z_Uo70pzvY5xym7dF9O7g2ul423x_DqNEGSh4NNJ0YVJk_rV3i671M1G8j1Nq7r6tEGrE-OSbZQHm8869aLUqmJn2P6mTVEpT-FWn0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CDL | Comunicado de Casa de la Libertad"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
@@ -1637,8 +1637,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 42,
-      "events": 42,
+      "raw_items": 41,
+      "events": 41,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
