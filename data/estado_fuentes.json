@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T07:25:31-04:00",
+  "generated_at": "2026-09-09T12:41:28-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,15 +9,14 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
-      "fb_fexpocruz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 77.1,
-    "horas_maximo_sin_datos": 484.2
+    "horas_promedio_sin_datos": 78.6,
+    "horas_maximo_sin_datos": 489.5
   },
   "sources": [
     {
@@ -80,13 +79,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Qe42lUU5pqQQ7kNvwGVF9Bn&_nc_oc=AdodevEgF9k29LWOQCVHD5w8k9WcYODKGi2tb6dCTiEZrsyIQXHHpusef_ndDmK1Ay4&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=8qDU-rtw7igu_0so3hCpvw&_nc_ss=7f289&oh=00_AQKPvaNynQhQPfxGfHlFXNyO5CWz8mVJdmxV1KvobxcyQQ&oe=6AA76EC3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028nYTgwBS3Vn63RK5Ep7hfhEDHvbEm9V2DAntTsNHXtrQ5y82cAxzmqCCBrcnGa39l?__cft__[0]=AZhtBbsarF6iuflViEnN4RRNQuNd_e0vWfozK8_nu5FNG5nJrZ15nkWyuaKxuV4ojiounoqftKBuUMJ-N3qF-qK1Te4q25LaWjIbiTa48FTkxZdHoXDNFWGYFCWTqqrbzU7G36mAAScEQyBtXSAss6KoGQdAwLxjFapyhfeUs9GpLHKkD8V4o6S1k3I&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -97,13 +105,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=l_FH_-w7L6YQ7kNvwGW8UV1&_nc_oc=AdoEVuERVaFWecdsm7UDmlzEg0m6Lw2eA3GlAblU90YhZ4USD9s-vDmsrl7H2gITQKM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=UBkszOcqDainDa1IrIzKKw&_nc_ss=7f289&oh=00_AQKFEAvnLgX3Eb7tnfUrwNkuLZ5w-xlczp0zgQ-pp1Dm0A&oe=6AA75E50",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fexpocruz 291 mil seguidores • 204 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técni'"
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -896,30 +904,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i5DvJfpa2-4Q7kNvwFbvuVy&_nc_oc=Adq_XdT9nXGIu7YDTKys2irmoFpb47DlqktqGbfpPg_7fID9AiB_NNi-y4E6adSX_Jw&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=xQPoLePCWcXLQ2g2RBf3xg&_nc_ss=7f289&oh=00_AQIvCIAIkzyRJ75Fk87FRV444XipX3c9vOw24DuuLjdp8Q&oe=6AA72407",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid0pbTryj3fE5BvdFoguNiBBgSWmzWXkwgkzzydvTPkiw4aSjJUt1PzmL5oaN94YouJl?__cft__[0]=AZjjo_yn3pBJ-zLBEoFKEIzEVpxhMCF1FQuDkpQKOMsMbYRddoYcrpLUBolLgggx5n5hJg5cAcmt-jo_4yMBDv10m5wofP6cbEP0pdI2tqp90U5b8cU9oQ1TfbqJBehB9IocRvbO67-8S4Bb85kTYDDCh8hjVesjCrcrPLK5WldKiBlEX8ZPflayV00&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Miércoles 9 de septiembre a 19h00 \"MEDIATECA\" Alianza Francesa Sopocachi ¿Quieres practicar francés en un ambiente amistoso y relajado? 🪑‍🗣 Si c… Ver más Miércoles 9 de septiembre a 19h00 \"MEDIATECA\" Alianza Francesa Sopocachi ¿Quieres practicar francés en un ambiente amistoso y relajado? 🪑‍🗣 Si c… Ver más Que se replique en Cochabamba Vb Yela"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid0pbTryj3fE5BvdFoguNiBBgSWmzWXkwgkzzydvTPkiw4aSjJUt1PzmL5oaN94YouJl?comment_id=2009518999714117&__cft__[0]=AZjjo_yn3pBJ-zLBEoFKEIzEVpxhMCF1FQuDkpQKOMsMbYRddoYcrpLUBolLgggx5n5hJg5cAcmt-jo_4yMBDv10m5wofP6cbEP0pdI2tqp90U5b8cU9oQ1TfbqJBehB9IocRvbO67-8S4Bb85kTYDDCh8hjVesjCrcrPLK5WldKiBlEX8ZPflayV00&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Vb Yela Que se replique en Cochabamba 8 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -947,13 +938,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YjpWcZtw6eIQ7kNvwE8JtYe&_nc_oc=AdrTjfbCC8_9QRFSMyXMtAax0IR0ssaxj9NVhi4TOd-l1O0XdKMiChe2ql9wWr19ARE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=QJKO95-NWifBnJKfWBTscA&_nc_ss=7f289&oh=00_AQLoK6N06ruXXpcr9OULvMIFXH5uDMtVQKPSg9yoPiyp7A&oe=6AA74EC7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/-%F0%9D%90%84%F0%9D%90%AC%F0%9D%90%9C%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A2%F0%9D%90%A8%CC%81%F0%9D%90%A7-%F0%9D%90%87%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%A8%CC%81%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9Ate-invitamos-a-ser-parte-de-la-%F0%9D%90%84%F0%9D%90%AC%F0%9D%90%9C%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A2%F0%9D%90%A8%CC%81%F0%9D%90%A7-%F0%9D%90%87%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%A8%CC%81/1102614399093217/",
+          "has_image": true,
+          "text_preview": "🩵 𝐄𝐬𝐜𝐞𝐧𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨́𝐧 𝐇𝐢𝐬𝐭𝐨́𝐫𝐢𝐜𝐚 Te invitamos a ser parte de la 𝐄𝐬𝐜𝐞𝐧𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨́𝐧 𝐇𝐢𝐬𝐭𝐨́𝐫𝐢𝐜𝐚 de los sucesos revolucionarios ocurridos el 14 de septiembre de 1810, una fecha que marcó un momento importante... 🩵 𝐄𝐬𝐜𝐞𝐧𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨́𝐧 𝐇𝐢𝐬𝐭𝐨́𝐫𝐢𝐜𝐚 Te invitamos a ser parte de la 𝐄𝐬𝐜𝐞𝐧𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨́𝐧 𝐇𝐢𝐬𝐭𝐨́𝐫𝐢𝐜𝐚 de los sucesos revolucionarios ocurridos el 14 de septiembre de... 𝐄𝐬𝐜𝐞𝐧𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨́𝐧 𝐇𝐢𝐬𝐭𝐨́𝐫𝐢𝐜𝐚 Te invitamos a se"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -1066,30 +1066,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MQtuOubmMM8Q7kNvwG8Zv9H&_nc_oc=AdpWrDKtSbkRuXC45GDZNd9dFkno1610gP-cghExDTuGF9UwM9LzF4lKQ01m_T-rKOc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=eOT4CnvqtyvOF2RqVLwwIQ&_nc_ss=7f289&oh=00_AQJWPEYZtzHY3pvwrE2GKOSS-eZdbGap3MRdszDsi1tj0g&oe=6AA70B92",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HNyiqu3tiV8mvEGDQWTeM7im7vxUbiWAHLuTonPUMdNxXC4b9wVQEm9kNebTUu38l?__cft__[0]=AZj_aovA7Nj4gka_628DHYWKbiv5AG1ezZxGbNsG5tUAnEL7YhvrYf8mB3K_P0Fxjn7xyE0h_k03DS-ZG-dh_IHup_LEZuxWVaz7VDCgyXX18xoYxrz0ghh8fBgZSM8U3ZlulQ4SSzBfXWKuzUgTdwo_ADkDxFibF6NDzxtzevqtf7ppkH_y6dWQ5D8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HNyiqu3tiV8mvEGDQWTeM7im7vxUbiWAHLuTonPUMdNxXC4b9wVQEm9kNebTUu38l?comment_id=1079850634463156&__cft__[0]=AZj_aovA7Nj4gka_628DHYWKbiv5AG1ezZxGbNsG5tUAnEL7YhvrYf8mB3K_P0Fxjn7xyE0h_k03DS-ZG-dh_IHup_LEZuxWVaz7VDCgyXX18xoYxrz0ghh8fBgZSM8U3ZlulQ4SSzBfXWKuzUgTdwo_ADkDxFibF6NDzxtzevqtf7ppkH_y6dWQ5D8&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1444,8 +1427,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 12,
-      "rejected": 1,
+      "events": 7,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1454,6 +1437,22 @@
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "07/09/2026 Cultura Cartelera: Debuta Metanoia Brass Ensamble y la serenata atrae la atención Metanoia Brass Ensamble hace su debut oficial en el Cine Teatro Capitol, mientras la Fexco Arena se apresta a albergar a la serenata en conmemoración de los... vista 03/09/2026 Cultura Exposición Sol de septiembre rinde homenaje a Cochabamba Unos 40 artistas plásticos tomarán parte de la exposición “Sol de"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 46,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 32,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 El precio del petróleo superó los $us 100 ante ataques entre EEUU e Irán en Ormuz 2 Burger King Bolivia y Toei Animation presentan un menú por tiem"
         }
       ],
       "error": null
@@ -1731,14 +1730,22 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 6,
-      "events": 0,
-      "rejected": 6,
+      "raw_items": 8,
+      "events": 1,
+      "rejected": 7,
       "rejected_samples": [
         {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 54,
+          "category": "otro",
+          "url": "https://www.tarija.gob.bo/",
+          "has_image": true,
+          "text_preview": "Noticias Tarija impulsará una reunión técnica nacional para fortalecer la Agenda 50/50 y avanzar hacia una mayor autonomía departamental 09/09/2026"
+        },
+        {
           "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "festival",
+          "score": 30,
+          "category": "turismo",
           "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
           "has_image": false,
           "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
@@ -1750,14 +1757,6 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones",
           "has_image": false,
           "text_preview": "0 % Manuales de organizacion y funciones Ordering Órden Ascendente Órden Descendente Título Ascendente Título Descendente Fecha Ascendente Fecha Descendente Filename Ascending Filename Descending Rating Count Ascending Rating Count Descending Rating Ascending Rating Descending Downloads Ascending Downloads Descending Cantidad de ítems por página 5 10 15 20 50 Todo Powered by Phoca Download"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
-          "has_image": false,
-          "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
         }
       ],
       "error": null

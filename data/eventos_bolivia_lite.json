@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-09T07:25:31-04:00",
+  "generated_at": "2026-09-09T12:41:28-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 59,
+    "events_total": 61,
     "events_today": 14
   },
   "filters": {
@@ -65,7 +65,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 11
+        "count": 12
       },
       {
         "key": "concierto",
@@ -93,6 +93,11 @@
         "count": 2
       },
       {
+        "key": "otro",
+        "label": "Otros",
+        "count": 1
+      },
+      {
         "key": "nightlife",
         "label": "Vida nocturna",
         "count": 1
@@ -107,7 +112,7 @@
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 14
+        "count": 15
       },
       {
         "key": "Quillacollo",
@@ -132,7 +137,7 @@
       {
         "key": "Tarija",
         "label": "Tarija",
-        "count": 3
+        "count": 4
       },
       {
         "key": "Oruro",
@@ -159,7 +164,7 @@
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 13
+        "count": 14
       },
       {
         "key": "La Paz",
@@ -174,7 +179,7 @@
       {
         "key": "Tarija",
         "label": "Tarija",
-        "count": 3
+        "count": 4
       },
       {
         "key": "Bolivia",
@@ -201,17 +206,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 30
+        "count": 31
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 35
+        "count": 37
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 59
+        "count": 61
       }
     ],
     "price": [
@@ -223,19 +228,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 8
+        "count": 9
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 51
+        "count": 52
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 50
+        "count": 52
       },
       {
         "key": "con_video",
@@ -247,6 +252,21 @@
       {
         "key": "MUSEFSucre",
         "label": "MUSEFSucre",
+        "count": 2
+      },
+      {
+        "key": "FEXPOCRUZ",
+        "label": "FEXPOCRUZ",
+        "count": 2
+      },
+      {
+        "key": "Expocruz2026",
+        "label": "Expocruz2026",
+        "count": 2
+      },
+      {
+        "key": "OportunidadesParaTodos",
+        "label": "OportunidadesParaTodos",
         "count": 2
       },
       {
@@ -270,18 +290,8 @@
         "count": 1
       },
       {
-        "key": "FEXPOCRUZ",
-        "label": "FEXPOCRUZ",
-        "count": 1
-      },
-      {
-        "key": "Expocruz2026",
-        "label": "Expocruz2026",
-        "count": 1
-      },
-      {
-        "key": "OportunidadesParaTodos",
-        "label": "OportunidadesParaTodos",
+        "key": "RumboAExpocruz2026",
+        "label": "RumboAExpocruz2026",
         "count": 1
       },
       {
@@ -359,12 +369,12 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 11
+        "count": 12
       },
       {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
-        "count": 8
+        "count": 9
       },
       {
         "key": "ticketera",
@@ -381,7 +391,6 @@
   "sections": {
     "today": [
       "evt_c183f2b7b229e8",
-      "evt_897b543d12d0c2",
       "evt_9cf913a404b972",
       "evt_97b4f119498240",
       "evt_f505eab37b7caa",
@@ -393,11 +402,13 @@
       "evt_f03a32b2b5742e",
       "evt_741760d26a404c",
       "evt_32d66c4ce9f28e",
+      "evt_897b543d12d0c2",
       "evt_f54bcdda1c67c0",
       "evt_d51af7cc558e1f"
     ],
     "tomorrow": [
       "evt_c183f2b7b229e8",
+      "evt_0764607c55ed57",
       "evt_bbaa61a2affb5f",
       "evt_f303446e2563b6",
       "evt_0d651280d9fbf6",
@@ -412,7 +423,6 @@
     ],
     "free": [],
     "featured": [
-      "evt_897b543d12d0c2",
       "evt_9cf913a404b972",
       "evt_97b4f119498240",
       "evt_f505eab37b7caa",
@@ -424,8 +434,10 @@
       "evt_f03a32b2b5742e",
       "evt_741760d26a404c",
       "evt_32d66c4ce9f28e",
+      "evt_897b543d12d0c2",
       "evt_f54bcdda1c67c0",
       "evt_8cb970f0050dc7",
+      "evt_b241df7de02d67",
       "evt_a57be552692d03",
       "evt_99e5ce9b1cdfbb",
       "evt_f4ea8de87e8c3d",
@@ -437,36 +449,36 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 27,
+      "events_total": 26,
       "events_upcoming": 11,
       "events_with_image": 10,
       "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 5
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 41,
+      "events_total": 38,
       "events_upcoming": 21,
       "events_with_image": 21,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 26,
-      "events_upcoming": 13,
-      "events_with_image": 7,
+      "events_total": 27,
+      "events_upcoming": 14,
+      "events_with_image": 8,
       "events_with_video": 4,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Chuquisaca": {
-      "events_total": 9,
+      "events_total": 8,
       "events_upcoming": 5,
       "events_with_image": 5,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 3,
@@ -485,9 +497,9 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 9,
-      "events_upcoming": 3,
-      "events_with_image": 1,
+      "events_total": 10,
+      "events_upcoming": 4,
+      "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 5,
       "sources_ok": 2
@@ -512,7 +524,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 65,
+      "events_total": 63,
       "events_upcoming": 18,
       "events_with_image": 18,
       "events_with_video": 0
@@ -533,7 +545,7 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 23,
+      "events_total": 21,
       "events_upcoming": 14,
       "events_with_image": 14,
       "events_with_video": 0
@@ -547,9 +559,9 @@
     },
     "feria": {
       "label": "Ferias y expos",
-      "events_total": 11,
-      "events_upcoming": 11,
-      "events_with_image": 6,
+      "events_total": 12,
+      "events_upcoming": 12,
+      "events_with_image": 7,
       "events_with_video": 4
     },
     "nightlife": {
@@ -558,6 +570,13 @@
       "events_upcoming": 1,
       "events_with_image": 1,
       "events_with_video": 1
+    },
+    "otro": {
+      "label": "Otros",
+      "events_total": 1,
+      "events_upcoming": 1,
+      "events_with_image": 1,
+      "events_with_video": 0
     },
     "taller": {
       "label": "Talleres y cursos",
@@ -568,7 +587,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 5,
+      "events_total": 4,
       "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
@@ -617,136 +636,6 @@
       "cast": [],
       "quality_score": 62,
       "is_featured": false,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_897b543d12d0c2",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-09-09T10:10:00-04:00",
-      "starts_at_ms": 1788963000000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Miércoles 9 de septiembre · 10:10",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/5/la-odisea-47428.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "10:10",
-        "16:30",
-        "20:00",
-        "20:30",
-        "13:00",
-        "13:30",
-        "17:00",
-        "10:20",
-        "12:30",
-        "13:20",
-        "15:30",
-        "18:30",
-        "19:30",
-        "21:30",
-        "22:30",
-        "12:20",
-        "12:40",
-        "15:00",
-        "17:20",
-        "19:00",
-        "19:50",
-        "22:20",
-        "11:50",
-        "12:00",
-        "14:30",
-        "14:20",
-        "17:10",
-        "22:00",
-        "19:40",
-        "10:40",
-        "15:20",
-        "17:40"
-      ],
-      "formats": [
-        "2D - DBOX - XD - Doblada",
-        "2D - PRE - Subtitulada",
-        "2D - XD - DBOX - Doblada",
-        "PRE - 2D - Doblada",
-        "XD - 2D - DBOX - Doblada",
-        "XD - DBOX - 2D - Doblada",
-        "2D - Doblada",
-        "2D - PRE - Doblada",
-        "PRE - 2D - Subtitulada",
-        "DBOX - 2D - Doblada",
-        "2D - DBOX - Doblada"
-      ],
-      "occurrences": [
-        "2026-09-09T10:10:00-04:00",
-        "2026-09-09T16:30:00-04:00",
-        "2026-09-09T20:00:00-04:00",
-        "2026-09-09T20:30:00-04:00",
-        "2026-09-09T13:00:00-04:00",
-        "2026-09-09T13:30:00-04:00",
-        "2026-09-09T17:00:00-04:00",
-        "2026-09-09T10:20:00-04:00",
-        "2026-09-09T12:30:00-04:00",
-        "2026-09-09T13:20:00-04:00",
-        "2026-09-09T15:30:00-04:00",
-        "2026-09-09T18:30:00-04:00",
-        "2026-09-09T19:30:00-04:00",
-        "2026-09-09T21:30:00-04:00",
-        "2026-09-09T22:30:00-04:00",
-        "2026-09-09T12:20:00-04:00",
-        "2026-09-09T12:40:00-04:00",
-        "2026-09-09T15:00:00-04:00",
-        "2026-09-09T17:20:00-04:00",
-        "2026-09-09T19:00:00-04:00",
-        "2026-09-09T19:50:00-04:00",
-        "2026-09-09T22:20:00-04:00",
-        "2026-09-09T11:50:00-04:00",
-        "2026-09-09T12:00:00-04:00",
-        "2026-09-09T14:30:00-04:00",
-        "2026-09-09T14:20:00-04:00",
-        "2026-09-09T17:10:00-04:00",
-        "2026-09-09T22:00:00-04:00",
-        "2026-09-09T19:40:00-04:00",
-        "2026-09-09T10:40:00-04:00",
-        "2026-09-09T15:20:00-04:00",
-        "2026-09-09T17:40:00-04:00",
-        "2026-09-09T20:10:00-04:00",
-        "2026-09-09T22:40:00-04:00",
-        "2026-09-09T11:10:00-04:00",
-        "2026-09-09T13:50:00-04:00",
-        "2026-09-09T16:40:00-04:00",
-        "2026-09-09T19:20:00-04:00",
-        "2026-09-09T22:10:00-04:00",
-        "2026-09-09T18:20:00-04:00",
-        "2026-09-09T12:10:00-04:00",
-        "2026-09-09T14:10:00-04:00",
-        "2026-09-09T16:20:00-04:00",
-        "2026-09-09T16:50:00-04:00",
-        "2026-09-09T21:40:00-04:00",
-        "2026-09-09T20:50:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
       "status": "programado",
       "source_count": 1
     },
@@ -1720,6 +1609,128 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_897b543d12d0c2",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-09T13:30:00-04:00",
+      "starts_at_ms": 1788975000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 9 de septiembre · 13:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/5/la-odisea-47428.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "13:30",
+        "13:00",
+        "16:30",
+        "20:00",
+        "20:30",
+        "17:00",
+        "12:30",
+        "13:20",
+        "15:30",
+        "18:30",
+        "19:30",
+        "21:30",
+        "22:30",
+        "12:20",
+        "12:40",
+        "15:00",
+        "16:40",
+        "17:20",
+        "19:00",
+        "19:50",
+        "22:20",
+        "14:30",
+        "14:20",
+        "22:00",
+        "17:10",
+        "19:40",
+        "15:20",
+        "17:40",
+        "20:10",
+        "22:40",
+        "18:20",
+        "13:50"
+      ],
+      "formats": [
+        "2D - DBOX - XD - Doblada",
+        "2D - PRE - Doblada",
+        "2D - PRE - Subtitulada",
+        "2D - XD - DBOX - Doblada",
+        "XD - DBOX - 2D - Doblada",
+        "2D - Doblada",
+        "PRE - 2D - Doblada",
+        "2D - DBOX - Doblada",
+        "DBOX - 2D - Doblada"
+      ],
+      "occurrences": [
+        "2026-09-09T13:30:00-04:00",
+        "2026-09-09T13:00:00-04:00",
+        "2026-09-09T16:30:00-04:00",
+        "2026-09-09T20:00:00-04:00",
+        "2026-09-09T20:30:00-04:00",
+        "2026-09-09T17:00:00-04:00",
+        "2026-09-09T12:30:00-04:00",
+        "2026-09-09T13:20:00-04:00",
+        "2026-09-09T15:30:00-04:00",
+        "2026-09-09T18:30:00-04:00",
+        "2026-09-09T19:30:00-04:00",
+        "2026-09-09T21:30:00-04:00",
+        "2026-09-09T22:30:00-04:00",
+        "2026-09-09T12:20:00-04:00",
+        "2026-09-09T12:40:00-04:00",
+        "2026-09-09T15:00:00-04:00",
+        "2026-09-09T16:40:00-04:00",
+        "2026-09-09T17:20:00-04:00",
+        "2026-09-09T19:00:00-04:00",
+        "2026-09-09T19:50:00-04:00",
+        "2026-09-09T22:20:00-04:00",
+        "2026-09-09T14:30:00-04:00",
+        "2026-09-09T14:20:00-04:00",
+        "2026-09-09T22:00:00-04:00",
+        "2026-09-09T17:10:00-04:00",
+        "2026-09-09T19:40:00-04:00",
+        "2026-09-09T15:20:00-04:00",
+        "2026-09-09T17:40:00-04:00",
+        "2026-09-09T20:10:00-04:00",
+        "2026-09-09T22:40:00-04:00",
+        "2026-09-09T18:20:00-04:00",
+        "2026-09-09T13:50:00-04:00",
+        "2026-09-09T19:20:00-04:00",
+        "2026-09-09T22:10:00-04:00",
+        "2026-09-09T12:10:00-04:00",
+        "2026-09-09T14:10:00-04:00",
+        "2026-09-09T16:20:00-04:00",
+        "2026-09-09T16:50:00-04:00",
+        "2026-09-09T21:40:00-04:00",
+        "2026-09-09T20:50:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_f54bcdda1c67c0",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1865,6 +1876,44 @@
       "director": null,
       "cast": [],
       "quality_score": 41,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_0764607c55ed57",
+      "title": "Tarija impulsará una reunión técnica nacional para fortalecer la Agenda 50/50 y avanzar hacia una mayor autonomía…",
+      "category": "otro",
+      "category_label": "Otros",
+      "starts_at": "2026-09-10T00:00:00-04:00",
+      "starts_at_ms": 1789012800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 10 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 1,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": "https://www.tarija.gob.bo/images/noticias/2026/Septiembre/09-09-26_mesa_tecnica.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 1.84,
+      "currency": "BOB",
+      "price_label": "Bs 1.84",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
@@ -2479,6 +2528,44 @@
     },
     {
       "event_id": "evt_b241df7de02d67",
+      "title": "Faltan 9 días para que los motores vuelvan a encenderse en Expocruz!",
+      "category": "feria",
+      "category_label": "Ferias y expos",
+      "starts_at": "2026-09-18T00:00:00-04:00",
+      "starts_at_ms": 1789704000000,
+      "ends_at_ms": 1790567940000,
+      "multi_day": true,
+      "display_date": "Del 18 al 27 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 9,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Fexpocruz",
+      "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/794516479_1117357000618224_3115404564818139160_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=100&ccb=1-7&_nc_sid=cae128&_nc_ohc=2AVk602TeyIQ7kNvwFIeYD1&_nc_oc=AdpFQ2TD40ygJjhIsxy7TG-PrRlxkYQ526tsjgj-0j_BnSkHLXiSDdNiJwNahVEIZLs&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=R4dWhzgGLIh9C78Bf29mzQ&_nc_ss=7f289&oh=00_AQKev8zNEMGrhfU8vcrPCZsMNqKu56b9lXrVJ0C5hANt_A&oe=6AA74B6C",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 65,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 2
+    },
+    {
+      "event_id": "evt_e862bfd2d33cb1",
       "title": "Expocruz 2026",
       "category": "feria",
       "category_label": "Ferias y expos",
@@ -2513,7 +2600,7 @@
       "quality_score": 54,
       "is_featured": false,
       "status": "programado",
-      "source_count": 2
+      "source_count": 1
     },
     {
       "event_id": "evt_a57be552692d03",
