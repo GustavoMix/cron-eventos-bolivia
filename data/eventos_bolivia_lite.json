@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-10T16:54:41-04:00",
+  "generated_at": "2026-09-10T19:13:02-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 61,
+    "events_total": 64,
     "events_today": 20
   },
   "filters": {
@@ -70,7 +70,17 @@
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 4
+        "count": 5
+      },
+      {
+        "key": "turismo",
+        "label": "Turismo y patrimonio",
+        "count": 3
+      },
+      {
+        "key": "taller",
+        "label": "Talleres y cursos",
+        "count": 3
       },
       {
         "key": "teatro",
@@ -80,16 +90,6 @@
       {
         "key": "exposicion",
         "label": "Exposiciones",
-        "count": 2
-      },
-      {
-        "key": "turismo",
-        "label": "Turismo y patrimonio",
-        "count": 2
-      },
-      {
-        "key": "taller",
-        "label": "Talleres y cursos",
         "count": 2
       },
       {
@@ -130,14 +130,14 @@
         "count": 10
       },
       {
+        "key": "Tarija",
+        "label": "Tarija",
+        "count": 6
+      },
+      {
         "key": "Sucre",
         "label": "Sucre",
         "count": 5
-      },
-      {
-        "key": "Tarija",
-        "label": "Tarija",
-        "count": 4
       },
       {
         "key": "Oruro",
@@ -172,19 +172,19 @@
         "count": 10
       },
       {
+        "key": "Tarija",
+        "label": "Tarija",
+        "count": 6
+      },
+      {
         "key": "Chuquisaca",
         "label": "Chuquisaca",
         "count": 5
       },
       {
-        "key": "Tarija",
-        "label": "Tarija",
-        "count": 4
-      },
-      {
         "key": "Bolivia",
         "label": "Bolivia",
-        "count": 3
+        "count": 4
       },
       {
         "key": "Oruro",
@@ -206,17 +206,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 32
+        "count": 33
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 37
+        "count": 40
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 61
+        "count": 64
       }
     ],
     "price": [
@@ -228,19 +228,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 9
+        "count": 10
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 52
+        "count": 54
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 53
+        "count": 54
       },
       {
         "key": "con_video",
@@ -367,19 +367,19 @@
         "count": 12
       },
       {
+        "key": "cultura_oficial",
+        "label": "cultura_oficial",
+        "count": 11
+      },
+      {
         "key": "venue",
         "label": "venue",
         "count": 11
       },
       {
-        "key": "cultura_oficial",
-        "label": "cultura_oficial",
-        "count": 9
-      },
-      {
         "key": "ticketera",
         "label": "ticketera",
-        "count": 4
+        "count": 5
       },
       {
         "key": "eventos",
@@ -438,6 +438,7 @@
       "evt_4a672ebed52e64",
       "evt_d8e1da85fd4b09",
       "evt_8cb970f0050dc7",
+      "evt_0cb40e07c1a65b",
       "evt_b241df7de02d67",
       "evt_a57be552692d03",
       "evt_99e5ce9b1cdfbb",
@@ -455,15 +456,15 @@
       "events_with_image": 9,
       "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 5
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 33,
+      "events_total": 34,
       "events_upcoming": 23,
       "events_with_image": 23,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
       "events_total": 25,
@@ -479,7 +480,7 @@
       "events_with_image": 5,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 1
     },
     "Oruro": {
       "events_total": 3,
@@ -487,7 +488,7 @@
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 2
     },
     "Potosí": {
       "events_total": 0,
@@ -495,15 +496,15 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 1
     },
     "Tarija": {
-      "events_total": 9,
-      "events_upcoming": 4,
+      "events_total": 11,
+      "events_upcoming": 6,
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Beni": {
       "events_total": 1,
@@ -519,7 +520,7 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 1
     }
   },
   "coverage_by_category": {
@@ -532,9 +533,9 @@
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 4,
-      "events_upcoming": 4,
-      "events_with_image": 4,
+      "events_total": 5,
+      "events_upcoming": 5,
+      "events_with_image": 5,
       "events_with_video": 1
     },
     "conferencia": {
@@ -546,7 +547,7 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 20,
+      "events_total": 21,
       "events_upcoming": 16,
       "events_with_image": 16,
       "events_with_video": 0
@@ -581,8 +582,8 @@
     },
     "taller": {
       "label": "Talleres y cursos",
-      "events_total": 3,
-      "events_upcoming": 2,
+      "events_total": 4,
+      "events_upcoming": 3,
       "events_with_image": 1,
       "events_with_video": 0
     },
@@ -595,8 +596,8 @@
     },
     "turismo": {
       "label": "Turismo y patrimonio",
-      "events_total": 4,
-      "events_upcoming": 2,
+      "events_total": 5,
+      "events_upcoming": 3,
       "events_with_image": 1,
       "events_with_video": 0
     }
@@ -1573,63 +1574,48 @@
       "showtimes": [
         "18:30",
         "21:30",
-        "18:40",
         "21:40",
         "20:20",
-        "16:40",
-        "17:30",
+        "18:40",
         "19:00",
         "19:50",
         "21:20",
-        "18:00",
         "18:20",
-        "22:30",
-        "17:40",
-        "20:00",
-        "16:30",
-        "16:50",
         "19:30",
         "22:10",
-        "20:10",
-        "22:20",
+        "22:30",
+        "20:00",
         "20:40",
-        "17:50"
+        "20:10",
+        "22:20"
       ],
       "formats": [
         "2D - Doblada",
-        "2D - PRE - Doblada",
-        "PRE - 2D - Subtitulada",
-        "XD - DBOX - 2D - Doblada",
-        "DBOX - XD - 2D - Doblada",
+        "2D - PRE - Subtitulada",
+        "2D - XD - DBOX - Doblada",
         "PRE - 2D - Doblada",
-        "2D - DBOX - Doblada",
-        "2D - DBOX - XD - Doblada",
+        "PRE - 2D - Subtitulada",
+        "DBOX - 2D - Doblada",
+        "XD - DBOX - 2D - Doblada",
         "2D - Subtitulada"
       ],
       "occurrences": [
         "2026-09-10T18:30:00-04:00",
         "2026-09-10T21:30:00-04:00",
-        "2026-09-10T18:40:00-04:00",
         "2026-09-10T21:40:00-04:00",
         "2026-09-10T20:20:00-04:00",
-        "2026-09-10T16:40:00-04:00",
-        "2026-09-10T17:30:00-04:00",
+        "2026-09-10T18:40:00-04:00",
         "2026-09-10T19:00:00-04:00",
         "2026-09-10T19:50:00-04:00",
         "2026-09-10T21:20:00-04:00",
-        "2026-09-10T18:00:00-04:00",
         "2026-09-10T18:20:00-04:00",
-        "2026-09-10T22:30:00-04:00",
-        "2026-09-10T17:40:00-04:00",
-        "2026-09-10T20:00:00-04:00",
-        "2026-09-10T16:30:00-04:00",
-        "2026-09-10T16:50:00-04:00",
         "2026-09-10T19:30:00-04:00",
         "2026-09-10T22:10:00-04:00",
-        "2026-09-10T20:10:00-04:00",
-        "2026-09-10T22:20:00-04:00",
+        "2026-09-10T22:30:00-04:00",
+        "2026-09-10T20:00:00-04:00",
         "2026-09-10T20:40:00-04:00",
-        "2026-09-10T17:50:00-04:00"
+        "2026-09-10T20:10:00-04:00",
+        "2026-09-10T22:20:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2326,6 +2312,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_0cb40e07c1a65b",
+      "title": "100% Yara en Concierto",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-09-17T20:00:00-04:00",
+      "starts_at_ms": 1789689600000,
+      "ends_at_ms": 1789617600000,
+      "multi_day": false,
+      "display_date": "Jueves 17 de septiembre · 20:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 7,
+      "is_upcoming": true,
+      "city": null,
+      "department": "Bolivia",
+      "venue": "Centro Cultural Torino",
+      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/09/Shop5_Cuadrado_78.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 70.0,
+      "currency": "None",
+      "price_label": "Bs 70",
+      "organizer": "SuperTicket.bo",
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 72,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_b241df7de02d67",
       "title": "Faltan 9 días para que los motores vuelvan a encenderse en Expocruz!",
       "category": "feria",
@@ -2476,6 +2500,82 @@
       "is_featured": true,
       "status": "programado",
       "source_count": 2
+    },
+    {
+      "event_id": "evt_7c6069a412d034",
+      "title": "Desarrollo Productivo, Recursos Naturales y Medio Ambiente",
+      "category": "turismo",
+      "category_label": "Turismo y patrimonio",
+      "starts_at": "2026-09-24T00:00:00-04:00",
+      "starts_at_ms": 1790222400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 24 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 14,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": null,
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 37,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_8513d59daecabc",
+      "title": "0 Recursos Humanos ELABORACIÓN Y PRESENTACION DE LA PROGRAMACIÓN OPERATIVA ANUAL INDIVIDUAL (POAI) - GESTIÓN 2026…",
+      "category": "taller",
+      "category_label": "Talleres y cursos",
+      "starts_at": "2026-09-24T00:00:00-04:00",
+      "starts_at_ms": 1790222400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 24 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 14,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": null,
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 37,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
     },
     {
       "event_id": "evt_f4ea8de87e8c3d",
