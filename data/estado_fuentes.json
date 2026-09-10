@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T12:27:30-04:00",
+  "generated_at": "2026-09-10T16:54:41-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_rtp",
+      "fb_superticket",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 78.3,
-    "horas_maximo_sin_datos": 513.3
+    "horas_promedio_sin_datos": 73.3,
+    "horas_maximo_sin_datos": 517.7
   },
   "sources": [
     {
@@ -30,12 +29,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? SuperTicket 140 mil seguidores • 201 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error téc'"
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -335,22 +334,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-hkg4-2.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=63NPDbAJ9OAQ7kNvwEd2XWU&_nc_oc=Adqz_NvyG-tp20NJcTDv_NsT_bW1QLom3-kdncLADOEA3jM64jQuAw_MxMFnlEYN248&_nc_zt=24&_nc_ht=scontent-hkg4-2.xx&_nc_gid=mRwDDb8hqqSUbsD1KE-raA&_nc_ss=7f289&oh=00_AQK5lZHb6iqweCw47ylTmKpE8SJW5_gvaDMA0z7yPg-bNg&oe=6AA89D3F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "concierto",
-          "url": "https://www.facebook.com/unitelbolivia/videos/telepa%C3%ADs-meridiano-en-vivo/1276330171267252/",
-          "has_image": true,
-          "text_preview": "Telepaís Meridiano en vivo Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_atb",
@@ -463,13 +453,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WeHjbE2tWdgQ7kNvwEcgI1-&_nc_oc=AdotH_ewhG9HGPme4eToo2pZyHvs13fWoRiWE79w6qCjJmudUdDNTVeP1Q7u7fs0pUk&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=rrvwWR7qgko-kQOVcsY6iw&_nc_ss=7f289&oh=00_AQKJaunPAt2Tyb3W7p5Iuuwc2KVcy-q9PZIofzxg5RGtqQ&oe=6AA8EB05",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/rtpbolivia/posts/pfbid0ZEdvsoK8MdrNYFpbq5xuVwSb64qMvGRvqmekpEfbBhK784f8BxYFhU2ex8MXaiZyl?__cft__[0]=AZh15hCWC86ICve3Uvjqx-K-H_eCVC4Jll-hRRfDsS9Ru-YhKYmAFudrn3dkQkDC-3CnLoJk_WVuHjglSKU9rn415Oj-tFwK0JdWalu9JwdVkMWLlDjzBWVd71JokExD_psHvJph-U7-F062v0JuNGUPGcdeeX5G5hLje4635tNsp9ldheF2n1nOtahvptf2Si4BsAEi86DecLBMuUc&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Nueva York rindió homenaje a las v1ctim4s de los 4t3ntad*s del 11 de septiembre con un espectáculo aéreo protagonizado por 2.977 drones, que formaron en el cielo la sil… Ver más Tenemos problemas para reproducir este video. Más información RTP Mundo 30 min ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_abya_yala",
@@ -769,30 +768,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=C1HpROhpThAQ7kNvwGdoT0m&_nc_oc=Adp1aBzcDSMj3dYo_odxujIlOfBgULheqw8AjoKMNN3sB5AY0VeUOEpe1-xv8z3ZtV0&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nk70mLOd9wTGjCoitxU-UA&_nc_ss=7f289&oh=00_AQKGjz-KMUgG1WsdR_74wkXmwMixuvOc23_0LjHPEYuz-A&oe=6AA8B82A",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/inicia-la-presentacion-de-propuestas-de-los-equipos-tecnicos-de-los-gobiernos-au/1640922870926334/",
-          "has_image": true,
-          "text_preview": "Inicia la presentacion de propuestas de los equipos tecnicos de los Gobiernos Autonomos Departamentales sobre el Alivio Fiscal, con el propósito de registrar y difundir las actividades desarrolladas,... Inicia la presentacion de propuestas de los equipos tecnicos de los Gobiernos Autonomos Departamentales sobre el Alivio Fiscal, con el propósito de... Inicia la presentacion de propuestas de los eq"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid02qouQHhELGh8ExaFstRRDikiDNBjit9B7B1R93CsyHvc5CkxkbtoQVDHJoEKbaWqml?comment_id=1747878809619654&__cft__[0]=AZgY2PXAulZjJpSkI0iChMLpJj4S4aM9EuuxTNxpQKw1vSCRtDtl_stl0FSE7TSsvKAFDOoHrJU2GjHYJoGgQy0T80mhGXYRBFHH5DzCEGl4AR5YBjbpmsbyiNrxEmEPwNbfLsdafgo6U6HVUoDdpdjIw4_ecJ2fAX5mkg0X7DWvw-g8hoAxUupLqdE&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mayra Fer Santivañez Excelente trabajo! 1 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_oruro",
@@ -837,13 +819,30 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dX9Ub-SvEg8Q7kNvwH9TGaI&_nc_oc=Adr8Ru0L5FfXNX4ehBMsbTDKcMfk7cIrYzm4y2vRAW0fR9VD2lvBPnKmODNk_1nbXmc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=H7wQUJad0mMpgRXflSGgYw&_nc_ss=7f289&oh=00_AQIEKWcPHu-ZltN4QMWgC4MeORKf6Va1LvvtEkn7RfnwCw&oe=6AA8E210",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0HqdK7pV6v9apgXg6kWFMJUAjrn1tZgcpz3EprUs466raLPd2XBfR3j137zzVz7PHl?__cft__[0]=AZinR3lhBufi-j-lNsGjuLctvOMdEmgyxsiYT2X1jxEwMtvwMoeKCJ-duP3rv0BRo1xeY0tLLENQOQfxeY9X7v6_SMhpRevQX44Z3ZJS8BzrVvIgp06O5xrFXicgxXn4urM0R1RV7qJmfeqARPi9oBGC-6l6q-W0ALgMbXaZJ-OKRYi9z0ziV15FuMQrNvmJFjSEo3nzHQ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0HqdK7pV6v9apgXg6kWFMJUAjrn1tZgcpz3EprUs466raLPd2XBfR3j137zzVz7PHl?comment_id=584098196711804&__cft__[0]=AZinR3lhBufi-j-lNsGjuLctvOMdEmgyxsiYT2X1jxEwMtvwMoeKCJ-duP3rv0BRo1xeY0tLLENQOQfxeY9X7v6_SMhpRevQX44Z3ZJS8BzrVvIgp06O5xrFXicgxXn4urM0R1RV7qJmfeqARPi9oBGC-6l6q-W0ALgMbXaZJ-OKRYi9z0ziV15FuMQrNvmJFjSEo3nzHQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_beni",
@@ -889,12 +888,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "blocked",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1436,24 +1435,24 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 6,
-      "rejected": 7,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
+          "score": 8,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "09/09/2026 Cultura Pruebas PISA: países de América Latina profundizan su retroceso educativo Los resultados de PISA 2025 mostraron un nuevo retroceso de varios países de América Latina frente al promedio de la Organización para la Cooperación y el... vista 07/09/2026 Cultura Cartelera: Debuta Metanoia Brass Ensamble y la serenata atrae la atención Metanoia Brass Ensamble hace su debut oficial en e"
+          "text_preview": "10/09/2026 Cultura La cuarta versión de Festinco levanta telón hoy en Cochabamba Con la consigna “El teatro será la voz de la naturaleza” se llevará a cabo la cuarta edición del Festival Internacional de Teatro Cochabamba (Festinco). vista 09/09/2026 Cultura Pruebas PISA: países de América Latina profundizan su retroceso educativo Los resultados de PISA 2025 mostraron un nuevo retroceso de varios "
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
+          "reason": "tema_ajeno_a_eventos",
+          "score": 50,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 El precio del petróleo superó los $us 100 ante ataques entre EEUU e Irán en Ormuz Ver más 2 La “ciudad jardín” vivirá el Desfile de la Primavera Ver má"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Paz pide a la Fiscalía investigar un posible \"atentado\" en Viacha Ver más 2 Posesionan al Alto Mando Policial; estos son los nuevos comandantes y direc"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1561,8 +1560,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
-      "events": 38,
+      "raw_items": 30,
+      "events": 30,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1628,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 45,
-      "events": 45,
+      "raw_items": 44,
+      "events": 44,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1646,8 +1645,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 0,
-      "events": 0,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1663,8 +1662,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
