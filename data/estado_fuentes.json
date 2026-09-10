@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T00:44:49-04:00",
+  "generated_at": "2026-09-10T07:21:53-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,13 +10,14 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
+      "fb_gob_chuquisaca",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 76.4,
-    "horas_maximo_sin_datos": 501.6
+    "horas_promedio_sin_datos": 78.7,
+    "horas_maximo_sin_datos": 508.2
   },
   "sources": [
     {
@@ -572,22 +573,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TFiFgea0iccQ7kNvwHrFQhs&_nc_oc=AdrkmdJjMwMVWiSyFKrqjsFTRHElrzubBbEeCO_k9tGq20jhN-pe6YKagfYM19AdHzM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=-L1Lg-zCjdlV9wyW1UWB3w&_nc_ss=7f289&oh=00_AQIUypA0fSUzwt2QA_IBYrsBMe6ngcCL23r2Df0aToY25w&oe=6AA7ED56",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "cine",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid0ngqMdf94dQf8xFrX1zJcYZBoe3axgnyMRAQWN5ruMsSvWzJbZA3ZEcc3fCk86vVnl?__cft__[0]=AZjOJplgNamrEhYQoFDC0iTtAN9NNAkivkgfPJ_jLqn5tu43Uafx3W-ftR1NBWf-ZQeP4e6bhyESfIb_lboJ6GNNPNX9JF4f8Mqmdm7MW5ikPpOHEr3A88DHCauF19jpZok0EBQPr_W2n1wiWCJoz7SoUdgvmloZyDSjn92iPOdxsbDqQz89DaPy2g0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Martes de cine Aye… Ver más Martes de cine Aye… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -649,22 +641,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=l-311SgKsdEQ7kNvwEZ_NmZ&_nc_oc=AdrG6ZJjKI8c920k4rdiQFJapvVqI55zk-NsADSMss4pxs09-ToIFdSQN0-NszvqBF0&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=UkXsRt-TI7UpCwYIMNTG1g&_nc_ss=7f289&oh=00_AQIzIVVfUxPQT3czBnoeNGOyz_mIN7fNXMqI05i95nuUxQ&oe=6AA7FD12",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid0jP4XRmppQgYxcLrjfowFPFS4RycHNyzRwt4cgWxovKJkiGbDj1ManPGXPse5ZAjpl?__cft__[0]=AZjisL5kjOx7Pr0-ZAAc8xY2YdKlSM4pdTe5lvqV7K4SexMgelCZvKZYOcsjWcRCqQvVd6ZSb6gCni1WZStwhSu5v8M6QhB78500RzRtSrV2npWoSt5ODZI9V-hfdCMWK_IiQfoaxHSEgZXM4emlgns-MtpJKX52TLCGHf_IwO7v8CiuBaOUgpdV8wo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CRC | “Nina, memorias de mercurio” en Rurrenabaque … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -778,12 +761,12 @@
       "region": "Chuquisaca",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobernación de Chuquisaca 62 mil seguidores • 70 seguidos Más Publicaciones Información Reels Fotos Seguidos Esta página no está disponible en este momento Puede d'"
     },
     {
       "id": "fb_gob_oruro",
@@ -794,13 +777,30 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=0mi_vCcH-mMQ7kNvwHbbAtE&_nc_oc=Adq5XNt1tdB4DyBFr0SF9ElbGeURsSHBi-m4JXKpUVKg5VueIwN2kP9m_Nr-RWkqogw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=JwgTF_b9QFCK-VSNKpUyPQ&_nc_ss=7f289&oh=00_AQJJUaD1_EWsJgFROCDKYl7yADAOplOR5RocilKpPZookA&oe=6AA85ABA",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1063167003372519/?__cft__[0]=AZh29RhQ8xWRIBUuqrLIoa5u3vUxgljyBqxrFVVva83zW15x9iB75_q7w5RTXUTKBeTWC8XbUOs17dEVJuuMrkqTEsrpLtIJsk71WK9jLtTXRnEGNKlGMlfDNSuiTqeCZrvhXTDwbqo5qM949OE4E94iGTGc8vZOlz000qEB1k0VarsqmUVfkJFcBWyQkprva6QH&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#OruroConDignidad | Cada bolsa de plástico que usamos por unos minutos tarda cientos de años en desaparecer. Al desecharla sin control, no solo contaminamos nuestros rí… Ver más Que buen Video de reflexión. Hay mucho que aprender. No estar tarde para empezar aprendamos a reciclar por futuro mejor para nuestra pachamama Tenemos problemas para reproducir este video. Más información Ver más comentari"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1063167003372519/?comment_id=1634470871586197&__cft__[0]=AZh29RhQ8xWRIBUuqrLIoa5u3vUxgljyBqxrFVVva83zW15x9iB75_q7w5RTXUTKBeTWC8XbUOs17dEVJuuMrkqTEsrpLtIJsk71WK9jLtTXRnEGNKlGMlfDNSuiTqeCZrvhXTDwbqo5qM949OE4E94iGTGc8vZOlz000qEB1k0VarsqmUVfkJFcBWyQkprva6QH&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Que buen Video de reflexión. Hay mucho que aprender. No estar tarde para empezar aprendamos a reciclar por futuro mejor para nuestra pachamama Grover Choque"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_tarija",
@@ -845,30 +845,13 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uZu02yPy5SIQ7kNvwHSlcrt&_nc_oc=AdqzZ89NhT0Imx9jufqSUMA_NqRrI1HVNDmg6JpKAibVruCxPNsI3ZO7uTYMtaY4fFw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=7i6zzgiRJSomdGIRM2NkYQ&_nc_ss=7f289&oh=00_AQI_dSvrB8TqFnb0Y2OvL2C8_qmhwKNo737A6CQ9HJEJpw&oe=6AA7FBA9",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDelBeni/posts/1689887975362010:1689887975362010?__cft__[0]=AZizhYLfBwjaGdaVlbnPRZobM2omdLgh1oMtZslUtD6KXjA_kEmLmWe5AyJmF2oB85dfAr6MHtSyv36gQ2F9s3h2QQ-RlgR5l4r3fHoDxWTV-kShsN4LkPhB8ybhTeAs_tNtlrJhHjvFNSrAw-U0_tuoGU_5SgWHLncKaPY6dGGQyK4nKycVEoxEd79g4A&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Ver más comentarios Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDelBeni/",
-          "has_image": false,
-          "text_preview": "Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones Dalon Duran Lluvia de bendiciones para el Dr Alejandro Unzueta y toda su familia por tan noble gesto que tiene con toda la gente Dios derrame lluvias de bendiciones"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fipaz",
@@ -1151,13 +1134,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6Y0F1t2o9koQ7kNvwEPfN-2&_nc_oc=AdpyRu0Y3odm5bipBAI3_9UaSYJVKFYGRfZObyeMMc_lVQmbE94KYNbHIX8F9UVBShc&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=15e1InliZO7Ip2nQI-FKog&_nc_ss=7f289&oh=00_AQJ--gP-ECjdGtw5QSF4RzIeVd3j26YLeidqBnY_JauQ2A&oe=6AA85E20",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FranciscoXavierCh/posts/1557813893048105/",
+          "has_image": true,
+          "text_preview": "#EnVivo | UMRPSFXCH – FIRMA DE CONVENIO DE COOPERACIÓN Y COORDINACIÓN CON LA CÁMARA DEPARTAMENTAL DE LA CONSTRUCCIÓN DE CHUQUISACA - 09 de septiembre de 2026 #TvuSucre #EnVivo | UMRPSFXCH – FIRMA DE CONVENIO DE COOPERACIÓN Y COORDINACIÓN CON LA CÁMARA DEPARTAMENTAL DE LA CONSTRUCCIÓN DE CHUQUISACA - 09 de septiembre de 2026 #TvuSucre #EnVivo | UMRPSFXCH – FIRMA DE CONVENIO DE COOPERACIÓN Y COORDIN"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umsa",
@@ -1444,12 +1436,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 12,
+          "score": 26,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1466,10 +1458,10 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 46,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
