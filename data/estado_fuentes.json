@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T07:21:53-04:00",
+  "generated_at": "2026-09-10T12:27:30-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,14 +10,14 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
-      "fb_gob_chuquisaca",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_rtp",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 78.7,
-    "horas_maximo_sin_datos": 508.2
+    "horas_promedio_sin_datos": 78.3,
+    "horas_maximo_sin_datos": 513.3
   },
   "sources": [
     {
@@ -335,13 +335,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg4-2.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=63NPDbAJ9OAQ7kNvwEd2XWU&_nc_oc=Adqz_NvyG-tp20NJcTDv_NsT_bW1QLom3-kdncLADOEA3jM64jQuAw_MxMFnlEYN248&_nc_zt=24&_nc_ht=scontent-hkg4-2.xx&_nc_gid=mRwDDb8hqqSUbsD1KE-raA&_nc_ss=7f289&oh=00_AQK5lZHb6iqweCw47ylTmKpE8SJW5_gvaDMA0z7yPg-bNg&oe=6AA89D3F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "concierto",
+          "url": "https://www.facebook.com/unitelbolivia/videos/telepa%C3%ADs-meridiano-en-vivo/1276330171267252/",
+          "has_image": true,
+          "text_preview": "Telepaís Meridiano en vivo Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_atb",
@@ -455,12 +464,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_abya_yala",
@@ -760,13 +769,30 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=C1HpROhpThAQ7kNvwGdoT0m&_nc_oc=Adp1aBzcDSMj3dYo_odxujIlOfBgULheqw8AjoKMNN3sB5AY0VeUOEpe1-xv8z3ZtV0&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=nk70mLOd9wTGjCoitxU-UA&_nc_ss=7f289&oh=00_AQKGjz-KMUgG1WsdR_74wkXmwMixuvOc23_0LjHPEYuz-A&oe=6AA8B82A",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobernación de Chuquisaca 62 mil seguidores • 70 seguidos Más Publicaciones Información Reels Fotos Seguidos Esta página no está disponible en este momento Puede d'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobChuquisaca/posts/inicia-la-presentacion-de-propuestas-de-los-equipos-tecnicos-de-los-gobiernos-au/1640922870926334/",
+          "has_image": true,
+          "text_preview": "Inicia la presentacion de propuestas de los equipos tecnicos de los Gobiernos Autonomos Departamentales sobre el Alivio Fiscal, con el propósito de registrar y difundir las actividades desarrolladas,... Inicia la presentacion de propuestas de los equipos tecnicos de los Gobiernos Autonomos Departamentales sobre el Alivio Fiscal, con el propósito de... Inicia la presentacion de propuestas de los eq"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid02qouQHhELGh8ExaFstRRDikiDNBjit9B7B1R93CsyHvc5CkxkbtoQVDHJoEKbaWqml?comment_id=1747878809619654&__cft__[0]=AZgY2PXAulZjJpSkI0iChMLpJj4S4aM9EuuxTNxpQKw1vSCRtDtl_stl0FSE7TSsvKAFDOoHrJU2GjHYJoGgQy0T80mhGXYRBFHH5DzCEGl4AR5YBjbpmsbyiNrxEmEPwNbfLsdafgo6U6HVUoDdpdjIw4_ecJ2fAX5mkg0X7DWvw-g8hoAxUupLqdE&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mayra Fer Santivañez Excelente trabajo! 1 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_oruro",
@@ -777,30 +803,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=0mi_vCcH-mMQ7kNvwHbbAtE&_nc_oc=Adq5XNt1tdB4DyBFr0SF9ElbGeURsSHBi-m4JXKpUVKg5VueIwN2kP9m_Nr-RWkqogw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=JwgTF_b9QFCK-VSNKpUyPQ&_nc_ss=7f289&oh=00_AQJJUaD1_EWsJgFROCDKYl7yADAOplOR5RocilKpPZookA&oe=6AA85ABA",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1063167003372519/?__cft__[0]=AZh29RhQ8xWRIBUuqrLIoa5u3vUxgljyBqxrFVVva83zW15x9iB75_q7w5RTXUTKBeTWC8XbUOs17dEVJuuMrkqTEsrpLtIJsk71WK9jLtTXRnEGNKlGMlfDNSuiTqeCZrvhXTDwbqo5qM949OE4E94iGTGc8vZOlz000qEB1k0VarsqmUVfkJFcBWyQkprva6QH&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#OruroConDignidad | Cada bolsa de plástico que usamos por unos minutos tarda cientos de años en desaparecer. Al desecharla sin control, no solo contaminamos nuestros rí… Ver más Que buen Video de reflexión. Hay mucho que aprender. No estar tarde para empezar aprendamos a reciclar por futuro mejor para nuestra pachamama Tenemos problemas para reproducir este video. Más información Ver más comentari"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1063167003372519/?comment_id=1634470871586197&__cft__[0]=AZh29RhQ8xWRIBUuqrLIoa5u3vUxgljyBqxrFVVva83zW15x9iB75_q7w5RTXUTKBeTWC8XbUOs17dEVJuuMrkqTEsrpLtIJsk71WK9jLtTXRnEGNKlGMlfDNSuiTqeCZrvhXTDwbqo5qM949OE4E94iGTGc8vZOlz000qEB1k0VarsqmUVfkJFcBWyQkprva6QH&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Que buen Video de reflexión. Hay mucho que aprender. No estar tarde para empezar aprendamos a reciclar por futuro mejor para nuestra pachamama Grover Choque"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_tarija",
@@ -885,7 +894,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1134,22 +1143,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6Y0F1t2o9koQ7kNvwEPfN-2&_nc_oc=AdpyRu0Y3odm5bipBAI3_9UaSYJVKFYGRfZObyeMMc_lVQmbE94KYNbHIX8F9UVBShc&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=15e1InliZO7Ip2nQI-FKog&_nc_ss=7f289&oh=00_AQJ--gP-ECjdGtw5QSF4RzIeVd3j26YLeidqBnY_JauQ2A&oe=6AA85E20",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FranciscoXavierCh/posts/1557813893048105/",
-          "has_image": true,
-          "text_preview": "#EnVivo | UMRPSFXCH – FIRMA DE CONVENIO DE COOPERACIÓN Y COORDINACIÓN CON LA CÁMARA DEPARTAMENTAL DE LA CONSTRUCCIÓN DE CHUQUISACA - 09 de septiembre de 2026 #TvuSucre #EnVivo | UMRPSFXCH – FIRMA DE CONVENIO DE COOPERACIÓN Y COORDINACIÓN CON LA CÁMARA DEPARTAMENTAL DE LA CONSTRUCCIÓN DE CHUQUISACA - 09 de septiembre de 2026 #TvuSucre #EnVivo | UMRPSFXCH – FIRMA DE CONVENIO DE COOPERACIÓN Y COORDIN"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umsa",
@@ -1436,8 +1436,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 6,
+      "rejected": 7,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1457,7 +1457,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
+          "score": 28,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
@@ -1561,8 +1561,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 32,
-      "events": 32,
+      "raw_items": 38,
+      "events": 38,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1595,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 8,
-      "events": 8,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1629,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 42,
-      "events": 42,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1663,8 +1663,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
