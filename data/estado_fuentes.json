@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T07:23:04-04:00",
+  "generated_at": "2026-09-11T12:31:15-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 62.4,
-    "horas_maximo_sin_datos": 532.2
+    "horas_promedio_sin_datos": 61.7,
+    "horas_maximo_sin_datos": 537.3
   },
   "sources": [
     {
@@ -44,13 +44,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5tgLihzJTLsQ7kNvwGkWuxa&_nc_oc=AdoK0ZWhvqjPezjN8NY2Hz9C0fYvOFe2n1jLF1xTU39t1_DxsiHqTDdN4SmqCmpG1x4&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=XdnolD9lsJZPYB8CDxsGdA&_nc_ss=7f289&oh=00_AQLummumoaDP_vDK9LNq8HMUSq9Ju_amyHlcf3-2kN39lA&oe=6AAA0935",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/ConciertosEnBolivia/videos/honorlealtad-y-respeto-ya-est%C3%A1-en-bolivia-100-confirmada-su-presentaci%C3%B3n-esta-no/1057972123659433/",
+          "has_image": true,
+          "text_preview": "HONOR,LEALTAD Y RESPETO. ya está en BOLIVIA 100% confirmada su presentación esta noche en Santa Cruz y mañana en La Paz Úl… Ver más HONOR,LEALTAD Y RESPETO. ya está en BOLIVIA 100% confirmada su presentación esta noche en Santa Cruz y mañana en La Paz Úl… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -401,22 +410,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_T_EWG_IuFAQ7kNvwF92r2H&_nc_oc=Adq-fSKhDM1SH5nAuwTgcsezZlCysYYV2nlnYE5A70c4fcpax6hrFMwqcQV7yfu4ykg&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=SgfgFvTZwp4RX-twoaIL_g&_nc_ss=7f289&oh=00_AQKc8dEUXGegAmON_Vq0Fv592_mFdomuhdMrcNZJrTGFKQ&oe=6AA9B7E1",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid028QA15rjqQWrzSPJxBAi1MF5k3rhjNgYiohkrb27AysBMvy4HchRASprYbbtnFknxl?__cft__[0]=AZizZVxqEbD9HLKV6GkcNkyznfz5xEeTrfXdMgOLC_XOsF911dC5u4_VlhqZ9BkV8P1nQfh9UqGv82TG5mhfyHbloSsKYykk6owqcF0D7DSW4-exRgxHuIaVslgUmfWz0kF7IWYCTBJtISKsqHOXm1t3SVkeDbYPzccCY5Gq9nXAc8581P-BU0E14nI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "> El Gobierno informó que los controles de la ANH fueron perforados y que en los procesos de investigación, La Paz y Santa Cruz registran la mayor cantidad de desvíos. ELDIARIO.NET Detectan desvío de 22 millones de litros de carburantes en un mes - El Diario - Bolivia"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_radio_fides",
@@ -444,22 +444,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NoT2OqptgFMQ7kNvwGYZjtO&_nc_oc=AdpTIVBpzWRllC574dDjJ1EeyCcW_ZOp9BFp_irW89bRsnqg2KyV_X7Xj7wud4Ec1T8&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=LF8R3racY-MnNTogHq5tzw&_nc_ss=7f289&oh=00_AQLM_20IxfG_1wuXLXELtHAhtvSPSRQQIRbJ7biP5TZ6Nw&oe=6AA9BA7A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/ANFidesBolivia/posts/pfbid02ty3rgoZUzD6na4KPLppCKCbq4t3F1rKA2yfRmgAEChek5D3pNY8guvqz4a2RKgqAl?__cft__[0]=AZjC1UwIYF_fsqHCaQukqLqpi2a-_9KkbaU0goej4_Mx38zCuzFlZq0RxQlUDSABslHTt8VbyKg4fk-SRxV2IPHM5hHfwca4tvINikoVZhQnl4WWOJ6gqgXxgUNuyvLG43gxQIK6FkGsxZr5UI_qFNgYEXGB2100rGq8wDOlCu5coP5k3FvfDnbPuDQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "[ Innovación y Educación] La Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) promueve el manejo integrado de plagas como una forma de c… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_rtp",
@@ -572,22 +563,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/799308511_1468294311784068_646230680047834368_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=bjoGJG-quuIQ7kNvwE_Shaz&_nc_oc=Adp0gngqDCcmtOvHxBkAVVJmkO36yaRIoo9reBhEwmMSgmSJim-13aMwxqQsh0lQOUM&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=2Q8aaa_bQMgteTlPayKYbA&_nc_ss=7f289&oh=00_AQIXwt2mNLAeKDoG6uRDJRVn9rBRl6Hc_Aw0e_UBYJhktw&oe=6AA9B4A7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "cine",
-          "url": "https://www.facebook.com/cinemateca.bo/posts/pfbid0272m3nX3gUrNG1wqb8muA3gkGwxxoESn2YDwXNw5gYcsJYGDxqj36LZ4WjtKDaGZMl?__cft__[0]=AZgObWd5I8MKFX_xp7PNq6f3wVKVfs21PZtD5CWqDRR82om1K-PCckWKd2XBHk5dnGXEnrPus3v1IZeXL2tsPbV6X4mmVjOi9NxV1h-aYNCCjhj8Gn2WKSil9_8F06XIey-aNVngX9jsuG35uS3n26ZqByEtBaibBc7QDA-9wcg21KYd9dqyIgYfvrzTWeKhsm8AOswLD2yZtJOpo6M&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Viernes de Cine Alemán en la Cinemateca Boliviana… Ver más Goethe-Institut La Paz 1 día ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -717,13 +699,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/734210525_1484423200397079_336268521338765554_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FhdnRNMljroQ7kNvwGEq4TM&_nc_oc=Adrs200oLTXt5k1xNIw6PDS_Yx2oKG0zMzVqvxqUR8-mTbQ8Xs44ORdWEcX513enP1g&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=h1qJW9gxBHfen-_cN29MHw&_nc_ss=7f289&oh=00_AQIdDXzr8PGHt4iHrARdGRWMZmxiNcxrAPt3LjUNXtudlg&oe=6AAA02E9",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_municipio_potosi",
@@ -734,22 +716,13 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vsO6a5LifXcQ7kNvwFXeW1J&_nc_oc=AdqCvH4Wl_zvZ6rhnuQlskkroz4bqMmAixN546ZtfpyQFAbopzPQColdSIClzo__GIQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=XOeZnTjnSmzciSxT6Nqoaw&_nc_ss=7f289&oh=00_AQL4HmmKfNoNagvnlkt0wifr9tBCw4D6inOEhQvyTWr_Cg&oe=6AA9B728",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1066980856257043/?__cft__[0]=AZhFzTMABuAu2_ZXMesVfCIIHIM-_p_pQKd9Fw0L2uUJkbptMKMDvZ64X8MV-H7-5Kks_kdMCa9K7GkS5NyAaeMcVDLOWxgDCauzPgMl_i6ddDgyGOb24704IwPIEq8dJLI2A8eWKF1WvTgx_oleONlKq_uqoCIALMW6lbpVWLFcMBFZT2eVNq02YD1sX4Nhyvor&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "PROYECTO DE PERFORACIÓN DE POZOS EN SU FASE INICIAL… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_trinidad",
@@ -913,13 +886,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jCYSlSwFOUAQ7kNvwFk06FG&_nc_oc=AdpTwFEJCmQHnyHjvr4L69jcI7bsc4tsaECnqGXGWVy_t9qFHu79ABNMgU0EXFNYs70&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=ECC2DNpNWbnvVI7E5QZdRg&_nc_ss=7f289&oh=00_AQLLhkztF7W-KBpB10tD0-ndG8bvtkyXvKcL871043M7fA&oe=6AAA01E7",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1032,13 +1005,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nUUCOoEuSg4Q7kNvwEXmiTw&_nc_oc=AdpDyrbbmvKMlxG8mZUvSFH0Gq5gP-Xg0X3DKdIqC-hDW9IKk71CSE-JInhERMSUPkU&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=jHZEO5jqOmumf_zs9nSM7g&_nc_ss=7f289&oh=00_AQJaBkDIMVlrH7U7O6FQoLFL-iUsr2esml1lYwJgaiQHfw&oe=6AA9FB34",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid0DVngNU4p6YSNowR8kfC6BuHHMG9j726nBNeP4ocC49NZwLHmBSAvDSs12AyjsSCQl?__cft__[0]=AZgLTdOcTJ19C6UaaxJXnV_uwW4KUsMmOssXeXXWHJHrPGoVbnAOjePPAMSF9dkiLcBeiQk9UAh_mg8PqrVDo2wtMKPgm_b56OA3YrB5a67Z7-5WqcD3bTzf_8-x8j37ibJo7JJU5bbmi8smR3lN99EzjH47jLAfDS0ZQ1pgKadOw4qDpi1xyeRkIr0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Cultura | 𝗢𝗣𝗘𝗥𝗔 𝗘𝗡 𝗩𝗜𝗟𝗟𝗔 𝗔𝗟𝗕𝗜𝗡𝗔 La música y la natu… Ver más #Cultura | 𝗢𝗣𝗘𝗥𝗔 𝗘𝗡 𝗩𝗜𝗟𝗟𝗔 𝗔𝗟𝗕𝗜𝗡𝗔 La música y la natu… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1444,32 +1426,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 36,
-          "category": "deporte",
+          "score": 18,
+          "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "10/09/2026 Tecnología Claves para crear la foto más realista de cómo me vería en los años 80 con IA Convertir una fotografía actual en un retrato con estética de los años 80 se convirtió en una de las tendencias más populares dentro de las herramientas de... vista 08/09/2026 Tecnología Qué celulares Android y iPhone quedarán sin la aplicación de Netflix Netflix dejará de funcionar en una amplia ga"
+          "text_preview": "11/09/2026 Tecnología iPhone 18 Pro vs. iPhone 18 Pro Max: en qué se diferencian los celulares de Apple Apple presentó el iPhone 18 Pro y el iPhone 18 Pro Max, los modelos que incorporan el sistema de cámara profesional más avanzado creado por la compañía hasta... vista 10/09/2026 Tecnología Claves para crear la foto más realista de cómo me vería en los años 80 con IA Convertir una fotografía actu"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 8,
+          "score": 16,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "10/09/2026 Cultura La cuarta versión de Festinco levanta telón hoy en Cochabamba Con la consigna “El teatro será la voz de la naturaleza” se llevará a cabo la cuarta edición del Festival Internacional de Teatro Cochabamba (Festinco). vista 09/09/2026 Cultura Pruebas PISA: países de América Latina profundizan su retroceso educativo Los resultados de PISA 2025 mostraron un nuevo retroceso de varios "
+          "text_preview": "11/09/2026 Cultura 11S: El musical Come from away llega a Cochabamba Con la intención de superar el éxito que tuvieron en La Paz, los integrantes del colectivo artístico independiente DREI ponen en escena “Come from away, el... vista 10/09/2026 Cultura La cuarta versión de Festinco levanta telón hoy en Cochabamba Con la consigna “El teatro será la voz de la naturaleza” se llevará a cabo la cuarta "
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 22,
+          "score": 18,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Revelan imágenes de la huida de los asaltantes de la joyería y el abandono del coche Ver más 2 VIAGGIO inaugura su primer taller propio para la marca G"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Posesionan al Alto Mando Policial; estos son los nuevos comandantes y directores Ver más 2 Odebo exige compromiso gubernamental para organizar los Jueg"
         }
       ],
       "error": null
@@ -1637,8 +1619,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 46,
-      "events": 46,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
