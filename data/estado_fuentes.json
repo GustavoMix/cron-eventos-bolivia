@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T00:43:07-04:00",
+  "generated_at": "2026-09-11T07:23:04-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 65.4,
-    "horas_maximo_sin_datos": 525.5
+    "horas_promedio_sin_datos": 62.4,
+    "horas_maximo_sin_datos": 532.2
   },
   "sources": [
     {
@@ -401,13 +401,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_T_EWG_IuFAQ7kNvwF92r2H&_nc_oc=Adq-fSKhDM1SH5nAuwTgcsezZlCysYYV2nlnYE5A70c4fcpax6hrFMwqcQV7yfu4ykg&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=SgfgFvTZwp4RX-twoaIL_g&_nc_ss=7f289&oh=00_AQKc8dEUXGegAmON_Vq0Fv592_mFdomuhdMrcNZJrTGFKQ&oe=6AA9B7E1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid028QA15rjqQWrzSPJxBAi1MF5k3rhjNgYiohkrb27AysBMvy4HchRASprYbbtnFknxl?__cft__[0]=AZizZVxqEbD9HLKV6GkcNkyznfz5xEeTrfXdMgOLC_XOsF911dC5u4_VlhqZ9BkV8P1nQfh9UqGv82TG5mhfyHbloSsKYykk6owqcF0D7DSW4-exRgxHuIaVslgUmfWz0kF7IWYCTBJtISKsqHOXm1t3SVkeDbYPzccCY5Gq9nXAc8581P-BU0E14nI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "> El Gobierno informó que los controles de la ANH fueron perforados y que en los procesos de investigación, La Paz y Santa Cruz registran la mayor cantidad de desvíos. ELDIARIO.NET Detectan desvío de 22 millones de litros de carburantes en un mes - El Diario - Bolivia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_radio_fides",
@@ -435,13 +444,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NoT2OqptgFMQ7kNvwGYZjtO&_nc_oc=AdpTIVBpzWRllC574dDjJ1EeyCcW_ZOp9BFp_irW89bRsnqg2KyV_X7Xj7wud4Ec1T8&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=LF8R3racY-MnNTogHq5tzw&_nc_ss=7f289&oh=00_AQLM_20IxfG_1wuXLXELtHAhtvSPSRQQIRbJ7biP5TZ6Nw&oe=6AA9BA7A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ANFidesBolivia/posts/pfbid02ty3rgoZUzD6na4KPLppCKCbq4t3F1rKA2yfRmgAEChek5D3pNY8guvqz4a2RKgqAl?__cft__[0]=AZjC1UwIYF_fsqHCaQukqLqpi2a-_9KkbaU0goej4_Mx38zCuzFlZq0RxQlUDSABslHTt8VbyKg4fk-SRxV2IPHM5hHfwca4tvINikoVZhQnl4WWOJ6gqgXxgUNuyvLG43gxQIK6FkGsxZr5UI_qFNgYEXGB2100rGq8wDOlCu5coP5k3FvfDnbPuDQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "[ Innovación y Educación] La Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) promueve el manejo integrado de plagas como una forma de c… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_rtp",
@@ -469,22 +487,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nf6Pntw3olMQ7kNvwHU7oMi&_nc_oc=Adrg1nEugdrTs9_84M4wVObAz1mZ-hQecx_A5vpe8dyauP7h0oTVd874JvlNuWUfHJ4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=kj0r6yg28mIF0hLKqFbUJg&_nc_ss=7f289&oh=00_AQK4rovD0u6hPflr-N8W0ZD3cmwHIPfifahyQjrTNGZzpQ&oe=6AA962C2",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid0ZxaJk6QnXgaMw4uzg5ENPvqs2Ewg7JxCBVQpgkFjNcHagRg5wSYFkpqRHBz3wsjTl?__cft__[0]=AZj3cFZswJhyhwCXMVRltkYh2fUwgI4JLu3ehPIyXcvFAxcRL5cKjUPJoWu94SZ3PVN7ucfYvxd7hN2LKlIUkLe0QJNXsszzS5opzHQk-vNZPxO4W1orGNEcDEdYni9rGz17T_-5G63Ak0Ud6OmuFu0XKLLGN9LfgjKvNRWNB4xLKxmPqs7zuiSVrNs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Argentina UBA presenta guía para prevenir el suicidio en jóvenes y alerta que la letalidad de los intentos es cinco veces mayor en varones… Ver más #Argentina UBA presenta guía para prevenir el suicidio en jóvenes y alerta que la letalidad de los intentos es cinco veces mayor en varones… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber_radio",
@@ -563,13 +572,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/799308511_1468294311784068_646230680047834368_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=bjoGJG-quuIQ7kNvwE_Shaz&_nc_oc=Adp0gngqDCcmtOvHxBkAVVJmkO36yaRIoo9reBhEwmMSgmSJim-13aMwxqQsh0lQOUM&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=2Q8aaa_bQMgteTlPayKYbA&_nc_ss=7f289&oh=00_AQIXwt2mNLAeKDoG6uRDJRVn9rBRl6Hc_Aw0e_UBYJhktw&oe=6AA9B4A7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "cine",
+          "url": "https://www.facebook.com/cinemateca.bo/posts/pfbid0272m3nX3gUrNG1wqb8muA3gkGwxxoESn2YDwXNw5gYcsJYGDxqj36LZ4WjtKDaGZMl?__cft__[0]=AZgObWd5I8MKFX_xp7PNq6f3wVKVfs21PZtD5CWqDRR82om1K-PCckWKd2XBHk5dnGXEnrPus3v1IZeXL2tsPbV6X4mmVjOi9NxV1h-aYNCCjhj8Gn2WKSil9_8F06XIey-aNVngX9jsuG35uS3n26ZqByEtBaibBc7QDA-9wcg21KYd9dqyIgYfvrzTWeKhsm8AOswLD2yZtJOpo6M&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Viernes de Cine Alemán en la Cinemateca Boliviana… Ver más Goethe-Institut La Paz 1 día ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -665,22 +683,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VVwNQMlfqokQ7kNvwHL7i7q&_nc_oc=AdpZIwDV5xk7MUzwHjyoeQnDtdURSyiCLft5p3qbB5adBBE41N2muBV1bklh13wkwKk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=7sY1NgI5H7oidqBKXQHEow&_nc_ss=7f289&oh=00_AQLOnnLJ25VDCY7VNGE7WBD0vow3kZhzauvpyGftIZ5lzg&oe=6AA96AB8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "festival",
-          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/posts/%F0%9D%97%9C%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%BA%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%BA%F0%9D%97%BC%F0%9D%98%80-%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%97%B3%F0%9D%97%B6%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81%F0%9D%97%AE-%F0%9D%98%86-%F0%9D%97%B0%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%B1%F0%9D%97%AE%F0%9D%97%BA%F0%9D%97%BC%F0%9D%98%80-%F0%9D%98%81%F0%9D%98%82-%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B4%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%B1%F0%9D%97%AE%F0%9D%97%B1-para-que-disfrutes-cada-detalle-de-/1525310022959443/",
-          "has_image": true,
-          "text_preview": "¡𝗜𝗹𝘂𝗺𝗶𝗻𝗮𝗺𝗼𝘀 𝗹𝗮 𝗳𝗶𝗲𝘀𝘁𝗮 𝘆 𝗰𝘂𝗶𝗱𝗮𝗺𝗼𝘀 𝘁𝘂 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱! 💡✨ Para que disfrutes cada detalle de nuestra entrada folklórica con la mejor visibilidad, la Dirección de Alumbrado Público ejecuta los trabajos... ¡𝗜𝗹𝘂𝗺𝗶𝗻𝗮𝗺𝗼𝘀 𝗹𝗮 𝗳𝗶𝗲𝘀𝘁𝗮 𝘆 𝗰𝘂𝗶𝗱𝗮𝗺𝗼𝘀 𝘁𝘂 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱! 💡✨ Para que disfrutes cada detalle de nuestra entrada folklórica con la mejor visibilidad, la Dirección de... ¡𝗜𝗹𝘂𝗺𝗶𝗻𝗮𝗺𝗼𝘀 𝗹𝗮 𝗳𝗶𝗲𝘀𝘁𝗮 𝘆 𝗰𝘂𝗶𝗱𝗮𝗺𝗼𝘀 𝘁𝘂 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱! "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_oruro",
@@ -725,13 +734,22 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vsO6a5LifXcQ7kNvwFXeW1J&_nc_oc=AdqCvH4Wl_zvZ6rhnuQlskkroz4bqMmAixN546ZtfpyQFAbopzPQColdSIClzo__GIQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=XOeZnTjnSmzciSxT6Nqoaw&_nc_ss=7f289&oh=00_AQL4HmmKfNoNagvnlkt0wifr9tBCw4D6inOEhQvyTWr_Cg&oe=6AA9B728",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1066980856257043/?__cft__[0]=AZhFzTMABuAu2_ZXMesVfCIIHIM-_p_pQKd9Fw0L2uUJkbptMKMDvZ64X8MV-H7-5Kks_kdMCa9K7GkS5NyAaeMcVDLOWxgDCauzPgMl_i6ddDgyGOb24704IwPIEq8dJLI2A8eWKF1WvTgx_oleONlKq_uqoCIALMW6lbpVWLFcMBFZT2eVNq02YD1sX4Nhyvor&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "PROYECTO DE PERFORACIÓN DE POZOS EN SU FASE INICIAL… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_trinidad",
@@ -759,13 +777,13 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9rwom5xdOSoQ7kNvwGzDz9y&_nc_oc=AdpvnTyeVcTR1Y4O_crYl2abqBcyapw56eSGQ5HdmsrFo3Pe6v-WW8V7kLZPW5Ae1-8&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=W9ffVi8ghgsaigjGlYNTzQ&_nc_ss=7f289&oh=00_AQJpFLh0_w9E1nSrhgiXtqV275YinnYD8OSigAXoIT8atA&oe=6AA95FEA",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -1082,13 +1100,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=43W4QEXILC8Q7kNvwFZq6OP&_nc_oc=AdqXdmaANUfuRd-0YDKjCvkeLeQ6rwcMvHpiCgQXtKN_9B6ggP-IE6C3BOPDUfpOW48&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=K1quB-PrTDJKAtU7o-y3-w&_nc_ss=7f289&oh=00_AQIrYl8AX5ZUsenzaqKeB252G4akYN0ESOEw_LjDP9ORdw&oe=6AA9576F",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1451,7 +1469,7 @@
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Atracan una joyería en un centro comercial de la avenida Pando, en Cochabamba Ver más 2 Gobierno se compromete ante el FMI a eliminar la subvención de "
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Revelan imágenes de la huida de los asaltantes de la joyería y el abandono del coche Ver más 2 VIAGGIO inaugura su primer taller propio para la marca G"
         }
       ],
       "error": null
