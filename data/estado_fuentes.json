@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T17:03:28-04:00",
+  "generated_at": "2026-09-11T19:18:23-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,12 +11,11 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_municipio_trinidad",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 62.5,
-    "horas_maximo_sin_datos": 541.9
+    "horas_promedio_sin_datos": 59.4,
+    "horas_maximo_sin_datos": 544.1
   },
   "sources": [
     {
@@ -606,13 +605,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=91BbL4ruGhUQ7kNvwH0hcSY&_nc_oc=Adq0cYeZ6h_WNR63gWY3N-jVBAs3d1rqerT3S0IpGEom6RpwPnazxU3nc-P5JilEe_M&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=YhzpmufWGw9Tsbf_0UlP0Q&_nc_ss=7f289&oh=00_AQLTHkJpFU1TZPogqRK7MaDdVxDJ1VSj5g9FuXRrA3VQdw&oe=6AAA61B3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid02LaXX4iN86oTgkYLpFHDL9uL26hiKB4GCuxMMDLTeY94XoAbuypkEppwCe8ANTavSl?__cft__[0]=AZiUiYEbp_tAcEc6rMctopHULY-hlfAdWhsCLAkxp_mw9FqrrD_JXCPwq1ktXQ_wvMws0_sqBXpPRqKl9ej50YNC8vXgnxGOEo2V5m7lI2KuaN922atOQaiC33VBoq08ASkjFjYVuQgxalGC_86Qal-treVGpmsvBEm58WCjmyro-oADwL37r3Is1hY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#FinDeSemana l ¿𝗨𝗻𝗮 𝗽𝗶𝗲𝗱𝗿𝗮 𝗽𝗮𝗿𝗮 𝗽𝗿𝗲𝗽𝗮𝗿𝗮𝗿 𝗿𝗲𝗺𝗲𝗱𝗶𝗼𝘀? Pequeña, redondeada y aparent… Ver más #FinDeSemana l ¿𝗨𝗻𝗮 𝗽𝗶𝗲𝗱𝗿𝗮 𝗽𝗮𝗿𝗮 𝗽𝗿𝗲𝗽𝗮𝗿𝗮𝗿 𝗿𝗲𝗺𝗲𝗱𝗶𝗼𝘀? Pequeña, redondeada y aparent… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -725,13 +733,22 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kYNAMpnBaiMQ7kNvwFkl9xr&_nc_oc=AdrSXbU1kOjqhVl0LyhRWQzUdWuPMMJc_PFlLj0M53ewlvhf7DEpG0HN34Glz3QkWho&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=qZi47yBm0DZzKxeNOKXL_Q&_nc_ss=7f289&oh=00_AQKS1GNgkG6HT9qpMefconWBUA2uzl4OUZvC04G-XJh_qg&oe=6AAA607D",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Trinidad 52 mil seguidores • 14 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pu'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1505402861621878/?__cft__[0]=AZh9leJUN4VTEa-nwcKR4_TYE17LfTFVv7jJq_jkxS1mdJqmPsIHMx9fksTubtj_07OJKHbGpwDZxHUmOZKHXggcAYXV3FXteoXvPKQE_-u1_CeEYBlcgiAFkToH6rt5whXvNDB7nDZfHBD-qxLlUXBlFvLb3rnrKFDmaOMX0jN2Cv5zvPflK__zy21SECHSGGED&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "PUERTO VARADOR CELEBRARÁ 56 AÑOS ESTE PRÓXIMO LUNES CON UNA SEMANA LLENA DE ACTIVIDADES… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_cobija",
@@ -946,22 +963,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/805763374_2152013525725556_8826332903914042232_n.png?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=KMBixvF9VLoQ7kNvwG7zlHU&_nc_oc=AdoqjD7Y2oZgGXIzH12ef-kint2-80-aVBR7afNWwIs76810N_jKnqGA6BY4gscNsvg&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=U_IX5Thvimj79g-YvuW7MA&_nc_ss=7f289&oh=00_AQKyuQR9Cb1lcO6ImrEpbDdPtEK_nNmgT0yU9NQkDc1avw&oe=6AAA32A1",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0H8tgmTcGUPntU2fz7uQsh15uQdHZGv1o11YWcYakJSpVerokknEFrrXU97rotQX8l?__cft__[0]=AZiEFAwyZtiUM7N80sLbANdJhIA5KyZK2ZlSrEHpPwy6CnXUfP8OFWP7jkUWiwmwldsRjrSe7_jk72gTrRQk6JQ-5peCcn9I35zRoKmjPpgTFXWa34Yh8IaOX5zFfIpq8LFyG9UUUagQc8RO5E2wSbbVFKKYIjfAqN4s00m-p23fSnj9TDnPZEcKTjg&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "7 h Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -989,22 +997,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JxmqrdlzT90Q7kNvwE1tPxY&_nc_oc=AdrrTd7Cyd2FcXyIwT9yhWaPIQjlSnF7UBqttdPK3AKJY0XsxOhLP-5bA3kn-IXrEQA&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=Wu_12O2XSpnO1w5EuRm0Ow&_nc_ss=7f289&oh=00_AQKp_W_ABpfOQAQkDy-FeF9xxU0a1wYQtm304BQL-cC5WQ&oe=6AAA50EA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02jvqnfEUNehMsjtFyZMdnwwsPjEDnBri1oDgmHBwUXumsosMX9jzsqt67ZG9ER2bZl?__cft__[0]=AZh2-NQ2ptex4htIvDmah0Ht_Nkn-v_XfQZY2_eWcxrI2k3X-xWDYoD3hIpjE8WuhI2Jb_Ga0bbJIqoK6rXpQHLPeEznVYsB4r9uMNnoYeUzYpZUP_W6gmsE7zX1yNQPX0pQBX7Hda8nR_gUrmJGQfVB4FdKuwLslAP302rEAMmL_8bWbMPLhnaF4Ws&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Tarija reflexiona sobre su historia en el marco del Bicentenario… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1032,22 +1031,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lT3v2BRYwVMQ7kNvwGcuL6V&_nc_oc=AdqhuRm4VFlqea0MOizG-s9Wqx9SF2xQNndDY3G8bf0OWpv4jVhPw-o38MVLQz6HJjQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=B4eRJx4j6dvaxNK4ig1-rw&_nc_ss=7f289&oh=00_AQKCsoGCePhUZbQ7Qu_Xy8LKAACTZ6cUw1mztzUtbOyu7g&oe=6AAA3CCF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1618843439762897/?__cft__[0]=AZhXUlaDHy4qUtt4kf6ce44zt1Dh6R3h6X3lYdyrl5sQtSyp9D47RI8lIFVpP3oe5vsANtvizuCLAVzMUlTyTIKo-vq-5fExwQse4zTNCGey_AMDqN9VgghPHhuUCYx5JbQ4y7clfkXqpRkPhJnA56jEiV8SynzwbhwazmnDh7CL84boybp1Brht_07BezyCXT9O&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡LAS LENGUAS EUROPEAS TOMAN LA PAZ! Este sáb… Ver más ¡LAS LENGUAS EUROPEAS TOMAN LA PAZ! Este sáb… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1058,13 +1048,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CGbz3T8xHRcQ7kNvwHbP-2V&_nc_oc=AdqPhpss1FEgrUfajqcoPbrekuF0zg7uueVgYF8J6czmKanmUsf8O7qqRB7z-mVHLjY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=FRxfVR7s5t5qMG-5CS6DNg&_nc_ss=7f289&oh=00_AQLR14npXsCSGjjVJTp4yF7PWIzRK4c-6op3_JaxhXHOGQ&oe=6AAA54D5",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1126,13 +1116,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ptuRUZKZ4MQQ7kNvwGfbDbF&_nc_oc=Adql1oNGNMFKqLY3qRD4wdpEOg-Ek0T9ClfzmDt85dhMCGAhVL4v-Uj9oWROJHJipzc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=t8H0aii8Z5c5mWq5fq2SuA&_nc_ss=7f289&oh=00_AQJU4_cnkAcJXKl2LiHyEurQj_vZKVHHa9jQMBQRTFTZNQ&oe=6AAA4E64",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid09G4ovwC6wdvF8HCY8fV7hjtM1zE6ffYMByQid5MAhJEqq1mEARZ5mJP9uhD7yaXRl?__cft__[0]=AZjE88sirxFkJhizEkm5AAUBpYEPeYxj7bSXBCv-o7nrk1flMDya6Qb-m4ZK3ZwNqev3UxmWeXkq4MDSZGHPrddGYrY_aQEYfGqOzTETrYLAOpvUwQwju23rAXxbH4GkaCyPaQp9iityCHB0cO4azfT3zrtRZpLG-9qXhLkRZ19rPu8NWilLkxQ-LlQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#MUSEFSucre | ¡Clase Magistral de Guitarra Clásica! Compartimos un espacio de Aprendizaje y apreciamos el Recital de Guitarra Clásica con el maestro Gunter Viral, co… Ver más #MUSEFSucre | ¡Clase Magistral de Guitarra Clásica! Compartimos un espacio de Aprendizaje y apreciamos el Recital de Guitarra Clásica con el maestro Gunter Viral, co… Ver más Es Gunther Vilar.....su apellido está mal escrito "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid09G4ovwC6wdvF8HCY8fV7hjtM1zE6ffYMByQid5MAhJEqq1mEARZ5mJP9uhD7yaXRl?comment_id=1651616149889611&__cft__[0]=AZjE88sirxFkJhizEkm5AAUBpYEPeYxj7bSXBCv-o7nrk1flMDya6Qb-m4ZK3ZwNqev3UxmWeXkq4MDSZGHPrddGYrY_aQEYfGqOzTETrYLAOpvUwQwju23rAXxbH4GkaCyPaQp9iityCHB0cO4azfT3zrtRZpLG-9qXhLkRZ19rPu8NWilLkxQ-LlQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Es Gunther Vilar.....su apellido está mal escrito Weimar Alata"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1436,8 +1443,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
