@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:31:15-04:00",
+  "generated_at": "2026-09-11T17:03:28-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,11 +11,12 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_municipio_trinidad",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 61.7,
-    "horas_maximo_sin_datos": 537.3
+    "horas_promedio_sin_datos": 62.5,
+    "horas_maximo_sin_datos": 541.9
   },
   "sources": [
     {
@@ -44,22 +45,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5tgLihzJTLsQ7kNvwGkWuxa&_nc_oc=AdoK0ZWhvqjPezjN8NY2Hz9C0fYvOFe2n1jLF1xTU39t1_DxsiHqTDdN4SmqCmpG1x4&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=XdnolD9lsJZPYB8CDxsGdA&_nc_ss=7f289&oh=00_AQLummumoaDP_vDK9LNq8HMUSq9Ju_amyHlcf3-2kN39lA&oe=6AAA0935",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/ConciertosEnBolivia/videos/honorlealtad-y-respeto-ya-est%C3%A1-en-bolivia-100-confirmada-su-presentaci%C3%B3n-esta-no/1057972123659433/",
-          "has_image": true,
-          "text_preview": "HONOR,LEALTAD Y RESPETO. ya está en BOLIVIA 100% confirmada su presentación esta noche en Santa Cruz y mañana en La Paz Úl… Ver más HONOR,LEALTAD Y RESPETO. ya está en BOLIVIA 100% confirmada su presentación esta noche en Santa Cruz y mañana en La Paz Úl… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -699,13 +691,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/734210525_1484423200397079_336268521338765554_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FhdnRNMljroQ7kNvwGEq4TM&_nc_oc=Adrs200oLTXt5k1xNIw6PDS_Yx2oKG0zMzVqvxqUR8-mTbQ8Xs44ORdWEcX513enP1g&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=h1qJW9gxBHfen-_cN29MHw&_nc_ss=7f289&oh=00_AQIdDXzr8PGHt4iHrARdGRWMZmxiNcxrAPt3LjUNXtudlg&oe=6AAA02E9",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -734,12 +726,12 @@
       "region": "Beni",
       "city": "Trinidad",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Trinidad 52 mil seguidores • 14 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pu'"
     },
     {
       "id": "fb_municipio_cobija",
@@ -886,13 +878,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jCYSlSwFOUAQ7kNvwFk06FG&_nc_oc=AdpTwFEJCmQHnyHjvr4L69jcI7bsc4tsaECnqGXGWVy_t9qFHu79ABNMgU0EXFNYs70&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=ECC2DNpNWbnvVI7E5QZdRg&_nc_ss=7f289&oh=00_AQLLhkztF7W-KBpB10tD0-ndG8bvtkyXvKcL871043M7fA&oe=6AAA01E7",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -954,13 +946,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/805763374_2152013525725556_8826332903914042232_n.png?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=KMBixvF9VLoQ7kNvwG7zlHU&_nc_oc=AdoqjD7Y2oZgGXIzH12ef-kint2-80-aVBR7afNWwIs76810N_jKnqGA6BY4gscNsvg&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=U_IX5Thvimj79g-YvuW7MA&_nc_ss=7f289&oh=00_AQKyuQR9Cb1lcO6ImrEpbDdPtEK_nNmgT0yU9NQkDc1avw&oe=6AAA32A1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0H8tgmTcGUPntU2fz7uQsh15uQdHZGv1o11YWcYakJSpVerokknEFrrXU97rotQX8l?__cft__[0]=AZiEFAwyZtiUM7N80sLbANdJhIA5KyZK2ZlSrEHpPwy6CnXUfP8OFWP7jkUWiwmwldsRjrSe7_jk72gTrRQk6JQ-5peCcn9I35zRoKmjPpgTFXWa34Yh8IaOX5zFfIpq8LFyG9UUUagQc8RO5E2wSbbVFKKYIjfAqN4s00m-p23fSnj9TDnPZEcKTjg&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "7 h Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -988,13 +989,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JxmqrdlzT90Q7kNvwE1tPxY&_nc_oc=AdrrTd7Cyd2FcXyIwT9yhWaPIQjlSnF7UBqttdPK3AKJY0XsxOhLP-5bA3kn-IXrEQA&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=Wu_12O2XSpnO1w5EuRm0Ow&_nc_ss=7f289&oh=00_AQKp_W_ABpfOQAQkDy-FeF9xxU0a1wYQtm304BQL-cC5WQ&oe=6AAA50EA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02jvqnfEUNehMsjtFyZMdnwwsPjEDnBri1oDgmHBwUXumsosMX9jzsqt67ZG9ER2bZl?__cft__[0]=AZh2-NQ2ptex4htIvDmah0Ht_Nkn-v_XfQZY2_eWcxrI2k3X-xWDYoD3hIpjE8WuhI2Jb_Ga0bbJIqoK6rXpQHLPeEznVYsB4r9uMNnoYeUzYpZUP_W6gmsE7zX1yNQPX0pQBX7Hda8nR_gUrmJGQfVB4FdKuwLslAP302rEAMmL_8bWbMPLhnaF4Ws&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Tarija reflexiona sobre su historia en el marco del Bicentenario… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1005,22 +1015,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nUUCOoEuSg4Q7kNvwEXmiTw&_nc_oc=AdpDyrbbmvKMlxG8mZUvSFH0Gq5gP-Xg0X3DKdIqC-hDW9IKk71CSE-JInhERMSUPkU&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=jHZEO5jqOmumf_zs9nSM7g&_nc_ss=7f289&oh=00_AQJaBkDIMVlrH7U7O6FQoLFL-iUsr2esml1lYwJgaiQHfw&oe=6AA9FB34",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid0DVngNU4p6YSNowR8kfC6BuHHMG9j726nBNeP4ocC49NZwLHmBSAvDSs12AyjsSCQl?__cft__[0]=AZgLTdOcTJ19C6UaaxJXnV_uwW4KUsMmOssXeXXWHJHrPGoVbnAOjePPAMSF9dkiLcBeiQk9UAh_mg8PqrVDo2wtMKPgm_b56OA3YrB5a67Z7-5WqcD3bTzf_8-x8j37ibJo7JJU5bbmi8smR3lN99EzjH47jLAfDS0ZQ1pgKadOw4qDpi1xyeRkIr0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Cultura | 𝗢𝗣𝗘𝗥𝗔 𝗘𝗡 𝗩𝗜𝗟𝗟𝗔 𝗔𝗟𝗕𝗜𝗡𝗔 La música y la natu… Ver más #Cultura | 𝗢𝗣𝗘𝗥𝗔 𝗘𝗡 𝗩𝗜𝗟𝗟𝗔 𝗔𝗟𝗕𝗜𝗡𝗔 La música y la natu… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1031,13 +1032,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lT3v2BRYwVMQ7kNvwGcuL6V&_nc_oc=AdqhuRm4VFlqea0MOizG-s9Wqx9SF2xQNndDY3G8bf0OWpv4jVhPw-o38MVLQz6HJjQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=B4eRJx4j6dvaxNK4ig1-rw&_nc_ss=7f289&oh=00_AQKCsoGCePhUZbQ7Qu_Xy8LKAACTZ6cUw1mztzUtbOyu7g&oe=6AAA3CCF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1618843439762897/?__cft__[0]=AZhXUlaDHy4qUtt4kf6ce44zt1Dh6R3h6X3lYdyrl5sQtSyp9D47RI8lIFVpP3oe5vsANtvizuCLAVzMUlTyTIKo-vq-5fExwQse4zTNCGey_AMDqN9VgghPHhuUCYx5JbQ4y7clfkXqpRkPhJnA56jEiV8SynzwbhwazmnDh7CL84boybp1Brht_07BezyCXT9O&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡LAS LENGUAS EUROPEAS TOMAN LA PAZ! Este sáb… Ver más ¡LAS LENGUAS EUROPEAS TOMAN LA PAZ! Este sáb… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1431,7 +1441,7 @@
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 18,
+          "score": 25,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1439,7 +1449,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 16,
+          "score": 9,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1447,11 +1457,11 @@
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 18,
+          "score": 5,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Posesionan al Alto Mando Policial; estos son los nuevos comandantes y directores Ver más 2 Odebo exige compromiso gubernamental para organizar los Jueg"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Intervención revela que YPFB gastó Bs 470 millones en \"bunkers digitales\" sin un sistema para rastrear el combustible Ver más 2 Gobierno se compromete "
         }
       ],
       "error": null
@@ -1551,8 +1561,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 33,
-      "events": 33,
+      "raw_items": 31,
+      "events": 31,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1585,8 +1595,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1619,8 +1629,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 45,
-      "events": 45,
+      "raw_items": 41,
+      "events": 41,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1653,8 +1663,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
