@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T19:13:02-04:00",
+  "generated_at": "2026-09-11T00:43:07-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 68.6,
-    "horas_maximo_sin_datos": 520.0
+    "horas_promedio_sin_datos": 65.4,
+    "horas_maximo_sin_datos": 525.5
   },
   "sources": [
     {
@@ -27,22 +27,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=37rFyv9iDcMQ7kNvwEPdRPa&_nc_oc=AdqFaUZtt6n9fEXyc_JAdCgbNIuBf3_OSL3R_1vY8NpK2a4s5vMz-66eUMGV1ydoMvs&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=y63dJQzWq7jRubg8E1Znmg&_nc_ss=7f289&oh=00_AQJyIB2-e6SnnOqki4E-3L529PZ5WYOaN23U12Q2PNyE3w&oe=6AA8FE5A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02P4FHQBxRzfuujQNup5VbhLpe63AZKyjVuZwhbGSL8aP5LZqEocXoafhyGdNVLF7Ll?__cft__[0]=AZjuCy2397tcfw0fkgGkYhSmA-gEP1TnHI_-sakhhlyjFUUhDuaf1paqgth6kYzlAWCMG0JNnsNHbsaYRZ6I_yrFdG21Rr1iSJQ6ho_PR9FsvjNh5NwDJ9HH-gElzL96ByqyWRSOd8ipRzf_xCg71EzmbgocAZPVQMTz4LYZO138_NjbMbXl_j2-onU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡FALTAN POCOS DÍAS PARA CELEBRAR 25 AÑOS DE MÚSICA CON YARA! Una… Ver más ¡FALTAN POCOS DÍAS PARA CELEBRAR 25 AÑOS DE MÚSICA CON YARA! Una… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -478,13 +469,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nf6Pntw3olMQ7kNvwHU7oMi&_nc_oc=Adrg1nEugdrTs9_84M4wVObAz1mZ-hQecx_A5vpe8dyauP7h0oTVd874JvlNuWUfHJ4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=kj0r6yg28mIF0hLKqFbUJg&_nc_ss=7f289&oh=00_AQK4rovD0u6hPflr-N8W0ZD3cmwHIPfifahyQjrTNGZzpQ&oe=6AA962C2",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid0ZxaJk6QnXgaMw4uzg5ENPvqs2Ewg7JxCBVQpgkFjNcHagRg5wSYFkpqRHBz3wsjTl?__cft__[0]=AZj3cFZswJhyhwCXMVRltkYh2fUwgI4JLu3ehPIyXcvFAxcRL5cKjUPJoWu94SZ3PVN7ucfYvxd7hN2LKlIUkLe0QJNXsszzS5opzHQk-vNZPxO4W1orGNEcDEdYni9rGz17T_-5G63Ak0Ud6OmuFu0XKLLGN9LfgjKvNRWNB4xLKxmPqs7zuiSVrNs&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Argentina UBA presenta guía para prevenir el suicidio en jóvenes y alerta que la letalidad de los intentos es cinco veces mayor en varones… Ver más #Argentina UBA presenta guía para prevenir el suicidio en jóvenes y alerta que la letalidad de los intentos es cinco veces mayor en varones… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber_radio",
@@ -631,30 +631,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kKpop3tATJIQ7kNvwGvFIFZ&_nc_oc=AdoJgp-Z9nJns0QmJ0Rr1o6FXoMODk9Wr2aagvOPfMIA17uMKQ4sKaBoIWxFjFcwdcw&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=wlItPy28fJ8O-dWcXY6QXw&_nc_ss=7f289&oh=00_AQJ2GC9qKhnRgBjeCvobO3JcrbuFych0gXOE2ozOxp7EwA&oe=6AA8EF8F",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 42,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/conferencia-de-prensa-restauraci%C3%B3n-de-cubiertasla-casa-nacional-de-moneda-realiz/1523687006465717/",
-          "has_image": true,
-          "text_preview": "CONFERENCIA DE PRENSA | RESTAURACIÓN DE CUBIERTAS La Casa Nacional de Moneda realizó una conferencia de prensa para informar sobre el inicio de las obras de “Restauración de Cubiertas en Casa... CONFERENCIA DE PRENSA | RESTAURACIÓN DE CUBIERTAS La Casa Nacional de Moneda realizó una conferencia de prensa para informar sobre el inicio de las... CONFERENCIA DE PRENSA | RESTAURACIÓN DE CUBIERTAS La C"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid02W4Q83upGbsWq5ihpP4ezQBTqTmSnkovKykz8FPoqMjF99dGT9uSJXNZhrnurPy48l?comment_id=28381522188164382&__cft__[0]=AZgbcw8pMXaIQUQHSQvAOyFCc7O0mfBdn9Pe9BJJlT9x8SEephU7ihcQVOf8zzgd2T-1asYGjhZQGwpaip4JzM7fINZnbFGj43O9XHtIPuEWciTLQpHCanPj0LZT-4d-ddWve4bYm16xSfx1Uqs2C_A3kklwzvyNzZGBjDD6GHxlP4O-Fao8ORInfZ4&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Que buena obra de restauración en casa de Moneda ícono de Potosí, gracias por todo su trabajo que será realizado allí Dr. Daniel Oropeza, no es fácil requiere supervision y continua y pasiencia, pero se logrará con todo el personal q tmb, trabajará f… Ver más Netzy Avilés"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -682,13 +665,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VVwNQMlfqokQ7kNvwHL7i7q&_nc_oc=AdpZIwDV5xk7MUzwHjyoeQnDtdURSyiCLft5p3qbB5adBBE41N2muBV1bklh13wkwKk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=7sY1NgI5H7oidqBKXQHEow&_nc_ss=7f289&oh=00_AQLOnnLJ25VDCY7VNGE7WBD0vow3kZhzauvpyGftIZ5lzg&oe=6AA96AB8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "festival",
+          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/posts/%F0%9D%97%9C%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%BA%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%BA%F0%9D%97%BC%F0%9D%98%80-%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%97%B3%F0%9D%97%B6%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81%F0%9D%97%AE-%F0%9D%98%86-%F0%9D%97%B0%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%B1%F0%9D%97%AE%F0%9D%97%BA%F0%9D%97%BC%F0%9D%98%80-%F0%9D%98%81%F0%9D%98%82-%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B4%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%B1%F0%9D%97%AE%F0%9D%97%B1-para-que-disfrutes-cada-detalle-de-/1525310022959443/",
+          "has_image": true,
+          "text_preview": "¡𝗜𝗹𝘂𝗺𝗶𝗻𝗮𝗺𝗼𝘀 𝗹𝗮 𝗳𝗶𝗲𝘀𝘁𝗮 𝘆 𝗰𝘂𝗶𝗱𝗮𝗺𝗼𝘀 𝘁𝘂 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱! 💡✨ Para que disfrutes cada detalle de nuestra entrada folklórica con la mejor visibilidad, la Dirección de Alumbrado Público ejecuta los trabajos... ¡𝗜𝗹𝘂𝗺𝗶𝗻𝗮𝗺𝗼𝘀 𝗹𝗮 𝗳𝗶𝗲𝘀𝘁𝗮 𝘆 𝗰𝘂𝗶𝗱𝗮𝗺𝗼𝘀 𝘁𝘂 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱! 💡✨ Para que disfrutes cada detalle de nuestra entrada folklórica con la mejor visibilidad, la Dirección de... ¡𝗜𝗹𝘂𝗺𝗶𝗻𝗮𝗺𝗼𝘀 𝗹𝗮 𝗳𝗶𝗲𝘀𝘁𝗮 𝘆 𝗰𝘂𝗶𝗱𝗮𝗺𝗼𝘀 𝘁𝘂 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱! "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_oruro",
@@ -699,22 +691,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/693488690_1306639851654691_8009211632152824782_n.jpg?stp=dst-jpg_tt6&cstp=mx1344x1344&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mKSHlcGSKLEQ7kNvwE4vYzU&_nc_oc=AdpBgiYEt3F2yAEYcq4N3xcJzDP-TF4Qar50IToqn0g7xvnpmM4XbRRF9y9ui0reW6k&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=we_8kIMJSrHKgOg3U_ZDfA&_nc_ss=7f289&oh=00_AQIcu8arw8z7PfB8G11aLXX7YhbSpghip2SUNxnDiKwE6A&oe=6AA8F4EF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 40,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1613649677019239/?__cft__[0]=AZh77ZG5Qzpm0f2ULDRVUb3OA7vJiwXE4agIrVK7GHKOob-gHssh5Qm1U_KERiVxSbUSaxJSA1EPtMQ_4CW_IbFfpcTCmMLNV-z1_BNEWdwZnSRagWbY9UB769zolEqM_Bj1wjHnT5UDs2EjJDZ2KFASS_SiIdzfTlo39yUgRIXwrWzUjIqGlb7Vczk8QAtr8aX_&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡ATENCIÓN, VECINOS Y VECINAS DEL SECTOR DE SAN JOSÉ! Del 14 al 18 de septiembre, llega la Campaña Gratuita de Esterilización Canina al sector San José, frente a … Ver más ¡ATENCIÓN, VECINOS Y VECINAS DEL SECTOR DE SAN JOSÉ! Del 14 al 18 de septiembre, llega la Campaña Gratuita de Esterilización Canina al sector San José, frente a … Ver más Tenemos problemas para reproducir este video. Más informac"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_tarija",
@@ -776,13 +759,13 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9rwom5xdOSoQ7kNvwGzDz9y&_nc_oc=AdpvnTyeVcTR1Y4O_crYl2abqBcyapw56eSGQ5HdmsrFo3Pe6v-WW8V7kLZPW5Ae1-8&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=W9ffVi8ghgsaigjGlYNTzQ&_nc_ss=7f289&oh=00_AQJpFLh0_w9E1nSrhgiXtqV275YinnYD8OSigAXoIT8atA&oe=6AA95FEA",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -827,22 +810,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=g69MNqADQBMQ7kNvwESWuXD&_nc_oc=AdomEle60vF9KanD4Zw9PymXAvRGiNJOB43OlDcCiQSijQP8FFO5I2zdrOHqJqFOXzY&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=4oXa0uL1sJVHgcloVjNwXA&_nc_ss=7f289&oh=00_AQLr0CeDOaQZ01PTdBDjv4yRiX1JFuqAB01SSmvM9JvETQ&oe=6AA8FE27",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1396117441932135/?__cft__[0]=AZgk8N19PmqgBFAKR3BbY0OXMKcQXN1-1LI4-8RZ48NVE7OhiV0ASC3nOMy5pLKg0T7rjos6dYY-cFMYlZfAVNszbbGoVwfjJbsKJJFKTLgUJzzSFuw724tUfN0tK5fvjdpt2UYFrdLOYhnmX7YY5RbXdzz-ObAcmnEJAAfr3bQgm9L1b-9777WjzeH6ljb2WWO2&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "SETAR garantiza que la tarifa domiciliaria no subirá con el nuevo Estudio Tarifario… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_pando",
@@ -1108,13 +1082,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=43W4QEXILC8Q7kNvwFZq6OP&_nc_oc=AdqXdmaANUfuRd-0YDKjCvkeLeQ6rwcMvHpiCgQXtKN_9B6ggP-IE6C3BOPDUfpOW48&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=K1quB-PrTDJKAtU7o-y3-w&_nc_ss=7f289&oh=00_AQIrYl8AX5ZUsenzaqKeB252G4akYN0ESOEw_LjDP9ORdw&oe=6AA9576F",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1452,9 +1426,17 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
+        {
+          "reason": "tema_ajeno_a_eventos",
+          "score": 36,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "10/09/2026 Tecnología Claves para crear la foto más realista de cómo me vería en los años 80 con IA Convertir una fotografía actual en un retrato con estética de los años 80 se convirtió en una de las tendencias más populares dentro de las herramientas de... vista 08/09/2026 Tecnología Qué celulares Android y iPhone quedarán sin la aplicación de Netflix Netflix dejará de funcionar en una amplia ga"
+        },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 8,
@@ -1465,19 +1447,11 @@
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 50,
+          "score": 22,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Paz pide a la Fiscalía investigar un posible \"atentado\" en Viacha Ver más 2 Posesionan al Alto Mando Policial; estos son los nuevos comandantes y direc"
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 48,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Atracan una joyería en un centro comercial de la avenida Pando, en Cochabamba Ver más 2 Gobierno se compromete ante el FMI a eliminar la subvención de "
         }
       ],
       "error": null
@@ -1535,31 +1509,31 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
+      "raw_items": 39,
       "events": 0,
-      "rejected": 40,
+      "rejected": 39,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/d32e4bcc-c03f-4a8d-878d-45fd7cc3efe7",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2015a766-15e6-49c3-82a1-4ffe4462789e",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/de843f94-9d29-498c-a7b7-3896b8835e1c",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/7893d633-d5b5-4bd5-9ab6-5d9e6b415179",
           "has_image": true,
           "text_preview": ""
         }
@@ -1577,8 +1551,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 30,
-      "events": 30,
+      "raw_items": 33,
+      "events": 33,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1611,8 +1585,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1645,8 +1619,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 42,
-      "events": 42,
+      "raw_items": 46,
+      "events": 46,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1756,8 +1730,8 @@
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
       "raw_items": 9,
-      "events": 3,
-      "rejected": 6,
+      "events": 2,
+      "rejected": 7,
       "rejected_samples": [
         {
           "reason": "sin_senal_de_evento_en_el_texto",
@@ -1821,13 +1795,38 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "The read operation timed out"
+      "icon_url": "https://sucre.bo/wp-content/uploads/2026/05/header_web_2026.png",
+      "status": "ok",
+      "raw_items": 4,
+      "events": 1,
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "deporte",
+          "url": "https://sucre.bo/espectaculos-publicos/",
+          "has_image": true,
+          "text_preview": "Inicio / ESPECTÁCULOS PÚBLICOS ESPECTÁCULOS PÚBLICOS La Unidad de Espectáculos Públicos del municipio de Sucre procedió a intervenir la fiesta de un matrimonio por exceder el número de invitados, no cumplir normas de biosefuridad y la presencia de niños en esta actividad social, habiendo incumplido las ultimas disposiciones del COEM asi lo afirmo Wilma Bejarano responsable de la unidad de Espectác"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "deporte",
+          "url": "https://sucre.bo/direccion-de-gestion-de-recursos-humanos/",
+          "has_image": false,
+          "text_preview": "Inicio / DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS xoso tin chelsea thông tin chuyển nhượng câu lạc bộ bóng đá arsenal bóng đá atalanta bundesliga cầu thủ haaland UEFA everton xoso futebol ao vivo futemax multicanais onbet https://bsport.fit https://onbet88.ooo https://i9bet.biz https://hi88.ooo https://okvip.at https://f8bet.at https://fb88.cash https://vn8"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "turismo",
+          "url": "https://sucre.bo/secretaria-municipal-turismo-cultura/",
+          "has_image": false,
+          "text_preview": "Inicio / SECRETARÍA MUNICIPAL DE TURISMO Y CULTURA SECRETARÍA MUNICIPAL DE TURISMO Y CULTURA DIRECCIÓN: Calle Argentina Nº 65 TELÉFONO: 64-69160 SECRETARIO : Lic. Oscar Alfaro Vega ￼ OBJETIVO GENERAL: Posicionar al Municipio de Sucre como el principal referente turístico y cultural del país en el marco de su riqueza patrimonial, histórica, arquitectónica, cultural, paleontológica, gastronómi"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_pando_oficial",
