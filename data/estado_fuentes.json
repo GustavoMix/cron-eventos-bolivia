@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T11:34:18-04:00",
+  "generated_at": "2026-09-12T16:35:50-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,12 +11,11 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_museo_nacional_arte",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 62.4,
-    "horas_maximo_sin_datos": 560.4
+    "horas_promedio_sin_datos": 61.8,
+    "horas_maximo_sin_datos": 565.4
   },
   "sources": [
     {
@@ -147,30 +146,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sBGFHFgJet4Q7kNvwFihUiE&_nc_oc=Adrqjm6ZJ4hZ_SBywaCpmKCGfqrq_hVULw2nOd9XhFAD7qALETVJQjD27oIhs2vbSvg&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=UCr03eh8SfrkrRMuPJbWkQ&_nc_ss=7f289&oh=00_AQL6R23eUL5hQTfPCFSPjfJvA6j7k6T6Wbd065yErVstYw&oe=6AAB5137",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0j1DmAwoCFpVHWwc59Rrqw4fTpjpVcg4Rh8eL1DXxs99bUa8ZekZsgGsDq12pwAjFl?__cft__[0]=AZgxktUXhjK_G0CY7H01XCKAZY8rWOlDmkUFA1YSniIeiNS3TLMk7pDg7grvU24XlmrpAfIq8cjG6WHf9sbKzqBYxh0qQs8SwmIOxz8GH2Ue6h2MkFWlTSQWjK7F47eVydByRVu0kPkTFjVH92oCllu0ArUBf9otYqwereBqZhFOpOzZdHHbQIqWp18&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#AMUN | Cero corrupción: Justicia determina detención preventiva para implicados en presunta estafa por venta de cargos en la Alcaldía de La Paz.… Ver más Identifiquenlos Ver más comentarios Roly Gutierrez Marco - Copes"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0j1DmAwoCFpVHWwc59Rrqw4fTpjpVcg4Rh8eL1DXxs99bUa8ZekZsgGsDq12pwAjFl?comment_id=2499091617185298&__cft__[0]=AZgxktUXhjK_G0CY7H01XCKAZY8rWOlDmkUFA1YSniIeiNS3TLMk7pDg7grvU24XlmrpAfIq8cjG6WHf9sbKzqBYxh0qQs8SwmIOxz8GH2Ue6h2MkFWlTSQWjK7F47eVydByRVu0kPkTFjVH92oCllu0ArUBf9otYqwereBqZhFOpOzZdHHbQIqWp18&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Identifiquenlos Roly Gutierrez Marco - Copes"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -606,13 +588,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LyjZOKrOAJAQ7kNvwGPUdS6&_nc_oc=AdoGusFfklqMGKxlaAiDpWArHfU0NB-O1i2qJZSmzc28NL3xboRN_W-mp_cuCDL-QrM&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=NOGltc_7zuYk2CUxFIsx6Q&_nc_ss=7f289&oh=00_AQI3UuqMueVZ-dAfFQTZG0bsUSp4NSuayAGSwrCHWadCLA&oe=6AAB8DC0",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Arte - MNA 38 mil seguidores • 137 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede debers'"
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -912,22 +894,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kZ_4N6ms028Q7kNvwE4sWUF&_nc_oc=AdrD8Sl5JgdeY8GtT927t6oEHJcdwAA0j7hhGd0tEgVbj8iD3Ef4bsTid43n-cn73-A&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=oyuF9jrBmbyPYxW_UBECnA&_nc_ss=7f289&oh=00_AQIliuu0P7bZP8VphxCKC5wDlR4XCNuKWDFvRBS2rVjODg&oe=6AAB50C7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid02knCqgqcWGuTYod3UXX7UrufH3ZXfiLL1dj7rvF4Hx1zrAy16w8LP6fsqACm5sZ99l?__cft__[0]=AZjAEZ6AyRD3pIGQV_EBDpnemGWzBB3IwQjjeFk1ItWZ97I-vE_wm3ByKXjg0MD0t2MQvwiaBAf-GVeH9rEd2hdNUi45T_auGLwEzdL1H9vot5jW3B0fFdowp-MpMCl-jDkeYFhZ57hxO2eqeG0WPwZkptsDWgMcvIWwrYQZrHSq2bb7Ynd_UyfuDXA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Seguimos creando espacios de encuentro entre la educación, el arte y la cultura.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -955,13 +928,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4jWjikFWxfAQ7kNvwFsioI_&_nc_oc=AdpmLrf6pXdeeWCnoWkUy1E6ZUJcN_szW76QUM5GpNY3b1QYH0n7dD7m3idM1ur-EFo&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=S9EtwQC5ivIkobm_lD6mgw&_nc_ss=7f289&oh=00_AQJEEInkJoOAvfJb1zWIyYqSgSWYS_auWS35dihECpkJZw&oe=6AAB7B87",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1154488494217610/?__cft__[0]=AZjBDay7vJXvNORYPQNToUjYSVdpM7vn4-Euf0vtWHIbYRv0a50Q1zi4ub0QRB11bGnpio1C0n_2RbM7uL2qVrwyLp809IHTKPbkvGWXSRjEK9gssJowj__C9YiReyrVg-4KC5zOjxVnWCmhfj74pEUx-n5aAvch5QaRSLu1s2Qvo1fqAOsH1bhazHbtY3_u6pZe&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡𝐂𝐨𝐜𝐡𝐚𝐛𝐚𝐦𝐛𝐚 𝐜𝐞𝐥𝐞𝐛𝐫𝐚 𝐞𝐧 𝐠𝐫𝐚𝐧𝐝𝐞! Qkumbion, estará presente… Ver más ¡𝐂𝐨𝐜𝐡𝐚𝐛𝐚𝐦𝐛𝐚 𝐜𝐞𝐥𝐞𝐛𝐫𝐚 𝐞𝐧 𝐠𝐫𝐚𝐧𝐝𝐞! Qkumbion, estará presente… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -1074,30 +1056,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Yo1t6_sATPMQ7kNvwEkB8CD&_nc_oc=Adqx1juyadJxIl-5JaTYK9RQqecqQM_DgOQ6fABXjc1pU8PBhMLimnzY1xNhITE2zdw&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=TJwkcRPYqI2VWKhUMgyJ4Q&_nc_ss=7f289&oh=00_AQILIxtKyMddEDD92l1kJCOr3PGJU39_flYTa58-Uzzoiw&oe=6AAB3852",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid02M4GRjRhykKvsvVu63wuRJaKEhmAvEbKURARg5ZnxSxgUm1oYxDbhmZRQtt9qDFJQl?__cft__[0]=AZinCtNemqIsNehNClIP19iz0CZrKCzcoBtU3S4nk_LX0fSQvnnW1XZJGU3DvUT3UyjEpGpqn4ZkvaQntLkuzU0zB6VprVT5jLoBiSBLd7fhQpILUXPlEwmx6v1Z2y5SAvbtZBwV6ScURB8mmpyw6Gp2rLIxmsizZQ8kwpmqXultitfLUXCf5faAP5c&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid02M4GRjRhykKvsvVu63wuRJaKEhmAvEbKURARg5ZnxSxgUm1oYxDbhmZRQtt9qDFJQl?comment_id=1079850634463156&__cft__[0]=AZinCtNemqIsNehNClIP19iz0CZrKCzcoBtU3S4nk_LX0fSQvnnW1XZJGU3DvUT3UyjEpGpqn4ZkvaQntLkuzU0zB6VprVT5jLoBiSBLd7fhQpILUXPlEwmx6v1Z2y5SAvbtZBwV6ScURB8mmpyw6Gp2rLIxmsizZQ8kwpmqXultitfLUXCf5faAP5c&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1193,13 +1158,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/791477565_1093784559902436_1122510819657018021_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=E34S7fnnWGoQ7kNvwHgiPRa&_nc_oc=AdoRPtBb_vVfkoxGVlSlGZaxpRLpU5epR-XPMwBGxEjdcHqtLyNAkOPoyXavXhOq7Mg&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=6khd1uNzDUARCAbg-whm1w&_nc_ss=7f289&oh=00_AQKubxNR301bdDW-2b9t7RIRK1IoMyNzFz24FXWeNM8ogg&oe=6AAB9F94",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid02p4ZKv67gRSQD2EWvGp6nndbqYKaRM6ktibyPny2aykayyjCVq9fXR1cjGk9xH1ATl?__cft__[0]=AZjRBSuD-hBXhmYyEZjoRdhm1Mjo22opTxkC-CKw3qCMg6wOaTP8B-gkWl23vjCA7eQdevxuILXJcBW39WxNOTZ5HYmOAyUWuUvgPSkBAE9ybOjyVEgjJtHGpaggAm2uaSYLHXcAxUQJ8ORgxp4ziLlH_GfdnVfNjNUSrMMwWWYJjL7KcdWh6pZaV2W8PIOkcvoz6n4f42gWMeJeWi4&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "El rector de la UAGRM, Reinerio Vargas, explicó que la propuesta presentada ante el Senado busca modificar parcialmente cuatro artículos de la Constitución para que gob… Ver más Tenemos problemas para reproducir este video. Más información EL DEBER 1 día ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umss",
@@ -1227,13 +1201,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/806050506_2338203763658000_1257151465380045601_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pDBI5rio4NIQ7kNvwEj2VCO&_nc_oc=Ado7h6qei6dRmYeqtDc2fPCsvKaQf0EAjwhc_00eR4Qtkvb3r8z99rQmhltw_XuvCvU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=6yJ6y0dkOBv9wvLkfsECVQ&_nc_ss=7f289&oh=00_AQJmd_ajQqkkApdssSwK0k7bFM2imBTWaMtSlRQ91252jg&oe=6AAB9EBD",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 36,
+          "category": "concierto",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/encuentro-nacional-de-talleres-de-danza-folcl%C3%B3rica-ucb-s%C3%ADguenos-en-la-transmisi%C3%B3/1533887825449844/",
+          "has_image": true,
+          "text_preview": "Encuentro Nacional de Talleres de Danza Folclórica U.C.B. ✨ Síguenos en la transmisión en vivo por TikTok ¡No te lo pierdas! https://vt.tiktok.com/ZS9SQJPgT761F-TWtFV/ Encuentro Nacional de Talleres de Danza Folclórica U.C.B. ✨ Síguenos en la transmisión en vivo por TikTok ¡No te lo pierdas!... Encuentro Nacional de Talleres de Danza Folclórica U.C.B. Síguenos en la transmisión en vivo por TikTok "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_upsa",
@@ -1473,11 +1456,11 @@
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 35,
+          "score": 49,
           "category": "festival",
           "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB 2 Municipios de Cochabamba acuerdan con la UPRE priorizar obras para 2027 Últimas"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB 2 Municipios de Cochabamba acuerdan con la UPRE priorizar obras para 2027 3 Lluvi"
         }
       ],
       "error": null
@@ -1577,8 +1560,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 34,
-      "events": 34,
+      "raw_items": 46,
+      "events": 46,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1611,8 +1594,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1645,8 +1628,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 45,
-      "events": 45,
+      "raw_items": 42,
+      "events": 42,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1679,8 +1662,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 15,
-      "events": 15,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
