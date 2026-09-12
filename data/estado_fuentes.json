@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:35:50-04:00",
+  "generated_at": "2026-09-12T19:06:13-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 61.8,
-    "horas_maximo_sin_datos": 565.4
+    "horas_promedio_sin_datos": 59.3,
+    "horas_maximo_sin_datos": 567.9
   },
   "sources": [
     {
@@ -95,13 +95,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=O8Ot653uRSMQ7kNvwGIHLJ9&_nc_oc=AdqmcB3xcADMNHdZ3eYGh0gFCmEnioRujiHeRbMAa2kSfgLEwY5T92OXedGX3frUO04&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=--qZTsAQWcp7FpWQW5n63g&_nc_ss=7f289&oh=00_AQJCHuntHvNkcM2zxysHcG5jwuwSqvpSTTmdzpWL5hIJ4Q&oe=6AABC350",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 42,
+          "category": "feria",
+          "url": "https://www.facebook.com/Fexpocruz/posts/fexpocruz-es-reconocida-como-dep%C3%B3sito-aduanero-ferialal-cumplir-con-las-exigenci/1474779798017183/",
+          "has_image": true,
+          "text_preview": "FEXPOCRUZ es reconocida como Depósito Aduanero Ferial Al cumplir con las exigencias de Infraestructura y Servicios estipuladas en la Ley Nº 3162 de Promoción de la Actividad Ferial y de... FEXPOCRUZ es reconocida como Depósito Aduanero Ferial Al cumplir con las exigencias de Infraestructura y Servicios estipuladas en la Ley Nº 3162 de... FEXPOCRUZ es reconocida como Depósito Aduanero Ferial Al cum"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -588,13 +597,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LyjZOKrOAJAQ7kNvwGPUdS6&_nc_oc=AdoGusFfklqMGKxlaAiDpWArHfU0NB-O1i2qJZSmzc28NL3xboRN_W-mp_cuCDL-QrM&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=NOGltc_7zuYk2CUxFIsx6Q&_nc_ss=7f289&oh=00_AQI3UuqMueVZ-dAfFQTZG0bsUSp4NSuayAGSwrCHWadCLA&oe=6AAB8DC0",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -928,22 +937,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4jWjikFWxfAQ7kNvwFsioI_&_nc_oc=AdpmLrf6pXdeeWCnoWkUy1E6ZUJcN_szW76QUM5GpNY3b1QYH0n7dD7m3idM1ur-EFo&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=S9EtwQC5ivIkobm_lD6mgw&_nc_ss=7f289&oh=00_AQJEEInkJoOAvfJb1zWIyYqSgSWYS_auWS35dihECpkJZw&oe=6AAB7B87",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1154488494217610/?__cft__[0]=AZjBDay7vJXvNORYPQNToUjYSVdpM7vn4-Euf0vtWHIbYRv0a50Q1zi4ub0QRB11bGnpio1C0n_2RbM7uL2qVrwyLp809IHTKPbkvGWXSRjEK9gssJowj__C9YiReyrVg-4KC5zOjxVnWCmhfj74pEUx-n5aAvch5QaRSLu1s2Qvo1fqAOsH1bhazHbtY3_u6pZe&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡𝐂𝐨𝐜𝐡𝐚𝐛𝐚𝐦𝐛𝐚 𝐜𝐞𝐥𝐞𝐛𝐫𝐚 𝐞𝐧 𝐠𝐫𝐚𝐧𝐝𝐞! Qkumbion, estará presente… Ver más ¡𝐂𝐨𝐜𝐡𝐚𝐛𝐚𝐦𝐛𝐚 𝐜𝐞𝐥𝐞𝐛𝐫𝐚 𝐞𝐧 𝐠𝐫𝐚𝐧𝐝𝐞! Qkumbion, estará presente… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -971,13 +971,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8THb-WsW_QMQ7kNvwEIgTpb&_nc_oc=AdqQsmqItIanfxtUuTfL2JBvqdBzLFMNPs12J0iFXq-Hv_RNrNvd-QSMiGJzNFxGdr4&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=J5jXiln8_3zaK0RubqSfyw&_nc_ss=7f289&oh=00_AQLgsKQta4sYy0JoQ7NEdv6g3ULxfoI66hqJI1QQxH7skQ&oe=6AABA53D",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 50,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/CasaMelchorPinto/posts/los-esperamos/1429043579324101/",
+          "has_image": true,
+          "text_preview": "Los esperamos!! Los esperamos!! Hoy en #AquíEstoy recibimos al escultor Jorge Aranda, quien nos presentó “Materia en Movimiento”, una exposición que exploró cómo la materia, las formas y las curvas pueden transmitir movimiento y emociones. Conversamos sobre su proceso creativo, las historias detrás de sus esculturas y aquello que lo inspira a transformar la materia en obras que parecen cobrar vida"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1090,13 +1099,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QyFEUZvehIEQ7kNvwHCve05&_nc_oc=AdpnQ_xWR2QuzOvKcjigCx-nJv6gO3LrCVstSKd-7n6gMHT0AiMatkIrE3t1RhiO7ac&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=TRnQOxpCoMpJ69X-qm_S3g&_nc_ss=7f289&oh=00_AQJgnRogo2z5g0zNUNkwd2Lx6pTjm0H9JygyYrKzfCd0-A&oe=6AABAE77",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/museocasadelalibertad/posts/cdl-horarios-de-atenci%C3%B3n-en-casa-de-la-libertad-durante-los-d%C3%ADas-de-entrada-folc/1668344648634479/",
+          "has_image": true,
+          "text_preview": "#CDL | Horarios de atención en Casa de la Libertad durante los días de Entrada Folclórica de la Virgen de Guadalupe."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1141,13 +1159,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jZ42LSEZtqkQ7kNvwGx_86V&_nc_oc=AdqRVxIZ7lDa5ZOcOXxpkgTjqgEQBI5R2W0O5fT6eGY43pMYcyFMnwTsUOsfUhdT1jc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=UX9yjcpHwwtzLIflV4zvXA&_nc_ss=7f289&oh=00_AQKA2XH7lQZGqyiHlyC04PZm--AEg7lZG2VshFXUg2QjLw&oe=6AAB91A5",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1158,22 +1176,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/791477565_1093784559902436_1122510819657018021_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=E34S7fnnWGoQ7kNvwHgiPRa&_nc_oc=AdoRPtBb_vVfkoxGVlSlGZaxpRLpU5epR-XPMwBGxEjdcHqtLyNAkOPoyXavXhOq7Mg&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=6khd1uNzDUARCAbg-whm1w&_nc_ss=7f289&oh=00_AQKubxNR301bdDW-2b9t7RIRK1IoMyNzFz24FXWeNM8ogg&oe=6AAB9F94",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid02p4ZKv67gRSQD2EWvGp6nndbqYKaRM6ktibyPny2aykayyjCVq9fXR1cjGk9xH1ATl?__cft__[0]=AZjRBSuD-hBXhmYyEZjoRdhm1Mjo22opTxkC-CKw3qCMg6wOaTP8B-gkWl23vjCA7eQdevxuILXJcBW39WxNOTZ5HYmOAyUWuUvgPSkBAE9ybOjyVEgjJtHGpaggAm2uaSYLHXcAxUQJ8ORgxp4ziLlH_GfdnVfNjNUSrMMwWWYJjL7KcdWh6pZaV2W8PIOkcvoz6n4f42gWMeJeWi4&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "El rector de la UAGRM, Reinerio Vargas, explicó que la propuesta presentada ante el Senado busca modificar parcialmente cuatro artículos de la Constitución para que gob… Ver más Tenemos problemas para reproducir este video. Más información EL DEBER 1 día ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umss",
@@ -1201,22 +1210,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/806050506_2338203763658000_1257151465380045601_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pDBI5rio4NIQ7kNvwEj2VCO&_nc_oc=Ado7h6qei6dRmYeqtDc2fPCsvKaQf0EAjwhc_00eR4Qtkvb3r8z99rQmhltw_XuvCvU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=6yJ6y0dkOBv9wvLkfsECVQ&_nc_ss=7f289&oh=00_AQJmd_ajQqkkApdssSwK0k7bFM2imBTWaMtSlRQ91252jg&oe=6AAB9EBD",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 36,
-          "category": "concierto",
-          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/encuentro-nacional-de-talleres-de-danza-folcl%C3%B3rica-ucb-s%C3%ADguenos-en-la-transmisi%C3%B3/1533887825449844/",
-          "has_image": true,
-          "text_preview": "Encuentro Nacional de Talleres de Danza Folclórica U.C.B. ✨ Síguenos en la transmisión en vivo por TikTok ¡No te lo pierdas! https://vt.tiktok.com/ZS9SQJPgT761F-TWtFV/ Encuentro Nacional de Talleres de Danza Folclórica U.C.B. ✨ Síguenos en la transmisión en vivo por TikTok ¡No te lo pierdas!... Encuentro Nacional de Talleres de Danza Folclórica U.C.B. Síguenos en la transmisión en vivo por TikTok "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_upsa",
@@ -1628,8 +1628,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 42,
-      "events": 42,
+      "raw_items": 40,
+      "events": 40,
       "rejected": 0,
       "rejected_samples": [],
       "error": null

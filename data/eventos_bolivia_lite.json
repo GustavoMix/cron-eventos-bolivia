@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-12T16:35:50-04:00",
+  "generated_at": "2026-09-12T19:06:13-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 61,
+    "events_total": 62,
     "events_today": 16
   },
   "filters": {
@@ -88,6 +88,11 @@
         "count": 3
       },
       {
+        "key": "festival",
+        "label": "Festivales",
+        "count": 2
+      },
+      {
         "key": "nightlife",
         "label": "Vida nocturna",
         "count": 1
@@ -101,32 +106,27 @@
         "key": "conferencia",
         "label": "Conferencias",
         "count": 1
-      },
-      {
-        "key": "festival",
-        "label": "Festivales",
-        "count": 1
       }
     ],
     "cities": [
+      {
+        "key": "La Paz",
+        "label": "La Paz",
+        "count": 14
+      },
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
         "count": 14
       },
       {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 13
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 8
       },
       {
         "key": "Quillacollo",
         "label": "Quillacollo",
-        "count": 8
-      },
-      {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
         "count": 8
       },
       {
@@ -169,7 +169,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 13
+        "count": 14
       },
       {
         "key": "Santa Cruz",
@@ -216,17 +216,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 32
+        "count": 33
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 36
+        "count": 37
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 61
+        "count": 62
       }
     ],
     "price": [
@@ -238,7 +238,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 11
+        "count": 12
       },
       {
         "key": "por_confirmar",
@@ -250,7 +250,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 51
+        "count": 52
       },
       {
         "key": "con_video",
@@ -259,6 +259,16 @@
       }
     ],
     "tags": [
+      {
+        "key": "LaPaz",
+        "label": "LaPaz",
+        "count": 2
+      },
+      {
+        "key": "Cultura",
+        "label": "Cultura",
+        "count": 2
+      },
       {
         "key": "FEXPOCRUZ",
         "label": "FEXPOCRUZ",
@@ -285,13 +295,43 @@
         "count": 1
       },
       {
-        "key": "LaPaz",
-        "label": "LaPaz",
+        "key": "1495",
+        "label": "1495",
         "count": 1
       },
       {
-        "key": "1495",
-        "label": "1495",
+        "key": "UMSAesNoticia",
+        "label": "UMSAesNoticia",
+        "count": 1
+      },
+      {
+        "key": "UMSA",
+        "label": "UMSA",
+        "count": 1
+      },
+      {
+        "key": "UMSAsomosTodos",
+        "label": "UMSAsomosTodos",
+        "count": 1
+      },
+      {
+        "key": "EntradaFolklóricaUniversitaria",
+        "label": "EntradaFolklóricaUniversitaria",
+        "count": 1
+      },
+      {
+        "key": "PreEntradaUMSA",
+        "label": "PreEntradaUMSA",
+        "count": 1
+      },
+      {
+        "key": "ChachaWarmi2026",
+        "label": "ChachaWarmi2026",
+        "count": 1
+      },
+      {
+        "key": "Folklore",
+        "label": "Folklore",
         "count": 1
       },
       {
@@ -338,46 +378,6 @@
         "key": "ArteBoliviano",
         "label": "ArteBoliviano",
         "count": 1
-      },
-      {
-        "key": "RumboAExpocruz2026",
-        "label": "RumboAExpocruz2026",
-        "count": 1
-      },
-      {
-        "key": "Cultura",
-        "label": "Cultura",
-        "count": 1
-      },
-      {
-        "key": "FundaciónPatiño",
-        "label": "FundaciónPatiño",
-        "count": 1
-      },
-      {
-        "key": "Ml18Xb",
-        "label": "Ml18Xb",
-        "count": 1
-      },
-      {
-        "key": "MUSEFSucre",
-        "label": "MUSEFSucre",
-        "count": 1
-      },
-      {
-        "key": "Xilografía",
-        "label": "Xilografía",
-        "count": 1
-      },
-      {
-        "key": "TallerDeArte",
-        "label": "TallerDeArte",
-        "count": 1
-      },
-      {
-        "key": "CulturaViva",
-        "label": "CulturaViva",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -399,7 +399,7 @@
       {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
-        "count": 10
+        "count": 11
       },
       {
         "key": "ticketera",
@@ -422,9 +422,9 @@
     "today": [
       "evt_c183f2b7b229e8",
       "evt_46eadf6dd09226",
+      "evt_8db9f3debc8f1c",
       "evt_a07e75a33df86f",
       "evt_0add9b15be14ae",
-      "evt_8db9f3debc8f1c",
       "evt_1bdc650fb5976d",
       "evt_377447ae367ad5",
       "evt_7fb3a95289e9fa",
@@ -436,20 +436,21 @@
       "evt_4f6404c54c8bbf",
       "evt_49e4e672f923bd",
       "evt_e3a515ed063c1a",
-      "evt_ede3e9f3dc70fb",
-      "evt_5b69663635a037"
+      "evt_5b69663635a037",
+      "evt_ede3e9f3dc70fb"
     ],
     "tomorrow": [
       "evt_c183f2b7b229e8",
       "evt_46eadf6dd09226",
-      "evt_cf13b637da0fe4"
+      "evt_cf13b637da0fe4",
+      "evt_6f09b436043585"
     ],
     "this_weekend": [
       "evt_c183f2b7b229e8",
       "evt_46eadf6dd09226",
+      "evt_8db9f3debc8f1c",
       "evt_a07e75a33df86f",
       "evt_0add9b15be14ae",
-      "evt_8db9f3debc8f1c",
       "evt_1bdc650fb5976d",
       "evt_377447ae367ad5",
       "evt_7fb3a95289e9fa",
@@ -461,9 +462,10 @@
       "evt_4f6404c54c8bbf",
       "evt_49e4e672f923bd",
       "evt_e3a515ed063c1a",
-      "evt_ede3e9f3dc70fb",
       "evt_5b69663635a037",
-      "evt_cf13b637da0fe4"
+      "evt_ede3e9f3dc70fb",
+      "evt_cf13b637da0fe4",
+      "evt_6f09b436043585"
     ],
     "free": [
       "evt_50fb2be7443568"
@@ -480,8 +482,8 @@
       "evt_4f6404c54c8bbf",
       "evt_49e4e672f923bd",
       "evt_e3a515ed063c1a",
-      "evt_ede3e9f3dc70fb",
       "evt_5b69663635a037",
+      "evt_ede3e9f3dc70fb",
       "evt_fbb72036092517",
       "evt_8cb970f0050dc7",
       "evt_0cb40e07c1a65b",
@@ -498,27 +500,27 @@
   "coverage_by_department": {
     "La Paz": {
       "events_total": 29,
-      "events_upcoming": 13,
-      "events_with_image": 12,
+      "events_upcoming": 14,
+      "events_with_image": 13,
       "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 6
+      "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 37,
+      "events_total": 35,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 29,
+      "events_total": 28,
       "events_upcoming": 13,
       "events_with_image": 8,
       "events_with_video": 4,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 5
     },
     "Chuquisaca": {
       "events_total": 8,
@@ -526,7 +528,7 @@
       "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Oruro": {
       "events_total": 2,
@@ -572,7 +574,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 61,
+      "events_total": 58,
       "events_upcoming": 18,
       "events_with_image": 18,
       "events_with_video": 0
@@ -593,7 +595,7 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 20,
+      "events_total": 19,
       "events_upcoming": 11,
       "events_with_image": 11,
       "events_with_video": 0
@@ -614,9 +616,9 @@
     },
     "festival": {
       "label": "Festivales",
-      "events_total": 3,
-      "events_upcoming": 1,
-      "events_with_image": 1,
+      "events_total": 4,
+      "events_upcoming": 2,
+      "events_with_image": 2,
       "events_with_video": 0
     },
     "nightlife": {
@@ -740,6 +742,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_8db9f3debc8f1c",
+      "title": "Espectáculos",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-09-12T00:00:00-04:00",
+      "starts_at_ms": 1789185600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 12 de septiembre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/7/24/12_dc_cartelera_1_0.jpg?itok=9MQ7b8B8",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 11.53,
+      "currency": "BOB",
+      "price_label": "Bs 11.53",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_a07e75a33df86f",
       "title": "Espectáculos",
       "category": "deporte",
@@ -795,44 +835,6 @@
       "department": "Tarija",
       "venue": null,
       "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/805936798_2860411117691563_4288624665720095866_n.png?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LK2eZrSiz50Q7kNvwFGbGEh&_nc_oc=Adqp7mtt0V8Udgy3OPIKGRkacv7Lf1JraO3Y_b1KjibWLtY20pOBKFq6hi-EKAdyolY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=NB2noQuCAcAeuS1c_NynkA&_nc_ss=7f289&oh=00_AQLX3vCpIi1t4ruUL6JfvojFeCqGIhJbsibTSRh2QIhfWQ&oe=6AAA1A22",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [],
-      "formats": [],
-      "occurrences": [],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 51,
-      "is_featured": false,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_8db9f3debc8f1c",
-      "title": "Espectáculos",
-      "category": "deporte",
-      "category_label": "Deportes",
-      "starts_at": "2026-09-12T00:00:00-04:00",
-      "starts_at_ms": 1789185600000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Sábado 12 de septiembre",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Cochabamba",
-      "department": "Cochabamba",
-      "venue": null,
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/7/24/12_dc_cartelera_1_0.jpg?itok=9MQ7b8B8",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
@@ -1814,108 +1816,6 @@
       "source_count": 2
     },
     {
-      "event_id": "evt_ede3e9f3dc70fb",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-09-12T17:50:00-04:00",
-      "starts_at_ms": 1789249800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Sábado 12 de septiembre · 17:50",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/5/spider-man-un-nuevo-dia-47429.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "17:50",
-        "19:00",
-        "21:00",
-        "20:20",
-        "18:40",
-        "21:40",
-        "16:30",
-        "17:30",
-        "18:50",
-        "19:50",
-        "22:10",
-        "18:20",
-        "18:00",
-        "22:20",
-        "20:00",
-        "20:10",
-        "22:30",
-        "18:30",
-        "16:50",
-        "19:30",
-        "16:25",
-        "20:40",
-        "22:50",
-        "21:20",
-        "22:00",
-        "17:00"
-      ],
-      "formats": [
-        "2D - Doblada",
-        "DBOX - 2D - XD - Doblada",
-        "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada",
-        "2D - PRE - Doblada",
-        "2D - PRE - Subtitulada",
-        "2D - DBOX - Doblada",
-        "DBOX - 2D - Doblada",
-        "2D - Subtitulada"
-      ],
-      "occurrences": [
-        "2026-09-12T17:50:00-04:00",
-        "2026-09-12T19:00:00-04:00",
-        "2026-09-12T21:00:00-04:00",
-        "2026-09-12T20:20:00-04:00",
-        "2026-09-12T18:40:00-04:00",
-        "2026-09-12T21:40:00-04:00",
-        "2026-09-12T16:30:00-04:00",
-        "2026-09-12T17:30:00-04:00",
-        "2026-09-12T18:50:00-04:00",
-        "2026-09-12T19:50:00-04:00",
-        "2026-09-12T22:10:00-04:00",
-        "2026-09-12T18:20:00-04:00",
-        "2026-09-12T18:00:00-04:00",
-        "2026-09-12T22:20:00-04:00",
-        "2026-09-12T20:00:00-04:00",
-        "2026-09-12T20:10:00-04:00",
-        "2026-09-12T22:30:00-04:00",
-        "2026-09-12T18:30:00-04:00",
-        "2026-09-12T16:50:00-04:00",
-        "2026-09-12T19:30:00-04:00",
-        "2026-09-12T16:25:00-04:00",
-        "2026-09-12T20:40:00-04:00",
-        "2026-09-12T22:50:00-04:00",
-        "2026-09-12T21:20:00-04:00",
-        "2026-09-12T22:00:00-04:00",
-        "2026-09-12T17:00:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_5b69663635a037",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1948,6 +1848,93 @@
       ],
       "occurrences": [
         "2026-09-12T18:30:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_ede3e9f3dc70fb",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-12T19:00:00-04:00",
+      "starts_at_ms": 1789254000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 12 de septiembre · 19:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/5/spider-man-un-nuevo-dia-47429.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "19:00",
+        "21:00",
+        "20:20",
+        "18:40",
+        "21:40",
+        "18:50",
+        "19:50",
+        "22:10",
+        "18:20",
+        "22:20",
+        "20:00",
+        "18:30",
+        "19:30",
+        "20:40",
+        "22:50",
+        "20:10",
+        "22:30",
+        "21:20",
+        "22:00"
+      ],
+      "formats": [
+        "2D - Doblada",
+        "DBOX - 2D - XD - Doblada",
+        "PRE - 2D - Doblada",
+        "PRE - 2D - Subtitulada",
+        "2D - PRE - Doblada",
+        "2D - Subtitulada",
+        "2D - PRE - Subtitulada",
+        "DBOX - 2D - Doblada"
+      ],
+      "occurrences": [
+        "2026-09-12T19:00:00-04:00",
+        "2026-09-12T21:00:00-04:00",
+        "2026-09-12T20:20:00-04:00",
+        "2026-09-12T18:40:00-04:00",
+        "2026-09-12T21:40:00-04:00",
+        "2026-09-12T18:50:00-04:00",
+        "2026-09-12T19:50:00-04:00",
+        "2026-09-12T22:10:00-04:00",
+        "2026-09-12T18:20:00-04:00",
+        "2026-09-12T22:20:00-04:00",
+        "2026-09-12T20:00:00-04:00",
+        "2026-09-12T18:30:00-04:00",
+        "2026-09-12T19:30:00-04:00",
+        "2026-09-12T20:40:00-04:00",
+        "2026-09-12T22:50:00-04:00",
+        "2026-09-12T20:10:00-04:00",
+        "2026-09-12T22:30:00-04:00",
+        "2026-09-12T21:20:00-04:00",
+        "2026-09-12T22:00:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -1993,6 +1980,44 @@
       "director": null,
       "cast": [],
       "quality_score": 58,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_6f09b436043585",
+      "title": "Universidad Mayor de San Andrés - UMSA",
+      "category": "festival",
+      "category_label": "Festivales",
+      "starts_at": "2026-09-13T00:00:00-04:00",
+      "starts_at_ms": 1789272000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 13 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 1,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/806984551_2541925719648683_2916902800255677639_n.png?stp=dst-jpg_tt6&cstp=mx1024x1280&ctp=p600x600&_nc_cat=104&ccb=1-7&_nc_sid=b96d88&_nc_ohc=WgwVTaKz3PwQ7kNvwEC-pc2&_nc_oc=AdpG-YlGMdK_Nh0dD5q0VMKmNWtoQfpwOBZrXG3TlxSMvE4Qs3J5CTmW2Gao_dhW6ds&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=HVn5b4_y4O-LrM-QCCTUng&_nc_ss=7f289&oh=00_AQJ2lc0o5KZMtNiDdjpglmH4I5Lb0WoHoIncLdK2rdzK1Q&oe=6AAB9A9F",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
