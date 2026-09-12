@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:35:59-04:00",
+  "generated_at": "2026-09-12T06:48:27-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,11 +11,12 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_museo_nacional_arte",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 58.2,
-    "horas_maximo_sin_datos": 549.4
+    "horas_promedio_sin_datos": 61.5,
+    "horas_maximo_sin_datos": 555.6
   },
   "sources": [
     {
@@ -61,13 +62,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ER4GMsAu-qkQ7kNvwEnVByP&_nc_oc=AdoUZdbc41u6-i-qrjNFDolAVfMrZL4psYz5f-gJQsXS93ZEVovgAc6aOTIrKSYSnrc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=6X6qhjRxHlsgUJXe7mAFNw&_nc_ss=7f289&oh=00_AQJ6qCkVWLvaKEWuu488hzOdAFj6BBa_CtZGFgbvdEvVew&oe=6AAB1236",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZh9vtG8FQdpj0f8Pvllw2hmhoj-wfiKjPw_bu_NkbISl4RkfMlFeS1q3Q_GtF5F4fgrOBzmDK9_RUZK_fkSJhxFGwZwufCZXjUnN-xyTVGJDEfe6LxTW81j6cX05AyM3ZQEOt1GE7HlsnUTChOcNtCyBwoRvz8FHoUHtHpi0-flCaYvz_Y3GTiciEW9leGl31oN&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZh9vtG8FQdpj0f8Pvllw2hmhoj-wfiKjPw_bu_NkbISl4RkfMlFeS1q3Q_GtF5F4fgrOBzmDK9_RUZK_fkSJhxFGwZwufCZXjUnN-xyTVGJDEfe6LxTW81j6cX05AyM3ZQEOt1GE7HlsnUTChOcNtCyBwoRvz8FHoUHtHpi0-flCaYvz_Y3GTiciEW9leGl31oN&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -78,22 +96,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Us7ngZmXQoIQ7kNvwG8raQ2&_nc_oc=Adp-_uDSOf5CXZdcw1QKD5PMcIgHS40gzIqq0eoCC9DMZ_Dxb4xcTG4gpV7yg29ahvc&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=eJVXNhmX3I3PbsYheHHXaQ&_nc_ss=7f289&oh=00_AQJ_JGpxRju4SEt2O1F4OAci28D5F9dOQYG2pZQOTVK2CQ&oe=6AAABA83",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028cPTPnuhDrqEUhTvPBQSTypMMB11Y8Pyp68ih7WJRM18jNXU3H7Dj4h3spzFSUpKl?__cft__[0]=AZhknzv6cluxtggjH_K8tuWaeZQySUvKKud8iTjUV8VTTfk8WMbCzvHNEL5a1KnEXg0tg3WSGvsRalwRFoylcB1Ze1gAeeMARZ5qSkvzPs7IWqAorgLxKqv2Wt_nY2GmlS7iuYmgqi6vB4TqAtOGyJ0K53LNHE3wrnQg_k5WbvIpkbNGZ9XhyS4NW6Q&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -172,22 +181,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MKLz-MjL32wQ7kNvwGV7Qms&_nc_oc=AdrrX7m0AvhGbS3KITPbcuRPIHH7SOVkTrHMh4WQwBzDLYHRHaQ3dcddDsALxCtNVlA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=m7w-yyW1nCbw3h0rPr00bA&_nc_ss=7f289&oh=00_AQJt87p32upkoG6N-fYnQNq9oaC-A01M7tcI96lyNzq6Ww&oe=6AAA8E80",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/ElAltoAlcaldia/videos/-te-invitamos-a-la-primera-versi%C3%B3n-de-la-warmi-alte%C3%B1a-un-espacio-donde-artesanos/902272429413813/",
-          "has_image": true,
-          "text_preview": "✅ Te invitamos a la primera versión de la Warmi Alteña, un espacio donde artesanos y artesanas exhibirán la Parada de la Chola Paceña, comercializarán sus mejores joyas, sombreros y paradas. Te... ✅ Te invitamos a la primera versión de la Warmi Alteña, un espacio donde artesanos y artesanas exhibirán la Parada de la Chola Paceña, comercializarán..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -232,22 +232,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=972y4MtgqaIQ7kNvwHjrD1S&_nc_oc=Adq7i3ra43Z86m2PkwcUh3qnwPYAsEe5OXrJ0s2cE-7CnkjaGYVuloH_sYT-HKOLiuw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=sGinivF5lt5eo2Tftvwnyg&_nc_ss=7f289&oh=00_AQIp6ZoxIaskG5E5SJQYZPi04slPgYRJnwH_bGiT-cVcag&oe=6AAAAD57",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid0rfVERQ4Ns5F3EKeyGtRZv23bDYyC4wRPuMZr9PcjHQMguPDp9cB6tnQ7VXNwKVful?comment_id=1051266001082472&__cft__[0]=AZgbXgL6jQuTqHg9nAAwtAJ7w_NV-HIhiSh1zpyW180Vpc5nI38jGsgUTUakV88aqBoWgJG47lFupcGglFQ8RIyN7bocVgi95AMOFxrv-Y7stGMY-NgAcoOyTY-QIcEpGtc3_WXayd83lqDUxEwbaKvrRhiInCAynjVi_o1TZGt2cAlZyLPHUzzwdMo&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Arteaga Pat Marcita Pobres gallitos.. 3 h"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -258,22 +249,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bc3QYbDpQCMQ7kNvwGOE8FK&_nc_oc=AdpKKZ1CzeRf5IX0tSS4ADkW2IP_mL-ZulytX7HXhsOqQHUi0TciQ2rdQT01R5bzpHE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=WW3sb6st5tBF101ee_04zg&_nc_ss=7f289&oh=00_AQIT5OUpoS7rnttiNxCzrilxGC00HMiJuPmxmsjG87Q4hg&oe=6AAA97A1",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1825632892206100/?__cft__[0]=AZjwnUCWx_6Lijne9QulX2gbUs-sv-hZiiFw-XHytmybM4HZS7DwX184JGaAOYlTaHkIM-dxELUO2zkTxsqGzXtdQ4njPUI73sfQeWY_lmwZg8ku4yOS4kiuaRRb6lko07Y8Dud3_dSwNMEROVpllXhWHPt8itUf1_uVSLCVHA1v4bXTWxJoyVuGq4pSJfty0cQR&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Más educación, más oportunidades.… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_scz",
@@ -625,12 +607,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Arte - MNA 38 mil seguidores • 137 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede debers'"
     },
     {
       "id": "fb_musef_lapaz",
@@ -879,13 +861,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t51.82787-15/805120617_18445177366127611_632536668975779226_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7u5LvSUB7a4Q7kNvwEvNr4R&_nc_oc=AdqWzMzocCTkA82Y-pquAVwepRo6apU9DYmVuxoqK68HFbQ0sJbAfVEFcSWdpc5xNrY&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=q7xI0SNs5Uk64t_faqMEkg&_nc_ss=7f289&oh=00_AQKNWTMb7qQtMlJWKrSP4qRAbKVymACRiOBogSRgFi302g&oe=6AAAFC3B",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/feriafipaz/posts/pfbid024NECYyjggR4K6PTAtHBL37bWTmD1GGg4kA4aPfVHhFjaiPkbco7LL7i4cWSGGm1jl?__cft__[0]=AZhw7T9obKAh69nKNJJA8SQlhZe6QART05uBUgwpZI631YKteINR5Sg3AYVrp6-NiNljQK1fmK5YmHxlx2QQ5xSn7-yayBYqSVfvAvdPsDok0H6C1Mb9TKr0qI2IISRSFFLebSsJQuWX56hlOd7u2waKFKMcwbPuikBTYq2oVr3yi9BBFq4uB0ANW80&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Faltan solo 50 días de una versión épica de FIPAZ 25 AÑOS R… Ver más Faltan solo 50 días de una versión épica de FIPAZ 25 AÑOS R… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -947,13 +938,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5ueVLLNQHG0Q7kNvwHZkEH6&_nc_oc=AdqmrEpHWb_V1n8_7B-FOr-bxPJ56XpPEuOHBWHxvQXdCB_K3j6yncD6ulvfs9gD_Z4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=ZjEwvjuai2tIBl-4EkLyNw&_nc_ss=7f289&oh=00_AQKTB8sX8Az3C2jqtrwV6vVBQDAARxzpXik1z5lqPtS_qw&oe=6AAAE9B8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/videos/-ya-comenz%C3%B3-la-fiestala-paz-vibra-al-ritmo-de-am%C3%A9rica-pop-que-celebra-sus-40-a%C3%B1o/1077127195126124/",
+          "has_image": true,
+          "text_preview": "¡YA COMENZÓ LA FIESTA! La Paz vibra al ritmo de América Pop, que celebra sus 40 años de trayectoria con un concierto inolvidable en la Plaza San Francisco. … Ver más ¡YA COMENZÓ LA FIESTA! La Paz vibra al ritmo de América Pop, que celebra sus 40 años de trayectoria con un concierto inolvidable en la Plaza San Francisco. … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1449,7 +1449,7 @@
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 30,
+          "score": 43,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1457,7 +1457,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
+          "score": 27,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1465,11 +1465,11 @@
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 10,
+          "score": 23,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 VIAGGIO inaugura su primer taller propio para la marca GAC en Cochabamba y continúa fortaleciendo su red de posventa en Bolivia Ver más 2 Arce amplió s"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Aprehenden a cuatro soldados en El Alto por robo de material explosivo de contrabando Ver más 2 Lara declaró por el caso \"Audi\" contra Espinoza y pide "
         }
       ],
       "error": null
