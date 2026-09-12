@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:18:23-04:00",
+  "generated_at": "2026-09-12T00:35:59-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 59.4,
-    "horas_maximo_sin_datos": 544.1
+    "horas_promedio_sin_datos": 58.2,
+    "horas_maximo_sin_datos": 549.4
   },
   "sources": [
     {
@@ -78,13 +78,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Us7ngZmXQoIQ7kNvwG8raQ2&_nc_oc=Adp-_uDSOf5CXZdcw1QKD5PMcIgHS40gzIqq0eoCC9DMZ_Dxb4xcTG4gpV7yg29ahvc&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=eJVXNhmX3I3PbsYheHHXaQ&_nc_ss=7f289&oh=00_AQJ_JGpxRju4SEt2O1F4OAci28D5F9dOQYG2pZQOTVK2CQ&oe=6AAABA83",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028cPTPnuhDrqEUhTvPBQSTypMMB11Y8Pyp68ih7WJRM18jNXU3H7Dj4h3spzFSUpKl?__cft__[0]=AZhknzv6cluxtggjH_K8tuWaeZQySUvKKud8iTjUV8VTTfk8WMbCzvHNEL5a1KnEXg0tg3WSGvsRalwRFoylcB1Ze1gAeeMARZ5qSkvzPs7IWqAorgLxKqv2Wt_nY2GmlS7iuYmgqi6vB4TqAtOGyJ0K53LNHE3wrnQg_k5WbvIpkbNGZ9XhyS4NW6Q&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -163,13 +172,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MKLz-MjL32wQ7kNvwGV7Qms&_nc_oc=AdrrX7m0AvhGbS3KITPbcuRPIHH7SOVkTrHMh4WQwBzDLYHRHaQ3dcddDsALxCtNVlA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=m7w-yyW1nCbw3h0rPr00bA&_nc_ss=7f289&oh=00_AQJt87p32upkoG6N-fYnQNq9oaC-A01M7tcI96lyNzq6Ww&oe=6AAA8E80",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/videos/-te-invitamos-a-la-primera-versi%C3%B3n-de-la-warmi-alte%C3%B1a-un-espacio-donde-artesanos/902272429413813/",
+          "has_image": true,
+          "text_preview": "✅ Te invitamos a la primera versión de la Warmi Alteña, un espacio donde artesanos y artesanas exhibirán la Parada de la Chola Paceña, comercializarán sus mejores joyas, sombreros y paradas. Te... ✅ Te invitamos a la primera versión de la Warmi Alteña, un espacio donde artesanos y artesanas exhibirán la Parada de la Chola Paceña, comercializarán..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -214,13 +232,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=972y4MtgqaIQ7kNvwHjrD1S&_nc_oc=Adq7i3ra43Z86m2PkwcUh3qnwPYAsEe5OXrJ0s2cE-7CnkjaGYVuloH_sYT-HKOLiuw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=sGinivF5lt5eo2Tftvwnyg&_nc_ss=7f289&oh=00_AQIp6ZoxIaskG5E5SJQYZPi04slPgYRJnwH_bGiT-cVcag&oe=6AAAAD57",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid0rfVERQ4Ns5F3EKeyGtRZv23bDYyC4wRPuMZr9PcjHQMguPDp9cB6tnQ7VXNwKVful?comment_id=1051266001082472&__cft__[0]=AZgbXgL6jQuTqHg9nAAwtAJ7w_NV-HIhiSh1zpyW180Vpc5nI38jGsgUTUakV88aqBoWgJG47lFupcGglFQ8RIyN7bocVgi95AMOFxrv-Y7stGMY-NgAcoOyTY-QIcEpGtc3_WXayd83lqDUxEwbaKvrRhiInCAynjVi_o1TZGt2cAlZyLPHUzzwdMo&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Arteaga Pat Marcita Pobres gallitos.. 3 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gamscs",
@@ -231,13 +258,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bc3QYbDpQCMQ7kNvwGOE8FK&_nc_oc=AdpKKZ1CzeRf5IX0tSS4ADkW2IP_mL-ZulytX7HXhsOqQHUi0TciQ2rdQT01R5bzpHE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=WW3sb6st5tBF101ee_04zg&_nc_ss=7f289&oh=00_AQIT5OUpoS7rnttiNxCzrilxGC00HMiJuPmxmsjG87Q4hg&oe=6AAA97A1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1825632892206100/?__cft__[0]=AZjwnUCWx_6Lijne9QulX2gbUs-sv-hZiiFw-XHytmybM4HZS7DwX184JGaAOYlTaHkIM-dxELUO2zkTxsqGzXtdQ4njPUI73sfQeWY_lmwZg8ku4yOS4kiuaRRb6lko07Y8Dud3_dSwNMEROVpllXhWHPt8itUf1_uVSLCVHA1v4bXTWxJoyVuGq4pSJfty0cQR&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Más educación, más oportunidades.… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -605,22 +641,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=91BbL4ruGhUQ7kNvwH0hcSY&_nc_oc=Adq0cYeZ6h_WNR63gWY3N-jVBAs3d1rqerT3S0IpGEom6RpwPnazxU3nc-P5JilEe_M&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=YhzpmufWGw9Tsbf_0UlP0Q&_nc_ss=7f289&oh=00_AQLTHkJpFU1TZPogqRK7MaDdVxDJ1VSj5g9FuXRrA3VQdw&oe=6AAA61B3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid02LaXX4iN86oTgkYLpFHDL9uL26hiKB4GCuxMMDLTeY94XoAbuypkEppwCe8ANTavSl?__cft__[0]=AZiUiYEbp_tAcEc6rMctopHULY-hlfAdWhsCLAkxp_mw9FqrrD_JXCPwq1ktXQ_wvMws0_sqBXpPRqKl9ej50YNC8vXgnxGOEo2V5m7lI2KuaN922atOQaiC33VBoq08ASkjFjYVuQgxalGC_86Qal-treVGpmsvBEm58WCjmyro-oADwL37r3Is1hY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#FinDeSemana l ¿𝗨𝗻𝗮 𝗽𝗶𝗲𝗱𝗿𝗮 𝗽𝗮𝗿𝗮 𝗽𝗿𝗲𝗽𝗮𝗿𝗮𝗿 𝗿𝗲𝗺𝗲𝗱𝗶𝗼𝘀? Pequeña, redondeada y aparent… Ver más #FinDeSemana l ¿𝗨𝗻𝗮 𝗽𝗶𝗲𝗱𝗿𝗮 𝗽𝗮𝗿𝗮 𝗽𝗿𝗲𝗽𝗮𝗿𝗮𝗿 𝗿𝗲𝗺𝗲𝗱𝗶𝗼𝘀? Pequeña, redondeada y aparent… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -733,22 +760,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kYNAMpnBaiMQ7kNvwFkl9xr&_nc_oc=AdrSXbU1kOjqhVl0LyhRWQzUdWuPMMJc_PFlLj0M53ewlvhf7DEpG0HN34Glz3QkWho&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=qZi47yBm0DZzKxeNOKXL_Q&_nc_ss=7f289&oh=00_AQKS1GNgkG6HT9qpMefconWBUA2uzl4OUZvC04G-XJh_qg&oe=6AAA607D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1505402861621878/?__cft__[0]=AZh9leJUN4VTEa-nwcKR4_TYE17LfTFVv7jJq_jkxS1mdJqmPsIHMx9fksTubtj_07OJKHbGpwDZxHUmOZKHXggcAYXV3FXteoXvPKQE_-u1_CeEYBlcgiAFkToH6rt5whXvNDB7nDZfHBD-qxLlUXBlFvLb3rnrKFDmaOMX0jN2Cv5zvPflK__zy21SECHSGGED&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "PUERTO VARADOR CELEBRARÁ 56 AÑOS ESTE PRÓXIMO LUNES CON UNA SEMANA LLENA DE ACTIVIDADES… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_cobija",
@@ -1048,13 +1066,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CGbz3T8xHRcQ7kNvwHbP-2V&_nc_oc=AdqPhpss1FEgrUfajqcoPbrekuF0zg7uueVgYF8J6czmKanmUsf8O7qqRB7z-mVHLjY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=FRxfVR7s5t5qMG-5CS6DNg&_nc_ss=7f289&oh=00_AQLR14npXsCSGjjVJTp4yF7PWIzRK4c-6op3_JaxhXHOGQ&oe=6AAA54D5",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1116,30 +1134,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ptuRUZKZ4MQQ7kNvwGfbDbF&_nc_oc=Adql1oNGNMFKqLY3qRD4wdpEOg-Ek0T9ClfzmDt85dhMCGAhVL4v-Uj9oWROJHJipzc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=t8H0aii8Z5c5mWq5fq2SuA&_nc_ss=7f289&oh=00_AQJU4_cnkAcJXKl2LiHyEurQj_vZKVHHa9jQMBQRTFTZNQ&oe=6AAA4E64",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid09G4ovwC6wdvF8HCY8fV7hjtM1zE6ffYMByQid5MAhJEqq1mEARZ5mJP9uhD7yaXRl?__cft__[0]=AZjE88sirxFkJhizEkm5AAUBpYEPeYxj7bSXBCv-o7nrk1flMDya6Qb-m4ZK3ZwNqev3UxmWeXkq4MDSZGHPrddGYrY_aQEYfGqOzTETrYLAOpvUwQwju23rAXxbH4GkaCyPaQp9iityCHB0cO4azfT3zrtRZpLG-9qXhLkRZ19rPu8NWilLkxQ-LlQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#MUSEFSucre | ¡Clase Magistral de Guitarra Clásica! Compartimos un espacio de Aprendizaje y apreciamos el Recital de Guitarra Clásica con el maestro Gunter Viral, co… Ver más #MUSEFSucre | ¡Clase Magistral de Guitarra Clásica! Compartimos un espacio de Aprendizaje y apreciamos el Recital de Guitarra Clásica con el maestro Gunter Viral, co… Ver más Es Gunther Vilar.....su apellido está mal escrito "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid09G4ovwC6wdvF8HCY8fV7hjtM1zE6ffYMByQid5MAhJEqq1mEARZ5mJP9uhD7yaXRl?comment_id=1651616149889611&__cft__[0]=AZjE88sirxFkJhizEkm5AAUBpYEPeYxj7bSXBCv-o7nrk1flMDya6Qb-m4ZK3ZwNqev3UxmWeXkq4MDSZGHPrddGYrY_aQEYfGqOzTETrYLAOpvUwQwju23rAXxbH4GkaCyPaQp9iityCHB0cO4azfT3zrtRZpLG-9qXhLkRZ19rPu8NWilLkxQ-LlQ&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Es Gunther Vilar.....su apellido está mal escrito Weimar Alata"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1443,12 +1444,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 25,
+          "score": 30,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1456,7 +1457,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 9,
+          "score": 14,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1464,11 +1465,11 @@
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 5,
+          "score": 10,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Intervención revela que YPFB gastó Bs 470 millones en \"bunkers digitales\" sin un sistema para rastrear el combustible Ver más 2 Gobierno se compromete "
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 VIAGGIO inaugura su primer taller propio para la marca GAC en Cochabamba y continúa fortaleciendo su red de posventa en Bolivia Ver más 2 Arce amplió s"
         }
       ],
       "error": null
@@ -1526,23 +1527,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
+      "raw_items": 38,
       "events": 0,
-      "rejected": 39,
+      "rejected": 38,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/d32e4bcc-c03f-4a8d-878d-45fd7cc3efe7",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2015a766-15e6-49c3-82a1-4ffe4462789e",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/e6d99073-3b92-49c1-8436-9e49204c0d44",
           "has_image": true,
           "text_preview": ""
         },
@@ -1551,6 +1544,14 @@
           "score": 0,
           "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/5073a902-055d-491f-937b-948f64a8c84b",
           "has_image": true,
           "text_preview": ""
         }
@@ -1568,8 +1569,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 31,
-      "events": 31,
+      "raw_items": 34,
+      "events": 34,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1602,8 +1603,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1636,8 +1637,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 41,
-      "events": 41,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1670,8 +1671,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 15,
+      "events": 15,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
