@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-12T06:48:27-04:00",
+  "generated_at": "2026-09-12T11:34:18-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 60,
@@ -238,12 +238,12 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 10
+        "count": 11
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 49
+        "count": 48
       }
     ],
     "media": [
@@ -417,8 +417,8 @@
     "today": [
       "evt_c183f2b7b229e8",
       "evt_46eadf6dd09226",
-      "evt_0add9b15be14ae",
       "evt_a07e75a33df86f",
+      "evt_0add9b15be14ae",
       "evt_8db9f3debc8f1c",
       "evt_1bdc650fb5976d",
       "evt_377447ae367ad5",
@@ -442,8 +442,8 @@
     "this_weekend": [
       "evt_c183f2b7b229e8",
       "evt_46eadf6dd09226",
-      "evt_0add9b15be14ae",
       "evt_a07e75a33df86f",
+      "evt_0add9b15be14ae",
       "evt_8db9f3debc8f1c",
       "evt_1bdc650fb5976d",
       "evt_377447ae367ad5",
@@ -492,7 +492,7 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 32,
+      "events_total": 31,
       "events_upcoming": 12,
       "events_with_image": 11,
       "events_with_video": 2,
@@ -516,12 +516,12 @@
       "sources_ok": 3
     },
     "Chuquisaca": {
-      "events_total": 9,
+      "events_total": 8,
       "events_upcoming": 4,
       "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Oruro": {
       "events_total": 2,
@@ -567,7 +567,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 69,
+      "events_total": 67,
       "events_upcoming": 18,
       "events_with_image": 18,
       "events_with_video": 0
@@ -588,7 +588,7 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 20,
+      "events_total": 19,
       "events_upcoming": 10,
       "events_with_image": 10,
       "events_with_video": 0
@@ -609,7 +609,7 @@
     },
     "festival": {
       "label": "Festivales",
-      "events_total": 2,
+      "events_total": 3,
       "events_upcoming": 1,
       "events_with_image": 1,
       "events_with_video": 0
@@ -735,44 +735,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_0add9b15be14ae",
-      "title": "Llegó el momento, este sábado 12 de septiembre se realizará la XXXVII COMPETENCIA NACIONAL CAMPESINA DE CICLISMO SAN…",
-      "category": "deporte",
-      "category_label": "Deportes",
-      "starts_at": "2026-09-12T00:00:00-04:00",
-      "starts_at_ms": 1789185600000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Sábado 12 de septiembre",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Tarija",
-      "department": "Tarija",
-      "venue": null,
-      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/805936798_2860411117691563_4288624665720095866_n.png?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LK2eZrSiz50Q7kNvwFGbGEh&_nc_oc=Adqp7mtt0V8Udgy3OPIKGRkacv7Lf1JraO3Y_b1KjibWLtY20pOBKFq6hi-EKAdyolY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=NB2noQuCAcAeuS1c_NynkA&_nc_ss=7f289&oh=00_AQLX3vCpIi1t4ruUL6JfvojFeCqGIhJbsibTSRh2QIhfWQ&oe=6AAA1A22",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [],
-      "formats": [],
-      "occurrences": [],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 51,
-      "is_featured": false,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_a07e75a33df86f",
       "title": "Espectáculos",
       "category": "deporte",
@@ -790,6 +752,44 @@
       "department": "Cochabamba",
       "venue": null,
       "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/7/24/12_dc_cartelera_1_0.jpg?itok=9MQ7b8B8",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 11.53,
+      "currency": "BOB",
+      "price_label": "Bs 11.53 - 470",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_0add9b15be14ae",
+      "title": "Llegó el momento, este sábado 12 de septiembre se realizará la XXXVII COMPETENCIA NACIONAL CAMPESINA DE CICLISMO SAN…",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-09-12T00:00:00-04:00",
+      "starts_at_ms": 1789185600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 12 de septiembre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/805936798_2860411117691563_4288624665720095866_n.png?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LK2eZrSiz50Q7kNvwFGbGEh&_nc_oc=Adqp7mtt0V8Udgy3OPIKGRkacv7Lf1JraO3Y_b1KjibWLtY20pOBKFq6hi-EKAdyolY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=NB2noQuCAcAeuS1c_NynkA&_nc_ss=7f289&oh=00_AQLX3vCpIi1t4ruUL6JfvojFeCqGIhJbsibTSRh2QIhfWQ&oe=6AAA1A22",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
@@ -2266,9 +2266,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 11.53,
+      "price_from": 8.0,
       "currency": "BOB",
-      "price_label": "Bs 11.53",
+      "price_label": "Bs 8",
       "organizer": null,
       "showtimes": [],
       "formats": [],
