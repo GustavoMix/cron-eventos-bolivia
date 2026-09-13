@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T16:53:05-04:00",
+  "generated_at": "2026-09-13T19:13:22-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 59.9,
-    "horas_maximo_sin_datos": 589.7
+    "horas_promedio_sin_datos": 57.2,
+    "horas_maximo_sin_datos": 592.0
   },
   "sources": [
     {
@@ -130,13 +130,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vaRQEfnqW6IQ7kNvwFKY0wm&_nc_oc=AdrlzY4MZfI6lrPpjZXVvi8QXu-7eInAqFDxJj-PPjKVV53YGBnbOzDzK6Hw8_GSsa0&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=ApGGZy7-Y4-Y4RrHSREBPQ&_nc_ss=7f289&oh=00_AQJ-9-WmVThchoLQD434duDCe6fx_Pg8bOLqZa4y_uO_OQ&oe=6AAD00C5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipioLaPaz/posts/pfbid0qWsRnEx4EjCU16EuWtHXbWazgx18aQGy5XpPnqj3iS9HpUvWKKEaJtxghVuEL6kFl?__cft__[0]=AZg6-wgp1bvsy1Fyi6fSaZLrKxYg-QvpLGDLWQ9EE6SycX98bkGCJpiqD5Raq3VNYONvR1bt5uxjzbHRJ1lY3CcdvR8jioB1zUMzneAYuFRIYhXX4TOQcfgCVJxTXdcPTVNuGU4fmy5iIz_ACxF3WLYoO23_YCg7d_RfT85O2TS35lBnHzkgf5YwFsI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Alcalde Dockweiler arribó hasta la comunidad Camsique, en el macrodistrito Zongo… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_amun_lapaz",
@@ -300,22 +309,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/808442930_2305822173522791_8844370412939166139_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=AP5U3IXAM5IQ7kNvwEUfOMm&_nc_oc=AdppAeMonu_MU5axikeTW0rCpC9vka1hVhX5mxjjIQGpl0ZSoG9cw9RzArBtRqeuPos&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=cAc-1FZQNnQr_g2yah9Tjw&_nc_ss=7f289&oh=00_AQJdHXaNDsgAGW8sNa6cGTyYD_C1bw5IO4ZP0_5CySTfcw&oe=6AACCC5B",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "cine",
-          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid08b5Z942mCDFJBsL37vGYdrTpWhRuzJ3uPYYsY3azd71KXqnpxk4XFdvTZDg7DjiSl?__cft__[0]=AZhYf5WS5_ubzNphxwQ4arkicq_DUI6LdTwxEOitOVkkNxSls1mP_GUQBmsuGpVr8Y_7oN9CISa_DPzhoFOpa_qW5KgRsudBmf8s4AWI9XHXq7W8XuhMS2-_Qzg9tamBCnTVIouIiyFfBBUWU99oqCQZS-g6ALaCUldk7pQOdHHGVBYatM5MmYSZ8EY&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Su historia parece sacada directamente de una película de Bollywood. Lee más aquí: https://eldeber.com.bo/.../fueron-mejores-amigas-durante... Su historia parece sacada directamente de una película de Bollywood. Lee más aquí: https://eldeber.com.bo/.../fueron-mejores-amigas-durante..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_reduno",
@@ -377,22 +377,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2bwcUXAOGVkQ7kNvwHZKzbG&_nc_oc=AdrPl1TuTZjeovVAcsPMPQkGa9Q_pxkDFt6e98cEZfkuRnqIAUhgcketFqC63M2SG90&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=2gtvwJO2e3yHH-dhhdfcqQ&_nc_ss=7f289&oh=00_AQIwov4clOMLGFh6Ma52eRWhj07eLKkDxWbFUvwPUFTDuQ&oe=6AACC50C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "festival",
-          "url": "https://www.facebook.com/NoticiasBolivision/videos/sabor-cruce%C3%B1o-las-caba%C3%B1as-del-r%C3%ADo-pira%C3%AD-celebran-el-festival-del-horneadoactuali/1131527936216683/",
-          "has_image": true,
-          "text_preview": "¡Sabor cruceño! Las cabañas del río Piraí celebran el Festival del Horneado… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_erbol",
@@ -403,13 +394,30 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=N3ttXQ8klK0Q7kNvwG7V1Pz&_nc_oc=AdrlqCLRA632QEJp83xwxjddEjo9fwt8cIDYFKwpS9Zxqa1O8sKpOV1ucv081SkOum8&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=iK2bI7YA8mOg8RR8dqDhsQ&_nc_ss=7f289&oh=00_AQKLpxTFGsVUdpj2-P930-Fj1cK6NGcRKWOv-Tu_GncpPg&oe=6AAD0BA8",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid02fgMaYHKF12EJWktyqRq141qDmbRaTJ37iJcVqWagMS2tw9gXtWycc5xBK64zK2B2l?__cft__[0]=AZi4hRreCCsskSps0OyXIg2KOgyhdanhTkUKFXEQUMbsHfxJX_NGK2CUtHWY95IqpaxDiDbKpQUlN_KQE6syREkpnTvpXFIW7rCa2jTGhLQWIptJIdZdkcCnYxO4VXVx7qdaalowNgkzow1PGifNmUvtB68kLrrI2nvNVo01KS-Pc148a5jJ5Q7q9AE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Mientras Lara estuvo con Loza en la sesión de honor departamental, Rodrigo fue con Manfred al acto municipal por la Gesta Libertaria. En su intervención, Loza pidió a P… Ver más Lara participó del aniversario del Departamento de Cochabamba y el pollo participó de una aniversario municipal adelantado. ERBOL.COM.BO Lara estuvo con Loza y Rodrigo con Manfred, en sesiones de honor paralelas por Cochab"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid02fgMaYHKF12EJWktyqRq141qDmbRaTJ37iJcVqWagMS2tw9gXtWycc5xBK64zK2B2l?comment_id=1070516672429408&__cft__[0]=AZi4hRreCCsskSps0OyXIg2KOgyhdanhTkUKFXEQUMbsHfxJX_NGK2CUtHWY95IqpaxDiDbKpQUlN_KQE6syREkpnTvpXFIW7rCa2jTGhLQWIptJIdZdkcCnYxO4VXVx7qdaalowNgkzow1PGifNmUvtB68kLrrI2nvNVo01KS-Pc148a5jJ5Q7q9AE&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Lara participó del aniversario del Departamento de Cochabamba y el pollo participó de una aniversario municipal adelantado. Berghil L. Pinto"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_el_diario",
@@ -505,22 +513,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IYMwcpEnPFgQ7kNvwEUg47x&_nc_oc=Ado8mOedu5ZEFeM0e9oJOndv-0cGAY2b0tB0a4hHMBVW8yAHyspbZtnJy4qG6zlL9LA&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=M4zR8X2X1QviORxxd1RPww&_nc_ss=7f289&oh=00_AQIX5K9D6jPAQr8sFBCd66RMYSqyfInD95yRecO03n6LKw&oe=6AACF829",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1688932079413672/?__cft__[0]=AZg7T0C1udhqI91k-IkA8nZgIkrGNZWgFK1FPZF6mofBKSfKHtb9Xkemk2r1cyEPSB-0ovt7ODWMzIZ6sjmzsIyzSFUPtxfTaCgq2qaOTcwVLvTq1hfWzYPm7fuCTfOe6rKa_NSDcUvAJeRt_qZ_3yLAkHYbvU7vRwyrJsNNwYbFPPcrGwWRkJlnCIuaipo7Gos&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#MemoriasDelPaladarENVIVO| SÁBADO 12-09-26 Visitamos Charagua Este mes aniversario de SANTA CRUZ, EL DEBER te invita a recorrer los cuatro puntos cardinales del de… Ver más #MemoriasDelPaladarENVIVO| SÁBADO 12-09-26 Visitamos Charagua Este mes aniversario de SANTA CRUZ, EL DEBER te invita a recorrer los cuatro puntos cardinales del de… Ver más Tenemos problemas para reproducir este video. Más info"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fides_cbba",
@@ -650,13 +649,30 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5HEi2tCN_8QQ7kNvwGC7RqP&_nc_oc=AdqMYCIqoxcaEq_mJKY91_F8KGYX5L6nbbZ8Cj2qHpL-q6VUDD2dckunb5fi9u3se_s&_nc_zt=24&_nc_ht=scontent-hkg1-2.xx&_nc_gid=FD8MCGGPAZbOuJfd-lN61A&_nc_ss=7f289&oh=00_AQKsuAjv9PUK5KIK-tFO1tOWCaFfxbi2FCLZTeSBVh8aGg&oe=6AAD1C4F",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "literatura",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid021H1rEsViuNbs7yzfiJnjwHjJ2hnp6AjP8jTajKeYgCpGLUchaLGJ3h6P3D1Eyh8fl?__cft__[0]=AZjOarZ-qEwMAIzoa3PlHEJEizWWdfTkieUwKC2WFe5vwd9wFeIq6_M2wSwZznRZVrhOxqtBorBv7Mzm5ANEKWwZeIlhmCx0Zj2Z1UOpB2YS65EvMpd1h-FbAuyzQ9Nqxr2qGDHtuH9BdS3xgskZZY9idnBVrs1hz1Stt-ntZ2TIwiWcxkrpHO2zS7A&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Biblioteca Móvil… Ver más Bien!!! Tenemos problemas para reproducir este video. Más información Ver más comentarios Beatriz James Araujo"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid021H1rEsViuNbs7yzfiJnjwHjJ2hnp6AjP8jTajKeYgCpGLUchaLGJ3h6P3D1Eyh8fl?comment_id=1802255577857209&__cft__[0]=AZjOarZ-qEwMAIzoa3PlHEJEizWWdfTkieUwKC2WFe5vwd9wFeIq6_M2wSwZznRZVrhOxqtBorBv7Mzm5ANEKWwZeIlhmCx0Zj2Z1UOpB2YS65EvMpd1h-FbAuyzQ9Nqxr2qGDHtuH9BdS3xgskZZY9idnBVrs1hz1Stt-ntZ2TIwiWcxkrpHO2zS7A&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Beatriz James Araujo Bien!!! 1 día"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -1436,12 +1452,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
+          "score": 32,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1449,19 +1465,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 54,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Nacional Potosí hunde más a GV San José, que no sale del fondo de la tabla "
+          "text_preview": "13/09/2026 Cultura Enrique Aráoz: “Alturas sonoras” es una propuesta de gala y solemne El sábado 19 de septiembre (19:00) el Auditorio del Piso 15 del Edificio Municipal de Cochabamba albergará el estreno oficial de “Alturas sonoras”, el nuevo... vista 11/09/2026 Cultura 11S: El musical Come from away llega a Cochabamba Con la intención de superar el éxito que tuvieron en La Paz, los integrantes d"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 12,
+          "category": "conferencia",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Enric Mas gana la Vuelta a España y sucede a Contador 12 años después Ver más 2 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver m"
         }
       ],
       "error": null
@@ -1629,8 +1645,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 52,
-      "events": 52,
+      "raw_items": 50,
+      "events": 50,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
