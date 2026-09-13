@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T12:19:20-04:00",
+  "generated_at": "2026-09-13T16:53:05-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 62.4,
-    "horas_maximo_sin_datos": 585.1
+    "horas_promedio_sin_datos": 59.9,
+    "horas_maximo_sin_datos": 589.7
   },
   "sources": [
     {
@@ -300,13 +300,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/808442930_2305822173522791_8844370412939166139_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=AP5U3IXAM5IQ7kNvwEUfOMm&_nc_oc=AdppAeMonu_MU5axikeTW0rCpC9vka1hVhX5mxjjIQGpl0ZSoG9cw9RzArBtRqeuPos&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=cAc-1FZQNnQr_g2yah9Tjw&_nc_ss=7f289&oh=00_AQJdHXaNDsgAGW8sNa6cGTyYD_C1bw5IO4ZP0_5CySTfcw&oe=6AACCC5B",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "cine",
+          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid08b5Z942mCDFJBsL37vGYdrTpWhRuzJ3uPYYsY3azd71KXqnpxk4XFdvTZDg7DjiSl?__cft__[0]=AZhYf5WS5_ubzNphxwQ4arkicq_DUI6LdTwxEOitOVkkNxSls1mP_GUQBmsuGpVr8Y_7oN9CISa_DPzhoFOpa_qW5KgRsudBmf8s4AWI9XHXq7W8XuhMS2-_Qzg9tamBCnTVIouIiyFfBBUWU99oqCQZS-g6ALaCUldk7pQOdHHGVBYatM5MmYSZ8EY&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Su historia parece sacada directamente de una película de Bollywood. Lee más aquí: https://eldeber.com.bo/.../fueron-mejores-amigas-durante... Su historia parece sacada directamente de una película de Bollywood. Lee más aquí: https://eldeber.com.bo/.../fueron-mejores-amigas-durante..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_reduno",
@@ -351,22 +360,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YZnEWFOv9hMQ7kNvwHAbtPr&_nc_oc=AdqNpqFWmJbIcTfdjavFgWBoTjhHTKfLlwENLDffziGBv0Q05q1YMXj7P5Nd8mWLtwM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=uTRJzAWaqlMqN6Bx9AZo0Q&_nc_ss=7f289&oh=00_AQJwXXPKdaR4QHck-mhJErtAY9Dal1ie66tupzERsw2c8w&oe=6AAC9201",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "concierto",
-          "url": "https://www.facebook.com/61567518883240/videos/en-vivo/1066554915990449/",
-          "has_image": true,
-          "text_preview": "EN VIVO�� #LaRedDeportivaDeBolivia… Ver más EN VIVO�� #LaRedDeportivaDeBolivia… Ver más Si Tenemos problemas para reproducir este video. Más información Ver más comentarios Cirs Chura Coyo"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_bolivision",
@@ -377,13 +377,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2bwcUXAOGVkQ7kNvwHZKzbG&_nc_oc=AdrPl1TuTZjeovVAcsPMPQkGa9Q_pxkDFt6e98cEZfkuRnqIAUhgcketFqC63M2SG90&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=2gtvwJO2e3yHH-dhhdfcqQ&_nc_ss=7f289&oh=00_AQIwov4clOMLGFh6Ma52eRWhj07eLKkDxWbFUvwPUFTDuQ&oe=6AACC50C",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "festival",
+          "url": "https://www.facebook.com/NoticiasBolivision/videos/sabor-cruce%C3%B1o-las-caba%C3%B1as-del-r%C3%ADo-pira%C3%AD-celebran-el-festival-del-horneadoactuali/1131527936216683/",
+          "has_image": true,
+          "text_preview": "¡Sabor cruceño! Las cabañas del río Piraí celebran el Festival del Horneado… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_erbol",
@@ -496,13 +505,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IYMwcpEnPFgQ7kNvwEUg47x&_nc_oc=Ado8mOedu5ZEFeM0e9oJOndv-0cGAY2b0tB0a4hHMBVW8yAHyspbZtnJy4qG6zlL9LA&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=M4zR8X2X1QviORxxd1RPww&_nc_ss=7f289&oh=00_AQIX5K9D6jPAQr8sFBCd66RMYSqyfInD95yRecO03n6LKw&oe=6AACF829",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldeberradio/videos/1688932079413672/?__cft__[0]=AZg7T0C1udhqI91k-IkA8nZgIkrGNZWgFK1FPZF6mofBKSfKHtb9Xkemk2r1cyEPSB-0ovt7ODWMzIZ6sjmzsIyzSFUPtxfTaCgq2qaOTcwVLvTq1hfWzYPm7fuCTfOe6rKa_NSDcUvAJeRt_qZ_3yLAkHYbvU7vRwyrJsNNwYbFPPcrGwWRkJlnCIuaipo7Gos&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#MemoriasDelPaladarENVIVO| SÁBADO 12-09-26 Visitamos Charagua Este mes aniversario de SANTA CRUZ, EL DEBER te invita a recorrer los cuatro puntos cardinales del de… Ver más #MemoriasDelPaladarENVIVO| SÁBADO 12-09-26 Visitamos Charagua Este mes aniversario de SANTA CRUZ, EL DEBER te invita a recorrer los cuatro puntos cardinales del de… Ver más Tenemos problemas para reproducir este video. Más info"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fides_cbba",
@@ -547,22 +565,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RKzesJj8R7UQ7kNvwGABSz2&_nc_oc=AdpUdaM3-FOuMIYMgjwFD5-xniAQTfujFcCBmL2FzD4pwRe2sdHeybYqFPIg5AE5uEc&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=oRs11HOzAT-846mIHsbeYw&_nc_ss=7f289&oh=00_AQLbg2xXm0z-IX4x1PAusbeD2uL30E2Pvl86IvWySU7kHA&oe=6AACA173",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/videos/fcbcb-presentaci%C3%B3n-piedra-de-agua-la-fc-bcb-tiene-el-agrado-de-invitar-a-la-pres/981224055015898/",
-          "has_image": true,
-          "text_preview": "#FCBCB | Presentación Piedra de agua La FC-BCB tiene el agrado de invitar a la presentación del N.° 39 de la revista Piedra de agua, número dedicado a la “Memoria sonora de los siglos XVII–XXI en... #FCBCB | Presentación Piedra de agua La FC-BCB tiene el agrado de invitar a la presentación del N.° 39 de la revista Piedra de agua, número dedicado a..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -658,22 +667,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8o2RblfQI-wQ7kNvwFnnRVm&_nc_oc=AdrXXiEa3d1TL2pSWyvZnTVo3tyXGmlUOyUMATCpcAu7Ck9T3mRbjZh5p3gCyyZlcUw&_nc_zt=24&_nc_ht=scontent-fra5-2.xx&_nc_gid=5biPFF3gVcmi3qhJFUOtmA&_nc_ss=7f289&oh=00_AQLOyDJHcRY-nhlWIWhUjukB2jjOWCwEvVY9mGlIhF_AnA&oe=6AAC9A52",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "teatro",
-          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/crc-%F0%9D%97%A1%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%AE-%F0%9D%97%BA%F0%9D%97%B2%F0%9D%97%BA%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%AE%F0%9D%98%80-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%BA%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B0%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%BC-%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%B4%F0%9D%97%BC%CC%81-%F0%9D%97%AE-%F0%9D%97%A5%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%AF%F0%9D%97%AE%F0%9D%97%BE%F0%9D%98%82%F0%9D%97%B2-el-teatro-lleg%C3%B3-a-la-amazon%C3%AD/1753632146772314/",
-          "has_image": true,
-          "text_preview": "#CRC | “𝗡𝗶𝗻𝗮, 𝗺𝗲𝗺𝗼𝗿𝗶𝗮𝘀 𝗱𝗲 𝗺𝗲𝗿𝗰𝘂𝗿𝗶𝗼” 𝗹𝗹𝗲𝗴𝗼́ 𝗮 𝗥𝘂𝗿𝗿𝗲𝗻𝗮𝗯𝗮𝗾𝘂𝗲 El teatro llegó a la Amazonía para contar una historia que nace desde el territorio. 🌿 “Nina, memorias de mercurio”, obra de Clarivel... #CRC | “𝗡𝗶𝗻𝗮, 𝗺𝗲𝗺𝗼𝗿𝗶𝗮𝘀 𝗱𝗲 𝗺𝗲𝗿𝗰𝘂𝗿𝗶𝗼” 𝗹𝗹𝗲𝗴𝗼́ 𝗮 𝗥𝘂𝗿𝗿𝗲𝗻𝗮𝗯𝗮𝗾𝘂𝗲 El teatro llegó a la Amazonía para contar una historia que nace desde el territorio. 🌿... #CRC | “𝗡𝗶𝗻𝗮, 𝗺𝗲𝗺𝗼𝗿𝗶𝗮𝘀 𝗱𝗲 𝗺𝗲𝗿𝗰𝘂𝗿𝗶𝗼” 𝗹𝗹𝗲𝗴𝗼́ 𝗮 𝗥𝘂𝗿𝗿𝗲𝗻𝗮𝗯𝗮𝗾𝘂𝗲"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -1561,8 +1561,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 50,
-      "events": 50,
+      "raw_items": 34,
+      "events": 34,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1595,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1629,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 45,
-      "events": 45,
+      "raw_items": 52,
+      "events": 52,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
