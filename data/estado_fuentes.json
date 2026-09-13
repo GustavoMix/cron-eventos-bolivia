@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T00:50:25-04:00",
+  "generated_at": "2026-09-13T07:55:10-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_crc_lapaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_teatro_aire_libre",
-      "fb_upsa"
+      "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 59.7,
-    "horas_maximo_sin_datos": 573.7
+    "horas_promedio_sin_datos": 63.0,
+    "horas_maximo_sin_datos": 580.7
   },
   "sources": [
     {
@@ -28,13 +28,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=d_2602_FLg4Q7kNvwGonIIn&_nc_oc=AdpnjSGYpOSqWP_4rioefqjmATVLjnaDOuX5f6Pp1bn-8USYOo78lfXkFzCBt64v8xU&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=FKJqIbIWcpayyUGnyDUvfw&_nc_ss=7f289&oh=00_AQJloFHmLXlZylD74OY0WzQwK3uQs-zLjzRV7VSrmZ84Vw&oe=6AAC4A1A",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -181,22 +181,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=U4xJj5NeOhgQ7kNvwGgkkvD&_nc_oc=AdoNq1cpffjI1CKwzLjrK2BcyBmjibL1MS1h35fdec_-EmXw5NDxb3mQ8vfA0fQ_H74&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=snHVwp3OIEEaZdIZhbKzcw&_nc_ss=7f289&oh=00_AQIDShmx1HFlJqoq1OnY3CQ0ITNwH4kgHzDSn28zSnYRJQ&oe=6AAC04B8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0WWq8TtHCDmQzSz8Rx3mAsSuUVxM3GqZL26Hkhnb8U61Uu36jrDx2p7Q3yutQCMT6l?__cft__[0]=AZhu_6NYMq1f1hsaaLAqPan1o9VECmBjKn6b2pSheidGJH9GG8qdmrbdMy3H06OTI5b3BoqWJZ7y6KCVuenfmlnA1hU0Jh4xNsk055xvhPRjCvp4DsKLuXrbhzkJ0HGGWAlV_-P7i49YYoKy_HBRGXcbNw1VzjVZ9Rx23AnxAQxxlUOlMeb-eHh-ftU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡𝐌𝐔𝐍𝐈𝐂𝐈𝐏𝐈𝐎𝐒 𝐌𝐀́𝐒 𝐏𝐑𝐄𝐏𝐀𝐑𝐀𝐃𝐎𝐒 𝐏𝐀𝐑𝐀 𝐏𝐑𝐎𝐓𝐄𝐆𝐄𝐑 𝐀 𝐍𝐔𝐄𝐒𝐓𝐑𝐀 𝐆𝐄𝐍𝐓𝐄! La Gobernación de La Paz y las Fuerzas Armadas for… Ver más ¡𝐌𝐔𝐍𝐈𝐂𝐈𝐏𝐈𝐎𝐒 𝐌𝐀́𝐒 𝐏𝐑𝐄𝐏𝐀𝐑𝐀𝐃𝐎𝐒 𝐏𝐀𝐑𝐀 𝐏𝐑𝐎𝐓𝐄𝐆𝐄𝐑 𝐀 𝐍𝐔𝐄𝐒𝐓𝐑𝐀 𝐆𝐄𝐍𝐓𝐄! La Gobernación de La Paz y las Fuerzas Armadas for… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gam_cbba",
@@ -258,13 +249,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kKYH10SvIGoQ7kNvwGkRGcB&_nc_oc=AdqemndScoD9-wG8rFhUG7YRUQHnPqzxzUrC8AP6dOHYixiH4EXOzqWgM4ANVRMXNyk&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=cf_2knJbsxhj7EO6eHq7Vw&_nc_ss=7f289&oh=00_AQJdCAwY0TJIFFFadwHi0cigj7cEzPk4BGp3qQ5WLZkIUA&oe=6AAC0BFE",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_lostiempos",
@@ -581,13 +572,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=t0TY8Rk7ImsQ7kNvwF7ot0O&_nc_oc=AdpMMT6RrOEoyKmfSs29bK0oSStXFyhPFf45rpW4r3qXZA3WiXnnKcvE-hjwi_fNNK8&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=XSxn79CmyYaBAOKctGuNaQ&_nc_ss=7f289&oh=00_AQJiaSFX1N0FGSvrKJoEK8scODCgZWzc0FJ-beqmTA9udg&oe=6AAC5256",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "infantil",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02G19X9wH5gVcGqG7XJ2xL6aCGvFk82E8qL3RtvUybLmpBuQ4kqeiT1cCaeZGEH4T5l?__cft__[0]=AZirNTWB80KMJyq-68W1JMUkCO20fHxqT7U9snjLLd_aRRh2yah4oq91hYthZ4e-M0ViLXwrlbPOSHR1UTS967-Sbog8rdLZs7ZBE41v2SX7upJiUsxoOrlRlAL-_IaabvTm8t5piSZMdug05fdRSYJBmpHlDbap45AVNTjBCUyrfFOBftvR0Ilk8n0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Títeres - Titirikuti E… Ver más Títeres - Titirikuti E… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -650,12 +650,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_municipio_sucre",
@@ -1176,22 +1176,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/802121447_1509917531172107_3755553418203842592_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Fug3H5POOpYQ7kNvwGbWFWL&_nc_oc=Adq7Ne_alPUO1xOvlby7r02e0RvZsY95JFkm2GL2EK2ivIvgE-n6wMMAPsluIpAM2Wg&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=zSPfPNpT1sGusMcLuBC8YQ&_nc_ss=7f289&oh=00_AQIXFU7pTj-gZusPjcexxPa0_8e_CFE8gsaogMQQzyi6OA&oe=6AABE85C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/reel/2172907864104170/?__cft__[0]=AZg1UEvZQPOWjrpeH2S7Plq_wpvRc_03dRtEtxaE_XTC8PfdeHfyR0S3r4tvCIqllLbRbUpehMGV0RF1QD4ynzz9S3oMVB4SDbCVliG2ZN5apryzDW5iDE1Iy5RxXxD158Qt2CfcXZvczSj7vew_b8JC7eGGKZBFe4lgFjfcdiq61Sz9eIED5tyYkAIOvETXdu6A&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡El WiFi UMSS fue presentado oficialmente! La tecnología y la cultura se encontraron en una jornada especial para la comunidad universitaria. El rector de la Unive… Ver más ¡El WiFi UMSS fue presentado oficialmente! La tecnología y la cultura se encontraron en una jornada especial para la comunidad universitaria. El rector de la Unive… Ver más Tenemos problemas para reproducir este video. Más info"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1219,13 +1210,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3QyX-DxO4ugQ7kNvwFAtAYa&_nc_oc=AdoEYuU9lSpm_NLGCE8g1J-eHJ41KfCoOxcyo4uSM4X5HzYSA-B1H27kMws8efd2ni8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=kL4znBfqzLcLKONEZ-VH_A&_nc_ss=7f289&oh=00_AQL0ZZHmn0nynnbSox29SIQeaF0QHb9oDrtggmKBYxG-3A&oe=6AAC6FB8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Universidad Privada de Santa Cruz de la Sierra - UPSA 76 mil seguidores • 181 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/boliviaupsa/posts/agendasemanalupsa-te-invitamos-a-revisar-la-agenda-semanal-de-nuestra-universida/1103679255386072/",
+          "has_image": true,
+          "text_preview": "#AgendaSemanalUPSA | Te invitamos a revisar la agenda semanal de nuestra Universidad para que podás programar tu participación en las actividades que te interesen:... #AgendaSemanalUPSA | Te invitamos a revisar la agenda semanal de nuestra Universidad para que podás programar tu participación en las actividades que te... #AgendaSemanalUPSA | Te invitamos a revisar la agenda semanal de nuestra Univ"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_superticket",
@@ -1427,12 +1427,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 51,
+          "score": 45,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1441,14 +1441,14 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 53,
-          "category": "concierto",
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Premier League: El Arsenal mantiene el pleno tras ganar al Sunderland Ver m"
         },
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 48,
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 52,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
