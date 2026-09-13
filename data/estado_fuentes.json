@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T19:06:13-04:00",
+  "generated_at": "2026-09-13T00:50:25-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,11 +11,12 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_teatro_aire_libre"
+      "fb_teatro_aire_libre",
+      "fb_upsa"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 59.3,
-    "horas_maximo_sin_datos": 567.9
+    "horas_promedio_sin_datos": 59.7,
+    "horas_maximo_sin_datos": 573.7
   },
   "sources": [
     {
@@ -95,22 +96,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=O8Ot653uRSMQ7kNvwGIHLJ9&_nc_oc=AdqmcB3xcADMNHdZ3eYGh0gFCmEnioRujiHeRbMAa2kSfgLEwY5T92OXedGX3frUO04&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=--qZTsAQWcp7FpWQW5n63g&_nc_ss=7f289&oh=00_AQJCHuntHvNkcM2zxysHcG5jwuwSqvpSTTmdzpWL5hIJ4Q&oe=6AABC350",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 42,
-          "category": "feria",
-          "url": "https://www.facebook.com/Fexpocruz/posts/fexpocruz-es-reconocida-como-dep%C3%B3sito-aduanero-ferialal-cumplir-con-las-exigenci/1474779798017183/",
-          "has_image": true,
-          "text_preview": "FEXPOCRUZ es reconocida como Depósito Aduanero Ferial Al cumplir con las exigencias de Infraestructura y Servicios estipuladas en la Ley Nº 3162 de Promoción de la Actividad Ferial y de... FEXPOCRUZ es reconocida como Depósito Aduanero Ferial Al cumplir con las exigencias de Infraestructura y Servicios estipuladas en la Ley Nº 3162 de... FEXPOCRUZ es reconocida como Depósito Aduanero Ferial Al cum"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -189,13 +181,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=U4xJj5NeOhgQ7kNvwGgkkvD&_nc_oc=AdoNq1cpffjI1CKwzLjrK2BcyBmjibL1MS1h35fdec_-EmXw5NDxb3mQ8vfA0fQ_H74&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=snHVwp3OIEEaZdIZhbKzcw&_nc_ss=7f289&oh=00_AQIDShmx1HFlJqoq1OnY3CQ0ITNwH4kgHzDSn28zSnYRJQ&oe=6AAC04B8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0WWq8TtHCDmQzSz8Rx3mAsSuUVxM3GqZL26Hkhnb8U61Uu36jrDx2p7Q3yutQCMT6l?__cft__[0]=AZhu_6NYMq1f1hsaaLAqPan1o9VECmBjKn6b2pSheidGJH9GG8qdmrbdMy3H06OTI5b3BoqWJZ7y6KCVuenfmlnA1hU0Jh4xNsk055xvhPRjCvp4DsKLuXrbhzkJ0HGGWAlV_-P7i49YYoKy_HBRGXcbNw1VzjVZ9Rx23AnxAQxxlUOlMeb-eHh-ftU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡𝐌𝐔𝐍𝐈𝐂𝐈𝐏𝐈𝐎𝐒 𝐌𝐀́𝐒 𝐏𝐑𝐄𝐏𝐀𝐑𝐀𝐃𝐎𝐒 𝐏𝐀𝐑𝐀 𝐏𝐑𝐎𝐓𝐄𝐆𝐄𝐑 𝐀 𝐍𝐔𝐄𝐒𝐓𝐑𝐀 𝐆𝐄𝐍𝐓𝐄! La Gobernación de La Paz y las Fuerzas Armadas for… Ver más ¡𝐌𝐔𝐍𝐈𝐂𝐈𝐏𝐈𝐎𝐒 𝐌𝐀́𝐒 𝐏𝐑𝐄𝐏𝐀𝐑𝐀𝐃𝐎𝐒 𝐏𝐀𝐑𝐀 𝐏𝐑𝐎𝐓𝐄𝐆𝐄𝐑 𝐀 𝐍𝐔𝐄𝐒𝐓𝐑𝐀 𝐆𝐄𝐍𝐓𝐄! La Gobernación de La Paz y las Fuerzas Armadas for… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -257,13 +258,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kKYH10SvIGoQ7kNvwGkRGcB&_nc_oc=AdqemndScoD9-wG8rFhUG7YRUQHnPqzxzUrC8AP6dOHYixiH4EXOzqWgM4ANVRMXNyk&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=cf_2knJbsxhj7EO6eHq7Vw&_nc_ss=7f289&oh=00_AQJdCAwY0TJIFFFadwHi0cigj7cEzPk4BGp3qQ5WLZkIUA&oe=6AAC0BFE",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_lostiempos",
@@ -971,22 +972,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8THb-WsW_QMQ7kNvwEIgTpb&_nc_oc=AdqQsmqItIanfxtUuTfL2JBvqdBzLFMNPs12J0iFXq-Hv_RNrNvd-QSMiGJzNFxGdr4&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=J5jXiln8_3zaK0RubqSfyw&_nc_ss=7f289&oh=00_AQLgsKQta4sYy0JoQ7NEdv6g3ULxfoI66hqJI1QQxH7skQ&oe=6AABA53D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 50,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/CasaMelchorPinto/posts/los-esperamos/1429043579324101/",
-          "has_image": true,
-          "text_preview": "Los esperamos!! Los esperamos!! Hoy en #AquíEstoy recibimos al escultor Jorge Aranda, quien nos presentó “Materia en Movimiento”, una exposición que exploró cómo la materia, las formas y las curvas pueden transmitir movimiento y emociones. Conversamos sobre su proceso creativo, las historias detrás de sus esculturas y aquello que lo inspira a transformar la materia en obras que parecen cobrar vida"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1099,22 +1091,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QyFEUZvehIEQ7kNvwHCve05&_nc_oc=AdpnQ_xWR2QuzOvKcjigCx-nJv6gO3LrCVstSKd-7n6gMHT0AiMatkIrE3t1RhiO7ac&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=TRnQOxpCoMpJ69X-qm_S3g&_nc_ss=7f289&oh=00_AQJgnRogo2z5g0zNUNkwd2Lx6pTjm0H9JygyYrKzfCd0-A&oe=6AABAE77",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.facebook.com/museocasadelalibertad/posts/cdl-horarios-de-atenci%C3%B3n-en-casa-de-la-libertad-durante-los-d%C3%ADas-de-entrada-folc/1668344648634479/",
-          "has_image": true,
-          "text_preview": "#CDL | Horarios de atención en Casa de la Libertad durante los días de Entrada Folclórica de la Virgen de Guadalupe."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
@@ -1159,13 +1142,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jZ42LSEZtqkQ7kNvwGx_86V&_nc_oc=AdqRVxIZ7lDa5ZOcOXxpkgTjqgEQBI5R2W0O5fT6eGY43pMYcyFMnwTsUOsfUhdT1jc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=UX9yjcpHwwtzLIflV4zvXA&_nc_ss=7f289&oh=00_AQKA2XH7lQZGqyiHlyC04PZm--AEg7lZG2VshFXUg2QjLw&oe=6AAB91A5",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1193,13 +1176,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/802121447_1509917531172107_3755553418203842592_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Fug3H5POOpYQ7kNvwGbWFWL&_nc_oc=Adq7Ne_alPUO1xOvlby7r02e0RvZsY95JFkm2GL2EK2ivIvgE-n6wMMAPsluIpAM2Wg&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=zSPfPNpT1sGusMcLuBC8YQ&_nc_ss=7f289&oh=00_AQIXFU7pTj-gZusPjcexxPa0_8e_CFE8gsaogMQQzyi6OA&oe=6AABE85C",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/reel/2172907864104170/?__cft__[0]=AZg1UEvZQPOWjrpeH2S7Plq_wpvRc_03dRtEtxaE_XTC8PfdeHfyR0S3r4tvCIqllLbRbUpehMGV0RF1QD4ynzz9S3oMVB4SDbCVliG2ZN5apryzDW5iDE1Iy5RxXxD158Qt2CfcXZvczSj7vew_b8JC7eGGKZBFe4lgFjfcdiq61Sz9eIED5tyYkAIOvETXdu6A&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡El WiFi UMSS fue presentado oficialmente! La tecnología y la cultura se encontraron en una jornada especial para la comunidad universitaria. El rector de la Unive… Ver más ¡El WiFi UMSS fue presentado oficialmente! La tecnología y la cultura se encontraron en una jornada especial para la comunidad universitaria. El rector de la Unive… Ver más Tenemos problemas para reproducir este video. Más info"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1228,12 +1220,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Universidad Privada de Santa Cruz de la Sierra - UPSA 76 mil seguidores • 181 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en '"
     },
     {
       "id": "web_superticket",
@@ -1435,32 +1427,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 45,
+          "score": 51,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "11/09/2026 Cultura 11S: El musical Come from away llega a Cochabamba Con la intención de superar el éxito que tuvieron en La Paz, los integrantes del colectivo artístico independiente DREI ponen en escena “Come from away, el... vista 10/09/2026 Cultura La cuarta versión de Festinco levanta telón hoy en Cochabamba Con la consigna “El teatro será la voz de la naturaleza” se llevará a cabo la cuarta "
         },
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 49,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 53,
+          "category": "concierto",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Premier League: El Arsenal mantiene el pleno tras ganar al Sunderland Ver m"
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 49,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "score": 48,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB 2 Municipios de Cochabamba acuerdan con la UPRE priorizar obras para 2027 3 Lluvi"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1518,15 +1510,23 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
+      "raw_items": 36,
       "events": 0,
-      "rejected": 38,
+      "rejected": 36,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/e6d99073-3b92-49c1-8436-9e49204c0d44",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/41b05618-5a71-449a-a4e4-804d6d9232cb",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2f447835-fd3a-41ca-b09b-31f8766c718a",
           "has_image": true,
           "text_preview": ""
         },
@@ -1535,14 +1535,6 @@
           "score": 0,
           "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/5073a902-055d-491f-937b-948f64a8c84b",
           "has_image": true,
           "text_preview": ""
         }
@@ -1560,8 +1552,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 46,
-      "events": 46,
+      "raw_items": 50,
+      "events": 50,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1594,8 +1586,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1628,8 +1620,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
-      "events": 40,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
