@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:53:41-04:00",
+  "generated_at": "2026-09-14T19:55:14-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 69.4,
-    "horas_maximo_sin_datos": 612.7
+    "horas_promedio_sin_datos": 70.6,
+    "horas_maximo_sin_datos": 616.7
   },
   "sources": [
     {
@@ -62,13 +62,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wgssDiAJ_DwQ7kNvwHjEb4M&_nc_oc=Adpn2V1UTrFhr6yTVdpltH5D80kzxrHYJSuynWkfsVfIIWUcKvG324_kNhFFa-qpKas&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=RCnY4Uj3nkSvzJbiIBbk2w&_nc_ss=7f289&oh=00_AQKfpOq1N_QpWyai8EEcLVfwIxjy-XLH7de506aEpngxPg&oe=6AAE5DF6",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZilcMBc8S7Cl5Lsd7wG2-4BWZoRt1PGWsFtmjl8s9MVaK4v8cNOOAi-myDPa4Drm7j0nSvAymWu2u7vNUkbIuL3BHlIsTls9gQ3ymyB2-CiV14QBfT1_8mlv-ca8rDs12f8y5nTpKBMANlko-XtV17PM92Mb2TDO6zGpftyajTrzvsRwkrk9YyLXc_aad9zhN8d&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZilcMBc8S7Cl5Lsd7wG2-4BWZoRt1PGWsFtmjl8s9MVaK4v8cNOOAi-myDPa4Drm7j0nSvAymWu2u7vNUkbIuL3BHlIsTls9gQ3ymyB2-CiV14QBfT1_8mlv-ca8rDs12f8y5nTpKBMANlko-XtV17PM92Mb2TDO6zGpftyajTrzvsRwkrk9YyLXc_aad9zhN8d&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -79,22 +96,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OS8sVQF_DC0Q7kNvwE3UVkt&_nc_oc=AdowHgiROEqIE4D2po-i3y_snIkP8r2U4oDNGZNmOan7zMbe-tFXUU8gdy7-WAc9Ys0&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=CwPxYVeZ-MmDBXmC-7xUWg&_nc_ss=7f289&oh=00_AQKaEPw1aRiwuM5DBI0pWm09TuKSdMXiPVjgHgbtDMzpwg&oe=6AAE3E83",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid04tbGBV1bZ9nBdbsaua1QKYDYjthWMGXMA818oRGbyMif9rShwmb8zCxSGbp6PNnAl?__cft__[0]=AZixSGCT4owrbUNwj1ZudEqQdzAcAx97FnZnEEnSraHIg7FFP3YtmQVf2bGonc9_pAbz0YcJWsVX-7H509hmeUggEKKLLsxVRu9TozDLU8YuYDtoKUg-1lWiCk3LFtHodX_pQdB6TwoMhMicuYq9CPYE_alQ2rAKasuUj7FIyV7BP9fFjidg7As8ZWw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -853,13 +861,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/810594369_1516951523798700_2430571263608466962_n.jpg?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=p526x296&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3jSBEYfLyikQ7kNvwGKmi7Q&_nc_oc=AdoqUlxLaOXrR2_NwTaxBJf67-CHiOJXAMuJTV6ANrgUtKr6Gi_xm9X_4_6qPdS2nQQ&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=hMpZWnLO4GwwOZhq-Q261A&_nc_ss=7f289&oh=00_AQIiWCSl2d3lnfnCGL4QwXhf0TmmodP21qm2vtxqTzAVOg&oe=6AAE70A2",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 12,
+          "category": "feria",
+          "url": "https://www.facebook.com/feriafipaz/posts/oportunidad-laboral-ii-2026-la-feria-internacional-de-la-paz-fipaz-busca-incorpo/1516951370465382/",
+          "has_image": true,
+          "text_preview": "Oportunidad Laboral II – 2026 | La Feria Internacional de La Paz - FIPAZ, busca incorporar a su equipo de trabajo, jovenes talentos en la ciudad de #LaPaz, para las siguientes área: - Ayudante de... Oportunidad Laboral II – 2026 | La Feria Internacional de La Paz - FIPAZ, busca incorporar a su equipo de trabajo, jovenes talentos en la ciudad de... Oportunidad Laboral II – 2026 | La Feria Internaci"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -887,13 +904,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=b_fWGKYUHZEQ7kNvwHR-XTk&_nc_oc=Adrtju_yoXcd5etu69190vPO8uIEt5Jbb4vLJQbDvy7j0WdYm6nYBOcaICebx9b1k7E&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=2iCS3QdeBUpmrAHP1fHOgQ&_nc_ss=7f289&oh=00_AQIs2Q5JglaRLIeO237xbKKt3tTXzKA9QtDrL_IuCVScRg&oe=6AAE2EA7",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -955,13 +972,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=C07kCyVvPa8Q7kNvwH_SxET&_nc_oc=AdqO6WzQXHwONuEozRoHLyF3Hqch2PeqmqQgTDKfRHSGTSAXgFFtEPH3jh7NyJN1HBY&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ev8xV9PvTLPCc6V6ANwUQg&_nc_ss=7f289&oh=00_AQJ3iG8dEFUGXtlzy28j6-cpH49-Ccw4MXFojmp30tiIgw&oe=6AAE66D7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0csdkVzwQqrDzMgeVj2fsVVDSxBnoixQ9MphX6ht9XKS54mjuhUnephTmGbkTsSf7l?__cft__[0]=AZi-DMp28zKP6rLCVh66i9nIQY4m0uDg2sgJDCuuSD1pvGyMe-5Kfml42K6S-2n9vI5iv-VcYGJH7sif8850gSBnhE2-vhYOyVgMlZEJRn4LmDhqxI28s9yogrZl7hUAoXLmH7vGhNZ2YH1iNltDzh1XbkEYUMIdRG1OQHye8NVN4NJfOFHLQL56BJY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "BORDEAR LO INASIBLE La nueva muestra que puedes visitar en nuestra Planta Alta, presentada por la artista boliviana Roxana Arias. Con más de 30 años de trayectoria, R… Ver más BORDEAR LO INASIBLE La nueva muestra que puedes visitar en nuestra Planta Alta, presentada por la artista boliviana Roxana Arias. Con más de 30 años de trayectoria, R… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1023,22 +1049,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zuV4BiEUCckQ7kNvwHeHGzZ&_nc_oc=AdpaYgZpwBK_Oj50sUWgozFGNAqmApTyIkSh07Ih9QOD1wCcN3eAJZbWXtf1iTiv5t0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=RqAhJdJjSmlKsPMwI8-okQ&_nc_ss=7f289&oh=00_AQK6yb4qfo5qWhRFvYXve_ROnEWBQL8c4k9X9tfMnN2irg&oe=6AAE314F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "deporte",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid02NSKTdgr5mARbKwAoB4c98gDHXNajGo8MhDQspKth6LTDLr6Q5dfNyJLCaHT5g71Ul?__cft__[0]=AZgaa_YlxuYQFwd3cJCO1ZorIDHssi3wk0ZRmM79uCuOYrAC1AqKqZ0TUrXW32EaqKEJ3SHVma1gMQjJxroVbAIkvjvjFnFqFGnbcKNDJzHw6ewGG1juZ0ki-e1PvixylXZWPcoqjc61ctCbBl_ONoHdEeqbDmVG7Q6Ec7rwU_WrYjs82tefj3mDIjs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡La Copa Mundial Femenina de Baloncesto se está jugando ahora mismo en Berlín! Desliza y lleva tus conocimientos de baloncesto del nivel principiante al nivel experto."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1424,7 +1441,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
+          "score": 2,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1440,11 +1457,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
+          "score": 10,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Hallan sin vida a niña boliviana entre los escombros del edificio que cayó "
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Homenaje a 216 años de libertad y valentía Ver más 3 El Concejo Municipal r"
         }
       ],
       "error": null
@@ -1502,9 +1519,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
+      "raw_items": 40,
       "events": 0,
-      "rejected": 39,
+      "rejected": 40,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1612,8 +1629,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 55,
-      "events": 55,
+      "raw_items": 53,
+      "events": 53,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1722,17 +1739,17 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 9,
-      "events": 2,
-      "rejected": 7,
+      "raw_items": 7,
+      "events": 1,
+      "rejected": 6,
       "rejected_samples": [
         {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.tarija.gob.bo/",
-          "has_image": true,
-          "text_preview": "Noticias Tarija impulsará una reunión técnica nacional para fortalecer la Agenda 50/50 y avanzar hacia una mayor autonomía departamental 09/09/2026"
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "turismo",
+          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
+          "has_image": false,
+          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",

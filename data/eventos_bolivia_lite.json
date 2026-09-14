@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-14T15:53:41-04:00",
+  "generated_at": "2026-09-14T19:55:14-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 61,
+    "events_total": 62,
     "events_today": 20
   },
   "filters": {
@@ -80,7 +80,7 @@
       {
         "key": "taller",
         "label": "Talleres y cursos",
-        "count": 3
+        "count": 4
       },
       {
         "key": "exposicion",
@@ -132,7 +132,7 @@
       {
         "key": "Tarija",
         "label": "Tarija",
-        "count": 5
+        "count": 6
       },
       {
         "key": "Sucre",
@@ -169,7 +169,7 @@
       {
         "key": "Tarija",
         "label": "Tarija",
-        "count": 5
+        "count": 6
       },
       {
         "key": "Chuquisaca",
@@ -201,12 +201,12 @@
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 34
+        "count": 35
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 61
+        "count": 62
       }
     ],
     "price": [
@@ -218,7 +218,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 9
+        "count": 10
       },
       {
         "key": "por_confirmar",
@@ -230,7 +230,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 50
+        "count": 51
       },
       {
         "key": "con_video",
@@ -379,7 +379,7 @@
       {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
-        "count": 9
+        "count": 10
       },
       {
         "key": "ticketera",
@@ -417,8 +417,8 @@
       "evt_e53e510a6afa33",
       "evt_a82bec26bac835",
       "evt_5d35ce581b23e0",
-      "evt_89855048a67bde",
       "evt_fbb72036092517",
+      "evt_89855048a67bde",
       "evt_1983438f057d00"
     ],
     "tomorrow": [
@@ -449,6 +449,7 @@
       "evt_e53e510a6afa33",
       "evt_a82bec26bac835",
       "evt_5d35ce581b23e0",
+      "evt_fbb72036092517",
       "evt_8cb970f0050dc7",
       "evt_0cb40e07c1a65b",
       "evt_b241df7de02d67",
@@ -464,15 +465,15 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 34,
+      "events_total": 33,
       "events_upcoming": 14,
       "events_with_image": 12,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 6
+      "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 34,
+      "events_total": 30,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0,
@@ -480,12 +481,12 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 31,
+      "events_total": 30,
       "events_upcoming": 15,
       "events_with_image": 10,
       "events_with_video": 4,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Chuquisaca": {
       "events_total": 8,
@@ -512,9 +513,9 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 9,
-      "events_upcoming": 5,
-      "events_with_image": 1,
+      "events_total": 10,
+      "events_upcoming": 6,
+      "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 5,
       "sources_ok": 2
@@ -539,7 +540,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 62,
+      "events_total": 60,
       "events_upcoming": 21,
       "events_with_image": 20,
       "events_with_video": 0
@@ -567,7 +568,7 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 20,
+      "events_total": 16,
       "events_upcoming": 8,
       "events_with_image": 8,
       "events_with_video": 0
@@ -602,9 +603,9 @@
     },
     "taller": {
       "label": "Talleres y cursos",
-      "events_total": 3,
-      "events_upcoming": 3,
-      "events_with_image": 1,
+      "events_total": 4,
+      "events_upcoming": 4,
+      "events_with_image": 2,
       "events_with_video": 0
     },
     "teatro": {
@@ -1881,11 +1882,11 @@
       "title": "Película en cartelera de cine",
       "category": "cine",
       "category_label": "Cine",
-      "starts_at": "2026-09-14T18:00:00-04:00",
-      "starts_at_ms": 1789423200000,
+      "starts_at": "2026-09-14T18:30:00-04:00",
+      "starts_at_ms": 1789425000000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Lunes 14 de septiembre · 18:00",
+      "display_date": "Lunes 14 de septiembre · 18:30",
       "lifecycle": "hoy",
       "lifecycle_label": "Hoy",
       "days_until": 0,
@@ -1893,7 +1894,7 @@
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
       "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
+      "image_url": "https://cdn.bolivia.com/cine/2026/5/spider-man-un-nuevo-dia-47429.jpg",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
@@ -1902,82 +1903,47 @@
       "price_label": null,
       "organizer": null,
       "showtimes": [
-        "18:00",
-        "14:20",
-        "15:10",
-        "16:20",
-        "16:40",
-        "17:30",
-        "19:00",
-        "19:50",
-        "21:20",
-        "18:20",
-        "15:40",
-        "16:00",
-        "15:30",
         "18:30",
+        "19:50",
         "21:30",
         "18:40",
         "21:40",
         "20:20",
-        "14:30",
-        "16:30",
-        "20:00",
-        "15:20",
-        "17:40",
-        "22:30",
-        "16:50",
-        "19:30",
+        "19:00",
+        "21:20",
+        "18:20",
         "22:10",
-        "15:50",
-        "20:30",
+        "19:30",
+        "20:00",
+        "22:30",
         "20:40",
-        "17:50"
+        "20:30"
       ],
       "formats": [
-        "2D - DBOX - XD - Doblada",
         "2D - Doblada",
-        "2D - PRE - Doblada",
-        "DBOX - XD - 2D - Doblada",
         "PRE - 2D - Doblada",
-        "2D - PRE - Subtitulada",
-        "XD - DBOX - 2D - Doblada",
         "PRE - 2D - Subtitulada",
-        "2D - DBOX - Doblada",
+        "XD - DBOX - 2D - Doblada",
+        "2D - PRE - Doblada",
+        "2D - PRE - Subtitulada",
         "DBOX - 2D - Doblada"
       ],
       "occurrences": [
-        "2026-09-14T18:00:00-04:00",
-        "2026-09-14T14:20:00-04:00",
-        "2026-09-14T15:10:00-04:00",
-        "2026-09-14T16:20:00-04:00",
-        "2026-09-14T16:40:00-04:00",
-        "2026-09-14T17:30:00-04:00",
-        "2026-09-14T19:00:00-04:00",
-        "2026-09-14T19:50:00-04:00",
-        "2026-09-14T21:20:00-04:00",
-        "2026-09-14T18:20:00-04:00",
-        "2026-09-14T15:40:00-04:00",
-        "2026-09-14T16:00:00-04:00",
-        "2026-09-14T15:30:00-04:00",
         "2026-09-14T18:30:00-04:00",
+        "2026-09-14T19:50:00-04:00",
         "2026-09-14T21:30:00-04:00",
         "2026-09-14T18:40:00-04:00",
         "2026-09-14T21:40:00-04:00",
         "2026-09-14T20:20:00-04:00",
-        "2026-09-14T14:30:00-04:00",
-        "2026-09-14T16:30:00-04:00",
-        "2026-09-14T20:00:00-04:00",
-        "2026-09-14T15:20:00-04:00",
-        "2026-09-14T17:40:00-04:00",
-        "2026-09-14T22:30:00-04:00",
-        "2026-09-14T16:50:00-04:00",
-        "2026-09-14T19:30:00-04:00",
+        "2026-09-14T19:00:00-04:00",
+        "2026-09-14T21:20:00-04:00",
+        "2026-09-14T18:20:00-04:00",
         "2026-09-14T22:10:00-04:00",
-        "2026-09-14T15:50:00-04:00",
-        "2026-09-14T20:30:00-04:00",
+        "2026-09-14T19:30:00-04:00",
+        "2026-09-14T20:00:00-04:00",
+        "2026-09-14T22:30:00-04:00",
         "2026-09-14T20:40:00-04:00",
-        "2026-09-14T17:50:00-04:00"
+        "2026-09-14T20:30:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -1985,6 +1951,44 @@
       "director": null,
       "cast": [],
       "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_fbb72036092517",
+      "title": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de…",
+      "category": "teatro",
+      "category_label": "Teatro",
+      "starts_at": "2026-09-14T21:15:00-04:00",
+      "starts_at_ms": 1789434900000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 14 de septiembre · 21:15",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "mARTadero",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/agenda_cultural/imagen/whatsapp_image_2024-10-15_at_09.12.23_1.jpeg?itok=UmYLUCEu",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 8.0,
+      "currency": "BOB",
+      "price_label": "Bs 8",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 69,
       "is_featured": true,
       "status": "programado",
       "source_count": 1
@@ -2006,44 +2010,6 @@
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
       "venue": "Estadio Ramón Tahuichi Aguilera",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/agenda_cultural/imagen/whatsapp_image_2024-10-15_at_09.12.23_1.jpeg?itok=UmYLUCEu",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [],
-      "formats": [],
-      "occurrences": [],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 61,
-      "is_featured": false,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_fbb72036092517",
-      "title": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de…",
-      "category": "teatro",
-      "category_label": "Teatro",
-      "starts_at": "2026-09-14T21:15:00-04:00",
-      "starts_at_ms": 1789434900000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Lunes 14 de septiembre · 21:15",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Cochabamba",
-      "department": "Cochabamba",
-      "venue": "mARTadero",
       "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/agenda_cultural/imagen/whatsapp_image_2024-10-15_at_09.12.23_1.jpeg?itok=UmYLUCEu",
       "has_video": false,
       "video_thumbnail_url": null,
@@ -2520,6 +2486,44 @@
       "is_featured": true,
       "status": "programado",
       "source_count": 2
+    },
+    {
+      "event_id": "evt_902dde22402c93",
+      "title": "Tarija lidera acuerdo de ocho gobernaciones para avanzar en la autonomía fiscal y la Agenda 50/50",
+      "category": "taller",
+      "category_label": "Talleres y cursos",
+      "starts_at": "2026-09-24T00:00:00-04:00",
+      "starts_at_ms": 1790222400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 24 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 10,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": "https://www.tarija.gob.bo/images/noticias/2026/Septiembre/10-09-26_Tarija_lidera_acuerdo_de_ocho_gobernaciones.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
     },
     {
       "event_id": "evt_7c6069a412d034",
