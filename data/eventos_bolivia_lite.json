@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-14T00:58:15-04:00",
+  "generated_at": "2026-09-14T08:48:09-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 58,
+    "events_total": 60,
     "events_today": 20
   },
   "filters": {
@@ -55,7 +55,7 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 20
+        "count": 21
       },
       {
         "key": "feria",
@@ -88,13 +88,13 @@
         "count": 2
       },
       {
-        "key": "nightlife",
-        "label": "Vida nocturna",
-        "count": 1
-      },
-      {
         "key": "exposicion",
         "label": "Exposiciones",
+        "count": 2
+      },
+      {
+        "key": "nightlife",
+        "label": "Vida nocturna",
         "count": 1
       },
       {
@@ -122,12 +122,12 @@
       {
         "key": "Quillacollo",
         "label": "Quillacollo",
-        "count": 7
+        "count": 8
       },
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 7
+        "count": 8
       },
       {
         "key": "Tarija",
@@ -154,7 +154,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 15
+        "count": 17
       },
       {
         "key": "Santa Cruz",
@@ -196,17 +196,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 30
+        "count": 31
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 33
+        "count": 34
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 58
+        "count": 60
       }
     ],
     "price": [
@@ -223,14 +223,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 48
+        "count": 50
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 47
+        "count": 49
       },
       {
         "key": "con_video",
@@ -252,6 +252,16 @@
       {
         "key": "OportunidadesParaTodos",
         "label": "OportunidadesParaTodos",
+        "count": 2
+      },
+      {
+        "key": "Cultura",
+        "label": "Cultura",
+        "count": 2
+      },
+      {
+        "key": "FundaciónPatiño",
+        "label": "FundaciónPatiño",
         "count": 2
       },
       {
@@ -310,16 +320,6 @@
         "count": 1
       },
       {
-        "key": "Cultura",
-        "label": "Cultura",
-        "count": 1
-      },
-      {
-        "key": "FundaciónPatiño",
-        "label": "FundaciónPatiño",
-        "count": 1
-      },
-      {
         "key": "Ml18Xb",
         "label": "Ml18Xb",
         "count": 1
@@ -364,16 +364,16 @@
       {
         "key": "media",
         "label": "media",
-        "count": 17
-      },
-      {
-        "key": "cartelera_cine",
-        "label": "cartelera_cine",
-        "count": 13
+        "count": 18
       },
       {
         "key": "venue",
         "label": "venue",
+        "count": 14
+      },
+      {
+        "key": "cartelera_cine",
+        "label": "cartelera_cine",
         "count": 13
       },
       {
@@ -427,6 +427,7 @@
     "this_weekend": [
       "evt_b241df7de02d67",
       "evt_e862bfd2d33cb1",
+      "evt_54086d62bc22ef",
       "evt_a16e312fc8c280",
       "evt_99e5ce9b1cdfbb"
     ],
@@ -456,7 +457,8 @@
       "evt_b738d5075ee0af",
       "evt_2821894c1d5322",
       "evt_ab2d744f1fbd8e",
-      "evt_48c45c2c902fde"
+      "evt_48c45c2c902fde",
+      "evt_9ea8741680468c"
     ]
   },
   "coverage_by_department": {
@@ -466,23 +468,23 @@
       "events_with_image": 11,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 5
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 35,
-      "events_upcoming": 15,
-      "events_with_image": 15,
+      "events_total": 37,
+      "events_upcoming": 17,
+      "events_with_image": 17,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 35,
+      "events_total": 34,
       "events_upcoming": 15,
       "events_with_image": 10,
       "events_with_video": 4,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
       "events_total": 9,
@@ -490,7 +492,7 @@
       "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Oruro": {
       "events_total": 2,
@@ -536,9 +538,9 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 71,
-      "events_upcoming": 20,
-      "events_with_image": 19,
+      "events_total": 72,
+      "events_upcoming": 21,
+      "events_with_image": 20,
       "events_with_video": 0
     },
     "concierto": {
@@ -564,16 +566,16 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 21,
+      "events_total": 20,
       "events_upcoming": 8,
       "events_with_image": 8,
       "events_with_video": 0
     },
     "exposicion": {
       "label": "Exposiciones",
-      "events_total": 2,
-      "events_upcoming": 1,
-      "events_with_image": 1,
+      "events_total": 3,
+      "events_upcoming": 2,
+      "events_with_image": 2,
       "events_with_video": 0
     },
     "feria": {
@@ -1687,11 +1689,11 @@
         "19:50",
         "21:20",
         "13:40",
-        "15:40",
-        "13:20",
         "16:00",
         "18:20",
+        "13:20",
         "18:00",
+        "15:40",
         "12:30",
         "15:30",
         "18:30",
@@ -1704,20 +1706,19 @@
         "13:00",
         "20:00",
         "16:30",
-        "19:30",
-        "22:10",
         "14:00",
         "16:50",
-        "15:20"
+        "22:10",
+        "19:30",
+        "17:40"
       ],
       "formats": [
         "2D - Doblada",
         "2D - PRE - Doblada",
-        "DBOX - 2D - XD - Doblada",
         "DBOX - XD - 2D - Doblada",
-        "PRE - 2D - Doblada",
-        "XD - 2D - DBOX - Doblada",
+        "XD - DBOX - 2D - Doblada",
         "2D - PRE - Subtitulada",
+        "PRE - 2D - Doblada",
         "PRE - 2D - Subtitulada",
         "2D - DBOX - Doblada",
         "DBOX - 2D - Doblada"
@@ -1733,11 +1734,11 @@
         "2026-09-14T19:50:00-04:00",
         "2026-09-14T21:20:00-04:00",
         "2026-09-14T13:40:00-04:00",
-        "2026-09-14T15:40:00-04:00",
-        "2026-09-14T13:20:00-04:00",
         "2026-09-14T16:00:00-04:00",
         "2026-09-14T18:20:00-04:00",
+        "2026-09-14T13:20:00-04:00",
         "2026-09-14T18:00:00-04:00",
+        "2026-09-14T15:40:00-04:00",
         "2026-09-14T12:30:00-04:00",
         "2026-09-14T15:30:00-04:00",
         "2026-09-14T18:30:00-04:00",
@@ -1750,12 +1751,12 @@
         "2026-09-14T13:00:00-04:00",
         "2026-09-14T20:00:00-04:00",
         "2026-09-14T16:30:00-04:00",
-        "2026-09-14T19:30:00-04:00",
-        "2026-09-14T22:10:00-04:00",
         "2026-09-14T14:00:00-04:00",
         "2026-09-14T16:50:00-04:00",
-        "2026-09-14T15:20:00-04:00",
+        "2026-09-14T22:10:00-04:00",
+        "2026-09-14T19:30:00-04:00",
         "2026-09-14T17:40:00-04:00",
+        "2026-09-14T15:20:00-04:00",
         "2026-09-14T22:30:00-04:00",
         "2026-09-14T15:50:00-04:00",
         "2026-09-14T20:30:00-04:00",
@@ -2411,6 +2412,44 @@
       "cast": [],
       "quality_score": 78,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_54086d62bc22ef",
+      "title": "13/09/2026 Cultura Enrique Aráoz: Alturas sonoras es una propuesta de gala y solemne El sábado 19 de septiembre…",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-19T19:00:00-04:00",
+      "starts_at_ms": 1789858800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 19 de septiembre · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 5,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": "salón Melchor Pérez",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/13/dc_cartelera_1_enrique_araoz.jpg.jpg?itok=4Ia_Uv4X",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
@@ -3551,6 +3590,44 @@
       "cast": [],
       "quality_score": 45,
       "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_9ea8741680468c",
+      "title": "Fundación Patiño Cochabamba",
+      "category": "exposicion",
+      "category_label": "Exposiciones",
+      "starts_at": "2027-09-10T21:00:00-04:00",
+      "starts_at_ms": 1820624400000,
+      "ends_at_ms": 1822363140000,
+      "multi_day": true,
+      "display_date": "Del 10 al 30 de septiembre · 21:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 361,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "Centro Pedagógico y Cultural Simón I. Patiño",
+      "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.99422-6/806416446_1084462730607108_956648851822232661_n.png?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=p600x600&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=9fPj7iGeyogQ7kNvwHC540F&_nc_oc=Adru0RISwoK0rlVB2OpPqJXsBuMEE0VZRXL-b5lhe5ZD5NxQwU3bp0yO-p3JBrDYyfM&_nc_zt=14&_nc_ht=scontent-ams2-1.xx&_nc_gid=slHBL5A93ykoJlCxzmv9NA&_nc_ss=7f289&oh=00_AQIRf0H7rW4rzMB4_NGsaY5e0SX3Mwarl3ko9aoWyez5fA&oe=6AADD5C8",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 65,
+      "is_featured": true,
       "status": "programado",
       "source_count": 1
     }
