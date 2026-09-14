@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-14T08:48:09-04:00",
+  "generated_at": "2026-09-14T15:53:41-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 60,
+    "events_total": 61,
     "events_today": 20
   },
   "filters": {
@@ -83,13 +83,13 @@
         "count": 3
       },
       {
-        "key": "turismo",
-        "label": "Turismo y patrimonio",
-        "count": 2
-      },
-      {
         "key": "exposicion",
         "label": "Exposiciones",
+        "count": 3
+      },
+      {
+        "key": "turismo",
+        "label": "Turismo y patrimonio",
         "count": 2
       },
       {
@@ -117,7 +117,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 13
+        "count": 14
       },
       {
         "key": "Quillacollo",
@@ -164,7 +164,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 13
+        "count": 14
       },
       {
         "key": "Tarija",
@@ -206,14 +206,14 @@
       {
         "key": "todos",
         "label": "Todos",
-        "count": 60
+        "count": 61
       }
     ],
     "price": [
       {
         "key": "gratis",
         "label": "Gratis",
-        "count": 1
+        "count": 2
       },
       {
         "key": "pagado",
@@ -230,7 +230,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 49
+        "count": 50
       },
       {
         "key": "con_video",
@@ -239,6 +239,16 @@
       }
     ],
     "tags": [
+      {
+        "key": "Cultura",
+        "label": "Cultura",
+        "count": 3
+      },
+      {
+        "key": "FundaciónPatiño",
+        "label": "FundaciónPatiño",
+        "count": 3
+      },
       {
         "key": "FEXPOCRUZ",
         "label": "FEXPOCRUZ",
@@ -252,16 +262,6 @@
       {
         "key": "OportunidadesParaTodos",
         "label": "OportunidadesParaTodos",
-        "count": 2
-      },
-      {
-        "key": "Cultura",
-        "label": "Cultura",
-        "count": 2
-      },
-      {
-        "key": "FundaciónPatiño",
-        "label": "FundaciónPatiño",
         "count": 2
       },
       {
@@ -369,7 +369,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 14
+        "count": 15
       },
       {
         "key": "cartelera_cine",
@@ -414,11 +414,11 @@
       "evt_1951c83158dad6",
       "evt_8201c27f978f30",
       "evt_b8b70a98b8601a",
-      "evt_5d35ce581b23e0",
       "evt_e53e510a6afa33",
       "evt_a82bec26bac835",
-      "evt_fbb72036092517",
+      "evt_5d35ce581b23e0",
       "evt_89855048a67bde",
+      "evt_fbb72036092517",
       "evt_1983438f057d00"
     ],
     "tomorrow": [
@@ -432,7 +432,8 @@
       "evt_99e5ce9b1cdfbb"
     ],
     "free": [
-      "evt_50fb2be7443568"
+      "evt_50fb2be7443568",
+      "evt_ba15d62df4cd50"
     ],
     "featured": [
       "evt_c36bc20af37642",
@@ -445,9 +446,9 @@
       "evt_1951c83158dad6",
       "evt_8201c27f978f30",
       "evt_b8b70a98b8601a",
-      "evt_5d35ce581b23e0",
       "evt_e53e510a6afa33",
       "evt_a82bec26bac835",
+      "evt_5d35ce581b23e0",
       "evt_8cb970f0050dc7",
       "evt_0cb40e07c1a65b",
       "evt_b241df7de02d67",
@@ -463,23 +464,23 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 36,
-      "events_upcoming": 13,
-      "events_with_image": 11,
+      "events_total": 34,
+      "events_upcoming": 14,
+      "events_with_image": 12,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 6
     },
     "Cochabamba": {
-      "events_total": 37,
+      "events_total": 34,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 34,
+      "events_total": 31,
       "events_upcoming": 15,
       "events_with_image": 10,
       "events_with_video": 4,
@@ -487,12 +488,12 @@
       "sources_ok": 3
     },
     "Chuquisaca": {
-      "events_total": 9,
+      "events_total": 8,
       "events_upcoming": 4,
       "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 2,
@@ -511,7 +512,7 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 10,
+      "events_total": 9,
       "events_upcoming": 5,
       "events_with_image": 1,
       "events_with_video": 0,
@@ -538,7 +539,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 72,
+      "events_total": 62,
       "events_upcoming": 21,
       "events_with_image": 20,
       "events_with_video": 0
@@ -573,9 +574,9 @@
     },
     "exposicion": {
       "label": "Exposiciones",
-      "events_total": 3,
-      "events_upcoming": 2,
-      "events_with_image": 2,
+      "events_total": 4,
+      "events_upcoming": 3,
+      "events_with_image": 3,
       "events_with_video": 0
     },
     "feria": {
@@ -608,7 +609,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 6,
+      "events_total": 5,
       "events_upcoming": 5,
       "events_with_image": 4,
       "events_with_video": 0
@@ -1654,128 +1655,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_5d35ce581b23e0",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-09-14T12:50:00-04:00",
-      "starts_at_ms": 1789404600000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Lunes 14 de septiembre · 12:50",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "12:50",
-        "14:20",
-        "15:10",
-        "16:20",
-        "16:40",
-        "17:30",
-        "19:00",
-        "19:50",
-        "21:20",
-        "13:40",
-        "16:00",
-        "18:20",
-        "13:20",
-        "18:00",
-        "15:40",
-        "12:30",
-        "15:30",
-        "18:30",
-        "21:30",
-        "12:40",
-        "18:40",
-        "21:40",
-        "20:20",
-        "14:30",
-        "13:00",
-        "20:00",
-        "16:30",
-        "14:00",
-        "16:50",
-        "22:10",
-        "19:30",
-        "17:40"
-      ],
-      "formats": [
-        "2D - Doblada",
-        "2D - PRE - Doblada",
-        "DBOX - XD - 2D - Doblada",
-        "XD - DBOX - 2D - Doblada",
-        "2D - PRE - Subtitulada",
-        "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada",
-        "2D - DBOX - Doblada",
-        "DBOX - 2D - Doblada"
-      ],
-      "occurrences": [
-        "2026-09-14T12:50:00-04:00",
-        "2026-09-14T14:20:00-04:00",
-        "2026-09-14T15:10:00-04:00",
-        "2026-09-14T16:20:00-04:00",
-        "2026-09-14T16:40:00-04:00",
-        "2026-09-14T17:30:00-04:00",
-        "2026-09-14T19:00:00-04:00",
-        "2026-09-14T19:50:00-04:00",
-        "2026-09-14T21:20:00-04:00",
-        "2026-09-14T13:40:00-04:00",
-        "2026-09-14T16:00:00-04:00",
-        "2026-09-14T18:20:00-04:00",
-        "2026-09-14T13:20:00-04:00",
-        "2026-09-14T18:00:00-04:00",
-        "2026-09-14T15:40:00-04:00",
-        "2026-09-14T12:30:00-04:00",
-        "2026-09-14T15:30:00-04:00",
-        "2026-09-14T18:30:00-04:00",
-        "2026-09-14T21:30:00-04:00",
-        "2026-09-14T12:40:00-04:00",
-        "2026-09-14T18:40:00-04:00",
-        "2026-09-14T21:40:00-04:00",
-        "2026-09-14T20:20:00-04:00",
-        "2026-09-14T14:30:00-04:00",
-        "2026-09-14T13:00:00-04:00",
-        "2026-09-14T20:00:00-04:00",
-        "2026-09-14T16:30:00-04:00",
-        "2026-09-14T14:00:00-04:00",
-        "2026-09-14T16:50:00-04:00",
-        "2026-09-14T22:10:00-04:00",
-        "2026-09-14T19:30:00-04:00",
-        "2026-09-14T17:40:00-04:00",
-        "2026-09-14T15:20:00-04:00",
-        "2026-09-14T22:30:00-04:00",
-        "2026-09-14T15:50:00-04:00",
-        "2026-09-14T20:30:00-04:00",
-        "2026-09-14T13:30:00-04:00",
-        "2026-09-14T17:50:00-04:00",
-        "2026-09-14T20:40:00-04:00",
-        "2026-09-14T12:20:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_e53e510a6afa33",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1998,7 +1877,120 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_fbb72036092517",
+      "event_id": "evt_5d35ce581b23e0",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-14T18:00:00-04:00",
+      "starts_at_ms": 1789423200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 14 de septiembre · 18:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "18:00",
+        "14:20",
+        "15:10",
+        "16:20",
+        "16:40",
+        "17:30",
+        "19:00",
+        "19:50",
+        "21:20",
+        "18:20",
+        "15:40",
+        "16:00",
+        "15:30",
+        "18:30",
+        "21:30",
+        "18:40",
+        "21:40",
+        "20:20",
+        "14:30",
+        "16:30",
+        "20:00",
+        "15:20",
+        "17:40",
+        "22:30",
+        "16:50",
+        "19:30",
+        "22:10",
+        "15:50",
+        "20:30",
+        "20:40",
+        "17:50"
+      ],
+      "formats": [
+        "2D - DBOX - XD - Doblada",
+        "2D - Doblada",
+        "2D - PRE - Doblada",
+        "DBOX - XD - 2D - Doblada",
+        "PRE - 2D - Doblada",
+        "2D - PRE - Subtitulada",
+        "XD - DBOX - 2D - Doblada",
+        "PRE - 2D - Subtitulada",
+        "2D - DBOX - Doblada",
+        "DBOX - 2D - Doblada"
+      ],
+      "occurrences": [
+        "2026-09-14T18:00:00-04:00",
+        "2026-09-14T14:20:00-04:00",
+        "2026-09-14T15:10:00-04:00",
+        "2026-09-14T16:20:00-04:00",
+        "2026-09-14T16:40:00-04:00",
+        "2026-09-14T17:30:00-04:00",
+        "2026-09-14T19:00:00-04:00",
+        "2026-09-14T19:50:00-04:00",
+        "2026-09-14T21:20:00-04:00",
+        "2026-09-14T18:20:00-04:00",
+        "2026-09-14T15:40:00-04:00",
+        "2026-09-14T16:00:00-04:00",
+        "2026-09-14T15:30:00-04:00",
+        "2026-09-14T18:30:00-04:00",
+        "2026-09-14T21:30:00-04:00",
+        "2026-09-14T18:40:00-04:00",
+        "2026-09-14T21:40:00-04:00",
+        "2026-09-14T20:20:00-04:00",
+        "2026-09-14T14:30:00-04:00",
+        "2026-09-14T16:30:00-04:00",
+        "2026-09-14T20:00:00-04:00",
+        "2026-09-14T15:20:00-04:00",
+        "2026-09-14T17:40:00-04:00",
+        "2026-09-14T22:30:00-04:00",
+        "2026-09-14T16:50:00-04:00",
+        "2026-09-14T19:30:00-04:00",
+        "2026-09-14T22:10:00-04:00",
+        "2026-09-14T15:50:00-04:00",
+        "2026-09-14T20:30:00-04:00",
+        "2026-09-14T20:40:00-04:00",
+        "2026-09-14T17:50:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_89855048a67bde",
       "title": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de…",
       "category": "teatro",
       "category_label": "Teatro",
@@ -2011,9 +2003,9 @@
       "lifecycle_label": "Hoy",
       "days_until": 0,
       "is_upcoming": true,
-      "city": "Cochabamba",
-      "department": "Cochabamba",
-      "venue": "mARTadero",
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Estadio Ramón Tahuichi Aguilera",
       "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/agenda_cultural/imagen/whatsapp_image_2024-10-15_at_09.12.23_1.jpeg?itok=UmYLUCEu",
       "has_video": false,
       "video_thumbnail_url": null,
@@ -2036,7 +2028,7 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_89855048a67bde",
+      "event_id": "evt_fbb72036092517",
       "title": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de…",
       "category": "teatro",
       "category_label": "Teatro",
@@ -2049,9 +2041,9 @@
       "lifecycle_label": "Hoy",
       "days_until": 0,
       "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Estadio Ramón Tahuichi Aguilera",
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "mARTadero",
       "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_tipo_2/public/agenda_cultural/imagen/whatsapp_image_2024-10-15_at_09.12.23_1.jpeg?itok=UmYLUCEu",
       "has_video": false,
       "video_thumbnail_url": null,
@@ -3513,6 +3505,44 @@
       "director": null,
       "cast": [],
       "quality_score": 61,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_ba15d62df4cd50",
+      "title": "Fundación Patiño La Paz",
+      "category": "exposicion",
+      "category_label": "Exposiciones",
+      "starts_at": "2027-09-03T22:00:00-04:00",
+      "starts_at_ms": 1820023200000,
+      "ends_at_ms": 1822017540000,
+      "multi_day": true,
+      "display_date": "Del 3 al 26 de septiembre · 22:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 354,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/791275128_1525038893001018_5685084875543877338_n.jpg?stp=dst-jpg_tt6&cstp=mx1626x2048&ctp=p600x600&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=heghHcH9NHgQ7kNvwGDuGG8&_nc_oc=AdpIiJ97qgSoqfTFT6GfXwO92xRoaBlNAN07agGfuu9kLCMBSjs19_w89KZ7vDHXfnA&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=8lWEyAq83UruGrtDUF349g&_nc_ss=7f289&oh=00_AQI_UwPy1eIZpH6xfHtl7yLAcJe6Kv_CE2fazRR_yUTJzQ&oe=6AAE32F3",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": true,
+      "price_from": null,
+      "currency": null,
+      "price_label": "Entrada libre",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 63,
       "is_featured": false,
       "status": "programado",
       "source_count": 1

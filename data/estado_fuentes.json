@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:48:09-04:00",
+  "generated_at": "2026-09-14T15:53:41-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,6 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_espacio_patino_lapaz",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -16,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 65.4,
-    "horas_maximo_sin_datos": 605.6
+    "horas_promedio_sin_datos": 69.4,
+    "horas_maximo_sin_datos": 612.7
   },
   "sources": [
     {
@@ -80,13 +79,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OS8sVQF_DC0Q7kNvwE3UVkt&_nc_oc=AdowHgiROEqIE4D2po-i3y_snIkP8r2U4oDNGZNmOan7zMbe-tFXUU8gdy7-WAc9Ys0&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=CwPxYVeZ-MmDBXmC-7xUWg&_nc_ss=7f289&oh=00_AQKaEPw1aRiwuM5DBI0pWm09TuKSdMXiPVjgHgbtDMzpwg&oe=6AAE3E83",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid04tbGBV1bZ9nBdbsaua1QKYDYjthWMGXMA818oRGbyMif9rShwmb8zCxSGbp6PNnAl?__cft__[0]=AZixSGCT4owrbUNwj1ZudEqQdzAcAx97FnZnEEnSraHIg7FFP3YtmQVf2bGonc9_pAbz0YcJWsVX-7H509hmeUggEKKLLsxVRu9TozDLU8YuYDtoKUg-1lWiCk3LFtHodX_pQdB6TwoMhMicuYq9CPYE_alQ2rAKasuUj7FIyV7BP9fFjidg7As8ZWw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -879,13 +887,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=b_fWGKYUHZEQ7kNvwHR-XTk&_nc_oc=Adrtju_yoXcd5etu69190vPO8uIEt5Jbb4vLJQbDvy7j0WdYm6nYBOcaICebx9b1k7E&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=2iCS3QdeBUpmrAHP1fHOgQ&_nc_ss=7f289&oh=00_AQIs2Q5JglaRLIeO237xbKKt3tTXzKA9QtDrL_IuCVScRg&oe=6AAE2EA7",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -998,13 +1006,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WUDHz-J7a7sQ7kNvwHqbZsW&_nc_oc=Adp62Cm11WOWOYl1xlSU0nOQalqnuH6U79cTi6dHCoqhojOdtuqfsui1I_rc1Mr42Rw&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=Gk8eVf4Dc4Eydu19P9jtSA&_nc_ss=7f289&oh=00_AQKldzJ8P0oQ6W7fVPqAtq3n4s-ZauvI1GweuTWWdmdxng&oe=6AADB774",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1015,13 +1023,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zuV4BiEUCckQ7kNvwHeHGzZ&_nc_oc=AdpaYgZpwBK_Oj50sUWgozFGNAqmApTyIkSh07Ih9QOD1wCcN3eAJZbWXtf1iTiv5t0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=RqAhJdJjSmlKsPMwI8-okQ&_nc_ss=7f289&oh=00_AQK6yb4qfo5qWhRFvYXve_ROnEWBQL8c4k9X9tfMnN2irg&oe=6AAE314F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "deporte",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid02NSKTdgr5mARbKwAoB4c98gDHXNajGo8MhDQspKth6LTDLr6Q5dfNyJLCaHT5g71Ul?__cft__[0]=AZgaa_YlxuYQFwd3cJCO1ZorIDHssi3wk0ZRmM79uCuOYrAC1AqKqZ0TUrXW32EaqKEJ3SHVma1gMQjJxroVbAIkvjvjFnFqFGnbcKNDJzHw6ewGG1juZ0ki-e1PvixylXZWPcoqjc61ctCbBl_ONoHdEeqbDmVG7Q6Ec7rwU_WrYjs82tefj3mDIjs&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡La Copa Mundial Femenina de Baloncesto se está jugando ahora mismo en Berlín! Desliza y lleva tus conocimientos de baloncesto del nivel principiante al nivel experto."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1117,30 +1134,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1cpkNkRPwQwQ7kNvwEcNK-G&_nc_oc=AdpjeFJVWe07_Z5oRso007OWU0KoN9P7AN1EkM5vbQ8Raac-VDLgk6Tko9KN5pzkxU4&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=GDqr8NIDhEO76-NtwkPpCQ&_nc_ss=7f289&oh=00_AQKRfiv5YTEeDvhpdVOMRnRp1Q6f5f4ycQiPUydD_oRRyg&oe=6AADA420",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1659739215753626/?__cft__[0]=AZjt7ppA_NOUuNfBVso_n_-4CPSfIrLHlQqlYKBQ6zGHSIPyMDSt-2OKRft1G3QzBnejJnUxzjJxFyYMm53i8kMJn8NI7R-34kVX1q6vSqYeBnbpMnyvJr06GnBF6V9MPen6a4XQjisdYOqEGE2versKIXhCCnoPr1HUWATYeNsdisUpP-0PTHdSegjlXlNkvePC&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡ORGULLO USFX! … Ver más Muchas felicidades sigue adelante autoridades también tiene que haber un apoyo Tenemos problemas para reproducir este video. Más información Ver más comentarios Beatriz Bautista Inclan"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1659739215753626/?comment_id=2331950097581879&__cft__[0]=AZjt7ppA_NOUuNfBVso_n_-4CPSfIrLHlQqlYKBQ6zGHSIPyMDSt-2OKRft1G3QzBnejJnUxzjJxFyYMm53i8kMJn8NI7R-34kVX1q6vSqYeBnbpMnyvJr06GnBF6V9MPen6a4XQjisdYOqEGE2versKIXhCCnoPr1HUWATYeNsdisUpP-0PTHdSegjlXlNkvePC&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Muchas felicidades sigue adelante autoridades también tiene que haber un apoyo Beatriz Bautista Inclan"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umsa",
@@ -1238,23 +1238,15 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 5,
+      "raw_items": 4,
       "events": 3,
-      "rejected": 2,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 0,
           "category": "otro",
           "url": "https://superticket.bo/",
-          "has_image": true,
-          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "concierto",
-          "url": "https://superticket.bo/Tranzas-en-Concierto--La-Paz-/",
           "has_image": true,
           "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
         }
@@ -1427,12 +1419,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
+          "score": 14,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1440,19 +1432,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 36,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Bolívar vence con susto a Real Tomayapo y se mantiene en la punta Ver más 2 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 3"
+          "text_preview": "13/09/2026 Cultura Enrique Aráoz: “Alturas sonoras” es una propuesta de gala y solemne El sábado 19 de septiembre (19:00) el Auditorio del Piso 15 del Edificio Municipal de Cochabamba albergará el estreno oficial de “Alturas sonoras”, el nuevo... vista 11/09/2026 Cultura 11S: El musical Come from away llega a Cochabamba Con la intención de superar el éxito que tuvieron en La Paz, los integrantes d"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 22,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Hallan sin vida a niña boliviana entre los escombros del edificio que cayó "
         }
       ],
       "error": null
@@ -1510,9 +1502,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 34,
+      "raw_items": 39,
       "events": 0,
-      "rejected": 34,
+      "rejected": 39,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1798,8 +1790,8 @@
       "city": "Sucre",
       "icon_url": "https://sucre.bo/wp-content/uploads/2026/05/header_web_2026.png",
       "status": "ok",
-      "raw_items": 4,
-      "events": 1,
+      "raw_items": 3,
+      "events": 0,
       "rejected": 3,
       "rejected_samples": [
         {
