@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T19:55:14-04:00",
+  "generated_at": "2026-09-15T00:56:22-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 70.6,
-    "horas_maximo_sin_datos": 616.7
+    "horas_promedio_sin_datos": 72.2,
+    "horas_maximo_sin_datos": 621.8
   },
   "sources": [
     {
@@ -62,30 +62,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wgssDiAJ_DwQ7kNvwHjEb4M&_nc_oc=Adpn2V1UTrFhr6yTVdpltH5D80kzxrHYJSuynWkfsVfIIWUcKvG324_kNhFFa-qpKas&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=RCnY4Uj3nkSvzJbiIBbk2w&_nc_ss=7f289&oh=00_AQKfpOq1N_QpWyai8EEcLVfwIxjy-XLH7de506aEpngxPg&oe=6AAE5DF6",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZilcMBc8S7Cl5Lsd7wG2-4BWZoRt1PGWsFtmjl8s9MVaK4v8cNOOAi-myDPa4Drm7j0nSvAymWu2u7vNUkbIuL3BHlIsTls9gQ3ymyB2-CiV14QBfT1_8mlv-ca8rDs12f8y5nTpKBMANlko-XtV17PM92Mb2TDO6zGpftyajTrzvsRwkrk9YyLXc_aad9zhN8d&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZilcMBc8S7Cl5Lsd7wG2-4BWZoRt1PGWsFtmjl8s9MVaK4v8cNOOAi-myDPa4Drm7j0nSvAymWu2u7vNUkbIuL3BHlIsTls9gQ3ymyB2-CiV14QBfT1_8mlv-ca8rDs12f8y5nTpKBMANlko-XtV17PM92Mb2TDO6zGpftyajTrzvsRwkrk9YyLXc_aad9zhN8d&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -623,13 +606,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z6yR0J3vuxcQ7kNvwELJpqy&_nc_oc=AdprK2Zi4eX8JkG07Br4H11bInDar2JaPupdQpORM2fKhbb3xn7_Hveq5fuBgZmEE8U&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=hDDGbnd8RvC3re4oMtOBRg&_nc_ss=7f289&oh=00_AQLnELBslPH5IAZyHxKjGwXirJ4EwI9oEIiMOSsgSNuCug&oe=6AAE8E73",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid02LCgogMchdDdP3HDAQwYytZ2nwieF3o8YuSyWXD33GXrNVyPJEzTgQAshN3t3dUcQl?__cft__[0]=AZg5uZQJKtB7TzZ-ucnJhf9wNEfDkKHF58O6Lrm9Au7jyyWAlyLIWs8vxUegRVTxYGRdlylyJY74cBFVDTPFegB5Y1DAMt_FOXds5dN0HcoYn87HMhvMl-3glBOEucvhdUsBhgRd63qdJ-cnX3e_Ymnox1dCzX2oIIvWywIqn7SmdnnYNK7D_5LZ-Jw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#14deSeptiembre l ¡𝗙𝗲𝗹𝗶𝗰𝗶𝗱𝗮𝗱𝗲𝘀, 𝗵𝗲𝗿𝗺𝗼𝘀𝗮 𝘁𝗶𝗲𝗿𝗿𝗮 𝘃𝗮𝗹𝗹𝘂𝗻𝗮! Celebramos la fuerza, la dignid… Ver más #14deSeptiembre l ¡𝗙𝗲𝗹𝗶𝗰𝗶𝗱𝗮𝗱𝗲𝘀, 𝗵𝗲𝗿𝗺𝗼𝘀𝗮 𝘁𝗶𝗲𝗿𝗿𝗮 𝘃𝗮𝗹𝗹𝘂𝗻𝗮! Celebramos la fuerza, la dignid… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -861,22 +853,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/810594369_1516951523798700_2430571263608466962_n.jpg?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=p526x296&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3jSBEYfLyikQ7kNvwGKmi7Q&_nc_oc=AdoqUlxLaOXrR2_NwTaxBJf67-CHiOJXAMuJTV6ANrgUtKr6Gi_xm9X_4_6qPdS2nQQ&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=hMpZWnLO4GwwOZhq-Q261A&_nc_ss=7f289&oh=00_AQIiWCSl2d3lnfnCGL4QwXhf0TmmodP21qm2vtxqTzAVOg&oe=6AAE70A2",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 12,
-          "category": "feria",
-          "url": "https://www.facebook.com/feriafipaz/posts/oportunidad-laboral-ii-2026-la-feria-internacional-de-la-paz-fipaz-busca-incorpo/1516951370465382/",
-          "has_image": true,
-          "text_preview": "Oportunidad Laboral II – 2026 | La Feria Internacional de La Paz - FIPAZ, busca incorporar a su equipo de trabajo, jovenes talentos en la ciudad de #LaPaz, para las siguientes área: - Ayudante de... Oportunidad Laboral II – 2026 | La Feria Internacional de La Paz - FIPAZ, busca incorporar a su equipo de trabajo, jovenes talentos en la ciudad de... Oportunidad Laboral II – 2026 | La Feria Internaci"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -972,22 +955,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=C07kCyVvPa8Q7kNvwH_SxET&_nc_oc=AdqO6WzQXHwONuEozRoHLyF3Hqch2PeqmqQgTDKfRHSGTSAXgFFtEPH3jh7NyJN1HBY&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=ev8xV9PvTLPCc6V6ANwUQg&_nc_ss=7f289&oh=00_AQJ3iG8dEFUGXtlzy28j6-cpH49-Ccw4MXFojmp30tiIgw&oe=6AAE66D7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0csdkVzwQqrDzMgeVj2fsVVDSxBnoixQ9MphX6ht9XKS54mjuhUnephTmGbkTsSf7l?__cft__[0]=AZi-DMp28zKP6rLCVh66i9nIQY4m0uDg2sgJDCuuSD1pvGyMe-5Kfml42K6S-2n9vI5iv-VcYGJH7sif8850gSBnhE2-vhYOyVgMlZEJRn4LmDhqxI28s9yogrZl7hUAoXLmH7vGhNZ2YH1iNltDzh1XbkEYUMIdRG1OQHye8NVN4NJfOFHLQL56BJY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "BORDEAR LO INASIBLE La nueva muestra que puedes visitar en nuestra Planta Alta, presentada por la artista boliviana Roxana Arias. Con más de 30 años de trayectoria, R… Ver más BORDEAR LO INASIBLE La nueva muestra que puedes visitar en nuestra Planta Alta, presentada por la artista boliviana Roxana Arias. Con más de 30 años de trayectoria, R… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1066,13 +1040,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SHI8eoABWegQ7kNvwFpxCEy&_nc_oc=Adq0sh33k1V9hGfhE0-H7uNkyvofnKENN-92MgnQyR4qEa6N92ZwlprEgamc-X3vIco&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=KwT3ITTUmHlJ3orDqFJVdQ&_nc_ss=7f289&oh=00_AQJCv3MUL_4ITWQL-OzNba_54x0L04DLCJpTOxoTBWqZXw&oe=6AAEB9D5",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1134,13 +1108,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rBac9XKjAQAQ7kNvwG73RtR&_nc_oc=AdqvLwhWPe3mbAtHSKJ6_Uh_z9e5uLE0H_I7G66F1FPzi9XO6I-lWCmK_1IVeAaB9hg&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=ooDgtDq5Usu4-UMtFXN40A&_nc_ss=7f289&oh=00_AQKD137QGQCLTmf6hA7PtHeFUv1WOjpxZNLv1KS0hn_iXg&oe=6AAEB364",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid02CwMWpTrByVsH4Wm61NrzC71HfYjscnH3xJu1UXzTjQzkpmNnmUErNubBdzDXGDifl?__cft__[0]=AZjTEg8tEk-Ej12WduUvTnmXL8XJgGK0MyOpbS5fVX53uG0YrU6dvSHB6mo4ibWVB0lWo1hc2f9L5oqJ8bxZ7ABdTimLvKo0sFbo-p8wG4nf-XA8CSNdKyLWyxxWi-mYTeKXq-PqTaF5ywNNDjlQGqX_6jwYQCtuWzrUFUDlDBJHzKchBIvs_YqxBKA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#MUSEFSucre | ¡Clase Magistral de Guitarra Clásica! Compartimos un espacio de Aprendizaje y apreciamos el Recital de Guitarra Clásica con el maestro Gunter Viral, co… Ver más #MUSEFSucre | ¡Clase Magistral de Guitarra Clásica! Compartimos un espacio de Aprendizaje y apreciamos el Recital de Guitarra Clásica con el maestro Gunter Viral, co… Ver más Es Gunther Vilar.....su apellido está mal escrito "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid02CwMWpTrByVsH4Wm61NrzC71HfYjscnH3xJu1UXzTjQzkpmNnmUErNubBdzDXGDifl?comment_id=1651616149889611&__cft__[0]=AZjTEg8tEk-Ej12WduUvTnmXL8XJgGK0MyOpbS5fVX53uG0YrU6dvSHB6mo4ibWVB0lWo1hc2f9L5oqJ8bxZ7ABdTimLvKo0sFbo-p8wG4nf-XA8CSNdKyLWyxxWi-mYTeKXq-PqTaF5ywNNDjlQGqX_6jwYQCtuWzrUFUDlDBJHzKchBIvs_YqxBKA&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Es Gunther Vilar.....su apellido está mal escrito Weimar Alata"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1441,7 +1432,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 2,
+          "score": 15,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1449,7 +1440,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 36,
+          "score": 49,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1457,11 +1448,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 10,
+          "score": 0,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Homenaje a 216 años de libertad y valentía Ver más 3 El Concejo Municipal r"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Cochabamba 216 años: Alberto Arze Ver más 3 Dra. Sumaya Saavedra Pozo, médi"
         }
       ],
       "error": null
@@ -1519,9 +1510,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
+      "raw_items": 39,
       "events": 0,
-      "rejected": 40,
+      "rejected": 39,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1535,7 +1526,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/24c2be6f-6ccc-480e-a677-7c543c894dbd",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
           "has_image": true,
           "text_preview": ""
         },
@@ -1543,7 +1534,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/583b18d3-7623-4286-9d18-2e6bf7a89d36",
           "has_image": true,
           "text_preview": ""
         }
@@ -1629,8 +1620,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 53,
-      "events": 53,
+      "raw_items": 56,
+      "events": 56,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
