@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T00:56:22-04:00",
+  "generated_at": "2026-09-15T07:46:28-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 72.2,
-    "horas_maximo_sin_datos": 621.8
+    "horas_promedio_sin_datos": 74.8,
+    "horas_maximo_sin_datos": 628.6
   },
   "sources": [
     {
@@ -606,22 +606,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z6yR0J3vuxcQ7kNvwELJpqy&_nc_oc=AdprK2Zi4eX8JkG07Br4H11bInDar2JaPupdQpORM2fKhbb3xn7_Hveq5fuBgZmEE8U&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=hDDGbnd8RvC3re4oMtOBRg&_nc_ss=7f289&oh=00_AQLnELBslPH5IAZyHxKjGwXirJ4EwI9oEIiMOSsgSNuCug&oe=6AAE8E73",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid02LCgogMchdDdP3HDAQwYytZ2nwieF3o8YuSyWXD33GXrNVyPJEzTgQAshN3t3dUcQl?__cft__[0]=AZg5uZQJKtB7TzZ-ucnJhf9wNEfDkKHF58O6Lrm9Au7jyyWAlyLIWs8vxUegRVTxYGRdlylyJY74cBFVDTPFegB5Y1DAMt_FOXds5dN0HcoYn87HMhvMl-3glBOEucvhdUsBhgRd63qdJ-cnX3e_Ymnox1dCzX2oIIvWywIqn7SmdnnYNK7D_5LZ-Jw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#14deSeptiembre l ¡𝗙𝗲𝗹𝗶𝗰𝗶𝗱𝗮𝗱𝗲𝘀, 𝗵𝗲𝗿𝗺𝗼𝘀𝗮 𝘁𝗶𝗲𝗿𝗿𝗮 𝘃𝗮𝗹𝗹𝘂𝗻𝗮! Celebramos la fuerza, la dignid… Ver más #14deSeptiembre l ¡𝗙𝗲𝗹𝗶𝗰𝗶𝗱𝗮𝗱𝗲𝘀, 𝗵𝗲𝗿𝗺𝗼𝘀𝗮 𝘁𝗶𝗲𝗿𝗿𝗮 𝘃𝗮𝗹𝗹𝘂𝗻𝗮! Celebramos la fuerza, la dignid… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -836,13 +827,30 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rY81dqJqrQYQ7kNvwF8zq7u&_nc_oc=AdpbopJMSpekj4qi1-3doq35Pm1-_02dYq42AJZr2PWyAAORqrjHZ9shOYUplRefCEg&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=lVqyLgN0Kv9qS-V2rLCwQA&_nc_ss=7f289&oh=00_AQKga6tycRX1hOiTR7Z1h7JMYNEAOIDBEOrCXd9WToRhxA&oe=6AAF03A9",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?__cft__[0]=AZiQe2odbbFN56ubYZK9BgXIwo1rst9PJ1YJ9tnbXTFn4sq38yYY2nNAUjXav_NMh0fM7OIwaU6bwc5guFnlfk_naKZtC36tWiK6xUhoiu6Ue1QwIw9Fai50FYtzng1cfbOxRfdxiIdwqx7XcqXQ2c5W1G9jqaV3IfbAjjuV0E6Hb3uoMI5lmwcnsfPr_BPz6sR3&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Tenemos problemas para reproducir este video. Más información Ver más comentarios Fabiola Franco Soria"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?comment_id=1696931752442171&__cft__[0]=AZiQe2odbbFN56ubYZK9BgXIwo1rst9PJ1YJ9tnbXTFn4sq38yYY2nNAUjXav_NMh0fM7OIwaU6bwc5guFnlfk_naKZtC36tWiK6xUhoiu6Ue1QwIw9Fai50FYtzng1cfbOxRfdxiIdwqx7XcqXQ2c5W1G9jqaV3IfbAjjuV0E6Hb3uoMI5lmwcnsfPr_BPz6sR3&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Fabiola Franco Soria"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fipaz",
@@ -921,13 +929,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AdbqYsRRlyIQ7kNvwHajqf9&_nc_oc=Adpa5Sddr1sExlq2Ttcs219ZbeV7t-qaCFHJwTsy5rDXz1U2Ntg4j_GHAF86YRk9P50&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=5sazjIcuvyoD92QNFaJ7VA&_nc_ss=7f289&oh=00_AQKHfh6y-chqN4wUG0sXxRgEnIdKRLTGogAH3sjW2MqKLQ&oe=6AAF1678",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -989,13 +997,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VqvlD_n45foQ7kNvwGHCw4k&_nc_oc=AdpAZ9OAK_GgwU5hUn1V1_XPkguHGGlBPFBIT1UiIZXi6bYAgp8hR9p2RKtcl81JaSs&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=aJs5s5opjnXGl8qyuBczXw&_nc_ss=7f289&oh=00_AQL486x6itgf3fsDQ-eHn0qP-6hil-6N6HW1nafq2JzrKw&oe=6AAEEE2A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02q8UuhwcJAbGxqdvemWyBWY64fLK9upoPYKwjhTnfah6UZXzuXndEF8LBYAR4aJzZl?__cft__[0]=AZixWZmyMCUyY6hvQJxoKPlYvpYQvRmH5Nzy2J5z7yW7YZ9_VmeWP6zQw0NxV5GDuHaGIO_EsmECKE4CN2CosOTrImwF6u6GMNfJDUiwZ-hxgx-KR6UPK1GZr3rVAgMC9Hor6-oROSpUnMVqvaidqS-DbJKIMggaZ8wNFQ6ON4iJa8Ijkjw-FVlhbdElC5sbBGhCw6SM6ZnL4AwIxdk&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Bolivia, Una Gran Nación capísimos que aman Bolivia y la muestran al mundo! Bolivia, Una Gran Nación capísimos que aman Bolivia y la muestran al mundo! Tenemos problemas para reproducir este video. Más información Maria Rene Soruco Campero 18 h ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1040,13 +1057,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SHI8eoABWegQ7kNvwFpxCEy&_nc_oc=Adq0sh33k1V9hGfhE0-H7uNkyvofnKENN-92MgnQyR4qEa6N92ZwlprEgamc-X3vIco&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=KwT3ITTUmHlJ3orDqFJVdQ&_nc_ss=7f289&oh=00_AQJCv3MUL_4ITWQL-OzNba_54x0L04DLCJpTOxoTBWqZXw&oe=6AAEB9D5",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1108,30 +1125,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rBac9XKjAQAQ7kNvwG73RtR&_nc_oc=AdqvLwhWPe3mbAtHSKJ6_Uh_z9e5uLE0H_I7G66F1FPzi9XO6I-lWCmK_1IVeAaB9hg&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=ooDgtDq5Usu4-UMtFXN40A&_nc_ss=7f289&oh=00_AQKD137QGQCLTmf6hA7PtHeFUv1WOjpxZNLv1KS0hn_iXg&oe=6AAEB364",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid02CwMWpTrByVsH4Wm61NrzC71HfYjscnH3xJu1UXzTjQzkpmNnmUErNubBdzDXGDifl?__cft__[0]=AZjTEg8tEk-Ej12WduUvTnmXL8XJgGK0MyOpbS5fVX53uG0YrU6dvSHB6mo4ibWVB0lWo1hc2f9L5oqJ8bxZ7ABdTimLvKo0sFbo-p8wG4nf-XA8CSNdKyLWyxxWi-mYTeKXq-PqTaF5ywNNDjlQGqX_6jwYQCtuWzrUFUDlDBJHzKchBIvs_YqxBKA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#MUSEFSucre | ¡Clase Magistral de Guitarra Clásica! Compartimos un espacio de Aprendizaje y apreciamos el Recital de Guitarra Clásica con el maestro Gunter Viral, co… Ver más #MUSEFSucre | ¡Clase Magistral de Guitarra Clásica! Compartimos un espacio de Aprendizaje y apreciamos el Recital de Guitarra Clásica con el maestro Gunter Viral, co… Ver más Es Gunther Vilar.....su apellido está mal escrito "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid02CwMWpTrByVsH4Wm61NrzC71HfYjscnH3xJu1UXzTjQzkpmNnmUErNubBdzDXGDifl?comment_id=1651616149889611&__cft__[0]=AZjTEg8tEk-Ej12WduUvTnmXL8XJgGK0MyOpbS5fVX53uG0YrU6dvSHB6mo4ibWVB0lWo1hc2f9L5oqJ8bxZ7ABdTimLvKo0sFbo-p8wG4nf-XA8CSNdKyLWyxxWi-mYTeKXq-PqTaF5ywNNDjlQGqX_6jwYQCtuWzrUFUDlDBJHzKchBIvs_YqxBKA&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Es Gunther Vilar.....su apellido está mal escrito Weimar Alata"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
