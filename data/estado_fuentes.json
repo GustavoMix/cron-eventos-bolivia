@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:46:28-04:00",
+  "generated_at": "2026-09-15T13:01:46-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,13 +10,14 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
+      "fb_gob_oruro",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 74.8,
-    "horas_maximo_sin_datos": 628.6
+    "horas_promedio_sin_datos": 77.9,
+    "horas_maximo_sin_datos": 633.9
   },
   "sources": [
     {
@@ -777,12 +778,12 @@
       "region": "Oruro",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gob_tarija",
@@ -827,30 +828,13 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rY81dqJqrQYQ7kNvwF8zq7u&_nc_oc=AdpbopJMSpekj4qi1-3doq35Pm1-_02dYq42AJZr2PWyAAORqrjHZ9shOYUplRefCEg&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=lVqyLgN0Kv9qS-V2rLCwQA&_nc_ss=7f289&oh=00_AQKga6tycRX1hOiTR7Z1h7JMYNEAOIDBEOrCXd9WToRhxA&oe=6AAF03A9",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/4573438102927735/?__cft__[0]=AZiQe2odbbFN56ubYZK9BgXIwo1rst9PJ1YJ9tnbXTFn4sq38yYY2nNAUjXav_NMh0fM7OIwaU6bwc5guFnlfk_naKZtC36tWiK6xUhoiu6Ue1QwIw9Fai50FYtzng1cfbOxRfdxiIdwqx7XcqXQ2c5W1G9jqaV3IfbAjjuV0E6Hb3uoMI5lmwcnsfPr_BPz6sR3&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Tenemos problemas para reproducir este video. Más información Ver más comentarios Fabiola Franco Soria"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/4573438102927735/?comment_id=1696931752442171&__cft__[0]=AZiQe2odbbFN56ubYZK9BgXIwo1rst9PJ1YJ9tnbXTFn4sq38yYY2nNAUjXav_NMh0fM7OIwaU6bwc5guFnlfk_naKZtC36tWiK6xUhoiu6Ue1QwIw9Fai50FYtzng1cfbOxRfdxiIdwqx7XcqXQ2c5W1G9jqaV3IfbAjjuV0E6Hb3uoMI5lmwcnsfPr_BPz6sR3&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Fabiola Franco Soria"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fipaz",
@@ -912,13 +896,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LbqW0BmmfNAQ7kNvwFPEX-p&_nc_oc=AdpWYKMWSW2r1ALkYu19StTaXD1y3LEoCOp5jmLtpQGsM983LF215jHhZ0K3-akwT4c&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=IQAFQFUMAcXf9v5B26r8XA&_nc_ss=7f289&oh=00_AQL8PPsc1Y4eYuFoUXuDz4PWk_0tYYjA5nPL0zG6qzCBKA&oe=6AAF4547",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 36,
+          "category": "feria",
+          "url": "https://www.facebook.com/aflapaz/videos/-nos-vemos-en-la-expo-feria-educaci%C3%B3n-continuala-alianza-francesa-de-la-paz-y-ca/1079680494471390/",
+          "has_image": true,
+          "text_preview": "🇫🇷 ¡Nos vemos en la Expo-Feria Educación Continua! La Alianza Francesa de La Paz y Campus France Bolivie estaremos presentes en esta feria para compartir contigo información sobre el aprendizaje del... 🇫🇷 ¡Nos vemos en la Expo-Feria Educación Continua! La Alianza Francesa de La Paz y Campus France Bolivie estaremos presentes en esta feria para..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -929,13 +922,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AdbqYsRRlyIQ7kNvwHajqf9&_nc_oc=Adpa5Sddr1sExlq2Ttcs219ZbeV7t-qaCFHJwTsy5rDXz1U2Ntg4j_GHAF86YRk9P50&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=5sazjIcuvyoD92QNFaJ7VA&_nc_ss=7f289&oh=00_AQKHfh6y-chqN4wUG0sXxRgEnIdKRLTGogAH3sjW2MqKLQ&oe=6AAF1678",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -997,22 +990,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VqvlD_n45foQ7kNvwGHCw4k&_nc_oc=AdpAZ9OAK_GgwU5hUn1V1_XPkguHGGlBPFBIT1UiIZXi6bYAgp8hR9p2RKtcl81JaSs&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=aJs5s5opjnXGl8qyuBczXw&_nc_ss=7f289&oh=00_AQL486x6itgf3fsDQ-eHn0qP-6hil-6N6HW1nafq2JzrKw&oe=6AAEEE2A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02q8UuhwcJAbGxqdvemWyBWY64fLK9upoPYKwjhTnfah6UZXzuXndEF8LBYAR4aJzZl?__cft__[0]=AZixWZmyMCUyY6hvQJxoKPlYvpYQvRmH5Nzy2J5z7yW7YZ9_VmeWP6zQw0NxV5GDuHaGIO_EsmECKE4CN2CosOTrImwF6u6GMNfJDUiwZ-hxgx-KR6UPK1GZr3rVAgMC9Hor6-oROSpUnMVqvaidqS-DbJKIMggaZ8wNFQ6ON4iJa8Ijkjw-FVlhbdElC5sbBGhCw6SM6ZnL4AwIxdk&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Bolivia, Una Gran Nación capísimos que aman Bolivia y la muestran al mundo! Bolivia, Una Gran Nación capísimos que aman Bolivia y la muestran al mundo! Tenemos problemas para reproducir este video. Más información Maria Rene Soruco Campero 18 h ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1074,13 +1058,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=a9WcyAwDDQ0Q7kNvwFAkQwB&_nc_oc=AdrVEz--5lkK-oq1a_-Sr995Bom7pWWBFHfEuwox1pTWAtNZEGYe7rSwLHPsjAd1DFg&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=xDywwjyTlyegShP3H9_Z0w&_nc_ss=7f289&oh=00_AQKBbiNFNvrlxzhNdJuy4l-elI5gePF2KqT4n6_y5yk80Q&oe=6AAF6512",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HLUEX7ot5bH2yc4Z551Nx983suqc4aReZF6hmNDij22BjVbtdCwJyiAf4v5ftik9l?__cft__[0]=AZgsn3u69dszNddZaRRXhhg6pmt9nQzCiQdWedXjreE8mJGl4Hrb2WYaCjrTIRdIA3ZVe4DNbb7KdoM7Hq81WfxzIzhAS2hz2TOFxkpYii2VmmSDjkrunikFVS7CKb4OkbaV0nBd9uLltlZ5m-pimY5j8xvm1BCW-K6zGuESdJ-GH7zVjw8nqeiyj1Q&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 42,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HLUEX7ot5bH2yc4Z551Nx983suqc4aReZF6hmNDij22BjVbtdCwJyiAf4v5ftik9l?comment_id=1079850634463156&__cft__[0]=AZgsn3u69dszNddZaRRXhhg6pmt9nQzCiQdWedXjreE8mJGl4Hrb2WYaCjrTIRdIA3ZVe4DNbb7KdoM7Hq81WfxzIzhAS2hz2TOFxkpYii2VmmSDjkrunikFVS7CKb4OkbaV0nBd9uLltlZ5m-pimY5j8xvm1BCW-K6zGuESdJ-GH7zVjw8nqeiyj1Q&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1427,32 +1428,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 15,
-          "category": "deporte",
+          "score": 20,
+          "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "11/09/2026 Tecnología iPhone 18 Pro vs. iPhone 18 Pro Max: en qué se diferencian los celulares de Apple Apple presentó el iPhone 18 Pro y el iPhone 18 Pro Max, los modelos que incorporan el sistema de cámara profesional más avanzado creado por la compañía hasta... vista 10/09/2026 Tecnología Claves para crear la foto más realista de cómo me vería en los años 80 con IA Convertir una fotografía actu"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 49,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "13/09/2026 Cultura Enrique Aráoz: “Alturas sonoras” es una propuesta de gala y solemne El sábado 19 de septiembre (19:00) el Auditorio del Piso 15 del Edificio Municipal de Cochabamba albergará el estreno oficial de “Alturas sonoras”, el nuevo... vista 11/09/2026 Cultura 11S: El musical Come from away llega a Cochabamba Con la intención de superar el éxito que tuvieron en La Paz, los integrantes d"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 48,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Cochabamba 216 años: Alberto Arze Ver más 3 Dra. Sumaya Saavedra Pozo, médi"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Comunicado Grupo Nacional Vida Ver más 3 Homenaje a 216 años de libertad y "
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 35,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1510,10 +1511,18 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
+      "raw_items": 40,
       "events": 0,
-      "rejected": 39,
+      "rejected": 40,
       "rejected_samples": [
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/79522a4e-85d1-4777-a770-bdf68418bd76",
+          "has_image": true,
+          "text_preview": ""
+        },
         {
           "reason": "texto_muy_corto",
           "score": 0,
@@ -1527,14 +1536,6 @@
           "score": 0,
           "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/583b18d3-7623-4286-9d18-2e6bf7a89d36",
           "has_image": true,
           "text_preview": ""
         }
@@ -1552,8 +1553,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
-      "events": 38,
+      "raw_items": 43,
+      "events": 43,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1620,8 +1621,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 56,
-      "events": 56,
+      "raw_items": 55,
+      "events": 55,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1654,8 +1655,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 15,
+      "events": 15,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1772,17 +1773,25 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 1,
-      "events": 0,
-      "rejected": 1,
+      "raw_items": 3,
+      "events": 1,
+      "rejected": 2,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 18,
+          "score": 23,
           "category": "concierto",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "pago qr bus Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para esta nueva gestión: Res"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 29,
+          "category": "deporte",
+          "url": "https://www.uto.edu.bo/ingenieria-de-minas-petroleos-y-geotecnia-de-la-fni-inaugura-su-moderno-coliseo-polifuncional/",
+          "has_image": true,
+          "text_preview": "La obra contó con una inversión aproximada de Bs 1,5 millones y fue entregada en un acto solemne con presencia de autoridades nacionales y universitarias Oruro, septiembre de 2026. — En un paso trascendental para el desarrollo integral y deportivo de la comunidad universitaria, la Carrera de Ingeniería de Minas, Petróleos y Geotecnia de la Facultad Nacional de Ingeniería (FNI) , dependiente de la "
         }
       ],
       "error": null
