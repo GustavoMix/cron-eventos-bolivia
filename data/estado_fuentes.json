@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T12:58:28-04:00",
+  "generated_at": "2026-09-16T17:21:15-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,13 +10,14 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
+      "fb_gob_tarija",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 85.6,
-    "horas_maximo_sin_datos": 657.8
+    "horas_promedio_sin_datos": 85.0,
+    "horas_maximo_sin_datos": 662.2
   },
   "sources": [
     {
@@ -96,22 +97,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=74QAnlYJBngQ7kNvwHe5LqH&_nc_oc=Ado8YCycMYYUwJ1qNbg-g7T1wZOvTtFygCayGzyPFu-WpQf-a3wXmr1gy7WC1upu5Pc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Bm1girPUjmw12zfEsW1pgw&_nc_ss=7f289&oh=00_AQKa-aOu3xIVs9m8WSmLDmBV6PVCBTpGemgbXEdcfLwfeQ&oe=6AB098D0",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 42,
-          "category": "feria",
-          "url": "https://www.facebook.com/Fexpocruz/videos/los-sue%C3%B1os-tambi%C3%A9n-se-convierten-en-negocios-en-expocruz-2026-ven%C3%AD-a-conocer-el-/961085070365748/",
-          "has_image": true,
-          "text_preview": "Los sueños también se convierten en negocios en Expocruz 2026! Vení a conocer el Pabellón Juventud Empresa, un espacio donde jóvenes emprendedores presentan ideas innovadoras, proyectos que crecen... Los sueños también se convierten en negocios en Expocruz 2026! Vení a conocer el Pabellón Juventud Empresa, un espacio donde jóvenes emprendedores..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -292,30 +284,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IpwfkvORCWIQ7kNvwE9KLy6&_nc_oc=AdqIdbUi26fyoY0Vu0Daj2g8YJxc1aTgqvAkpchna4tR5uQ3NSamuleyhqKMMTUzUBc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=bATLRZMy5hAd-jXBUl3BWw&_nc_ss=7f289&oh=00_AQIuBXmSwyYksJ9m7K8CNt64-v4xjDzJOMvI3NphNrDFcA&oe=6AB0A77E",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "deporte",
-          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid0ZeSyorxoTKCXX986zjMEigWacW5cYEy6P3LXwXunwzmH98PiPbHUuk9w4KTLSS9Jl?__cft__[0]=AZhh4v7-VHfmOTfe0KUg5UW6EblBobKylMJZkHgvgxr9B4NBO1MZIKHM_PIygwFaPDHgu413hAsrt3SCS4nV4Can58TSqswjy9kz7yZsqdpjSJzmQpZ8kMC3rzbnLzqCmie68tPQv_AD3INDPSX2lJHAd7oNTqrwhC0h0Dyi8wtwiRbJnOxb3so4a1WYo0K1ch5JQTC-hLVOmG3Zn98&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "PREGUNTA DE ´EL LÍDER´ VOTA Y PARTICIPA: TRAS LAS SUPUESTAS AMENAZAS Y AMAÑOS ¿QUÉ DEBE PASAR CON LA LIGA BOLIVIANA? ¿SE SUSPENDE O DEBE CONTINUAR HASTA EL FINAL? … Ver más se debe prohibir las apuestas en todo el Pais, culpa de los costas cuando entraron a la FBF comenzaron a dar legalidad a algo que solo manejan los crimenes organizados si empiezan por la prohibicion veran como la liga volveria "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "deporte",
-          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid0ZeSyorxoTKCXX986zjMEigWacW5cYEy6P3LXwXunwzmH98PiPbHUuk9w4KTLSS9Jl?comment_id=28240365522257317&__cft__[0]=AZhh4v7-VHfmOTfe0KUg5UW6EblBobKylMJZkHgvgxr9B4NBO1MZIKHM_PIygwFaPDHgu413hAsrt3SCS4nV4Can58TSqswjy9kz7yZsqdpjSJzmQpZ8kMC3rzbnLzqCmie68tPQv_AD3INDPSX2lJHAd7oNTqrwhC0h0Dyi8wtwiRbJnOxb3so4a1WYo0K1ch5JQTC-hLVOmG3Zn98&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "se debe prohibir las apuestas en todo el Pais, culpa de los costas cuando entraron a la FBF comenzaron a dar legalidad a algo que solo manejan los crimenes organizados si empiezan por la prohibicion veran como la liga volveria a la normalidad aunque p… Ver más Pedro Garcia"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber",
@@ -445,13 +420,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wrvb5jdGxFUQ7kNvwESQ8g4&_nc_oc=AdrIqHl8DDHphqC_Chuo2EPjIW8f_DMUbaXzBfQAWYysiNY34oqL3n1ePs-aMYEhjQM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=dKRS2wjnLzujEqKcKLF1vQ&_nc_ss=7f289&oh=00_AQLLQfRszrLDfROH3ugMrfq03EHLiM8y4I62CYiNKUL9PA&oe=6AB0EC48",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1655510779296864/?__cft__[0]=AZijXItXwsgTHhvNOjn4MIEz30SupkEYgNs35Je2UqHD0bSrhLsqLAKEvu6RLnJBSkCjtl-pWvSQMAN6Izdvoo1TXZMS2gzBWApnUfEag7GE203486aM_Sk-2EJKGK1MCqwFMLd8a8Jn1uznTpCjFJXlb0r2jOrozOmypnug8dunMphNU4mcRNf3x5F63D_GCk94&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#GrupoFides | Los ministros de Defensa, Ernesto Justiniano, y de Gobierno, Marco Oviedo, ya están presentes en la sesión del Legislativo para tratar la ampliación del estado de excepción. Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_anf",
@@ -785,22 +769,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eWf1Wj9U-IAQ7kNvwFXJVt2&_nc_oc=Adp0HbtKkZfMawUI88riPXQVQD148WzOvxMBDhphRI1PUByToanhXMHQ1saCpWMC3hY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=CAS4xKOypuI1HijUFU_orw&_nc_ss=7f289&oh=00_AQLytcz0CFPdNwhavF0fcMF2rgQbjkJK2KJo746l3iGnRw&oe=6AB0A12A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/videos/1090640043381852/?__cft__[0]=AZiyuwaBSc8LouhreeTqgNrZCdKq1gu9KtLmdJ_TaIZUY2Yb76x9I4gBsA3yuYb0MEN87XO8qfAwDWh941v3wDSxVi_68FttBFIszgZPhp1_j6KTx-SA3AMtN4Narq4S8pDBG8nFc6L3sJHzHeXu0HnT7CXFmlohu28EQvxNDUv96RcAMbMe6wZ9obGJNh-BJ_I&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "[EN DIRECTO] INSPECCION Y REINICIO DE OBRA DEL TRIANGULAR CINTEÑO TRAMO I Y III #… Ver más [EN DIRECTO] INSPECCION Y REINICIO DE OBRA DEL TRIANGULAR CINTEÑO TRAMO I Y III #… Ver más @Seguidores Tenemos problemas para reproducir este video. Más información Ver más comentarios"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_oruro",
@@ -829,12 +804,12 @@
       "region": "Tarija",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Departamental de Tarija 91 mil seguidores • 13 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento '"
     },
     {
       "id": "fb_gob_pando",
@@ -845,13 +820,30 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iPVGvufkPLQQ7kNvwH9NVWf&_nc_oc=AdqR-cy8csmtHaGFld97ujfZcYaqvwcKSNV7XScyc4poS0L5UXMGXkcWn6Mj89QqC7A&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=xO_aHBSBcOsemY-g1qZAMw&_nc_ss=7f289&oh=00_AQKNFuwPSoYXvzQBjCRF2AY5-gIk1pp_yDsg6kJFNimSiA&oe=6AB0CB10",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0Ho7po3F6HHerDtzVj9NGQScZh1n59mfaBfnzi2uMx1ussMy3f3YexqdtTRbhPXoVl?__cft__[0]=AZiYj-Y61IjPCpUxMKWyCtd-K9rt7lTofGpwpClWlGG5iq2QmECLMRvM8vt_P3dApH00rnv5pWSJeMSSzEoBHE-pKfUBAMAgpPFmadZ464-6IyMwymRGInEIwT54RL90-rngFOTbldeVj-8kkhHc1XEkgeGRQwh5vTbbxbE2vn7XMnXuTZzYAlrWl7KNFGD2RJQcF_88Iw&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0Ho7po3F6HHerDtzVj9NGQScZh1n59mfaBfnzi2uMx1ussMy3f3YexqdtTRbhPXoVl?comment_id=584098196711804&__cft__[0]=AZiYj-Y61IjPCpUxMKWyCtd-K9rt7lTofGpwpClWlGG5iq2QmECLMRvM8vt_P3dApH00rnv5pWSJeMSSzEoBHE-pKfUBAMAgpPFmadZ464-6IyMwymRGInEIwT54RL90-rngFOTbldeVj-8kkhHc1XEkgeGRQwh5vTbbxbE2vn7XMnXuTZzYAlrWl7KNFGD2RJQcF_88Iw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_beni",
@@ -1337,7 +1329,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1620,8 +1612,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 45,
-      "events": 45,
+      "raw_items": 44,
+      "events": 44,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1672,17 +1664,9 @@
       "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
       "status": "ok",
       "raw_items": 5,
-      "events": 0,
-      "rejected": 5,
+      "events": 1,
+      "rejected": 4,
       "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 42,
-          "category": "feria",
-          "url": "https://beni.gob.bo/category/cultura/",
-          "has_image": true,
-          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 27/08/2026 GOBERNACIÓN DEL BENI PARTICIPA EN LA RÉPLICA POR LOS 200 AÑOS DE LA POLICÍA BOLIVIANA En representación del gobernador Jesús Egüez, la Primera Dama del Departamento, María Eugenia Hurtad... Leer más → Cultura - 27/08/2026 GOBERNADOR JESÚS EGÜEZ RINDE HOMENAJE A LA MEMORIA Y LEGADO DE “LOS TAITAS DEL BENI” La cultura ben"
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 30,
@@ -1698,6 +1682,14 @@
           "url": "https://beni.gob.bo/departamento/agricultura",
           "has_image": true,
           "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "turismo",
+          "url": "https://beni.gob.bo/blog/gobernacion-impulsa-la-promocion-turistica-de-bella-vista-rumbo-a-la-feria-del-pescado",
+          "has_image": true,
+          "text_preview": "GOBERNACIÓN IMPULSA LA PROMOCIÓN TURÍSTICA DE BELLA VISTA RUMBO A LA FERIA DEL PESCADO Cultura 11/08/2026 Por deborah ychu 71 visitas La Gobernación del Beni a través de la Secretaría Departamental de Obras Públicas y Servicios, junto con la Dirección Departamental de Turismo y Dirección de Movimientos Sociales, sostuvieron una reunión de coordinación con autoridades de la provincia Iténez, entre "
         }
       ],
       "error": null
@@ -1847,12 +1839,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": null
     }
   ]
 }

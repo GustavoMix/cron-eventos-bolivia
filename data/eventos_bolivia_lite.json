@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-16T12:58:28-04:00",
+  "generated_at": "2026-09-16T17:21:15-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 59,
-    "events_today": 14
+    "events_total": 60,
+    "events_today": 15
   },
   "filters": {
     "ui_groups": [
@@ -60,7 +60,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 11
+        "count": 12
       },
       {
         "key": "deporte",
@@ -145,6 +145,11 @@
         "count": 4
       },
       {
+        "key": "Trinidad",
+        "label": "Trinidad",
+        "count": 1
+      },
+      {
         "key": "El Alto",
         "label": "El Alto",
         "count": 1
@@ -185,28 +190,33 @@
         "key": "Oruro",
         "label": "Oruro",
         "count": 3
+      },
+      {
+        "key": "Beni",
+        "label": "Beni",
+        "count": 1
       }
     ],
     "when": [
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 14
+        "count": 15
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 25
+        "count": 26
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 32
+        "count": 33
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 59
+        "count": 60
       }
     ],
     "price": [
@@ -223,14 +233,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 45
+        "count": 46
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 51
+        "count": 52
       },
       {
         "key": "con_video",
@@ -379,7 +389,7 @@
       {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
-        "count": 9
+        "count": 10
       },
       {
         "key": "ticketera",
@@ -400,6 +410,7 @@
   },
   "sections": {
     "today": [
+      "evt_71fc8263fecc21",
       "evt_9bdf046a988d35",
       "evt_afe01d669f86b7",
       "evt_5d192c83160a0e",
@@ -464,12 +475,12 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 35,
+      "events_total": 34,
       "events_upcoming": 14,
       "events_with_image": 13,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Cochabamba": {
       "events_total": 25,
@@ -477,7 +488,7 @@
       "events_with_image": 15,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
       "events_total": 31,
@@ -485,7 +496,7 @@
       "events_with_image": 9,
       "events_with_video": 4,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
       "events_total": 7,
@@ -493,7 +504,7 @@
       "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 4,
@@ -520,9 +531,9 @@
       "sources_ok": 2
     },
     "Beni": {
-      "events_total": 1,
-      "events_upcoming": 0,
-      "events_with_image": 0,
+      "events_total": 2,
+      "events_upcoming": 1,
+      "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 3,
       "sources_ok": 1
@@ -533,13 +544,13 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 2
     }
   },
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 67,
+      "events_total": 66,
       "events_upcoming": 19,
       "events_with_image": 19,
       "events_with_video": 0
@@ -574,9 +585,9 @@
     },
     "feria": {
       "label": "Ferias y expos",
-      "events_total": 13,
-      "events_upcoming": 11,
-      "events_with_image": 6,
+      "events_total": 14,
+      "events_upcoming": 12,
+      "events_with_image": 7,
       "events_with_video": 3
     },
     "festival": {
@@ -623,6 +634,44 @@
     }
   },
   "events": [
+    {
+      "event_id": "evt_71fc8263fecc21",
+      "title": "Cultura - Gobernación del Beni",
+      "category": "feria",
+      "category_label": "Ferias y expos",
+      "starts_at": "2026-09-16T00:00:00-04:00",
+      "starts_at_ms": 1789531200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 16 de septiembre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Trinidad",
+      "department": "Beni",
+      "venue": null,
+      "image_url": "https://beni.gob.bo/images/beni-og.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
     {
       "event_id": "evt_9bdf046a988d35",
       "title": "Película en cartelera de cine",
@@ -1747,11 +1796,11 @@
       "title": "Película en cartelera de cine",
       "category": "cine",
       "category_label": "Cine",
-      "starts_at": "2026-09-16T13:20:00-04:00",
-      "starts_at_ms": 1789579200000,
+      "starts_at": "2026-09-16T18:30:00-04:00",
+      "starts_at_ms": 1789597800000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Miércoles 16 de septiembre · 13:20",
+      "display_date": "Miércoles 16 de septiembre · 18:30",
       "lifecycle": "hoy",
       "lifecycle_label": "Hoy",
       "days_until": 0,
@@ -1759,7 +1808,7 @@
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
       "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
+      "image_url": "https://cdn.bolivia.com/cine/2026/5/spider-man-un-nuevo-dia-47429.jpg",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
@@ -1768,92 +1817,65 @@
       "price_label": null,
       "organizer": null,
       "showtimes": [
-        "13:20",
-        "15:40",
-        "12:50",
-        "14:20",
-        "15:10",
+        "18:30",
+        "19:50",
+        "21:30",
+        "18:40",
+        "21:40",
+        "20:20",
         "16:20",
         "16:40",
         "17:30",
         "19:00",
-        "19:50",
         "21:20",
-        "13:40",
-        "16:00",
         "18:20",
         "18:00",
-        "12:30",
-        "15:30",
-        "18:30",
-        "21:30",
-        "12:40",
-        "18:40",
-        "21:40",
-        "20:20",
-        "14:30",
-        "16:30",
         "20:00",
-        "13:00",
-        "14:00",
+        "16:30",
         "16:50",
         "19:30",
         "22:10",
-        "22:30"
+        "17:40",
+        "22:30",
+        "20:40",
+        "20:30",
+        "17:50"
       ],
       "formats": [
-        "2D - DBOX - XD - Doblada",
         "2D - Doblada",
-        "PRE - 2D - Doblada",
-        "XD - DBOX - 2D - Doblada",
         "2D - PRE - Doblada",
-        "PRE - 2D - Subtitulada",
-        "XD - 2D - DBOX - Doblada",
         "2D - PRE - Subtitulada",
+        "2D - XD - DBOX - Doblada",
+        "XD - 2D - DBOX - Doblada",
+        "PRE - 2D - Doblada",
+        "PRE - 2D - Subtitulada",
         "2D - DBOX - Doblada",
         "DBOX - 2D - Doblada"
       ],
       "occurrences": [
-        "2026-09-16T13:20:00-04:00",
-        "2026-09-16T15:40:00-04:00",
-        "2026-09-16T12:50:00-04:00",
-        "2026-09-16T14:20:00-04:00",
-        "2026-09-16T15:10:00-04:00",
+        "2026-09-16T18:30:00-04:00",
+        "2026-09-16T19:50:00-04:00",
+        "2026-09-16T21:30:00-04:00",
+        "2026-09-16T18:40:00-04:00",
+        "2026-09-16T21:40:00-04:00",
+        "2026-09-16T20:20:00-04:00",
         "2026-09-16T16:20:00-04:00",
         "2026-09-16T16:40:00-04:00",
         "2026-09-16T17:30:00-04:00",
         "2026-09-16T19:00:00-04:00",
-        "2026-09-16T19:50:00-04:00",
         "2026-09-16T21:20:00-04:00",
-        "2026-09-16T13:40:00-04:00",
-        "2026-09-16T16:00:00-04:00",
         "2026-09-16T18:20:00-04:00",
         "2026-09-16T18:00:00-04:00",
-        "2026-09-16T12:30:00-04:00",
-        "2026-09-16T15:30:00-04:00",
-        "2026-09-16T18:30:00-04:00",
-        "2026-09-16T21:30:00-04:00",
-        "2026-09-16T12:40:00-04:00",
-        "2026-09-16T18:40:00-04:00",
-        "2026-09-16T21:40:00-04:00",
-        "2026-09-16T20:20:00-04:00",
-        "2026-09-16T14:30:00-04:00",
-        "2026-09-16T16:30:00-04:00",
         "2026-09-16T20:00:00-04:00",
-        "2026-09-16T13:00:00-04:00",
-        "2026-09-16T14:00:00-04:00",
+        "2026-09-16T16:30:00-04:00",
         "2026-09-16T16:50:00-04:00",
         "2026-09-16T19:30:00-04:00",
         "2026-09-16T22:10:00-04:00",
-        "2026-09-16T22:30:00-04:00",
-        "2026-09-16T15:20:00-04:00",
         "2026-09-16T17:40:00-04:00",
-        "2026-09-16T15:50:00-04:00",
-        "2026-09-16T20:30:00-04:00",
-        "2026-09-16T13:30:00-04:00",
-        "2026-09-16T17:50:00-04:00",
+        "2026-09-16T22:30:00-04:00",
         "2026-09-16T20:40:00-04:00",
-        "2026-09-16T12:20:00-04:00"
+        "2026-09-16T20:30:00-04:00",
+        "2026-09-16T17:50:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
