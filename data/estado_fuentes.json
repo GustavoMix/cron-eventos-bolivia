@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T00:51:37-04:00",
+  "generated_at": "2026-09-16T07:35:56-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_casa_cultura_cbba",
       "fb_feicobol",
+      "fb_fexpocruz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 82.2,
-    "horas_maximo_sin_datos": 645.7
+    "horas_promedio_sin_datos": 86.4,
+    "horas_maximo_sin_datos": 652.4
   },
   "sources": [
     {
@@ -98,12 +98,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fexpocruz 291 mil seguidores • 204 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técni'"
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -590,22 +590,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SlsdxH300loQ7kNvwGSVu7x&_nc_oc=Adr9XZyNLlOzLhfJ9Q7Cn0q4pHXsFKAEPNffBEcI3qs-A3SJfiLHYN-u3Nwg0HHj2-w&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=SHpntLykGw8rm288i9O6gw&_nc_ss=7f289&oh=00_AQIEYPDxSiNghwxx88CsfqORxE7JUJqNSJuvnK_NyVHCVA&oe=6AAFF2C0",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid0346PqBnEofsKJL9hEcEgsNiZDhSidp92aVUc5DxsKpzt94ggcNPjHenpwGvGJbGDDl?comment_id=2291728745003148&__cft__[0]=AZjS77YIVclMrDV2gFj2eDBM-qYo4SsuvF9vNSxQu8xUOLzIDYuKhCvdeQIPepyZA7QyeMH0zyUexRzOrWPketAe6Hk4P4jTBqNsKHee7m8-kLm5xf1ia1E7vTf5TIVNtct9I6YmcSFI0TU-S3tjwjrs4teurgd7uLbdhSHPj5kUmTrYTL7SnRYykRs&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Es para todo público o solo para estudiantes Leonidas Mirror"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -939,13 +930,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cY52JbhmlcwQ7kNvwEaCGJW&_nc_oc=Adq_WX8Sw2haHy7cbQPgiRomnf03SrfAgd2TTtMugLWQ_n97WJ1DJmNUGxOkYfeBsbo&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=f814MH43RyAIE38YMlZ7hA&_nc_ss=7f289&oh=00_AQJmMOe9tQ_3O0vnvOht5kuW0DgWPmOJhKbGeqhU0g-prQ&oe=6AB05107",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/videos/-atenci%C3%B3n-participantes-del-concurso-municipal-de-charango-2026ya-tienes-todo-li/1756599028797139/",
+          "has_image": true,
+          "text_preview": "🎶✨ ¡Atención, participantes del Concurso Municipal de Charango 2026! ¿Ya tienes todo listo para demostrar tu talento y pasión por nuestro instrumento nacional? 🎼🪕 En este video te dejamos algunas... 🎶✨ ¡Atención, participantes del Concurso Municipal de Charango 2026! ¿Ya tienes todo listo para demostrar tu talento y pasión por nuestro instrumento..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -973,13 +973,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DJP-OVGx7h4Q7kNvwFXSd3G&_nc_oc=AdpZ41GwSxQfg0e7M1Oi-I9i1onyYJRO-cXNspZbmOau1vgUPJvcyyJZVlLzKfWizSQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=E_g1mkzZ5Vdq_LPoXKF0aA&_nc_ss=7f289&oh=00_AQJ_G2fgyIXFT0IegIU1BEAe8HMwT_4GuJKVJg76s_ObjQ&oe=6AB0427D",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid0qVtVe85PQDpRLmnWwciJ5erCaNi3UeSWGSbM34igrRqK2JW8DbHt2nf9wF6JKA5kl?__cft__[0]=AZhwtjfgkI5arUb0Cs9_zbQJIQg__snfDppsxChS4W1bZEtxNE8cQBhVcSdQAKWM0-osJkC558H7oEGiPmgTIHOpOKdfjCeRhu5NQDqIDwh5SoLA0YkoMD_r8k39rGxlr6xFgXT72ZUvjEjGYaYjmvN-CDK2J4mKK_K3plCrZcunPMwQwhDeiUnLC2c&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Independencia Óleo sobre lienzo… Ver más Independencia Óleo sobre lienzo… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1092,22 +1101,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LqvAsUfD-tMQ7kNvwEEainp&_nc_oc=Adrzf2Uh-iRv6_slzVmKm5Iei0-uo5-n3YlpkYb2_crHtzpMohdY26jkwKxUOrcwr6Y&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=OLEeC1vX7hkC9EqjTVlWmA&_nc_ss=7f289&oh=00_AQLNif8hThNOTa8HkwNX1ACq1HMBIfPmRfLXrhvIQ2xO-Q&oe=6AAFDB37",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/museocasadelalibertad/videos/cdl-ya-est%C3%A1n-a-la-venta-las-entradas-para-la-recorrido-inmersivo-sonoro-%F0%9D%97%98%F0%9D%97%9F-%F0%9D%97%A3%F0%9D%97%94%F0%9D%97%9F%F0%9D%97%94%F0%9D%97%96/1505113201643077/",
-          "has_image": true,
-          "text_preview": "#CDL | Ya están a la venta las entradas para la recorrido inmersivo sonoro 𝗘𝗟 𝗣𝗔𝗟𝗔𝗖𝗜𝗢 𝗦𝗨𝗘𝗡𝗔. La Manzana Jesuítica Bajo el Cielo de Charcas. Mira el video y elige tu ma… Ver más #CDL | Ya están a la venta las entradas para la recorrido inmersivo sonoro 𝗘𝗟 𝗣𝗔𝗟𝗔𝗖𝗜𝗢 𝗦𝗨𝗘𝗡𝗔. La Manzana Jesuítica Bajo el Cielo de Charcas. Mira el video y elige tu ma… Ver más Tenemos problemas para reproducir este video. "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
