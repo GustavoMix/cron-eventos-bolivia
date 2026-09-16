@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:35:56-04:00",
+  "generated_at": "2026-09-16T12:58:28-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,15 +9,14 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
-      "fb_fexpocruz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 86.4,
-    "horas_maximo_sin_datos": 652.4
+    "horas_promedio_sin_datos": 85.6,
+    "horas_maximo_sin_datos": 657.8
   },
   "sources": [
     {
@@ -97,13 +96,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=74QAnlYJBngQ7kNvwHe5LqH&_nc_oc=Ado8YCycMYYUwJ1qNbg-g7T1wZOvTtFygCayGzyPFu-WpQf-a3wXmr1gy7WC1upu5Pc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Bm1girPUjmw12zfEsW1pgw&_nc_ss=7f289&oh=00_AQKa-aOu3xIVs9m8WSmLDmBV6PVCBTpGemgbXEdcfLwfeQ&oe=6AB098D0",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fexpocruz 291 mil seguidores • 204 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técni'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 42,
+          "category": "feria",
+          "url": "https://www.facebook.com/Fexpocruz/videos/los-sue%C3%B1os-tambi%C3%A9n-se-convierten-en-negocios-en-expocruz-2026-ven%C3%AD-a-conocer-el-/961085070365748/",
+          "has_image": true,
+          "text_preview": "Los sueños también se convierten en negocios en Expocruz 2026! Vení a conocer el Pabellón Juventud Empresa, un espacio donde jóvenes emprendedores presentan ideas innovadoras, proyectos que crecen... Los sueños también se convierten en negocios en Expocruz 2026! Vení a conocer el Pabellón Juventud Empresa, un espacio donde jóvenes emprendedores..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -284,13 +292,30 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IpwfkvORCWIQ7kNvwE9KLy6&_nc_oc=AdqIdbUi26fyoY0Vu0Daj2g8YJxc1aTgqvAkpchna4tR5uQ3NSamuleyhqKMMTUzUBc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=bATLRZMy5hAd-jXBUl3BWw&_nc_ss=7f289&oh=00_AQIuBXmSwyYksJ9m7K8CNt64-v4xjDzJOMvI3NphNrDFcA&oe=6AB0A77E",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "deporte",
+          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid0ZeSyorxoTKCXX986zjMEigWacW5cYEy6P3LXwXunwzmH98PiPbHUuk9w4KTLSS9Jl?__cft__[0]=AZhh4v7-VHfmOTfe0KUg5UW6EblBobKylMJZkHgvgxr9B4NBO1MZIKHM_PIygwFaPDHgu413hAsrt3SCS4nV4Can58TSqswjy9kz7yZsqdpjSJzmQpZ8kMC3rzbnLzqCmie68tPQv_AD3INDPSX2lJHAd7oNTqrwhC0h0Dyi8wtwiRbJnOxb3so4a1WYo0K1ch5JQTC-hLVOmG3Zn98&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "PREGUNTA DE ´EL LÍDER´ VOTA Y PARTICIPA: TRAS LAS SUPUESTAS AMENAZAS Y AMAÑOS ¿QUÉ DEBE PASAR CON LA LIGA BOLIVIANA? ¿SE SUSPENDE O DEBE CONTINUAR HASTA EL FINAL? … Ver más se debe prohibir las apuestas en todo el Pais, culpa de los costas cuando entraron a la FBF comenzaron a dar legalidad a algo que solo manejan los crimenes organizados si empiezan por la prohibicion veran como la liga volveria "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "deporte",
+          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid0ZeSyorxoTKCXX986zjMEigWacW5cYEy6P3LXwXunwzmH98PiPbHUuk9w4KTLSS9Jl?comment_id=28240365522257317&__cft__[0]=AZhh4v7-VHfmOTfe0KUg5UW6EblBobKylMJZkHgvgxr9B4NBO1MZIKHM_PIygwFaPDHgu413hAsrt3SCS4nV4Can58TSqswjy9kz7yZsqdpjSJzmQpZ8kMC3rzbnLzqCmie68tPQv_AD3INDPSX2lJHAd7oNTqrwhC0h0Dyi8wtwiRbJnOxb3so4a1WYo0K1ch5JQTC-hLVOmG3Zn98&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "se debe prohibir las apuestas en todo el Pais, culpa de los costas cuando entraron a la FBF comenzaron a dar legalidad a algo que solo manejan los crimenes organizados si empiezan por la prohibicion veran como la liga volveria a la normalidad aunque p… Ver más Pedro Garcia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber",
@@ -760,13 +785,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eWf1Wj9U-IAQ7kNvwFXJVt2&_nc_oc=Adp0HbtKkZfMawUI88riPXQVQD148WzOvxMBDhphRI1PUByToanhXMHQ1saCpWMC3hY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=CAS4xKOypuI1HijUFU_orw&_nc_ss=7f289&oh=00_AQLytcz0CFPdNwhavF0fcMF2rgQbjkJK2KJo746l3iGnRw&oe=6AB0A12A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobChuquisaca/videos/1090640043381852/?__cft__[0]=AZiyuwaBSc8LouhreeTqgNrZCdKq1gu9KtLmdJ_TaIZUY2Yb76x9I4gBsA3yuYb0MEN87XO8qfAwDWh941v3wDSxVi_68FttBFIszgZPhp1_j6KTx-SA3AMtN4Narq4S8pDBG8nFc6L3sJHzHeXu0HnT7CXFmlohu28EQvxNDUv96RcAMbMe6wZ9obGJNh-BJ_I&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "[EN DIRECTO] INSPECCION Y REINICIO DE OBRA DEL TRIANGULAR CINTEÑO TRAMO I Y III #… Ver más [EN DIRECTO] INSPECCION Y REINICIO DE OBRA DEL TRIANGULAR CINTEÑO TRAMO I Y III #… Ver más @Seguidores Tenemos problemas para reproducir este video. Más información Ver más comentarios"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_oruro",
@@ -930,22 +964,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cY52JbhmlcwQ7kNvwEaCGJW&_nc_oc=Adq_WX8Sw2haHy7cbQPgiRomnf03SrfAgd2TTtMugLWQ_n97WJ1DJmNUGxOkYfeBsbo&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=f814MH43RyAIE38YMlZ7hA&_nc_ss=7f289&oh=00_AQJmMOe9tQ_3O0vnvOht5kuW0DgWPmOJhKbGeqhU0g-prQ&oe=6AB05107",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/videos/-atenci%C3%B3n-participantes-del-concurso-municipal-de-charango-2026ya-tienes-todo-li/1756599028797139/",
-          "has_image": true,
-          "text_preview": "🎶✨ ¡Atención, participantes del Concurso Municipal de Charango 2026! ¿Ya tienes todo listo para demostrar tu talento y pasión por nuestro instrumento nacional? 🎼🪕 En este video te dejamos algunas... 🎶✨ ¡Atención, participantes del Concurso Municipal de Charango 2026! ¿Ya tienes todo listo para demostrar tu talento y pasión por nuestro instrumento..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -973,22 +998,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DJP-OVGx7h4Q7kNvwFXSd3G&_nc_oc=AdpZ41GwSxQfg0e7M1Oi-I9i1onyYJRO-cXNspZbmOau1vgUPJvcyyJZVlLzKfWizSQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=E_g1mkzZ5Vdq_LPoXKF0aA&_nc_ss=7f289&oh=00_AQJ_G2fgyIXFT0IegIU1BEAe8HMwT_4GuJKVJg76s_ObjQ&oe=6AB0427D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid0qVtVe85PQDpRLmnWwciJ5erCaNi3UeSWGSbM34igrRqK2JW8DbHt2nf9wF6JKA5kl?__cft__[0]=AZhwtjfgkI5arUb0Cs9_zbQJIQg__snfDppsxChS4W1bZEtxNE8cQBhVcSdQAKWM0-osJkC558H7oEGiPmgTIHOpOKdfjCeRhu5NQDqIDwh5SoLA0YkoMD_r8k39rGxlr6xFgXT72ZUvjEjGYaYjmvN-CDK2J4mKK_K3plCrZcunPMwQwhDeiUnLC2c&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Independencia Óleo sobre lienzo… Ver más Independencia Óleo sobre lienzo… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1321,7 +1337,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "[Errno 101] Network is unreachable"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1411,32 +1427,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 6,
-      "rejected": 7,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 47,
+          "score": 9,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "11/09/2026 Tecnología iPhone 18 Pro vs. iPhone 18 Pro Max: en qué se diferencian los celulares de Apple Apple presentó el iPhone 18 Pro y el iPhone 18 Pro Max, los modelos que incorporan el sistema de cámara profesional más avanzado creado por la compañía hasta... vista 10/09/2026 Tecnología Claves para crear la foto más realista de cómo me vería en los años 80 con IA Convertir una fotografía actu"
+          "text_preview": "16/09/2026 Medio Ambiente Un estudio estima que la Tierra podría superar los 2 °C sobre la era preindustrial Un estudio experimental estima que la temperatura media global podría superar de forma temporal los 2 °C sobre los niveles preindustriales durante la primavera... vista 11/09/2026 Tecnología iPhone 18 Pro vs. iPhone 18 Pro Max: en qué se diferencian los celulares de Apple Apple presentó el "
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 47,
+          "score": 49,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "has_image": true,
+          "text_preview": "16/09/2026 Cultura Más de 200 cineastas firman carta de solidaridad con los directores de Naza Más de 200 cineastas israelíes han firmado una carta en solidaridad con Yuval Abraham y Rachel Szor, directores del filme NAZA , después de que el primer... vista 13/09/2026 Cultura Enrique Aráoz: “Alturas sonoras” es una propuesta de gala y solemne El sábado 19 de septiembre (19:00) el Auditorio del Pis"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 9,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 El lenguaje del lamido ¿Por qué los gatos lamen a los humanos? Ver más 3 Co"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
-          "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Gobierno incrementa a Bs 6.000 millones el fondo para la compra de combusti"
         }
       ],
       "error": null
@@ -1831,12 +1847,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "[Errno 101] Network is unreachable"
     }
   ]
 }
