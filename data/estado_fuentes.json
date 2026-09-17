@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T00:54:37-04:00",
+  "generated_at": "2026-09-17T07:43:07-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 86.9,
-    "horas_maximo_sin_datos": 669.7
+    "horas_promedio_sin_datos": 89.0,
+    "horas_maximo_sin_datos": 676.5
   },
   "sources": [
     {
@@ -45,13 +45,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9e4Ck9ucs9oQ7kNvwEx1d8s&_nc_oc=Ado6TdzNR-7J6byBlGSRjXiCw03RTo7ppNogNpIRWkp8qns4dTDuAPF9dV60qCSnCWc&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=itJT5lANp18o2cR3EuPbbg&_nc_ss=7f289&oh=00_AQK6-aHZKwZ2YAoiJkEE_aHuGeXqq5RsC5ihoquoHIhTBA&oe=6AB1B9F5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2943306569366691/?__cft__[0]=AZgAB6_2KIhsrLmq8zOe7HuOjAMYWa2DgQoMCo2KGaSIfV_ODwnbhxpXwVd-G_EhW4IXjNwk1nIospMFuqOhHof9DGiROON5xSHxgNBqQ8-59jhzXiy4NaEA92TIfNguT5r8HHD1jezelST5DINf_9fiKTvyT9V-oqiNd_9Vyxq384dfSIGYDIteZEdP_CrXwDSS&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "MORE HUMOR ESTRENA 𝗨𝗡 𝗡𝗨𝗘𝗩𝗢 𝗘𝗦𝗣𝗔𝗖𝗜𝗢 𝗣𝗔𝗥𝗔 𝗘𝗟 𝗔𝗥𝗧𝗘 𝗘𝗡 𝗟𝗔 𝗣𝗔𝗭 Nos sentimos privilegiados de … Ver más MORE HUMOR ESTRENA 𝗨𝗡 𝗡𝗨𝗘𝗩𝗢 𝗘𝗦𝗣𝗔𝗖𝗜𝗢 𝗣𝗔𝗥𝗔 𝗘𝗟 𝗔𝗥𝗧𝗘 𝗘𝗡 𝗟𝗔 𝗣𝗔𝗭 Nos sentimos privilegiados de … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -572,22 +581,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2nPAdMrL5SQQ7kNvwEDOtNk&_nc_oc=AdqhTqqI6lt_sdgkrv-hvMEjiDDz3k_CTahXUNA_wMFH7rE03FnLK8gUhS5JHbVP164&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=lzl_Q-359lQodVsS8Kk1NQ&_nc_ss=7f289&oh=00_AQKy3YaOIuOWH7BK3IB8A0lWrYSYN0w_mW2Hc0sOQ-NTUw&oe=6AB16016",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02h9sM1uqBGnMYqBqLfYtfHAz4e5dBVyugfb6ZyPfE884RUjEmkz815rZ2GvhLLumJl?__cft__[0]=AZj8c3F3KIKvZLuVYiRVHo7UqmlWXPa_rCxSLOUybo6cUgLL2evdRMLF95TU3Iiikxq50eDPAuOuKRTt0W2qpUyA7Fyk6yRRklH4v0Q3KYaodW1_w6ByNzQSyaRiMTxc4SlEvKd7R6YLoDzinAVinvmT4Zp3VgoKqUkxVHEHi-P2DuWH3g9MDVBnRxM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Un acercamiento a la historia de los juegos tradicionales del mundo El … Ver más Un acercamiento a la historia de los juegos tradicionales del mundo El … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -649,13 +649,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZOTgVH4C2kIQ7kNvwElp1KZ&_nc_oc=Adq3WwXcoiE6Jd-_S1YUMAqlZxXuKS9XLHoxBiIjo_F1Q3i4erbZ0nl5sV2Vu90vh4I&_nc_zt=24&_nc_ht=scontent-fra5-2.xx&_nc_gid=hw_ePqmB7WuCjoIgdsTs1w&_nc_ss=7f289&oh=00_AQJpp-ibvXwInyUUFudmQaQATkLBkejtZsE9flOoRJ6izw&oe=6AB1A812",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1358051239742477/?__cft__[0]=AZixUcDcwLbbl6bERyh8wK9b1C4F1TygpZzBwugFWSmR-Q4CNL5gc9xhV25fLdqkcjE-xM5fLcXsnhpZw_Sn6eolMCegOhO62SNEkO2C_ovsn578u4mbD_9l1OnP_hj_HukXceE6iF1IJCx6XjQrvinjKOPkOBH-e-Tg_ogUggd9Kxfsexi9hSwHiIMB4GF5x74n&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#CRC | “El aguayo de mamá Tomasa” llega a Sacaba … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -683,30 +692,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/693488690_1306639851654691_8009211632152824782_n.jpg?stp=dst-jpg_tt6&cstp=mx1344x1344&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ohy2FCh0S5wQ7kNvwFstEHA&_nc_oc=AdqrGXHGnnMiqHk0Q_tn6U4GK9idKxVJOJNj2jsi4s4Ej93uRVhoRAArCmRlsaUph4M&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=we0XDzxXhqzr9l8tj6WTmw&_nc_ss=7f289&oh=00_AQJ1w65mFuVONpEckNsJugKNoHBokD64J1X-ZH1MF4ST6g&oe=6AB14E6F",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlcaldiaDeOruro/videos/celebramos-el-aniversario-de-la-subalcald%C3%ADa-del-distrito-3%E2%84%B9%EF%B8%8F-con-fe-y-gratitud-c/1142572805009578/",
-          "has_image": true,
-          "text_preview": "Celebramos el aniversario de la Subalcaldía del Distrito 3 Con fe y gratitud, celebramos un nuevo aniversario de la Subalcaldía del Distrito 3, junto a vecinos y dir… Ver más Celebramos el aniversario de la Subalcaldía del Distrito 3 Con fe y gratitud, celebramos un nuevo aniversario de la Subalcaldía del Distrito 3, junto a vecinos y dir… Ver más Consideraron la opción de realizar trámites comple"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlcaldiaDeOruro/videos/celebramos-el-aniversario-de-la-subalcald%C3%ADa-del-distrito-3%E2%84%B9%EF%B8%8F-con-fe-y-gratitud-c/1142572805009578/",
-          "has_image": true,
-          "text_preview": "Consideraron la opción de realizar trámites completos en la SubAlcaldia? Porque solo funciona para dejar carpetas, ya que de igual manera se debe subir a OOPP y la Plaza a hacer seguimiento a varias oficinas. Carlos Azurduy Panozo Consideraron la opción de realizar trámites completos en la SubAlcaldia? Porque solo funciona para dejar carpetas, ya que de igual manera se debe subir a OOPP y la Plaza"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_tarija",
@@ -768,13 +760,30 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pT9So0ma4V8Q7kNvwHgl-Qh&_nc_oc=AdqDPHZHUaxEamu5JSqUQd2gXIBHWx6GCpvXIoyiruWZVVrLVO6Y-yymM-Ku0g5Vkdc&_nc_zt=24&_nc_ht=scontent-fra5-1.xx&_nc_gid=7r9bWCfErrLivItyXNYqRQ&_nc_ss=7f289&oh=00_AQJdgYnchbdrfYJwccZEfm8dlP2DTkZS_5v82m3Bf0EY6A&oe=6AB1B96A",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1114229437838275/?__cft__[0]=AZiSZJr9RggPX-G7MlgdiSVFDZDeYweF66y6HsKzu5wI2KNeRg0bSkcXUJBDfduiyWsZQYLJaAZI1We-BNWMVPtwzGUiJShslgOSH7VAOP-lQa-1aC23v7zeRcsYj0UlPUVe1eDHtgX5og_V06z4g6-fZlz-OfiKjliXpfy5wsOodRc6xtUlkyFdYXy49IUH-1d2&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "𝗔𝗟𝗖𝗔𝗟𝗗𝗘 𝗗𝗜𝗘𝗚𝗢 𝗦𝗨𝗔́𝗥𝗘𝗭 𝗚𝗘𝗦𝗧𝗜𝗢𝗡𝗔 𝗬 𝗥𝗢𝗗𝗥𝗜𝗚𝗢 𝗣𝗔𝗭 𝗔𝗡𝗨𝗡𝗖𝗜𝗔 𝗟𝗔 𝗔𝗩𝗘𝗡𝗜𝗗𝗔 𝗔𝗖𝗥𝗘 Durante su visita a Cobija, el alcalde Diego Suárez soli… Ver más 𝗔𝗟𝗖𝗔𝗟𝗗𝗘 𝗗𝗜𝗘𝗚𝗢 𝗦𝗨𝗔́𝗥𝗘𝗭 𝗚𝗘𝗦𝗧𝗜𝗢𝗡𝗔 𝗬 𝗥𝗢𝗗𝗥𝗜𝗚𝗢 𝗣𝗔𝗭 𝗔𝗡𝗨𝗡𝗖𝗜𝗔 𝗟𝗔 𝗔𝗩𝗘𝗡𝗜𝗗𝗔 𝗔𝗖𝗥𝗘 Durante su visita a Cobija, el alcalde Diego Suárez soli… Ver más ¡Excelente gestión, Alcalde Diego Suarez! Necesidades de nuestra ciudad que son escuchadas y atendidas. ¡Seguimos avanzando por Co"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1114229437838275/?comment_id=1112481014758555&__cft__[0]=AZiSZJr9RggPX-G7MlgdiSVFDZDeYweF66y6HsKzu5wI2KNeRg0bSkcXUJBDfduiyWsZQYLJaAZI1We-BNWMVPtwzGUiJShslgOSH7VAOP-lQa-1aC23v7zeRcsYj0UlPUVe1eDHtgX5og_V06z4g6-fZlz-OfiKjliXpfy5wsOodRc6xtUlkyFdYXy49IUH-1d2&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "¡Excelente gestión, Alcalde Diego Suarez! Necesidades de nuestra ciudad que son escuchadas y atendidas. ¡Seguimos avanzando por Cobija! Massiana Justiniano Aguilera"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -819,30 +828,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HP0eM9jGqKkQ7kNvwFAhDGZ&_nc_oc=Adp5du2XEGDP0OVTOZvjIEIaCLQIYamogNuUVQ855zHuFr2eMmlbUxUlYpxxUy7NA28&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7uKoyjwhoEIly0TBfC2XIA&_nc_ss=7f289&oh=00_AQKilW4jlpP5PLiUtBr-hjKAdBbddoFD804Kn78jYQiidw&oe=6AB157A7",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GADTarija/posts/pfbid02fJqqsJC3UKjMZuoYWe4X7GB9SKFR5GmTyjJoYJVSNhukf1ntYQE66MQq6gU3j8qBl?__cft__[0]=AZiLFLGFgdI5n1gWg7L_vuL-wtjM37PNC9EJ40ww4gz2gGdCfyG9vv3o-LvoAaTpMcBrnxgPJQB0wNFHuCU3kXy9SbUoX-kPzb-EVSTyoehd859FnNLtHhuytOD29Pv_nLdpulHqsQjXQ7Qas3s3dPp8Fpjmew3rcjPNph547aXSmDzyvDjH9PRaHKs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Juventudes que aprenden desde el territorio E… Ver más Juventudes que aprenden desde el territorio E… Ver más Transmitiendo experiencia y conocimiento a nuestros futuros profesionales.... excelente trabajo Proyecto San Jacinto Tenemos problemas para reproducir este video. Más información Oscar Ramon Ponce Alvarado"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GADTarija/posts/pfbid02fJqqsJC3UKjMZuoYWe4X7GB9SKFR5GmTyjJoYJVSNhukf1ntYQE66MQq6gU3j8qBl?comment_id=1049906584533745&__cft__[0]=AZiLFLGFgdI5n1gWg7L_vuL-wtjM37PNC9EJ40ww4gz2gGdCfyG9vv3o-LvoAaTpMcBrnxgPJQB0wNFHuCU3kXy9SbUoX-kPzb-EVSTyoehd859FnNLtHhuytOD29Pv_nLdpulHqsQjXQ7Qas3s3dPp8Fpjmew3rcjPNph547aXSmDzyvDjH9PRaHKs&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Transmitiendo experiencia y conocimiento a nuestros futuros profesionales.... excelente trabajo Proyecto San Jacinto Oscar Ramon Ponce Alvarado"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_pando",
@@ -1452,7 +1444,7 @@
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Difunden imágenes de los tres extranjeros aprehendidos implicados en el atr"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Gobierno denuncia daño de más de Bs 200 millones en la estatal Yacana; apunta a cinco exfuncionarios Ver más 2 Agetic rastreará a 300 usuarios por desv"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
