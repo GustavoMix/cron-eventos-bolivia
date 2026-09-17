@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T13:02:25-04:00",
+  "generated_at": "2026-09-17T17:25:48-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 88.5,
-    "horas_maximo_sin_datos": 681.9
+    "horas_promedio_sin_datos": 89.2,
+    "horas_maximo_sin_datos": 686.3
   },
   "sources": [
     {
@@ -79,13 +79,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hgZ5u60fxLoQ7kNvwE08uNH&_nc_oc=AdrDeYxDkMJiHpJif1RR6SxNTG1we1hEwLvj7y7-MwoAP-m0GGOhyzai0CamTKnJZto&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=XEui0Zumq4JRLNZJ0ftR3g&_nc_ss=7f289&oh=00_AQJTVtIGhkh-rXHjcCRKBa98mdZR_6dSr-7MIdH8NRDz4w&oe=6AB23303",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028Zsy51fgb2vG4bgpp3qg8xh9bzZ2q3GZ3GyjWMAZFqFyG4htaa3ar8hSp2JM6hWsl?__cft__[0]=AZgFa-uk8vfjOzz0qrmF2DYvMydWfcIeGM0vTrSvikVuKyq1cflZCBVDNBTDhq3gt9BDArbgazuowFJBqsA94HpSLrveaEJdsYeoBq-uFhguP1pWPt6-kXSAHITcACQdT-ajw2gDH_16aitIzh7DhfcL21A2Ya1lZrFyV0Lguy6-7RjkRod2yd-haJ0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -555,13 +564,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IPGf_ODj9bYQ7kNvwEZdui8&_nc_oc=AdoAi4JJUCG5-Y-ppf_jm52uES-AK5DdMkv34NQ_Nv_HqFaG8LV7pjGKQVZHOsG96wA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=w8H8k6BupGcYyV9UxKK9qQ&_nc_ss=7f289&oh=00_AQKLhyYFo6glDuFnvbnpXKJJ_PLe0XBJ6Si1uH_-NB8mYQ&oe=6AB237B3",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -623,30 +632,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=y4dSxAQ52z4Q7kNvwHPO-OA&_nc_oc=AdrE3QWUljIuFNPZX5qMatAy9etwTksUJsw1mYgFLTNUVf-e5dpP9WtSI0nSWO6TDnY&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=3Pkx1W1HGWcMKrcvUTm7uA&_nc_ss=7f289&oh=00_AQLNRRRg3T21d-TQY5B34Hrz455ED2W1IcfSIo6qQuJa0Q&oe=6AB1F1CF",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1834154031366459/?__cft__[0]=AZj-q6ZRD8IpFumsd5tWUcvcnpvL5AHsV21hmeBXebCYl_jdwEia1M7osoHobVSFYONVM8rffMYDslwmk_DAOpoqnldBMQGqfKGGAFSTfimU4ppPG7lEkqSdEoh2kJZdFjGEd1NyJaNR-avtVYcluuswj_TLCAFRofEt7wBZEPHhDLZlwdfb2vIFwJkDzEMs0AB8&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "PROTEGER PARA CONSERVAR … Ver más Excelente, la gente que sabe el significado de los symbols y del material fabricado sabe lo que tiene que hacer… vi que el reloj de piedra en uno de los patios estaba en mantenimiento, esperamos que hayan utilizado el “bar is” para proteger…. Tenemos problemas para reproducir este video. Más información Ver más comentarios Gil Taboada Murillo"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1834154031366459/?comment_id=1084476947898300&__cft__[0]=AZj-q6ZRD8IpFumsd5tWUcvcnpvL5AHsV21hmeBXebCYl_jdwEia1M7osoHobVSFYONVM8rffMYDslwmk_DAOpoqnldBMQGqfKGGAFSTfimU4ppPG7lEkqSdEoh2kJZdFjGEd1NyJaNR-avtVYcluuswj_TLCAFRofEt7wBZEPHhDLZlwdfb2vIFwJkDzEMs0AB8&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Excelente, la gente que sabe el significado de los symbols y del material fabricado sabe lo que tiene que hacer… vi que el reloj de piedra en uno de los patios estaba en mantenimiento, esperamos que hayan utilizado el “bar is” para proteger…. Gil Taboada Murillo"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -674,30 +666,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_55jF8MQNLQQ7kNvwGoBxmV&_nc_oc=Adp5TCREswjBnpN-Zc-qi9tijQ43jFoLtkJIglpADm1LvGhe_E4_CF5nwBDXxdtWJ_E&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zbAGCJgXAFusubUUTpp4DQ&_nc_ss=7f289&oh=00_AQJrzTjvLXJrT52nlxVLjcwPYPBdGGjBBu9-VbwOl4YGTQ&oe=6AB1FC78",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2284721625674320/?__cft__[0]=AZh0KXKBWTrSCFMeopya-WxB1j4mky_3tFomqdBd2w_7Plwnxfj0-EnfzU-_hccnlYv5RiNEsigRuLOd0mIDBuwvWxiuyqROw5uZ912fdFbjCThLJrorCP_qUbcf_QQJynKqptf_YV98RsK67pQPOB29rnCeeB1kSDGxpdtrOdLF327eXg816C7q9Okdo6oMpc9Z&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡𝗖𝗔𝗗𝗔 𝗢𝗕𝗥𝗔 𝗘𝗡𝗧𝗥𝗘𝗚𝗔𝗗𝗔 𝗘𝗦 𝗨𝗡𝗔 𝗛𝗜𝗦𝗧𝗢𝗥𝗜𝗔 𝗤𝗨𝗘 𝗖𝗔𝗠𝗕𝗜𝗔 𝗣𝗔𝗥𝗔 𝗦𝗜𝗘𝗠𝗣𝗥𝗘! Detrás de cada proyecto finalizado, cada metro de asfalto, cada tanque de agua y cada centro de salud… Ver más ¡𝗖𝗔𝗗𝗔 𝗢𝗕𝗥𝗔 𝗘𝗡𝗧𝗥𝗘𝗚𝗔𝗗𝗔 𝗘𝗦 𝗨𝗡𝗔 𝗛𝗜𝗦𝗧𝗢𝗥𝗜𝗔 𝗤𝗨𝗘 𝗖𝗔𝗠𝗕𝗜𝗔 𝗣𝗔𝗥𝗔 𝗦𝗜𝗘𝗠𝗣𝗥𝗘! Detrás de cada proyecto finalizado, cada metro de asfalto, cada tanque de agua y cada centro de salud… Ver más ¡¡Asi te quiero ver mi Sucre querida !!!vamos alcaldes"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2284721625674320/?comment_id=1099235849256395&__cft__[0]=AZh0KXKBWTrSCFMeopya-WxB1j4mky_3tFomqdBd2w_7Plwnxfj0-EnfzU-_hccnlYv5RiNEsigRuLOd0mIDBuwvWxiuyqROw5uZ912fdFbjCThLJrorCP_qUbcf_QQJynKqptf_YV98RsK67pQPOB29rnCeeB1kSDGxpdtrOdLF327eXg816C7q9Okdo6oMpc9Z&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "¡¡Asi te quiero ver mi Sucre querida !!!vamos alcaldesa a seguir trbajando por todos Ramos"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_oruro",
@@ -742,30 +717,13 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=09Fq5wrLJTkQ7kNvwEKzzI7&_nc_oc=Ado8byr4LNpsKL_DkeGgzs2e0VUvEu6ueei2Lr6rGtd6gBZMUf4ktN2rDzE2FvlklYQ&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=mZCEYDm_5vHDQq1kuvMQgQ&_nc_ss=7f289&oh=00_AQJturSMIz--J6arzjTGvwC45CsBJUf2bEKl64FIPop_6w&oe=6AB1D868",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "deporte",
-          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/29745125768411302/?__cft__[0]=AZgsXWyexF26y_au8PsIv-nkoEq_0XHJpG1Qd6KSvuGbwZarPEHJM8HCoqA34V0HOQnTw1xdtp888bLJOTEnMvp2FTNSbc-fMtmkBSXQnZZCUeY5YnC-wu3a2hpLjLCtH3C1Zlp8EWet-hw6NHe7fT7Xkixtqe_I_BcUBLbnK5VTpQ1mk7LGreJGBsY0LulAphRw&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Es hora de salir a las calles.. ya basta del centralismo paceños y Potosí olvidado.. Potosí federal Tenemos problemas para reproducir este video. Más información Ver más comentarios La Liga De la Justicia"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "deporte",
-          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/29745125768411302/?comment_id=2013707329301785&__cft__[0]=AZgsXWyexF26y_au8PsIv-nkoEq_0XHJpG1Qd6KSvuGbwZarPEHJM8HCoqA34V0HOQnTw1xdtp888bLJOTEnMvp2FTNSbc-fMtmkBSXQnZZCUeY5YnC-wu3a2hpLjLCtH3C1Zlp8EWet-hw6NHe7fT7Xkixtqe_I_BcUBLbnK5VTpQ1mk7LGreJGBsY0LulAphRw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Es hora de salir a las calles.. ya basta del centralismo paceños y Potosí olvidado.. Potosí federal La Liga De la Justicia"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_trinidad",
@@ -918,7 +876,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1116,13 +1074,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LQGzAtqP7SwQ7kNvwHkmUnH&_nc_oc=AdotQ0EkroJF6jSAhYSV-l2OCCoWpetZdvhAgYfxZdB7LM7eUQiaziStsIvF5-9dTK4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=8mivvEqh8nmhuHklbvbiAQ&_nc_ss=7f289&oh=00_AQIngj9hqbPdZt-dO_NXkc1my7wpE-Aq3JFuJ3Nx4xPAWA&oe=6AB2216F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid033r65UU1RtsvHyHhvD7AyQGrqgH8FYABgp7FsFNYepZKJ7P52CqZ6raLCZDtFCbMkl?__cft__[0]=AZjHYSULsdqRLuS8BXhOUMhQExL8kyPebyixUbHeIweBuPhvRQwsKoWE_14C9uyZ2LFXV-xfSJAwePhB3jJ6EC4VJfYmZ5DVuJpTbsjNuMhGFaYvF7tulRjCB7lf-f2yr1ACUlnPp4cImBHUPk2c9VPYZXl99yETZe2iu_lPgE_-tCzumVe-s1x3M8I&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CCP| ¡El arte también llega a las aulas!… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1431,7 +1398,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 27,
+          "score": 14,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1443,7 +1410,7 @@
           "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Valentín, un cachorro de puma, lucha por su vida en bioparque La Hormiga Ve"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Seis rincones de la casa que se pueden ordenar en menos de diez minutos Ver"
         }
       ],
       "error": null
@@ -1543,8 +1510,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 31,
-      "events": 31,
+      "raw_items": 35,
+      "events": 35,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1577,8 +1544,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1594,8 +1561,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1611,8 +1578,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 42,
-      "events": 42,
+      "raw_items": 39,
+      "events": 39,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1628,8 +1595,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 8,
-      "events": 8,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
