@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:21:15-04:00",
+  "generated_at": "2026-09-17T00:54:37-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,14 +10,13 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
-      "fb_gob_tarija",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 85.0,
-    "horas_maximo_sin_datos": 662.2
+    "horas_promedio_sin_datos": 86.9,
+    "horas_maximo_sin_datos": 669.7
   },
   "sources": [
     {
@@ -420,22 +419,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wrvb5jdGxFUQ7kNvwESQ8g4&_nc_oc=AdrIqHl8DDHphqC_Chuo2EPjIW8f_DMUbaXzBfQAWYysiNY34oqL3n1ePs-aMYEhjQM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=dKRS2wjnLzujEqKcKLF1vQ&_nc_ss=7f289&oh=00_AQLLQfRszrLDfROH3ugMrfq03EHLiM8y4I62CYiNKUL9PA&oe=6AB0EC48",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1655510779296864/?__cft__[0]=AZijXItXwsgTHhvNOjn4MIEz30SupkEYgNs35Je2UqHD0bSrhLsqLAKEvu6RLnJBSkCjtl-pWvSQMAN6Izdvoo1TXZMS2gzBWApnUfEag7GE203486aM_Sk-2EJKGK1MCqwFMLd8a8Jn1uznTpCjFJXlb0r2jOrozOmypnug8dunMphNU4mcRNf3x5F63D_GCk94&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#GrupoFides | Los ministros de Defensa, Ernesto Justiniano, y de Gobierno, Marco Oviedo, ya están presentes en la sesión del Legislativo para tratar la ampliación del estado de excepción. Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_anf",
@@ -582,13 +572,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2nPAdMrL5SQQ7kNvwEDOtNk&_nc_oc=AdqhTqqI6lt_sdgkrv-hvMEjiDDz3k_CTahXUNA_wMFH7rE03FnLK8gUhS5JHbVP164&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=lzl_Q-359lQodVsS8Kk1NQ&_nc_ss=7f289&oh=00_AQKy3YaOIuOWH7BK3IB8A0lWrYSYN0w_mW2Hc0sOQ-NTUw&oe=6AB16016",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02h9sM1uqBGnMYqBqLfYtfHAz4e5dBVyugfb6ZyPfE884RUjEmkz815rZ2GvhLLumJl?__cft__[0]=AZj8c3F3KIKvZLuVYiRVHo7UqmlWXPa_rCxSLOUybo6cUgLL2evdRMLF95TU3Iiikxq50eDPAuOuKRTt0W2qpUyA7Fyk6yRRklH4v0Q3KYaodW1_w6ByNzQSyaRiMTxc4SlEvKd7R6YLoDzinAVinvmT4Zp3VgoKqUkxVHEHi-P2DuWH3g9MDVBnRxM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Un acercamiento a la historia de los juegos tradicionales del mundo El … Ver más Un acercamiento a la historia de los juegos tradicionales del mundo El … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -684,13 +683,30 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/693488690_1306639851654691_8009211632152824782_n.jpg?stp=dst-jpg_tt6&cstp=mx1344x1344&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ohy2FCh0S5wQ7kNvwFstEHA&_nc_oc=AdqrGXHGnnMiqHk0Q_tn6U4GK9idKxVJOJNj2jsi4s4Ej93uRVhoRAArCmRlsaUph4M&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=we0XDzxXhqzr9l8tj6WTmw&_nc_ss=7f289&oh=00_AQJ1w65mFuVONpEckNsJugKNoHBokD64J1X-ZH1MF4ST6g&oe=6AB14E6F",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlcaldiaDeOruro/videos/celebramos-el-aniversario-de-la-subalcald%C3%ADa-del-distrito-3%E2%84%B9%EF%B8%8F-con-fe-y-gratitud-c/1142572805009578/",
+          "has_image": true,
+          "text_preview": "Celebramos el aniversario de la Subalcaldía del Distrito 3 Con fe y gratitud, celebramos un nuevo aniversario de la Subalcaldía del Distrito 3, junto a vecinos y dir… Ver más Celebramos el aniversario de la Subalcaldía del Distrito 3 Con fe y gratitud, celebramos un nuevo aniversario de la Subalcaldía del Distrito 3, junto a vecinos y dir… Ver más Consideraron la opción de realizar trámites comple"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlcaldiaDeOruro/videos/celebramos-el-aniversario-de-la-subalcald%C3%ADa-del-distrito-3%E2%84%B9%EF%B8%8F-con-fe-y-gratitud-c/1142572805009578/",
+          "has_image": true,
+          "text_preview": "Consideraron la opción de realizar trámites completos en la SubAlcaldia? Porque solo funciona para dejar carpetas, ya que de igual manera se debe subir a OOPP y la Plaza a hacer seguimiento a varias oficinas. Carlos Azurduy Panozo Consideraron la opción de realizar trámites completos en la SubAlcaldia? Porque solo funciona para dejar carpetas, ya que de igual manera se debe subir a OOPP y la Plaza"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_tarija",
@@ -803,13 +819,30 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HP0eM9jGqKkQ7kNvwFAhDGZ&_nc_oc=Adp5du2XEGDP0OVTOZvjIEIaCLQIYamogNuUVQ855zHuFr2eMmlbUxUlYpxxUy7NA28&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=7uKoyjwhoEIly0TBfC2XIA&_nc_ss=7f289&oh=00_AQKilW4jlpP5PLiUtBr-hjKAdBbddoFD804Kn78jYQiidw&oe=6AB157A7",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Departamental de Tarija 91 mil seguidores • 13 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento '"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GADTarija/posts/pfbid02fJqqsJC3UKjMZuoYWe4X7GB9SKFR5GmTyjJoYJVSNhukf1ntYQE66MQq6gU3j8qBl?__cft__[0]=AZiLFLGFgdI5n1gWg7L_vuL-wtjM37PNC9EJ40ww4gz2gGdCfyG9vv3o-LvoAaTpMcBrnxgPJQB0wNFHuCU3kXy9SbUoX-kPzb-EVSTyoehd859FnNLtHhuytOD29Pv_nLdpulHqsQjXQ7Qas3s3dPp8Fpjmew3rcjPNph547aXSmDzyvDjH9PRaHKs&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Juventudes que aprenden desde el territorio E… Ver más Juventudes que aprenden desde el territorio E… Ver más Transmitiendo experiencia y conocimiento a nuestros futuros profesionales.... excelente trabajo Proyecto San Jacinto Tenemos problemas para reproducir este video. Más información Oscar Ramon Ponce Alvarado"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GADTarija/posts/pfbid02fJqqsJC3UKjMZuoYWe4X7GB9SKFR5GmTyjJoYJVSNhukf1ntYQE66MQq6gU3j8qBl?comment_id=1049906584533745&__cft__[0]=AZiLFLGFgdI5n1gWg7L_vuL-wtjM37PNC9EJ40ww4gz2gGdCfyG9vv3o-LvoAaTpMcBrnxgPJQB0wNFHuCU3kXy9SbUoX-kPzb-EVSTyoehd859FnNLtHhuytOD29Pv_nLdpulHqsQjXQ7Qas3s3dPp8Fpjmew3rcjPNph547aXSmDzyvDjH9PRaHKs&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Transmitiendo experiencia y conocimiento a nuestros futuros profesionales.... excelente trabajo Proyecto San Jacinto Oscar Ramon Ponce Alvarado"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_pando",
@@ -820,30 +853,13 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iPVGvufkPLQQ7kNvwH9NVWf&_nc_oc=AdqR-cy8csmtHaGFld97ujfZcYaqvwcKSNV7XScyc4poS0L5UXMGXkcWn6Mj89QqC7A&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=xO_aHBSBcOsemY-g1qZAMw&_nc_ss=7f289&oh=00_AQKNFuwPSoYXvzQBjCRF2AY5-gIk1pp_yDsg6kJFNimSiA&oe=6AB0CB10",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0Ho7po3F6HHerDtzVj9NGQScZh1n59mfaBfnzi2uMx1ussMy3f3YexqdtTRbhPXoVl?__cft__[0]=AZiYj-Y61IjPCpUxMKWyCtd-K9rt7lTofGpwpClWlGG5iq2QmECLMRvM8vt_P3dApH00rnv5pWSJeMSSzEoBHE-pKfUBAMAgpPFmadZ464-6IyMwymRGInEIwT54RL90-rngFOTbldeVj-8kkhHc1XEkgeGRQwh5vTbbxbE2vn7XMnXuTZzYAlrWl7KNFGD2RJQcF_88Iw&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0Ho7po3F6HHerDtzVj9NGQScZh1n59mfaBfnzi2uMx1ussMy3f3YexqdtTRbhPXoVl?comment_id=584098196711804&__cft__[0]=AZiYj-Y61IjPCpUxMKWyCtd-K9rt7lTofGpwpClWlGG5iq2QmECLMRvM8vt_P3dApH00rnv5pWSJeMSSzEoBHE-pKfUBAMAgpPFmadZ464-6IyMwymRGInEIwT54RL90-rngFOTbldeVj-8kkhHc1XEkgeGRQwh5vTbbxbE2vn7XMnXuTZzYAlrWl7KNFGD2RJQcF_88Iw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_beni",
@@ -1419,12 +1435,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 9,
+          "score": 23,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1432,19 +1448,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 49,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "16/09/2026 Cultura Más de 200 cineastas firman carta de solidaridad con los directores de Naza Más de 200 cineastas israelíes han firmado una carta en solidaridad con Yuval Abraham y Rachel Szor, directores del filme NAZA , después de que el primer... vista 13/09/2026 Cultura Enrique Aráoz: “Alturas sonoras” es una propuesta de gala y solemne El sábado 19 de septiembre (19:00) el Auditorio del Pis"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 9,
+          "score": 23,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Gobierno incrementa a Bs 6.000 millones el fondo para la compra de combusti"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Difunden imágenes de los tres extranjeros aprehendidos implicados en el atr"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 27,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1502,15 +1518,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
+      "raw_items": 39,
       "events": 0,
-      "rejected": 40,
+      "rejected": 39,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a8049611-6d66-49c7-8d1c-1e79031ddf5a",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
           "has_image": true,
           "text_preview": ""
         },
@@ -1518,7 +1534,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/4cb2f028-47b0-43ab-8875-1d720a452813",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/583b18d3-7623-4286-9d18-2e6bf7a89d36",
           "has_image": true,
           "text_preview": ""
         },
@@ -1526,7 +1542,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/9c125cbc-fe23-4e55-b99f-12ab59e01fc9",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/39dd3e77-e97d-4b2b-a81f-259d48ed1484",
           "has_image": true,
           "text_preview": ""
         }
@@ -1544,8 +1560,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 44,
-      "events": 44,
+      "raw_items": 30,
+      "events": 30,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1561,8 +1577,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 3,
+      "events": 3,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1578,8 +1594,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1612,8 +1628,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 44,
-      "events": 44,
+      "raw_items": 30,
+      "events": 30,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1645,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1646,8 +1662,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 6,
-      "events": 6,
+      "raw_items": 5,
+      "events": 5,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1664,9 +1680,17 @@
       "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
       "status": "ok",
       "raw_items": 5,
-      "events": 1,
-      "rejected": 4,
+      "events": 0,
+      "rejected": 5,
       "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "feria",
+          "url": "https://beni.gob.bo/category/cultura/",
+          "has_image": true,
+          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 16/09/2026 GOBERNACIÓN IMPULSA RUTA DE AVITURISMO PARA LA CONSERVACIÓN DE LA PARABA BARBA AZUL Con una visión de conservación y desarrollo sostenible, en la gestión del gobernador Jesús Egüez Riv... Leer más → Cultura - 27/08/2026 GOBERNACIÓN DEL BENI PARTICIPA EN LA RÉPLICA POR LOS 200 AÑOS DE LA POLICÍA BOLIVIANA En representaci"
+        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 30,
@@ -1682,14 +1706,6 @@
           "url": "https://beni.gob.bo/departamento/agricultura",
           "has_image": true,
           "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
-        },
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 36,
-          "category": "turismo",
-          "url": "https://beni.gob.bo/blog/gobernacion-impulsa-la-promocion-turistica-de-bella-vista-rumbo-a-la-feria-del-pescado",
-          "has_image": true,
-          "text_preview": "GOBERNACIÓN IMPULSA LA PROMOCIÓN TURÍSTICA DE BELLA VISTA RUMBO A LA FERIA DEL PESCADO Cultura 11/08/2026 Por deborah ychu 71 visitas La Gobernación del Beni a través de la Secretaría Departamental de Obras Públicas y Servicios, junto con la Dirección Departamental de Turismo y Dirección de Movimientos Sociales, sostuvieron una reunión de coordinación con autoridades de la provincia Iténez, entre "
         }
       ],
       "error": null
