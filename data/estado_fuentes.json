@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:43:07-04:00",
+  "generated_at": "2026-09-17T13:02:25-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 89.0,
-    "horas_maximo_sin_datos": 676.5
+    "horas_promedio_sin_datos": 88.5,
+    "horas_maximo_sin_datos": 681.9
   },
   "sources": [
     {
@@ -45,22 +45,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9e4Ck9ucs9oQ7kNvwEx1d8s&_nc_oc=Ado6TdzNR-7J6byBlGSRjXiCw03RTo7ppNogNpIRWkp8qns4dTDuAPF9dV60qCSnCWc&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=itJT5lANp18o2cR3EuPbbg&_nc_ss=7f289&oh=00_AQK6-aHZKwZ2YAoiJkEE_aHuGeXqq5RsC5ihoquoHIhTBA&oe=6AB1B9F5",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2943306569366691/?__cft__[0]=AZgAB6_2KIhsrLmq8zOe7HuOjAMYWa2DgQoMCo2KGaSIfV_ODwnbhxpXwVd-G_EhW4IXjNwk1nIospMFuqOhHof9DGiROON5xSHxgNBqQ8-59jhzXiy4NaEA92TIfNguT5r8HHD1jezelST5DINf_9fiKTvyT9V-oqiNd_9Vyxq384dfSIGYDIteZEdP_CrXwDSS&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "MORE HUMOR ESTRENA 𝗨𝗡 𝗡𝗨𝗘𝗩𝗢 𝗘𝗦𝗣𝗔𝗖𝗜𝗢 𝗣𝗔𝗥𝗔 𝗘𝗟 𝗔𝗥𝗧𝗘 𝗘𝗡 𝗟𝗔 𝗣𝗔𝗭 Nos sentimos privilegiados de … Ver más MORE HUMOR ESTRENA 𝗨𝗡 𝗡𝗨𝗘𝗩𝗢 𝗘𝗦𝗣𝗔𝗖𝗜𝗢 𝗣𝗔𝗥𝗔 𝗘𝗟 𝗔𝗥𝗧𝗘 𝗘𝗡 𝗟𝗔 𝗣𝗔𝗭 Nos sentimos privilegiados de … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -632,13 +623,30 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=y4dSxAQ52z4Q7kNvwHPO-OA&_nc_oc=AdrE3QWUljIuFNPZX5qMatAy9etwTksUJsw1mYgFLTNUVf-e5dpP9WtSI0nSWO6TDnY&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=3Pkx1W1HGWcMKrcvUTm7uA&_nc_ss=7f289&oh=00_AQLNRRRg3T21d-TQY5B34Hrz455ED2W1IcfSIo6qQuJa0Q&oe=6AB1F1CF",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1834154031366459/?__cft__[0]=AZj-q6ZRD8IpFumsd5tWUcvcnpvL5AHsV21hmeBXebCYl_jdwEia1M7osoHobVSFYONVM8rffMYDslwmk_DAOpoqnldBMQGqfKGGAFSTfimU4ppPG7lEkqSdEoh2kJZdFjGEd1NyJaNR-avtVYcluuswj_TLCAFRofEt7wBZEPHhDLZlwdfb2vIFwJkDzEMs0AB8&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "PROTEGER PARA CONSERVAR … Ver más Excelente, la gente que sabe el significado de los symbols y del material fabricado sabe lo que tiene que hacer… vi que el reloj de piedra en uno de los patios estaba en mantenimiento, esperamos que hayan utilizado el “bar is” para proteger…. Tenemos problemas para reproducir este video. Más información Ver más comentarios Gil Taboada Murillo"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1834154031366459/?comment_id=1084476947898300&__cft__[0]=AZj-q6ZRD8IpFumsd5tWUcvcnpvL5AHsV21hmeBXebCYl_jdwEia1M7osoHobVSFYONVM8rffMYDslwmk_DAOpoqnldBMQGqfKGGAFSTfimU4ppPG7lEkqSdEoh2kJZdFjGEd1NyJaNR-avtVYcluuswj_TLCAFRofEt7wBZEPHhDLZlwdfb2vIFwJkDzEMs0AB8&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Excelente, la gente que sabe el significado de los symbols y del material fabricado sabe lo que tiene que hacer… vi que el reloj de piedra en uno de los patios estaba en mantenimiento, esperamos que hayan utilizado el “bar is” para proteger…. Gil Taboada Murillo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -649,22 +657,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZOTgVH4C2kIQ7kNvwElp1KZ&_nc_oc=Adq3WwXcoiE6Jd-_S1YUMAqlZxXuKS9XLHoxBiIjo_F1Q3i4erbZ0nl5sV2Vu90vh4I&_nc_zt=24&_nc_ht=scontent-fra5-2.xx&_nc_gid=hw_ePqmB7WuCjoIgdsTs1w&_nc_ss=7f289&oh=00_AQJpp-ibvXwInyUUFudmQaQATkLBkejtZsE9flOoRJ6izw&oe=6AB1A812",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1358051239742477/?__cft__[0]=AZixUcDcwLbbl6bERyh8wK9b1C4F1TygpZzBwugFWSmR-Q4CNL5gc9xhV25fLdqkcjE-xM5fLcXsnhpZw_Sn6eolMCegOhO62SNEkO2C_ovsn578u4mbD_9l1OnP_hj_HukXceE6iF1IJCx6XjQrvinjKOPkOBH-e-Tg_ogUggd9Kxfsexi9hSwHiIMB4GF5x74n&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#CRC | “El aguayo de mamá Tomasa” llega a Sacaba … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -675,13 +674,30 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_55jF8MQNLQQ7kNvwGoBxmV&_nc_oc=Adp5TCREswjBnpN-Zc-qi9tijQ43jFoLtkJIglpADm1LvGhe_E4_CF5nwBDXxdtWJ_E&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zbAGCJgXAFusubUUTpp4DQ&_nc_ss=7f289&oh=00_AQJrzTjvLXJrT52nlxVLjcwPYPBdGGjBBu9-VbwOl4YGTQ&oe=6AB1FC78",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2284721625674320/?__cft__[0]=AZh0KXKBWTrSCFMeopya-WxB1j4mky_3tFomqdBd2w_7Plwnxfj0-EnfzU-_hccnlYv5RiNEsigRuLOd0mIDBuwvWxiuyqROw5uZ912fdFbjCThLJrorCP_qUbcf_QQJynKqptf_YV98RsK67pQPOB29rnCeeB1kSDGxpdtrOdLF327eXg816C7q9Okdo6oMpc9Z&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡𝗖𝗔𝗗𝗔 𝗢𝗕𝗥𝗔 𝗘𝗡𝗧𝗥𝗘𝗚𝗔𝗗𝗔 𝗘𝗦 𝗨𝗡𝗔 𝗛𝗜𝗦𝗧𝗢𝗥𝗜𝗔 𝗤𝗨𝗘 𝗖𝗔𝗠𝗕𝗜𝗔 𝗣𝗔𝗥𝗔 𝗦𝗜𝗘𝗠𝗣𝗥𝗘! Detrás de cada proyecto finalizado, cada metro de asfalto, cada tanque de agua y cada centro de salud… Ver más ¡𝗖𝗔𝗗𝗔 𝗢𝗕𝗥𝗔 𝗘𝗡𝗧𝗥𝗘𝗚𝗔𝗗𝗔 𝗘𝗦 𝗨𝗡𝗔 𝗛𝗜𝗦𝗧𝗢𝗥𝗜𝗔 𝗤𝗨𝗘 𝗖𝗔𝗠𝗕𝗜𝗔 𝗣𝗔𝗥𝗔 𝗦𝗜𝗘𝗠𝗣𝗥𝗘! Detrás de cada proyecto finalizado, cada metro de asfalto, cada tanque de agua y cada centro de salud… Ver más ¡¡Asi te quiero ver mi Sucre querida !!!vamos alcaldes"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2284721625674320/?comment_id=1099235849256395&__cft__[0]=AZh0KXKBWTrSCFMeopya-WxB1j4mky_3tFomqdBd2w_7Plwnxfj0-EnfzU-_hccnlYv5RiNEsigRuLOd0mIDBuwvWxiuyqROw5uZ912fdFbjCThLJrorCP_qUbcf_QQJynKqptf_YV98RsK67pQPOB29rnCeeB1kSDGxpdtrOdLF327eXg816C7q9Okdo6oMpc9Z&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "¡¡Asi te quiero ver mi Sucre querida !!!vamos alcaldesa a seguir trbajando por todos Ramos"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_oruro",
@@ -726,13 +742,30 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=09Fq5wrLJTkQ7kNvwEKzzI7&_nc_oc=Ado8byr4LNpsKL_DkeGgzs2e0VUvEu6ueei2Lr6rGtd6gBZMUf4ktN2rDzE2FvlklYQ&_nc_zt=24&_nc_ht=scontent-hkg4-1.xx&_nc_gid=mZCEYDm_5vHDQq1kuvMQgQ&_nc_ss=7f289&oh=00_AQJturSMIz--J6arzjTGvwC45CsBJUf2bEKl64FIPop_6w&oe=6AB1D868",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "deporte",
+          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/29745125768411302/?__cft__[0]=AZgsXWyexF26y_au8PsIv-nkoEq_0XHJpG1Qd6KSvuGbwZarPEHJM8HCoqA34V0HOQnTw1xdtp888bLJOTEnMvp2FTNSbc-fMtmkBSXQnZZCUeY5YnC-wu3a2hpLjLCtH3C1Zlp8EWet-hw6NHe7fT7Xkixtqe_I_BcUBLbnK5VTpQ1mk7LGreJGBsY0LulAphRw&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Es hora de salir a las calles.. ya basta del centralismo paceños y Potosí olvidado.. Potosí federal Tenemos problemas para reproducir este video. Más información Ver más comentarios La Liga De la Justicia"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "deporte",
+          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/29745125768411302/?comment_id=2013707329301785&__cft__[0]=AZgsXWyexF26y_au8PsIv-nkoEq_0XHJpG1Qd6KSvuGbwZarPEHJM8HCoqA34V0HOQnTw1xdtp888bLJOTEnMvp2FTNSbc-fMtmkBSXQnZZCUeY5YnC-wu3a2hpLjLCtH3C1Zlp8EWet-hw6NHe7fT7Xkixtqe_I_BcUBLbnK5VTpQ1mk7LGreJGBsY0LulAphRw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Es hora de salir a las calles.. ya basta del centralismo paceños y Potosí olvidado.. Potosí federal La Liga De la Justicia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_trinidad",
@@ -760,30 +793,13 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pT9So0ma4V8Q7kNvwHgl-Qh&_nc_oc=AdqDPHZHUaxEamu5JSqUQd2gXIBHWx6GCpvXIoyiruWZVVrLVO6Y-yymM-Ku0g5Vkdc&_nc_zt=24&_nc_ht=scontent-fra5-1.xx&_nc_gid=7r9bWCfErrLivItyXNYqRQ&_nc_ss=7f289&oh=00_AQJdgYnchbdrfYJwccZEfm8dlP2DTkZS_5v82m3Bf0EY6A&oe=6AB1B96A",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1114229437838275/?__cft__[0]=AZiSZJr9RggPX-G7MlgdiSVFDZDeYweF66y6HsKzu5wI2KNeRg0bSkcXUJBDfduiyWsZQYLJaAZI1We-BNWMVPtwzGUiJShslgOSH7VAOP-lQa-1aC23v7zeRcsYj0UlPUVe1eDHtgX5og_V06z4g6-fZlz-OfiKjliXpfy5wsOodRc6xtUlkyFdYXy49IUH-1d2&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "𝗔𝗟𝗖𝗔𝗟𝗗𝗘 𝗗𝗜𝗘𝗚𝗢 𝗦𝗨𝗔́𝗥𝗘𝗭 𝗚𝗘𝗦𝗧𝗜𝗢𝗡𝗔 𝗬 𝗥𝗢𝗗𝗥𝗜𝗚𝗢 𝗣𝗔𝗭 𝗔𝗡𝗨𝗡𝗖𝗜𝗔 𝗟𝗔 𝗔𝗩𝗘𝗡𝗜𝗗𝗔 𝗔𝗖𝗥𝗘 Durante su visita a Cobija, el alcalde Diego Suárez soli… Ver más 𝗔𝗟𝗖𝗔𝗟𝗗𝗘 𝗗𝗜𝗘𝗚𝗢 𝗦𝗨𝗔́𝗥𝗘𝗭 𝗚𝗘𝗦𝗧𝗜𝗢𝗡𝗔 𝗬 𝗥𝗢𝗗𝗥𝗜𝗚𝗢 𝗣𝗔𝗭 𝗔𝗡𝗨𝗡𝗖𝗜𝗔 𝗟𝗔 𝗔𝗩𝗘𝗡𝗜𝗗𝗔 𝗔𝗖𝗥𝗘 Durante su visita a Cobija, el alcalde Diego Suárez soli… Ver más ¡Excelente gestión, Alcalde Diego Suarez! Necesidades de nuestra ciudad que son escuchadas y atendidas. ¡Seguimos avanzando por Co"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1114229437838275/?comment_id=1112481014758555&__cft__[0]=AZiSZJr9RggPX-G7MlgdiSVFDZDeYweF66y6HsKzu5wI2KNeRg0bSkcXUJBDfduiyWsZQYLJaAZI1We-BNWMVPtwzGUiJShslgOSH7VAOP-lQa-1aC23v7zeRcsYj0UlPUVe1eDHtgX5og_V06z4g6-fZlz-OfiKjliXpfy5wsOodRc6xtUlkyFdYXy49IUH-1d2&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "¡Excelente gestión, Alcalde Diego Suarez! Necesidades de nuestra ciudad que son escuchadas y atendidas. ¡Seguimos avanzando por Cobija! Massiana Justiniano Aguilera"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -1382,38 +1398,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://www.turismoyculturas.gob.bo/wp-content/uploads/2025/11/Logo-Presidencia.png",
-      "status": "ok",
-      "raw_items": 9,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 9,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 44,
-          "category": "festival",
-          "url": "https://www.turismoyculturas.gob.bo/",
-          "has_image": false,
-          "text_preview": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "turismo",
-          "url": "https://www.turismoyculturas.gob.bo/declaracion-de-la-mision-vision-valores-y-principios-de-la-entidad/",
-          "has_image": true,
-          "text_preview": "Misión y Visión de la Entidad Misión Diseñar, regular y ejecutar políticas públicas que promuevan el turismo sostenible, el folklore y la gastronomía como sectores estratégicos para el desarrollo integral del país y la conservación de nuestras culturas. Trabajar de manera coordinada con los niveles subnacionales, actores comunitarios y sectores productivos para transformar nuestra riqueza natural "
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 18,
-          "category": "turismo",
-          "url": "https://www.turismoyculturas.gob.bo/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/",
-          "has_image": true,
-          "text_preview": "Reseña Histórica Bolivia es uno de los países con mayor diversidad cultural, histórica y natural del mundo. Su identidad nacional se ha forjado a partir del legado de las civilizaciones precolombinas como Tiwanaku, los señoríos aymaras, las culturas amazónicas, chaqueñas y de los valles, así como la influencia del Tawantinsuyu incaico; del extraordinario aporte artístico, arquitectónico y religios"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "timed out"
     },
     {
       "id": "web_lostiempos_agenda",
@@ -1427,32 +1418,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 23,
+          "score": 0,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "16/09/2026 Medio Ambiente Un estudio estima que la Tierra podría superar los 2 °C sobre la era preindustrial Un estudio experimental estima que la temperatura media global podría superar de forma temporal los 2 °C sobre los niveles preindustriales durante la primavera... vista 11/09/2026 Tecnología iPhone 18 Pro vs. iPhone 18 Pro Max: en qué se diferencian los celulares de Apple Apple presentó el "
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 23,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
-          "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Gobierno denuncia daño de más de Bs 200 millones en la estatal Yacana; apunta a cinco exfuncionarios Ver más 2 Agetic rastreará a 300 usuarios por desv"
+          "text_preview": "17/09/2026 Interesante Seis rincones de la casa que se pueden ordenar en menos de diez minutos La acumulación de objetos en los espacios de uso diario suele transformar la limpieza del hogar en una tarea extensa. Revisiones breves y frecuentes en la... vista 16/09/2026 Medio Ambiente Un estudio estima que la Tierra podría superar los 2 °C sobre la era preindustrial Un estudio experimental estima q"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 27,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "17/09/2026 Cultura Seis compañías animan la segunda versión de Teatro Sur Seis elencos internacionales animarán el II Festival Internacional “Teatro Sur” que se desarrollará del 22 al 26 de septiembre en diferentes espacios de las... vista 16/09/2026 Cultura Más de 200 cineastas firman carta de solidaridad con los directores de Naza Más de 200 cineastas israelíes han firmado una carta en solidarid"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 0,
+          "category": "concierto",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Valentín, un cachorro de puma, lucha por su vida en bioparque La Hormiga Ve"
         }
       ],
       "error": null
@@ -1552,8 +1543,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 30,
-      "events": 30,
+      "raw_items": 31,
+      "events": 31,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1569,8 +1560,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 3,
-      "events": 3,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,8 +1594,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1620,8 +1611,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 30,
-      "events": 30,
+      "raw_items": 42,
+      "events": 42,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1637,8 +1628,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 0,
-      "events": 0,
+      "raw_items": 8,
+      "events": 8,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1654,8 +1645,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 5,
-      "events": 5,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1731,8 +1722,8 @@
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
       "raw_items": 7,
-      "events": 1,
-      "rejected": 6,
+      "events": 0,
+      "rejected": 7,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
