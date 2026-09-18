@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T12:27:25-04:00",
+  "generated_at": "2026-09-18T16:57:12-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 96.2,
-    "horas_maximo_sin_datos": 705.3
+    "horas_promedio_sin_datos": 94.1,
+    "horas_maximo_sin_datos": 709.8
   },
   "sources": [
     {
@@ -62,30 +62,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=slcge80wpMYQ7kNvwHjkMlu&_nc_oc=AdpO70oCIMV0EOypf-CGivMi2CLICko3ubC9PWGgcmRaWi1V9C22Pyj9HhLunwdSd68&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=2832mqDW44dJ2EJ58saqkA&_nc_ss=7f289&oh=00_AQLc_IY1KHz0fPiq17NjKpRKfwnZ1_4jnQN9aUX1o0Q-fA&oe=6AB33376",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZjP5Fxfj11w9JBCia9aUquqo7v5UCiPN2QHrEfrjMTHI_P9VK6EIHgcApiQzYZyplZDcg5YsbLO2b0Ih34IUEpw5sQzdn8c4YSZi3KlE3kioJSWAKxWp0eTM3vW8G8iksrFo7wnp0UVmgBdvLudJJoO7lv6u0wxIV8YjKdkbXzLSA0wGJEDb-BPAc5DceZUsIKS&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZjP5Fxfj11w9JBCia9aUquqo7v5UCiPN2QHrEfrjMTHI_P9VK6EIHgcApiQzYZyplZDcg5YsbLO2b0Ih34IUEpw5sQzdn8c4YSZi3KlE3kioJSWAKxWp0eTM3vW8G8iksrFo7wnp0UVmgBdvLudJJoO7lv6u0wxIV8YjKdkbXzLSA0wGJEDb-BPAc5DceZUsIKS&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -742,13 +725,22 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-hiJqo6EOv8Q7kNvwEiA1fI&_nc_oc=Ado6ZLJyWsSbdBv4Y6MbGDmzHT2WWu4mcQNzwXaXdqjOGTpRCE4XE3Wvd3LVkIw7STE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=yAhkePBB6vg06TJ5-SNXUw&_nc_ss=7f289&oh=00_AQLHTQPtuwFvF0wVoAdPrm758bPFJtsHZrA3IhUR_t3TsQ&oe=6AB362BD",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2834380410295936/?__cft__[0]=AZjMSuqTSKVO3A-NpBDImwGT3xzJc1zXqRcn6R0t_n-u2k5zNInSLnsQNzivUu_uk6lOFeMhTksj-yFMYlye8JOm9-1hx4SfUXtW86yWvCOg_-5Uye7Q0mzMUXo1NDGm-GAug_BGAC4UkwoHW6c9IFGmVVpv0gOtgr705fV-CfQ50iN6aRAIJDE1QMtw7-neMRNY&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "VECINOS DE LA ZONA SANTA CRUZ SUR DESTACAN CAMBIO ROTUNDO EN SU PLAZA TRAS MÁS DE 5 AÑOS DE ABANDONO ‎… Ver más VECINOS DE LA ZONA SANTA CRUZ SUR DESTACAN CAMBIO ROTUNDO EN SU PLAZA TRAS MÁS DE 5 AÑOS DE ABANDONO ‎… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_cobija",
@@ -884,7 +876,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1014,22 +1006,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1ZaxvL4OdKgQ7kNvwFo-bE3&_nc_oc=Adrxh6H4w-ZdEr5M77B8aJF4cxjtvMEMRvTnvvUavDWRQ8LAL83cStrcRI6cJ7nTr5Y&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-q6aa62UoVtByln77Fwqyg&_nc_ss=7f289&oh=00_AQJO-4mlZL11zrxxNo0Z2Nrcd68tulqN2NxFDyqbccjzVg&oe=6AB335B4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02VqQdHP3CN5aYDJBxmzoQjyZn1ciU3FnetQ5KNJy6gdcSMb44NF24snPq6LJrejAJl?__cft__[0]=AZjd_i-Vqd86zg2XG1rzcIWv94LqIMx7y8TqlFCGH5GM8CUQNKNTtlY_mSu2kFlJhXU6OXibJ_fMudK0pK8YkJKJdLBGQsaSmwGpg8kNrABeW9MBG_f9Wj-wlB4S786MaKXcytQDwoMKX1oSm9tFa1CCNC3AowVx4ZS2_X4q1J5GCa1X-rzR2R9KU0I&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Cultura | 𝗥𝗨𝗧𝗔 𝗗𝗘 𝗟𝗢𝗦 𝗣𝗔𝗟𝗔𝗖𝗜𝗢𝗦 Este 𝟮𝟲 𝘆 𝟮𝟳 𝗱𝗲 𝘀… Ver más #Cultura | 𝗥𝗨𝗧𝗔 𝗗𝗘 𝗟𝗢𝗦 𝗣𝗔𝗟𝗔𝗖𝗜𝗢𝗦 Este 𝟮𝟲 𝘆 𝟮𝟳 𝗱𝗲 𝘀… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1159,13 +1142,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eKy18tX8xt4Q7kNvwGEY4yv&_nc_oc=Adr__OlRHgf8d7YIoqQlc2Vn2fsX3rv9j4SIuWzS7CbDUrs9LSV404j6RMCHsi3oL1k&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=ZFWn5U4xijEHIUlCRKnj2Q&_nc_ss=7f289&oh=00_AQK1Y1JPs2frPEwDDqY0SuVfEipY59XDL7o1437B341PAQ&oe=6AB37AA5",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://es-la.facebook.com/login",
+          "has_image": true,
+          "text_preview": "¡Conoce la ruta oficial de nuestra #EntradaFolklóricaUniversitaria 2026!… Ver más Publiquen también el orden de ingreso de las fraternidades de las carreras Rol Rolugme"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid02NFQAXba887V1iC6U4M3SZjFnL6U1sARoNCUVpksX6mH1J33GQDnxNLfE4f68JfdRl?comment_id=1128608879734247&__cft__[0]=AZiMzVDW_ZBUAOIJyTSYU1g52UFudCSWOWW6x0NNRgvrZ_hc5qOoE-Frws9M6KKfUqxW1bjZQ0-MA6lUQn23_TwH6yc8w4a9kX7ZcUbvQcIcGfRhPjwhI1_3KTQXBy4ihKpCREYTUj0igFLyA2LSOYCvTRgIlMUTEhhp85MrNyuq7b3_Epl6L9fDpdY&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Publiquen también el orden de ingreso de las fraternidades de las carreras Rol Rolugme"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1176,22 +1176,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/791477565_1093784559902436_1122510819657018021_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xkyW8fmPn7YQ7kNvwGM6cK7&_nc_oc=AdqhzwivXSD5qkqRhpoSPDr2W0-tgMH8lfHArRxGiL-11vR-cDTi4MjfkpRSHlS90os&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=iZcbRjlW9cpM17c267-RWA&_nc_ss=7f289&oh=00_AQLBJwjJKDFoNe5OqWvgyjMV0Yk9LeLF--tBuc_qYBl0zQ&oe=6AB35054",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "festival",
-          "url": "https://www.facebook.com/OficialUAGRM/videos/festival-de-la-integraci%C3%B3n-y-talento-industrial/1625745482380554/",
-          "has_image": true,
-          "text_preview": "Festival de la Integración y Talento Industrial Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umss",
@@ -1219,13 +1210,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HlAsc8dsKGcQ7kNvwEvG6GB&_nc_oc=AdqntIng3j3tz6FbqhhdJ3I-Z2EMNcJdsSm3hjI49VKHDUujP7RVn8-uI9dNXdRRCnU&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=EQMAFMl9x6pDKe8e3dYQFQ&_nc_ss=7f289&oh=00_AQJAug3Y34M7NbFXjInQve8Z7_kZBuezKp0Qj9F3nzeV3Q&oe=6AB392F2",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_upsa",
@@ -1419,11 +1410,11 @@
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "17/09/2026 Interesante Seis rincones de la casa que se pueden ordenar en menos de diez minutos La acumulación de objetos en los espacios de uso diario suele transformar la limpieza del hogar en una tarea extensa. Revisiones breves y frecuentes en la... vista 16/09/2026 Medio Ambiente Un estudio estima que la Tierra podría superar los 2 °C sobre la era preindustrial Un estudio experimental estima q"
+          "text_preview": "18/09/2026 Medio Ambiente El tilcayo: Un nuevo felino para el mundo desde Bolivia El tilcayo (Leopardus tilcayo) es una nueva especie de felino salvaje descubierta y descrita científicamente en septiembre de 2026. vista 17/09/2026 Interesante Seis rincones de la casa que se pueden ordenar en menos de diez minutos La acumulación de objetos en los espacios de uso diario suele transformar la limpieza"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 24,
+          "score": 38,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1595,8 +1586,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 41,
-      "events": 41,
+      "raw_items": 40,
+      "events": 40,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1706,8 +1697,8 @@
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
       "raw_items": 7,
-      "events": 0,
-      "rejected": 7,
+      "events": 1,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
