@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:25:48-04:00",
+  "generated_at": "2026-09-18T00:46:12-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_eventos_bolivia",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -15,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 89.2,
-    "horas_maximo_sin_datos": 686.3
+    "horas_promedio_sin_datos": 93.0,
+    "horas_maximo_sin_datos": 693.6
   },
   "sources": [
     {
@@ -63,12 +64,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Eventos Bolivia 427 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
     },
     {
       "id": "fb_festivales_eventos",
@@ -79,22 +80,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hgZ5u60fxLoQ7kNvwE08uNH&_nc_oc=AdrDeYxDkMJiHpJif1RR6SxNTG1we1hEwLvj7y7-MwoAP-m0GGOhyzai0CamTKnJZto&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=XEui0Zumq4JRLNZJ0ftR3g&_nc_ss=7f289&oh=00_AQJTVtIGhkh-rXHjcCRKBa98mdZR_6dSr-7MIdH8NRDz4w&oe=6AB23303",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028Zsy51fgb2vG4bgpp3qg8xh9bzZ2q3GZ3GyjWMAZFqFyG4htaa3ar8hSp2JM6hWsl?__cft__[0]=AZgFa-uk8vfjOzz0qrmF2DYvMydWfcIeGM0vTrSvikVuKyq1cflZCBVDNBTDhq3gt9BDArbgazuowFJBqsA94HpSLrveaEJdsYeoBq-uFhguP1pWPt6-kXSAHITcACQdT-ajw2gDH_16aitIzh7DhfcL21A2Ya1lZrFyV0Lguy6-7RjkRod2yd-haJ0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -156,13 +148,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NhhgpWUt3XEQ7kNvwE3dswQ&_nc_oc=AdrZQLuhMXzT-g5grepbzUifUm5s9FD1nD9H3YryotUb-nkiWK_VS_v4T-VHVtKoljY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=wTST46gz4yFEMxZRWR_y6A&_nc_ss=7f289&oh=00_AQJZ1qqbo2x5xoOp1gFM3u3snic7ezuwdVhdETyWdKFFiA&oe=6AB29177",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/alcald%C3%ADa-implementa-un-centro-de-monitoreo-para-el-control-de-la-entrada-univers/1524739759673595/",
+          "has_image": true,
+          "text_preview": "Alcaldía implementa un centro de monitoreo para el control de la Entrada Universitaria en tiempo real Más información en→... Alcaldía implementa un centro de monitoreo para el control de la Entrada Universitaria en tiempo real Más información en→ https://amun.lapaz.bo/alcaldia-implementa-un-centro-de.../ Alcaldía implementa un centro de monitoreo para el control de la Entrada Universitaria en tiem"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0xpiXcyGtSERVPFZCVA1A3k62hfmY8oHZKHcF6ekw7iV81Ky3R8pd1BMtuDzcWGFrl?comment_id=3241228532934437&__cft__[0]=AZiE6mTjirAl4b3vNsUg6vSU73A6q85ClEgjYEXsYxrWJFZVI6S9h1bJUE8_my_pAxAK0mS99I2cCkpCHeXLoyTcVZhhkuTYzTr6CNQv3djjddP6lCoUumDkM_FwPl8dBOHl07iyppDtEtMt5rFakeCUSTuNZ1C9CfAgAAn6_h9mKeNg10O5c5hgsb8&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Jajajjajaj la alcaldía gasta el dinero de los ciudadanos como le da la gana Ron Rhon"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -547,13 +556,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KvCMz20HeGoQ7kNvwHPAykP&_nc_oc=AdpOCwrCmqG5nBbpgTWXjtNsY0c7mX9HdPqefSXzMugTdZrUazONMpsahWxuFBQcMMo&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=IsBlQSVm3DkP1sW6uQfb-g&_nc_ss=7f289&oh=00_AQJL8mPaacPMXx7VR3saApSdjtUA03G0MJXfRf-PDp58HA&oe=6AB29033",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/videos/fcbcb-presentaci%C3%B3n-piedra-de-aguala-fc-bcb-tiene-el-agrado-de-invitar-a-la-prese/1402305938674240/",
+          "has_image": true,
+          "text_preview": "#FCBCB | Presentación Piedra de Agua La FC-BCB tiene el agrado de invitar a la presentación del N.° 39 de la revista Piedra de agua, número dedicado a la “Memoria sonora de los siglos XVII–XXI en... #FCBCB | Presentación Piedra de Agua La FC-BCB tiene el agrado de invitar a la presentación del N.° 39 de la revista Piedra de agua, número dedicado a..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -564,13 +582,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IPGf_ODj9bYQ7kNvwEZdui8&_nc_oc=AdoAi4JJUCG5-Y-ppf_jm52uES-AK5DdMkv34NQ_Nv_HqFaG8LV7pjGKQVZHOsG96wA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=w8H8k6BupGcYyV9UxKK9qQ&_nc_ss=7f289&oh=00_AQKLhyYFo6glDuFnvbnpXKJJ_PLe0XBJ6Si1uH_-NB8mYQ&oe=6AB237B3",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -876,7 +894,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1074,22 +1092,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LQGzAtqP7SwQ7kNvwHkmUnH&_nc_oc=AdotQ0EkroJF6jSAhYSV-l2OCCoWpetZdvhAgYfxZdB7LM7eUQiaziStsIvF5-9dTK4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=8mivvEqh8nmhuHklbvbiAQ&_nc_ss=7f289&oh=00_AQIngj9hqbPdZt-dO_NXkc1my7wpE-Aq3JFuJ3Nx4xPAWA&oe=6AB2216F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid033r65UU1RtsvHyHhvD7AyQGrqgH8FYABgp7FsFNYepZKJ7P52CqZ6raLCZDtFCbMkl?__cft__[0]=AZjHYSULsdqRLuS8BXhOUMhQExL8kyPebyixUbHeIweBuPhvRQwsKoWE_14C9uyZ2LFXV-xfSJAwePhB3jJ6EC4VJfYmZ5DVuJpTbsjNuMhGFaYvF7tulRjCB7lf-f2yr1ACUlnPp4cImBHUPk2c9VPYZXl99yETZe2iu_lPgE_-tCzumVe-s1x3M8I&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CCP| ¡El arte también llega a las aulas!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1238,8 +1247,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 5,
-      "events": 4,
+      "raw_items": 3,
+      "events": 2,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1398,7 +1407,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
+          "score": 20,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1410,7 +1419,7 @@
           "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Seis rincones de la casa que se pueden ordenar en menos de diez minutos Ver"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Dictan seis meses en El Abra para tres implicados en el robo a joyería Impe"
         }
       ],
       "error": null
@@ -1476,23 +1485,23 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/7dfafafb-797b-40ab-9398-402be14237bb",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/d32e4bcc-c03f-4a8d-878d-45fd7cc3efe7",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/583b18d3-7623-4286-9d18-2e6bf7a89d36",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/39dd3e77-e97d-4b2b-a81f-259d48ed1484",
           "has_image": true,
           "text_preview": ""
         }
@@ -1510,8 +1519,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 35,
-      "events": 35,
+      "raw_items": 36,
+      "events": 36,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1544,8 +1553,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1578,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
-      "events": 39,
+      "raw_items": 41,
+      "events": 41,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
