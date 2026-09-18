@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:57:12-04:00",
+  "generated_at": "2026-09-18T19:20:45-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 94.1,
-    "horas_maximo_sin_datos": 709.8
+    "horas_promedio_sin_datos": 92.4,
+    "horas_maximo_sin_datos": 712.2
   },
   "sources": [
     {
@@ -28,13 +28,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=o9fNqLMXN6kQ7kNvwEdVeHe&_nc_oc=AdoUdYDEN6SJSWScJ77IGpoRYK3Fdx6IGwuS_KZ-Mf0pgTBuE5NqU1Yb3CzsjTDzNhg&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=ALbgplHrmr5yTsiPfLxenQ&_nc_ss=7f289&oh=00_AQLi_dCUOsbDaIly9ZZycLbPNrP-G4SOxL1nPUN83ZnaEQ&oe=6AB38A5A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 54,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02W81Q2x7qdmr4kMpW5fDUu9vhBsKTgkthCfVDf4FceAmJKVmJ4W6FJRY993cPVb3Rl?__cft__[0]=AZj0scF3k4XGOy5bu6Xpu17MdYnL5QaOmSIOOm8YoOVzhgoKJoCZ311rkpDq7UsOzrG8015H7GUEOhukXoDS8PGpvj9FbB2tlbUuzhx2efASs18OxvhBkPePAzlATo-JhUK1UHMTN4Fx2AuM7ZQuNk36jdGDh6KsTS93CYb9984BPtC41_FWLl-UXd0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡HOY LA HISTORIA VUELVE AL ESCENARIO! H… Ver más ¡HOY LA HISTORIA VUELVE AL ESCENARIO! H… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -725,22 +734,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-hiJqo6EOv8Q7kNvwEiA1fI&_nc_oc=Ado6ZLJyWsSbdBv4Y6MbGDmzHT2WWu4mcQNzwXaXdqjOGTpRCE4XE3Wvd3LVkIw7STE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=yAhkePBB6vg06TJ5-SNXUw&_nc_ss=7f289&oh=00_AQLHTQPtuwFvF0wVoAdPrm758bPFJtsHZrA3IhUR_t3TsQ&oe=6AB362BD",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2834380410295936/?__cft__[0]=AZjMSuqTSKVO3A-NpBDImwGT3xzJc1zXqRcn6R0t_n-u2k5zNInSLnsQNzivUu_uk6lOFeMhTksj-yFMYlye8JOm9-1hx4SfUXtW86yWvCOg_-5Uye7Q0mzMUXo1NDGm-GAug_BGAC4UkwoHW6c9IFGmVVpv0gOtgr705fV-CfQ50iN6aRAIJDE1QMtw7-neMRNY&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "VECINOS DE LA ZONA SANTA CRUZ SUR DESTACAN CAMBIO ROTUNDO EN SU PLAZA TRAS MÁS DE 5 AÑOS DE ABANDONO ‎… Ver más VECINOS DE LA ZONA SANTA CRUZ SUR DESTACAN CAMBIO ROTUNDO EN SU PLAZA TRAS MÁS DE 5 AÑOS DE ABANDONO ‎… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_cobija",
@@ -876,7 +876,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -887,13 +887,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=F91ZZJ7qoKIQ7kNvwECg53P&_nc_oc=Ado_GS1zE6JFtfJh6prmutzb39szO9_Dfuka7y9P4gDMt6tXKI3oS0SazNICsjWk6MQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_ompU7JwnoITi_ASeXeOyA&_nc_ss=7f289&oh=00_AQJ6eLwWfEprUNPDd2u8_MGUMdoWomyDtj45qsdKwxBe0A&oe=6AB3ACE7",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02rHksFj5sQBx7BymZryeGMYtMCLfxynVAybhphsWTgm4bwwqn4kB58UiBZC3yUzTPl?__cft__[0]=AZj5HVF6x1f1aP9BMrmhukNwP-BkVWi87H6FR1y9QS-_Ds4d0SxwYoGkVHA17w8fnumNuckkF2ko7P6CxX5vozgi1O8tZ-Z6k9MsOOJz2l5G6_pTq79qK_i3Q9vXuhC8UdVGzowoFlDsBuSlhlUQ4DWjtQyehnx-VhcTB0PcQ7uCyx_Glqo0EGkSdsY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Cultura | Hay historias que encuentran en las palabras y las ilustraciones una forma especial de llegar a nosotros.… Ver más Es un hermoso libro!!! Nadia Jael Ramirez Pareja"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02rHksFj5sQBx7BymZryeGMYtMCLfxynVAybhphsWTgm4bwwqn4kB58UiBZC3yUzTPl?comment_id=1388991179459073&__cft__[0]=AZj5HVF6x1f1aP9BMrmhukNwP-BkVWi87H6FR1y9QS-_Ds4d0SxwYoGkVHA17w8fnumNuckkF2ko7P6CxX5vozgi1O8tZ-Z6k9MsOOJz2l5G6_pTq79qK_i3Q9vXuhC8UdVGzowoFlDsBuSlhlUQ4DWjtQyehnx-VhcTB0PcQ7uCyx_Glqo0EGkSdsY&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Es un hermoso libro!!! Nadia Jael Ramirez Pareja"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1023,13 +1040,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IaINOWU4LtoQ7kNvwGGqoJC&_nc_oc=AdpQmXLIfziXoCQmsQaV4sgl-jJ-e7dTu0SXP2OZUe0QCXOuoen1z8_ytiDt-c9e8e8&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=ZiZ8DX8qcxkQDlUuHvC8Jw&_nc_ss=7f289&oh=00_AQJo4sadNl84Zmiei6p2Eue9FwpIV3EOnuEBrh_47Dc62g&oe=6AB3AF8F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid032FUjj5GkKPxEhHX5sBuwj9ytUb2QvUHjBEJSeWRxCpzGUXMR7tSBf11Y7TNVmSt7l?__cft__[0]=AZgUvRYozysjFo72MIen_rAN6Z4_7o81Bn4VbMx24UComeyizdIo6VQA77jjEA2A-p6s-4pwus4_gdT_Wtx05YIFCyFgmA6gVpQxAOSs_JW1UOutx4Esf00ExY6DwVfzsSah57dxAxXT6Qjjin_EhBv5rJMVJm0Jyl60IR1_x8aKqdnDKYcToQEKyYE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Convocatoria abierta 2027 para el Fondo de Coproducción Internacional … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1142,30 +1168,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eKy18tX8xt4Q7kNvwGEY4yv&_nc_oc=Adr__OlRHgf8d7YIoqQlc2Vn2fsX3rv9j4SIuWzS7CbDUrs9LSV404j6RMCHsi3oL1k&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=ZFWn5U4xijEHIUlCRKnj2Q&_nc_ss=7f289&oh=00_AQK1Y1JPs2frPEwDDqY0SuVfEipY59XDL7o1437B341PAQ&oe=6AB37AA5",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": true,
-          "text_preview": "¡Conoce la ruta oficial de nuestra #EntradaFolklóricaUniversitaria 2026!… Ver más Publiquen también el orden de ingreso de las fraternidades de las carreras Rol Rolugme"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid02NFQAXba887V1iC6U4M3SZjFnL6U1sARoNCUVpksX6mH1J33GQDnxNLfE4f68JfdRl?comment_id=1128608879734247&__cft__[0]=AZiMzVDW_ZBUAOIJyTSYU1g52UFudCSWOWW6x0NNRgvrZ_hc5qOoE-Frws9M6KKfUqxW1bjZQ0-MA6lUQn23_TwH6yc8w4a9kX7ZcUbvQcIcGfRhPjwhI1_3KTQXBy4ihKpCREYTUj0igFLyA2LSOYCvTRgIlMUTEhhp85MrNyuq7b3_Epl6L9fDpdY&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Publiquen también el orden de ingreso de las fraternidades de las carreras Rol Rolugme"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1210,13 +1219,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HlAsc8dsKGcQ7kNvwEvG6GB&_nc_oc=AdqntIng3j3tz6FbqhhdJ3I-Z2EMNcJdsSm3hjI49VKHDUujP7RVn8-uI9dNXdRRCnU&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=EQMAFMl9x6pDKe8e3dYQFQ&_nc_ss=7f289&oh=00_AQJAug3Y34M7NbFXjInQve8Z7_kZBuezKp0Qj9F3nzeV3Q&oe=6AB392F2",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_upsa",
@@ -1586,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
-      "events": 40,
+      "raw_items": 38,
+      "events": 38,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
