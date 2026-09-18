@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T07:16:09-04:00",
+  "generated_at": "2026-09-18T12:27:25-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,6 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_eventos_bolivia",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -16,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 95.8,
-    "horas_maximo_sin_datos": 700.1
+    "horas_promedio_sin_datos": 96.2,
+    "horas_maximo_sin_datos": 705.3
   },
   "sources": [
     {
@@ -63,13 +62,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=slcge80wpMYQ7kNvwHjkMlu&_nc_oc=AdpO70oCIMV0EOypf-CGivMi2CLICko3ubC9PWGgcmRaWi1V9C22Pyj9HhLunwdSd68&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=2832mqDW44dJ2EJ58saqkA&_nc_ss=7f289&oh=00_AQLc_IY1KHz0fPiq17NjKpRKfwnZ1_4jnQN9aUX1o0Q-fA&oe=6AB33376",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Eventos Bolivia 427 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZjP5Fxfj11w9JBCia9aUquqo7v5UCiPN2QHrEfrjMTHI_P9VK6EIHgcApiQzYZyplZDcg5YsbLO2b0Ih34IUEpw5sQzdn8c4YSZi3KlE3kioJSWAKxWp0eTM3vW8G8iksrFo7wnp0UVmgBdvLudJJoO7lv6u0wxIV8YjKdkbXzLSA0wGJEDb-BPAc5DceZUsIKS&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZjP5Fxfj11w9JBCia9aUquqo7v5UCiPN2QHrEfrjMTHI_P9VK6EIHgcApiQzYZyplZDcg5YsbLO2b0Ih34IUEpw5sQzdn8c4YSZi3KlE3kioJSWAKxWp0eTM3vW8G8iksrFo7wnp0UVmgBdvLudJJoO7lv6u0wxIV8YjKdkbXzLSA0wGJEDb-BPAc5DceZUsIKS&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -692,30 +708,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/734210525_1484423200397079_336268521338765554_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PIeCLC3f4uoQ7kNvwFt8on2&_nc_oc=Adp3Gvdx8-HpFDDSchca2kEpljGNWtCIzVowuOMAbKBuec4h13UZSyArcNQxwvNLPf4&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=jusa60UINjYSME8k1ul6uQ&_nc_ss=7f289&oh=00_AQKua1R2sWaDHsHJJy2cGBYTnZVI61a3ku61eVD328WjUA&oe=6AB30529",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "infantil",
-          "url": "https://www.facebook.com/reel/2802657060130515/?__cft__[0]=AZgEa6NSp0yXq40D6ZUu2IGhG6AZRT0spxvhhNtCbWlAS3qxQnBwzbwZ6S7Z4VJmxpbUFijUElNACfzbIp2BHqbPEVjtKfIlSdN9QS3NT4_m6bYz_EyKXw0p73d4JEWND9-Omm43d1Z21XfSjHPzUjt0l5zC3jJvkaWW51PQRUZSGfq3FFqRV_pzTvyuoM0UxAA3&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Estamos convencidos que la educación es el pilar fundamental de nuestra sociedad y que, si queremos construir una Tarija más segura y responsable con el medio ambiente,… Ver más Debería tener otro objetivo, como apoyar a niños y niñas con dificultades en el aprendizaje en fin un gabinete psicopedagógico favorecería más. Tenemos problemas para reproducir este video. Más información Ver más comentar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "infantil",
-          "url": "https://www.facebook.com/reel/2802657060130515/?comment_id=1654112296228345&__cft__[0]=AZgEa6NSp0yXq40D6ZUu2IGhG6AZRT0spxvhhNtCbWlAS3qxQnBwzbwZ6S7Z4VJmxpbUFijUElNACfzbIp2BHqbPEVjtKfIlSdN9QS3NT4_m6bYz_EyKXw0p73d4JEWND9-Omm43d1Z21XfSjHPzUjt0l5zC3jJvkaWW51PQRUZSGfq3FFqRV_pzTvyuoM0UxAA3&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Debería tener otro objetivo, como apoyar a niños y niñas con dificultades en el aprendizaje en fin un gabinete psicopedagógico favorecería más. Janneth Vargas Mamani"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -862,22 +861,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/813698147_1519614733532379_8355299754556268651_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1440&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LlUMLVTB_eoQ7kNvwFFzzD7&_nc_oc=Adr2optXqgatP67Gni99NEUuWfjblwBaC3LoLGD06T-wgHyXOUyGLK6R4SGGnYXO_5w&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=yZIvU4e9vWImv6RLJzyuMw&_nc_ss=7f289&oh=00_AQJuZB-xVszCG1GWz6VALTKRRykL5z2Tj4r1I5S4vo9s5Q&oe=6AB2DF9C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/feriafipaz/posts/pfbid0tKhr9q6dUNMfJrYWzxqVa3jRx14yyjo8YZoF1Y79d8UmhgfqaZg4MdYCwtrJxaunl?__cft__[0]=AZh8e5nwLCCPYIOGtL49CZXZAEYecIPwcYWnkm5eJlWxt-gZK2_qWuZq6-Jfem-gxxqNtZ-qJrHew03uK6CnsASagNUjAmi4zf0qq8tfi4lqck5gHPpsWfdV8azdqWRKT_OEIOp2svf0HcFzh-tcYYguEzl2zynywTaANhY1FtLFNANkMSY85hE2huA&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Oportunidad Laboral II – 2026 | Buscamos incorporar a nuestro equipo de trabajo; nuevos talentos para nuestro Departamento Legal en la ciudad de La Paz; profesionales c… Ver más Informes Luismi Rey"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -1024,13 +1014,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1ZaxvL4OdKgQ7kNvwFo-bE3&_nc_oc=Adrxh6H4w-ZdEr5M77B8aJF4cxjtvMEMRvTnvvUavDWRQ8LAL83cStrcRI6cJ7nTr5Y&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=-q6aa62UoVtByln77Fwqyg&_nc_ss=7f289&oh=00_AQJO-4mlZL11zrxxNo0Z2Nrcd68tulqN2NxFDyqbccjzVg&oe=6AB335B4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02VqQdHP3CN5aYDJBxmzoQjyZn1ciU3FnetQ5KNJy6gdcSMb44NF24snPq6LJrejAJl?__cft__[0]=AZjd_i-Vqd86zg2XG1rzcIWv94LqIMx7y8TqlFCGH5GM8CUQNKNTtlY_mSu2kFlJhXU6OXibJ_fMudK0pK8YkJKJdLBGQsaSmwGpg8kNrABeW9MBG_f9Wj-wlB4S786MaKXcytQDwoMKX1oSm9tFa1CCNC3AowVx4ZS2_X4q1J5GCa1X-rzR2R9KU0I&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Cultura | 𝗥𝗨𝗧𝗔 𝗗𝗘 𝗟𝗢𝗦 𝗣𝗔𝗟𝗔𝗖𝗜𝗢𝗦 Este 𝟮𝟲 𝘆 𝟮𝟳 𝗱𝗲 𝘀… Ver más #Cultura | 𝗥𝗨𝗧𝗔 𝗗𝗘 𝗟𝗢𝗦 𝗣𝗔𝗟𝗔𝗖𝗜𝗢𝗦 Este 𝟮𝟲 𝘆 𝟮𝟳 𝗱𝗲 𝘀… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1177,13 +1176,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/791477565_1093784559902436_1122510819657018021_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xkyW8fmPn7YQ7kNvwGM6cK7&_nc_oc=AdqhzwivXSD5qkqRhpoSPDr2W0-tgMH8lfHArRxGiL-11vR-cDTi4MjfkpRSHlS90os&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=iZcbRjlW9cpM17c267-RWA&_nc_ss=7f289&oh=00_AQLBJwjJKDFoNe5OqWvgyjMV0Yk9LeLF--tBuc_qYBl0zQ&oe=6AB35054",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "festival",
+          "url": "https://www.facebook.com/OficialUAGRM/videos/festival-de-la-integraci%C3%B3n-y-talento-industrial/1625745482380554/",
+          "has_image": true,
+          "text_preview": "Festival de la Integración y Talento Industrial Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umss",
@@ -1247,8 +1255,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 3,
-      "events": 2,
+      "raw_items": 4,
+      "events": 3,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1408,18 +1416,18 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 0,
-          "category": "cine",
+          "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "17/09/2026 Interesante Seis rincones de la casa que se pueden ordenar en menos de diez minutos La acumulación de objetos en los espacios de uso diario suele transformar la limpieza del hogar en una tarea extensa. Revisiones breves y frecuentes en la... vista 16/09/2026 Medio Ambiente Un estudio estima que la Tierra podría superar los 2 °C sobre la era preindustrial Un estudio experimental estima q"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
+          "score": 24,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "17/09/2026 Cultura Seis compañías animan la segunda versión de Teatro Sur Seis elencos internacionales animarán el II Festival Internacional “Teatro Sur” que se desarrollará del 22 al 26 de septiembre en diferentes espacios de las... vista 16/09/2026 Cultura Más de 200 cineastas firman carta de solidaridad con los directores de Naza Más de 200 cineastas israelíes han firmado una carta en solidarid"
+          "text_preview": "18/09/2026 Cultura ONU Mujeres lleva a historietas la vida de bolivianas que rompieron estereotipos Una pilota frente a los controles de una aeronave, una soldadora entre herramientas y chispas, una bombera voluntaria, una corredora de montaña de... vista 17/09/2026 Cultura Seis compañías animan la segunda versión de Teatro Sur Seis elencos internacionales animarán el II Festival Internacional “Te"
         }
       ],
       "error": null
@@ -1739,14 +1747,14 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 4,
-      "events": 2,
+      "raw_items": 3,
+      "events": 1,
       "rejected": 2,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 10,
-          "category": "concierto",
+          "score": 18,
+          "category": "conferencia",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "pago qr bus Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para esta nueva gestión: Res"
