@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T00:40:34-04:00",
+  "generated_at": "2026-09-19T07:01:10-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alcaldia_el_alto",
       "fb_feicobol",
       "fb_gam_cbba",
+      "fb_gamscs",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 94.2,
-    "horas_maximo_sin_datos": 717.5
+    "horas_promedio_sin_datos": 95.4,
+    "horas_maximo_sin_datos": 723.8
   },
   "sources": [
     {
@@ -165,13 +165,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vK3qBGrovD0Q7kNvwGF2ECI&_nc_oc=AdoNghVFv8LMWt3P9Eq8pkdbYx3pN377zZDjQTRXkrUhIr0mQXtemXgybOQG7qZ3cZc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=wnZTMaC-hydLcJfB61-6tQ&_nc_ss=7f289&oh=00_AQJBIIm8hKg6UZyUvtl4VV9LjZExyPND4KN0lamO-lPXwQ&oe=6AB43980",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de El Alto 218 mil seguidores • 37 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pu'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02Ex6ueXVsSU4LFoj3hDZER1qszi8MqSAK9mtkRWUJRKXrooU1SvQdNgZuWUzGdHi8l?__cft__[0]=AZixFXclSWiiNZyGz3HsNnxT2vTH8yA0MDBjl69NPfmaCRW7XDDSNRhwF3RQyt5ZV_ncK4X9YkENDGncaShCic9Dz82IGw0GZSJNdEPQ3wzfY94L0nOWbofEsdQT7K7WxXPc0kBaVpwrWBgGDvZnx-Q_URQJhGOifE3OE_ahlQAwqDiUAWaNDPOv70E&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Distrito 8 proyecta acciones coordinadas de control de bares y cantinas próximos a unidades educativas… Ver más Sigan trabajando Carolina H. Lopez"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02Ex6ueXVsSU4LFoj3hDZER1qszi8MqSAK9mtkRWUJRKXrooU1SvQdNgZuWUzGdHi8l?comment_id=947549081126325&__cft__[0]=AZixFXclSWiiNZyGz3HsNnxT2vTH8yA0MDBjl69NPfmaCRW7XDDSNRhwF3RQyt5ZV_ncK4X9YkENDGncaShCic9Dz82IGw0GZSJNdEPQ3wzfY94L0nOWbofEsdQT7K7WxXPc0kBaVpwrWBgGDvZnx-Q_URQJhGOifE3OE_ahlQAwqDiUAWaNDPOv70E&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Carolina H. Lopez Sigan trabajando 7 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -216,13 +233,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=F1bHsKJQzPIQ7kNvwHtsUXc&_nc_oc=AdqhlXdUXROHzBrJPJFZyXCtMi7VbHB6oBRqdTOSk2Y78-mrc1763_xps-9pJbXpNB0&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=HrOSMxROwAfFZ5n_SwYJvw&_nc_ss=7f289&oh=00_AQJ--Accld800gN8ysoE_ilNO751aqD4QMyi_x0ubNa6sA&oe=6AB45857",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/videos/1532631445301174/?__cft__[0]=AZhiPmBpy5gEncMQBohYpHJTLx9GvADoUX58ZSFzGYX72dtYFEzaTYpl_34O1CUAOV8iRllbOLr6jGP6xy9lUmT_ypeNqJTbcuf7U49jjhFBXaEZw8oZGJD6hx2OfTg7o1njlBODF3ptnnZN-6sm_A_3wGOVjNdpNi7E7Mtnv6btaMCrAycaHkPJnbJkM1QLV3M&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Despedida a nuestras raquetistas cochabambinas, que se van al sudamericano. Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gamscs",
@@ -234,12 +260,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gob_scz",
@@ -947,13 +973,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-1SqfVZfd8YQ7kNvwEj8rqt&_nc_oc=AdpzKm0Qk7doHRIiFwXE5rm2Hz8i5HAAlCApIFFNyr6CEOX_YoSz33rZtQ6oHC8hLnE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=z17ZDouQzo_XBXgBd3Od3g&_nc_ss=7f289&oh=00_AQJM0npshhYFQHpUqOCjncl_njNekJvHPAsiqWGlrtSu3g&oe=6AB3E517",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1168,22 +1194,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/802121447_1509917531172107_3755553418203842592_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7IFSeOL-M_IQ7kNvwEdzP8M&_nc_oc=AdoMlTz8hIfUQpvoJymZifI36gbzV3Pszgr5ZVSu9ORMV8JP0dtD8qgJFsJZKIeWC94&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=5jJTajJ6hRYMN6lHsLd0LQ&_nc_ss=7f289&oh=00_AQJMDb5EfH38BB20FY3rgyxYKBzCK47ELAD78lfQQda4yw&oe=6AB3D15C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid029uXaF7HSfERSFMHdkFKrscDZxGiGVvkWEH45SBZCQ2VZvQPXT7m6i95BxHEywzBNl?__cft__[0]=AZiKzeU87C0PhwT1FpM1geqk0wkwCCfaMQtBwhXQ2yrNi0mX24zox6rt1h1sxrjAd6J9lx0prAVa61h-DUiUesc6NBLsTpKqlwVmFMZRX-qG_ITq-mEV2KveR3xOn35AVgl6dT3zwN8S0CzZj_SAIsUWKhDnSWfn_LCpRYoc5GuEHnlwl05rVx6xOjc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "❞𝐄𝐥 𝐅𝐚𝐫𝐨 𝐝𝐞 𝐥𝐚 𝐒𝐚𝐥𝐮𝐝❞: 𝐮𝐧 𝐞𝐬𝐩𝐚𝐜𝐢𝐨 𝐩𝐚𝐫𝐚 𝐩𝐫𝐞𝐯𝐞𝐧𝐢𝐫, 𝐨𝐫𝐢𝐞𝐧𝐭𝐚𝐫 𝐲 𝐜𝐮𝐢𝐝𝐚𝐫 Esta mañana, el Coliseo de la Universidad Mayor de… Ver más ❞𝐄𝐥 𝐅𝐚𝐫𝐨 𝐝𝐞 𝐥𝐚 𝐒𝐚𝐥𝐮𝐝❞: 𝐮𝐧 𝐞𝐬𝐩𝐚𝐜𝐢𝐨 𝐩𝐚𝐫𝐚 𝐩𝐫𝐞𝐯𝐞𝐧𝐢𝐫, 𝐨𝐫𝐢𝐞𝐧𝐭𝐚𝐫 𝐲 𝐜𝐮𝐢𝐝𝐚𝐫 Esta mañana, el Coliseo de la Universidad Mayor de… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1377,20 +1394,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 52,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/servicios/agenda-cultural",
-          "has_image": true,
-          "text_preview": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTader"
-        },
-        {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
+          "score": 35,
           "category": "taller",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1398,11 +1407,19 @@
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 36,
+          "score": 49,
           "category": "taller",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Economía despeja dudas sobre el crédito del FMI: no subirá tarifas de servi"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 41,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1519,8 +1536,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1570,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
-      "events": 40,
+      "raw_items": 41,
+      "events": 41,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
