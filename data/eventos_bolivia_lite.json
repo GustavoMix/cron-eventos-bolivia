@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-19T16:43:36-04:00",
+  "generated_at": "2026-09-19T19:07:22-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 62,
+    "events_total": 63,
     "events_today": 16
   },
   "filters": {
@@ -55,7 +55,7 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 20
+        "count": 21
       },
       {
         "key": "feria",
@@ -137,7 +137,7 @@
       {
         "key": "Quillacollo",
         "label": "Quillacollo",
-        "count": 6
+        "count": 7
       },
       {
         "key": "Sucre",
@@ -169,7 +169,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 16
+        "count": 17
       },
       {
         "key": "La Paz",
@@ -206,17 +206,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 27
+        "count": 28
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 31
+        "count": 32
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 62
+        "count": 63
       }
     ],
     "price": [
@@ -228,7 +228,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 14
+        "count": 15
       },
       {
         "key": "por_confirmar",
@@ -240,7 +240,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 54
+        "count": 55
       },
       {
         "key": "con_video",
@@ -374,7 +374,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 19
+        "count": 20
       },
       {
         "key": "venue",
@@ -424,10 +424,10 @@
       "evt_6854b1288eeddb",
       "evt_e96248a73ac97f",
       "evt_f92bd6532ddbac",
-      "evt_2a4b803642dbf7",
       "evt_04e62fa387cd63",
       "evt_54086d62bc22ef",
-      "evt_a16e312fc8c280"
+      "evt_a16e312fc8c280",
+      "evt_2a4b803642dbf7"
     ],
     "tomorrow": [
       "evt_b241df7de02d67",
@@ -449,10 +449,10 @@
       "evt_6854b1288eeddb",
       "evt_e96248a73ac97f",
       "evt_f92bd6532ddbac",
-      "evt_2a4b803642dbf7",
       "evt_04e62fa387cd63",
       "evt_54086d62bc22ef",
       "evt_a16e312fc8c280",
+      "evt_2a4b803642dbf7",
       "evt_99e5ce9b1cdfbb"
     ],
     "free": [
@@ -473,10 +473,11 @@
       "evt_6854b1288eeddb",
       "evt_e96248a73ac97f",
       "evt_f92bd6532ddbac",
-      "evt_2a4b803642dbf7",
       "evt_04e62fa387cd63",
+      "evt_2a4b803642dbf7",
       "evt_99e5ce9b1cdfbb",
       "evt_c985524f14c90a",
+      "evt_ab43ab2b29d9ae",
       "evt_8add3d73034fb7",
       "evt_0adee17583f556",
       "evt_f4ea8de87e8c3d",
@@ -494,28 +495,28 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 32,
+      "events_total": 31,
       "events_upcoming": 13,
       "events_with_image": 12,
       "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 3
+      "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 24,
-      "events_upcoming": 16,
-      "events_with_image": 16,
+      "events_total": 23,
+      "events_upcoming": 17,
+      "events_with_image": 17,
       "events_with_video": 0,
       "sources_total": 13,
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 34,
+      "events_total": 32,
       "events_upcoming": 19,
       "events_with_image": 14,
       "events_with_video": 4,
       "sources_total": 13,
-      "sources_ok": 5
+      "sources_ok": 3
     },
     "Chuquisaca": {
       "events_total": 7,
@@ -523,7 +524,7 @@
       "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Oruro": {
       "events_total": 4,
@@ -542,7 +543,7 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 8,
+      "events_total": 7,
       "events_upcoming": 4,
       "events_with_image": 2,
       "events_with_video": 0,
@@ -569,9 +570,9 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 66,
-      "events_upcoming": 20,
-      "events_with_image": 20,
+      "events_total": 61,
+      "events_upcoming": 21,
+      "events_with_image": 21,
       "events_with_video": 0
     },
     "concierto": {
@@ -1777,114 +1778,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_2a4b803642dbf7",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-09-19T18:40:00-04:00",
-      "starts_at_ms": 1789857600000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Sábado 19 de septiembre · 18:40",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/9/resident-evil-noche-cero-47798.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "18:40",
-        "18:10",
-        "20:20",
-        "22:20",
-        "17:00",
-        "19:00",
-        "17:30",
-        "19:30",
-        "20:40",
-        "22:50",
-        "21:00",
-        "21:30",
-        "19:50",
-        "22:10",
-        "16:10",
-        "16:50",
-        "19:10",
-        "19:20",
-        "22:00",
-        "16:40",
-        "20:30",
-        "16:20",
-        "20:00",
-        "16:30",
-        "18:50",
-        "21:10",
-        "17:10",
-        "20:10",
-        "18:00"
-      ],
-      "formats": [
-        "2D - DBOX - Doblada",
-        "2D - Doblada",
-        "2D - PRE - Doblada",
-        "2D - XD - DBOX - Doblada",
-        "DBOX - 2D - Doblada",
-        "PRE - 2D - Subtitulada",
-        "XD - 2D - DBOX - Doblada",
-        "PRE - 2D - Doblada",
-        "2D - PRE - Subtitulada"
-      ],
-      "occurrences": [
-        "2026-09-19T18:40:00-04:00",
-        "2026-09-19T18:10:00-04:00",
-        "2026-09-19T20:20:00-04:00",
-        "2026-09-19T22:20:00-04:00",
-        "2026-09-19T17:00:00-04:00",
-        "2026-09-19T19:00:00-04:00",
-        "2026-09-19T17:30:00-04:00",
-        "2026-09-19T19:30:00-04:00",
-        "2026-09-19T20:40:00-04:00",
-        "2026-09-19T22:50:00-04:00",
-        "2026-09-19T21:00:00-04:00",
-        "2026-09-19T21:30:00-04:00",
-        "2026-09-19T19:50:00-04:00",
-        "2026-09-19T22:10:00-04:00",
-        "2026-09-19T16:10:00-04:00",
-        "2026-09-19T16:50:00-04:00",
-        "2026-09-19T19:10:00-04:00",
-        "2026-09-19T19:20:00-04:00",
-        "2026-09-19T22:00:00-04:00",
-        "2026-09-19T16:40:00-04:00",
-        "2026-09-19T20:30:00-04:00",
-        "2026-09-19T16:20:00-04:00",
-        "2026-09-19T20:00:00-04:00",
-        "2026-09-19T16:30:00-04:00",
-        "2026-09-19T18:50:00-04:00",
-        "2026-09-19T21:10:00-04:00",
-        "2026-09-19T17:10:00-04:00",
-        "2026-09-19T20:10:00-04:00",
-        "2026-09-19T18:00:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_04e62fa387cd63",
       "title": "16/09/2026 Cultura Más de 200 cineastas firman carta de solidaridad con los directores de Naza Más de 200 cineastas…",
       "category": "cine",
@@ -1999,6 +1892,97 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_2a4b803642dbf7",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-19T20:40:00-04:00",
+      "starts_at_ms": 1789864800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 19 de septiembre · 20:40",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/9/resident-evil-noche-cero-47798.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "20:40",
+        "18:10",
+        "20:20",
+        "22:20",
+        "19:00",
+        "19:30",
+        "18:40",
+        "22:50",
+        "21:30",
+        "21:00",
+        "19:40",
+        "22:00",
+        "19:20",
+        "19:50",
+        "22:10",
+        "19:10",
+        "20:30",
+        "20:00",
+        "18:50",
+        "21:10",
+        "20:10"
+      ],
+      "formats": [
+        "2D - DBOX - Doblada",
+        "2D - Doblada",
+        "2D - PRE - Doblada",
+        "2D - XD - DBOX - Doblada",
+        "DBOX - 2D - Doblada",
+        "DBOX - XD - 2D - Doblada",
+        "PRE - 2D - Subtitulada",
+        "PRE - 2D - Doblada"
+      ],
+      "occurrences": [
+        "2026-09-19T20:40:00-04:00",
+        "2026-09-19T18:10:00-04:00",
+        "2026-09-19T20:20:00-04:00",
+        "2026-09-19T22:20:00-04:00",
+        "2026-09-19T19:00:00-04:00",
+        "2026-09-19T19:30:00-04:00",
+        "2026-09-19T18:40:00-04:00",
+        "2026-09-19T22:50:00-04:00",
+        "2026-09-19T21:30:00-04:00",
+        "2026-09-19T21:00:00-04:00",
+        "2026-09-19T19:40:00-04:00",
+        "2026-09-19T22:00:00-04:00",
+        "2026-09-19T19:20:00-04:00",
+        "2026-09-19T19:50:00-04:00",
+        "2026-09-19T22:10:00-04:00",
+        "2026-09-19T19:10:00-04:00",
+        "2026-09-19T20:30:00-04:00",
+        "2026-09-19T20:00:00-04:00",
+        "2026-09-19T18:50:00-04:00",
+        "2026-09-19T21:10:00-04:00",
+        "2026-09-19T20:10:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_99e5ce9b1cdfbb",
       "title": "Este domingo 20 de septiembre Mike Bahía llega al escenario principal de Expocruz 2026!\n\nDesde las 19:00, nos unimos…",
       "category": "nightlife",
@@ -2053,6 +2037,44 @@
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
       "venue": "Fexpocruz",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/18/11_dc_1.jpg?itok=n77dyGLo",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 17.95,
+      "currency": "BOB",
+      "price_label": "Bs 17.95",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 69,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_ab43ab2b29d9ae",
+      "title": "18/09/2026 Cultura ONU Mujeres lleva a historietas la vida de bolivianas que rompieron estereotipos Una pilota…",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-22T19:00:00-04:00",
+      "starts_at_ms": 1790118000000,
+      "ends_at_ms": 1790481540000,
+      "multi_day": true,
+      "display_date": "Del 22 al 26 de septiembre · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 3,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": "salón Melchor Pérez",
       "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/18/11_dc_1.jpg?itok=n77dyGLo",
       "has_video": false,
       "video_thumbnail_url": null,
@@ -3655,7 +3677,7 @@
       "is_free": false,
       "price_from": 17.95,
       "currency": "BOB",
-      "price_label": "Bs 17.95",
+      "price_label": "Bs 17.95 - 300",
       "organizer": null,
       "showtimes": [],
       "formats": [],
