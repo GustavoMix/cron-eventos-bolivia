@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T11:55:44-04:00",
+  "generated_at": "2026-09-19T16:43:36-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,14 +10,13 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
-      "fb_gamscs",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 95.6,
-    "horas_maximo_sin_datos": 728.8
+    "horas_promedio_sin_datos": 91.9,
+    "horas_maximo_sin_datos": 733.6
   },
   "sources": [
     {
@@ -233,13 +232,38 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Zz6wqw-uwcMQ7kNvwFv8XLs&_nc_oc=AdofgqxsPsW3_Jd4SiFvS5VOfjBMSpDuB-QhQkK3IekotpvrsgTCi3bcIHyif694aJQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=99PPsXI73KZTo-nRGmYxlw&_nc_ss=7f289&oh=00_AQKOfLZrzEMi1xueDMWTaahzJXdL8O_5BhojX74CbFS58Q&oe=6AB4B321",
+      "status": "ok",
+      "raw_items": 3,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4684195405189136/?__cft__[0]=AZgIwEaLodutqWTzl0nZNWrm3UxcPh_-I7rWxu_7767e6OwrxF1ZvJXD0tHyLecMBqyv_V3oxJc8G5Y5FybA9QSpGOQbMZAVSJOSJRjMuS8tbV8MVJqrZIIUhWmXdFkWrwY8GAqYczEYKEulMY8V4FgcR3jczkda6Xc89fQbxLYH8-DzOj1ReQIPq1S3UuVHo1_p&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Un acuerdo que se convierte en obras para Santa Cruz.… Ver más GRACIAS SEÑOR POR TU AMOR SOMOS ELEGIDOS...TIERRA BENDITA...DONDE FLUYE LECHE Y MIEL...NADIE NOS PARA SIGAMOS ADELANTE... QUE VIVA SANTA CRUZZZZZZZZ Cira Viuda De Robles puro narcos Tenemos problemas para reproducir este video. Más información Ver más comentarios Cira Viuda De Robles GRACIAS SEÑOR POR TU AMOR SOMOS ELEGIDOS...TIERRA BE"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4684195405189136/?comment_id=1575694076859927&__cft__[0]=AZgIwEaLodutqWTzl0nZNWrm3UxcPh_-I7rWxu_7767e6OwrxF1ZvJXD0tHyLecMBqyv_V3oxJc8G5Y5FybA9QSpGOQbMZAVSJOSJRjMuS8tbV8MVJqrZIIUhWmXdFkWrwY8GAqYczEYKEulMY8V4FgcR3jczkda6Xc89fQbxLYH8-DzOj1ReQIPq1S3UuVHo1_p&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "GRACIAS SEÑOR POR TU AMOR SOMOS ELEGIDOS...TIERRA BENDITA...DONDE FLUYE LECHE Y MIEL...NADIE NOS PARA SIGAMOS ADELANTE... QUE VIVA SANTA CRUZZZZZZZZ Cira Viuda De Robles GRACIAS SEÑOR POR TU AMOR SOMOS ELEGIDOS...TIERRA BENDITA...DONDE FLUYE LECHE Y MIEL...NADIE NOS PARA SIGAMOS ADELANTE... QUE VIVA SANTA CRUZZZZZZZZ"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4684195405189136/?comment_id=1575694076859927&reply_comment_id=3035374036798025&__cft__[0]=AZgIwEaLodutqWTzl0nZNWrm3UxcPh_-I7rWxu_7767e6OwrxF1ZvJXD0tHyLecMBqyv_V3oxJc8G5Y5FybA9QSpGOQbMZAVSJOSJRjMuS8tbV8MVJqrZIIUhWmXdFkWrwY8GAqYczEYKEulMY8V4FgcR3jczkda6Xc89fQbxLYH8-DzOj1ReQIPq1S3UuVHo1_p&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Cira Viuda De Robles puro narcos Fernandoi Paco"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -318,13 +342,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=C7Iyjs-ORO0Q7kNvwHiUjFY&_nc_oc=AdrHeVKzmJP-aV_lK10bCj4LLYDuMrrXnYkKK8ClpE7yj2G0W3s-HhRoprnUGCaDmqg&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_ss=7f289&oh=00_AQJ00YhfpZiw4t8Z3c-MBrabjhtxpn4r1Gfq2SwBGuU8Rg&oe=6AD64B3A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 18,
+          "category": "otro",
+          "url": "https://www.facebook.com/RedUnotv/videos/este-2026-la-expocruz-celebra-su-50%C2%AA-versi%C3%B3n-internacional-consolid%C3%A1ndose-como-u/2002721563649893/",
+          "has_image": true,
+          "text_preview": "Este 2026, la EXPOCRUZ celebra su 50ª versión internacional, consolidándose como uno de los principales encuentros empresariales y productivos de Bolivia. Tras más de seis décadas de historia, la... Este 2026, la EXPOCRUZ celebra su 50ª versión internacional, consolidándose como uno de los principales encuentros empresariales y productivos de..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_unitel",
@@ -607,22 +640,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=czFf-bkcDR4Q7kNvwGa9kQU&_nc_oc=AdrVR8YpX8Hg8BWrgTj3a3ReT_7-Sn_g3DwxHylGuLibHqAnhdt-m-VIfyW2ex7tVOk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Ci9FSYF3P0XTyGHuJpMHvw&_nc_ss=7f289&oh=00_AQI6Bs0QXbvu-u-Mqnhyo7MZmapU2zd0KnYtwRqUlMy0Ug&oe=6AB47D33",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid02uDFYoW5C59oEsqcTR2FkuZJUNb1fF3zwSjYKj7A3hozD7PMeg5ng5h5zNGYrUzrSl?__cft__[0]=AZj-1vnmuYsZuJYUxWWeSdkeZKtb8iSOMvPOa9Ym2zAnDJs09VblLV8NMuZ2JseFu5vKGrIHDlGYBsHEd1aFRO33V0YcKpu3G9aPcZw_G3pdZuOgvoui8f3RaboW2bOI9Q_4L6OFSKdPerLcuvkj0G3T2ZZbLsTE3-h8GIm4mUUjt1zikkvKbvKhwKU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#FinDeSemana l 𝗗𝗲𝘀𝗰𝘂𝗯𝗿𝗲, 𝗮𝗽𝗿𝗲𝗻𝗱𝗲 𝘆 𝗱𝗶𝘀𝗳𝗿𝘂𝘁𝗮 𝗲𝗻 𝗳𝗮𝗺𝗶𝗹𝗶𝗮 Este fin de semana, el Museo Nac… Ver más #FinDeSemana l 𝗗𝗲𝘀𝗰𝘂𝗯𝗿𝗲, 𝗮𝗽𝗿𝗲𝗻𝗱𝗲 𝘆 𝗱𝗶𝘀𝗳𝗿𝘂𝘁𝗮 𝗲𝗻 𝗳𝗮𝗺𝗶𝗹𝗶𝗮 Este fin de semana, el Museo Nac… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -1041,22 +1065,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=J9_RLKgunWwQ7kNvwGAJNxI&_nc_oc=AdpJtss1redNq0D6kFUqlQ9VysNMM9X_jfDuGeMaJSjCjbkLUwe5ZScPUDm6EDFdOc4&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=U_0DxStAjjHaIkP-ubUupA&_nc_ss=7f289&oh=00_AQKSbg0ZafjAkGvMS45OG6GrbGn6psLFSYV0C0Q95UvECw&oe=6AB47055",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid0xTkSRmHTi1riX8dWHz6GdP1ygEFs67skve7eBLzSZ5xpBpynKAEZu89uTWxuvmc1l?__cft__[0]=AZig4wbRtlseM5WelobnMNhW8rMVxvberBUez0yAej8RWPv9Vutx2dxO63Xuu3FP0cWpbOJ2L8sSc1Duve3vi1gwefP5GWoN1540v1Wqey7OxDvj9ZQEI6cZ19hkyoVT4lpXdrVyOiG2ewB8JwZUuUea0EDkM2Gs7OMInTXnCv8dFaJZkO8cLNyoU-c&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Ven a nuestras Puertas Abiertas! T… Ver más ¡Ven a nuestras Puertas Abiertas! T… Ver más Escuela de idiomas WhatsApp"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1118,30 +1133,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WYQBm6Nqf_YQ7kNvwETmCHD&_nc_oc=Adof26vrrGXba36CE1J__wKwGCBbipcmnRGH1MW8-nsVU8VAwG_UFFKr6liNEdXzIdM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=mvE-qsxZ1WnXXQOD3kG9sw&_nc_ss=7f289&oh=00_AQKm1wplC1w6BroYWHRdiM-gttQ7Nr6-Iccs36Si0nihVA&oe=6AB469E4",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid09XMqsfFZK6TfVwbaGwDJNhXaq1rkqtXV2kTVFp6HLtqptJZq9rLKRfM2e2gnK6Ggl?__cft__[0]=AZhZPoI6KGJMb93ReL0og82Ei0p7jwaQOBtY8FEcGDtI6my71mQwP74T7ABTJPRaksj6Oct28xEX4wYHAAS5-tuZ5ftOEoIFyla9ypiqJjGhzBaRmJZdwPPvzbjAl7JP31LKkhE82Wz_LpUfL8YKj4ybKn1rXXQ-6mLWVQqYR9slns0w-BlE8PkoDxs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#MUSEFSucre | ¡Clase Magistral de Guitarra Clásica! Compartimos un espacio de Aprendizaje y apreciamos el Recital de Guitarra Clásica con el maestro Gunter Viral, co… Ver más #MUSEFSucre | ¡Clase Magistral de Guitarra Clásica! Compartimos un espacio de Aprendizaje y apreciamos el Recital de Guitarra Clásica con el maestro Gunter Viral, co… Ver más Es Gunther Vilar.....su apellido está mal escrito "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid09XMqsfFZK6TfVwbaGwDJNhXaq1rkqtXV2kTVFp6HLtqptJZq9rLKRfM2e2gnK6Ggl?comment_id=1651616149889611&__cft__[0]=AZhZPoI6KGJMb93ReL0og82Ei0p7jwaQOBtY8FEcGDtI6my71mQwP74T7ABTJPRaksj6Oct28xEX4wYHAAS5-tuZ5ftOEoIFyla9ypiqJjGhzBaRmJZdwPPvzbjAl7JP31LKkhE82Wz_LpUfL8YKj4ybKn1rXXQ-6mLWVQqYR9slns0w-BlE8PkoDxs&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Es Gunther Vilar.....su apellido está mal escrito Weimar Alata"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1237,13 +1235,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NXWV21WadX8Q7kNvwEFzu1D&_nc_oc=AdpXaOmOlqMPuo6kC-1hZokDSkpse43_QVu_8yAlG6EAzKBDjKLwQenCY0j6mU7ZVEI&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=OFUfglmjsmq3vIhEmk6ajA&_nc_ss=7f289&oh=00_AQJqlQ5q-v4UW6Rx6AwZJV2gL9dCz0a9kiv6nPDzSl0sbw&oe=6AB4C938",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1881564186534353/?__cft__[0]=AZjACqWY9PG0lpZ-8aqCFjzJLyPi7UsFNLUP5q1_4BIcPMbPiPH0NfMEeE50C_1Erxy7zHaHxEFHupHQKtk6ktYnCyYh8GVlhru_hgmONFUsHRxTXZlrLZ7FdRyqT324aFuMuyQ01hLV4Na2P-jTXzyadXS64a1HGEGEuRFTn-B_p_afSMh_slpSWw_wk9Bp3APu&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Esta vez, en ‘El éxito tiene sello UPSA’, conocemos a Rodrigo Viveros, graduado de Administración de Empresas, cuya trayectoria lo llevó por el sector bancario, agrícol… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_superticket",
@@ -1403,8 +1410,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1424,7 +1431,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
+          "score": 3,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
@@ -1528,8 +1535,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 48,
-      "events": 48,
+      "raw_items": 36,
+      "events": 36,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1562,8 +1569,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1579,8 +1586,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 7,
+      "events": 7,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1596,8 +1603,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 51,
-      "events": 51,
+      "raw_items": 38,
+      "events": 38,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
