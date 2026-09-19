@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:20:45-04:00",
+  "generated_at": "2026-09-19T00:40:34-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_alcaldia_el_alto",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -15,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 92.4,
-    "horas_maximo_sin_datos": 712.2
+    "horas_promedio_sin_datos": 94.2,
+    "horas_maximo_sin_datos": 717.5
   },
   "sources": [
     {
@@ -28,22 +29,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=o9fNqLMXN6kQ7kNvwEdVeHe&_nc_oc=AdoUdYDEN6SJSWScJ77IGpoRYK3Fdx6IGwuS_KZ-Mf0pgTBuE5NqU1Yb3CzsjTDzNhg&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=ALbgplHrmr5yTsiPfLxenQ&_nc_ss=7f289&oh=00_AQLi_dCUOsbDaIly9ZZycLbPNrP-G4SOxL1nPUN83ZnaEQ&oe=6AB38A5A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 54,
-          "category": "otro",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02W81Q2x7qdmr4kMpW5fDUu9vhBsKTgkthCfVDf4FceAmJKVmJ4W6FJRY993cPVb3Rl?__cft__[0]=AZj0scF3k4XGOy5bu6Xpu17MdYnL5QaOmSIOOm8YoOVzhgoKJoCZ311rkpDq7UsOzrG8015H7GUEOhukXoDS8PGpvj9FbB2tlbUuzhx2efASs18OxvhBkPePAzlATo-JhUK1UHMTN4Fx2AuM7ZQuNk36jdGDh6KsTS93CYb9984BPtC41_FWLl-UXd0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡HOY LA HISTORIA VUELVE AL ESCENARIO! H… Ver más ¡HOY LA HISTORIA VUELVE AL ESCENARIO! H… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -174,12 +166,12 @@
       "region": "La Paz",
       "city": "El Alto",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de El Alto 218 mil seguidores • 37 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pu'"
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -887,30 +879,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=F91ZZJ7qoKIQ7kNvwECg53P&_nc_oc=Ado_GS1zE6JFtfJh6prmutzb39szO9_Dfuka7y9P4gDMt6tXKI3oS0SazNICsjWk6MQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_ompU7JwnoITi_ASeXeOyA&_nc_ss=7f289&oh=00_AQJ6eLwWfEprUNPDd2u8_MGUMdoWomyDtj45qsdKwxBe0A&oe=6AB3ACE7",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02rHksFj5sQBx7BymZryeGMYtMCLfxynVAybhphsWTgm4bwwqn4kB58UiBZC3yUzTPl?__cft__[0]=AZj5HVF6x1f1aP9BMrmhukNwP-BkVWi87H6FR1y9QS-_Ds4d0SxwYoGkVHA17w8fnumNuckkF2ko7P6CxX5vozgi1O8tZ-Z6k9MsOOJz2l5G6_pTq79qK_i3Q9vXuhC8UdVGzowoFlDsBuSlhlUQ4DWjtQyehnx-VhcTB0PcQ7uCyx_Glqo0EGkSdsY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Cultura | Hay historias que encuentran en las palabras y las ilustraciones una forma especial de llegar a nosotros.… Ver más Es un hermoso libro!!! Nadia Jael Ramirez Pareja"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02rHksFj5sQBx7BymZryeGMYtMCLfxynVAybhphsWTgm4bwwqn4kB58UiBZC3yUzTPl?comment_id=1388991179459073&__cft__[0]=AZj5HVF6x1f1aP9BMrmhukNwP-BkVWi87H6FR1y9QS-_Ds4d0SxwYoGkVHA17w8fnumNuckkF2ko7P6CxX5vozgi1O8tZ-Z6k9MsOOJz2l5G6_pTq79qK_i3Q9vXuhC8UdVGzowoFlDsBuSlhlUQ4DWjtQyehnx-VhcTB0PcQ7uCyx_Glqo0EGkSdsY&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Es un hermoso libro!!! Nadia Jael Ramirez Pareja"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -972,13 +947,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-1SqfVZfd8YQ7kNvwEj8rqt&_nc_oc=AdpzKm0Qk7doHRIiFwXE5rm2Hz8i5HAAlCApIFFNyr6CEOX_YoSz33rZtQ6oHC8hLnE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=z17ZDouQzo_XBXgBd3Od3g&_nc_ss=7f289&oh=00_AQJM0npshhYFQHpUqOCjncl_njNekJvHPAsiqWGlrtSu3g&oe=6AB3E517",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1040,22 +1015,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IaINOWU4LtoQ7kNvwGGqoJC&_nc_oc=AdpQmXLIfziXoCQmsQaV4sgl-jJ-e7dTu0SXP2OZUe0QCXOuoen1z8_ytiDt-c9e8e8&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=ZiZ8DX8qcxkQDlUuHvC8Jw&_nc_ss=7f289&oh=00_AQJo4sadNl84Zmiei6p2Eue9FwpIV3EOnuEBrh_47Dc62g&oe=6AB3AF8F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid032FUjj5GkKPxEhHX5sBuwj9ytUb2QvUHjBEJSeWRxCpzGUXMR7tSBf11Y7TNVmSt7l?__cft__[0]=AZgUvRYozysjFo72MIen_rAN6Z4_7o81Bn4VbMx24UComeyizdIo6VQA77jjEA2A-p6s-4pwus4_gdT_Wtx05YIFCyFgmA6gVpQxAOSs_JW1UOutx4Esf00ExY6DwVfzsSah57dxAxXT6Qjjin_EhBv5rJMVJm0Jyl60IR1_x8aKqdnDKYcToQEKyYE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Convocatoria abierta 2027 para el Fondo de Coproducción Internacional … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1202,13 +1168,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/802121447_1509917531172107_3755553418203842592_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7IFSeOL-M_IQ7kNvwEdzP8M&_nc_oc=AdoMlTz8hIfUQpvoJymZifI36gbzV3Pszgr5ZVSu9ORMV8JP0dtD8qgJFsJZKIeWC94&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=5jJTajJ6hRYMN6lHsLd0LQ&_nc_ss=7f289&oh=00_AQJMDb5EfH38BB20FY3rgyxYKBzCK47ELAD78lfQQda4yw&oe=6AB3D15C",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid029uXaF7HSfERSFMHdkFKrscDZxGiGVvkWEH45SBZCQ2VZvQPXT7m6i95BxHEywzBNl?__cft__[0]=AZiKzeU87C0PhwT1FpM1geqk0wkwCCfaMQtBwhXQ2yrNi0mX24zox6rt1h1sxrjAd6J9lx0prAVa61h-DUiUesc6NBLsTpKqlwVmFMZRX-qG_ITq-mEV2KveR3xOn35AVgl6dT3zwN8S0CzZj_SAIsUWKhDnSWfn_LCpRYoc5GuEHnlwl05rVx6xOjc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "❞𝐄𝐥 𝐅𝐚𝐫𝐨 𝐝𝐞 𝐥𝐚 𝐒𝐚𝐥𝐮𝐝❞: 𝐮𝐧 𝐞𝐬𝐩𝐚𝐜𝐢𝐨 𝐩𝐚𝐫𝐚 𝐩𝐫𝐞𝐯𝐞𝐧𝐢𝐫, 𝐨𝐫𝐢𝐞𝐧𝐭𝐚𝐫 𝐲 𝐜𝐮𝐢𝐝𝐚𝐫 Esta mañana, el Coliseo de la Universidad Mayor de… Ver más ❞𝐄𝐥 𝐅𝐚𝐫𝐨 𝐝𝐞 𝐥𝐚 𝐒𝐚𝐥𝐮𝐝❞: 𝐮𝐧 𝐞𝐬𝐩𝐚𝐜𝐢𝐨 𝐩𝐚𝐫𝐚 𝐩𝐫𝐞𝐯𝐞𝐧𝐢𝐫, 𝐨𝐫𝐢𝐞𝐧𝐭𝐚𝐫 𝐲 𝐜𝐮𝐢𝐝𝐚𝐫 Esta mañana, el Coliseo de la Universidad Mayor de… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1402,8 +1377,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 0,
-      "rejected": 13,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
@@ -1415,19 +1390,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
-          "category": "festival",
+          "score": 22,
+          "category": "taller",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "18/09/2026 Medio Ambiente El tilcayo: Un nuevo felino para el mundo desde Bolivia El tilcayo (Leopardus tilcayo) es una nueva especie de felino salvaje descubierta y descrita científicamente en septiembre de 2026. vista 17/09/2026 Interesante Seis rincones de la casa que se pueden ordenar en menos de diez minutos La acumulación de objetos en los espacios de uso diario suele transformar la limpieza"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 38,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "reason": "tema_ajeno_a_eventos",
+          "score": 36,
+          "category": "taller",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "18/09/2026 Cultura ONU Mujeres lleva a historietas la vida de bolivianas que rompieron estereotipos Una pilota frente a los controles de una aeronave, una soldadora entre herramientas y chispas, una bombera voluntaria, una corredora de montaña de... vista 17/09/2026 Cultura Seis compañías animan la segunda versión de Teatro Sur Seis elencos internacionales animarán el II Festival Internacional “Te"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Economía despeja dudas sobre el crédito del FMI: no subirá tarifas de servi"
         }
       ],
       "error": null
@@ -1485,15 +1460,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
+      "raw_items": 37,
       "events": 0,
-      "rejected": 39,
+      "rejected": 37,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/7dfafafb-797b-40ab-9398-402be14237bb",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/9d07b2e7-4721-4c9c-a78f-eab286e01047",
           "has_image": true,
           "text_preview": ""
         },
@@ -1501,7 +1476,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/d32e4bcc-c03f-4a8d-878d-45fd7cc3efe7",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2e42d5c3-6f7f-4890-a8f0-319a8744310e",
           "has_image": true,
           "text_preview": ""
         },
@@ -1527,8 +1502,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 36,
-      "events": 36,
+      "raw_items": 32,
+      "events": 32,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1570,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
-      "events": 38,
+      "raw_items": 40,
+      "events": 40,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
