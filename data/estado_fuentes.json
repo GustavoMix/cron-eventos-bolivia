@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T19:07:22-04:00",
+  "generated_at": "2026-09-20T00:56:08-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 89.7,
-    "horas_maximo_sin_datos": 735.9
+    "horas_promedio_sin_datos": 86.4,
+    "horas_maximo_sin_datos": 741.8
   },
   "sources": [
     {
@@ -249,13 +249,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aRb2droMTI0Q7kNvwGNs8Cp&_nc_oc=AdrBIH56X0Kv2QnTUJ2k8pYzkMdDq8jyZwXUh9HxODmv_GGBpNB8AAFR-C_8zqIK3ms&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=1e1UB1YxJd3uJGiJMHOHRg&_nc_ss=7f289&oh=00_AQIcaZBswIpHl3T_bwRlANmmR738-KtkKHPAPPR7Hc6UeA&oe=6AB5467E",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid031oNv77Ap7XBEZHge55jtHC9LXZr2hf5GpGp3PRQwLu4vMFbPAj1wgNjZfT6XfNgJl?comment_id=1625622242606543&__cft__[0]=AZjyFYtpoQTBJt0XHN60ArAi1IGVDhxefKwx37pinms5mutUuJr09LWSRcs2u-06p7RkYe0HBjyNwJ2vrkRECnBWvW8xy7mY0DmI0FLaqv5-c3n2UKHrO6gfR2BpmrcgHNXEkyFSujEhx8kpBSlLGVYxoPuKDuZWXXNH1U0MiAkcH4jgx69I5XA3umg&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Propuesta de Servicio Público Integral de Seguridad Ciudadana Preventiva Municipal delegada diseñada por Serenazgo Bolivia, para que la gente viva segura y en paz. Roberto Crespo Eid"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_lostiempos",
@@ -334,13 +343,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=e9yQJjG-hyEQ7kNvwGAY74l&_nc_oc=Adrd_7dB1vurM1KvHzsPDMmUq8reuCcHLmgLHfDTE8ObLoEH31xvXKEDJ9GUlpmdld0&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=F3EFIM6UPP5Voai7WuSGTg&_nc_ss=7f289&oh=00_AQLDJccLHl18P2AuUmy8Zvfqr-eqhVyz8PgPLQduV_9ISA&oe=6AB5237F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid02BCECxCoVLrH7e9aWjwF9X8T7ZzdqTbgRWXpxceerP6caLSaRG1LV1QvUQztT9My3l?__cft__[0]=AZiiI3WBgRe0KQTJnFgF0m_u1EZtazLRhO4nQIxu2OrH8ceWbGiHGx0RQaRwjURjCmGaHqzhY63lhfz3cSJMshaCbevy0tnDEChCJXureE2GgfOnjr-hUAR4OtttXxRL700UNCM0dgJVpVHF2hkP04gQh65j5baGpTGqacBGz2cpGSoEC_4xaPLMgu4&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Los imitadores de Gilda, Américo y Rodrigo Tapari se presentaron en el stand de Yolo Pago, donde los visitantes se acercaron para disfrutar del espectáculo.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_atb",
@@ -453,13 +471,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=W9N3tayECicQ7kNvwGdSnfc&_nc_oc=AdrWlWlsdA3hWXyyHP6NkczWEWz9mjnNdkZUUnp356P3n2AfK-nHefJHt6uMswdmNgs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=QeOmHftwUurNwfoZ1d-ggQ&_nc_ss=7f289&oh=00_AQIOGfovYiWk8Up3ywsI9VZB-Imqki2SNyhePes9PT999g&oe=6AB53905",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/rtpbolivia/videos/-el-caporal-se-hace-sentir-ritmo-energ%C3%ADa-y-tradici%C3%B3n-boliviana-en-la-entrada-uni/2417252319025061/",
+          "has_image": true,
+          "text_preview": "¡El Caporal se hace sentir! Ritmo, energía y tradición boliviana en la Entrada Universitaria 2026. #entradauniversitaria #Bolivia #rtp ¡El Caporal se hace sentir! Ritmo, energía y tradición boliviana en la Entrada Universitaria 2026. #entradauniversitaria #Bolivia #rtp Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_abya_yala",
@@ -895,22 +922,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=b29JxEzJuHIQ7kNvwHnmgUv&_nc_oc=AdrKBN4VZb5d0c76Uw9WyoR9b_C05JDSUs1RJPNv8kGqAJ3gmen8_05QNPnoDRd5zrA&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=PmZwZopfn4NSkGDAVSyCvg&_nc_ss=7f289&oh=00_AQJZuIpNtsBdOubCZa9sfETljYPBOZYf4oH-xg416U0veA&oe=6AB4FBC7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid02CgqDWvJmYHkmmcvnkUu445Z22zdHCJjYdFL7FchUWrQoThPkUbPaB1wBmSrsLFRPl?__cft__[0]=AZhSAcNHJe37BZLA-xQaWhkfdeaNP209YHD1RJ2nlF5fZf264qk2az1lhl_aCZJHARz7Enjy1Mcem1AuefyWXnPIpTybpn27MMXymrBo3q2eB2REhq_MaEoqOL3pQOeHohhJ46kCy8a3fG2NiF2iyPDcyVKFHJs6ovlT4KDn8NKZtCKUX4HYGNFQ0Rc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Hoy viajamos a un mundo misterioso donde el arte es nuestra plegaria. A… Ver más Hoy viajamos a un mundo misterioso donde el arte es nuestra plegaria. A… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -921,22 +939,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hSFfuRfjXdEQ7kNvwG6GZTn&_nc_oc=Adrem1_sWWJCJl3W1ZYFJN8al7Wf2godv6fB2j-fsYQe9eHQAFWl0Cu7UtMUa8nozjs&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=rHLzF5FdsBsHAUhPd01ViA&_nc_ss=7f289&oh=00_AQLTbHLAusSsxOf_tIxhXhg9Vl9Fh97kXMuIqYnPYAf6LA&oe=6AB4CCF8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02T1NhkD4onkcyzbSpbBCSdCLErHySRH4v2AfPVSKCxm8bUwDiC5FixaDCRk6KNhpQl?__cft__[0]=AZjlRWWYuNI3WKfWbjijvaB3VDZQRrnoOi_6Rz25Q5xnE25YYR1OnWC29T-OH5_Z0Go1NW5wRhOSt2RIIK3h1SVBALL5YrQNBlDjC_DSOAONfrXdpCOKXR4GkbM17Lpae92ihvvGYD6HxPPJJ3jUczb4PWhJtzgpI5PYc2TkqmvfLrj-1_drGeNSe8Q&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡CHOLITAS QUE RUEDAN, CULTURA QUE INSPIRA! El skate también es un espacio para encontrarnos con nuestra identidad. T… Ver más ¡CHOLITAS QUE RUEDAN, CULTURA QUE INSPIRA! El skate también es un espacio para encontrarnos con nuestra identidad. T… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1066,30 +1075,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lmyREGOzrFoQ7kNvwF_cqUd&_nc_oc=AdqQLrXIVcvxL6a9uPuv-iyKSYwy2txmmMqC17Z7whgxCA0C_9KFHxF0ks59jJ9cEtQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=4dPkW0RueGyyksPKTNbBsA&_nc_ss=7f289&oh=00_AQJdzvoCEzvBBc_AvnIF4qXVFfPrJhM_V6NtX6yZc96uYQ&oe=6AB4E352",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0GzADvqGQSRcCcMz22Jeq5QyYdM8VeNQJkmviFKr9MtnwWG7ddDK9aSPfAMPRDiKFl?__cft__[0]=AZhdiLnXjnbGJUwNBbtiUFqk_voINY8BkF_IIBEPLzLfamEwdThH-csnzgpckb18zCOvTgMHOguzZp3HzTQOSxsqJX-_oIhvGw5S1CHc3j1q4P4jDFxk-m9_Y2wKzZWUhYJ6n-TeBIfHSG3yqeZHns58Bm2zoHq5cKirxHsfMRZutp4jR3gbkvVUabk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0GzADvqGQSRcCcMz22Jeq5QyYdM8VeNQJkmviFKr9MtnwWG7ddDK9aSPfAMPRDiKFl?comment_id=1079850634463156&__cft__[0]=AZhdiLnXjnbGJUwNBbtiUFqk_voINY8BkF_IIBEPLzLfamEwdThH-csnzgpckb18zCOvTgMHOguzZp3HzTQOSxsqJX-_oIhvGw5S1CHc3j1q4P4jDFxk-m9_Y2wKzZWUhYJ6n-TeBIfHSG3yqeZHns58Bm2zoHq5cKirxHsfMRZutp4jR3gbkvVUabk&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1407,7 +1399,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 9,
+          "score": 21,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1415,11 +1407,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
-          "category": "taller",
+          "score": 35,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Evo afirma: “Ampliaron el Estado de excepción para imponer el dieselazo” Ve"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Fiscalía imputa a dos jóvenes por doble feminicidio en Quillacollo Ver más "
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1485,15 +1477,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
+      "raw_items": 35,
       "events": 0,
-      "rejected": 37,
+      "rejected": 35,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/9d07b2e7-4721-4c9c-a78f-eab286e01047",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/44324f34-a1b9-46f1-870d-63a15e17f665",
           "has_image": true,
           "text_preview": ""
         },
@@ -1501,7 +1493,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2e42d5c3-6f7f-4890-a8f0-319a8744310e",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/33928c39-0f45-4339-9ef2-77a47730c163",
           "has_image": true,
           "text_preview": ""
         },
@@ -1527,8 +1519,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 36,
-      "events": 36,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1561,8 +1553,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1578,8 +1570,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 7,
-      "events": 7,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
-      "events": 37,
+      "raw_items": 42,
+      "events": 42,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
