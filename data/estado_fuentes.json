@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:25:12-04:00",
+  "generated_at": "2026-09-20T12:09:01-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,13 +10,14 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
+      "fb_gobernacion_lapaz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 88.1,
-    "horas_maximo_sin_datos": 748.2
+    "horas_promedio_sin_datos": 87.3,
+    "horas_maximo_sin_datos": 753.0
   },
   "sources": [
     {
@@ -182,12 +183,12 @@
       "region": "La Paz",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gam_cbba",
@@ -470,13 +471,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eacD2qLS7bkQ7kNvwHSgn8O&_nc_oc=AdrEebTFIYn5TY_wvoIaCNaZuN_nx9_l9m2AB7Zh3fbj4x6ozZLtnVdlF_Z2bWCETfs&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jVn3SNdSnwVaeIjaIWPz6A&_nc_ss=7f289&oh=00_AQIcnvrEzxL5oF6G33LvwC30X4ppgquEg-HxOcc0VCOrkQ&oe=6AB5E902",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1830599031447426/?__cft__[0]=AZjvAyKVlSK4QP4exVhSYYhRGFEnhVDyDpJgh6PkQ-JwUtTOxI-d0RK_O16joWbhSKYb1UyeUyOUIJ9AGrCmOs_sthgsjO8-oc2eBDdRkdCKsGAzHi3i1apiq7RdxKB5QfBUIl-INajaKGP7rNBc0EMd8Jl-BAZN7EMzbjhM6UCqsopEpBMVDFw07y72DQUsibrL&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#ESPACIOPUBLICITARIO ¿Quieres ganar grandes premios mientras ahorras? ¡Vuelven los millones a Banco Prodem y llueven el doble de premios para el área urbana y rural! … Ver más #ESPACIOPUBLICITARIO ¿Quieres ganar grandes premios mientras ahorras? ¡Vuelven los millones a Banco Prodem y llueven el doble de premios para el área urbana y rural! … Ver más Tenemos problemas para reproducir este video. Má"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber_radio",
@@ -589,30 +599,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/514279397_1151671333653128_381164207307828152_n.jpg?stp=dst-jpg_tt6&cstp=mx911x911&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4dB8V4fERNUQ7kNvwFjnTG0&_nc_oc=AdreiHm59gUw99p2THp49JnbKFvbCT-nrAsVwN1E04Iq5kcEF1WFNf2jszO8s7udkAE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=Kz5_qFEykKS5Vw2RcDAJTw&_nc_ss=7f289&oh=00_AQIoWMHmv4D_hqev1QMfISsDejwy55e7XzXnd5Ip03kTHg&oe=6AB5A940",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/mna-reflector-de-septiembre-en-vac%C3%ADos-de-poder-de-cristian-laimeel-mna-te-espera/1524620923024832/",
-          "has_image": true,
-          "text_preview": "#MNA | Reflector de septiembre en “Vacíos de Poder” de Cristian Laime. ¡El MNA te espera! #FCBCB #MNA #NuestroPatrimonioVive #VacíosDePoder #CristianLaime #ArteBoliviano #MuseoNacionalDeArte #MNA | Reflector de septiembre en “Vacíos de Poder” de Cristian Laime. ¡El MNA te espera! #FCBCB #MNA #NuestroPatrimonioVive #VacíosDePoder... #MNA | Reflector de septiembre en “Vacíos de Poder” de Cristian La"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/mna-reflector-de-septiembre-en-vac%C3%ADos-de-poder-de-cristian-laimeel-mna-te-espera/1524620923024832/",
-          "has_image": true,
-          "text_preview": "#MNA | Reflector de septiembre en “Vacíos de Poder” de Cristian Laime. ¡El MNA te espera! #FCBCB #MNA #NuestroPatrimonioVive #VacíosDePoder... #MNA | Reflector de septiembre en “Vacíos de Poder” de Cristian Laime. ¡El MNA te espera! #FCBCB #MNA #NuestroPatrimonioVive #VacíosDePoder #CristianLaime #ArteBoliviano #MuseoNacionalDeArte #MNA | Reflector de septiembre en “Vacíos de Poder” de Cristian La"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -997,22 +990,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HaCsyJBSaxsQ7kNvwHwW5RJ&_nc_oc=Adr4AfCbnymlGnSXMih2WF8lBU4hZR8NYVbSJvo7CHtDPuqVMjkVL9-XVMpP4ii8P4E&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=0aAI3Cpn0KdfqS-gdzSejQ&_nc_ss=7f289&oh=00_AQJzlzChrmVs_U8Aj5TZIKywrY5Yco4LIRHOmLqB0yPCBg&oe=6AB585AA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 36,
-          "category": "taller",
-          "url": "https://www.facebook.com/TarijaCultura/posts/los-recursos-humanos-capacitados-en-gesti%C3%B3n-y-cuidado-del-patrimonio-son-claves-/1366299072321499/",
-          "has_image": true,
-          "text_preview": "Los recursos humanos capacitados en gestión y cuidado del patrimonio, son claves para mantener viva la identidad de los pueblos. Entérate mas sobre como capacitarte en esta importantísima área viendo... Los recursos humanos capacitados en gestión y cuidado del patrimonio, son claves para mantener viva la identidad de los pueblos. Entérate mas sobre como... Los recursos humanos capacitados en gesti"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1108,13 +1092,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eKIP4hZOyCcQ7kNvwF-avOc&_nc_oc=AdofEwOlr013Lj4PKi828QBurhhprd5-BjDjxk7Qa39qCx5J0jq-aRNYOxnz2RGWcmY&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=a3KYphKzn0eEarTiubGdmQ&_nc_ss=7f289&oh=00_AQKg1KhOB3NYcavNymavNsMDRhGNPbT4MDVBDwJMgZv4NA&oe=6AB591B7",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
@@ -1142,13 +1126,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dn6EbDJtsjIQ7kNvwFCOTvW&_nc_oc=AdpMVqcjmxFI1DAfDzb5FLqJUVJLwe7jYAvsgR9Oy1351aDq69piflBX3icJHIyWXbg&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=jRVpLz5Upz5QRhKg-VrOZg&_nc_ss=7f289&oh=00_AQKVZ1U6sd5wrFv0QZWICFmGofDulNsBXdjUaOHoHdOYmw&oe=6AB5C560",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FranciscoXavierCh/videos/la-universidad-san-francisco-xavier-de-chuquisacaaclara-que-los-cursos-ofertados/2345197716016291/",
+          "has_image": true,
+          "text_preview": "LA UNIVERSIDAD SAN FRANCISCO XAVIER DE CHUQUISACA, ACLARA QUE LOS CURSOS OFERTADOS POR ESTA CUENTA NO TIENEN EL AVAL DE NUESTRA UNIVERSIDAD, SE LES INSINÚA A LA COMUNID… Ver más LA UNIVERSIDAD SAN FRANCISCO XAVIER DE CHUQUISACA, ACLARA QUE LOS CURSOS OFERTADOS POR ESTA CUENTA NO TIENEN EL AVAL DE NUESTRA UNIVERSIDAD, SE LES INSINÚA A LA COMUNID… Ver más Tenemos problemas para reproducir este video"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umsa",
@@ -1398,23 +1391,23 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 27,
-          "category": "festival",
+          "score": 39,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "18/09/2026 Medio Ambiente El tilcayo: Un nuevo felino para el mundo desde Bolivia El tilcayo (Leopardus tilcayo) es una nueva especie de felino salvaje descubierta y descrita científicamente en septiembre de 2026. vista 17/09/2026 Interesante Seis rincones de la casa que se pueden ordenar en menos de diez minutos La acumulación de objetos en los espacios de uso diario suele transformar la limpieza"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
+          "score": 53,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Tras la llovizna, Cochabamba tendrá una temperatura máxima de 26 grados Ver"
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Capturan a 7 implicados en la ola de asesinatos en San Ignacio de Velasco V"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 21,
+          "score": 45,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
