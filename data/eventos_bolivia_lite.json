@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-20T00:56:08-04:00",
+  "generated_at": "2026-09-20T07:25:12-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 60,
+    "events_total": 61,
     "events_today": 14
   },
   "filters": {
@@ -68,13 +68,13 @@
         "count": 8
       },
       {
-        "key": "taller",
-        "label": "Talleres y cursos",
+        "key": "concierto",
+        "label": "Conciertos",
         "count": 4
       },
       {
-        "key": "concierto",
-        "label": "Conciertos",
+        "key": "exposicion",
+        "label": "Exposiciones",
         "count": 4
       },
       {
@@ -83,14 +83,14 @@
         "count": 4
       },
       {
-        "key": "exposicion",
-        "label": "Exposiciones",
+        "key": "festival",
+        "label": "Festivales",
         "count": 3
       },
       {
-        "key": "festival",
-        "label": "Festivales",
-        "count": 2
+        "key": "taller",
+        "label": "Talleres y cursos",
+        "count": 3
       },
       {
         "key": "turismo",
@@ -142,7 +142,7 @@
       {
         "key": "Sucre",
         "label": "Sucre",
-        "count": 4
+        "count": 5
       },
       {
         "key": "Tarija",
@@ -179,7 +179,7 @@
       {
         "key": "Chuquisaca",
         "label": "Chuquisaca",
-        "count": 4
+        "count": 5
       },
       {
         "key": "Tarija",
@@ -211,12 +211,12 @@
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 29
+        "count": 30
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 60
+        "count": 61
       }
     ],
     "price": [
@@ -228,19 +228,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 14
+        "count": 13
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 44
+        "count": 46
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 52
+        "count": 53
       },
       {
         "key": "con_video",
@@ -379,7 +379,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 14
+        "count": 15
       },
       {
         "key": "cartelera_cine",
@@ -468,11 +468,12 @@
       "evt_5dbfff52d4bb54",
       "evt_0061b6376c24b6",
       "evt_1a8ff919daa25b",
-      "evt_c985524f14c90a",
       "evt_ab43ab2b29d9ae",
+      "evt_c985524f14c90a",
       "evt_8add3d73034fb7",
       "evt_0adee17583f556",
       "evt_f4ea8de87e8c3d",
+      "evt_bc5b804dddf522",
       "evt_c398c99f1536bc",
       "evt_b738d5075ee0af",
       "evt_c0c814a826a490",
@@ -481,8 +482,7 @@
       "evt_2821894c1d5322",
       "evt_ab2d744f1fbd8e",
       "evt_48c45c2c902fde",
-      "evt_9ea8741680468c",
-      "evt_cab71456af6bc1"
+      "evt_9ea8741680468c"
     ]
   },
   "coverage_by_department": {
@@ -508,15 +508,15 @@
       "events_with_image": 13,
       "events_with_video": 3,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
-      "events_total": 8,
-      "events_upcoming": 4,
-      "events_with_image": 4,
+      "events_total": 9,
+      "events_upcoming": 5,
+      "events_with_image": 5,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Oruro": {
       "events_total": 4,
@@ -540,7 +540,7 @@
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Beni": {
       "events_total": 0,
@@ -590,9 +590,9 @@
     },
     "exposicion": {
       "label": "Exposiciones",
-      "events_total": 3,
-      "events_upcoming": 3,
-      "events_with_image": 3,
+      "events_total": 4,
+      "events_upcoming": 4,
+      "events_with_image": 4,
       "events_with_video": 0
     },
     "feria": {
@@ -604,9 +604,9 @@
     },
     "festival": {
       "label": "Festivales",
-      "events_total": 2,
-      "events_upcoming": 2,
-      "events_with_image": 2,
+      "events_total": 3,
+      "events_upcoming": 3,
+      "events_with_image": 3,
       "events_with_video": 1
     },
     "infantil": {
@@ -625,9 +625,9 @@
     },
     "taller": {
       "label": "Talleres y cursos",
-      "events_total": 4,
-      "events_upcoming": 4,
-      "events_with_image": 3,
+      "events_total": 3,
+      "events_upcoming": 3,
+      "events_with_image": 2,
       "events_with_video": 0
     },
     "teatro": {
@@ -1905,11 +1905,11 @@
       "title": "Película en cartelera de cine",
       "category": "cine",
       "category_label": "Cine",
-      "starts_at": "2026-09-20T20:40:00-04:00",
-      "starts_at_ms": 1789951200000,
+      "starts_at": "2026-09-20T18:40:00-04:00",
+      "starts_at_ms": 1789944000000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Domingo 20 de septiembre · 20:40",
+      "display_date": "Domingo 20 de septiembre · 18:40",
       "lifecycle": "hoy",
       "lifecycle_label": "Hoy",
       "days_until": 0,
@@ -1926,23 +1926,26 @@
       "price_label": null,
       "organizer": null,
       "showtimes": [
-        "20:40",
-        "13:30",
+        "18:40",
+        "11:30",
+        "15:30",
+        "17:30",
+        "21:30",
+        "15:00",
+        "16:40",
         "18:00",
         "20:00",
         "22:00",
-        "15:00",
-        "21:00",
-        "11:30",
-        "18:40",
-        "15:30",
-        "19:30",
         "10:50",
-        "13:00",
         "17:00",
         "19:00",
-        "17:30",
-        "21:30",
+        "20:40",
+        "13:00",
+        "21:00",
+        "19:30",
+        "13:30",
+        "11:20",
+        "16:10",
         "10:20",
         "10:40",
         "12:40",
@@ -1950,46 +1953,45 @@
         "19:50",
         "22:10",
         "10:30",
-        "16:50",
-        "11:20",
-        "13:40",
-        "16:10",
         "12:20",
-        "14:30",
+        "16:50",
         "19:10",
-        "20:30"
+        "13:40",
+        "14:30"
       ],
       "formats": [
         "2D - DBOX - Doblada",
         "2D - DBOX - XD - Doblada",
         "2D - Doblada",
         "2D - PRE - Doblada",
-        "2D - PRE - Subtitulada",
-        "2D - XD - DBOX - Doblada",
         "DBOX - 2D - Doblada",
-        "DBOX - XD - 2D - Doblada",
         "PRE - 2D - Doblada",
+        "PRE - 2D - Subtitulada",
+        "XD - 2D - DBOX - Doblada",
         "XD - DBOX - 2D - Doblada",
-        "PRE - 2D - Subtitulada"
+        "2D - PRE - Subtitulada"
       ],
       "occurrences": [
-        "2026-09-20T20:40:00-04:00",
-        "2026-09-20T13:30:00-04:00",
+        "2026-09-20T18:40:00-04:00",
+        "2026-09-20T11:30:00-04:00",
+        "2026-09-20T15:30:00-04:00",
+        "2026-09-20T17:30:00-04:00",
+        "2026-09-20T21:30:00-04:00",
+        "2026-09-20T15:00:00-04:00",
+        "2026-09-20T16:40:00-04:00",
         "2026-09-20T18:00:00-04:00",
         "2026-09-20T20:00:00-04:00",
         "2026-09-20T22:00:00-04:00",
-        "2026-09-20T15:00:00-04:00",
-        "2026-09-20T21:00:00-04:00",
-        "2026-09-20T11:30:00-04:00",
-        "2026-09-20T18:40:00-04:00",
-        "2026-09-20T15:30:00-04:00",
-        "2026-09-20T19:30:00-04:00",
         "2026-09-20T10:50:00-04:00",
-        "2026-09-20T13:00:00-04:00",
         "2026-09-20T17:00:00-04:00",
         "2026-09-20T19:00:00-04:00",
-        "2026-09-20T17:30:00-04:00",
-        "2026-09-20T21:30:00-04:00",
+        "2026-09-20T20:40:00-04:00",
+        "2026-09-20T13:00:00-04:00",
+        "2026-09-20T21:00:00-04:00",
+        "2026-09-20T19:30:00-04:00",
+        "2026-09-20T13:30:00-04:00",
+        "2026-09-20T11:20:00-04:00",
+        "2026-09-20T16:10:00-04:00",
         "2026-09-20T10:20:00-04:00",
         "2026-09-20T10:40:00-04:00",
         "2026-09-20T12:40:00-04:00",
@@ -1997,19 +1999,16 @@
         "2026-09-20T19:50:00-04:00",
         "2026-09-20T22:10:00-04:00",
         "2026-09-20T10:30:00-04:00",
-        "2026-09-20T16:50:00-04:00",
-        "2026-09-20T11:20:00-04:00",
-        "2026-09-20T13:40:00-04:00",
-        "2026-09-20T16:10:00-04:00",
         "2026-09-20T12:20:00-04:00",
-        "2026-09-20T14:30:00-04:00",
+        "2026-09-20T16:50:00-04:00",
         "2026-09-20T19:10:00-04:00",
+        "2026-09-20T13:40:00-04:00",
+        "2026-09-20T14:30:00-04:00",
         "2026-09-20T20:30:00-04:00",
         "2026-09-20T16:20:00-04:00",
         "2026-09-20T12:50:00-04:00",
         "2026-09-20T19:20:00-04:00",
         "2026-09-20T14:00:00-04:00",
-        "2026-09-20T16:40:00-04:00",
         "2026-09-20T16:00:00-04:00",
         "2026-09-20T18:50:00-04:00",
         "2026-09-20T21:10:00-04:00",
@@ -2025,6 +2024,44 @@
       "director": null,
       "cast": [],
       "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_ab43ab2b29d9ae",
+      "title": "18/09/2026 Cultura ONU Mujeres lleva a historietas la vida de bolivianas que rompieron estereotipos Una pilota…",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-22T19:00:00-04:00",
+      "starts_at_ms": 1790118000000,
+      "ends_at_ms": 1790481540000,
+      "multi_day": true,
+      "display_date": "Del 22 al 26 de septiembre · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 2,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": "salón Melchor Pérez",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/18/11_dc_1.jpg?itok=n77dyGLo",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 300.0,
+      "currency": "BOB",
+      "price_label": "Bs 300",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 69,
       "is_featured": true,
       "status": "programado",
       "source_count": 1
@@ -2053,44 +2090,6 @@
       "price_from": 300.0,
       "currency": "BOB",
       "price_label": "Bs 300",
-      "organizer": null,
-      "showtimes": [],
-      "formats": [],
-      "occurrences": [],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_ab43ab2b29d9ae",
-      "title": "18/09/2026 Cultura ONU Mujeres lleva a historietas la vida de bolivianas que rompieron estereotipos Una pilota…",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-09-22T19:00:00-04:00",
-      "starts_at_ms": 1790118000000,
-      "ends_at_ms": 1790481540000,
-      "multi_day": true,
-      "display_date": "Del 22 al 26 de septiembre · 19:00",
-      "lifecycle": "proximo",
-      "lifecycle_label": "Próximos",
-      "days_until": 2,
-      "is_upcoming": true,
-      "city": "Quillacollo",
-      "department": "Cochabamba",
-      "venue": "salón Melchor Pérez",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/18/11_dc_1.jpg?itok=n77dyGLo",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": 17.95,
-      "currency": "BOB",
-      "price_label": "Bs 17.95",
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -2486,6 +2485,44 @@
       "source_count": 2
     },
     {
+      "event_id": "evt_bc5b804dddf522",
+      "title": "Museo Casa de la Libertad",
+      "category": "exposicion",
+      "category_label": "Exposiciones",
+      "starts_at": "2026-09-30T00:00:00-04:00",
+      "starts_at_ms": 1790740800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 30 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 10,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": "Casa de la Libertad",
+      "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/817329455_1676505304485080_5252566362343725515_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s600x600&_nc_cat=108&ccb=1-7&_nc_sid=cae128&_nc_ohc=qamrX3nGfRsQ7kNvwGT8MW6&_nc_oc=AdpBMkkDA3m5FKsup38NzXyE_wOgMX_CL5FSjn2bAs7LTP8PFHrbyTv4Kkr-gucfpHo&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=AiRhU0QSmUD-lx5KyWQAwA&_nc_ss=7f289&oh=00_AQLcoNujSR-KWfSBxI3QJXcF6c-VaMil4AZKZXA63dWdqQ&oe=6AB58D86",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 65,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_c398c99f1536bc",
       "title": "En Concierto Pepe Murillo",
       "category": "concierto",
@@ -2792,8 +2829,8 @@
     {
       "event_id": "evt_ae9da30af86e30",
       "title": "Balau: Taller de cajón peruano",
-      "category": "taller",
-      "category_label": "Talleres y cursos",
+      "category": "festival",
+      "category_label": "Festivales",
       "starts_at": "2026-11-09T21:30:00-04:00",
       "starts_at_ms": 1794274200000,
       "ends_at_ms": null,
@@ -2812,7 +2849,7 @@
       "is_free": false,
       "price_from": 17.95,
       "currency": "BOB",
-      "price_label": "Bs 17.95",
+      "price_label": "Bs 17.95 - 300",
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -3684,9 +3721,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 17.95,
-      "currency": "BOB",
-      "price_label": "Bs 17.95 - 300",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -3696,8 +3733,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     }
