@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T16:51:30-04:00",
+  "generated_at": "2026-09-20T19:18:43-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_anf",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -15,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 86.3,
-    "horas_maximo_sin_datos": 757.7
+    "horas_promedio_sin_datos": 83.9,
+    "horas_maximo_sin_datos": 760.1
   },
   "sources": [
     {
@@ -96,13 +97,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=r-6krc-5KbwQ7kNvwGeyV3c&_nc_oc=Adpk7Bi_aTU7wv8dAtF3rFkxzDaouDA4E1a5kqVGNADkXniyTIxkYvUiIiD0BU3sagM&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=3In_1lbdHp_GGa7n9D0daA&_nc_ss=7f289&oh=00_AQL65qyqcX40ZpzuNPL8Ma48fHGWJgchmRK5TU4p6aNZ3g&oe=6AB64F50",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -181,22 +182,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zhVVKGtu4cEQ7kNvwElupFm&_nc_oc=Adq_KksCe6wLjDDyjk-4iDBdyHG6TjdFC12wNvMPar9qvCO2RZWYV3vifEOQ5phI2IQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=2AXVnYejoFvozaKJw7SWWA&_nc_ss=7f289&oh=00_AQISwaknraEjuXSvsIkcExzrqdgMZm5wscactMfbPrzwUA&oe=6AB62038",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "moda",
-          "url": "https://www.facebook.com/gobernaciondelapaz/posts/lapazenlaexpocruz-la-chola-pace%C3%B1a-lleg%C3%B3-a-la-expocruz-2026-para-mostrarnos-que-l/1536119465210118/",
-          "has_image": true,
-          "text_preview": "#LaPazEnLaExpocruz | La chola paceña llegó a la Expocruz 2026 para mostrarnos que la identidad se lleva con orgullo y que nuestras tradiciones pueden conquistar nuevos espacios. 📸 Así se vivió el... #LaPazEnLaExpocruz | La chola paceña llegó a la Expocruz 2026 para mostrarnos que la identidad se lleva con orgullo y que nuestras tradiciones pueden... #LaPazEnLaExpocruz | La chola paceña llegó a la "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gam_cbba",
@@ -411,13 +403,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aj0bjeiHhz8Q7kNvwEU5Uea&_nc_oc=AdqkMv1kfOz9KjBY7YP0w5lsid2GbWEQbcbLZKw13ys4UvXoya96WhsdrKxtGBcJQzE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=s82YTWl0ST37yelxvSGYbQ&_nc_ss=7f289&oh=00_AQLiWhQ7JjW2Uc9-73ilMpzd_io92se4oJDBLVrKid_Zpg&oe=6AB63E21",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid02GBkACiF8HkG1rL8EGRNRdELVy7deqnJqEAwUm9St5jTUYj3qE9qdViLougZDcuSyl?__cft__[0]=AZhpRMdFNf9mCcdlckqtIevgt4UP_GzO-QrCp83z3WoQPaT9gs2kTwlsFZyvUxPLNFTUvdnrmgGYSmebzTx16ZpTDvMRAHg0qvLEsfY2wpUhk67Iz0RPMNsQg7ASk8WgAcquLhloYpldabpikQ3OP9GUmKcAvOhV1joOrbuuSQhW3Gle2yYk0V3o1XU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "El Diario - Bolivia 4 h #Seguridad… Ver más Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_radio_fides",
@@ -446,12 +447,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_rtp",
@@ -938,30 +939,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NiRA589jTIcQ7kNvwF6vNIa&_nc_oc=AdoZxqwYP6MOvS47tSo5FhgtDNtQY27vAMQBVFfVTVnGdrG1tx3SPBwpWHw1k_hr0VQ&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=J1CI6PW9fXsKjs1K5bkV2A&_nc_ss=7f289&oh=00_AQI0z_BtGzpfNzjvO3wK9h72SJy2k-MCtXtYJBbRPtPLqw&oe=6AB60787",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/videos/en-vivo-%EF%B8%8F-ventanas-con-historia-covento-santa-teresa-%EF%B8%8F/2152107509072983/",
-          "has_image": true,
-          "text_preview": "[EN VIVO] Ventanas con Historia - Covento Santa Teresa Osea si bonito, Pero era para festejar a cocha pues, pudiendo tocar o cantar cueca, huaynos, bailecitos!!! Para cocha!! Tenemos problemas para reproducir este video. Más información Ver más comentarios Floralics RiGoy Ver las 2 respuestas"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/videos/2152107509072983/?comment_id=1521057086715465&__cft__[0]=AZgqOMnCyaVXw9G_91ehDVSk0SRONwG1v5SzwITO4N7ar_TLStJprLU62HzndnILeKYBPMn07NfEqjIrlqJhdhDfD4AcGhq_gF6R5RZaRQ7BKlcRJXkEDdu3gK9aVtaP_bOvHdfWoQeJ9pe-NnLaFziPIDnMWWnkgjikQcP3f6PFVRknSaQTT4YMZ961nHTkDAw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Osea si bonito, Pero era para festejar a cocha pues, pudiendo tocar o cantar cueca, huaynos, bailecitos!!! Para cocha!! Floralics RiGoy"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -989,22 +973,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=N6OtGtq-oUcQ7kNvwGcWmED&_nc_oc=AdrOx8vt3-LDB4ooxm7LLFy3r7iuBitya4jNTWZngIusRId6jGpfblaFOHFgi2JlAXU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=clj85H-pxUWoX8C6brfRvA&_nc_ss=7f289&oh=00_AQKNmpiOLUUXpwpD45mTuNtx6Oteskmz9xnRBp_hx6xBkw&oe=6AB6313D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid0oDRGuhRNKmo8awz1hELrTXtQxEGaTAtiJd6FtDmNPx5L41k3YvvHXnwvGsjUnidbl?__cft__[0]=AZjJEOiS4xt2YMOgNcpM197QQMiiJzjfCNEoIJpNni7ao4hoAJT6GAM2DISxfJr-ZPmLSTgVeptmw2kOd6apZJscZOID92WZ9ZguEb7hTn61gHW9DI6gADhvSkpa8Na5anAp2lZDwl2TJwym9_gEXEeTjDfTKoYkko2bFd2d2Wss55-E5vA2cmS2OxM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "HECTOR CANONGE Los Lazos Que Nos Unen… Ver más HECTOR CANONGE Los Lazos Que Nos Unen… Ver más @seguidores"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1402,12 +1377,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 39,
+          "score": 26,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1415,19 +1390,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
-          "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Capturan a 7 implicados en la ola de asesinatos en San Ignacio de Velasco V"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 45,
+          "score": 32,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 45,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "has_image": true,
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1595,8 +1570,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
-      "events": 39,
+      "raw_items": 38,
+      "events": 38,
       "rejected": 0,
       "rejected_samples": [],
       "error": null

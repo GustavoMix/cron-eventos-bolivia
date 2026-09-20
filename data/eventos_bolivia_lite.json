@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-20T16:51:30-04:00",
+  "generated_at": "2026-09-20T19:18:43-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 62,
+    "events_total": 63,
     "events_today": 14
   },
   "filters": {
@@ -65,7 +65,7 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 8
+        "count": 9
       },
       {
         "key": "concierto",
@@ -127,7 +127,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 14
+        "count": 15
       },
       {
         "key": "Cochabamba",
@@ -167,14 +167,14 @@
         "count": 18
       },
       {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
+        "key": "La Paz",
+        "label": "La Paz",
         "count": 15
       },
       {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 14
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 15
       },
       {
         "key": "Chuquisaca",
@@ -216,7 +216,7 @@
       {
         "key": "todos",
         "label": "Todos",
-        "count": 62
+        "count": 63
       }
     ],
     "price": [
@@ -233,14 +233,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 46
+        "count": 47
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 54
+        "count": 56
       },
       {
         "key": "con_video",
@@ -252,17 +252,17 @@
       {
         "key": "FEXPOCRUZ",
         "label": "FEXPOCRUZ",
-        "count": 2
+        "count": 3
       },
       {
         "key": "Expocruz2026",
         "label": "Expocruz2026",
-        "count": 2
+        "count": 3
       },
       {
         "key": "OportunidadesParaTodos",
         "label": "OportunidadesParaTodos",
-        "count": 2
+        "count": 3
       },
       {
         "key": "UTO",
@@ -292,6 +292,11 @@
       {
         "key": "RumboAExpocruz2026",
         "label": "RumboAExpocruz2026",
+        "count": 1
+      },
+      {
+        "key": "SorteoExpocruz",
+        "label": "SorteoExpocruz",
         "count": 1
       },
       {
@@ -363,18 +368,13 @@
         "key": "CulturaBoliviana",
         "label": "CulturaBoliviana",
         "count": 1
-      },
-      {
-        "key": "ArteBoliviano",
-        "label": "ArteBoliviano",
-        "count": 1
       }
     ],
     "source_classes": [
       {
         "key": "media",
         "label": "media",
-        "count": 18
+        "count": 19
       },
       {
         "key": "venue",
@@ -455,6 +455,7 @@
     ],
     "featured": [
       "evt_b241df7de02d67",
+      "evt_e862bfd2d33cb1",
       "evt_587d8a40e6d403",
       "evt_398fa859ea1ed6",
       "evt_a3da7b2211d8f5",
@@ -468,7 +469,6 @@
       "evt_13851ec48fd0e5",
       "evt_5dbfff52d4bb54",
       "evt_1a8ff919daa25b",
-      "evt_5aa45ee0cffbac",
       "evt_ab43ab2b29d9ae",
       "evt_c985524f14c90a",
       "evt_8add3d73034fb7",
@@ -488,9 +488,9 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 32,
-      "events_upcoming": 14,
-      "events_with_image": 13,
+      "events_total": 33,
+      "events_upcoming": 15,
+      "events_with_image": 14,
       "events_with_video": 2,
       "sources_total": 26,
       "sources_ok": 4
@@ -501,12 +501,12 @@
       "events_with_image": 15,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 32,
+      "events_total": 31,
       "events_upcoming": 18,
-      "events_with_image": 13,
+      "events_with_image": 14,
       "events_with_video": 3,
       "sources_total": 13,
       "sources_ok": 4
@@ -563,7 +563,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 62,
+      "events_total": 61,
       "events_upcoming": 19,
       "events_with_image": 19,
       "events_with_video": 0
@@ -584,9 +584,9 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 11,
-      "events_upcoming": 8,
-      "events_with_image": 8,
+      "events_total": 12,
+      "events_upcoming": 9,
+      "events_with_image": 9,
       "events_with_video": 0
     },
     "exposicion": {
@@ -600,7 +600,7 @@
       "label": "Ferias y expos",
       "events_total": 11,
       "events_upcoming": 11,
-      "events_with_image": 6,
+      "events_with_image": 7,
       "events_with_video": 3
     },
     "festival": {
@@ -694,7 +694,7 @@
     },
     {
       "event_id": "evt_e862bfd2d33cb1",
-      "title": "Expocruz 2026",
+      "title": "Viví una feria diferente, vos podés convertirte en el próximo ganador de Bs. 24.000 en efectivo de Expocruz 2026!",
       "category": "feria",
       "category_label": "Ferias y expos",
       "starts_at": "2026-09-18T17:00:00-04:00",
@@ -709,13 +709,13 @@
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
       "venue": "Fexpocruz",
-      "image_url": null,
+      "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/816030272_1627523852121893_7204709607539326178_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=105&ccb=1-7&_nc_sid=cae128&_nc_ohc=9Wan0r0UzrUQ7kNvwGhZxZV&_nc_oc=AdpSecXB8gHJFW6_MkvP97r0JDS0Flv14UdWiAPKYyKvTudQxIL9fXsmapD8iuGa7Es&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=uUSKjhKi2fGCTApi9QrUnA&_nc_ss=7f289&oh=00_AQJk4Vly1AAPjbnoH3Z-RXZGBzWyBzHmCWsHWRGQlwO6EQ&oe=6AB6379E",
       "has_video": true,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
+      "price_from": 24.0,
+      "currency": "BOB",
+      "price_label": "Bs 24",
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -725,10 +725,10 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 54,
-      "is_featured": false,
+      "quality_score": 88,
+      "is_featured": true,
       "status": "programado",
-      "source_count": 1
+      "source_count": 2
     },
     {
       "event_id": "evt_99e5ce9b1cdfbb",
@@ -1824,66 +1824,48 @@
       "organizer": null,
       "showtimes": [
         "18:40",
-        "16:40",
-        "18:00",
+        "20:40",
         "20:00",
         "22:00",
-        "17:00",
+        "19:30",
         "19:00",
         "21:00",
-        "19:30",
-        "20:40",
         "21:30",
-        "17:30",
-        "16:10",
+        "19:20",
         "19:50",
         "22:10",
-        "16:50",
         "19:10",
-        "19:20",
         "20:30",
-        "16:20",
         "18:50",
         "21:10",
-        "17:10",
         "20:10"
       ],
       "formats": [
         "2D - DBOX - Doblada",
         "2D - Doblada",
-        "2D - PRE - Doblada",
-        "2D - PRE - Subtitulada",
-        "2D - XD - DBOX - Doblada",
-        "DBOX - 2D - Doblada",
         "DBOX - XD - 2D - Doblada",
-        "XD - 2D - DBOX - Doblada",
         "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada"
+        "PRE - 2D - Subtitulada",
+        "XD - DBOX - 2D - Doblada",
+        "2D - PRE - Doblada",
+        "2D - PRE - Subtitulada"
       ],
       "occurrences": [
         "2026-09-20T18:40:00-04:00",
-        "2026-09-20T16:40:00-04:00",
-        "2026-09-20T18:00:00-04:00",
+        "2026-09-20T20:40:00-04:00",
         "2026-09-20T20:00:00-04:00",
         "2026-09-20T22:00:00-04:00",
-        "2026-09-20T17:00:00-04:00",
+        "2026-09-20T19:30:00-04:00",
         "2026-09-20T19:00:00-04:00",
         "2026-09-20T21:00:00-04:00",
-        "2026-09-20T19:30:00-04:00",
-        "2026-09-20T20:40:00-04:00",
         "2026-09-20T21:30:00-04:00",
-        "2026-09-20T17:30:00-04:00",
-        "2026-09-20T16:10:00-04:00",
+        "2026-09-20T19:20:00-04:00",
         "2026-09-20T19:50:00-04:00",
         "2026-09-20T22:10:00-04:00",
-        "2026-09-20T16:50:00-04:00",
         "2026-09-20T19:10:00-04:00",
-        "2026-09-20T19:20:00-04:00",
         "2026-09-20T20:30:00-04:00",
-        "2026-09-20T16:20:00-04:00",
         "2026-09-20T18:50:00-04:00",
         "2026-09-20T21:10:00-04:00",
-        "2026-09-20T17:10:00-04:00",
         "2026-09-20T20:10:00-04:00"
       ],
       "content_genre": null,
@@ -1892,44 +1874,6 @@
       "director": null,
       "cast": [],
       "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_5aa45ee0cffbac",
-      "title": "18/09/2026 Cultura ONU Mujeres lleva a historietas la vida de bolivianas que rompieron estereotipos Una pilota…",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-09-22T19:00:00-04:00",
-      "starts_at_ms": 1790118000000,
-      "ends_at_ms": 1790481540000,
-      "multi_day": true,
-      "display_date": "Del 22 al 26 de septiembre · 19:00",
-      "lifecycle": "proximo",
-      "lifecycle_label": "Próximos",
-      "days_until": 2,
-      "is_upcoming": true,
-      "city": "La Paz",
-      "department": "La Paz",
-      "venue": "Estadio Hernando Siles",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/18/11_dc_1.jpg?itok=n77dyGLo",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": 17.95,
-      "currency": "BOB",
-      "price_label": "Bs 17.95",
-      "organizer": null,
-      "showtimes": [],
-      "formats": [],
-      "occurrences": [],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 69,
       "is_featured": true,
       "status": "programado",
       "source_count": 1
@@ -1969,6 +1913,44 @@
       "cast": [],
       "quality_score": 69,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_5aa45ee0cffbac",
+      "title": "18/09/2026 Cultura ONU Mujeres lleva a historietas la vida de bolivianas que rompieron estereotipos Una pilota…",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-22T19:00:00-04:00",
+      "starts_at_ms": 1790118000000,
+      "ends_at_ms": 1790481540000,
+      "multi_day": true,
+      "display_date": "Del 22 al 26 de septiembre · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 2,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Estadio Hernando Siles",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/18/11_dc_1.jpg?itok=n77dyGLo",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
@@ -2804,6 +2786,44 @@
       "director": null,
       "cast": [],
       "quality_score": 59,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_36e9f26a645dc8",
+      "title": "Espectáculos",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-12-20T17:15:00-04:00",
+      "starts_at_ms": 1797801300000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 20 de diciembre · 17:15",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 91,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Estadio Hernando Siles",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/7/24/12_dc_cartelera_1_0.jpg?itok=9MQ7b8B8",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
