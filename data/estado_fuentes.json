@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T12:09:01-04:00",
+  "generated_at": "2026-09-20T16:51:30-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,14 +10,13 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_feicobol",
       "fb_gam_cbba",
-      "fb_gobernacion_lapaz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 87.3,
-    "horas_maximo_sin_datos": 753.0
+    "horas_promedio_sin_datos": 86.3,
+    "horas_maximo_sin_datos": 757.7
   },
   "sources": [
     {
@@ -182,13 +181,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zhVVKGtu4cEQ7kNvwElupFm&_nc_oc=Adq_KksCe6wLjDDyjk-4iDBdyHG6TjdFC12wNvMPar9qvCO2RZWYV3vifEOQ5phI2IQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=2AXVnYejoFvozaKJw7SWWA&_nc_ss=7f289&oh=00_AQISwaknraEjuXSvsIkcExzrqdgMZm5wscactMfbPrzwUA&oe=6AB62038",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "moda",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/lapazenlaexpocruz-la-chola-pace%C3%B1a-lleg%C3%B3-a-la-expocruz-2026-para-mostrarnos-que-l/1536119465210118/",
+          "has_image": true,
+          "text_preview": "#LaPazEnLaExpocruz | La chola paceña llegó a la Expocruz 2026 para mostrarnos que la identidad se lleva con orgullo y que nuestras tradiciones pueden conquistar nuevos espacios. 📸 Así se vivió el... #LaPazEnLaExpocruz | La chola paceña llegó a la Expocruz 2026 para mostrarnos que la identidad se lleva con orgullo y que nuestras tradiciones pueden... #LaPazEnLaExpocruz | La chola paceña llegó a la "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -471,22 +479,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eacD2qLS7bkQ7kNvwHSgn8O&_nc_oc=AdrEebTFIYn5TY_wvoIaCNaZuN_nx9_l9m2AB7Zh3fbj4x6ozZLtnVdlF_Z2bWCETfs&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=jVn3SNdSnwVaeIjaIWPz6A&_nc_ss=7f289&oh=00_AQIcnvrEzxL5oF6G33LvwC30X4ppgquEg-HxOcc0VCOrkQ&oe=6AB5E902",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1830599031447426/?__cft__[0]=AZjvAyKVlSK4QP4exVhSYYhRGFEnhVDyDpJgh6PkQ-JwUtTOxI-d0RK_O16joWbhSKYb1UyeUyOUIJ9AGrCmOs_sthgsjO8-oc2eBDdRkdCKsGAzHi3i1apiq7RdxKB5QfBUIl-INajaKGP7rNBc0EMd8Jl-BAZN7EMzbjhM6UCqsopEpBMVDFw07y72DQUsibrL&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#ESPACIOPUBLICITARIO ¿Quieres ganar grandes premios mientras ahorras? ¡Vuelven los millones a Banco Prodem y llueven el doble de premios para el área urbana y rural! … Ver más #ESPACIOPUBLICITARIO ¿Quieres ganar grandes premios mientras ahorras? ¡Vuelven los millones a Banco Prodem y llueven el doble de premios para el área urbana y rural! … Ver más Tenemos problemas para reproducir este video. Má"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber_radio",
@@ -939,13 +938,30 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NiRA589jTIcQ7kNvwF6vNIa&_nc_oc=AdoZxqwYP6MOvS47tSo5FhgtDNtQY27vAMQBVFfVTVnGdrG1tx3SPBwpWHw1k_hr0VQ&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=J1CI6PW9fXsKjs1K5bkV2A&_nc_ss=7f289&oh=00_AQI0z_BtGzpfNzjvO3wK9h72SJy2k-MCtXtYJBbRPtPLqw&oe=6AB60787",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/videos/en-vivo-%EF%B8%8F-ventanas-con-historia-covento-santa-teresa-%EF%B8%8F/2152107509072983/",
+          "has_image": true,
+          "text_preview": "[EN VIVO] Ventanas con Historia - Covento Santa Teresa Osea si bonito, Pero era para festejar a cocha pues, pudiendo tocar o cantar cueca, huaynos, bailecitos!!! Para cocha!! Tenemos problemas para reproducir este video. Más información Ver más comentarios Floralics RiGoy Ver las 2 respuestas"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/videos/2152107509072983/?comment_id=1521057086715465&__cft__[0]=AZgqOMnCyaVXw9G_91ehDVSk0SRONwG1v5SzwITO4N7ar_TLStJprLU62HzndnILeKYBPMn07NfEqjIrlqJhdhDfD4AcGhq_gF6R5RZaRQ7BKlcRJXkEDdu3gK9aVtaP_bOvHdfWoQeJ9pe-NnLaFziPIDnMWWnkgjikQcP3f6PFVRknSaQTT4YMZ961nHTkDAw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Osea si bonito, Pero era para festejar a cocha pues, pudiendo tocar o cantar cueca, huaynos, bailecitos!!! Para cocha!! Floralics RiGoy"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -973,13 +989,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=N6OtGtq-oUcQ7kNvwGcWmED&_nc_oc=AdrOx8vt3-LDB4ooxm7LLFy3r7iuBitya4jNTWZngIusRId6jGpfblaFOHFgi2JlAXU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=clj85H-pxUWoX8C6brfRvA&_nc_ss=7f289&oh=00_AQKNmpiOLUUXpwpD45mTuNtx6Oteskmz9xnRBp_hx6xBkw&oe=6AB6313D",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid0oDRGuhRNKmo8awz1hELrTXtQxEGaTAtiJd6FtDmNPx5L41k3YvvHXnwvGsjUnidbl?__cft__[0]=AZjJEOiS4xt2YMOgNcpM197QQMiiJzjfCNEoIJpNni7ao4hoAJT6GAM2DISxfJr-ZPmLSTgVeptmw2kOd6apZJscZOID92WZ9ZguEb7hTn61gHW9DI6gADhvSkpa8Na5anAp2lZDwl2TJwym9_gEXEeTjDfTKoYkko2bFd2d2Wss55-E5vA2cmS2OxM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "HECTOR CANONGE Los Lazos Que Nos Unen… Ver más HECTOR CANONGE Los Lazos Que Nos Unen… Ver más @seguidores"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1126,22 +1151,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dn6EbDJtsjIQ7kNvwFCOTvW&_nc_oc=AdpMVqcjmxFI1DAfDzb5FLqJUVJLwe7jYAvsgR9Oy1351aDq69piflBX3icJHIyWXbg&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=jRVpLz5Upz5QRhKg-VrOZg&_nc_ss=7f289&oh=00_AQKVZ1U6sd5wrFv0QZWICFmGofDulNsBXdjUaOHoHdOYmw&oe=6AB5C560",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FranciscoXavierCh/videos/la-universidad-san-francisco-xavier-de-chuquisacaaclara-que-los-cursos-ofertados/2345197716016291/",
-          "has_image": true,
-          "text_preview": "LA UNIVERSIDAD SAN FRANCISCO XAVIER DE CHUQUISACA, ACLARA QUE LOS CURSOS OFERTADOS POR ESTA CUENTA NO TIENEN EL AVAL DE NUESTRA UNIVERSIDAD, SE LES INSINÚA A LA COMUNID… Ver más LA UNIVERSIDAD SAN FRANCISCO XAVIER DE CHUQUISACA, ACLARA QUE LOS CURSOS OFERTADOS POR ESTA CUENTA NO TIENEN EL AVAL DE NUESTRA UNIVERSIDAD, SE LES INSINÚA A LA COMUNID… Ver más Tenemos problemas para reproducir este video"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umsa",
@@ -1386,8 +1402,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1511,8 +1527,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
-      "events": 37,
+      "raw_items": 30,
+      "events": 30,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1545,8 +1561,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1562,8 +1578,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 7,
+      "events": 7,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1579,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 42,
-      "events": 42,
+      "raw_items": 39,
+      "events": 39,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1613,8 +1629,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
