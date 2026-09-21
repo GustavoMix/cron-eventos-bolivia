@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T19:18:43-04:00",
+  "generated_at": "2026-09-21T00:58:27-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_anf",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 83.9,
-    "horas_maximo_sin_datos": 760.1
+    "horas_promedio_sin_datos": 84.8,
+    "horas_maximo_sin_datos": 765.8
   },
   "sources": [
     {
@@ -46,13 +46,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7XJKt2chezQQ7kNvwFoipWW&_nc_oc=Ado8_YQnwblng_LFBfCEik8_U2ECgv15HRG-_TxjEK5Zdayz6N7leVVom4EXutxRq4Q&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=9qWpTXPc8pE5QQOPSup-zQ&_nc_ss=7f289&oh=00_AQLg6FlxdMvqYdfrrhppQEzpsce4aNGJp3QGUuiAbV7E6w&oe=6AB68F75",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/ConciertosEnBolivia/posts/pfbid02Fqm2armUEjBq1Fxgb9hYRwyRY9iF8JZ6469YyG1T4fqRKMv8NWyeurpxANaitJBxl?__cft__[0]=AZjPKfGYv2u8Cq2FalJzF8_zfNMJdMtrIVMZpgXEvikeVu6nH-G3T7IgPuqV7GcMCznecb1KsxP97vHTe8qQxFuTEfomlyVEYHRSYstTuVuSX6FYIXuQWewNIqcvOxWpS9gafATOGvSPqqYp2UVtdFDC6ol8VcOov1qyacAxOkFARNlYgTavEn65g4I&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Vamos a disfrutar de mucha música Bandas invitadas: Red Cinnamon AUSENTE Los Bolitas Deszaire Project … Ver más Vamos a disfrutar de mucha música Bandas invitadas: Red Cinnamon AUSENTE Los Bolitas Deszaire Project … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -97,13 +106,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=r-6krc-5KbwQ7kNvwGeyV3c&_nc_oc=Adpk7Bi_aTU7wv8dAtF3rFkxzDaouDA4E1a5kqVGNADkXniyTIxkYvUiIiD0BU3sagM&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=3In_1lbdHp_GGa7n9D0daA&_nc_ss=7f289&oh=00_AQL65qyqcX40ZpzuNPL8Ma48fHGWJgchmRK5TU4p6aNZ3g&oe=6AB64F50",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -132,12 +141,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de La Paz 468 mil seguidores • 36 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pue'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -403,22 +412,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aj0bjeiHhz8Q7kNvwEU5Uea&_nc_oc=AdqkMv1kfOz9KjBY7YP0w5lsid2GbWEQbcbLZKw13ys4UvXoya96WhsdrKxtGBcJQzE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=s82YTWl0ST37yelxvSGYbQ&_nc_ss=7f289&oh=00_AQLiWhQ7JjW2Uc9-73ilMpzd_io92se4oJDBLVrKid_Zpg&oe=6AB63E21",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid02GBkACiF8HkG1rL8EGRNRdELVy7deqnJqEAwUm9St5jTUYj3qE9qdViLougZDcuSyl?__cft__[0]=AZhpRMdFNf9mCcdlckqtIevgt4UP_GzO-QrCp83z3WoQPaT9gs2kTwlsFZyvUxPLNFTUvdnrmgGYSmebzTx16ZpTDvMRAHg0qvLEsfY2wpUhk67Iz0RPMNsQg7ASk8WgAcquLhloYpldabpikQ3OP9GUmKcAvOhV1joOrbuuSQhW3Gle2yYk0V3o1XU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El Diario - Bolivia 4 h #Seguridad… Ver más Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_radio_fides",
@@ -446,13 +446,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iRF_53oN0OcQ7kNvwGImJkv&_nc_oc=AdoaPnP3u0CSOLKA4YHhAtcxoJz7zm7yO4EvSGfNQEYsO0Ytn1Z8gFC3_LVi_cNLbak&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=tJ80Jqx1SSbcK-PC9W_i-w&_nc_ss=7f289&oh=00_AQLxXglh4DghY1sh_Fzalq6Z7rX69jlUTU9_-S3tzDg0cQ&oe=6AB678FA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ANFidesBolivia/posts/pfbid02EtAvjhcBhVyFnmzf7o4X2kMH8Mpe6o1p3WKmSdXuRX5MRrCaqmPo9UWaj54V1koEl?__cft__[0]=AZhos7l0lHKYQ-pRn5Nto2wOVHsseDAETU6KDRkVKAQFN5pVlpq-xDiMlnCRdW5rT-4j8NC2t2U526nDh6TwegGydB6pE5NV68lA9vIRHjcZnKc403UByGMUgdRYxXeqBfUWd84RPILKOZiYvCAPQCQp9zRx6QgJIb01-UeepQIyUWnkJcMHufdVr30&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#GrupoFides | #ANF Vocero presidencial acusa a Evo Morales de ser el responsable de los daños que afectan a la economía https://acortar.link/9yxgPj"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_rtp",
@@ -1377,12 +1386,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
+          "score": 8,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1390,19 +1399,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
+          "score": 22,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Las empresas que abrieron caminos en Cochabamba Ver más 3 ‘China Polo’: can"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 14,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 45,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
-          "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1460,15 +1469,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 35,
+      "raw_items": 32,
       "events": 0,
-      "rejected": 35,
+      "rejected": 32,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/44324f34-a1b9-46f1-870d-63a15e17f665",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c695ed97-7b2c-4d01-9000-ad1c5c3e6b97",
           "has_image": true,
           "text_preview": ""
         },
@@ -1476,7 +1485,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/33928c39-0f45-4339-9ef2-77a47730c163",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/01712dc9-2b27-467b-ae83-ade619951f81",
           "has_image": true,
           "text_preview": ""
         },
@@ -1484,7 +1493,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a7c0b135-255e-44ef-821a-664d1892eba5",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/39dd3e77-e97d-4b2b-a81f-259d48ed1484",
           "has_image": true,
           "text_preview": ""
         }
@@ -1502,8 +1511,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 30,
-      "events": 30,
+      "raw_items": 31,
+      "events": 31,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1519,8 +1528,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 8,
+      "events": 8,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1536,8 +1545,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1553,8 +1562,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 7,
-      "events": 7,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1570,8 +1579,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
-      "events": 38,
+      "raw_items": 43,
+      "events": 43,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1604,8 +1613,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
