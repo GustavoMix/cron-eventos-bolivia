@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:49:52-04:00",
+  "generated_at": "2026-09-21T16:02:49-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_casa_moneda_potosi",
       "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -15,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 87.1,
-    "horas_maximo_sin_datos": 773.7
+    "horas_promedio_sin_datos": 91.6,
+    "horas_maximo_sin_datos": 780.9
   },
   "sources": [
     {
@@ -79,22 +80,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rF5wIlUaqqcQ7kNvwHMVXVr&_nc_oc=Adpqe_c8YR_ZwGARu_cy08Uwp4ybb4GaIpJDPnJnIt1TNhCRKR2CEKoXyx66l794HQI&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kxhaSBsOT-wyHEXqmjbAHg&_nc_ss=7f289&oh=00_AQIIBbfLHZnISIb3v2ewipaXJsXf5zYoPbN2BFzU9uDWZA&oe=6AB70883",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid05L3JRMLnk4W4PqNDgvYpVZr2e2ygyuXpco2o8jfWQ52L2ZHcEetNAQN6jwwxz8Vjl?__cft__[0]=AZjB8CjJbajw4K_sv2uTHUhjAwd1S3J2RE82C0q0QsedZFUFoumYOBBpbZcMw3J_Vonvkk5gVL0TWB9Y0CGctj7J_BlZs16x_cX8gIeNU0QZHXYnwknbmB_6megqGAaKbFI_xC0P6o3eBhznontnLeS-lnZbhx9N7gFb8zsaGl7O98RdhYjPbH8qjF0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -139,22 +131,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i4LtUM1qBeYQ7kNvwFGuAtE&_nc_oc=AdoeGvR0yfKw9cwkQBmucZ50yCg2T4T-axs06WZrXnpEL0JICNx3FgWczTL17HLrBDs&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=Ds0rvErgEu1UqUIAsyHlFQ&_nc_ss=7f289&oh=00_AQL66CMhHsi5e2J6gJDpxmw-XbIJHYg8thu4QCLXjZkWhA&oe=6AB6E405",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "concierto",
-          "url": "https://www.facebook.com/MunicipioLaPaz/videos/en-vivo-d%C3%ADa-del-estudiante-entrega-de-la-raci%C3%B3n-yapita-pace%C3%B1a/3072720139730580/",
-          "has_image": true,
-          "text_preview": "🔴En Vivo🔴 Día del Estudiante: Entrega de la Ración “Yapita Paceña” En Vivo Día del Estudiante: Entrega de la Ración “Yapita Paceña”"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_amun_lapaz",
@@ -590,22 +573,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NN_qWiOz8foQ7kNvwHC4woo&_nc_oc=Adq9XkIvralz4CxdwYb52wYSYkrPd78vvp0EmM0L2Zx4-TR-24RVhoXjO9GMCqqWeB8&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=YOf1cTQ__AIvDMbyZXrJCA&_nc_ss=7f289&oh=00_AQLW5YYHHL7VYm6ra4tw788V1Co6jJ5rP1ienSts77DoxQ&oe=6AB71696",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "cine",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid0g1Fg9gYKbdwJaW6uTjVt1kkmPvZbgb5gWzoFPaxVvQoZ3dPAbZH21rUvKhQm1nY5l?__cft__[0]=AZju42h0q1zqgk1kh3CHg4EqpIRc55hRLoh7G_peSbaFZs4G28PNnWp6T2Luhxc4-mTUtHhYx2oPX0ch4Qok5uPtIbE3ZuliRiMdi2Pl1sJ6tkPadq7I-g19baDb3wbopNR89HhpoAEvOp3fvbaEoW8ALmKrzSYlnZDUxfu75nAw5OzKOCb3jKGLFJc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Martes de Cine - [M] OTHERHOOD Un … Ver más Martes de Cine - [M] OTHERHOOD Un … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -651,12 +625,12 @@
       "region": "Potosí",
       "city": "Potosí",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_crc_lapaz",
@@ -667,13 +641,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=diliudaKH_wQ7kNvwGMRsMv&_nc_oc=AdrAu51sUt3X3aauNmw-2-Wa7wkw0j_kd-kcPcF1XXysmE30-27QM1OcCCIDjBX1Wvk&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=-m4v-uHE4meojWhocjK8TA&_nc_ss=7f289&oh=00_AQKQCOdWKC6bLXeJKDHASv_cge-ti5GQFzKa_01rBEVNiw&oe=6AB75E92",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid02noB3ticLdeNc9G62RL3kR388k1bj5vFbpbzuSEV6AQHGQtFuJJPdrqrFoNoK6Y9ql?__cft__[0]=AZjTOP2oURiuVYTQhpWDnU2JFRF94W2MgPUCVUxf1WGVQyNqI5pztvsAt1Wj7eOXqxwQxe-xcTTbia_Ai4y7Yt3AM74j1YLX4FyLf136EEbHIsjm7E0zByECMPs587wVr5KkiHW6C8QsoM1mF52KjlFa25a9G-5SIGu5nytUxys4J5s-jhlT4rQ1hS0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CRC | “El aguayo de mamá Tomasa” C… Ver más #CRC | “El aguayo de mamá Tomasa” C… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -871,13 +854,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zXTn9hRX1EUQ7kNvwF_vghB&_nc_oc=AdpVUHaLJabqajyUEIvWGc6x-y41BtSf-NKk6B68Szrhxpa9t-5wjwlsAez7o-m-Mas&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=CgT3Q8h8vS5s5YMBgVA2qg&_nc_ss=7f289&oh=00_AQLuMyzxyARqNovE7sEypj6J5WWZzF98kPW3TR54LUU06w&oe=6AB767E1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/28415593971427008/?__cft__[0]=AZjEXyJlxWKhRMadfiWBBHed-r77Sq1g8hyZHXNXAZJ8hRf1pgtaS4sVqg3dO693rPyh02-laz-bAr4P_ELDXe40o6z2CQt0_cNzVhI0q4bcmJ7o8b_iwpinUdyeRIMr6n-BswvQ8JKYZLsLyJ1o2LZinN4N_6NIrqoGB3J7fNqwdMCyiy8jcDfDnvq4d70NHYNO&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡NUEVAS OPORTUNIDADES EN FIPAZ! E… Ver más ¡NUEVAS OPORTUNIDADES EN FIPAZ! E… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -1394,8 +1386,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1403,23 +1395,23 @@
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "18/09/2026 Medio Ambiente El tilcayo: Un nuevo felino para el mundo desde Bolivia El tilcayo (Leopardus tilcayo) es una nueva especie de felino salvaje descubierta y descrita científicamente en septiembre de 2026. vista 17/09/2026 Interesante Seis rincones de la casa que se pueden ordenar en menos de diez minutos La acumulación de objetos en los espacios de uso diario suele transformar la limpieza"
+          "text_preview": "21/09/2026 Medio Ambiente Conserva Aves alcanza más de 700 mil hectáreas protegidas La iniciativa Conserva Aves 2023-2026 concluyó su etapa de implementación en Bolivia con más de 700 mil hectáreas declaradas como áreas protegidas... vista 18/09/2026 Medio Ambiente El tilcayo: Un nuevo felino para el mundo desde Bolivia El tilcayo (Leopardus tilcayo) es una nueva especie de felino salvaje descubie"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 50,
+          "score": 36,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "has_image": true,
+          "text_preview": "18/09/2026 Cultura ONU Mujeres lleva a historietas la vida de bolivianas que rompieron estereotipos Una pilota frente a los controles de una aeronave, una soldadora entre herramientas y chispas, una bombera voluntaria, una corredora de montaña de... vista 17/09/2026 Cultura Seis compañías animan la segunda versión de Teatro Sur Seis elencos internacionales animarán el II Festival Internacional “Te"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 36,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega de títulos previos y viajes, las 29 aspirantes a conquistar la corona de Miss Bolivia... vista Lo más leído 1 Frente frío afectará a seis departamentos desde este lunes 21 de septiembre Ver más 2 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista 24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega d"
         }
       ],
       "error": null
@@ -1477,9 +1469,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 32,
+      "raw_items": 34,
       "events": 0,
-      "rejected": 32,
+      "rejected": 34,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1519,8 +1511,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 31,
-      "events": 31,
+      "raw_items": 30,
+      "events": 30,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1587,8 +1579,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 43,
-      "events": 43,
+      "raw_items": 41,
+      "events": 41,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
