@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T20:11:01-04:00",
+  "generated_at": "2026-09-22T00:58:32-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 91.3,
-    "horas_maximo_sin_datos": 785.0
+    "horas_promedio_sin_datos": 91.4,
+    "horas_maximo_sin_datos": 789.8
   },
   "sources": [
     {
@@ -28,13 +28,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1XNH6Bj8dmEQ7kNvwFCQP1q&_nc_oc=Adr-EFYC3osabXh38h_HY31eieyGFVqP-5uJwG11fFBMLb3g0AbT4uM87KK1PwtEuYw&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=BjNnuTFfpbJ5RVUUQMrD6A&_nc_ss=7f289&oh=00_AQKvOuxAHd1AuakRh58nRVmeXcxD--mcofbJLXxA5rJBlg&oe=6AB7EF5A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "nightlife",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid0fd5tK1cGpKrpnLqgi6ZL4EPoTqhuASHGJDbxH9STj1gqDWAmJWpj6VvcC9gnCzdql?__cft__[0]=AZgR1sF7dg0kKiJsMvGpB7hch0pJpbPVQW5DZHW25-vjxRAaz44-camiKWU6hWRHBlq6uV1tNx8F_reEGiBhqrMNAZF8ljkvSck4qjV5LlB9YxPvL1n4Kt47Bno6gYirtGc3u5eOsesSogab_HaP7-DW1kNeFGu1SdvBQoeJtc1pdcgcV3ZqcBD-SBA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡POTOSÍ SE PREPARA PARA UNA NOCHE DE GRANDES CANCIONES! L… Ver más ¡POTOSÍ SE PREPARA PARA UNA NOCHE DE GRANDES CANCIONES! L… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -62,13 +71,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HZFZgBP2hawQ7kNvwGMHxso&_nc_oc=AdrTEOuzs4SXTcFIHmG0-2GZqMIB-AI0mWfsDYkalknWdiimk6WIojvKzwv1tSJzeHE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=vx9_3T-ZCydb8vP18fWHjQ&_nc_ss=7f289&oh=00_AQIO1WVdTifp32YaBStX3lLzD2r7Cqlsoe5LFtHc8FTncQ&oe=6AB7D0B6",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZgu1ewxM9FGyGKS9q58bbDANlluX8VTf9MKGnOKZUWcZ08f4eFq1zp5W7HgQDlbRfPUMd2JNXcn_r8SG6RhqjmHq-Fx8wJ-xdcp__w1F1tP4Xq_BEWZGKuz5TwYEQX5qh3wkyisZzfXqN-R79QxKxal5JLdMBexA55MLsWMupiepElK496NxJzsAFIuyaHKCYNv&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZgu1ewxM9FGyGKS9q58bbDANlluX8VTf9MKGnOKZUWcZ08f4eFq1zp5W7HgQDlbRfPUMd2JNXcn_r8SG6RhqjmHq-Fx8wJ-xdcp__w1F1tP4Xq_BEWZGKuz5TwYEQX5qh3wkyisZzfXqN-R79QxKxal5JLdMBexA55MLsWMupiepElK496NxJzsAFIuyaHKCYNv&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -555,13 +581,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QEU3okJ1byMQ7kNvwEOQw24&_nc_oc=Adrb-sdFdfmZFYWpNij5fYVrZ_X4je2QNehpmsWjS2T-eAMCKw1tueL_izcrNDHkYtU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=4l8GrwNAXGHlv67No7acUQ&_nc_ss=7f289&oh=00_AQJ_Ja35yuFe2xFhaJn8YZPKERDWyYBfP7f3ovn2kBjQEg&oe=6AB7B5F3",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -623,22 +649,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5ENSDMeOiwkQ7kNvwHxliEe&_nc_oc=AdrW3v-QwZPkSN4wkDyDbkK3UmDDs5uxAkcEEXYdHSZu4HYM2-nY_fCZf0IMlZxxe_Q&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=LGfJacQZBRNG1Es8Qw9aWQ&_nc_ss=7f289&oh=00_AQLIcUfN5JlDdLXUrXF6_5mjEtm0_LRiCeSx_L4o0qcv6w&oe=6AB7A84F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/3736286129900645/?__cft__[0]=AZjfWYtc7wEwsH7PAjoxnA5qQ121pZ2vr9070QcCFKLV3IQsnbI-1-TtacB4LIZg2b7YLF_iCuOL2SWEF0ykDYPRqiCbgrTqlY5pyJep1k02QjMgj2dW8_3k-WB6sBRJ2p-aRVq00dYQLlQLyPpRbo3QJwPmofhs9Ja1Br3jRckM2PBa2_b-z9Ve12RYznyojocA&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "PROTEGER PARA RESTAURAR… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -836,13 +853,30 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=v1zUO1Sjir0Q7kNvwGP-GhQ&_nc_oc=AdqUqieCsr_ev3_z2nchGCZTPVidySd42oG135JNGWVBfz0OxSq0rVX5YHHdTTtzJAI&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=ckqQsOI3FMJnZL2aTP2LQA&_nc_ss=7f289&oh=00_AQLFMUc6HriIH3gXEDyLJN7obBlbeNrya7wnqcoqiNG9GQ&oe=6AB7CDA9",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?__cft__[0]=AZgqoT16FcYfjCk_5BRLQMP02QwAMfEVFCHX7H3Zp8DmVnb7ZKsSG6V1ARcVV0tKXC0o1P0P1-UyK3CIujPTMPruyTXn5BHL8HUGnyMGofzls2w68zS-eDzxf5MDTkGfQ1SAsvTPqUwV2yfeWCheEg46qE3skcOEoAnYl2PgVcAzPgNhGdAMdq3_5XINvHfS7YXa&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Tenemos problemas para reproducir este video. Más información Ver más comentarios Fabiola Franco Soria"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?comment_id=1696931752442171&__cft__[0]=AZgqoT16FcYfjCk_5BRLQMP02QwAMfEVFCHX7H3Zp8DmVnb7ZKsSG6V1ARcVV0tKXC0o1P0P1-UyK3CIujPTMPruyTXn5BHL8HUGnyMGofzls2w68zS-eDzxf5MDTkGfQ1SAsvTPqUwV2yfeWCheEg46qE3skcOEoAnYl2PgVcAzPgNhGdAMdq3_5XINvHfS7YXa&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Fabiola Franco Soria"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fipaz",
@@ -1074,22 +1108,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UvP4d8qM4I0Q7kNvwE6aNXq&_nc_oc=Adrizl6oE1hBH1hjZCMgmfsx2vWNsizvPSRUWacAqigdIciRgmBYRiof4YoRuE0R018&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Di6IpRbtYuHkyE9ZaOpp6w&_nc_ss=7f289&oh=00_AQJ9H4q3kEGqGwKE5Qn8AYzLn-tU_g1V5leJhsqHfefsYA&oe=6AB79FAF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid0o9NwBS8opCBrekjgW49ayEKLG6t3wUfhzNoyvURRa4hXUQXnFdUrRwWUxGcvw8RWl?__cft__[0]=AZjF-zIfax5wpSDt-dDN1f_d8TQ0xP63FhOpzhR9zwOrk2eWmjyHk-GWVWaKvfaT2FH3yWXpejleOpfkD9t4Trd79cqfyh4mw-bjn8kQ_QqN0c9kmDg49ccbIHXybFmzEebZhpP8p1aJUuVokkh9iZf_QAi-uAeZ7mXkw2TrdddPpotpMdcYT9DZMTw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CCP Laboratorio de Collage MEMORIAS DE PAPEL… Ver más #CCP Laboratorio de Collage MEMORIAS DE PAPEL… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1385,12 +1410,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 6,
-      "rejected": 7,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 38,
+          "score": 26,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1398,19 +1423,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 54,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "18/09/2026 Cultura ONU Mujeres lleva a historietas la vida de bolivianas que rompieron estereotipos Una pilota frente a los controles de una aeronave, una soldadora entre herramientas y chispas, una bombera voluntaria, una corredora de montaña de... vista 17/09/2026 Cultura Seis compañías animan la segunda versión de Teatro Sur Seis elencos internacionales animarán el II Festival Internacional “Te"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 45,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/almas-heridas-obra-teatro-infancias_641678",
+          "score": 26,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Escena ViScERal presenta: \"Almas Heridas - Obra de Teatro para Infancias\" Sinopsis: “Angustias y profundos pesares nos hacen mirar para adentro, los niños generalmente miran para afuera, son muy valientes. Solo los niños que sufren miran para adentro” “Almas Heridas” propone una aproximación empática a las vivencias de 3 pequeños y valientes protagonistas que nos invitan a acompaña"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista 24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega d"
         }
       ],
       "error": null
@@ -1468,9 +1493,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 35,
+      "raw_items": 34,
       "events": 0,
-      "rejected": 35,
+      "rejected": 34,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1484,7 +1509,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/01712dc9-2b27-467b-ae83-ade619951f81",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/970a081b-ed3e-4a67-b88b-731c6793261d",
           "has_image": true,
           "text_preview": ""
         },
@@ -1492,7 +1517,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/39dd3e77-e97d-4b2b-a81f-259d48ed1484",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/ee1976f3-3dfa-4c91-a243-ab0a425082ef",
           "has_image": true,
           "text_preview": ""
         }
@@ -1510,8 +1535,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 30,
-      "events": 30,
+      "raw_items": 33,
+      "events": 33,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1527,8 +1552,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 8,
-      "events": 8,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1578,8 +1603,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
-      "events": 39,
+      "raw_items": 43,
+      "events": 43,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
