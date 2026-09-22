@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:00:19-04:00",
+  "generated_at": "2026-09-22T17:21:07-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 93.4,
-    "horas_maximo_sin_datos": 801.8
+    "horas_promedio_sin_datos": 89.7,
+    "horas_maximo_sin_datos": 806.2
   },
   "sources": [
     {
@@ -300,13 +300,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=trX1lgpZcQYQ7kNvwHCWgZV&_nc_oc=Adr4gQMccO4udpQRuuWD8gak0K1knonNnjL3VM4I14CrtjTqg4XUGkGcaS0lgMPwVdE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=EoAqaPakqknWOc7pWNIOSg&_nc_ss=7f289&oh=00_AQJtcIOw2XWcyDsu_sKcfGewE3VSRWLlG17Rd9wA7hGv9w&oe=6AB8D00C",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 34,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/GrupoELDEBER/videos/as%C3%AD-vivimos-el-4to-d%C3%ADa-en-nuestro-stand-de-el-deber-en-expocruz-te-mostramos-alg/1096836826670923/",
+          "has_image": true,
+          "text_preview": "Así vivimos el 4to día en nuestro stand de EL DEBER, en Expocruz ✨ Te mostramos algunos de los divertidos momentos que experimentamos durante esta jornada. 📍 Ven a visitarnos y comparte con... Así vivimos el 4to día en nuestro stand de EL DEBER, en Expocruz ✨ Te mostramos algunos de los divertidos momentos que experimentamos durante esta..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_reduno",
@@ -368,22 +377,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rU0bNUGCj_4Q7kNvwFGiSkV&_nc_oc=Adr1AKlsvJ2kaiDfX5ixrALLYsGA_kz0Z9DieEKMzU4DH8xw8MLWNJUKa8pHg7oAGO0&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=AUF2OmjSRnnyUlOoX8IMtw&_nc_ss=7f289&oh=00_AQIXd8KjbBIKV4nZI7lEEBZZiECztOXKda81YX-xV5y6MQ&oe=6AB8A28C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1655604009247516/?__cft__[0]=AZhMzrExGocAM9r7avuWDLjiXKtag5PeQj3jD_bVEniA2vWf9Bm6ehBIjqDIkcmGYqepuqowQEkzOwYKmikEcXSfW7DdOuQZRRnQiJMNqrm7v_eHp_MkHbquSW9hF7M12Z4XpCKj2CsXaHx7t1Agy5rcRs4-ddZEX0j7C9-a4oIEnupXcnA6qL6Q5CcJMKQEpQqc&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Convocan a federaciones de transporte… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_erbol",
@@ -496,13 +496,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=EsIQ-WCNAQ8Q7kNvwHbIN3B&_nc_oc=Adp7bzk0HFVLBlN5he_36whZH-8CoLrgMgs33nekWqi7bsP91zyYpEhPwwk5FCu4nH4&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=wR5ybE_baCmQ5o-1-t06Ng&_nc_ss=7f289&oh=00_AQIP38hkWeMfG5qnMdc_xxI4uaBsfCQHFhgcRmPtDPeohg&oe=6AB8D5A9",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldeberradio/videos/1752043506042394/?__cft__[0]=AZgh9qMkTuhqcsr2M_ZBU42uuFp4WvX7XIKTjoEcqAQVUQufs4Vd7gpIl-T90KmUMMDRkTt0kuKhFOvUKsy9Ym3krku459gHqmg4mtkqtQBe0QhqDhknXWilt_haTYqWqC0deP3RLc_8HVU8fkZn2vb03tpmr4ywYT1HMkod5j_2D25HT0hy751D-ZEmMm5qi0w&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#DoblePerspectivaVIVO | Martes 22-09-26 Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fides_cbba",
@@ -547,13 +556,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Iiz_NztyNA4Q7kNvwFh0TcG&_nc_oc=Adp06i8Xs-siVcnIzQXQ6enCQ6DTCNg0tEU43nwMUMdpe2SU8VeMdQ7KJkpqbRPVD70&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gMRPBnsqpXToGsQe-waGhQ&_nc_ss=7f289&oh=00_AQJezlrTrAa5GEga-rWcQdYPGtV7dlbtt71_Emb3l6HuTA&oe=6AB8B733",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid02fugeTq4xLZxh2VeBEf1qVgZhRZGQQNRjr8TPkAMh7GT3GPNYnkVfp2J2TLY7NBoRl?__cft__[0]=AZhekbRR6HRx3Hcn4cTv5mgV82O0uv7sWeQc2Z67vQ-gZhSGZdisbXpTrZk0PbruWfV66sxZ8l7zwGH5DcOws1A9zFf6A0Zx4h5ziSc48dLLEFSnOPTQ34JAI0t_28bOz4vqEWYatq-pB9p0dC-1wQt7J5OgFv6ovYk0sl1L7CsBLE0PH8YkB6aIQcw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "27 min #FCBCB | PIEDRA DE AGUA … Ver más Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -785,30 +803,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=iQ0sIGaOPCsQ7kNvwFQs2cz&_nc_oc=Adr-De_KSp2PDNUb1dp3uWUYufFMm5jh0cxJ4Z9pQeUQlfOo5xRxa5ORHS3qUgX0r-8&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=aBq8JznEkiaEohWgov8aBw&_nc_ss=7f289&oh=00_AQI-EbYNtqAtLUOItfOrWgUFrTubsCrv4YHDv1o8hA0DWQ&oe=6AB89D3A",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/GobernacionDeOruro/videos/1713019519789496/?__cft__[0]=AZgIxeQH5C5tBarDghhZ-FWf5UZf8HsInaV2lzj_76M4JxWc8fnBihU3ASLM9yTTyLEKeKGPkp-XO_kwYzePB19jq7g3R80vmy05WJKcZ2pJu7sohklMEakMvcw3gsMMo02GpJcRn5VnthuKvnSRzBlty1vGTAV4tAwwMdu9K3QZF6xd72FXt9pilgrJjGvGOCQ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Acto de clausura y conclusiones del 1.º Foro Internacional de los Pueblos Indígenas, Originarios y Campesinos del Sur del Continente “Rumbo al Pachakuti” Jallalla pueblos indígenas Tenemos problemas para reproducir este video. Más información Ver más comentarios Norman Huanca"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeOruro/videos/1713019519789496/?comment_id=1381226450654730&__cft__[0]=AZgIxeQH5C5tBarDghhZ-FWf5UZf8HsInaV2lzj_76M4JxWc8fnBihU3ASLM9yTTyLEKeKGPkp-XO_kwYzePB19jq7g3R80vmy05WJKcZ2pJu7sohklMEakMvcw3gsMMo02GpJcRn5VnthuKvnSRzBlty1vGTAV4tAwwMdu9K3QZF6xd72FXt9pilgrJjGvGOCQ&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Jallalla pueblos indígenas Norman Huanca"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_tarija",
@@ -1023,22 +1024,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pU1zOcBcDzsQ7kNvwFIPCIs&_nc_oc=AdrSJqfy5Apr1b5t7yyLuMkRqK0HQLLyoLD4VXyD77jYfHuU_nmpOx1X0iUWcVqanuw&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=zynmg6OzKBiciAc9w9b5kA&_nc_ss=7f289&oh=00_AQIfgGtzpZg6X7UYVj14oiNK25DmSyWo7wMhErQmdG2-iQ&oe=6AB87BB4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/4742203035925271/?__cft__[0]=AZiv-u_4XIs-DLgQVHjpmLdl1MRHwlVl_OrB-ynBmlWZkaNkC1bAqM4sq45HzT25sgK9P86ky-MSPpjF6BpsY4swWfvPrG3LwONKHGS-hMQ6T4g77QglNgen4-XTmfP9PbpfoA5nYcsY7Dfsdid1ETUseakaTRkcS7k1pTTguEU8O7sulHPEjO5Lr7k2RP0tjmc8&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#Becas I Muy pronto… Octubre Brillante… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1407,7 +1399,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 29,
+          "score": 18,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1415,7 +1407,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 29,
+          "score": 18,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1423,7 +1415,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 39,
+          "score": 21,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
@@ -1595,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 43,
-      "events": 43,
+      "raw_items": 41,
+      "events": 41,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1747,8 +1739,8 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 2,
-      "events": 1,
+      "raw_items": 1,
+      "events": 0,
       "rejected": 1,
       "rejected_samples": [
         {
