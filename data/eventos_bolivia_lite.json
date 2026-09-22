@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-22T07:40:46-04:00",
+  "generated_at": "2026-09-22T13:00:19-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 65,
-    "events_today": 17
+    "events_total": 69,
+    "events_today": 20
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 18
+        "count": 19
       },
       {
         "key": "deporte",
@@ -83,6 +83,11 @@
         "count": 4
       },
       {
+        "key": "gastronomia",
+        "label": "Gastronomía",
+        "count": 3
+      },
+      {
         "key": "festival",
         "label": "Festivales",
         "count": 3
@@ -98,18 +103,13 @@
         "count": 2
       },
       {
-        "key": "infantil",
-        "label": "Para niños",
-        "count": 1
+        "key": "conferencia",
+        "label": "Conferencias",
+        "count": 2
       },
       {
         "key": "otro",
         "label": "Otros",
-        "count": 1
-      },
-      {
-        "key": "conferencia",
-        "label": "Conferencias",
         "count": 1
       }
     ],
@@ -127,22 +127,22 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 8
+        "count": 9
       },
       {
-        "key": "Quillacollo",
-        "label": "Quillacollo",
+        "key": "Tarija",
+        "label": "Tarija",
         "count": 6
       },
       {
         "key": "Sucre",
         "label": "Sucre",
-        "count": 5
+        "count": 6
       },
       {
-        "key": "Tarija",
-        "label": "Tarija",
-        "count": 4
+        "key": "Quillacollo",
+        "label": "Quillacollo",
+        "count": 6
       },
       {
         "key": "Oruro",
@@ -169,17 +169,17 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 15
-      },
-      {
-        "key": "Chuquisaca",
-        "label": "Chuquisaca",
-        "count": 5
+        "count": 16
       },
       {
         "key": "Tarija",
         "label": "Tarija",
-        "count": 4
+        "count": 6
+      },
+      {
+        "key": "Chuquisaca",
+        "label": "Chuquisaca",
+        "count": 6
       },
       {
         "key": "Bolivia",
@@ -196,22 +196,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 19
+        "count": 22
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 28
+        "count": 31
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 30
+        "count": 33
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 65
+        "count": 69
       }
     ],
     "price": [
@@ -223,19 +223,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 13
+        "count": 16
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 51
+        "count": 52
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 57
+        "count": 59
       },
       {
         "key": "con_video",
@@ -369,7 +369,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 22
+        "count": 23
       },
       {
         "key": "venue",
@@ -377,14 +377,14 @@
         "count": 15
       },
       {
-        "key": "cartelera_cine",
-        "label": "cartelera_cine",
+        "key": "cultura_oficial",
+        "label": "cultura_oficial",
         "count": 13
       },
       {
-        "key": "cultura_oficial",
-        "label": "cultura_oficial",
-        "count": 10
+        "key": "cartelera_cine",
+        "label": "cartelera_cine",
+        "count": 13
       },
       {
         "key": "ticketera",
@@ -407,6 +407,8 @@
     "today": [
       "evt_b241df7de02d67",
       "evt_e862bfd2d33cb1",
+      "evt_89d99a5e8f1308",
+      "evt_e3958179830451",
       "evt_906291f1638638",
       "evt_2b0920901c8f48",
       "evt_99bbdf60ecd37a",
@@ -420,6 +422,7 @@
       "evt_bb5f06693ff5eb",
       "evt_d698bf332cd14d",
       "evt_ab43ab2b29d9ae",
+      "evt_ab03973916de20",
       "evt_5aa45ee0cffbac",
       "evt_c985524f14c90a",
       "evt_02846039f478bb",
@@ -429,6 +432,7 @@
       "evt_b241df7de02d67",
       "evt_e862bfd2d33cb1",
       "evt_ab43ab2b29d9ae",
+      "evt_ab03973916de20",
       "evt_5aa45ee0cffbac",
       "evt_c985524f14c90a",
       "evt_3f66bf54096cba"
@@ -437,6 +441,7 @@
       "evt_b241df7de02d67",
       "evt_e862bfd2d33cb1",
       "evt_ab43ab2b29d9ae",
+      "evt_ab03973916de20",
       "evt_5aa45ee0cffbac",
       "evt_c985524f14c90a",
       "evt_0adee17583f556",
@@ -461,6 +466,7 @@
       "evt_bb5f06693ff5eb",
       "evt_d698bf332cd14d",
       "evt_ab43ab2b29d9ae",
+      "evt_ab03973916de20",
       "evt_c985524f14c90a",
       "evt_02846039f478bb",
       "evt_8add3d73034fb7",
@@ -475,12 +481,13 @@
       "evt_2821894c1d5322",
       "evt_ab2d744f1fbd8e",
       "evt_48c45c2c902fde",
-      "evt_9ea8741680468c"
+      "evt_9ea8741680468c",
+      "evt_cab71456af6bc1"
     ]
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 41,
+      "events_total": 37,
       "events_upcoming": 18,
       "events_with_image": 17,
       "events_with_video": 3,
@@ -488,15 +495,15 @@
       "sources_ok": 3
     },
     "Cochabamba": {
-      "events_total": 25,
-      "events_upcoming": 15,
-      "events_with_image": 15,
+      "events_total": 24,
+      "events_upcoming": 16,
+      "events_with_image": 16,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 35,
+      "events_total": 32,
       "events_upcoming": 17,
       "events_with_image": 12,
       "events_with_video": 3,
@@ -505,8 +512,8 @@
     },
     "Chuquisaca": {
       "events_total": 9,
-      "events_upcoming": 5,
-      "events_with_image": 5,
+      "events_upcoming": 6,
+      "events_with_image": 6,
       "events_with_video": 0,
       "sources_total": 8,
       "sources_ok": 2
@@ -517,7 +524,7 @@
       "events_with_image": 3,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 2
     },
     "Potosí": {
       "events_total": 0,
@@ -528,8 +535,8 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 8,
-      "events_upcoming": 4,
+      "events_total": 9,
+      "events_upcoming": 6,
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 5,
@@ -555,9 +562,9 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 73,
-      "events_upcoming": 18,
-      "events_with_image": 18,
+      "events_total": 63,
+      "events_upcoming": 19,
+      "events_with_image": 19,
       "events_with_video": 0
     },
     "concierto": {
@@ -569,9 +576,9 @@
     },
     "conferencia": {
       "label": "Conferencias",
-      "events_total": 1,
-      "events_upcoming": 1,
-      "events_with_image": 1,
+      "events_total": 2,
+      "events_upcoming": 2,
+      "events_with_image": 2,
       "events_with_video": 0
     },
     "deporte": {
@@ -602,10 +609,10 @@
       "events_with_image": 3,
       "events_with_video": 1
     },
-    "infantil": {
-      "label": "Para niños",
-      "events_total": 1,
-      "events_upcoming": 1,
+    "gastronomia": {
+      "label": "Gastronomía",
+      "events_total": 3,
+      "events_upcoming": 3,
       "events_with_image": 1,
       "events_with_video": 0
     },
@@ -721,6 +728,82 @@
       "is_featured": false,
       "status": "programado",
       "source_count": 2
+    },
+    {
+      "event_id": "evt_89d99a5e8f1308",
+      "title": "Desarrollo Productivo, Recursos Naturales y Medio Ambiente",
+      "category": "gastronomia",
+      "category_label": "Gastronomía",
+      "starts_at": "2026-09-22T00:00:00-04:00",
+      "starts_at_ms": 1790049600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 22 de septiembre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": null,
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 37,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_e3958179830451",
+      "title": "0 Recursos Humanos ELABORACIÓN Y PRESENTACION DE LA PROGRAMACIÓN OPERATIVA ANUAL INDIVIDUAL (POAI) - GESTIÓN 2026…",
+      "category": "gastronomia",
+      "category_label": "Gastronomía",
+      "starts_at": "2026-09-22T00:00:00-04:00",
+      "starts_at_ms": 1790049600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 22 de septiembre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": null,
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 37,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
     },
     {
       "event_id": "evt_906291f1638638",
@@ -1676,6 +1759,7 @@
         "22:00",
         "12:30",
         "14:30",
+        "16:30",
         "18:30",
         "20:30",
         "22:30",
@@ -1685,17 +1769,14 @@
         "17:30",
         "19:40",
         "21:50",
-        "15:10",
-        "17:05",
         "19:50",
         "18:20",
         "20:45",
         "17:10",
         "21:45",
         "19:35",
-        "14:45",
-        "22:35",
-        "13:00"
+        "13:00",
+        "22:35"
       ],
       "formats": [
         "2D",
@@ -1716,6 +1797,7 @@
         "2026-09-22T22:00:00-04:00",
         "2026-09-22T12:30:00-04:00",
         "2026-09-22T14:30:00-04:00",
+        "2026-09-22T16:30:00-04:00",
         "2026-09-22T18:30:00-04:00",
         "2026-09-22T20:30:00-04:00",
         "2026-09-22T22:30:00-04:00",
@@ -1725,17 +1807,14 @@
         "2026-09-22T17:30:00-04:00",
         "2026-09-22T19:40:00-04:00",
         "2026-09-22T21:50:00-04:00",
-        "2026-09-22T15:10:00-04:00",
-        "2026-09-22T17:05:00-04:00",
         "2026-09-22T19:50:00-04:00",
         "2026-09-22T18:20:00-04:00",
         "2026-09-22T20:45:00-04:00",
         "2026-09-22T17:10:00-04:00",
         "2026-09-22T21:45:00-04:00",
         "2026-09-22T19:35:00-04:00",
-        "2026-09-22T14:45:00-04:00",
-        "2026-09-22T22:35:00-04:00",
-        "2026-09-22T13:00:00-04:00"
+        "2026-09-22T13:00:00-04:00",
+        "2026-09-22T22:35:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -1863,6 +1942,44 @@
       "price_from": 300.0,
       "currency": "BOB",
       "price_label": "Bs 300",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 69,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_ab03973916de20",
+      "title": "22/09/2026 Cultura Mondacca Teatro abre la 35a versión del Premio Nacional Peter Travesí La obra Metamorfosis B ,…",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-22T19:00:00-04:00",
+      "starts_at_ms": 1790118000000,
+      "ends_at_ms": 1790481540000,
+      "multi_day": true,
+      "display_date": "Del 22 al 26 de septiembre · 19:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "salón Melchor Pérez",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/22/22-9-2026_edwin_-_teatro_web.jpg.jpeg?itok=5gwX60SP",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 10.0,
+      "currency": "BOB",
+      "price_label": "Bs 10",
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -2157,8 +2274,8 @@
     {
       "event_id": "evt_902dde22402c93",
       "title": "Tarija lidera acuerdo de ocho gobernaciones para avanzar en la autonomía fiscal y la Agenda 50/50",
-      "category": "infantil",
-      "category_label": "Para niños",
+      "category": "gastronomia",
+      "category_label": "Gastronomía",
       "starts_at": "2026-09-24T00:00:00-04:00",
       "starts_at_ms": 1790222400000,
       "ends_at_ms": null,
@@ -3219,6 +3336,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_23700ab272ad21",
+      "title": "GAMS Gobierno Autonomo Municipal de Sucre",
+      "category": "conferencia",
+      "category_label": "Conferencias",
+      "starts_at": "2027-06-01T21:00:00-04:00",
+      "starts_at_ms": 1811898000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 1 de junio · 21:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 252,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": null,
+      "image_url": "https://sucre.bo/wp-content/uploads/2026/09/821523616_1430138119043963_8536727438387594677_n-310x165.jpeg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 1.1,
+      "currency": "BOB",
+      "price_label": "Bs 1.1 - 800",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_710befb0f03a81",
       "title": "Nuestras Ferias | Fexpocruz",
       "category": "feria",
@@ -3847,9 +4002,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
+      "price_from": 10.0,
+      "currency": "BOB",
+      "price_label": "Bs 10 - 11.9",
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -3859,8 +4014,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 61,
-      "is_featured": false,
+      "quality_score": 69,
+      "is_featured": true,
       "status": "programado",
       "source_count": 1
     }

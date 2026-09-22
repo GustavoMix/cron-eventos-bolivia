@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T07:40:46-04:00",
+  "generated_at": "2026-09-22T13:00:19-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,17 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_bolivision",
       "fb_feicobol",
       "fb_gam_cbba",
-      "fb_gob_oruro",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 95.0,
-    "horas_maximo_sin_datos": 796.5
+    "horas_promedio_sin_datos": 93.4,
+    "horas_maximo_sin_datos": 801.8
   },
   "sources": [
     {
@@ -353,30 +351,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rvqehF2od-kQ7kNvwG_TS20&_nc_oc=Adp9VjIIrztNlW8PLjFp5FL0MtPZHzsCcuo-ix9t9wc4ZBZ15xJ_iiR5G6NArqtfme8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=hXyQc4ZdHdVZF_lE9bgauw&_nc_ss=7f289&oh=00_AQJQj5wgouVPa0bHyfP9amslhhDVDB0a_HqW_T5zObjsaw&oe=6AB83741",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "concierto",
-          "url": "https://www.facebook.com/61567518883240/videos/en-vivo-bol%C3%ADvar-empata-con-the-strongest-oriente-petrolero-le-gano-a-su-cl%C3%A1sico-/1471315218393264/",
-          "has_image": true,
-          "text_preview": "EN VIVO Bolívar Empata con The Strongest … Ver más EN VIVO Bolívar Empata con The Strongest … Ver más Carlitos saludos desde argentina, que paso con Nabil nacif xq no fue convocado por empiezan a foguearlo para que sea el 9 de la verde en tiene todo para dar. Villegas ya la está cagando Tenemos problemas para reproducir este video. Más información Ver más comentarios Darwin Galvez Carlitos saludos"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/ATBDigital/videos/1577581526936322/?comment_id=1091946543943667&__cft__[0]=AZh4KZiQ0bCZ3k3pv3hms1OmOGwcoUpNS9MzMyR7Aku0hRjGTbrT45DGsXI_gSenc3KU7BcBlfrJxQEubI5f2-evcOEpzLybwJ5NdaJPp1S2aK2yS_WKaQm3eSUuk4JZKIK7r-IvNOEqnbaV5HqzGtb8sUCM4yD6z3_QWZ42-gK9Qnp1lfUr9xadGsyhUgMFBQY&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Carlitos saludos desde argentina, que paso con Nabil nacif xq no fue convocado por empiezan a foguearlo para que sea el 9 de la verde en tiene todo para dar. Villegas ya la está cagando Darwin Galvez Carlitos saludos desde argentina, que paso con Nabil nacif xq no fue convocado por empiezan a foguearlo para que sea el 9 de la verde en tiene todo para dar. Villegas ya la está cagando"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_bolivision",
@@ -387,13 +368,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rU0bNUGCj_4Q7kNvwFGiSkV&_nc_oc=Adr1AKlsvJ2kaiDfX5ixrALLYsGA_kz0Z9DieEKMzU4DH8xw8MLWNJUKa8pHg7oAGO0&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=AUF2OmjSRnnyUlOoX8IMtw&_nc_ss=7f289&oh=00_AQIXd8KjbBIKV4nZI7lEEBZZiECztOXKda81YX-xV5y6MQ&oe=6AB8A28C",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Noticias Bolivisión 1,2 mill. seguidores • 28 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1655604009247516/?__cft__[0]=AZhMzrExGocAM9r7avuWDLjiXKtag5PeQj3jD_bVEniA2vWf9Bm6ehBIjqDIkcmGYqepuqowQEkzOwYKmikEcXSfW7DdOuQZRRnQiJMNqrm7v_eHp_MkHbquSW9hF7M12Z4XpCKj2CsXaHx7t1Agy5rcRs4-ddZEX0j7C9-a4oIEnupXcnA6qL6Q5CcJMKQEpQqc&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Convocan a federaciones de transporte… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_erbol",
@@ -795,13 +785,30 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=iQ0sIGaOPCsQ7kNvwFQs2cz&_nc_oc=Adr-De_KSp2PDNUb1dp3uWUYufFMm5jh0cxJ4Z9pQeUQlfOo5xRxa5ORHS3qUgX0r-8&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=aBq8JznEkiaEohWgov8aBw&_nc_ss=7f289&oh=00_AQI-EbYNtqAtLUOItfOrWgUFrTubsCrv4YHDv1o8hA0DWQ&oe=6AB89D3A",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Departamental de Oruro - Bolivia 30 mil seguidores • 2 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este '"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/GobernacionDeOruro/videos/1713019519789496/?__cft__[0]=AZgIxeQH5C5tBarDghhZ-FWf5UZf8HsInaV2lzj_76M4JxWc8fnBihU3ASLM9yTTyLEKeKGPkp-XO_kwYzePB19jq7g3R80vmy05WJKcZ2pJu7sohklMEakMvcw3gsMMo02GpJcRn5VnthuKvnSRzBlty1vGTAV4tAwwMdu9K3QZF6xd72FXt9pilgrJjGvGOCQ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Acto de clausura y conclusiones del 1.º Foro Internacional de los Pueblos Indígenas, Originarios y Campesinos del Sur del Continente “Rumbo al Pachakuti” Jallalla pueblos indígenas Tenemos problemas para reproducir este video. Más información Ver más comentarios Norman Huanca"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeOruro/videos/1713019519789496/?comment_id=1381226450654730&__cft__[0]=AZgIxeQH5C5tBarDghhZ-FWf5UZf8HsInaV2lzj_76M4JxWc8fnBihU3ASLM9yTTyLEKeKGPkp-XO_kwYzePB19jq7g3R80vmy05WJKcZ2pJu7sohklMEakMvcw3gsMMo02GpJcRn5VnthuKvnSRzBlty1vGTAV4tAwwMdu9K3QZF6xd72FXt9pilgrJjGvGOCQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Jallalla pueblos indígenas Norman Huanca"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_tarija",
@@ -1016,13 +1023,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pU1zOcBcDzsQ7kNvwFIPCIs&_nc_oc=AdrSJqfy5Apr1b5t7yyLuMkRqK0HQLLyoLD4VXyD77jYfHuU_nmpOx1X0iUWcVqanuw&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=zynmg6OzKBiciAc9w9b5kA&_nc_ss=7f289&oh=00_AQIfgGtzpZg6X7UYVj14oiNK25DmSyWo7wMhErQmdG2-iQ&oe=6AB87BB4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4742203035925271/?__cft__[0]=AZiv-u_4XIs-DLgQVHjpmLdl1MRHwlVl_OrB-ynBmlWZkaNkC1bAqM4sq45HzT25sgK9P86ky-MSPpjF6BpsY4swWfvPrG3LwONKHGS-hMQ6T4g77QglNgen4-XTmfP9PbpfoA5nYcsY7Dfsdid1ETUseakaTRkcS7k1pTTguEU8O7sulHPEjO5Lr7k2RP0tjmc8&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#Becas I Muy pronto… Octubre Brillante… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1386,32 +1402,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
+          "score": 29,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "21/09/2026 Medio Ambiente Conserva Aves alcanza más de 700 mil hectáreas protegidas La iniciativa Conserva Aves 2023-2026 concluyó su etapa de implementación en Bolivia con más de 700 mil hectáreas declaradas como áreas protegidas... vista 21/09/2026 Ciencia Reconocen a científicos de la UMSA que descubrieron a Tilcayo, el nuevo felino de los Yungas Los investigadores Paola Nogales-Ascarrunz y Enz"
+          "text_preview": "22/09/2026 Medio Ambiente Una lagartija buscada desde 2023 aparece en Riberalta Una pausa bajo la sombra de un vehículo terminó con una sorpresa para el biólogo Vincent Vos. Sobre la rama de un árbol estaba la lagartija que buscaba desde... vista 21/09/2026 Medio Ambiente Conserva Aves alcanza más de 700 mil hectáreas protegidas La iniciativa Conserva Aves 2023-2026 concluyó su etapa de implementa"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "18/09/2026 Cultura ONU Mujeres lleva a historietas la vida de bolivianas que rompieron estereotipos Una pilota frente a los controles de una aeronave, una soldadora entre herramientas y chispas, una bombera voluntaria, una corredora de montaña de... vista 17/09/2026 Cultura Seis compañías animan la segunda versión de Teatro Sur Seis elencos internacionales animarán el II Festival Internacional “Te"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
+          "score": 29,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista 24/07/2026 Espectáculos Miss Bolivia. 29 aspirantes tras la corona Tras 16 días intensos de preparación, sesiones fotográficas, la entrega d"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 39,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1689,18 +1705,10 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 7,
-      "events": 1,
-      "rejected": 6,
+      "raw_items": 8,
+      "events": 3,
+      "rejected": 5,
       "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "turismo",
-          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
-          "has_image": false,
-          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 8,
@@ -1716,6 +1724,14 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
           "has_image": false,
           "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/desconcentradas",
+          "has_image": false,
+          "text_preview": "0 % Normativa - Desconcentradas MANUAL DE ORGANIZACION Y FUNCIONES - PROCEDIMIENTOS PROSOL MANUAL - PROSOL - RESOLUCION 371.pdf Descarga Detalles Manual de Organización y Funciones - Programa GNV - 2023 MOF - PROGRAMA - GNV - 2023.pdf Descarga Detalles Manual de Organización y Funciones - Servicio Departamental de Agropecuario MOF - SEDAG 2023.pdf Descarga Detalles Manual de Organización y Funcion"
         }
       ],
       "error": null
@@ -1731,9 +1747,9 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 3,
+      "raw_items": 2,
       "events": 1,
-      "rejected": 2,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
@@ -1741,15 +1757,7 @@
           "category": "conferencia",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
-          "text_preview": "pago qr bus Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para esta nueva gestión: Res"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "deporte",
-          "url": "https://www.uto.edu.bo/la-uto-entrega-nuevos-ambientes-a-la-carrera-de-nutricion-y-dietetica-para-consolidar-su-funcionamiento-institucional/",
-          "has_image": true,
-          "text_preview": "El rector M.Sc. Ing. Augusto Medinaceli Ortiz encabezó el acto oficial bajo un compromiso de uso por cinco años, beneficiando a la unidad académica tras su traslado desde Toledo Oruro, septiembre de 2026. — En un acto significativo para el fortalecimiento de la infraestructura académica del área de la salud, la Universidad Técnica de Oruro (UTO) formalizó la entrega oficial de nuevos ambientes des"
+          "text_preview": "pago qr Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para esta nueva gestión: Resulta"
         }
       ],
       "error": null
@@ -1765,8 +1773,8 @@
       "city": "Sucre",
       "icon_url": "https://sucre.bo/wp-content/uploads/2026/05/header_web_2026.png",
       "status": "ok",
-      "raw_items": 3,
-      "events": 0,
+      "raw_items": 4,
+      "events": 1,
       "rejected": 3,
       "rejected_samples": [
         {
