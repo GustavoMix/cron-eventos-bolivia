@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T17:21:07-04:00",
+  "generated_at": "2026-09-23T00:47:57-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,17 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_espacio_patino_lapaz",
       "fb_feicobol",
       "fb_gam_cbba",
+      "fb_goethe_lapaz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 89.7,
-    "horas_maximo_sin_datos": 806.2
+    "horas_promedio_sin_datos": 93.9,
+    "horas_maximo_sin_datos": 813.6
   },
   "sources": [
     {
@@ -300,22 +302,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=trX1lgpZcQYQ7kNvwHCWgZV&_nc_oc=Adr4gQMccO4udpQRuuWD8gak0K1knonNnjL3VM4I14CrtjTqg4XUGkGcaS0lgMPwVdE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=EoAqaPakqknWOc7pWNIOSg&_nc_ss=7f289&oh=00_AQJtcIOw2XWcyDsu_sKcfGewE3VSRWLlG17Rd9wA7hGv9w&oe=6AB8D00C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 34,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/GrupoELDEBER/videos/as%C3%AD-vivimos-el-4to-d%C3%ADa-en-nuestro-stand-de-el-deber-en-expocruz-te-mostramos-alg/1096836826670923/",
-          "has_image": true,
-          "text_preview": "Así vivimos el 4to día en nuestro stand de EL DEBER, en Expocruz ✨ Te mostramos algunos de los divertidos momentos que experimentamos durante esta jornada. 📍 Ven a visitarnos y comparte con... Así vivimos el 4to día en nuestro stand de EL DEBER, en Expocruz ✨ Te mostramos algunos de los divertidos momentos que experimentamos durante esta..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_reduno",
@@ -394,13 +387,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qWi0-L9trJIQ7kNvwG-fsO_&_nc_oc=Adqwl2ksETi-_TaoHXUBNnyfVkMZZBMuV1XkOPhO4MJd7-tdY_qVhgtuG-MhJvo2oOU&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=w4rwBjDxoPnmOP3u5tFT_A&_nc_ss=7f289&oh=00_AQKoP8GdAxypMR5PXClopiR1uMAMQ12ZeiEBCNPff8cwCQ&oe=6AB92168",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid02v2sQKGyXspHAkcyuRzdsVPGBd96P5qHfzxEWzrCNpURAMEtFjc5CQmSiTmLd69sAl?__cft__[0]=AZhxDxO23zYMyQB-v8d1MuoNg62UfejNXeCCUdRcWtFY2svEHAiS1hkyPT6K3TsIm4KuLBo9OSK-A4-WCMbMFndSlpDLxhmOaoH186fM0AQxQqEimjxdWoC-kDJSMG2EHxd7LCwiifZSv9HIA0AovYTAW1v3uF3Y3ddojo2vKk_AWiJrKSr3r-mP5Wo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La incorporación permitirá a la empresa integrarse nuevamente a una comunidad empresarial de alcance nacional e internacional, además de promover iniciativas vinculadas… Ver más ERBOL.COM.BO ENTEL se incorpora a la Cámara de Comercio Americana de Bolivia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_el_diario",
@@ -496,22 +498,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=EsIQ-WCNAQ8Q7kNvwHbIN3B&_nc_oc=Adp7bzk0HFVLBlN5he_36whZH-8CoLrgMgs33nekWqi7bsP91zyYpEhPwwk5FCu4nH4&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=wR5ybE_baCmQ5o-1-t06Ng&_nc_ss=7f289&oh=00_AQIP38hkWeMfG5qnMdc_xxI4uaBsfCQHFhgcRmPtDPeohg&oe=6AB8D5A9",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1752043506042394/?__cft__[0]=AZgh9qMkTuhqcsr2M_ZBU42uuFp4WvX7XIKTjoEcqAQVUQufs4Vd7gpIl-T90KmUMMDRkTt0kuKhFOvUKsy9Ym3krku459gHqmg4mtkqtQBe0QhqDhknXWilt_haTYqWqC0deP3RLc_8HVU8fkZn2vb03tpmr4ywYT1HMkod5j_2D25HT0hy751D-ZEmMm5qi0w&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#DoblePerspectivaVIVO | Martes 22-09-26 Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fides_cbba",
@@ -556,22 +549,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Iiz_NztyNA4Q7kNvwFh0TcG&_nc_oc=Adp06i8Xs-siVcnIzQXQ6enCQ6DTCNg0tEU43nwMUMdpe2SU8VeMdQ7KJkpqbRPVD70&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gMRPBnsqpXToGsQe-waGhQ&_nc_ss=7f289&oh=00_AQJezlrTrAa5GEga-rWcQdYPGtV7dlbtt71_Emb3l6HuTA&oe=6AB8B733",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid02fugeTq4xLZxh2VeBEf1qVgZhRZGQQNRjr8TPkAMh7GT3GPNYnkVfp2J2TLY7NBoRl?__cft__[0]=AZhekbRR6HRx3Hcn4cTv5mgV82O0uv7sWeQc2Z67vQ-gZhSGZdisbXpTrZk0PbruWfV66sxZ8l7zwGH5DcOws1A9zFf6A0Zx4h5ziSc48dLLEFSnOPTQ34JAI0t_28bOz4vqEWYatq-pB9p0dC-1wQt7J5OgFv6ovYk0sl1L7CsBLE0PH8YkB6aIQcw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "27 min #FCBCB | PIEDRA DE AGUA … Ver más Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -906,12 +890,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Patiño La Paz 41 mil seguidores • 55 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un'"
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1042,12 +1026,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Goethe-Institut La Paz 31 mil seguidores • 182 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un'"
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1399,7 +1383,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 18,
+          "score": 1,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1407,7 +1391,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 18,
+          "score": 1,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1416,7 +1400,7 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 21,
-          "category": "teatro",
+          "category": "deporte",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
@@ -1477,9 +1461,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 34,
+      "raw_items": 32,
       "events": 0,
-      "rejected": 34,
+      "rejected": 32,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1493,7 +1477,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/970a081b-ed3e-4a67-b88b-731c6793261d",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/f0ad58e1-f323-4e67-b6a8-663268164fef",
           "has_image": true,
           "text_preview": ""
         },
@@ -1501,7 +1485,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/ee1976f3-3dfa-4c91-a243-ab0a425082ef",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/52d30a21-a382-4c4d-9952-e5078e056f48",
           "has_image": true,
           "text_preview": ""
         }
@@ -1536,8 +1520,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1587,8 +1571,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 41,
-      "events": 41,
+      "raw_items": 42,
+      "events": 42,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
