@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:01:09-04:00",
+  "generated_at": "2026-09-23T17:33:09-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 96.1,
-    "horas_maximo_sin_datos": 825.8
+    "horas_promedio_sin_datos": 94.6,
+    "horas_maximo_sin_datos": 830.4
   },
   "sources": [
     {
@@ -147,13 +147,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Am6ifZv9b8QQ7kNvwGeHs1C&_nc_oc=AdqkgJF0m-BNs1ouYmCeGV5IBA3fJIoHNapUwe7vV9zvA5XCJgbHVhrFZdx8bQit6O8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=9Q_f0lGuduknbtXEoGn7CA&_nc_ss=7f289&oh=00_AQL02RTxqhFWVodVcZMH2VtWXS5pv3NAUfZKgQJhKm_EuA&oe=6ABA09F7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid05VS95ioowcdV3M1Dse9dbtgk84hUGD8M39T1mJpRvSzeUXMfKtqMqBUbZW14k7gPl?__cft__[0]=AZgctjBh15pWAmwtF3F6CYJYatcSLgswyRYau7N-hlgPunWNpfWJP55SiEN9udiCXTeEK_B2htXkrvacXS4lgv9Zfd_B_czbQ08SCozgshhHd8rILvyHrFtXGGeNdycH_RsvxCJparre3DL6MyTm1CQPc-nbIPLa9qzi7aG90zzrv6C3j7x7YYk1i4k&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Alcaldía amplía hasta diciembre el plazo para pagar patentes sin multas ni sanciones … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -606,22 +615,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SP9_6WX5aTQQ7kNvwFGrTxt&_nc_oc=AdobP64rCFEF3d-xQDUSKLG4l2TJqlUWYmCymJ05sIDkJutK_uGqsG2djcyMiuB48cE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=PGuX8De29wRrJ11MV80RPw&_nc_ss=7f289&oh=00_AQKtYL8d-WrrZsLl_x2kdQPhb_lt_AIWPpz4qXJgn2i1OQ&oe=6AB9C333",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 36,
-          "category": "concierto",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/videos/-en-vivo-iii-rae-trinidad-2026-acomp%C3%A1%C3%B1anos-en-esta-primera-jornada-de-di%C3%A1logo-me/1777650850212931/",
-          "has_image": true,
-          "text_preview": "🔴 ¡EN VIVO | III RAE TRINIDAD 2026! 🌿✨ Damos inicio a la Reunión Anual de Etnología desde Trinidad con la temática: Expresiones: Remedios para cuerpos y almas. Acompáñanos en esta primera jornada de... 🔴 ¡EN VIVO | III RAE TRINIDAD 2026! 🌿✨ Damos inicio a la Reunión Anual de Etnología desde Trinidad con la temática: Expresiones: Remedios para cuerpos y... ¡EN VIVO | III RAE TRINIDAD 2026! D… #RAET"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -768,30 +768,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JY7LrE3HO0kQ7kNvwFArYTV&_nc_oc=AdqMfd14cUgb-1-tBlh5Y2gNT0wJ3myX03ftgHd8EcABZgNpim0JHGq29w6oQJVsMyI&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=o3N66FOPMWotl93Gc5abVQ&_nc_ss=7f289&oh=00_AQLH16C9HUNNtsUMVRqPwaRv8qjinUZekgN7d1GfR_CIvQ&oe=6AB9DBAA",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "cine",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid02fRWT8mzCf3hoSm4h3ZaC4CDSxk8SkVwrMWsyzacfBay2S228ZxVhyeeNE3gSayfol?__cft__[0]=AZiMxQbk1zdIWJRB2lzvjhylffVay8oyxllfxi7QPJhsn7GWqTAxEytvgpapcEGYShw5bpF-iin6ViRdhgWklOKHfxpkNeJmeP3etiLvLUGyY7hk19TqyQH6eg9tdrWzUZXxhMZLkpn0QzuQDcUfn4ifSCgE2dRI10LGuuT63R4N1uXTEYZQmUHdvPw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝐄𝐒𝐓𝐑𝐄𝐍𝐀𝐑Á𝐍 𝐃𝐎𝐂𝐔𝐌𝐄𝐍𝐓𝐀𝐋 ❞𝐃𝐄 𝐋𝐀 𝐓𝐈𝐄𝐑𝐑𝐀 𝐀 𝐋𝐀 𝐌𝐄𝐒𝐀❞ 𝐒𝐎𝐁𝐑𝐄 𝐋𝐀 𝐑𝐔𝐓𝐀 𝐃𝐄𝐋 𝐀𝐉Í 𝐘 𝐋𝐀 𝐂𝐇𝐈𝐂𝐇𝐀 El director departamental de Turismo, Pedro Salazar, anunció que la jornada de cierre d… Ver más 𝐄𝐒𝐓𝐑𝐄𝐍𝐀𝐑Á𝐍 𝐃𝐎𝐂𝐔𝐌𝐄𝐍𝐓𝐀𝐋 ❞𝐃𝐄 𝐋𝐀 𝐓𝐈𝐄𝐑𝐑𝐀 𝐀 𝐋𝐀 𝐌𝐄𝐒𝐀❞ 𝐒𝐎𝐁𝐑𝐄 𝐋𝐀 𝐑𝐔𝐓𝐀 𝐃𝐄𝐋 𝐀𝐉Í 𝐘 𝐋𝐀 𝐂𝐇𝐈𝐂𝐇𝐀 El director departamental de Turismo, Pedro Salazar, anunció que la jornada de cierre d… Ver más Buen trabajo Todos X Chuquisaca T.x.Ch Ver m"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid02fRWT8mzCf3hoSm4h3ZaC4CDSxk8SkVwrMWsyzacfBay2S228ZxVhyeeNE3gSayfol?comment_id=1445110304344366&__cft__[0]=AZiMxQbk1zdIWJRB2lzvjhylffVay8oyxllfxi7QPJhsn7GWqTAxEytvgpapcEGYShw5bpF-iin6ViRdhgWklOKHfxpkNeJmeP3etiLvLUGyY7hk19TqyQH6eg9tdrWzUZXxhMZLkpn0QzuQDcUfn4ifSCgE2dRI10LGuuT63R4N1uXTEYZQmUHdvPw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Buen trabajo Todos X Chuquisaca T.x.Ch Johnny Vidaurre Doria Medina"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_oruro",
@@ -836,13 +819,30 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4DGfFdPXK1YQ7kNvwFO8cHS&_nc_oc=AdrniWD91E5lS__8T3xPwROk2QBUWJVo8ihJdEbV3gdKy-Rj-ZOz8QL3r7MzL0fx-8g&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=cPxwMns2cXQcIo75EfSgEQ&_nc_ss=7f289&oh=00_AQLQIXUF5Mf5m7tdpBTgtcIW7LQB3tXgTzDBtpcRUm8q-Q&oe=6ABA0590",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02M86X6HMhfyyqnsrL7RLKQTsQQEdLwd8KVz9QANuKcjSj7chHcgaKa8DEoc4ywDXDl?__cft__[0]=AZipINP7Ej8PwvYj941AIhKhJLBdB15J4qd1WW9kLOZcI294JYAtuDqEwAHDsXNi9PoTsUM_E5NKLUuIM6y0oInpJsCLhIKzfRalaGE3tKMkWuFFYXiUWQ77M46sJYz64_KJJVSM-X78IzYOgswOVdYaDLOMWoxDoqp6BnY4xz4ojXP4K8UF4s89yjv6p8iQ-2VWYjXwtQ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02M86X6HMhfyyqnsrL7RLKQTsQQEdLwd8KVz9QANuKcjSj7chHcgaKa8DEoc4ywDXDl?comment_id=584098196711804&__cft__[0]=AZipINP7Ej8PwvYj941AIhKhJLBdB15J4qd1WW9kLOZcI294JYAtuDqEwAHDsXNi9PoTsUM_E5NKLUuIM6y0oInpJsCLhIKzfRalaGE3tKMkWuFFYXiUWQ77M46sJYz64_KJJVSM-X78IzYOgswOVdYaDLOMWoxDoqp6BnY4xz4ojXP4K8UF4s89yjv6p8iQ-2VWYjXwtQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_beni",
@@ -1057,22 +1057,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nxrHGWYcufgQ7kNvwFyUb-Q&_nc_oc=Adq3om9gpkaxumlwULfODL0eGmcOzkvAwt6p7HivpMUcdQ_6mBauqMWGaz1xlun-vxE&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=iXInc46XaeMJHlG9n0MIig&_nc_ss=7f289&oh=00_AQKxWMOk-pCr65b5pPNx1thj1U4j_Cn6Cvl21SYiq98PVQ&oe=6AB9EE95",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1646489710163003/?__cft__[0]=AZiTAD8tZFMEvI56-N-Kw3WhCcK9VZNAAQYYfwG86DEa7m9PH_p9Hqogp6mEEIuA9N4pPdUoKNEu4Xqo-jq-bplfzy6Sy__6fSMipScG7nLPl30RXyPlcE_HSU8wmu11LBu_NeMbVSKkrvPp-5ZC54RUS_ZZbLIBCletxNIwSVYqC6NemHYiRbj_KCKYJpWhiF3v&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡Abrimos nuestras puertas! … Ver más ¡Abrimos nuestras puertas! … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1134,13 +1125,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aWIfBdlRVrQQ7kNvwHXGGVS&_nc_oc=Adrms2zcA68d-MOI3PL2CJUJb8XPRJ89f7nuIJ19GzIizHC_eS_k-0mfcehL_lxbbnw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=szJYkkzwzYmMab8u9IvJRg&_nc_ss=7f289&oh=00_AQLGkspguYypaE_wsAWQ0MIySi4-fmP4A5o_ygK1Tb2fXg&oe=6ABA2064",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid0LpJ7AUEbnEGBSL3HpvKcrKPZtfLufTgBw9rucj4xfZgy5d9PaDM483fvQYmMDVhMl?__cft__[0]=AZixy86YtKc3q1w6UvQJ4GvNB9KdfGIPzvXfHwuzaFeQbamW080W71UTl1oyAq66FkYRg9RSu2iA9SIRa2gll5io1-8wdyLAJT-ZIZd7m6cThUdCsve5fhKKGI48_7fqJjiM8zSC37P2IxtNiSQFEv8SByWaqwBg4iiHI-vxSh9ys_SEe6UoKQORU0k&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#RAE-SUCRE l ¡𝗹𝗮 𝗥𝗔𝗘-𝟮𝟬𝟮𝟲 𝘁𝗲 𝗲𝘀𝗽𝗲𝗿𝗮! La Reunión Anual de Etnología (RAE) es un espacio para encontrarnos, compartir saberes y conocimientos sobre las distintas formas… Ver más #RAE-SUCRE l ¡𝗹𝗮 𝗥𝗔𝗘-𝟮𝟬𝟮𝟲 𝘁𝗲 𝗲𝘀𝗽𝗲𝗿𝗮! La Reunión Anual de Etnología (RAE) es un espacio para encontrarnos, compartir saberes y conocimientos sobre las distintas formas… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1255,8 +1255,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 4,
-      "events": 3,
+      "raw_items": 5,
+      "events": 4,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1527,8 +1527,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 50,
-      "events": 50,
+      "raw_items": 33,
+      "events": 33,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1561,8 +1561,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1578,8 +1578,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 52,
-      "events": 52,
+      "raw_items": 27,
+      "events": 27,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1629,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1783,7 +1783,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗦𝗘 𝗖𝗢𝗡𝗦𝗢𝗟𝗜𝗗𝗔 𝗖𝗢𝗠𝗢 𝗘𝗟 𝗣𝗥𝗜𝗠𝗘𝗥 𝗠𝗨𝗡𝗜𝗖𝗜𝗣𝗜𝗢 𝗗𝗘𝗟 𝗣𝗔𝗜́𝗦 𝗘𝗡 𝗔𝗖𝗢𝗥𝗗𝗔𝗥 𝗨𝗡𝗔 𝗧𝗔𝗥𝗜𝗙𝗔 𝗧𝗥𝗔𝗡𝗦𝗜𝗧𝗢𝗥𝗜𝗔 𝗗𝗘 𝗧𝗥𝗔𝗡𝗦𝗣𝗢𝗥𝗧𝗘 𝗣𝗨́𝗕𝗟𝗜𝗖𝗢 𝗘𝗡 𝗣𝗟𝗘𝗡𝗢 𝗖𝗢𝗡𝗦𝗘𝗡𝗦𝗢 𝗖𝗢𝗡 𝗦𝗨𝗦 𝗕𝗔𝗦𝗘𝗦 𝗦𝗢𝗖𝗜𝗔𝗟𝗘𝗦 hace 1 día Noticias 78 La Federación Departamental de Juntas Vecinales (FEDJUVE) y el sector transporte pactaron una escala tarifaria temporal gracias al diálogo promovido por la Alcaldía. Este acuerdo permite restituir de inmediato el servicio urb"
+          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗦𝗘 𝗖𝗢𝗡𝗦𝗢𝗟𝗜𝗗𝗔 𝗖𝗢𝗠𝗢 𝗘𝗟 𝗣𝗥𝗜𝗠𝗘𝗥 𝗠𝗨𝗡𝗜𝗖𝗜𝗣𝗜𝗢 𝗗𝗘𝗟 𝗣𝗔𝗜́𝗦 𝗘𝗡 𝗔𝗖𝗢𝗥𝗗𝗔𝗥 𝗨𝗡𝗔 𝗧𝗔𝗥𝗜𝗙𝗔 𝗧𝗥𝗔𝗡𝗦𝗜𝗧𝗢𝗥𝗜𝗔 𝗗𝗘 𝗧𝗥𝗔𝗡𝗦𝗣𝗢𝗥𝗧𝗘 𝗣𝗨́𝗕𝗟𝗜𝗖𝗢 𝗘𝗡 𝗣𝗟𝗘𝗡𝗢 𝗖𝗢𝗡𝗦𝗘𝗡𝗦𝗢 𝗖𝗢𝗡 𝗦𝗨𝗦 𝗕𝗔𝗦𝗘𝗦 𝗦𝗢𝗖𝗜𝗔𝗟𝗘𝗦 hace 1 día Noticias 100 La Federación Departamental de Juntas Vecinales (FEDJUVE) y el sector transporte pactaron una escala tarifaria temporal gracias al diálogo promovido por la Alcaldía. Este acuerdo permite restituir de inmediato el servicio ur"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
