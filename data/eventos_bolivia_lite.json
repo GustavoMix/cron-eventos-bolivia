@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-23T00:47:57-04:00",
+  "generated_at": "2026-09-23T07:38:19-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 68,
-    "events_today": 16
+    "events_total": 69,
+    "events_today": 17
   },
   "filters": {
     "ui_groups": [
@@ -60,12 +60,17 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 13
+        "count": 14
       },
       {
         "key": "feria",
         "label": "Ferias y expos",
         "count": 11
+      },
+      {
+        "key": "exposicion",
+        "label": "Exposiciones",
+        "count": 5
       },
       {
         "key": "teatro",
@@ -75,11 +80,6 @@
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 4
-      },
-      {
-        "key": "exposicion",
-        "label": "Exposiciones",
         "count": 4
       },
       {
@@ -98,11 +98,6 @@
         "count": 2
       },
       {
-        "key": "festival",
-        "label": "Festivales",
-        "count": 2
-      },
-      {
         "key": "conferencia",
         "label": "Conferencias",
         "count": 2
@@ -111,13 +106,18 @@
         "key": "otro",
         "label": "Otros",
         "count": 1
+      },
+      {
+        "key": "festival",
+        "label": "Festivales",
+        "count": 1
       }
     ],
     "cities": [
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 18
+        "count": 19
       },
       {
         "key": "La Paz",
@@ -159,7 +159,7 @@
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 17
+        "count": 18
       },
       {
         "key": "La Paz",
@@ -196,22 +196,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 22
+        "count": 23
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 31
+        "count": 32
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 32
+        "count": 33
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 68
+        "count": 69
       }
     ],
     "price": [
@@ -228,14 +228,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 52
+        "count": 53
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 58
+        "count": 59
       },
       {
         "key": "con_video",
@@ -374,7 +374,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 15
+        "count": 16
       },
       {
         "key": "cartelera_cine",
@@ -411,6 +411,7 @@
       "evt_ab03973916de20",
       "evt_c985524f14c90a",
       "evt_5aa45ee0cffbac",
+      "evt_58ee7d526cc811",
       "evt_3f66bf54096cba",
       "evt_370a2fe9db49c7",
       "evt_57de61fbd5a1f2",
@@ -459,6 +460,7 @@
       "evt_b241df7de02d67",
       "evt_ab43ab2b29d9ae",
       "evt_ab03973916de20",
+      "evt_58ee7d526cc811",
       "evt_b0130373422d4d",
       "evt_0b7576af450bff",
       "evt_8cb01302606468",
@@ -495,7 +497,7 @@
       "events_with_image": 16,
       "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 5
     },
     "Cochabamba": {
       "events_total": 26,
@@ -506,12 +508,12 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 35,
-      "events_upcoming": 17,
-      "events_with_image": 12,
+      "events_total": 36,
+      "events_upcoming": 18,
+      "events_with_image": 13,
       "events_with_video": 3,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Chuquisaca": {
       "events_total": 10,
@@ -519,7 +521,7 @@
       "events_with_image": 6,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 1
     },
     "Oruro": {
       "events_total": 3,
@@ -586,16 +588,16 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 15,
-      "events_upcoming": 13,
-      "events_with_image": 13,
+      "events_total": 16,
+      "events_upcoming": 14,
+      "events_with_image": 14,
       "events_with_video": 0
     },
     "exposicion": {
       "label": "Exposiciones",
-      "events_total": 4,
-      "events_upcoming": 4,
-      "events_with_image": 4,
+      "events_total": 5,
+      "events_upcoming": 5,
+      "events_with_image": 5,
       "events_with_video": 0
     },
     "feria": {
@@ -607,9 +609,9 @@
     },
     "festival": {
       "label": "Festivales",
-      "events_total": 3,
-      "events_upcoming": 2,
-      "events_with_image": 2,
+      "events_total": 2,
+      "events_upcoming": 1,
+      "events_with_image": 1,
       "events_with_video": 0
     },
     "gastronomia": {
@@ -881,6 +883,44 @@
       "cast": [],
       "quality_score": 61,
       "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_58ee7d526cc811",
+      "title": "Manzana 1 Espacio de Arte",
+      "category": "exposicion",
+      "category_label": "Exposiciones",
+      "starts_at": "2026-09-23T00:00:00-04:00",
+      "starts_at_ms": 1790136000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 23 de septiembre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Manzana Uno Espacio de Arte",
+      "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/818449017_1110969407936298_4168257909780683978_n.png?stp=dst-jpg_tt6&cstp=mx1024x1536&ctp=p600x600&_nc_cat=109&ccb=1-7&_nc_sid=cae128&_nc_ohc=qYZNjVkeiu0Q7kNvwFIVADT&_nc_oc=AdoxJtwrzMecEDNadmN5zxvQdTyPmIVJ-4lOybLX-IVhdiu4xWYDOqd16aO6yrrxR3Y&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=1dGh26ok9LFhF9NL92iTvA&_nc_ss=7f289&oh=00_AQLOGGg4Y2zVDHkt-SHFqXlk3CkURf8rVVdQrJEHdrqbJw&oe=6AB9908B",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 65,
+      "is_featured": true,
       "status": "programado",
       "source_count": 1
     },
@@ -2138,11 +2178,11 @@
       "title": "Película en cartelera de cine",
       "category": "cine",
       "category_label": "Cine",
-      "starts_at": "2026-09-23T20:40:00-04:00",
-      "starts_at_ms": 1790210400000,
+      "starts_at": "2026-09-23T18:40:00-04:00",
+      "starts_at_ms": 1790203200000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Miércoles 23 de septiembre · 20:40",
+      "display_date": "Miércoles 23 de septiembre · 18:40",
       "lifecycle": "hoy",
       "lifecycle_label": "Hoy",
       "days_until": 0,
@@ -2159,7 +2199,7 @@
       "price_label": null,
       "organizer": null,
       "showtimes": [
-        "20:40",
+        "18:40",
         "13:30",
         "10:10",
         "12:20",
@@ -2168,19 +2208,20 @@
         "18:20",
         "20:20",
         "22:20",
-        "13:00",
-        "17:00",
-        "15:30",
-        "17:30",
-        "18:40",
-        "11:30",
-        "21:30",
         "10:50",
         "15:00",
+        "17:00",
+        "21:30",
+        "20:40",
+        "11:30",
+        "19:30",
+        "13:00",
         "19:00",
         "21:00",
-        "19:30",
+        "17:30",
+        "15:30",
         "11:20",
+        "16:10",
         "10:00",
         "12:10",
         "13:10",
@@ -2189,7 +2230,6 @@
         "21:20",
         "14:30",
         "13:40",
-        "16:10",
         "10:30"
       ],
       "formats": [
@@ -2199,14 +2239,15 @@
         "2D - PRE - Doblada",
         "2D - XD - DBOX - Doblada",
         "DBOX - 2D - Doblada",
-        "DBOX - XD - 2D - Doblada",
+        "DBOX - 2D - XD - Doblada",
         "PRE - 2D - Doblada",
         "PRE - 2D - Subtitulada",
         "XD - 2D - DBOX - Doblada",
+        "XD - DBOX - 2D - Doblada",
         "2D - PRE - Subtitulada"
       ],
       "occurrences": [
-        "2026-09-23T20:40:00-04:00",
+        "2026-09-23T18:40:00-04:00",
         "2026-09-23T13:30:00-04:00",
         "2026-09-23T10:10:00-04:00",
         "2026-09-23T12:20:00-04:00",
@@ -2215,19 +2256,20 @@
         "2026-09-23T18:20:00-04:00",
         "2026-09-23T20:20:00-04:00",
         "2026-09-23T22:20:00-04:00",
-        "2026-09-23T13:00:00-04:00",
-        "2026-09-23T17:00:00-04:00",
-        "2026-09-23T15:30:00-04:00",
-        "2026-09-23T17:30:00-04:00",
-        "2026-09-23T18:40:00-04:00",
-        "2026-09-23T11:30:00-04:00",
-        "2026-09-23T21:30:00-04:00",
         "2026-09-23T10:50:00-04:00",
         "2026-09-23T15:00:00-04:00",
+        "2026-09-23T17:00:00-04:00",
+        "2026-09-23T21:30:00-04:00",
+        "2026-09-23T20:40:00-04:00",
+        "2026-09-23T11:30:00-04:00",
+        "2026-09-23T19:30:00-04:00",
+        "2026-09-23T13:00:00-04:00",
         "2026-09-23T19:00:00-04:00",
         "2026-09-23T21:00:00-04:00",
-        "2026-09-23T19:30:00-04:00",
+        "2026-09-23T17:30:00-04:00",
+        "2026-09-23T15:30:00-04:00",
         "2026-09-23T11:20:00-04:00",
+        "2026-09-23T16:10:00-04:00",
         "2026-09-23T10:00:00-04:00",
         "2026-09-23T12:10:00-04:00",
         "2026-09-23T13:10:00-04:00",
@@ -2236,7 +2278,6 @@
         "2026-09-23T21:20:00-04:00",
         "2026-09-23T14:30:00-04:00",
         "2026-09-23T13:40:00-04:00",
-        "2026-09-23T16:10:00-04:00",
         "2026-09-23T10:30:00-04:00",
         "2026-09-23T16:50:00-04:00",
         "2026-09-23T19:10:00-04:00",
@@ -2253,10 +2294,10 @@
         "2026-09-23T19:40:00-04:00",
         "2026-09-23T22:10:00-04:00",
         "2026-09-23T15:50:00-04:00",
-        "2026-09-23T15:40:00-04:00",
         "2026-09-23T18:00:00-04:00",
-        "2026-09-23T11:40:00-04:00",
         "2026-09-23T13:50:00-04:00",
+        "2026-09-23T13:25:00-04:00",
+        "2026-09-23T15:40:00-04:00",
         "2026-09-23T21:40:00-04:00"
       ],
       "content_genre": null,
@@ -2992,6 +3033,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_ae9da30af86e30",
+      "title": "Balau: Taller de cajón peruano",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-11-09T21:30:00-04:00",
+      "starts_at_ms": 1794274200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 9 de noviembre · 21:30",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 47,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Fexpocruz",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 11.9,
+      "currency": "BOB",
+      "price_label": "Bs 11.9",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 69,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_6861bf88a2635d",
       "title": "Balau: Taller de cajón peruano",
       "category": "deporte",
@@ -3026,44 +3105,6 @@
       "cast": [],
       "quality_score": 61,
       "is_featured": false,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_ae9da30af86e30",
-      "title": "Balau: Taller de cajón peruano",
-      "category": "festival",
-      "category_label": "Festivales",
-      "starts_at": "2026-11-09T21:30:00-04:00",
-      "starts_at_ms": 1794274200000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Lunes 9 de noviembre · 21:30",
-      "lifecycle": "proximo",
-      "lifecycle_label": "Próximos",
-      "days_until": 47,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Fexpocruz",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": 17.95,
-      "currency": "BOB",
-      "price_label": "Bs 17.95 - 300",
-      "organizer": null,
-      "showtimes": [],
-      "formats": [],
-      "occurrences": [],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
       "status": "programado",
       "source_count": 1
     },
