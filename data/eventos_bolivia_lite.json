@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-24T07:47:50-04:00",
+  "generated_at": "2026-09-24T13:13:12-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 67,
-    "events_today": 16
+    "events_total": 70,
+    "events_today": 17
   },
   "filters": {
     "ui_groups": [
@@ -55,12 +55,12 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 17
+        "count": 18
       },
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 14
+        "count": 15
       },
       {
         "key": "feria",
@@ -75,7 +75,7 @@
       {
         "key": "exposicion",
         "label": "Exposiciones",
-        "count": 4
+        "count": 5
       },
       {
         "key": "teatro",
@@ -127,16 +127,16 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 11
-      },
-      {
-        "key": "Quillacollo",
-        "label": "Quillacollo",
-        "count": 6
+        "count": 12
       },
       {
         "key": "Sucre",
         "label": "Sucre",
+        "count": 7
+      },
+      {
+        "key": "Quillacollo",
+        "label": "Quillacollo",
         "count": 6
       },
       {
@@ -147,7 +147,7 @@
       {
         "key": "Oruro",
         "label": "Oruro",
-        "count": 3
+        "count": 4
       },
       {
         "key": "El Alto",
@@ -162,13 +162,13 @@
     ],
     "departments": [
       {
-        "key": "Santa Cruz",
-        "label": "Santa Cruz",
-        "count": 17
-      },
-      {
         "key": "Cochabamba",
         "label": "Cochabamba",
+        "count": 18
+      },
+      {
+        "key": "Santa Cruz",
+        "label": "Santa Cruz",
         "count": 17
       },
       {
@@ -177,14 +177,14 @@
         "count": 15
       },
       {
-        "key": "Bolivia",
-        "label": "Bolivia",
+        "key": "Chuquisaca",
+        "label": "Chuquisaca",
         "count": 6
       },
       {
-        "key": "Chuquisaca",
-        "label": "Chuquisaca",
-        "count": 5
+        "key": "Bolivia",
+        "label": "Bolivia",
+        "count": 6
       },
       {
         "key": "Tarija",
@@ -194,29 +194,29 @@
       {
         "key": "Oruro",
         "label": "Oruro",
-        "count": 3
+        "count": 4
       }
     ],
     "when": [
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 22
+        "count": 23
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 26
+        "count": 28
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 30
+        "count": 32
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 67
+        "count": 70
       }
     ],
     "price": [
@@ -228,19 +228,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 17
+        "count": 18
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 49
+        "count": 51
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 59
+        "count": 62
       },
       {
         "key": "con_video",
@@ -249,6 +249,16 @@
       }
     ],
     "tags": [
+      {
+        "key": "UTO",
+        "label": "UTO",
+        "count": 3
+      },
+      {
+        "key": "Oruro2026",
+        "label": "Oruro2026",
+        "count": 3
+      },
       {
         "key": "FEXPOCRUZ",
         "label": "FEXPOCRUZ",
@@ -265,18 +275,8 @@
         "count": 2
       },
       {
-        "key": "UTO",
-        "label": "UTO",
-        "count": 2
-      },
-      {
         "key": "RTvU",
         "label": "RTvU",
-        "count": 2
-      },
-      {
-        "key": "Oruro2026",
-        "label": "Oruro2026",
         "count": 2
       },
       {
@@ -340,33 +340,33 @@
         "count": 1
       },
       {
+        "key": "DIRVIN",
+        "label": "DIRVIN",
+        "count": 1
+      },
+      {
+        "key": "ExtensiónCultural",
+        "label": "ExtensiónCultural",
+        "count": 1
+      },
+      {
+        "key": "MuseosAbiertos",
+        "label": "MuseosAbiertos",
+        "count": 1
+      },
+      {
+        "key": "CulturaOruro",
+        "label": "CulturaOruro",
+        "count": 1
+      },
+      {
+        "key": "PatrimonioCultural",
+        "label": "PatrimonioCultural",
+        "count": 1
+      },
+      {
         "key": "NochesDePatiño",
         "label": "NochesDePatiño",
-        "count": 1
-      },
-      {
-        "key": "CasaDeLaCultura",
-        "label": "CasaDeLaCultura",
-        "count": 1
-      },
-      {
-        "key": "SimónIPatiño",
-        "label": "SimónIPatiño",
-        "count": 1
-      },
-      {
-        "key": "DíaMundialDelTurismo",
-        "label": "DíaMundialDelTurismo",
-        "count": 1
-      },
-      {
-        "key": "TurismoOruro",
-        "label": "TurismoOruro",
-        "count": 1
-      },
-      {
-        "key": "CDL",
-        "label": "CDL",
         "count": 1
       }
     ],
@@ -374,7 +374,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 24
+        "count": 25
       },
       {
         "key": "venue",
@@ -384,12 +384,12 @@
       {
         "key": "cartelera_cine",
         "label": "cartelera_cine",
-        "count": 11
+        "count": 12
       },
       {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
-        "count": 10
+        "count": 11
       },
       {
         "key": "ticketera",
@@ -421,13 +421,14 @@
       "evt_8513d59daecabc",
       "evt_68715230c507a1",
       "evt_f5a5da0aba204b",
+      "evt_4265a46bfd254f",
       "evt_69c7407f468eaf",
       "evt_a01af835e6ec38",
       "evt_40e4c548765c65",
       "evt_e168adc2b714f4",
+      "evt_3aebf71921663c",
       "evt_ea1482ec13202e",
       "evt_4bdec834620336",
-      "evt_3aebf71921663c",
       "evt_3c15feb365d259",
       "evt_b6df8ae5de56c4",
       "evt_18d9332b837209",
@@ -439,7 +440,8 @@
       "evt_ab43ab2b29d9ae",
       "evt_ab03973916de20",
       "evt_c985524f14c90a",
-      "evt_5aa45ee0cffbac"
+      "evt_5aa45ee0cffbac",
+      "evt_36bee78ae2b353"
     ],
     "this_weekend": [
       "evt_b241df7de02d67",
@@ -460,13 +462,14 @@
       "evt_ab43ab2b29d9ae",
       "evt_ab03973916de20",
       "evt_f5a5da0aba204b",
+      "evt_4265a46bfd254f",
       "evt_69c7407f468eaf",
       "evt_a01af835e6ec38",
       "evt_40e4c548765c65",
       "evt_e168adc2b714f4",
+      "evt_3aebf71921663c",
       "evt_ea1482ec13202e",
       "evt_4bdec834620336",
-      "evt_3aebf71921663c",
       "evt_3c15feb365d259",
       "evt_b6df8ae5de56c4",
       "evt_18d9332b837209",
@@ -485,22 +488,23 @@
       "evt_2821894c1d5322",
       "evt_ab2d744f1fbd8e",
       "evt_48c45c2c902fde",
-      "evt_9ea8741680468c"
+      "evt_9ea8741680468c",
+      "evt_cab71456af6bc1"
     ]
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 39,
+      "events_total": 35,
       "events_upcoming": 15,
       "events_with_image": 14,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 25,
-      "events_upcoming": 17,
-      "events_with_image": 17,
+      "events_total": 29,
+      "events_upcoming": 18,
+      "events_with_image": 18,
       "events_with_video": 0,
       "sources_total": 13,
       "sources_ok": 3
@@ -515,19 +519,19 @@
     },
     "Chuquisaca": {
       "events_total": 9,
-      "events_upcoming": 5,
-      "events_with_image": 5,
+      "events_upcoming": 6,
+      "events_with_image": 6,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Oruro": {
-      "events_total": 3,
-      "events_upcoming": 3,
-      "events_with_image": 3,
+      "events_total": 4,
+      "events_upcoming": 4,
+      "events_with_image": 4,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 1
     },
     "Potosí": {
       "events_total": 0,
@@ -543,7 +547,7 @@
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Beni": {
       "events_total": 0,
@@ -559,15 +563,15 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 1
     }
   },
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 69,
-      "events_upcoming": 17,
-      "events_with_image": 17,
+      "events_total": 64,
+      "events_upcoming": 18,
+      "events_with_image": 18,
       "events_with_video": 0
     },
     "concierto": {
@@ -586,16 +590,16 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 16,
-      "events_upcoming": 14,
-      "events_with_image": 14,
+      "events_total": 19,
+      "events_upcoming": 15,
+      "events_with_image": 15,
       "events_with_video": 0
     },
     "exposicion": {
       "label": "Exposiciones",
-      "events_total": 5,
-      "events_upcoming": 4,
-      "events_with_image": 4,
+      "events_total": 6,
+      "events_upcoming": 5,
+      "events_with_image": 5,
       "events_with_video": 0
     },
     "feria": {
@@ -635,7 +639,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 5,
+      "events_total": 7,
       "events_upcoming": 4,
       "events_with_image": 3,
       "events_with_video": 0
@@ -1099,6 +1103,81 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_4265a46bfd254f",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-24T10:40:00-04:00",
+      "starts_at_ms": 1790260800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 24 de septiembre · 10:40",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": "Cine SAS",
+      "image_url": "https://cdn.bolivia.com/cine/2026/9/resident-evil-noche-cero-47798.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "10:40",
+        "16:45",
+        "19:10",
+        "21:45",
+        "11:00",
+        "18:30",
+        "20:50",
+        "14:45",
+        "17:10",
+        "18:50",
+        "20:55",
+        "10:30",
+        "12:50",
+        "13:20",
+        "14:35",
+        "14:55"
+      ],
+      "formats": [
+        "2D DOBLADA",
+        "3D DOBLADA"
+      ],
+      "occurrences": [
+        "2026-09-24T10:40:00-04:00",
+        "2026-09-24T16:45:00-04:00",
+        "2026-09-24T19:10:00-04:00",
+        "2026-09-24T21:45:00-04:00",
+        "2026-09-24T11:00:00-04:00",
+        "2026-09-24T18:30:00-04:00",
+        "2026-09-24T20:50:00-04:00",
+        "2026-09-24T14:45:00-04:00",
+        "2026-09-24T17:10:00-04:00",
+        "2026-09-24T18:50:00-04:00",
+        "2026-09-24T20:55:00-04:00",
+        "2026-09-24T10:30:00-04:00",
+        "2026-09-24T12:50:00-04:00",
+        "2026-09-24T13:20:00-04:00",
+        "2026-09-24T14:35:00-04:00",
+        "2026-09-24T14:55:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_69c7407f468eaf",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1452,6 +1531,134 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_3aebf71921663c",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-24T16:40:00-04:00",
+      "starts_at_ms": 1790282400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 24 de septiembre · 16:40",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2019/1/avengers-endgame-47703.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "16:40",
+        "19:00",
+        "13:00",
+        "21:00",
+        "16:50",
+        "13:30",
+        "17:10",
+        "20:30",
+        "20:40",
+        "12:10",
+        "13:20",
+        "14:20",
+        "15:20",
+        "16:20",
+        "17:30",
+        "19:40",
+        "21:40",
+        "22:40",
+        "17:20",
+        "19:20",
+        "21:30",
+        "12:40",
+        "15:00",
+        "19:50",
+        "22:10",
+        "12:20",
+        "14:50",
+        "17:00",
+        "12:25",
+        "14:10",
+        "16:30",
+        "19:30"
+      ],
+      "formats": [
+        "2D - DBOX - XD - IV - Doblada",
+        "2D - Doblada",
+        "2D - XD - DBOX - IV - Doblada",
+        "3D - DBOX - Doblada",
+        "3D - PRE - Subtitulada",
+        "DBOX - 3D - Doblada",
+        "DBOX - IV - 2D - XD - Doblada",
+        "PRE - 3D - Subtitulada",
+        "2D - PRE - Doblada",
+        "2D - PRE - Subtitulada",
+        "PRE - 2D - Subtitulada",
+        "3D - Doblada",
+        "PRE - 2D - Doblada"
+      ],
+      "occurrences": [
+        "2026-09-24T16:40:00-04:00",
+        "2026-09-24T19:00:00-04:00",
+        "2026-09-24T13:00:00-04:00",
+        "2026-09-24T21:00:00-04:00",
+        "2026-09-24T16:50:00-04:00",
+        "2026-09-24T13:30:00-04:00",
+        "2026-09-24T17:10:00-04:00",
+        "2026-09-24T20:30:00-04:00",
+        "2026-09-24T20:40:00-04:00",
+        "2026-09-24T12:10:00-04:00",
+        "2026-09-24T13:20:00-04:00",
+        "2026-09-24T14:20:00-04:00",
+        "2026-09-24T15:20:00-04:00",
+        "2026-09-24T16:20:00-04:00",
+        "2026-09-24T17:30:00-04:00",
+        "2026-09-24T19:40:00-04:00",
+        "2026-09-24T21:40:00-04:00",
+        "2026-09-24T22:40:00-04:00",
+        "2026-09-24T17:20:00-04:00",
+        "2026-09-24T19:20:00-04:00",
+        "2026-09-24T21:30:00-04:00",
+        "2026-09-24T12:40:00-04:00",
+        "2026-09-24T15:00:00-04:00",
+        "2026-09-24T19:50:00-04:00",
+        "2026-09-24T22:10:00-04:00",
+        "2026-09-24T12:20:00-04:00",
+        "2026-09-24T14:50:00-04:00",
+        "2026-09-24T17:00:00-04:00",
+        "2026-09-24T12:25:00-04:00",
+        "2026-09-24T14:10:00-04:00",
+        "2026-09-24T16:30:00-04:00",
+        "2026-09-24T19:30:00-04:00",
+        "2026-09-24T17:40:00-04:00",
+        "2026-09-24T12:50:00-04:00",
+        "2026-09-24T15:10:00-04:00",
+        "2026-09-24T15:30:00-04:00",
+        "2026-09-24T18:30:00-04:00",
+        "2026-09-24T14:00:00-04:00",
+        "2026-09-24T20:00:00-04:00",
+        "2026-09-24T22:20:00-04:00",
+        "2026-09-24T22:00:00-04:00",
+        "2026-09-24T13:10:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_ea1482ec13202e",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1556,140 +1763,6 @@
         "2026-09-24T15:30:00-04:00",
         "2026-09-24T12:00:00-04:00",
         "2026-09-24T15:00:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_3aebf71921663c",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-09-24T19:00:00-04:00",
-      "starts_at_ms": 1790290800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Jueves 24 de septiembre · 19:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2019/1/avengers-endgame-47703.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "19:00",
-        "13:00",
-        "17:10",
-        "21:00",
-        "16:50",
-        "20:40",
-        "13:30",
-        "20:30",
-        "16:40",
-        "11:10",
-        "12:10",
-        "13:20",
-        "14:20",
-        "15:20",
-        "16:20",
-        "17:30",
-        "19:40",
-        "21:40",
-        "22:40",
-        "17:20",
-        "19:20",
-        "21:30",
-        "11:40",
-        "12:25",
-        "14:10",
-        "16:30",
-        "19:30",
-        "10:30",
-        "17:40",
-        "14:50",
-        "10:20",
-        "12:40"
-      ],
-      "formats": [
-        "2D - Doblada",
-        "2D - IV - DBOX - XD - Doblada",
-        "3D - DBOX - Doblada",
-        "3D - PRE - Subtitulada",
-        "DBOX - 3D - Doblada",
-        "DBOX - XD - 2D - IV - Doblada",
-        "IV - 2D - XD - DBOX - Doblada",
-        "2D - PRE - Doblada",
-        "2D - PRE - Subtitulada",
-        "3D - Doblada",
-        "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada"
-      ],
-      "occurrences": [
-        "2026-09-24T19:00:00-04:00",
-        "2026-09-24T13:00:00-04:00",
-        "2026-09-24T17:10:00-04:00",
-        "2026-09-24T21:00:00-04:00",
-        "2026-09-24T16:50:00-04:00",
-        "2026-09-24T20:40:00-04:00",
-        "2026-09-24T13:30:00-04:00",
-        "2026-09-24T20:30:00-04:00",
-        "2026-09-24T16:40:00-04:00",
-        "2026-09-24T11:10:00-04:00",
-        "2026-09-24T12:10:00-04:00",
-        "2026-09-24T13:20:00-04:00",
-        "2026-09-24T14:20:00-04:00",
-        "2026-09-24T15:20:00-04:00",
-        "2026-09-24T16:20:00-04:00",
-        "2026-09-24T17:30:00-04:00",
-        "2026-09-24T19:40:00-04:00",
-        "2026-09-24T21:40:00-04:00",
-        "2026-09-24T22:40:00-04:00",
-        "2026-09-24T17:20:00-04:00",
-        "2026-09-24T19:20:00-04:00",
-        "2026-09-24T21:30:00-04:00",
-        "2026-09-24T11:40:00-04:00",
-        "2026-09-24T12:25:00-04:00",
-        "2026-09-24T14:10:00-04:00",
-        "2026-09-24T16:30:00-04:00",
-        "2026-09-24T19:30:00-04:00",
-        "2026-09-24T10:30:00-04:00",
-        "2026-09-24T17:40:00-04:00",
-        "2026-09-24T14:50:00-04:00",
-        "2026-09-24T10:20:00-04:00",
-        "2026-09-24T12:40:00-04:00",
-        "2026-09-24T15:00:00-04:00",
-        "2026-09-24T19:50:00-04:00",
-        "2026-09-24T22:10:00-04:00",
-        "2026-09-24T17:00:00-04:00",
-        "2026-09-24T12:20:00-04:00",
-        "2026-09-24T12:50:00-04:00",
-        "2026-09-24T15:10:00-04:00",
-        "2026-09-24T10:40:00-04:00",
-        "2026-09-24T11:00:00-04:00",
-        "2026-09-24T14:00:00-04:00",
-        "2026-09-24T15:30:00-04:00",
-        "2026-09-24T18:30:00-04:00",
-        "2026-09-24T10:50:00-04:00",
-        "2026-09-24T13:10:00-04:00",
-        "2026-09-24T20:00:00-04:00",
-        "2026-09-24T22:20:00-04:00",
-        "2026-09-24T22:00:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2064,6 +2137,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_36bee78ae2b353",
+      "title": "La UTO habilita 26 espacios culturales para la esperada Jornada de Museos Abiertos este 25 de septiembre",
+      "category": "exposicion",
+      "category_label": "Exposiciones",
+      "starts_at": "2026-09-25T00:00:00-04:00",
+      "starts_at_ms": 1790308800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Viernes 25 de septiembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 1,
+      "is_upcoming": true,
+      "city": "Oruro",
+      "department": "Oruro",
+      "venue": null,
+      "image_url": "https://www.uto.edu.bo/wp-content/uploads/2026/09/mueseossep.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_0adee17583f556",
       "title": "Epic el Musical en Concierto",
       "category": "concierto",
@@ -2255,7 +2366,7 @@
     },
     {
       "event_id": "evt_65bc9e58b91cc4",
-      "title": "23/09/2026 Cultura Retorna la Noche de museos La Noche de Museos 2.0 se suma a la celebración de los 216 años de la…",
+      "title": "24/09/2026 Cultura La FILC anuncia más de 600 actividades en su 19a versión Más de 600 actividades culturales se…",
       "category": "cine",
       "category_label": "Cine",
       "starts_at": "2026-10-07T19:00:00-04:00",
@@ -2270,7 +2381,7 @@
       "city": "Cochabamba",
       "department": "Cochabamba",
       "venue": "salón Melchor Pérez",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/23/12_dc_cartelera_1.jpg?itok=vQcln8KK",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/24/12_dc_cartelera_1.jpg?itok=1FCl37G7",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
@@ -2857,6 +2968,44 @@
       "director": null,
       "cast": [],
       "quality_score": 59,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_3e5f1bc61603a4",
+      "title": "Espectáculos",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-11-10T22:00:00-04:00",
+      "starts_at_ms": 1794362400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 10 de noviembre · 22:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 47,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/21/12_dc_cartelera_1.jpg?itok=5Pe0YQuq",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
@@ -3756,9 +3905,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
+      "price_from": 20.0,
+      "currency": "BOB",
+      "price_label": "Bs 20",
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -3768,8 +3917,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 61,
-      "is_featured": false,
+      "quality_score": 69,
+      "is_featured": true,
       "status": "programado",
       "source_count": 1
     }
