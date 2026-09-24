@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:13:12-04:00",
+  "generated_at": "2026-09-24T17:34:29-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,11 +12,12 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_municipio_sucre",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 98.0,
-    "horas_maximo_sin_datos": 850.0
+    "horas_promedio_sin_datos": 97.6,
+    "horas_maximo_sin_datos": 854.4
   },
   "sources": [
     {
@@ -45,30 +46,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BR8ioS9lG0cQ7kNvwHuK0oi&_nc_oc=Adpf4BwD7pJbSkwLBor08SaNQs3KpSgd0jsloafB110FT9CdajVKLbekXGXtK3TdBh0&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=dOJKmZYv7ef_l7pt52S0BQ&_nc_ss=7f289&oh=00_AQLsbOEyQ5V_ZUCiUghWT21H0ZUDqy6C2gmUQQOMaQeJCQ&oe=6ABB2CB5",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2687810361633498/?__cft__[0]=AZgn-H7pIQYQzTTBq47L84XJ2W1OfA_1T0gz5tA77UrIVk19_vXQWNSF7iAMDfUBYoqfHjwHQIybqxAKYXPw_2h9ymhygHGhPG8emaFSfymYfsGtduDSrLi9HLMgxu3OlC3ddbooTUowt36epPI3QNeLZN8POTvHFx7v4sKWwvOB4_FTms677fUdWVjemVKzgOY9&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Jesse & Joy ya están en Bolivia j… Ver más Jesse & Joy ya están en Bolivia j… Ver más Pensé que era Kika Edgar Tenemos problemas para reproducir este video. Más información Ver más comentarios Contreras Pérez Luis"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2687810361633498/?comment_id=1115742501142564&__cft__[0]=AZgn-H7pIQYQzTTBq47L84XJ2W1OfA_1T0gz5tA77UrIVk19_vXQWNSF7iAMDfUBYoqfHjwHQIybqxAKYXPw_2h9ymhygHGhPG8emaFSfymYfsGtduDSrLi9HLMgxu3OlC3ddbooTUowt36epPI3QNeLZN8POTvHFx7v4sKWwvOB4_FTms677fUdWVjemVKzgOY9&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Pensé que era Kika Edgar Contreras Pérez Luis"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -606,22 +590,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pr_jx3Hr4jcQ7kNvwFlBfng&_nc_oc=AdpqqBIm3kA1OKY1ixNY4HwE7_Z7LLMiiCoNyoecEksj5jPdY9TRHnmsS1OnzDq7owM&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=kZVqDLeFtw_Ty-m0WMJppg&_nc_ss=7f289&oh=00_AQIYMGo7UCL-zZm9E_uHbFK-P7tlD_yHLP1YskVgjB4GZw&oe=6ABB10C7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/mna-estamos-en-vivo-ya-comenz%C3%B3-la-f%C3%A1brica-de-las-im%C3%A1genes-fuentes-documentales-y/27965638739784457/",
-          "has_image": true,
-          "text_preview": "#MNA | Estamos en vivo 🎨 Ya comenzó “La fábrica de las imágenes: fuentes documentales y materiales para la pintura colonial en Bolivia”, un nuevo encuentro de ParlArte. 📍 UPEA – Carrera de Artes... #MNA | Estamos en vivo 🎨 Ya comenzó “La fábrica de las imágenes: fuentes documentales y materiales para la pintura colonial en Bolivia”, un nuevo... #MNA | Estamos en vivo …"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -684,12 +659,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Sucre 156 mil seguidores • 18 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pued'"
     },
     {
       "id": "fb_municipio_oruro",
@@ -734,13 +709,22 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XCbyjX51rSkQ7kNvwHxoIMl&_nc_oc=Adp5Cs_ibeypUf1tMWUZgg7iYqEPkTBmbwCxGsqXors4wqpdm5a4N9yw5ipoE3Xc5oY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=n97eDLKxtSEAQ169ZMVuQQ&_nc_ss=7f289&oh=00_AQJdb580w2Hn1iDyXNCPjR7y4KL2Tumqc68xX5RFPwkueg&oe=6ABB8368",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/posts/pfbid02ipdhy4Zc3Yk8a6MQ2xcjr8BiTQKV1aiat4FV1YtPLjuunXQUUy1nJwxezGJ8n7aal?__cft__[0]=AZhfhaMrQEu0cZMUY_WeORaWBy-jAxpJxnwlbvkdjuIdup3iL5c1Lc18xJ_0qTEm7w8TZkr3MbxbjYnm3enoT-F_vCKcO3pNqtNrXL1gb0cYGBU2PhsY9DmDUU55BxiKm_L3gMcZPA7zzg-_fnM2FkdlGbHesDB6OkMUDGE3B7Iknm7ZlJBzFuhLE1o&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "INAUGURACIÓN DE LOS JUEGOS ESTUDIANTILES DE NIVEL PRIMARIO Y SECUNDARIO A NIVEL MUNICIPAL La primera autoridad municipal, Lic. Williams Cervantes Beltrán, junto a la Un… Ver más INAUGURACIÓN DE LOS JUEGOS ESTUDIANTILES DE NIVEL PRIMARIO Y SECUNDARIO A NIVEL MUNICIPAL La primera autoridad municipal, Lic. Williams Cervantes Beltrán, junto a la Un… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_trinidad",
@@ -1108,30 +1092,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VryN65lY5ikQ7kNvwG21nan&_nc_oc=Adpkpzr-EqsPsSkae-zP6Hts4flk4y3UBmiHA_OGqAMtlhRKy6tv_wpdvsq1lHXelto&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=dNASjEDTtA4LbiDyynt_-A&_nc_ss=7f289&oh=00_AQIoLgqMJZrYYia3YKnuz1y0Ktu5fZL3q6ANuhdW2hg_6A&oe=6ABB4837",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/museocasadelalibertad/videos/cdl-vive-las-%C3%BAltimas-funciones-de-la-experiencia-inmersiva-y-sonora-de-el-palaci/2715839688869062/",
-          "has_image": true,
-          "text_preview": "#CDL | Vive las últimas funciones de la experiencia inmersiva y sonora de \"El Palacio suena. La Manzana Jesuítica bajo de Charcas\" 📅 Del jueves 24 al domingo 27 de septiembre, en grupos desde las... #CDL | Vive las últimas funciones de la experiencia inmersiva y sonora de \"El Palacio suena. La Manzana Jesuítica bajo de Charcas\" 📅 Del jueves 24 al..."
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2715839688869062/?comment_id=1462074265733621&__cft__[0]=AZj9FsDARW6HNA_u5hrmGoWVlUoJvtVpk3aLX6iaHcMVp0JD-hIlRlTHrx04-jnKl-iEhFJgpENiNFFeyZf-VVki-_s58ybVtyTS_dvZAx7CWxmEun_tQP0feu4Yz8yEGYIJ3pWD47XvShKV6NT0zwnaWeeIixD0IopmxUSOZwlXFKMDXZKo4Hkw6P79MhDvt0gW&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mirtha Loayza Mi bella Sucre. 14 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
@@ -1193,13 +1160,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/791477565_1093784559902436_1122510819657018021_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-oDeIZbl2tgQ7kNvwFcFfpd&_nc_oc=Adq6ZQsG2quJzWk80TOyDjT8nogpidfr1WynOu_ydaFyJjjEKAuxWyVZzAGaYqKYnuw&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=JC1UbkJYa7ra6qIISbeG6g&_nc_ss=7f289&oh=00_AQJvF5GD16hu7SLmLpv94qnmxNs-h5MEtXHpb2VjTBu4ag&oe=6ABB7194",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1740272650588945/?__cft__[0]=AZjIUi89JSaWrOZ1orer92WMU_smBV8X6Zhvj0sp_9Zb_jYBBH8NkLWde4u2_BtWrMbqqFL04qvvFK2Bf5hyIZ_RO8XeaqWCJO2nrtiqJXQuVwkd_3lTHJb-lCtcmZiPp6q1rGRrs5XauHzzj9uX0VdPI9MFSo2rlBF-Wx9HnKMmGA3_V-N1GMkL24o-MoDvvuGA&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Felicidades, Santa Cruz libre y valiente! … Ver más Tenemos problemas para reproducir este video. Más información Ver más comentarios Edith Justiniano"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umss",
@@ -1263,8 +1239,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 7,
-      "events": 6,
+      "raw_items": 8,
+      "events": 7,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1410,32 +1386,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 8,
+      "rejected": 5,
       "rejected_samples": [
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/tendencias",
-          "has_image": true,
-          "text_preview": "24/09/2026 Salud La fruta que neurólogos recomiendan para cuidar el cerebro después de los 50 años Una fruta que rara vez aparece en las listas de alimentos recomendados para la salud cognitiva podría proteger el cerebro en la mediana edad, según... vista 23/09/2026 Ciencia Reconocen a científicos de la UMSA que descubrieron a Tilcayo, felino de Yungas Los investigadores Paola Nogales-Ascarrunz y "
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
+          "reason": "tema_ajeno_a_eventos",
+          "score": 49,
           "category": "deporte",
           "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
           "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
+          "reason": "tema_ajeno_a_eventos",
+          "score": 35,
           "category": "deporte",
           "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB 2 Convocatoria Credifondo Garantiza 3 Convocatoria Credifondo Promotor 4 Rodrígue"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB 2 Bono Juancito Pinto: Requisitos, fechas y modalidades para cobrar los Bs 300 3 "
+        },
+        {
+          "reason": "tema_ajeno_a_eventos",
+          "score": 49,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/agenda-cultural/concierto-piano_638709",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Conciertos de Piano de Beethoven en Cochabamba ¡Sumérgete en una experiencia musical incomparable! Ars Música Orquesta te invita a presenciar los icónicos conciertos para piano de Ludwig van Beethoven, interpretados por renombrados solistas internacionales. Fechas: 24 y 25 de agosto Hora: 19:00 hrs Lugar: Teatro Instituto Eduardo Laredo Entradas: VIP: 70 Bs Generales: 50 Bs Direcci"
         }
       ],
       "error": null
@@ -1535,8 +1511,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 29,
-      "events": 29,
+      "raw_items": 34,
+      "events": 34,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,8 +1579,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 29,
-      "events": 29,
+      "raw_items": 28,
+      "events": 28,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1787,11 +1763,11 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 45,
-          "category": "conferencia",
+          "score": 39,
+          "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗦𝗘 𝗖𝗢𝗡𝗦𝗢𝗟𝗜𝗗𝗔 𝗖𝗢𝗠𝗢 𝗘𝗟 𝗣𝗥𝗜𝗠𝗘𝗥 𝗠𝗨𝗡𝗜𝗖𝗜𝗣𝗜𝗢 𝗗𝗘𝗟 𝗣𝗔𝗜́𝗦 𝗘𝗡 𝗔𝗖𝗢𝗥𝗗𝗔𝗥 𝗨𝗡𝗔 𝗧𝗔𝗥𝗜𝗙𝗔 𝗧𝗥𝗔𝗡𝗦𝗜𝗧𝗢𝗥𝗜𝗔 𝗗𝗘 𝗧𝗥𝗔𝗡𝗦𝗣𝗢𝗥𝗧𝗘 𝗣𝗨́𝗕𝗟𝗜𝗖𝗢 𝗘𝗡 𝗣𝗟𝗘𝗡𝗢 𝗖𝗢𝗡𝗦𝗘𝗡𝗦𝗢 𝗖𝗢𝗡 𝗦𝗨𝗦 𝗕𝗔𝗦𝗘𝗦 𝗦𝗢𝗖𝗜𝗔𝗟𝗘𝗦 hace 2 días Noticias 126 La Federación Departamental de Juntas Vecinales (FEDJUVE) y el sector transporte pactaron una escala tarifaria temporal gracias al diálogo promovido por la Alcaldía. Este acuerdo permite restituir de inmediato el servicio u"
+          "text_preview": "𝐀𝐋𝐂𝐀𝐋𝐃𝐄𝐒𝐀 𝐃𝐄 𝐒𝐔𝐂𝐑𝐄 𝐘 𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐎 𝐃𝐄 𝐎𝐁𝐑𝐀𝐒 𝐏Ú𝐁𝐋𝐈𝐂𝐀𝐒 𝐅𝐈𝐑𝐌𝐀𝐍 𝐂𝐎𝐍𝐕𝐄𝐍𝐈𝐎 𝐐𝐔𝐄 𝐕𝐈𝐀𝐁𝐈𝐋𝐈𝐙𝐀 𝐌Á𝐒 𝐃𝐄 𝐁𝐒 300 𝐌𝐈𝐋𝐋𝐎𝐍𝐄𝐒 𝐃𝐄 𝐈𝐍𝐕𝐄𝐑𝐒𝐈Ó𝐍 hace 3 horas Noticias 13 La alcaldesa de Sucre, Fátima Tardío, y el ministro de Obras Públicas, Servicios y Vivienda, Mauricio Zamora Liebers, firmaron un convenio interinstitucional que viabiliza una inversión de más 300 millones de bolivianos para la ejecución de 21 proyectos en Sucr"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
