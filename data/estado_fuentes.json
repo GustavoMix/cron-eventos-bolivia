@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:34:29-04:00",
+  "generated_at": "2026-09-25T01:00:33-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,14 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_municipio_sucre",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 97.6,
-    "horas_maximo_sin_datos": 854.4
+    "horas_promedio_sin_datos": 93.8,
+    "horas_maximo_sin_datos": 861.8
   },
   "sources": [
     {
@@ -80,13 +78,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=U6GuCeqw3KsQ7kNvwGfKLz_&_nc_oc=AdoO59ejwJAnb9st_eC6lwgFEHGKREPEMZrfDQHxIfgFfTyrtKctjGvfeoXU1E08yig&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=iL0uxuzXfZa6OI7pWmT6AQ&_nc_ss=7f289&oh=00_AQJmRcNapqCDcWAGa8VOnpNlW8-1TmgzCyisvehYZI2pLQ&oe=6ABBDE03",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid04yjHq4oK74Hj53zgWscswFGFAHCYia8yATEcJyQT1YtwguaUWdAsPhnp2j5iiFRcl?__cft__[0]=AZibCbPxlJrkzwYTmLAfV1ZuPVFYYGIpThx8F5f5a9tRtLRYJ5bPo2llVt4SPDX5XEwgj0gD8TNycvHW81V_LsMFc-CXJKK0pxVnnf77pkhraX3jIH_qx66g1x-CiZ9cNBOk3SIBfZrr10j9g2xExZeZaT1eu1EceIzf3H2nEYHEEiJqY9RRkZ_Y8m0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -658,13 +665,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jZyVZks1s-MQ7kNvwEmc9bg&_nc_oc=AdoRY4wv1mvDHIqT1MdOkq31EaPcKZ0fGH7wG2BKUNvlou3HdL_HCesA_2zkgMv_08w&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=Lnc4O5RJnnubrqxrylrIXg&_nc_ss=7f289&oh=00_AQJfglQuIn3Z1j63AwgN0ojylQzP34_0dJDzkWqBVfonEA&oe=6ABBDFB8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Sucre 156 mil seguidores • 18 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pued'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/posts/pfbid0RjfMsGzoT6pV5bmD5n8hgECNVUehRY8RgSqfiViTd45Ykbfk7d4aqwuUdJ7fNYhKl?__cft__[0]=AZgkbFfJSjnqocN-rHNfLbWXQ8cjnERAGToGMCvh6L9jOPQxbFq0vFnszRiUhP4g37IAY5wVpR6cSfePA6oZI8tF5f0YyDMHJctpBsGZPWwNtO4bctKrlhs4Ejkw2yV2IR_e6Pj0Y4gn-vOTN3dudvU_7cmykcYG5cpxnfjsoY29k9MzsIhCGuL4XRA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "El Gobierno Autónomo Municipal de Sucre se une al dolor que embarga a la comunidad católica. ☥"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_oruro",
@@ -709,22 +725,13 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XCbyjX51rSkQ7kNvwHxoIMl&_nc_oc=Adp5Cs_ibeypUf1tMWUZgg7iYqEPkTBmbwCxGsqXors4wqpdm5a4N9yw5ipoE3Xc5oY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=n97eDLKxtSEAQ169ZMVuQQ&_nc_ss=7f289&oh=00_AQJdb580w2Hn1iDyXNCPjR7y4KL2Tumqc68xX5RFPwkueg&oe=6ABB8368",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/posts/pfbid02ipdhy4Zc3Yk8a6MQ2xcjr8BiTQKV1aiat4FV1YtPLjuunXQUUy1nJwxezGJ8n7aal?__cft__[0]=AZhfhaMrQEu0cZMUY_WeORaWBy-jAxpJxnwlbvkdjuIdup3iL5c1Lc18xJ_0qTEm7w8TZkr3MbxbjYnm3enoT-F_vCKcO3pNqtNrXL1gb0cYGBU2PhsY9DmDUU55BxiKm_L3gMcZPA7zzg-_fnM2FkdlGbHesDB6OkMUDGE3B7Iknm7ZlJBzFuhLE1o&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "INAUGURACIÓN DE LOS JUEGOS ESTUDIANTILES DE NIVEL PRIMARIO Y SECUNDARIO A NIVEL MUNICIPAL La primera autoridad municipal, Lic. Williams Cervantes Beltrán, junto a la Un… Ver más INAUGURACIÓN DE LOS JUEGOS ESTUDIANTILES DE NIVEL PRIMARIO Y SECUNDARIO A NIVEL MUNICIPAL La primera autoridad municipal, Lic. Williams Cervantes Beltrán, junto a la Un… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_trinidad",
@@ -871,13 +878,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/800282934_1555200746648138_3346541214021725616_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5Lrm8e5BVE8Q7kNvwGn0Rln&_nc_oc=AdpOs0Vm3825xV8BhxEcoXgq-F1LgZSD8Gtgk5T_z18X0pVM2i_4sxWmcqQzO25S79A&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zwFomWGa-IAaXsvtFn5LCQ&_nc_ss=7f289&oh=00_AQJc9glIfVSjBuUt_eTlANueWqEX0FZt5VunaCw0hzIIkg&oe=6ABBC638",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Log in to view this 18+ content It may be inappropriate for people under 18. Learn more Ve más en Facebook Correo electrónico o número de teléfono Contraseña Inici'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/feicobol/posts/pfbid02TNtiCnE7ZDc3ZmdMjQegqQShHVihQ8PGN8293wF2iSpjfbVBLNpp9qhuZ2p93Szml?__cft__[0]=AZjKw_o6guJAGYhlAN7qNpCUrPjoAuuOKTX0gpiV5kGhiDhrzkh0BdI6WO_uRVojI8xPl5i_VoGj9-_XDyc_t-zRgerBEKznsLzaGjRwxD4-idpcZFiZ8N6cMZ5dN6h6mBs50sIMFnA_9tZ_HOtQysmYBtVkqv3UmpDkrwdx-d99AZBJdCLgxzuPvHY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Feicobol hace 13 horas 13 h ¡Feliz Aniversario, Pando! … Ver más Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1160,22 +1176,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/791477565_1093784559902436_1122510819657018021_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-oDeIZbl2tgQ7kNvwFcFfpd&_nc_oc=Adq6ZQsG2quJzWk80TOyDjT8nogpidfr1WynOu_ydaFyJjjEKAuxWyVZzAGaYqKYnuw&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=JC1UbkJYa7ra6qIISbeG6g&_nc_ss=7f289&oh=00_AQJvF5GD16hu7SLmLpv94qnmxNs-h5MEtXHpb2VjTBu4ag&oe=6ABB7194",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1740272650588945/?__cft__[0]=AZjIUi89JSaWrOZ1orer92WMU_smBV8X6Zhvj0sp_9Zb_jYBBH8NkLWde4u2_BtWrMbqqFL04qvvFK2Bf5hyIZ_RO8XeaqWCJO2nrtiqJXQuVwkd_3lTHJb-lCtcmZiPp6q1rGRrs5XauHzzj9uX0VdPI9MFSo2rlBF-Wx9HnKMmGA3_V-N1GMkL24o-MoDvvuGA&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡Felicidades, Santa Cruz libre y valiente! … Ver más Tenemos problemas para reproducir este video. Más información Ver más comentarios Edith Justiniano"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umss",
@@ -1203,13 +1210,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UsDxW5ucPoUQ7kNvwHN64la&_nc_oc=AdrT0Z--mQeksFOz2JkzNO9tWbuRxh6gc2w1sI3r7c_4gaT1PzI07QliexhDfOz2FS8&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=SlQolXOlZHbKODGsLCIl4w&_nc_ss=7f289&oh=00_AQLNo7ZRz79jPV9DvzLgT180-vRkAKcM-TMKZC0Eygwt6g&oe=6ABBEC72",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid02WdwBqbfzZdSoJxVKdUEQSDXX9hzuytrRGzs5ZmUNopYYffnCRUnYudYjaxdBQTVwl?__cft__[0]=AZgcPgjCO4JYNMbbJcLy4fPRMkr86Bh6g3KNdxam-yVjBfirguptqZNtjCxRnV5qVNrXy_gu2y8AKIrU8Fc_oyrGFXTZfVaIpL1sLFjiseTNQERrPIx2GC23yYFq1G1_4WFCtbkTthgt0GjwESO4zBxOJKhCyb5RL6iJ4xp-w3-LEAzbvgnJ23WS-Lw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Nos unimos en oración por la partida a la Casa del Padre de Mons. Ricardo Centellas (Q.E.P.D.), Arzobispo de Sucre y Gran Canciller de la U.C.B. A… Ver más Nos unimos en oración por la partida a la Casa del Padre de Mons. Ricardo Centellas (Q.E.P.D.), Arzobispo de Sucre y Gran Canciller de la U.C.B. A… Ver más Sentidas CONDOLENCIAS Ver más comentarios Felix Leon"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid02WdwBqbfzZdSoJxVKdUEQSDXX9hzuytrRGzs5ZmUNopYYffnCRUnYudYjaxdBQTVwl?comment_id=26583328094698440&__cft__[0]=AZgcPgjCO4JYNMbbJcLy4fPRMkr86Bh6g3KNdxam-yVjBfirguptqZNtjCxRnV5qVNrXy_gu2y8AKIrU8Fc_oyrGFXTZfVaIpL1sLFjiseTNQERrPIx2GC23yYFq1G1_4WFCtbkTthgt0GjwESO4zBxOJKhCyb5RL6iJ4xp-w3-LEAzbvgnJ23WS-Lw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Felix Leon Sentidas CONDOLENCIAS 2 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_upsa",
@@ -1386,32 +1410,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 8,
-      "rejected": 5,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 49,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 0,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "24/09/2026 Salud La fruta que neurólogos recomiendan para cuidar el cerebro después de los 50 años Una fruta que rara vez aparece en las listas de alimentos recomendados para la salud cognitiva podría proteger el cerebro en la mediana edad, según... vista 23/09/2026 Ciencia Reconocen a científicos de la UMSA que descubrieron a Tilcayo, felino de Yungas Los investigadores Paola Nogales-Ascarrunz y "
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 35,
+          "score": 45,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB 2 Bono Juancito Pinto: Requisitos, fechas y modalidades para cobrar los Bs 300 3 "
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Bono Juancito Pinto: Requisitos, fechas y modalid"
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 49,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/concierto-piano_638709",
+          "score": 43,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "Agenda Cultural Conciertos de Piano de Beethoven en Cochabamba ¡Sumérgete en una experiencia musical incomparable! Ars Música Orquesta te invita a presenciar los icónicos conciertos para piano de Ludwig van Beethoven, interpretados por renombrados solistas internacionales. Fechas: 24 y 25 de agosto Hora: 19:00 hrs Lugar: Teatro Instituto Eduardo Laredo Entradas: VIP: 70 Bs Generales: 50 Bs Direcci"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1528,8 +1552,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1579,8 +1603,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 28,
-      "events": 28,
+      "raw_items": 30,
+      "events": 30,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1630,9 +1654,9 @@
       "city": "Trinidad",
       "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
       "status": "ok",
-      "raw_items": 5,
+      "raw_items": 6,
       "events": 0,
-      "rejected": 5,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "relevancia_insuficiente",
@@ -1640,7 +1664,7 @@
           "category": "feria",
           "url": "https://beni.gob.bo/category/cultura/",
           "has_image": true,
-          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 16/09/2026 GOBERNACIÓN IMPULSA RUTA DE AVITURISMO PARA LA CONSERVACIÓN DE LA PARABA BARBA AZUL Con una visión de conservación y desarrollo sostenible, en la gestión del gobernador Jesús Egüez Riv... Leer más → Cultura - 27/08/2026 GOBERNACIÓN DEL BENI PARTICIPA EN LA RÉPLICA POR LOS 200 AÑOS DE LA POLICÍA BOLIVIANA En representaci"
+          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 24/09/2026 GOBERNACIÓN DEL BENI FORTALECE LA CONSERVACIÓN DEL PATRIMONIO CULTURAL JUNTO AL PLAN MOXOS En el marco de su compromiso con la preservación del patrimonio cultural beniano y como miembro de l... Leer más → Cultura - 16/09/2026 GOBERNACIÓN IMPULSA RUTA DE AVITURISMO PARA LA CONSERVACIÓN DE LA PARABA BARBA AZUL Con una vi"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
@@ -1690,8 +1714,8 @@
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
       "raw_items": 8,
-      "events": 3,
-      "rejected": 5,
+      "events": 2,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
@@ -1767,7 +1791,7 @@
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝐀𝐋𝐂𝐀𝐋𝐃𝐄𝐒𝐀 𝐃𝐄 𝐒𝐔𝐂𝐑𝐄 𝐘 𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐎 𝐃𝐄 𝐎𝐁𝐑𝐀𝐒 𝐏Ú𝐁𝐋𝐈𝐂𝐀𝐒 𝐅𝐈𝐑𝐌𝐀𝐍 𝐂𝐎𝐍𝐕𝐄𝐍𝐈𝐎 𝐐𝐔𝐄 𝐕𝐈𝐀𝐁𝐈𝐋𝐈𝐙𝐀 𝐌Á𝐒 𝐃𝐄 𝐁𝐒 300 𝐌𝐈𝐋𝐋𝐎𝐍𝐄𝐒 𝐃𝐄 𝐈𝐍𝐕𝐄𝐑𝐒𝐈Ó𝐍 hace 3 horas Noticias 13 La alcaldesa de Sucre, Fátima Tardío, y el ministro de Obras Públicas, Servicios y Vivienda, Mauricio Zamora Liebers, firmaron un convenio interinstitucional que viabiliza una inversión de más 300 millones de bolivianos para la ejecución de 21 proyectos en Sucr"
+          "text_preview": "𝐀𝐋𝐂𝐀𝐋𝐃𝐄𝐒𝐀 𝐃𝐄 𝐒𝐔𝐂𝐑𝐄 𝐘 𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐎 𝐃𝐄 𝐎𝐁𝐑𝐀𝐒 𝐏Ú𝐁𝐋𝐈𝐂𝐀𝐒 𝐅𝐈𝐑𝐌𝐀𝐍 𝐂𝐎𝐍𝐕𝐄𝐍𝐈𝐎 𝐐𝐔𝐄 𝐕𝐈𝐀𝐁𝐈𝐋𝐈𝐙𝐀 𝐌Á𝐒 𝐃𝐄 𝐁𝐒 300 𝐌𝐈𝐋𝐋𝐎𝐍𝐄𝐒 𝐃𝐄 𝐈𝐍𝐕𝐄𝐑𝐒𝐈Ó𝐍 hace 10 horas Noticias 26 La alcaldesa de Sucre, Fátima Tardío, y el ministro de Obras Públicas, Servicios y Vivienda, Mauricio Zamora Liebers, firmaron un convenio interinstitucional que viabiliza una inversión de más 300 millones de bolivianos para la ejecución de 21 proyectos en Suc"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
