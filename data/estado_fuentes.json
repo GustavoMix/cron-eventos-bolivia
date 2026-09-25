@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T01:00:33-04:00",
+  "generated_at": "2026-09-25T07:52:35-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 93.8,
-    "horas_maximo_sin_datos": 861.8
+    "horas_promedio_sin_datos": 93.4,
+    "horas_maximo_sin_datos": 868.7
   },
   "sources": [
     {
@@ -78,22 +78,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=U6GuCeqw3KsQ7kNvwGfKLz_&_nc_oc=AdoO59ejwJAnb9st_eC6lwgFEHGKREPEMZrfDQHxIfgFfTyrtKctjGvfeoXU1E08yig&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=iL0uxuzXfZa6OI7pWmT6AQ&_nc_ss=7f289&oh=00_AQJmRcNapqCDcWAGa8VOnpNlW8-1TmgzCyisvehYZI2pLQ&oe=6ABBDE03",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid04yjHq4oK74Hj53zgWscswFGFAHCYia8yATEcJyQT1YtwguaUWdAsPhnp2j5iiFRcl?__cft__[0]=AZibCbPxlJrkzwYTmLAfV1ZuPVFYYGIpThx8F5f5a9tRtLRYJ5bPo2llVt4SPDX5XEwgj0gD8TNycvHW81V_LsMFc-CXJKK0pxVnnf77pkhraX3jIH_qx66g1x-CiZ9cNBOk3SIBfZrr10j9g2xExZeZaT1eu1EceIzf3H2nEYHEEiJqY9RRkZ_Y8m0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -104,13 +95,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8vruz8qWkWsQ7kNvwEjAGeo&_nc_oc=AdoZ59XftDtApgUFG3D7_GF5zpjjBmAH2lSG2uMNWEOFrFeqLbXzZNoactf5s1hbmuo&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=zinXSPjukwUfZcGzkYpdAg&_nc_ss=7f289&oh=00_AQJldk6VxTPEb6nEyRvFiUz3vFDdd5hhVajXoQhgRUgU0Q&oe=6ABC3E10",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/Fexpocruz/posts/pfbid0B2qhYeGjp5Hc38zTXsX1cV6c2rsDipsSukHCUEyavadiu2hn5xyiV1DaE8uWUVUXl?__cft__[0]=AZhRg6xIHuCDNaBGIZzYcLyRitKU9J8dz6jRNp8-GDl0TvvviDG7R4cFM3BKGB-kHwCg47AWlOIOvE6jS5st3vqnX6XQRElkM9ZIY4uZOK0D7n_GglFJkStZoTJ1Xp0sE_gvioZV5tKRPGZFwibWrlAb9G6votduBhrAyrY5WWg0sag4bRDclJgPZKM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Estas son las actividades del Sector Pecuario para este viernes 25 de septiembre! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -665,22 +665,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jZyVZks1s-MQ7kNvwEmc9bg&_nc_oc=AdoRY4wv1mvDHIqT1MdOkq31EaPcKZ0fGH7wG2BKUNvlou3HdL_HCesA_2zkgMv_08w&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=Lnc4O5RJnnubrqxrylrIXg&_nc_ss=7f289&oh=00_AQJfglQuIn3Z1j63AwgN0ojylQzP34_0dJDzkWqBVfonEA&oe=6ABBDFB8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/posts/pfbid0RjfMsGzoT6pV5bmD5n8hgECNVUehRY8RgSqfiViTd45Ykbfk7d4aqwuUdJ7fNYhKl?__cft__[0]=AZgkbFfJSjnqocN-rHNfLbWXQ8cjnERAGToGMCvh6L9jOPQxbFq0vFnszRiUhP4g37IAY5wVpR6cSfePA6oZI8tF5f0YyDMHJctpBsGZPWwNtO4bctKrlhs4Ejkw2yV2IR_e6Pj0Y4gn-vOTN3dudvU_7cmykcYG5cpxnfjsoY29k9MzsIhCGuL4XRA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El Gobierno Autónomo Municipal de Sucre se une al dolor que embarga a la comunidad católica. ☥"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_oruro",
@@ -878,22 +869,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/800282934_1555200746648138_3346541214021725616_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5Lrm8e5BVE8Q7kNvwGn0Rln&_nc_oc=AdpOs0Vm3825xV8BhxEcoXgq-F1LgZSD8Gtgk5T_z18X0pVM2i_4sxWmcqQzO25S79A&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zwFomWGa-IAaXsvtFn5LCQ&_nc_ss=7f289&oh=00_AQJc9glIfVSjBuUt_eTlANueWqEX0FZt5VunaCw0hzIIkg&oe=6ABBC638",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/feicobol/posts/pfbid02TNtiCnE7ZDc3ZmdMjQegqQShHVihQ8PGN8293wF2iSpjfbVBLNpp9qhuZ2p93Szml?__cft__[0]=AZjKw_o6guJAGYhlAN7qNpCUrPjoAuuOKTX0gpiV5kGhiDhrzkh0BdI6WO_uRVojI8xPl5i_VoGj9-_XDyc_t-zRgerBEKznsLzaGjRwxD4-idpcZFiZ8N6cMZ5dN6h6mBs50sIMFnA_9tZ_HOtQysmYBtVkqv3UmpDkrwdx-d99AZBJdCLgxzuPvHY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Feicobol hace 13 horas 13 h ¡Feliz Aniversario, Pando! … Ver más Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -955,13 +937,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-KP7NKetGqgQ7kNvwHQQ-5T&_nc_oc=AdphH8lIERGZs04JEvYdcgiK9mVeN0pm-6VBjj_x6viio4G45wz8HT1_sZ8z0SClR8I&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=24gwK4fGP273HnQ3CdeXwg&_nc_ss=7f289&oh=00_AQLvUvPQHek6lfV--itfQewv9bF7XA0UlaFzFsCW4odvxg&oe=6ABC2E87",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 2,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -989,13 +971,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QmS0EHMGfCoQ7kNvwHZj-WA&_nc_oc=AdoTENsbE8pV2VLo4b6jrVjszy7i33Rw4uqFBuneiBIUyEh0tYVud-EFOdc277lFwWM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=-ptFAQXanuYxSac3N99qzQ&_nc_ss=7f289&oh=00_AQInckNfunqPVqoZwdoGaT0A5XVX073pSqaucMvEnIKYeg&oe=6ABC1FFD",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid026C4StMx1YTeGCJCuQRanJ536xFU6BuQCHkW81Qwx8vWPH5BYAHKH2NL39hYZPQjYl?__cft__[0]=AZgLpEyMXmhTN9PouNOBBWF7p3qmXTlQ9fjdT5__s7FtbFnt8Zi3I33WlPwH9Sc6uhLpS_EPTBXKMW5kf_bSGm9GrAYZhtonB4ozfuXIYza7tFXImxp4c7ub2NQoRsod8qOMCvArZ8rPsBMTNmJvRpTiNTSH-RlbTSDGjs-yogoyvoUW4y9uzEgmHnw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡SIEMPRE LIBRES CRUCEÑOS SEAMOS!… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1159,13 +1150,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i6ZAwwo8ZXcQ7kNvwGQmkkE&_nc_oc=AdqW4qXKk5pFUt3QLXl8XMjP5gJ6x7MPRYQZjCZuWxBY13T4UT93tJGioSScv-cnhX4&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=WwRllVmx7qOnrPwch3wz1Q&_nc_ss=7f289&oh=00_AQI_FUxh7bDyy43hYNZgRAnQxWREw-anVVogBjEexZtesQ&oe=6ABC44A5",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid02kMK6Es3hieE3SvzUt61fNyZBgG35HQLrSsDUcXKDLZoN4HARXEetARfSniWxtfPBl?__cft__[0]=AZgedl51jCZaTHvvvxDp_G44wARDEgUe2ZzIQG-TvDnP9Y78D4gup53a68q3m_KzAImyWMdUEWU36bZx7Qw8C08-hNE6ewAXLXUT4Ji4c-3zBLkmkU7Ix5NLN_Rfr6y4mirDLoUrCtR6Zch7l8BqGzyZ2T0LGJp5bswM66IN1FblwGyDHL4canu6goQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "OLIMPIADAS INTERFACULTATIVAS “UMSA SOMOS TODOS”: RECONOCEMOS EL TALENTO, LA DISCIPLINA Y EL ESPÍRITU DEPORTIVO… Ver más Extraordinario! Ver más comentarios Marcelo Velasquez"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid02kMK6Es3hieE3SvzUt61fNyZBgG35HQLrSsDUcXKDLZoN4HARXEetARfSniWxtfPBl?comment_id=1798393741357347&__cft__[0]=AZgedl51jCZaTHvvvxDp_G44wARDEgUe2ZzIQG-TvDnP9Y78D4gup53a68q3m_KzAImyWMdUEWU36bZx7Qw8C08-hNE6ewAXLXUT4Ji4c-3zBLkmkU7Ix5NLN_Rfr6y4mirDLoUrCtR6Zch7l8BqGzyZ2T0LGJp5bswM66IN1FblwGyDHL4canu6goQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Fan destacado Marcelo Velasquez Extraordinario! 24 min"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1210,30 +1218,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UsDxW5ucPoUQ7kNvwHN64la&_nc_oc=AdrT0Z--mQeksFOz2JkzNO9tWbuRxh6gc2w1sI3r7c_4gaT1PzI07QliexhDfOz2FS8&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=SlQolXOlZHbKODGsLCIl4w&_nc_ss=7f289&oh=00_AQLNo7ZRz79jPV9DvzLgT180-vRkAKcM-TMKZC0Eygwt6g&oe=6ABBEC72",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid02WdwBqbfzZdSoJxVKdUEQSDXX9hzuytrRGzs5ZmUNopYYffnCRUnYudYjaxdBQTVwl?__cft__[0]=AZgcPgjCO4JYNMbbJcLy4fPRMkr86Bh6g3KNdxam-yVjBfirguptqZNtjCxRnV5qVNrXy_gu2y8AKIrU8Fc_oyrGFXTZfVaIpL1sLFjiseTNQERrPIx2GC23yYFq1G1_4WFCtbkTthgt0GjwESO4zBxOJKhCyb5RL6iJ4xp-w3-LEAzbvgnJ23WS-Lw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Nos unimos en oración por la partida a la Casa del Padre de Mons. Ricardo Centellas (Q.E.P.D.), Arzobispo de Sucre y Gran Canciller de la U.C.B. A… Ver más Nos unimos en oración por la partida a la Casa del Padre de Mons. Ricardo Centellas (Q.E.P.D.), Arzobispo de Sucre y Gran Canciller de la U.C.B. A… Ver más Sentidas CONDOLENCIAS Ver más comentarios Felix Leon"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid02WdwBqbfzZdSoJxVKdUEQSDXX9hzuytrRGzs5ZmUNopYYffnCRUnYudYjaxdBQTVwl?comment_id=26583328094698440&__cft__[0]=AZgcPgjCO4JYNMbbJcLy4fPRMkr86Bh6g3KNdxam-yVjBfirguptqZNtjCxRnV5qVNrXy_gu2y8AKIrU8Fc_oyrGFXTZfVaIpL1sLFjiseTNQERrPIx2GC23yYFq1G1_4WFCtbkTthgt0GjwESO4zBxOJKhCyb5RL6iJ4xp-w3-LEAzbvgnJ23WS-Lw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Felix Leon Sentidas CONDOLENCIAS 2 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_upsa",
@@ -1410,24 +1401,16 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 9,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "24/09/2026 Salud La fruta que neurólogos recomiendan para cuidar el cerebro después de los 50 años Una fruta que rara vez aparece en las listas de alimentos recomendados para la salud cognitiva podría proteger el cerebro en la mediana edad, según... vista 23/09/2026 Ciencia Reconocen a científicos de la UMSA que descubrieron a Tilcayo, felino de Yungas Los investigadores Paola Nogales-Ascarrunz y "
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 45,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
-          "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Bono Juancito Pinto: Requisitos, fechas y modalid"
         },
         {
           "reason": "tema_ajeno_a_eventos",
@@ -1436,6 +1419,14 @@
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+        },
+        {
+          "reason": "tema_ajeno_a_eventos",
+          "score": 43,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "has_image": true,
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1791,7 +1782,7 @@
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝐀𝐋𝐂𝐀𝐋𝐃𝐄𝐒𝐀 𝐃𝐄 𝐒𝐔𝐂𝐑𝐄 𝐘 𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐎 𝐃𝐄 𝐎𝐁𝐑𝐀𝐒 𝐏Ú𝐁𝐋𝐈𝐂𝐀𝐒 𝐅𝐈𝐑𝐌𝐀𝐍 𝐂𝐎𝐍𝐕𝐄𝐍𝐈𝐎 𝐐𝐔𝐄 𝐕𝐈𝐀𝐁𝐈𝐋𝐈𝐙𝐀 𝐌Á𝐒 𝐃𝐄 𝐁𝐒 300 𝐌𝐈𝐋𝐋𝐎𝐍𝐄𝐒 𝐃𝐄 𝐈𝐍𝐕𝐄𝐑𝐒𝐈Ó𝐍 hace 10 horas Noticias 26 La alcaldesa de Sucre, Fátima Tardío, y el ministro de Obras Públicas, Servicios y Vivienda, Mauricio Zamora Liebers, firmaron un convenio interinstitucional que viabiliza una inversión de más 300 millones de bolivianos para la ejecución de 21 proyectos en Suc"
+          "text_preview": "𝐀𝐋𝐂𝐀𝐋𝐃𝐄𝐒𝐀 𝐃𝐄 𝐒𝐔𝐂𝐑𝐄 𝐘 𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐎 𝐃𝐄 𝐎𝐁𝐑𝐀𝐒 𝐏Ú𝐁𝐋𝐈𝐂𝐀𝐒 𝐅𝐈𝐑𝐌𝐀𝐍 𝐂𝐎𝐍𝐕𝐄𝐍𝐈𝐎 𝐐𝐔𝐄 𝐕𝐈𝐀𝐁𝐈𝐋𝐈𝐙𝐀 𝐌Á𝐒 𝐃𝐄 𝐁𝐒 300 𝐌𝐈𝐋𝐋𝐎𝐍𝐄𝐒 𝐃𝐄 𝐈𝐍𝐕𝐄𝐑𝐒𝐈Ó𝐍 hace 17 horas Noticias 32 La alcaldesa de Sucre, Fátima Tardío, y el ministro de Obras Públicas, Servicios y Vivienda, Mauricio Zamora Liebers, firmaron un convenio interinstitucional que viabiliza una inversión de más 300 millones de bolivianos para la ejecución de 21 proyectos en Suc"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
