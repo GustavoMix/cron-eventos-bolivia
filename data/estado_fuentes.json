@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T12:26:09-04:00",
+  "generated_at": "2026-09-26T17:13:06-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,13 +9,14 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_gam_cbba",
+      "fb_gob_scz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 78.8,
-    "horas_maximo_sin_datos": 897.3
+    "horas_promedio_sin_datos": 78.5,
+    "horas_maximo_sin_datos": 902.0
   },
   "sources": [
     {
@@ -163,30 +164,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=60Zebdy3NqkQ7kNvwH5Gei2&_nc_oc=AdoOyUknzDNFiYl5NPF87FCy9UzONqK33NmIX6iua5AEEpqmPNxszFYyL_DMm0OvLEw&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=T9ifQcy4QHLpt04AnCvbLw&_nc_ss=7f289&oh=00_AQINtmDs3DeJ932Glc6XZGR35Vzy-OpMU47nCqtIlTH6_Q&oe=6ABDAC40",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 18,
-          "category": "otro",
-          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/-el-alto-proyecta-stand-propio-en-expocruz-2027-y-destaca-talento-de-sus-product/1408232461491393/",
-          "has_image": true,
-          "text_preview": "✅ El Alto proyecta stand propio en Expocruz 2027 y destaca talento de sus productores Durante su visita protocolar por la efeméride cruceña, el Alcalde Eliser Roca Tancara, acudió a la Expocruz y... ✅ El Alto proyecta stand propio en Expocruz 2027 y destaca talento de sus productores Durante su visita protocolar por la efeméride cruceña, el Alcalde... El Alto proyecta stand propio en Expocruz 2027"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid06WxNT7hPGAepEpUkqsUcY7dUupwSpc1gBJJfCkJhhm1Mz6Re8N3aN6vW7Muqd7Sdl?comment_id=28486479011046055&__cft__[0]=AZgznT3tuEGlLSxYwjBjtCGFJjBPLZLuK894lPzOeEG9V3qGNLw_WxXLnXX3HO5pfU7LTK-PzG3IPap0Iw_XOPPOiklI5brAoLbIYhwada27WaKDG0pwYEnrU5l3qrV1lOWGeZsHiYH5qLaE6K8_DHNFUSm65OyoIKgvQ1KOkyHZWTXFvkLC8gwMWmk&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Reconocemos el compromiso del GAMEA con el desarrollo de nuestro municipio. A seguir trabajando por El Alto! Iklav Niram Agaerk"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -197,13 +181,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IYPGTrS3SroQ7kNvwHfmUN3&_nc_oc=AdpDgU0qeMZLMhWL6_BnsaYO2l6aJ7X2vkZR0FJaGIv1PFuVc5XProAPZ460rU8dATU&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=NHKXtdCPLvbLD7T7-HGCyA&_nc_ss=7f289&oh=00_AQL84Ri5-NZwmkbIlgAXOFYhkxzzYWwywINjzjPUFy0vWQ&oe=6ABE0938",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -231,30 +215,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mk_VYK-c7MIQ7kNvwGfvrkC&_nc_oc=AdoFqgZctEPFMQ6U4ByIBnHpfj7M73tmsA0DJbJm2x4Ig0epcm8Vkrzeh6MFDKtfKt4&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=L4-ps8zPU8_4QQgbk29YUw&_nc_ss=7f289&oh=00_AQISakWnrUYJOQtW1OaHr1vsDDpTc22nM6Z1Ih_j7zmoow&oe=6ABDCB17",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid0VJWMmbk9TnSv6mocouUCSYeVxVdQw1ieuLMnZjyrhJQtCpisFCbLsp2YcAFGZ7Ynl?__cft__[0]=AZiA-9UuAEFqZMLlIgJL3_1N2shKKk3pc0LcDo7x76n_DD4qiz4cLKRh5jCSEZsqGzWME8kOgViN3tfFzBe8aCSBiFSIcwE32zV-LqRy9BIzu3kR6Otut3w0x6iioKUv0zvGuNGha0CMI-6_nRtnBq1pUpsC70BxdU4iTnxCP2JuFaDhMjqrt-A8QHU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La Gobernación de Cochabamba, bajo la gestión del gobernador Leonardo Loza, impulsa la limpieza del río Ch'ulla, afluente del río Rocha, en Vinto.… Ver más solo ayudo con barbijos??? Jhamil Aleluya"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid0VJWMmbk9TnSv6mocouUCSYeVxVdQw1ieuLMnZjyrhJQtCpisFCbLsp2YcAFGZ7Ynl?comment_id=2268620537261979&__cft__[0]=AZiA-9UuAEFqZMLlIgJL3_1N2shKKk3pc0LcDo7x76n_DD4qiz4cLKRh5jCSEZsqGzWME8kOgViN3tfFzBe8aCSBiFSIcwE32zV-LqRy9BIzu3kR6Otut3w0x6iioKUv0zvGuNGha0CMI-6_nRtnBq1pUpsC70BxdU4iTnxCP2JuFaDhMjqrt-A8QHU&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "solo ayudo con barbijos??? Jhamil Aleluya"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -265,30 +232,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TFdDVupeJ8oQ7kNvwEoaabm&_nc_oc=AdrDBipoCSf4gbD6MaNcaqaBmFchXwLbmVJGCEb59AK-2sPE9P04-QB5oGfBUNhzkKU&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=NUNgzV3N9d9USBt1KsLUvA&_nc_ss=7f289&oh=00_AQIgMGLkm7JsjNMzcI5U694AOzl2tLoKFw4036J1vP_Rrg&oe=6ABDC2D7",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1067711016172874/?__cft__[0]=AZhFOHrXsiM6mU4_J1UXDiqhRPmBr65mawYdu3PFUH3V9y5cLRBb6Nl8ALGoKdGfUDyQgo78hhR40WaCflSkBhH7g-pRWE3BmkqeVx_zsHQ4VSEh2voaYxOwadFvgS3DukjvZoeBNa3fBnpQefq9R8Xktae-SZ2kuPin0l14tKNsT7DnGg8Y0J9-NpqTb30RI8q-&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡Felicidades, Santa Cruz! Hoy c… Ver más ¡Felicidades, Santa Cruz! Hoy c… Ver más Felicidades Santa Cruz, tierra Camba del oriente boliviano, que enamora de verdad. Tenemos problemas para reproducir este video. Más información Ver más comentarios Tito Murga"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1067711016172874/?comment_id=1657572789364477&__cft__[0]=AZhFOHrXsiM6mU4_J1UXDiqhRPmBr65mawYdu3PFUH3V9y5cLRBb6Nl8ALGoKdGfUDyQgo78hhR40WaCflSkBhH7g-pRWE3BmkqeVx_zsHQ4VSEh2voaYxOwadFvgS3DukjvZoeBNa3fBnpQefq9R8Xktae-SZ2kuPin0l14tKNsT7DnGg8Y0J9-NpqTb30RI8q-&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Felicidades Santa Cruz, tierra Camba del oriente boliviano, que enamora de verdad. Tito Murga"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_scz",
@@ -300,12 +250,12 @@
       "region": "Santa Cruz",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
     },
     {
       "id": "fb_lostiempos",
@@ -588,13 +538,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nVToKqSLhR0Q7kNvwF3z1qi&_nc_oc=Adomc3YqotrQQOFeQIsRc2SB-W8I8IE6lDg5-p3W5mUABQWkXR5YBJ31x_6VeOpWh20&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=kDHLcM6LzcdBJI8x_wxPxA&_nc_ss=7f289&oh=00_AQJkaXC-Vc075hqS6MSCmCwUCFwyamhAfmx0ApZsXxneiw&oe=6ABDFD33",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/videos/fcbcb-presentaci%C3%B3n-piedra-de-agua-faltan-3-d%C3%ADasla-fc-bcb-tiene-el-agrado-de-invi/1708631830208146/",
+          "has_image": true,
+          "text_preview": "#FCBCB | Presentación Piedra de Agua Faltan 3 días La FC-BCB tiene el agrado de invitar a la presentación del N.° 39 de la revista Piedra de agua, número dedicado a la “Memoria sonora de los siglos... #FCBCB | Presentación Piedra de Agua Faltan 3 días La FC-BCB tiene el agrado de invitar a la presentación del N.° 39 de la revista Piedra de agua,..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -1047,13 +1006,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=f3UIZX5_FDgQ7kNvwEm-mUv&_nc_oc=AdoCwAADKnSPm9OGhrhbe-3206tZS0Qm6luOkz9-EaX1ij6HQM75z4rlWgygjP5i2YI&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=M9l6uTnkeinB0OuxMF7KyA&_nc_ss=7f289&oh=00_AQJngOvZIB1FB3vur31huGiox3m3dRvi2juZACzIPO1Bqw&oe=6ABDF9F4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02VrcaHCNpotujH8jHdpcR7zN6HGUYjvaprsb4WB3Y4RQYRNuthfw4LAEZAgM8pbPql?__cft__[0]=AZinkh4VKxKqEBhoW7h5e_QqxWtJHyrZSdOpdz4b9qs91lA09Adxmn7IgrzcdUpLSWnq3FHZJ27wFDB2gfsX0zDwJ-3VbOsAJlclUDII6KyYN7_gJ9g0gzTNkE4Rh9cWYfYxnPECw5RJxtEwGycCkFCyjwO934zbXEGb1IpDC-NlhLJsHu8uPvdWcpGYeKo45NjgyVmbPe_efTA3jT0&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#Reconocimiento | Recibimos con profundo agradecimiento este Homenaje Camaral a la Fundación Simón I. Patiño, un reconocimiento a una trayectoria construida desde el co… Ver más Con mucho honor hicimos entrega de un merecido Homenaje Camaral a la Fundación Simón I. Patiño, acompañado de la entrega de nuestros símbolos patrios, en reconocimiento… Ver más Tenemos problemas para reproducir este video"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1166,30 +1134,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=89ZAD6e3V3MQ7kNvwEYZo_o&_nc_oc=Adr-d2YYOZP_P3_8EOdAZmKvyiU4mkXtbxWB81dCA9SzdZSfQl77_edKDJzdHs5_rBc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=S5FXrcb72M_lvnnRL0k-Nw&_nc_ss=7f289&oh=00_AQIqNoznBbixa5xhduDoecI4_GtlJT5e4qvPUvktaEM_PQ&oe=6ABDAE60",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid0obuHqbVYtXBh6VAbK2hwx9gMmAk1J5PMdVdGe82ndTfuZE7Fd7estTsoSV5uKaml?__cft__[0]=AZhUxJx1JtduRsTrE_D3-D-lNUMmXSIP4x8uflkmvv14Tle5J-Q8t3YX2CLRLYokuAX-FYVYqbrNbD315omZTLt0YCUZnj7rQtrfDqi-5C9n7NuPjJrwOKbf7zsU_vi0tf_5Ld0k5TLeYiDKUIID8CVPfdhGpYll0d-cFaqCrwxoEvyUogxgB3h4ZIs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "USFX proyecta nuevas oportunidades productivas para Chuquisaca a través de las cadenas de valor Café-Cacao… Ver más Como siempre la USFX buscando lo mejor para nuestra región Ver más comentarios Hector Campos Carreño"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid0obuHqbVYtXBh6VAbK2hwx9gMmAk1J5PMdVdGe82ndTfuZE7Fd7estTsoSV5uKaml?comment_id=1600551678187018&__cft__[0]=AZhUxJx1JtduRsTrE_D3-D-lNUMmXSIP4x8uflkmvv14Tle5J-Q8t3YX2CLRLYokuAX-FYVYqbrNbD315omZTLt0YCUZnj7rQtrfDqi-5C9n7NuPjJrwOKbf7zsU_vi0tf_5Ld0k5TLeYiDKUIID8CVPfdhGpYll0d-cFaqCrwxoEvyUogxgB3h4ZIs&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Como siempre la USFX buscando lo mejor para nuestra región Hector Campos Carreño"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umsa",
@@ -1447,7 +1398,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
+          "score": 49,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1455,11 +1406,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 33,
+          "score": 15,
           "category": "nightlife",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 El dólar oficial para el fin de semana y el lunes"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Transporte: organizaciones de 3 departamentos des"
         }
       ],
       "error": null
@@ -1576,8 +1527,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1593,8 +1544,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1610,8 +1561,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
-      "events": 2,
+      "raw_items": 7,
+      "events": 7,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1627,8 +1578,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 46,
-      "events": 46,
+      "raw_items": 36,
+      "events": 36,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1661,8 +1612,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
-      "events": 2,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1819,11 +1770,11 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 39,
+          "score": 29,
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 20 horas Procesos o Resoluciones 45 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Com"
+          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 1 día Procesos o Resoluciones 50 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compar"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
