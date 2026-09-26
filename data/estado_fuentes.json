@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:13:06-04:00",
+  "generated_at": "2026-09-26T19:40:53-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,14 +9,13 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_gam_cbba",
-      "fb_gob_scz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 78.5,
-    "horas_maximo_sin_datos": 902.0
+    "horas_promedio_sin_datos": 74.9,
+    "horas_maximo_sin_datos": 904.5
   },
   "sources": [
     {
@@ -181,13 +180,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IYPGTrS3SroQ7kNvwHfmUN3&_nc_oc=AdpDgU0qeMZLMhWL6_BnsaYO2l6aJ7X2vkZR0FJaGIv1PFuVc5XProAPZ460rU8dATU&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=NHKXtdCPLvbLD7T7-HGCyA&_nc_ss=7f289&oh=00_AQL84Ri5-NZwmkbIlgAXOFYhkxzzYWwywINjzjPUFy0vWQ&oe=6ABE0938",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gam_cbba",
@@ -249,13 +248,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZACzyNh2CqgQ7kNvwG31Liw&_nc_oc=AdojW8NOTxqXadkURLU6G8tnxAs0jNKyAsTJNIxvlGKxCHBl58UqLbfDesOywsKnFFI&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=vte1k48_DFXqYsL39UAdPA&_nc_ss=7f289&oh=00_AQLcYLVTu68bz4D6_o7TP-haDpKkulFtk6vvRhW9Ewe3Fg&oe=6ABE107E",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
+      "error": null
     },
     {
       "id": "fb_lostiempos",
@@ -538,22 +537,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nVToKqSLhR0Q7kNvwF3z1qi&_nc_oc=Adomc3YqotrQQOFeQIsRc2SB-W8I8IE6lDg5-p3W5mUABQWkXR5YBJ31x_6VeOpWh20&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=kDHLcM6LzcdBJI8x_wxPxA&_nc_ss=7f289&oh=00_AQJkaXC-Vc075hqS6MSCmCwUCFwyamhAfmx0ApZsXxneiw&oe=6ABDFD33",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/videos/fcbcb-presentaci%C3%B3n-piedra-de-agua-faltan-3-d%C3%ADasla-fc-bcb-tiene-el-agrado-de-invi/1708631830208146/",
-          "has_image": true,
-          "text_preview": "#FCBCB | Presentación Piedra de Agua Faltan 3 días La FC-BCB tiene el agrado de invitar a la presentación del N.° 39 de la revista Piedra de agua, número dedicado a la “Memoria sonora de los siglos... #FCBCB | Presentación Piedra de Agua Faltan 3 días La FC-BCB tiene el agrado de invitar a la presentación del N.° 39 de la revista Piedra de agua,..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -887,13 +877,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KfgVK6e5h-QQ7kNvwEB9M9m&_nc_oc=AdpY3ttScdrUne8FZXZNpaixfuTaokt0aOe6lrBOJqVE1iuyTJPA_wGgbV-xHxrKDig&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=lgeD3sdubbR-BBAnFVNLmQ&_nc_ss=7f289&oh=00_AQIVCDp2b7ITIZXGGuh2_4QObbOo5w8__DF8uDaxNiUZDA&oe=6ABE38E7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "festival",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid0JF7gZLBm9UbgmCNoSJC7ebewmwZAHZpGHhhjxNk4hSCjFr17KtQ2VhFa4Xi9kcSxl?__cft__[0]=AZh4hi42ThvjsHGFyEJ6PMgp7Z5T8UKayw9GIIpiVFsj-15dUS_V7F3Mid9_vA_m5IHPcNWOdONk1qBIzyk-cD4pTTOk7gaq32mUuyJVpt092SmwsoRKBkqqCGKW6-q1KgdJeAnEYGHHw4Tvu446IycbHcfMIpN6U9STbKqNu8RKYkhfvmTPRG4g5MU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Educación | 𝐀𝐬𝐢́ 𝐯𝐢𝐯𝐢𝐦𝐨𝐬 𝐞𝐥 𝐂𝐇𝐔𝐊𝐔𝐓𝐀 𝐏𝐑𝐈𝐍𝐓 𝐅𝐄𝐒𝐓 𝟑‧𝟎 Innovación, creatividad y com… Ver más #Educación | 𝐀𝐬𝐢́ 𝐯𝐢𝐯𝐢𝐦𝐨𝐬 𝐞𝐥 𝐂𝐇𝐔𝐊𝐔𝐓𝐀 𝐏𝐑𝐈𝐍𝐓 𝐅𝐄𝐒𝐓 𝟑‧𝟎 Innovación, creatividad y com… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -955,13 +954,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qRcOSPKoAaYQ7kNvwHiShTF&_nc_oc=AdrZ-ibAE_A7AJxOdDVwvgkscbuUSXx7ssy_igDqH1YMzsoJsXEaIyjWQPLLqkBTESE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=v6sU-9aAbamGYF5kcGcY4A&_nc_ss=7f289&oh=00_AQIdAHGZFVqDoMgELsAroh7MFbDMpGRC3EX_ZYFvWLOIgA&oe=6ABE38D7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 39,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0ev2NzDfcnjDsxKekMNmnqFqy9AfuNiM16djmYjcDuB6YDA26MdYv1sTYWzyD1uUDl?__cft__[0]=AZirclyX639uOf1IfZEIzVw9Q2XtrMUV0r0B_2Cn5paK5wVkkgcXlNqfLybdf4gaAeYlEdIKqApBDb_Fs1tG2ck9xrwfJVUc4PY5n9WkrkyOYOa545H5nLekTM6fthpn6pCnKyrg27tJVx296NYzj0KnhbMWyHdodiRJkPd1BPR3b_dqf4YpYsRxy7g&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "LA PUJA SUBE DE Bs 100 EN Bs 100 O MÚLTIPLOS DE 100. El remate de Manzana 1 Espacio es una oportunidad para elegir entre obras únicas y originales, variedad de autores,… Ver más Álbum SUBASTA 24-28 SEPTIEMBRE"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1006,22 +1014,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=f3UIZX5_FDgQ7kNvwEm-mUv&_nc_oc=AdoCwAADKnSPm9OGhrhbe-3206tZS0Qm6luOkz9-EaX1ij6HQM75z4rlWgygjP5i2YI&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=M9l6uTnkeinB0OuxMF7KyA&_nc_ss=7f289&oh=00_AQJngOvZIB1FB3vur31huGiox3m3dRvi2juZACzIPO1Bqw&oe=6ABDF9F4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02VrcaHCNpotujH8jHdpcR7zN6HGUYjvaprsb4WB3Y4RQYRNuthfw4LAEZAgM8pbPql?__cft__[0]=AZinkh4VKxKqEBhoW7h5e_QqxWtJHyrZSdOpdz4b9qs91lA09Adxmn7IgrzcdUpLSWnq3FHZJ27wFDB2gfsX0zDwJ-3VbOsAJlclUDII6KyYN7_gJ9g0gzTNkE4Rh9cWYfYxnPECw5RJxtEwGycCkFCyjwO934zbXEGb1IpDC-NlhLJsHu8uPvdWcpGYeKo45NjgyVmbPe_efTA3jT0&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#Reconocimiento | Recibimos con profundo agradecimiento este Homenaje Camaral a la Fundación Simón I. Patiño, un reconocimiento a una trayectoria construida desde el co… Ver más Con mucho honor hicimos entrega de un merecido Homenaje Camaral a la Fundación Simón I. Patiño, acompañado de la entrega de nuestros símbolos patrios, en reconocimiento… Ver más Tenemos problemas para reproducir este video"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1032,13 +1031,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vvitz0ufIlcQ7kNvwG806Ks&_nc_oc=Adr0jKaQe78NQLIMFI3VDCoMiZOAVWs1esHPGMJpAWRl3aSp_K_9JwFYJlAuNH5Z_AM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=L2m51y-8kM_0QO_oqdbo-Q&_nc_ss=7f289&oh=00_AQIjffSu2uROjTO-rkh-qtSwDCMX77eCwWbJ9Nytbu4gcg&oe=6ABE3B8F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1895517025166409/?__cft__[0]=AZjOaUIGMOC0KG2DEMRnXpa_hyCEKnwp2Texul_UgHRVCuUNJPWt33X1cl0QuY5hHTDftGECa1IhahI7n9lKzZ1Jbl552zGK8CrRO97OsKTSx4RhbvNYxrtsH6leYWEOgwc3RccQjnYi8ntrJrvayxi-IoOfiKunYbQic0GyZ_bxPvRs4WxPRrb9uQICkJcHTXaz&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Así celebramos la diversidad en el Día Europeo de las Lenguas. Cada idioma es un universo entero por descubrir. … Ver más Así celebramos la diversidad en el Día Europeo de las Lenguas. Cada idioma es un universo entero por descubrir. … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1774,7 +1782,7 @@
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 1 día Procesos o Resoluciones 50 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compar"
+          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 1 día Procesos o Resoluciones 52 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compar"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
