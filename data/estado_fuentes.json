@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T07:26:49-04:00",
+  "generated_at": "2026-09-26T12:26:09-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 83.4,
-    "horas_maximo_sin_datos": 892.3
+    "horas_promedio_sin_datos": 78.8,
+    "horas_maximo_sin_datos": 897.3
   },
   "sources": [
     {
@@ -163,13 +163,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=60Zebdy3NqkQ7kNvwH5Gei2&_nc_oc=AdoOyUknzDNFiYl5NPF87FCy9UzONqK33NmIX6iua5AEEpqmPNxszFYyL_DMm0OvLEw&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=T9ifQcy4QHLpt04AnCvbLw&_nc_ss=7f289&oh=00_AQINtmDs3DeJ932Glc6XZGR35Vzy-OpMU47nCqtIlTH6_Q&oe=6ABDAC40",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 18,
+          "category": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/-el-alto-proyecta-stand-propio-en-expocruz-2027-y-destaca-talento-de-sus-product/1408232461491393/",
+          "has_image": true,
+          "text_preview": "✅ El Alto proyecta stand propio en Expocruz 2027 y destaca talento de sus productores Durante su visita protocolar por la efeméride cruceña, el Alcalde Eliser Roca Tancara, acudió a la Expocruz y... ✅ El Alto proyecta stand propio en Expocruz 2027 y destaca talento de sus productores Durante su visita protocolar por la efeméride cruceña, el Alcalde... El Alto proyecta stand propio en Expocruz 2027"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid06WxNT7hPGAepEpUkqsUcY7dUupwSpc1gBJJfCkJhhm1Mz6Re8N3aN6vW7Muqd7Sdl?comment_id=28486479011046055&__cft__[0]=AZgznT3tuEGlLSxYwjBjtCGFJjBPLZLuK894lPzOeEG9V3qGNLw_WxXLnXX3HO5pfU7LTK-PzG3IPap0Iw_XOPPOiklI5brAoLbIYhwada27WaKDG0pwYEnrU5l3qrV1lOWGeZsHiYH5qLaE6K8_DHNFUSm65OyoIKgvQ1KOkyHZWTXFvkLC8gwMWmk&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Reconocemos el compromiso del GAMEA con el desarrollo de nuestro municipio. A seguir trabajando por El Alto! Iklav Niram Agaerk"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -214,13 +231,30 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mk_VYK-c7MIQ7kNvwGfvrkC&_nc_oc=AdoFqgZctEPFMQ6U4ByIBnHpfj7M73tmsA0DJbJm2x4Ig0epcm8Vkrzeh6MFDKtfKt4&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=L4-ps8zPU8_4QQgbk29YUw&_nc_ss=7f289&oh=00_AQISakWnrUYJOQtW1OaHr1vsDDpTc22nM6Z1Ih_j7zmoow&oe=6ABDCB17",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid0VJWMmbk9TnSv6mocouUCSYeVxVdQw1ieuLMnZjyrhJQtCpisFCbLsp2YcAFGZ7Ynl?__cft__[0]=AZiA-9UuAEFqZMLlIgJL3_1N2shKKk3pc0LcDo7x76n_DD4qiz4cLKRh5jCSEZsqGzWME8kOgViN3tfFzBe8aCSBiFSIcwE32zV-LqRy9BIzu3kR6Otut3w0x6iioKUv0zvGuNGha0CMI-6_nRtnBq1pUpsC70BxdU4iTnxCP2JuFaDhMjqrt-A8QHU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La Gobernación de Cochabamba, bajo la gestión del gobernador Leonardo Loza, impulsa la limpieza del río Ch'ulla, afluente del río Rocha, en Vinto.… Ver más solo ayudo con barbijos??? Jhamil Aleluya"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid0VJWMmbk9TnSv6mocouUCSYeVxVdQw1ieuLMnZjyrhJQtCpisFCbLsp2YcAFGZ7Ynl?comment_id=2268620537261979&__cft__[0]=AZiA-9UuAEFqZMLlIgJL3_1N2shKKk3pc0LcDo7x76n_DD4qiz4cLKRh5jCSEZsqGzWME8kOgViN3tfFzBe8aCSBiFSIcwE32zV-LqRy9BIzu3kR6Otut3w0x6iioKUv0zvGuNGha0CMI-6_nRtnBq1pUpsC70BxdU4iTnxCP2JuFaDhMjqrt-A8QHU&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "solo ayudo con barbijos??? Jhamil Aleluya"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gamscs",
@@ -231,13 +265,30 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TFdDVupeJ8oQ7kNvwEoaabm&_nc_oc=AdrDBipoCSf4gbD6MaNcaqaBmFchXwLbmVJGCEb59AK-2sPE9P04-QB5oGfBUNhzkKU&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=NUNgzV3N9d9USBt1KsLUvA&_nc_ss=7f289&oh=00_AQIgMGLkm7JsjNMzcI5U694AOzl2tLoKFw4036J1vP_Rrg&oe=6ABDC2D7",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1067711016172874/?__cft__[0]=AZhFOHrXsiM6mU4_J1UXDiqhRPmBr65mawYdu3PFUH3V9y5cLRBb6Nl8ALGoKdGfUDyQgo78hhR40WaCflSkBhH7g-pRWE3BmkqeVx_zsHQ4VSEh2voaYxOwadFvgS3DukjvZoeBNa3fBnpQefq9R8Xktae-SZ2kuPin0l14tKNsT7DnGg8Y0J9-NpqTb30RI8q-&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Felicidades, Santa Cruz! Hoy c… Ver más ¡Felicidades, Santa Cruz! Hoy c… Ver más Felicidades Santa Cruz, tierra Camba del oriente boliviano, que enamora de verdad. Tenemos problemas para reproducir este video. Más información Ver más comentarios Tito Murga"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1067711016172874/?comment_id=1657572789364477&__cft__[0]=AZhFOHrXsiM6mU4_J1UXDiqhRPmBr65mawYdu3PFUH3V9y5cLRBb6Nl8ALGoKdGfUDyQgo78hhR40WaCflSkBhH7g-pRWE3BmkqeVx_zsHQ4VSEh2voaYxOwadFvgS3DukjvZoeBNa3fBnpQefq9R8Xktae-SZ2kuPin0l14tKNsT7DnGg8Y0J9-NpqTb30RI8q-&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Felicidades Santa Cruz, tierra Camba del oriente boliviano, que enamora de verdad. Tito Murga"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -418,38 +469,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LYRn_e_kf4IQ7kNvwEasCds&_nc_oc=AdpxmIEN4aB8_zavUQf1cU0n8nrMGNOswtC12DkkhCuBWTdsRG_6p-gHH87EFkNs8uY&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=ykJwuqjJrEj5iYc-3MI3kw&_nc_ss=7f289&oh=00_AQJzGC8jHKaZTz4MXq58GJPc7E_1FkOtmWSFqpeF8GQwtg&oe=6ABD7288",
-      "status": "ok",
-      "raw_items": 6,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 6,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/RadioFidesBolivia/videos/28847042284982440/?__cft__[0]=AZjX1Fi7kgyLOobV6bOz8eRPcYmL2z5i_YZ1coNoB9Frhp2KN7yX8ePINPCbUXuBJGEqy7okpe6VZBlI5XWob-2XQ5cqGqp1DtXvBYqEb4-_BCRnQ3HRyM-Y-_qAVsireAjKKcMli9dVBA9zF4GSaKU9yd8bBuTuJoi3qIJteMdLlRjdWNWll1o9L99lvNpDI9wZ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "EN DIRECTO La Hora del País Matinal #LaHora… Ver más EN DIRECTO La Hora del País Matinal #LaHora… Ver más Durante esta transmisión puedes colaborar con mi página enviando estrellas, un regalo digital que nos ayuda a seguir produciendo contenido, como Fides. Oye Quespe van a pesotear Así deberías fregotear cuando el narcotraficante de Morales desangraba nuestra Bolivia!!! Si es para bien del país c"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/RadioFidesBolivia/videos/28847042284982440/?comment_id=1442159317824940&__cft__[0]=AZjX1Fi7kgyLOobV6bOz8eRPcYmL2z5i_YZ1coNoB9Frhp2KN7yX8ePINPCbUXuBJGEqy7okpe6VZBlI5XWob-2XQ5cqGqp1DtXvBYqEb4-_BCRnQ3HRyM-Y-_qAVsireAjKKcMli9dVBA9zF4GSaKU9yd8bBuTuJoi3qIJteMdLlRjdWNWll1o9L99lvNpDI9wZ&__tn__=R]-R",
-          "has_image": false,
-          "text_preview": "Durante esta transmisión puedes colaborar con mi página enviando estrellas, un regalo digital que nos ayuda a seguir produciendo contenido, como Fides."
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/RadioFidesBolivia/videos/28847042284982440/?comment_id=2521294318367788&__cft__[0]=AZjX1Fi7kgyLOobV6bOz8eRPcYmL2z5i_YZ1coNoB9Frhp2KN7yX8ePINPCbUXuBJGEqy7okpe6VZBlI5XWob-2XQ5cqGqp1DtXvBYqEb4-_BCRnQ3HRyM-Y-_qAVsireAjKKcMli9dVBA9zF4GSaKU9yd8bBuTuJoi3qIJteMdLlRjdWNWll1o9L99lvNpDI9wZ&__tn__=R]-R",
-          "has_image": false,
-          "text_preview": "Oye Quespe van a pesotear Así deberías fregotear cuando el narcotraficante de Morales desangraba nuestra Bolivia!!! Margot Vargas Oye Quespe van a pesotear Así deberías fregotear cuando el narcotraficante de Morales desangraba nuestra Bolivia!!!"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_anf",
@@ -579,13 +605,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jnVz2y9CI6QQ7kNvwHzR7uy&_nc_oc=AdpvXpMiHFzvNlTAtHhqOQXWXKAZIUwyVhCZw6nMC6jyhy-xKKwtnCglf2aCU0sU0Es&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=G4jH-4TRxuok11mUwH6QCg&_nc_ss=7f289&oh=00_AQJmVPPxDPgZQaLCeh-pTfmpVspvSHvRJZ218tHnFBBXqQ&oe=6ABD6C73",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -647,30 +673,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hBhyga8qf48Q7kNvwGuhfS8&_nc_oc=AdoVT_smk6x-LqX3ibh_zC2mpT9jX1kRI0DkoUfwWRgK6IJNvcNDy3mX2CG-f9NKe2w&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=Rz4OgN2FsTnvPa6IAbEzJg&_nc_ss=7f289&oh=00_AQI_35vcu8L5ge6bUEFfMpvTiDZVOupQRN5kxYOeiHxR2g&oe=6ABD970F",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid021vvEUCGEKekfRFpjbYZqvzHPEVZq4w6Awi5EsSYW1geMN9cVDVU88WZ1WBTko88Pl?__cft__[0]=AZiXUbfZxMJoEtsRIpkrdBIVNgp_P8bkLvCuIl90hM8yrzep_UePGRZU3XWKLjCTmfR9vgGdLR15qdu4xSbe7jyZIFf6HOMRfgHA58jqvU8ElBU1GgqRvMx1BH8plmIi8bOPDHPBa3vV-Fpo3I9v_6ecmAyv88YPeffcE0yf8wpY_nPqqnYQ_rfstxM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CNM | NECROLÓGICO… Ver más Mis sentidas condolencias a la común católica, QDDG. Monseñor Ricardo Centellas y brille para él la luz perpetua Ver más comentarios Atilehtse Lehaj Barrios"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid021vvEUCGEKekfRFpjbYZqvzHPEVZq4w6Awi5EsSYW1geMN9cVDVU88WZ1WBTko88Pl?comment_id=1982237465800354&__cft__[0]=AZiXUbfZxMJoEtsRIpkrdBIVNgp_P8bkLvCuIl90hM8yrzep_UePGRZU3XWKLjCTmfR9vgGdLR15qdu4xSbe7jyZIFf6HOMRfgHA58jqvU8ElBU1GgqRvMx1BH8plmIi8bOPDHPBa3vV-Fpo3I9v_6ecmAyv88YPeffcE0yf8wpY_nPqqnYQ_rfstxM&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mis sentidas condolencias a la común católica, QDDG. Monseñor Ricardo Centellas y brille para él la luz perpetua Atilehtse Lehaj Barrios"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -1106,30 +1115,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=m5n-6pcL3VcQ7kNvwGlQ3Bk&_nc_oc=AdpfTahk6dk_yp1mtXWzjgB12rLIK-Nqu7AOOiPVGwbsNu7Yo9HBrP9GbCYMb5d1RGM&_nc_zt=24&_nc_ht=scontent-qro1-1.xx&_nc_gid=MndF5g_0NYbifU3AJfHbVw&_nc_ss=7f289&oh=00_AQLZdq6Jcmk7-a2xxTG7c9_7I5D1gMRkesJyu1DNbBngfQ&oe=6ABD8E6F",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid0j1LZpcht8oWuHMMn19dVasp2R4S3xQYJj5LLTwvg1usWKvxTxemq6SYe3NZXtkYLl?__cft__[0]=AZgYXgYHJLMjNMc83Sl-GUjL8Ii-7nvPAf_sDd8NI8BhKmiMPDeyfK0jiBwzB6guCmQ6swgXDuL1I3bvbj4EjA24JHuNaLX5teMf0cwpUATBqTF_6C00SonxDt7_efwxU4qAsqIf7rHd5kTc3JJlXnNYMFWpVJ2qU25SgfZtqUhfSy02UolyZ1EGxtg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Feliz cumpleaños, Maestro Lorgio Vaca!… Ver más Feliz cumpleaños, al maestro Lorgio Vaca Ver más comentarios Nelson Manrique Sanchez"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid0j1LZpcht8oWuHMMn19dVasp2R4S3xQYJj5LLTwvg1usWKvxTxemq6SYe3NZXtkYLl?comment_id=1718816269206152&__cft__[0]=AZgYXgYHJLMjNMc83Sl-GUjL8Ii-7nvPAf_sDd8NI8BhKmiMPDeyfK0jiBwzB6guCmQ6swgXDuL1I3bvbj4EjA24JHuNaLX5teMf0cwpUATBqTF_6C00SonxDt7_efwxU4qAsqIf7rHd5kTc3JJlXnNYMFWpVJ2qU25SgfZtqUhfSy02UolyZ1EGxtg&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Feliz cumpleaños, al maestro Lorgio Vaca Nelson Manrique Sanchez"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1174,13 +1166,30 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=89ZAD6e3V3MQ7kNvwEYZo_o&_nc_oc=Adr-d2YYOZP_P3_8EOdAZmKvyiU4mkXtbxWB81dCA9SzdZSfQl77_edKDJzdHs5_rBc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=S5FXrcb72M_lvnnRL0k-Nw&_nc_ss=7f289&oh=00_AQIqNoznBbixa5xhduDoecI4_GtlJT5e4qvPUvktaEM_PQ&oe=6ABDAE60",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid0obuHqbVYtXBh6VAbK2hwx9gMmAk1J5PMdVdGe82ndTfuZE7Fd7estTsoSV5uKaml?__cft__[0]=AZhUxJx1JtduRsTrE_D3-D-lNUMmXSIP4x8uflkmvv14Tle5J-Q8t3YX2CLRLYokuAX-FYVYqbrNbD315omZTLt0YCUZnj7rQtrfDqi-5C9n7NuPjJrwOKbf7zsU_vi0tf_5Ld0k5TLeYiDKUIID8CVPfdhGpYll0d-cFaqCrwxoEvyUogxgB3h4ZIs&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "USFX proyecta nuevas oportunidades productivas para Chuquisaca a través de las cadenas de valor Café-Cacao… Ver más Como siempre la USFX buscando lo mejor para nuestra región Ver más comentarios Hector Campos Carreño"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid0obuHqbVYtXBh6VAbK2hwx9gMmAk1J5PMdVdGe82ndTfuZE7Fd7estTsoSV5uKaml?comment_id=1600551678187018&__cft__[0]=AZhUxJx1JtduRsTrE_D3-D-lNUMmXSIP4x8uflkmvv14Tle5J-Q8t3YX2CLRLYokuAX-FYVYqbrNbD315omZTLt0YCUZnj7rQtrfDqi-5C9n7NuPjJrwOKbf7zsU_vi0tf_5Ld0k5TLeYiDKUIID8CVPfdhGpYll0d-cFaqCrwxoEvyUogxgB3h4ZIs&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Como siempre la USFX buscando lo mejor para nuestra región Hector Campos Carreño"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umsa",
@@ -1278,8 +1287,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 8,
-      "events": 7,
+      "raw_items": 9,
+      "events": 8,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1438,19 +1447,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 36,
+          "score": 54,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "25/09/2026 Cultura Una novela gráfica rescata a Luis Espinal más allá de su muerte Luis Espinal volverá a las páginas, pero esta vez dibujado. Una novela gráfica reconstruye episodios de su vida y propone mirar al sacerdote y periodista desde... vista 25/09/2026 Cultura Lema intenta politizar el pasado histórico de los bolivianos con su nueva obra “Los bolivianos” es la obra literaria del destacad"
         },
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 16,
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 33,
           "category": "nightlife",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 La tarijeña Nicole Mollo de 15 años permanece inv"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 El dólar oficial para el fin de semana y el lunes"
         }
       ],
       "error": null
@@ -1670,17 +1679,9 @@
       "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
       "status": "ok",
       "raw_items": 6,
-      "events": 0,
-      "rejected": 6,
+      "events": 1,
+      "rejected": 5,
       "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 36,
-          "category": "feria",
-          "url": "https://beni.gob.bo/category/cultura/",
-          "has_image": true,
-          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 24/09/2026 GOBERNACIÓN DEL BENI FORTALECE LA CONSERVACIÓN DEL PATRIMONIO CULTURAL JUNTO AL PLAN MOXOS En el marco de su compromiso con la preservación del patrimonio cultural beniano y como miembro de l... Leer más → Cultura - 16/09/2026 GOBERNACIÓN IMPULSA RUTA DE AVITURISMO PARA LA CONSERVACIÓN DE LA PARABA BARBA AZUL Con una vi"
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 30,
@@ -1696,6 +1697,14 @@
           "url": "https://beni.gob.bo/departamento/agricultura",
           "has_image": true,
           "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "turismo",
+          "url": "https://beni.gob.bo/blog/gobernacion-del-beni-fortalece-la-conservacion-del-patrimonio-cultural-junto-al-plan-moxos",
+          "has_image": true,
+          "text_preview": "GOBERNACIÓN DEL BENI FORTALECE LA CONSERVACIÓN DEL PATRIMONIO CULTURAL JUNTO AL PLAN MOXOS Cultura 24/09/2026 Por Gabriela Claure M. 4 visitas En el marco de su compromiso con la preservación del patrimonio cultural beniano y como miembro de la Asociación Civil de la Escuela Taller “Plan Moxos”, la Gobernación del Beni, a través de la Secretaría Departamental de Desarrollo Humano, acompañó los tra"
         }
       ],
       "error": null
@@ -1814,7 +1823,7 @@
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 15 horas Procesos o Resoluciones 42 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Com"
+          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 20 horas Procesos o Resoluciones 45 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Com"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",

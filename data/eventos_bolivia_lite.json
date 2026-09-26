@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-26T07:26:49-04:00",
+  "generated_at": "2026-09-26T12:26:09-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 72,
-    "events_today": 13
+    "events_total": 74,
+    "events_today": 14
   },
   "filters": {
     "ui_groups": [
@@ -70,7 +70,7 @@
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 7
+        "count": 8
       },
       {
         "key": "teatro",
@@ -81,6 +81,11 @@
         "key": "exposicion",
         "label": "Exposiciones",
         "count": 4
+      },
+      {
+        "key": "turismo",
+        "label": "Turismo y patrimonio",
+        "count": 2
       },
       {
         "key": "otro",
@@ -98,11 +103,6 @@
         "count": 2
       },
       {
-        "key": "turismo",
-        "label": "Turismo y patrimonio",
-        "count": 1
-      },
-      {
         "key": "festival",
         "label": "Festivales",
         "count": 1
@@ -117,7 +117,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 16
+        "count": 17
       },
       {
         "key": "Cochabamba",
@@ -138,6 +138,11 @@
         "key": "Oruro",
         "label": "Oruro",
         "count": 3
+      },
+      {
+        "key": "Trinidad",
+        "label": "Trinidad",
+        "count": 1
       },
       {
         "key": "El Alto",
@@ -174,7 +179,7 @@
       {
         "key": "Bolivia",
         "label": "Bolivia",
-        "count": 7
+        "count": 8
       },
       {
         "key": "Chuquisaca",
@@ -187,6 +192,11 @@
         "count": 3
       },
       {
+        "key": "Beni",
+        "label": "Beni",
+        "count": 1
+      },
+      {
         "key": "Tarija",
         "label": "Tarija",
         "count": 1
@@ -196,22 +206,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 19
+        "count": 20
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 28
+        "count": 29
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 33
+        "count": 34
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 72
+        "count": 74
       }
     ],
     "price": [
@@ -223,7 +233,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 21
+        "count": 23
       },
       {
         "key": "por_confirmar",
@@ -235,7 +245,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 66
+        "count": 68
       },
       {
         "key": "con_video",
@@ -382,14 +392,14 @@
         "count": 13
       },
       {
-        "key": "ticketera",
-        "label": "ticketera",
-        "count": 7
-      },
-      {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
-        "count": 7
+        "count": 8
+      },
+      {
+        "key": "ticketera",
+        "label": "ticketera",
+        "count": 8
       },
       {
         "key": "eventos",
@@ -411,6 +421,7 @@
       "evt_ab03973916de20",
       "evt_c985524f14c90a",
       "evt_5aa45ee0cffbac",
+      "evt_2cb4b0fbe8ecb1",
       "evt_1f6c2c158d6788",
       "evt_6ccac70b9a0686",
       "evt_cbe38bf8576dcb",
@@ -441,6 +452,7 @@
       "evt_ab03973916de20",
       "evt_c985524f14c90a",
       "evt_5aa45ee0cffbac",
+      "evt_2cb4b0fbe8ecb1",
       "evt_1f6c2c158d6788",
       "evt_6ccac70b9a0686",
       "evt_cbe38bf8576dcb",
@@ -499,31 +511,33 @@
       "evt_cdbfbc6ca41a2d",
       "evt_ae9da30af86e30",
       "evt_bf127d6bfa7742",
+      "evt_bb5cf19806c196",
       "evt_2821894c1d5322",
       "evt_ab2d744f1fbd8e",
       "evt_48c45c2c902fde",
-      "evt_9ea8741680468c"
+      "evt_9ea8741680468c",
+      "evt_cab71456af6bc1"
     ]
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 39,
+      "events_total": 35,
       "events_upcoming": 16,
       "events_with_image": 15,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 5
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 28,
+      "events_total": 27,
       "events_upcoming": 20,
       "events_with_image": 20,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 37,
+      "events_total": 35,
       "events_upcoming": 19,
       "events_with_image": 14,
       "events_with_video": 3,
@@ -531,12 +545,12 @@
       "sources_ok": 4
     },
     "Chuquisaca": {
-      "events_total": 10,
+      "events_total": 9,
       "events_upcoming": 6,
       "events_with_image": 6,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Oruro": {
       "events_total": 4,
@@ -552,10 +566,10 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 12,
+      "events_total": 11,
       "events_upcoming": 1,
       "events_with_image": 1,
       "events_with_video": 0,
@@ -563,9 +577,9 @@
       "sources_ok": 2
     },
     "Beni": {
-      "events_total": 0,
-      "events_upcoming": 0,
-      "events_with_image": 0,
+      "events_total": 1,
+      "events_upcoming": 1,
+      "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 3,
       "sources_ok": 1
@@ -582,16 +596,16 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 71,
+      "events_total": 62,
       "events_upcoming": 20,
       "events_with_image": 20,
       "events_with_video": 0
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 7,
-      "events_upcoming": 7,
-      "events_with_image": 7,
+      "events_total": 8,
+      "events_upcoming": 8,
+      "events_with_image": 8,
       "events_with_video": 1
     },
     "conferencia": {
@@ -659,9 +673,9 @@
     },
     "turismo": {
       "label": "Turismo y patrimonio",
-      "events_total": 1,
-      "events_upcoming": 1,
-      "events_with_image": 1,
+      "events_total": 2,
+      "events_upcoming": 2,
+      "events_with_image": 2,
       "events_with_video": 0
     }
   },
@@ -890,6 +904,44 @@
       "director": null,
       "cast": [],
       "quality_score": 61,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_2cb4b0fbe8ecb1",
+      "title": "Cultura - Gobernación del Beni",
+      "category": "turismo",
+      "category_label": "Turismo y patrimonio",
+      "starts_at": "2026-09-26T00:00:00-04:00",
+      "starts_at_ms": 1790395200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 26 de septiembre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Trinidad",
+      "department": "Beni",
+      "venue": null,
+      "image_url": "https://beni.gob.bo/images/beni-og.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
@@ -1631,83 +1683,78 @@
       "organizer": null,
       "showtimes": [
         "19:00",
-        "13:00",
-        "17:10",
         "21:00",
-        "16:50",
         "20:40",
-        "20:30",
         "13:30",
+        "17:10",
+        "13:00",
         "16:40",
-        "17:50",
-        "20:00",
-        "22:00",
-        "10:40",
-        "21:10",
-        "10:10",
+        "20:30",
+        "16:50",
         "12:30",
         "14:10",
         "16:30",
         "19:30",
-        "14:50",
         "15:20",
         "17:40",
+        "14:50",
+        "17:50",
+        "20:00",
+        "22:00",
+        "21:10",
         "19:20",
         "21:40",
-        "10:20",
-        "12:40",
         "17:00",
-        "11:00",
+        "12:40",
         "17:20",
         "19:40",
         "12:10",
-        "14:30"
+        "14:30",
+        "15:30",
+        "16:00",
+        "18:30",
+        "14:00"
       ],
       "formats": [
         "2D - Doblada",
-        "2D - XD - IV - DBOX - Doblada",
         "3D - DBOX - Doblada",
         "3D - PRE - Subtitulada",
-        "DBOX - 2D - IV - XD - Doblada",
         "DBOX - 3D - Doblada",
-        "XD - IV - DBOX - 2D - Doblada",
+        "IV - 2D - DBOX - XD - Doblada",
+        "IV - DBOX - XD - 2D - Doblada",
+        "IV - XD - DBOX - 2D - Doblada",
+        "PRE - 3D - Subtitulada",
         "2D - PRE - Doblada",
-        "DBOX - 2D - XD - Doblada",
+        "3D - Doblada",
         "PRE - 2D - Doblada",
         "PRE - 2D - Subtitulada",
-        "3D - Doblada",
-        "2D - PRE - Subtitulada",
-        "2D - DBOX - Doblada"
+        "2D - PRE - Subtitulada"
       ],
       "occurrences": [
         "2026-09-26T19:00:00-04:00",
-        "2026-09-26T13:00:00-04:00",
-        "2026-09-26T17:10:00-04:00",
         "2026-09-26T21:00:00-04:00",
-        "2026-09-26T16:50:00-04:00",
         "2026-09-26T20:40:00-04:00",
-        "2026-09-26T20:30:00-04:00",
         "2026-09-26T13:30:00-04:00",
+        "2026-09-26T17:10:00-04:00",
+        "2026-09-26T13:00:00-04:00",
         "2026-09-26T16:40:00-04:00",
-        "2026-09-26T17:50:00-04:00",
-        "2026-09-26T20:00:00-04:00",
-        "2026-09-26T22:00:00-04:00",
-        "2026-09-26T10:40:00-04:00",
-        "2026-09-26T21:10:00-04:00",
-        "2026-09-26T10:10:00-04:00",
+        "2026-09-26T20:30:00-04:00",
+        "2026-09-26T16:50:00-04:00",
         "2026-09-26T12:30:00-04:00",
         "2026-09-26T14:10:00-04:00",
         "2026-09-26T16:30:00-04:00",
         "2026-09-26T19:30:00-04:00",
-        "2026-09-26T14:50:00-04:00",
         "2026-09-26T15:20:00-04:00",
         "2026-09-26T17:40:00-04:00",
+        "2026-09-26T14:50:00-04:00",
+        "2026-09-26T17:50:00-04:00",
+        "2026-09-26T20:00:00-04:00",
+        "2026-09-26T22:00:00-04:00",
+        "2026-09-26T21:10:00-04:00",
         "2026-09-26T19:20:00-04:00",
         "2026-09-26T21:40:00-04:00",
-        "2026-09-26T10:20:00-04:00",
-        "2026-09-26T12:40:00-04:00",
         "2026-09-26T17:00:00-04:00",
-        "2026-09-26T11:00:00-04:00",
+        "2026-09-26T12:40:00-04:00",
         "2026-09-26T17:20:00-04:00",
         "2026-09-26T19:40:00-04:00",
         "2026-09-26T12:10:00-04:00",
@@ -1715,10 +1762,9 @@
         "2026-09-26T15:30:00-04:00",
         "2026-09-26T16:00:00-04:00",
         "2026-09-26T18:30:00-04:00",
-        "2026-09-26T11:10:00-04:00",
         "2026-09-26T14:00:00-04:00",
-        "2026-09-26T13:20:00-04:00",
         "2026-09-26T22:40:00-04:00",
+        "2026-09-26T13:20:00-04:00",
         "2026-09-26T21:30:00-04:00"
       ],
       "content_genre": null,
@@ -3231,6 +3277,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_bb5cf19806c196",
+      "title": "100% Yara en Concierto (La Paz)",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-12-19T19:00:00-04:00",
+      "starts_at_ms": 1797721200000,
+      "ends_at_ms": 1797652800000,
+      "multi_day": false,
+      "display_date": "Sábado 19 de diciembre · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 84,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "Bolivia",
+      "venue": "Teatro Municipal Alberto Saavedra Pérez",
+      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/09/Shop5_Cuadrado_9y5emA0.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 50.0,
+      "currency": "None",
+      "price_label": "Bs 50",
+      "organizer": "SuperTicket.bo",
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 78,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_36e9f26a645dc8",
       "title": "Espectáculos",
       "category": "deporte",
@@ -4125,9 +4209,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
+      "price_from": 12.05,
+      "currency": "BOB",
+      "price_label": "Bs 12.05",
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -4137,8 +4221,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 61,
-      "is_featured": false,
+      "quality_score": 69,
+      "is_featured": true,
       "status": "programado",
       "source_count": 1
     }
