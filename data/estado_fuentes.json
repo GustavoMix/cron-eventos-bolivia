@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:37:09-04:00",
+  "generated_at": "2026-09-26T01:00:29-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 87.4,
-    "horas_maximo_sin_datos": 878.4
+    "horas_promedio_sin_datos": 85.1,
+    "horas_maximo_sin_datos": 885.8
   },
   "sources": [
     {
@@ -61,30 +61,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gBTGorYxBYUQ7kNvwEdmdbx&_nc_oc=AdrBAyom9qJGXlHkZ87FgISxKx5I6XaLn5N37TW6gPJpvD47Hif9CsizkmbiUW1una4&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Mx-fzwGRJ3z92jkf7q783g&_nc_ss=7f289&oh=00_AQIutd9vOje7feBSr1RBLqbkgQhjwrJVulsr-L8lDvEHiw&oe=6ABCA636",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZi6Yo8Q0KdjGIndHT2XwQkMeyQN-rn4tNSjFpJgSKHe1JyUlDhW3QIc66Jt_yPXS1QMNVz4JCmGhv5p9vUvucJ6DdpailykmNgN1h8HkXfJS4Pzi_2CANYru0rHPUEtemCEcheHPi6jjozQ_8-wVIDMMXLAEv26EZTvcCNBtZN-HygYGOK1hyMH3qhnjHZxalzV&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZi6Yo8Q0KdjGIndHT2XwQkMeyQN-rn4tNSjFpJgSKHe1JyUlDhW3QIc66Jt_yPXS1QMNVz4JCmGhv5p9vUvucJ6DdpailykmNgN1h8HkXfJS4Pzi_2CANYru0rHPUEtemCEcheHPi6jjozQ_8-wVIDMMXLAEv26EZTvcCNBtZN-HygYGOK1hyMH3qhnjHZxalzV&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -299,13 +282,22 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=EHk7O6mAesAQ7kNvwGAt--V&_nc_oc=AdoiYQ5Gv65VqK9FuQtTspdMZEeuJ-1UWksyzsRJqpu6VA9tHP7bruxjP6nlhPnsy4E&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=jRqm8f-0oJjIqW_HewpRGg&_nc_ss=7f289&oh=00_AQIkhuIMH3bAUfVWvBxDzKTzS-xiJzwUciPcBkqFk6kmWw&oe=6ABD3366",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid0R6y87egjCKsvfJ9UpXjDmKgYj6wJxZdY3W5EgaskQaM2HEJvhxWromFYw2SKcSHTl?__cft__[0]=AZilIYdIt8dM8y1nbSDlX2TP7JPQYI9sxGhml-mCy8b8fdAsJvjhqry-hNrYtrkAcLpnqtVMq1aKaxFGIyp2vsVVR58lS3F55MRliYgT6bBYI9JWJSf7hDzz7UL-rMIVDT5EenAGLga8OOFCPIHwCeXoEdO8RZ22WBIQTS6YlmFPo8VhpCliDH2Jv7U&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La Universidad Técnica Privada Cosmos, UNITEPC, fue parte de la Ruta Oficial de la Noche de Museos, una jornada que rinde homenaje a Cochabamba y celebra su riqueza cul… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber",
@@ -520,30 +512,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yYDvi_nrUmgQ7kNvwE8np4d&_nc_oc=Ador1ZkQL25rWql88UT0wJlTLUIxYDN7ffyP6V1r3TwHIYzBavVu45tsREVvNcWzMUI&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=6gVlz6uIhonbsDmcZGl-wA&_nc_ss=7f289&oh=00_AQLMU5u7uypAimsP490RQRTbX7IqAxiKapzHUUX3orrhoA&oe=6ABCCC37",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/radiofidescb/videos/1863174101788947/?__cft__[0]=AZhHuCLBZnfgSJ_BWME9Pl-XhX2ypAWKDq5AdVFSSBXwQ2WDVJW4gqyoX4AeEALK8p1XMJ7yqKOXpdENj0D6yxh5saTFyDMARvNCQT3z_cSLwFhCchpvYE9QUXmOCGCtjOXS2Rs8FZsnbvRN-UbFPYEdZ90UGD4gAR12LmMU6fpMAglCBgFdf9xcGlHZcJQPlI4&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "CHISTECITOS EN \"EL REVENTÓN\" REVISTA MUSICAL Sin… Ver más CHISTECITOS EN \"EL REVENTÓN\" REVISTA MUSICAL Sin… Ver más Buenas tardes saludos desde Quillacollo ,SI HOY ES VIERNES Y EL CUERPO LO SABE Tenemos problemas para reproducir este video. Más información Rudy Condori Terrazas"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/radiofidescb/videos/1863174101788947/?comment_id=1113317964972647&__cft__[0]=AZhHuCLBZnfgSJ_BWME9Pl-XhX2ypAWKDq5AdVFSSBXwQ2WDVJW4gqyoX4AeEALK8p1XMJ7yqKOXpdENj0D6yxh5saTFyDMARvNCQT3z_cSLwFhCchpvYE9QUXmOCGCtjOXS2Rs8FZsnbvRN-UbFPYEdZ90UGD4gAR12LmMU6fpMAglCBgFdf9xcGlHZcJQPlI4&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Buenas tardes saludos desde Quillacollo ,SI HOY ES VIERNES Y EL CUERPO LO SABE Rudy Condori Terrazas"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ministerio_culturas",
@@ -605,22 +580,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oB-8xMktpr0Q7kNvwEG2aHC&_nc_oc=AdqQ7D8_g5ht2GVcm1k13OtSOy76EXnxBUA1-ilb7v9BYNA8D3U2YcvYny9o8z6Ryoc&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=btHlJb_faKgtsPkWv2Dd4g&_nc_ss=7f289&oh=00_AQIyumsEgYQ0zEWg1MB0bCpFu1kX0p64ZccNRECfFmmW5g&oe=6ABCCD16",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid0cLdBsjYpwRyA8dtDDfJ5gTPvgLUjzmve3xGyS5ATAJ6LgUvqqV8DhMnoDyMDT48fl?__cft__[0]=AZgLioH3OQ_OEYV58ibPEbYKFGce7gOa-ptK_nkEG8wlt8ToSNZaF8BPbtDBFTdZOgOnEg-UKnjhomBoUZ5iEAOf_lnGA9Ivw9n-Jz8p9PIc2R7kOe2q7hmid8nn1YmcDkYxoVApZNo3DaV4zfBw-3lCSmIYNpPs6WxzzcO_3zXfH_6gAf04wb4NdhI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Experiencias del juego en movimiento Aye… Ver más Experiencias del juego en movimiento Aye… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -682,13 +648,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4-Eal5jOXFQQ7kNvwG3kYqr&_nc_oc=AdqCSl8NdvvEObmH3mn-qTmj9Kvl81_r8U6rp_7OdXWsnE7muMOMdJfh3hIg1yK_sfs&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=-aqm5YwNi4es-bgbeui_mg&_nc_ss=7f289&oh=00_AQIpFuml7SIAaWqQmoA5MkrBa6YSnZGu6Qu9BZ0glfJENQ&oe=6ABD1512",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "cine",
+          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid0226CcaBmyPqL5yqEWZUGEypQ42AVuau8Maxx6PBGDAW9ThAQbEN5UkFLxh6LVbLhZl?__cft__[0]=AZi1DiIGNwboicqiIMec7NOtOOJtUGhO98TKrcncMWLCDQLv5vhZf5Ewod-FtwD5QOXFWTvJie466fHyj-UJe-qvEJlWi81MwDk9PR7wJFs5Zi3mhn6FVGmwW0XpP-oxO-VqkWJQVKprpLQmVsBriNovS2oXhf9DcPtR4xl65YARiMqQ0UJnkdAGBoo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CRC I 𝗣𝗿𝗲𝘀𝗲𝗻𝘁𝗮𝗰𝗶𝗼́𝗻 𝗱𝗲𝗹 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗮𝗹 \"𝗦𝗶𝗸𝘂𝗿𝗶 𝗜𝗺𝗶𝗹𝗹𝗮: 𝗠𝘂𝗷𝗲𝗿𝗲𝘀 𝗾𝘂𝗲 𝗳𝗹𝗼𝗿𝗲𝗰𝗲𝗻\" 𝗱𝗲 𝗹𝗮 𝗮𝗿𝘁𝗶𝘀𝘁𝗮 𝗔𝗻𝗴𝗲́𝗹𝗶𝗰𝗮 𝗤𝘂𝗶𝘀𝗽𝗲 𝗛𝘂𝗿𝘁𝗮𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗺𝘂𝗻𝗶𝗰𝗶𝗽𝗶𝗼 𝗱𝗲 𝗔𝗻𝗰𝗼𝗿𝗮𝗶𝗺𝗲𝘀, 𝗱𝗲𝗽𝗮𝗿𝘁𝗮𝗺𝗲𝗻𝘁𝗼 𝗱𝗲 𝗟𝗮 𝗣𝗮𝘇… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -733,22 +708,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/734210525_1484423200397079_336268521338765554_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pUEZ3s2tv9YQ7kNvwFADoSh&_nc_oc=AdryywW77cdFVyXDljCXFnsyByZ1cZ-80R3EX-w_19C5KIGUJVK-aaELARxLKpEHDIc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=YqZuWeadeTmb-4aDu9qGZg&_nc_ss=7f289&oh=00_AQL2qPSNF_QZNu1p3mhU2mxK-r7s18POy0NDkRe421DpPg&oe=6ABCB029",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1870500383931816/?__cft__[0]=AZjma8Cfczkz6b6sk7ZsEvbWLm-nHC7OcQ1N8MY1yw4GGhXgoSdxemF7lYNG5EWJQSkPY16IVFQJkyNgsAYZkQnqeT38nXMVME1IWJCl5ftXCBZMJqOCXdRKQBFLNKl5KkHcKhuVq5yfnhcspJcnnEX65ZhaZRGgk19DG4ISwkpOu8et91KkS5E-GUzXFREdxdAT&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "ESTUDIANTES SE SUMAN A UNA TARIJA MÁS LIMPIA… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -776,13 +742,30 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dbiW9UGNjesQ7kNvwEQb5Gw&_nc_oc=AdqodcHn_YqYQTVtXf2iHh9OLjR_uHfBMHRlvxXni2lmDjRuqz1XMSUGljKHsgdaLyk&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=QbgYMe-y9Ao95nNRz6W7nA&_nc_ss=7f289&oh=00_AQJ2c2wY6RBgKfQBCJ85tbbZAFR66cBqk1otut7aj5O7DQ&oe=6ABD0DBD",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GAMTDD/videos/2255154675304384/?__cft__[0]=AZhoWo9KQgEzmWvfnoM0AM9FW1M-aSiS7VJYjOCHZyJWmGW-BwHXXQy_luGpO-L5dtAiY4peoFXPbBFbdsXiVhyP0QoapZmp_HresCwjAEwhV72c2u5etIC8Wg-wmMNgMN2itK4l1iIL5mgsekeWPlGixy1F1SARqeyd4oiL-L1JsdopnC2Cl2nPIJAPYxMc5Hs&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "INAUGURACIÓN DE LA PLAZA SANTA CRUZ SUR. Y el alcalde? Tenemos problemas para reproducir este video. Más información Ver más comentarios Mirko Cuiza Algarañaz Ver 1 respuesta"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GAMTDD/videos/2255154675304384/?comment_id=1828123191693861&__cft__[0]=AZhoWo9KQgEzmWvfnoM0AM9FW1M-aSiS7VJYjOCHZyJWmGW-BwHXXQy_luGpO-L5dtAiY4peoFXPbBFbdsXiVhyP0QoapZmp_HresCwjAEwhV72c2u5etIC8Wg-wmMNgMN2itK4l1iIL5mgsekeWPlGixy1F1SARqeyd4oiL-L1JsdopnC2Cl2nPIJAPYxMc5Hs&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mirko Cuiza Algarañaz Y el alcalde? 3 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_cobija",
@@ -1252,13 +1235,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cRy_r6KaAQwQ7kNvwEaI4ig&_nc_oc=AdpA5t8GdccDk46CNHb1PNVxeikxzIjDHEa5TCkLJf2RA1uaCWnvdve4iHWigWJOpCU&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=VGju7gQfMz4pLMk1N4X2qA&_nc_ss=7f289&oh=00_AQKjUMMLvEZIPpn9I8Lj5drS4KR8uCcnYKPS0dD1t53V7g&oe=6ABD22B8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid02GnodZedb1qoYEP6QvDkLCvRhR9u18Ltt5s2kuSynpZG2C95nptDfdonUZA7cFoVol?__cft__[0]=AZh8Xwp7R6i3ljVc5K1cedNqukRmc_i4qatShbEblr0E5prp2FVjrv_qjjFPD9sl2ygumx9ZMo7fcECStPqcwlsI8X8_yBEqPRvkQ7r_B7hYnU3xeVD1kDZ1pqVOFUNiJmkpsucPSGd9Wk0oi2KIEIGKnryjVGNzq7_ePfJrboNefwtuTJG6O2L_lDE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "A Santa Cruz lo llevamos en la memoria, el corazón, en las costumbres, en sus paisajes y en cada historia que forma parte de nuestra identidad.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_superticket",
@@ -1418,32 +1410,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 12,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "24/09/2026 Salud La fruta que neurólogos recomiendan para cuidar el cerebro después de los 50 años Una fruta que rara vez aparece en las listas de alimentos recomendados para la salud cognitiva podría proteger el cerebro en la mediana edad, según... vista 23/09/2026 Ciencia Reconocen a científicos de la UMSA que descubrieron a Tilcayo, felino de Yungas Los investigadores Paola Nogales-Ascarrunz y "
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 36,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "25/09/2026 Cultura Una novela gráfica rescata a Luis Espinal más allá de su muerte Luis Espinal volverá a las páginas, pero esta vez dibujado. Una novela gráfica reconstruye episodios de su vida y propone mirar al sacerdote y periodista desde... vista 25/09/2026 Cultura Lema intenta politizar el pasado histórico de los bolivianos con su nueva obra “Los bolivianos” es la obra literaria del destacad"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 30,
           "category": "otro",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Caboco: la construcción está paralizada y exige m"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Gobernación ratifica cierre de K’ara K’ara una ve"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 38,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1509,7 +1501,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/39dd3e77-e97d-4b2b-a81f-259d48ed1484",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/b35fe2df-a958-4b6b-8c6d-d7bfd2687216",
           "has_image": true,
           "text_preview": ""
         },
@@ -1517,7 +1509,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/bfa68f79-1d91-450c-9af9-30880a029f13",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/f8be1c4e-6c58-4f12-90b0-ef993f7e3814",
           "has_image": true,
           "text_preview": ""
         },
@@ -1525,7 +1517,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/61543802-b04f-4e96-9aca-8bf44d5e722c",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/0fbc8d39-20f6-4f97-9034-1e9e6717a719",
           "has_image": true,
           "text_preview": ""
         }
@@ -1543,8 +1535,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 34,
-      "events": 34,
+      "raw_items": 31,
+      "events": 31,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1577,8 +1569,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1594,8 +1586,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 2,
+      "events": 2,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1611,8 +1603,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 44,
-      "events": 44,
+      "raw_items": 46,
+      "events": 46,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1645,8 +1637,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 2,
+      "events": 2,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1764,16 +1756,24 @@
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
       "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
+      "events": 0,
+      "rejected": 2,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
           "score": 18,
-          "category": "conferencia",
+          "category": "concierto",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "pago qr Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para esta nueva gestión: Resulta"
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "exposicion",
+          "url": "https://www.uto.edu.bo/la-uto-habilita-26-espacios-culturales-para-la-esperada-jornada-de-museos-abiertos-este-25-de-septiembre/",
+          "has_image": true,
+          "text_preview": "La Dirección de Vinculación y Extensión Cultural invita a la ciudadanía a recorrer los repositorios históricos y artísticos en toda la ciudad Oruro, septiembre de 2026. — En una de las actividades culturales más representativas del departamento, la Universidad Técnica de Oruro (UTO) , a través de la Dirección de Vinculación (DIRVIN) y su unidad de Extensión Cultural , llevará a cabo este viernes 2"
         }
       ],
       "error": null
@@ -1799,7 +1799,7 @@
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 1 hora Procesos o Resoluciones 24 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compa"
+          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 9 horas Procesos o Resoluciones 38 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Comp"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
