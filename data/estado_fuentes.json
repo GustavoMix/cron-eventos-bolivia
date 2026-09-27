@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T08:04:46-04:00",
+  "generated_at": "2026-09-27T13:00:21-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alianza_francesa_lapaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_teatro_aire_libre"
+      "fb_teatro_aire_libre",
+      "fb_teatros_municipales_lapaz"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 76.8,
-    "horas_maximo_sin_datos": 916.9
+    "horas_promedio_sin_datos": 75.2,
+    "horas_maximo_sin_datos": 921.8
   },
   "sources": [
     {
@@ -45,22 +45,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ROurss0a9tcQ7kNvwE6frXb&_nc_oc=Ado-QYeLLs7SRcdDv44Ae2sWyl6W01ttHMH_6eg0k3za0K-J7aoBsXP4PNiX4H2MTsM&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=gPOBdUXew83beksyvL2w0Q&_nc_ss=7f289&oh=00_AQJUv2CwLv8d7_ofvCnfc3ZGEdV6dJ3jGT_nWBLNWjELEA&oe=6ABEE8F5",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/ConciertosEnBolivia/videos/palabras-muy-emotivas-de-joy-con-la-voz-quebrada-y-ojos-llorosos-invitando-a-dis/1411378946988222/",
-          "has_image": true,
-          "text_preview": "Palabras muy emotivas de Joy con la voz quebrada y ojos llorosos 🥺 invitando a disfrutar el show y despedida del Despecho Tour por primera y última vez juntos. 🎥 Fabricio Rivera Caballero Fabo Los... Palabras muy emotivas de Joy con la voz quebrada y ojos llorosos 🥺 invitando a disfrutar el show y despedida del Despecho Tour por primera y última vez..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -326,22 +317,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=v2bPJlw0qpAQ7kNvwH2WPFP&_nc_oc=AdqJ_Tcum5qaJMt4vDPooVdtOnMUWmKgoyhom8nXjSA8GGMj2GQD2ZhnAj83TQ_kr3A&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_ss=7f289&oh=00_AQJyEsqjQxeDpPabxp2Hi_v_eyI32YzS2xfdWSXzAQOgeQ&oe=6AE066BA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1757621011960800/?__cft__[0]=AZgNg8HdHPhDC7gaxiu_vgSksoDMaqy-gTODXUAZ0YDkviMutfS5ix9njgjPTM6ZxObxUYQ7CGI_vd-DgcU7WbkTix2EftygySlzXBwPcUMa6-doNO1qJ2GPCpsrKJo2fJRb_s9U0em8JCpmHAZ75Tnb7MSHjsuyyIDfwPddIe1A57DC1h0dbCDCkNk0cDcDQ1GD&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La instalación inmersiva “Artspace”, diseñada por Auspicious Art, cubre una zona peatonal con miles de elementos ligeros que se mueven con el aire, creando un efecto vi… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_unitel",
@@ -352,13 +334,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NswRUo81LfYQ7kNvwEVhiuo&_nc_oc=AdqDOl-r-sLbZx7JyunJddN979HjQG6s9iCturDJ91RZ7KPxa8D0LF-1VvKUSygRI94&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=kN8chRCKLicsD18LPAj6KA&_nc_ss=7f289&oh=00_AQLjXMcj3n2enGauS-FBG0yEpdy2c8K_4kybILkrb_Hs9g&oe=6ABF06BF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid0W5B4mj5518gdJpcpQDsUMrSB8KZABK2Y42Mrnedyczg3Xu3ZPHKTxZGQHUgiU2qpl?__cft__[0]=AZhgaPaObl-tAZ1cXdc2XaKJLe8uRbnbWejxnSOK9t46n9Hy6eNx8-PiH_d3df3Veoa-oNEB6s_IcROC_rmTCAgvZ1UzD3Qpuej7O11lsDeTfo1VXffkpx-6hsBN1VUNX-bIjmbhsjuQXFy4MO8x2_8pXPz7GKmxAZpoOAIoiqdJxaFOWGq4JMdBlp8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "UNITEL hace 29 minutos 29 min Info completa en los comentarios Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_atb",
@@ -471,13 +462,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xKUluvwcGT8Q7kNvwFi4Iv_&_nc_oc=Adr0nA1Q4m_R-85OIWMGAG8ko9h3_jg9URfK4-_G6QqfVndnVLlAtVvG6nSJfYaeQA8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=BNNIJ65wqh2ToN50a6xDgA&_nc_ss=7f289&oh=00_AQI_Z3nANKGTh8g4oTfNo6BFZ5SipPBIXmrqS9W6VDRK1Q&oe=6ABF1C45",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1808122873840173/?__cft__[0]=AZgO86sw8Uv_8E5s29gEc4mjMakLQmW26GQS3P9Twfmdk0cCfgHQ7qcANkhllHP_sOqr6OxcNnQSQ8vA7ud58OWx6kg6mpqu-l1Ty-vzIWq_9Ii2FSMQ_p48FDQY7swpDBx0XWVu0--DbFw3Gr12KIq-VLXtvurdMo8xTbtLju0zjnrFOKaDTZvCP9pRZs7lu6UP&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#RTPInforma Defensa de Consumidor controlará precios #RTPInforma Defensa de Consumidor controlará precios Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_abya_yala",
@@ -913,13 +913,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PMBhp4j_FzUQ7kNvwGLGrwB&_nc_oc=AdpsYK-FvnQgwpwIRjWIdl2UpFyXFDPg-tBDmyuoIRZ20kuZTwp3B-gmEw0CpG_V1Ss&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=VOltCYyivTaNNlRQxAJGvw&_nc_ss=7f289&oh=00_AQJ_l2q2Je1KLXUzgK4taqVhZKGNsexzoRxqLyiH2ruvEg&oe=6ABF1747",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de La Paz 45 mil seguidores • 118 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/pfbid031UVKoAMi4b7a6LSsqLLKJeEHrakbmmh2EgYjnVkhYee9orV8X1cVdsjmx9kDMikzl?__cft__[0]=AZgrv0nW73dKcAPP7nC4WBgV-nLyePWwGui65BBL84gtJmAtYBWVY5cblPuCCd2lud9lJDsyD1R8STzqoac1v-MQofUrxlIG22cG6Go-qZOEOvn86PZ-Puq4DURdExdTtrGnYcdzIowka5NDr9r8jCndIkMd7Jz2kOTIjxZoLRUwdsyTS6rVOzzi0Zc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Así vivimos el Día Europeo de las Lenguas… Ver más Goethe-Institut La Paz"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/pfbid031UVKoAMi4b7a6LSsqLLKJeEHrakbmmh2EgYjnVkhYee9orV8X1cVdsjmx9kDMikzl?comment_id=1823315049085209&__cft__[0]=AZgrv0nW73dKcAPP7nC4WBgV-nLyePWwGui65BBL84gtJmAtYBWVY5cblPuCCd2lud9lJDsyD1R8STzqoac1v-MQofUrxlIG22cG6Go-qZOEOvn86PZ-Puq4DURdExdTtrGnYcdzIowka5NDr9r8jCndIkMd7Jz2kOTIjxZoLRUwdsyTS6rVOzzi0Zc&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Goethe-Institut La Paz 19 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -931,12 +948,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Ciudad Cultural, Turismo de Altura y Economía Naranja 44 mil seguidores • 384 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en '"
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1066,30 +1083,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QkS_Z5NLzGUQ7kNvwHaxQXL&_nc_oc=Adoabi6RAxWIFPRXSZSSoe6erDl1vIJWKROvHOwVSmmgIvJagKeD2CTrWM8my-FYSHM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=lRCqOF01b2W1kcrkF3wVRQ&_nc_ss=7f289&oh=00_AQKpsLg_5sB6HpXgFUm_IIGI9XtoBpkY4DuUrFw4UrRM8g&oe=6ABEC692",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HFTFsZKroqVVsNpz3eByzCV5XLYwsBbGFjUWENarXigNG1FfvqPKBTidZnciSWVCl?__cft__[0]=AZiyIwvScQdv5bEZmxE-GdqQOVyK10jn_Chl6w4GOymCcSD68aEaju8i2j6GhioulLsV7Ip57iAhD4zVj1lACJ_mPYg6Q-Ic5tOOd77hhUaaxIDatNl-0aYlVEG9oXLyDCShdHtsrZ7BiNULEnLnQiRShnN1P_TPFJfRUP9UtQlQ1_LFr0GHp0pk31Q&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HFTFsZKroqVVsNpz3eByzCV5XLYwsBbGFjUWENarXigNG1FfvqPKBTidZnciSWVCl?comment_id=1079850634463156&__cft__[0]=AZiyIwvScQdv5bEZmxE-GdqQOVyK10jn_Chl6w4GOymCcSD68aEaju8i2j6GhioulLsV7Ip57iAhD4zVj1lACJ_mPYg6Q-Ic5tOOd77hhUaaxIDatNl-0aYlVEG9oXLyDCShdHtsrZ7BiNULEnLnQiRShnN1P_TPFJfRUP9UtQlQ1_LFr0GHp0pk31Q&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1427,7 +1427,7 @@
           "category": "otro",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 El dólar oficial para el fin de semana y el lunes"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Aduana Nacional impulsa una nueva etapa de modern"
         }
       ],
       "error": null
@@ -1791,7 +1791,7 @@
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 2 días Procesos o Resoluciones 58 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compa"
+          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 2 días Procesos o Resoluciones 63 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compa"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
