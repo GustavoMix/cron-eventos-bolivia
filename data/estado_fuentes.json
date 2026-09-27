@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T01:20:47-04:00",
+  "generated_at": "2026-09-27T08:04:46-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,14 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_alianza_francesa_lapaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 74.9,
-    "horas_maximo_sin_datos": 910.2
+    "horas_promedio_sin_datos": 76.8,
+    "horas_maximo_sin_datos": 916.9
   },
   "sources": [
     {
@@ -44,13 +45,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ROurss0a9tcQ7kNvwE6frXb&_nc_oc=Ado-QYeLLs7SRcdDv44Ae2sWyl6W01ttHMH_6eg0k3za0K-J7aoBsXP4PNiX4H2MTsM&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=gPOBdUXew83beksyvL2w0Q&_nc_ss=7f289&oh=00_AQJUv2CwLv8d7_ofvCnfc3ZGEdV6dJ3jGT_nWBLNWjELEA&oe=6ABEE8F5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/ConciertosEnBolivia/videos/palabras-muy-emotivas-de-joy-con-la-voz-quebrada-y-ojos-llorosos-invitando-a-dis/1411378946988222/",
+          "has_image": true,
+          "text_preview": "Palabras muy emotivas de Joy con la voz quebrada y ojos llorosos 🥺 invitando a disfrutar el show y despedida del Despecho Tour por primera y última vez juntos. 🎥 Fabricio Rivera Caballero Fabo Los... Palabras muy emotivas de Joy con la voz quebrada y ojos llorosos 🥺 invitando a disfrutar el show y despedida del Despecho Tour por primera y última vez..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -129,30 +139,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_sc3ioIi_4sQ7kNvwEM7-Jl&_nc_oc=Adou3QhSeNrKQkWQ00Eft5pQz564Jh6sNexgA5l90SMV-IdrYmlAkOohZ_zGXzPb8uk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=2AQMDKQdtDm4aduzwUaAFg&_nc_ss=7f289&oh=00_AQI8nrVFMTTcLFj02kMK3wWoZD9sPM-s5FyYmP93iPlSqw&oe=6ABE94C5",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1634186418381506/?__cft__[0]=AZh_CS4rZFumT5X70Zn1Mcf8LhiVwiic4eE1OOcf7MIqf93Z3PWqjvnAa4ZuXQrjXds5wONSmFEUpij4PtsHZrDVaLlSX6_ryBfFZTiWD4rQLE2P4PX9yXcEiy5JqNCwLFWGQt75-FQqdsjIhOcIgwASvJ2asJr9HrgYwcD6-je-dMzCEOb2fv45L0JQfL_m66F-&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Continúa crecimiento irregular de construcciones en Kantutani y Bajo Sopocachi. … Ver más Debemos respaldar como ciudadanía las acciones en defensa de las áreas verdes, de equipamiento y otras. Bien ALCALDE. Tenemos problemas para reproducir este video. Más información Ver más comentarios Raul Moreno Zaconeta"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1634186418381506/?comment_id=2367927810405875&__cft__[0]=AZh_CS4rZFumT5X70Zn1Mcf8LhiVwiic4eE1OOcf7MIqf93Z3PWqjvnAa4ZuXQrjXds5wONSmFEUpij4PtsHZrDVaLlSX6_ryBfFZTiWD4rQLE2P4PX9yXcEiy5JqNCwLFWGQt75-FQqdsjIhOcIgwASvJ2asJr9HrgYwcD6-je-dMzCEOb2fv45L0JQfL_m66F-&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Debemos respaldar como ciudadanía las acciones en defensa de las áreas verdes, de equipamiento y otras. Bien ALCALDE. Raul Moreno Zaconeta"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_amun_lapaz",
@@ -333,13 +326,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=v2bPJlw0qpAQ7kNvwH2WPFP&_nc_oc=AdqJ_Tcum5qaJMt4vDPooVdtOnMUWmKgoyhom8nXjSA8GGMj2GQD2ZhnAj83TQ_kr3A&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_ss=7f289&oh=00_AQJyEsqjQxeDpPabxp2Hi_v_eyI32YzS2xfdWSXzAQOgeQ&oe=6AE066BA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1757621011960800/?__cft__[0]=AZgNg8HdHPhDC7gaxiu_vgSksoDMaqy-gTODXUAZ0YDkviMutfS5ix9njgjPTM6ZxObxUYQ7CGI_vd-DgcU7WbkTix2EftygySlzXBwPcUMa6-doNO1qJ2GPCpsrKJo2fJRb_s9U0em8JCpmHAZ75Tnb7MSHjsuyyIDfwPddIe1A57DC1h0dbCDCkNk0cDcDQ1GD&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La instalación inmersiva “Artspace”, diseñada por Auspicious Art, cubre una zona peatonal con miles de elementos ligeros que se mueven con el aire, creando un efecto vi… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_unitel",
@@ -622,22 +624,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zEKrBnZywUkQ7kNvwEENMcp&_nc_oc=AdogcnyUfgUBA65cPDlQrfB8uLb9T_CjntIVFBxOfrmX8Ry24vzzjO5P-RkXaUBlj5Q&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=LmsC64-ICoXe2FTKh2Sd5g&_nc_ss=7f289&oh=00_AQLvmYDJ1I7DV_DsbepRKSK9Eax76hhW8OagriK0vOHogQ&oe=6ABE6073",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid02CV9huawtbqVJtX2GkvASQAPNNDiKw83FejSWANzo9AvQGAH7sDkTrXichR4Em5tpl?__cft__[0]=AZjFD_bbed-jpAmsPSjdQjC7G6nn8cH2y4gtCc-H9r6EZuNp3PJrXu1GTil3WhLl21xzXen37O0PALfiZdJ227ah6r9QUNVAq5Q6vZlOTCV_joThOPSrwGKiYv0nbFcU86uaE8wKAbJlkoapOhES-gEE1r1m5NU0kTyzu8CE4fEaomMD0lPAy3-jTPI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#FinDeSemana l ¿𝗦𝗮𝗯𝗶́𝗮𝘀 𝗾𝘂𝗲 𝗰𝗮𝗱𝗮 𝘁𝗲𝗷𝗶𝗱𝗼 𝗿𝗲𝘀𝗴𝘂𝗮𝗿𝗱𝗮 𝘀𝗮𝗯𝗲𝗿𝗲𝘀 𝘆 𝗺𝗲𝗺𝗼𝗿𝗶𝗮𝘀 𝗱𝗲 𝗰𝘂𝗶𝗱𝗮𝗱𝗼 𝗽𝗿𝗼𝗳𝘂𝗻𝗱𝗼? Este fin de semana, tu plan cultural empieza en el museo. Te … Ver más #FinDeSemana l ¿𝗦𝗮𝗯𝗶́𝗮𝘀 𝗾𝘂𝗲 𝗰𝗮𝗱𝗮 𝘁𝗲𝗷𝗶𝗱𝗼 𝗿𝗲𝘀𝗴𝘂𝗮𝗿𝗱𝗮 𝘀𝗮𝗯𝗲𝗿𝗲𝘀 𝘆 𝗺𝗲𝗺𝗼𝗿𝗶𝗮𝘀 𝗱𝗲 𝗰𝘂𝗶𝗱𝗮𝗱𝗼 𝗽𝗿𝗼𝗳𝘂𝗻𝗱𝗼? Este fin de semana, tu plan cultural empieza en el museo. Te … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -921,12 +914,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de La Paz 45 mil seguidores • 118 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1056,22 +1049,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1nN11Z-iwf8Q7kNvwHilQV6&_nc_oc=Adrm0pveZZ8AuzMGkphZEt50OcB-CxxjV6_SlTx4d8TQ-44MorZ5HkW3H9vMHeHEBnc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=wC3b0mS9YY9oEnG3vdkASQ&_nc_ss=7f289&oh=00_AQLc9e_AlNhkSfFqX4bg28gJlsrgkCAeeiejSnSwVnAW-g&oe=6ABE8BD5",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1799845274543141/?__cft__[0]=AZjn7lOza2thhs4Cw5Laf6AW274WCr-G9XAwBFfVb8MrWtHO8Ez0sKgD3cL412lpgRbipOlb9hi6tHlXYVFPNTC0_HIkuxcTsLXbjJFqwoEQefpEollgK8_XzLh_Ny0VRs6Vidn_1rkc7AQdk57sCYCmn7p-MdNmS7mViC5XuBD-_rYMucAMXNdCqL7FgI3ULlVO&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡Mañana es nuestro Día de Puertas Abiertas! Y… Ver más ¡Mañana es nuestro Día de Puertas Abiertas! Y… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1082,13 +1066,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QkS_Z5NLzGUQ7kNvwHaxQXL&_nc_oc=Adoabi6RAxWIFPRXSZSSoe6erDl1vIJWKROvHOwVSmmgIvJagKeD2CTrWM8my-FYSHM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=lRCqOF01b2W1kcrkF3wVRQ&_nc_ss=7f289&oh=00_AQKpsLg_5sB6HpXgFUm_IIGI9XtoBpkY4DuUrFw4UrRM8g&oe=6ABEC692",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HFTFsZKroqVVsNpz3eByzCV5XLYwsBbGFjUWENarXigNG1FfvqPKBTidZnciSWVCl?__cft__[0]=AZiyIwvScQdv5bEZmxE-GdqQOVyK10jn_Chl6w4GOymCcSD68aEaju8i2j6GhioulLsV7Ip57iAhD4zVj1lACJ_mPYg6Q-Ic5tOOd77hhUaaxIDatNl-0aYlVEG9oXLyDCShdHtsrZ7BiNULEnLnQiRShnN1P_TPFJfRUP9UtQlQ1_LFr0GHp0pk31Q&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 42,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HFTFsZKroqVVsNpz3eByzCV5XLYwsBbGFjUWENarXigNG1FfvqPKBTidZnciSWVCl?comment_id=1079850634463156&__cft__[0]=AZiyIwvScQdv5bEZmxE-GdqQOVyK10jn_Chl6w4GOymCcSD68aEaju8i2j6GhioulLsV7Ip57iAhD4zVj1lACJ_mPYg6Q-Ic5tOOd77hhUaaxIDatNl-0aYlVEG9oXLyDCShdHtsrZ7BiNULEnLnQiRShnN1P_TPFJfRUP9UtQlQ1_LFr0GHp0pk31Q&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1133,22 +1134,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OB-6DMEFY6kQ7kNvwFBfSV2&_nc_oc=Adq4r412HXkgvDVpynjLbCYBk2ckHi5DBNFZRej1N-1CwhOEAXq-UeVCfLxBfIe7wGo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=qS6lK0txgqpEtsoentquew&_nc_ss=7f289&oh=00_AQL57SrjImaDEDVGhOsBp7DtVKgNKXn_ivkSXxXoEptFVw&oe=6ABE8564",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1749774419628063/?__cft__[0]=AZhcJmZGJjpG0zuhKGwrfV6kOWS2zeYOWweP87XwR1ZE8pSwmjfKZWBlYq2RwRhpUP8CA8OCoznRr6tQMbpLgv8t10OQ4C4FdOZEdKQsASDqK_3oAZONa0uNYN1tSGmEnTieeGaoqZEG7cGOO7andYS9nzO796J6PJaVNCU5wYceBqbF9gDwHpBbqaXk_-BMnvrz&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#RAESucre l Conocer y compartir conocimientos La #RAESucre te invita a compartir tus experiencias, tu investigación y tus conocimientos en un espacio intercultural y … Ver más #RAESucre l Conocer y compartir conocimientos La #RAESucre te invita a compartir tus experiencias, tu investigación y tus conocimientos en un espacio intercultural y … Ver más Tenemos problemas para reproducir este video. Má"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1410,12 +1402,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 27,
+          "score": 9,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1423,19 +1415,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 33,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 49,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "25/09/2026 Cultura Una novela gráfica rescata a Luis Espinal más allá de su muerte Luis Espinal volverá a las páginas, pero esta vez dibujado. Una novela gráfica reconstruye episodios de su vida y propone mirar al sacerdote y periodista desde... vista 25/09/2026 Cultura Lema intenta politizar el pasado histórico de los bolivianos con su nueva obra “Los bolivianos” es la obra literaria del destacad"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 21,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "score": 41,
+          "category": "otro",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 El dólar oficial para el fin de semana y el lunes"
         }
       ],
       "error": null
@@ -1787,13 +1779,38 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://sucre.bo/wp-content/uploads/2026/05/header_web_2026.png",
+      "status": "ok",
+      "raw_items": 4,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "The read operation timed out"
+      "rejected": 4,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 29,
+          "category": "otro",
+          "url": "https://sucre.bo/noticias/",
+          "has_image": true,
+          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 2 días Procesos o Resoluciones 58 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compa"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "deporte",
+          "url": "https://sucre.bo/espectaculos-publicos/",
+          "has_image": true,
+          "text_preview": "Inicio / ESPECTÁCULOS PÚBLICOS ESPECTÁCULOS PÚBLICOS La Unidad de Espectáculos Públicos del municipio de Sucre procedió a intervenir la fiesta de un matrimonio por exceder el número de invitados, no cumplir normas de biosefuridad y la presencia de niños en esta actividad social, habiendo incumplido las ultimas disposiciones del COEM asi lo afirmo Wilma Bejarano responsable de la unidad de Espectác"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "deporte",
+          "url": "https://sucre.bo/direccion-de-gestion-de-recursos-humanos/",
+          "has_image": false,
+          "text_preview": "Inicio / DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS xoso tin chelsea thông tin chuyển nhượng câu lạc bộ bóng đá arsenal bóng đá atalanta bundesliga cầu thủ haaland UEFA everton xoso futebol ao vivo futemax multicanais onbet https://bsport.fit https://onbet88.ooo https://i9bet.biz https://hi88.ooo https://okvip.at https://f8bet.at https://fb88.cash https://vn8"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_pando_oficial",
