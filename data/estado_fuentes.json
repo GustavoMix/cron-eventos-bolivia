@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T13:00:21-04:00",
+  "generated_at": "2026-09-27T17:24:23-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,12 +11,11 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_teatro_aire_libre",
-      "fb_teatros_municipales_lapaz"
+      "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 75.2,
-    "horas_maximo_sin_datos": 921.8
+    "horas_promedio_sin_datos": 74.4,
+    "horas_maximo_sin_datos": 926.2
   },
   "sources": [
     {
@@ -79,13 +78,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Uc_0e8R8yZUQ7kNvwEiwSeW&_nc_oc=AdqOYcnJOf_uwmJZHdDKdy_6mi69u_jaziFFcist0t9lCmOjXxfBRuoJgl3T-tTU8fg&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=UdAETYZYW2x2R55GGQPSZw&_nc_ss=7f289&oh=00_AQINkjVdxscCtndBWJCIOB9ka7wOx8KhYlXarXJIHTH5Mg&oe=6ABF6203",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028f1zibTQ8nyXHKytucj7MWpxpYqdH2CfzbCqEgj75rP3ij6t7Fbrhb7CUx6btBrcl?__cft__[0]=AZjnI_aE4Wjh6PwzWreGX-VQkmFO7uZ56Nreq_whCGiFnByTXP9aYGKTPpjM2zjDl9W5yi6BXRaGJ5EWyscUDVZcVyMET1zjcusseCCi8F7ESJix-g4u8GsG52eb9bEWH_YQaYlgcjP8LaMaMQgIXczswON1GnTQLfGjCZAGuF8gJ48-05K9QmRr2qI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -334,22 +342,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NswRUo81LfYQ7kNvwEVhiuo&_nc_oc=AdqDOl-r-sLbZx7JyunJddN979HjQG6s9iCturDJ91RZ7KPxa8D0LF-1VvKUSygRI94&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=kN8chRCKLicsD18LPAj6KA&_nc_ss=7f289&oh=00_AQLjXMcj3n2enGauS-FBG0yEpdy2c8K_4kybILkrb_Hs9g&oe=6ABF06BF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid0W5B4mj5518gdJpcpQDsUMrSB8KZABK2Y42Mrnedyczg3Xu3ZPHKTxZGQHUgiU2qpl?__cft__[0]=AZhgaPaObl-tAZ1cXdc2XaKJLe8uRbnbWejxnSOK9t46n9Hy6eNx8-PiH_d3df3Veoa-oNEB6s_IcROC_rmTCAgvZ1UzD3Qpuej7O11lsDeTfo1VXffkpx-6hsBN1VUNX-bIjmbhsjuQXFy4MO8x2_8pXPz7GKmxAZpoOAIoiqdJxaFOWGq4JMdBlp8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "UNITEL hace 29 minutos 29 min Info completa en los comentarios Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_atb",
@@ -462,22 +461,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xKUluvwcGT8Q7kNvwFi4Iv_&_nc_oc=Adr0nA1Q4m_R-85OIWMGAG8ko9h3_jg9URfK4-_G6QqfVndnVLlAtVvG6nSJfYaeQA8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=BNNIJ65wqh2ToN50a6xDgA&_nc_ss=7f289&oh=00_AQI_Z3nANKGTh8g4oTfNo6BFZ5SipPBIXmrqS9W6VDRK1Q&oe=6ABF1C45",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1808122873840173/?__cft__[0]=AZgO86sw8Uv_8E5s29gEc4mjMakLQmW26GQS3P9Twfmdk0cCfgHQ7qcANkhllHP_sOqr6OxcNnQSQ8vA7ud58OWx6kg6mpqu-l1Ty-vzIWq_9Ii2FSMQ_p48FDQY7swpDBx0XWVu0--DbFw3Gr12KIq-VLXtvurdMo8xTbtLju0zjnrFOKaDTZvCP9pRZs7lu6UP&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#RTPInforma Defensa de Consumidor controlará precios #RTPInforma Defensa de Consumidor controlará precios Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_abya_yala",
@@ -845,13 +835,30 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mE91nxZdUeoQ7kNvwEFzmLL&_nc_oc=AdrSpKLgypJric5seyV3GEIKsQ1En1GWqQ2zYeiNMrBTm-OiF9H0LVkZazFiUwaDQI8&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=BUG1JmZSg1VBwjiLvyd6rg&_nc_ss=7f289&oh=00_AQLe63M5o1ywTpAaAaTk125brLazd8a59VVRMwgCmznlDg&oe=6ABF4629",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?__cft__[0]=AZgV98ATdSdiBqzdjodxtRXqk9e9LO1bQjAe37v6RqwoD2rQVlrQEfdYJfWv0Lg3Rbl1c550bxLlamWnWPSmiVI327Sx4za4HmdicgpAuBn8gwCDkdAeP7ta5PlZWKDpDSZaYwb9ZdDOJdt1uDbfvGmGRzsb3PipugBk4N248Uf6iorQJL19icOj6QtG20vhwZVg&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Tenemos problemas para reproducir este video. Más información Ver más comentarios Fabiola Franco Soria"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?comment_id=1696931752442171&__cft__[0]=AZgV98ATdSdiBqzdjodxtRXqk9e9LO1bQjAe37v6RqwoD2rQVlrQEfdYJfWv0Lg3Rbl1c550bxLlamWnWPSmiVI327Sx4za4HmdicgpAuBn8gwCDkdAeP7ta5PlZWKDpDSZaYwb9ZdDOJdt1uDbfvGmGRzsb3PipugBk4N248Uf6iorQJL19icOj6QtG20vhwZVg&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Fabiola Franco Soria"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fipaz",
@@ -879,13 +886,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/800282934_1555200746648138_3346541214021725616_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WNn8TYsGgBwQ7kNvwEtdudM&_nc_oc=AdpriL7faiR7jguo44ffTPXT7Z3W9OEsrJH3qbpg544MYls1L9c4wYhzwPMUSDEX-i4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=BNczK1w9Q290X1i1yPfrlg&_nc_ss=7f289&oh=00_AQKeXjfwT66ckb3p_wO27a3ETCJE5_j_cPPUssEfBRjaCA&oe=6ABF4A38",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -913,30 +920,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PMBhp4j_FzUQ7kNvwGLGrwB&_nc_oc=AdpsYK-FvnQgwpwIRjWIdl2UpFyXFDPg-tBDmyuoIRZ20kuZTwp3B-gmEw0CpG_V1Ss&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=VOltCYyivTaNNlRQxAJGvw&_nc_ss=7f289&oh=00_AQJ_l2q2Je1KLXUzgK4taqVhZKGNsexzoRxqLyiH2ruvEg&oe=6ABF1747",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid031UVKoAMi4b7a6LSsqLLKJeEHrakbmmh2EgYjnVkhYee9orV8X1cVdsjmx9kDMikzl?__cft__[0]=AZgrv0nW73dKcAPP7nC4WBgV-nLyePWwGui65BBL84gtJmAtYBWVY5cblPuCCd2lud9lJDsyD1R8STzqoac1v-MQofUrxlIG22cG6Go-qZOEOvn86PZ-Puq4DURdExdTtrGnYcdzIowka5NDr9r8jCndIkMd7Jz2kOTIjxZoLRUwdsyTS6rVOzzi0Zc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Así vivimos el Día Europeo de las Lenguas… Ver más Goethe-Institut La Paz"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid031UVKoAMi4b7a6LSsqLLKJeEHrakbmmh2EgYjnVkhYee9orV8X1cVdsjmx9kDMikzl?comment_id=1823315049085209&__cft__[0]=AZgrv0nW73dKcAPP7nC4WBgV-nLyePWwGui65BBL84gtJmAtYBWVY5cblPuCCd2lud9lJDsyD1R8STzqoac1v-MQofUrxlIG22cG6Go-qZOEOvn86PZ-Puq4DURdExdTtrGnYcdzIowka5NDr9r8jCndIkMd7Jz2kOTIjxZoLRUwdsyTS6rVOzzi0Zc&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Goethe-Institut La Paz 19 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -947,13 +937,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CtClg9xotn8Q7kNvwEXsunJ&_nc_oc=AdoFf_KEd1BnypDCWGdjFUUvnqNMzqVHjBoZ_SVGszBHjgmF3StWii8npHt2RBgPZqU&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=cy72NAEGEE-aG-i4-puVEg&_nc_ss=7f289&oh=00_AQIuXlqQ4n8gkkT1JE83hmTuMu8UpGzCL_u21Z256ETqZg&oe=6ABF58F8",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Ciudad Cultural, Turismo de Altura y Economía Naranja 44 mil seguidores • 384 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en '"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "feria",
+          "url": "https://es-la.facebook.com/login",
+          "has_image": true,
+          "text_preview": "¡Qué gran energía se vivió en la Feria Dominical Cultural!… Ver más Bellas y talentosas las chicas de Diverso Erika HerBas"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02udW31KJNEyzUPwxHwMESVg1v4kAvpFjJBsE9Vxzc3z1diARoyXibaR5SwnPX1836l?comment_id=1434909211303453&__cft__[0]=AZgkdNLOKZaUCtF7WVr_7yxO3kV8_XBWaiqx-UU1bitvApQWMe9NCSyF8fk-4UIT5D8dg8Wf1jQxrENlhkCY2VBsLdRprmxZh3c_AOC2zPARgKewtWhIioQGOBLOx1IvQpw9PPtiR_kyj7L0yRhe_qlkrxzDlX8x6uJf6o07q0RWvTK-_rAG7ab6X7s&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Bellas y talentosas las chicas de Diverso Erika HerBas"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1402,13 +1409,13 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 9,
-          "category": "cine",
+          "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "24/09/2026 Salud La fruta que neurólogos recomiendan para cuidar el cerebro después de los 50 años Una fruta que rara vez aparece en las listas de alimentos recomendados para la salud cognitiva podría proteger el cerebro en la mediana edad, según... vista 23/09/2026 Ciencia Reconocen a científicos de la UMSA que descubrieron a Tilcayo, felino de Yungas Los investigadores Paola Nogales-Ascarrunz y "
@@ -1419,15 +1426,15 @@
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "25/09/2026 Cultura Una novela gráfica rescata a Luis Espinal más allá de su muerte Luis Espinal volverá a las páginas, pero esta vez dibujado. Una novela gráfica reconstruye episodios de su vida y propone mirar al sacerdote y periodista desde... vista 25/09/2026 Cultura Lema intenta politizar el pasado histórico de los bolivianos con su nueva obra “Los bolivianos” es la obra literaria del destacad"
+          "text_preview": "27/09/2026 Cultura El Primer Festival Internacional de Literatura realza la 19va versión de la FILC Cada año que pasa la Feria Internacional del Libro de Cochabamba (FILC) se expande. Este año, la decimonovena edición no será la excepción, porque el Primer... vista 25/09/2026 Cultura Una novela gráfica rescata a Luis Espinal más allá de su muerte Luis Espinal volverá a las páginas, pero esta vez d"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
-          "category": "otro",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 51,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Aduana Nacional impulsa una nueva etapa de modern"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1527,8 +1534,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 31,
-      "events": 31,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1561,8 +1568,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1578,8 +1585,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 7,
+      "events": 7,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1602,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
-      "events": 39,
+      "raw_items": 43,
+      "events": 43,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1636,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
-      "events": 2,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1791,7 +1798,7 @@
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 2 días Procesos o Resoluciones 63 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compa"
+          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 2 días Procesos o Resoluciones 66 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compa"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
