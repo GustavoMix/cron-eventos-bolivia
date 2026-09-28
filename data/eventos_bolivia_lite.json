@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-28T01:25:51-04:00",
+  "generated_at": "2026-09-28T09:56:49-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 63,
@@ -218,12 +218,12 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 19
+        "count": 18
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 43
+        "count": 44
       }
     ],
     "media": [
@@ -454,8 +454,7 @@
       "evt_2821894c1d5322",
       "evt_ab2d744f1fbd8e",
       "evt_48c45c2c902fde",
-      "evt_9ea8741680468c",
-      "evt_cab71456af6bc1"
+      "evt_9ea8741680468c"
     ]
   },
   "coverage_by_department": {
@@ -489,7 +488,7 @@
       "events_with_image": 6,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 4,
@@ -497,7 +496,7 @@
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 2
     },
     "Potosí": {
       "events_total": 0,
@@ -513,7 +512,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 1
+      "sources_ok": 2
     },
     "Beni": {
       "events_total": 1,
@@ -3872,9 +3871,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 12.05,
-      "currency": "BOB",
-      "price_label": "Bs 12.05",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -3884,8 +3883,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     }
