@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T17:24:23-04:00",
+  "generated_at": "2026-09-28T01:25:51-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 74.4,
-    "horas_maximo_sin_datos": 926.2
+    "horas_promedio_sin_datos": 76.4,
+    "horas_maximo_sin_datos": 934.3
   },
   "sources": [
     {
@@ -27,13 +27,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=W9O3NPiV_u8Q7kNvwGYLeFz&_nc_oc=AdppEdDGm1R1QGdZLfxuZiqjFIflbJh2Ja0Lxz16GNXIKvEl3_QPp75CyO1WGfyWJKI&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=2lRbksYtnXk9SIIxp27PZA&_nc_ss=7f289&oh=00_AQMTUTy4ct8gGYSgOO1qYoxktU2sC_bGMPskNJhku7xTYg&oe=6ABFD85A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid0YDtjNQco3N99RBN2fscxTfHMyM8jDL9gYhmVfGTBiX52oCDaTv9kNL5vsErLEcp2l?__cft__[0]=AZh_fLX7abDKBi1dQ1UGwar1PFImtiRcU6Gx6RcmTGFnddQvtu-7WzDNX8GPm9YF1Sw4A_fd9CTWQqJ7t6Ojkri8_lp-5V_Hl3zgr91E6xGzesu9JlougFuComwooauA5lwLy6R03H27GzuWRmfqrz5AMERntjchT9Tp78mpp5-pMPmqp2IwNnxN0m8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡MAÑANA LOS PRANA CELEBRAN 15 AÑOS DE MÚSICA Y TRAYECTORIA! Qu… Ver más ¡MAÑANA LOS PRANA CELEBRAN 15 AÑOS DE MÚSICA Y TRAYECTORIA! Qu… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -78,22 +87,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Uc_0e8R8yZUQ7kNvwEiwSeW&_nc_oc=AdqOYcnJOf_uwmJZHdDKdy_6mi69u_jaziFFcist0t9lCmOjXxfBRuoJgl3T-tTU8fg&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=UdAETYZYW2x2R55GGQPSZw&_nc_ss=7f289&oh=00_AQINkjVdxscCtndBWJCIOB9ka7wOx8KhYlXarXJIHTH5Mg&oe=6ABF6203",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028f1zibTQ8nyXHKytucj7MWpxpYqdH2CfzbCqEgj75rP3ij6t7Fbrhb7CUx6btBrcl?__cft__[0]=AZjnI_aE4Wjh6PwzWreGX-VQkmFO7uZ56Nreq_whCGiFnByTXP9aYGKTPpjM2zjDl9W5yi6BXRaGJ5EWyscUDVZcVyMET1zjcusseCCi8F7ESJix-g4u8GsG52eb9bEWH_YQaYlgcjP8LaMaMQgIXczswON1GnTQLfGjCZAGuF8gJ48-05K9QmRr2qI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -478,13 +478,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=A2YG0xRs4zAQ7kNvwFi0Amb&_nc_oc=Adrg_SxLoIyzaZcUy4IUH2JEu4FITbwiUcvTakl7Mpsj5PB7-EHLhK2ajvTxqBgc-vI&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=HVEI_WK2EGBtGRkrmkvXng&_nc_ss=7f289&oh=00_AQNYP6q6ocf85FWepsAV_zVWY71TYGLY3zB3FT8X0LUfpg&oe=6ABFCC42",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 40,
+          "category": "otro",
+          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid02R245Hn6ufhwCPY3mxx9AEK3RyccYS6ivQh1ZpESnxgKihUqTbeVm6e4PiQL2tmjjl?__cft__[0]=AZia21DnMUfYwFhOin9wEapi7BChnn6KkJKdrutRkxqp1xrIliNpcoywxpGBqkNcfMwGxS7znl3-st9Qz4VMeLwOXNhE2r0WvkLWG9IKI51jlOo1gjP76NU-utqcmb67Dxg-LvpS2nHGPm2rCCFexL-Yqi9a3BCF8cQQ-o1g_IQBQm7ipblpre9dZ8k&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#LaPaz Ministro Zamora invita a Lucio Gómez y choferes a reunión el martes 29 en La Paz… Ver más #LaPaz Ministro Zamora invita a Lucio Gómez y choferes a reunión el martes 29 en La Paz… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber_radio",
@@ -597,13 +606,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=G2-cxuZyTjEQ7kNvwFqi-Wu&_nc_oc=AdqjqlASThGKNqBSLanOdv8XUlRdcrEGUL-EvoUAoDvSqR9TueAzIT6xxUFgyxT9Bvs&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=LVMHvZK-pAozIBRLa-ni7Q&_nc_ss=7f289&oh=00_AQNUqHLwvUaYUsN2_xFVNPNZ7RZiFY_cSytsgLvQY1KDoA&oe=6ABFE647",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/mna-estamos-en-vivo-ya-comenz%C3%B3-la-f%C3%A1brica-de-las-im%C3%A1genes-fuentes-documentales-y/27965638739784457/",
+          "has_image": true,
+          "text_preview": "#MNA | Estamos en vivo 🎨 Ya comenzó “La fábrica de las imágenes: fuentes documentales y materiales para la pintura colonial en Bolivia”, un nuevo encuentro de ParlArte. 📍 UPEA – Carrera de Artes... #MNA | Estamos en vivo 🎨 Ya comenzó “La fábrica de las imágenes: fuentes documentales y materiales para la pintura colonial en Bolivia”, un nuevo... #MNA | Estamos en vivo … Agus… una capisima! Felicida"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/27965638739784457/?comment_id=2207301790002481&__cft__[0]=AZgZpcmPlLSPgH9mcg4Td_Cg8altxnshXvepBGIEz5H3qsKndBnokxXakkN6AdKcEzati0zuINsMYd_NN83RReCda9FdYY-oecMqQEgyKuPV_PfJ6X4C3blz6so4NmyHHfJGcNJdvXde3NG12Fw8SL1ZnP1i8UrfoA6K-wgdUxLEikgm6ZV57nQJigwAGfEtpXce&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Catalina Bonilla Agus… una capisima! 3 días"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -835,30 +861,13 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mE91nxZdUeoQ7kNvwEFzmLL&_nc_oc=AdrSpKLgypJric5seyV3GEIKsQ1En1GWqQ2zYeiNMrBTm-OiF9H0LVkZazFiUwaDQI8&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=BUG1JmZSg1VBwjiLvyd6rg&_nc_ss=7f289&oh=00_AQLe63M5o1ywTpAaAaTk125brLazd8a59VVRMwgCmznlDg&oe=6ABF4629",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/4573438102927735/?__cft__[0]=AZgV98ATdSdiBqzdjodxtRXqk9e9LO1bQjAe37v6RqwoD2rQVlrQEfdYJfWv0Lg3Rbl1c550bxLlamWnWPSmiVI327Sx4za4HmdicgpAuBn8gwCDkdAeP7ta5PlZWKDpDSZaYwb9ZdDOJdt1uDbfvGmGRzsb3PipugBk4N248Uf6iorQJL19icOj6QtG20vhwZVg&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Tenemos problemas para reproducir este video. Más información Ver más comentarios Fabiola Franco Soria"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/4573438102927735/?comment_id=1696931752442171&__cft__[0]=AZgV98ATdSdiBqzdjodxtRXqk9e9LO1bQjAe37v6RqwoD2rQVlrQEfdYJfWv0Lg3Rbl1c550bxLlamWnWPSmiVI327Sx4za4HmdicgpAuBn8gwCDkdAeP7ta5PlZWKDpDSZaYwb9ZdDOJdt1uDbfvGmGRzsb3PipugBk4N248Uf6iorQJL19icOj6QtG20vhwZVg&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Fabiola Franco Soria"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fipaz",
@@ -886,13 +895,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/800282934_1555200746648138_3346541214021725616_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WNn8TYsGgBwQ7kNvwEtdudM&_nc_oc=AdpriL7faiR7jguo44ffTPXT7Z3W9OEsrJH3qbpg544MYls1L9c4wYhzwPMUSDEX-i4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=BNczK1w9Q290X1i1yPfrlg&_nc_ss=7f289&oh=00_AQKeXjfwT66ckb3p_wO27a3ETCJE5_j_cPPUssEfBRjaCA&oe=6ABF4A38",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -937,30 +946,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CtClg9xotn8Q7kNvwEXsunJ&_nc_oc=AdoFf_KEd1BnypDCWGdjFUUvnqNMzqVHjBoZ_SVGszBHjgmF3StWii8npHt2RBgPZqU&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=cy72NAEGEE-aG-i4-puVEg&_nc_ss=7f289&oh=00_AQIuXlqQ4n8gkkT1JE83hmTuMu8UpGzCL_u21Z256ETqZg&oe=6ABF58F8",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "feria",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": true,
-          "text_preview": "¡Qué gran energía se vivió en la Feria Dominical Cultural!… Ver más Bellas y talentosas las chicas de Diverso Erika HerBas"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02udW31KJNEyzUPwxHwMESVg1v4kAvpFjJBsE9Vxzc3z1diARoyXibaR5SwnPX1836l?comment_id=1434909211303453&__cft__[0]=AZgkdNLOKZaUCtF7WVr_7yxO3kV8_XBWaiqx-UU1bitvApQWMe9NCSyF8fk-4UIT5D8dg8Wf1jQxrENlhkCY2VBsLdRprmxZh3c_AOC2zPARgKewtWhIioQGOBLOx1IvQpw9PPtiR_kyj7L0yRhe_qlkrxzDlX8x6uJf6o07q0RWvTK-_rAG7ab6X7s&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Bellas y talentosas las chicas de Diverso Erika HerBas"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1124,13 +1116,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CAr0awtsCHoQ7kNvwHbdPMz&_nc_oc=Adokgfj5ssshTxOaT9_NKzCNYF18wk2AkPqIi0e1qSLWBugFMWTpZe17_O1BlvJJZzs&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=PpmLP9x9MJ7yRAVsUL3s5w&_nc_ss=7f289&oh=00_AQPDzVVelMvz_E6K3h_iIr-H7uaTkT_ct-G0vYrid9trGA&oe=6ABFE577",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/museocasadelalibertad/videos/cdl-vive-las-%C3%BAltimas-funciones-de-la-experiencia-inmersiva-y-sonora-de-el-palaci/2715839688869062/",
+          "has_image": true,
+          "text_preview": "#CDL | Vive las últimas funciones de la experiencia inmersiva y sonora de \"El Palacio suena. La Manzana Jesuítica bajo de Charcas\" 📅 Del jueves 24 al domingo 27 de septiembre, en grupos desde las... #CDL | Vive las últimas funciones de la experiencia inmersiva y sonora de \"El Palacio suena. La Manzana Jesuítica bajo de Charcas\" 📅 Del jueves 24 al..."
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2715839688869062/?comment_id=4414972842060893&__cft__[0]=AZjhhUGStOCT_WJ1kcydXyri2rTJeLlwPe35oN8EU-MFMuyAUqHzX6cQIaRKkuQG4KB9bXpgJxSpkvP-B7m4ztotfZ9GbxwGIhFfP4dHBHu4-kITy1J1T5KdDbD_s6TMbr0QtgHfSF8f5sks5ZxipLXl5HhgF_d5aUgp9IEPApSz8jeUy_25Z5Y8O9WbdEzx42Kp&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Nancy Groc Un bello espectáculo 3 días"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1262,8 +1271,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 9,
-      "events": 8,
+      "raw_items": 8,
+      "events": 7,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1414,7 +1423,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 9,
+          "score": 0,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1422,7 +1431,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 49,
+          "score": 36,
           "category": "cine",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1430,7 +1439,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 51,
+          "score": 27,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
@@ -1492,15 +1501,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 27,
+      "raw_items": 26,
       "events": 0,
-      "rejected": 27,
+      "rejected": 26,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a52753d4-7cf4-4a5d-86e6-ab2ac3013dc6",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/aa2f66f6-3a4c-4d46-ab4b-5ff72d30e53e",
           "has_image": true,
           "text_preview": ""
         },
@@ -1508,7 +1517,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/0fbc8d39-20f6-4f97-9034-1e9e6717a719",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/173a907a-04ac-481c-8593-71d48a53b065",
           "has_image": true,
           "text_preview": ""
         },
@@ -1516,7 +1525,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/39dd3e77-e97d-4b2b-a81f-259d48ed1484",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/cf9ab33c-878e-49de-b764-64cf5a3d9dcc",
           "has_image": true,
           "text_preview": ""
         }
@@ -1534,8 +1543,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
-      "events": 37,
+      "raw_items": 38,
+      "events": 38,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1551,8 +1560,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1568,8 +1577,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1585,8 +1594,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 7,
-      "events": 7,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1602,8 +1611,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 43,
-      "events": 43,
+      "raw_items": 51,
+      "events": 51,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1636,8 +1645,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1710,38 +1719,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
-      "status": "ok",
-      "raw_items": 7,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 7,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 36,
-          "category": "feria",
-          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
-          "has_image": false,
-          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones",
-          "has_image": false,
-          "text_preview": "0 % Manuales de organizacion y funciones Ordering Órden Ascendente Órden Descendente Título Ascendente Título Descendente Fecha Ascendente Fecha Descendente Filename Ascending Filename Descending Rating Count Ascending Rating Count Descending Rating Ascending Rating Descending Downloads Ascending Downloads Descending Cantidad de ítems por página 5 10 15 20 50 Todo Powered by Phoca Download"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
-          "has_image": false,
-          "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "[Errno -3] Temporary failure in name resolution"
     },
     {
       "id": "web_uto_cultura",
@@ -1798,7 +1782,7 @@
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 2 días Procesos o Resoluciones 66 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compa"
+          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 2 días Procesos o Resoluciones 71 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compa"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
