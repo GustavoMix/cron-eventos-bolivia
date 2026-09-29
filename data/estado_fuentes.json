@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T17:16:56-04:00",
+  "generated_at": "2026-09-28T21:03:09-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 79.7,
-    "horas_maximo_sin_datos": 950.1
+    "horas_promedio_sin_datos": 78.0,
+    "horas_maximo_sin_datos": 953.9
   },
   "sources": [
     {
@@ -61,30 +61,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_uAcKzLRSjMQ7kNvwE4yen1&_nc_oc=AdplnaSvh0k50HosMVtga3zRC3LfI5g5pD3TU_QHI7KR9oM2GuUIkKXGvQwxc5daLQs&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=H9BnqlBDSpPmjCDr7g5Ymw&_nc_ss=7f289&oh=00_AQO23SivFYYr81OcZ15Jq4iO5BkcRJQ6qxJfsj8XtPcu3w&oe=6AC09AB6",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZhLTWe-ccHNjKClsWCoXG5w62GdsIJW7WbyxbqMetRolNoRnd0TD6w-0xok2eVvOC0WQ4w2-kWStNoC1yUvD7h-SsaUrRwLBgU9qQu8S5zNcjSgJ2y969tdc4s3FMebndydOKe6Ttyb0rJCB32uHn5-JlSw5PjhjIoP6cSoZtEcuOp9MQdQUphvWB0nV6QXyrK2&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZhLTWe-ccHNjKClsWCoXG5w62GdsIJW7WbyxbqMetRolNoRnd0TD6w-0xok2eVvOC0WQ4w2-kWStNoC1yUvD7h-SsaUrRwLBgU9qQu8S5zNcjSgJ2y969tdc4s3FMebndydOKe6Ttyb0rJCB32uHn5-JlSw5PjhjIoP6cSoZtEcuOp9MQdQUphvWB0nV6QXyrK2&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -112,13 +95,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1LEV3aT9WqEQ7kNvwE8S_Sm&_nc_oc=AdrOBgFRm3idk-CXe0OgsonI54ukbdBbzBDC2w0Bkkw66JUkYEswLvp7O3taeJBKSUE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=pFNondxyhUOsaAs5H_CdJA&_nc_ss=7f289&oh=00_AQPRPEoxV8K3VG25TCrWhdhh8ToyvBcy8kj2BTMQFnsdvg&oe=6AC0DB50",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/Fexpocruz/videos/lo-que-vemos-aqu%C3%AD-en-expocruz-es-algo-que-fortalece-a-bolivia-a-nivel-mundial-es/1668056595355449/",
+          "has_image": true,
+          "text_preview": "“Lo que vemos aquí en Expocruz es algo que fortalece a Bolivia a nivel mundial, es muy impactante, muy positivo y bueno”.​ Resaltó el Vicepresidente del Capitulo Centro y Sur América de UFI, la... “Lo que vemos aquí en Expocruz es algo que fortalece a Bolivia a nivel mundial, es muy impactante, muy positivo y bueno”.​ Resaltó el Vicepresidente del..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -163,22 +155,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nL5RUtFnE7wQ7kNvwFyyHco&_nc_oc=Adrzb3w5xdAbR1AQ_m4aSGIxzN7osjE4NB1Lcwv_ytSzFRYrO5vzQKdwAWsUQlPTQio&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=hKdw8VO_6EuKhz3z1rlorQ&_nc_ss=7f289&oh=00_AQMEENT0ytk3ukt_P6JUAnsVj_SPWgmPUkN_qpChFHLp2g&oe=6AC0A177",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02MtmMGat8QuzsmmvFNPFu14DxwuAJQ81D8r61KejCPVqfgicXBTFGrUYsCFaXF2yel?__cft__[0]=AZjzkS73ZByQU8qLsfB3V9O4uoiHVKwpjLpA8e-Lqb1QTtm03fZRJbi3qDsBlniglkdAgs0XlfXx1d_DyL6HlbG8rxTCxBAve3mai2vCHTcd57ISyBAoizAVqHJRgRqry7rPaQNsMB7DMJsTpnvqvGsSm1BmrGc7HlqGpMr0GbHKDBFrZC0INYSi6dc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Asistencia a tiempo y mucho corazón: Hospital Municipal La Paz le devuelve la esperanza a un bebé rescatado … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -461,22 +444,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_TM0WMcF7_MQ7kNvwHsOWVZ&_nc_oc=AdpqIx25aG87rbr0yT7X-JBL6xTIaUZ3z0CaeUaExbqtca4U7c6VO6Jw28mqQlKRs3U&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=gQw0ygoEAAkzGAdyS6AbWw&_nc_ss=7f289&oh=00_AQP29bb2xPpewUiRHxl_eRe5caUGQEOVxJz6S3uWJiDfOw&oe=6AC0947A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/864483460028003/?__cft__[0]=AZi1v-ahCdLIbtxbqoTldz7MecsF5w42Kp9iGqjdN6dmPgdW6CIJ6XmVW2nzk_4BgUJPrLsxH1blk8MGKKL-6AuszWp_MXAlY3zM7y04aCQJeJ1JcBRMMS-7QyVoA4-h-jRorkWAFKUEK_xfcF-J2ZxcbPGUqQbFbaABFmOU6JtELUc4AGhfF77igZQi_PaER5oC&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#GrupoFides | A partir de este 15 de septiembre, #HablarDeBoliviaConUnaTazaDeCafé tiene un nuevo horario . Síguenos cada martes y jueves a partir de las 17:00 a trav… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_rtp",
@@ -606,13 +580,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LsodNnVLxTQQ7kNvwF2WiQC&_nc_oc=Adp6tr_YBri8iyBXIZVAG7Zr1Tr4hHAZLdan1UxfdJy-3bblzcuvtcvMzw2LR1Y8AbM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=9FU8r53SGUz6rrZnfa5QDA&_nc_ss=7f289&oh=00_AQM_3aGa4vpKUEoz1z0AKgw741bvws8L3UGcCqb0UqKYow&oe=6AC0F9D6",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid0afDC9ttGBxqvtcdfWsci9na8w8MkJszR6PU5r2WA9AMx6wiNZuW3hAeUaxt5CRmJl?__cft__[0]=AZhaHl2NQKoLu7cHEO3AOIabtomU3XBbiLDwSmZJoEyMHMLA-d5hBmgUpqwDagMZ2q5HN0VxRMAzVoo_Ct2QG6nGF8C2LYiAPiyMqf8li05BO0oi-mwjwTLZd9ksnF49oPCjzw-WCJzi54zYVVZhke9xHDg4XpxdPnmRrGQ_PjgPK1Gxzktb_KpMlTU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Celebramos el Día Europeo de las Lenguas El sá… Ver más Celebramos el Día Europeo de las Lenguas El sá… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -793,13 +776,30 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TwN6vrfh_kAQ7kNvwEjX1-d&_nc_oc=AdpwMfN5UyiCJh822U5CGQ2P9yQFal625MNfYwxOYzkQFTC7RUQcUZ7SydDu3l5mmkI&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=o3NDqmYZc4FmwuM597gR-Q&_nc_ss=7f289&oh=00_AQO4XR1cpPr9cmMDKg6Eye5x860qIcTb08eE7PThncXPnA&oe=6AC0E3AA",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/942767908424340/?__cft__[0]=AZhsfXvTqKPyfgE-ztIoNPmY_lWC2F54-ICdUvsFamSs2H7-nRLMNX1l2uORhJECDOfRcgfKUel2pyzphNOcPFgaTU2oqutPO1DWKnL7ajdqIZL38OrvOPx6sgO1oV0kkoHt3-JL2j91825hKgHEGRuYSttLEBT_AOpnmWsQeJN7_qNNBQQK7hGGnYCuC32FNXH9&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¿A qué sabe la historia de Chuquisaca? Te compartimos un adelanto de “Ají, Chicha y Memoria”, una obra audiovisual dedicada a enaltecer los sabores y saberes que… Ver más Execelente gestión Tenemos problemas para reproducir este video. Más información Ver más comentarios Freddy Huayllani Almazan"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/942767908424340/?comment_id=1059333163587231&__cft__[0]=AZhsfXvTqKPyfgE-ztIoNPmY_lWC2F54-ICdUvsFamSs2H7-nRLMNX1l2uORhJECDOfRcgfKUel2pyzphNOcPFgaTU2oqutPO1DWKnL7ajdqIZL38OrvOPx6sgO1oV0kkoHt3-JL2j91825hKgHEGRuYSttLEBT_AOpnmWsQeJN7_qNNBQQK7hGGnYCuC32FNXH9&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Execelente gestión Freddy Huayllani Almazan"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_oruro",
@@ -963,22 +963,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mqQQwNofE_8Q7kNvwHu2exu&_nc_oc=AdpnOKWaZ_lgxlMg_J9qzyl7WodvmomiZlTXWzdG0twl5LasjNjw3PsX20SX65Yju6k&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=g1s4A8YX1DuG40d06NfbKA&_nc_ss=7f289&oh=00_AQNVoW4nQi5r60QnlYdInAcl9HS0X2SIbec6VxOMYzCpkA&oe=6AC09387",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/1118537260834264/",
-          "has_image": true,
-          "text_preview": "Inauguración de la Playa Turquesa #ENVIVO #Cocha #EsProgreso #ManfredReyesVilla #Alcalde Inauguración de la Playa Turquesa #ENVIVO #Cocha #EsProgreso #ManfredReyesVilla #Alcalde Tenemos problemas para reproducir este video. Más información Manfred Reyes Villa transmitió en vivo. hace un día 1 día ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -1006,13 +997,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JvlDWN53mYQQ7kNvwHCARRK&_nc_oc=Ado7D8S3zm0VhQehOnLeXLk9I3BvexWVvYY3xW6qQXdNpBcbj-mDeRz4EINmlKxlkoI&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=i1RyqWuf5MpxpnNLYcuVUQ&_nc_ss=7f289&oh=00_AQNpfRJwCdWsHNh3KuJJsZZQ0LoOpKle9_aQtLu207rSAA&oe=6AC0F57D",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1603,8 +1594,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 49,
-      "events": 49,
+      "raw_items": 46,
+      "events": 46,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1807,7 +1798,7 @@
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 3 días Procesos o Resoluciones 83 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compa"
+          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 3 días Procesos o Resoluciones 88 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compa"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
