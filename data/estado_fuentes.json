@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T05:51:44-04:00",
+  "generated_at": "2026-09-29T14:08:31-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 80.9,
-    "horas_maximo_sin_datos": 962.7
+    "horas_promedio_sin_datos": 83.1,
+    "horas_maximo_sin_datos": 971.0
   },
   "sources": [
     {
@@ -350,13 +350,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HWLan-UEvBAQ7kNvwHikWqL&_nc_oc=AdpYfAYPpySju-CHruX5aVv-OCG6gzS_ED_DHS-6TKsWML1ZdGGHP0yt2h9BGctsHN8&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=1PAyCVGDIu4xGOi76Gh4MA&_nc_ss=7f289&oh=00_AQNzhWbWp8T95cmom0vIsNlGG6iUTgOv646NHaGvXCeXWw&oe=6AC1E241",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ATBDigital/videos/1776815160309489/?comment_id=1352966863340553&__cft__[0]=AZiDaVB2ZP781KYJOPFy4BOW5fXYU3qjOjsc43agscEUO6ELGfSfIcbN_AwpRm9W_ZafBrnOeCAMJseAbpBIDfbIOw0YadHICQeHI1qly0HhS1tw-mbhFqtrUdyRjPf1iW7t4pKqQ81knbTGOq3V0wVxi3LMiM9JbSicu3eDhV2Ls50brJPibxNvUCq7OFwQdPo&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "En nuestro país todo cuesta plata lamentablemente, mientras en la Federación Boliviana reciben unos sueldasos empezando del Presidente hasta el secretario del secretario Grover Chura"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_bolivision",
@@ -554,13 +563,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DNrUK791Ad8Q7kNvwH4CCns&_nc_oc=AdqH0CGpby8Pd2CXOsqeITDPDkmVuOoX2T55-QaJS2XtXIHybRIuNs-Flbm7e3uR4qo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=A_0SBjZsS-nqHOtqACZ3wA&_nc_ss=7f289&oh=00_AQMSjZb8Kdj2rzVmEUt-xzWwr75SonbUHjipHbLi10SLgg&oe=6AC1D173",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -622,13 +631,30 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3286gfmB_HcQ7kNvwGv6L1m&_nc_oc=AdpPUlv8b4pi26LNBzn2GFlw1ho7R-TSJnopZdYrLywWQ7x53x8vavIAqmYs2THIVUE&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=-fSa_GvxL-PidQ1xbu0o2w&_nc_ss=7f289&oh=00_AQPlF-E576Em0ImWB-ZVEgaKT4AcdJ9fJ9LMMRAjUAf7vA&oe=6AC1C3CF",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid035cCwMivKMR32WaG3gCQiheVtMzmZpQxo44nqDnm6VzQTY926QazahgxLd3uwgxgfl?__cft__[0]=AZiLRvJoe9n4ZkwQsNfadJ9Xqo_5jaXy8ZKyvcfYnlMJLooZBTV14PyEtbkI-Eok6jIOhKkHS8RGUuprEkCJ9lGcqWrtUAcmN6xidA7JP45RLsJhRo76eoW861DM4hjFXM1ofS-9EKKXda2Bqt38D8Tm-kNXCtzlCxNI61x7PbapCTS4ax5O1jobSFI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CNM | NECROLÓGICO… Ver más Mis sentidas condolencias a la común católica, QDDG. Monseñor Ricardo Centellas y brille para él la luz perpetua Ver más comentarios Atilehtse Lehaj Barrios"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid035cCwMivKMR32WaG3gCQiheVtMzmZpQxo44nqDnm6VzQTY926QazahgxLd3uwgxgfl?comment_id=1982237465800354&__cft__[0]=AZiLRvJoe9n4ZkwQsNfadJ9Xqo_5jaXy8ZKyvcfYnlMJLooZBTV14PyEtbkI-Eok6jIOhKkHS8RGUuprEkCJ9lGcqWrtUAcmN6xidA7JP45RLsJhRo76eoW861DM4hjFXM1ofS-9EKKXda2Bqt38D8Tm-kNXCtzlCxNI61x7PbapCTS4ax5O1jobSFI&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mis sentidas condolencias a la común católica, QDDG. Monseñor Ricardo Centellas y brille para él la luz perpetua Atilehtse Lehaj Barrios"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -639,22 +665,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tOhUv3zmhzUQ7kNvwEfxHet&_nc_oc=AdrJ8NQN1t18HN6Zhgu3EkES0v7P27LhSZhsLZm_RGIn83P1U481j8hnKs_-FfOtPkU&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=YdLGHYZffodIvBCo7K9qSA&_nc_ss=7f289&oh=00_AQNZbyjpmfAMuk5axAb7IiaveYNK2JYJh6DR2XcMi3fTWQ&oe=6AC141D2",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 42,
-          "category": "teatro",
-          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/-las-estaciones-del-trueno-lleg%C3%B3-al-premio-nacional-de-teatro-peter-traves%C3%ADen-el/1771888784946650/",
-          "has_image": true,
-          "text_preview": "🎭 LAS ESTACIONES DEL TRUENO LLEGÓ AL PREMIO NACIONAL DE TEATRO PETER TRAVESÍ En el marco del XXXV Premio Nacional de Teatro Peter Travesí Canedo, la obra “Las estaciones del trueno”, de La Compañía... 🎭 LAS ESTACIONES DEL TRUENO LLEGÓ AL PREMIO NACIONAL DE TEATRO PETER TRAVESÍ En el marco del XXXV Premio Nacional de Teatro Peter Travesí Canedo, la... LAS ESTACIONES DEL TRUENO LLEGÓ AL PREMIO NACIO"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -818,30 +835,13 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=siBE-p-ojM4Q7kNvwHE7rAF&_nc_oc=Adpoej3reQVVKuahquk5kTVZTTQUuOJDgFD3fQz_g3EhR1wyM0BbTVIpKPfnRRl90d4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=WE-8z_mC9alBm6n4CWlfWA&_nc_ss=7f289&oh=00_AQNY4C2vhQOfTUcP6SBnOm7qI_ipQLUYwzT59rZKIfXFuw&oe=6AC145D0",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0Hi6r9Um51X4EZtde9CbjAaWbiihh3UJM6Td33ZzZib7TAxsAuxMtmm3fSjsdeRUPl?__cft__[0]=AZggQ8HPlRxD72BHw_sJknojREVhcLFeAVrE3APk21VJAq1Z1NLIOIRBxkvgdHZszExDxBLGzpJH4FZSscv1kWjfq8l2D3BZi1rY4amjCQcFbhGvloPT0-8Uzkw7TE28I7EwtLe8YRPhzzW1o7DZa8OOQMaEeTCme28jzn9sQM3h-Lc3V4wt4HaNAzgUFc0pRTA5ncITNQ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0Hi6r9Um51X4EZtde9CbjAaWbiihh3UJM6Td33ZzZib7TAxsAuxMtmm3fSjsdeRUPl?comment_id=584098196711804&__cft__[0]=AZggQ8HPlRxD72BHw_sJknojREVhcLFeAVrE3APk21VJAq1Z1NLIOIRBxkvgdHZszExDxBLGzpJH4FZSscv1kWjfq8l2D3BZi1rY4amjCQcFbhGvloPT0-8Uzkw7TE28I7EwtLe8YRPhzzW1o7DZa8OOQMaEeTCme28jzn9sQM3h-Lc3V4wt4HaNAzgUFc0pRTA5ncITNQ&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_beni",
@@ -1005,22 +1005,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZB-xl4M_w6YQ7kNvwF_Ed7l&_nc_oc=AdoGzGqeI9Rqq_SrEZV3ayoEsBTqLjXFmxc1ejqb2Llh43K4KBr5fFYNb3pDgVlz5fg&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=y4NfBSK9eyr3DuFrnF7ugg&_nc_ss=7f289&oh=00_AQM6MHUF-YpGF6TgmNsjYFg5PMvcT8VMRU81T3iYxYTt_g&oe=6AC1632A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "turismo",
-          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid0yDmQvG7qv92TLd5PgGrvdm8NfSpbFMJHB37MiK4oS4VzX9LiHxKjECuw5sHJpkC6l?__cft__[0]=AZgZOUiinCCyTtvEdqBdADGqH26QnIUhYLm7aU_TRa7QEKiRHHp_OZiGbGcTY6dpnh14UVlT0pWRnjqAFIxuSaapNycVOA-Tpx6qzBT-aXmu3arqCzmiH0wDeC2jdTMWvG3ItNS6J6hpYx4nurW0UYQDWIXTGPcLWTtE7XnulGmBwQhe9QyPFCc9AbE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La gestión del patrimonio y el turismo demanda acciones de relacionamiento internacional con embajadas y organizaciones que entienden el valor de conservar la identidad… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1099,13 +1090,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xmkMXDVmdjcQ7kNvwHyfvpr&_nc_oc=Ado1hk4QwHbSGboNezOqUGdPcaJH-4KgpvoWReBHomhASzXHLgTXBghihxbh-k3_Igk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=nA5f0-xDYoAvAAdNMwl2LQ&_nc_ss=7f289&oh=00_AQPrr3fzrtKSr58wWDmJsvzhn5kEip5qNdeI97sqSimS1w&oe=6AC1BB2F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02rcSPEujqk8WeTDG2djMjEiLVnv5v5spkXYsydinCqcLmjGEgTNUtpnq8abQWD3mNl?__cft__[0]=AZgoiEjJ1iivt2ICSMau66W02s1KBPgWl59L7QCiQaMRkhri1iDiBr19uYp6be79F_XP5QcmuPw9MwWv1xxpKmWx_y2ZfXZ-zP24lmSgEpMXxeS3TmnGPN4s4-r4uCj0dE0fG1mDgnEw0juQRmaLyj4Z-6HRMZWAzXvbyqOmOjwsjf7L6VQDPEyyH7k&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CCP | MODA, IDENTIDAD Y CREATIVIDAD EN EL CCP … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1184,22 +1184,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/791477565_1093784559902436_1122510819657018021_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=x8-GmoLCBfIQ7kNvwHFf8Rg&_nc_oc=Adop_NQimmb6_vTS6Zv0lAm_I9Y9LaR2e_Y-UyCD6w7-lAe1Jdi-3HWfXf746uxLslc&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=mDJxD9pnGj8Mhbn4izzTOg&_nc_ss=7f289&oh=00_AQO6zRbicP635pf9JKSO_hCG47iXIeya0BV99j7KrSfueQ&oe=6AC16054",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid0pdSXBVGDmJirGG51saebCnoG8UfsZDgJ9sWjVz6xECzYJRQHHSzRvfcjJufCc54rl?__cft__[0]=AZjYv6pVddK20dzd4ylhvvjcbFXjgrWPHxWPTyua8afOe-Y2RAl2YzmHezMEcmFNZDweqNqBoLVhzms4s_-XoZj_d4zLQGebTJoeHwFt31AuUgGowjivyxS7B7p1JreccR5LT25HrTpS0kxYaGDQc1FfhbjXaqBtSjO2YhQtycEaY9AKJTZoX7uVA3EYMavMGZw8T2X7uuLLrtFTosk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La discusión sobre el costo del pasaje debe estar sustentada en criterios técnicos. Desde la universidad estatal cruceña manifestaron que la discusión sobre el costo del pasaje debe estar sustentada en criterios técnicos. Lee la nota completa en los comentarios Desde la universidad estatal cruceña manifestaron que la discusión sobre el costo del pasaje debe estar sustentada en criterios técnicos. "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umss",
@@ -1410,32 +1401,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 6,
+          "score": 0,
           "category": "exposicion",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "28/09/2026 Medio Ambiente Amazonía sin cauce: minería, ganadería y deforestación dejaron a comunidades sin agua para beber “La gente piensa que como vivimos en la selva tenemos bastante agua, pero la realidad es esta”, dice con decepción Erick Tijé, poblador indígena harakmbut de... vista 24/09/2026 Salud La fruta que neurólogos recomiendan para cuidar el cerebro después de los 50 años Una fruta q"
+          "text_preview": "29/09/2026 Ciencia El Tilcayo entra a la Photo Ark de National Geographic y entra al archivo mundial La imagen del Tilcayo, el felino silvestre recientemente reconocido como una especie distinta, ya forma parte de la Photo Ark de National Geographic, el gran... vista 28/09/2026 Medio Ambiente Amazonía sin cauce: minería, ganadería y deforestación dejaron a comunidades sin agua para beber “La gente"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 32,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "has_image": true,
+          "text_preview": "29/09/2026 Cultura La Feria Internacional del Libro apuesta por el cuento clásico La cuenta regresiva para la decimonovena Feria Internacional del Libro de Cochabamba (FILC) 2026 ha comenzado. vista 28/09/2026 Cultura Santa Cruz S.A. Agronegocio y mito empresarial Empiezo por el final, que es donde el libro muestra su honestidad. Después de casi trescientas páginas desarmando el relato del “milagr"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 4,
-          "category": "otro",
+          "category": "feria",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Paz instruye iniciar estudios para incorporar el "
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Denuncian intensa actividad minera ilegal cerca d"
         }
       ],
       "error": null
@@ -1493,9 +1484,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 33,
+      "raw_items": 37,
       "events": 0,
-      "rejected": 33,
+      "rejected": 37,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1535,8 +1526,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
-      "events": 37,
+      "raw_items": 31,
+      "events": 31,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,8 +1594,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 47,
-      "events": 47,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1637,8 +1628,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1807,7 +1798,7 @@
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 4 días Procesos o Resoluciones 91 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Compa"
+          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 4 días Procesos o Resoluciones 100 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Comp"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",

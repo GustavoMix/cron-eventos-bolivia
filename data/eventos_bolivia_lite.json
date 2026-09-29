@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-29T05:51:44-04:00",
+  "generated_at": "2026-09-29T14:08:31-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 64,
-    "events_today": 13
+    "events_total": 66,
+    "events_today": 14
   },
   "filters": {
     "ui_groups": [
@@ -55,12 +55,12 @@
       {
         "key": "cine",
         "label": "Cine",
-        "count": 17
+        "count": 18
       },
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 14
+        "count": 15
       },
       {
         "key": "feria",
@@ -110,14 +110,14 @@
     ],
     "cities": [
       {
-        "key": "Santa Cruz de la Sierra",
-        "label": "Santa Cruz de la Sierra",
+        "key": "La Paz",
+        "label": "La Paz",
         "count": 16
       },
       {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 15
+        "key": "Santa Cruz de la Sierra",
+        "label": "Santa Cruz de la Sierra",
+        "count": 16
       },
       {
         "key": "Cochabamba",
@@ -162,14 +162,14 @@
         "count": 19
       },
       {
-        "key": "Santa Cruz",
-        "label": "Santa Cruz",
+        "key": "La Paz",
+        "label": "La Paz",
         "count": 15
       },
       {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 14
+        "key": "Santa Cruz",
+        "label": "Santa Cruz",
+        "count": 15
       },
       {
         "key": "Bolivia",
@@ -196,22 +196,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 13
+        "count": 14
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 17
+        "count": 19
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 22
+        "count": 24
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 64
+        "count": 66
       }
     ],
     "price": [
@@ -228,19 +228,19 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 47
+        "count": 49
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 59
+        "count": 60
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 2
+        "count": 4
       }
     ],
     "tags": [
@@ -369,7 +369,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 26
+        "count": 27
       },
       {
         "key": "cartelera_cine",
@@ -379,7 +379,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 10
+        "count": 11
       },
       {
         "key": "ticketera",
@@ -405,6 +405,7 @@
   },
   "sections": {
     "today": [
+      "evt_f12f97ed3ae567",
       "evt_d2724c64f4eac7",
       "evt_416bfbb38d538b",
       "evt_8d12a581666e26",
@@ -425,7 +426,8 @@
     ],
     "this_weekend": [
       "evt_fd4d96724a4ebf",
-      "evt_3ae769b6a6ea98"
+      "evt_3ae769b6a6ea98",
+      "evt_1968fecf92cb9b"
     ],
     "free": [
       "evt_ba15d62df4cd50"
@@ -464,15 +466,15 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 37,
-      "events_upcoming": 14,
+      "events_total": 39,
+      "events_upcoming": 15,
       "events_with_image": 13,
-      "events_with_video": 1,
+      "events_with_video": 2,
       "sources_total": 26,
       "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 33,
+      "events_total": 32,
       "events_upcoming": 19,
       "events_with_image": 19,
       "events_with_video": 0,
@@ -480,7 +482,7 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 37,
+      "events_total": 36,
       "events_upcoming": 15,
       "events_with_image": 11,
       "events_with_video": 1,
@@ -488,7 +490,7 @@
       "sources_ok": 4
     },
     "Chuquisaca": {
-      "events_total": 10,
+      "events_total": 9,
       "events_upcoming": 6,
       "events_with_image": 6,
       "events_with_video": 0,
@@ -509,7 +511,7 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 1
     },
     "Tarija": {
       "events_total": 5,
@@ -517,7 +519,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Beni": {
       "events_total": 1,
@@ -533,16 +535,16 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 1
     }
   },
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 72,
-      "events_upcoming": 17,
+      "events_total": 71,
+      "events_upcoming": 18,
       "events_with_image": 17,
-      "events_with_video": 0
+      "events_with_video": 1
     },
     "concierto": {
       "label": "Conciertos",
@@ -567,14 +569,14 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 17,
-      "events_upcoming": 14,
-      "events_with_image": 14,
-      "events_with_video": 0
+      "events_total": 18,
+      "events_upcoming": 15,
+      "events_with_image": 15,
+      "events_with_video": 1
     },
     "exposicion": {
       "label": "Exposiciones",
-      "events_total": 4,
+      "events_total": 5,
       "events_upcoming": 4,
       "events_with_image": 4,
       "events_with_video": 0
@@ -609,7 +611,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 7,
+      "events_total": 6,
       "events_upcoming": 4,
       "events_with_image": 3,
       "events_with_video": 0
@@ -623,6 +625,44 @@
     }
   },
   "events": [
+    {
+      "event_id": "evt_f12f97ed3ae567",
+      "title": "Hoy continuamos con la segunda vuelta de \"Las trilogías de tu vida\", del mes de la primavera, con el filme ANTES DEL…",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-09-29T00:00:00-04:00",
+      "starts_at_ms": 1790654400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 29 de septiembre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": null,
+      "has_video": true,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 48,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
     {
       "event_id": "evt_d2724c64f4eac7",
       "title": "Película en cartelera de cine",
@@ -733,35 +773,17 @@
         "18:30",
         "19:00",
         "21:30",
-        "12:15",
-        "13:15",
-        "14:30",
-        "15:30",
-        "16:45",
-        "17:45",
-        "20:00",
-        "21:15",
-        "22:15",
-        "21:00",
-        "12:50",
-        "16:40",
-        "20:30",
-        "11:20",
         "12:00",
-        "12:30",
-        "15:00",
-        "17:30",
-        "22:30",
-        "18:00",
-        "22:00",
-        "13:50",
-        "16:20"
+        "14:30",
+        "21:00",
+        "13:15",
+        "15:30",
+        "17:45"
       ],
       "formats": [
         "2D - Doblada",
         "3D - Doblada",
-        "2D - Subtitulada",
-        "2D Atmos - Doblada"
+        "2D - Subtitulada"
       ],
       "occurrences": [
         "2026-09-29T11:00:00-04:00",
@@ -773,35 +795,12 @@
         "2026-09-29T18:30:00-04:00",
         "2026-09-29T19:00:00-04:00",
         "2026-09-29T21:30:00-04:00",
-        "2026-09-29T12:15:00-04:00",
-        "2026-09-29T13:15:00-04:00",
-        "2026-09-29T14:30:00-04:00",
-        "2026-09-29T15:30:00-04:00",
-        "2026-09-29T16:45:00-04:00",
-        "2026-09-29T17:45:00-04:00",
-        "2026-09-29T20:00:00-04:00",
-        "2026-09-29T21:15:00-04:00",
-        "2026-09-29T22:15:00-04:00",
-        "2026-09-29T21:00:00-04:00",
-        "2026-09-29T12:50:00-04:00",
-        "2026-09-29T16:40:00-04:00",
-        "2026-09-29T20:30:00-04:00",
-        "2026-09-29T11:20:00-04:00",
         "2026-09-29T12:00:00-04:00",
-        "2026-09-29T12:30:00-04:00",
-        "2026-09-29T15:00:00-04:00",
-        "2026-09-29T17:30:00-04:00",
-        "2026-09-29T22:30:00-04:00",
-        "2026-09-29T18:00:00-04:00",
-        "2026-09-29T22:00:00-04:00",
-        "2026-09-29T13:50:00-04:00",
-        "2026-09-29T16:20:00-04:00",
-        "2026-09-29T18:50:00-04:00",
-        "2026-09-29T21:20:00-04:00",
-        "2026-09-29T22:50:00-04:00",
-        "2026-09-29T17:00:00-04:00",
-        "2026-09-29T19:35:00-04:00",
-        "2026-09-29T22:10:00-04:00"
+        "2026-09-29T14:30:00-04:00",
+        "2026-09-29T21:00:00-04:00",
+        "2026-09-29T13:15:00-04:00",
+        "2026-09-29T15:30:00-04:00",
+        "2026-09-29T17:45:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -842,7 +841,6 @@
         "12:00",
         "14:30",
         "17:00",
-        "10:30",
         "13:00",
         "15:30",
         "18:00",
@@ -870,7 +868,8 @@
         "19:50",
         "22:25",
         "22:40",
-        "18:30"
+        "18:30",
+        "20:40"
       ],
       "formats": [
         "2D - Doblada",
@@ -884,7 +883,6 @@
         "2026-09-29T12:00:00-04:00",
         "2026-09-29T14:30:00-04:00",
         "2026-09-29T17:00:00-04:00",
-        "2026-09-29T10:30:00-04:00",
         "2026-09-29T13:00:00-04:00",
         "2026-09-29T15:30:00-04:00",
         "2026-09-29T18:00:00-04:00",
@@ -1071,37 +1069,11 @@
         "19:30",
         "22:00",
         "12:00",
-        "14:30",
-        "20:00",
-        "20:50",
-        "12:30",
-        "16:10",
-        "12:10",
-        "14:40",
-        "17:10",
-        "19:40",
-        "22:10",
-        "13:15",
-        "15:30",
-        "17:45",
-        "22:15",
-        "14:10",
-        "16:45",
-        "19:20",
-        "21:55",
-        "15:50",
-        "17:50",
-        "19:50",
-        "12:35",
-        "14:50",
-        "17:05",
-        "16:30",
-        "18:30"
+        "14:30"
       ],
       "formats": [
         "2D - Doblada",
-        "3D - Doblada",
-        "2D - Subtitulada"
+        "3D - Doblada"
       ],
       "occurrences": [
         "2026-09-29T13:20:00-04:00",
@@ -1110,33 +1082,7 @@
         "2026-09-29T19:30:00-04:00",
         "2026-09-29T22:00:00-04:00",
         "2026-09-29T12:00:00-04:00",
-        "2026-09-29T14:30:00-04:00",
-        "2026-09-29T20:00:00-04:00",
-        "2026-09-29T20:50:00-04:00",
-        "2026-09-29T12:30:00-04:00",
-        "2026-09-29T16:10:00-04:00",
-        "2026-09-29T12:10:00-04:00",
-        "2026-09-29T14:40:00-04:00",
-        "2026-09-29T17:10:00-04:00",
-        "2026-09-29T19:40:00-04:00",
-        "2026-09-29T22:10:00-04:00",
-        "2026-09-29T13:15:00-04:00",
-        "2026-09-29T15:30:00-04:00",
-        "2026-09-29T17:45:00-04:00",
-        "2026-09-29T22:15:00-04:00",
-        "2026-09-29T14:10:00-04:00",
-        "2026-09-29T16:45:00-04:00",
-        "2026-09-29T19:20:00-04:00",
-        "2026-09-29T21:55:00-04:00",
-        "2026-09-29T15:50:00-04:00",
-        "2026-09-29T17:50:00-04:00",
-        "2026-09-29T19:50:00-04:00",
-        "2026-09-29T12:35:00-04:00",
-        "2026-09-29T14:50:00-04:00",
-        "2026-09-29T17:05:00-04:00",
-        "2026-09-29T16:30:00-04:00",
-        "2026-09-29T18:30:00-04:00",
-        "2026-09-29T20:30:00-04:00"
+        "2026-09-29T14:30:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -1482,7 +1428,6 @@
         "19:30",
         "17:20",
         "21:10",
-        "10:30",
         "11:00",
         "11:20",
         "11:30",
@@ -1504,7 +1449,8 @@
         "22:00",
         "12:30",
         "15:00",
-        "17:30"
+        "17:30",
+        "22:30"
       ],
       "formats": [
         "2D - Subtitulada",
@@ -1523,7 +1469,6 @@
         "2026-09-29T19:30:00-04:00",
         "2026-09-29T17:20:00-04:00",
         "2026-09-29T21:10:00-04:00",
-        "2026-09-29T10:30:00-04:00",
         "2026-09-29T11:00:00-04:00",
         "2026-09-29T11:20:00-04:00",
         "2026-09-29T11:30:00-04:00",
@@ -1557,13 +1502,13 @@
         "2026-09-29T18:10:00-04:00",
         "2026-09-29T20:20:00-04:00",
         "2026-09-29T21:30:00-04:00",
+        "2026-09-29T19:35:00-04:00",
+        "2026-09-29T22:10:00-04:00",
         "2026-09-29T13:40:00-04:00",
         "2026-09-29T16:50:00-04:00",
         "2026-09-29T11:45:00-04:00",
         "2026-09-29T12:35:00-04:00",
-        "2026-09-29T14:45:00-04:00",
-        "2026-09-29T19:35:00-04:00",
-        "2026-09-29T22:10:00-04:00"
+        "2026-09-29T14:45:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -1681,14 +1626,10 @@
       "showtimes": [
         "21:00",
         "16:40",
-        "13:30",
         "17:10",
-        "13:00",
         "20:30",
         "16:50",
         "20:40",
-        "12:10",
-        "13:50",
         "14:20",
         "15:50",
         "16:20",
@@ -1696,47 +1637,46 @@
         "19:00",
         "21:10",
         "22:40",
-        "19:20",
         "17:20",
+        "19:20",
         "21:30",
-        "12:40",
         "15:00",
         "19:40",
         "22:00",
-        "12:20",
         "14:50",
-        "21:40",
         "17:00",
+        "21:40",
         "14:10",
         "16:30",
         "19:30",
-        "17:40"
+        "15:20",
+        "17:40",
+        "15:10",
+        "20:00",
+        "22:20",
+        "15:30",
+        "18:30"
       ],
       "formats": [
         "2D - DBOX - Doblada",
-        "DBOX - 2D - XD - IV - Doblada",
+        "2D - DBOX - IV - XD - Doblada",
         "DBOX - 3D - Doblada",
         "DBOX - IV - XD - 2D - Doblada",
-        "IV - 2D - XD - DBOX - Doblada",
         "PRE - 3D - Subtitulada",
         "2D - Doblada",
-        "2D - PRE - Doblada",
         "PRE - 2D - Doblada",
         "PRE - 2D - Subtitulada",
         "2D - PRE - Subtitulada",
+        "2D - PRE - Doblada",
         "3D - Doblada"
       ],
       "occurrences": [
         "2026-09-29T21:00:00-04:00",
         "2026-09-29T16:40:00-04:00",
-        "2026-09-29T13:30:00-04:00",
         "2026-09-29T17:10:00-04:00",
-        "2026-09-29T13:00:00-04:00",
         "2026-09-29T20:30:00-04:00",
         "2026-09-29T16:50:00-04:00",
         "2026-09-29T20:40:00-04:00",
-        "2026-09-29T12:10:00-04:00",
-        "2026-09-29T13:50:00-04:00",
         "2026-09-29T14:20:00-04:00",
         "2026-09-29T15:50:00-04:00",
         "2026-09-29T16:20:00-04:00",
@@ -1744,30 +1684,26 @@
         "2026-09-29T19:00:00-04:00",
         "2026-09-29T21:10:00-04:00",
         "2026-09-29T22:40:00-04:00",
-        "2026-09-29T19:20:00-04:00",
         "2026-09-29T17:20:00-04:00",
+        "2026-09-29T19:20:00-04:00",
         "2026-09-29T21:30:00-04:00",
-        "2026-09-29T12:40:00-04:00",
         "2026-09-29T15:00:00-04:00",
         "2026-09-29T19:40:00-04:00",
         "2026-09-29T22:00:00-04:00",
-        "2026-09-29T12:20:00-04:00",
         "2026-09-29T14:50:00-04:00",
-        "2026-09-29T21:40:00-04:00",
         "2026-09-29T17:00:00-04:00",
+        "2026-09-29T21:40:00-04:00",
         "2026-09-29T14:10:00-04:00",
         "2026-09-29T16:30:00-04:00",
         "2026-09-29T19:30:00-04:00",
-        "2026-09-29T17:40:00-04:00",
         "2026-09-29T15:20:00-04:00",
-        "2026-09-29T12:50:00-04:00",
+        "2026-09-29T17:40:00-04:00",
         "2026-09-29T15:10:00-04:00",
         "2026-09-29T20:00:00-04:00",
         "2026-09-29T22:20:00-04:00",
         "2026-09-29T15:30:00-04:00",
         "2026-09-29T18:30:00-04:00",
-        "2026-09-29T20:20:00-04:00",
-        "2026-09-29T14:00:00-04:00"
+        "2026-09-29T20:20:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2121,6 +2057,44 @@
       "cast": [],
       "quality_score": 78,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_1968fecf92cb9b",
+      "title": "12 reacciones · 8 comentarios | 🔴EN VIVO🔴\n➡La Selección Boliviana Comienza la Venta de Entradas para el…",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-10-04T00:00:00-04:00",
+      "starts_at_ms": 1791086400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 4 de octubre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 5,
+      "is_upcoming": true,
+      "city": null,
+      "department": null,
+      "venue": null,
+      "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/830788327_1087954740490531_8276233345809919535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a27664&_nc_ohc=KAd8obbGnWMQ7kNvwFMraQy&_nc_oc=AdoyC1fHbdV-bkIgRWK7fnmgLzURDF3IA4jgwHt-mynO1o1HUv4NORn-pgTYXtttx24&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=A0PC2iGvYQA9VKp8Fp3Wcw&_nc_ss=7f289&oh=00_AQMy90z6ZCKTJqKHwmffs0vksvrhHpmWpgOOLbUH1eHi3A&oe=6AC1D464",
+      "has_video": true,
+      "video_thumbnail_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/830788327_1087954740490531_8276233345809919535_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a27664&_nc_ohc=KAd8obbGnWMQ7kNvwFMraQy&_nc_oc=AdoyC1fHbdV-bkIgRWK7fnmgLzURDF3IA4jgwHt-mynO1o1HUv4NORn-pgTYXtttx24&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=A0PC2iGvYQA9VKp8Fp3Wcw&_nc_ss=7f289&oh=00_AQMy90z6ZCKTJqKHwmffs0vksvrhHpmWpgOOLbUH1eHi3A&oe=6AC1D464",
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 45,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
