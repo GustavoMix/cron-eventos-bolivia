@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:08:31-04:00",
+  "generated_at": "2026-09-29T18:17:32-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,14 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_bolivision",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 83.1,
-    "horas_maximo_sin_datos": 971.0
+    "horas_promedio_sin_datos": 81.7,
+    "horas_maximo_sin_datos": 975.1
   },
   "sources": [
     {
@@ -350,22 +351,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HWLan-UEvBAQ7kNvwHikWqL&_nc_oc=AdpYfAYPpySju-CHruX5aVv-OCG6gzS_ED_DHS-6TKsWML1ZdGGHP0yt2h9BGctsHN8&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=1PAyCVGDIu4xGOi76Gh4MA&_nc_ss=7f289&oh=00_AQNzhWbWp8T95cmom0vIsNlGG6iUTgOv646NHaGvXCeXWw&oe=6AC1E241",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/ATBDigital/videos/1776815160309489/?comment_id=1352966863340553&__cft__[0]=AZiDaVB2ZP781KYJOPFy4BOW5fXYU3qjOjsc43agscEUO6ELGfSfIcbN_AwpRm9W_ZafBrnOeCAMJseAbpBIDfbIOw0YadHICQeHI1qly0HhS1tw-mbhFqtrUdyRjPf1iW7t4pKqQ81knbTGOq3V0wVxi3LMiM9JbSicu3eDhV2Ls50brJPibxNvUCq7OFwQdPo&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "En nuestro país todo cuesta plata lamentablemente, mientras en la Federación Boliviana reciben unos sueldasos empezando del Presidente hasta el secretario del secretario Grover Chura"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_bolivision",
@@ -377,12 +369,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Noticias Bolivisión 1,2 mill. seguidores • 28 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un '"
     },
     {
       "id": "fb_erbol",
@@ -563,13 +555,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DNrUK791Ad8Q7kNvwH4CCns&_nc_oc=AdqH0CGpby8Pd2CXOsqeITDPDkmVuOoX2T55-QaJS2XtXIHybRIuNs-Flbm7e3uR4qo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=A_0SBjZsS-nqHOtqACZ3wA&_nc_ss=7f289&oh=00_AQMSjZb8Kdj2rzVmEUt-xzWwr75SonbUHjipHbLi10SLgg&oe=6AC1D173",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -631,30 +623,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3286gfmB_HcQ7kNvwGv6L1m&_nc_oc=AdpPUlv8b4pi26LNBzn2GFlw1ho7R-TSJnopZdYrLywWQ7x53x8vavIAqmYs2THIVUE&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=-fSa_GvxL-PidQ1xbu0o2w&_nc_ss=7f289&oh=00_AQPlF-E576Em0ImWB-ZVEgaKT4AcdJ9fJ9LMMRAjUAf7vA&oe=6AC1C3CF",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid035cCwMivKMR32WaG3gCQiheVtMzmZpQxo44nqDnm6VzQTY926QazahgxLd3uwgxgfl?__cft__[0]=AZiLRvJoe9n4ZkwQsNfadJ9Xqo_5jaXy8ZKyvcfYnlMJLooZBTV14PyEtbkI-Eok6jIOhKkHS8RGUuprEkCJ9lGcqWrtUAcmN6xidA7JP45RLsJhRo76eoW861DM4hjFXM1ofS-9EKKXda2Bqt38D8Tm-kNXCtzlCxNI61x7PbapCTS4ax5O1jobSFI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CNM | NECROLÓGICO… Ver más Mis sentidas condolencias a la común católica, QDDG. Monseñor Ricardo Centellas y brille para él la luz perpetua Ver más comentarios Atilehtse Lehaj Barrios"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid035cCwMivKMR32WaG3gCQiheVtMzmZpQxo44nqDnm6VzQTY926QazahgxLd3uwgxgfl?comment_id=1982237465800354&__cft__[0]=AZiLRvJoe9n4ZkwQsNfadJ9Xqo_5jaXy8ZKyvcfYnlMJLooZBTV14PyEtbkI-Eok6jIOhKkHS8RGUuprEkCJ9lGcqWrtUAcmN6xidA7JP45RLsJhRo76eoW861DM4hjFXM1ofS-9EKKXda2Bqt38D8Tm-kNXCtzlCxNI61x7PbapCTS4ax5O1jobSFI&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mis sentidas condolencias a la común católica, QDDG. Monseñor Ricardo Centellas y brille para él la luz perpetua Atilehtse Lehaj Barrios"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -767,13 +742,22 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0nYbsAL6T2QQ7kNvwFfh02j&_nc_oc=Adrnb_9E7SIk5VeHMgaLpIDn66FfIdceXhbPu-UjNK5Lem1fGLfUZP1IF75XyVn6Ppc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=DA-qEIC0snzHwLMCWzLoGg&_nc_ss=7f289&oh=00_AQO0t9v3wC7D5RfQi-SQeASDQqo88O3uiGqPXwHFAByB8w&oe=6AC1FBEA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/cobija.gob/posts/pfbid02NzKr4Y8xj1d4NWUX2SAB5CWXqQNQnGxTBUVc6SATTpgzEi35u4f1RGPB8P1EHnPQl?__cft__[0]=AZhffmZ90RtQSIRc7vFxc_l1HWatXIl3WLcUVtBEnv7_oUTe9Jv9UopbbJRfhi5mR0RajJvvOdUcs8AeQ3abYePquBUjBo63Njxt9exatmmFUXZNNfqGXuvEE0AarZCCY5gbWufghE7IyvQrI65NLFvQlEFTQ2Ss23XSgRl5d1o14cTCEi1eNXED5h4&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "hace 58 minutos 58 min ¡SEMASUR NO SE DETIENE!… Ver más Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -818,13 +802,22 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=T96wj6wMNX8Q7kNvwFogshW&_nc_oc=AdqS2pFmcvEYGoW1xWewVMfY0CHDIkmhwh1UefWUlQ1yUJDyJrLw5BK1aOyDvezhhcc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=OW1WWcvqJ88rw_WXQ3kGuw&_nc_ss=7f289&oh=00_AQO6tebkZ0A4zXtDCgC-i2cOq62AhjWzUQhT7YO5cM3SCg&oe=6AC20AA7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GADTarija/posts/pfbid02CBZyafMUemXGTvHTi9mJr53Yqo9cgeXCj4U7GNqeFbeR65jAqSt5NMwgnHYETh6fl?__cft__[0]=AZjehpOVLD68WNu16bdmVKfqbc7qjUFO-KiN3GQhZ8Xw1duqCCyk9Mr_aqvNwVzC2vLa50B5ogQnFmeIv905wd8YSWgY9zu0X1o3g24FsbGhWsRlj2h-JkORlp0YOk5CvmE2w-3uqddwMR6DhatZpd6aN3p9B4MStobqHMqlCgqYdE8QgEZSzcs9QhM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Gobernación impulsa acciones para ampliar el acceso a la electricidad en comunidades rurales de Tarija… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_pando",
@@ -1090,22 +1083,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xmkMXDVmdjcQ7kNvwHyfvpr&_nc_oc=Ado1hk4QwHbSGboNezOqUGdPcaJH-4KgpvoWReBHomhASzXHLgTXBghihxbh-k3_Igk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=nA5f0-xDYoAvAAdNMwl2LQ&_nc_ss=7f289&oh=00_AQPrr3fzrtKSr58wWDmJsvzhn5kEip5qNdeI97sqSimS1w&oe=6AC1BB2F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02rcSPEujqk8WeTDG2djMjEiLVnv5v5spkXYsydinCqcLmjGEgTNUtpnq8abQWD3mNl?__cft__[0]=AZgoiEjJ1iivt2ICSMau66W02s1KBPgWl59L7QCiQaMRkhri1iDiBr19uYp6be79F_XP5QcmuPw9MwWv1xxpKmWx_y2ZfXZ-zP24lmSgEpMXxeS3TmnGPN4s4-r4uCj0dE0fG1mDgnEw0juQRmaLyj4Z-6HRMZWAzXvbyqOmOjwsjf7L6VQDPEyyH7k&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CCP | MODA, IDENTIDAD Y CREATIVIDAD EN EL CCP … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1218,13 +1202,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/825053115_1546428510862442_5222564164521058268_n.jpg?stp=dst-jpg_tt6&cstp=mx1009x1017&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=esLYoDk2_gMQ7kNvwEa_DwE&_nc_oc=Adq6EItW027ZZ50XIxWM8p-8B5wTlqT4WO9SEe016GZckMJvUGM3CoxKx5d1k14FmIA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=xqEdMRuB8W1c24iSLGvNcw&_nc_ss=7f289&oh=00_AQNAh79fEuwg61eQYE08k-Q34oiFRO016fsmP2tJFiKpsQ&oe=6AC22094",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid02VvYgNCU1kLnxxDPc2ABJJyLHuqF23SeHfD73RDUdo7eodnAfDJrcuURbGdvrdfJal?__cft__[0]=AZhXfKPl5H8Ih-YCvFmh9y81mtJw_i1LQbEqxAszVOg6zj1XVf6szjTS9dxxr9xtV5kWNNKdpuve1aM6iSZW0Nq5HWNBjhPEr_8ku9XXsUVfgpnf2aBaozdnpnokiKCeV6o6lQvsxeOgihsJTzIgavJOJxlRR8fJEYnVcJsAlwGOWLnir5gyLSn4VJ8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "MEDIWEEK 2026 cerró con reconocimiento académico, deporte y bendición La… Ver más MEDIWEEK 2026 cerró con reconocimiento académico, deporte y bendición La… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_upsa",
@@ -1401,12 +1394,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 33,
           "category": "exposicion",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1414,19 +1407,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "score": 47,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "29/09/2026 Cultura La Feria Internacional del Libro apuesta por el cuento clásico La cuenta regresiva para la decimonovena Feria Internacional del Libro de Cochabamba (FILC) 2026 ha comenzado. vista 28/09/2026 Cultura Santa Cruz S.A. Agronegocio y mito empresarial Empiezo por el final, que es donde el libro muestra su honestidad. Después de casi trescientas páginas desarmando el relato del “milagr"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 4,
-          "category": "feria",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 35,
+          "category": "festival",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Denuncian intensa actividad minera ilegal cerca d"
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1484,9 +1477,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
+      "raw_items": 38,
       "events": 0,
-      "rejected": 37,
+      "rejected": 38,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1500,7 +1493,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/0bd267c4-1932-46f1-9020-3c0f1d586ad2",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a8c3323f-bac9-4996-ba3d-73af26dd0c09",
           "has_image": true,
           "text_preview": ""
         },
@@ -1508,7 +1501,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/37473338-9bb0-4429-aecf-a9a1a7f02212",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/0bd267c4-1932-46f1-9020-3c0f1d586ad2",
           "has_image": true,
           "text_preview": ""
         }
@@ -1526,8 +1519,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 31,
-      "events": 31,
+      "raw_items": 40,
+      "events": 40,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1560,8 +1553,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1577,8 +1570,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1594,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 45,
-      "events": 45,
+      "raw_items": 43,
+      "events": 43,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1794,11 +1787,11 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 29,
+          "score": 25,
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” hace 4 días Procesos o Resoluciones 100 EDICTO MUNICIPAL “PROYECTO DE REGULARIZACIÓN TÉCNICA INDIVIDUAL DE ASENTAMIENTOS HUMANOS IRREGULARES BARRIO “JUNTA VECINAL ALTO SENAC A-3 EX FUNDO LA FLORIDA” Descargar Edicto Municipal Leer más » Comp"
+          "text_preview": "𝐄𝐍 𝐇𝐎𝐌𝐄𝐍𝐀𝐉𝐄 𝐀 𝐋𝐎𝐒 488 𝐀Ñ𝐎𝐒 𝐃𝐄 𝐅𝐔𝐍𝐃𝐀𝐂𝐈Ó𝐍 𝐃𝐄 𝐋𝐀 𝐕𝐈𝐋𝐋𝐀 𝐃𝐄 𝐋𝐀 𝐏𝐋𝐀𝐓𝐀 𝐀𝐔𝐓𝐎𝐑𝐈𝐃𝐀𝐃𝐄𝐒 𝐈𝐙𝐀𝐍 𝐋𝐀 𝐁𝐀𝐍𝐃𝐄𝐑𝐀 𝐃𝐄 𝐂𝐇𝐔𝐐𝐔𝐈𝐒𝐀𝐂𝐀 hace 2 horas Noticias 13 Autoridades municipales y departamentales realizaron esta mañana en la histórica Plaza de La Recoleta, el acto de izamiento de banderas en homenaje a los 488 años de fundación de la Villa de La Plata, hoy Sucre. El acto se desarrolló en un ambiente de respeto y recogim"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
