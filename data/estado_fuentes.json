@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:36:30-04:00",
+  "generated_at": "2026-09-30T16:11:38-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,14 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_alianza_francesa_cbba",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 83.7,
-    "horas_maximo_sin_datos": 989.4
+    "horas_promedio_sin_datos": 86.9,
+    "horas_maximo_sin_datos": 997.0
   },
   "sources": [
     {
@@ -44,30 +45,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mh5DB-IpLZYQ7kNvwGDtqP1&_nc_oc=Adr3kz0gO3hOf9Lsq1rMXXVGJS3hA2GKXjhS1wMOzRlG0qkmv7p9E4iDZPxruJOt-BU&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=Lc99U99-yyMRz7jeGtSNcQ&_nc_ss=7f289&oh=00_AQODclOBhDqy412OgHXOwCdwCPGKZHOluVHxOdCSH4_TIg&oe=6AC2DD75",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "festival",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": true,
-          "text_preview": "La organización del FESTIVAL SEGUENTOCK 2026, cómo parte del evento principal, te invita junto a tu familia a visibilizar tu emprendimiento de artesanías, productos y g… Ver más Tenemos problemas para reproducir este video. Más información Ver más comentarios Fabricio Rivera Caballero Fabo"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/Seguentock/posts/pfbid02jC3P3Ry8syN4W1Bfwcdog7KxVqHg3WuA5Kv16xxLH9XosdVe9LwckB2W9zf2kQeTl?comment_id=1752740749117048&__cft__[0]=AZhj24tJ2PETYRSCXC6gK-3Rb77Ausjau2e5W6t4i4Jq9bPiVn7R5l9JjbW_MvoXbEXnZwkaJ9jMd7a6YampmhJ5SAX_uEvzAfDeRw_Ymshg5kUXHDckTq_yHDU7E0imUBamC9OWmC57tjDI2jzdvvY7u4s4spdnq5eW8ccG5cEMDqNuM3KWdoFpkF4&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Fabricio Rivera Caballero Fabo 13 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -622,13 +606,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZS9f6P19D4EQ7kNvwGW8ZHB&_nc_oc=AdrTTSf1CdcqZT-O0EAV-e7hYnF5Pi9gEifVszQQiCpmuryXU8QeK4wnQCvgMH_Ql2s&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=SfuQBN9vrcr6gcDfnGsxRw&_nc_ss=7f289&oh=00_AQMe_RJ8gklj1VUwKafZOOgMYuYJM49K5sKl1zPJLYMa9w&oe=6AC335F3",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -894,30 +878,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=f-Lup0Un-9AQ7kNvwF3vN2O&_nc_oc=AdrieXUlOiXx_myonNbaYZZn1vtw6wAxKXXxMxgOMSG9z92r2mMqTc2QRqWnvn6k7mg&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=JVIxYHgRi8Bt7JHu2HH3KQ&_nc_ss=7f289&oh=00_AQMX8lMnmoIQhCTDc49kbqKyvhEJh5958T0Evpzdkz8m6A&oe=6AC2D627",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02U9EZfi8KMNsXER4jvksNM7ewWSYhU7d5ADL6b84VutVSoaBRxhDrcmQVYo93rGWZl?__cft__[0]=AZhsxm9KM2S3MbLQGHFPm0mpoSKWfF9-x09xvhW7IBKuUMYpoYUxO7CoX_qbMM7BjdkiFG_nGRod8kVAjJ6ZZVtJDFYxyFP4N36-fdqQxtU7i5b1qYdV8NIdgorHEvBLezrq_nIsRcJRCvxPcmi_gFwrqX8jZSpCjCLewHSO7EQS2rCEBjMeRaLaHKM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Educación | 𝐋𝐀 𝐁𝐔́𝐒𝐐𝐔𝐄𝐃𝐀 𝐓𝐄𝐍𝐈́𝐀 𝐔𝐍 𝐌𝐎𝐓𝐈𝐕𝐎. Hace unos días salimos a… Ver más #Educación | 𝐋𝐀 𝐁𝐔́𝐒𝐐𝐔𝐄𝐃𝐀 𝐓𝐄𝐍𝐈́𝐀 𝐔𝐍 𝐌𝐎𝐓𝐈𝐕𝐎. Hace unos días salimos a… Ver más Existiría la posibilidad de un horario de 18:00 a 19:00? Ver más comentarios Paola Ancasi"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02U9EZfi8KMNsXER4jvksNM7ewWSYhU7d5ADL6b84VutVSoaBRxhDrcmQVYo93rGWZl?comment_id=1646401143504878&__cft__[0]=AZhsxm9KM2S3MbLQGHFPm0mpoSKWfF9-x09xvhW7IBKuUMYpoYUxO7CoX_qbMM7BjdkiFG_nGRod8kVAjJ6ZZVtJDFYxyFP4N36-fdqQxtU7i5b1qYdV8NIdgorHEvBLezrq_nIsRcJRCvxPcmi_gFwrqX8jZSpCjCLewHSO7EQS2rCEBjMeRaLaHKM&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Existiría la posibilidad de un horario de 18:00 a 19:00? Paola Ancasi"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -979,22 +946,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=urWRTjZz6X4Q7kNvwFBDgXy&_nc_oc=AdoqEZTK9P6pn58XbEImY2bb3sB_EqyYpSQFzI_oiY3BLY3e_2xIN8AJERMOg245UPU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=JMPSM4V5DS3GBTUryd_aLA&_nc_ss=7f289&oh=00_AQP-JRum-met36FiQXPRNBQfh-eNQvKJFu5YRJ_5ovCJcQ&oe=6AC2D617",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid02iev8wfsNJ6NNMe2QRxqjoRcS3GU2i8sPUSS3WaH14R8MqpJ3Cc9insiPxLyXwgLZl?__cft__[0]=AZj9n1ihLpKhOAd3drSOsoF9TdqGYoff47QDM0nHzKHw595V2Hae5TPWvdiGgGTXQ5x4C25r6BNWlWutLEbCRIgIfR-CZG7Ex9cmmd1Z78utGIDNnGSd_WU_2wb9YCAa891J5eT7aTeHQ_eJAo1CnJ_EXplsgdtZEToyr6TCnfnbuSNtYhW1QrHkfHM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "INCAHUASI: UN HALLAZGO PARA LA HISTORIA. Fotografías, en gran formato, de piezas arqueológicas cuyo hallazgo fortuito cambió la percepción que se tiene de las poblacion… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1056,22 +1014,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FtTBz4kgdlgQ7kNvwE-yXfP&_nc_oc=Adpdm-zxQULSPEXWK1vdFHofLLRvkoBqaBr-Y5Lu5Erg5B3ZuV-aszvI6QcMzGcNdEA&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=cnM_fhZfaz-3KMBdaq7WKQ&_nc_ss=7f289&oh=00_AQMFjyrPA0CZ65-2IsKlR13qwwm8aDD5D3pP4wzTVlIxHQ&oe=6AC2D8CF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid0LpQe2Z7BRdgPtyhtUbAxhc52KAnwaMTtws3qdb72SSkrjDv38x7dG7Eij7uhRBJdl?__cft__[0]=AZgk4Pb3s-g8BWSulvfBBy57i8LtJ7Ze_j0zrOBh-rr31R5G-vYLLm3Gzuy4xKpuwAf05HEgJSEXx8Ylz2Rw-0IM-yVcegDJboklw2-xhqynPtW1nrLWbcYPu7TKwc64abuR6AmBOATn_3Op-zf5syQWnSyhs35Bmuj69jnxyJa6aVeW_ap2CB_-pf8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Octubre viene cargado de experiencias imperdibles en La Paz!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1083,12 +1032,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de Cochabamba 28 mil seguidores • 232 seguidos Más Publicaciones Información Reels Fotos Seguidos Esta página no está disponible en este momento P'"
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1150,13 +1099,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WF3TUiLar1IQ7kNvwGrcPJm&_nc_oc=AdrEUkK3pormlpmBUZ4hT4en3bY2EI-il9-n1hem9tED9nB4vbuMmlPNJL1qqfoJJcU&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=euttcyoNNB-Df-uJdydEXw&_nc_ss=7f289&oh=00_AQPHsVCLZM-aHxgZs6SCog9_3oUu9vhX3sm-dW_yw3UGEw&oe=6AC35AE4",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1218,13 +1167,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/802121447_1509917531172107_3755553418203842592_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AIm7GS7_BuUQ7kNvwEmKRox&_nc_oc=AdrjDo4ObiCljlpk9scc1KPHmfV2iDHJYvlYyfx25IzZjQOYlAVfkyQos-AuUx6Y_cs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=v4SqWKNq-n4PCW84H-oqWg&_nc_ss=7f289&oh=00_AQM3CK0z159XSDb9AkMDnYeVLBbd6-lclPvoYA6jHVxWmQ&oe=6AC332DC",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid0noHmQCaauj8gmtnWwxPVqFtUsfEtLMx1XW8thYLzsV16N6vqFxkCPYDdSLrf5vuQl?__cft__[0]=AZhJg_aTOBRHoyJgksy4kJMdROQ62_dMLc_aQhetno6AWBmfBhA3055ZTYAtT915vsS_2lMR8E6173n1AMf7LuVh72Hbnf_8rCHBXYOrShQkpiBAjveF8gNsvFivUGZs79owl_HWaTeRJ9ZFlLeywxmYL-vXRURVPV7EEtLBicLfb_P1QLWeGPet4J776YJYYYJ8eVe3zSAM0VF4Kks&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "El magnifico rector de la Universidad Mayor de San Simón (UMSS), Lic. Boris Calancha Navia, el vicerrector, Greby Rioja Montaño PhD. y el director de la DICyT, Ing. Iv… Ver más DICyT - UMSS hace un día 1 día ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1418,8 +1376,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1440,10 +1398,10 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 26,
-          "category": "infantil",
+          "category": "religioso",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 En la lista negra de EEUU figuran al menos tres p"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Justicia decide mantener a Luis Arce en detención preventiva Ver más 2 Agetic rastreará a 300 usuarios por desvío de combusti"
         }
       ],
       "error": null
@@ -1501,9 +1459,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 35,
+      "raw_items": 37,
       "events": 0,
-      "rejected": 35,
+      "rejected": 37,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1611,8 +1569,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 48,
-      "events": 48,
+      "raw_items": 46,
+      "events": 46,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1811,11 +1769,11 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 25,
-          "category": "otro",
+          "score": 47,
+          "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝐄𝐍 𝐇𝐎𝐌𝐄𝐍𝐀𝐉𝐄 𝐀 𝐋𝐎𝐒 488 𝐀Ñ𝐎𝐒 𝐃𝐄 𝐅𝐔𝐍𝐃𝐀𝐂𝐈Ó𝐍 𝐃𝐄 𝐋𝐀 𝐕𝐈𝐋𝐋𝐀 𝐃𝐄 𝐋𝐀 𝐏𝐋𝐀𝐓𝐀 𝐀𝐔𝐓𝐎𝐑𝐈𝐃𝐀𝐃𝐄𝐒 𝐈𝐙𝐀𝐍 𝐋𝐀 𝐁𝐀𝐍𝐃𝐄𝐑𝐀 𝐃𝐄 𝐂𝐇𝐔𝐐𝐔𝐈𝐒𝐀𝐂𝐀 hace 16 horas Noticias 37 Autoridades municipales y departamentales realizaron esta mañana en la histórica Plaza de La Recoleta, el acto de izamiento de banderas en homenaje a los 488 años de fundación de la Villa de La Plata, hoy Sucre. El acto se desarrolló en un ambiente de respeto y recogi"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 50 minutos Noticias 13 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La p"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
