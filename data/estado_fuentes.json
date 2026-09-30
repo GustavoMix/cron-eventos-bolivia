@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:34:49-04:00",
+  "generated_at": "2026-09-30T08:36:30-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 81.5,
-    "horas_maximo_sin_datos": 982.4
+    "horas_promedio_sin_datos": 83.7,
+    "horas_maximo_sin_datos": 989.4
   },
   "sources": [
     {
@@ -44,13 +44,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mh5DB-IpLZYQ7kNvwGDtqP1&_nc_oc=Adr3kz0gO3hOf9Lsq1rMXXVGJS3hA2GKXjhS1wMOzRlG0qkmv7p9E4iDZPxruJOt-BU&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=Lc99U99-yyMRz7jeGtSNcQ&_nc_ss=7f289&oh=00_AQODclOBhDqy412OgHXOwCdwCPGKZHOluVHxOdCSH4_TIg&oe=6AC2DD75",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "festival",
+          "url": "https://es-la.facebook.com/login",
+          "has_image": true,
+          "text_preview": "La organización del FESTIVAL SEGUENTOCK 2026, cómo parte del evento principal, te invita junto a tu familia a visibilizar tu emprendimiento de artesanías, productos y g… Ver más Tenemos problemas para reproducir este video. Más información Ver más comentarios Fabricio Rivera Caballero Fabo"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/Seguentock/posts/pfbid02jC3P3Ry8syN4W1Bfwcdog7KxVqHg3WuA5Kv16xxLH9XosdVe9LwckB2W9zf2kQeTl?comment_id=1752740749117048&__cft__[0]=AZhj24tJ2PETYRSCXC6gK-3Rb77Ausjau2e5W6t4i4Jq9bPiVn7R5l9JjbW_MvoXbEXnZwkaJ9jMd7a6YampmhJ5SAX_uEvzAfDeRw_Ymshg5kUXHDckTq_yHDU7E0imUBamC9OWmC57tjDI2jzdvvY7u4s4spdnq5eW8ccG5cEMDqNuM3KWdoFpkF4&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Fabricio Rivera Caballero Fabo 13 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -367,22 +384,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z9JDQSch2vsQ7kNvwGOutPN&_nc_oc=AdrLrUfGV6cd70QSC_mpllnHRVw7X_8DclvvhLyPB_0ki26PYLRggnlTbOpjyQQ_Rdg&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=mnJBUeQm9_qfeL5_s8HQGQ&_nc_ss=7f289&oh=00_AQNcPYflRwE6IzaaLEjufpFWqJ9siGQ_dvsNv-61ScZt1Q&oe=6AC285CC",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/NoticiasBolivision/posts/la-segunda-parte-de-ald%C3%ADainvestiga-expone-testimonios-sobre-la-captaci%C3%B3n-de-adol/1525959792903138/",
-          "has_image": true,
-          "text_preview": "La segunda parte de #AlDíaInvestiga expone testimonios sobre la captación de adolescentes y analiza las condiciones que habrían permitido el avance de organizaciones criminales en San Ignacio de... La segunda parte de #AlDíaInvestiga expone testimonios sobre la captación de adolescentes y analiza las condiciones que habrían permitido el avance de... La segunda parte de #AlDíaInvestiga expone testi"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_erbol",
@@ -682,22 +690,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/696282168_1306639911654685_7905006361365104235_n.avif?stp=dst-avif&cstp=mx1344x1344&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qyts9K-QqUQQ7kNvwHSGLcm&_nc_oc=AdoP0NpgD_DJsgODojf7BQnM4oj5qhu1wQz7i8xg6voEEuv8CCXXv3kDIq7clRQVEXg&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=lou4X6rauv3-77Of4K1tpA&_nc_ss=7f289&oh=00_AQN1Xq6i2KLRx8InYSaPqUMP4Cs3uKNrqFeEtV1577OgvA&oe=6AC279BA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "festival",
-          "url": "https://www.facebook.com/AlcaldiaDeOruro/videos/-cu%C3%A1nto-se-destin%C3%B3-al-carnaval-de-oruro-en-los-%C3%BAltimos-10-a%C3%B1os%EF%B8%8F-el-alcalde-abg-i/2377748612758137/",
-          "has_image": true,
-          "text_preview": "¿Cuánto se destinó al Carnaval de Oruro en los últimos 10 años? El alcalde Abg. Iván Quispe Gutiérrez presentó los datos registrados por el municipio, revelando un… Ver más ¿Cuánto se destinó al Carnaval de Oruro en los últimos 10 años? El alcalde Abg. Iván Quispe Gutiérrez presentó los datos registrados por el municipio, revelando un… Ver más Tenemos problemas para reproducir este video. Más info"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_tarija",
@@ -895,13 +894,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=f-Lup0Un-9AQ7kNvwF3vN2O&_nc_oc=AdrieXUlOiXx_myonNbaYZZn1vtw6wAxKXXxMxgOMSG9z92r2mMqTc2QRqWnvn6k7mg&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=JVIxYHgRi8Bt7JHu2HH3KQ&_nc_ss=7f289&oh=00_AQMX8lMnmoIQhCTDc49kbqKyvhEJh5958T0Evpzdkz8m6A&oe=6AC2D627",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02U9EZfi8KMNsXER4jvksNM7ewWSYhU7d5ADL6b84VutVSoaBRxhDrcmQVYo93rGWZl?__cft__[0]=AZhsxm9KM2S3MbLQGHFPm0mpoSKWfF9-x09xvhW7IBKuUMYpoYUxO7CoX_qbMM7BjdkiFG_nGRod8kVAjJ6ZZVtJDFYxyFP4N36-fdqQxtU7i5b1qYdV8NIdgorHEvBLezrq_nIsRcJRCvxPcmi_gFwrqX8jZSpCjCLewHSO7EQS2rCEBjMeRaLaHKM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Educación | 𝐋𝐀 𝐁𝐔́𝐒𝐐𝐔𝐄𝐃𝐀 𝐓𝐄𝐍𝐈́𝐀 𝐔𝐍 𝐌𝐎𝐓𝐈𝐕𝐎. Hace unos días salimos a… Ver más #Educación | 𝐋𝐀 𝐁𝐔́𝐒𝐐𝐔𝐄𝐃𝐀 𝐓𝐄𝐍𝐈́𝐀 𝐔𝐍 𝐌𝐎𝐓𝐈𝐕𝐎. Hace unos días salimos a… Ver más Existiría la posibilidad de un horario de 18:00 a 19:00? Ver más comentarios Paola Ancasi"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02U9EZfi8KMNsXER4jvksNM7ewWSYhU7d5ADL6b84VutVSoaBRxhDrcmQVYo93rGWZl?comment_id=1646401143504878&__cft__[0]=AZhsxm9KM2S3MbLQGHFPm0mpoSKWfF9-x09xvhW7IBKuUMYpoYUxO7CoX_qbMM7BjdkiFG_nGRod8kVAjJ6ZZVtJDFYxyFP4N36-fdqQxtU7i5b1qYdV8NIdgorHEvBLezrq_nIsRcJRCvxPcmi_gFwrqX8jZSpCjCLewHSO7EQS2rCEBjMeRaLaHKM&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Existiría la posibilidad de un horario de 18:00 a 19:00? Paola Ancasi"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -963,13 +979,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=urWRTjZz6X4Q7kNvwFBDgXy&_nc_oc=AdoqEZTK9P6pn58XbEImY2bb3sB_EqyYpSQFzI_oiY3BLY3e_2xIN8AJERMOg245UPU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=JMPSM4V5DS3GBTUryd_aLA&_nc_ss=7f289&oh=00_AQP-JRum-met36FiQXPRNBQfh-eNQvKJFu5YRJ_5ovCJcQ&oe=6AC2D617",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid02iev8wfsNJ6NNMe2QRxqjoRcS3GU2i8sPUSS3WaH14R8MqpJ3Cc9insiPxLyXwgLZl?__cft__[0]=AZj9n1ihLpKhOAd3drSOsoF9TdqGYoff47QDM0nHzKHw595V2Hae5TPWvdiGgGTXQ5x4C25r6BNWlWutLEbCRIgIfR-CZG7Ex9cmmd1Z78utGIDNnGSd_WU_2wb9YCAa891J5eT7aTeHQ_eJAo1CnJ_EXplsgdtZEToyr6TCnfnbuSNtYhW1QrHkfHM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "INCAHUASI: UN HALLAZGO PARA LA HISTORIA. Fotografías, en gran formato, de piezas arqueológicas cuyo hallazgo fortuito cambió la percepción que se tiene de las poblacion… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1014,22 +1039,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=b0VYe2eLuDEQ7kNvwEk_edb&_nc_oc=Adp_TRaF8LcbKYfZI2k9qU_kOhhHzWC9g3mMisjZkKIR5rRokKq4i8JdrEtIqhx3VHI&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=Qq4nnytgXdnxcZerIdMoRg&_nc_ss=7f289&oh=00_AQNoLM4s_fCIuCBL2-geETtXYxL7TerxQodkJv1nr9QCXQ&oe=6AC25EF4",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1144870398063921/?comment_id=1105818221858153&__cft__[0]=AZg79pv7W-Ppg061Uw5PuP-TK8Lyiw3RNNSQQASvBDxTakc-zSx4hOuAsyQMEkfS75WZKPj7roN1Zqt5_Z33SSEnhiwr8Su1VocYfWSuh9ngdXLYJxi7p8BXxzLfgzBUk-U7uGvKzSL5lRgdCp8XAtwxlZLbvI1WPwkXp2Ho_KJoM9ArBnZ7-jl9k2Ebm3GqnIjE&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "La mejor por siempre! Una increíble formadora Greis Blanco Obando La mejor por siempre! Una increíble formadora"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1040,13 +1056,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FtTBz4kgdlgQ7kNvwE-yXfP&_nc_oc=Adpdm-zxQULSPEXWK1vdFHofLLRvkoBqaBr-Y5Lu5Erg5B3ZuV-aszvI6QcMzGcNdEA&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=cnM_fhZfaz-3KMBdaq7WKQ&_nc_ss=7f289&oh=00_AQMFjyrPA0CZ65-2IsKlR13qwwm8aDD5D3pP4wzTVlIxHQ&oe=6AC2D8CF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid0LpQe2Z7BRdgPtyhtUbAxhc52KAnwaMTtws3qdb72SSkrjDv38x7dG7Eij7uhRBJdl?__cft__[0]=AZgk4Pb3s-g8BWSulvfBBy57i8LtJ7Ze_j0zrOBh-rr31R5G-vYLLm3Gzuy4xKpuwAf05HEgJSEXx8Ylz2Rw-0IM-yVcegDJboklw2-xhqynPtW1nrLWbcYPu7TKwc64abuR6AmBOATn_3Op-zf5syQWnSyhs35Bmuj69jnxyJa6aVeW_ap2CB_-pf8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Octubre viene cargado de experiencias imperdibles en La Paz!… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1159,22 +1184,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lcySb-nVHeQQ7kNvwHntF4h&_nc_oc=AdomF6pMHyxgHR6mXix4D-JJMzQqFPURut2EYrPdOVp_fTtJ4SX24zu8g_pTZMNtZb0&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=r8skptcL7iyocW9C78gKrQ&_nc_ss=7f289&oh=00_AQMZVyNMmLalfwwZZ8iQ6jWOWKM0OBIZyDABXPeSLv2HuA&oe=6AC26BA5",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid0SJySEW2fe6UVCAjBRQ2xwYMVM3cZZPhxQhqvkWYWU5eubBebkAS2Z38S9rcJ8GqTl?__cft__[0]=AZgLs31O0eXCjiN72gygjEaxEbphBvTSTaSwkUzZGeI9MejTQiCSq6UXqMoFE35s-DMIDQHcEeETM-MlWHZrOfETqEnShKAbG4NFO19AuMUhqhu0GHPJiO9CwjLuLc_ftt9VVx2_C5qxE7S-mouPZ22yN_iahkwlDiy4mbZqZLESnVUDXR2eVXj1slnE8qtnVoaqV19PFyxA-Lzc9eA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "UMSA IMPULSA A CHACALTAYA HACIA LA UNESCO POR SU HISTORIA CIENTÍFICA… Ver más La Paz Today hace un día 1 día ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1402,12 +1418,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 6,
-      "rejected": 7,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 25,
+          "score": 12,
           "category": "exposicion",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1415,19 +1431,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 39,
-          "category": "infantil",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 54,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Gobierno y choferes inician diálogo en la ciudad "
+          "text_preview": "29/09/2026 Cultura La Feria Internacional del Libro apuesta por el cuento clásico La cuenta regresiva para la decimonovena Feria Internacional del Libro de Cochabamba (FILC) 2026 ha comenzado. vista 28/09/2026 Cultura Santa Cruz S.A. Agronegocio y mito empresarial Empiezo por el final, que es donde el libro muestra su honestidad. Después de casi trescientas páginas desarmando el relato del “milagr"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "score": 26,
+          "category": "infantil",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 En la lista negra de EEUU figuran al menos tres p"
         }
       ],
       "error": null
@@ -1799,7 +1815,7 @@
           "category": "otro",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝐄𝐍 𝐇𝐎𝐌𝐄𝐍𝐀𝐉𝐄 𝐀 𝐋𝐎𝐒 488 𝐀Ñ𝐎𝐒 𝐃𝐄 𝐅𝐔𝐍𝐃𝐀𝐂𝐈Ó𝐍 𝐃𝐄 𝐋𝐀 𝐕𝐈𝐋𝐋𝐀 𝐃𝐄 𝐋𝐀 𝐏𝐋𝐀𝐓𝐀 𝐀𝐔𝐓𝐎𝐑𝐈𝐃𝐀𝐃𝐄𝐒 𝐈𝐙𝐀𝐍 𝐋𝐀 𝐁𝐀𝐍𝐃𝐄𝐑𝐀 𝐃𝐄 𝐂𝐇𝐔𝐐𝐔𝐈𝐒𝐀𝐂𝐀 hace 9 horas Noticias 35 Autoridades municipales y departamentales realizaron esta mañana en la histórica Plaza de La Recoleta, el acto de izamiento de banderas en homenaje a los 488 años de fundación de la Villa de La Plata, hoy Sucre. El acto se desarrolló en un ambiente de respeto y recogim"
+          "text_preview": "𝐄𝐍 𝐇𝐎𝐌𝐄𝐍𝐀𝐉𝐄 𝐀 𝐋𝐎𝐒 488 𝐀Ñ𝐎𝐒 𝐃𝐄 𝐅𝐔𝐍𝐃𝐀𝐂𝐈Ó𝐍 𝐃𝐄 𝐋𝐀 𝐕𝐈𝐋𝐋𝐀 𝐃𝐄 𝐋𝐀 𝐏𝐋𝐀𝐓𝐀 𝐀𝐔𝐓𝐎𝐑𝐈𝐃𝐀𝐃𝐄𝐒 𝐈𝐙𝐀𝐍 𝐋𝐀 𝐁𝐀𝐍𝐃𝐄𝐑𝐀 𝐃𝐄 𝐂𝐇𝐔𝐐𝐔𝐈𝐒𝐀𝐂𝐀 hace 16 horas Noticias 37 Autoridades municipales y departamentales realizaron esta mañana en la histórica Plaza de La Recoleta, el acto de izamiento de banderas en homenaje a los 488 años de fundación de la Villa de La Plata, hoy Sucre. El acto se desarrolló en un ambiente de respeto y recogi"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
