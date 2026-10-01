@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-30T16:11:38-04:00",
+  "generated_at": "2026-09-30T20:36:55-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 70,
@@ -471,23 +471,23 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 39,
+      "events_total": 38,
       "events_upcoming": 17,
       "events_with_image": 16,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Cochabamba": {
-      "events_total": 35,
+      "events_total": 33,
       "events_upcoming": 20,
       "events_with_image": 19,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 35,
+      "events_total": 32,
       "events_upcoming": 15,
       "events_with_image": 11,
       "events_with_video": 1,
@@ -500,7 +500,7 @@
       "events_with_image": 7,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 3,
@@ -519,7 +519,7 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 5,
+      "events_total": 4,
       "events_upcoming": 1,
       "events_with_image": 1,
       "events_with_video": 0,
@@ -546,7 +546,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 70,
+      "events_total": 63,
       "events_upcoming": 18,
       "events_with_image": 18,
       "events_with_video": 0
@@ -1477,24 +1477,14 @@
       "organizer": null,
       "showtimes": [
         "19:00",
-        "17:10",
-        "16:50",
         "20:40",
         "21:00",
-        "16:40",
         "20:30",
-        "16:20",
-        "17:50",
         "19:50",
         "21:50",
         "21:10",
         "19:20",
         "21:40",
-        "17:00",
-        "16:30",
-        "19:30",
-        "17:40",
-        "17:20",
         "19:40",
         "21:30",
         "18:30",
@@ -1502,41 +1492,28 @@
         "20:00",
         "18:20",
         "22:00",
+        "19:30",
         "22:40"
       ],
       "formats": [
         "2D - Doblada",
-        "3D - DBOX - Doblada",
         "3D - PRE - Subtitulada",
         "DBOX - 2D - Doblada",
-        "IV - 2D - XD - DBOX - Doblada",
-        "IV - DBOX - XD - 2D - Doblada",
-        "2D - PRE - Subtitulada",
-        "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada",
+        "DBOX - XD - 2D - IV - Doblada",
         "2D - PRE - Doblada",
-        "3D - Doblada"
+        "2D - PRE - Subtitulada",
+        "PRE - 2D - Subtitulada"
       ],
       "occurrences": [
         "2026-09-30T19:00:00-04:00",
-        "2026-09-30T17:10:00-04:00",
-        "2026-09-30T16:50:00-04:00",
         "2026-09-30T20:40:00-04:00",
         "2026-09-30T21:00:00-04:00",
-        "2026-09-30T16:40:00-04:00",
         "2026-09-30T20:30:00-04:00",
-        "2026-09-30T16:20:00-04:00",
-        "2026-09-30T17:50:00-04:00",
         "2026-09-30T19:50:00-04:00",
         "2026-09-30T21:50:00-04:00",
         "2026-09-30T21:10:00-04:00",
         "2026-09-30T19:20:00-04:00",
         "2026-09-30T21:40:00-04:00",
-        "2026-09-30T17:00:00-04:00",
-        "2026-09-30T16:30:00-04:00",
-        "2026-09-30T19:30:00-04:00",
-        "2026-09-30T17:40:00-04:00",
-        "2026-09-30T17:20:00-04:00",
         "2026-09-30T19:40:00-04:00",
         "2026-09-30T21:30:00-04:00",
         "2026-09-30T18:30:00-04:00",
@@ -1544,6 +1521,7 @@
         "2026-09-30T20:00:00-04:00",
         "2026-09-30T18:20:00-04:00",
         "2026-09-30T22:00:00-04:00",
+        "2026-09-30T19:30:00-04:00",
         "2026-09-30T22:40:00-04:00"
       ],
       "content_genre": null,
@@ -2093,9 +2071,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 50.0,
+      "price_from": 0.0,
       "currency": "None",
-      "price_label": "Bs 50",
+      "price_label": "Bs 0",
       "organizer": "SuperTicket.bo",
       "showtimes": [],
       "formats": [],

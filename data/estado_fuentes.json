@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:11:38-04:00",
+  "generated_at": "2026-09-30T20:36:55-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,14 +9,16 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_alianza_francesa_cbba",
+      "fb_feicobol",
+      "fb_festivales_eventos",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 86.9,
-    "horas_maximo_sin_datos": 997.0
+    "horas_promedio_sin_datos": 90.4,
+    "horas_maximo_sin_datos": 1001.4
   },
   "sources": [
     {
@@ -28,13 +30,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=W9O3NPiV_u8Q7kNvwFZVx5d&_nc_oc=Adq59rfRGlZ5RT6AoyFosoKMpleDTccYVz2BGK91xwwm2Z7oEmzCy9lSWV6LKha2v2E&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=tdfT_eGuGGwRWf_puAlKsw&_nc_ss=7f289&oh=00_AQM6e3l_r-f_J92la6MCky2xWQMEAxFT6k6H9B83cBSPbA&oe=6AC3949A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02psXcxt1BmnRxJs3FM8LmystXvk8vAoUkRodxdWYogG4A61HCYrwh8P8PwvS8kfaRl?__cft__[0]=AZgyVHHX_d3vexu_bCaEqirahF2tuS6DW9LkOIhy83k-RRnIeg3-IBh1ZUaXfMzkumEMPNrv_ud3UjjoF3T-aRI9S2MXG73xYQkCmEIxcku8WBG73EPqUp5UT8rTKFv-rqyRwizBLEK_iC8u4V87sa-PysjE9UoXf6b3UJaDUm-w4Rk5gxDl1OVcDJqScwIIpbqBgPTX-vdCwZZ7j5o&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Gran Solidatón Rosa «Ni Una Más» L… Ver más Gran Solidatón Rosa «Ni Una Más» L… Ver más Rotary Bolivia - D4690 hace un día 1 día ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -80,12 +91,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_fexpocruz",
@@ -606,13 +617,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZS9f6P19D4EQ7kNvwGW8ZHB&_nc_oc=AdrTTSf1CdcqZT-O0EAV-e7hYnF5Pi9gEifVszQQiCpmuryXU8QeK4wnQCvgMH_Ql2s&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=SfuQBN9vrcr6gcDfnGsxRw&_nc_ss=7f289&oh=00_AQMe_RJ8gklj1VUwKafZOOgMYuYJM49K5sKl1zPJLYMa9w&oe=6AC335F3",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -862,12 +873,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Feicobol 165 mil seguidores • 231 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técnic'"
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1099,13 +1110,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WF3TUiLar1IQ7kNvwGrcPJm&_nc_oc=AdrEUkK3pormlpmBUZ4hT4en3bY2EI-il9-n1hem9tED9nB4vbuMmlPNJL1qqfoJJcU&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=euttcyoNNB-Df-uJdydEXw&_nc_ss=7f289&oh=00_AQPHsVCLZM-aHxgZs6SCog9_3oUu9vhX3sm-dW_yw3UGEw&oe=6AC35AE4",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1167,22 +1178,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/802121447_1509917531172107_3755553418203842592_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AIm7GS7_BuUQ7kNvwEmKRox&_nc_oc=AdrjDo4ObiCljlpk9scc1KPHmfV2iDHJYvlYyfx25IzZjQOYlAVfkyQos-AuUx6Y_cs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=v4SqWKNq-n4PCW84H-oqWg&_nc_ss=7f289&oh=00_AQM3CK0z159XSDb9AkMDnYeVLBbd6-lclPvoYA6jHVxWmQ&oe=6AC332DC",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid0noHmQCaauj8gmtnWwxPVqFtUsfEtLMx1XW8thYLzsV16N6vqFxkCPYDdSLrf5vuQl?__cft__[0]=AZhJg_aTOBRHoyJgksy4kJMdROQ62_dMLc_aQhetno6AWBmfBhA3055ZTYAtT915vsS_2lMR8E6173n1AMf7LuVh72Hbnf_8rCHBXYOrShQkpiBAjveF8gNsvFivUGZs79owl_HWaTeRJ9ZFlLeywxmYL-vXRURVPV7EEtLBicLfb_P1QLWeGPet4J776YJYYYJ8eVe3zSAM0VF4Kks&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El magnifico rector de la Universidad Mayor de San Simón (UMSS), Lic. Boris Calancha Navia, el vicerrector, Greby Rioja Montaño PhD. y el director de la DICyT, Ing. Iv… Ver más DICyT - UMSS hace un día 1 día ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1376,32 +1378,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 12,
+          "score": 24,
           "category": "exposicion",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "29/09/2026 Ciencia El Tilcayo entra a la Photo Ark de National Geographic y entra al archivo mundial La imagen del Tilcayo, el felino silvestre recientemente reconocido como una especie distinta, ya forma parte de la Photo Ark de National Geographic, el gran... vista 28/09/2026 Medio Ambiente Amazonía sin cauce: minería, ganadería y deforestación dejaron a comunidades sin agua para beber “La gente"
+          "text_preview": "30/09/2026 Salud Estudio identifica una alternativa más corta para tratar el Chagas Treinta días en lugar de 60 y una toma diaria de benznidazol, uno de los medicamentos utilizados para tratar la enfermedad de mal de Chagas, en vez de dos. vista 29/09/2026 Ciencia El Tilcayo entra a la Photo Ark de National Geographic y entra al archivo mundial La imagen del Tilcayo, el felino silvestre recienteme"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
-          "category": "cine",
+          "score": 52,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "29/09/2026 Cultura La Feria Internacional del Libro apuesta por el cuento clásico La cuenta regresiva para la decimonovena Feria Internacional del Libro de Cochabamba (FILC) 2026 ha comenzado. vista 28/09/2026 Cultura Santa Cruz S.A. Agronegocio y mito empresarial Empiezo por el final, que es donde el libro muestra su honestidad. Después de casi trescientas páginas desarmando el relato del “milagr"
+          "text_preview": "30/09/2026 Cultura Arte: llegan “Expresiones femeninas” Desde ayer, el salón “Mario Unzueta” (25 de mayo esq. Av. Heroínas) alberga la exposición “Expresiones femeninas”, cuya cuarta versión congrega a 30 artistas... vista 29/09/2026 Cultura La Feria Internacional del Libro apuesta por el cuento clásico La cuenta regresiva para la decimonovena Feria Internacional del Libro de Cochabamba (FILC) 202"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
-          "category": "religioso",
+          "score": 42,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Justicia decide mantener a Luis Arce en detención preventiva Ver más 2 Agetic rastreará a 300 usuarios por desvío de combusti"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Paz y los gobernadores se reúnen este miércoles p"
         }
       ],
       "error": null
@@ -1679,14 +1681,22 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 7,
+      "raw_items": 8,
       "events": 0,
-      "rejected": 7,
+      "rejected": 8,
       "rejected_samples": [
         {
-          "reason": "sin_fecha_ni_enlace_de_evento",
+          "reason": "relevancia_insuficiente",
           "score": 36,
-          "category": "feria",
+          "category": "gastronomia",
+          "url": "https://www.tarija.gob.bo/",
+          "has_image": true,
+          "text_preview": "Noticias Tarija fortalece la cadena de la uva, vino y singani con un taller de articulación para impulsar la competitividad del sector 22/09/2026"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "turismo",
           "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
           "has_image": false,
           "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
@@ -1698,14 +1708,6 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones",
           "has_image": false,
           "text_preview": "0 % Manuales de organizacion y funciones Ordering Órden Ascendente Órden Descendente Título Ascendente Título Descendente Fecha Ascendente Fecha Descendente Filename Ascending Filename Descending Rating Count Ascending Rating Count Descending Rating Ascending Rating Descending Downloads Ascending Downloads Descending Cantidad de ítems por página 5 10 15 20 50 Todo Powered by Phoca Download"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
-          "has_image": false,
-          "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
         }
       ],
       "error": null
@@ -1773,7 +1775,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 50 minutos Noticias 13 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La p"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 5 horas Noticias 45 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
