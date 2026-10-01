@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:36:55-04:00",
+  "generated_at": "2026-10-01T06:10:11-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,17 +8,14 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alianza_francesa_cbba",
-      "fb_feicobol",
-      "fb_festivales_eventos",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 90.4,
-    "horas_maximo_sin_datos": 1001.4
+    "horas_promedio_sin_datos": 94.3,
+    "horas_maximo_sin_datos": 1011.0
   },
   "sources": [
     {
@@ -30,22 +27,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=W9O3NPiV_u8Q7kNvwFZVx5d&_nc_oc=Adq59rfRGlZ5RT6AoyFosoKMpleDTccYVz2BGK91xwwm2Z7oEmzCy9lSWV6LKha2v2E&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=tdfT_eGuGGwRWf_puAlKsw&_nc_ss=7f289&oh=00_AQM6e3l_r-f_J92la6MCky2xWQMEAxFT6k6H9B83cBSPbA&oe=6AC3949A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02psXcxt1BmnRxJs3FM8LmystXvk8vAoUkRodxdWYogG4A61HCYrwh8P8PwvS8kfaRl?__cft__[0]=AZgyVHHX_d3vexu_bCaEqirahF2tuS6DW9LkOIhy83k-RRnIeg3-IBh1ZUaXfMzkumEMPNrv_ud3UjjoF3T-aRI9S2MXG73xYQkCmEIxcku8WBG73EPqUp5UT8rTKFv-rqyRwizBLEK_iC8u4V87sa-PysjE9UoXf6b3UJaDUm-w4Rk5gxDl1OVcDJqScwIIpbqBgPTX-vdCwZZ7j5o&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Gran Solidatón Rosa «Ni Una Más» L… Ver más Gran Solidatón Rosa «Ni Una Más» L… Ver más Rotary Bolivia - D4690 hace un día 1 día ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -90,13 +78,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gg3xx_AYGzsQ7kNvwGuHW3y&_nc_oc=AdqHC_9HilE1wIhVIFJHbKdg3ubr1l0Y5lMa5THbGX0bjxu9e__oFoL2tlOsTJHdfOg&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=kVkNa-WZUWj_Mr3MOo2_Yw&_nc_ss=7f289&oh=00_AQMUFAdTd1Zco7yNAb0yx-vgXTv9J2d_qhLOsFprmHoFwg&oe=6AC3FF43",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid04wDoWHZJU9qpXyo3euavg5ygmT9jc62JDEfhs5y2iHTSSUMcWaZDvhaCMr3ZgX7Al?__cft__[0]=AZhkWeD_TgNzWkhSVhZrl1rqNYw76m3h09J_sSLSxB4fe5_tbQBukywHJawdgbVZjRpY-LRBtJ2oTRV0Jpxs1-kN3G7Wf68g-AkcedGQqbrsDhRMGfXsTBdyqqJ5Wq9QsbKRyN8E012XML4K3-cJtKgIC-iyyyNM-yrbnnW4o3r5MFchre2K9LuqSGA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -549,13 +546,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sFB26WYsT30Q7kNvwGlwW5L&_nc_oc=AdqPN8G8-LcXuW1x-MjR0lF3XRIQjjLyIFd1i2KSdoTtmBuEPuOlvZKlPZUH4sKJE9Y&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=KNw7Blzy9bGZF8btxrfJfQ&_nc_ss=7f289&oh=00_AQOD8gDafhAxpZ9z5NSxQtUJ9blBApDtQPn6YBs0zVSKIw&oe=6AC3EBF3",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "turismo",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/fcbcb-l-presentaci%C3%B3n-de-la-revista-piedra-de-agua-n%C2%BA39-y-homenaje-al-maestro-car/1858054125413748/",
+          "has_image": true,
+          "text_preview": "#FCBCB l Presentación de la revista Piedra de agua Nº39 y homenaje al maestro Carlos Seoane Urioste La música también guarda nuestra memoria. En una emotiva jornada, la Fundación Cultural BCB... #FCBCB l Presentación de la revista Piedra de agua Nº39 y homenaje al maestro Carlos Seoane Urioste La música también guarda nuestra memoria. En una... #FCBCB l Presentación de la revista Piedra de agua Nº"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid086NEUAFMLpmrYKWE3P4nSZ6cuc4YcTayxB28eKuroJ8JfZeUF9EUCT5RaJE9NhRpl?comment_id=2147365509493653&__cft__[0]=AZh3h0xYpA-sJGjDDo3lMLXr592ku-jdqpX9vKRjEmngQPbDKS1hf5xjBrpAh_QUiUHXVIyJuAhM13EtvhSwe_G4HgZ84_WFLTpICE2E5S2r_B3D7t61ZfFwMC9F4g2GOYkyxBRM7ocRX1Lp7P9M3aybbEJwaBSMwd4umVTgfFbqZ-kuNHrVYzPMEcA&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Merecido homenaje a un gran músico Alfredo Seoane Flores"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -872,13 +886,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/800282934_1555200746648138_3346541214021725616_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=EovuKGS7PFMQ7kNvwEYMzCI&_nc_oc=AdpiN-k8RYD2gu1TR4ZIslavAWrM36r7qRPXEls9RGCyXzsacZLsS-xk4gFs7SMcAgg&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=PIB0oi-4A5gv8XEL4nFupg&_nc_ss=7f289&oh=00_AQMzmLSxFI2j4MenY18I3MUg0q2yHJRkeKInU_JGHm7IXQ&oe=6AC41FB8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Feicobol 165 mil seguidores • 231 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técnic'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/feicobol/posts/pfbid024VZD5SJ6sTcKCuqm9sXvXvKq4cG782kMMp1P5bS9VPFwfoJ5c6zzkK7K9m1TDVhql?__cft__[0]=AZgqHgkoKyFWrTUHSY0_hNDyLd-TJz3suceYSFQUk45Ips6j5WrXYZQwcLI5D1J_lVfWkgPw5tMAcUoyLufgVtV4cYJ_yMCvvUeI1mxxckjhwHswkMLMy6AtZIIHrDZe6kIGIy9K5S_AxOKsCfcE4RRowbcnK5c_fJZlGclG6DmrI3BWuq-nSWVMD0o&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "FEMIC 2026 será el punto de encuentro del sector minero e industrial en Cochabamba.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1042,13 +1065,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9gyW26JVHVsQ7kNvwFdY0Hm&_nc_oc=Ado6DThFxe0zMZyrGuQ4-C7x0r5mxDYI-fFeNgcRIYWdmWJSn073SrLKNoiGL3eKfq0&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=BFunJY5U80ExH82o-5Ko8Q&_nc_ss=7f289&oh=00_AQMRDS0f0l9WPDH92VXyCbY_xAqGuR2ir7xi7zzSOBw-Cw&oe=6AC40A15",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de Cochabamba 28 mil seguidores • 232 seguidos Más Publicaciones Información Reels Fotos Seguidos Esta página no está disponible en este momento P'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid0roaadGuDYvPhQxG4Q7go6tFCmm4VzDNnZe5GHCu5rRE6vgEPJDjHxxzvnfFvxAddl?__cft__[0]=AZgfXOgkWiNtUH31FMlB0jGpReuKZ1o1cUk4zaKwekgxnifXpKx7dYmRB5_0Yq4yBXVO4l_-O-jvOl-bKbDKODHGjdzcVps3_xoGL9IcVUXgg35nidSbYLl0GbhEZvfWqz7OF-9sBkiDyNHvnEPKCA-hYslPTfsYPTXUypzkgIHcmjPcOdaXGr_-xM0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "OCTUBRE: IDEAS, HISTORIAS Y CULTURA EN MOVIMIENTO Est… Ver más OCTUBRE: IDEAS, HISTORIAS Y CULTURA EN MOVIMIENTO Est… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1378,12 +1410,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 24,
+          "score": 0,
           "category": "exposicion",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1391,7 +1423,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
+          "score": 28,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1399,11 +1431,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 42,
+          "score": 0,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Paz y los gobernadores se reúnen este miércoles p"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Arte: llegan “Expresiones femeninas” Ver más 3 Ap"
         }
       ],
       "error": null
@@ -1461,15 +1493,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
+      "raw_items": 29,
       "events": 0,
-      "rejected": 37,
+      "rejected": 29,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/1018f442-24e6-4fdb-94c9-1d6519379298",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/173a907a-04ac-481c-8593-71d48a53b065",
           "has_image": true,
           "text_preview": ""
         },
@@ -1477,7 +1509,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/8bd62a55-90fb-42e0-abf1-8629762f2d9a",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c63035c4-a947-468c-b1ca-06b96caffb9f",
           "has_image": true,
           "text_preview": ""
         },
@@ -1485,7 +1517,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/9d07b2e7-4721-4c9c-a78f-eab286e01047",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/7c0793e1-1f75-41cd-846e-97f0688014b4",
           "has_image": true,
           "text_preview": ""
         }
@@ -1503,8 +1535,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
-      "events": 39,
+      "raw_items": 30,
+      "events": 30,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1520,8 +1552,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 16,
+      "events": 16,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1537,8 +1569,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1554,8 +1586,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
-      "events": 2,
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1571,8 +1603,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 46,
-      "events": 46,
+      "raw_items": 61,
+      "events": 61,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1588,8 +1620,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1775,7 +1807,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 5 horas Noticias 45 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 15 horas Noticias 59 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pre"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
