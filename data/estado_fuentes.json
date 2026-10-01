@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T06:10:11-04:00",
+  "generated_at": "2026-10-01T14:33:35-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,14 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_alianza_francesa_sucre",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 94.3,
-    "horas_maximo_sin_datos": 1011.0
+    "horas_promedio_sin_datos": 95.7,
+    "horas_maximo_sin_datos": 1019.4
   },
   "sources": [
     {
@@ -78,22 +79,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gg3xx_AYGzsQ7kNvwGuHW3y&_nc_oc=AdqHC_9HilE1wIhVIFJHbKdg3ubr1l0Y5lMa5THbGX0bjxu9e__oFoL2tlOsTJHdfOg&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=kVkNa-WZUWj_Mr3MOo2_Yw&_nc_ss=7f289&oh=00_AQMUFAdTd1Zco7yNAb0yx-vgXTv9J2d_qhLOsFprmHoFwg&oe=6AC3FF43",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid04wDoWHZJU9qpXyo3euavg5ygmT9jc62JDEfhs5y2iHTSSUMcWaZDvhaCMr3ZgX7Al?__cft__[0]=AZhkWeD_TgNzWkhSVhZrl1rqNYw76m3h09J_sSLSxB4fe5_tbQBukywHJawdgbVZjRpY-LRBtJ2oTRV0Jpxs1-kN3G7Wf68g-AkcedGQqbrsDhRMGfXsTBdyqqJ5Wq9QsbKRyN8E012XML4K3-cJtKgIC-iyyyNM-yrbnnW4o3r5MFchre2K9LuqSGA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -308,13 +300,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=whgZGbpNXvIQ7kNvwHmuRVy&_nc_oc=Adrb-lu6t8jRnkKC2mAnlXdVgbEKOxV-IsMSh_nldrFlWQm2oMp97XLqs4IBR8tnWzs&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=uCime2YooZyO_FVAuCBG1g&_nc_ss=7f289&oh=00_AQPXJ4FhP32htve6BB_5fN-8qqUArzZnGSVbv92d9-AGUQ&oe=6AC4754C",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1077780334867377/?__cft__[0]=AZhvZ7pxxG5gKX59_iWPNYXMp0KijHpt2t4579EEU4jTOt64XhB9iDy2VhDtFCbKQOD4PTFK87FwTnWtZ-j21-LNsovFv6BJCyUWVRQXSg3PYNMOefT4cZ8qMNZm4H4RpLsnCQNEdwC0N4ezdjvhjunaHAG4qvsVC_WnyUDGLmgX0esVgeT5MSf8Ep6CmE6DjUMR&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La Policía Boliviana detuvo a Roger Mariaca en una acción directa, en el marco de una investigación por una presunta estructura criminal vinculada al tráfico de susta… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_reduno",
@@ -546,30 +547,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sFB26WYsT30Q7kNvwGlwW5L&_nc_oc=AdqPN8G8-LcXuW1x-MjR0lF3XRIQjjLyIFd1i2KSdoTtmBuEPuOlvZKlPZUH4sKJE9Y&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=KNw7Blzy9bGZF8btxrfJfQ&_nc_ss=7f289&oh=00_AQOD8gDafhAxpZ9z5NSxQtUJ9blBApDtQPn6YBs0zVSKIw&oe=6AC3EBF3",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "turismo",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/fcbcb-l-presentaci%C3%B3n-de-la-revista-piedra-de-agua-n%C2%BA39-y-homenaje-al-maestro-car/1858054125413748/",
-          "has_image": true,
-          "text_preview": "#FCBCB l Presentación de la revista Piedra de agua Nº39 y homenaje al maestro Carlos Seoane Urioste La música también guarda nuestra memoria. En una emotiva jornada, la Fundación Cultural BCB... #FCBCB l Presentación de la revista Piedra de agua Nº39 y homenaje al maestro Carlos Seoane Urioste La música también guarda nuestra memoria. En una... #FCBCB l Presentación de la revista Piedra de agua Nº"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid086NEUAFMLpmrYKWE3P4nSZ6cuc4YcTayxB28eKuroJ8JfZeUF9EUCT5RaJE9NhRpl?comment_id=2147365509493653&__cft__[0]=AZh3h0xYpA-sJGjDDo3lMLXr592ku-jdqpX9vKRjEmngQPbDKS1hf5xjBrpAh_QUiUHXVIyJuAhM13EtvhSwe_G4HgZ84_WFLTpICE2E5S2r_B3D7t61ZfFwMC9F4g2GOYkyxBRM7ocRX1Lp7P9M3aybbEJwaBSMwd4umVTgfFbqZ-kuNHrVYzPMEcA&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Merecido homenaje a un gran músico Alfredo Seoane Flores"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -733,13 +717,30 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q4PY9QBCNHQQ7kNvwHRWRoN&_nc_oc=Adqi51RiYy7BoRmxxX8_v50rg-j3yNaiFc6xvFfc9jYCHVL_ogvMs5rxs5u9hcBHcSE&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=aatYo0VChgl8ufEFawv39Q&_nc_ss=7f289&oh=00_AQOrdRhInkgj-Pq375-OGqbsYPjNaoIuIYEMnIDznayQJw&oe=6AC485A8",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/1818146722540894/?__cft__[0]=AZi7auTSUnYQwSmhsRXKFdtQwpyfMzqdJ6shqFvPZiEs0SwWzWhNyu3Z-Bi_cSRDfaM1xb0Mz_2GFPOzfw0DBgc4YGDEqjG-VQGHq76JUGNwcNTot4qsZtiQx70pUhwIt2sjdGSr7e8piFqdG2xAmOjf_sWJv_K613M1U9a8GQ1DNIn46EsZSXmy13IA3M-lRxg&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "No se olviden el éxito de una plantación para el prediciendo y crecimiento es la protección y el riego Tenemos problemas para reproducir este video. Más información Ver más comentarios Willians Alberto Molina Cardozo"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/1818146722540894/?comment_id=28382574831365237&__cft__[0]=AZi7auTSUnYQwSmhsRXKFdtQwpyfMzqdJ6shqFvPZiEs0SwWzWhNyu3Z-Bi_cSRDfaM1xb0Mz_2GFPOzfw0DBgc4YGDEqjG-VQGHq76JUGNwcNTot4qsZtiQx70pUhwIt2sjdGSr7e8piFqdG2xAmOjf_sWJv_K613M1U9a8GQ1DNIn46EsZSXmy13IA3M-lRxg&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "No se olviden el éxito de una plantación para el prediciendo y crecimiento es la protección y el riego Willians Alberto Molina Cardozo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_trinidad",
@@ -886,22 +887,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/800282934_1555200746648138_3346541214021725616_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=EovuKGS7PFMQ7kNvwEYMzCI&_nc_oc=AdpiN-k8RYD2gu1TR4ZIslavAWrM36r7qRPXEls9RGCyXzsacZLsS-xk4gFs7SMcAgg&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=PIB0oi-4A5gv8XEL4nFupg&_nc_ss=7f289&oh=00_AQMzmLSxFI2j4MenY18I3MUg0q2yHJRkeKInU_JGHm7IXQ&oe=6AC41FB8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/feicobol/posts/pfbid024VZD5SJ6sTcKCuqm9sXvXvKq4cG782kMMp1P5bS9VPFwfoJ5c6zzkK7K9m1TDVhql?__cft__[0]=AZgqHgkoKyFWrTUHSY0_hNDyLd-TJz3suceYSFQUk45Ips6j5WrXYZQwcLI5D1J_lVfWkgPw5tMAcUoyLufgVtV4cYJ_yMCvvUeI1mxxckjhwHswkMLMy6AtZIIHrDZe6kIGIy9K5S_AxOKsCfcE4RRowbcnK5c_fJZlGclG6DmrI3BWuq-nSWVMD0o&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "FEMIC 2026 será el punto de encuentro del sector minero e industrial en Cochabamba.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -929,13 +921,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Qe_CvSoS-AYQ7kNvwEyYqSY&_nc_oc=AdoeR5g0MwATtuGGH-HLIzD_UKCAK_GgmushnXN1cTFYH8-PSwCh7D7QsulQxhlI_ww&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=KqTE01QLwr82NdOX0teMqw&_nc_ss=7f289&oh=00_AQMWdgWdpMYu8p0jHmK4KuAQpP5ibpOqjPKVqMcLt-ApKw&oe=6AC45D47",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/agenda-cultural-octubre-2026-aflapaz-cultura-octubre-lapazbolivia/1545216080980243/",
+          "has_image": true,
+          "text_preview": "Agenda cultural - octubre 2026 🎱🎃 #aflapaz #cultura #octubre #lapazbolivia Agenda cultural - octubre 2026 #aflapaz #cultura #octubre #lapazbolivia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1065,22 +1066,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9gyW26JVHVsQ7kNvwFdY0Hm&_nc_oc=Ado6DThFxe0zMZyrGuQ4-C7x0r5mxDYI-fFeNgcRIYWdmWJSn073SrLKNoiGL3eKfq0&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=BFunJY5U80ExH82o-5Ko8Q&_nc_ss=7f289&oh=00_AQMRDS0f0l9WPDH92VXyCbY_xAqGuR2ir7xi7zzSOBw-Cw&oe=6AC40A15",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid0roaadGuDYvPhQxG4Q7go6tFCmm4VzDNnZe5GHCu5rRE6vgEPJDjHxxzvnfFvxAddl?__cft__[0]=AZgfXOgkWiNtUH31FMlB0jGpReuKZ1o1cUk4zaKwekgxnifXpKx7dYmRB5_0Yq4yBXVO4l_-O-jvOl-bKbDKODHGjdzcVps3_xoGL9IcVUXgg35nidSbYLl0GbhEZvfWqz7OF-9sBkiDyNHvnEPKCA-hYslPTfsYPTXUypzkgIHcmjPcOdaXGr_-xM0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "OCTUBRE: IDEAS, HISTORIAS Y CULTURA EN MOVIMIENTO Est… Ver más OCTUBRE: IDEAS, HISTORIAS Y CULTURA EN MOVIMIENTO Est… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1092,12 +1084,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de Sucre 9,3 mil seguidores • 48 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a'"
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1410,20 +1402,20 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
-          "category": "exposicion",
+          "score": 8,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "30/09/2026 Salud Estudio identifica una alternativa más corta para tratar el Chagas Treinta días en lugar de 60 y una toma diaria de benznidazol, uno de los medicamentos utilizados para tratar la enfermedad de mal de Chagas, en vez de dos. vista 29/09/2026 Ciencia El Tilcayo entra a la Photo Ark de National Geographic y entra al archivo mundial La imagen del Tilcayo, el felino silvestre recienteme"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 28,
+          "score": 48,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1431,11 +1423,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 10,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Arte: llegan “Expresiones femeninas” Ver más 3 Ap"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1535,8 +1527,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 30,
-      "events": 30,
+      "raw_items": 49,
+      "events": 49,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1586,8 +1578,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 0,
-      "events": 0,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 61,
-      "events": 61,
+      "raw_items": 47,
+      "events": 47,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1620,8 +1612,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 0,
-      "events": 0,
+      "raw_items": 3,
+      "events": 3,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1654,18 +1646,10 @@
       "city": "Trinidad",
       "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
       "status": "ok",
-      "raw_items": 7,
-      "events": 0,
-      "rejected": 7,
+      "raw_items": 6,
+      "events": 1,
+      "rejected": 5,
       "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 36,
-          "category": "turismo",
-          "url": "https://beni.gob.bo/category/cultura/",
-          "has_image": true,
-          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 26/09/2026 RURRENABAQUE VIVE EL TURISMO Y LA CULTURA CON UNA GRAN ENTRADA POR EL DÍA MUNDIAL DEL TURISMO El gobernador del Beni, Jesús Egüez Rivero, participó en la entrada estudiantil realizada en Rurrena... Leer más → Cultura - 26/09/2026 GOBERNADOR JESÚS EGÜEZ INAUGURA EL FORO SOBRE MERCURIO,PECES Y SALUD EN RURRENABAQUE En el "
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 30,
@@ -1681,6 +1665,14 @@
           "url": "https://beni.gob.bo/departamento/agricultura",
           "has_image": true,
           "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 42,
+          "category": "turismo",
+          "url": "https://beni.gob.bo/blog/rurrenabaque-vive-el-turismo-y-la-cultura-con-una-gran-entrada-por-el-dia-mundial-del-turismo",
+          "has_image": true,
+          "text_preview": "RURRENABAQUE VIVE EL TURISMO Y LA CULTURA CON UNA GRAN ENTRADA POR EL DÍA MUNDIAL DEL TURISMO Cultura 26/09/2026 Por Gabriela Claure M. 22 visitas El gobernador del Beni, Jesús Egüez Rivero, participó en la entrada estudiantil realizada en Rurrenabaque en homenaje al Día Mundial del Turismo, una jornada que reunió a estudiantes, autoridades y familias en una celebración llena de cultura, tradición"
         }
       ],
       "error": null
@@ -1755,14 +1747,14 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 4,
+      "raw_items": 2,
       "events": 0,
-      "rejected": 4,
+      "rejected": 2,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 18,
-          "category": "taller",
+          "score": 24,
+          "category": "concierto",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "pago qr Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitidos para esta nueva gestión: Resulta"
@@ -1774,14 +1766,6 @@
           "url": "https://www.uto.edu.bo/la-jornada-de-museos-abiertos-promueve-el-patrimonio-cultural-con-el-museo-nacional-antropologico-como-epicentro/",
           "has_image": true,
           "text_preview": "El emblemático repositorio, ligado al legado del arqueólogo e investigador orureño Luis Guerra Gutiérrez, encabeza las actividades de preservación y difusión histórica Oruro, septiembre de 2026. — En el marco de las celebraciones destinadas a la revalorización de la memoria histórica y la riqueza patrimonial de la región, la Universidad Técnica de Oruro (UTO) , a través de sus dependencias cultura"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "taller",
-          "url": "https://www.uto.edu.bo/la-feduto-y-el-ceub-impulsan-curso-de-formacion-de-pares-evaluadores-con-enfoque-teorico-practico/",
-          "has_image": true,
-          "text_preview": "El proceso de capacitación fortalece las competencias técnicas del estamento docente para los procesos de evaluación y acreditación del sistema universitario Oruro, septiembre de 2026. — Con el objetivo de elevar los estándares de aseguramiento de la calidad en la educación superior, la Federación de Docentes de la Universidad Técnica de Oruro (FEDUTO) , en coordinación con el Comité Ejecutivo de "
         }
       ],
       "error": null
@@ -1807,7 +1791,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 15 horas Noticias 59 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pre"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 23 horas Noticias 74 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pre"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
