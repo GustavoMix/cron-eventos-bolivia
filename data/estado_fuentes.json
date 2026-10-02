@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:55:22-04:00",
+  "generated_at": "2026-10-02T18:16:25-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 94.6,
-    "horas_maximo_sin_datos": 1042.7
+    "horas_promedio_sin_datos": 92.4,
+    "horas_maximo_sin_datos": 1047.1
   },
   "sources": [
     {
@@ -384,30 +384,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ub4YjyppA2MQ7kNvwHGz0EJ&_nc_oc=AdpmSI0BnndE0ROXKNGUYW20b9aDh6YXEFpLg1cAen_au1yMwd8h_nuciEDfnhDuyow&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=XHPqWUol30SXMD-LID2UFw&_nc_ss=7f289&oh=00_AQPrLYu6UW3JTMql0cmHfJWZBF_hvgEMrGPVwHXBfHBo3Q&oe=6AC5A7A8",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1026909050409029/?__cft__[0]=AZhVPnr0MCoVkzyOn4_5tfTcucipEjajU60ErTmVVlCw3V2lBGy8NLIv4JLutRvqhsqUY5CCUXzjLnihE0QkVm-T5CSXC2ixeM4ml9_m_6iy9S6fzh2XsGlgGJxg1qvZTUP8icvFVpezA4B6yhscVAuKjvtjgnpTIaBkiOCHlDuL72thqKudDhVUY2Bn7eXusFZB&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "El activista del larismo Gabriel Mamani convoca a La Paz y El Alto a unirse para \"defender al vicepresidente del pueblo\". Esto después de que Edmand Lara denunció presu… Ver más Si cojud*....... Jajajaj Tenemos problemas para reproducir este video. Más información Ver más comentarios NoMa Ba Ro"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1026909050409029/?comment_id=1626837992521058&__cft__[0]=AZhVPnr0MCoVkzyOn4_5tfTcucipEjajU60ErTmVVlCw3V2lBGy8NLIv4JLutRvqhsqUY5CCUXzjLnihE0QkVm-T5CSXC2ixeM4ml9_m_6iy9S6fzh2XsGlgGJxg1qvZTUP8icvFVpezA4B6yhscVAuKjvtjgnpTIaBkiOCHlDuL72thqKudDhVUY2Bn7eXusFZB&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "NoMa Ba Ro Si cojud*....... Jajajaj 8 min"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_el_diario",
@@ -588,13 +571,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Sft09UdoNIkQ7kNvwHzWeG2&_nc_oc=AdoxUV6iDHTarRULRUAdw71JPbWeEbv__1ZW_Sh83bemLmoNqvIFAC1Rw4mNFosSaX8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=OJ1AGebb8dyAqiKqy4kxbg&_nc_ss=7f289&oh=00_AQNswo-muXaQsH9tH2KPH2wtD0hU94mI0EFndz3Joxi96w&oe=6AC60796",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid0cuW11rUtwDem38ZsNmcxja9NF9ZSD1XKVb7fNmPckRTJsKVtLkTeRiUib1nzBAUhl?__cft__[0]=AZjQ1QG0AilCaIoXg-jAa_u44pGcLa-tlRBtaXxqNmX4PDqg5v_RE5MK49o4XYwZuWPpkeHj0x01-_UEfpqB1sr58D2RgIG93xxX4cIlB8gDSyf58L3wFRCvkBqT6wX59ED5Ex63uUfqoCuOVyEopUTgLu1VsBx_BYcO5IfV-6g2oUV0EwlmqZ5ICRk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Octubre en el CCELP de AECID E… Ver más Octubre en el CCELP de AECID E… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -605,22 +597,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7J1yyk8T9BAQ7kNvwGfjYVo&_nc_oc=AdqYGH7WugLMmO-FoJpCWQxAC27v0-BvFIu1mxilgpm7hp3QyBldJ1VnMkVgLAHIXjk&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=BETz1tZkdxCtTBOGmbzGbg&_nc_ss=7f289&oh=00_AQOcNi61VTkSE0hn1Y9ihAsrlCmw9-IGp8ElDHhbhfEeBA&oe=6AC5D507",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/2581420152332653:2581420152332653?__cft__[0]=AZiWNLoeHVXLioaoBTfKtONvJ7IMeBzmtyShPBVYpTPgzfcQmWUG1j4qjffz_cHvaSKMYLr_1N_iHnOUX2rGr9HiipkiqOlAOlzxB6-crL4BmI09H7lUZBYEH_esa1DKNpXQqdEgIEdg85wXAh8i1sbBNybVH94Y6SCYciwnRI8KBdLMcyHfhHqtPjD-PQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Museo Nacional de Arte - MNA actualizó su foto de portada. hace 4 horas 4 h Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -716,22 +699,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/825268331_1566206292218769_2089631799181004071_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3Vg2qiVu0kMQ7kNvwEZ7Lla&_nc_oc=Adpvpna0Z0wBVrDRpb6pGbmmpmkSx7i5NMYhiAPzI2zUrYvgtokrEJLfWY-KrBCyPAY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=OdyZg-CUnmiOTD46pCvI2A&_nc_ss=7f289&oh=00_AQP3wr109og3MUZhpvv0ZclWy0KLev_NdgdIi9mhG3wkKw&oe=6AC5C543",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/fam.org.bo/posts/pfbid0J4R8XMLetBs56hgUZrm3BLTsRLWs1WsSitSKShe9XynxKPVkUKmMpnB8oJiDACUyl?__cft__[0]=AZjnp8fBthuL2A_dPT_12G-t2CX4ZvMYyXzFRA4K_coivfLIAY5eHAkumTnk2qDdrmx-oHt-UIp7m306bLoLrNGKSSjQ45iNo3UL6lDD8L91NFjVUGOcn9H8Yo7hYCG6mYhXhuT1XB5MxRvyuViutHOfohic9e5t-tRCA-_fDQehKyXSB3RPvRZzdNY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Homenaje a Víctor Paz Estenssoro E… Ver más Homenaje a Víctor Paz Estenssoro E… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -759,13 +733,22 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ODnJSKA6AIsQ7kNvwEEWk5S&_nc_oc=AdrNXuCzOS-hDeTP3P7LSDenSps79syN5GM8PBnXyBDFaJyiboUXzzvkB6SvOrm37Oc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=6591h3G8eyn1NbbAsDC9SA&_nc_ss=7f289&oh=00_AQPFB-c5i8XXv92i547lPZJDvb0jg-anfACjvf6v-6ABQA&oe=6AC60FFD",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1493035929382085/?__cft__[0]=AZge08P_hWu2vSUiY-qFkSTxmDAwPRHnsEj_ya2DGMI7nsOmij15XYZOQRCGWJx_aaUN8rTnJDjaBu3E6GC9NjveUH8ORp0Q4B_-BxWRy5XEz3hCIO63OeQIxwm4Y4u4xZ54CDKXUG9LjPmSXvg76Sq3ovLnG_HASRq4Gnp-a-o50yR1NhFZ10eBci4S4VqGR39x&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "SERVICIOS LEGALES INTEGRALES MUNICIPALES (SLIM) PROMUEVE LA NO VIOLENCIA Y SOCIALIZA LA LEY 348… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_cobija",
@@ -963,13 +946,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VEZrJLhF-r0Q7kNvwEBctix&_nc_oc=AdodUVS1WGJ-AAxVgyKR6kmXskKRAPIpt8D0TF4XXFfvccTiISl4heJY9oCxa7DGv8M&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=ANKRWAqHcpVoFd20v_oYYA&_nc_ss=7f289&oh=00_AQPEcZFJfOXMobpnWaDV1cMyXoMU71EXR0C24lNmjIshOA&oe=6AC611C7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid02vfnevbkZjwuHYLEBrMRU8TjECNXXFXrUEyERJ1TUz7NjZtjEfxay8N7VZFUaUcnNl?__cft__[0]=AZhWaaj_CXZCaNG9CUM-ZNb-OO_9N0Ll5FYEHOxyloGy3FTQ94RSXEcMqGwdFPh7RfHgXxxx8CLPr7x9V_YcaiCklFs43UW5aD-PK5Q2HB8X60lRemULkZESDQlpuqLhdAUvYLB21SRhzsSbJzTF_wumYMJ2n28MWmtbEuSxG0bYhUDyJMesoX_UQvk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La música nos conecta, nos emociona y nos une. Hoy celebramos ese lenguaje universal que no necesita traducción para llegar al corazón. … Ver más La música nos conecta, nos emociona y nos une. Hoy celebramos ese lenguaje universal que no necesita traducción para llegar al corazón. … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -997,13 +989,30 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZXywJzbt-_EQ7kNvwFQZwfR&_nc_oc=AdpbmT1uMddHUL_5C4M87ywXaYz9fx8yhq-mVk2gBLmvOXggrBIFVqpWDs3lSjJ6Zrs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=SvC5cluwmdYW9cYZnroAyg&_nc_ss=7f289&oh=00_AQPFfgse_ozrfAPXH9IZm25qCB9T-DPv3dYF0MZohvAlQw&oe=6AC6033D",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 10,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/reel/28579997728327458/?__cft__[0]=AZifm9oIVDHsX5sb-Citx7w2TQ-eFdiINTlhOPwKkUYI6EzkUC12xsJZamwB5qWXrJ1sYPvn5P0Y6OcRQLp6x78Os7bcopca6kNR4iGtOyrbdL96-WNSByw7L_eX1DqcyhZpDUlQDPWwGCWRbDiVNNdJqkCXwHcGeP4oPaZkMmWz0UT83otWC9y7_t6_Anc0nUDe&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Anoche fue la inauguración de \"Momentum\", una muestra que nace de la complicidad y amistad de Patricia Gutiérrez y Nicole Vera. Sus ideas se encontraron entre la palabr… Ver más Anoche fue la inauguración de \"Momentum\", una muestra que nace de la complicidad y amistad de Patricia Gutiérrez y Nicole Vera. Sus ideas se encontraron entre la palabr… Ver más Gracias Casa Melchor Pinto por tanto amor al"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/28579997728327458/?comment_id=1198337782634367&__cft__[0]=AZifm9oIVDHsX5sb-Citx7w2TQ-eFdiINTlhOPwKkUYI6EzkUC12xsJZamwB5qWXrJ1sYPvn5P0Y6OcRQLp6x78Os7bcopca6kNR4iGtOyrbdL96-WNSByw7L_eX1DqcyhZpDUlQDPWwGCWRbDiVNNdJqkCXwHcGeP4oPaZkMmWz0UT83otWC9y7_t6_Anc0nUDe&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Gracias Casa Melchor Pinto por tanto amor al arte, por la energía desbordante y la magia !!! Patricia Gutierrez Paz"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1150,22 +1159,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Z15MVfJ9SXcQ7kNvwGhzmFx&_nc_oc=AdqEi32s2mBcyCQA5lZufD4VTEDexi2O69tAt4MdSRB5JSVV1q59E_qqIEs3p56CSh8&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=BMYcLHZt3-QKyMEYJWMgKg&_nc_ss=7f289&oh=00_AQNc58wMI3v8AcZmcVTAPS3V5xtDz9dU3Fvqph_KGhaeWw&oe=6AC5CFA0",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid0E9b2SQkkfFR7bQXZBB9rYCLHzSR8ka96Aw1pbdW3PskMFpBUVRbhYVdAK2zAPLVCl?__cft__[0]=AZgRXizVxVsMeYrjdu_bg50ZMUF3Iu606L88sMo_lhF9rYQ9RsyGLJs6jkN5GcJyfKw1pv3g7NcMafoKaKJzAGQJd2-l9vWh6WhF4EGIpp9MW6UjMJcKGwmSKDT54F7Zi99r5TLQZfC821GGbpehAY1MkaduLNNtjNLSNt6l3oFah87MOdyvQksHmCw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "USFX Y SAN LUCAS FORTALECEN SUS LAZOS DE COOPERACIÓN… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umsa",
@@ -1423,8 +1423,8 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 36,
-          "category": "teatro",
+          "score": 18,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "02/10/2026 Cultura Premio Nobel de Literatura: sin listas oficiales y bajo un estricto secretismo Si hay una certeza acerca del Premio Nobel de Literatura, es que no tiene una certeza. Es el galardón más impredecible del mundo. vista 30/09/2026 Cultura Arte: llegan “Expresiones femeninas” Desde ayer, el salón “Mario Unzueta” (25 de mayo esq. Av. Heroínas) alberga la exposición “Expresiones femenin"
@@ -1493,9 +1493,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 29,
+      "raw_items": 31,
       "events": 0,
-      "rejected": 29,
+      "rejected": 31,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1603,8 +1603,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 51,
-      "events": 51,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1799,7 +1799,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 2 días Noticias 111 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 2 días Noticias 137 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
