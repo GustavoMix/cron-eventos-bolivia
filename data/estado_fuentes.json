@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:50:23-04:00",
+  "generated_at": "2026-10-02T05:48:12-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 94.5,
-    "horas_maximo_sin_datos": 1025.7
+    "horas_promedio_sin_datos": 96.0,
+    "horas_maximo_sin_datos": 1034.6
   },
   "sources": [
     {
@@ -61,13 +61,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MQ0TMh6c91MQ7kNvwEeWdZE&_nc_oc=AdpK9GfZ8NI5WJMueZ-ynth_AxB3JVA3CMtYMs3K1nES2TZTLRJoaNG8rtUeCU8UsAQ&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=w1AUQY3t3Ne_q43_dJhT_Q&_nc_ss=7f289&oh=00_AQP42DwwnZqGCfxQRJlpkJNwLG0lDZUGwBe9tDDiTvihfQ&oe=6AC537F6",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZi96WPvqAIP6K-yIYxDMRZwPb7bMZmsFTFNNWEZ86zkwu1HPVSYDYB8Z8c4qeu5KzBYfRsxv9HqtzN1-M_boV1B1FMGoDidsdJGtqxVXE2ucpg3whzS-qqhK2eyTCOtvbHZL2jb662YgJVKw9N69Xjx_vZqSTuQQmDJxuzBBY5-4wR77pA99rKAmV_hBNtrdZOb&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZi96WPvqAIP6K-yIYxDMRZwPb7bMZmsFTFNNWEZ86zkwu1HPVSYDYB8Z8c4qeu5KzBYfRsxv9HqtzN1-M_boV1B1FMGoDidsdJGtqxVXE2ucpg3whzS-qqhK2eyTCOtvbHZL2jb662YgJVKw9N69Xjx_vZqSTuQQmDJxuzBBY5-4wR77pA99rKAmV_hBNtrdZOb&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -486,38 +503,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mKDy_nTTLGgQ7kNvwF3UO7h&_nc_oc=AdpnIpxX8QWOx1FwfMtbs62xHOKoOmQ4Gt295UazrFbRUXUMPEFFIxtBk0tqRwt7ZLg&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=reQgyyA17h6_7_rfpIlu4w&_nc_ss=7f289&oh=00_AQNj-6hYAGQ05rSRXsKC7yTDSMjAmKhHx9JpdU9lSFsruA&oe=6AC4EB69",
-      "status": "ok",
-      "raw_items": 5,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 5,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "deporte",
-          "url": "https://www.facebook.com/eldeberradio/videos/1773172960670351/?__cft__[0]=AZj8RzJMNgr502xvphuMZRpzbvZ8JUwbpmcyF0FFG8QsBb8VMuumTV-qcciTnYH7t0DlyElUVGUywOdbfmidDuODQG26zHB8LaZwwfCmJ94eha1NOIJl1Sdiyu0nlEZ2VRW9BHKvQ_TW1y4yYcQwEF3Eqsaa3XN_J6T8lCrb_LG96KQsQkB1UcsNkB33tWO_HRg&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Didi Torrico conversará en exclusiva sobre la actualidad del fútbol nacional, su presente y los momentos más importantes de su carrera.… Ver más Un gran crack estimado amigo Un gran saludo estimado Didi amigo Un gran saludo desde asunción Paraguay Un gran saludo amigo Didi siempre Tenemos problemas para reproducir este video. Más información Everdany Justiniano Charupa"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1773172960670351/?comment_id=2431129984088978&__cft__[0]=AZj8RzJMNgr502xvphuMZRpzbvZ8JUwbpmcyF0FFG8QsBb8VMuumTV-qcciTnYH7t0DlyElUVGUywOdbfmidDuODQG26zHB8LaZwwfCmJ94eha1NOIJl1Sdiyu0nlEZ2VRW9BHKvQ_TW1y4yYcQwEF3Eqsaa3XN_J6T8lCrb_LG96KQsQkB1UcsNkB33tWO_HRg&__tn__=R]-R",
-          "has_image": false,
-          "text_preview": "Un gran crack estimado amigo Everdany Justiniano Charupa"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1773172960670351/?comment_id=2160852328116573&__cft__[0]=AZj8RzJMNgr502xvphuMZRpzbvZ8JUwbpmcyF0FFG8QsBb8VMuumTV-qcciTnYH7t0DlyElUVGUywOdbfmidDuODQG26zHB8LaZwwfCmJ94eha1NOIJl1Sdiyu0nlEZ2VRW9BHKvQ_TW1y4yYcQwEF3Eqsaa3XN_J6T8lCrb_LG96KQsQkB1UcsNkB33tWO_HRg&__tn__=R]-R",
-          "has_image": false,
-          "text_preview": "Un gran saludo estimado Didi amigo Everdany Justiniano Charupa"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fides_cbba",
@@ -681,13 +673,30 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FnUZTIOmsk0Q7kNvwFQRhZV&_nc_oc=AdqnwZt7FeRbGHYsTUIH3HntT-fXWOwzYDGeAg-Up5HmzYg0fYRuAnXYEXbKrt9ct8M&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=0Iz5cJx7DG58aJGnTomVRA&_nc_ss=7f289&oh=00_AQMVjQtKOgfNwTNXWCYmZjzDAR812B0Bn3Ho9CGjQIiU6Q&oe=6AC55278",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/posts/pfbid0npbps6v5jB8KV96o9A18LdkSX6owoDbgdD9rNW1a9WJx7uVcUf3ZEWeM6hRVJdZul?__cft__[0]=AZhvc5yoRrEXoghbj3zc802fF6BxXiHHAzeEgJc38x3HWIuAb6CTpxTfgmGA7RVGRwz4YcrxeIkx1wxCKwX7uABzkt3tZDCjFaZo-gjP0yX6VwbWA42Mv_QjkLoZfubdYKrkKzh7jkgDQQ_kYbaW_gNP8sUPK9G7o1MPulsVkM7_rUQ4rfo-QP06lwVXMwcFLvE2RyaKh6Jcsor8uzo&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡DIVERSOS SECTORES SE SUMAN A LA NUEVA TARIFA DEL TRANSPORTE! La Junta Distrital de Padres de Familia y la Asociación de Directores de Unidades Educativas, así como l… Ver más LA JUNTA ESCOLAR DE PADRES DE FAMILIA Y LA ASOCIACIÓN DE DIRECTORES RESPALDAN LA NUEVA ESCALA TARIFARIA DEL TRANSPORTE PÚBLICO … Ver más ¡DIVERSOS SECTORES SE SUMAN A LA NUEVA TARIFA DEL TRANSPORTE! La Junta Distrital de Pad"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/posts/pfbid0npbps6v5jB8KV96o9A18LdkSX6owoDbgdD9rNW1a9WJx7uVcUf3ZEWeM6hRVJdZul?comment_id=1576096480984573&__cft__[0]=AZhvc5yoRrEXoghbj3zc802fF6BxXiHHAzeEgJc38x3HWIuAb6CTpxTfgmGA7RVGRwz4YcrxeIkx1wxCKwX7uABzkt3tZDCjFaZo-gjP0yX6VwbWA42Mv_QjkLoZfubdYKrkKzh7jkgDQQ_kYbaW_gNP8sUPK9G7o1MPulsVkM7_rUQ4rfo-QP06lwVXMwcFLvE2RyaKh6Jcsor8uzo&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Rafa Sun Es un precio razonable. 8 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_oruro",
@@ -868,22 +877,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XNcdH0hRo3sQ7kNvwFOCnSY&_nc_oc=AdoX8c3Vcdh_tQjCZGVJLImy1h3gNVUzwUF0JFCWUUVm11y8N2uwlan3J5lKilGc-vc&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=hfe5CQqke4QTRuxy5dFk5A&_nc_ss=7f289&oh=00_AQPd0b1_A09WesESsFXeQxQlEpIxjU6O80SZr4k8HHCwAg&oe=6AC4CF21",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/884453148085700/?__cft__[0]=AZjokEd8LSDNnhC_ky-9itd_gMoiC2DIWwx9-yH3in1ILBdwdUnKqHXhK1y4d9gGgPRplI3MlooFQx1d48kdLHzzbD_PrlyEpjlQWSzI4eYKJR41AOfWKXwOZAcq_S0zlFNtpWKzlYkuhA7JJwhirAHi84SwCRlw-LS8B9vR9G0TsnSgDST1r4ZlNHQR4Ef3I_km&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Capítulo 3 | FIPAZ 25 AÑOS | Los años que forjaron FIPAZ E… Ver más Capítulo 3 | FIPAZ 25 AÑOS | Los años que forjaron FIPAZ E… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -945,22 +945,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kpO_vQYMGXIQ7kNvwEmUDjo&_nc_oc=AdrVcz8inWR0MPgwOLkUxzTM2fmY0SpzrxJUPYLrw-nlFwLHJ6a792fzhCRLbHFnibA&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=dGUPlTAwx44uWuwlNQOSIQ&_nc_ss=7f289&oh=00_AQP35B6cSrsox5xODI-gSEPgud1F6PGj6cg0peip4v6M-A&oe=6AC4D738",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/videos/1414733580075761/?__cft__[0]=AZjY7j1CtIvAB8ePlGKIgSRLUKtoBfTxBl4i0zrRNl5qJHukeR0fNei4ahKcZDoAx_JbY7qUBSqA1DGw20ecGcqrMfuQSLzj5u2cLCeXp4w2LUuprLcHjM8p9zOorQpmyWELb9SxDjnUgE_eMqjuLYuHzAIh4HU7BFrMEKmx8q1hcCE2jLcbRvYyavFMyN1OaYY&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#ENVIVO | LANZAMIENTO DE LA CAMPAÑA SOLIDATON ROSA Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1090,30 +1081,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wa6y3-atXSIQ7kNvwE6VR7H&_nc_oc=Adoc3UzTHqbxIxcKjjwUL3LYxPXsDW0nMoF3mJYh4JrbUHHzirVpRTLodhHp9NGk6EU&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=Q1kWE8w3jn-Z6cwAlU1FXA&_nc_ss=7f289&oh=00_AQPLqlx3cqdFyO1SCEY9s4Rg4Z4vn304Y11UYf0_Zk9tkg&oe=6AC4ED92",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HP6mqvMazSBruWbZwFTiiHTYkUExMfZ9WnZjSr2ESWz8AJdsHfzm8472Z8BxnXM9l?__cft__[0]=AZgkuYq_yke9XDR8qBW-BDWlcp4HwuNIBpLkZOPlcEepLKFIZi8YqsXuDqCroNgpvbSDwUNHh3XOtCqg9aek4Csor0kWDVV4rIAyDld-NeCYqodo4doIEntv_LFxbwIOX-_NcL-wvQqrLei1v1M0OTVILjEJas72pxgkQwFJf2IBIaDHyNYw8aFKY8M&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HP6mqvMazSBruWbZwFTiiHTYkUExMfZ9WnZjSr2ESWz8AJdsHfzm8472Z8BxnXM9l?comment_id=1079850634463156&__cft__[0]=AZgkuYq_yke9XDR8qBW-BDWlcp4HwuNIBpLkZOPlcEepLKFIZi8YqsXuDqCroNgpvbSDwUNHh3XOtCqg9aek4Csor0kWDVV4rIAyDld-NeCYqodo4doIEntv_LFxbwIOX-_NcL-wvQqrLei1v1M0OTVILjEJas72pxgkQwFJf2IBIaDHyNYw8aFKY8M&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1141,13 +1115,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kYEquhK57BkQ7kNvwErU1y8&_nc_oc=AdoQKM73fULETKJceHNKVnFxqJu_MBwsPB432jaGEpxJL29cRvUtABrj3SQJwLEmyWA&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=TmD9akEseX0c5PuGHVDJqg&_nc_ss=7f289&oh=00_AQODqg7yOLPHT-9xnwr92ADRjxxt0tslfcBc9zMRHjH0nQ&oe=6AC563B7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/museocasadelalibertad/posts/1742077250198777:1742077250198777?__cft__[0]=AZji4m7QfrhvTIfpdS4RyoVBWLQcuYfaJciEi570inJd9msfxeiy1nEem29sgUL1Z9mklhdWrMivgm7Oq7McOK7aiRotCZ7I1LyJxiyVQbtsHv2QinQ2OsbM82Q2wpZtB78Emx3XRFG_unywRRAazNba90m9S2Np1efgmgfc05KSbBOB4Qj9N33wMp0zTw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Museo Casa de la Libertad actualizó su foto de portada. hace 16 horas 16 h Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1260,13 +1243,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jVVG7XMTm8sQ7kNvwE5ZT8C&_nc_oc=AdqEQ_0MKLLUu26JKnfGxdP0pA0cGy9qviUoTCBjO3-IQ_VxpyQy6TR8V4ip1GTfpUs&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=9eYxgZ6BLeYcK99L9B506A&_nc_ss=7f289&oh=00_AQP0qdrvUBV81AsYsz_vsAOIMEdVrmw_7VAMAF0_4VU-tg&oe=6AC543F8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid08d4AULy845vmbHEubrjefaqRHrQctA9AnEbh4RjeC2U28tBrXbds2bgNyZYzahk6l?__cft__[0]=AZgc9qUcOUZqx_nk23Zxzks6YBFTA7mfJss4AQQ-e2Ue2sUwtu3Ugk7iuNFdAMjwQUXf9ZIcLMPpDqV_ua0q9_QdgSjz9Fz1dljgBYRgJinROFq_79tOVkJpFXXOmFiJkaQcDc9KwAQl7n1fFIayxm0jqm3cVlaUGqvUlzozQb5HkLyN3CcFLI_mN88&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Recibimos en nuestro Universidad a Ana Guadalupe Rivas Espinoza, Embajadora de la República de El Salvador en Bolivia, en una visita que nos permitió compartir una conv… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_superticket",
@@ -1426,20 +1418,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 0,
-      "rejected": 13,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 52,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/servicios/agenda-cultural",
-          "has_image": true,
-          "text_preview": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTader"
-        },
-        {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 7,
+          "score": 1,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1447,11 +1431,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 47,
+          "score": 41,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "30/09/2026 Cultura Arte: llegan “Expresiones femeninas” Desde ayer, el salón “Mario Unzueta” (25 de mayo esq. Av. Heroínas) alberga la exposición “Expresiones femeninas”, cuya cuarta versión congrega a 30 artistas... vista 29/09/2026 Cultura La Feria Internacional del Libro apuesta por el cuento clásico La cuenta regresiva para la decimonovena Feria Internacional del Libro de Cochabamba (FILC) 202"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 13,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Oviedo: \"La Asamblea tiene la oportunidad de ser "
         }
       ],
       "error": null
@@ -1509,10 +1501,18 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 29,
+      "raw_items": 27,
       "events": 0,
-      "rejected": 29,
+      "rejected": 27,
       "rejected_samples": [
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a896a891-228d-43a6-9886-e4a9c1d16422",
+          "has_image": true,
+          "text_preview": ""
+        },
         {
           "reason": "texto_muy_corto",
           "score": 0,
@@ -1525,15 +1525,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c63035c4-a947-468c-b1ca-06b96caffb9f",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/7c0793e1-1f75-41cd-846e-97f0688014b4",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/17d93f37-e346-47ca-8142-ad6202d65c40",
           "has_image": true,
           "text_preview": ""
         }
@@ -1551,8 +1543,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
-      "events": 37,
+      "raw_items": 39,
+      "events": 39,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1585,8 +1577,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1602,8 +1594,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1619,8 +1611,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 44,
-      "events": 44,
+      "raw_items": 51,
+      "events": 51,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1653,8 +1645,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 2,
+      "events": 2,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1671,9 +1663,17 @@
       "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
       "status": "ok",
       "raw_items": 6,
-      "events": 1,
-      "rejected": 5,
+      "events": 0,
+      "rejected": 6,
       "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "turismo",
+          "url": "https://beni.gob.bo/category/cultura/",
+          "has_image": true,
+          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 01/10/2026 GOBERNACIÓN DEL BENI FORTALECE LA CONCIENCIA AMBIENTAL CON LA SIEMBRA DE PLANTINES POR EL DÍA DEL ÁRBOL En el marco de la conmemoración por el Día Nacional del Árbol, en representación del gobernador Jesú... Leer más → Cultura - 26/09/2026 RURRENABAQUE VIVE EL TURISMO Y LA CULTURA CON UNA GRAN ENTRADA POR EL DÍA MUNDIAL"
+        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 30,
@@ -1689,14 +1689,6 @@
           "url": "https://beni.gob.bo/departamento/agricultura",
           "has_image": true,
           "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
-        },
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 42,
-          "category": "turismo",
-          "url": "https://beni.gob.bo/blog/rurrenabaque-vive-el-turismo-y-la-cultura-con-una-gran-entrada-por-el-dia-mundial-del-turismo",
-          "has_image": true,
-          "text_preview": "RURRENABAQUE VIVE EL TURISMO Y LA CULTURA CON UNA GRAN ENTRADA POR EL DÍA MUNDIAL DEL TURISMO Cultura 26/09/2026 Por Gabriela Claure M. 22 visitas El gobernador del Beni, Jesús Egüez Rivero, participó en la entrada estudiantil realizada en Rurrenabaque en homenaje al Día Mundial del Turismo, una jornada que reunió a estudiantes, autoridades y familias en una celebración llena de cultura, tradición"
         }
       ],
       "error": null
@@ -1815,7 +1807,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 1 día Noticias 81 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La presen"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 2 días Noticias 90 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La prese"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
