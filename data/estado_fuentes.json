@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:33:35-04:00",
+  "generated_at": "2026-10-01T20:50:23-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,14 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alianza_francesa_sucre",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 95.7,
-    "horas_maximo_sin_datos": 1019.4
+    "horas_promedio_sin_datos": 94.5,
+    "horas_maximo_sin_datos": 1025.7
   },
   "sources": [
     {
@@ -300,22 +299,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=whgZGbpNXvIQ7kNvwHmuRVy&_nc_oc=Adrb-lu6t8jRnkKC2mAnlXdVgbEKOxV-IsMSh_nldrFlWQm2oMp97XLqs4IBR8tnWzs&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=uCime2YooZyO_FVAuCBG1g&_nc_ss=7f289&oh=00_AQPXJ4FhP32htve6BB_5fN-8qqUArzZnGSVbv92d9-AGUQ&oe=6AC4754C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1077780334867377/?__cft__[0]=AZhvZ7pxxG5gKX59_iWPNYXMp0KijHpt2t4579EEU4jTOt64XhB9iDy2VhDtFCbKQOD4PTFK87FwTnWtZ-j21-LNsovFv6BJCyUWVRQXSg3PYNMOefT4cZ8qMNZm4H4RpLsnCQNEdwC0N4ezdjvhjunaHAG4qvsVC_WnyUDGLmgX0esVgeT5MSf8Ep6CmE6DjUMR&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La Policía Boliviana detuvo a Roger Mariaca en una acción directa, en el marco de una investigación por una presunta estructura criminal vinculada al tráfico de susta… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_reduno",
@@ -496,13 +486,38 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mKDy_nTTLGgQ7kNvwF3UO7h&_nc_oc=AdpnIpxX8QWOx1FwfMtbs62xHOKoOmQ4Gt295UazrFbRUXUMPEFFIxtBk0tqRwt7ZLg&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=reQgyyA17h6_7_rfpIlu4w&_nc_ss=7f289&oh=00_AQNj-6hYAGQ05rSRXsKC7yTDSMjAmKhHx9JpdU9lSFsruA&oe=6AC4EB69",
+      "status": "ok",
+      "raw_items": 5,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 5,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "deporte",
+          "url": "https://www.facebook.com/eldeberradio/videos/1773172960670351/?__cft__[0]=AZj8RzJMNgr502xvphuMZRpzbvZ8JUwbpmcyF0FFG8QsBb8VMuumTV-qcciTnYH7t0DlyElUVGUywOdbfmidDuODQG26zHB8LaZwwfCmJ94eha1NOIJl1Sdiyu0nlEZ2VRW9BHKvQ_TW1y4yYcQwEF3Eqsaa3XN_J6T8lCrb_LG96KQsQkB1UcsNkB33tWO_HRg&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Didi Torrico conversará en exclusiva sobre la actualidad del fútbol nacional, su presente y los momentos más importantes de su carrera.… Ver más Un gran crack estimado amigo Un gran saludo estimado Didi amigo Un gran saludo desde asunción Paraguay Un gran saludo amigo Didi siempre Tenemos problemas para reproducir este video. Más información Everdany Justiniano Charupa"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldeberradio/videos/1773172960670351/?comment_id=2431129984088978&__cft__[0]=AZj8RzJMNgr502xvphuMZRpzbvZ8JUwbpmcyF0FFG8QsBb8VMuumTV-qcciTnYH7t0DlyElUVGUywOdbfmidDuODQG26zHB8LaZwwfCmJ94eha1NOIJl1Sdiyu0nlEZ2VRW9BHKvQ_TW1y4yYcQwEF3Eqsaa3XN_J6T8lCrb_LG96KQsQkB1UcsNkB33tWO_HRg&__tn__=R]-R",
+          "has_image": false,
+          "text_preview": "Un gran crack estimado amigo Everdany Justiniano Charupa"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldeberradio/videos/1773172960670351/?comment_id=2160852328116573&__cft__[0]=AZj8RzJMNgr502xvphuMZRpzbvZ8JUwbpmcyF0FFG8QsBb8VMuumTV-qcciTnYH7t0DlyElUVGUywOdbfmidDuODQG26zHB8LaZwwfCmJ94eha1NOIJl1Sdiyu0nlEZ2VRW9BHKvQ_TW1y4yYcQwEF3Eqsaa3XN_J6T8lCrb_LG96KQsQkB1UcsNkB33tWO_HRg&__tn__=R]-R",
+          "has_image": false,
+          "text_preview": "Un gran saludo estimado Didi amigo Everdany Justiniano Charupa"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fides_cbba",
@@ -717,30 +732,13 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q4PY9QBCNHQQ7kNvwHRWRoN&_nc_oc=Adqi51RiYy7BoRmxxX8_v50rg-j3yNaiFc6xvFfc9jYCHVL_ogvMs5rxs5u9hcBHcSE&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=aatYo0VChgl8ufEFawv39Q&_nc_ss=7f289&oh=00_AQOrdRhInkgj-Pq375-OGqbsYPjNaoIuIYEMnIDznayQJw&oe=6AC485A8",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/1818146722540894/?__cft__[0]=AZi7auTSUnYQwSmhsRXKFdtQwpyfMzqdJ6shqFvPZiEs0SwWzWhNyu3Z-Bi_cSRDfaM1xb0Mz_2GFPOzfw0DBgc4YGDEqjG-VQGHq76JUGNwcNTot4qsZtiQx70pUhwIt2sjdGSr7e8piFqdG2xAmOjf_sWJv_K613M1U9a8GQ1DNIn46EsZSXmy13IA3M-lRxg&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "No se olviden el éxito de una plantación para el prediciendo y crecimiento es la protección y el riego Tenemos problemas para reproducir este video. Más información Ver más comentarios Willians Alberto Molina Cardozo"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/1818146722540894/?comment_id=28382574831365237&__cft__[0]=AZi7auTSUnYQwSmhsRXKFdtQwpyfMzqdJ6shqFvPZiEs0SwWzWhNyu3Z-Bi_cSRDfaM1xb0Mz_2GFPOzfw0DBgc4YGDEqjG-VQGHq76JUGNwcNTot4qsZtiQx70pUhwIt2sjdGSr7e8piFqdG2xAmOjf_sWJv_K613M1U9a8GQ1DNIn46EsZSXmy13IA3M-lRxg&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "No se olviden el éxito de una plantación para el prediciendo y crecimiento es la protección y el riego Willians Alberto Molina Cardozo"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_trinidad",
@@ -870,13 +868,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XNcdH0hRo3sQ7kNvwFOCnSY&_nc_oc=AdoX8c3Vcdh_tQjCZGVJLImy1h3gNVUzwUF0JFCWUUVm11y8N2uwlan3J5lKilGc-vc&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=hfe5CQqke4QTRuxy5dFk5A&_nc_ss=7f289&oh=00_AQPd0b1_A09WesESsFXeQxQlEpIxjU6O80SZr4k8HHCwAg&oe=6AC4CF21",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/884453148085700/?__cft__[0]=AZjokEd8LSDNnhC_ky-9itd_gMoiC2DIWwx9-yH3in1ILBdwdUnKqHXhK1y4d9gGgPRplI3MlooFQx1d48kdLHzzbD_PrlyEpjlQWSzI4eYKJR41AOfWKXwOZAcq_S0zlFNtpWKzlYkuhA7JJwhirAHi84SwCRlw-LS8B9vR9G0TsnSgDST1r4ZlNHQR4Ef3I_km&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Capítulo 3 | FIPAZ 25 AÑOS | Los años que forjaron FIPAZ E… Ver más Capítulo 3 | FIPAZ 25 AÑOS | Los años que forjaron FIPAZ E… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -921,22 +928,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Qe_CvSoS-AYQ7kNvwEyYqSY&_nc_oc=AdoeR5g0MwATtuGGH-HLIzD_UKCAK_GgmushnXN1cTFYH8-PSwCh7D7QsulQxhlI_ww&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=KqTE01QLwr82NdOX0teMqw&_nc_ss=7f289&oh=00_AQMWdgWdpMYu8p0jHmK4KuAQpP5ibpOqjPKVqMcLt-ApKw&oe=6AC45D47",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/agenda-cultural-octubre-2026-aflapaz-cultura-octubre-lapazbolivia/1545216080980243/",
-          "has_image": true,
-          "text_preview": "Agenda cultural - octubre 2026 🎱🎃 #aflapaz #cultura #octubre #lapazbolivia Agenda cultural - octubre 2026 #aflapaz #cultura #octubre #lapazbolivia"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -947,13 +945,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kpO_vQYMGXIQ7kNvwEmUDjo&_nc_oc=AdrVcz8inWR0MPgwOLkUxzTM2fmY0SpzrxJUPYLrw-nlFwLHJ6a792fzhCRLbHFnibA&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=dGUPlTAwx44uWuwlNQOSIQ&_nc_ss=7f289&oh=00_AQP35B6cSrsox5xODI-gSEPgud1F6PGj6cg0peip4v6M-A&oe=6AC4D738",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/videos/1414733580075761/?__cft__[0]=AZjY7j1CtIvAB8ePlGKIgSRLUKtoBfTxBl4i0zrRNl5qJHukeR0fNei4ahKcZDoAx_JbY7qUBSqA1DGw20ecGcqrMfuQSLzj5u2cLCeXp4w2LUuprLcHjM8p9zOorQpmyWELb9SxDjnUgE_eMqjuLYuHzAIh4HU7BFrMEKmx8q1hcCE2jLcbRvYyavFMyN1OaYY&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#ENVIVO | LANZAMIENTO DE LA CAMPAÑA SOLIDATON ROSA Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1083,13 +1090,30 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wa6y3-atXSIQ7kNvwE6VR7H&_nc_oc=Adoc3UzTHqbxIxcKjjwUL3LYxPXsDW0nMoF3mJYh4JrbUHHzirVpRTLodhHp9NGk6EU&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=Q1kWE8w3jn-Z6cwAlU1FXA&_nc_ss=7f289&oh=00_AQPLqlx3cqdFyO1SCEY9s4Rg4Z4vn304Y11UYf0_Zk9tkg&oe=6AC4ED92",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de Sucre 9,3 mil seguidores • 48 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HP6mqvMazSBruWbZwFTiiHTYkUExMfZ9WnZjSr2ESWz8AJdsHfzm8472Z8BxnXM9l?__cft__[0]=AZgkuYq_yke9XDR8qBW-BDWlcp4HwuNIBpLkZOPlcEepLKFIZi8YqsXuDqCroNgpvbSDwUNHh3XOtCqg9aek4Csor0kWDVV4rIAyDld-NeCYqodo4doIEntv_LFxbwIOX-_NcL-wvQqrLei1v1M0OTVILjEJas72pxgkQwFJf2IBIaDHyNYw8aFKY8M&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 42,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0HP6mqvMazSBruWbZwFTiiHTYkUExMfZ9WnZjSr2ESWz8AJdsHfzm8472Z8BxnXM9l?comment_id=1079850634463156&__cft__[0]=AZgkuYq_yke9XDR8qBW-BDWlcp4HwuNIBpLkZOPlcEepLKFIZi8YqsXuDqCroNgpvbSDwUNHh3XOtCqg9aek4Csor0kWDVV4rIAyDld-NeCYqodo4doIEntv_LFxbwIOX-_NcL-wvQqrLei1v1M0OTVILjEJas72pxgkQwFJf2IBIaDHyNYw8aFKY8M&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1255,8 +1279,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 8,
-      "events": 7,
+      "raw_items": 9,
+      "events": 8,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1402,12 +1426,20 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 0,
+      "rejected": 13,
       "rejected_samples": [
         {
+          "reason": "tema_ajeno_a_eventos",
+          "score": 52,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/servicios/agenda-cultural",
+          "has_image": true,
+          "text_preview": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTader"
+        },
+        {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 8,
+          "score": 7,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1415,19 +1447,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 48,
+          "score": 47,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "30/09/2026 Cultura Arte: llegan “Expresiones femeninas” Desde ayer, el salón “Mario Unzueta” (25 de mayo esq. Av. Heroínas) alberga la exposición “Expresiones femeninas”, cuya cuarta versión congrega a 30 artistas... vista 29/09/2026 Cultura La Feria Internacional del Libro apuesta por el cuento clásico La cuenta regresiva para la decimonovena Feria Internacional del Libro de Cochabamba (FILC) 202"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 10,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1527,8 +1551,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 49,
-      "events": 49,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1561,8 +1585,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1578,8 +1602,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1619,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 47,
-      "events": 47,
+      "raw_items": 44,
+      "events": 44,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1612,8 +1636,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 3,
-      "events": 3,
+      "raw_items": 8,
+      "events": 8,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1653,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
-      "events": 2,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1787,11 +1811,11 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 47,
+          "score": 37,
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 23 horas Noticias 74 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pre"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 1 día Noticias 81 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La presen"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
