@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T07:41:29-04:00",
+  "generated_at": "2026-10-03T12:20:52-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,11 +12,12 @@
       "fb_gobernacion_lapaz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 92.4,
-    "horas_maximo_sin_datos": 1060.5
+    "horas_promedio_sin_datos": 94.3,
+    "horas_maximo_sin_datos": 1065.2
   },
   "sources": [
     {
@@ -131,12 +132,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -249,22 +250,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mW-RZB4Xp8IQ7kNvwELc3a9&_nc_oc=AdojJOZSdPTevb6x8-pZ27h8gtHAnNM4MCgtpnBwsrBx2wKk9PD51OnIK3CvNf3xfpI&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=V9HnM7OoI_k76Qqv5Gz97A&_nc_ss=7f289&oh=00_AQMp5IZg9wqNBhoh95KqIrbNGbjOmqv9VWNIrLnouPcWRA&oe=6AC6A23E",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid0Swzpk9SfiVtS4zvA2BsYcQonNnzyh6YGddzRac1vWcjsJuftoVaSXkyPTmw67zgUl?__cft__[0]=AZj8q9N0zP6JU1OSnxpfN7dv6qs_j2IlreCcSBt8IB7w8lMRnzGe6-CK50Ei8kmxDHOpwoopC8g8NgeyzFeiej0zmIAICNX_zbYvCLk3cD-YnYNOu7Abs4wSwn0wFCwoZWmT0c-bir8c_k4Uv_SyiMKj1W4ZFVoWMr6NSnB2Czzb8vHVt-rFhmbG6JU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Santa Cruz se prepara para hacer historia!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_lostiempos",
@@ -564,13 +556,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TRWZzqUNzL4Q7kNvwFKoWHG&_nc_oc=AdpTUEv24EVE62UZev8D1Q8kdvJPqwvvhh_63vbK36a_GIfL-0D60pVORRkg9gDIoPE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=GfxAxItqY6y8PvZsrQTF1A&_nc_ss=7f289&oh=00_AQP4CUWtuCmI23xVknOq4KQYTQY2Y6RX2Qt8-fkQT05ccg&oe=6AC71773",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/3224158314457302/?__cft__[0]=AZix5glkJolFBnmBbE8LPzQ8VcU-3WqvbNSEucwok7LkhdcGJEEoWjO7U-_gzbL2_-z3fcBhOjIAQHEu07GDBIgEXPrR1gLEmWzn1jmS_lfBFXSzjoK3FpPSQnjBDMYTtPYoCQrJz7zsWTyqjWxz1OyWB_EY0mXx02n1HPKpXtbxolc_HJ_fB2NL7hc59HJcLuHR&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La magia está a punto de despertar… Andrew Garfield y Claire Foy llegan junto a una aventura extraordinaria donde nuevos mundos, criaturas increíbles y secretos esco… Ver más La magia está a punto de despertar… Andrew Garfield y Claire Foy llegan junto a una aventura extraordinaria donde nuevos mundos, criaturas increíbles y secretos esco… Ver más Tenemos problemas para reproducir este video. Más "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -632,22 +633,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VevJo1eJXJ4Q7kNvwEx0Lo4&_nc_oc=Ado6M0jMhrxgLPs65TewynviECht2dc7W7iP7Apsk9nbN7Kz7b6sULid8vs-jQtcrHM&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=_hE1LbdM7eJrLYjPnUUAxQ&_nc_ss=7f289&oh=00_AQPSoB5IGePjjF2VyJImsnPczlx66dD4Vzyd_nJFtIjMbw&oe=6AC6D18F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/1564306451675029:1564306451675029?__cft__[0]=AZgJX5iv3-Fk2wE64hWU0g9ON8TxR6-4c_AbheeN1TEkoTMvSZKIHQcyRPTcWe-gD_QRQwq8JxjpStXlz6mBRFxuuSFfKxU9wI0dkbUkl42XsMcb9_MEPgkDm3T2CfbMoOSv0G1AHF_nWiZS5tzj8XGRFJB3VaT6L6qqjXMvL-MnGpgpI3CtrlQIsegR3Q&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia actualizó su foto de portada. hace 19 horas 19 h Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -658,22 +650,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Yl-7kryrogQQ7kNvwFKvQat&_nc_oc=AdorPThPbmHuMR-cJjUxdEyxzmA13MzqOkYn-6CMx-cveEwpSHVE7Y76MFV7Z_WdaGs&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=37M4NzLQgUlthDlYpy6lRw&_nc_ss=7f289&oh=00_AQMoO9kWYA-Z2YEJROe_oiZmUuo8M_lAiPI8QsleR0koPA&oe=6AC6C012",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid02csyHd2ezM3eR6QtPBazq8SxHx6Un12TPC313TGSaDMwp3CSL1Fu2UtDHKjNW1aMDl?__cft__[0]=AZi1imiRSa1Pi7PBCW6ezA-t2Z3pkV3f1sHwp9wtp5aPMYE-A-Kk4a6yf8pJCg36UwOEJeT4WIYGyCf4_6o6vmEHCvdf5wcoRUFjSmrjESR01QkTFinIrAbvNlXTULnSeEsI94CXSFL-TMvSVmDaOS2YqA_mZWe-q6rQgkeHz5nD-RDIVP--QaIGOrE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CRC | 𝟰.ª 𝗥𝗨𝗧𝗔 𝗗𝗘𝗟 𝗟𝗜𝗕𝗥𝗢 | 𝗪𝗔𝗥𝗜𝗦𝗔𝗧𝗔 Las palabras toman voz en Warisata. Como parte de los tal… Ver más #CRC | 𝟰.ª 𝗥𝗨𝗧𝗔 𝗗𝗘𝗟 𝗟𝗜𝗕𝗥𝗢 | 𝗪𝗔𝗥𝗜𝗦𝗔𝗧𝗔 Las palabras toman voz en Warisata. Como parte de los tal… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -1092,13 +1075,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HFWErYBG1QcQ7kNvwFXXMAj&_nc_oc=Adqta9DZs1_Q9pPnCny-tB9R6NflCv-yqfx8I_k9np2al0ATSQZxYj1WvtbTHhzNtMc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=bVA3cRpRjwOZ0KFYhSXjiw&_nc_ss=7f289&oh=00_AQN6LlDGwgfENWnOD-qtLt5DOdl9fxzkY3d2RWFmwyKuOg&oe=6AC7012F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid0mqvS4PVFaoECGiFxpK6iFke6h2ncW9pdURh2oZhvdWtyoTmVvGwnVefgE92M7j97l?__cft__[0]=AZhZVpQafV7faAFcIM20670sO06OUSh78_4WXhuqKhDnu5QStMxNjhAUby7eeiazz_gxzniP5L0yZdvIfNvRgjRUlH0KPZBIrEYhomNvK_frO0Kg5k0oOLeWXIPmaV_okVJAeGgLpbMlJnctJAgP3O3By5BFxG-bWHtE33lLZm9UwWR1vDQEtjRaT5k&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CCP | OCTUBRE SE VIVE EN EL CCP… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1247,8 +1239,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 9,
-      "events": 8,
+      "raw_items": 10,
+      "events": 9,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1394,8 +1386,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1519,8 +1511,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
-      "events": 37,
+      "raw_items": 53,
+      "events": 53,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1587,8 +1579,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 51,
-      "events": 51,
+      "raw_items": 50,
+      "events": 50,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1621,8 +1613,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
-      "events": 2,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1783,7 +1775,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 3 días Noticias 159 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 3 días Noticias 163 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
