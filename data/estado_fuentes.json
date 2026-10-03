@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:16:25-04:00",
+  "generated_at": "2026-10-03T01:21:04-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 92.4,
-    "horas_maximo_sin_datos": 1047.1
+    "horas_promedio_sin_datos": 91.1,
+    "horas_maximo_sin_datos": 1054.2
   },
   "sources": [
     {
@@ -95,13 +95,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=k8Xo8T1Ln6AQ7kNvwGPzIir&_nc_oc=Ado_w-ADZzaVGuKM-2173ziRo9-xbSWpJUr4bRgPMn2msEfX8y7swPGg0uNWdIKI7Pg&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=37HyeM3VI_VIV26_94ygig&_nc_ss=7f289&oh=00_AQP7tmLAJyq8wO4UCxL0YklUQblmneLkS7Te1lQwQcnWkQ&oe=6AC65990",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1113634441422679/?__cft__[0]=AZixrOgMtoJevavZyYHYIazFUlKwqhdVurmllAu_qr_1cA9nUoQZV-oGqweWKLLafJ5ro2Nfy7NcqtEvO7wskOPoxq2Z9TjpqLDz6ODaIY4pmOwDPtEakXeJp0ubOlVm_fUe0NHxg7OAnC8dS-CE24JKyNG34zcPT4ndQHa6A6ooCrXtsWbkU6D81-kmqh3wmCn1&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "“Las relaciones de Bolivia y la Unión Europea deben seguir creciendo y fortaleciéndose a lo largo de los años.”… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -163,13 +172,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gGDzXv2924EQ7kNvwFODxGm&_nc_oc=AdokUteVmAZfUFCFvQFhVv22pPHEiu3mBr5UtEEcQeLQcAmuORFh-GISBRYuu86dJUg&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=X0sM_hl4JfBcXYa35PhH6Q&_nc_ss=7f289&oh=00_AQN4JObc9nwQw8ecy-ng-9Xd0aHWOP2K6SFYiRAhsezwUA&oe=6AC67640",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02kSn3jMBSXsLMNuUzPbu2Zpih8wRhX6rUxQVAySrR2GQ1sBgSyVhgLh9YhazzHBWJl?__cft__[0]=AZhnzEO7_Ssa0JhRuQ69PatdUKiJhNvSIHYTuFglmudLBfrU-CJnsZGVSGtp1FR-9r7DQzgsqliDuDHsUxMpTB4mwlf-CGg6oZfMmMPaL1g-RwqmB7zs234xhpiWZoVFIT_y6MAVIAfezaya91fzT619uGOt4CT5jiPxwQavhAXvxQCZoLHUQJMSVO8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Policía y Alcaldía de El Alto rescatan a animales víctimas de la venta clandestina… Ver más Excelente iniciativa en defensa de nuestros animalitos. Ver más comentarios Susa D. Quispe"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02kSn3jMBSXsLMNuUzPbu2Zpih8wRhX6rUxQVAySrR2GQ1sBgSyVhgLh9YhazzHBWJl?comment_id=29595799893356076&__cft__[0]=AZhnzEO7_Ssa0JhRuQ69PatdUKiJhNvSIHYTuFglmudLBfrU-CJnsZGVSGtp1FR-9r7DQzgsqliDuDHsUxMpTB4mwlf-CGg6oZfMmMPaL1g-RwqmB7zs234xhpiWZoVFIT_y6MAVIAfezaya91fzT619uGOt4CT5jiPxwQavhAXvxQCZoLHUQJMSVO8&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Excelente iniciativa en defensa de nuestros animalitos. Susa D. Quispe"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -214,13 +240,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Q4LWiHZOSY8Q7kNvwHapKLT&_nc_oc=AdpT1gVPZsxsRBwUUE8KVQCWGdP_9n9vHsIttX8B8awv_wN9J0J8eZ5GbtKczt_CeDQ&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=lAzmt7bBcy8raLYbhYDW3g&_nc_ss=7f289&oh=00_AQO0CFupbFMFMruEtxKCda0lC366kYRln2GmFd3PencwWA&oe=6AC65CD7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 24,
+          "category": "taller",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/el-gobernador-leonardo-loza-particip%C3%B3-del-1er-taller-sobre-ciudad-inteligente-de/1621050266733353/",
+          "has_image": true,
+          "text_preview": "El gobernador Leonardo Loza participó del 1er taller sobre “Ciudad Inteligente” de la 1ra Feria de Integración FITROP 2026. El gobernador Leonardo Loza participó del 1er taller sobre “Ciudad Inteligente” de la 1ra Feria de Integración FITROP 2026. Acto de inauguración de la feria FITROP FORTALECEMOS EL CONOCIMIENTO SOBRE LOS DERECHOS DE MUJERES CON DISCAPACIDAD Se desarrolló el taller “𝗔𝗻𝗮𝗹𝗶𝘇𝗮𝗿 𝗹𝗼"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gamscs",
@@ -231,13 +266,30 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LX5AJ2LGrQEQ7kNvwHOXWv7&_nc_oc=AdoyL5PiSfU9rEzjWQQ6GcgS4_h5K3ULiXyUfcGPMUBxMVKHIdNA9x79Weyv8apB1uc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=Ri5J9y5Lp9ictDkxWgshTQ&_nc_ss=7f289&oh=00_AQP2sbdxSDq8SEEiBXY8OpqNQBIXMgXAvmEkBVMrVLWy9w&oe=6AC65497",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/28696419236654842/?__cft__[0]=AZg3KNtDE9OVgBK8o5vR-Hc42Yn7Rx_Dd1Mk-HzWl9M3ckPgTm4IXdUB7hcnSHeyF1f1raeuzDEtIhaH92791VcqTBB3Y7gH2EoDPypZWNSJ56t_-OYOentU6dAt8wkeLLcRv37aXZ32qLt_GIo5RgNk4dLlCQWK98-ubI0gctjtcYGuqEO03LXVB5YII9_Q_xQz&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Canales limpios, una ciudad más segura.… Ver más Muy bien sigan adelante Tenemos problemas para reproducir este video. Más información Ver más comentarios Eli Soliz"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/28696419236654842/?comment_id=890707727329791&__cft__[0]=AZg3KNtDE9OVgBK8o5vR-Hc42Yn7Rx_Dd1Mk-HzWl9M3ckPgTm4IXdUB7hcnSHeyF1f1raeuzDEtIhaH92791VcqTBB3Y7gH2EoDPypZWNSJ56t_-OYOentU6dAt8wkeLLcRv37aXZ32qLt_GIo5RgNk4dLlCQWK98-ubI0gctjtcYGuqEO03LXVB5YII9_Q_xQz&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Eli Soliz Muy bien sigan adelante 7 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -571,22 +623,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Sft09UdoNIkQ7kNvwHzWeG2&_nc_oc=AdoxUV6iDHTarRULRUAdw71JPbWeEbv__1ZW_Sh83bemLmoNqvIFAC1Rw4mNFosSaX8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=OJ1AGebb8dyAqiKqy4kxbg&_nc_ss=7f289&oh=00_AQNswo-muXaQsH9tH2KPH2wtD0hU94mI0EFndz3Joxi96w&oe=6AC60796",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid0cuW11rUtwDem38ZsNmcxja9NF9ZSD1XKVb7fNmPckRTJsKVtLkTeRiUib1nzBAUhl?__cft__[0]=AZjQ1QG0AilCaIoXg-jAa_u44pGcLa-tlRBtaXxqNmX4PDqg5v_RE5MK49o4XYwZuWPpkeHj0x01-_UEfpqB1sr58D2RgIG93xxX4cIlB8gDSyf58L3wFRCvkBqT6wX59ED5Ex63uUfqoCuOVyEopUTgLu1VsBx_BYcO5IfV-6g2oUV0EwlmqZ5ICRk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Octubre en el CCELP de AECID E… Ver más Octubre en el CCELP de AECID E… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -733,22 +776,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ODnJSKA6AIsQ7kNvwEEWk5S&_nc_oc=AdrNXuCzOS-hDeTP3P7LSDenSps79syN5GM8PBnXyBDFaJyiboUXzzvkB6SvOrm37Oc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=6591h3G8eyn1NbbAsDC9SA&_nc_ss=7f289&oh=00_AQPFB-c5i8XXv92i547lPZJDvb0jg-anfACjvf6v-6ABQA&oe=6AC60FFD",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1493035929382085/?__cft__[0]=AZge08P_hWu2vSUiY-qFkSTxmDAwPRHnsEj_ya2DGMI7nsOmij15XYZOQRCGWJx_aaUN8rTnJDjaBu3E6GC9NjveUH8ORp0Q4B_-BxWRy5XEz3hCIO63OeQIxwm4Y4u4xZ54CDKXUG9LjPmSXvg76Sq3ovLnG_HASRq4Gnp-a-o50yR1NhFZ10eBci4S4VqGR39x&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "SERVICIOS LEGALES INTEGRALES MUNICIPALES (SLIM) PROMUEVE LA NO VIOLENCIA Y SOCIALIZA LA LEY 348… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_cobija",
@@ -946,22 +980,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VEZrJLhF-r0Q7kNvwEBctix&_nc_oc=AdodUVS1WGJ-AAxVgyKR6kmXskKRAPIpt8D0TF4XXFfvccTiISl4heJY9oCxa7DGv8M&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=ANKRWAqHcpVoFd20v_oYYA&_nc_ss=7f289&oh=00_AQPEcZFJfOXMobpnWaDV1cMyXoMU71EXR0C24lNmjIshOA&oe=6AC611C7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid02vfnevbkZjwuHYLEBrMRU8TjECNXXFXrUEyERJ1TUz7NjZtjEfxay8N7VZFUaUcnNl?__cft__[0]=AZhWaaj_CXZCaNG9CUM-ZNb-OO_9N0Ll5FYEHOxyloGy3FTQ94RSXEcMqGwdFPh7RfHgXxxx8CLPr7x9V_YcaiCklFs43UW5aD-PK5Q2HB8X60lRemULkZESDQlpuqLhdAUvYLB21SRhzsSbJzTF_wumYMJ2n28MWmtbEuSxG0bYhUDyJMesoX_UQvk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La música nos conecta, nos emociona y nos une. Hoy celebramos ese lenguaje universal que no necesita traducción para llegar al corazón. … Ver más La música nos conecta, nos emociona y nos une. Hoy celebramos ese lenguaje universal que no necesita traducción para llegar al corazón. … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -989,30 +1014,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZXywJzbt-_EQ7kNvwFQZwfR&_nc_oc=AdpbmT1uMddHUL_5C4M87ywXaYz9fx8yhq-mVk2gBLmvOXggrBIFVqpWDs3lSjJ6Zrs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=SvC5cluwmdYW9cYZnroAyg&_nc_ss=7f289&oh=00_AQPFfgse_ozrfAPXH9IZm25qCB9T-DPv3dYF0MZohvAlQw&oe=6AC6033D",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 10,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/reel/28579997728327458/?__cft__[0]=AZifm9oIVDHsX5sb-Citx7w2TQ-eFdiINTlhOPwKkUYI6EzkUC12xsJZamwB5qWXrJ1sYPvn5P0Y6OcRQLp6x78Os7bcopca6kNR4iGtOyrbdL96-WNSByw7L_eX1DqcyhZpDUlQDPWwGCWRbDiVNNdJqkCXwHcGeP4oPaZkMmWz0UT83otWC9y7_t6_Anc0nUDe&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Anoche fue la inauguración de \"Momentum\", una muestra que nace de la complicidad y amistad de Patricia Gutiérrez y Nicole Vera. Sus ideas se encontraron entre la palabr… Ver más Anoche fue la inauguración de \"Momentum\", una muestra que nace de la complicidad y amistad de Patricia Gutiérrez y Nicole Vera. Sus ideas se encontraron entre la palabr… Ver más Gracias Casa Melchor Pinto por tanto amor al"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/28579997728327458/?comment_id=1198337782634367&__cft__[0]=AZifm9oIVDHsX5sb-Citx7w2TQ-eFdiINTlhOPwKkUYI6EzkUC12xsJZamwB5qWXrJ1sYPvn5P0Y6OcRQLp6x78Os7bcopca6kNR4iGtOyrbdL96-WNSByw7L_eX1DqcyhZpDUlQDPWwGCWRbDiVNNdJqkCXwHcGeP4oPaZkMmWz0UT83otWC9y7_t6_Anc0nUDe&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Gracias Casa Melchor Pinto por tanto amor al arte, por la energía desbordante y la magia !!! Patricia Gutierrez Paz"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1410,12 +1418,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 14,
           "category": "concierto",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1423,7 +1431,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 18,
+          "score": 50,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1431,11 +1439,11 @@
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 34,
+          "score": 48,
           "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 TSJ señala que Mariaca y otros aprehendidos deben"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 El Gobierno exige a la ALP destituir a Roger Mari"
         }
       ],
       "error": null
@@ -1493,18 +1501,10 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 31,
+      "raw_items": 29,
       "events": 0,
-      "rejected": 31,
+      "rejected": 29,
       "rejected_samples": [
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a896a891-228d-43a6-9886-e4a9c1d16422",
-          "has_image": true,
-          "text_preview": ""
-        },
         {
           "reason": "texto_muy_corto",
           "score": 0,
@@ -1517,7 +1517,15 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/17d93f37-e346-47ca-8142-ad6202d65c40",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/aa51d467-e806-4b26-bbe3-56d58854c3e9",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/ee89a9fa-d682-410a-802a-305ceb5b89aa",
           "has_image": true,
           "text_preview": ""
         }
@@ -1535,8 +1543,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
-      "events": 39,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1552,8 +1560,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 16,
-      "events": 16,
+      "raw_items": 15,
+      "events": 15,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,8 +1611,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 45,
-      "events": 45,
+      "raw_items": 51,
+      "events": 51,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1799,7 +1807,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 2 días Noticias 137 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 2 días Noticias 152 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
