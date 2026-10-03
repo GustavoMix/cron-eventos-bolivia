@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:20:52-04:00",
+  "generated_at": "2026-10-03T17:16:49-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,15 +9,14 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_gam_cbba",
-      "fb_gobernacion_lapaz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 94.3,
-    "horas_maximo_sin_datos": 1065.2
+    "horas_promedio_sin_datos": 94.0,
+    "horas_maximo_sin_datos": 1070.1
   },
   "sources": [
     {
@@ -46,13 +45,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ok9RmcwJQi4Q7kNvwHDj8_N&_nc_oc=AdoYTjm4cyIwK2BiHKAr14nA0CN16sIkikJ4iNLmblsyshB6qu_jvUKsfTSKZVuyWHM&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=h5iA3T5Ki6y7KyRAcVNfEg&_nc_ss=7f289&oh=00_AQNrUbSD5iiZmbEftosNVw7sv7ByKIUlmre9yORRgxKwUQ&oe=6AC74275",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/ConciertosEnBolivia/videos/el-mejor-cantante-y-compositor-de-bolivia-cerr%C3%B3-el-evento-de-la-mejor-manera-con/3219817298221315/",
+          "has_image": true,
+          "text_preview": "El mejor cantante y compositor de Bolivia cerró el evento de la mejor manera con un himno total La Foto 🔝 Luis Vega Oficial 🎥 Fabricio Rivera Caballero Fabo Felicidades El Boticariotech 💊 6 años... El mejor cantante y compositor de Bolivia cerró el evento de la mejor manera con un himno total La Foto 🔝 Luis Vega Oficial 🎥 Fabricio Rivera Caballero..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -182,13 +190,38 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V9iz3KCN9pMQ7kNvwH20cmN&_nc_oc=AdoxEsMZPAcI1JNjr1WlTFygqL-TC9dOUnMaFXKmfkug07rU70O1rgD7I06TL4yaLA0&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=J7_92NqSZ4qdPG8E3FNPlQ&_nc_ss=7f289&oh=00_AQMhTsvkGnO6MPRlMzGkFPvm6E1mfT7R-kpBtnDP4xAhvw&oe=6AC743B8",
+      "status": "ok",
+      "raw_items": 3,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0Dcu9JhKBdHCFyaCkCouFt4RP6NDn1yvu3mNVydV3PPMxL97hmESC9mQK8qggWPNol?__cft__[0]=AZgvkAm88NnZEcmR0pmRAHgz35cJRsfOGV3KQGBYwn_jwOdcRPE06BSZm30cDNZtkis_hVoM8YXh18rB2TmlDQdVcC9l0WF9Ww4e8-78hzQAp2h4u_ddD58H6IGi3_kErQwYEL17gnegIFIWo5PBgyV7CiK8oyFMd38GwSr4Rfe8rtSnuC7aQ1-Fnk8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡𝐌𝐚𝐥𝐥𝐚 𝐚𝐯𝐚𝐧𝐳𝐚 𝐲 𝐋𝐚 𝐏𝐚𝐳 𝐬𝐞 𝐢𝐧𝐭𝐞𝐠𝐫𝐚! Desde el municipio de #Mal… Ver más ¡𝐌𝐚𝐥𝐥𝐚 𝐚𝐯𝐚𝐧𝐳𝐚 𝐲 𝐋𝐚 𝐏𝐚𝐳 𝐬𝐞 𝐢𝐧𝐭𝐞𝐠𝐫𝐚! Desde el municipio de #Mal… Ver más Cómo le colocaron al prefecto la a vistimenta indumentaria Nico Poma Ruiz Muy lamentable Aún seguimos sumisos a los cuellos blancos Ver más comentarios Flowers Bunchs Saints Nico Poma Ruiz Muy lamentable Aún seguimos sumisos a los cuellos blancos"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0Dcu9JhKBdHCFyaCkCouFt4RP6NDn1yvu3mNVydV3PPMxL97hmESC9mQK8qggWPNol?comment_id=1619891236302905&__cft__[0]=AZgvkAm88NnZEcmR0pmRAHgz35cJRsfOGV3KQGBYwn_jwOdcRPE06BSZm30cDNZtkis_hVoM8YXh18rB2TmlDQdVcC9l0WF9Ww4e8-78hzQAp2h4u_ddD58H6IGi3_kErQwYEL17gnegIFIWo5PBgyV7CiK8oyFMd38GwSr4Rfe8rtSnuC7aQ1-Fnk8&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Cómo le colocaron al prefecto la a vistimenta indumentaria Nico Poma Ruiz"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0Dcu9JhKBdHCFyaCkCouFt4RP6NDn1yvu3mNVydV3PPMxL97hmESC9mQK8qggWPNol?comment_id=1619891236302905&reply_comment_id=1135481149386400&__cft__[0]=AZgvkAm88NnZEcmR0pmRAHgz35cJRsfOGV3KQGBYwn_jwOdcRPE06BSZm30cDNZtkis_hVoM8YXh18rB2TmlDQdVcC9l0WF9Ww4e8-78hzQAp2h4u_ddD58H6IGi3_kErQwYEL17gnegIFIWo5PBgyV7CiK8oyFMd38GwSr4Rfe8rtSnuC7aQ1-Fnk8&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Nico Poma Ruiz Muy lamentable Aún seguimos sumisos a los cuellos blancos Flowers Bunchs Saints Nico Poma Ruiz Muy lamentable Aún seguimos sumisos a los cuellos blancos"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -556,22 +589,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TRWZzqUNzL4Q7kNvwFKoWHG&_nc_oc=AdpTUEv24EVE62UZev8D1Q8kdvJPqwvvhh_63vbK36a_GIfL-0D60pVORRkg9gDIoPE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=GfxAxItqY6y8PvZsrQTF1A&_nc_ss=7f289&oh=00_AQP4CUWtuCmI23xVknOq4KQYTQY2Y6RX2Qt8-fkQT05ccg&oe=6AC71773",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/3224158314457302/?__cft__[0]=AZix5glkJolFBnmBbE8LPzQ8VcU-3WqvbNSEucwok7LkhdcGJEEoWjO7U-_gzbL2_-z3fcBhOjIAQHEu07GDBIgEXPrR1gLEmWzn1jmS_lfBFXSzjoK3FpPSQnjBDMYTtPYoCQrJz7zsWTyqjWxz1OyWB_EY0mXx02n1HPKpXtbxolc_HJ_fB2NL7hc59HJcLuHR&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La magia está a punto de despertar… Andrew Garfield y Claire Foy llegan junto a una aventura extraordinaria donde nuevos mundos, criaturas increíbles y secretos esco… Ver más La magia está a punto de despertar… Andrew Garfield y Claire Foy llegan junto a una aventura extraordinaria donde nuevos mundos, criaturas increíbles y secretos esco… Ver más Tenemos problemas para reproducir este video. Más "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -990,13 +1014,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rN_bzXd6a6gQ7kNvwEeG1XO&_nc_oc=Adqe5hCTpO48a1SJtd8kY4DUYvqWlPf17HtZf82brMC5jMxnfCtNn4WUm_gHfboWCpE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=rqTyZRxPFfYRmsEI9Qn_zA&_nc_ss=7f289&oh=00_AQMamoD3NpQeu4SxZj2g1mgmPFkCCe6S0QPHjfgNGM4qSg&oe=6AC751EA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 50,
+          "category": "festival",
+          "url": "https://www.facebook.com/TarijaCultura/posts/1378256324459107/",
+          "has_image": true,
+          "text_preview": "Hoy se realizó el Lanzamiento del festival Aquí Canta Bolivia. La Gobernación de Tarija invita a todos los artistas de todas las provincias del departamento a ser parte de la gran convocatoria y... Hoy se realizó el Lanzamiento del festival Aquí Canta Bolivia. La Gobernación de Tarija invita a todos los artistas de todas las provincias del departamento a ser parte de la gran convocatoria y represe"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1075,22 +1108,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HFWErYBG1QcQ7kNvwFXXMAj&_nc_oc=Adqta9DZs1_Q9pPnCny-tB9R6NflCv-yqfx8I_k9np2al0ATSQZxYj1WvtbTHhzNtMc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=bVA3cRpRjwOZ0KFYhSXjiw&_nc_ss=7f289&oh=00_AQN6LlDGwgfENWnOD-qtLt5DOdl9fxzkY3d2RWFmwyKuOg&oe=6AC7012F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid0mqvS4PVFaoECGiFxpK6iFke6h2ncW9pdURh2oZhvdWtyoTmVvGwnVefgE92M7j97l?__cft__[0]=AZhZVpQafV7faAFcIM20670sO06OUSh78_4WXhuqKhDnu5QStMxNjhAUby7eeiazz_gxzniP5L0yZdvIfNvRgjRUlH0KPZBIrEYhomNvK_frO0Kg5k0oOLeWXIPmaV_okVJAeGgLpbMlJnctJAgP3O3By5BFxG-bWHtE33lLZm9UwWR1vDQEtjRaT5k&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CCP | OCTUBRE SE VIVE EN EL CCP… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1386,12 +1410,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
+          "score": 12,
           "category": "concierto",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1399,19 +1423,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 50,
+          "score": 48,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "02/10/2026 Cultura Premio Nobel de Literatura: sin listas oficiales y bajo un estricto secretismo Si hay una certeza acerca del Premio Nobel de Literatura, es que no tiene una certeza. Es el galardón más impredecible del mundo. vista 30/09/2026 Cultura Arte: llegan “Expresiones femeninas” Desde ayer, el salón “Mario Unzueta” (25 de mayo esq. Av. Heroínas) alberga la exposición “Expresiones femenin"
         },
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 48,
-          "category": "concierto",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 52,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 El Gobierno exige a la ALP destituir a Roger Mari"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1511,8 +1535,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 53,
-      "events": 53,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1562,8 +1586,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1579,8 +1603,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 50,
-      "events": 50,
+      "raw_items": 56,
+      "events": 56,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1613,8 +1637,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1687,38 +1711,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
-      "status": "ok",
-      "raw_items": 8,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 8,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 36,
-          "category": "gastronomia",
-          "url": "https://www.tarija.gob.bo/",
-          "has_image": true,
-          "text_preview": "Noticias Tarija fortalece la cadena de la uva, vino y singani con un taller de articulación para impulsar la competitividad del sector 22/09/2026"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "turismo",
-          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
-          "has_image": false,
-          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones",
-          "has_image": false,
-          "text_preview": "0 % Manuales de organizacion y funciones Ordering Órden Ascendente Órden Descendente Título Ascendente Título Descendente Fecha Ascendente Fecha Descendente Filename Ascending Filename Descending Rating Count Ascending Rating Count Descending Rating Ascending Rating Descending Downloads Ascending Downloads Descending Cantidad de ítems por página 5 10 15 20 50 Todo Powered by Phoca Download"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "[Errno 111] Connection refused"
     },
     {
       "id": "web_uto_cultura",
@@ -1775,7 +1774,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 3 días Noticias 163 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 3 días Noticias 168 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
