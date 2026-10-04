@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:49:44-04:00",
+  "generated_at": "2026-10-04T01:55:10-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -16,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 92.4,
-    "horas_maximo_sin_datos": 1072.7
+    "horas_promedio_sin_datos": 94.9,
+    "horas_maximo_sin_datos": 1078.7
   },
   "sources": [
     {
@@ -505,22 +505,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gFlv9hn-fowQ7kNvwG9Oac_&_nc_oc=Adpp6pic50gIb_e0yju_NkXWCBsBUhm_hwUdqgnt0BOtd23V76idQeMfGOOep0F_CSo&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=JU-6U3WpApkauDI4Y8FMEg&_nc_ss=7f289&oh=00_AQMW1caXv45epLCik-49Kqkf2-VgSgY8535GwBi3GI3H0g&oe=6AC75837",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 47,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1457607246272723/?__cft__[0]=AZiHKbmO7pnGbkgvil6jBS7_13E4BYZL5thznfmAoJiHquBRnmQTMrXWWDx3M4cwZ0GjejC67o6GpnDqsJwqk_YHp2gfsQaWjQwGDJ3wFHJiWqGTNv-mwTUX2-BQO6lTnOo0nZxaJ59T4-xzXaag0mOqxbdWxB0PJ5x5VQJ9srdChXRov-yKV012uXeic5GU6Dgc&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#publicicdad Realiza tu inspección preventiva de carbonilla con diagnóstico SIN COSTO y conoce el estado de tu motor. Del 18 de septiembre al 17 de octubre … Ver más #publicicdad Realiza tu inspección preventiva de carbonilla con diagnóstico SIN COSTO y conoce el estado de tu motor. Del 18 de septiembre al 17 de octubre … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ministerio_culturas",
@@ -837,13 +828,30 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3Nd5XWahEFMQ7kNvwGuMQv0&_nc_oc=AdpIy3vmjrHlEeiA7uL4prhhpr635kCJRS-va0QZuqnecfsmyUb8VtTMYY7vZ4bFIjY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=kyCj9HVJNXho38cGdgoyxg&_nc_ss=7f289&oh=00_AQNLRCeImvKcdizf3t8JYoFrDz76XREKz4QPHMY2ve4JCQ&oe=6AC7D7E9",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?__cft__[0]=AZgoQ1e6JEuq0HA0rSJWIKhwhNaWxh1gAX3Jx9u89JOvwpKc4l3ID4MMHl__I3dS_zEWWJQAorjbLKkSpLVc-wVTZli04f9MYWoZubW4x4JlCIvjJ0jw30-gGlVHPM627IOh-5FEzVPO_lEQovBZEJlC54TfOG2av27cUapKkvgGDsxZ8RLIJS9cGdtyCAPRbWbU&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Tenemos problemas para reproducir este video. Más información Ver más comentarios Fabiola Franco Soria"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?comment_id=1696931752442171&__cft__[0]=AZgoQ1e6JEuq0HA0rSJWIKhwhNaWxh1gAX3Jx9u89JOvwpKc4l3ID4MMHl__I3dS_zEWWJQAorjbLKkSpLVc-wVTZli04f9MYWoZubW4x4JlCIvjJ0jw30-gGlVHPM627IOh-5FEzVPO_lEQovBZEJlC54TfOG2av27cUapKkvgGDsxZ8RLIJS9cGdtyCAPRbWbU&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Fabiola Franco Soria"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fipaz",
@@ -888,13 +896,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AWz4PYvvuTwQ7kNvwGQgsjX&_nc_oc=Adqdg7qdiHjTSOxF1pFwHTDYaHeuZuh7mm2hb8y-tK3ACsb82t6c_x7TYTYEMjqNZW8&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=ecekQUrtCJ-YTriyG0Hasg&_nc_ss=7f289&oh=00_AQPnSGFM6P_rjMPyHhrWj1pGaZcEXAKez67a185eFa5rtg&oe=6AC7ABA7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid0SaGNSHXieidDJCGeKFNCTapvzJ6T1kHBvPDvYkJ1Zxmeo5uwHMS1RNQq1bUHhrnZl?__cft__[0]=AZg2IYh1ib-DeVB6oDrbSxmj43LW0EcrsWPwt_tex2hBz8Xh5KTDORLHCCowBCyHQQ_8vVJEGK36pwrSOVkA2atKFtdV87K9ZWP-mK3OkuDbHvDqum4Im87u6vZQsrQbRlWojmOXtz9oB6Yi0kUkRQFUgpsy1iHvgkFbBptvLNxi5p4NLMao2OuXEyU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#𝐂𝐮𝐥𝐭𝐮𝐫𝐚 | 𝐀𝐠𝐞𝐧𝐝𝐚 𝐂𝐮𝐥𝐭𝐮𝐫𝐚𝐥 𝐝𝐞 𝐨𝐜𝐭𝐮𝐛𝐫𝐞 𝐞𝐧 𝐋𝐚 𝐏𝐚𝐳 Octubre trae una vibrante oferta art… Ver más #𝐂𝐮𝐥𝐭𝐮𝐫𝐚 | 𝐀𝐠𝐞𝐧𝐝𝐚 𝐂𝐮𝐥𝐭𝐮𝐫𝐚𝐥 𝐝𝐞 𝐨𝐜𝐭𝐮𝐛𝐫𝐞 𝐞𝐧 𝐋𝐚 𝐏𝐚𝐳 Octubre trae una vibrante oferta art… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1007,30 +1024,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=fBuSR3nEotIQ7kNvwH9hzrE&_nc_oc=Adr8rGif9PNiHcQpc7HYrMoHcFnPulIR6qYrQ_YfbvgNfwu15MHbKvqfmG5P8l9QCwI&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=Hng-0ewl257QTBVs1FwFdg&_nc_ss=7f289&oh=00_AQMvzmCs6IbCSahPte0y5fO84EykP-Px6einb1zbnAxmQw&oe=6AC76CB4",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/2267963713773835:2267963713773835?__cft__[0]=AZjswXFEMhF-N2JT2vNbrpcK21PeICQ-djWHuznDohGvYoxt5grj2OrAtMY8qSSQZC4K9rWcA58HpXILxwUtPKzTSQ6Jvk-4i55GbU-LT4KlEA2RybUqpFRMTny0JFsa9XAdr6QgVCwFP83hedY_p9I8E6yAjyuS1EK7NgEjMpy3LugJi3NpYHmQ-_PVzQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "https://www.facebook.com/share/p/1EL2LipuNf/ Alba Balderrama"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/kelly.ledezma.a/posts/pfbid025BXbVKSvAri3ytPBPveYWhqXcgnm6uNqstCXcGQDVb8aQMKNTiui1KH9fgK3JRdkl?__cft__[0]=AZjswXFEMhF-N2JT2vNbrpcK21PeICQ-djWHuznDohGvYoxt5grj2OrAtMY8qSSQZC4K9rWcA58HpXILxwUtPKzTSQ6Jvk-4i55GbU-LT4KlEA2RybUqpFRMTny0JFsa9XAdr6QgVCwFP83hedY_p9I8E6yAjyuS1EK7NgEjMpy3LugJi3NpYHmQ-_PVzQ&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "https://www.facebook.com/share/p/1EL2LipuNf/ Alba Balderrama"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1248,14 +1248,22 @@
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
       "raw_items": 10,
-      "events": 9,
-      "rejected": 1,
+      "events": 8,
+      "rejected": 2,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 0,
           "category": "otro",
           "url": "https://superticket.bo/",
+          "has_image": true,
+          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "concierto",
+          "url": "https://superticket.bo/100--Yara-en-Concierto--Sucre-/",
           "has_image": true,
           "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
         }
@@ -1399,27 +1407,27 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
-          "category": "exposicion",
+          "score": 24,
+          "category": "concierto",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "30/09/2026 Salud Estudio identifica una alternativa más corta para tratar el Chagas Treinta días en lugar de 60 y una toma diaria de benznidazol, uno de los medicamentos utilizados para tratar la enfermedad de mal de Chagas, en vez de dos. vista 29/09/2026 Ciencia El Tilcayo entra a la Photo Ark de National Geographic y entra al archivo mundial La imagen del Tilcayo, el felino silvestre recienteme"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 36,
-          "category": "exposicion",
+          "score": 54,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "02/10/2026 Cultura Premio Nobel de Literatura: sin listas oficiales y bajo un estricto secretismo Si hay una certeza acerca del Premio Nobel de Literatura, es que no tiene una certeza. Es el galardón más impredecible del mundo. vista 30/09/2026 Cultura Arte: llegan “Expresiones femeninas” Desde ayer, el salón “Mario Unzueta” (25 de mayo esq. Av. Heroínas) alberga la exposición “Expresiones femenin"
         },
         {
           "reason": "relevancia_insuficiente",
-          "score": 52,
+          "score": 54,
           "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 ¿Quién es José Urioste, el nuevo fiscal general i"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Cesa el arresto del fiscal Luis Montaño tras decl"
         }
       ],
       "error": null
@@ -1477,15 +1485,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 29,
+      "raw_items": 27,
       "events": 0,
-      "rejected": 29,
+      "rejected": 27,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/173a907a-04ac-481c-8593-71d48a53b065",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/053be5c7-56a6-4f2c-b1e4-71ef2806b0db",
           "has_image": true,
           "text_preview": ""
         },
@@ -1493,7 +1501,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/aa51d467-e806-4b26-bbe3-56d58854c3e9",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/0fbc8d39-20f6-4f97-9034-1e9e6717a719",
           "has_image": true,
           "text_preview": ""
         },
@@ -1501,7 +1509,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/ee89a9fa-d682-410a-802a-305ceb5b89aa",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/53520085-b108-43c8-9361-71022ae87dec",
           "has_image": true,
           "text_preview": ""
         }
@@ -1570,8 +1578,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 2,
+      "events": 2,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1587,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 52,
-      "events": 52,
+      "raw_items": 62,
+      "events": 62,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1621,8 +1629,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1758,7 +1766,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 3 días Noticias 171 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 3 días Noticias 174 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
