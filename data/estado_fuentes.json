@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:23:40-04:00",
+  "generated_at": "2026-10-04T14:41:53-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -16,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 98.5,
-    "horas_maximo_sin_datos": 1085.2
+    "horas_promedio_sin_datos": 101.6,
+    "horas_maximo_sin_datos": 1091.5
   },
   "sources": [
     {
@@ -35,7 +35,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? SuperTicket 140 mil seguidores • 205 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error téc'"
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -148,13 +148,38 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Bz7wNZL-PB8Q7kNvwFd7rAD&_nc_oc=AdpOjleyozzEWPRjMKH1THQAA0CCZI1BDJkAMYuSMz6GJ6ct_X-eBWVQuECToSlZv5E&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=gh8v0jRha_QfleV3cJ6TGQ&_nc_ss=7f289&oh=00_AQNFIQZII_Aggl_oign-lj_X661DCsPMuh-R9JJcUsHmyg&oe=6AC88A77",
+      "status": "ok",
+      "raw_items": 3,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid035iYUAtXrEbMhYfondN2WfMb24nwURrxg1YMDz8YyRv3DRkxyhwVkmcP84XWDue8pl?__cft__[0]=AZj1PzMS7erfUK5zc2rPLf8xOkbZLVJPVQJ6SHp_nFk2uC48iD5ELvZ89wWi1-dbsqq4HbGxlA8Q4kpnbalgTZjCXwq_73InsuSd__qwEe5d23scZXxjgmQhWOhnBgPCQFrStLDeSqNKUi3Z03tazc_GMN105AXSjLz9G1_df2TE9wdEoj5YCqOu7AA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La Solidatón Rosa ya está en marcha: una cruzada por la vida de miles de mujeres en La Paz… Ver más plop,.... que cantidad de personas deben ser unos 25 mil personas.. un record en asistencia jijiji sarcasmo. Jaime Doza deberías ir para apoyar la lucha contra el cáncer en las mujeres Jaime Doza Miranda MabeGonzales"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid035iYUAtXrEbMhYfondN2WfMb24nwURrxg1YMDz8YyRv3DRkxyhwVkmcP84XWDue8pl?comment_id=1111763591543061&__cft__[0]=AZj1PzMS7erfUK5zc2rPLf8xOkbZLVJPVQJ6SHp_nFk2uC48iD5ELvZ89wWi1-dbsqq4HbGxlA8Q4kpnbalgTZjCXwq_73InsuSd__qwEe5d23scZXxjgmQhWOhnBgPCQFrStLDeSqNKUi3Z03tazc_GMN105AXSjLz9G1_df2TE9wdEoj5YCqOu7AA&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "plop,.... que cantidad de personas deben ser unos 25 mil personas.. un record en asistencia jijiji sarcasmo. Jaime Doza"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid035iYUAtXrEbMhYfondN2WfMb24nwURrxg1YMDz8YyRv3DRkxyhwVkmcP84XWDue8pl?comment_id=1111763591543061&reply_comment_id=2174495353450821&__cft__[0]=AZj1PzMS7erfUK5zc2rPLf8xOkbZLVJPVQJ6SHp_nFk2uC48iD5ELvZ89wWi1-dbsqq4HbGxlA8Q4kpnbalgTZjCXwq_73InsuSd__qwEe5d23scZXxjgmQhWOhnBgPCQFrStLDeSqNKUi3Z03tazc_GMN105AXSjLz9G1_df2TE9wdEoj5YCqOu7AA&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Jaime Doza deberías ir para apoyar la lucha contra el cáncer en las mujeres Miranda MabeGonzales"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -862,13 +887,30 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/830236722_1578141747687371_3618972506924612207_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0KdLlYT1logQ7kNvwG2pX_-&_nc_oc=AdolQPw1PZ9mksvzovBGUd2SAMDbuIEggLXO7NIQA4CZd3vVpDlHUFIc8Q-f2iht9ak&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=7H1ID1uSDXm4bSdjbu-iIQ&_nc_ss=7f289&oh=00_AQMYkLaNZuOaSnrINwthIiD3XWypK6G-LRt1tuvd9BPCUA&oe=6AC8558F",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/feicobol/posts/pfbid02y2QmgcCpoxgvkLTRUmMTHqmJEvtkLSXSW5sXpcExqJMFCeLmMynpPGQo4mzHqPnCl?__cft__[0]=AZhUMN_o2srM3tktX0q_AoJvOknVQV-Qr1l4Txan4ai1PLeXN_ONxSo723_VOBso9FqHL_VR8-rxMxUoWJmTw5OpjhqvqMDOLcQpX6yaCBQcwmPhVEL5bZmRoTxgPmJmQtU4uG-xC0CJOkgMMtNKauTTplkFmkpacOevVxSmRiJo-uzRNZqMGqIPD0c&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Algo delicioso está por llegar… C… Ver más Algo delicioso está por llegar… C… Ver más Se les puede auspiciar con Mascota Club América Ver más comentarios Michael Duran Gutierrez"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/feicobol/posts/pfbid02y2QmgcCpoxgvkLTRUmMTHqmJEvtkLSXSW5sXpcExqJMFCeLmMynpPGQo4mzHqPnCl?comment_id=2233727264160666&__cft__[0]=AZhUMN_o2srM3tktX0q_AoJvOknVQV-Qr1l4Txan4ai1PLeXN_ONxSo723_VOBso9FqHL_VR8-rxMxUoWJmTw5OpjhqvqMDOLcQpX6yaCBQcwmPhVEL5bZmRoTxgPmJmQtU4uG-xC0CJOkgMMtNKauTTplkFmkpacOevVxSmRiJo-uzRNZqMGqIPD0c&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Se les puede auspiciar con Mascota Club América Michael Duran Gutierrez"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -947,22 +989,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NT7oQlJon1EQ7kNvwGNDZiR&_nc_oc=AdrWHx7BTMtqMwr0UTYsb2sXfzo_5PJkxBdSve_T7k3h7Z0hQ-31te1vZwfQsrylBHk&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=NDVI8AVmi_X0acpLdlXM7Q&_nc_ss=7f289&oh=00_AQO284puXs8YrNSa0Q5NkX7j4idFNr17evvC7ucvcsOuxw&oe=6AC81C17",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0cgiyXr6ZqCAVtNtUd693rLtVUgwqtuDE39h2Cu5MQaT1mqRiz1TradJQQf9k3w5Sl?__cft__[0]=AZhB8D27xU-m51tRzW3GW16Tw5yyD96EUxFjioNuBKeqr2MRz4o3q8FdUaP_6ks5ZSBLsehR93HkparJ1QCJtz9rDGtf6-P2sibhIqq62j-VwAFv5i6Twubv6N88za83WYkfC4ZNo_XL73oLSy-9u3EEn4pWARqygB_6Fs9SC39i9pXATIT4gqMrkiU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "HOMENAJE A UN GRANDE: INAUGURACIÓN EN PLANTA ALTA A… Ver más HOMENAJE A UN GRANDE: INAUGURACIÓN EN PLANTA ALTA A… Ver más Kathya Vaca Diez"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1024,22 +1057,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XBCr6lF3fDwQ7kNvwEde0vF&_nc_oc=AdqgJxeduDNfua6AFPz7tx3wBzlk2Xu9Hge--_6VuC6_aGVu50Ll1I1UWDNCcLF4V_c&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=dJmiPHOpyZ5dZ_f4nWml2Q&_nc_ss=7f289&oh=00_AQOj9gqv66jovu9qlLqNLKEgx4ydZ4Nm5qhilXTcHY814A&oe=6AC81ECF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "cine",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid031F4SdMHLRv48aA5CmNV18YQHKgzZYFjhonQctzKWvohaoZEDR1WURzh8WVy2b6rKl?__cft__[0]=AZgxKSiqigyDvPkVDUAcADPEhIqpd468rUIARq7qSE-YaMRO0MuLAZGhu9CXn1ATVBYENc4C0j_H4bpJt_0eTh_P_4D3wzv-bT_zMFlM4oR3mJtnRh0ezB-9H4WjZjpmnEa678iKkpcSG02zDMnMRLgpoatlLOQ0e5_7OcMJV1Xjqnl1rLzoDCZjYT4&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "17:00 h | Proyección de Kokon (2020) Sala 2 «Oscar Soria»… Ver más 17:00 h | Proyección de Kokon (2020) Sala 2 «Oscar Soria»… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1394,12 +1418,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 9,
+      "rejected": 4,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 24,
+          "score": 32,
           "category": "concierto",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1407,19 +1431,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "score": 52,
+          "category": "concierto",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
-          "text_preview": "02/10/2026 Cultura Premio Nobel de Literatura: sin listas oficiales y bajo un estricto secretismo Si hay una certeza acerca del Premio Nobel de Literatura, es que no tiene una certeza. Es el galardón más impredecible del mundo. vista 30/09/2026 Cultura Arte: llegan “Expresiones femeninas” Desde ayer, el salón “Mario Unzueta” (25 de mayo esq. Av. Heroínas) alberga la exposición “Expresiones femenin"
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         },
         {
-          "reason": "relevancia_insuficiente",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 54,
           "category": "concierto",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "url": "https://www.lostiempos.com/agenda-cultural/espectaculo-danza-negra_638606",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Proyecto Hidroeléctrico Ivirizu avanza con llenado controlado del embalse Sehuencas Ver más 2 Agetic rastreará a 300 usuarios"
+          "text_preview": "Agenda Cultural Negra es una obra de danza que busca reflejar la esperanza y la paz a través del movimiento y la expresión corporal. Creada por el estudio de arte El Escenario, esta pieza es tanto una celebración de la vida como una invitación a la reflexión. Fecha del Evento: Martes, 20 Agosto, 2024 - 19:00 Dirección: Calle España y Heroínas Lo más leído 1 Agetic rastreará a 300 usuarios por desv"
         }
       ],
       "error": null
@@ -1587,8 +1611,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 62,
-      "events": 62,
+      "raw_items": 60,
+      "events": 60,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1758,7 +1782,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 4 días Noticias 176 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
+          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 4 días Noticias 185 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",

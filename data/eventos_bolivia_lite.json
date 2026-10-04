@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-04T08:23:40-04:00",
+  "generated_at": "2026-10-04T14:41:53-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 67,
+    "events_total": 68,
     "events_today": 15
   },
   "filters": {
@@ -60,12 +60,12 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 15
+        "count": 16
       },
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 9
+        "count": 11
       },
       {
         "key": "feria",
@@ -80,12 +80,7 @@
       {
         "key": "teatro",
         "label": "Teatro",
-        "count": 4
-      },
-      {
-        "key": "otro",
-        "label": "Otros",
-        "count": 2
+        "count": 3
       },
       {
         "key": "taller",
@@ -101,6 +96,11 @@
         "key": "conferencia",
         "label": "Conferencias",
         "count": 2
+      },
+      {
+        "key": "otro",
+        "label": "Otros",
+        "count": 1
       },
       {
         "key": "danza",
@@ -132,7 +132,7 @@
       {
         "key": "Quillacollo",
         "label": "Quillacollo",
-        "count": 5
+        "count": 6
       },
       {
         "key": "Oruro",
@@ -159,7 +159,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 19
+        "count": 20
       },
       {
         "key": "La Paz",
@@ -201,17 +201,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 21
+        "count": 22
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 24
+        "count": 25
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 67
+        "count": 68
       }
     ],
     "price": [
@@ -223,19 +223,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 19
+        "count": 17
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 47
+        "count": 50
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 62
+        "count": 63
       },
       {
         "key": "con_video",
@@ -369,7 +369,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 29
+        "count": 30
       },
       {
         "key": "cartelera_cine",
@@ -412,9 +412,9 @@
       "evt_716c0f968c72f4",
       "evt_9ec30e9912591a",
       "evt_636d7d73a8a1c8",
-      "evt_979a03bcbb2897",
       "evt_f0d1e297f6d90a",
       "evt_ff02ff39ca6338",
+      "evt_979a03bcbb2897",
       "evt_9aba2bda600305",
       "evt_b08a47d1527141",
       "evt_e7b218bad6fcf5",
@@ -432,9 +432,9 @@
       "evt_716c0f968c72f4",
       "evt_9ec30e9912591a",
       "evt_636d7d73a8a1c8",
-      "evt_979a03bcbb2897",
       "evt_f0d1e297f6d90a",
       "evt_ff02ff39ca6338",
+      "evt_979a03bcbb2897",
       "evt_9aba2bda600305",
       "evt_b08a47d1527141",
       "evt_e7b218bad6fcf5",
@@ -450,9 +450,9 @@
       "evt_716c0f968c72f4",
       "evt_9ec30e9912591a",
       "evt_636d7d73a8a1c8",
-      "evt_979a03bcbb2897",
       "evt_f0d1e297f6d90a",
       "evt_ff02ff39ca6338",
+      "evt_979a03bcbb2897",
       "evt_9aba2bda600305",
       "evt_b08a47d1527141",
       "evt_e7b218bad6fcf5",
@@ -464,7 +464,6 @@
       "evt_2b67f103b08352",
       "evt_b738d5075ee0af",
       "evt_272425b1fcd388",
-      "evt_c0c814a826a490",
       "evt_cdbfbc6ca41a2d",
       "evt_ae9da30af86e30",
       "evt_bf127d6bfa7742",
@@ -478,7 +477,7 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 37,
+      "events_total": 36,
       "events_upcoming": 16,
       "events_with_image": 15,
       "events_with_video": 1,
@@ -486,23 +485,23 @@
       "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 32,
-      "events_upcoming": 19,
-      "events_with_image": 19,
+      "events_total": 34,
+      "events_upcoming": 20,
+      "events_with_image": 20,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 32,
+      "events_total": 31,
       "events_upcoming": 14,
       "events_with_image": 10,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
-      "events_total": 10,
+      "events_total": 9,
       "events_upcoming": 6,
       "events_with_image": 6,
       "events_with_video": 0,
@@ -526,7 +525,7 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 5,
+      "events_total": 4,
       "events_upcoming": 1,
       "events_with_image": 1,
       "events_with_video": 0,
@@ -553,16 +552,16 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 69,
+      "events_total": 63,
       "events_upcoming": 18,
       "events_with_image": 18,
       "events_with_video": 0
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 11,
-      "events_upcoming": 9,
-      "events_with_image": 9,
+      "events_total": 15,
+      "events_upcoming": 11,
+      "events_with_image": 11,
       "events_with_video": 1
     },
     "conferencia": {
@@ -581,9 +580,9 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 17,
-      "events_upcoming": 15,
-      "events_with_image": 15,
+      "events_total": 18,
+      "events_upcoming": 16,
+      "events_with_image": 16,
       "events_with_video": 1
     },
     "exposicion": {
@@ -616,9 +615,9 @@
     },
     "otro": {
       "label": "Otros",
-      "events_total": 3,
-      "events_upcoming": 2,
-      "events_with_image": 2,
+      "events_total": 2,
+      "events_upcoming": 1,
+      "events_with_image": 1,
       "events_with_video": 0
     },
     "taller": {
@@ -631,8 +630,8 @@
     "teatro": {
       "label": "Teatro",
       "events_total": 5,
-      "events_upcoming": 4,
-      "events_with_image": 3,
+      "events_upcoming": 3,
+      "events_with_image": 2,
       "events_with_video": 0
     },
     "turismo": {
@@ -1282,138 +1281,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_979a03bcbb2897",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-10-04T12:30:00-04:00",
-      "starts_at_ms": 1791131400000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Domingo 4 de octubre · 12:30",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/9/resident-evil-noche-cero-47798.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "12:30",
-        "16:30",
-        "22:40",
-        "10:50",
-        "15:10",
-        "14:30",
-        "18:30",
-        "20:40",
-        "10:40",
-        "13:00",
-        "17:10",
-        "19:10",
-        "20:10",
-        "21:10",
-        "16:40",
-        "20:30",
-        "10:30",
-        "12:50",
-        "15:05",
-        "17:20",
-        "19:40",
-        "22:00",
-        "10:20",
-        "19:30",
-        "14:40",
-        "17:00",
-        "22:10",
-        "17:40",
-        "19:50",
-        "22:20",
-        "12:20",
-        "14:50"
-      ],
-      "formats": [
-        "2D - DBOX - Doblada",
-        "2D - DBOX - XD - Doblada",
-        "2D - PRE - Doblada",
-        "DBOX - 2D - Doblada",
-        "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada",
-        "2D - XD - DBOX - IV - Doblada",
-        "3D - Doblada",
-        "3D - PRE - Subtitulada",
-        "DBOX - 2D - XD - IV - Doblada",
-        "XD - 2D - DBOX - IV - Doblada",
-        "2D - Doblada",
-        "2D - PRE - Subtitulada",
-        "2D - Subtitulada"
-      ],
-      "occurrences": [
-        "2026-10-04T12:30:00-04:00",
-        "2026-10-04T16:30:00-04:00",
-        "2026-10-04T22:40:00-04:00",
-        "2026-10-04T10:50:00-04:00",
-        "2026-10-04T15:10:00-04:00",
-        "2026-10-04T14:30:00-04:00",
-        "2026-10-04T18:30:00-04:00",
-        "2026-10-04T20:40:00-04:00",
-        "2026-10-04T10:40:00-04:00",
-        "2026-10-04T13:00:00-04:00",
-        "2026-10-04T17:10:00-04:00",
-        "2026-10-04T19:10:00-04:00",
-        "2026-10-04T20:10:00-04:00",
-        "2026-10-04T21:10:00-04:00",
-        "2026-10-04T16:40:00-04:00",
-        "2026-10-04T20:30:00-04:00",
-        "2026-10-04T10:30:00-04:00",
-        "2026-10-04T12:50:00-04:00",
-        "2026-10-04T15:05:00-04:00",
-        "2026-10-04T17:20:00-04:00",
-        "2026-10-04T19:40:00-04:00",
-        "2026-10-04T22:00:00-04:00",
-        "2026-10-04T10:20:00-04:00",
-        "2026-10-04T19:30:00-04:00",
-        "2026-10-04T14:40:00-04:00",
-        "2026-10-04T17:00:00-04:00",
-        "2026-10-04T22:10:00-04:00",
-        "2026-10-04T17:40:00-04:00",
-        "2026-10-04T19:50:00-04:00",
-        "2026-10-04T22:20:00-04:00",
-        "2026-10-04T12:20:00-04:00",
-        "2026-10-04T14:50:00-04:00",
-        "2026-10-04T18:50:00-04:00",
-        "2026-10-04T17:30:00-04:00",
-        "2026-10-04T21:55:00-04:00",
-        "2026-10-04T11:40:00-04:00",
-        "2026-10-04T11:10:00-04:00",
-        "2026-10-04T13:40:00-04:00",
-        "2026-10-04T16:10:00-04:00",
-        "2026-10-04T21:40:00-04:00",
-        "2026-10-04T17:50:00-04:00",
-        "2026-10-04T18:00:00-04:00",
-        "2026-10-04T16:00:00-04:00",
-        "2026-10-04T13:10:00-04:00",
-        "2026-10-04T15:30:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_f0d1e297f6d90a",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1608,6 +1475,124 @@
         "2026-10-04T12:15:00-04:00",
         "2026-10-04T22:10:00-04:00",
         "2026-10-04T14:40:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_979a03bcbb2897",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-10-04T14:30:00-04:00",
+      "starts_at_ms": 1791138600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 4 de octubre · 14:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/9/resident-evil-noche-cero-47798.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "14:30",
+        "16:30",
+        "18:30",
+        "15:10",
+        "17:10",
+        "20:40",
+        "22:40",
+        "19:10",
+        "17:40",
+        "20:10",
+        "17:20",
+        "19:50",
+        "14:50",
+        "22:20",
+        "16:40",
+        "21:10",
+        "20:30",
+        "15:05",
+        "19:40",
+        "22:00",
+        "14:40",
+        "19:30",
+        "17:00",
+        "22:10",
+        "18:50",
+        "17:30",
+        "21:55",
+        "21:40",
+        "17:50",
+        "16:10",
+        "18:00",
+        "16:00"
+      ],
+      "formats": [
+        "2D - DBOX - Doblada",
+        "2D - PRE - Doblada",
+        "DBOX - 2D - Doblada",
+        "PRE - 2D - Subtitulada",
+        "2D - Doblada",
+        "2D - PRE - Subtitulada",
+        "PRE - 2D - Doblada",
+        "3D - Doblada",
+        "DBOX - 2D - IV - XD - Doblada",
+        "PRE - 3D - Subtitulada",
+        "XD - 2D - IV - DBOX - Doblada",
+        "2D - Subtitulada"
+      ],
+      "occurrences": [
+        "2026-10-04T14:30:00-04:00",
+        "2026-10-04T16:30:00-04:00",
+        "2026-10-04T18:30:00-04:00",
+        "2026-10-04T15:10:00-04:00",
+        "2026-10-04T17:10:00-04:00",
+        "2026-10-04T20:40:00-04:00",
+        "2026-10-04T22:40:00-04:00",
+        "2026-10-04T19:10:00-04:00",
+        "2026-10-04T17:40:00-04:00",
+        "2026-10-04T20:10:00-04:00",
+        "2026-10-04T17:20:00-04:00",
+        "2026-10-04T19:50:00-04:00",
+        "2026-10-04T14:50:00-04:00",
+        "2026-10-04T22:20:00-04:00",
+        "2026-10-04T16:40:00-04:00",
+        "2026-10-04T21:10:00-04:00",
+        "2026-10-04T20:30:00-04:00",
+        "2026-10-04T15:05:00-04:00",
+        "2026-10-04T19:40:00-04:00",
+        "2026-10-04T22:00:00-04:00",
+        "2026-10-04T14:40:00-04:00",
+        "2026-10-04T19:30:00-04:00",
+        "2026-10-04T17:00:00-04:00",
+        "2026-10-04T22:10:00-04:00",
+        "2026-10-04T18:50:00-04:00",
+        "2026-10-04T17:30:00-04:00",
+        "2026-10-04T21:55:00-04:00",
+        "2026-10-04T21:40:00-04:00",
+        "2026-10-04T17:50:00-04:00",
+        "2026-10-04T16:10:00-04:00",
+        "2026-10-04T18:00:00-04:00",
+        "2026-10-04T16:00:00-04:00",
+        "2026-10-04T15:30:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -1964,27 +1949,27 @@
     {
       "event_id": "evt_fdede329817c71",
       "title": "Espectáculos",
-      "category": "otro",
-      "category_label": "Otros",
-      "starts_at": "2026-10-05T13:11:00-04:00",
-      "starts_at_ms": 1791220260000,
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-10-05T14:50:00-04:00",
+      "starts_at_ms": 1791226200000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Lunes 5 de octubre · 13:11",
+      "display_date": "Lunes 5 de octubre · 14:50",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
       "days_until": 1,
       "is_upcoming": true,
       "city": "La Paz",
       "department": "La Paz",
-      "venue": null,
+      "venue": "estadio Mario Alberto Kempes",
       "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/9/21/12_dc_cartelera_1.jpg?itok=5Pe0YQuq",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 13.0,
-      "currency": "BOB",
-      "price_label": "Bs 13",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -1994,7 +1979,45 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 59,
+      "quality_score": 61,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_0b5c585f05d96e",
+      "title": "04/10/2026 Cultura Música: Morabeza y la Coral Boliviana tocan el Réquiem de Mozart Hay obras de música que parecen…",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-10-07T14:50:00-04:00",
+      "starts_at_ms": 1791399000000,
+      "ends_at_ms": 1792382340000,
+      "multi_day": true,
+      "display_date": "Del 7 al 18 de octubre · 14:50",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 3,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": "estadio Mario Alberto Kempes",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/10/4/dc_cartelera_1.jpg?itok=HUhaC2JS",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
@@ -2534,27 +2557,27 @@
     {
       "event_id": "evt_c0c814a826a490",
       "title": "Ciclo de cine en La Troje",
-      "category": "teatro",
-      "category_label": "Teatro",
-      "starts_at": "2026-11-09T17:00:00-04:00",
-      "starts_at_ms": 1794258000000,
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-11-09T14:50:00-04:00",
+      "starts_at_ms": 1794250200000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Lunes 9 de noviembre · 17:00",
+      "display_date": "Lunes 9 de noviembre · 14:50",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
       "days_until": 36,
       "is_upcoming": true,
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
-      "venue": "Fexpocruz",
+      "venue": "estadio Mario Alberto Kempes",
       "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 17.95,
-      "currency": "BOB",
-      "price_label": "Bs 17.95",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -2564,8 +2587,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
