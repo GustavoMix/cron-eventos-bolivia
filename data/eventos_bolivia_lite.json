@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-05T10:39:12-04:00",
+  "generated_at": "2026-10-05T18:04:27-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 71,
-    "events_today": 15
+    "events_total": 72,
+    "events_today": 16
   },
   "filters": {
     "ui_groups": [
@@ -60,7 +60,7 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 16
+        "count": 17
       },
       {
         "key": "concierto",
@@ -122,7 +122,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 14
+        "count": 15
       },
       {
         "key": "Sucre",
@@ -159,7 +159,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 20
+        "count": 21
       },
       {
         "key": "La Paz",
@@ -201,22 +201,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 15
+        "count": 16
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 22
+        "count": 23
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 26
+        "count": 27
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 71
+        "count": 72
       }
     ],
     "price": [
@@ -233,14 +233,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 51
+        "count": 52
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 66
+        "count": 67
       },
       {
         "key": "con_video",
@@ -374,7 +374,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 30
+        "count": 31
       },
       {
         "key": "cartelera_cine",
@@ -413,7 +413,6 @@
       "evt_2bf3e485d15e86",
       "evt_1623e0288fe2cf",
       "evt_8374c259c6a661",
-      "evt_18f9b39f2b6796",
       "evt_ae21b638d873a3",
       "evt_9c7f0b14080290",
       "evt_1d2ae2a2bbd2d9",
@@ -424,6 +423,8 @@
       "evt_fdede329817c71",
       "evt_5d1143c3ede1d4",
       "evt_510f7af25301a4",
+      "evt_18f9b39f2b6796",
+      "evt_4af1b14a089a65",
       "evt_14db8ec7acd462"
     ],
     "tomorrow": [
@@ -443,7 +444,6 @@
       "evt_2bf3e485d15e86",
       "evt_1623e0288fe2cf",
       "evt_8374c259c6a661",
-      "evt_18f9b39f2b6796",
       "evt_ae21b638d873a3",
       "evt_9c7f0b14080290",
       "evt_1d2ae2a2bbd2d9",
@@ -452,6 +452,7 @@
       "evt_a4ec497f08d3cd",
       "evt_1be37e04b84a05",
       "evt_5d1143c3ede1d4",
+      "evt_18f9b39f2b6796",
       "evt_14db8ec7acd462",
       "evt_c398c99f1536bc",
       "evt_c9490e55c8ba74",
@@ -472,23 +473,23 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 38,
+      "events_total": 35,
       "events_upcoming": 17,
       "events_with_image": 16,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 33,
-      "events_upcoming": 20,
-      "events_with_image": 20,
+      "events_total": 30,
+      "events_upcoming": 21,
+      "events_with_image": 21,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 32,
+      "events_total": 30,
       "events_upcoming": 15,
       "events_with_image": 11,
       "events_with_video": 1,
@@ -496,7 +497,7 @@
       "sources_ok": 3
     },
     "Chuquisaca": {
-      "events_total": 11,
+      "events_total": 10,
       "events_upcoming": 7,
       "events_with_image": 7,
       "events_with_video": 0,
@@ -509,10 +510,10 @@
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 1
     },
     "Potosí": {
-      "events_total": 2,
+      "events_total": 1,
       "events_upcoming": 1,
       "events_with_image": 1,
       "events_with_video": 0,
@@ -520,7 +521,7 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 5,
+      "events_total": 4,
       "events_upcoming": 1,
       "events_with_image": 1,
       "events_with_video": 0,
@@ -541,20 +542,20 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 0
     }
   },
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 69,
+      "events_total": 61,
       "events_upcoming": 18,
       "events_with_image": 18,
       "events_with_video": 0
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 17,
+      "events_total": 15,
       "events_upcoming": 13,
       "events_with_image": 13,
       "events_with_video": 1
@@ -576,8 +577,8 @@
     "deporte": {
       "label": "Deportes",
       "events_total": 19,
-      "events_upcoming": 16,
-      "events_with_image": 16,
+      "events_upcoming": 17,
+      "events_with_image": 17,
       "events_with_video": 0
     },
     "exposicion": {
@@ -617,7 +618,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 4,
+      "events_total": 3,
       "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
@@ -980,150 +981,6 @@
         "2026-10-05T19:40:00-04:00",
         "2026-10-05T22:20:00-04:00",
         "2026-10-05T22:40:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_18f9b39f2b6796",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-10-05T10:30:00-04:00",
-      "starts_at_ms": 1791210600000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Lunes 5 de octubre · 10:30",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/9/resident-evil-noche-cero-47798.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "10:30",
-        "22:40",
-        "18:20",
-        "20:20",
-        "22:20",
-        "15:10",
-        "12:30",
-        "14:30",
-        "16:30",
-        "18:30",
-        "20:40",
-        "11:10",
-        "13:10",
-        "17:10",
-        "19:10",
-        "18:50",
-        "20:30",
-        "15:00",
-        "11:20",
-        "22:30",
-        "21:10",
-        "13:20",
-        "15:30",
-        "17:40",
-        "19:50",
-        "22:00",
-        "12:00",
-        "14:10",
-        "16:20",
-        "22:50",
-        "11:30",
-        "14:00"
-      ],
-      "formats": [
-        "2D - DBOX - Doblada",
-        "2D - Doblada",
-        "2D - PRE - Doblada",
-        "DBOX - 2D - Doblada",
-        "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada",
-        "2D - IV - DBOX - XD - Doblada",
-        "3D - Doblada",
-        "DBOX - 2D - XD - IV - Doblada",
-        "IV - 2D - XD - DBOX - Doblada",
-        "PRE - 3D - Subtitulada",
-        "2D - PRE - Subtitulada",
-        "2D - Subtitulada"
-      ],
-      "occurrences": [
-        "2026-10-05T10:30:00-04:00",
-        "2026-10-05T22:40:00-04:00",
-        "2026-10-05T18:20:00-04:00",
-        "2026-10-05T20:20:00-04:00",
-        "2026-10-05T22:20:00-04:00",
-        "2026-10-05T15:10:00-04:00",
-        "2026-10-05T12:30:00-04:00",
-        "2026-10-05T14:30:00-04:00",
-        "2026-10-05T16:30:00-04:00",
-        "2026-10-05T18:30:00-04:00",
-        "2026-10-05T20:40:00-04:00",
-        "2026-10-05T11:10:00-04:00",
-        "2026-10-05T13:10:00-04:00",
-        "2026-10-05T17:10:00-04:00",
-        "2026-10-05T19:10:00-04:00",
-        "2026-10-05T18:50:00-04:00",
-        "2026-10-05T20:30:00-04:00",
-        "2026-10-05T15:00:00-04:00",
-        "2026-10-05T11:20:00-04:00",
-        "2026-10-05T22:30:00-04:00",
-        "2026-10-05T21:10:00-04:00",
-        "2026-10-05T13:20:00-04:00",
-        "2026-10-05T15:30:00-04:00",
-        "2026-10-05T17:40:00-04:00",
-        "2026-10-05T19:50:00-04:00",
-        "2026-10-05T22:00:00-04:00",
-        "2026-10-05T12:00:00-04:00",
-        "2026-10-05T14:10:00-04:00",
-        "2026-10-05T16:20:00-04:00",
-        "2026-10-05T22:50:00-04:00",
-        "2026-10-05T11:30:00-04:00",
-        "2026-10-05T14:00:00-04:00",
-        "2026-10-05T17:00:00-04:00",
-        "2026-10-05T19:30:00-04:00",
-        "2026-10-05T22:10:00-04:00",
-        "2026-10-05T14:50:00-04:00",
-        "2026-10-05T17:20:00-04:00",
-        "2026-10-05T10:10:00-04:00",
-        "2026-10-05T12:20:00-04:00",
-        "2026-10-05T16:40:00-04:00",
-        "2026-10-05T21:00:00-04:00",
-        "2026-10-05T23:10:00-04:00",
-        "2026-10-05T12:40:00-04:00",
-        "2026-10-05T19:00:00-04:00",
-        "2026-10-05T16:25:00-04:00",
-        "2026-10-05T18:45:00-04:00",
-        "2026-10-05T13:30:00-04:00",
-        "2026-10-05T16:10:00-04:00",
-        "2026-10-05T10:50:00-04:00",
-        "2026-10-05T10:45:00-04:00",
-        "2026-10-05T17:30:00-04:00",
-        "2026-10-05T10:40:00-04:00",
-        "2026-10-05T13:00:00-04:00",
-        "2026-10-05T14:40:00-04:00",
-        "2026-10-05T21:20:00-04:00",
-        "2026-10-05T15:50:00-04:00",
-        "2026-10-05T15:20:00-04:00",
-        "2026-10-05T13:45:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2033,6 +1890,157 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_18f9b39f2b6796",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-10-05T18:30:00-04:00",
+      "starts_at_ms": 1791239400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 5 de octubre · 18:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/9/resident-evil-noche-cero-47798.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "18:30",
+        "18:20",
+        "20:20",
+        "22:20",
+        "17:10",
+        "16:30",
+        "20:40",
+        "22:40",
+        "19:10",
+        "18:50",
+        "20:30",
+        "21:10",
+        "22:30",
+        "17:40",
+        "19:50",
+        "22:00",
+        "22:50",
+        "16:20",
+        "17:00",
+        "19:30",
+        "22:10",
+        "17:20",
+        "16:40",
+        "21:00",
+        "23:10",
+        "19:00",
+        "16:25",
+        "18:45",
+        "17:30",
+        "21:20",
+        "16:10"
+      ],
+      "formats": [
+        "2D - DBOX - Doblada",
+        "2D - Doblada",
+        "2D - PRE - Doblada",
+        "DBOX - 2D - Doblada",
+        "PRE - 2D - Subtitulada",
+        "2D - IV - DBOX - XD - Doblada",
+        "3D - Doblada",
+        "3D - PRE - Subtitulada",
+        "XD - 2D - DBOX - IV - Doblada",
+        "2D - PRE - Subtitulada"
+      ],
+      "occurrences": [
+        "2026-10-05T18:30:00-04:00",
+        "2026-10-05T18:20:00-04:00",
+        "2026-10-05T20:20:00-04:00",
+        "2026-10-05T22:20:00-04:00",
+        "2026-10-05T17:10:00-04:00",
+        "2026-10-05T16:30:00-04:00",
+        "2026-10-05T20:40:00-04:00",
+        "2026-10-05T22:40:00-04:00",
+        "2026-10-05T19:10:00-04:00",
+        "2026-10-05T18:50:00-04:00",
+        "2026-10-05T20:30:00-04:00",
+        "2026-10-05T21:10:00-04:00",
+        "2026-10-05T22:30:00-04:00",
+        "2026-10-05T17:40:00-04:00",
+        "2026-10-05T19:50:00-04:00",
+        "2026-10-05T22:00:00-04:00",
+        "2026-10-05T22:50:00-04:00",
+        "2026-10-05T16:20:00-04:00",
+        "2026-10-05T17:00:00-04:00",
+        "2026-10-05T19:30:00-04:00",
+        "2026-10-05T22:10:00-04:00",
+        "2026-10-05T17:20:00-04:00",
+        "2026-10-05T16:40:00-04:00",
+        "2026-10-05T21:00:00-04:00",
+        "2026-10-05T23:10:00-04:00",
+        "2026-10-05T19:00:00-04:00",
+        "2026-10-05T16:25:00-04:00",
+        "2026-10-05T18:45:00-04:00",
+        "2026-10-05T17:30:00-04:00",
+        "2026-10-05T21:20:00-04:00",
+        "2026-10-05T16:10:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_4af1b14a089a65",
+      "title": "Balau: Taller de cajón peruano",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-10-05T21:30:00-04:00",
+      "starts_at_ms": 1791250200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 5 de octubre · 21:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "plaza Murillo",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_14db8ec7acd462",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -2096,11 +2104,11 @@
       "title": "GAMS Gobierno Autonomo Municipal de Sucre",
       "category": "conferencia",
       "category_label": "Conferencias",
-      "starts_at": "2026-10-06T00:00:00-04:00",
-      "starts_at_ms": 1791259200000,
+      "starts_at": "2026-10-06T08:00:00-04:00",
+      "starts_at_ms": 1791288000000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Martes 6 de octubre",
+      "display_date": "Martes 6 de octubre · 08:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
       "days_until": 1,

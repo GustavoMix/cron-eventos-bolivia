@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:39:12-04:00",
+  "generated_at": "2026-10-05T18:04:27-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_eventos_bolivia",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -15,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 105.4,
-    "horas_maximo_sin_datos": 1111.5
+    "horas_promedio_sin_datos": 107.4,
+    "horas_maximo_sin_datos": 1118.9
   },
   "sources": [
     {
@@ -63,12 +64,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Eventos Bolivia 426 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
     },
     {
       "id": "fb_festivales_eventos",
@@ -272,7 +273,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_opinion",
@@ -419,13 +420,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1P8fsrl1imoQ7kNvwEtBCYm&_nc_oc=Adosg2Zcx6F8ZFV7T06FN3BYanWSiqayCX-7uD3fVM3nlVwKgto7K741fPtD5y6tf_Q&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Hu4xA5O_fRFmJoFoUQjAnA&_nc_ss=7f289&oh=00_AQMAaweuo4jjCSPcMq6XA0hpiasDQAjq5Xg7uoWDVqHURQ&oe=6AC9F8C8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02zkLbpX4owyXv1zvrRLH7xPzbWQFFxpSMzPqVxVZW9jFJ8VEAsc7PjCBbfDvvtwwjl?__cft__[0]=AZjfjdPv612NyFfZV45Ggr7M9r2FgzsjUDS5eta18rSYjJjijnHqgkZttOG_bZUEDcwUNK1_y3nrpgMfESyPf-DeYLmlYv8h02n06lbHGWxc-kDfE1TPiLL9n4FcfbMNoqTuHeMQVRTg3SqD9lo8LgCzu2_4KHN8bru82tKHa-KSkGcZDMVWaQ08_Qo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "EN DIRECTO #LaHoraDelPaís Vespertino con #DavidChiri de lunes a viernes desde las 18:00 Sólo en #RadioFidesBolivia … Ver más EN DIRECTO #LaHoraDelPaís Vespertino con #DavidChiri de lunes a viernes desde las 18:00 Sólo en #RadioFidesBolivia … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_anf",
@@ -776,30 +786,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=2uCV3ucdWwAQ7kNvwHeMlxb&_nc_oc=Adr3827hXmjiEHwJ2coYKOH89rDS2eEqOac23ELeSkHathKpBHzMo1k5V4--3VvL5WA&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=sFNBsv5p2t3LtZj6O8Jk_w&_nc_ss=7f289&oh=00_AQPV_gzvC5m4ykKAtbL7zgbKRb-Q7hIRUfqRsgTfTor2lQ&oe=6AC9887A",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeOruro/posts/pfbid02WBcyEp6ck4Vxk4VwAyYscURWyRLqzHXsCsCeHr93HiNLBE7hXFrWSPyv7edx3Y9Tl?__cft__[0]=AZj6sWKAPZp9zhCgZrbDkPuaUJG0RQfgH-IJA9vzZdiE5GleXVFLGxyC9gykuZieSDwrQqYlNYnTwhZnLduCqlnxwlbmFZtOFHJS5Mk2FV8QkPbQsM1VDFxLudJkOE18BMUYZRZWgXgTUnMGJCoxzOO-txCiah7OJ1Fvp2FlUgDmPWGj7are62oWc8M&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Caminos que significan obras de reconciliación.… Ver más Buenas noticias... Ver más comentarios Jorge Chambi Santa Cruz"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeOruro/posts/pfbid02WBcyEp6ck4Vxk4VwAyYscURWyRLqzHXsCsCeHr93HiNLBE7hXFrWSPyv7edx3Y9Tl?comment_id=1772007870588470&__cft__[0]=AZj6sWKAPZp9zhCgZrbDkPuaUJG0RQfgH-IJA9vzZdiE5GleXVFLGxyC9gykuZieSDwrQqYlNYnTwhZnLduCqlnxwlbmFZtOFHJS5Mk2FV8QkPbQsM1VDFxLudJkOE18BMUYZRZWgXgTUnMGJCoxzOO-txCiah7OJ1Fvp2FlUgDmPWGj7are62oWc8M&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Buenas noticias... Jorge Chambi Santa Cruz"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_tarija",
@@ -861,22 +854,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oHtdPxhypwcQ7kNvwGOu94d&_nc_oc=Ado1Gdu3uQv8cBJS6HCMxwgQd-WiUtFJGlwyUjvehdWgHK_MUdPsIBMlePgn4w7rkfc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=CNMGP_xDZUrqa7Nf0WYoxQ&_nc_ss=7f289&oh=00_AQMdp7MWtI23gvrcYz6pewCZ6iEzY1lVwEEe7GbwzinOiQ&oe=6AC9A4A1",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/feriafipaz/posts/pfbid0A1SFPgekXpUe5scba2hBHtdbAu7y4mU56D5mLVd2qtm7HFrQQyXiy4io1Weh4Rmfl?__cft__[0]=AZizf7sg3uViEVaPwhuSWKNloHunPTIT_Yq_uKEiHMZoMZjyadUp2wlZuteWDeLuCqrXqI9s_JnQtZKZRuunL9PnWDkzcaLNJzyYNqyjEE7Q0joJqLWdjiyCzFeKd2UNWFbYfQqUscwO9XhWbN9zA5DPJyyKt_YLffC_RxwLJYuYu_K_slMZraiJi4s&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Invitación Prácticas Profesionales II | #FIPAZ 25 AÑOS invita a estudiantes de último año y/o egresados de universidades o institutos superiores a presentar sus postula… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -1057,22 +1041,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PdioU3Av3OUQ7kNvwGckoFj&_nc_oc=Adqsfsaxbp3O8YtNFWA6NHDyKz9NWImGPC356tAkoQ3-oZvUnhK-hV0daGiVtUFHRFc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=Sn9T-aVAnoKMtVRLesiidQ&_nc_ss=7f289&oh=00_AQMTedmKLMK8dutCALqJf9b9Hqiu_-MU7x58ciwk9nfhcw&oe=6AC98855",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid0X6ooZyC88Rg6REP1yWf7PmYw2mPvYbyaudEUtZvCghQFfxNxhJFseFUQrrb9tSb7l?__cft__[0]=AZjxNOfDl7g2L0W4yeVYvL76fNpgMxzvP9fgvRqO6tt5XpypSS1Sx4xCmPZ84XZpV6t3H_W5yfOE7mfq0DCbXpauS5jdILT11MwbcP4-ko6dUKdabb2m-MOBxPe2kFQEz6VmtLusKAViDGmZ0rq65NYFsIbvuEBxQZEZ1G0gSQClOv5ZtrZPk17TFbQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Aprende francés los sábados y abre nuevas oportunidades E… Ver más Aprende francés los sábados y abre nuevas oportunidades E… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1219,13 +1194,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/825053115_1546428510862442_5222564164521058268_n.jpg?stp=dst-jpg_tt6&cstp=mx1009x1017&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-m81ctU5orQQ7kNvwHtpRPg&_nc_oc=AdoHHWPYqvPzVLF_0aEWkKv2sEYg0StW_-SZ4IJlPhFQ0b_iZr6bnfFeVBZ6MR-O7Hk&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=xFDzp9uSxisJqQaezTfpOw&_nc_ss=7f289&oh=00_AQPQpqQimk686s_wxEFj6ie4JTu9JeipoqtCA3DEJ1IOQg&oe=6ACA0994",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid0FQm2f8zA2KJ7snD1uTfb5yz57hikw1sgQsYwwF9ZWskrAokKL6RfnPPiZczzqRwFl?__cft__[0]=AZgKLw8YYhmx39pvTs3gly8rWXTDzLXMbN2mPeuINpH3B-DhpxXBwS0V47yXClOWEDN4NIqRabv3Aq2rWfCeWR6KVbCB05waMgNFOdlOsMHIwuGgwN0bgTBXSZt1NqCA00w1-5N_Jm7S_PVVY2TN5uz-3jg9yHL8LUBUI9SuvOCEUBhMs7it9soVhIc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Fue una gran alegría darle la bienvenida a la promoción de la unidad educativa Americano Obrajes en La Cato! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_upsa",
@@ -1345,7 +1329,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "[Errno 101] Network is unreachable"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1410,32 +1394,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 6,
-      "rejected": 7,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
-          "category": "concierto",
+          "score": 40,
+          "category": "tecnologia",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "30/09/2026 Salud Estudio identifica una alternativa más corta para tratar el Chagas Treinta días en lugar de 60 y una toma diaria de benznidazol, uno de los medicamentos utilizados para tratar la enfermedad de mal de Chagas, en vez de dos. vista 29/09/2026 Ciencia El Tilcayo entra a la Photo Ark de National Geographic y entra al archivo mundial La imagen del Tilcayo, el felino silvestre recienteme"
+          "text_preview": "05/10/2026 Medio Ambiente “Autopista arbórea” de la Chiquitania: un estudio revela la vida oculta en las copas de los árboles El Bosque Seco Chiquitano de Bolivia se ve diferente a 20 metros de altura. Las copas de los árboles que conforman esta ecorregión se convierten en “autopistas... vista 30/09/2026 Salud Estudio identifica una alternativa más corta para tratar el Chagas Treinta días en lugar"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 42,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "has_image": true,
+          "text_preview": "05/10/2026 Cultura Semana 41: Se inaugura la XIX Feria Internacional del Libro de Cochabamba La decimonovena edición de la Feria Internacional del Libro de Cochabamba (FILC) realza la agenda cultural cochabambina. vista 04/10/2026 Cultura Música: Morabeza y la Coral Boliviana tocan el Réquiem de Mozart Hay obras de música que parecen hablar directamente al alma. El Réquiem de Wolfgang Amadeus Moza"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 54,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "04/10/2026 Cultura Música: Morabeza y la Coral Boliviana tocan el Réquiem de Mozart Hay obras de música que parecen hablar directamente al alma. El Réquiem de Wolfgang Amadeus Mozart es una de ellas. vista 02/10/2026 Cultura Premio Nobel de Literatura: sin listas oficiales y bajo un estricto secretismo Si hay una certeza acerca del Premio Nobel de Literatura, es que no tiene una certeza. Es el gal"
-        },
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 52,
-          "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Oviedo confirma que Del Castillo sigue prófugo y "
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Fuerte granizada deja daños en varias ciudades de Paraguay Ver más 2 La atención del Alzheimer, una deuda pendiente en Bolivi"
         }
       ],
       "error": null
@@ -1493,9 +1477,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 26,
+      "raw_items": 31,
       "events": 0,
-      "rejected": 26,
+      "rejected": 31,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1603,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 59,
-      "events": 59,
+      "raw_items": 54,
+      "events": 54,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1830,12 +1814,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "[Errno 101] Network is unreachable"
     }
   ]
 }
