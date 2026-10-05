@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-05T01:41:22-04:00",
+  "generated_at": "2026-10-05T10:39:12-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 69,
+    "events_total": 71,
     "events_today": 15
   },
   "filters": {
@@ -65,7 +65,7 @@
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 12
+        "count": 13
       },
       {
         "key": "feria",
@@ -73,14 +73,14 @@
         "count": 8
       },
       {
-        "key": "exposicion",
-        "label": "Exposiciones",
+        "key": "conferencia",
+        "label": "Conferencias",
         "count": 4
       },
       {
-        "key": "conferencia",
-        "label": "Conferencias",
-        "count": 3
+        "key": "exposicion",
+        "label": "Exposiciones",
+        "count": 4
       },
       {
         "key": "teatro",
@@ -117,7 +117,7 @@
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 15
+        "count": 16
       },
       {
         "key": "Cochabamba",
@@ -135,6 +135,11 @@
         "count": 6
       },
       {
+        "key": "Potosí",
+        "label": "Potosí",
+        "count": 2
+      },
+      {
         "key": "Oruro",
         "label": "Oruro",
         "count": 2
@@ -147,11 +152,6 @@
       {
         "key": "Tarija",
         "label": "Tarija",
-        "count": 1
-      },
-      {
-        "key": "Potosí",
-        "label": "Potosí",
         "count": 1
       }
     ],
@@ -169,7 +169,7 @@
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 14
+        "count": 15
       },
       {
         "key": "Bolivia",
@@ -190,6 +190,11 @@
         "key": "Tarija",
         "label": "Tarija",
         "count": 1
+      },
+      {
+        "key": "Potosí",
+        "label": "Potosí",
+        "count": 1
       }
     ],
     "when": [
@@ -201,17 +206,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 21
+        "count": 22
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 25
+        "count": 26
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 69
+        "count": 71
       }
     ],
     "price": [
@@ -223,19 +228,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 17
+        "count": 18
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 50
+        "count": 51
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 64
+        "count": 66
       },
       {
         "key": "con_video",
@@ -369,7 +374,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 29
+        "count": 30
       },
       {
         "key": "cartelera_cine",
@@ -389,7 +394,7 @@
       {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
-        "count": 6
+        "count": 7
       },
       {
         "key": "eventos",
@@ -421,7 +426,9 @@
       "evt_510f7af25301a4",
       "evt_14db8ec7acd462"
     ],
-    "tomorrow": [],
+    "tomorrow": [
+      "evt_bc14803c6aa659"
+    ],
     "this_weekend": [
       "evt_0b5c585f05d96e",
       "evt_938566d4816ada",
@@ -470,10 +477,10 @@
       "events_with_image": 16,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 37,
+      "events_total": 33,
       "events_upcoming": 20,
       "events_with_image": 20,
       "events_with_video": 0,
@@ -481,12 +488,12 @@
       "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 31,
-      "events_upcoming": 14,
-      "events_with_image": 10,
+      "events_total": 32,
+      "events_upcoming": 15,
+      "events_with_image": 11,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
       "events_total": 11,
@@ -494,7 +501,7 @@
       "events_with_image": 7,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 2,
@@ -502,12 +509,12 @@
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 2
     },
     "Potosí": {
-      "events_total": 0,
-      "events_upcoming": 0,
-      "events_with_image": 0,
+      "events_total": 2,
+      "events_upcoming": 1,
+      "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 3,
       "sources_ok": 0
@@ -518,7 +525,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 1
+      "sources_ok": 2
     },
     "Beni": {
       "events_total": 0,
@@ -547,16 +554,16 @@
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 18,
-      "events_upcoming": 12,
-      "events_with_image": 12,
+      "events_total": 17,
+      "events_upcoming": 13,
+      "events_with_image": 13,
       "events_with_video": 1
     },
     "conferencia": {
       "label": "Conferencias",
-      "events_total": 3,
-      "events_upcoming": 3,
-      "events_with_image": 3,
+      "events_total": 4,
+      "events_upcoming": 4,
+      "events_with_image": 4,
       "events_with_video": 0
     },
     "danza": {
@@ -610,7 +617,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 5,
+      "events_total": 4,
       "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
@@ -2085,6 +2092,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_bc14803c6aa659",
+      "title": "GAMS Gobierno Autonomo Municipal de Sucre",
+      "category": "conferencia",
+      "category_label": "Conferencias",
+      "starts_at": "2026-10-06T00:00:00-04:00",
+      "starts_at_ms": 1791259200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 6 de octubre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 1,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": null,
+      "image_url": "https://sucre.bo/wp-content/uploads/2026/10/832528609_122128866285382207_464043670804189375_n-310x165.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 300.0,
+      "currency": "BOB",
+      "price_label": "Bs 300 - 950.27",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_0b5c585f05d96e",
       "title": "04/10/2026 Cultura Música: Morabeza y la Coral Boliviana tocan el Réquiem de Mozart Hay obras de música que parecen…",
       "category": "deporte",
@@ -2916,6 +2961,44 @@
       "director": null,
       "cast": [],
       "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_b46fb054e4b857",
+      "title": "Balau: Taller de cajón peruano",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-11-09T21:30:00-04:00",
+      "starts_at_ms": 1794274200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 9 de noviembre · 21:30",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 35,
+      "is_upcoming": true,
+      "city": "Potosí",
+      "department": "Potosí",
+      "venue": "estadio Mario Alberto Kempes",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
       "is_featured": false,
       "status": "programado",
       "source_count": 1

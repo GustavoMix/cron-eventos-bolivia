@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:41:22-04:00",
+  "generated_at": "2026-10-05T10:39:12-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 101.6,
-    "horas_maximo_sin_datos": 1102.5
+    "horas_promedio_sin_datos": 105.4,
+    "horas_maximo_sin_datos": 1111.5
   },
   "sources": [
     {
@@ -272,7 +272,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
     },
     {
       "id": "fb_opinion",
@@ -283,30 +283,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XGAjc1ZgaJkQ7kNvwEzfIkn&_nc_oc=AdpMB9aqaZllCtSWhEDryo-5kuUHcz72GPaGayfPdeOzVsaEqgEUDQ4WHIJW8M0qDOg&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=_M30jSVbg99CvRPQPweK2Q&_nc_ss=7f289&oh=00_AQML_GCsTyoiMQaWo_nmi_Xw447S93vwLN5jEFcO16vhQw&oe=6AC910E6",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid0zTXAuJ6aa6Vk3CJRVSBVB5poB6cVvQpHjJbaRqAdGgrKnTgZBJWouHdaRNEMrnUPl?__cft__[0]=AZh7ZOLZe4avej3HC3Qdj-RQRJ4Ft4vrsTJITzzIXxr3EF70n2xTERT-438lxCPkwHEz7QwmqrWWgtvIXBDlQpc4Gy_74ROw7PI7nXcgq2-PtXHDuAP5p2eP2fE3kw51PQAw2a5BFbaFlV3GBbjcGIgrkzBEH3tBzLVZ8UZfmnFyepVlotPTYuIkLz0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#brasil #Bolsonaro #Lula | Al no lograr ninguno de los aspirantes la mayoría absoluta necesaria para ser elegido de manera directa, se celebrará una segunda vuelta entr… Ver más Lloran las feminazis y zurdos OPINION.COM.BO Bolsonaro gana la primera vuelta con el 47% de los votos y disputará contra Lula (45%) la segunda vuelta Ver más comentarios Carlos Trujillo"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid0zTXAuJ6aa6Vk3CJRVSBVB5poB6cVvQpHjJbaRqAdGgrKnTgZBJWouHdaRNEMrnUPl?comment_id=1768487101136012&__cft__[0]=AZh7ZOLZe4avej3HC3Qdj-RQRJ4Ft4vrsTJITzzIXxr3EF70n2xTERT-438lxCPkwHEz7QwmqrWWgtvIXBDlQpc4Gy_74ROw7PI7nXcgq2-PtXHDuAP5p2eP2fE3kw51PQAw2a5BFbaFlV3GBbjcGIgrkzBEH3tBzLVZ8UZfmnFyepVlotPTYuIkLz0&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Lloran las feminazis y zurdos Carlos Trujillo"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber",
@@ -793,13 +776,30 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=2uCV3ucdWwAQ7kNvwHeMlxb&_nc_oc=Adr3827hXmjiEHwJ2coYKOH89rDS2eEqOac23ELeSkHathKpBHzMo1k5V4--3VvL5WA&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=sFNBsv5p2t3LtZj6O8Jk_w&_nc_ss=7f289&oh=00_AQPV_gzvC5m4ykKAtbL7zgbKRb-Q7hIRUfqRsgTfTor2lQ&oe=6AC9887A",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeOruro/posts/pfbid02WBcyEp6ck4Vxk4VwAyYscURWyRLqzHXsCsCeHr93HiNLBE7hXFrWSPyv7edx3Y9Tl?__cft__[0]=AZj6sWKAPZp9zhCgZrbDkPuaUJG0RQfgH-IJA9vzZdiE5GleXVFLGxyC9gykuZieSDwrQqYlNYnTwhZnLduCqlnxwlbmFZtOFHJS5Mk2FV8QkPbQsM1VDFxLudJkOE18BMUYZRZWgXgTUnMGJCoxzOO-txCiah7OJ1Fvp2FlUgDmPWGj7are62oWc8M&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Caminos que significan obras de reconciliación.… Ver más Buenas noticias... Ver más comentarios Jorge Chambi Santa Cruz"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeOruro/posts/pfbid02WBcyEp6ck4Vxk4VwAyYscURWyRLqzHXsCsCeHr93HiNLBE7hXFrWSPyv7edx3Y9Tl?comment_id=1772007870588470&__cft__[0]=AZj6sWKAPZp9zhCgZrbDkPuaUJG0RQfgH-IJA9vzZdiE5GleXVFLGxyC9gykuZieSDwrQqYlNYnTwhZnLduCqlnxwlbmFZtOFHJS5Mk2FV8QkPbQsM1VDFxLudJkOE18BMUYZRZWgXgTUnMGJCoxzOO-txCiah7OJ1Fvp2FlUgDmPWGj7are62oWc8M&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Buenas noticias... Jorge Chambi Santa Cruz"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_tarija",
@@ -861,13 +861,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oHtdPxhypwcQ7kNvwGOu94d&_nc_oc=Ado1Gdu3uQv8cBJS6HCMxwgQd-WiUtFJGlwyUjvehdWgHK_MUdPsIBMlePgn4w7rkfc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=CNMGP_xDZUrqa7Nf0WYoxQ&_nc_ss=7f289&oh=00_AQMdp7MWtI23gvrcYz6pewCZ6iEzY1lVwEEe7GbwzinOiQ&oe=6AC9A4A1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/feriafipaz/posts/pfbid0A1SFPgekXpUe5scba2hBHtdbAu7y4mU56D5mLVd2qtm7HFrQQyXiy4io1Weh4Rmfl?__cft__[0]=AZizf7sg3uViEVaPwhuSWKNloHunPTIT_Yq_uKEiHMZoMZjyadUp2wlZuteWDeLuCqrXqI9s_JnQtZKZRuunL9PnWDkzcaLNJzyYNqyjEE7Q0joJqLWdjiyCzFeKd2UNWFbYfQqUscwO9XhWbN9zA5DPJyyKt_YLffC_RxwLJYuYu_K_slMZraiJi4s&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Invitación Prácticas Profesionales II | #FIPAZ 25 AÑOS invita a estudiantes de último año y/o egresados de universidades o institutos superiores a presentar sus postula… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -1048,13 +1057,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PdioU3Av3OUQ7kNvwGckoFj&_nc_oc=Adqsfsaxbp3O8YtNFWA6NHDyKz9NWImGPC356tAkoQ3-oZvUnhK-hV0daGiVtUFHRFc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=Sn9T-aVAnoKMtVRLesiidQ&_nc_ss=7f289&oh=00_AQMTedmKLMK8dutCALqJf9b9Hqiu_-MU7x58ciwk9nfhcw&oe=6AC98855",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid0X6ooZyC88Rg6REP1yWf7PmYw2mPvYbyaudEUtZvCghQFfxNxhJFseFUQrrb9tSb7l?__cft__[0]=AZjxNOfDl7g2L0W4yeVYvL76fNpgMxzvP9fgvRqO6tt5XpypSS1Sx4xCmPZ84XZpV6t3H_W5yfOE7mfq0DCbXpauS5jdILT11MwbcP4-ko6dUKdabb2m-MOBxPe2kFQEz6VmtLusKAViDGmZ0rq65NYFsIbvuEBxQZEZ1G0gSQClOv5ZtrZPk17TFbQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Aprende francés los sábados y abre nuevas oportunidades E… Ver más Aprende francés los sábados y abre nuevas oportunidades E… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1116,13 +1134,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9FFCAeM6jLMQ7kNvwG5rOww&_nc_oc=AdpwEvOyHcwNAwxplbArUWe8XHu8r0mMc3MdnfAnPBhY-xM6SCsd3UJoEpj8Dy_PBts&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=3P3xpn40n4NCzS_F8EzSMA&_nc_ss=7f289&oh=00_AQOl0Qq6BivAPX6C54UUtb9GWpB2BzKRvcE7dwXbPWB2eQ&oe=6AC91164",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1167,22 +1185,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611611123_892086103405617_7679383414559238851_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Rj4hCN1UqH4Q7kNvwHENSQs&_nc_oc=AdpF002t1Qp0XvXrPTNuBGEXMkbYi4AV31qQlYmMiqnhTI9yKEDTiIeYvgNqKG_vxhM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Cj_uNJQAau6a2gYD83NBgg&_nc_ss=7f289&oh=00_AQMn-g2bMjQB16hhHXzqxMuabdwxtMXbVT5ynTJBA58aIA&oe=6AC8F648",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid02LaYG7mZ9HhSi3EqCUnKvsAaBhJkeZF8mVUpv1GjfEXSh2NG99gwG1cbmivHfofb6l?__cft__[0]=AZjRTQlMeSDQDb0yataE-B4WVFVXsOVLJaseFXP1zn2QGcv3fQ9kdFOXeUWeqRqA_oxhPkkbBALNDQ8pykSPoyHSi7qryvHVRyxBAnKluc1AhLGI-6mv80RVE8CGPYtHsuESnIKK2Hy1JvQVDbMrEGPhMkMBzSqM-jhUwZCCq9YazA4hhgqbGmu4VVU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Feliz día a nuestros profesionales odontólogos"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umss",
@@ -1401,8 +1410,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 10,
-      "rejected": 3,
+      "events": 6,
+      "rejected": 7,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1422,11 +1431,11 @@
         },
         {
           "reason": "relevancia_insuficiente",
-          "score": 54,
+          "score": 52,
           "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Gobierno culpa a Mariaca por cerco, dice que fue "
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Agetic rastreará a 300 usuarios por desvío de combustible en YPFB Ver más 2 Oviedo confirma que Del Castillo sigue prófugo y "
         }
       ],
       "error": null
@@ -1702,13 +1711,38 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
+      "status": "ok",
+      "raw_items": 8,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "[Errno 111] Connection refused"
+      "rejected": 8,
+      "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "gastronomia",
+          "url": "https://www.tarija.gob.bo/",
+          "has_image": true,
+          "text_preview": "Noticias Tarija fortalece la cadena de la uva, vino y singani con un taller de articulación para impulsar la competitividad del sector 22/09/2026"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "turismo",
+          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
+          "has_image": false,
+          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones",
+          "has_image": false,
+          "text_preview": "0 % Manuales de organizacion y funciones Ordering Órden Ascendente Órden Descendente Título Ascendente Título Descendente Fecha Ascendente Fecha Descendente Filename Ascending Filename Descending Rating Count Ascending Rating Count Descending Rating Ascending Rating Descending Downloads Ascending Downloads Descending Cantidad de ítems por página 5 10 15 20 50 Todo Powered by Phoca Download"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_uto_cultura",
@@ -1756,17 +1790,9 @@
       "icon_url": "https://sucre.bo/wp-content/uploads/2026/05/header_web_2026.png",
       "status": "ok",
       "raw_items": 4,
-      "events": 0,
-      "rejected": 4,
+      "events": 1,
+      "rejected": 3,
       "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 37,
-          "category": "conferencia",
-          "url": "https://sucre.bo/noticias/",
-          "has_image": true,
-          "text_preview": "ALCALDÍA PRESENTA ESTUDIO TÉCNICO Y ANUNCIA NUEVO TARIFARIO PARA EL TRANSPORTE PÚBLICO DE MICROS hace 4 días Noticias 200 El Ejecutivo Municipal presentó este miércoles el estudio de costos para la estructuración del tarifario del servicio público de microbuses, cuyos resultados establecen nuevos precios para los pasajes, que entrarán en vigencia desde este jueves mediante un decreto edil. La pres"
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 30,
@@ -1782,6 +1808,14 @@
           "url": "https://sucre.bo/direccion-de-gestion-de-recursos-humanos/",
           "has_image": false,
           "text_preview": "Inicio / DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS xoso tin chelsea thông tin chuyển nhượng câu lạc bộ bóng đá arsenal bóng đá atalanta bundesliga cầu thủ haaland UEFA everton xoso futebol ao vivo futemax multicanais onbet https://bsport.fit https://onbet88.ooo https://i9bet.biz https://hi88.ooo https://okvip.at https://f8bet.at https://fb88.cash https://vn8"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "turismo",
+          "url": "https://sucre.bo/secretaria-municipal-turismo-cultura/",
+          "has_image": false,
+          "text_preview": "Inicio / SECRETARÍA MUNICIPAL DE TURISMO Y CULTURA SECRETARÍA MUNICIPAL DE TURISMO Y CULTURA DIRECCIÓN: Calle Argentina Nº 65 TELÉFONO: 64-69160 SECRETARIO : Lic. Oscar Alfaro Vega ￼ OBJETIVO GENERAL: Posicionar al Municipio de Sucre como el principal referente turístico y cultural del país en el marco de su riqueza patrimonial, histórica, arquitectónica, cultural, paleontológica, gastronómi"
         }
       ],
       "error": null
