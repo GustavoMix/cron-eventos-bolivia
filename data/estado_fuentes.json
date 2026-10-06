@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:04:27-04:00",
+  "generated_at": "2026-10-06T02:23:56-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_eventos_bolivia",
       "fb_gam_cbba",
+      "fb_gob_chuquisaca",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 107.4,
-    "horas_maximo_sin_datos": 1118.9
+    "horas_promedio_sin_datos": 112.7,
+    "horas_maximo_sin_datos": 1127.2
   },
   "sources": [
     {
@@ -63,13 +63,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TE7U0jr_ZoUQ7kNvwEtZVZ3&_nc_oc=AdrTVJFmEymcC6loup816-ibottkmt9fokRITC8jQdfEXtbtoqDsztWg2bHIjAJLa8M&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=64UTN7B-K36kkDA_Gb-X0Q&_nc_ss=7f289&oh=00_AQOedc74F43ZfZBNKM9L45J0l4OV2cXMSIgwAVhTaEyfYA&oe=6ACA7DF6",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Eventos Bolivia 426 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZjrv6ND2Ae9bXeDYfse9HoGates_1CzGpCn3YWCs_Qahn59jDTeDVg0M52wDATAFmIo3ilQeCvXtpkUzF3Yg8BFD_Jj-EkF4hug5uKHB5RCXOanWZed-BLdi4FOu0Z-g-c8G6ZCnZZNk44X9_Ckd7cRP-cAs3YCPrdn1UsLXQzlDMbhf6SGqd7u6z4h-6UVNZvr&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZjrv6ND2Ae9bXeDYfse9HoGates_1CzGpCn3YWCs_Qahn59jDTeDVg0M52wDATAFmIo3ilQeCvXtpkUzF3Yg8BFD_Jj-EkF4hug5uKHB5RCXOanWZed-BLdi4FOu0Z-g-c8G6ZCnZZNk44X9_Ckd7cRP-cAs3YCPrdn1UsLXQzlDMbhf6SGqd7u6z4h-6UVNZvr&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -420,22 +437,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1P8fsrl1imoQ7kNvwEtBCYm&_nc_oc=Adosg2Zcx6F8ZFV7T06FN3BYanWSiqayCX-7uD3fVM3nlVwKgto7K741fPtD5y6tf_Q&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Hu4xA5O_fRFmJoFoUQjAnA&_nc_ss=7f289&oh=00_AQMAaweuo4jjCSPcMq6XA0hpiasDQAjq5Xg7uoWDVqHURQ&oe=6AC9F8C8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02zkLbpX4owyXv1zvrRLH7xPzbWQFFxpSMzPqVxVZW9jFJ8VEAsc7PjCBbfDvvtwwjl?__cft__[0]=AZjfjdPv612NyFfZV45Ggr7M9r2FgzsjUDS5eta18rSYjJjijnHqgkZttOG_bZUEDcwUNK1_y3nrpgMfESyPf-DeYLmlYv8h02n06lbHGWxc-kDfE1TPiLL9n4FcfbMNoqTuHeMQVRTg3SqD9lo8LgCzu2_4KHN8bru82tKHa-KSkGcZDMVWaQ08_Qo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "EN DIRECTO #LaHoraDelPaís Vespertino con #DavidChiri de lunes a viernes desde las 18:00 Sólo en #RadioFidesBolivia … Ver más EN DIRECTO #LaHoraDelPaís Vespertino con #DavidChiri de lunes a viernes desde las 18:00 Sólo en #RadioFidesBolivia … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_anf",
@@ -770,12 +778,12 @@
       "region": "Chuquisaca",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gob_oruro",
@@ -905,13 +913,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yBFxtFpbQh8Q7kNvwHy9whj&_nc_oc=AdpRt4by2IIJqlnjeCCa8BNaZ9uLJnUvVhIKYTMqE5ZX4hrHoR0tqwcnow-2O3ZQATM&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=zfvAgN5wOgutr46ERmrq7A&_nc_ss=7f289&oh=00_AQMzIr1ND5SDKP8_ssHtdciq-juH-1f-ZKiiptdZ8zhtxg&oe=6ACA4C07",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1194,22 +1202,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/825053115_1546428510862442_5222564164521058268_n.jpg?stp=dst-jpg_tt6&cstp=mx1009x1017&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-m81ctU5orQQ7kNvwHtpRPg&_nc_oc=AdoHHWPYqvPzVLF_0aEWkKv2sEYg0StW_-SZ4IJlPhFQ0b_iZr6bnfFeVBZ6MR-O7Hk&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=xFDzp9uSxisJqQaezTfpOw&_nc_ss=7f289&oh=00_AQPQpqQimk686s_wxEFj6ie4JTu9JeipoqtCA3DEJ1IOQg&oe=6ACA0994",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid0FQm2f8zA2KJ7snD1uTfb5yz57hikw1sgQsYwwF9ZWskrAokKL6RfnPPiZczzqRwFl?__cft__[0]=AZgKLw8YYhmx39pvTs3gly8rWXTDzLXMbN2mPeuINpH3B-DhpxXBwS0V47yXClOWEDN4NIqRabv3Aq2rWfCeWR6KVbCB05waMgNFOdlOsMHIwuGgwN0bgTBXSZt1NqCA00w1-5N_Jm7S_PVVY2TN5uz-3jg9yHL8LUBUI9SuvOCEUBhMs7it9soVhIc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Fue una gran alegría darle la bienvenida a la promoción de la unidad educativa Americano Obrajes en La Cato! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_upsa",
@@ -1329,7 +1328,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1399,7 +1398,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
+          "score": 38,
           "category": "tecnologia",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1407,19 +1406,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 42,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "05/10/2026 Cultura Semana 41: Se inaugura la XIX Feria Internacional del Libro de Cochabamba La decimonovena edición de la Feria Internacional del Libro de Cochabamba (FILC) realza la agenda cultural cochabambina. vista 04/10/2026 Cultura Música: Morabeza y la Coral Boliviana tocan el Réquiem de Mozart Hay obras de música que parecen hablar directamente al alma. El Réquiem de Wolfgang Amadeus Moza"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
+          "score": 52,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Fuerte granizada deja daños en varias ciudades de Paraguay Ver más 2 La atención del Alzheimer, una deuda pendiente en Bolivi"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Trasladan a Mariaca al penal de Cantumarca de Potosí en medio de fuerte resguardo policial Ver más 2 Dos pandas gigantes chin"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 47,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1477,15 +1476,23 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 31,
+      "raw_items": 29,
       "events": 0,
-      "rejected": 31,
+      "rejected": 29,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/fadcdaaa-a646-41c5-9841-2f11b9133a62",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/316cf85a-71cb-4a50-96dc-549f33a18d34",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2474f025-a474-4c99-86ff-fdfb18cef1e8",
           "has_image": true,
           "text_preview": ""
         },
@@ -1494,14 +1501,6 @@
           "score": 0,
           "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/0fbc8d39-20f6-4f97-9034-1e9e6717a719",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/53520085-b108-43c8-9361-71022ae87dec",
           "has_image": true,
           "text_preview": ""
         }
@@ -1587,8 +1586,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 54,
-      "events": 54,
+      "raw_items": 56,
+      "events": 56,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1814,12 +1813,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": null
     }
   ]
 }
