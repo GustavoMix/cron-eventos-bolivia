@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:01:35-04:00",
+  "generated_at": "2026-10-06T18:43:24-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_casa_libertad",
       "fb_gam_cbba",
-      "fb_gob_chuquisaca",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 117.2,
-    "horas_maximo_sin_datos": 1136.8
+    "horas_promedio_sin_datos": 118.8,
+    "horas_maximo_sin_datos": 1143.5
   },
   "sources": [
     {
@@ -137,7 +137,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -539,22 +539,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iL3lYV9zyL4Q7kNvwG_nvFe&_nc_oc=AdqCusWO-MklsJxnTRrnKmW8kICBKa3gB34nrROCw28XcfrQCGPiCkB0RkKCGr_zCEU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=mbpvnMkwA5Ad8HkTuolx5g&_nc_ss=7f289&oh=00_AQP5FJ75DfscYDrHtLUQtkt7wUHxGXuW0PVnF3qoq8bZrA&oe=6ACAF3F3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/3011366892556870/?__cft__[0]=AZipuWdiX1DgHtb_zhZ0DCvFhieijRemefq1-miDkYlHu31JfLBE5T7ZjuNlRsbeeS4lS_f02-7ePW52IaxUmSpO6FuMTGqi4V-cxJWGcMMTq7_qZMCmLvDlGzhOGNhi7jaytENYFwXp6IAV1ULtHtRQ4NmA-ek_bsvdMxfIPPKUd6zw0FdR7sQlMcUYYX5QveGI&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "31 LOGROS INSTITUCIONALES | LOGRO #06… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -769,13 +760,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7kqxKaoxigIQ7kNvwFhNB_2&_nc_oc=Adou5sU56qigv13VFgFKJgJBBVGww_LjmeZmZ3dODiAzcqMdMVpusGku62BrsAaApXU&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=oACJ0-Qvds2N7hLwXpSWrw&_nc_ss=7f289&oh=00_AQOnuUPqJ4MkIOM6gpx9Q9OiK3IccxaQM_zBvUybnkSj6g&oe=6ACB376A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid0FcfWFhXntszGUsJNxpxtzfrZ8aFKtJwe8aqpFhUqmbb8Cyq8XGWtvw7DojUyWXiUl?__cft__[0]=AZjClVBhRihGZd-XaPhqAD3Nxz8SXMaNj_Jht8URS2zmpSSSTz_vQxR4K5gQCrhQneIw8TOxcjAuIxYrGmsJgzvr8PRMVbNiKheQHXZC54qZKnYZvtr0WxfNyg2lAIRTRDe6ddnJQ8DxUbH2Mu_HMU54AVy6uvbd7CePjwpbMQaYpIMgp-mv6cC1yOA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "GOBERNACIÓN DE CHUQUISACA SOSTIENE REUNIÓN PARA ANALIZAR COSTOS Y TARIFAS DEL TRANSPORTE INTERPROVINCIAL E INTERMUNICIPAL… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_oruro",
@@ -922,22 +922,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cW0FE_e9G5MQ7kNvwFSnEn0&_nc_oc=AdpvJleVWuieL1dQR-lw_yoHLlfREsB0MopFmgpycmRoqvXuMuysPZ8WQNwUFM5BeEQ&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=cjcPV4TIc4TGzoUxH6fV-g&_nc_ss=7f289&oh=00_AQNgtoftgTe5MZw2nTsnpzvlQZOQ09TLQMSSieP_cgfu2Q&oe=6ACAFE38",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "turismo",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/-ganadores-del-xvi-concurso-municipal-de-arte-popular-forjando-identidades-2026e/1127836549609839/",
-          "has_image": true,
-          "text_preview": "🏆 Ganadores del XVI Concurso Municipal de Arte Popular \"Forjando Identidades\" 2026 En esta décimo sexta edición, presentamos a los ganadores de las distintas categorias que con esfuerzo, técnica y... 🏆 Ganadores del XVI Concurso Municipal de Arte Popular \"Forjando Identidades\" 2026 En esta décimo sexta edición, presentamos a los ganadores de las... Ganadores del XVI Concurso Municipal de Arte Popu"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1067,30 +1058,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Jn1rHaYpC2oQ7kNvwFhIskn&_nc_oc=AdqCgdnx4_FbQCsUmEJJII-caHh84OJhd1Q046jvqrTSWF5VVo_NFlqjOcKodMPGXkw&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=Y2Yvuir0BU_fYsvapIY58Q&_nc_ss=7f289&oh=00_AQM4M-enb--2r9fBQf0dSeRRLtIQULFGCk6MC9RSG_YxrA&oe=6ACADC52",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid02LtEUSJjwCpAhkK5w6mGZ9ddcfVALC1renH7BpMowNf9TNBkVvi2MXmEdnw6jYJN8l?__cft__[0]=AZhfHXjENLrvgMEg_s2cwk7yd3pvSuhE2wtIXCtWmmwrFW3TyW27IYnxeJvuAuIET7Pip9TvkUeYDGSKXXx741nuHK8J-SlrLEAuUDWaHUYgKbzat7yp7T09o8BcqdKjzBqIHydOrQ3R_XN70v7Je7qu8rENg2bYBvWsI4YDWevHLiLpX6o-XXlGTvw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "PARLANA | Una noche para conectar ¿… Ver más PARLANA | Una noche para conectar ¿… Ver más El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid02LtEUSJjwCpAhkK5w6mGZ9ddcfVALC1renH7BpMowNf9TNBkVvi2MXmEdnw6jYJN8l?comment_id=1079850634463156&__cft__[0]=AZhfHXjENLrvgMEg_s2cwk7yd3pvSuhE2wtIXCtWmmwrFW3TyW27IYnxeJvuAuIET7Pip9TvkUeYDGSKXXx741nuHK8J-SlrLEAuUDWaHUYgKbzat7yp7T09o8BcqdKjzBqIHydOrQ3R_XN70v7Je7qu8rENg2bYBvWsI4YDWevHLiLpX6o-XXlGTvw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "El 27 de agosto es Jueves, no miércoles Jhonny Juchazara Choqueticlla"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1119,12 +1093,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_musef_sucre",
@@ -1169,13 +1143,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8iWdgZwKyCEQ7kNvwE8smnJ&_nc_oc=AdoXgHU362eCwBnKYqVdErgdxaLmbE1qEQHGx3WAOC_tXzMwZAIq56HDOY03lk0T6GI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=j4QQnabygZ26SEawxkjE_g&_nc_ss=7f289&oh=00_AQP5x6g8l4DaS6MiF0hg_gYW3WwN9htahjH7FQxixyoTDQ&oe=6ACB35A5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "deporte",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid027xqHdbkSjG8wxZGnvrbHnXfb69FPyAdRqv6AcKZ44zbHm4kZZJP7XZ3Rn81r1zh3l?__cft__[0]=AZilc506VX2u8I5gJJUO7kx_xCK2k6Wu16nAzTBDg2WIXHJ3Jm5lnN-Cr4j0L_wDg0eDRg_u_JPycwXgfFbL6FTweKYsfus2lZjaJDuPSoJUvKGV7C0zAa2a_c53Xs_iF447CBffZ4_LhvNJpz74f3RJ3eK1lDww8kAGg5iM--M6o38QUmURsuuDvI8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#UMSA CONMEMORÓ EL 57.º ANIVERSARIO DE LA CARRERA DE TECNOLOGÍA MÉDICA … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1391,13 +1374,38 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://www.turismoyculturas.gob.bo/wp-content/uploads/2025/11/Logo-Presidencia.png",
+      "status": "ok",
+      "raw_items": 9,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "timed out"
+      "rejected": 9,
+      "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 44,
+          "category": "festival",
+          "url": "https://www.turismoyculturas.gob.bo/",
+          "has_image": false,
+          "text_preview": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "turismo",
+          "url": "https://www.turismoyculturas.gob.bo/declaracion-de-la-mision-vision-valores-y-principios-de-la-entidad/",
+          "has_image": true,
+          "text_preview": "Misión y Visión de la Entidad Misión Diseñar, regular y ejecutar políticas públicas que promuevan el turismo sostenible, el folklore y la gastronomía como sectores estratégicos para el desarrollo integral del país y la conservación de nuestras culturas. Trabajar de manera coordinada con los niveles subnacionales, actores comunitarios y sectores productivos para transformar nuestra riqueza natural "
+        },
+        {
+          "reason": "tema_ajeno_a_eventos",
+          "score": 18,
+          "category": "turismo",
+          "url": "https://www.turismoyculturas.gob.bo/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/",
+          "has_image": true,
+          "text_preview": "Reseña Histórica Bolivia es uno de los países con mayor diversidad cultural, histórica y natural del mundo. Su identidad nacional se ha forjado a partir del legado de las civilizaciones precolombinas como Tiwanaku, los señoríos aymaras, las culturas amazónicas, chaqueñas y de los valles, así como la influencia del Tawantinsuyu incaico; del extraordinario aporte artístico, arquitectónico y religios"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_lostiempos_agenda",
@@ -1411,13 +1419,13 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 38,
-          "category": "tecnologia",
+          "score": 34,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "05/10/2026 Medio Ambiente “Autopista arbórea” de la Chiquitania: un estudio revela la vida oculta en las copas de los árboles El Bosque Seco Chiquitano de Bolivia se ve diferente a 20 metros de altura. Las copas de los árboles que conforman esta ecorregión se convierten en “autopistas... vista 30/09/2026 Salud Estudio identifica una alternativa más corta para tratar el Chagas Treinta días en lugar"
@@ -1426,17 +1434,17 @@
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 40,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Flávio Bolsonaro y Lula da Silva van al balotaje para presidente Ver más 2 José Armando Urioste es reconocido como fiscal gen"
+          "text_preview": "05/10/2026 Cultura Semana 41: Se inaugura la XIX Feria Internacional del Libro de Cochabamba La decimonovena edición de la Feria Internacional del Libro de Cochabamba (FILC) realza la agenda cultural cochabambina. vista 04/10/2026 Cultura Música: Morabeza y la Coral Boliviana tocan el Réquiem de Mozart Hay obras de música que parecen hablar directamente al alma. El Réquiem de Wolfgang Amadeus Moza"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 12,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Ordenan la aprehensión de Aguilera, exjefe de la Policía y exviceministro de Arce, según Juan José Zúñiga Ver más 2 Aislarán "
         }
       ],
       "error": null
@@ -1494,9 +1502,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 34,
+      "raw_items": 37,
       "events": 0,
-      "rejected": 34,
+      "rejected": 37,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1587,8 +1595,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
-      "events": 2,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1604,8 +1612,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 43,
-      "events": 43,
+      "raw_items": 47,
+      "events": 47,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1638,8 +1646,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
-      "events": 2,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1714,22 +1722,14 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 8,
+      "raw_items": 6,
       "events": 0,
-      "rejected": 8,
+      "rejected": 6,
       "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 36,
-          "category": "gastronomia",
-          "url": "https://www.tarija.gob.bo/",
-          "has_image": true,
-          "text_preview": "Noticias Tarija fortalece la cadena de la uva, vino y singani con un taller de articulación para impulsar la competitividad del sector 22/09/2026"
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 24,
-          "category": "deporte",
+          "category": "turismo",
           "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
           "has_image": false,
           "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
@@ -1741,6 +1741,14 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones",
           "has_image": false,
           "text_preview": "0 % Manuales de organizacion y funciones Ordering Órden Ascendente Órden Descendente Título Ascendente Título Descendente Fecha Ascendente Fecha Descendente Filename Ascending Filename Descending Rating Count Ascending Rating Count Descending Rating Ascending Rating Descending Downloads Ascending Downloads Descending Cantidad de ítems por página 5 10 15 20 50 Todo Powered by Phoca Download"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
+          "has_image": false,
+          "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
         }
       ],
       "error": null
