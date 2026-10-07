@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T09:24:48-04:00",
+  "generated_at": "2026-10-07T16:52:58-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 121.8,
-    "horas_maximo_sin_datos": 1158.2
+    "horas_promedio_sin_datos": 126.1,
+    "horas_maximo_sin_datos": 1165.7
   },
   "sources": [
     {
@@ -45,13 +45,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=n-8XniM7fbAQ7kNvwEizGdF&_nc_oc=AdqLKwGVAXC3VxuQv5LDFM84DKhGgHsu9ZthYxDCUPPmPxR_CK0EOqsoBIIfnaBvcbE&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=xNWpTcO5_pt4Y_5FkyYjhQ&_nc_ss=7f289&oh=00_AQMXRZOafbJkJ8LVgcaKNygVd2c9l036Zb3ygfVCXOLRgg&oe=6ACC8875",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 48,
+          "category": "festival",
+          "url": "https://www.facebook.com/ConciertosEnBolivia/posts/lo-que-se-viene-octubre-9-alok-en-fexco-arena-cochabamba-10-daniel-habif-en-soni/1419236223684208/",
+          "has_image": true,
+          "text_preview": "LO QUE SE VIENE! Octubre 📍 9 Alok en Fexco Arena - Cochabamba 📍 10 Daniel Habif en Sonilum - Santa Cruz 📍 10 Rock Kolla Fest 2.0 📍 15 Mujer Empoderate 📍 17 Festival Internacional Seguentock 📍... LO QUE SE VIENE! Octubre 📍 9 Alok en Fexco Arena - Cochabamba 📍 10 Daniel Habif en Sonilum - Santa Cruz 📍 10 Rock Kolla Fest 2.0 📍 15 Mujer... LO QUE SE VIENE! Octubre 9 Alok en Fexco Arena - Cochabamba 10"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -572,13 +581,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=W4IOgMdkykoQ7kNvwGpVMeW&_nc_oc=AdqtG1ClXPjmiF4BuwG-PAWmxS02a_GKHzOFu28Lus3WCzy6Oub8slrZ6ijCLSACKUg&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=4zMXhJm0int0Sodm8RNe4Q&_nc_ss=7f289&oh=00_AQN2uaefHwv_o8DBvKONSLHuIjtx5-M9RW2XikLHCfJuWQ&oe=6ACC66D6",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "cine",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02Ua8ys2xqaMo8F8K2YbipgLGLnFRmQqwmcXVT7vk2KN3RcsNvUMb1Xr4LAK4Zucpnl?__cft__[0]=AZhEimWECJtPXFK8tQTqkgrxB0XjMKZNbPiBEFy6RKD5EkundkCt1AXq9lyaDhX_LzP-QvsKeUUJcY0WcZ2duYkv4YoS6niXidvKGhWRERqICGsXb0UDBC0_QEuSlH5I4Jabx3V3PAsJYoIq24Y-W14veDg7fqWS5SN8elamIyHfwClfNkafLoueMPI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Celebramos el Día del Cine Español con El desencanto Ayer … Ver más Celebramos el Día del Cine Español con El desencanto Ayer … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -929,22 +947,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sWTmeI7I9gcQ7kNvwG95nKC&_nc_oc=AdpFboa7iZDTJQAqlVzmu0Ha4uo67Nf3ryqY7imTLpvSgxkoYHjG99Y_OMrlzo2_VtQ&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=n9IksCQdzyY9x1JUa2ACmQ&_nc_ss=7f289&oh=00_AQP4zHgTSubwAyKnuJvuCrq-TDvuOLBfTKRp9W3kCEXXrQ&oe=6ACC0087",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/videos/2362254514541976/?__cft__[0]=AZi8zeCRERnqzwdWlqzLevkFyFCTSa0KG-xjng64bbLC2zAwwAWCKbA8i6h_BttYwEHpc7R7tZ3Dmt6dXtuKmeqEuJmWvN5oUDlV8YY_bbxOKUTPLxLjCV-ZKvTI3W3AqzQpSUhHr_raw2RdIleft6A4QASknTeOGTG7nz173qK8zEz1pgk06GJ3V8T1o_u0wjE&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Entrega de la Primera Fase de la Refacción de la Torre de la Catedral. #ENVIVO #Cocha #EsProgreso #ManfredReyesVilla #LaMejorCiudadDeBolivia Entrega de la Primera Fase de la Refacción de la Torre de la Catedral. #ENVIVO #Cocha #EsProgreso #ManfredReyesVilla #LaMejorCiudadDeBolivia Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -972,22 +981,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=45ftxMFB1DAQ7kNvwHsHA-F&_nc_oc=Adqfj2SF3yHxjsfTelvYG_Ghw7XHl9Olk0fhj3HVun6Vn0xh_Uh0ghe7xGsVfYnbk3s&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=joDYWfLiXtos13rW7pbxWQ&_nc_ss=7f289&oh=00_AQMNcVSmcFtET1TrQB-G4Rof0XB5mVEOCc_zm3kZmSFx4Q&oe=6ACC2A3D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid02ty4iv2x1NSqKwLuKTBsGKoiKY288oPRBHunF8BPHJX6WrcgucZayZ18oztbzGT1ml?__cft__[0]=AZilZFfXL7whjTjNBdl4Zaxl2haA-I0qtezUBAF2JqiRwqzlGMkvqiCxezAJp7TALATbb_sqz1AJ4qnP6mtssY4e3n6EIop8iXCdFAYV-AEunPAW-1Awo_TeRL5QTg5mUjP5jx3e2GeJhq6-eUk8R-nLT3Bppvqu76uu31dP9N9sLS-ue4ecnkaO76Q&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Esta semana en la Casa … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1185,30 +1185,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-1/802121447_1509917531172107_3755553418203842592_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KqI3eg2CllIQ7kNvwE0A9Lt&_nc_oc=AdrNSsaA3VhUlsmaObbdVM6C6XeW0zkU69oj2uxJ5fs4DNeLvymu9FY1D89wrveICO8&_nc_zt=24&_nc_ht=scontent-hkg1-2.xx&_nc_gid=UNx5Hh_5B1A4lKkf_ArHag&_nc_ss=7f289&oh=00_AQOpgmcAgpLxOtKB4KbQZJbW3sJwcSiT7_StbGTdg6kDMg&oe=6ACC351C",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid02XxHBP2U4vg24QaNYoKitJtXhkWQ9AUMzRWa6N7LB7YLddZTZh12aAxTnH4FVU5qLl?__cft__[0]=AZjQf9V9TQLLQWAqCdYJL7FytA-TeIDUo-lspcQhUPxNFLZyl6yY6diJzrHsAyWx67DpZOTdXdbr31Kgg81Mk7LF3b0r6RrgCxslGBEqQW_5DltRahqpNBXsJy9oP7szKgX5FbHDK9eKXcXvdky9VaRYO1qNOiqO6pR-8YsosvHAU5pOJpEnfQXC4e8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Prevenir el acoso laboral es responsabilidad de todos.… Ver más Excelente Ver más comentarios Claudia Lopez"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid02XxHBP2U4vg24QaNYoKitJtXhkWQ9AUMzRWa6N7LB7YLddZTZh12aAxTnH4FVU5qLl?comment_id=1982461635782657&__cft__[0]=AZjQf9V9TQLLQWAqCdYJL7FytA-TeIDUo-lspcQhUPxNFLZyl6yY6diJzrHsAyWx67DpZOTdXdbr31Kgg81Mk7LF3b0r6RrgCxslGBEqQW_5DltRahqpNBXsJy9oP7szKgX5FbHDK9eKXcXvdky9VaRYO1qNOiqO6pR-8YsosvHAU5pOJpEnfQXC4e8&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Claudia Lopez Excelente 1 día"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1256,22 +1239,14 @@
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
       "raw_items": 11,
-      "events": 9,
-      "rejected": 2,
+      "events": 10,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 0,
           "category": "otro",
           "url": "https://superticket.bo/",
-          "has_image": true,
-          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "concierto",
-          "url": "https://superticket.bo/100--Yara-en-Concierto--Sucre-/",
           "has_image": true,
           "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
         }
@@ -1435,24 +1410,24 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 1,
+          "score": 29,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "05/10/2026 Medio Ambiente “Autopista arbórea” de la Chiquitania: un estudio revela la vida oculta en las copas de los árboles El Bosque Seco Chiquitano de Bolivia se ve diferente a 20 metros de altura. Las copas de los árboles que conforman esta ecorregión se convierten en “autopistas... vista 30/09/2026 Salud Estudio identifica una alternativa más corta para tratar el Chagas Treinta días en lugar"
+          "text_preview": "07/10/2026 Medio Ambiente Dos monos que solo existen en Bolivia sobreviven en el Beni y están en peligro de desaparecer Entre los bosques del Beni se esconde una rareza excepcional de la fauna boliviana: dos pequeños monos que no existen en ningún otro país. vista 05/10/2026 Medio Ambiente “Autopista arbórea” de la Chiquitania: un estudio revela la vida oculta en las copas de los árboles El Bosque"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 35,
+          "score": 29,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "05/10/2026 Cultura Semana 41: Se inaugura la XIX Feria Internacional del Libro de Cochabamba La decimonovena edición de la Feria Internacional del Libro de Cochabamba (FILC) realza la agenda cultural cochabambina. vista 04/10/2026 Cultura Música: Morabeza y la Coral Boliviana tocan el Réquiem de Mozart Hay obras de música que parecen hablar directamente al alma. El Réquiem de Wolfgang Amadeus Moza"
+          "text_preview": "07/10/2026 Cultura Se levanta el telón de la XIX Feria Internacional del Libro de Cochabamba Llegó el día, hoy se levanta el telón de la decimonovena Feria Internacional del Libro de Cochabamba (FILC) en el recinto ferial de Alalay. vista 05/10/2026 Cultura Semana 41: Se inaugura la XIX Feria Internacional del Libro de Cochabamba La decimonovena edición de la Feria Internacional del Libro de Cocha"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1460,7 +1435,7 @@
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Urioste: “No se va a tapar ningún proceso contra nadie y no habrá persecución” Ver más 2 Gobierno denuncia presunto daño econ"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Abogado de Beller denuncia que se busca frenar caso Cerimedo Ver más 2 Fiscalía General elimina logo ROMA, color y uniforme q"
         }
       ],
       "error": null
@@ -1518,9 +1493,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 36,
+      "raw_items": 40,
       "events": 0,
-      "rejected": 36,
+      "rejected": 40,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1534,7 +1509,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2474f025-a474-4c99-86ff-fdfb18cef1e8",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c89a5cf2-5ffc-4d6e-9ab0-8d7d25d83c52",
           "has_image": true,
           "text_preview": ""
         },
@@ -1542,7 +1517,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2474f025-a474-4c99-86ff-fdfb18cef1e8",
           "has_image": true,
           "text_preview": ""
         }
@@ -1560,8 +1535,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
-      "events": 37,
+      "raw_items": 41,
+      "events": 41,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1594,8 +1569,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1611,8 +1586,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1628,8 +1603,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 64,
-      "events": 64,
+      "raw_items": 47,
+      "events": 47,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1662,8 +1637,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1780,17 +1755,25 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 1,
+      "raw_items": 2,
       "events": 0,
-      "rejected": 1,
+      "rejected": 2,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 18,
+          "score": 24,
           "category": "concierto",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "Becas Google Career Launchpad 2026 pago qr Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitid"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "cine",
+          "url": "https://www.uto.edu.bo/anuncian-la-presentacion-de-una-destacada-obra-historiografica-en-la-casa-de-la-cultura-de-oruro/",
+          "has_image": true,
+          "text_preview": "Oruro, octubre de 2026. — En un importante acontecimiento para el fortalecimiento de las letras, la memoria documental y el patrimonio regional, se anunció la presentación oficial de un nuevo libro histórico en los salones de la emblemática Casa de la Cultura de Oruro . El acto cultural y académico congregará a connotados investigadores, historiadores, docentes universitarios, representaciones ins"
         }
       ],
       "error": null
