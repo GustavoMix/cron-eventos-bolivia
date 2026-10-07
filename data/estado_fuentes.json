@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:43:24-04:00",
+  "generated_at": "2026-10-07T02:01:05-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,6 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_casa_libertad",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -16,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 118.8,
-    "horas_maximo_sin_datos": 1143.5
+    "horas_promedio_sin_datos": 120.0,
+    "horas_maximo_sin_datos": 1150.8
   },
   "sources": [
     {
@@ -205,7 +204,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
     },
     {
       "id": "fb_gob_cbba",
@@ -590,13 +589,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bRLyj7yu9R8Q7kNvwHmO8Go&_nc_oc=Adq8UkD3uQCrym0ear4AbYi5aEX9JTBnNU6ZatJLovs9x4TgNFzjE630lL9xiPiJQz0&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Q-TYtdmDByZ_2HhUTxgGRg&_nc_ss=7f289&oh=00_AQPOmcgqz9bZTb4MEPBwiA8CKw5SqAoAybiSxWO8OJCyiw&oe=6ACBC3C7",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -760,22 +759,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7kqxKaoxigIQ7kNvwFhNB_2&_nc_oc=Adou5sU56qigv13VFgFKJgJBBVGww_LjmeZmZ3dODiAzcqMdMVpusGku62BrsAaApXU&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=oACJ0-Qvds2N7hLwXpSWrw&_nc_ss=7f289&oh=00_AQOnuUPqJ4MkIOM6gpx9Q9OiK3IccxaQM_zBvUybnkSj6g&oe=6ACB376A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid0FcfWFhXntszGUsJNxpxtzfrZ8aFKtJwe8aqpFhUqmbb8Cyq8XGWtvw7DojUyWXiUl?__cft__[0]=AZjClVBhRihGZd-XaPhqAD3Nxz8SXMaNj_Jht8URS2zmpSSSTz_vQxR4K5gQCrhQneIw8TOxcjAuIxYrGmsJgzvr8PRMVbNiKheQHXZC54qZKnYZvtr0WxfNyg2lAIRTRDe6ddnJQ8DxUbH2Mu_HMU54AVy6uvbd7CePjwpbMQaYpIMgp-mv6cC1yOA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "GOBERNACIÓN DE CHUQUISACA SOSTIENE REUNIÓN PARA ANALIZAR COSTOS Y TARIFAS DEL TRANSPORTE INTERPROVINCIAL E INTERMUNICIPAL… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_oruro",
@@ -820,13 +810,30 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=M6TanRFxg6AQ7kNvwGFdpoA&_nc_oc=AdrsJh7VZZhZXMfAIqmIZv6hJSEzvU4bOE0p6s4vZTaA04B2v--6KRMfdXtQWrZplZA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=W2RhM8eEr1u209H8Hzi8Gg&_nc_ss=7f289&oh=00_AQNvYgFCLwjMO4X7p-Bw7m1mZjevI8LKvmfoI26JGI_NsQ&oe=6ACB9990",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0HVSMXZFKYwcLphVDKcdqrbL1ni1oXtFp572tsoahQNvyBMb3ibGD29XjfrK9sApAl?__cft__[0]=AZhxz7n4CxeC4Q_SGJyPnZXmhpcvAI5L7Cx0JTyOXEjYSBgILm4u_ebBHiaZl1Uf6Dib8FI7MNMnWLs1agBKrxY0RjDYhDIbTOHxxPlWWIHIEsFvawmhApXkMDVm1BTN_9PCKerAkUxNgOSNkU9Sl8N1QEtbpAQOfOopjvsCttk6KFt1X82CrhRAgn7neNgnwdD6uM-oGQ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid0HVSMXZFKYwcLphVDKcdqrbL1ni1oXtFp572tsoahQNvyBMb3ibGD29XjfrK9sApAl?comment_id=584098196711804&__cft__[0]=AZhxz7n4CxeC4Q_SGJyPnZXmhpcvAI5L7Cx0JTyOXEjYSBgILm4u_ebBHiaZl1Uf6Dib8FI7MNMnWLs1agBKrxY0RjDYhDIbTOHxxPlWWIHIEsFvawmhApXkMDVm1BTN_9PCKerAkUxNgOSNkU9Sl8N1QEtbpAQOfOopjvsCttk6KFt1X82CrhRAgn7neNgnwdD6uM-oGQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_beni",
@@ -1092,13 +1099,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-3cbLYTzf7EQ7kNvwFMRxOP&_nc_oc=AdoZYs1KJcPRsmCAT9ON5qzXB8DQv12Ci2f-3W8bkVW-H0L5F80cMISLDGCYosANHdQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=By6HXQMpsLh8LvGXxKzq-Q&_nc_ss=7f289&oh=00_AQPWjQmEOzgHA7BjR9wmDAWlLTl2MEXOWYK1DpMr5Jhl4Q&oe=6ACBC2F7",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/museocasadelalibertad/videos/cdl-a%C3%BAn-est%C3%A1-abierta-al-p%C3%BAblico-la-exposici%C3%B3n-primavera-eterna-con-obras-de-las-/2373313650164133/",
+          "has_image": true,
+          "text_preview": "#CDL | Aún está abierta al público la exposición Primavera Eterna, con obras de las artistas plásticas Carolina Oropeza Garrón y Beatriz Núñez Oropeza. La muestra perma… Ver más #CDL | Aún está abierta al público la exposición Primavera Eterna, con obras de las artistas plásticas Carolina Oropeza Garrón y Beatriz Núñez Oropeza. La muestra perma… Ver más Felicidades hermosa exposición!! Tenemos pro"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1143,22 +1159,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8iWdgZwKyCEQ7kNvwE8smnJ&_nc_oc=AdoXgHU362eCwBnKYqVdErgdxaLmbE1qEQHGx3WAOC_tXzMwZAIq56HDOY03lk0T6GI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=j4QQnabygZ26SEawxkjE_g&_nc_ss=7f289&oh=00_AQP5x6g8l4DaS6MiF0hg_gYW3WwN9htahjH7FQxixyoTDQ&oe=6ACB35A5",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "deporte",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid027xqHdbkSjG8wxZGnvrbHnXfb69FPyAdRqv6AcKZ44zbHm4kZZJP7XZ3Rn81r1zh3l?__cft__[0]=AZilc506VX2u8I5gJJUO7kx_xCK2k6Wu16nAzTBDg2WIXHJ3Jm5lnN-Cr4j0L_wDg0eDRg_u_JPycwXgfFbL6FTweKYsfus2lZjaJDuPSoJUvKGV7C0zAa2a_c53Xs_iF447CBffZ4_LhvNJpz74f3RJ3eK1lDww8kAGg5iM--M6o38QUmURsuuDvI8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#UMSA CONMEMORÓ EL 57.º ANIVERSARIO DE LA CARRERA DE TECNOLOGÍA MÉDICA … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1419,12 +1426,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
+          "score": 1,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1432,7 +1439,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
+          "score": 35,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1440,11 +1447,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 12,
+          "score": 19,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Ordenan la aprehensión de Aguilera, exjefe de la Policía y exviceministro de Arce, según Juan José Zúñiga Ver más 2 Aislarán "
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Urioste asume la función de fiscal general del Estado Ver más 2 Ordenan allanamiento a la casa del exfiscal Mariaca en Santa "
         }
       ],
       "error": null
@@ -1502,15 +1509,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
+      "raw_items": 36,
       "events": 0,
-      "rejected": 37,
+      "rejected": 36,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/316cf85a-71cb-4a50-96dc-549f33a18d34",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/aa51d467-e806-4b26-bbe3-56d58854c3e9",
           "has_image": true,
           "text_preview": ""
         },
@@ -1526,7 +1533,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/0fbc8d39-20f6-4f97-9034-1e9e6717a719",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
           "has_image": true,
           "text_preview": ""
         }
@@ -1544,8 +1551,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 35,
-      "events": 35,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1561,8 +1568,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 15,
+      "events": 15,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1578,8 +1585,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 15,
-      "events": 15,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1612,8 +1619,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 47,
-      "events": 47,
+      "raw_items": 64,
+      "events": 64,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1646,8 +1653,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
