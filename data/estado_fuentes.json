@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T06:37:19-04:00",
+  "generated_at": "2026-10-08T14:54:39-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,11 +12,12 @@
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
+      "fb_superticket",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 125.0,
-    "horas_maximo_sin_datos": 1179.4
+    "horas_promedio_sin_datos": 129.7,
+    "horas_maximo_sin_datos": 1187.7
   },
   "sources": [
     {
@@ -29,12 +30,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -317,22 +318,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=aub6t6j2Z74Q7kNvwEjnA6Y&_nc_oc=AdqBgpOiCfUjvVpZdfmpUSyn6sUHJbOV_zwt5ibSBy_MkiIhQm_AXysRGcqN4UONgx4&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_ss=7f289&oh=00_AQP5Kzt1VRhrZcC4KMrTseRloqtePvszH4rAFq8PXdWKDw&oe=6AEEE73A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/RedUnotv/posts/pfbid02k4B26onhQ1kDWebiXb3jfo6at4Lt4q2BXyR8t3vCJ6S1bRMUG2JnwxnSmBB2XAiSl?__cft__[0]=AZiBbuL48GBRnEQ1TWX_dHwgu6pTvygUn2SBWj64caSBo8EsQxom9EybEJavG9eYxZc1mth1tNJV5HbnljlOBNi233rloBIDC_7VbKFM0kpzQKubupaEiniR0PCIWm0olS5PYEow-XVfe-C9c7yqv_njFHufhCA3OdYbaUC9dKMAgf9w9sIaFazC9SQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "https://r-1.tv/714b2b | El plan será elaborado junto a comunidades, gobiernos locales y pueblos indígenas, con énfasis en infraestructura, actividad económica y cuida… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_unitel",
@@ -564,13 +556,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=diQCKBbMaUcQ7kNvwGXQljd&_nc_oc=Adp_WKJHyeYNyWmnTXeP8QYLVuB2Vcg8L3rcppDlJoBek6WYQy_NfzFVoeTd_FE3ppc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=z5rBpH3Tuc3Df4rbLGDzwg&_nc_ss=7f289&oh=00_AQM9odssULa8kB6pHtqhCMk71JesNLcOBLXpTOXkRxeQ-Q&oe=6ACDAEF3",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -632,22 +624,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HoZ1qSkE3tMQ7kNvwHie_Uc&_nc_oc=AdqBBIlhw5wU0rwV6LcbEYpz5pr7IvhtgpIX07jDAB2b8hrFXe8ITTFZPIE1Yd94uFM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=kA1YpLm6bn1f6GRNIiu5aQ&_nc_ss=7f289&oh=00_AQMZlTS3au6QsXYe0uPbqRQHQxu0FyA0kG1dbj4gHKNDaQ&oe=6ACD30CF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0fCrEuC8XBuvswPVCayhz1Jz5iSonouaQhkJjHwT1vLW4N1vh4u3JoWp4S5gTkN3Cl?__cft__[0]=AZgx4J2-FHfdTWSUAJ6ugr8pZnbTBEc5yYtdSOUeZTzG4ow0IzluMKV9CQdFOL6jBsrbgc38xlEslURxz7c0bDVoJ2Qn7UuXLdJj_-pm-TQe_bh8SSLoDXAQt2ahZX0LwzpcSTMaUep6Wf7inSSVLBLBBjFUE2vwQsSP5LrvamYCzf2Xtya9VphaVFIiGkUxMkBgEgr8JLdy-UgkSrA&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La Casa Nacional de Moneda recupera una identidad que forma parte de su historia. El monograma PTSI, utilizado en la acuñación de moneda en Potosí desde el siglo XVIII,… Ver más 31 LOGROS INSTITUCIONALES | LOGRO #05… Ver más La Casa Nacional de Moneda recupera una identidad que forma parte de su historia. El monograma PTSI, utilizado en la acuñación de moneda en Potosí desde el siglo XVIII,… Ver m"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -658,22 +641,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OxpACcWFXo4Q7kNvwFA3z3-&_nc_oc=AdqVpaxbd_16prscoMKu2DQU4qbRroaPtNRmWdfhLW7smwWP-RfQyBo1f4mmYqN8ROY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=4nurun9oTT2isme_OzC2Pw&_nc_ss=7f289&oh=00_AQOqIr5DSRpu9rsU1qiKIQXi67vWnnQA1F-4OQjQiHu5aA&oe=6ACD5792",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "festival",
-          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid02PeSoKKrcdyxizgz5z25kqEDBrt9CZhmnBE9RYyRGsdy4NFRm8VhoL9mqBCGXCkk8l?__cft__[0]=AZgG__092ES7WMOKtdM1icdyg0O1mZtxkroRiwsrLIPmjFdTU1cRFHA52fSx8ZYHqO8q_6u5ZoIOJv8N8XMVFrNUAPgH_sIJnHdl0zrVjPNh3JYvDsSQdmXJn76pgML3qMNDndbnMR1v5AxYcEsxqo02HdukWlaAPQPFATFc681zStLJBE0-EqUlM55dPNpgBmSqNfy4n7LrvtIcPZM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CRC | 𝗖𝘂𝗹𝘁𝘂𝗿𝗮 𝗾𝘂𝗲 𝗰𝗼𝗻𝗲𝗰𝘁𝗮, 𝗮𝗿𝘁𝗲 𝗾𝘂𝗲 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮 Desde el Centro de la Revolución Cultural (CRC), dependiente de la Fundación Cultural BCB (FC-BCB), reafirmamos nuestro… Ver más \" Los espacios culturales son fundamentales para que las artes escénicas puedan encontrarse con sus públicos. A… Ver más #CRC | 𝗖𝘂𝗹𝘁𝘂𝗿𝗮 𝗾𝘂𝗲 𝗰𝗼𝗻𝗲𝗰𝘁𝗮, 𝗮𝗿𝘁𝗲 𝗾𝘂𝗲 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮 Desde el Centro de la Revolución Cultural (CRC), depen"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -1092,13 +1066,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LGiGQWbh6YgQ7kNvwGyiH5x&_nc_oc=Adpx1pc-0rPPKu8WSvbZe81q3DFbtXFMnO2y9FlGWN_TuajgCNe01eVVvX9yn7AJLrQ&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=2r0Mv_jr7wKWlLjvQvxJNw&_nc_ss=7f289&oh=00_AQNat1PFYI0cAEBkS86O4Z0dvL-vsqgp87p7SExlZVPfhA&oe=6ACDD0EF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid0KH5XF88YR3Te4EujZvUdVZ45Zto8S5CXkQx3xhCZUzdaoCS1XgknqrXQtpYgt2gUl?__cft__[0]=AZgRpAaqrAhDK8cnkdXWMXX70FLBEIoMj2IMPpG7xn1VAQoT0uKWS_mN_T2w0Oo71aPkp74pmoFuTbagiDur7k2HvoYLhuioBwtFLs0VtZ_aS1lRkD-n4mkDlKNWr7brsndSqkrqId01XBpI8Hy9uN-KR-g04qXVrJHlgBUuBit07eMuvT31Du4SCaA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CCP I El corto de ficción “𝗟𝗮𝘀 𝗰𝗼𝗺𝗲𝘁𝗮𝘀” 𝗱𝗲𝗹 𝗮𝗿𝘁𝗶𝘀𝘁𝗮 𝗦𝗶𝗺𝗼́𝗻 𝗔́𝘃𝗶𝗹𝗮 𝗕𝗲𝗻𝗮𝘃𝗶𝗱𝗲𝘀 𝘀𝗲 𝗽𝗿𝗲𝘀𝗲𝗻𝘁𝗮𝗿𝗮́ 𝗻𝘂𝗲𝘃𝗮𝗺𝗲𝗻𝘁𝗲 𝗲𝗻 𝗲𝗹 𝗖𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗹𝗮 𝗖𝘂𝗹𝘁𝘂𝗿𝗮 𝗣𝗹𝘂𝗿𝗶𝗻𝗮𝗰𝗶𝗼𝗻𝗮𝗹 (𝗖𝗖𝗣), 𝗲𝗻 𝗦𝗮𝗻𝘁𝗮 𝗖𝗿𝘂𝘇 𝗱𝗲 … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1394,12 +1377,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
+          "score": 0,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1407,19 +1390,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 28,
+          "category": "danza",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 El Nobel de Química 2026 fue otorgado a Henri Kagan y Kenso Soai por sus hallazgos clave para avances en la industria farmacé"
+          "text_preview": "08/10/2026 Cultura Ponen en marcha una Feria Internacional del Libro expansiva Expansiva, así será la decimonovena Feria Internacional del Libro de Cochabamba (FILC) que se inauguró ayer en el campeo ferial de Alalay con la presencia de... vista 07/10/2026 Cultura La Madrastra presenta “Anne” en el mARTadero Es la tercera presentación teatral del festival Mujeres en escena que se prolonga hasta el"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
+          "score": 20,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Cubo de hielo de 1 km cúbico³ le vale el Nobel de Física a Halzen Ver más 2 Paz dice que \"no cree en una sola cifra\" del últi"
         }
       ],
       "error": null
@@ -1519,8 +1502,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
-      "events": 37,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1536,8 +1519,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 17,
-      "events": 17,
+      "raw_items": 18,
+      "events": 18,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1587,8 +1570,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 48,
-      "events": 48,
+      "raw_items": 49,
+      "events": 49,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1604,8 +1587,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 0,
-      "events": 0,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1739,13 +1722,13 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 2,
-      "events": 0,
-      "rejected": 2,
+      "raw_items": 6,
+      "events": 1,
+      "rejected": 5,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 24,
+          "score": 18,
           "category": "concierto",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
@@ -1754,10 +1737,18 @@
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 30,
-          "category": "cine",
-          "url": "https://www.uto.edu.bo/anuncian-la-presentacion-de-una-destacada-obra-historiografica-en-la-casa-de-la-cultura-de-oruro/",
+          "category": "feria",
+          "url": "https://www.uto.edu.bo/la-carrera-de-derecho-san-agustin-impulsa-su-feria-anual-sobre-nuevas-tecnologias-aplicadas-a-la-administracion-de-justicia/",
           "has_image": true,
-          "text_preview": "Oruro, octubre de 2026. — En un importante acontecimiento para el fortalecimiento de las letras, la memoria documental y el patrimonio regional, se anunció la presentación oficial de un nuevo libro histórico en los salones de la emblemática Casa de la Cultura de Oruro . El acto cultural y académico congregará a connotados investigadores, historiadores, docentes universitarios, representaciones ins"
+          "text_preview": "Oruro, octubre de 2026. — Frente a las transformaciones tecnológicas globales y la modernización de los sistemas legales, la Carrera de Derecho “San Agustín” , dependiente de la Facultad de Derecho, Ciencias Políticas y Sociales (FDCPS) de la Universidad Técnica de Oruro (UTO) , lleva a cabo su tradicional feria anual sobre Tecnologías de la Información y Comunicación (TIC) aplicadas al Derecho . "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "feria",
+          "url": "https://www.uto.edu.bo/universitarios-de-derecho-san-agustin-exponen-la-historia-y-saberes-del-pueblo-baure-en-la-feria-de-pluralismo-juridico-e-interculturalidad/",
+          "has_image": true,
+          "text_preview": "Oruro, octubre de 2026. — En el marco del fortalecimiento formativo sobre la diversidad cultural y el marco constitucional boliviano, estudiantes de la Carrera de Derecho “San Agustín” , dependiente de la Facultad de Derecho, Ciencias Políticas y Sociales (FDCPS) de la Universidad Técnica de Oruro (UTO) , llevaron adelante una destacada exposición temática centrada en la etnia Baure , originaria d"
         }
       ],
       "error": null
