@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T16:52:58-04:00",
+  "generated_at": "2026-10-07T21:03:36-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 126.1,
-    "horas_maximo_sin_datos": 1165.7
+    "horas_promedio_sin_datos": 122.8,
+    "horas_maximo_sin_datos": 1169.9
   },
   "sources": [
     {
@@ -45,22 +45,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=n-8XniM7fbAQ7kNvwEizGdF&_nc_oc=AdqLKwGVAXC3VxuQv5LDFM84DKhGgHsu9ZthYxDCUPPmPxR_CK0EOqsoBIIfnaBvcbE&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=xNWpTcO5_pt4Y_5FkyYjhQ&_nc_ss=7f289&oh=00_AQMXRZOafbJkJ8LVgcaKNygVd2c9l036Zb3ygfVCXOLRgg&oe=6ACC8875",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 48,
-          "category": "festival",
-          "url": "https://www.facebook.com/ConciertosEnBolivia/posts/lo-que-se-viene-octubre-9-alok-en-fexco-arena-cochabamba-10-daniel-habif-en-soni/1419236223684208/",
-          "has_image": true,
-          "text_preview": "LO QUE SE VIENE! Octubre 📍 9 Alok en Fexco Arena - Cochabamba 📍 10 Daniel Habif en Sonilum - Santa Cruz 📍 10 Rock Kolla Fest 2.0 📍 15 Mujer Empoderate 📍 17 Festival Internacional Seguentock 📍... LO QUE SE VIENE! Octubre 📍 9 Alok en Fexco Arena - Cochabamba 📍 10 Daniel Habif en Sonilum - Santa Cruz 📍 10 Rock Kolla Fest 2.0 📍 15 Mujer... LO QUE SE VIENE! Octubre 9 Alok en Fexco Arena - Cochabamba 10"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -105,13 +96,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ijUH137rMNEQ7kNvwGk6g7F&_nc_oc=AdpqQkApU1wt0XgwWnn-8Vrn8NNsuYrBHZZt_qk5_ro_-vY-YMuzgxLh1rSTfbYxZuY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Cxsa-npGsbfsmzWywmUUfg&_nc_ss=7f289&oh=00_AQMAYaJ3q4NHy27hq4vedO7E6fPqdQ2NyGR6oHW1SjJRRg&oe=6ACCB8D0",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1652082253288073/?__cft__[0]=AZi4Glhh-BBeGQzg_D6h9rXNd1cVY5U5TVcX_4UQu7H1ZCzeE6J8ZW05ZlnUgi2Jt430zmk5RFxklyY8rSFYNVCre3dz40xThBbxBMP_gWPDINoNSZQItABwGkTMSHcN4DSQYYqjcg1cwn-CvlYMK5_zchYzNSc1J7WI2MhXcIrnAl5tQ4zUn5TMC837UuQ_IXwp&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "“Hemos tenido muchas visitas, bastante reconocimiento de la marca y también nuevos clientes.”… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -581,22 +581,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=W4IOgMdkykoQ7kNvwGpVMeW&_nc_oc=AdqtG1ClXPjmiF4BuwG-PAWmxS02a_GKHzOFu28Lus3WCzy6Oub8slrZ6ijCLSACKUg&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=4zMXhJm0int0Sodm8RNe4Q&_nc_ss=7f289&oh=00_AQN2uaefHwv_o8DBvKONSLHuIjtx5-M9RW2XikLHCfJuWQ&oe=6ACC66D6",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "cine",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02Ua8ys2xqaMo8F8K2YbipgLGLnFRmQqwmcXVT7vk2KN3RcsNvUMb1Xr4LAK4Zucpnl?__cft__[0]=AZhEimWECJtPXFK8tQTqkgrxB0XjMKZNbPiBEFy6RKD5EkundkCt1AXq9lyaDhX_LzP-QvsKeUUJcY0WcZ2duYkv4YoS6niXidvKGhWRERqICGsXb0UDBC0_QEuSlH5I4Jabx3V3PAsJYoIq24Y-W14veDg7fqWS5SN8elamIyHfwClfNkafLoueMPI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Celebramos el Día del Cine Español con El desencanto Ayer … Ver más Celebramos el Día del Cine Español con El desencanto Ayer … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -760,13 +751,30 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YSr-BYrBriEQ7kNvwHnIV0b&_nc_oc=AdqWOH8PeQFyxJqWEFflN9P5qVXCz7C5TjZdk_VdTFItMWOtZip0elJNaM7zK1gKqqc&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=ivLH4ZfgvYFx_YwOsLmyoQ&_nc_ss=7f289&oh=00_AQO3VMfsPO3KVXBXxP46MpbVVtHcsCfxVuZ2P8dwPlTZ0g&oe=6ACCC02A",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/cobija.gob/posts/pfbid0b25KVRiRawzzvgpkiUGwniWaw3A9y7WDD3ptx4HCNExHbsLSc5Vht3jaYTevLSmSl?__cft__[0]=AZjQPdwt2w6bypt6NnyX51dLO3lTKZVYmcPaoxG_81ustVKjkJmyWyw8vZrgDPldg75rk6JoMOBG9JW__NZOIEwWd1xgd2aoLHbNMBxlzayqEE4FMIlQLiNKtz56dEMq1fOLAuVhEiQlUfhLvdubLZglVeUUzps7QW4iJDN4IkMVHEOvAfjCScE1vlg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝗖𝗢𝗠𝗨𝗡𝗜𝗖𝗔𝗗𝗢 𝗢𝗙𝗜𝗖𝗜𝗔𝗟 Por algún lado se empieza a poner orden y hacer cumplir la ley... El pueblo debe apoyar Ver más comentarios Ysela Nataly Salazar Mendez Por algún lado se empieza a poner orden y hacer cumplir la ley... El pueblo debe apoyar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/cobija.gob/posts/pfbid0b25KVRiRawzzvgpkiUGwniWaw3A9y7WDD3ptx4HCNExHbsLSc5Vht3jaYTevLSmSl?comment_id=967167733130875&__cft__[0]=AZjQPdwt2w6bypt6NnyX51dLO3lTKZVYmcPaoxG_81ustVKjkJmyWyw8vZrgDPldg75rk6JoMOBG9JW__NZOIEwWd1xgd2aoLHbNMBxlzayqEE4FMIlQLiNKtz56dEMq1fOLAuVhEiQlUfhLvdubLZglVeUUzps7QW4iJDN4IkMVHEOvAfjCScE1vlg&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Por algún lado se empieza a poner orden y hacer cumplir la ley... El pueblo debe apoyar Ysela Nataly Salazar Mendez Por algún lado se empieza a poner orden y hacer cumplir la ley... El pueblo debe apoyar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -811,13 +819,22 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4rBXZuwEjBAQ7kNvwFg2rNk&_nc_oc=Adrw73CDeLi1SbVLeQXRre5BJYMuViqWiNk_sLhvbBSrtOfRl3WY3qcIJ84WfgoTUDM&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=sHq0C5mbb6hNBTe6GT5_yQ&_nc_ss=7f289&oh=00_AQOH3wfFwkf_Fki5wArf6EWB-XCjm5cHQ-n6SL6farb-ew&oe=6ACCCEE7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "deporte",
+          "url": "https://www.facebook.com/GADTarija/videos/como-parte-del-campeonato-panamericano-de-ciclismo-celebrado-en-el-vel%C3%B3dromo-dep/1442628447201823/",
+          "has_image": true,
+          "text_preview": "Como parte del Campeonato Panamericano de Ciclismo celebrado en el Velódromo Departamental, la Gobernación de Tarija brindó espacios de exposición totalmente gratuitos a productores y artesanos... Como parte del Campeonato Panamericano de Ciclismo celebrado en el Velódromo Departamental, la Gobernación de Tarija brindó espacios de exposición..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_pando",
@@ -1365,38 +1382,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://www.turismoyculturas.gob.bo/wp-content/uploads/2025/11/Logo-Presidencia.png",
-      "status": "ok",
-      "raw_items": 9,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 9,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 44,
-          "category": "festival",
-          "url": "https://www.turismoyculturas.gob.bo/",
-          "has_image": false,
-          "text_preview": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "turismo",
-          "url": "https://www.turismoyculturas.gob.bo/declaracion-de-la-mision-vision-valores-y-principios-de-la-entidad/",
-          "has_image": true,
-          "text_preview": "Misión y Visión de la Entidad Misión Diseñar, regular y ejecutar políticas públicas que promuevan el turismo sostenible, el folklore y la gastronomía como sectores estratégicos para el desarrollo integral del país y la conservación de nuestras culturas. Trabajar de manera coordinada con los niveles subnacionales, actores comunitarios y sectores productivos para transformar nuestra riqueza natural "
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 18,
-          "category": "turismo",
-          "url": "https://www.turismoyculturas.gob.bo/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/",
-          "has_image": true,
-          "text_preview": "Reseña Histórica Bolivia es uno de los países con mayor diversidad cultural, histórica y natural del mundo. Su identidad nacional se ha forjado a partir del legado de las civilizaciones precolombinas como Tiwanaku, los señoríos aymaras, las culturas amazónicas, chaqueñas y de los valles, así como la influencia del Tawantinsuyu incaico; del extraordinario aporte artístico, arquitectónico y religios"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "timed out"
     },
     {
       "id": "web_lostiempos_agenda",
@@ -1410,12 +1402,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 29,
+          "score": 34,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1423,7 +1415,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 29,
+          "score": 40,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1431,11 +1423,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 15,
+          "score": 20,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Abogado de Beller denuncia que se busca frenar caso Cerimedo Ver más 2 Fiscalía General elimina logo ROMA, color y uniforme q"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Viceministro anticipa incremento salarial en 2027 Ver más 2 Defensoría alerta que 33% de los hogares redujo sus raciones a un"
         }
       ],
       "error": null
@@ -1603,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 47,
-      "events": 47,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1720,7 +1712,7 @@
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 24,
-          "category": "turismo",
+          "category": "deporte",
           "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
           "has_image": false,
           "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
