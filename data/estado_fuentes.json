@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T21:03:36-04:00",
+  "generated_at": "2026-10-08T06:37:19-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 122.8,
-    "horas_maximo_sin_datos": 1169.9
+    "horas_promedio_sin_datos": 125.0,
+    "horas_maximo_sin_datos": 1179.4
   },
   "sources": [
     {
@@ -96,22 +96,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ijUH137rMNEQ7kNvwGk6g7F&_nc_oc=AdpqQkApU1wt0XgwWnn-8Vrn8NNsuYrBHZZt_qk5_ro_-vY-YMuzgxLh1rSTfbYxZuY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Cxsa-npGsbfsmzWywmUUfg&_nc_ss=7f289&oh=00_AQMAYaJ3q4NHy27hq4vedO7E6fPqdQ2NyGR6oHW1SjJRRg&oe=6ACCB8D0",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1652082253288073/?__cft__[0]=AZi4Glhh-BBeGQzg_D6h9rXNd1cVY5U5TVcX_4UQu7H1ZCzeE6J8ZW05ZlnUgi2Jt430zmk5RFxklyY8rSFYNVCre3dz40xThBbxBMP_gWPDINoNSZQItABwGkTMSHcN4DSQYYqjcg1cwn-CvlYMK5_zchYzNSc1J7WI2MhXcIrnAl5tQ4zUn5TMC837UuQ_IXwp&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "“Hemos tenido muchas visitas, bastante reconocimiento de la marca y también nuevos clientes.”… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -326,13 +317,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=aub6t6j2Z74Q7kNvwEjnA6Y&_nc_oc=AdqBgpOiCfUjvVpZdfmpUSyn6sUHJbOV_zwt5ibSBy_MkiIhQm_AXysRGcqN4UONgx4&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_ss=7f289&oh=00_AQP5Kzt1VRhrZcC4KMrTseRloqtePvszH4rAFq8PXdWKDw&oe=6AEEE73A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/RedUnotv/posts/pfbid02k4B26onhQ1kDWebiXb3jfo6at4Lt4q2BXyR8t3vCJ6S1bRMUG2JnwxnSmBB2XAiSl?__cft__[0]=AZiBbuL48GBRnEQ1TWX_dHwgu6pTvygUn2SBWj64caSBo8EsQxom9EybEJavG9eYxZc1mth1tNJV5HbnljlOBNi233rloBIDC_7VbKFM0kpzQKubupaEiniR0PCIWm0olS5PYEow-XVfe-C9c7yqv_njFHufhCA3OdYbaUC9dKMAgf9w9sIaFazC9SQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "https://r-1.tv/714b2b | El plan será elaborado junto a comunidades, gobiernos locales y pueblos indígenas, con énfasis en infraestructura, actividad económica y cuida… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_unitel",
@@ -632,13 +632,22 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HoZ1qSkE3tMQ7kNvwHie_Uc&_nc_oc=AdqBBIlhw5wU0rwV6LcbEYpz5pr7IvhtgpIX07jDAB2b8hrFXe8ITTFZPIE1Yd94uFM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=kA1YpLm6bn1f6GRNIiu5aQ&_nc_ss=7f289&oh=00_AQMZlTS3au6QsXYe0uPbqRQHQxu0FyA0kG1dbj4gHKNDaQ&oe=6ACD30CF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid0fCrEuC8XBuvswPVCayhz1Jz5iSonouaQhkJjHwT1vLW4N1vh4u3JoWp4S5gTkN3Cl?__cft__[0]=AZgx4J2-FHfdTWSUAJ6ugr8pZnbTBEc5yYtdSOUeZTzG4ow0IzluMKV9CQdFOL6jBsrbgc38xlEslURxz7c0bDVoJ2Qn7UuXLdJj_-pm-TQe_bh8SSLoDXAQt2ahZX0LwzpcSTMaUep6Wf7inSSVLBLBBjFUE2vwQsSP5LrvamYCzf2Xtya9VphaVFIiGkUxMkBgEgr8JLdy-UgkSrA&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La Casa Nacional de Moneda recupera una identidad que forma parte de su historia. El monograma PTSI, utilizado en la acuñación de moneda en Potosí desde el siglo XVIII,… Ver más 31 LOGROS INSTITUCIONALES | LOGRO #05… Ver más La Casa Nacional de Moneda recupera una identidad que forma parte de su historia. El monograma PTSI, utilizado en la acuñación de moneda en Potosí desde el siglo XVIII,… Ver m"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -649,13 +658,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OxpACcWFXo4Q7kNvwFA3z3-&_nc_oc=AdqVpaxbd_16prscoMKu2DQU4qbRroaPtNRmWdfhLW7smwWP-RfQyBo1f4mmYqN8ROY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=4nurun9oTT2isme_OzC2Pw&_nc_ss=7f289&oh=00_AQOqIr5DSRpu9rsU1qiKIQXi67vWnnQA1F-4OQjQiHu5aA&oe=6ACD5792",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "festival",
+          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid02PeSoKKrcdyxizgz5z25kqEDBrt9CZhmnBE9RYyRGsdy4NFRm8VhoL9mqBCGXCkk8l?__cft__[0]=AZgG__092ES7WMOKtdM1icdyg0O1mZtxkroRiwsrLIPmjFdTU1cRFHA52fSx8ZYHqO8q_6u5ZoIOJv8N8XMVFrNUAPgH_sIJnHdl0zrVjPNh3JYvDsSQdmXJn76pgML3qMNDndbnMR1v5AxYcEsxqo02HdukWlaAPQPFATFc681zStLJBE0-EqUlM55dPNpgBmSqNfy4n7LrvtIcPZM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CRC | 𝗖𝘂𝗹𝘁𝘂𝗿𝗮 𝗾𝘂𝗲 𝗰𝗼𝗻𝗲𝗰𝘁𝗮, 𝗮𝗿𝘁𝗲 𝗾𝘂𝗲 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮 Desde el Centro de la Revolución Cultural (CRC), dependiente de la Fundación Cultural BCB (FC-BCB), reafirmamos nuestro… Ver más \" Los espacios culturales son fundamentales para que las artes escénicas puedan encontrarse con sus públicos. A… Ver más #CRC | 𝗖𝘂𝗹𝘁𝘂𝗿𝗮 𝗾𝘂𝗲 𝗰𝗼𝗻𝗲𝗰𝘁𝗮, 𝗮𝗿𝘁𝗲 𝗾𝘂𝗲 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮 Desde el Centro de la Revolución Cultural (CRC), depen"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -751,30 +769,13 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YSr-BYrBriEQ7kNvwHnIV0b&_nc_oc=AdqWOH8PeQFyxJqWEFflN9P5qVXCz7C5TjZdk_VdTFItMWOtZip0elJNaM7zK1gKqqc&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=ivLH4ZfgvYFx_YwOsLmyoQ&_nc_ss=7f289&oh=00_AQO3VMfsPO3KVXBXxP46MpbVVtHcsCfxVuZ2P8dwPlTZ0g&oe=6ACCC02A",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/cobija.gob/posts/pfbid0b25KVRiRawzzvgpkiUGwniWaw3A9y7WDD3ptx4HCNExHbsLSc5Vht3jaYTevLSmSl?__cft__[0]=AZjQPdwt2w6bypt6NnyX51dLO3lTKZVYmcPaoxG_81ustVKjkJmyWyw8vZrgDPldg75rk6JoMOBG9JW__NZOIEwWd1xgd2aoLHbNMBxlzayqEE4FMIlQLiNKtz56dEMq1fOLAuVhEiQlUfhLvdubLZglVeUUzps7QW4iJDN4IkMVHEOvAfjCScE1vlg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝗖𝗢𝗠𝗨𝗡𝗜𝗖𝗔𝗗𝗢 𝗢𝗙𝗜𝗖𝗜𝗔𝗟 Por algún lado se empieza a poner orden y hacer cumplir la ley... El pueblo debe apoyar Ver más comentarios Ysela Nataly Salazar Mendez Por algún lado se empieza a poner orden y hacer cumplir la ley... El pueblo debe apoyar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/cobija.gob/posts/pfbid0b25KVRiRawzzvgpkiUGwniWaw3A9y7WDD3ptx4HCNExHbsLSc5Vht3jaYTevLSmSl?comment_id=967167733130875&__cft__[0]=AZjQPdwt2w6bypt6NnyX51dLO3lTKZVYmcPaoxG_81ustVKjkJmyWyw8vZrgDPldg75rk6JoMOBG9JW__NZOIEwWd1xgd2aoLHbNMBxlzayqEE4FMIlQLiNKtz56dEMq1fOLAuVhEiQlUfhLvdubLZglVeUUzps7QW4iJDN4IkMVHEOvAfjCScE1vlg&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Por algún lado se empieza a poner orden y hacer cumplir la ley... El pueblo debe apoyar Ysela Nataly Salazar Mendez Por algún lado se empieza a poner orden y hacer cumplir la ley... El pueblo debe apoyar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -819,22 +820,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4rBXZuwEjBAQ7kNvwFg2rNk&_nc_oc=Adrw73CDeLi1SbVLeQXRre5BJYMuViqWiNk_sLhvbBSrtOfRl3WY3qcIJ84WfgoTUDM&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=sHq0C5mbb6hNBTe6GT5_yQ&_nc_ss=7f289&oh=00_AQOH3wfFwkf_Fki5wArf6EWB-XCjm5cHQ-n6SL6farb-ew&oe=6ACCCEE7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "deporte",
-          "url": "https://www.facebook.com/GADTarija/videos/como-parte-del-campeonato-panamericano-de-ciclismo-celebrado-en-el-vel%C3%B3dromo-dep/1442628447201823/",
-          "has_image": true,
-          "text_preview": "Como parte del Campeonato Panamericano de Ciclismo celebrado en el Velódromo Departamental, la Gobernación de Tarija brindó espacios de exposición totalmente gratuitos a productores y artesanos... Como parte del Campeonato Panamericano de Ciclismo celebrado en el Velódromo Departamental, la Gobernación de Tarija brindó espacios de exposición..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_pando",
@@ -1407,7 +1399,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
+          "score": 26,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1415,19 +1407,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "07/10/2026 Cultura Se levanta el telón de la XIX Feria Internacional del Libro de Cochabamba Llegó el día, hoy se levanta el telón de la decimonovena Feria Internacional del Libro de Cochabamba (FILC) en el recinto ferial de Alalay. vista 05/10/2026 Cultura Semana 41: Se inaugura la XIX Feria Internacional del Libro de Cochabamba La decimonovena edición de la Feria Internacional del Libro de Cocha"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
+          "score": 34,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Viceministro anticipa incremento salarial en 2027 Ver más 2 Defensoría alerta que 33% de los hogares redujo sus raciones a un"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 El Nobel de Química 2026 fue otorgado a Henri Kagan y Kenso Soai por sus hallazgos clave para avances en la industria farmacé"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 46,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1493,14 +1485,6 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/aa51d467-e806-4b26-bbe3-56d58854c3e9",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c89a5cf2-5ffc-4d6e-9ab0-8d7d25d83c52",
           "has_image": true,
           "text_preview": ""
@@ -1509,7 +1493,15 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2474f025-a474-4c99-86ff-fdfb18cef1e8",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/4ac122c1-5263-404f-b794-e91492317950",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
           "has_image": true,
           "text_preview": ""
         }
@@ -1527,8 +1519,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 41,
-      "events": 41,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1544,8 +1536,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 15,
-      "events": 15,
+      "raw_items": 17,
+      "events": 17,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1561,8 +1553,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 45,
-      "events": 45,
+      "raw_items": 48,
+      "events": 48,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1612,8 +1604,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 8,
-      "events": 8,
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1621,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
