@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T21:16:32-04:00",
+  "generated_at": "2026-10-09T06:36:19-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 130.0,
-    "horas_maximo_sin_datos": 1194.1
+    "horas_promedio_sin_datos": 131.7,
+    "horas_maximo_sin_datos": 1203.4
   },
   "sources": [
     {
@@ -28,22 +28,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tvupiPegDBoQ7kNvwGu5gR0&_nc_oc=AdrZI8S7YZVumg0aLaEdX07MeEE64jJcgWqm2bhMmWjCiJE_WIY6uGJQMU1e9d6vIoU&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=V2fyCytzO6kiMApWKDUp3Q&_nc_ss=7f289&oh=00_AQMdGiDUVJunQYZjSbGpaClVqAd_LrjamK9halL_TjS21Q&oe=6ACE209A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid022Aki9GHaw6RvXpb6SSX9HofNAyz5PSGGra9DxjN1bi6cUneHhTE8fgfTRQzbP9Gl?__cft__[0]=AZhZfPtdzGuKM1I89HoMdPcbbSEWvqHy_cupRc5Fq_AtJ-eIVFZ8sDuiSU1G_bDWlC-OqjTq7FgFCcZ4RPAEXvvW6T4RE5FsKssfTOuA8JC_y6_AjjurA1KLPuzQynYEyOp9gow_VUMwPpYXjJiEkhUbrzwBEHH6aD357H7yMaId7mEduyCwL5nwahE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "APARTAMENTO 666 – HALLOWEEN ¡FASE 1 AGOTADA! La pr… Ver más APARTAMENTO 666 – HALLOWEEN ¡FASE 1 AGOTADA! La pr… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -88,13 +79,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=l6QvvBsTgBsQ7kNvwEAJDZr&_nc_oc=AdrpF1YPNqsaNGUXmgS7h71tPkNQNeeD12FaBIVoxhDZHDt99RskhXTknrXotMDfE_Y&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=72-cuLj9cbeDI3h20VFQGQ&_nc_ss=7f289&oh=00_AQOlZyBvAIrR6FUbx379trQ5b3ir9tpp-x3d57ygsQi80Q&oe=6ACE8B43",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid05CWqT1ckqJD2VrM4cHfspq56b6iKDPKerQKW4xs5RLECMgEZ5QWXSuQVN9gL8h59l?__cft__[0]=AZi7gUl--PL6YMkQ8MM4HWAgs3izroPtGOXs5PfrSVhNzg14sxY1i9N0I64yDvchjMqB7zJnXXbntme5IyI3StUKnmXMb0Vrl0MFNmB0HxCEB9RfB-i58KA4rBlSVS74-BPjsINMH61PzhnAYsXnaIp2ImN5RT-vYB5e-k_sCUOEjQ4BZSru_jolYEI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -462,13 +462,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=U1WmRpUIoXkQ7kNvwEpaEbL&_nc_oc=Ado8mCxzWD096jeqQWBQ20566-NU6Xy3lJVIXM1hqu7jpo6WFgi4yAwn7WBjIUFsFb8&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=MyuGOE5sycXV1dyZQnbIuw&_nc_ss=7f289&oh=00_AQNyj48srWuvCg6QjQh1KVKAmN3S2r4fVSZMDr1jXXQ5Pg&oe=6ACE7DC5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1444710137587500/?__cft__[0]=AZhXn1yRB04iDV00NRo_nomJnnM0cENQiCWgulr9exGP-PKJaPtQ4CEJLkcFFvT3LTrffUUymYuirSh75y68Bqx4FWbbDT3FgwBSv0RqWXm9QhUX8MPvVcT9UMlrAyucB3-j_8rI_fxW8Zg4m4XFh0a0tMTbN0mngsEyuUBm0KhW_Y_uXEWzXd0ZdalRv0k6NSxr&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#RTPInforma Analizan tarifa transitoria interdepartamental #RTPInforma Analizan tarifa transitoria interdepartamental Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_abya_yala",
@@ -683,30 +692,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/696282168_1306639911654685_7905006361365104235_n.avif?stp=dst-avif&cstp=mx1344x1344&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WvSSZH3-TEkQ7kNvwFa5aQw&_nc_oc=AdoegA7skvhmleFlK8P0FYWl3a0alSfrjMHanntMLUit0vVDx8arjV0QoVR2s6YlCwE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=K3xjHdNtDv1an8K-3yO4lQ&_nc_ss=7f289&oh=00_AQOtN1nhNOKxvRkJ-G76DiIP42i2jjq5_Abn5cqdCf3yaA&oe=6ACE1EFA",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "turismo",
-          "url": "https://www.facebook.com/AlcaldiaDeOruro/videos/-reglas-claras-y-coordinaci%C3%B3n-institucional-para-proteger-el-patrimonio-cultural/38771293255852064/",
-          "has_image": true,
-          "text_preview": "🎭📢 ¡Reglas claras y coordinación institucional para proteger el patrimonio cultural de Oruro! Durante una conferencia de prensa, el alcalde, Abg. Iván Quispe Gutiérrez, explicó que se trabaja en una... 🎭📢 ¡Reglas claras y coordinación institucional para proteger el patrimonio cultural de Oruro! Durante una conferencia de prensa, el alcalde, Abg. Iván..."
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/38771293255852064/?comment_id=1291287076415190&__cft__[0]=AZhuA_4705dBl0Cb08FBa3brfae3wVmyB5aBzg6dTJAff02FXVdqPBSjzDe6R2l3YNnXU27WmqvggxLD27iPlIAic0xjyLlXBtO9Pbig8sMG2NPw1J8S0FH_O3a1j5-Puaf1P6kg5tFn-cZYHQ50kNl2afHYJ4v1_on8JNR_y6A0YH28iKh9aLc6C9ZM6YMwaEzR&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Para cuando la poda de los árboles en la circunstancia zona sud por itos Liv Ue"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_tarija",
@@ -887,13 +879,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/830236722_1578141747687371_3618972506924612207_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=59jl5emMwioQ7kNvwEcP4lY&_nc_oc=AdrDIpeL6qGpC19TFzOcaDX3SBuwKik12XL418qCBFBJG4DdCz9OKm92VXRmdAPZXmk&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=KukpDp0TiEJfWbJR4akfTQ&_nc_ss=7f289&oh=00_AQMfqyd3DmEJKD1c_wtYeqOHWbL27Fi1aYcXM8cLeprGPA&oe=6ACE0C0F",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1023,13 +1015,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=c9F_OtmQo88Q7kNvwF3BbcZ&_nc_oc=AdoR3K3SRNi4_Deris9Yqo7jVGl0OxVt9QAlp5wOcMGt2QdBEXx8OzjeTa9Lrd5Ylzg&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=4CRT03-j8pz3MO47FeUywQ&_nc_ss=7f289&oh=00_AQNAFKu27yXfNb7rKbpFbSUd5LksWPSYVlIstduEJljCtg&oe=6ACEACF4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02WcdeWdmcNjwbJSBjiWfPVLpBmCCyNLoWgKJsfAxhzR7BxeZFZ9VtSN18eJ6LV5Hnl?__cft__[0]=AZjekDvFFuBlhcVPmRD_DHj_Yh72_RKaYA1yUdikdfVMYOuo860YuSirEWAiyaD2jj51Zg6EOqPHLnGBqHl3LVC5n1YKG196tquqt99HHCrCA5DJWnzLM1JbAL9-y-MFIczwxsrAa9-ZO_nj-WtM3nJunDB9FIsEfh6KU5PZzX_e_zNR1CeC6azCRcY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#BecasPatiño | ¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐞𝐬𝐭𝐮𝐝𝐢𝐚𝐫 𝐮𝐧𝐚 𝐦𝐚𝐞𝐬𝐭𝐫𝐢́𝐚 𝐞𝐧 𝐞𝐥 𝐞𝐱𝐭𝐫𝐚𝐧𝐣𝐞𝐫𝐨? Conoce paso a paso cómo postular a las 𝐁𝐞… Ver más #BecasPatiño | ¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐞𝐬𝐭𝐮𝐝𝐢𝐚𝐫 𝐮𝐧𝐚 𝐦𝐚𝐞𝐬𝐭𝐫𝐢́𝐚 𝐞𝐧 𝐞𝐥 𝐞𝐱𝐭𝐫𝐚𝐧𝐣𝐞𝐫𝐨? Conoce paso a paso cómo postular a las 𝐁𝐞… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1398,7 +1399,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 6,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1406,7 +1407,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 28,
+          "score": 46,
           "category": "danza",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1414,11 +1415,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 6,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Muere Maricarmen Abascal, símbolo de protestas por vivienda en España Ver más 2 Diputados aprueban proyecto de ley que declar"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Gobierno afirma que Mariaca tenía legisladores, policías y jueces vinculados a su estructura Ver más 2 Paz se queda sin el bl"
         }
       ],
       "error": null
@@ -1484,6 +1485,14 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2262fd13-16f2-480b-a125-5116540cac67",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c89a5cf2-5ffc-4d6e-9ab0-8d7d25d83c52",
           "has_image": true,
           "text_preview": ""
@@ -1493,14 +1502,6 @@
           "score": 0,
           "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/4ac122c1-5263-404f-b794-e91492317950",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
           "has_image": true,
           "text_preview": ""
         }
@@ -1518,8 +1519,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 41,
-      "events": 41,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1552,8 +1553,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1569,8 +1570,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 6,
-      "events": 6,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1586,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 53,
-      "events": 53,
+      "raw_items": 62,
+      "events": 62,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1620,8 +1621,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1638,9 +1639,17 @@
       "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
       "status": "ok",
       "raw_items": 6,
-      "events": 1,
-      "rejected": 5,
+      "events": 0,
+      "rejected": 6,
       "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "turismo",
+          "url": "https://beni.gob.bo/category/cultura/",
+          "has_image": true,
+          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 08/10/2026 GOBERNADOR DEL BENI PARTICIPA DE LOS 86 AÑOS DE PERÚ RÍO APERE Y COMPARTE CON LA FAMILIA GANADERA El Gobernador del Beni, Jesús Egüez Rivero, llegó hasta la Comunidad de Perú Río Apere, en el munici... Leer más → Cultura - 01/10/2026 GOBERNACIÓN DEL BENI FORTALECE LA CONCIENCIA AMBIENTAL CON LA SIEMBRA DE PLANTINES POR "
+        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 30,
@@ -1656,14 +1665,6 @@
           "url": "https://beni.gob.bo/departamento/agricultura",
           "has_image": true,
           "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
-        },
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 42,
-          "category": "turismo",
-          "url": "https://beni.gob.bo/blog/rurrenabaque-vive-el-turismo-y-la-cultura-con-una-gran-entrada-por-el-dia-mundial-del-turismo",
-          "has_image": true,
-          "text_preview": "RURRENABAQUE VIVE EL TURISMO Y LA CULTURA CON UNA GRAN ENTRADA POR EL DÍA MUNDIAL DEL TURISMO Cultura 26/09/2026 Por Gabriela Claure M. 35 visitas El gobernador del Beni, Jesús Egüez Rivero, participó en la entrada estudiantil realizada en Rurrenabaque en homenaje al Día Mundial del Turismo, una jornada que reunió a estudiantes, autoridades y familias en una celebración llena de cultura, tradición"
         }
       ],
       "error": null
@@ -1697,17 +1698,9 @@
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
       "raw_items": 6,
-      "events": 0,
-      "rejected": 6,
+      "events": 2,
+      "rejected": 4,
       "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 30,
-          "category": "deporte",
-          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
-          "has_image": false,
-          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 8,
@@ -1723,6 +1716,14 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
           "has_image": false,
           "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/desconcentradas",
+          "has_image": false,
+          "text_preview": "0 % Normativa - Desconcentradas MANUAL DE ORGANIZACION Y FUNCIONES - PROCEDIMIENTOS PROSOL MANUAL - PROSOL - RESOLUCION 371.pdf Descarga Detalles Manual de Organización y Funciones - Programa GNV - 2023 MOF - PROGRAMA - GNV - 2023.pdf Descarga Detalles Manual de Organización y Funciones - Servicio Departamental de Agropecuario MOF - SEDAG 2023.pdf Descarga Detalles Manual de Organización y Funcion"
         }
       ],
       "error": null
