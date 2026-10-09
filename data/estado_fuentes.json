@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T06:36:19-04:00",
+  "generated_at": "2026-10-09T14:24:10-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 131.7,
-    "horas_maximo_sin_datos": 1203.4
+    "horas_promedio_sin_datos": 131.5,
+    "horas_maximo_sin_datos": 1211.2
   },
   "sources": [
     {
@@ -79,22 +79,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=l6QvvBsTgBsQ7kNvwEAJDZr&_nc_oc=AdrpF1YPNqsaNGUXmgS7h71tPkNQNeeD12FaBIVoxhDZHDt99RskhXTknrXotMDfE_Y&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=72-cuLj9cbeDI3h20VFQGQ&_nc_ss=7f289&oh=00_AQOlZyBvAIrR6FUbx379trQ5b3ir9tpp-x3d57ygsQi80Q&oe=6ACE8B43",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid05CWqT1ckqJD2VrM4cHfspq56b6iKDPKerQKW4xs5RLECMgEZ5QWXSuQVN9gL8h59l?__cft__[0]=AZi7gUl--PL6YMkQ8MM4HWAgs3izroPtGOXs5PfrSVhNzg14sxY1i9N0I64yDvchjMqB7zJnXXbntme5IyI3StUKnmXMb0Vrl0MFNmB0HxCEB9RfB-i58KA4rBlSVS74-BPjsINMH61PzhnAYsXnaIp2ImN5RT-vYB5e-k_sCUOEjQ4BZSru_jolYEI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -343,13 +334,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IlDihFrXEHEQ7kNvwFkUgNH&_nc_oc=AdpLNQrEjcrHNN1BGrSqBGMgu7BMpbImjvk7nrnVbaILhMc0SOm0D7M5EYJF9wnZkJo&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=lFpQOtGYev3Zpfbg7ds8bw&_nc_ss=7f289&oh=00_AQNBi5tNdAgCbIBdr6JjcsBJ9TwRGOP9yqQeYj7ENmrcyA&oe=6ACF10FF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid0v9YNGoM4a5QoRqv5ueXvqUCZWpCxLMH84t7MUhrw2RW2FrQ5LGm2wfxXsFFcdyVml?__cft__[0]=AZhh_1ElqVWBSXDCSlsYs6jQweJHXW5kuXqtDfI55pwrQHbGQP6adHNzNZJtWOnh_QLeeYsemYaqlablrIjKH0WG8ZssnGWq8GNIUkpJLfjje-rNzKl4XOyCGp1L7q0KbI98x-asKVKkE0y-x7NTDQObVAbc7bVFnDFbfexg5HjSzzH7LtF7XZCakUg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "UNITEL hace 42 minutos 42 min Info completa en los comentarios Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_atb",
@@ -462,22 +462,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=U1WmRpUIoXkQ7kNvwEpaEbL&_nc_oc=Ado8mCxzWD096jeqQWBQ20566-NU6Xy3lJVIXM1hqu7jpo6WFgi4yAwn7WBjIUFsFb8&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=MyuGOE5sycXV1dyZQnbIuw&_nc_ss=7f289&oh=00_AQNyj48srWuvCg6QjQh1KVKAmN3S2r4fVSZMDr1jXXQ5Pg&oe=6ACE7DC5",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1444710137587500/?__cft__[0]=AZhXn1yRB04iDV00NRo_nomJnnM0cENQiCWgulr9exGP-PKJaPtQ4CEJLkcFFvT3LTrffUUymYuirSh75y68Bqx4FWbbDT3FgwBSv0RqWXm9QhUX8MPvVcT9UMlrAyucB3-j_8rI_fxW8Zg4m4XFh0a0tMTbN0mngsEyuUBm0KhW_Y_uXEWzXd0ZdalRv0k6NSxr&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#RTPInforma Analizan tarifa transitoria interdepartamental #RTPInforma Analizan tarifa transitoria interdepartamental Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_abya_yala",
@@ -896,13 +887,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lp0cpLoa-ZkQ7kNvwH5DuMm&_nc_oc=AdrzzNNoAjwyw1acy6M11vUDtz-TT1x18b-ir13GtQQmX6BdpWdkH5417igwjV-L_dQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=u1x7PJI0-4HLQD9BrphVAg&_nc_ss=7f289&oh=00_AQMRGuDoa6i5rkB-__6nYXIhIi2JXX7llMC0chcZo5bpUA&oe=6ACEEBE7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02ncNZSJF4sn2Y7yJPeQW7iFh6VGSK7bt22us5GGngtSmtJ7HNpbb2BvshqFfRqjaxl?__cft__[0]=AZjGqAE_O2oI6MBxmhBVU-PV8zY0XjEseZiO1i2uCnakRD5BSouceh4Fp6_mlVFvuaGXlt9hev-Uwp2JJKRdzcU-598UMvTSnQsy25HB-G0JSrWImoSBZdG3HbawmgeKYru-OQqYunkq4ppkw82USSsSJ6hJrVMrTbseFJ2LpI0zKTtsp5wtdGrPgwc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#BecasPatiño | ¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐞𝐬𝐭𝐮𝐝𝐢𝐚𝐫 𝐮𝐧𝐚 𝐦𝐚𝐞𝐬𝐭𝐫𝐢́𝐚 𝐞𝐧 𝐞𝐥 𝐞𝐱𝐭𝐫𝐚𝐧𝐣𝐞𝐫𝐨? Conoce paso a paso cómo postular a las 𝐁𝐞… Ver más #BecasPatiño | ¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐞𝐬𝐭𝐮𝐝𝐢𝐚𝐫 𝐮𝐧𝐚 𝐦𝐚𝐞𝐬𝐭𝐫𝐢́𝐚 𝐞𝐧 𝐞𝐥 𝐞𝐱𝐭𝐫𝐚𝐧𝐣𝐞𝐫𝐨? Conoce paso a paso cómo postular a las 𝐁𝐞… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1015,22 +1015,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=c9F_OtmQo88Q7kNvwF3BbcZ&_nc_oc=AdoR3K3SRNi4_Deris9Yqo7jVGl0OxVt9QAlp5wOcMGt2QdBEXx8OzjeTa9Lrd5Ylzg&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=4CRT03-j8pz3MO47FeUywQ&_nc_ss=7f289&oh=00_AQNAFKu27yXfNb7rKbpFbSUd5LksWPSYVlIstduEJljCtg&oe=6ACEACF4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02WcdeWdmcNjwbJSBjiWfPVLpBmCCyNLoWgKJsfAxhzR7BxeZFZ9VtSN18eJ6LV5Hnl?__cft__[0]=AZjekDvFFuBlhcVPmRD_DHj_Yh72_RKaYA1yUdikdfVMYOuo860YuSirEWAiyaD2jj51Zg6EOqPHLnGBqHl3LVC5n1YKG196tquqt99HHCrCA5DJWnzLM1JbAL9-y-MFIczwxsrAa9-ZO_nj-WtM3nJunDB9FIsEfh6KU5PZzX_e_zNR1CeC6azCRcY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#BecasPatiño | ¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐞𝐬𝐭𝐮𝐝𝐢𝐚𝐫 𝐮𝐧𝐚 𝐦𝐚𝐞𝐬𝐭𝐫𝐢́𝐚 𝐞𝐧 𝐞𝐥 𝐞𝐱𝐭𝐫𝐚𝐧𝐣𝐞𝐫𝐨? Conoce paso a paso cómo postular a las 𝐁𝐞… Ver más #BecasPatiño | ¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐞𝐬𝐭𝐮𝐝𝐢𝐚𝐫 𝐮𝐧𝐚 𝐦𝐚𝐞𝐬𝐭𝐫𝐢́𝐚 𝐞𝐧 𝐞𝐥 𝐞𝐱𝐭𝐫𝐚𝐧𝐣𝐞𝐫𝐨? Conoce paso a paso cómo postular a las 𝐁𝐞… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1041,13 +1032,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CCuSBbu0rUoQ7kNvwF7cGE6&_nc_oc=AdrgEB1himYVab0fbQbLvwEH47bOO3U-zTaAZvETNMbxG21z92tJFqwlh9XsJvv5Kxw&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=yZlfse5-6YTOaGMLTc587g&_nc_ss=7f289&oh=00_AQO226cRxz1EHwNaIAfe5atwX6lu8Q8FOosmKgW_FzcVnQ&oe=6ACEEE8F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "feria",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/videos/la-feria-del-libro-de-fr%C3%A1ncfort-es-uno-de-los-principales-encuentros-del-mercado/3407749382758402/",
+          "has_image": true,
+          "text_preview": "La Feria del Libro de Fráncfort, es uno de los principales encuentros del mercado editorial internacional. Aprovechamos la ocasión para explorar conexiones literarias entre América Latina y Alemania.... La Feria del Libro de Fráncfort, es uno de los principales encuentros del mercado editorial internacional. Aprovechamos la ocasión para explorar..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1419,7 +1419,7 @@
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Gobierno afirma que Mariaca tenía legisladores, policías y jueces vinculados a su estructura Ver más 2 Paz se queda sin el bl"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Fiscalía anula sistema de datos sobre procesos tras denuncias de vulneración Ver más 2 Cámara de Diputados sancionó proyecto "
         }
       ],
       "error": null
@@ -1519,8 +1519,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 45,
-      "events": 45,
+      "raw_items": 43,
+      "events": 43,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1536,8 +1536,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 18,
-      "events": 18,
+      "raw_items": 17,
+      "events": 17,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
