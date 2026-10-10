@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T05:52:20-04:00",
+  "generated_at": "2026-10-10T13:23:44-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 132.2,
-    "horas_maximo_sin_datos": 1226.7
+    "horas_promedio_sin_datos": 130.7,
+    "horas_maximo_sin_datos": 1234.2
   },
   "sources": [
     {
@@ -402,13 +402,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=T8yqUeFZUyQQ7kNvwHjAzAO&_nc_oc=AdrToCSu46J2-LsitisBMZKFqywBZNvxe3PU6wLiEjFXH01KXiE0PbI-wy0l4ypA9k4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=h5cZth3uQW9qEJwIa973kg&_nc_ss=7f289&oh=00_AQNQmcFkcvCCvPEG09OE-A2taZ46EWHm35sDhlYBAfGrCw&oe=6AD02BA1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid08uzEbLzJBuhsudJB2SEDYAR8ZJHahuFHpxPaV3593172e4wzt59fjWWquTFFyQYcl?__cft__[0]=AZjeluoA2vXic6G6U_ws1JbaqXDeS1DAvkb9sfRqF4txlIoxlof4l_AO9mAkPb3hvpBbTzqIzFu_-nd8wsea-fDsCyn0xIDqb8nulOraCq7pVMOvtGmEuuX4ena9hD6zl_0MJ7gc0E2WMlNmjiwi4dTuMUb8AQDbwH--lxbwm4yeZP6svdbnSaCA3gk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Internacional #ElDiarioBo … Ver más #Internacional #ElDiarioBo … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_radio_fides",
@@ -470,22 +479,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Y3L5MehX1LMQ7kNvwFu-W3M&_nc_oc=AdquGU1RxNTWX2jtq0CLYeXibtAvw9N4m38Bz7-DiKwt_pfy9uBGmHJ6XaCgqBKbGFI&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=cRWBnOcU5Yv9PMWQ5NT18w&_nc_ss=7f289&oh=00_AQM7KDu4lgrXRdxvmUfyJRlTC7aqk08s96GBu4vy_bQv8g&oe=6ACFD682",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid0mGj1jRXUEjZChFjqXghY887LgQV2tmTmgYoDype1ByEnbhGaRoH12vnQcXovcu8bl?__cft__[0]=AZgbZYYjMMC9wGPVWYmhvMCVpT2usVkaKfEGz1F67hddaRPfv4Tz1_Yl93ulZNqtTe9Y_nTnnTwtAkCOSXIYV3VOXsS0lg5pVY_UlnsSWOpyG6fBpWG1ZWBWGhy96hVI5VDrkt7B6qV_IDXqt3UB9U3EkRoNZyLsNUxKQwuCx7_zIPRNPs4rmUKxNB8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#LaPaz UMSA aclara que aguas de Hampaturi no presentan niveles peligrosos para la salud… Ver más #LaPaz UMSA aclara que aguas de Hampaturi no presentan niveles peligrosos para la salud… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber_radio",
@@ -615,22 +615,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qzhiZD3-xk4Q7kNvwELYwpC&_nc_oc=AdrP9AThwQQYR5bR4FAVfz7aE40Qcr3g9t3y7jKsR1gbR4ymg5aBu9qHAGOm9DIR7c8&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=JQ2rL-dWz0O4fyKkFYYNtA&_nc_ss=7f289&oh=00_AQMKNt_J9HPLKg40UN1H_6fnNVIQZq7sw0OoJCC-hbnGXw&oe=6ACFF473",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid0s3tdZQooQHCusRtQBhKtedt1sHxpvkvLsBfwnzSwjWwTpXsj9yMePbQEyQH94FXkl?__cft__[0]=AZjQKFoKcEThHsXEyuFxcfGM4nmgLsVaChRIGfTf8wOclEkb56PeLhMYkZLuSX_ZfahsjdJCtPzgOnLJKVYTOe75aBp3gfeAOlcnaiu6v6PWJFGlkPwXNoIR327LOMdL8fB5vvbZ-qQ-BU2DoyZqHmJTttMDzYmGYt5HHBoIIXlBmomstFJL1vzUKdc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Conversatorio l \"𝗜𝗻𝗺𝗲𝗿𝘀𝗶𝗼́𝗻 𝗮 𝗹𝗮 𝗕𝗶𝗼𝗱𝗶𝘃𝗲𝗿𝘀𝗶𝗱𝗮𝗱 𝗕𝗼𝗹𝗶𝘃𝗶𝗮𝗻𝗮\", una experiencia visual única para acercarnos a nuestras especies emblemáticas y a los ecosistemas extraordin… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -1117,13 +1108,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UQOn4dUbjWwQ7kNvwEZ7Cca&_nc_oc=Adp7ojjRhlgqiXldwAmN7S8_tkzWaKI4ruLwjYaYX4YCXemxK8U0Kv3TjT8KvznU8bI&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Y4cgI8tu0ztPbMtId5Bb1g&_nc_ss=7f289&oh=00_AQNDz5oWorrjkgl_WGN8t6V-jYzGZ8oyuVKydhDGkFBUkw&oe=6AD051A4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid02vTT923s3EKwx5sSSfje81tWTDet36SktbvdDJ35pApyRbvHjCoqPLNyM4XnH8rnwl?__cft__[0]=AZjw_3jivaROGibDNj7hYpxuS23h6MLNDC1WnoU3W10Yn4EliMuKvtVhKElvEmDbada7XE67ioU3jgb3DMlnEErtM1O92jdfZm2jtHJEBHW-TTTAO-fUCvTCgqu2xPQG8XUbpBPDvtgdHWngHYQwJZqv18O5ic5L_KbAbVmyAtGSqAA_MUN04ww_eYU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#MUSEFSucre | 𝐈𝐧𝐯𝐢𝐭𝐚𝐜𝐢ó𝐧 𝐚 𝐄𝐱𝐩𝐨𝐬𝐢𝐜𝐢ó𝐧 𝐓𝐞𝐦𝐩𝐨𝐫𝐚𝐥 𝐝𝐞 𝐗𝐢𝐥𝐨𝐠𝐫𝐚𝐟í𝐚 Descubre la creatividad y el arte del grabado en Xilografía que presenta el Colectivo de Grabado \"MANO NEG… Ver más #MUSEFSucre | 𝐈𝐧𝐯𝐢𝐭𝐚𝐜𝐢ó𝐧 𝐚 𝐄𝐱𝐩𝐨𝐬𝐢𝐜𝐢ó𝐧 𝐓𝐞𝐦𝐩𝐨𝐫𝐚𝐥 𝐝𝐞 𝐗𝐢𝐥𝐨𝐠𝐫𝐚𝐟í𝐚 Descubre la creatividad y el arte del grabado en Xilografía que presenta el Colectivo de Grabado \"MANO NEG… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1134,13 +1134,30 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yRP1v4LVf9oQ7kNvwGhGA_O&_nc_oc=AdpHIhb4tLL6FxU5bYVRb2NMVAiyZo5e38wiLSgfkl3w5BD3K5A8r2A37ylIudQy84w&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Rir5lmf3BFso0dvXfBasrg&_nc_ss=7f289&oh=00_AQMO8HachFj__CyEg3F7vvF9Yw0-YQmk2LTzvl6YfdlT4Q&oe=6AD05BA0",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid02FTpUX14HdAJqLnehdtHdQfBopd4bgoJSeqYhQKjgwyrhrpiVYwd7L5wi5uRkVj1Nl?__cft__[0]=AZi8EXzCYTw0DeFgNaBcQL972Sm8llPmt0Z0Q3sEvdJ-LeziHw_wW0fJ7SPoZrSMBMMF597v9ENgIO9dopl_7D9FjXEybsuDKrH3gVEdG3ialJqpQsFf1OyaxA3PGMApzsU5o5u-jYCMoJudwW-Tfqy01EqGXNQ2wHTbToR8VDGFKeLJJ_Hbs-CN05I&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "USFX INICIA LA RENOVACIÓN DEL CÉSPED SINTÉTICO DEL CAMPO DEPORTIVO EX SEMINARIO… Ver más excelente señor Rector trabajando por los jóvenes deportistas que son nuestro presente y futuro Ver más comentarios Edu Salinas"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid02FTpUX14HdAJqLnehdtHdQfBopd4bgoJSeqYhQKjgwyrhrpiVYwd7L5wi5uRkVj1Nl?comment_id=1506027284691026&__cft__[0]=AZi8EXzCYTw0DeFgNaBcQL972Sm8llPmt0Z0Q3sEvdJ-LeziHw_wW0fJ7SPoZrSMBMMF597v9ENgIO9dopl_7D9FjXEybsuDKrH3gVEdG3ialJqpQsFf1OyaxA3PGMApzsU5o5u-jYCMoJudwW-Tfqy01EqGXNQ2wHTbToR8VDGFKeLJJ_Hbs-CN05I&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "excelente señor Rector trabajando por los jóvenes deportistas que son nuestro presente y futuro Edu Salinas"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umsa",
@@ -1219,22 +1236,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Y0ZUw_7yyQQQ7kNvwEB_L6N&_nc_oc=AdrqsW-ZBSdyiL_GKf_maYxscOhlgSxYK_2SvGkKGVDT0taMwpqGia1Io6SXKDDDbC0&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=wEre1PsXjvm5eZgq4iPcsw&_nc_ss=7f289&oh=00_AQMk2ON8xf3VUXnlHqm68oSQ6I7Y-StHz5B-1vBi5waURA&oe=6ACFCFF8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid023W1PZTE5hAii9mHTsoMYQZ3C3AiSXAKbzExmtoNRw9wwYwwF3MGnmNuRMtmBQ4yil?__cft__[0]=AZgcfqDZRGYR1FzigDB9LQ4PlyKXkHGqohsmK7hPbLUCxtHinZu8YrkWtS_dfzGXqRCEIStfuvfp-XiaUIir2bYFdz7pqG8l9IiLGl77JpmL9DxAQKQNd2X80qKeLZPf2TqAjhMsPMNCjycnpJXvGm4u07zCt0EO0mHofzmbXSkyyQh_gT8OIl06sP0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "En la UPSA, nos adelantamos al 'Día de la Mujer Boliviana' con un detalle para las mujeres de nuestra comunidad universitaria, reconociéndolas no solo por lo que hacen,… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "web_superticket",
@@ -1419,7 +1427,7 @@
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Trump anuncia que Rusia venderá diésel a EEUU y al mundo Ver más 2 Otorgan el Premio Nobel de la Paz 2026 a la jurista sudafr"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Huracán Simón sumerge en caos Acapulco: calles convertidas en ríos, autos varados y comercios destrozados Ver más 2 Libre ini"
         }
       ],
       "error": null
@@ -1519,8 +1527,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 43,
-      "events": 43,
+      "raw_items": 54,
+      "events": 54,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
