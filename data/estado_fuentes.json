@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:23:44-04:00",
+  "generated_at": "2026-10-10T17:46:01-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 130.7,
-    "horas_maximo_sin_datos": 1234.2
+    "horas_promedio_sin_datos": 126.0,
+    "horas_maximo_sin_datos": 1238.6
   },
   "sources": [
     {
@@ -62,13 +62,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GN6QSoJq1ukQ7kNvwFAFJ6n&_nc_oc=Adqq30NUnMhS-jck7T6I_M_5A-OZ2GQTlf0x8xmKbLuDF0ArbZQcSjCBnw-CS_RSCZ8&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=ZLymP1TdcyJNB2CiM1M6Aw&_nc_ss=7f289&oh=00_AQNXduCVOnengS0ta8J_--PZdGNmUpdRGMGlW8-_Xp1hzA&oe=6AD06CB6",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZjIIfUhraaLO-HS5yI497M5_zbPqOgKLz-f09osCXqNJxNQ8Qqm3LY4p-Fmoax8H5YmWzvfe_ZrrgCj-I7oyKX_hXI051_zlssv1US5GmZT6PlhvtB8VlcxxU4fWbqPDyxfMh9HR1uZlNhNs38PRab6cJzzFsjweZbQ3o7eEFJjsh3loKAuyH8ZuJb_k0Y79h4q&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZjIIfUhraaLO-HS5yI497M5_zbPqOgKLz-f09osCXqNJxNQ8Qqm3LY4p-Fmoax8H5YmWzvfe_ZrrgCj-I7oyKX_hXI051_zlssv1US5GmZT6PlhvtB8VlcxxU4fWbqPDyxfMh9HR1uZlNhNs38PRab6cJzzFsjweZbQ3o7eEFJjsh3loKAuyH8ZuJb_k0Y79h4q&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -402,22 +419,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=T8yqUeFZUyQQ7kNvwHjAzAO&_nc_oc=AdrToCSu46J2-LsitisBMZKFqywBZNvxe3PU6wLiEjFXH01KXiE0PbI-wy0l4ypA9k4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=h5cZth3uQW9qEJwIa973kg&_nc_ss=7f289&oh=00_AQNQmcFkcvCCvPEG09OE-A2taZ46EWHm35sDhlYBAfGrCw&oe=6AD02BA1",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid08uzEbLzJBuhsudJB2SEDYAR8ZJHahuFHpxPaV3593172e4wzt59fjWWquTFFyQYcl?__cft__[0]=AZjeluoA2vXic6G6U_ws1JbaqXDeS1DAvkb9sfRqF4txlIoxlof4l_AO9mAkPb3hvpBbTzqIzFu_-nd8wsea-fDsCyn0xIDqb8nulOraCq7pVMOvtGmEuuX4ena9hD6zl_0MJ7gc0E2WMlNmjiwi4dTuMUb8AQDbwH--lxbwm4yeZP6svdbnSaCA3gk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Internacional #ElDiarioBo … Ver más #Internacional #ElDiarioBo … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_radio_fides",
@@ -445,13 +453,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=p4qKw7XYDGIQ7kNvwHEIjgZ&_nc_oc=AdpVQ42qk1M2UrWFsLBT3_eezqI5_cwxGnbBjQTnjBbulFeIsDwN6kXzuXSV7PqWOe4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=J9KqE-x3u7nNdvZBDfWgaA&_nc_ss=7f289&oh=00_AQNfq1giWcVf-lUzyYnNjZphU-iFRN1ehNVSP1lFdttXtw&oe=6AD09EBA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ANFidesBolivia/posts/pfbid0H98J4oReEU5YQtuZsr1Rk2LFidmhz5PRgj5eq2dSHuVnKWttVALVNPL1ZjaX6mQwl?__cft__[0]=AZjXoYNl2j4pxxUPx6em14GRd2Gvmip95gZIKf5PFR7IS22sVaPUTKelgm6Fg5XyD9HR6d3GYSrB4nfosh3qEKu11HAcBLnXCxLe2oN5rGuohr2ETS261jO-KKnzhmJhjzl0jthVYmTY5wERV8OeR43PdcKuoeBi0WG-sxVowBwh9Yb2WR-fLLAQUPo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#GrupoFides | #ANF #Política 𝐏𝐚𝐳 𝐚 𝟒𝟒 𝐚ñ𝐨𝐬 𝐝𝐞 𝐥𝐚 𝐃𝐞𝐦𝐨𝐜𝐫𝐚𝐜𝐢𝐚: \"𝐀𝐥𝐠𝐮𝐧𝐨𝐬 𝐪𝐮𝐢𝐞𝐫𝐞𝐧 𝐫𝐞𝐜𝐮𝐩𝐞𝐫𝐚𝐫 𝐥𝐚 𝐯𝐢𝐞𝐣𝐚 𝐥ó𝐠𝐢𝐜𝐚 𝐝𝐞 𝐚𝐠𝐚𝐫𝐫𝐚𝐫𝐧𝐨𝐬 𝐚 𝐭𝐢𝐫𝐨𝐬\" Lea la nota aquí https://acortar.link/lJnwOr #GrupoFides | #ANF #Política 𝐏𝐚𝐳 𝐚 𝟒𝟒 𝐚ñ𝐨𝐬 𝐝𝐞 𝐥𝐚 𝐃𝐞𝐦𝐨𝐜𝐫𝐚𝐜𝐢𝐚: \"𝐀𝐥𝐠𝐮𝐧𝐨𝐬 𝐪𝐮𝐢𝐞𝐫𝐞𝐧 𝐫𝐞𝐜𝐮𝐩𝐞𝐫𝐚𝐫 𝐥𝐚 𝐯𝐢𝐞𝐣𝐚 𝐥ó𝐠𝐢𝐜𝐚 𝐝𝐞 𝐚𝐠𝐚𝐫𝐫𝐚𝐫𝐧𝐨𝐬 𝐚 𝐭𝐢𝐫𝐨𝐬\" Lea la nota aquí https://acortar.link/lJnwOr"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_rtp",
@@ -717,13 +734,22 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ENQMhIVaXO0Q7kNvwHSBrAU&_nc_oc=AdoDzmuzfE6l7QUHwoLf_DD3HHJEe1eIhY1j0k6BbtFqIg-0eS9iqWIcmsGxuMtWhlM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=BTYX004oA1YnZi2BdwOEfw&_nc_ss=7f289&oh=00_AQPUzw_9Ayxut-BgZsKS3s-k3Z8N64RiZsRecDFS90UsRg&oe=6AD09B68",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/posts/pfbid0DyYXa7iVeUCbcWqutGQreywjw1XogLuEEjP8nHKAkNnNRYGKRytTp5MD2X7xRaoWl?__cft__[0]=AZjb-W014IEj5KM-Mbrn1AndV5km6nFhVI0OqhkRl919yNMjR7DjuCh0WRXlh30hcyViqEp-B7w1Anqbm2HdiezzD46KJXSaUcRZHo-DgXiRW2uC1oP_LW_fC4cRFWvxVtdnLUKBj3Y0rbZdZo1ibT3cb5XU-aBFXWQ1qc1oMGn5qZUDBdzlF6j761U&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡LA VELOCIDAD Y LA ADRENALINA SE VIVEN EN POTOSÍ! E… Ver más ¡LA VELOCIDAD Y LA ADRENALINA SE VIVEN EN POTOSÍ! E… Ver más Ver más comentarios Libertad Rodríguez"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_trinidad",
@@ -1108,22 +1134,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UQOn4dUbjWwQ7kNvwEZ7Cca&_nc_oc=Adp7ojjRhlgqiXldwAmN7S8_tkzWaKI4ruLwjYaYX4YCXemxK8U0Kv3TjT8KvznU8bI&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Y4cgI8tu0ztPbMtId5Bb1g&_nc_ss=7f289&oh=00_AQNDz5oWorrjkgl_WGN8t6V-jYzGZ8oyuVKydhDGkFBUkw&oe=6AD051A4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid02vTT923s3EKwx5sSSfje81tWTDet36SktbvdDJ35pApyRbvHjCoqPLNyM4XnH8rnwl?__cft__[0]=AZjw_3jivaROGibDNj7hYpxuS23h6MLNDC1WnoU3W10Yn4EliMuKvtVhKElvEmDbada7XE67ioU3jgb3DMlnEErtM1O92jdfZm2jtHJEBHW-TTTAO-fUCvTCgqu2xPQG8XUbpBPDvtgdHWngHYQwJZqv18O5ic5L_KbAbVmyAtGSqAA_MUN04ww_eYU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#MUSEFSucre | 𝐈𝐧𝐯𝐢𝐭𝐚𝐜𝐢ó𝐧 𝐚 𝐄𝐱𝐩𝐨𝐬𝐢𝐜𝐢ó𝐧 𝐓𝐞𝐦𝐩𝐨𝐫𝐚𝐥 𝐝𝐞 𝐗𝐢𝐥𝐨𝐠𝐫𝐚𝐟í𝐚 Descubre la creatividad y el arte del grabado en Xilografía que presenta el Colectivo de Grabado \"MANO NEG… Ver más #MUSEFSucre | 𝐈𝐧𝐯𝐢𝐭𝐚𝐜𝐢ó𝐧 𝐚 𝐄𝐱𝐩𝐨𝐬𝐢𝐜𝐢ó𝐧 𝐓𝐞𝐦𝐩𝐨𝐫𝐚𝐥 𝐝𝐞 𝐗𝐢𝐥𝐨𝐠𝐫𝐚𝐟í𝐚 Descubre la creatividad y el arte del grabado en Xilografía que presenta el Colectivo de Grabado \"MANO NEG… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1134,30 +1151,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yRP1v4LVf9oQ7kNvwGhGA_O&_nc_oc=AdpHIhb4tLL6FxU5bYVRb2NMVAiyZo5e38wiLSgfkl3w5BD3K5A8r2A37ylIudQy84w&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Rir5lmf3BFso0dvXfBasrg&_nc_ss=7f289&oh=00_AQMO8HachFj__CyEg3F7vvF9Yw0-YQmk2LTzvl6YfdlT4Q&oe=6AD05BA0",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid02FTpUX14HdAJqLnehdtHdQfBopd4bgoJSeqYhQKjgwyrhrpiVYwd7L5wi5uRkVj1Nl?__cft__[0]=AZi8EXzCYTw0DeFgNaBcQL972Sm8llPmt0Z0Q3sEvdJ-LeziHw_wW0fJ7SPoZrSMBMMF597v9ENgIO9dopl_7D9FjXEybsuDKrH3gVEdG3ialJqpQsFf1OyaxA3PGMApzsU5o5u-jYCMoJudwW-Tfqy01EqGXNQ2wHTbToR8VDGFKeLJJ_Hbs-CN05I&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "USFX INICIA LA RENOVACIÓN DEL CÉSPED SINTÉTICO DEL CAMPO DEPORTIVO EX SEMINARIO… Ver más excelente señor Rector trabajando por los jóvenes deportistas que son nuestro presente y futuro Ver más comentarios Edu Salinas"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/FranciscoXavierCh/posts/pfbid02FTpUX14HdAJqLnehdtHdQfBopd4bgoJSeqYhQKjgwyrhrpiVYwd7L5wi5uRkVj1Nl?comment_id=1506027284691026&__cft__[0]=AZi8EXzCYTw0DeFgNaBcQL972Sm8llPmt0Z0Q3sEvdJ-LeziHw_wW0fJ7SPoZrSMBMMF597v9ENgIO9dopl_7D9FjXEybsuDKrH3gVEdG3ialJqpQsFf1OyaxA3PGMApzsU5o5u-jYCMoJudwW-Tfqy01EqGXNQ2wHTbToR8VDGFKeLJJ_Hbs-CN05I&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "excelente señor Rector trabajando por los jóvenes deportistas que son nuestro presente y futuro Edu Salinas"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umsa",
@@ -1402,12 +1402,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
+          "score": 54,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1415,19 +1415,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
-          "category": "danza",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "09/10/2026 Cultura Anne Carson es la decimonovena mujer en ganar el Nobel de Literatura La escritora y ensayista canadiense Anne Carson, de 76 años, fue galardonada ayer por la Academia Sueca con el Premo Nobel de Literatura “por su audaz e... vista 08/10/2026 Cultura Ponen en marcha una Feria Internacional del Libro expansiva Expansiva, así será la decimonovena Feria Internacional del Libro de Co"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
+          "score": 54,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Huracán Simón sumerge en caos Acapulco: calles convertidas en ríos, autos varados y comercios destrozados Ver más 2 Libre ini"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Ávila revela que Paz sugirió a Urioste para fiscal general interino Ver más 2 Defensa de Mariaca: Se llevaron documentos sobr"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 38,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1527,8 +1527,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 54,
-      "events": 54,
+      "raw_items": 48,
+      "events": 48,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1561,8 +1561,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1578,8 +1578,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 7,
+      "events": 7,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 64,
-      "events": 64,
+      "raw_items": 57,
+      "events": 57,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
