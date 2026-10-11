@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:46:01-04:00",
+  "generated_at": "2026-10-11T01:48:12-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 126.0,
-    "horas_maximo_sin_datos": 1238.6
+    "horas_promedio_sin_datos": 124.9,
+    "horas_maximo_sin_datos": 1246.6
   },
   "sources": [
     {
@@ -62,30 +62,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GN6QSoJq1ukQ7kNvwFAFJ6n&_nc_oc=Adqq30NUnMhS-jck7T6I_M_5A-OZ2GQTlf0x8xmKbLuDF0ArbZQcSjCBnw-CS_RSCZ8&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=ZLymP1TdcyJNB2CiM1M6Aw&_nc_ss=7f289&oh=00_AQNXduCVOnengS0ta8J_--PZdGNmUpdRGMGlW8-_Xp1hzA&oe=6AD06CB6",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZjIIfUhraaLO-HS5yI497M5_zbPqOgKLz-f09osCXqNJxNQ8Qqm3LY4p-Fmoax8H5YmWzvfe_ZrrgCj-I7oyKX_hXI051_zlssv1US5GmZT6PlhvtB8VlcxxU4fWbqPDyxfMh9HR1uZlNhNs38PRab6cJzzFsjweZbQ3o7eEFJjsh3loKAuyH8ZuJb_k0Y79h4q&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZjIIfUhraaLO-HS5yI497M5_zbPqOgKLz-f09osCXqNJxNQ8Qqm3LY4p-Fmoax8H5YmWzvfe_ZrrgCj-I7oyKX_hXI051_zlssv1US5GmZT6PlhvtB8VlcxxU4fWbqPDyxfMh9HR1uZlNhNs38PRab6cJzzFsjweZbQ3o7eEFJjsh3loKAuyH8ZuJb_k0Y79h4q&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -368,13 +351,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PK070FfDxnwQ7kNvwGw3pri&_nc_oc=AdoEW0w3fFo53xLluDkUvkMBebc9bjyYCrYnQ7Jq046FQoSJgqpu0hLCrwZFw7uLoc0&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=JZXDpxGll-TdZREg8eSH1A&_nc_ss=7f289&oh=00_AQOCmJrAUAWpBB0rq-updz8CX8kLkXZNCUR_-0mwQmVzAQ&oe=6AD10B81",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "concierto",
+          "url": "https://www.facebook.com/61567518883240/videos/en-vivo-always-ready-pierde-en-el-alto-ante-nacional-potos%C3%AD-bol%C3%ADvar-empato-en-sa/1147092077982897/",
+          "has_image": true,
+          "text_preview": "🔴EN VIVO🔴 ➡Always Ready Pierde en El Alto ante Nacional Potosí ➡ Bolívar Empato en Santa Cruz ➡Habló el Dt. de The Strongest Carlos Zago ➡Regresa la Liga Boliviana este Fin de Semana 🔴EN VIVO🔴 ➡Always Ready Pierde en El Alto ante Nacional Potosí ➡ Bolívar Empato en Santa Cruz ➡Habló el Dt. de The Strongest Carlos Zago ➡Regresa la... EN VIVO"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_bolivision",
@@ -453,22 +445,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=p4qKw7XYDGIQ7kNvwHEIjgZ&_nc_oc=AdpVQ42qk1M2UrWFsLBT3_eezqI5_cwxGnbBjQTnjBbulFeIsDwN6kXzuXSV7PqWOe4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=J9KqE-x3u7nNdvZBDfWgaA&_nc_ss=7f289&oh=00_AQNfq1giWcVf-lUzyYnNjZphU-iFRN1ehNVSP1lFdttXtw&oe=6AD09EBA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/ANFidesBolivia/posts/pfbid0H98J4oReEU5YQtuZsr1Rk2LFidmhz5PRgj5eq2dSHuVnKWttVALVNPL1ZjaX6mQwl?__cft__[0]=AZjXoYNl2j4pxxUPx6em14GRd2Gvmip95gZIKf5PFR7IS22sVaPUTKelgm6Fg5XyD9HR6d3GYSrB4nfosh3qEKu11HAcBLnXCxLe2oN5rGuohr2ETS261jO-KKnzhmJhjzl0jthVYmTY5wERV8OeR43PdcKuoeBi0WG-sxVowBwh9Yb2WR-fLLAQUPo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#GrupoFides | #ANF #Política 𝐏𝐚𝐳 𝐚 𝟒𝟒 𝐚ñ𝐨𝐬 𝐝𝐞 𝐥𝐚 𝐃𝐞𝐦𝐨𝐜𝐫𝐚𝐜𝐢𝐚: \"𝐀𝐥𝐠𝐮𝐧𝐨𝐬 𝐪𝐮𝐢𝐞𝐫𝐞𝐧 𝐫𝐞𝐜𝐮𝐩𝐞𝐫𝐚𝐫 𝐥𝐚 𝐯𝐢𝐞𝐣𝐚 𝐥ó𝐠𝐢𝐜𝐚 𝐝𝐞 𝐚𝐠𝐚𝐫𝐫𝐚𝐫𝐧𝐨𝐬 𝐚 𝐭𝐢𝐫𝐨𝐬\" Lea la nota aquí https://acortar.link/lJnwOr #GrupoFides | #ANF #Política 𝐏𝐚𝐳 𝐚 𝟒𝟒 𝐚ñ𝐨𝐬 𝐝𝐞 𝐥𝐚 𝐃𝐞𝐦𝐨𝐜𝐫𝐚𝐜𝐢𝐚: \"𝐀𝐥𝐠𝐮𝐧𝐨𝐬 𝐪𝐮𝐢𝐞𝐫𝐞𝐧 𝐫𝐞𝐜𝐮𝐩𝐞𝐫𝐚𝐫 𝐥𝐚 𝐯𝐢𝐞𝐣𝐚 𝐥ó𝐠𝐢𝐜𝐚 𝐝𝐞 𝐚𝐠𝐚𝐫𝐫𝐚𝐫𝐧𝐨𝐬 𝐚 𝐭𝐢𝐫𝐨𝐬\" Lea la nota aquí https://acortar.link/lJnwOr"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_rtp",
@@ -683,13 +666,30 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2WhaPisSvdoQ7kNvwHlt5VZ&_nc_oc=AdrDAhX7iUZKSxuiNirMGyV_dntaO82oRpLtSowW4SImoAluQajy3wLhHw1xAm6vIuE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=vPbMwTFcGfDW6eXR3Zh-uw&_nc_ss=7f289&oh=00_AQOK8Xtloj4jQB5QWPrKqPvro6krxM80O4eVxjUJSjNmUw&oe=6AD0F7B8",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/posts/pfbid02ZkaT8kSLiau1td2mtW7u47krEMXU6csP9nN1RMXbJYAHETib4zkzFNw5wRGry1QQl?__cft__[0]=AZgndHvloWC38EXRKWzeQRjM4zn8rXZnBAdAKDDAtKa_Jcpptd97cn12kX7WKx9DAuDmoDyY5nuBNf4YWOJst1Oca2Ba60B8SW1Wy7el_WAAosqs3VRVmoI4Q012DdNSAZFYnQ0cjEvBY3QFEMgYcl1F70vRESbnm9pi8L6mfcp4Gf_SYa0Uvb7dcAo_FnMTPV5rOCJSRTvsl9zqAeo&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "https://www.facebook.com/reel/1120718700449706/ ¡MEDIO AMBIENTE CONTROLA ROSETAS AMBIENTALES EN MICROS! L… Ver más ¡MEDIO AMBIENTE CONTROLA ROSETAS AMBIENTALES EN MICROS! L… Ver más Hay micros viejos que no hacen y no creo que pasen la revisión. Tenemos problemas para reproducir este video. Más información Secretaría Municipal de Infraestructura Pública hace 14 horas 14 h · Franz Mejia"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/posts/pfbid02ZkaT8kSLiau1td2mtW7u47krEMXU6csP9nN1RMXbJYAHETib4zkzFNw5wRGry1QQl?comment_id=1134440122306366&__cft__[0]=AZgndHvloWC38EXRKWzeQRjM4zn8rXZnBAdAKDDAtKa_Jcpptd97cn12kX7WKx9DAuDmoDyY5nuBNf4YWOJst1Oca2Ba60B8SW1Wy7el_WAAosqs3VRVmoI4Q012DdNSAZFYnQ0cjEvBY3QFEMgYcl1F70vRESbnm9pi8L6mfcp4Gf_SYa0Uvb7dcAo_FnMTPV5rOCJSRTvsl9zqAeo&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Hay micros viejos que no hacen y no creo que pasen la revisión. Franz Mejia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_oruro",
@@ -734,22 +734,13 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ENQMhIVaXO0Q7kNvwHSBrAU&_nc_oc=AdoDzmuzfE6l7QUHwoLf_DD3HHJEe1eIhY1j0k6BbtFqIg-0eS9iqWIcmsGxuMtWhlM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=BTYX004oA1YnZi2BdwOEfw&_nc_ss=7f289&oh=00_AQPUzw_9Ayxut-BgZsKS3s-k3Z8N64RiZsRecDFS90UsRg&oe=6AD09B68",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/posts/pfbid0DyYXa7iVeUCbcWqutGQreywjw1XogLuEEjP8nHKAkNnNRYGKRytTp5MD2X7xRaoWl?__cft__[0]=AZjb-W014IEj5KM-Mbrn1AndV5km6nFhVI0OqhkRl919yNMjR7DjuCh0WRXlh30hcyViqEp-B7w1Anqbm2HdiezzD46KJXSaUcRZHo-DgXiRW2uC1oP_LW_fC4cRFWvxVtdnLUKBj3Y0rbZdZo1ibT3cb5XU-aBFXWQ1qc1oMGn5qZUDBdzlF6j761U&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA VELOCIDAD Y LA ADRENALINA SE VIVEN EN POTOSÍ! E… Ver más ¡LA VELOCIDAD Y LA ADRENALINA SE VIVEN EN POTOSÍ! E… Ver más Ver más comentarios Libertad Rodríguez"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_trinidad",
@@ -1066,13 +1057,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5CO--tFWMw8Q7kNvwFIzA1C&_nc_oc=AdpM_JhddO0ZxrhWTUfZrTF6sYXQrdbZergXiAGVk1MnPr7V41R2k1zszaCV1VbWfB4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=y5ECc_6x2ySaW1BJepNvGQ&_nc_ss=7f289&oh=00_AQOPXCoV95HITFZU7Eoff4JvPc-rrrnt4GnN2Oj6Z5ki8g&oe=6AD100D5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "nightlife",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid0TZpjXSfxJD6fhv7DJL2ZstvZnB8L2nVCZGXScW4axrF2R5unZ9aR8AYernRSoPfnl?__cft__[0]=AZgGpr3xjq0lNqX59bxGQV6EyO50Dwb_dGnVdvB8vKpAXxbm2AWHQpLMlD5rRG0t1_N9lJCGIkDI8nKIAFXH2R_JdoFEu6jDMBP1Wc8ckfJWr1PrT87-HD_GzpTzPhiiGTdXtEp-UdKChm4DgfWLcWVSu0eyrzI9Y70lGGTr1ucsSuOh42czSCDju04&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "NOCHE DE LAS IDEAS – ABRIENDO CAMINOS Mapas urbanos: planifiquemos un futuro colectivo Te has preguntado cómo la manera en que vivimos, nos desplazamos y accedemos a lo… Ver más NOCHE DE LAS IDEAS – ABRIENDO CAMINOS Mapas urbanos: planifiquemos un futuro colectivo Te has preguntado cómo la manera en que vivimos, nos desplazamos y accedemos a lo… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1402,12 +1402,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
+          "score": 48,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1416,18 +1416,18 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 54,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "category": "danza",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Ávila revela que Paz sugirió a Urioste para fiscal general interino Ver más 2 Defensa de Mariaca: Se llevaron documentos sobr"
+          "text_preview": "09/10/2026 Cultura Anne Carson es la decimonovena mujer en ganar el Nobel de Literatura La escritora y ensayista canadiense Anne Carson, de 76 años, fue galardonada ayer por la Academia Sueca con el Premo Nobel de Literatura “por su audaz e... vista 08/10/2026 Cultura Ponen en marcha una Feria Internacional del Libro expansiva Expansiva, así será la decimonovena Feria Internacional del Libro de Co"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 38,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 34,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Gobernación entrega 44 toneladas de forraje a los afectados por los incendios en Mizque Ver más 2 Defensa afirma que las marc"
         }
       ],
       "error": null
@@ -1493,7 +1493,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/498e3673-efac-4704-8621-50a1caeed6bd",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/89f597ca-5951-413f-8902-351e56e6aa39",
           "has_image": true,
           "text_preview": ""
         },
@@ -1501,7 +1501,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/18d47a9a-4d6e-46a6-bf9d-75de9dccd829",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
           "has_image": true,
           "text_preview": ""
         },
@@ -1509,7 +1509,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/4ac122c1-5263-404f-b794-e91492317950",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/0fbc8d39-20f6-4f97-9034-1e9e6717a719",
           "has_image": true,
           "text_preview": ""
         }
@@ -1527,8 +1527,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 48,
-      "events": 48,
+      "raw_items": 50,
+      "events": 50,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1544,8 +1544,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1561,8 +1561,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1578,8 +1578,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 7,
-      "events": 7,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 57,
-      "events": 57,
+      "raw_items": 63,
+      "events": 63,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
