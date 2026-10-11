@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T08:51:23-04:00",
+  "generated_at": "2026-10-11T15:37:22-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,11 +12,12 @@
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_teatro_aire_libre"
+      "fb_teatro_aire_libre",
+      "fb_teatros_municipales_lapaz"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 123.9,
-    "horas_maximo_sin_datos": 1253.7
+    "horas_promedio_sin_datos": 124.8,
+    "horas_maximo_sin_datos": 1260.4
   },
   "sources": [
     {
@@ -368,13 +369,30 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rEbVoVCKS5UQ7kNvwG7zvz0&_nc_oc=AdqfualqWfLEJMCk_FAegXIeuKDsjl4IF9ucac0K2ECbHzYqVCnGFah2DB1CITLOw68&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=WqUlLU4ffHIrp5icwNRq7A&_nc_ss=7f289&oh=00_AQNS7VENpyFYvS5j-GbQ3FFTaVlQxUy0rXzIE_YGgTeCnQ&oe=6AD1AF0C",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1490875813092416/?__cft__[0]=AZgrtvbRUKeoiiqcLvZX-_XIBxR0byWtgf4JFWy35rPhMTvv0_Ga9KyT1muXoYl_2UPp5hG2AFUAFEUh94MziBPwjCLhadFS_7npwhH7ROOKaEUgEdJGAoyvDovK93M8Ivy0qrFEx3lYefmnZl-p2COeZzqvf8kdQ-iGQRGDA4B0fpQ1SZHQRGK1SP96TQrMC6Km&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Ofrecía en anticrético un inmueble incautado por DIRCABI por Bs 100.000. Hay una mujer aprehendida.… Ver más Revisen la, documentación actual exijan información rápida del día, acudan siempre sus abogados de confianza!!!!!!!!!!!!! Tenemos problemas para reproducir este video. Más información Melvy Cabezas - Agente Inmobiliario"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1490875813092416/?comment_id=1090293330545525&__cft__[0]=AZgrtvbRUKeoiiqcLvZX-_XIBxR0byWtgf4JFWy35rPhMTvv0_Ga9KyT1muXoYl_2UPp5hG2AFUAFEUh94MziBPwjCLhadFS_7npwhH7ROOKaEUgEdJGAoyvDovK93M8Ivy0qrFEx3lYefmnZl-p2COeZzqvf8kdQ-iGQRGDA4B0fpQ1SZHQRGK1SP96TQrMC6Km&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Revisen la, documentación actual exijan información rápida del día, acudan siempre sus abogados de confianza!!!!!!!!!!!!! Melvy Cabezas - Agente Inmobiliario"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_erbol",
@@ -691,30 +709,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/825268331_1566206292218769_2089631799181004071_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=W_oU9GU8ttAQ7kNvwGAdiNm&_nc_oc=AdoQDs5orCt7D3-ZjHEywQkLeXNsu4sAB67h8TQYBij_UMQ17gyRCeCEE0NNbZeLWWI&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=wFbJkIF4dxMN9sMfBQ9hJw&_nc_ss=7f289&oh=00_AQOpuLAN66YaSykL6zzzSoShdsLgaap1Bs1TUuos4PVsfQ&oe=6AD16A83",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/Gobierno.Autonomo.Municipal.Tarija/videos/1739013457155480/?__cft__[0]=AZi2cdazhCbK6AbdjsDQb_f4zDGwDG7uYQomo1Cd12byv-lohmVlQoJzcOdBg3khRdF93tnrZhZY-33uLiRTeQGKW2rNNXtmnlAs4G-g73Q8scyAit8_JFhmEmZveB6WEbAg-Uj-pZtlxdMWT9CPP_iCAe1RagPDNXxsTKKb0IE7NW95vhoYwpcGzWoNWO1cDeU&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "EnVivo… Ver más Una ambulancia en el puente San Jacinto norte cayó uno Tenemos problemas para reproducir este video. Más información Ver más comentarios Yesica Valencia"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/Gobierno.Autonomo.Municipal.Tarija/videos/1739013457155480/?comment_id=1103462738721625&__cft__[0]=AZi2cdazhCbK6AbdjsDQb_f4zDGwDG7uYQomo1Cd12byv-lohmVlQoJzcOdBg3khRdF93tnrZhZY-33uLiRTeQGKW2rNNXtmnlAs4G-g73Q8scyAit8_JFhmEmZveB6WEbAg-Uj-pZtlxdMWT9CPP_iCAe1RagPDNXxsTKKb0IE7NW95vhoYwpcGzWoNWO1cDeU&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Una ambulancia en el puente San Jacinto norte cayó uno Yesica Valencia"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -742,22 +743,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Y_OvsYZsMUIQ7kNvwFllrLA&_nc_oc=AdovN32UyuiIEa7W5CCWlLS-U1MQd2ELf-odRoOfgWuekpiIqCMFYBx4K0lAMMJzZwU&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=gXpMjI0gFSl2Y28TbsOMBA&_nc_ss=7f289&oh=00_AQMceZZ9O0lHNBjeq6bXDusmC69mDhWpiG6B2nPTkrnqYA&oe=6AD144BD",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GAMTDD/posts/pfbid031G3hRXUKBVRS1sRcmaBVwPka2idhuRo6HGYqdZhnpXT1bPD9e2chwMTC3Ku74wJ4l?__cft__[0]=AZhxYu3hPSfdvF-IcB1J0UMDuKF3ImBmpDxkjkSLWMuFug67ALB3kTJ2UcA2a5m-vR5ZS-cjlNV7SuBymsDwfR41oAzu9MhSjJ6FhEvoqxx4Ly2vNAUT5dY13gJi0fq-bPEES2GvzkG1lt9eDMdXHTFOBrfdZw9-2ECgLfEgKMK7t-s_9vqlfHQWR7w&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA SALUD ES NUESTRA PRIORIDAD!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_cobija",
@@ -921,22 +913,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jLAdOp07-DgQ7kNvwFEez7B&_nc_oc=AdrlOrIYFUjxMJ3ldJSyILMPSpqIJZAs8zf4mQR5buYJmR-dBxynSuLA3nsua-hxYYw&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=m6bO-qqcBDMvYU0I0CS0UQ&_nc_ss=7f289&oh=00_AQOc13qIMc8hyLW3lha11QHEEahCvo1O6BG6II5cp66ioQ&oe=6AD15407",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid0Zb5SJLg7P9Bf6vvNZXatsZMu6P2Htywg2MSMvvD882CXkKBWZTcasFsYCq6YXge6l?__cft__[0]=AZgyJ2rzujY84ogc26ohSBuI5IcXytmZOwL54v67HiuckqLGWlzs5POMa8fQukREwmIDMPL7ExZFH4aROohgCCHdiIRiBru9SZ83M4yuubSYMOoRDAbXJuVJ2IeWrq96aRgnd4XKAbmDpJ12U3v3Uh1ejG8LID_bCoGr-LDxa_GeBlIX2W0C4S0dtQA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "En la Alianza Francesa de La Paz creemos que el bienestar también forma parte de una comunidad que se escucha, se acompaña y se cuida.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -948,12 +931,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Ciudad Cultural, Turismo de Altura y Economía Naranja 44 mil seguidores • 395 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en '"
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1083,13 +1066,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7LALK3cbRfoQ7kNvwE1uCX5&_nc_oc=Ado6i_XRoZB_QvPWbAvzkQBxaYaReHKF5nll0w8IRNT1Uio3zECP7GBrfGDnHVQvYYM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=Rk0vV2yN_1X22xSTPCw17Q&_nc_ss=7f289&oh=00_AQNnzeSXAHPGmuQBnBk7Rnxa7ngOZGCwdd8zaBUwy8OaWw&oe=6AD1AC12",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0oZxo4PDpNDSe2yQtpNVLQRpMTqVsGkiE5bp6HmFZoQgVQic9uz8V2KjihVvXxqKTl?__cft__[0]=AZjZrKMXjb03le66Zsbrduyg7sUV7e9uVHXbOYgH82h2JXQ4M-koXDeP1YOHcYLrTYlJo061x25GFdpSTJ79zQ9D695njZKy08-qPYnRjferBY-BUkEVrtBXp-zk9Aj6gw0FSyIArNsS21By7n8ktXFmx_II_itPU2LOQwHuK4yQUNQNEqDbHgoWbO8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Impulsa tu futuro con el francés ¿Li… Ver más Impulsa tu futuro con el francés ¿Li… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1407,7 +1399,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
+          "score": 16,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1415,7 +1407,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
+          "score": 22,
           "category": "danza",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1423,11 +1415,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
+          "score": 10,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Dirigencia de la Csutcb se reúne en un ampliado nacional este sábado Ver más 2 Democracia boliviana cumple 44 años con alerta"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Ucrania ataca petrolera rusa tras acuerdo de Trump y Putin Ver más 2 Iluminan de rosa monumentos emblemáticos en Santa Cruz p"
         }
       ],
       "error": null
@@ -1527,8 +1519,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 50,
-      "events": 50,
+      "raw_items": 51,
+      "events": 51,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 63,
-      "events": 63,
+      "raw_items": 62,
+      "events": 62,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
