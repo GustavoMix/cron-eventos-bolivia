@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T15:37:22-04:00",
+  "generated_at": "2026-10-11T20:35:00-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,12 +12,11 @@
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_teatro_aire_libre",
-      "fb_teatros_municipales_lapaz"
+      "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 124.8,
-    "horas_maximo_sin_datos": 1260.4
+    "horas_promedio_sin_datos": 121.6,
+    "horas_maximo_sin_datos": 1265.4
   },
   "sources": [
     {
@@ -165,13 +164,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ChV1jeElDYEQ7kNvwGvpKwT&_nc_oc=AdqL5wMc6qLWBsFOxLKXieG8Oor259z0Tyyx0lc5m2rYuUOLvDdZ949D9mb-zzD-oWY&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=MeOqjFyxg_rmWUd8j9386w&_nc_ss=7f289&oh=00_AQO0ECZTJo2iK2Q8MNLqSLfy3MGZc12zxSDlPPrllqsjTg&oe=6AD1E340",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 42,
+          "category": "feria",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/-feria-dominical-re%C3%BAne-a-m%C3%A1s-de-100-emprendedoreseste-domingo-la-feria-dominical/1422904580024181/",
+          "has_image": true,
+          "text_preview": "✅ Feria dominical reúne a más de 100 emprendedores Este domingo, la feria dominical se realizó en el Distrito 1 y se convirtió en una verdadera fiesta productiva. Más de 100 emprendedores mostraron... ✅ Feria dominical reúne a más de 100 emprendedores Este domingo, la feria dominical se realizó en el Distrito 1 y se convirtió en una verdadera fiesta... Feria dominical reúne a más de 100 emprendedo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -233,13 +241,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mWlkb3q8WygQ7kNvwF200fR&_nc_oc=Adq8Lf0BH5_uVaVUkPAAxAv7whp50eiKVIW1wMoSUsi3S0CbDFvQRWAJW8cNyoxUB5M&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=jEzZB3lfmPAEQnLGyQrbYQ&_nc_ss=7f289&oh=00_AQOXOjjgCX7KA6Jr7nLgPdVQ2b2OzH2PcjRb6tqgp1CFlg&oe=6AD1F9D7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2028073657904869/?__cft__[0]=AZhNv5m_-LJ37DrBstNAl0ibbf_a35fOi8XosdQx0EgKBPPxG42Wn596DN5N4_kq3mmQM1iSs8nlWJXTZcP4q1bjqSWfwsCzwjhoGm-RGSBZoc5mFVJJ0w5PAVARjCw-Jozc5CbqOndyJxV5cCr9uwydXqhmtTjSz5Ul7v6L-NglLET3E7YhTkJ5HYyfyYjT580a&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "OCTUBRE ROSA: PREVENIR ES CUIDAR LA VIDA E… Ver más OCTUBRE ROSA: PREVENIR ES CUIDAR LA VIDA E… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -369,30 +386,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rEbVoVCKS5UQ7kNvwG7zvz0&_nc_oc=AdqfualqWfLEJMCk_FAegXIeuKDsjl4IF9ucac0K2ECbHzYqVCnGFah2DB1CITLOw68&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=WqUlLU4ffHIrp5icwNRq7A&_nc_ss=7f289&oh=00_AQNS7VENpyFYvS5j-GbQ3FFTaVlQxUy0rXzIE_YGgTeCnQ&oe=6AD1AF0C",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1490875813092416/?__cft__[0]=AZgrtvbRUKeoiiqcLvZX-_XIBxR0byWtgf4JFWy35rPhMTvv0_Ga9KyT1muXoYl_2UPp5hG2AFUAFEUh94MziBPwjCLhadFS_7npwhH7ROOKaEUgEdJGAoyvDovK93M8Ivy0qrFEx3lYefmnZl-p2COeZzqvf8kdQ-iGQRGDA4B0fpQ1SZHQRGK1SP96TQrMC6Km&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Ofrecía en anticrético un inmueble incautado por DIRCABI por Bs 100.000. Hay una mujer aprehendida.… Ver más Revisen la, documentación actual exijan información rápida del día, acudan siempre sus abogados de confianza!!!!!!!!!!!!! Tenemos problemas para reproducir este video. Más información Melvy Cabezas - Agente Inmobiliario"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1490875813092416/?comment_id=1090293330545525&__cft__[0]=AZgrtvbRUKeoiiqcLvZX-_XIBxR0byWtgf4JFWy35rPhMTvv0_Ga9KyT1muXoYl_2UPp5hG2AFUAFEUh94MziBPwjCLhadFS_7npwhH7ROOKaEUgEdJGAoyvDovK93M8Ivy0qrFEx3lYefmnZl-p2COeZzqvf8kdQ-iGQRGDA4B0fpQ1SZHQRGK1SP96TQrMC6Km&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Revisen la, documentación actual exijan información rápida del día, acudan siempre sus abogados de confianza!!!!!!!!!!!!! Melvy Cabezas - Agente Inmobiliario"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_erbol",
@@ -930,13 +930,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-v60WHmpFFYQ7kNvwGUA2Xo&_nc_oc=AdrqenQF4f6taZKMMIuLiIm-ndUyiITjYYgfbIZV9bWbRNQ2fobjY2ZAcequeJFRiOM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=o_z2okMGKjOCJrFPPeoRiQ&_nc_ss=7f289&oh=00_AQN_Dm9xoAkv65KDIuUh9Qu1MB8QluDN47TsU42RZymYXw&oe=6AD20638",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Ciudad Cultural, Turismo de Altura y Economía Naranja 44 mil seguidores • 395 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/videos/1685328756410683/?__cft__[0]=AZjE-fqzjoLtTSeR3vgql2DyBHLu_pDySsBG-Q72pZeEGdK6rARFKOinQ0dVCWPVUQKqfXvY7zbXlwRIwZoXAnr_pAKWaYMAIjyf9TqWZIrhUSaXgvDY6hIZo3r41eqwfiQFe-vGz3ZMMVD5OAYslg_lyoLtP-OiM9MmOWIxIqf_xJcq38tyhueA5C5QCA9I1bQ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "DIALOGOS DE CAFÉ… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1066,22 +1075,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7LALK3cbRfoQ7kNvwE1uCX5&_nc_oc=Ado6i_XRoZB_QvPWbAvzkQBxaYaReHKF5nll0w8IRNT1Uio3zECP7GBrfGDnHVQvYYM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=Rk0vV2yN_1X22xSTPCw17Q&_nc_ss=7f289&oh=00_AQNnzeSXAHPGmuQBnBk7Rnxa7ngOZGCwdd8zaBUwy8OaWw&oe=6AD1AC12",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0oZxo4PDpNDSe2yQtpNVLQRpMTqVsGkiE5bp6HmFZoQgVQic9uz8V2KjihVvXxqKTl?__cft__[0]=AZjZrKMXjb03le66Zsbrduyg7sUV7e9uVHXbOYgH82h2JXQ4M-koXDeP1YOHcYLrTYlJo061x25GFdpSTJ79zQ9D695njZKy08-qPYnRjferBY-BUkEVrtBXp-zk9Aj6gw0FSyIArNsS21By7n8ktXFmx_II_itPU2LOQwHuK4yQUNQNEqDbHgoWbO8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Impulsa tu futuro con el francés ¿Li… Ver más Impulsa tu futuro con el francés ¿Li… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1415,11 +1415,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 10,
+          "score": 16,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Ucrania ataca petrolera rusa tras acuerdo de Trump y Putin Ver más 2 Iluminan de rosa monumentos emblemáticos en Santa Cruz p"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Ministerio de Trabajo confirma asueto de media jornada por el Día de la Mujer para el lunes 12 de octubre Ver más 2 Rodrigo P"
         }
       ],
       "error": null
@@ -1519,8 +1519,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 51,
-      "events": 51,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1621,8 +1621,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
