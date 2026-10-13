@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T22:39:37-04:00",
+  "generated_at": "2026-10-13T06:37:05-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,6 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_casa_cultura_cbba",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -16,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 128.6,
-    "horas_maximo_sin_datos": 1291.5
+    "horas_promedio_sin_datos": 130.0,
+    "horas_maximo_sin_datos": 1299.4
   },
   "sources": [
     {
@@ -29,13 +28,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=L_MaZCF9Fv0Q7kNvwFprt6E&_nc_oc=AdoNqdbMpGTJvl_yvEIcoVmwssbqj2N0YLb0LyrgAVfC4jKU4ExdMl4uX5VLAi4PyQU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=fMBq6rOuQxqG6n8DEMcWWg&_nc_ss=7f289&oh=00_AQPJjiASOrnZyNqbxxVxp4PXmAWCFswHF8Iq3hUaPMsTRQ&oe=6AD3D71A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02A8YA9zCwqcRfXbiU1HnuserbnuwUdZwGcZFkUFVsg8Ap1vSUhEJkgfzn2fSwsAKKl?__cft__[0]=AZhK1qNgk7XZE83T-GOaiGR2BpmuAXfsZfN4g8V0DfCmwTjRpK9KwrgUHcbZdHmuPkP8NURKJ1VlMUYB28KNTJ9mwItPHX1_9O-fOn3uGVSvb5zw6L2gUx-SfUfYghxG3wGcRE3kkuNkVA6YDfM2kyE-rWcSHM3A_oG6Gefvg-bJCT-GEn_xhB-MKQ0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡EL ALTO SE PREPARA PARA EL ELECTRO PRESTE 2027! ¡La… Ver más ¡EL ALTO SE PREPARA PARA EL ELECTRO PRESTE 2027! ¡La… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -205,7 +213,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gob_cbba",
@@ -539,22 +547,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6pug-D9wGTgQ7kNvwEJ8eJV&_nc_oc=AdoM8_AkNvCaEOq61LtlbDLtsXydH-WKBohntPA2SDG4SVqozFPyZjLujmMsODSxhW4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=WoHWpy4KNPO4Q0Sb5lXsEA&_nc_ss=7f289&oh=00_AQOsaZS9x33iRvtXnZp_9xKsmQCR20_OML0T1_MwghVQIg&oe=6AD385B3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1441522971435102/?__cft__[0]=AZjHYdBOIDhdKjwWCsT7VWwFXs8NLl0tAqMoLTO4IH290cuFazQuAUBAYhiM_Cjgv9XzZvxHjXjaw7LTXQVwvpzkyPde-uDLJ2BLp9OsFkJDm53ZUM1XlWp444xdxDZZ2jja7TNoO-Phqa-LysmrkblIDHEA6tzjKegLKX4IzfHRGJYGPNaSFi13p0Cobz1M5C6f&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "31 LOGROS INSTITUCIONALES | LOGRO #12 … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -939,13 +938,30 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HsagaX2PTRIQ7kNvwE1AUCz&_nc_oc=AdrL962huwOdT3RU1YH4IXnZHQK_dV0HpHF967pfSfEqUgZcTkzAGz8bsFE5u4fh6yQ&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=ZIkXfqLG5rk354GdNjLxdw&_nc_ss=7f289&oh=00_AQPA_SL5BjOvVK9yszzUdxTkoPU8wMBloQsZUayXvwfYeA&oe=6AD3E987",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Casa de la Cultura Cochabamba 73 mil seguidores • 61 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede debers'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid0rLPmGaCwpTBttM7X9cKL9atGWKrBJTAvdJJVgQQNd4sU8t3wQTyoTTdLurwSbFmSl?__cft__[0]=AZi5GjSPmrr8jLQQv-rXI1xc7QrMCeaCqM7Jtk0ySFfmh_jFkYVY8Lb67qL-9noK6knMxojgGR9q79kDpGYoCRHuuVtuVCd7Y1Rf__Fk8fAPS70kEeSyHM__UjR8Wxdf_LfTChTet8Yb_p8QtFoV4eyf1mmGJWFHprsyEojrZcEMIxlmW9OOJcXdk4c&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "En homenaje a Adela Zamudio, escritora y educadora cochabambina que alzó su voz contra los prejuicios de su época y defendió la educación y emancipación de las mujere… Ver más Siempre recordada! Ver más comentarios Tatiana Guerrero Vallejos"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid0rLPmGaCwpTBttM7X9cKL9atGWKrBJTAvdJJVgQQNd4sU8t3wQTyoTTdLurwSbFmSl?comment_id=2703804773368554&__cft__[0]=AZi5GjSPmrr8jLQQv-rXI1xc7QrMCeaCqM7Jtk0ySFfmh_jFkYVY8Lb67qL-9noK6knMxojgGR9q79kDpGYoCRHuuVtuVCd7Y1Rf__Fk8fAPS70kEeSyHM__UjR8Wxdf_LfTChTet8Yb_p8QtFoV4eyf1mmGJWFHprsyEojrZcEMIxlmW9OOJcXdk4c&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Siempre recordada! Tatiana Guerrero Vallejos"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -973,22 +989,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6iPZxIrt4U4Q7kNvwEf-5fQ&_nc_oc=Adr2keClzlxRi-H-GkmgASR2zzqtbRhpDped7cTM0pecRIVZ_mm3M266wM6nKoGaw8U&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=6lucjlohvTS9GM7ygZvk9g&_nc_ss=7f289&oh=00_AQPhmY6OjNTWTus4_TQdCNTneilj9c6EoO4Kt52bApIjyQ&oe=6AD36A7D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "feria",
-          "url": "https://www.facebook.com/CasaMelchorPinto/videos/noche-de-inauguraci%C3%B3n-de-la-exposici%C3%B3n-dualidad-humana-de-nuestro-artista-del-me/1149663724157124/",
-          "has_image": true,
-          "text_preview": "Noche de inauguración de la Exposición Dualidad Humana de nuestro Artista del Mes Olivier Fradin. Visita la expo durante el mes de octubre en el Espacio de Margarita - … Ver más Noche de inauguración de la Exposición Dualidad Humana de nuestro Artista del Mes Olivier Fradin. Visita la expo durante el mes de octubre en el Espacio de Margarita - … Ver más Tenemos problemas para reproducir este video"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1169,13 +1176,30 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611611123_892086103405617_7679383414559238851_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=A1tSYjaBdFEQ7kNvwGcEi67&_nc_oc=AdpOXim5INCv0ZzLYaiCxO38u38UuaqzkP8ynW4_hNMLqJv3SAJERYJDv813j-si_Hk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=cnAtsv99ftmY0aXKYr5D6g&_nc_ss=7f289&oh=00_AQNCfGh-KpqnqwdUmw2E1D6NXoYVLxNquH3eiPDBgepgsQ&oe=6AD3F2C8",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1132172085912487/?__cft__[0]=AZgP0X00CL2S8MEZw17PUpwBukKq7FMDeGvCU5semQve_I_dNqSVZ3sAn4P25XWwORt5zU1XHqVo1ct5-O9jAkg0nRJdB3TNtHYqWZdX27FIhWIcMjLimJEOTIUuxQzen2L7wZudFMSRJY8PJh3B6_hxXAax0UWqrOxvADCin_XCbtnpBHUNG18yXFatVsbjxUmL&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La UAGRM reafirma su compromiso con la región al integrarse al Comité Interinstitucional de apoyo a proyectos culturales, turísticos y de investigación. En el acto, el … Ver más Es un gran logro Tenemos problemas para reproducir este video. Más información Mario Suárez-Riglos"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1132172085912487/?comment_id=1099641262812143&__cft__[0]=AZgP0X00CL2S8MEZw17PUpwBukKq7FMDeGvCU5semQve_I_dNqSVZ3sAn4P25XWwORt5zU1XHqVo1ct5-O9jAkg0nRJdB3TNtHYqWZdX27FIhWIcMjLimJEOTIUuxQzen2L7wZudFMSRJY8PJh3B6_hxXAax0UWqrOxvADCin_XCbtnpBHUNG18yXFatVsbjxUmL&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mario Suárez-Riglos Es un gran logro 6 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umss",
@@ -1386,32 +1410,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
-          "category": "feria",
+          "score": 43,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 42,
-          "category": "danza",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "reason": "tema_ajeno_a_eventos",
+          "score": 29,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "12/10/2026 Cultura Bienal de Acuarela “En el corazón del corazón” reúne a más de 100 artistas La quinta edición de la Bienal Internacional de la Acuarela Kipus-Bolivia En el corazón del corazón reunirá a 100 artistas de 12 países, en un encuentro que... vista 12/10/2026 Cultura Semana 42: La literatura, la música y el cine marcan la agenda cochabambina La semana cultural número 42 del año presenta"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Paz califica el ataque a joyería en Santa Cruz \"como un acto criminal de orden internacional\" Ver más 2 Hugo Dellien inicia c"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 21,
-          "category": "gastronomia",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 41,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Naufragio deja 139 migrantes muertos frente a Yibuti Ver más 2 Bienal de Acuarela “En el corazón del corazón” reúne a más de "
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1477,23 +1501,23 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/101bc429-ce13-4c96-96ec-b63ec3447522",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/d7bdc6bb-b3e3-4bb2-a6d9-dc0a25841fc9",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/053be5c7-56a6-4f2c-b1e4-71ef2806b0db",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/0fbc8d39-20f6-4f97-9034-1e9e6717a719",
           "has_image": true,
           "text_preview": ""
         }
@@ -1511,8 +1535,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
-      "events": 40,
+      "raw_items": 39,
+      "events": 39,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1545,8 +1569,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 15,
-      "events": 15,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1707,8 +1731,8 @@
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
       "raw_items": 5,
-      "events": 0,
-      "rejected": 5,
+      "events": 1,
+      "rejected": 4,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
@@ -1719,20 +1743,20 @@
           "text_preview": "Becas Google Career Launchpad 2026 pago qr Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitid"
         },
         {
-          "reason": "relevancia_insuficiente",
-          "score": 50,
-          "category": "conferencia",
-          "url": "https://www.uto.edu.bo/mas-de-800-postulantes-de-la-facultad-de-ciencias-de-la-salud-rendiran-la-primera-evaluacion-de-los-cursos-preuniversitarios-este-viernes-9-de-octubre/",
-          "has_image": true,
-          "text_preview": "Oruro, octubre de 2026. — En el marco de los procesos de admisión académica correspondientes a la presente gestión, la Facultad de Ciencias de la Salud (FCS) de la Universidad Técnica de Oruro (UTO) aplicará este viernes 9 de octubre la primera evaluación parcial de sus cursos preuniversitarios , instancia en la que participarán más de 800 postulantes . La prueba diagnóstica y selectiva convocará "
-        },
-        {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 30,
           "category": "feria",
           "url": "https://www.uto.edu.bo/la-carrera-de-derecho-san-agustin-impulsa-su-feria-anual-sobre-nuevas-tecnologias-aplicadas-a-la-administracion-de-justicia/",
           "has_image": true,
           "text_preview": "Oruro, octubre de 2026. — Frente a las transformaciones tecnológicas globales y la modernización de los sistemas legales, la Carrera de Derecho “San Agustín” , dependiente de la Facultad de Derecho, Ciencias Políticas y Sociales (FDCPS) de la Universidad Técnica de Oruro (UTO) , lleva a cabo su tradicional feria anual sobre Tecnologías de la Información y Comunicación (TIC) aplicadas al Derecho . "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "feria",
+          "url": "https://www.uto.edu.bo/universitarios-de-derecho-san-agustin-exponen-la-historia-y-saberes-del-pueblo-baure-en-la-feria-de-pluralismo-juridico-e-interculturalidad/",
+          "has_image": true,
+          "text_preview": "Oruro, octubre de 2026. — En el marco del fortalecimiento formativo sobre la diversidad cultural y el marco constitucional boliviano, estudiantes de la Carrera de Derecho “San Agustín” , dependiente de la Facultad de Derecho, Ciencias Políticas y Sociales (FDCPS) de la Universidad Técnica de Oruro (UTO) , llevaron adelante una destacada exposición temática centrada en la etnia Baure , originaria d"
         }
       ],
       "error": null
