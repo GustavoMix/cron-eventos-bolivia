@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T06:37:05-04:00",
+  "generated_at": "2026-10-13T15:20:56-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 130.0,
-    "horas_maximo_sin_datos": 1299.4
+    "horas_promedio_sin_datos": 131.1,
+    "horas_maximo_sin_datos": 1308.2
   },
   "sources": [
     {
@@ -28,22 +28,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=L_MaZCF9Fv0Q7kNvwFprt6E&_nc_oc=AdoNqdbMpGTJvl_yvEIcoVmwssbqj2N0YLb0LyrgAVfC4jKU4ExdMl4uX5VLAi4PyQU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=fMBq6rOuQxqG6n8DEMcWWg&_nc_ss=7f289&oh=00_AQPJjiASOrnZyNqbxxVxp4PXmAWCFswHF8Iq3hUaPMsTRQ&oe=6AD3D71A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02A8YA9zCwqcRfXbiU1HnuserbnuwUdZwGcZFkUFVsg8Ap1vSUhEJkgfzn2fSwsAKKl?__cft__[0]=AZhK1qNgk7XZE83T-GOaiGR2BpmuAXfsZfN4g8V0DfCmwTjRpK9KwrgUHcbZdHmuPkP8NURKJ1VlMUYB28KNTJ9mwItPHX1_9O-fOn3uGVSvb5zw6L2gUx-SfUfYghxG3wGcRE3kkuNkVA6YDfM2kyE-rWcSHM3A_oG6Gefvg-bJCT-GEn_xhB-MKQ0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡EL ALTO SE PREPARA PARA EL ELECTRO PRESTE 2027! ¡La… Ver más ¡EL ALTO SE PREPARA PARA EL ELECTRO PRESTE 2027! ¡La… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -105,13 +96,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SNDsD-QglHcQ7kNvwFkszUf&_nc_oc=Adqn0zTn5BLzd91ADKR2712_KIOh_2OELFwyIILiOZssbrAfQMLhLS7Xu7-4lEvRy9E&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=YZO8uhz7HuOSz9taOx1haw&_nc_ss=7f289&oh=00_AQO2PvVorI6LLCnBd8jEuILaq20DmfoLBaoZ1irHS7mk4Q&oe=6AD46990",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/Fexpocruz/posts/pfbid02bhHRvqtA9rt7vyEg1WnkzJjBQJDEbEmz6RuQHS4d4zVu6FkxPRiQBP3afXRTqM19l?__cft__[0]=AZhMv3OoLj1Ec3tCZauJHW766z92mHvZfcWcvg03xE4O-a-_xMnXuwQhHuN2JrIef3Bzvjwc2uTukXSROC0rnutulZVTee4cq9VZXmCCZ-1sKFzRmFtIU0EVZjzEcwwmY8pF-NFCCMyAqAG6D1p7pUJpu_0AhjRTTTlGhcisOc9hRYBzaZSW2OjR3Ic&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Hoy celebramos a las mujeres bolivianas que, con su talento, esfuerzo y compromiso aportan cada día al desarrollo de nuestro país. … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -190,13 +190,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4F7ZlBaHKLMQ7kNvwF_C6Vm&_nc_oc=AdrDnEOKtG20VTo7GMyI7Ev54TT929rCU_YrCNki5wIcGDhUijfuYZ4lOBaSDuOe17o&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=3bIRlkq1jyFgh3xE4cwAfg&_nc_ss=7f289&oh=00_AQMQbWtu7PIsi0e_-az4pzAh0Jg7mBXeBppy4duHkuDFPQ&oe=6AD472B8",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid02XomLSLMZ4z4djcwsPjDRVxtL1rqNRTj7Z2xMkfDHCz3tkx6JC1etXkmqgAj9JWF9l?__cft__[0]=AZhy-xiasAzhZ8pU12vL3TQyScTSHWoI_5CjcK8dkM29kqSlxonVG_fmYHfO6rxQCh3h3Bo55jIbLV1e_iMJy6I5hnIHsjgaLoE4HLTWkh7btelUigHlUQ6QtP144MUuGbK8Wmg4fTSlkSo4Qw6ZeMbhZ7sbJ6gbqLBlSSkpf431TdxGqCQgapMmgHI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡𝐅𝐨𝐫𝐭𝐚𝐥𝐞𝐜𝐞𝐦𝐨𝐬 𝐥𝐚 𝐬𝐞𝐠𝐮𝐫𝐢𝐝𝐚𝐝 𝐜𝐢𝐮𝐝𝐚𝐝𝐚𝐧𝐚 𝐞𝐧 𝐋𝐚 𝐏𝐚𝐳! El gobernador #LuisRevilla se reunió co… Ver más ¡𝐅𝐨𝐫𝐭𝐚𝐥𝐞𝐜𝐞𝐦𝐨𝐬 𝐥𝐚 𝐬𝐞𝐠𝐮𝐫𝐢𝐝𝐚𝐝 𝐜𝐢𝐮𝐝𝐚𝐝𝐚𝐧𝐚 𝐞𝐧 𝐋𝐚 𝐏𝐚𝐳! El gobernador #LuisRevilla se reunió co… Ver más Ver más comentarios Leidy Callizaya Acho"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid02XomLSLMZ4z4djcwsPjDRVxtL1rqNRTj7Z2xMkfDHCz3tkx6JC1etXkmqgAj9JWF9l?comment_id=1722202135507185&__cft__[0]=AZhy-xiasAzhZ8pU12vL3TQyScTSHWoI_5CjcK8dkM29kqSlxonVG_fmYHfO6rxQCh3h3Bo55jIbLV1e_iMJy6I5hnIHsjgaLoE4HLTWkh7btelUigHlUQ6QtP144MUuGbK8Wmg4fTSlkSo4Qw6ZeMbhZ7sbJ6gbqLBlSSkpf431TdxGqCQgapMmgHI&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Leidy Callizaya Acho 12 min"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -581,13 +598,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QflZh-Ke1pEQ7kNvwGRkZFq&_nc_oc=AdpUXjF6Fqhngohml_CfX_QW9N7HfLOC6QcGZOoz5W7rTrKlahCJRpBab2hc6PD9SRo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=OpvLmXkewYnUMwYSC21UAQ&_nc_ss=7f289&oh=00_AQO9OvPvzc3xDTFwRK4nYPk3G0Zc_kODgF70OA7jH553WA&oe=6AD44FD6",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "concierto",
+          "url": "https://www.facebook.com/reel/1104730058825242/?__cft__[0]=AZjaReW6uhTfsyrt-Rtd1NGoCgRLo37dR7n3vtp9t7AUInVfUXg02thvMHuWeCJCNYRG-5mOOHiLqxQXFLqISA9qwkZ5DG_CWOVypzKWvh8wtfM5Kt28IOwMyXVhu8W35N1nxW78c3YBQ6r9iF9qaPiu-Yyu7Mk53yNVFM2n1_PiPVv5_dyNlGG_wm2lhlNgWUeY&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Valeria Moeller y La Montaña Banda ¡Jarana! D… Ver más Valeria Moeller y La Montaña Banda ¡Jarana! D… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -938,30 +964,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HsagaX2PTRIQ7kNvwE1AUCz&_nc_oc=AdrL962huwOdT3RU1YH4IXnZHQK_dV0HpHF967pfSfEqUgZcTkzAGz8bsFE5u4fh6yQ&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=ZIkXfqLG5rk354GdNjLxdw&_nc_ss=7f289&oh=00_AQPA_SL5BjOvVK9yszzUdxTkoPU8wMBloQsZUayXvwfYeA&oe=6AD3E987",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid0rLPmGaCwpTBttM7X9cKL9atGWKrBJTAvdJJVgQQNd4sU8t3wQTyoTTdLurwSbFmSl?__cft__[0]=AZi5GjSPmrr8jLQQv-rXI1xc7QrMCeaCqM7Jtk0ySFfmh_jFkYVY8Lb67qL-9noK6knMxojgGR9q79kDpGYoCRHuuVtuVCd7Y1Rf__Fk8fAPS70kEeSyHM__UjR8Wxdf_LfTChTet8Yb_p8QtFoV4eyf1mmGJWFHprsyEojrZcEMIxlmW9OOJcXdk4c&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "En homenaje a Adela Zamudio, escritora y educadora cochabambina que alzó su voz contra los prejuicios de su época y defendió la educación y emancipación de las mujere… Ver más Siempre recordada! Ver más comentarios Tatiana Guerrero Vallejos"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid0rLPmGaCwpTBttM7X9cKL9atGWKrBJTAvdJJVgQQNd4sU8t3wQTyoTTdLurwSbFmSl?comment_id=2703804773368554&__cft__[0]=AZi5GjSPmrr8jLQQv-rXI1xc7QrMCeaCqM7Jtk0ySFfmh_jFkYVY8Lb67qL-9noK6knMxojgGR9q79kDpGYoCRHuuVtuVCd7Y1Rf__Fk8fAPS70kEeSyHM__UjR8Wxdf_LfTChTet8Yb_p8QtFoV4eyf1mmGJWFHprsyEojrZcEMIxlmW9OOJcXdk4c&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Siempre recordada! Tatiana Guerrero Vallejos"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -1176,30 +1185,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611611123_892086103405617_7679383414559238851_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=A1tSYjaBdFEQ7kNvwGcEi67&_nc_oc=AdpOXim5INCv0ZzLYaiCxO38u38UuaqzkP8ynW4_hNMLqJv3SAJERYJDv813j-si_Hk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=cnAtsv99ftmY0aXKYr5D6g&_nc_ss=7f289&oh=00_AQNCfGh-KpqnqwdUmw2E1D6NXoYVLxNquH3eiPDBgepgsQ&oe=6AD3F2C8",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1132172085912487/?__cft__[0]=AZgP0X00CL2S8MEZw17PUpwBukKq7FMDeGvCU5semQve_I_dNqSVZ3sAn4P25XWwORt5zU1XHqVo1ct5-O9jAkg0nRJdB3TNtHYqWZdX27FIhWIcMjLimJEOTIUuxQzen2L7wZudFMSRJY8PJh3B6_hxXAax0UWqrOxvADCin_XCbtnpBHUNG18yXFatVsbjxUmL&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La UAGRM reafirma su compromiso con la región al integrarse al Comité Interinstitucional de apoyo a proyectos culturales, turísticos y de investigación. En el acto, el … Ver más Es un gran logro Tenemos problemas para reproducir este video. Más información Mario Suárez-Riglos"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1132172085912487/?comment_id=1099641262812143&__cft__[0]=AZgP0X00CL2S8MEZw17PUpwBukKq7FMDeGvCU5semQve_I_dNqSVZ3sAn4P25XWwORt5zU1XHqVo1ct5-O9jAkg0nRJdB3TNtHYqWZdX27FIhWIcMjLimJEOTIUuxQzen2L7wZudFMSRJY8PJh3B6_hxXAax0UWqrOxvADCin_XCbtnpBHUNG18yXFatVsbjxUmL&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mario Suárez-Riglos Es un gran logro 6 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umss",
@@ -1410,32 +1402,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 43,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/tendencias",
-          "has_image": true,
-          "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 29,
+          "score": 37,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Paz califica el ataque a joyería en Santa Cruz \"como un acto criminal de orden internacional\" Ver más 2 Hugo Dellien inicia c"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Urioste apunta al PCC por atraco en joyería: “Quedaron sin efectivo tras aprehensión de Mariaca” Ver más 2 Sube la recaudació"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
+          "score": 10,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 10,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "has_image": true,
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1535,8 +1527,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
-      "events": 39,
+      "raw_items": 41,
+      "events": 41,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1569,8 +1561,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1586,8 +1578,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 62,
-      "events": 62,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1637,8 +1629,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1652,13 +1644,38 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
+      "status": "ok",
+      "raw_items": 6,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Server error '522 <none>' for url 'https://beni.gob.bo/category/cultura/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/522"
+      "rejected": 6,
+      "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "turismo",
+          "url": "https://beni.gob.bo/category/cultura/",
+          "has_image": true,
+          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 08/10/2026 GOBERNADOR DEL BENI PARTICIPA DE LOS 86 AÑOS DE PERÚ RÍO APERE Y COMPARTE CON LA FAMILIA GANADERA El Gobernador del Beni, Jesús Egüez Rivero, llegó hasta la Comunidad de Perú Río Apere, en el munici... Leer más → Cultura - 01/10/2026 GOBERNACIÓN DEL BENI FORTALECE LA CONCIENCIA AMBIENTAL CON LA SIEMBRA DE PLANTINES POR "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "infantil",
+          "url": "https://beni.gob.bo/unidades-desconcentradas",
+          "has_image": true,
+          "text_preview": "Nivel Operativo Desconcentrado Unidades Desconcentradas Consulte los servicios descentralizados, centros de salud metropolitana y unidades operativas que ejecutan funciones especializadas en el departamento del Beni. Ver Todas Salud y Hospitales Desarrollo y Deporte Productivo y Campo SDA Servicio de Desarrollo Agrario Fomenta el desarrollo agropecuario integral en el departamento mediante transfe"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://beni.gob.bo/departamento/agricultura",
+          "has_image": true,
+          "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_potosi_municipio",
@@ -1730,9 +1747,9 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 5,
+      "raw_items": 4,
       "events": 1,
-      "rejected": 4,
+      "rejected": 3,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
