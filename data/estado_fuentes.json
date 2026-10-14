@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T01:03:44-04:00",
+  "generated_at": "2026-10-14T07:54:04-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 127.0,
-    "horas_maximo_sin_datos": 1317.9
+    "horas_promedio_sin_datos": 125.3,
+    "horas_maximo_sin_datos": 1324.7
   },
   "sources": [
     {
@@ -79,22 +79,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9rtV89zPU4QQ7kNvwFfV6gD&_nc_oc=Ado8rrfK6w2FgOvEZ0Qxd7FBsNb2XQ5soKgC4GuN_I6B8vcG0fMZJ_6xsS4WWZRaRc0&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=8Oe_estIBZy4IGZAfJspPQ&_nc_ss=7f289&oh=00_AQMYnMro4CYEWSkbwsrePToO_9ZsPLTiCpFNnhe_cp8zdg&oe=6AD4EA83",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028heY3Q173covvJEcXszTj59tGQEJZNp4zgrDCTo77qJGHxtGjsYpW7FK7bJvkjRBl?__cft__[0]=AZjWA_zuH_lCQGtwB-Eo3Pji0irD0Ho-basJuX1DTU7-ytBtLyaMc3izuN6YUqvNFFjakL1XU_s6TY2DXpQv9g7jp15VLKhFUbnhlhgwVEtAosQH2_IrYascAOmHu0k7zQre3YCjNRYqnlvjsp2nhejH7zUNzqs9R3nWUlSnN_zrZSAA71Ay_earzJY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -281,7 +272,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_opinion",
@@ -309,13 +300,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q2ravEMFvOEQ7kNvwEwSdZP&_nc_oc=Adp89jzEgBNsUX08u02ZALwG6ZDF9QuPkIT9oB945xj-dFrmkFR06GzPhcvHtuuVfSE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=GcIkUJgKfm7PU5UT524srw&_nc_ss=7f289&oh=00_AQNo-0GiOM2gShQKCSNHpAXmpBEvBDn5B4-9P7jB0FJ3ww&oe=6AD5284C",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 40,
+          "category": "otro",
+          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid0w9yJgdy6HaPd37YZp94M96a79b69iSL9hCkbD5oCM71QcuCoFfGa8KkNG9EC2Hkml?__cft__[0]=AZhmvCWsieew0YzbnTS4sWGzsoiG7hZOxzuK3mCs6zjvxo7DoXRsG9pT7vnHenyMz_IzaIpJPkWv692uYMe_sLVgyJiXMhrwu-1L7HUUMsgmQ7llgbvJEC0Yvvu7-FfZMohBL9l9xlOvcEJ6i78DSDF7nLxZbT9Xsjfa9aIyLQsKPdVOE23y2K-_PWg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "A pocas semanas del viaje previsto del 6 al 17 de noviembre por Argentina, Uruguay y Perú, los cirujanos operaron al santo padre el martes en el policlínico romano para… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_reduno",
@@ -564,13 +564,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HAwhBaFBQOsQ7kNvwFEo6qx&_nc_oc=Ado4Cd1t9h70Sy4jqSuDhb4uxVNko2MTyO4-DH6gmZKL5jMYdjf6Bp-W0O8hbGxjfwc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=Zqnjeko0mTqyECsCfyUQ4w&_nc_ss=7f289&oh=00_AQPdKq0O1mT602_ooQ74ATcm6Zxax2lv0d5JFroXIG63Ng&oe=6AD52773",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/cinemateca.bo/posts/pfbid0LUkvxJmZRuPPhVWV8zhVLd1UeD5hmcsUXY99RHiTdmVHcLzRqi33bHLbte1nyzMol?__cft__[0]=AZg46VAr4WqTfXsxTqDAhPDnGGMS1aI56fHFG0N1iMpmYDIDSQr8_BNfq83BSYn1haqINa5AyrClfsRYRdiruoP0dQRqTMAPrRgcn4FqyNNirtF4txpgGKrgIrwe8NtbkGhqvMSNuc7mtXyVFgXh-Pmslkl5KwJr6rwr1mmwNPzAjkNuzM4bLrehumc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Este mes en los \"50 años 50 películas\" atravesamos el milenio con 10 filmes producidos entre los años 1996 y 2005. Cortometrajes y largometrajes que dejaron huella en l… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -632,30 +641,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LXkJEJ2H6JEQ7kNvwF7T-7h&_nc_oc=AdrnDsqVl8x4rRUksOrWCUGXkr7xQDe5rovJohDnncNGyy-pgjPfmx_5x1UYLr_Uwys&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=byprOLLcL6hadMHFG8SNYg&_nc_ss=7f289&oh=00_AQMqcQASYbnH4W-DZ0GPQVeYz5ifdp1C8Yx4-OnZRjZh2Q&oe=6AD4E18F",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 42,
-          "category": "taller",
-          "url": "https://www.facebook.com/cnmptsfcbcb/videos/taller-de-inicio-del-proyecto-restauraci%C3%B3n-de-casa-nacional-de-moneda/1579828506573564/",
-          "has_image": true,
-          "text_preview": "TALLER DE INICIO DEL PROYECTO RESTAURACIÓN DE CASA NACIONAL DE MONEDA #Potosi #Bolivia #CasaNacionaldeMoneda @seguidores #patrimonio #restauración TALLER DE INICIO DEL PROYECTO RESTAURACIÓN DE CASA NACIONAL DE MONEDA #Potosi #Bolivia #CasaNacionaldeMoneda @seguidores #patrimonio #restauración Fomentar los Estudios Academicos en la Moneda de Plata de la Villa Imperial. Tenemos problemas para reprod"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/videos/1579828506573564/?comment_id=2370356223739358&__cft__[0]=AZh_cL9g0o9WasdowwVXi96fCA6CaRi8k7DAvLhpLMy-gDeByoZC6HjrUgVUBsMP_klXl7QY7BubV5ilMhBoM97i7lTszsfMOSX8TvgCeEQFnvTHzHpu97Y2TK1ABVzcj1TcbDw6kke8rG-OMFZ7Qe34L9j4i6czs7ZaKcjT2OV-iLBQUB3S7ECgAE-RNg1Yp_Y&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Fomentar los Estudios Academicos en la Moneda de Plata de la Villa Imperial. René Sejas García"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -666,13 +658,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kQp4PWJVumsQ7kNvwFVOuc2&_nc_oc=AdrAnmoc3pROnD25E67Vn8LQiWpT5uHphNi3xvw2E2aH1J_FEaaKZa6EGmyrMOEenIU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Ap5b7lT9yy0cmbAAJQ_kdQ&_nc_ss=7f289&oh=00_AQO57wPl-9CbNgGbXfVTuXHwFtC7PWFaZJAj61qIvBM-8w&oe=6AD4D012",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -1091,13 +1083,30 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7DO6jbyKwcMQ7kNvwEQpn3W&_nc_oc=AdqQyugMKqSoxd3npNZIpXDy0Zay7e-_FSo0FjYBdT2u2e5gQXNyxKCSA2o4oXjlfyA&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=6GpiKQ17DYbycwDwwrP3ew&_nc_ss=7f289&oh=00_AQMaQw0gdO8-y81x5EORmu5IG1TFH2zvvuw5g37gFLj_Yw&oe=6AD5496F",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 43,
+          "category": "teatro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/ccp-i-el-arte-y-la-pasi%C3%B3n-del-teatro-se-apoderan-de-la-ciudad-la-universidad-cat/1588295740003202/",
+          "has_image": true,
+          "text_preview": "#CCP I ¡El arte y la pasión del teatro se apoderan de la ciudad! 🎭✨ La Universidad Católica Boliviana (UCB), el Centro de la Cultura Plurinacional y el Gobierno Autónomo Municipal de Santa Cruz de... #CCP I ¡El arte y la pasión del teatro se apoderan de la ciudad! 🎭✨ La Universidad Católica Boliviana (UCB), el Centro de la Cultura Plurinacional y el... #CCP I ¡El arte y la pasión del teatro se apo"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02JeH3FV18qYNsSNjEkRtYM9bhp23d3CpNoFNNfmMPTPhqnyhFQu7S4he4eHzqV78Pl?comment_id=1004930132634700&__cft__[0]=AZhUZSA8BsoOmEYGVvgIMuIyXpIrHDs0XMMhKD_zzbu5v7WyR6HZTOhQtuzK6ctuJ204xh2MmwJv4YSLl73e1EzGV1Z1G2l25dy9h5Ygfx6o8FIvtBdrzYXd1dfBAqStTmWfNImeqox9aHf86RJeDNkncwpsuU75ZZympCLRBTfHUbip7ujagAiZ2CQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Autor @seguidores @fansdestacados 20 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1393,12 +1402,20 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
+          "score": 32,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 46,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1406,19 +1423,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 46,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
-          "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Fernando Camacho comienza su misión diplomática como embajador de Bolivia en Paraguay Ver más 2 ¿Cómo estará el clima en Coch"
         }
       ],
       "error": null
