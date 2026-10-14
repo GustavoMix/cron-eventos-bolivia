@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-14T07:54:04-04:00",
+  "generated_at": "2026-10-14T13:12:22-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 79,
+    "events_total": 82,
     "events_today": 13
   },
   "filters": {
@@ -65,7 +65,7 @@
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 13
+        "count": 14
       },
       {
         "key": "feria",
@@ -75,7 +75,12 @@
       {
         "key": "teatro",
         "label": "Teatro",
-        "count": 5
+        "count": 4
+      },
+      {
+        "key": "taller",
+        "label": "Talleres y cursos",
+        "count": 3
       },
       {
         "key": "exposicion",
@@ -93,8 +98,8 @@
         "count": 2
       },
       {
-        "key": "taller",
-        "label": "Talleres y cursos",
+        "key": "turismo",
+        "label": "Turismo y patrimonio",
         "count": 2
       },
       {
@@ -103,18 +108,13 @@
         "count": 2
       },
       {
-        "key": "turismo",
-        "label": "Turismo y patrimonio",
-        "count": 1
+        "key": "festival",
+        "label": "Festivales",
+        "count": 2
       },
       {
         "key": "gastronomia",
         "label": "Gastronomía",
-        "count": 1
-      },
-      {
-        "key": "festival",
-        "label": "Festivales",
         "count": 1
       }
     ],
@@ -145,14 +145,14 @@
         "count": 6
       },
       {
+        "key": "Tarija",
+        "label": "Tarija",
+        "count": 5
+      },
+      {
         "key": "Oruro",
         "label": "Oruro",
         "count": 4
-      },
-      {
-        "key": "Tarija",
-        "label": "Tarija",
-        "count": 3
       },
       {
         "key": "Potosí",
@@ -184,7 +184,7 @@
       {
         "key": "Bolivia",
         "label": "Bolivia",
-        "count": 11
+        "count": 12
       },
       {
         "key": "Chuquisaca",
@@ -194,7 +194,7 @@
       {
         "key": "Tarija",
         "label": "Tarija",
-        "count": 3
+        "count": 5
       },
       {
         "key": "Oruro",
@@ -221,12 +221,12 @@
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 48
+        "count": 51
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 79
+        "count": 82
       }
     ],
     "price": [
@@ -238,19 +238,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 22
+        "count": 23
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 56
+        "count": 58
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 72
+        "count": 73
       },
       {
         "key": "con_video",
@@ -394,16 +394,16 @@
       {
         "key": "ticketera",
         "label": "ticketera",
-        "count": 11
-      },
-      {
-        "key": "venue",
-        "label": "venue",
-        "count": 10
+        "count": 12
       },
       {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
+        "count": 12
+      },
+      {
+        "key": "venue",
+        "label": "venue",
         "count": 10
       },
       {
@@ -480,6 +480,7 @@
       "evt_ae9da30af86e30",
       "evt_bf127d6bfa7742",
       "evt_2206b324a8e060",
+      "evt_5bea1930609bf3",
       "evt_37698ebe3e4318",
       "evt_2abbbc5da1b0ea",
       "evt_bb5cf19806c196",
@@ -491,12 +492,12 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 40,
+      "events_total": 38,
       "events_upcoming": 17,
       "events_with_image": 16,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 5
     },
     "Cochabamba": {
       "events_total": 32,
@@ -507,15 +508,15 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 32,
+      "events_total": 31,
       "events_upcoming": 15,
       "events_with_image": 11,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 5
+      "sources_ok": 4
     },
     "Chuquisaca": {
-      "events_total": 10,
+      "events_total": 9,
       "events_upcoming": 6,
       "events_with_image": 6,
       "events_with_video": 0,
@@ -539,8 +540,8 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 7,
-      "events_upcoming": 3,
+      "events_total": 8,
+      "events_upcoming": 5,
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 5,
@@ -560,22 +561,22 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 0
     }
   },
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 69,
+      "events_total": 64,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 13,
-      "events_upcoming": 13,
-      "events_with_image": 13,
+      "events_total": 14,
+      "events_upcoming": 14,
+      "events_with_image": 14,
       "events_with_video": 1
     },
     "conferencia": {
@@ -615,9 +616,9 @@
     },
     "festival": {
       "label": "Festivales",
-      "events_total": 1,
-      "events_upcoming": 1,
-      "events_with_image": 1,
+      "events_total": 2,
+      "events_upcoming": 2,
+      "events_with_image": 2,
       "events_with_video": 0
     },
     "gastronomia": {
@@ -636,22 +637,22 @@
     },
     "taller": {
       "label": "Talleres y cursos",
-      "events_total": 2,
-      "events_upcoming": 2,
+      "events_total": 3,
+      "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 6,
-      "events_upcoming": 5,
-      "events_with_image": 4,
+      "events_total": 5,
+      "events_upcoming": 4,
+      "events_with_image": 3,
       "events_with_video": 0
     },
     "turismo": {
       "label": "Turismo y patrimonio",
-      "events_total": 1,
-      "events_upcoming": 1,
+      "events_total": 2,
+      "events_upcoming": 2,
       "events_with_image": 1,
       "events_with_video": 0
     }
@@ -1808,96 +1809,91 @@
         "14:10",
         "16:40",
         "19:10",
-        "12:20",
-        "17:20",
-        "10:30",
         "13:00",
-        "15:30",
-        "18:00",
+        "12:20",
         "14:50",
-        "12:40",
-        "19:00",
-        "21:20",
-        "15:05",
-        "17:30",
-        "19:50",
-        "22:10",
-        "12:00",
-        "14:20",
+        "17:20",
+        "18:00",
+        "15:30",
         "12:30",
         "14:40",
         "16:50",
-        "11:10",
-        "13:20",
+        "21:20",
         "15:20",
         "19:40",
         "21:50",
-        "11:20",
+        "13:20",
+        "17:30",
+        "15:05",
+        "22:10",
+        "14:20",
+        "12:40",
+        "19:50",
+        "19:00",
+        "18:20",
         "15:50",
         "20:50",
-        "18:20",
-        "20:40"
+        "13:50",
+        "20:40",
+        "16:00",
+        "18:10",
+        "20:20"
       ],
       "formats": [
         "2D - Doblada",
-        "2D - PRE - Doblada",
         "DBOX - 2D - XD - Doblada",
-        "DBOX - XD - 2D - Doblada",
         "PRE - 2D - Doblada",
-        "2D - DBOX - Doblada",
+        "XD - 2D - DBOX - Doblada",
+        "XD - DBOX - 2D - Doblada",
+        "2D - PRE - Doblada",
         "2D - PRE - Subtitulada",
-        "DBOX - 2D - Doblada",
         "PRE - 2D - Subtitulada",
-        "2D - IV - DBOX - XD - Doblada",
+        "2D - DBOX - Doblada",
+        "DBOX - 2D - Doblada",
         "3D - Doblada",
+        "XD - 2D - DBOX - IV - Doblada",
         "2D - Subtitulada"
       ],
       "occurrences": [
         "2026-10-14T14:10:00-04:00",
         "2026-10-14T16:40:00-04:00",
         "2026-10-14T19:10:00-04:00",
-        "2026-10-14T12:20:00-04:00",
-        "2026-10-14T17:20:00-04:00",
-        "2026-10-14T10:30:00-04:00",
         "2026-10-14T13:00:00-04:00",
-        "2026-10-14T15:30:00-04:00",
-        "2026-10-14T18:00:00-04:00",
+        "2026-10-14T12:20:00-04:00",
         "2026-10-14T14:50:00-04:00",
-        "2026-10-14T12:40:00-04:00",
-        "2026-10-14T19:00:00-04:00",
-        "2026-10-14T21:20:00-04:00",
-        "2026-10-14T15:05:00-04:00",
-        "2026-10-14T17:30:00-04:00",
-        "2026-10-14T19:50:00-04:00",
-        "2026-10-14T22:10:00-04:00",
-        "2026-10-14T12:00:00-04:00",
-        "2026-10-14T14:20:00-04:00",
+        "2026-10-14T17:20:00-04:00",
+        "2026-10-14T18:00:00-04:00",
+        "2026-10-14T15:30:00-04:00",
         "2026-10-14T12:30:00-04:00",
         "2026-10-14T14:40:00-04:00",
         "2026-10-14T16:50:00-04:00",
-        "2026-10-14T11:10:00-04:00",
-        "2026-10-14T13:20:00-04:00",
+        "2026-10-14T21:20:00-04:00",
         "2026-10-14T15:20:00-04:00",
         "2026-10-14T19:40:00-04:00",
         "2026-10-14T21:50:00-04:00",
-        "2026-10-14T11:20:00-04:00",
+        "2026-10-14T13:20:00-04:00",
+        "2026-10-14T17:30:00-04:00",
+        "2026-10-14T15:05:00-04:00",
+        "2026-10-14T22:10:00-04:00",
+        "2026-10-14T14:20:00-04:00",
+        "2026-10-14T12:40:00-04:00",
+        "2026-10-14T19:50:00-04:00",
+        "2026-10-14T19:00:00-04:00",
+        "2026-10-14T18:20:00-04:00",
         "2026-10-14T15:50:00-04:00",
         "2026-10-14T20:50:00-04:00",
-        "2026-10-14T18:20:00-04:00",
-        "2026-10-14T20:40:00-04:00",
         "2026-10-14T13:50:00-04:00",
+        "2026-10-14T20:40:00-04:00",
         "2026-10-14T16:00:00-04:00",
         "2026-10-14T18:10:00-04:00",
         "2026-10-14T20:20:00-04:00",
         "2026-10-14T22:30:00-04:00",
-        "2026-10-14T11:30:00-04:00",
-        "2026-10-14T13:40:00-04:00",
         "2026-10-14T18:40:00-04:00",
-        "2026-10-14T10:20:00-04:00",
+        "2026-10-14T16:10:00-04:00",
+        "2026-10-14T13:40:00-04:00",
+        "2026-10-14T17:00:00-04:00",
         "2026-10-14T16:20:00-04:00",
         "2026-10-14T21:30:00-04:00",
-        "2026-10-14T16:10:00-04:00",
-        "2026-10-14T17:00:00-04:00",
         "2026-10-14T22:00:00-04:00",
         "2026-10-14T19:20:00-04:00",
         "2026-10-14T21:40:00-04:00"
@@ -1944,13 +1940,15 @@
         "17:00",
         "19:15",
         "21:30",
+        "10:50",
+        "15:30",
         "18:00",
         "20:10",
+        "15:00",
         "22:10",
         "19:00",
         "12:20",
         "22:15",
-        "15:30",
         "14:45",
         "13:20",
         "12:40"
@@ -1967,13 +1965,15 @@
         "2026-10-14T17:00:00-04:00",
         "2026-10-14T19:15:00-04:00",
         "2026-10-14T21:30:00-04:00",
+        "2026-10-14T10:50:00-04:00",
+        "2026-10-14T15:30:00-04:00",
         "2026-10-14T18:00:00-04:00",
         "2026-10-14T20:10:00-04:00",
+        "2026-10-14T15:00:00-04:00",
         "2026-10-14T22:10:00-04:00",
         "2026-10-14T19:00:00-04:00",
         "2026-10-14T12:20:00-04:00",
         "2026-10-14T22:15:00-04:00",
-        "2026-10-14T15:30:00-04:00",
         "2026-10-14T14:45:00-04:00",
         "2026-10-14T13:20:00-04:00",
         "2026-10-14T12:40:00-04:00"
@@ -2183,11 +2183,11 @@
       "title": "GAMS Gobierno Autonomo Municipal de Sucre",
       "category": "turismo",
       "category_label": "Turismo y patrimonio",
-      "starts_at": "2026-10-21T18:00:00-04:00",
-      "starts_at_ms": 1792620000000,
+      "starts_at": "2026-10-21T00:00:00-04:00",
+      "starts_at_ms": 1792555200000,
       "ends_at_ms": 1793246340000,
       "multi_day": true,
-      "display_date": "Del 21 al 28 de octubre · 18:00",
+      "display_date": "Del 21 al 28 de octubre",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
       "days_until": 7,
@@ -2251,6 +2251,82 @@
       "cast": [],
       "quality_score": 72,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_77cc0681748a48",
+      "title": "Desarrollo Productivo, Recursos Naturales y Medio Ambiente",
+      "category": "turismo",
+      "category_label": "Turismo y patrimonio",
+      "starts_at": "2026-10-26T00:00:00-04:00",
+      "starts_at_ms": 1792987200000,
+      "ends_at_ms": 1793419140000,
+      "multi_day": true,
+      "display_date": "Del 26 al 30 de octubre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 12,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": null,
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 37,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_fb58b03cef676b",
+      "title": "0 Recursos Humanos ELABORACIÓN Y PRESENTACION DE LA PROGRAMACIÓN OPERATIVA ANUAL INDIVIDUAL (POAI) - GESTIÓN 2026…",
+      "category": "taller",
+      "category_label": "Talleres y cursos",
+      "starts_at": "2026-10-26T00:00:00-04:00",
+      "starts_at_ms": 1792987200000,
+      "ends_at_ms": 1793419140000,
+      "multi_day": true,
+      "display_date": "Del 26 al 30 de octubre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 12,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": null,
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 37,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
@@ -3146,6 +3222,44 @@
       "department": "Bolivia",
       "venue": "Espacio Kúu Inti",
       "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/10/jsajsd.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 120.0,
+      "currency": "None",
+      "price_label": "Bs 120",
+      "organizer": "SuperTicket.bo",
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 72,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_5bea1930609bf3",
+      "title": "Chila Jatun en Concierto",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-11-13T20:00:00-04:00",
+      "starts_at_ms": 1794614400000,
+      "ends_at_ms": 1794542400000,
+      "multi_day": false,
+      "display_date": "Viernes 13 de noviembre · 20:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 30,
+      "is_upcoming": true,
+      "city": null,
+      "department": "Bolivia",
+      "venue": "Super Multiteatro",
+      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/10/2_Mf1uDI2.jpg",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
@@ -4195,8 +4309,8 @@
     {
       "event_id": "evt_cab71456af6bc1",
       "title": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de…",
-      "category": "teatro",
-      "category_label": "Teatro",
+      "category": "festival",
+      "category_label": "Festivales",
       "starts_at": "2027-09-14T21:15:00-04:00",
       "starts_at_ms": 1820970900000,
       "ends_at_ms": null,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T07:54:04-04:00",
+  "generated_at": "2026-10-14T13:12:22-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 125.3,
-    "horas_maximo_sin_datos": 1324.7
+    "horas_promedio_sin_datos": 121.8,
+    "horas_maximo_sin_datos": 1330.0
   },
   "sources": [
     {
@@ -300,22 +300,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q2ravEMFvOEQ7kNvwEwSdZP&_nc_oc=Adp89jzEgBNsUX08u02ZALwG6ZDF9QuPkIT9oB945xj-dFrmkFR06GzPhcvHtuuVfSE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=GcIkUJgKfm7PU5UT524srw&_nc_ss=7f289&oh=00_AQNo-0GiOM2gShQKCSNHpAXmpBEvBDn5B4-9P7jB0FJ3ww&oe=6AD5284C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 40,
-          "category": "otro",
-          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid0w9yJgdy6HaPd37YZp94M96a79b69iSL9hCkbD5oCM71QcuCoFfGa8KkNG9EC2Hkml?__cft__[0]=AZhmvCWsieew0YzbnTS4sWGzsoiG7hZOxzuK3mCs6zjvxo7DoXRsG9pT7vnHenyMz_IzaIpJPkWv692uYMe_sLVgyJiXMhrwu-1L7HUUMsgmQ7llgbvJEC0Yvvu7-FfZMohBL9l9xlOvcEJ6i78DSDF7nLxZbT9Xsjfa9aIyLQsKPdVOE23y2K-_PWg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "A pocas semanas del viaje previsto del 6 al 17 de noviembre por Argentina, Uruguay y Perú, los cirujanos operaron al santo padre el martes en el policlínico romano para… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_reduno",
@@ -496,13 +487,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bK8RBxggfb8Q7kNvwFsTygB&_nc_oc=AdqROljSMzdNjEGsoO6TMDI6iXyBt1EqXZR8e8QOc7EwYlqetRnkWTCdl5nM-CS6YU4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=f374QLLvWZENIh4IAhuIxQ&_nc_ss=7f289&oh=00_AQMwxbpdHBS_rZjSj_LID6FV_902LorLkKog6KCfbkHWbA&oe=6AD59E69",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldeberradio/videos/1108883355197096/?__cft__[0]=AZgzQSonxGn4u8hUtiRYZ7ZaOxp0p2o10MMdIGwK2LpbPjSSG9QVxz4RADfH-JvxxHvGbB96ejCRCklpZMuhN2RFZPYh2SZe_0xf19lSOM7BnilP4xbIuFo58FUDI5K6UtZsQ5jH3NwXej6KZVqUa1mhejbfqXhDUm_71QInPSyMLTnDZB0dKaJeufbbvN2Xi9g&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#ED24NoticiasENVIVO| MIÉRCOLES 14-10-26 \"AVANCE INFORMATIVO\" Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fides_cbba",
@@ -564,22 +564,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HAwhBaFBQOsQ7kNvwFEo6qx&_nc_oc=Ado4Cd1t9h70Sy4jqSuDhb4uxVNko2MTyO4-DH6gmZKL5jMYdjf6Bp-W0O8hbGxjfwc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=Zqnjeko0mTqyECsCfyUQ4w&_nc_ss=7f289&oh=00_AQPdKq0O1mT602_ooQ74ATcm6Zxax2lv0d5JFroXIG63Ng&oe=6AD52773",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/cinemateca.bo/posts/pfbid0LUkvxJmZRuPPhVWV8zhVLd1UeD5hmcsUXY99RHiTdmVHcLzRqi33bHLbte1nyzMol?__cft__[0]=AZg46VAr4WqTfXsxTqDAhPDnGGMS1aI56fHFG0N1iMpmYDIDSQr8_BNfq83BSYn1haqINa5AyrClfsRYRdiruoP0dQRqTMAPrRgcn4FqyNNirtF4txpgGKrgIrwe8NtbkGhqvMSNuc7mtXyVFgXh-Pmslkl5KwJr6rwr1mmwNPzAjkNuzM4bLrehumc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Este mes en los \"50 años 50 películas\" atravesamos el milenio con 10 filmes producidos entre los años 1996 y 2005. Cortometrajes y largometrajes que dejaron huella en l… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -862,13 +853,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zZTKOZV0bvoQ7kNvwHtQwhS&_nc_oc=AdpP0Vsk6f8Qu42uzndoMjRtx8nO622_saGV47MKLgTCnCT1BDaYVsPQvtOW9B2rd5g&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=d2JM5zGQqMvRrH62_E__vA&_nc_ss=7f289&oh=00_AQMqsaIfhCfQfKtxQ4YssMXITjRUpa4K4F4GZdRlI77WSQ&oe=6AD58221",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/feriafipaz/posts/pfbid09DaBqPLch4bfmV4PdVX3tmjWVRm3pi1nLydwSBV74wruLH4LrYonRLKAxp5D1r6Nl?__cft__[0]=AZjn2A3yMED25IBtLLgCw5gKgtbak8emjMxtpBOxovXmo4WOnEAF1xCXfSKbJ7ERIXXe15yc7_eFaXLj3YQUpdDFgGu0vzn3X8k2QmVx1aQkyssuZ_nPyNneTgNh20vvo0f113Q8eJYW-OzS33RYHMPMOPqLKSGgyfeiBNc0Qk-FejKsb3nQUe5rWBk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Saludamos a Pagina Tu Radio la Doble un continente de culturas se une a esta épica y legendaria aventura. R… Ver más Saludamos a Pagina Tu Radio la Doble un continente de culturas se une a esta épica y legendaria aventura. R… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -1083,30 +1083,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7DO6jbyKwcMQ7kNvwEQpn3W&_nc_oc=AdqQyugMKqSoxd3npNZIpXDy0Zay7e-_FSo0FjYBdT2u2e5gQXNyxKCSA2o4oXjlfyA&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=6GpiKQ17DYbycwDwwrP3ew&_nc_ss=7f289&oh=00_AQMaQw0gdO8-y81x5EORmu5IG1TFH2zvvuw5g37gFLj_Yw&oe=6AD5496F",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 43,
-          "category": "teatro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/ccp-i-el-arte-y-la-pasi%C3%B3n-del-teatro-se-apoderan-de-la-ciudad-la-universidad-cat/1588295740003202/",
-          "has_image": true,
-          "text_preview": "#CCP I ¡El arte y la pasión del teatro se apoderan de la ciudad! 🎭✨ La Universidad Católica Boliviana (UCB), el Centro de la Cultura Plurinacional y el Gobierno Autónomo Municipal de Santa Cruz de... #CCP I ¡El arte y la pasión del teatro se apoderan de la ciudad! 🎭✨ La Universidad Católica Boliviana (UCB), el Centro de la Cultura Plurinacional y el... #CCP I ¡El arte y la pasión del teatro se apo"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02JeH3FV18qYNsSNjEkRtYM9bhp23d3CpNoFNNfmMPTPhqnyhFQu7S4he4eHzqV78Pl?comment_id=1004930132634700&__cft__[0]=AZhUZSA8BsoOmEYGVvgIMuIyXpIrHDs0XMMhKD_zzbu5v7WyR6HZTOhQtuzK6ctuJ204xh2MmwJv4YSLl73e1EzGV1Z1G2l25dy9h5Ygfx6o8FIvtBdrzYXd1dfBAqStTmWfNImeqox9aHf86RJeDNkncwpsuU75ZZympCLRBTfHUbip7ujagAiZ2CQ&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Autor @seguidores @fansdestacados 20 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1168,13 +1151,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CLutjgoEL-EQ7kNvwFB5ucG&_nc_oc=Adp9Qf2v2f3sAIDtSsIvuXYHbgKLsZ1sPkyAp3dDpOvu6aHFmWAZ7Od2WlCY33b2Z1w&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=aJGNDBk6VwkvSOVX_pwZ_Q&_nc_ss=7f289&oh=00_AQPlv7sStJfvE-RNGLu-26cr-foj6yJ1P8ssSdoCPiC3BQ&oe=6AD58965",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid02UYwXZvRDvKEUb8a9efGxntjzCnmx5R1Pq7ksBBi19w5uGEtuHJdxrfVuVitqr73vl?__cft__[0]=AZhEbXE_NqcYg49OjIGFGqcVp5TJZF0NnWNbA2gBXo-8NEh1OzwJVrXUtylt_bv5D3GwcEwmNp-fqvpNY-9gUUaOHLNU4IUO2apI-TmBTbhXe4VG5T4Hbu7VV3sbaPOwNV9CWjIEsqhqr4bNpVmU68W0pKb62h2GTU1N59anUyGnmkaGCC25YRISaY0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#UMSA celebra 42 años formando profesionales y construyendo el futuro desde la #Informática L… Ver más #UMSA celebra 42 años formando profesionales y construyendo el futuro desde la #Informática L… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1255,8 +1247,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 11,
-      "events": 10,
+      "raw_items": 12,
+      "events": 11,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1337,7 +1329,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "[Errno 101] Network is unreachable"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1407,27 +1399,27 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
-          "category": "teatro",
+          "score": 8,
+          "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
-          "category": "deporte",
+          "score": 14,
+          "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "13/10/2026 Cultura Marcelo Guardia presenta un libro sobre el reguetón Este martes 13 de octubre a las 20 horas, en el Salón Adela Zamudio de la Feria Internacional del Libro de Cochabamba. vista 13/10/2026 Cultura Chakana Teatro hace triplete en la 35ª versión del Festival Peter Travesí El elenco cruceño Chakana Teatro conquistó tres galardones en el trigésimo quinto Festival Nacional de Teatro P"
+          "text_preview": "14/10/2026 Cultura IV Encuentro de Escritoras Bolivianas reafirma su compromiso con la literatura Con el designio de visibilizar la labor de la mujeres en el contexto literario, intercambiar experiencias y resaltar la trascendencia de la escritura como una... vista 13/10/2026 Cultura Marcelo Guardia presenta un libro sobre el reguetón Este martes 13 de octubre a las 20 horas, en el Salón Adela Zam"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
-          "category": "deporte",
+          "score": 18,
+          "category": "gastronomia",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Fernando Camacho comienza su misión diplomática como embajador de Bolivia en Paraguay Ver más 2 ¿Cómo estará el clima en Coch"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 Tres muertes violentas en el trópico, familiares piden investigar Ver más 2 ¿Cómo estará el clima en Cochabamba? Ver más 3 Ju"
         }
       ],
       "error": null
@@ -1527,8 +1519,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 44,
-      "events": 44,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1706,17 +1698,9 @@
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
       "raw_items": 6,
-      "events": 0,
-      "rejected": 6,
+      "events": 2,
+      "rejected": 4,
       "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "turismo",
-          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
-          "has_image": false,
-          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 8,
@@ -1732,6 +1716,14 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
           "has_image": false,
           "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/desconcentradas",
+          "has_image": false,
+          "text_preview": "0 % Normativa - Desconcentradas MANUAL DE ORGANIZACION Y FUNCIONES - PROCEDIMIENTOS PROSOL MANUAL - PROSOL - RESOLUCION 371.pdf Descarga Detalles Manual de Organización y Funciones - Programa GNV - 2023 MOF - PROGRAMA - GNV - 2023.pdf Descarga Detalles Manual de Organización y Funciones - Servicio Departamental de Agropecuario MOF - SEDAG 2023.pdf Descarga Detalles Manual de Organización y Funcion"
         }
       ],
       "error": null
@@ -1830,12 +1822,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "[Errno 101] Network is unreachable"
     }
   ]
 }
