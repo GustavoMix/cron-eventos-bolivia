@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-13T15:20:56-04:00",
+  "generated_at": "2026-10-13T20:20:32-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 78,
+    "events_total": 79,
     "events_today": 16
   },
   "filters": {
@@ -75,7 +75,7 @@
       {
         "key": "teatro",
         "label": "Teatro",
-        "count": 4
+        "count": 5
       },
       {
         "key": "danza",
@@ -184,7 +184,7 @@
       {
         "key": "Bolivia",
         "label": "Bolivia",
-        "count": 10
+        "count": 11
       },
       {
         "key": "Chuquisaca",
@@ -221,12 +221,12 @@
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 47
+        "count": 48
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 78
+        "count": 79
       }
     ],
     "price": [
@@ -238,7 +238,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 20
+        "count": 21
       },
       {
         "key": "por_confirmar",
@@ -250,7 +250,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 71
+        "count": 72
       },
       {
         "key": "con_video",
@@ -394,7 +394,7 @@
       {
         "key": "ticketera",
         "label": "ticketera",
-        "count": 10
+        "count": 11
       },
       {
         "key": "cultura_oficial",
@@ -433,9 +433,9 @@
       "evt_60b94dbff6c796",
       "evt_091f377aee74fb",
       "evt_ccc5c9ec7383c8",
-      "evt_b3dcb379a6a09a",
       "evt_dfe6d1916335a0",
       "evt_e0858c49bcec43",
+      "evt_b3dcb379a6a09a",
       "evt_61233780ab11a3",
       "evt_3049c4ffd092ce",
       "evt_0510dd229758a1",
@@ -467,14 +467,15 @@
       "evt_60b94dbff6c796",
       "evt_091f377aee74fb",
       "evt_ccc5c9ec7383c8",
-      "evt_b3dcb379a6a09a",
       "evt_dfe6d1916335a0",
       "evt_e0858c49bcec43",
+      "evt_b3dcb379a6a09a",
       "evt_61233780ab11a3",
       "evt_c9490e55c8ba74",
       "evt_8804dc40955526",
       "evt_2b67f103b08352",
       "evt_8380ec54764421",
+      "evt_f8f4fa0aa217cb",
       "evt_b738d5075ee0af",
       "evt_272425b1fcd388",
       "evt_cdbfbc6ca41a2d",
@@ -492,12 +493,12 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 34,
+      "events_total": 33,
       "events_upcoming": 17,
       "events_with_image": 16,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 5
+      "sources_ok": 4
     },
     "Cochabamba": {
       "events_total": 29,
@@ -505,15 +506,15 @@
       "events_with_image": 23,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 30,
+      "events_total": 28,
       "events_upcoming": 15,
       "events_with_image": 11,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
       "events_total": 10,
@@ -524,7 +525,7 @@
       "sources_ok": 2
     },
     "Oruro": {
-      "events_total": 4,
+      "events_total": 3,
       "events_upcoming": 3,
       "events_with_image": 3,
       "events_with_video": 0,
@@ -553,7 +554,7 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 2
     },
     "Pando": {
       "events_total": 0,
@@ -567,7 +568,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 58,
+      "events_total": 56,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0
@@ -581,7 +582,7 @@
     },
     "conferencia": {
       "label": "Conferencias",
-      "events_total": 4,
+      "events_total": 3,
       "events_upcoming": 3,
       "events_with_image": 3,
       "events_with_video": 0
@@ -630,7 +631,7 @@
     },
     "otro": {
       "label": "Otros",
-      "events_total": 3,
+      "events_total": 2,
       "events_upcoming": 2,
       "events_with_image": 2,
       "events_with_video": 0
@@ -644,9 +645,9 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 4,
-      "events_upcoming": 4,
-      "events_with_image": 3,
+      "events_total": 5,
+      "events_upcoming": 5,
+      "events_with_image": 4,
       "events_with_video": 0
     },
     "turismo": {
@@ -1520,125 +1521,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_b3dcb379a6a09a",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-10-13T16:10:00-04:00",
-      "starts_at_ms": 1791922200000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Martes 13 de octubre · 16:10",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/10/madre-siniestra-47902.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "16:10",
-        "18:20",
-        "20:30",
-        "22:40",
-        "15:20",
-        "21:50",
-        "19:40",
-        "17:30",
-        "14:20",
-        "21:20",
-        "15:05",
-        "19:50",
-        "22:10",
-        "16:40",
-        "19:00",
-        "14:10",
-        "19:10",
-        "18:00",
-        "14:50",
-        "17:20",
-        "15:30",
-        "20:50",
-        "15:50",
-        "18:40",
-        "16:00",
-        "18:10",
-        "20:20",
-        "22:30",
-        "20:40",
-        "16:20",
-        "17:00",
-        "21:30"
-      ],
-      "formats": [
-        "2D - Doblada",
-        "2D - PRE - Doblada",
-        "2D - PRE - Subtitulada",
-        "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada",
-        "2D - DBOX - Doblada",
-        "DBOX - 2D - Doblada",
-        "2D - XD - DBOX - Doblada",
-        "XD - 2D - DBOX - Doblada",
-        "2D - Subtitulada",
-        "DBOX - IV - XD - 2D - Doblada"
-      ],
-      "occurrences": [
-        "2026-10-13T16:10:00-04:00",
-        "2026-10-13T18:20:00-04:00",
-        "2026-10-13T20:30:00-04:00",
-        "2026-10-13T22:40:00-04:00",
-        "2026-10-13T15:20:00-04:00",
-        "2026-10-13T21:50:00-04:00",
-        "2026-10-13T19:40:00-04:00",
-        "2026-10-13T17:30:00-04:00",
-        "2026-10-13T14:20:00-04:00",
-        "2026-10-13T21:20:00-04:00",
-        "2026-10-13T15:05:00-04:00",
-        "2026-10-13T19:50:00-04:00",
-        "2026-10-13T22:10:00-04:00",
-        "2026-10-13T16:40:00-04:00",
-        "2026-10-13T19:00:00-04:00",
-        "2026-10-13T14:10:00-04:00",
-        "2026-10-13T19:10:00-04:00",
-        "2026-10-13T18:00:00-04:00",
-        "2026-10-13T14:50:00-04:00",
-        "2026-10-13T17:20:00-04:00",
-        "2026-10-13T15:30:00-04:00",
-        "2026-10-13T20:50:00-04:00",
-        "2026-10-13T15:50:00-04:00",
-        "2026-10-13T18:40:00-04:00",
-        "2026-10-13T16:00:00-04:00",
-        "2026-10-13T18:10:00-04:00",
-        "2026-10-13T20:20:00-04:00",
-        "2026-10-13T22:30:00-04:00",
-        "2026-10-13T20:40:00-04:00",
-        "2026-10-13T16:20:00-04:00",
-        "2026-10-13T17:00:00-04:00",
-        "2026-10-13T21:30:00-04:00",
-        "2026-10-13T22:00:00-04:00",
-        "2026-10-13T19:20:00-04:00",
-        "2026-10-13T21:40:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_dfe6d1916335a0",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1804,6 +1686,95 @@
       "is_featured": true,
       "status": "programado",
       "source_count": 2
+    },
+    {
+      "event_id": "evt_b3dcb379a6a09a",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-10-13T18:20:00-04:00",
+      "starts_at_ms": 1791930000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 13 de octubre · 18:20",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/10/madre-siniestra-47902.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "18:20",
+        "20:30",
+        "22:40",
+        "19:40",
+        "21:50",
+        "19:00",
+        "21:20",
+        "19:50",
+        "22:10",
+        "20:50",
+        "18:40",
+        "20:40",
+        "18:10",
+        "20:20",
+        "22:30",
+        "19:20",
+        "21:40",
+        "19:10",
+        "21:30",
+        "22:00"
+      ],
+      "formats": [
+        "2D - Doblada",
+        "PRE - 2D - Doblada",
+        "PRE - 2D - Subtitulada",
+        "2D - PRE - Subtitulada",
+        "DBOX - 2D - Doblada",
+        "2D - PRE - Doblada",
+        "2D - Subtitulada",
+        "2D - IV - DBOX - XD - Doblada"
+      ],
+      "occurrences": [
+        "2026-10-13T18:20:00-04:00",
+        "2026-10-13T20:30:00-04:00",
+        "2026-10-13T22:40:00-04:00",
+        "2026-10-13T19:40:00-04:00",
+        "2026-10-13T21:50:00-04:00",
+        "2026-10-13T19:00:00-04:00",
+        "2026-10-13T21:20:00-04:00",
+        "2026-10-13T19:50:00-04:00",
+        "2026-10-13T22:10:00-04:00",
+        "2026-10-13T20:50:00-04:00",
+        "2026-10-13T18:40:00-04:00",
+        "2026-10-13T20:40:00-04:00",
+        "2026-10-13T18:10:00-04:00",
+        "2026-10-13T20:20:00-04:00",
+        "2026-10-13T22:30:00-04:00",
+        "2026-10-13T19:20:00-04:00",
+        "2026-10-13T21:40:00-04:00",
+        "2026-10-13T19:10:00-04:00",
+        "2026-10-13T21:30:00-04:00",
+        "2026-10-13T22:00:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
     },
     {
       "event_id": "evt_61233780ab11a3",
@@ -2154,11 +2125,11 @@
       "title": "GAMS Gobierno Autonomo Municipal de Sucre",
       "category": "turismo",
       "category_label": "Turismo y patrimonio",
-      "starts_at": "2026-10-21T02:00:00-04:00",
-      "starts_at_ms": 1792562400000,
+      "starts_at": "2026-10-21T07:00:00-04:00",
+      "starts_at_ms": 1792580400000,
       "ends_at_ms": 1793246340000,
       "multi_day": true,
-      "display_date": "Del 21 al 28 de octubre · 02:00",
+      "display_date": "Del 21 al 28 de octubre · 07:00",
       "lifecycle": "proximo",
       "lifecycle_label": "Próximos",
       "days_until": 8,
@@ -2211,6 +2182,44 @@
       "price_from": 75.0,
       "currency": "None",
       "price_label": "Bs 75",
+      "organizer": "SuperTicket.bo",
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 72,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_f8f4fa0aa217cb",
+      "title": "Concurso Intercolegial Teatro",
+      "category": "teatro",
+      "category_label": "Teatro",
+      "starts_at": "2026-10-26T15:00:00-04:00",
+      "starts_at_ms": 1793041200000,
+      "ends_at_ms": 1792987200000,
+      "multi_day": false,
+      "display_date": "Lunes 26 de octubre · 15:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 13,
+      "is_upcoming": true,
+      "city": null,
+      "department": "Bolivia",
+      "venue": "Teatro 16 de Julio",
+      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/10/asdsadsasdsad.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 40.0,
+      "currency": "None",
+      "price_label": "Bs 40",
       "organizer": "SuperTicket.bo",
       "showtimes": [],
       "formats": [],
