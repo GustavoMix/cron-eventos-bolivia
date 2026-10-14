@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:12:22-04:00",
+  "generated_at": "2026-10-14T17:43:26-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 121.8,
-    "horas_maximo_sin_datos": 1330.0
+    "horas_promedio_sin_datos": 116.8,
+    "horas_maximo_sin_datos": 1334.5
   },
   "sources": [
     {
@@ -385,13 +385,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7ksufk9P1twQ7kNvwFkkal3&_nc_oc=AdpoJHOq3vredrCZws3aC2z8fVXvDDNS1hvwvjF1eHyWtQkjW1xZ-5rR3RDNa0IsMz8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=J2_RcGgFz53CtyES60yQ9g&_nc_ss=7f289&oh=00_AQN4HYQIE8erMZn7sw08MOp4JVlchdF-Iq6UzeIRWbMTQQ&oe=6AD5B1E8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid0Z9rLcTtaHaLBjkyvjMacahH8tZ5RDVU3JHvAmfjH5H9bEDTw5JC25UBsBK8ZeeLol?__cft__[0]=AZjcf16WdA3lbMCzK4e5XW7Z93WGkzse88aCywFvbwOccloGJWc1ePs_S3V_s8MPY_h5Ffmd1wPnwWmZV51Sg4culesf8xnsvBP7T6nURygS3CzqTt9rMsPIIyH8-LwqJc5vHw0jmybMIru_U925fJ1inG54kwhc72d_-an8U1EnxeE52bbFZgxTw-TDzNi4UE1ag3Jf80sniFpqniI&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#ERBOL | JP Velasco revela que Cerimedo lo llamó para burlarse tras la victoria de Rodrigo Paz #ERBOL | JP Velasco revela que Cerimedo lo llamó para burlarse tras la victoria de Rodrigo Paz… Ver más Tenemos problemas para reproducir este video. Más información Radio ERBOL 100.9 FM hace aproximadamente una hora 1 h ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_el_diario",
@@ -487,22 +496,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bK8RBxggfb8Q7kNvwFsTygB&_nc_oc=AdqROljSMzdNjEGsoO6TMDI6iXyBt1EqXZR8e8QOc7EwYlqetRnkWTCdl5nM-CS6YU4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=f374QLLvWZENIh4IAhuIxQ&_nc_ss=7f289&oh=00_AQMwxbpdHBS_rZjSj_LID6FV_902LorLkKog6KCfbkHWbA&oe=6AD59E69",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1108883355197096/?__cft__[0]=AZgzQSonxGn4u8hUtiRYZ7ZaOxp0p2o10MMdIGwK2LpbPjSSG9QVxz4RADfH-JvxxHvGbB96ejCRCklpZMuhN2RFZPYh2SZe_0xf19lSOM7BnilP4xbIuFo58FUDI5K6UtZsQ5jH3NwXej6KZVqUa1mhejbfqXhDUm_71QInPSyMLTnDZB0dKaJeufbbvN2Xi9g&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#ED24NoticiasENVIVO| MIÉRCOLES 14-10-26 \"AVANCE INFORMATIVO\" Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fides_cbba",
@@ -785,13 +785,30 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=EiISwyVml_AQ7kNvwGo9_d4&_nc_oc=Adrwz6yaFI1zhQKQmD2EZ9iOmz-EQ4-i3WWldbZktvvVBqqFzhBPVR6KrhnyHmDQ5ik&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=aqYbFmf0ozHHpVbpz2757w&_nc_ss=7f289&oh=00_AQMFyHh958O_f4GExxQYRYiGtV6MqVOkOdMMp29aumorSg&oe=6AD5D67A",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeOruro/videos/denuncian-cerca-de-40-asentamientos-de-miner%C3%ADa-ilegal-en-el-cerro-la-joya-que-po/1412915397103097/",
+          "has_image": true,
+          "text_preview": "Denuncian cerca de 40 asentamientos de minería ilegal en el cerro La Joya que ponen en riesgo los recursos hídricos de la región. El gobernador del departamento de Orur… Ver más Denuncian cerca de 40 asentamientos de minería ilegal en el cerro La Joya que ponen en riesgo los recursos hídricos de la región. El gobernador del departamento de Orur… Ver más Bien gober Tenemos problemas para reproducir"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1412915397103097/?comment_id=2171239790124514&__cft__[0]=AZiY9qZ5wpJC5q3PshoBX6eIfLIIwzAeeCcrjLn9Cy2livCfOgh_XAQIJ2cXbN15ADYFpE-lZvbx3LcS0wAL3R6o2FaGPpE-TjDJeLWMc5K5MSLKDvas4OA5AjAVFsZzHjY-IGg_VxPkIFjYo_aYy48M5UP1cq8VJ8uEmLOR-QlIV0zg8zS5xelUOkUB-9gqrW_e&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Alfredo Quispe Bien gober 37 min"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_tarija",
@@ -853,22 +870,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zZTKOZV0bvoQ7kNvwHtQwhS&_nc_oc=AdpP0Vsk6f8Qu42uzndoMjRtx8nO622_saGV47MKLgTCnCT1BDaYVsPQvtOW9B2rd5g&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=d2JM5zGQqMvRrH62_E__vA&_nc_ss=7f289&oh=00_AQMqsaIfhCfQfKtxQ4YssMXITjRUpa4K4F4GZdRlI77WSQ&oe=6AD58221",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/feriafipaz/posts/pfbid09DaBqPLch4bfmV4PdVX3tmjWVRm3pi1nLydwSBV74wruLH4LrYonRLKAxp5D1r6Nl?__cft__[0]=AZjn2A3yMED25IBtLLgCw5gKgtbak8emjMxtpBOxovXmo4WOnEAF1xCXfSKbJ7ERIXXe15yc7_eFaXLj3YQUpdDFgGu0vzn3X8k2QmVx1aQkyssuZ_nPyNneTgNh20vvo0f113Q8eJYW-OzS33RYHMPMOPqLKSGgyfeiBNc0Qk-FejKsb3nQUe5rWBk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Saludamos a Pagina Tu Radio la Doble un continente de culturas se une a esta épica y legendaria aventura. R… Ver más Saludamos a Pagina Tu Radio la Doble un continente de culturas se une a esta épica y legendaria aventura. R… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -1015,13 +1023,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=l1DMOW6E4dcQ7kNvwEpCNuS&_nc_oc=AdpuJ2eFkOLIVLixWaU-nIaDxosn6F0b9x-djXvazv0pCPm5-47-qGy5L5Fshxoblvw&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=X39Q5SrXs56xYWrzXYCVgA&_nc_ss=7f289&oh=00_AQNJ-M2YKxE7JoV7nbvy0Vtf6O40-jLFGOZEtmmNE2amWQ&oe=6AD5B4F4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02SMAXgoNujDMyQvzMuFoWCTQ1zJe9BVHqshvJAowcNAxcpjH9ZPb1ud8HdNu8gU3Xl?__cft__[0]=AZj8-W_dv8z_njPmrZbWBTicye4f2U-JUpq9SnrkDqLB2Bdw80AAdX0CQTxUxi1nxtrbCOtvqfCk2LpRXQMufNPzFrhOXD9Gkpah7GdMJE7-iLI5w_z-ckqmAHSrftnLwpF6WaUTaZ9sPKJV390SvkccHksCfNv5O5X26ZVKXVv5sAm-iEk2vcAbQlA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#BecasPatiño | ¡𝐄𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐜𝐨𝐫𝐫𝐞! Faltan 𝟐𝟎 𝐝… Ver más #BecasPatiño | ¡𝐄𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐜𝐨𝐫𝐫𝐞! Faltan 𝟐𝟎 𝐝… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1151,22 +1168,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CLutjgoEL-EQ7kNvwFB5ucG&_nc_oc=Adp9Qf2v2f3sAIDtSsIvuXYHbgKLsZ1sPkyAp3dDpOvu6aHFmWAZ7Od2WlCY33b2Z1w&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=aJGNDBk6VwkvSOVX_pwZ_Q&_nc_ss=7f289&oh=00_AQPlv7sStJfvE-RNGLu-26cr-foj6yJ1P8ssSdoCPiC3BQ&oe=6AD58965",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/pfbid02UYwXZvRDvKEUb8a9efGxntjzCnmx5R1Pq7ksBBi19w5uGEtuHJdxrfVuVitqr73vl?__cft__[0]=AZhEbXE_NqcYg49OjIGFGqcVp5TJZF0NnWNbA2gBXo-8NEh1OzwJVrXUtylt_bv5D3GwcEwmNp-fqvpNY-9gUUaOHLNU4IUO2apI-TmBTbhXe4VG5T4Hbu7VV3sbaPOwNV9CWjIEsqhqr4bNpVmU68W0pKb62h2GTU1N59anUyGnmkaGCC25YRISaY0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#UMSA celebra 42 años formando profesionales y construyendo el futuro desde la #Informática L… Ver más #UMSA celebra 42 años formando profesionales y construyendo el futuro desde la #Informática L… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1329,7 +1337,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1399,7 +1407,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 8,
+          "score": 26,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1407,7 +1415,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
+          "score": 32,
           "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1477,9 +1485,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
+      "raw_items": 40,
       "events": 0,
-      "rejected": 39,
+      "rejected": 40,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1587,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 52,
-      "events": 52,
+      "raw_items": 51,
+      "events": 51,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1822,12 +1830,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": null
     }
   ]
 }
