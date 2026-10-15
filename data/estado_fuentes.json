@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T13:02:58-04:00",
+  "generated_at": "2026-10-15T17:24:59-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 115.3,
-    "horas_maximo_sin_datos": 1353.9
+    "horas_promedio_sin_datos": 110.8,
+    "horas_maximo_sin_datos": 1358.2
   },
   "sources": [
     {
@@ -283,13 +283,22 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xCoN5KZ5RKMQ7kNvwEmD0Y1&_nc_oc=AdpxrPeB3xNDAjUxTtsnxtjs5ZFQtB3x1BhQh4oHzB64YHrcivZiPDuyWUXN4Uw8daU&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=BaVfZMbEqiRFsmXDuFmb4w&_nc_ss=7f289&oh=00_AQPZ2_2Y9j-GnXKNFTXLWAsYUSMAYMPjGJPjSpUZ6Oh6NQ&oe=6AD720E6",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid02zchXgPYtsh9kuH3ZUZrbfHCcHj7Lf4NnTJYqtqyaBJQvbDrK4za7ynPQw4VupYVzl?__cft__[0]=AZg7RlLHy6J5sv3g9NsBwk90plEAwiDydXrzt8tmI7rZUqRm1-yzW7t0yQ-iHQghlGDD0er1aniK1ZCqY2MlEzgo3HTxM_a6tt2lXdFDoXOWm_aWBGoJY2yuSLhPW03nBsQVoN-dtpO0pr28I7atSh-y_hsLUtaYLmOztLw3l2yERmcng5JXY1plllc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡𝗟𝗮 𝗣𝗮𝘇, 𝗘𝗹 𝗔𝗹𝘁𝗼 𝘆 𝗢𝗿𝘂𝗿𝗼 𝗲𝘀𝘁𝗮́𝗻 𝗰𝗲𝗿𝗰𝗮 𝗱𝗲 𝘁𝘂 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼! Visítanos en nuestras agencias de La Paz, El Alto y Oruro para encontrar pisos, revestimientos y soluciones pensad… Ver más ¡𝗟𝗮 𝗣𝗮𝘇, 𝗘𝗹 𝗔𝗹𝘁𝗼 𝘆 𝗢𝗿𝘂𝗿𝗼 𝗲𝘀𝘁𝗮́𝗻 𝗰𝗲𝗿𝗰𝗮 𝗱𝗲 𝘁𝘂 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼! Visítanos en nuestras agencias de La Paz, El Alto y Oruro para encontrar pisos, revestimientos y soluciones pensad… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber",
@@ -606,22 +615,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_lx229NGpyYQ7kNvwEWa76C&_nc_oc=AdrSUPrc7wndAj3eo3ImKjYwK942pQQ_RWCwfqqHl6WaR83MHxzh0bQ2grrj53YSpAw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=kG967Fh8qIU8SCwmZnl2Nw&_nc_ss=7f289&oh=00_AQOwiIEOStNUTnzIVmIHywIFSLY0QgP2RxSbXJZ5NfH7qQ&oe=6AD6C433",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "festival",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid0zmKxxPS9p1TABGofXRXqMTVsfFdA2QSgXizYRYi1b7QmeZjkeRaNhNLEhHLpwtool?__cft__[0]=AZiOS0w1gV-ubAQihwFOSroeQLzY03qwDk0r04Pzb_F6kNLMeMYywVs-mlPLjvvnugVJbCMZuM8Vf9WzrxFyqOmVVVT3M-OhVuPNExR0D9eRol7quLrbXhBfvInJ1HJNCahAvdULfRiH699P-OX-I-MrtUo07UM3kPX2jU-RMSTN2wjAU-zSOzETYWc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#ArchivosAndinos l Acogemos en nuestros espacios el 𝗜𝗜 𝗘𝗻𝗰𝘂𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗔𝗿𝗰𝗵𝗶𝘃𝗼𝘀 𝘆 𝗔𝗿𝗰𝗵𝗶𝘃𝗲𝗿𝗼𝘀 𝗔𝗻𝗱𝗶𝗻𝗼𝘀, un espacio clave que reúne a destacadas personalidades, investigad… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -768,30 +768,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IY6vq6qxD3kQ7kNvwHwf6Nw&_nc_oc=AdrCBUBdFOnfrCm2I9NFu3bgTbI-2bVSEJ2YwysLzNxUjpw7xhw6HK7YfMbjTu1zRug&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=7i7cPq89NkcXbGYQ-kY3Fg&_nc_ss=7f289&oh=00_AQND2iBYa3g76PDlfOwCJ097a7JpcH3nJZuFJyhN6sS9Kg&oe=6AD6DCAA",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "taller",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/taller-t%C3%A9cnico-promueve-una-mejor-planificaci%C3%B3n-de-proyectos-de-riegoen-represen/1673664790985475/",
-          "has_image": true,
-          "text_preview": "TALLER TÉCNICO PROMUEVE UNA MEJOR PLANIFICACIÓN DE PROYECTOS DE RIEGO En representación de la Gobernación de Chuquisaca, el secretario departamental de Desarrollo Productivo, Turismo y Cultura, Ing.... TALLER TÉCNICO PROMUEVE UNA MEJOR PLANIFICACIÓN DE PROYECTOS DE RIEGO En representación de la Gobernación de Chuquisaca, el secretario departamental de... TALLER TÉCNICO PROMUEVE UNA MEJOR PLANIFICA"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid0gn3WTY6Ew4CatsjEmkBfXpyeHTqpSDvCRQztDgUH3PWvyT6DvBSkHC9QSE4DqZRAl?comment_id=1112061964561899&__cft__[0]=AZg7SNDb2iC-pQPra44L7KgRGK0bEUgCLnDqEdawMKaKqiSuYeLdAprfCEm-v5pwwC-z-fA3UeUYlSSsWpjICVyHbntpfi58nskuBZPAq03XQWYSV96PK9Wi1GyOBTHu4UvdRfGTyWYbpPzhwb_512yihaE2l67j9mvemhRIdtzYmQTbFFFO0SQahDw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Excelente la planificación en proyectos de riego será beneficioso para los municipios. A seguir trabajando TodosX Chuquisaca T.x.Ch Rafael Alex Excelente la planificación en proyectos de riego será beneficioso para los municipios. A seguir trabajando TodosX Chuquisaca T.x.Ch"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_oruro",
@@ -836,13 +819,30 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jH2tZ7wWeNsQ7kNvwEb2X2J&_nc_oc=Adol0GYYE_gjunv83Kb3mTK_mFcrTxNVyZjcMtnmR2yaXSsA3IHt8a7IUdH0dlXSbYk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=LpQmq3wk5bpVQ_9Pw3K5OA&_nc_ss=7f289&oh=00_AQPiKEm0yVw-8POri3U43vN9pbDl7r7RZclUXleGDGcvdA&oe=6AD70690",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02M8Da6JfPx1FV3y2VRxqRdpLPtyiH4AS8eVCUSFKFJUd7pNoizxXEJ62kPqbNv6G3l?__cft__[0]=AZgKuorhNjbi5uPNVTwTdC_9iDvoesnsP1AprXaIcYSwcgMCvXyMq0HqZlJndA9SgMPJ_im8PMQa6sL8gkVOPDxxcaHQuo6FOYXMIoXR6eOxRdeqJui-_iEf063LmiMm5PRc27bSVz6LSMRkzLhVsOsbbVyHVV52uQiMSEAOINgudaXJNX-RBDc5A5ZGi4NF_4gbK2Y67A&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02M8Da6JfPx1FV3y2VRxqRdpLPtyiH4AS8eVCUSFKFJUd7pNoizxXEJ62kPqbNv6G3l?comment_id=584098196711804&__cft__[0]=AZgKuorhNjbi5uPNVTwTdC_9iDvoesnsP1AprXaIcYSwcgMCvXyMq0HqZlJndA9SgMPJ_im8PMQa6sL8gkVOPDxxcaHQuo6FOYXMIoXR6eOxRdeqJui-_iEf063LmiMm5PRc27bSVz6LSMRkzLhVsOsbbVyHVV52uQiMSEAOINgudaXJNX-RBDc5A5ZGi4NF_4gbK2Y67A&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_beni",
@@ -1006,13 +1006,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AP4taXxVpCEQ7kNvwFnHdmM&_nc_oc=Adosr7NKpPrcgQxV2AY-JQT42rMDCl-qGEsG2y2pss-GOZAyS7M4NmcjP6gHrWxZy68&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Izx3k_ZJQ_EtzZt9MOdE5A&_nc_ss=7f289&oh=00_AQOlx9CbG6SuySm-_adMxCF2MVbUy1u4ZDeXtodmNaSpkQ&oe=6AD723EA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "cine",
+          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02LSTuKJJLBVnieH3qGttaf7ZegvSEVqrM7NttKkTDGpp4PbCvT6ZcW8jRDbU5K22nl?__cft__[0]=AZj3xaEUc94gdQbhw8Tph5aGaFSwUWZwKnNM3w2SafSH9uru4g_blSOwLUjd4hRYYr9uYZk0AIVgEG-91R8i987y9X5S3UFx37GzNIczkObMZ86HrR4jovGF5Kzg8eYeSXcQ71R5IgvNhAIY0Ljn8GgSOi-fP4qusIDcrw34c3L-mw7rOOx8co9aj5A&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "CULTURA, HISTORIA Y MEMORIA El Gobierno Autónomo Departamental de Tarija, a través de la Dirección de Cultura y Patrimonio, llevó adelante la proyección especial del … Ver más CULTURA, HISTORIA Y MEMORIA El Gobierno Autónomo Departamental de Tarija, a través de la Dirección de Cultura y Patrimonio, llevó adelante la proyección especial del … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1125,13 +1134,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Odw2KNZan3oQ7kNvwGwhCX7&_nc_oc=AdrIhaIGuwDl9iyFEOuvMr7lVZt2goOJ5ixeFhy9k6L7qj7ODySyFhTwJ6ziEyq82Yo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=sOMUbqqskJQM-KknKrSY4A&_nc_ss=7f289&oh=00_AQOPk9SYoAWIXeoZYiZ8_d-eE4v6IZQIeiKUVHEpLW8Hhw&oe=6AD6E924",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1393,17 +1402,9 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 33,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/tendencias",
-          "has_image": true,
-          "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
-        },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 39,
@@ -1419,6 +1420,14 @@
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 22,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "has_image": true,
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1518,8 +1527,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 50,
-      "events": 50,
+      "raw_items": 40,
+      "events": 40,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1552,8 +1561,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1586,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 61,
-      "events": 61,
+      "raw_items": 44,
+      "events": 44,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,8 +1612,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 0,
-      "events": 0,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1620,8 +1629,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1738,9 +1747,9 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 4,
+      "raw_items": 3,
       "events": 1,
-      "rejected": 3,
+      "rejected": 2,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
@@ -1757,14 +1766,6 @@
           "url": "https://www.uto.edu.bo/la-carrera-de-derecho-san-agustin-impulsa-su-feria-anual-sobre-nuevas-tecnologias-aplicadas-a-la-administracion-de-justicia/",
           "has_image": true,
           "text_preview": "Oruro, octubre de 2026. — Frente a las transformaciones tecnológicas globales y la modernización de los sistemas legales, la Carrera de Derecho “San Agustín” , dependiente de la Facultad de Derecho, Ciencias Políticas y Sociales (FDCPS) de la Universidad Técnica de Oruro (UTO) , lleva a cabo su tradicional feria anual sobre Tecnologías de la Información y Comunicación (TIC) aplicadas al Derecho . "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "feria",
-          "url": "https://www.uto.edu.bo/universitarios-de-derecho-san-agustin-exponen-la-historia-y-saberes-del-pueblo-baure-en-la-feria-de-pluralismo-juridico-e-interculturalidad/",
-          "has_image": true,
-          "text_preview": "Oruro, octubre de 2026. — En el marco del fortalecimiento formativo sobre la diversidad cultural y el marco constitucional boliviano, estudiantes de la Carrera de Derecho “San Agustín” , dependiente de la Facultad de Derecho, Ciencias Políticas y Sociales (FDCPS) de la Universidad Técnica de Oruro (UTO) , llevaron adelante una destacada exposición temática centrada en la etnia Baure , originaria d"
         }
       ],
       "error": null
