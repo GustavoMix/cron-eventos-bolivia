@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:30:14-04:00",
+  "generated_at": "2026-10-15T13:02:58-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 116.5,
-    "horas_maximo_sin_datos": 1348.3
+    "horas_promedio_sin_datos": 115.3,
+    "horas_maximo_sin_datos": 1353.9
   },
   "sources": [
     {
@@ -62,30 +62,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-Y5zylWFiB0Q7kNvwG8A4MB&_nc_oc=AdqLBxIj-LmIbzawNzbrUpVH9TEISrWAsNiQmWcKIc3j34QpHKyvOj2_7TkFd8Icd-o&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=iiHj7xWzLSO9RcZbnAPx5A&_nc_ss=7f289&oh=00_AQNf925-R5AcJ2mmXlBCcZIfHhOkwA_lNmvaiPEMfZq7Iw&oe=6AD693B6",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZiptD2_ED1WB9oCDjwbzD535OKeGFQMBAzkgHadKgh65RtdXOPhQAfdtjCw607oieux7xD88FBE_1k9aYATYWEDhJV6yRBB_Yb1pZDBaWkg94obU7zahxj6h5s25TaLAt24V2nSB-uj-CDM_Vk517mc-GKfypvWeYfxFJYaz6c2XOk8qJtqoZLbpYLHWzDEAXkV&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZiptD2_ED1WB9oCDjwbzD535OKeGFQMBAzkgHadKgh65RtdXOPhQAfdtjCw607oieux7xD88FBE_1k9aYATYWEDhJV6yRBB_Yb1pZDBaWkg94obU7zahxj6h5s25TaLAt24V2nSB-uj-CDM_Vk517mc-GKfypvWeYfxFJYaz6c2XOk8qJtqoZLbpYLHWzDEAXkV&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -521,22 +504,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zaOYchRx-yUQ7kNvwEblo-I&_nc_oc=Adqj_81V9yCsUUzs6vDuB6LoZkFLAwpsf5nxtiYIe2B1ICbFXLrESp5WGGCY3X8DauA&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=_tggH0mf-lqbnunuhS5K2Q&_nc_ss=7f289&oh=00_AQOWMnfkHbDpA0kZCGOoqxvFNapYZ6wgsFaKSiyd4fiXsg&oe=6AD68177",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 2,
-          "category": "conferencia",
-          "url": "https://www.facebook.com/reel/1843346790035986/?__cft__[0]=AZjhO_XiQpl1Inz4lLTm3gNLY9CswJwpU-ZjLDC346abTElxTiC8ZQKqIKGVddju_5agRQ0yNY8-BxkdPvsKZsBZJ61gwroPAmWqvf74kBrokRzNQZKdH3lXCUY8RNdL0rcQC4V-tEDBtNNaFQgcAqgDTY6EE9hnu0JnrPJxivQxPIoy02AW3fNVDKg-5Xz3DDX9&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#GrupoFides | #FidesCochabamba RESUMEN DE NOTICIAS 14/ OCTUBRE/2026 Estas son las noticias más importantes de la jornada. Mantente informado siempre por Radio Fides C… Ver más #GrupoFides | #FidesCochabamba RESUMEN DE NOTICIAS 14/ OCTUBRE/2026 Estas son las noticias más importantes de la jornada. Mantente informado siempre por Radio Fides C… Ver más Tenemos problemas para reproducir este video. Má"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ministerio_culturas",
@@ -632,13 +606,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_lx229NGpyYQ7kNvwEWa76C&_nc_oc=AdrSUPrc7wndAj3eo3ImKjYwK942pQQ_RWCwfqqHl6WaR83MHxzh0bQ2grrj53YSpAw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=kG967Fh8qIU8SCwmZnl2Nw&_nc_ss=7f289&oh=00_AQOwiIEOStNUTnzIVmIHywIFSLY0QgP2RxSbXJZ5NfH7qQ&oe=6AD6C433",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "festival",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid0zmKxxPS9p1TABGofXRXqMTVsfFdA2QSgXizYRYi1b7QmeZjkeRaNhNLEhHLpwtool?__cft__[0]=AZiOS0w1gV-ubAQihwFOSroeQLzY03qwDk0r04Pzb_F6kNLMeMYywVs-mlPLjvvnugVJbCMZuM8Vf9WzrxFyqOmVVVT3M-OhVuPNExR0D9eRol7quLrbXhBfvInJ1HJNCahAvdULfRiH699P-OX-I-MrtUo07UM3kPX2jU-RMSTN2wjAU-zSOzETYWc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#ArchivosAndinos l Acogemos en nuestros espacios el 𝗜𝗜 𝗘𝗻𝗰𝘂𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗔𝗿𝗰𝗵𝗶𝘃𝗼𝘀 𝘆 𝗔𝗿𝗰𝗵𝗶𝘃𝗲𝗿𝗼𝘀 𝗔𝗻𝗱𝗶𝗻𝗼𝘀, un espacio clave que reúne a destacadas personalidades, investigad… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -785,13 +768,30 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IY6vq6qxD3kQ7kNvwHwf6Nw&_nc_oc=AdrCBUBdFOnfrCm2I9NFu3bgTbI-2bVSEJ2YwysLzNxUjpw7xhw6HK7YfMbjTu1zRug&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=7i7cPq89NkcXbGYQ-kY3Fg&_nc_ss=7f289&oh=00_AQND2iBYa3g76PDlfOwCJ097a7JpcH3nJZuFJyhN6sS9Kg&oe=6AD6DCAA",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "taller",
+          "url": "https://www.facebook.com/GobChuquisaca/posts/taller-t%C3%A9cnico-promueve-una-mejor-planificaci%C3%B3n-de-proyectos-de-riegoen-represen/1673664790985475/",
+          "has_image": true,
+          "text_preview": "TALLER TÉCNICO PROMUEVE UNA MEJOR PLANIFICACIÓN DE PROYECTOS DE RIEGO En representación de la Gobernación de Chuquisaca, el secretario departamental de Desarrollo Productivo, Turismo y Cultura, Ing.... TALLER TÉCNICO PROMUEVE UNA MEJOR PLANIFICACIÓN DE PROYECTOS DE RIEGO En representación de la Gobernación de Chuquisaca, el secretario departamental de... TALLER TÉCNICO PROMUEVE UNA MEJOR PLANIFICA"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid0gn3WTY6Ew4CatsjEmkBfXpyeHTqpSDvCRQztDgUH3PWvyT6DvBSkHC9QSE4DqZRAl?comment_id=1112061964561899&__cft__[0]=AZg7SNDb2iC-pQPra44L7KgRGK0bEUgCLnDqEdawMKaKqiSuYeLdAprfCEm-v5pwwC-z-fA3UeUYlSSsWpjICVyHbntpfi58nskuBZPAq03XQWYSV96PK9Wi1GyOBTHu4UvdRfGTyWYbpPzhwb_512yihaE2l67j9mvemhRIdtzYmQTbFFFO0SQahDw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Excelente la planificación en proyectos de riego será beneficioso para los municipios. A seguir trabajando TodosX Chuquisaca T.x.Ch Rafael Alex Excelente la planificación en proyectos de riego será beneficioso para los municipios. A seguir trabajando TodosX Chuquisaca T.x.Ch"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_oruro",
@@ -972,22 +972,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=e1qeINW9I6gQ7kNvwHKeLJj&_nc_oc=AdoX9GQxLhD9sDhxFnoxc7kXgYlZnFIu13HtzeAzb4mqwvZdo1-_B351WpliVI8RTVw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=muGSzVFBi-IfuDyc7nOaHA&_nc_ss=7f289&oh=00_AQM65gDjr8o_D6L0lX754kmmlu_wMXzPaF-MhY3Wk4ZhHw&oe=6AD69C97",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0234g2o5c5BnZVKiMXoJsnYD44eN6ceTyHfcvhGvdiSJWPu65d2yqe8gd5dx6PCNVnl?__cft__[0]=AZh5wG1V5dGM-uy10J0NFwJgBuPRcgukOp4Pivd3sfASAxUlTXNwbVh3oVCLRmrWDl_cIA3tR1-aer6PnAZCSB47D-HqbYlHIVqlb78kTIVQkELVpqeEsZioTjhuKo3bk2k_RU3POOHD5XH44F2y0LyvvPV5MtT9p2mXk_cVjlWBWujVFUAhj6TY_lHSQstzVfMsIl4&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "\"Travesía excéntrica: el mundo fuera de su centro\"… Ver más SEDYHERIDA.BLOGSPOT.COM La sed y la herida: Travesía excéntrica: el mundo fuera de su centro"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1134,13 +1125,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Odw2KNZan3oQ7kNvwGwhCX7&_nc_oc=AdrIhaIGuwDl9iyFEOuvMr7lVZt2goOJ5ixeFhy9k6L7qj7ODySyFhTwJ6ziEyq82Yo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=sOMUbqqskJQM-KknKrSY4A&_nc_ss=7f289&oh=00_AQOPk9SYoAWIXeoZYiZ8_d-eE4v6IZQIeiKUVHEpLW8Hhw&oe=6AD6E924",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1255,8 +1246,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 12,
-      "events": 11,
+      "raw_items": 13,
+      "events": 12,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1402,9 +1393,34 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 13,
-      "rejected": 0,
-      "rejected_samples": [],
+      "events": 2,
+      "rejected": 11,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 33,
+          "category": "festival",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 39,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 El hijo de Vargas Llosa es designado como embajador de Perú en EE.UU. Ver más 2 La Alcaldía comienza la demolición de casas y"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 34,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+        }
+      ],
       "error": null
     },
     {
@@ -1502,8 +1518,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 35,
-      "events": 35,
+      "raw_items": 50,
+      "events": 50,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1536,8 +1552,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1570,8 +1586,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 48,
-      "events": 48,
+      "raw_items": 61,
+      "events": 61,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1680,10 +1696,18 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 6,
-      "events": 2,
-      "rejected": 4,
+      "raw_items": 7,
+      "events": 0,
+      "rejected": 7,
       "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "turismo",
+          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
+          "has_image": false,
+          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
+        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 8,
@@ -1699,14 +1723,6 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
           "has_image": false,
           "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/desconcentradas",
-          "has_image": false,
-          "text_preview": "0 % Normativa - Desconcentradas MANUAL DE ORGANIZACION Y FUNCIONES - PROCEDIMIENTOS PROSOL MANUAL - PROSOL - RESOLUCION 371.pdf Descarga Detalles Manual de Organización y Funciones - Programa GNV - 2023 MOF - PROGRAMA - GNV - 2023.pdf Descarga Detalles Manual de Organización y Funciones - Servicio Departamental de Agropecuario MOF - SEDAG 2023.pdf Descarga Detalles Manual de Organización y Funcion"
         }
       ],
       "error": null
