@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T00:40:22-04:00",
+  "generated_at": "2026-10-15T07:30:14-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 117.2,
-    "horas_maximo_sin_datos": 1341.5
+    "horas_promedio_sin_datos": 116.5,
+    "horas_maximo_sin_datos": 1348.3
   },
   "sources": [
     {
@@ -62,13 +62,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-Y5zylWFiB0Q7kNvwG8A4MB&_nc_oc=AdqLBxIj-LmIbzawNzbrUpVH9TEISrWAsNiQmWcKIc3j34QpHKyvOj2_7TkFd8Icd-o&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=iiHj7xWzLSO9RcZbnAPx5A&_nc_ss=7f289&oh=00_AQNf925-R5AcJ2mmXlBCcZIfHhOkwA_lNmvaiPEMfZq7Iw&oe=6AD693B6",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZiptD2_ED1WB9oCDjwbzD535OKeGFQMBAzkgHadKgh65RtdXOPhQAfdtjCw607oieux7xD88FBE_1k9aYATYWEDhJV6yRBB_Yb1pZDBaWkg94obU7zahxj6h5s25TaLAt24V2nSB-uj-CDM_Vk517mc-GKfypvWeYfxFJYaz6c2XOk8qJtqoZLbpYLHWzDEAXkV&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZiptD2_ED1WB9oCDjwbzD535OKeGFQMBAzkgHadKgh65RtdXOPhQAfdtjCw607oieux7xD88FBE_1k9aYATYWEDhJV6yRBB_Yb1pZDBaWkg94obU7zahxj6h5s25TaLAt24V2nSB-uj-CDM_Vk517mc-GKfypvWeYfxFJYaz6c2XOk8qJtqoZLbpYLHWzDEAXkV&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -504,13 +521,22 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zaOYchRx-yUQ7kNvwEblo-I&_nc_oc=Adqj_81V9yCsUUzs6vDuB6LoZkFLAwpsf5nxtiYIe2B1ICbFXLrESp5WGGCY3X8DauA&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=_tggH0mf-lqbnunuhS5K2Q&_nc_ss=7f289&oh=00_AQOWMnfkHbDpA0kZCGOoqxvFNapYZ6wgsFaKSiyd4fiXsg&oe=6AD68177",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 2,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/reel/1843346790035986/?__cft__[0]=AZjhO_XiQpl1Inz4lLTm3gNLY9CswJwpU-ZjLDC346abTElxTiC8ZQKqIKGVddju_5agRQ0yNY8-BxkdPvsKZsBZJ61gwroPAmWqvf74kBrokRzNQZKdH3lXCUY8RNdL0rcQC4V-tEDBtNNaFQgcAqgDTY6EE9hnu0JnrPJxivQxPIoy02AW3fNVDKg-5Xz3DDX9&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#GrupoFides | #FidesCochabamba RESUMEN DE NOTICIAS 14/ OCTUBRE/2026 Estas son las noticias más importantes de la jornada. Mantente informado siempre por Radio Fides C… Ver más #GrupoFides | #FidesCochabamba RESUMEN DE NOTICIAS 14/ OCTUBRE/2026 Estas son las noticias más importantes de la jornada. Mantente informado siempre por Radio Fides C… Ver más Tenemos problemas para reproducir este video. Má"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ministerio_culturas",
@@ -878,22 +904,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=exQv-l2TUYEQ7kNvwGpu3q3&_nc_oc=Adrz_YXyCxZ7Nutiu0iFsOZEf8FmH9YrA94sCd47_PcxpbM9XiX6d9cBjbKuATXj8UM&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=ui-L5o9o0CXxAHM0TBeBpQ&_nc_ss=7f289&oh=00_AQMIQ69WkG6LJGWw9vSpLuz3esAyZH40N8ZAc5SxfkhyNw&oe=6AD62C27",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid03w28JVoEkwQubefZGWpoPcbUjqKM2ZinF7XSkex5XLCYagbGksN8Whpg9b4DJfdql?__cft__[0]=AZiyZEAqRNfXq5BK2z0KeEH9ClKarcjzsNWflC5Y14hCAQjA7XeFvzbgLdw5y-JNYOH47MfS9-0FV3QzfZULM_ARn_0GrxG8a9uWijsaQrCQcfT-Xr51RufDMOutLjmvDbxB8xOFYrtg-9g5dktwnrpm9wD-QsyetLragb0oiZ407FqzDmoUIf2bG4o&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Cultura | HUELLAS DEL TIEMPO … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -955,13 +972,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=e1qeINW9I6gQ7kNvwHKeLJj&_nc_oc=AdoX9GQxLhD9sDhxFnoxc7kXgYlZnFIu13HtzeAzb4mqwvZdo1-_B351WpliVI8RTVw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=muGSzVFBi-IfuDyc7nOaHA&_nc_ss=7f289&oh=00_AQM65gDjr8o_D6L0lX754kmmlu_wMXzPaF-MhY3Wk4ZhHw&oe=6AD69C97",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0234g2o5c5BnZVKiMXoJsnYD44eN6ceTyHfcvhGvdiSJWPu65d2yqe8gd5dx6PCNVnl?__cft__[0]=AZh5wG1V5dGM-uy10J0NFwJgBuPRcgukOp4Pivd3sfASAxUlTXNwbVh3oVCLRmrWDl_cIA3tR1-aer6PnAZCSB47D-HqbYlHIVqlb78kTIVQkELVpqeEsZioTjhuKo3bk2k_RU3POOHD5XH44F2y0LyvvPV5MtT9p2mXk_cVjlWBWujVFUAhj6TY_lHSQstzVfMsIl4&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "\"Travesía excéntrica: el mundo fuera de su centro\"… Ver más SEDYHERIDA.BLOGSPOT.COM La sed y la herida: Travesía excéntrica: el mundo fuera de su centro"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1023,22 +1049,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lwZt9yxuOPsQ7kNvwF5khW4&_nc_oc=Adq7q3uB-Ih4DQNqW66U5gtPwJzql67TQJ4lIcAwMzh-Glow-febdsp6n-76z5Gb7ew&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1S4-ZUv6UEZcqFG4W_XJ0Q&_nc_ss=7f289&oh=00_AQMIr6QXT2-9Piv6HPqtpX01vl7dR7dK-XdFDbNx8pzDqA&oe=6AD62ECF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "taller",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/en-el-goethe-institut-la-paz-no-paramos-ahora-continuamos-junto-a-las-y-los-estu/1553800130119259/",
-          "has_image": true,
-          "text_preview": "En el Goethe-Institut La Paz no paramos. Ahora continuamos junto a las y los estudiantes del Colegio Ayacucho con el taller “Cómo producir un pódcast”, una experiencia formativa dirigida a jóvenes... En el Goethe-Institut La Paz no paramos. Ahora continuamos junto a las y los estudiantes del Colegio Ayacucho con el taller “Cómo producir un pódcast”,... En el Goethe-Institut La Paz no paramos. Ahor"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1185,22 +1202,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/802121447_1509917531172107_3755553418203842592_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oyh5g9GdfZkQ7kNvwHJa6nD&_nc_oc=AdqFKWBRuHfXtXhAC3O6KWHlnX8LRwPjhSMKYc0GZTkNJ2y0RiM76HR-ALac34ZLiao&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=7AGe7GGoUo8h9oGcRbZ5aw&_nc_ss=7f289&oh=00_AQOEFIFRknKHjmS9-ncc8l9wJKQP6S9dFP_vkxbQF6Gt3Q&oe=6AD6185C",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1096557356626494/?__cft__[0]=AZjEO6I_pfWt7v8Xqbmclr2GTPTiZzo0aXoDG3vOV7Ggkh7T8aMbb_FE_6hAxY1C2_yTw7pliQxwzNs0c-snQQaWkipBhyII65nB5tid0w4PxZ6IAAVnebmWcP1Fp_QnbvWqZv35J8ylYZqObk6T6zsT5rIgA-0Wldmz1VjyevAyq-pyKRPPwfYqj227wkwjEj5L&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La solidaridad también salva vidas.… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1562,8 +1570,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 49,
-      "events": 49,
+      "raw_items": 48,
+      "events": 48,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
