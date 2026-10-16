@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T00:34:12-04:00",
+  "generated_at": "2026-10-16T07:26:20-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_alianza_francesa_lapaz",
       "fb_gam_cbba",
       "fb_gob_tarija",
       "fb_lostiempos",
@@ -16,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 113.3,
-    "horas_maximo_sin_datos": 1365.4
+    "horas_promedio_sin_datos": 118.8,
+    "horas_maximo_sin_datos": 1372.3
   },
   "sources": [
     {
@@ -46,13 +47,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3OBTqtK-x7oQ7kNvwGn-wks&_nc_oc=AdrpcPulVCKXyXW5Y8bO3us59wJVTyrfSoESHkT2q6TWWTtBBZWNuhbwcIGXhY1S3wY&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=A6EjTKCujZJjfamj9ZRljQ&_nc_ss=7f289&oh=00_AQNTXm9Bm_wUR9ZURmRnXp6zt6abmAG5qWL-NvHhHaSVpQ&oe=6AD7F575",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "nightlife",
+          "url": "https://es-la.facebook.com/login",
+          "has_image": true,
+          "text_preview": "NO ES UNA FIESTA MÁS, ES ARMAGEDÓN con la mejor música de los 80s - 90s y 2000 … Ver más NO ES UNA FIESTA MÁS, ES ARMAGEDÓN con la mejor música de los 80s - 90s y 2000 … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -743,22 +753,13 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HrC_ykpDNwkQ7kNvwFQzy5l&_nc_oc=AdphbxEMBoC8Qri_aoq_v-cRjO5CJzS3KaZ7h2kuGtdwYNcr8l-Fzt09pIJJNoXXG80&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=hTP4_S3tPgdTeKlULiexnQ&_nc_ss=7f289&oh=00_AQPblzbunzw0mLavVTQXtZ5QtaO0UxkyWkjeyXc2rqW-eQ&oe=6AD7846A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "infantil",
-          "url": "https://www.facebook.com/reel/1773642380521190/?__cft__[0]=AZilGl-vHInHA-LWpy7i5v6vAS_IphbasTy-rxubksQ61gViq0PC8M18sxcZByKaQmhIDi0vbtiLoAVEAM9BYrQCnD5ytTRLWzoiUBzOazFr6NnVEJWpaQc26DFoGgB-x6wH-KIvXVcCA6GbUhput_a9a086w8SCvJKmo3eMeLQmG7G7Q4y1cqdPYVbn61p3Zer9&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "𝗔𝗟𝗖𝗔𝗟𝗗𝗜́𝗔 𝗔𝗡𝗨𝗡𝗖𝗜𝗔 𝗔𝗖𝗖𝗜𝗢𝗡𝗘𝗦 𝗣𝗔𝗥𝗔 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗥 𝗘𝗟 𝗖𝗢𝗡𝗧𝗥𝗢𝗟 𝗗𝗘 𝗣𝗥𝗘𝗖𝗜𝗢𝗦 𝗥𝗘𝗙𝗘𝗥𝗘𝗡𝗖𝗜𝗔𝗟 𝗗𝗘 𝗟𝗔 𝗖𝗔𝗡𝗔𝗦𝗧𝗔 𝗙𝗔𝗠𝗜𝗟𝗜𝗔𝗥 El alcalde de Cobija, Diego Suárez, anunció cuatro acciones fundam… Ver más 𝗔𝗟𝗖𝗔𝗟𝗗𝗜́𝗔 𝗔𝗡𝗨𝗡𝗖𝗜𝗔 𝗔𝗖𝗖𝗜𝗢𝗡𝗘𝗦 𝗣𝗔𝗥𝗔 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗥 𝗘𝗟 𝗖𝗢𝗡𝗧𝗥𝗢𝗟 𝗗𝗘 𝗣𝗥𝗘𝗖𝗜𝗢𝗦 𝗥𝗘𝗙𝗘𝗥𝗘𝗡𝗖𝗜𝗔𝗟 𝗗𝗘 𝗟𝗔 𝗖𝗔𝗡𝗔𝗦𝗧𝗔 𝗙𝗔𝗠𝗜𝗟𝗜𝗔𝗥 El alcalde de Cobija, Diego Suárez, anunció cuatro acciones fundam… Ver más Tenemos problemas para reproducir este video. Má"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -809,7 +810,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Departamental de Tarija 91 mil seguidores • 16 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento '"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gob_pando",
@@ -906,12 +907,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de La Paz 45 mil seguidores • 119 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1041,22 +1042,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VDCdcytwD5oQ7kNvwG05k8v&_nc_oc=AdrwzmwkmmMLh7ronBzztWMMlXR0ng1Yr8suoI3-wIiMWMcsbp1tVstrA0Gb385RvdQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=o1yvELatieGzDQAV5gYngg&_nc_ss=7f289&oh=00_AQN3QsquMRgG1E3jlPPmyVB8A0nD9x1r3uRlq4MLNzDCsg&oe=6AD76015",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/1152727030544743:1152727030544743?__cft__[0]=AZg0pHiGcP8ynbH5GOyoV89kZUTr75dnZ8JQ75ljNbsrk7R_VtaOU3VvO-f8sCRv6EQmazxKIOoLmOpCbm3HCnA2zg4NSstlUUUgyG8V0ftWp95VijJ_EWqj-xytEmGF25lzigSkkL3UPGiF8PIAyWaSFBECgPAwUHg7XVMY5YBJmt1A2NAxW2tJB6ULSg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Alianza Francesa de Cochabamba actualizó su foto de portada. hace 7 horas 7 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1386,12 +1378,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 36,
+          "score": 54,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1399,7 +1391,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
+          "score": 52,
           "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
