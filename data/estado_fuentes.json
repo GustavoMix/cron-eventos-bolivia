@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T07:26:20-04:00",
+  "generated_at": "2026-10-16T12:42:13-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,17 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alianza_francesa_lapaz",
       "fb_gam_cbba",
-      "fb_gob_tarija",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 118.8,
-    "horas_maximo_sin_datos": 1372.3
+    "horas_promedio_sin_datos": 117.4,
+    "horas_maximo_sin_datos": 1377.5
   },
   "sources": [
     {
@@ -47,22 +45,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3OBTqtK-x7oQ7kNvwGn-wks&_nc_oc=AdrpcPulVCKXyXW5Y8bO3us59wJVTyrfSoESHkT2q6TWWTtBBZWNuhbwcIGXhY1S3wY&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=A6EjTKCujZJjfamj9ZRljQ&_nc_ss=7f289&oh=00_AQNTXm9Bm_wUR9ZURmRnXp6zt6abmAG5qWL-NvHhHaSVpQ&oe=6AD7F575",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "nightlife",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": true,
-          "text_preview": "NO ES UNA FIESTA MÁS, ES ARMAGEDÓN con la mejor música de los 80s - 90s y 2000 … Ver más NO ES UNA FIESTA MÁS, ES ARMAGEDÓN con la mejor música de los 80s - 90s y 2000 … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -804,13 +793,30 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bhT6CeVQhcQQ7kNvwF0PSrx&_nc_oc=Adp_RP90-YdVx9-TDCBatP2g_0aL1T4p8UfLzoc2JWJ7U661TXF8hvd6S5s4yhBXMO0&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=gO9GCN9IQVDdsQtYLHflLQ&_nc_ss=7f289&oh=00_AQPZQbOhfT8w9Gaf2L9hTOdqlPRc7ITV4HqU0_gN_4nwEA&oe=6AD83BE7",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2510547992689020/?__cft__[0]=AZi7HUDgEVdMZpJPVWjzWcHEG65qc7EUh5xDVbqqZnTkbJI3mhWO_Dee4FkKWQn8Ko8fB-r4jkfKAF3mIyLyrj3Pi3YLphkhM2Z4KlnhCjAdCgrL6vkiPGEzNbt8FII6wRnhjfNxm083OJlajLvCf5T9EZgtCsrRUReLhBG4vwIhIfZOGBLJ6w0rMWLZ5iUe1wTo&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Desde la Gobernación de Tarija, hemos decidido tomar acciones para finalizar el contrato con ENDE y revertir una injusticia histórica con nuestro departamento. El agu… Ver más Además buscar proyectos de reciclaje también reduciría la basura y la contaminación de rios Tenemos problemas para reproducir este video. Más información Ver más comentarios Norma Flores Lopez"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2510547992689020/?comment_id=1142444158725796&__cft__[0]=AZi7HUDgEVdMZpJPVWjzWcHEG65qc7EUh5xDVbqqZnTkbJI3mhWO_Dee4FkKWQn8Ko8fB-r4jkfKAF3mIyLyrj3Pi3YLphkhM2Z4KlnhCjAdCgrL6vkiPGEzNbt8FII6wRnhjfNxm083OJlajLvCf5T9EZgtCsrRUReLhBG4vwIhIfZOGBLJ6w0rMWLZ5iUe1wTo&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Además buscar proyectos de reciclaje también reduciría la basura y la contaminación de rios Norma Flores Lopez"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_pando",
@@ -906,13 +912,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uE-I5qIiRm4Q7kNvwGkU6SE&_nc_oc=AdrHpi5f52DHoM5FdQsN9e_XmEfvTTcv0f5qHRR9MOic4NL0NwxRi_CT4I1t6pQGrfs&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=amgGlGwpgHvjIAFeTVMwSQ&_nc_ss=7f289&oh=00_AQMoJ02z41p599i-GIM8BSi7KbpVq0k9l-3zxbJpUMshXA&oe=6AD823C7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de La Paz 45 mil seguidores • 119 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/aflapaz/posts/convocatoria-abierta-2027-la-galerie-de-la-alianza-francesa-de-la-paz-invita-a-a/1560254822809702/",
+          "has_image": true,
+          "text_preview": "Convocatoria abierta 2027! ✨🎨 La Galerie de la Alianza Francesa de La Paz invita a artistas y gestores culturales a postular sus proyectos expositivos de artes visuales para la gestión 2027. 🖼️ Un... Convocatoria abierta 2027! ✨🎨 La Galerie de la Alianza Francesa de La Paz invita a artistas y gestores culturales a postular sus proyectos expositivos de... Convocatoria abierta 2027! La Galerie de la"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1059,13 +1074,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WRP59isNt8EQ7kNvwHYhNR3&_nc_oc=AdpqUEyERKZ3LDLS3JVq5bEZtvnMfUQv2AFhKZwaMOO58WTtWgzVxkfKYtqNjprYW54&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=cekgVjJz1pASaOIFj5ULmQ&_nc_ss=7f289&oh=00_AQPVIT11ePiVbOkg59iD9Lv9TCPPzuPUl8zrMs7Y-cb_Fg&oe=6AD80B52",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0GJ6Sfgfe7WwkFF7KgEiTUUNyGnYCQhm49htco7SUBgSvx9s3fyk8S9hsyvbhmdJSl?__cft__[0]=AZjoH8JZckbMqZjxpDMmNAHU7AlMzbjqdFeNpwnzzpzVRU0uGyYbh8GFyk8ukt4-_UjIcdiUDNP_RsXkjFqkhCIJMpAgF5mrk0kSh6mHyHyRNsyVv1br8xCWV1rPzrpfZds3FMsIs8Xe_cmNNpp667qFRQAcETpR0QCyf95DN9kj1FhNWfZsVFdkX4E&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Ellos ya están en Francia! ¿Y tú, qué esperas para dar el primer paso? … Ver más Ellos ya están en Francia! ¿Y tú, qué esperas para dar el primer paso? … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1383,7 +1407,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
+          "score": 2,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1391,7 +1415,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
+          "score": 10,
           "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1399,11 +1423,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
-          "category": "deporte",
+          "score": 44,
+          "category": "gastronomia",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 La Alcaldía comienza la demolición de casas y de antiguos ambientes de la UMSS en la Av. Oquendo Ver más 2 Gobierno y chofere"
+          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
         }
       ],
       "error": null
@@ -1723,25 +1747,25 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 3,
-      "events": 1,
+      "raw_items": 2,
+      "events": 0,
       "rejected": 2,
       "rejected_samples": [
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 18,
+          "score": 24,
           "category": "concierto",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "Becas Google Career Launchpad 2026 pago qr Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitid"
         },
         {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "feria",
-          "url": "https://www.uto.edu.bo/la-carrera-de-derecho-san-agustin-impulsa-su-feria-anual-sobre-nuevas-tecnologias-aplicadas-a-la-administracion-de-justicia/",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 50,
+          "category": "tecnologia",
+          "url": "https://www.uto.edu.bo/la-uto-y-oruro-inauguran-expoteco-2026-la-feria-tecnica-tecnologica-y-comercial-mas-importante-del-occidente-boliviano/",
           "has_image": true,
-          "text_preview": "Oruro, octubre de 2026. — Frente a las transformaciones tecnológicas globales y la modernización de los sistemas legales, la Carrera de Derecho “San Agustín” , dependiente de la Facultad de Derecho, Ciencias Políticas y Sociales (FDCPS) de la Universidad Técnica de Oruro (UTO) , lleva a cabo su tradicional feria anual sobre Tecnologías de la Información y Comunicación (TIC) aplicadas al Derecho . "
+          "text_preview": "Oruro, 16 de octubre de 2026. — En una jornada festiva y de alto impacto para la reactivación productiva y la integración económica regional, se llevó a cabo el acto formal de inauguración de Expoteco 2026 , la feria de exposición técnica, tecnológica, comercial e industrial más representativa del occidente del país, organizada bajo el liderazgo de la Universidad Técnica de Oruro (UTO) a través de"
         }
       ],
       "error": null
