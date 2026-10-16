@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T17:24:59-04:00",
+  "generated_at": "2026-10-16T00:34:12-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,14 +9,15 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_gam_cbba",
+      "fb_gob_tarija",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 110.8,
-    "horas_maximo_sin_datos": 1358.2
+    "horas_promedio_sin_datos": 113.3,
+    "horas_maximo_sin_datos": 1365.4
   },
   "sources": [
     {
@@ -283,22 +284,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xCoN5KZ5RKMQ7kNvwEmD0Y1&_nc_oc=AdpxrPeB3xNDAjUxTtsnxtjs5ZFQtB3x1BhQh4oHzB64YHrcivZiPDuyWUXN4Uw8daU&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=BaVfZMbEqiRFsmXDuFmb4w&_nc_ss=7f289&oh=00_AQPZ2_2Y9j-GnXKNFTXLWAsYUSMAYMPjGJPjSpUZ6Oh6NQ&oe=6AD720E6",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid02zchXgPYtsh9kuH3ZUZrbfHCcHj7Lf4NnTJYqtqyaBJQvbDrK4za7ynPQw4VupYVzl?__cft__[0]=AZg7RlLHy6J5sv3g9NsBwk90plEAwiDydXrzt8tmI7rZUqRm1-yzW7t0yQ-iHQghlGDD0er1aniK1ZCqY2MlEzgo3HTxM_a6tt2lXdFDoXOWm_aWBGoJY2yuSLhPW03nBsQVoN-dtpO0pr28I7atSh-y_hsLUtaYLmOztLw3l2yERmcng5JXY1plllc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡𝗟𝗮 𝗣𝗮𝘇, 𝗘𝗹 𝗔𝗹𝘁𝗼 𝘆 𝗢𝗿𝘂𝗿𝗼 𝗲𝘀𝘁𝗮́𝗻 𝗰𝗲𝗿𝗰𝗮 𝗱𝗲 𝘁𝘂 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼! Visítanos en nuestras agencias de La Paz, El Alto y Oruro para encontrar pisos, revestimientos y soluciones pensad… Ver más ¡𝗟𝗮 𝗣𝗮𝘇, 𝗘𝗹 𝗔𝗹𝘁𝗼 𝘆 𝗢𝗿𝘂𝗿𝗼 𝗲𝘀𝘁𝗮́𝗻 𝗰𝗲𝗿𝗰𝗮 𝗱𝗲 𝘁𝘂 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼! Visítanos en nuestras agencias de La Paz, El Alto y Oruro para encontrar pisos, revestimientos y soluciones pensad… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber",
@@ -751,13 +743,22 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HrC_ykpDNwkQ7kNvwFQzy5l&_nc_oc=AdphbxEMBoC8Qri_aoq_v-cRjO5CJzS3KaZ7h2kuGtdwYNcr8l-Fzt09pIJJNoXXG80&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=hTP4_S3tPgdTeKlULiexnQ&_nc_ss=7f289&oh=00_AQPblzbunzw0mLavVTQXtZ5QtaO0UxkyWkjeyXc2rqW-eQ&oe=6AD7846A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "infantil",
+          "url": "https://www.facebook.com/reel/1773642380521190/?__cft__[0]=AZilGl-vHInHA-LWpy7i5v6vAS_IphbasTy-rxubksQ61gViq0PC8M18sxcZByKaQmhIDi0vbtiLoAVEAM9BYrQCnD5ytTRLWzoiUBzOazFr6NnVEJWpaQc26DFoGgB-x6wH-KIvXVcCA6GbUhput_a9a086w8SCvJKmo3eMeLQmG7G7Q4y1cqdPYVbn61p3Zer9&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "𝗔𝗟𝗖𝗔𝗟𝗗𝗜́𝗔 𝗔𝗡𝗨𝗡𝗖𝗜𝗔 𝗔𝗖𝗖𝗜𝗢𝗡𝗘𝗦 𝗣𝗔𝗥𝗔 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗥 𝗘𝗟 𝗖𝗢𝗡𝗧𝗥𝗢𝗟 𝗗𝗘 𝗣𝗥𝗘𝗖𝗜𝗢𝗦 𝗥𝗘𝗙𝗘𝗥𝗘𝗡𝗖𝗜𝗔𝗟 𝗗𝗘 𝗟𝗔 𝗖𝗔𝗡𝗔𝗦𝗧𝗔 𝗙𝗔𝗠𝗜𝗟𝗜𝗔𝗥 El alcalde de Cobija, Diego Suárez, anunció cuatro acciones fundam… Ver más 𝗔𝗟𝗖𝗔𝗟𝗗𝗜́𝗔 𝗔𝗡𝗨𝗡𝗖𝗜𝗔 𝗔𝗖𝗖𝗜𝗢𝗡𝗘𝗦 𝗣𝗔𝗥𝗔 𝗙𝗢𝗥𝗧𝗔𝗟𝗘𝗖𝗘𝗥 𝗘𝗟 𝗖𝗢𝗡𝗧𝗥𝗢𝗟 𝗗𝗘 𝗣𝗥𝗘𝗖𝗜𝗢𝗦 𝗥𝗘𝗙𝗘𝗥𝗘𝗡𝗖𝗜𝗔𝗟 𝗗𝗘 𝗟𝗔 𝗖𝗔𝗡𝗔𝗦𝗧𝗔 𝗙𝗔𝗠𝗜𝗟𝗜𝗔𝗥 El alcalde de Cobija, Diego Suárez, anunció cuatro acciones fundam… Ver más Tenemos problemas para reproducir este video. Má"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -803,12 +804,12 @@
       "region": "Tarija",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Departamental de Tarija 91 mil seguidores • 16 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento '"
     },
     {
       "id": "fb_gob_pando",
@@ -819,30 +820,13 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jH2tZ7wWeNsQ7kNvwEb2X2J&_nc_oc=Adol0GYYE_gjunv83Kb3mTK_mFcrTxNVyZjcMtnmR2yaXSsA3IHt8a7IUdH0dlXSbYk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=LpQmq3wk5bpVQ_9Pw3K5OA&_nc_ss=7f289&oh=00_AQPiKEm0yVw-8POri3U43vN9pbDl7r7RZclUXleGDGcvdA&oe=6AD70690",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02M8Da6JfPx1FV3y2VRxqRdpLPtyiH4AS8eVCUSFKFJUd7pNoizxXEJ62kPqbNv6G3l?__cft__[0]=AZgKuorhNjbi5uPNVTwTdC_9iDvoesnsP1AprXaIcYSwcgMCvXyMq0HqZlJndA9SgMPJ_im8PMQa6sL8gkVOPDxxcaHQuo6FOYXMIoXR6eOxRdeqJui-_iEf063LmiMm5PRc27bSVz6LSMRkzLhVsOsbbVyHVV52uQiMSEAOINgudaXJNX-RBDc5A5ZGi4NF_4gbK2Y67A&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02M8Da6JfPx1FV3y2VRxqRdpLPtyiH4AS8eVCUSFKFJUd7pNoizxXEJ62kPqbNv6G3l?comment_id=584098196711804&__cft__[0]=AZgKuorhNjbi5uPNVTwTdC_9iDvoesnsP1AprXaIcYSwcgMCvXyMq0HqZlJndA9SgMPJ_im8PMQa6sL8gkVOPDxxcaHQuo6FOYXMIoXR6eOxRdeqJui-_iEf063LmiMm5PRc27bSVz6LSMRkzLhVsOsbbVyHVV52uQiMSEAOINgudaXJNX-RBDc5A5ZGi4NF_4gbK2Y67A&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_beni",
@@ -1006,22 +990,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AP4taXxVpCEQ7kNvwFnHdmM&_nc_oc=Adosr7NKpPrcgQxV2AY-JQT42rMDCl-qGEsG2y2pss-GOZAyS7M4NmcjP6gHrWxZy68&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Izx3k_ZJQ_EtzZt9MOdE5A&_nc_ss=7f289&oh=00_AQOlx9CbG6SuySm-_adMxCF2MVbUy1u4ZDeXtodmNaSpkQ&oe=6AD723EA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "cine",
-          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid02LSTuKJJLBVnieH3qGttaf7ZegvSEVqrM7NttKkTDGpp4PbCvT6ZcW8jRDbU5K22nl?__cft__[0]=AZj3xaEUc94gdQbhw8Tph5aGaFSwUWZwKnNM3w2SafSH9uru4g_blSOwLUjd4hRYYr9uYZk0AIVgEG-91R8i987y9X5S3UFx37GzNIczkObMZ86HrR4jovGF5Kzg8eYeSXcQ71R5IgvNhAIY0Ljn8GgSOi-fP4qusIDcrw34c3L-mw7rOOx8co9aj5A&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CULTURA, HISTORIA Y MEMORIA El Gobierno Autónomo Departamental de Tarija, a través de la Dirección de Cultura y Patrimonio, llevó adelante la proyección especial del … Ver más CULTURA, HISTORIA Y MEMORIA El Gobierno Autónomo Departamental de Tarija, a través de la Dirección de Cultura y Patrimonio, llevó adelante la proyección especial del … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1066,13 +1041,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VDCdcytwD5oQ7kNvwG05k8v&_nc_oc=AdrwzmwkmmMLh7ronBzztWMMlXR0ng1Yr8suoI3-wIiMWMcsbp1tVstrA0Gb385RvdQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=o1yvELatieGzDQAV5gYngg&_nc_ss=7f289&oh=00_AQN3QsquMRgG1E3jlPPmyVB8A0nD9x1r3uRlq4MLNzDCsg&oe=6AD76015",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/1152727030544743:1152727030544743?__cft__[0]=AZg0pHiGcP8ynbH5GOyoV89kZUTr75dnZ8JQ75ljNbsrk7R_VtaOU3VvO-f8sCRv6EQmazxKIOoLmOpCbm3HCnA2zg4NSstlUUUgyG8V0ftWp95VijJ_EWqj-xytEmGF25lzigSkkL3UPGiF8PIAyWaSFBECgPAwUHg7XVMY5YBJmt1A2NAxW2tJB6ULSg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Alianza Francesa de Cochabamba actualizó su foto de portada. hace 7 horas 7 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1407,27 +1391,27 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 39,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 36,
+          "category": "festival",
+          "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 El hijo de Vargas Llosa es designado como embajador de Perú en EE.UU. Ver más 2 La Alcaldía comienza la demolición de casas y"
+          "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 34,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "category": "festival",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "15/10/2026 Cultura Quince grupos nacionales animarán la 42ª edición de la Feria y Festival del Charango Aiquile 2026 Bonanza lidera la lista de grupos nacionales invitados a la 42° Feria y Festival Nacional e Internacional del Charango Aiquile 2026, que se desarrollará del 28... vista 14/10/2026 Cultura IV Encuentro de Escritoras Bolivianas reafirma su compromiso con la literatura Con el designio "
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
+          "score": 54,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en la semana 39 del año. Los hermanos Jesse y Joy, el grupo Llajtaymanta, la Orquesta Sinfónica de Cochabamba y... vista Lo más leído 1 La Alcaldía comienza la demolición de casas y de antiguos ambientes de la UMSS en la Av. Oquendo Ver más 2 Gobierno y chofere"
         }
       ],
       "error": null
@@ -1485,9 +1469,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
+      "raw_items": 37,
       "events": 0,
-      "rejected": 39,
+      "rejected": 37,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1501,7 +1485,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/8c9d0cad-c5e9-4ec0-93a9-14ab3786d995",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/d8e4b055-4efa-44cb-ac0b-453f1a31854a",
           "has_image": true,
           "text_preview": ""
         },
@@ -1509,7 +1493,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/46490967-7e8a-4ad9-bdcd-f3020e9ca4df",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
           "has_image": true,
           "text_preview": ""
         }
@@ -1527,8 +1511,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
-      "events": 40,
+      "raw_items": 42,
+      "events": 42,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1561,8 +1545,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1579,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 44,
-      "events": 44,
+      "raw_items": 48,
+      "events": 48,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1629,8 +1613,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
