@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-16T17:10:01-04:00",
+  "generated_at": "2026-10-16T19:37:58-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 87,
-    "events_today": 17
+    "events_total": 92,
+    "events_today": 20
   },
   "filters": {
     "ui_groups": [
@@ -65,7 +65,7 @@
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 14
+        "count": 15
       },
       {
         "key": "feria",
@@ -73,23 +73,23 @@
         "count": 9
       },
       {
+        "key": "taller",
+        "label": "Talleres y cursos",
+        "count": 6
+      },
+      {
         "key": "teatro",
         "label": "Teatro",
         "count": 5
       },
       {
-        "key": "taller",
-        "label": "Talleres y cursos",
+        "key": "festival",
+        "label": "Festivales",
         "count": 4
       },
       {
         "key": "turismo",
         "label": "Turismo y patrimonio",
-        "count": 3
-      },
-      {
-        "key": "festival",
-        "label": "Festivales",
         "count": 3
       },
       {
@@ -103,6 +103,11 @@
         "count": 3
       },
       {
+        "key": "gastronomia",
+        "label": "Gastronomía",
+        "count": 2
+      },
+      {
         "key": "otro",
         "label": "Otros",
         "count": 2
@@ -111,11 +116,6 @@
         "key": "danza",
         "label": "Danza",
         "count": 2
-      },
-      {
-        "key": "gastronomia",
-        "label": "Gastronomía",
-        "count": 1
       }
     ],
     "cities": [
@@ -125,19 +125,19 @@
         "count": 21
       },
       {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 17
-      },
-      {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 17
+        "count": 20
+      },
+      {
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 18
       },
       {
         "key": "Sucre",
         "label": "Sucre",
-        "count": 8
+        "count": 9
       },
       {
         "key": "Quillacollo",
@@ -169,17 +169,17 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 23
+        "count": 24
+      },
+      {
+        "key": "Santa Cruz",
+        "label": "Santa Cruz",
+        "count": 19
       },
       {
         "key": "La Paz",
         "label": "La Paz",
         "count": 19
-      },
-      {
-        "key": "Santa Cruz",
-        "label": "Santa Cruz",
-        "count": 16
       },
       {
         "key": "Bolivia",
@@ -189,7 +189,7 @@
       {
         "key": "Chuquisaca",
         "label": "Chuquisaca",
-        "count": 8
+        "count": 9
       },
       {
         "key": "Tarija",
@@ -211,22 +211,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 21
+        "count": 24
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 26
+        "count": 31
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 53
+        "count": 58
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 87
+        "count": 92
       }
     ],
     "price": [
@@ -243,19 +243,19 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 60
+        "count": 65
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 78
+        "count": 82
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 3
+        "count": 4
       }
     ],
     "tags": [
@@ -340,6 +340,16 @@
         "count": 1
       },
       {
+        "key": "ENVIVO",
+        "label": "ENVIVO",
+        "count": 1
+      },
+      {
+        "key": "TVUSUCRE",
+        "label": "TVUSUCRE",
+        "count": 1
+      },
+      {
         "key": "1495",
         "label": "1495",
         "count": 1
@@ -368,38 +378,28 @@
         "key": "RAE2026",
         "label": "RAE2026",
         "count": 1
-      },
-      {
-        "key": "MUSEF",
-        "label": "MUSEF",
-        "count": 1
-      },
-      {
-        "key": "MUSEFSUCRE",
-        "label": "MUSEFSUCRE",
-        "count": 1
       }
     ],
     "source_classes": [
       {
         "key": "media",
         "label": "media",
-        "count": 35
+        "count": 36
+      },
+      {
+        "key": "cultura_oficial",
+        "label": "cultura_oficial",
+        "count": 16
+      },
+      {
+        "key": "ticketera",
+        "label": "ticketera",
+        "count": 13
       },
       {
         "key": "cartelera_cine",
         "label": "cartelera_cine",
         "count": 13
-      },
-      {
-        "key": "cultura_oficial",
-        "label": "cultura_oficial",
-        "count": 13
-      },
-      {
-        "key": "ticketera",
-        "label": "ticketera",
-        "count": 12
       },
       {
         "key": "venue",
@@ -425,6 +425,8 @@
       "evt_938566d4816ada",
       "evt_9d6988f971be4a",
       "evt_c511b9ab005c8b",
+      "evt_58c7f6b42c9fff",
+      "evt_bed347a9e916d5",
       "evt_d8ccaadcd101f1",
       "evt_31299248c079ff",
       "evt_46aed05ee82d09",
@@ -437,8 +439,9 @@
       "evt_6deb043a064d58",
       "evt_c5c7982b064b39",
       "evt_609f509991f22e",
-      "evt_a8352d3935a895",
+      "evt_76ddc81c194515",
       "evt_c9490e55c8ba74",
+      "evt_a8352d3935a895",
       "evt_8804dc40955526",
       "evt_03c9cc88ae4bfa"
     ],
@@ -474,8 +477,8 @@
       "evt_6deb043a064d58",
       "evt_c5c7982b064b39",
       "evt_609f509991f22e",
-      "evt_a8352d3935a895",
       "evt_c9490e55c8ba74",
+      "evt_a8352d3935a895",
       "evt_8804dc40955526",
       "evt_2b67f103b08352",
       "evt_8380ec54764421",
@@ -506,31 +509,31 @@
       "events_with_image": 18,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 5
+      "sources_ok": 3
     },
     "Cochabamba": {
-      "events_total": 39,
-      "events_upcoming": 23,
-      "events_with_image": 23,
+      "events_total": 40,
+      "events_upcoming": 24,
+      "events_with_image": 24,
       "events_with_video": 1,
       "sources_total": 13,
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 31,
-      "events_upcoming": 16,
-      "events_with_image": 12,
+      "events_total": 33,
+      "events_upcoming": 19,
+      "events_with_image": 14,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Chuquisaca": {
-      "events_total": 11,
-      "events_upcoming": 8,
-      "events_with_image": 8,
-      "events_with_video": 0,
+      "events_total": 12,
+      "events_upcoming": 9,
+      "events_with_image": 9,
+      "events_with_video": 1,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Oruro": {
       "events_total": 3,
@@ -538,7 +541,7 @@
       "events_with_image": 3,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 1
     },
     "Potosí": {
       "events_total": 1,
@@ -576,17 +579,17 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 58,
+      "events_total": 57,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 15,
-      "events_upcoming": 14,
-      "events_with_image": 14,
-      "events_with_video": 1
+      "events_total": 16,
+      "events_upcoming": 15,
+      "events_with_image": 15,
+      "events_with_video": 2
     },
     "conferencia": {
       "label": "Conferencias",
@@ -625,16 +628,16 @@
     },
     "festival": {
       "label": "Festivales",
-      "events_total": 10,
-      "events_upcoming": 3,
-      "events_with_image": 3,
+      "events_total": 11,
+      "events_upcoming": 4,
+      "events_with_image": 4,
       "events_with_video": 0
     },
     "gastronomia": {
       "label": "Gastronomía",
-      "events_total": 1,
-      "events_upcoming": 1,
-      "events_with_image": 1,
+      "events_total": 2,
+      "events_upcoming": 2,
+      "events_with_image": 2,
       "events_with_video": 1
     },
     "otro": {
@@ -646,9 +649,9 @@
     },
     "taller": {
       "label": "Talleres y cursos",
-      "events_total": 4,
-      "events_upcoming": 4,
-      "events_with_image": 3,
+      "events_total": 6,
+      "events_upcoming": 6,
+      "events_with_image": 4,
       "events_with_video": 0
     },
     "teatro": {
@@ -853,6 +856,82 @@
       "director": null,
       "cast": [],
       "quality_score": 55,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_58c7f6b42c9fff",
+      "title": "¡SANTA CRUZ, EL OKTOBER FEST PROST COMIENZA HOY!",
+      "category": "festival",
+      "category_label": "Festivales",
+      "starts_at": "2026-10-16T00:00:00-04:00",
+      "starts_at_ms": 1792123200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Viernes 16 de octubre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": null,
+      "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/854169966_943046128525720_5221626459543703850_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EfHiC0cjni4Q7kNvwGsGFXN&_nc_oc=AdqhjM-6g_8ysT0wcrZz6q5gYwz-pD__hobBMHL5m2EcoGRDaZAJ9zO5g3kAjwhZyD4&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=axUic0GsxCzLv63lHu_sXg&_nc_ss=7f289&oh=00_AQOmeX1HKIYLqL5sXfn2MVAd1n6DiW26Xg5kiPMe244SSw&oe=6AD89BB7",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 55,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_bed347a9e916d5",
+      "title": "Universidad San Francisco Xavier de Chuquisaca",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-10-16T04:00:00-04:00",
+      "starts_at_ms": 1792137600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Viernes 16 de octubre · 04:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": null,
+      "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/849591247_2294173238014096_6342784116393400145_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a27664&_nc_ohc=KLpGc07fozUQ7kNvwHFj8lP&_nc_oc=AdoC-PwpeQ15LDZtgerko4rvz_5T7WhTA4j28bWj9hsGB_-kz16UlYN8DrCK4FLbIQs&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=gohzY_Jn3MQqk6NPInSVHw&_nc_ss=7f289&oh=00_AQPAKvRTdH_ArF86mbl_6JIaGCfWHuiMvALQUJTUfkxuIA&oe=6AD8987D",
+      "has_video": true,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 58,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
@@ -1993,23 +2072,23 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_a8352d3935a895",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-10-16T18:20:00-04:00",
-      "starts_at_ms": 1792189200000,
+      "event_id": "evt_76ddc81c194515",
+      "title": "Espectáculos",
+      "category": "gastronomia",
+      "category_label": "Gastronomía",
+      "starts_at": "2026-10-16T18:10:00-04:00",
+      "starts_at_ms": 1792188600000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Viernes 16 de octubre · 18:20",
+      "display_date": "Viernes 16 de octubre · 18:10",
       "lifecycle": "hoy",
       "lifecycle_label": "Hoy",
       "days_until": 0,
       "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "plaza Murillo y",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/10/16/16-10-2026_edwin_-_llajta_rock_vale_web.jpg.jpeg?itok=BqNkLd-t",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
@@ -2017,70 +2096,16 @@
       "currency": null,
       "price_label": null,
       "organizer": null,
-      "showtimes": [
-        "18:20",
-        "21:00",
-        "22:00",
-        "16:50",
-        "19:20",
-        "17:00",
-        "19:30",
-        "17:40",
-        "20:00",
-        "22:20",
-        "16:20",
-        "18:40",
-        "19:50",
-        "20:20",
-        "18:10",
-        "22:30",
-        "21:30",
-        "16:30",
-        "19:00",
-        "16:10",
-        "20:30",
-        "22:40"
-      ],
-      "formats": [
-        "2D - Doblada",
-        "2D - PRE - Subtitulada",
-        "DBOX - 2D - Doblada",
-        "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada",
-        "2D - PRE - Doblada",
-        "2D - Subtitulada"
-      ],
-      "occurrences": [
-        "2026-10-16T18:20:00-04:00",
-        "2026-10-16T21:00:00-04:00",
-        "2026-10-16T22:00:00-04:00",
-        "2026-10-16T16:50:00-04:00",
-        "2026-10-16T19:20:00-04:00",
-        "2026-10-16T17:00:00-04:00",
-        "2026-10-16T19:30:00-04:00",
-        "2026-10-16T17:40:00-04:00",
-        "2026-10-16T20:00:00-04:00",
-        "2026-10-16T22:20:00-04:00",
-        "2026-10-16T16:20:00-04:00",
-        "2026-10-16T18:40:00-04:00",
-        "2026-10-16T19:50:00-04:00",
-        "2026-10-16T20:20:00-04:00",
-        "2026-10-16T18:10:00-04:00",
-        "2026-10-16T22:30:00-04:00",
-        "2026-10-16T21:30:00-04:00",
-        "2026-10-16T16:30:00-04:00",
-        "2026-10-16T19:00:00-04:00",
-        "2026-10-16T16:10:00-04:00",
-        "2026-10-16T20:30:00-04:00",
-        "2026-10-16T22:40:00-04:00"
-      ],
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
       "content_genre": null,
       "duration_minutes": null,
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
@@ -2105,9 +2130,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 50.0,
+      "price_from": 0.0,
       "currency": "None",
-      "price_label": "Bs 50",
+      "price_label": "Bs 0",
       "organizer": "SuperTicket.bo",
       "showtimes": [],
       "formats": [],
@@ -2118,6 +2143,85 @@
       "director": null,
       "cast": [],
       "quality_score": 78,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_a8352d3935a895",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-10-16T19:20:00-04:00",
+      "starts_at_ms": 1792192800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Viernes 16 de octubre · 19:20",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "19:20",
+        "22:00",
+        "18:20",
+        "21:00",
+        "19:30",
+        "19:50",
+        "20:20",
+        "18:10",
+        "22:30",
+        "20:00",
+        "22:20",
+        "18:40",
+        "19:00",
+        "21:30",
+        "20:30",
+        "22:40"
+      ],
+      "formats": [
+        "2D - DBOX - Doblada",
+        "2D - Doblada",
+        "2D - PRE - Subtitulada",
+        "PRE - 2D - Subtitulada",
+        "2D - PRE - Doblada",
+        "2D - Subtitulada"
+      ],
+      "occurrences": [
+        "2026-10-16T19:20:00-04:00",
+        "2026-10-16T22:00:00-04:00",
+        "2026-10-16T18:20:00-04:00",
+        "2026-10-16T21:00:00-04:00",
+        "2026-10-16T19:30:00-04:00",
+        "2026-10-16T19:50:00-04:00",
+        "2026-10-16T20:20:00-04:00",
+        "2026-10-16T18:10:00-04:00",
+        "2026-10-16T22:30:00-04:00",
+        "2026-10-16T20:00:00-04:00",
+        "2026-10-16T22:20:00-04:00",
+        "2026-10-16T18:40:00-04:00",
+        "2026-10-16T19:00:00-04:00",
+        "2026-10-16T21:30:00-04:00",
+        "2026-10-16T20:30:00-04:00",
+        "2026-10-16T22:40:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
       "is_featured": true,
       "status": "programado",
       "source_count": 1
@@ -2143,9 +2247,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 50.0,
+      "price_from": 0.0,
       "currency": "None",
-      "price_label": "Bs 50",
+      "price_label": "Bs 0",
       "organizer": "SuperTicket.bo",
       "showtimes": [],
       "formats": [],
@@ -2233,6 +2337,82 @@
       "cast": [],
       "quality_score": 72,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_1bcf703c1393f6",
+      "title": "¿Qué papel juega el compliance en el deporte y cómo influye en la reputación de sus instituciones?... Ver más",
+      "category": "taller",
+      "category_label": "Talleres y cursos",
+      "starts_at": "2026-10-20T18:45:00-04:00",
+      "starts_at_ms": 1792536300000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 20 de octubre · 18:45",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 4,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": null,
+      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/853472527_1171249578791692_8991074289344166503_n.png?stp=dst-jpg_tt6&cstp=mx1050x1050&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pbDJKSLG6b4Q7kNvwEwmP5c&_nc_oc=AdqZ0xIrrsswXkCAtAqPLXXcK089qm8czYuYpyV_lC3nRvnGKQrWBdgE5nQNHn3waiw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=MqPZeJPYGm3X1tz7ZwWSZQ&_nc_ss=7f289&oh=00_AQOjluuBtCgjwRO4a0Z5EpsTKguNKDEHfuvh-NLP7n7X1g&oe=6AD880E0",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_aa608a5273e275",
+      "title": "Feliz inicio del UPSA Workshop Derecho Deportivo, me alegra mucho Estaré presente el martes 20/10/26 Hs. 18:45",
+      "category": "taller",
+      "category_label": "Talleres y cursos",
+      "starts_at": "2026-10-20T18:45:00-04:00",
+      "starts_at_ms": 1792536300000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 20 de octubre · 18:45",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 4,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": null,
+      "image_url": null,
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 37,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
