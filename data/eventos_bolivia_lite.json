@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-16T12:42:13-04:00",
+  "generated_at": "2026-10-16T17:10:01-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 86,
+    "events_total": 87,
     "events_today": 17
   },
   "filters": {
@@ -83,6 +83,11 @@
         "count": 4
       },
       {
+        "key": "turismo",
+        "label": "Turismo y patrimonio",
+        "count": 3
+      },
+      {
         "key": "festival",
         "label": "Festivales",
         "count": 3
@@ -100,11 +105,6 @@
       {
         "key": "otro",
         "label": "Otros",
-        "count": 2
-      },
-      {
-        "key": "turismo",
-        "label": "Turismo y patrimonio",
         "count": 2
       },
       {
@@ -137,7 +137,7 @@
       {
         "key": "Sucre",
         "label": "Sucre",
-        "count": 7
+        "count": 8
       },
       {
         "key": "Quillacollo",
@@ -189,7 +189,7 @@
       {
         "key": "Chuquisaca",
         "label": "Chuquisaca",
-        "count": 7
+        "count": 8
       },
       {
         "key": "Tarija",
@@ -216,17 +216,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 25
+        "count": 26
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 52
+        "count": 53
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 86
+        "count": 87
       }
     ],
     "price": [
@@ -243,14 +243,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 59
+        "count": 60
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 77
+        "count": 78
       },
       {
         "key": "con_video",
@@ -392,13 +392,13 @@
         "count": 13
       },
       {
-        "key": "ticketera",
-        "label": "ticketera",
-        "count": 12
-      },
-      {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
+        "count": 13
+      },
+      {
+        "key": "ticketera",
+        "label": "ticketera",
         "count": 12
       },
       {
@@ -436,8 +436,8 @@
       "evt_1d1d2e5f0c67b0",
       "evt_6deb043a064d58",
       "evt_c5c7982b064b39",
-      "evt_a8352d3935a895",
       "evt_609f509991f22e",
+      "evt_a8352d3935a895",
       "evt_c9490e55c8ba74",
       "evt_8804dc40955526",
       "evt_03c9cc88ae4bfa"
@@ -473,8 +473,8 @@
       "evt_1d1d2e5f0c67b0",
       "evt_6deb043a064d58",
       "evt_c5c7982b064b39",
-      "evt_a8352d3935a895",
       "evt_609f509991f22e",
+      "evt_a8352d3935a895",
       "evt_c9490e55c8ba74",
       "evt_8804dc40955526",
       "evt_2b67f103b08352",
@@ -501,15 +501,15 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 38,
+      "events_total": 37,
       "events_upcoming": 19,
       "events_with_image": 18,
       "events_with_video": 1,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 30,
+      "events_total": 39,
       "events_upcoming": 23,
       "events_with_image": 23,
       "events_with_video": 1,
@@ -525,12 +525,12 @@
       "sources_ok": 3
     },
     "Chuquisaca": {
-      "events_total": 10,
-      "events_upcoming": 7,
-      "events_with_image": 7,
+      "events_total": 11,
+      "events_upcoming": 8,
+      "events_with_image": 8,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 3,
@@ -538,7 +538,7 @@
       "events_with_image": 3,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 2
     },
     "Potosí": {
       "events_total": 1,
@@ -554,7 +554,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Beni": {
       "events_total": 0,
@@ -576,14 +576,14 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 59,
+      "events_total": 58,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 14,
+      "events_total": 15,
       "events_upcoming": 14,
       "events_with_image": 14,
       "events_with_video": 1
@@ -625,7 +625,7 @@
     },
     "festival": {
       "label": "Festivales",
-      "events_total": 4,
+      "events_total": 10,
       "events_upcoming": 3,
       "events_with_image": 3,
       "events_with_video": 0
@@ -653,16 +653,16 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 6,
+      "events_total": 8,
       "events_upcoming": 5,
       "events_with_image": 4,
       "events_with_video": 0
     },
     "turismo": {
       "label": "Turismo y patrimonio",
-      "events_total": 2,
-      "events_upcoming": 2,
-      "events_with_image": 1,
+      "events_total": 3,
+      "events_upcoming": 3,
+      "events_with_image": 2,
       "events_with_video": 0
     }
   },
@@ -1922,123 +1922,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_a8352d3935a895",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-10-16T12:50:00-04:00",
-      "starts_at_ms": 1792169400000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Viernes 16 de octubre · 12:50",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "12:50",
-        "15:40",
-        "18:20",
-        "13:10",
-        "21:00",
-        "14:30",
-        "17:00",
-        "19:30",
-        "22:00",
-        "17:40",
-        "19:50",
-        "16:00",
-        "20:20",
-        "22:30",
-        "13:50",
-        "18:10",
-        "13:00",
-        "15:20",
-        "20:00",
-        "22:20",
-        "16:20",
-        "18:40",
-        "14:00",
-        "14:10",
-        "21:30",
-        "16:30",
-        "19:00",
-        "15:30",
-        "18:00",
-        "16:10",
-        "20:30",
-        "22:40"
-      ],
-      "formats": [
-        "2D - DBOX - Doblada",
-        "2D - Doblada",
-        "2D - PRE - Doblada",
-        "2D - PRE - Subtitulada",
-        "DBOX - 2D - Doblada",
-        "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada",
-        "DBOX - XD - 2D - Doblada",
-        "XD - 2D - DBOX - Doblada",
-        "2D - Subtitulada"
-      ],
-      "occurrences": [
-        "2026-10-16T12:50:00-04:00",
-        "2026-10-16T15:40:00-04:00",
-        "2026-10-16T18:20:00-04:00",
-        "2026-10-16T13:10:00-04:00",
-        "2026-10-16T21:00:00-04:00",
-        "2026-10-16T14:30:00-04:00",
-        "2026-10-16T17:00:00-04:00",
-        "2026-10-16T19:30:00-04:00",
-        "2026-10-16T22:00:00-04:00",
-        "2026-10-16T17:40:00-04:00",
-        "2026-10-16T19:50:00-04:00",
-        "2026-10-16T16:00:00-04:00",
-        "2026-10-16T20:20:00-04:00",
-        "2026-10-16T22:30:00-04:00",
-        "2026-10-16T13:50:00-04:00",
-        "2026-10-16T18:10:00-04:00",
-        "2026-10-16T13:00:00-04:00",
-        "2026-10-16T15:20:00-04:00",
-        "2026-10-16T20:00:00-04:00",
-        "2026-10-16T22:20:00-04:00",
-        "2026-10-16T16:20:00-04:00",
-        "2026-10-16T18:40:00-04:00",
-        "2026-10-16T14:00:00-04:00",
-        "2026-10-16T14:10:00-04:00",
-        "2026-10-16T21:30:00-04:00",
-        "2026-10-16T16:30:00-04:00",
-        "2026-10-16T19:00:00-04:00",
-        "2026-10-16T15:30:00-04:00",
-        "2026-10-16T18:00:00-04:00",
-        "2026-10-16T16:10:00-04:00",
-        "2026-10-16T20:30:00-04:00",
-        "2026-10-16T22:40:00-04:00",
-        "2026-10-16T13:40:00-04:00",
-        "2026-10-16T14:40:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_609f509991f22e",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -2098,6 +1981,98 @@
         "2026-10-16T21:40:00-04:00",
         "2026-10-16T10:40:00-04:00",
         "2026-10-16T22:00:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_a8352d3935a895",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-10-16T18:20:00-04:00",
+      "starts_at_ms": 1792189200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Viernes 16 de octubre · 18:20",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "18:20",
+        "21:00",
+        "22:00",
+        "16:50",
+        "19:20",
+        "17:00",
+        "19:30",
+        "17:40",
+        "20:00",
+        "22:20",
+        "16:20",
+        "18:40",
+        "19:50",
+        "20:20",
+        "18:10",
+        "22:30",
+        "21:30",
+        "16:30",
+        "19:00",
+        "16:10",
+        "20:30",
+        "22:40"
+      ],
+      "formats": [
+        "2D - Doblada",
+        "2D - PRE - Subtitulada",
+        "DBOX - 2D - Doblada",
+        "PRE - 2D - Doblada",
+        "PRE - 2D - Subtitulada",
+        "2D - PRE - Doblada",
+        "2D - Subtitulada"
+      ],
+      "occurrences": [
+        "2026-10-16T18:20:00-04:00",
+        "2026-10-16T21:00:00-04:00",
+        "2026-10-16T22:00:00-04:00",
+        "2026-10-16T16:50:00-04:00",
+        "2026-10-16T19:20:00-04:00",
+        "2026-10-16T17:00:00-04:00",
+        "2026-10-16T19:30:00-04:00",
+        "2026-10-16T17:40:00-04:00",
+        "2026-10-16T20:00:00-04:00",
+        "2026-10-16T22:20:00-04:00",
+        "2026-10-16T16:20:00-04:00",
+        "2026-10-16T18:40:00-04:00",
+        "2026-10-16T19:50:00-04:00",
+        "2026-10-16T20:20:00-04:00",
+        "2026-10-16T18:10:00-04:00",
+        "2026-10-16T22:30:00-04:00",
+        "2026-10-16T21:30:00-04:00",
+        "2026-10-16T16:30:00-04:00",
+        "2026-10-16T19:00:00-04:00",
+        "2026-10-16T16:10:00-04:00",
+        "2026-10-16T20:30:00-04:00",
+        "2026-10-16T22:40:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2258,6 +2233,44 @@
       "cast": [],
       "quality_score": 72,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_53de2dbbf7724d",
+      "title": "GAMS Gobierno Autonomo Municipal de Sucre",
+      "category": "turismo",
+      "category_label": "Turismo y patrimonio",
+      "starts_at": "2026-10-21T20:00:00-04:00",
+      "starts_at_ms": 1792627200000,
+      "ends_at_ms": 1793246340000,
+      "multi_day": true,
+      "display_date": "Del 21 al 28 de octubre · 20:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 5,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": null,
+      "image_url": "https://sucre.bo/wp-content/uploads/2026/10/DSC08385_sucre.jpg-310x165.jpeg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },

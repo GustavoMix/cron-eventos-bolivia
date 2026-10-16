@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:42:13-04:00",
+  "generated_at": "2026-10-16T17:10:01-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 117.4,
-    "horas_maximo_sin_datos": 1377.5
+    "horas_promedio_sin_datos": 113.5,
+    "horas_maximo_sin_datos": 1382.0
   },
   "sources": [
     {
@@ -419,13 +419,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eowRqg6pQN0Q7kNvwHPcgmO&_nc_oc=AdqBAqQ-mCvChy8skCZ0cbiTzrwUExfgowns6pZ90GwH4MLqAC3k0_a3xblxG3Aez3c&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=PeamoCfVlOb9GS9xaao8aQ&_nc_ss=7f289&oh=00_AQMS58cCg_E6q6CMsqfggaqimxK-zIR-EVJJQPYYen056A&oe=6AD87948",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02yRThrNKyy6bgo1QbqTBqWEmynb8DXGDMQZji2N5GBcpm4ZuzPRDL25owm16STx7jl?__cft__[0]=AZhQw7fIUkSqH-6G0Ob69qXtZslEPLEK4WmImcF9LDOFljgBzQjpYxYwFGaK-x8h_KuFJgJLISs1V9sh7uhHAbT0azRapddYg0B82b7Qk2N-9M0xEdboTdQpkqOXFbHOb2UcIU0wLyUjc8a6tmz6pD0oNaoE_EtDAIOMUE2yiU04RDL5knwyoh7u81Y&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#GrupoFides | #RadioFidesCochabamba La representante de los panificadores independientes de Cochabamba denunció que en algunas zonas rurales del departamento la garra… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_anf",
@@ -674,13 +683,22 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/696282168_1306639911654685_7905006361365104235_n.avif?stp=dst-avif&cstp=mx1344x1344&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NPCWnhMTajsQ7kNvwHrFKhg&_nc_oc=AdotpH-zhA80Mv4-2-p9Z2_3c9oef0L7umyImFqKrViUCoMXYJwy5XY5xHXatKim8Dc&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=EDqf51JwyLBE54BD00FXaQ&_nc_ss=7f289&oh=00_AQP4BkCGq4ULJ5wb44zsC55Ih0EY6BvNfhxqurq5WN8t6A&oe=6AD872BA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlcaldiaDeOruro/posts/pfbid02oAGPZq2GMYA4ntqcXporkKSD8kc27apW7zCWcwZSGx3QPXg6P9oqjoDnHsnipfTpl?__cft__[0]=AZg217IYm4k3xtppTzEPzYYuXWrICjFOy7_hSeg6ip_5BpZswYYqAf-a5EfAR-AN0mviGi1LdD2R0eYu1lRvAoLHdCUjcGntayp-uIPMhocX1wKI9bXDf6aqUCzmTEg2AIj_8qOARmK5haIDccu2rAsILEeRMymD7sNDByndxriHMPVYPgy29SIy6l0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡AVANCE IMPORTANTE EN ORURO! Ho… Ver más ¡AVANCE IMPORTANTE EN ORURO! Ho… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_tarija",
@@ -793,30 +811,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bhT6CeVQhcQQ7kNvwF0PSrx&_nc_oc=Adp_RP90-YdVx9-TDCBatP2g_0aL1T4p8UfLzoc2JWJ7U661TXF8hvd6S5s4yhBXMO0&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=gO9GCN9IQVDdsQtYLHflLQ&_nc_ss=7f289&oh=00_AQPZQbOhfT8w9Gaf2L9hTOdqlPRc7ITV4HqU0_gN_4nwEA&oe=6AD83BE7",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2510547992689020/?__cft__[0]=AZi7HUDgEVdMZpJPVWjzWcHEG65qc7EUh5xDVbqqZnTkbJI3mhWO_Dee4FkKWQn8Ko8fB-r4jkfKAF3mIyLyrj3Pi3YLphkhM2Z4KlnhCjAdCgrL6vkiPGEzNbt8FII6wRnhjfNxm083OJlajLvCf5T9EZgtCsrRUReLhBG4vwIhIfZOGBLJ6w0rMWLZ5iUe1wTo&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Desde la Gobernación de Tarija, hemos decidido tomar acciones para finalizar el contrato con ENDE y revertir una injusticia histórica con nuestro departamento. El agu… Ver más Además buscar proyectos de reciclaje también reduciría la basura y la contaminación de rios Tenemos problemas para reproducir este video. Más información Ver más comentarios Norma Flores Lopez"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2510547992689020/?comment_id=1142444158725796&__cft__[0]=AZi7HUDgEVdMZpJPVWjzWcHEG65qc7EUh5xDVbqqZnTkbJI3mhWO_Dee4FkKWQn8Ko8fB-r4jkfKAF3mIyLyrj3Pi3YLphkhM2Z4KlnhCjAdCgrL6vkiPGEzNbt8FII6wRnhjfNxm083OJlajLvCf5T9EZgtCsrRUReLhBG4vwIhIfZOGBLJ6w0rMWLZ5iUe1wTo&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Además buscar proyectos de reciclaje también reduciría la basura y la contaminación de rios Norma Flores Lopez"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_pando",
@@ -912,22 +913,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uE-I5qIiRm4Q7kNvwGkU6SE&_nc_oc=AdrHpi5f52DHoM5FdQsN9e_XmEfvTTcv0f5qHRR9MOic4NL0NwxRi_CT4I1t6pQGrfs&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=amgGlGwpgHvjIAFeTVMwSQ&_nc_ss=7f289&oh=00_AQMoJ02z41p599i-GIM8BSi7KbpVq0k9l-3zxbJpUMshXA&oe=6AD823C7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/aflapaz/posts/convocatoria-abierta-2027-la-galerie-de-la-alianza-francesa-de-la-paz-invita-a-a/1560254822809702/",
-          "has_image": true,
-          "text_preview": "Convocatoria abierta 2027! ✨🎨 La Galerie de la Alianza Francesa de La Paz invita a artistas y gestores culturales a postular sus proyectos expositivos de artes visuales para la gestión 2027. 🖼️ Un... Convocatoria abierta 2027! ✨🎨 La Galerie de la Alianza Francesa de La Paz invita a artistas y gestores culturales a postular sus proyectos expositivos de... Convocatoria abierta 2027! La Galerie de la"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -938,13 +930,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Cl4nS4dUqU0Q7kNvwFph2vt&_nc_oc=AdrJ73gUNCBA83PkjQXfvok7ohgXjL3rj5QcouvCjoVALtsdSx7Cb7sshDMa8PAn5HE&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=YVphJzj_Gvg3igBoVyN0Fg&_nc_ss=7f289&oh=00_AQNZWsyv74vQvfOTmDR954sAtXUPqRVJ-Js6PRAnES_-pA&oe=6AD86578",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/envivo-premiaci%C3%B3n-de-las-obras-del-lxxiv-salon-municipal-de-artes-plasticas-pedr/1137341685325992/",
+          "has_image": true,
+          "text_preview": "#ENVIVO | PREMIACIÓN DE LAS OBRAS DEL LXXIV SALON MUNICIPAL DE ARTES PLASTICAS \"PEDRO DOMINGO MURILLO\" EN EL MUSEO TAMBO QUIRQUINCHO En vivo Premiación Pedro Domingo Murillo Tenemos problemas para reproducir este video. Más información Gobierno Autónomo Municipal de La Paz transmitió en vivo. hace aproximadamente una hora 1 h ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1074,22 +1075,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WRP59isNt8EQ7kNvwHYhNR3&_nc_oc=AdpqUEyERKZ3LDLS3JVq5bEZtvnMfUQv2AFhKZwaMOO58WTtWgzVxkfKYtqNjprYW54&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=cekgVjJz1pASaOIFj5ULmQ&_nc_ss=7f289&oh=00_AQPVIT11ePiVbOkg59iD9Lv9TCPPzuPUl8zrMs7Y-cb_Fg&oe=6AD80B52",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0GJ6Sfgfe7WwkFF7KgEiTUUNyGnYCQhm49htco7SUBgSvx9s3fyk8S9hsyvbhmdJSl?__cft__[0]=AZjoH8JZckbMqZjxpDMmNAHU7AlMzbjqdFeNpwnzzpzVRU0uGyYbh8GFyk8ukt4-_UjIcdiUDNP_RsXkjFqkhCIJMpAgF5mrk0kSh6mHyHyRNsyVv1br8xCWV1rPzrpfZds3FMsIs8Xe_cmNNpp667qFRQAcETpR0QCyf95DN9kj1FhNWfZsVFdkX4E&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Ellos ya están en Francia! ¿Y tú, qué esperas para dar el primer paso? … Ver más Ellos ya están en Francia! ¿Y tú, qué esperas para dar el primer paso? … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1402,12 +1394,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 10,
+      "rejected": 3,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 2,
+          "score": 44,
           "category": "festival",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1485,9 +1477,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
+      "raw_items": 40,
       "events": 0,
-      "rejected": 37,
+      "rejected": 40,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1595,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 48,
-      "events": 48,
+      "raw_items": 44,
+      "events": 44,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
