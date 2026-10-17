@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-17T16:39:19-04:00",
+  "generated_at": "2026-10-17T19:10:19-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 90,
-    "events_today": 14
+    "events_total": 92,
+    "events_today": 15
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 20
+        "count": 21
       },
       {
         "key": "cine",
@@ -93,6 +93,11 @@
         "count": 4
       },
       {
+        "key": "otro",
+        "label": "Otros",
+        "count": 3
+      },
+      {
         "key": "turismo",
         "label": "Turismo y patrimonio",
         "count": 3
@@ -101,11 +106,6 @@
         "key": "conferencia",
         "label": "Conferencias",
         "count": 3
-      },
-      {
-        "key": "otro",
-        "label": "Otros",
-        "count": 2
       },
       {
         "key": "danza",
@@ -120,19 +120,19 @@
     ],
     "cities": [
       {
+        "key": "La Paz",
+        "label": "La Paz",
+        "count": 21
+      },
+      {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
         "count": 20
       },
       {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 20
-      },
-      {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 17
+        "count": 18
       },
       {
         "key": "Sucre",
@@ -169,16 +169,16 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 24
-      },
-      {
-        "key": "Santa Cruz",
-        "label": "Santa Cruz",
-        "count": 19
+        "count": 25
       },
       {
         "key": "La Paz",
         "label": "La Paz",
+        "count": 20
+      },
+      {
+        "key": "Santa Cruz",
+        "label": "Santa Cruz",
         "count": 19
       },
       {
@@ -211,22 +211,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 19
+        "count": 20
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 25
+        "count": 27
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 54
+        "count": 56
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 90
+        "count": 92
       }
     ],
     "price": [
@@ -243,19 +243,19 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 63
+        "count": 65
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 80
+        "count": 82
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 3
+        "count": 4
       }
     ],
     "tags": [
@@ -384,7 +384,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 37
+        "count": 38
       },
       {
         "key": "cultura_oficial",
@@ -399,7 +399,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 11
+        "count": 12
       },
       {
         "key": "ticketera",
@@ -438,6 +438,7 @@
       "evt_fb4a8d2b4761a1",
       "evt_f74c8b82d5ac15",
       "evt_b1315e17e86ce9",
+      "evt_8687acdbc53041",
       "evt_143d45c5ad2a0d"
     ],
     "tomorrow": [
@@ -466,6 +467,7 @@
       "evt_fb4a8d2b4761a1",
       "evt_f74c8b82d5ac15",
       "evt_b1315e17e86ce9",
+      "evt_8687acdbc53041",
       "evt_143d45c5ad2a0d"
     ],
     "free": [
@@ -491,6 +493,7 @@
       "evt_b1315e17e86ce9",
       "evt_143d45c5ad2a0d",
       "evt_8380ec54764421",
+      "evt_9186919862ca53",
       "evt_83cda287e5f9ab",
       "evt_f8f4fa0aa217cb",
       "evt_b738d5075ee0af",
@@ -515,27 +518,27 @@
   "coverage_by_department": {
     "La Paz": {
       "events_total": 37,
-      "events_upcoming": 19,
-      "events_with_image": 18,
-      "events_with_video": 1,
+      "events_upcoming": 20,
+      "events_with_image": 19,
+      "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 34,
-      "events_upcoming": 24,
-      "events_with_image": 24,
+      "events_total": 35,
+      "events_upcoming": 25,
+      "events_with_image": 25,
       "events_with_video": 1,
       "sources_total": 13,
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 35,
+      "events_total": 33,
       "events_upcoming": 19,
       "events_with_image": 14,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Chuquisaca": {
       "events_total": 13,
@@ -543,7 +546,7 @@
       "events_with_image": 8,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 3,
@@ -559,7 +562,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 1
     },
     "Tarija": {
       "events_total": 8,
@@ -589,7 +592,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 59,
+      "events_total": 56,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0
@@ -617,9 +620,9 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 22,
-      "events_upcoming": 20,
-      "events_with_image": 18,
+      "events_total": 23,
+      "events_upcoming": 21,
+      "events_with_image": 19,
       "events_with_video": 0
     },
     "exposicion": {
@@ -652,10 +655,10 @@
     },
     "otro": {
       "label": "Otros",
-      "events_total": 2,
-      "events_upcoming": 2,
-      "events_with_image": 2,
-      "events_with_video": 0
+      "events_total": 3,
+      "events_upcoming": 3,
+      "events_with_image": 3,
+      "events_with_video": 1
     },
     "taller": {
       "label": "Talleres y cursos",
@@ -1951,15 +1954,53 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_8687acdbc53041",
+      "title": "Espectáculos",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-10-17T18:10:00-04:00",
+      "starts_at_ms": 1792275000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 17 de octubre · 18:10",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/10/16/16-10-2026_edwin_-_llajta_rock_vale_web.jpg.jpeg?itok=BqNkLd-t",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_143d45c5ad2a0d",
       "title": "Película en cartelera de cine",
       "category": "cine",
       "category_label": "Cine",
-      "starts_at": "2026-10-17T22:00:00-04:00",
-      "starts_at_ms": 1792288800000,
+      "starts_at": "2026-10-17T19:30:00-04:00",
+      "starts_at_ms": 1792279800000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Sábado 17 de octubre · 22:00",
+      "display_date": "Sábado 17 de octubre · 19:30",
       "lifecycle": "hoy",
       "lifecycle_label": "Hoy",
       "days_until": 0,
@@ -1967,7 +2008,7 @@
       "city": "Santa Cruz de la Sierra",
       "department": "Santa Cruz",
       "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
+      "image_url": "https://cdn.bolivia.com/cine/2026/10/madre-siniestra-47902.jpg",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
@@ -1976,61 +2017,48 @@
       "price_label": null,
       "organizer": null,
       "showtimes": [
-        "22:00",
-        "16:20",
-        "19:00",
-        "21:40",
-        "16:40",
-        "19:20",
-        "17:00",
         "19:30",
-        "17:40",
+        "21:40",
+        "20:20",
+        "22:30",
+        "18:10",
+        "19:00",
+        "19:20",
+        "22:00",
         "20:00",
         "22:20",
         "18:40",
         "21:00",
-        "17:20",
-        "20:20",
-        "18:10",
-        "22:30",
-        "16:30",
-        "21:30",
         "18:20",
-        "17:50",
+        "21:30",
+        "20:30",
         "22:10"
       ],
       "formats": [
-        "2D - DBOX - Doblada",
         "2D - Doblada",
-        "2D - PRE - Subtitulada",
-        "DBOX - 2D - Doblada",
-        "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada",
         "2D - PRE - Doblada",
-        "2D - Subtitulada"
+        "2D - PRE - Subtitulada",
+        "PRE - 2D - Subtitulada",
+        "DBOX - 2D - Doblada",
+        "2D - Subtitulada",
+        "XD - IV - DBOX - 2D - Doblada"
       ],
       "occurrences": [
-        "2026-10-17T22:00:00-04:00",
-        "2026-10-17T16:20:00-04:00",
-        "2026-10-17T19:00:00-04:00",
-        "2026-10-17T21:40:00-04:00",
-        "2026-10-17T16:40:00-04:00",
-        "2026-10-17T19:20:00-04:00",
-        "2026-10-17T17:00:00-04:00",
         "2026-10-17T19:30:00-04:00",
-        "2026-10-17T17:40:00-04:00",
+        "2026-10-17T21:40:00-04:00",
+        "2026-10-17T20:20:00-04:00",
+        "2026-10-17T22:30:00-04:00",
+        "2026-10-17T18:10:00-04:00",
+        "2026-10-17T19:00:00-04:00",
+        "2026-10-17T19:20:00-04:00",
+        "2026-10-17T22:00:00-04:00",
         "2026-10-17T20:00:00-04:00",
         "2026-10-17T22:20:00-04:00",
         "2026-10-17T18:40:00-04:00",
         "2026-10-17T21:00:00-04:00",
-        "2026-10-17T17:20:00-04:00",
-        "2026-10-17T20:20:00-04:00",
-        "2026-10-17T18:10:00-04:00",
-        "2026-10-17T22:30:00-04:00",
-        "2026-10-17T16:30:00-04:00",
-        "2026-10-17T21:30:00-04:00",
         "2026-10-17T18:20:00-04:00",
-        "2026-10-17T17:50:00-04:00",
+        "2026-10-17T21:30:00-04:00",
+        "2026-10-17T20:30:00-04:00",
         "2026-10-17T22:10:00-04:00"
       ],
       "content_genre": null,
@@ -2258,6 +2286,44 @@
       "currency": "None",
       "price_label": "Bs 75",
       "organizer": "SuperTicket.bo",
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 72,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_9186919862ca53",
+      "title": "24 reacciones | Este sábado 24 de octubre te invitamos a AFROFEST 2026:\n📍 Centro Cultural de España en La Paz…",
+      "category": "otro",
+      "category_label": "Otros",
+      "starts_at": "2026-10-24T21:00:00-04:00",
+      "starts_at_ms": 1792890000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Sábado 24 de octubre · 21:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 7,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Centro Cultural de España en La Paz",
+      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t51.82787-15/843972481_18365228836301465_5909976749439158155_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a27664&_nc_ohc=cUmEPA66eP8Q7kNvwFSf0d9&_nc_oc=Adr3TYUPbmMqSG9PPpTFDs4h1O_viPuhoJY9DEdOXFAzNasBaU4aBejl-H6st_T2BfM&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=EUdlZj3Sl4vRqVzi7ICooA&_nc_ss=7f289&oh=00_AQN6foYCFcHLq_kFeUpaDChsFQaWNEId8L89835teeHPjg&oe=6AD9E3B1",
+      "has_video": true,
+      "video_thumbnail_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t51.82787-15/843972481_18365228836301465_5909976749439158155_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a27664&_nc_ohc=cUmEPA66eP8Q7kNvwFSf0d9&_nc_oc=Adr3TYUPbmMqSG9PPpTFDs4h1O_viPuhoJY9DEdOXFAzNasBaU4aBejl-H6st_T2BfM&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=EUdlZj3Sl4vRqVzi7ICooA&_nc_ss=7f289&oh=00_AQN6foYCFcHLq_kFeUpaDChsFQaWNEId8L89835teeHPjg&oe=6AD9E3B1",
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
       "showtimes": [],
       "formats": [],
       "occurrences": [],

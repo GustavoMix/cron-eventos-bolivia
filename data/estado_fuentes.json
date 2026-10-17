@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T16:39:19-04:00",
+  "generated_at": "2026-10-17T19:10:19-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,12 +12,11 @@
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_municipio_potosi",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 117.8,
-    "horas_maximo_sin_datos": 1405.5
+    "horas_promedio_sin_datos": 114.9,
+    "horas_maximo_sin_datos": 1408.0
   },
   "sources": [
     {
@@ -97,13 +96,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kXGmGVWTpikQ7kNvwHUUYFt&_nc_oc=Adqlp_REy1NC-FjQ3nz-EBID6ahMZs1LZTWFCdL4dab-e-gNnqbrY7bBKD2LCH0JH6Y&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=NFGIrgUfm0RTXg8nNaCM9Q&_nc_ss=7f289&oh=00_AQNV4_gQuXVqqgh-bEZtXSXjeVtpcZWupIJmtAczD21dKA&oe=6AD9E7D0",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/Fexpocruz/posts/pfbid0YAX1pErQ6JYz7rNT78gt2fbbFyDiLyfrK2YDvd4DyXajUps6eoDGfFHfUNnyozkMl?__cft__[0]=AZiMHUo5SRui_cAWRYsE9PtxJe6c3_TWQmg8SvfpVZST3GCvB4q9KbrLSvQQHhDYCasERsbq9SmgYhPRnWm_Y1CV_D6C5rGg7sfGKWETTNYcnHlRUEUYjxUDq_f8SgE-Qf3s4IFpX8B3vL7Fy-ZK9pNy9g3mrmM4eJbJ-B1-nu0tyaIY-5yFCWBPVpE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Hoy celebramos el Certification Nation Day! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -539,22 +547,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BAUNGckaDrQQ7kNvwF5XPYj&_nc_oc=Adp0-nTJr8YmtpiAHwVSW6LtOebZXUShgsXPJArfzTX-SZ3dqYCjv2uxlvaCSUsqtNI&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=eqB4reqB0ghErd9cCVCvMw&_nc_ss=7f289&oh=00_AQO3b7DcRYctkZEYu4y_QAPu33-wKnTj8PVbtObJ1nIVHg&oe=6AD9ACB3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid036ToEA9HK9Jd2qe92TXMXkNWVfdbfD6RfRMHCis3v5NrbUJEABSHnaqNLQfjFadwGl?__cft__[0]=AZj9UASDtJFudo_tSUmBkrexq_wnCULcmDrae5IIht0hacExmdhtLa5hEevozw_PE2Q7MuR937wLTofg70QflVKEITbPSBT6P_maKpWr9M9YQTLccl7qKCXiYxRQD4JbFSJPoCcCWDhmhWOEAyts7k34xRx1fOJnJp_T3lSmACmLngZPfUl2PqJSWCk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#FCBCB | 17 de octubre - Día Internacional del Patrimonio Inmaterial… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -582,13 +581,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tBpYTl2XhWkQ7kNvwESgC0o&_nc_oc=Adr8snb6xyS99tuVHmHUx2OEPP2MsN3qbxuFLHlgaF3POVmcbxsoBPeh93fYmHluL10&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=uzoIRqrml3j3QYEZA6pB0Q&_nc_ss=7f289&oh=00_AQNCr0oCMh7m6LwWfoxG8GNg5Zbs_ZpJhhLI_JhoSaf8mA&oe=6AD9CE16",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -718,13 +717,30 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rNbqY2iZ6G4Q7kNvwEs7XrS&_nc_oc=Adr0JQu6o-M7HqtLN8AJL4uKPpF4bRh103RWdr_BSuauYQwsYL2GRu8MfkvLYEPM-D0&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=jGPsWY0GjjUD6GmpOz58DQ&_nc_ss=7f289&oh=00_AQPJNt0mL4fBd4CnkQAgCrPxS-O9psC8bdgF5p_gB8WqbQ&oe=6AD9D5E8",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "festival",
+          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/1815492706430785/?__cft__[0]=AZiwCxvWgBy9I9cMVdrJ_xUvT1SBVXYyD-IM4wByTSmdUQmw2ydECAQaAYcL3LKPaPzZPXwj6l7natAt1O9x50C3vMZuBPLnaRF1hfHsXILkR6gUQikfUJl2nWtEgueq-kcyMzRARXJfEYmAUIr0Ec_sHXG10UQei_zsNypsV7GzmA5b1p5nTDKGvyf5WLAdpdU&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "1er Encuentro de Mujeres Potosinas Excelente trabajo Un espacio que celebra la fuerza, el talento y el liderazgo de las mujeres potosinas. Que este 1er Encuentro sea una oportunidad para compartir experiencias, fortalecer la unión y promover la igualdad de oportunidades, reconociendo el… Ver más Tenemos problemas para reproducir este video. Más información Ver más comentarios Lucero Flores Garabit"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/1815492706430785/?comment_id=1791382905469789&__cft__[0]=AZiwCxvWgBy9I9cMVdrJ_xUvT1SBVXYyD-IM4wByTSmdUQmw2ydECAQaAYcL3LKPaPzZPXwj6l7natAt1O9x50C3vMZuBPLnaRF1hfHsXILkR6gUQikfUJl2nWtEgueq-kcyMzRARXJfEYmAUIr0Ec_sHXG10UQei_zsNypsV7GzmA5b1p5nTDKGvyf5WLAdpdU&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Excelente trabajo Un espacio que celebra la fuerza, el talento y el liderazgo de las mujeres potosinas. Que este 1er Encuentro sea una oportunidad para compartir experiencias, fortalecer la unión y promover la igualdad de oportunidades, reconociendo el… Ver más Lucero Flores Garabito"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_trinidad",
@@ -1092,13 +1108,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sDcxmeKGBDcQ7kNvwESZMNp&_nc_oc=Adq4-o1IUXy7koWjAUA8yy3A63MNtPvACDXm60dVZVF6txMdljCVMxTjW3Ck829qPfw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=7VXYK1blJnsnLFZdvzuMAg&_nc_ss=7f289&oh=00_AQMkym_YFts4DB_bo8lgPqVmWEGJeI7WQgJRMpMgX5GM9A&oe=6AD99AB7",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
@@ -1231,14 +1247,22 @@
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
       "raw_items": 11,
-      "events": 10,
-      "rejected": 1,
+      "events": 9,
+      "rejected": 2,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 0,
           "category": "otro",
           "url": "https://superticket.bo/",
+          "has_image": true,
+          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://superticket.bo/Tiwanaku-Nocturno---Cultura-Chiripa/",
           "has_image": true,
           "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
         }
@@ -1377,25 +1401,9 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 44,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/tendencias",
-          "has_image": true,
-          "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
-        },
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 54,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
-          "has_image": true,
-          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
-        },
         {
           "reason": "tema_ajeno_a_eventos",
           "score": 48,
@@ -1403,6 +1411,22 @@
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+        },
+        {
+          "reason": "tema_ajeno_a_eventos",
+          "score": 36,
+          "category": "festival",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "has_image": true,
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+        },
+        {
+          "reason": "tema_ajeno_a_eventos",
+          "score": 36,
+          "category": "festival",
+          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Nueva jornada de protestas multitudinarias en Francia 2 Kast invita a Rodrigo Paz a visitar Chile en 2027 para dar continuidad al acercamiento bila"
         }
       ],
       "error": null
