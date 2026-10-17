@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T00:27:27-04:00",
+  "generated_at": "2026-10-17T06:45:37-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -16,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 112.1,
-    "horas_maximo_sin_datos": 1389.3
+    "horas_promedio_sin_datos": 115.8,
+    "horas_maximo_sin_datos": 1395.6
   },
   "sources": [
     {
@@ -590,22 +590,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CFSuJr7tzQcQ7kNvwH3IXtM&_nc_oc=AdqRIOBisCb6LPF8pf9L1yQbKx-3XyqWklUB4XXwDkxQZgo0WLrPuEzZi_7p2-ZyKX0&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=NoNa-uKMZWOCO26MC5w1vg&_nc_ss=7f289&oh=00_AQN_NilIgDedBQXV3tAT160fbrxVrzaTRV9xIYDYLVcgJg&oe=6AD8BA87",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid02SKCcY6MNNoCD4YAV12kDQ4wEtPnfBhCu4DuALou8y98y9Adj3DetyitaWsyNJgctl?__cft__[0]=AZgZqaaX1wUcz6zbRWeMI3EOyNDfShLE_5uKAM5kQgOKEX_jDRZoQKt5oGhH4eB56TLoXH9n0HG-Apx0jrPqdfArz_ZPjD06odlLuOpCdVBiYva8UoUhmGc9-_4BfvD6q95oIVyvTOIIghucFU0RT1Gj7ZwShWjbujYZTxdiASYnoFyqGXkn35SfNcw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "hace un día 1 día #MNA | Comunicado… Ver más Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -871,13 +862,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/830236722_1578141747687371_3618972506924612207_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LCOW8Rp5yysQ7kNvwHCSLcp&_nc_oc=AdpM9UPmGzLjE8O6H63HhG0T3fSMy0L3c4gpccpLxO2LZbn-o8WJrLAwMdxyrie_jn8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=9oP9ZmJ2b1NU0EFvfs5sBQ&_nc_ss=7f289&oh=00_AQM2nfWZ2bqlmyTJT_AOYQNu1HWqmtovNXjKpe2EHP_6Cw&oe=6AD9088F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1626174708967588/?__cft__[0]=AZgnzicUW8SnKR4Ol9HF1ViAEhF5pyB_fK5BbabwqvBY_L0vMjTP42FuQekRSis_Ublcz8jjnHbmHx_1Vfwz-XDVenZfZBUrE8LDwaH8M3uo4EvSFTghdsU-FQciNHlRnE0Gjp3jtWl4897RT8cNpsZLnVV1gLct-MyGarxVTWUd3yKpUjmTqhTAMu-Y1A09U6D4&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡MISKI 2026 es una realidad! D… Ver más ¡MISKI 2026 es una realidad! D… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -939,13 +939,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-72cRW6hLWUQ7kNvwHJuSF1&_nc_oc=AdrblFvRGbkZlIFxflIKKxjhfaT4RjE_V_eP-zOhVXfMhqIrc6otln62mDf-c-aRQdc&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=_uwFX8Z_r6v5-xjScVNy_Q&_nc_ss=7f289&oh=00_AQNgQjNgGonxWWHa9m1qyxha4zIVi9S9SdnkHQcV4bp_8g&oe=6AD92F87",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid07Eo2p62nVjDBFJ6UMVnWpV9u477DJ6YLufP1i6GJk33P79QfNCqYZyk9uaLzF42ml?__cft__[0]=AZir6s4YqcwkEDO6IcaiZJptNteHn7Uw0RfM2hzjojK7GVC_MsBpxL-_NqBR1UN7xVFz84UOVX7KNem1McyCf5uAvMikHUevYR36vqPdzJXNYh7C8-JSJqFB_PnXqECOOlACd-W1ib21EMZ-TlLnq2uW3LdIPb0NF8VvINmRpnKDZ9eRZ_tA3m7AeLY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "hace 19 horas 19 h ¡Despierta tu creatividad! … Ver más Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -973,13 +982,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uPyJzbFJN8gQ7kNvwGRHXVx&_nc_oc=Adr_xSrojyGgwvi3synergdFonnIRaNn808zO8nFzxO1hj1F3Mowx-gDCX0sOPjpCUk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=EIDOROXehrRsHkaFN4NrtA&_nc_ss=7f289&oh=00_AQMqcT3Jl4WAjDu1SYld3x-NmLDbLZrRy1n_LXaYkBA-ig&oe=6AD8B07D",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1381,9 +1390,9 @@
       "rejected": 5,
       "rejected_samples": [
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 48,
-          "category": "gastronomia",
+          "reason": "relevancia_insuficiente",
+          "score": 54,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
@@ -1402,7 +1411,7 @@
           "category": "festival",
           "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Los peritajes a las maderas de exportación resultan negativos para cocaína y los casos se cierran progresivamente 2 Plaza Murillo se alista para re"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 23h07m UIF denuncia red de extorsión de anteriores gestiones vinculada con Roger Mariaca 22h11m Paz habló con Kast sobre el caso maderas y le pid"
         }
       ],
       "error": null
