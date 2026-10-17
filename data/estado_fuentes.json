@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:37:09-04:00",
+  "generated_at": "2026-10-17T16:39:19-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_casa_libertad",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
+      "fb_municipio_potosi",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 116.2,
-    "horas_maximo_sin_datos": 1400.4
+    "horas_promedio_sin_datos": 117.8,
+    "horas_maximo_sin_datos": 1405.5
   },
   "sources": [
     {
@@ -80,22 +80,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=al2eirBRy6oQ7kNvwFDf5Kk&_nc_oc=Adomls0AnXHeRx46Ovn7TIccVInuE5dzh7xfXvpniEjWO92JKGp2Zl2wZHvCVTSBHJk&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=h54nNnOTyFMp3MYtnCxFGA&_nc_ss=7f289&oh=00_AQP7o-D7le5xB7XWafYJFZgEbX9oHZgCMJC3A2lq4icgMg&oe=6AD94F83",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid028qJ41m2qELS9CumZPxAjbqExw1qWnioeRFEQxCSC1J1cmXugpHfCEBsc6LsFyGVql?__cft__[0]=AZjDxcEf8oxc41jDuimxhX9Oe0HVygvwR6BlpY777aOQ7f9y4rJaZBEBQZ5yEHEpyDGpU2h_q0XdPT2EEutfxZyFGQTd1VKiBvcUABA1gTD-7QUNse1VUVKYX3KKsMoiBFIoy2rjdO0wk-_8_V9oamVH83jwilIaZ7fa94SExJn6AfPOgUnuwr2sKxg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "CAMILA VUELVE A SANTA CRUZ Re… Ver más CAMILA VUELVE A SANTA CRUZ Re… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -327,22 +318,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=z8Lv1_CofeYQ7kNvwEzHYtt&_nc_oc=Adp0nebG4b0TLIJJIS1AvzX6Q1QWKKcf3Do0OVcasZhwF8JdkyreGCowdVQ0vzN1IU0&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_ss=7f289&oh=00_AQOeQMloECl0TwIh4eVNbiYZ7rNVwqAmBxTjS9E5hF83vg&oe=6AFAFCFA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1887473169092302/?__cft__[0]=AZhoh0ylbMBo8mKgFFL42s_SpxFvgnF1pfJjLEUT0X__WDWiWPt1I-jgrxtl8xURdaPSAF_GbZfH7GIKi3k9_zbEzo4KuLcdbJaVkdEs1v93MDNQ3MsiczEi_BPx3pNeehO7rUwlQ0DKj-7hxB7lLyumYfuAoQDHneS3IqI6NY_SIw2zeUm9kp1a0rZKYLXkFxqx&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "El pontífice saludó a pacientes y fieles antes de abandonar el Policlínico Gemelli y regresar al Vaticano. Este domingo reaparecerá en el Palacio Apostólico para presid… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_unitel",
@@ -557,13 +539,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BAUNGckaDrQQ7kNvwF5XPYj&_nc_oc=Adp0-nTJr8YmtpiAHwVSW6LtOebZXUShgsXPJArfzTX-SZ3dqYCjv2uxlvaCSUsqtNI&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=eqB4reqB0ghErd9cCVCvMw&_nc_ss=7f289&oh=00_AQO3b7DcRYctkZEYu4y_QAPu33-wKnTj8PVbtObJ1nIVHg&oe=6AD9ACB3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid036ToEA9HK9Jd2qe92TXMXkNWVfdbfD6RfRMHCis3v5NrbUJEABSHnaqNLQfjFadwGl?__cft__[0]=AZj9UASDtJFudo_tSUmBkrexq_wnCULcmDrae5IIht0hacExmdhtLa5hEevozw_PE2Q7MuR937wLTofg70QflVKEITbPSBT6P_maKpWr9M9YQTLccl7qKCXiYxRQD4JbFSJPoCcCWDhmhWOEAyts7k34xRx1fOJnJp_T3lSmACmLngZPfUl2PqJSWCk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#FCBCB | 17 de octubre - Día Internacional del Patrimonio Inmaterial… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -728,12 +719,12 @@
       "region": "Potosí",
       "city": "Potosí",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_municipio_trinidad",
@@ -1101,13 +1092,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sDcxmeKGBDcQ7kNvwESZMNp&_nc_oc=Adq4-o1IUXy7koWjAUA8yy3A63MNtPvACDXm60dVZVF6txMdljCVMxTjW3Ck829qPfw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=7VXYK1blJnsnLFZdvzuMAg&_nc_ss=7f289&oh=00_AQMkym_YFts4DB_bo8lgPqVmWEGJeI7WQgJRMpMgX5GM9A&oe=6AD99AB7",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Casa de la Libertad 16 mil seguidores • 45 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a '"
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1386,8 +1377,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1406,12 +1397,12 @@
           "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
         },
         {
-          "reason": "relevancia_insuficiente",
-          "score": 54,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "reason": "tema_ajeno_a_eventos",
+          "score": 48,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1511,8 +1502,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 57,
-      "events": 57,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1545,8 +1536,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1579,8 +1570,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 48,
-      "events": 48,
+      "raw_items": 44,
+      "events": 44,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1613,8 +1604,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
