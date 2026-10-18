@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-18T07:06:40-04:00",
+  "generated_at": "2026-10-18T11:54:49-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 90,
+    "events_total": 91,
     "events_today": 13
   },
   "filters": {
@@ -98,14 +98,14 @@
         "count": 3
       },
       {
-        "key": "conferencia",
-        "label": "Conferencias",
+        "key": "otro",
+        "label": "Otros",
         "count": 3
       },
       {
-        "key": "otro",
-        "label": "Otros",
-        "count": 2
+        "key": "conferencia",
+        "label": "Conferencias",
+        "count": 3
       },
       {
         "key": "danza",
@@ -122,7 +122,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 21
+        "count": 22
       },
       {
         "key": "Santa Cruz de la Sierra",
@@ -174,7 +174,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 20
+        "count": 21
       },
       {
         "key": "Santa Cruz",
@@ -221,12 +221,12 @@
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 54
+        "count": 55
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 90
+        "count": 91
       }
     ],
     "price": [
@@ -238,7 +238,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 22
+        "count": 23
       },
       {
         "key": "por_confirmar",
@@ -250,12 +250,12 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 80
+        "count": 81
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 4
+        "count": 5
       }
     ],
     "tags": [
@@ -315,6 +315,36 @@
         "count": 1
       },
       {
+        "key": "FIPAZ2026",
+        "label": "FIPAZ2026",
+        "count": 1
+      },
+      {
+        "key": "DinKongResortPark",
+        "label": "DinKongResortPark",
+        "count": 1
+      },
+      {
+        "key": "LaPaz",
+        "label": "LaPaz",
+        "count": 1
+      },
+      {
+        "key": "Promoción2x1",
+        "label": "Promoción2x1",
+        "count": 1
+      },
+      {
+        "key": "DiversiónParaTodos",
+        "label": "DiversiónParaTodos",
+        "count": 1
+      },
+      {
+        "key": "ElParqueTemáticoMásGrandeDeBol",
+        "label": "ElParqueTemáticoMásGrandeDeBol",
+        "count": 1
+      },
+      {
         "key": "Ml18Xb",
         "label": "Ml18Xb",
         "count": 1
@@ -348,36 +378,6 @@
         "key": "RTvU",
         "label": "RTvU",
         "count": 1
-      },
-      {
-        "key": "FeriaProfesiográfica",
-        "label": "FeriaProfesiográfica",
-        "count": 1
-      },
-      {
-        "key": "Carreras",
-        "label": "Carreras",
-        "count": 1
-      },
-      {
-        "key": "Vinculación",
-        "label": "Vinculación",
-        "count": 1
-      },
-      {
-        "key": "OrientaciónVocacional",
-        "label": "OrientaciónVocacional",
-        "count": 1
-      },
-      {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
-        "count": 1
-      },
-      {
-        "key": "ATar",
-        "label": "ATar",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -409,7 +409,7 @@
       {
         "key": "eventos",
         "label": "eventos",
-        "count": 2
+        "count": 3
       },
       {
         "key": "municipio",
@@ -487,6 +487,7 @@
       "evt_9186919862ca53",
       "evt_83cda287e5f9ab",
       "evt_f8f4fa0aa217cb",
+      "evt_df4f89b374404b",
       "evt_b738d5075ee0af",
       "evt_272425b1fcd388",
       "evt_cdbfbc6ca41a2d",
@@ -508,10 +509,10 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 40,
-      "events_upcoming": 20,
-      "events_with_image": 19,
-      "events_with_video": 2,
+      "events_total": 37,
+      "events_upcoming": 21,
+      "events_with_image": 20,
+      "events_with_video": 3,
       "sources_total": 26,
       "sources_ok": 4
     },
@@ -524,7 +525,7 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 37,
+      "events_total": 35,
       "events_upcoming": 19,
       "events_with_image": 14,
       "events_with_video": 1,
@@ -532,7 +533,7 @@
       "sources_ok": 3
     },
     "Chuquisaca": {
-      "events_total": 14,
+      "events_total": 13,
       "events_upcoming": 8,
       "events_with_image": 8,
       "events_with_video": 0,
@@ -561,7 +562,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Beni": {
       "events_total": 0,
@@ -583,7 +584,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 68,
+      "events_total": 61,
       "events_upcoming": 17,
       "events_with_image": 17,
       "events_with_video": 0
@@ -646,10 +647,10 @@
     },
     "otro": {
       "label": "Otros",
-      "events_total": 3,
-      "events_upcoming": 2,
-      "events_with_image": 2,
-      "events_with_video": 1
+      "events_total": 4,
+      "events_upcoming": 3,
+      "events_with_image": 3,
+      "events_with_video": 2
     },
     "taller": {
       "label": "Talleres y cursos",
@@ -2568,6 +2569,44 @@
       "director": null,
       "cast": [],
       "quality_score": 72,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_df4f89b374404b",
+      "title": "FIPAZ - Feria Internacional de La Paz",
+      "category": "otro",
+      "category_label": "Otros",
+      "starts_at": "2026-10-28T00:00:00-04:00",
+      "starts_at_ms": 1793160000000,
+      "ends_at_ms": 1794196740000,
+      "multi_day": true,
+      "display_date": "Del 28 de octubre al 8 de noviembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 10,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t15.5256-10/854419799_1442100584544835_7150080188194951074_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=596eb7&_nc_ohc=4_xuYyaLJ40Q7kNvwEre2kR&_nc_oc=AdqMPaoRDjvjZo4o402JVYMLPOIJ1xXWKYY7_LanCIq1sD5X2bXu5nAyzDz5vu7jOXY&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=mqNPNmlt07E7_K78esEPRA&_nc_ss=7f289&oh=00_AQPtZsiSk2GlehQMmU4nq76YPvPaSn39t43JvZWAesQiFA&oe=6ADAADE7",
+      "has_video": true,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 120.0,
+      "currency": "BOB",
+      "price_label": "Bs 120",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 70,
       "is_featured": true,
       "status": "programado",
       "source_count": 1
