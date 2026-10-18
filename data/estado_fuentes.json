@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T19:10:19-04:00",
+  "generated_at": "2026-10-18T00:34:47-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_fipaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -15,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 114.9,
-    "horas_maximo_sin_datos": 1408.0
+    "horas_promedio_sin_datos": 116.4,
+    "horas_maximo_sin_datos": 1413.4
   },
   "sources": [
     {
@@ -96,22 +97,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=kXGmGVWTpikQ7kNvwHUUYFt&_nc_oc=Adqlp_REy1NC-FjQ3nz-EBID6ahMZs1LZTWFCdL4dab-e-gNnqbrY7bBKD2LCH0JH6Y&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=NFGIrgUfm0RTXg8nNaCM9Q&_nc_ss=7f289&oh=00_AQNV4_gQuXVqqgh-bEZtXSXjeVtpcZWupIJmtAczD21dKA&oe=6AD9E7D0",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/Fexpocruz/posts/pfbid0YAX1pErQ6JYz7rNT78gt2fbbFyDiLyfrK2YDvd4DyXajUps6eoDGfFHfUNnyozkMl?__cft__[0]=AZiMHUo5SRui_cAWRYsE9PtxJe6c3_TWQmg8SvfpVZST3GCvB4q9KbrLSvQQHhDYCasERsbq9SmgYhPRnWm_Y1CV_D6C5rGg7sfGKWETTNYcnHlRUEUYjxUDq_f8SgE-Qf3s4IFpX8B3vL7Fy-ZK9pNy9g3mrmM4eJbJ-B1-nu0tyaIY-5yFCWBPVpE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Hoy celebramos el Certification Nation Day! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -581,13 +573,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tBpYTl2XhWkQ7kNvwESgC0o&_nc_oc=Adr8snb6xyS99tuVHmHUx2OEPP2MsN3qbxuFLHlgaF3POVmcbxsoBPeh93fYmHluL10&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=uzoIRqrml3j3QYEZA6pB0Q&_nc_ss=7f289&oh=00_AQNCr0oCMh7m6LwWfoxG8GNg5Zbs_ZpJhhLI_JhoSaf8mA&oe=6AD9CE16",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -632,13 +624,30 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4OQ7PZk5fvAQ7kNvwFAA-JW&_nc_oc=AdpFl0GGVLRfsMbGgOWm2QejXjOxZXIup34tVPdLoPlx5r_wNC2xwyIXXtsaSubo7yU&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=ZfH7r2vqescHX2lVWh2Niw&_nc_ss=7f289&oh=00_AQNi8rXbMSpiZ77e0WSk-XWZojrDZqdZp_9ZMS3rO60qKQ&oe=6ADA278F",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid02QdgD8M1jBStcxocvEAZjvAHattYsxb37CchKbv1KsjrXdR1tnJbRgHmpxjHJiae1l?__cft__[0]=AZgNLL4JPHBGoa2Ht3CmLGQ3BVedATmZ4zMG3RffbPEaIXWijUF0dd19C-90SUWOzSskHYjFv2cdYw799OVDQ434VvBPpgMantFiEp9ULaEJ4NE8Kr6sjzj7pF-nDLH4f1CEBOjFqfVTJaxkeVGg1vb5ezdIfcIlUCiXsWCO-dNLreCP830VBaKCiBw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CNM | AVISO INSTITUCIONAL… Ver más Para un investigador tiempo cortado tiempo perdido … requiere continuidad para el manejo de documentos históricos … gracias Tenemos problemas para reproducir este video. Más información Ver más comentarios Guillermo Enrique Torres"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid02QdgD8M1jBStcxocvEAZjvAHattYsxb37CchKbv1KsjrXdR1tnJbRgHmpxjHJiae1l?comment_id=1154286830872130&__cft__[0]=AZgNLL4JPHBGoa2Ht3CmLGQ3BVedATmZ4zMG3RffbPEaIXWijUF0dd19C-90SUWOzSskHYjFv2cdYw799OVDQ434VvBPpgMantFiEp9ULaEJ4NE8Kr6sjzj7pF-nDLH4f1CEBOjFqfVTJaxkeVGg1vb5ezdIfcIlUCiXsWCO-dNLreCP830VBaKCiBw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Para un investigador tiempo cortado tiempo perdido … requiere continuidad para el manejo de documentos históricos … gracias Guillermo Enrique Torres"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -666,13 +675,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=68_Rj0-uWdUQ7kNvwFn7wtY&_nc_oc=Adq6tDfjZB5PrQ3Xs1MzAIXDv8rvUpXRKeD84FTrSVYZMvbt4BYKQ9kuE6pUXWhjoxk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=qOcFYWyagF-r85W1f21mJQ&_nc_ss=7f289&oh=00_AQO4zC6EloWad99ufba-3nbfFAkyVlLzmGaaDbGW0cYX7A&oe=6ADA3238",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/posts/pfbid02zru3kSau5kySCjMwJqnDpEzAZJgrym7L7WQagqcCXUC5ZUK91XKi4QcwaYkZzgGEl?__cft__[0]=AZihz-7XRqAejwV26rC7g3LDfRisoSJuax5QamX-dXrQKEQEpy1AQjnQxeENEz2oBkFcoVAIn7GgJamDLX2mjeVxt2tYzIuZIyOC8Sl3uRYM1U-OGI7g-8Uj5FtAtoQcriTL1ZmuTLkLc94kZZujyZ5uxlg0sTqaEVDLVo8ibkx7gxEImAuFehB2HvvUyR1XpQnM2wHhbad1IRdUUn8&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "SUBALCALDÍAS EN ACCIÓN | BUENAS NOTICIAS DE LA SEMANA Los distritos 1 y 2 realizaron bacheo, renovación de luminarias y limpieza de espacios públicos. El Distr… Ver más SUBALCALDÍAS EN ACCIÓN | BUENAS NOTICIAS DE LA SEMANA Los distritos 1 y 2 realizaron bacheo, renovación de luminarias y limpieza de espacios públicos. El Distr… Ver más Tenemos problemas para reproducir este video. Más información "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_oruro",
@@ -717,30 +735,13 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rNbqY2iZ6G4Q7kNvwEs7XrS&_nc_oc=Adr0JQu6o-M7HqtLN8AJL4uKPpF4bRh103RWdr_BSuauYQwsYL2GRu8MfkvLYEPM-D0&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=jGPsWY0GjjUD6GmpOz58DQ&_nc_ss=7f289&oh=00_AQPJNt0mL4fBd4CnkQAgCrPxS-O9psC8bdgF5p_gB8WqbQ&oe=6AD9D5E8",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 16,
-          "category": "festival",
-          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/1815492706430785/?__cft__[0]=AZiwCxvWgBy9I9cMVdrJ_xUvT1SBVXYyD-IM4wByTSmdUQmw2ydECAQaAYcL3LKPaPzZPXwj6l7natAt1O9x50C3vMZuBPLnaRF1hfHsXILkR6gUQikfUJl2nWtEgueq-kcyMzRARXJfEYmAUIr0Ec_sHXG10UQei_zsNypsV7GzmA5b1p5nTDKGvyf5WLAdpdU&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "1er Encuentro de Mujeres Potosinas Excelente trabajo Un espacio que celebra la fuerza, el talento y el liderazgo de las mujeres potosinas. Que este 1er Encuentro sea una oportunidad para compartir experiencias, fortalecer la unión y promover la igualdad de oportunidades, reconociendo el… Ver más Tenemos problemas para reproducir este video. Más información Ver más comentarios Lucero Flores Garabit"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernomunicipaldepotosi/videos/1815492706430785/?comment_id=1791382905469789&__cft__[0]=AZiwCxvWgBy9I9cMVdrJ_xUvT1SBVXYyD-IM4wByTSmdUQmw2ydECAQaAYcL3LKPaPzZPXwj6l7natAt1O9x50C3vMZuBPLnaRF1hfHsXILkR6gUQikfUJl2nWtEgueq-kcyMzRARXJfEYmAUIr0Ec_sHXG10UQei_zsNypsV7GzmA5b1p5nTDKGvyf5WLAdpdU&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Excelente trabajo Un espacio que celebra la fuerza, el talento y el liderazgo de las mujeres potosinas. Que este 1er Encuentro sea una oportunidad para compartir experiencias, fortalecer la unión y promover la igualdad de oportunidades, reconociendo el… Ver más Lucero Flores Garabito"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_trinidad",
@@ -871,12 +872,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? FIPAZ - Feria Internacional de La Paz 73 mil seguidores • 76 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pued'"
     },
     {
       "id": "fb_feicobol",
@@ -1246,23 +1247,15 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 11,
+      "raw_items": 10,
       "events": 9,
-      "rejected": 2,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 0,
           "category": "otro",
           "url": "https://superticket.bo/",
-          "has_image": true,
-          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://superticket.bo/Tiwanaku-Nocturno---Cultura-Chiripa/",
           "has_image": true,
           "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
         }
@@ -1401,9 +1394,25 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 16,
+          "category": "festival",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 54,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
+        },
         {
           "reason": "tema_ajeno_a_eventos",
           "score": 48,
@@ -1411,22 +1420,6 @@
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 36,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
-          "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 36,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Nueva jornada de protestas multitudinarias en Francia 2 Kast invita a Rodrigo Paz a visitar Chile en 2027 para dar continuidad al acercamiento bila"
         }
       ],
       "error": null
@@ -1484,15 +1477,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
+      "raw_items": 35,
       "events": 0,
-      "rejected": 40,
+      "rejected": 35,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/ce0f10a9-89e2-4664-897e-5a01a97bc247",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/d8e4b055-4efa-44cb-ac0b-453f1a31854a",
           "has_image": true,
           "text_preview": ""
         },
@@ -1500,7 +1493,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/448223a9-4b6f-4647-a408-81d1a9fd923f",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/3e3ef7f7-6c35-454c-868e-0864ac3bc1a2",
           "has_image": true,
           "text_preview": ""
         },
@@ -1508,7 +1501,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/8fb60de5-21f1-4c66-b8ed-b53d7b6b1056",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
           "has_image": true,
           "text_preview": ""
         }
@@ -1526,8 +1519,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
-      "events": 37,
+      "raw_items": 38,
+      "events": 38,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1560,8 +1553,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1594,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 44,
-      "events": 44,
+      "raw_items": 49,
+      "events": 49,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1628,8 +1621,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
