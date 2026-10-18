@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T11:54:49-04:00",
+  "generated_at": "2026-10-18T16:45:23-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,6 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_amun_lapaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -16,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 122.3,
-    "horas_maximo_sin_datos": 1424.7
+    "horas_promedio_sin_datos": 121.8,
+    "horas_maximo_sin_datos": 1429.6
   },
   "sources": [
     {
@@ -148,13 +147,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i7grqLa589kQ7kNvwHq8SkN&_nc_oc=Adqt7m-T_lwffi_Sb7BNRKRW60YqchUMYGF_WG2sAuvugZ4E-rjK41YoLw1gm7Zqqjw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=bMNqhmk_Wk6ungvp66tw4w&_nc_ss=7f289&oh=00_AQPPVLNYTGJzMEIFp1ldhZZWqorCNGdG-NETJy7GAukJmA&oe=6ADB1140",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0WoBPgZDmXLNhjihtPmrQdjM8YjxbycCaQ4p5dVPrJ1GVA7DvcQ7tEVmdczrqQ9Dl?__cft__[0]=AZhYZ3SXAYinRM7557IbEPcW0-J9sz3hAZVBD4Wg-mF_isAMMZ7Gju9-jPtJG_hMtpVMYU2_aYGMc7MvfyQf4Wk3Ro3krmeP9Cs0X2P9TKjZVxV7ue4g7tJ9pg4AWdWpENKXfmh1KafqIDl6L360qXihdc833kjYSS_1aqPpl9NroVm88l6D457CKeg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Caminata Octubre Rosa en La Paz promueve la detección temprana del cáncer de mama… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -556,13 +564,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=m7PguCh7en0Q7kNvwGKaW7h&_nc_oc=Adqsf4QG5VidHSotWtbjrhdxrKeHaePKtsaq7MtZ_t4So3-868P2NzNOjWmdcpIcQBk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=DLqww4sBI0rR_1onVx2GWQ&_nc_ss=7f289&oh=00_AQM7TZSDkNsZj-xu276R20LuWNU3GTAufySxhf_TrfJ3fw&oe=6ADB1633",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -692,22 +700,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/825268331_1566206292218769_2089631799181004071_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8qcOEQm-A8gQ7kNvwHEMlFV&_nc_oc=AdoloxUJFsAhrOmTZ4jiGZgXg5cnTXpzqjwnEu7lIyx5IRwHPFvF13vlrowz4vRgftw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=n8X0h-tUVrJg5zFSkzLXow&_nc_ss=7f289&oh=00_AQPQw8ZNEPvLkWQSp4XMP6NDq2tmydpaotohAuk3sOk7hQ&oe=6ADAA503",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/Gobierno.Autonomo.Municipal.Tarija/videos/1653037496272722/?__cft__[0]=AZgtHmdBU7OtVlH_GcQz_Uis_CGPcaB8K6uO2MVmT76rPAG1_IJyVD6zg2VTWptt-w2NYphjxN-sg32J_UXs7lUM-y1C3blrvX3vAk-8aSLUZpRCcYq2EF_WgqG8sOFWYrDr4BFCINbJCqb2xn1hOaBQ5493NnBPtpQFJe0-Q9x7o6ST9ScCg60aELpvZNwsCjQ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#ENVIVO | Serenata en honor a la Santísima Virgen del Rosario – Coronación de la Reina de las Rosas 2026 Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -854,13 +853,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9nljzuQUq0AQ7kNvwFfKM9I&_nc_oc=Adp6dDnz6ah_Rpm4Nhcvktsexg97kKVNT4WpCOwB1PwkUGKV1OoyMIcmjFDV7pTIY94&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=LoOpmtCMcfGFnMYYLT8k8g&_nc_ss=7f289&oh=00_AQMS1Tp-w_sR5DMMlk8kFeeo65lOvM3HaL9gIGtvZcjdpA&oe=6ADAC821",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -1075,13 +1074,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YcI-_9B9iq4Q7kNvwHUBur4&_nc_oc=Ado01PyF9EL2Ciocs7tVFBqdsrf6eg9HdjQOoei-6rVpFKFELLdbEBeC2XuAvX_RDDY&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=iH_IKQcGhXgRvCr7Cbk3xg&_nc_ss=7f289&oh=00_AQMLVCQ7tS2qRgtRoy1DyYrI37ZyfFoA3F9Gqk7AbE7Zcg&oe=6ADAFFEF",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1382,15 +1381,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 16,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/tendencias",
-          "has_image": true,
-          "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 36,
+          "score": 52,
           "category": "gastronomia",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1403,6 +1394,14 @@
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 0,
+          "category": "gastronomia",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "has_image": true,
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1502,8 +1501,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
-      "events": 38,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1536,8 +1535,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1553,8 +1552,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 2,
+      "events": 2,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1570,8 +1569,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 49,
-      "events": 49,
+      "raw_items": 55,
+      "events": 55,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1604,8 +1603,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 2,
+      "events": 2,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
