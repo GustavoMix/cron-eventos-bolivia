@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T00:34:47-04:00",
+  "generated_at": "2026-10-18T07:06:40-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_amun_lapaz",
       "fb_fipaz",
       "fb_gam_cbba",
       "fb_lostiempos",
@@ -16,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 116.4,
-    "horas_maximo_sin_datos": 1413.4
+    "horas_promedio_sin_datos": 121.4,
+    "horas_maximo_sin_datos": 1419.9
   },
   "sources": [
     {
@@ -149,12 +150,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Agencia Municipal de Noticias 42 mil seguidores • 104 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deber'"
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -624,30 +625,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4OQ7PZk5fvAQ7kNvwFAA-JW&_nc_oc=AdpFl0GGVLRfsMbGgOWm2QejXjOxZXIup34tVPdLoPlx5r_wNC2xwyIXXtsaSubo7yU&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=ZfH7r2vqescHX2lVWh2Niw&_nc_ss=7f289&oh=00_AQNi8rXbMSpiZ77e0WSk-XWZojrDZqdZp_9ZMS3rO60qKQ&oe=6ADA278F",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid02QdgD8M1jBStcxocvEAZjvAHattYsxb37CchKbv1KsjrXdR1tnJbRgHmpxjHJiae1l?__cft__[0]=AZgNLL4JPHBGoa2Ht3CmLGQ3BVedATmZ4zMG3RffbPEaIXWijUF0dd19C-90SUWOzSskHYjFv2cdYw799OVDQ434VvBPpgMantFiEp9ULaEJ4NE8Kr6sjzj7pF-nDLH4f1CEBOjFqfVTJaxkeVGg1vb5ezdIfcIlUCiXsWCO-dNLreCP830VBaKCiBw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CNM | AVISO INSTITUCIONAL… Ver más Para un investigador tiempo cortado tiempo perdido … requiere continuidad para el manejo de documentos históricos … gracias Tenemos problemas para reproducir este video. Más información Ver más comentarios Guillermo Enrique Torres"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid02QdgD8M1jBStcxocvEAZjvAHattYsxb37CchKbv1KsjrXdR1tnJbRgHmpxjHJiae1l?comment_id=1154286830872130&__cft__[0]=AZgNLL4JPHBGoa2Ht3CmLGQ3BVedATmZ4zMG3RffbPEaIXWijUF0dd19C-90SUWOzSskHYjFv2cdYw799OVDQ434VvBPpgMantFiEp9ULaEJ4NE8Kr6sjzj7pF-nDLH4f1CEBOjFqfVTJaxkeVGg1vb5ezdIfcIlUCiXsWCO-dNLreCP830VBaKCiBw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Para un investigador tiempo cortado tiempo perdido … requiere continuidad para el manejo de documentos históricos … gracias Guillermo Enrique Torres"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -658,13 +642,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-qro3-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UAHrZMrVriwQ7kNvwEbIs_j&_nc_oc=AdqUN-TjA3RGaeau3QdgQxffZ7aRV21SVUyyFqMXvpSA605MlrM6Yw_OkH2LuZrES9I&_nc_zt=24&_nc_ht=scontent-qro3-1.xx&_nc_gid=Eyfw99u0kvtwiWwJZjfB2g&_nc_ss=7f289&oh=00_AQMlDnV240Tvi4Wny3dMJ122r07vmtHhVfp3xz2eoYH2Dw&oe=6ADA8692",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 22,
+          "category": "feria",
+          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid0rAMAfLcHSpXhkwJ39dbuxkcwtXKStBNiJ4G6q21rnw1RCXsY9b1jcLPDobH6gKzSl?__cft__[0]=AZhNSEkXHbm1SO4xyo6lmAZuKr9JQKF5MfXkKRRYl89mtLapiJAc0l3Jo9ENLxW15CZQ7seV4Tgc9OfOaBMoRtPwCw74p53duBNvduNaYGPwTFbDRPNKxksHB9JKWu2I_8dmA1TkB1qOvwtxo6wDfuCfHd7_j_Qjl5WGBfAlXWVTGZa9TxPElEdFf30&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CRC I 𝗖𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝘁𝗼𝗿𝗶𝗼 ❞𝗘𝘅𝗽𝗿𝗲𝘀𝗶𝗼𝗻𝗲𝘀 𝗔𝗿𝘁𝗶́𝘀𝘁𝗶𝗰𝗮𝘀❞ 𝗲𝗻 𝗹𝗮 𝗫𝗜𝗫 𝗙𝗲𝗿𝗶𝗮 𝗜𝗻𝘁𝗲𝗿𝗻𝗮𝗰𝗶𝗼𝗻𝗮𝗹 𝗱𝗲 𝗟𝗶𝗯𝗿𝗼 𝗱𝗲 𝗖𝗼𝗰𝗵𝗮𝗯𝗮𝗺𝗯𝗮, 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗮𝗱𝗼 𝗽𝗼𝗿 𝗲𝗹 𝗖𝗥𝗖 El pasado 15 de octubre de 2026, con la part… Ver más #CRC I 𝗖𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝘁𝗼𝗿𝗶𝗼 ❞𝗘𝘅𝗽𝗿𝗲𝘀𝗶𝗼𝗻𝗲𝘀 𝗔𝗿𝘁𝗶́𝘀𝘁𝗶𝗰𝗮𝘀❞ 𝗲𝗻 𝗹𝗮 𝗫𝗜𝗫 𝗙𝗲𝗿𝗶𝗮 𝗜𝗻𝘁𝗲𝗿𝗻𝗮𝗰𝗶𝗼𝗻𝗮𝗹 𝗱𝗲 𝗟𝗶𝗯𝗿𝗼 𝗱𝗲 𝗖𝗼𝗰𝗵𝗮𝗯𝗮𝗺𝗯𝗮, 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗮𝗱𝗼 𝗽𝗼𝗿 𝗲𝗹 𝗖𝗥𝗖 El pasado 15 de octubre de 2026, con la part… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -675,22 +668,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=68_Rj0-uWdUQ7kNvwFn7wtY&_nc_oc=Adq6tDfjZB5PrQ3Xs1MzAIXDv8rvUpXRKeD84FTrSVYZMvbt4BYKQ9kuE6pUXWhjoxk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=qOcFYWyagF-r85W1f21mJQ&_nc_ss=7f289&oh=00_AQO4zC6EloWad99ufba-3nbfFAkyVlLzmGaaDbGW0cYX7A&oe=6ADA3238",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/posts/pfbid02zru3kSau5kySCjMwJqnDpEzAZJgrym7L7WQagqcCXUC5ZUK91XKi4QcwaYkZzgGEl?__cft__[0]=AZihz-7XRqAejwV26rC7g3LDfRisoSJuax5QamX-dXrQKEQEpy1AQjnQxeENEz2oBkFcoVAIn7GgJamDLX2mjeVxt2tYzIuZIyOC8Sl3uRYM1U-OGI7g-8Uj5FtAtoQcriTL1ZmuTLkLc94kZZujyZ5uxlg0sTqaEVDLVo8ibkx7gxEImAuFehB2HvvUyR1XpQnM2wHhbad1IRdUUn8&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "SUBALCALDÍAS EN ACCIÓN | BUENAS NOTICIAS DE LA SEMANA Los distritos 1 y 2 realizaron bacheo, renovación de luminarias y limpieza de espacios públicos. El Distr… Ver más SUBALCALDÍAS EN ACCIÓN | BUENAS NOTICIAS DE LA SEMANA Los distritos 1 y 2 realizaron bacheo, renovación de luminarias y limpieza de espacios públicos. El Distr… Ver más Tenemos problemas para reproducir este video. Más información "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_oruro",
@@ -1406,9 +1390,9 @@
           "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
         },
         {
-          "reason": "relevancia_insuficiente",
-          "score": 54,
-          "category": "deporte",
+          "reason": "tema_ajeno_a_eventos",
+          "score": 36,
+          "category": "gastronomia",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
