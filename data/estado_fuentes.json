@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:45:23-04:00",
+  "generated_at": "2026-10-18T19:15:54-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_eventos_bolivia",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -15,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 121.8,
-    "horas_maximo_sin_datos": 1429.6
+    "horas_promedio_sin_datos": 118.4,
+    "horas_maximo_sin_datos": 1432.1
   },
   "sources": [
     {
@@ -63,12 +64,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Eventos Bolivia 426 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
     },
     {
       "id": "fb_festivales_eventos",
@@ -147,22 +148,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i7grqLa589kQ7kNvwHq8SkN&_nc_oc=Adqt7m-T_lwffi_Sb7BNRKRW60YqchUMYGF_WG2sAuvugZ4E-rjK41YoLw1gm7Zqqjw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=bMNqhmk_Wk6ungvp66tw4w&_nc_ss=7f289&oh=00_AQPPVLNYTGJzMEIFp1ldhZZWqorCNGdG-NETJy7GAukJmA&oe=6ADB1140",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0WoBPgZDmXLNhjihtPmrQdjM8YjxbycCaQ4p5dVPrJ1GVA7DvcQ7tEVmdczrqQ9Dl?__cft__[0]=AZhYZ3SXAYinRM7557IbEPcW0-J9sz3hAZVBD4Wg-mF_isAMMZ7Gju9-jPtJG_hMtpVMYU2_aYGMc7MvfyQf4Wk3Ro3krmeP9Cs0X2P9TKjZVxV7ue4g7tJ9pg4AWdWpENKXfmh1KafqIDl6L360qXihdc833kjYSS_1aqPpl9NroVm88l6D457CKeg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Caminata Octubre Rosa en La Paz promueve la detección temprana del cáncer de mama… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -462,13 +454,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hD--AiksipYQ7kNvwGsQPKF&_nc_oc=AdrpBmbCZHOO1EwC6jAEb7HAs9QgP8GNaFqZdhzNjcyAhsJVNCtV74hs_H_5h_syfyk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=kTHqXDjvV08nxEietBxbkg&_nc_ss=7f289&oh=00_AQPtPpH2FXJxLcsB0xuRcD3DQ23x5K3h_Kk4BZFZ-Rky5A&oe=6ADB3C45",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/rtpbolivia/posts/pfbid0ve3tQX1SwxEYJDWQmAuxj2tNQNfBtJgaNSSWiWg3437onXT2jcb2jbfk4pFKL5zXl?__cft__[0]=AZjEYS-lVhyv8EFva2l4-_zhTaFS4dzBtL5MGgb0FJ8Wl7q1DL6U8SvlYEK4h3zFZ_yWxQUXRjONKGCX5lZTLBN-T5OBWdZLahuh_lsCbv1RUHxXb1qmGanwm3tV2tx1UTfWqAqbqRjwy8Yv9knxqyVnxNFKIgg6z8ZKgjVEA3uEqlfID6bfK8fedIo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#RTPInforma Miles marchan en Chile para conmemorar el estallido y protestar contra recortes de Kast… Ver más #RTPInforma Miles marchan en Chile para conmemorar el estallido y protestar contra recortes de Kast… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_abya_yala",
@@ -564,13 +565,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=m7PguCh7en0Q7kNvwGKaW7h&_nc_oc=Adqsf4QG5VidHSotWtbjrhdxrKeHaePKtsaq7MtZ_t4So3-868P2NzNOjWmdcpIcQBk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=DLqww4sBI0rR_1onVx2GWQ&_nc_ss=7f289&oh=00_AQM7TZSDkNsZj-xu276R20LuWNU3GTAufySxhf_TrfJ3fw&oe=6ADB1633",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -734,13 +735,22 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1oyqy6Pj0RcQ7kNvwGB7srs&_nc_oc=AdoWH82kVOYREC-4dyOv2t1KqWrZVz1tgkffEwE7B8ttV0oR64jmhv6dkBY4IJoLbR4&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Fd_iOuwG_92c5FuzpYUVIw&_nc_ss=7f289&oh=00_AQMlgIhr85ZYUvzgnqK2tgZHjA2fQkStzgQBIKbQgdo5sg&oe=6ADB27FD",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GAMTDD/posts/pfbid049N1jaHGs3xFTXK8Hgt6UidJHeH7ey1ZCRvP9N8N2drPxkzm7DoqbQSKKGeb9ud2l?__cft__[0]=AZiBx6vpXNimML56G0-cFDCUI2WZnIX8OaY05lTezJCP03i8hoymH_W_TPzgP8Tpo0gSUXEVPVVXC2zjA5lU3LkFqKwkZVTQFVhknAwSFTl-UnFU7gRlUKdqVYG6zljsw7mQJ8a5234Voy7_XrvE6fTkNBpkNwmQCHmRvms5qftfZEE_oOZASqW53sY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "GAM-T ACOMPAÑA CONFRATERNIZACIÓN DE FEBEPDI-BENI POR EL DÍA NACIONAL DE LAS PERSONAS CON DISCAPACIDAD… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_cobija",
@@ -1074,13 +1084,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YcI-_9B9iq4Q7kNvwHUBur4&_nc_oc=Ado01PyF9EL2Ciocs7tVFBqdsrf6eg9HdjQOoei-6rVpFKFELLdbEBeC2XuAvX_RDDY&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=iH_IKQcGhXgRvCr7Cbk3xg&_nc_ss=7f289&oh=00_AQMLVCQ7tS2qRgtRoy1DyYrI37ZyfFoA3F9Gqk7AbE7Zcg&oe=6ADAFFEF",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1311,7 +1321,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
+      "error": "[Errno 101] Network is unreachable"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1376,9 +1386,17 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 22,
+          "category": "gastronomia",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
+        },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 52,
@@ -1388,20 +1406,12 @@
           "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
         },
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 50,
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 4,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
-          "category": "gastronomia",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
-          "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1569,8 +1579,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 55,
-      "events": 55,
+      "raw_items": 54,
+      "events": 54,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1796,12 +1806,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "[Errno 101] Network is unreachable"
     }
   ]
 }
