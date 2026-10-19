@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T00:42:40-04:00",
+  "generated_at": "2026-10-19T09:15:21-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,14 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_fundacion_patino_cbba",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 120.0,
-    "horas_maximo_sin_datos": 1437.5
+    "horas_promedio_sin_datos": 114.8,
+    "horas_maximo_sin_datos": 1446.1
   },
   "sources": [
     {
@@ -63,30 +61,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vMy8QPns_bQQ7kNvwE7YpgS&_nc_oc=Adom7jyOWmyUZ1SWjcySij9u8i7ubiukQ6HyMDxW5A-xG-DTt7SCArmmpFtd6qGIK5M&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=v8ydypmgqO47hk6wQ6Wx7w&_nc_ss=7f289&oh=00_AQPHAkwDcfk-IfF9MzZPNop9XQokzTNgGjk5YR3veyNA9w&oe=6ADB6936",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZhdbL_gENe9VBvkihg_72dBOtK1oXbqv7CZR7BhoDsvzABbsgHAiKQ-xHwBzYLuU0X47HsVSp1ZH5zT0kqalZDdPI6FvsZJWKMfnYOMh5Jo8vHkkFEN5TrXnvZ9DfW4pumC5mWDH4zf3OOclCtq0ll0JAM_As7bqE7wC08Yy67PgsM7l7X2C2ZcvuTnUHj2uJv7&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZhdbL_gENe9VBvkihg_72dBOtK1oXbqv7CZR7BhoDsvzABbsgHAiKQ-xHwBzYLuU0X47HsVSp1ZH5zT0kqalZDdPI6FvsZJWKMfnYOMh5Jo8vHkkFEN5TrXnvZ9DfW4pumC5mWDH4zf3OOclCtq0ll0JAM_As7bqE7wC08Yy67PgsM7l7X2C2ZcvuTnUHj2uJv7&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -149,12 +130,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "blocked",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": null
     },
     {
       "id": "fb_amun_lapaz",
@@ -182,30 +163,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Z5HlbG14rdUQ7kNvwEWz62l&_nc_oc=AdqNRzIx_HZtHEKA0I7WrqVaPhFUThYBrOfOhMPl0O04rJ0DuJ_fFn55pCDNgyTuDZ0&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=wJsnoXEmm-RJuoV6UlFTZA&_nc_ss=7f289&oh=00_AQNs_aF5TEQ7ZKShu9-AwY-kxbW-gN0mfHdw-CfWyJLs2A&oe=6ADB8E40",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1102439129100796/?__cft__[0]=AZjM5V_IO2RavtU2ERs9aQs7PBRhXuqGTbPRQm1X5qJbszGwni2poCmGTXKQo5DoIQc-ADqv3-Qpx3XUdVqwYdEnAeJ3n4vwHX_QE2zJov1tZ8Rh8BfWcyZCyLFz8ocEQ4JDvWfcWaiNllp-iHOquXTU7vcUtX5kU-v0HFpQJePGUBfXUu4aRwWI0Ei6E1h2sPuK&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡La menopausia no es una enfermedad! Es una etapa natural en la vida de las mujeres. Desde el GAMEA promovemos la información y el cuidado de la salud femenina para … Ver más GRACIAS ALCALDE POR DEJAR SIN FUTBOL A LA CIUDAD DE EL ALTO Tenemos problemas para reproducir este video. Más información Ver más comentarios Juan Carlos Aruquipa"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1102439129100796/?comment_id=1158377533421042&__cft__[0]=AZjM5V_IO2RavtU2ERs9aQs7PBRhXuqGTbPRQm1X5qJbszGwni2poCmGTXKQo5DoIQc-ADqv3-Qpx3XUdVqwYdEnAeJ3n4vwHX_QE2zJov1tZ8Rh8BfWcyZCyLFz8ocEQ4JDvWfcWaiNllp-iHOquXTU7vcUtX5kU-v0HFpQJePGUBfXUu4aRwWI0Ei6E1h2sPuK&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "GRACIAS ALCALDE POR DEJAR SIN FUTBOL A LA CIUDAD DE EL ALTO Juan Carlos Aruquipa"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -267,13 +231,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4vCvz_-rQZ4Q7kNvwHEzoew&_nc_oc=AdqdzWAHWWLbRDVrA_71ubBhifHaCN2uraSt7tshMlHS_cSVm5dSQP5-J_qZVhRB6gc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Ah5pChXU_SQVyNxbEtvOOA&_nc_ss=7f289&oh=00_AQMQmdQtKmKZV3MmCkkkJk1ndnP8iWKsMerPQvZO20UW-A&oe=6ADBDD17",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1676387117379180/?__cft__[0]=AZhRhBXqwN5VeFAGy1WtAwpF9tk7zc_ORgQu3GhyOJUN5YBHL56_rfGdQ7MBcRrbk1MjKzg50_O-I9mLfOnu5B7RDLaJMpvANPlFjD7DOz-jijZ9JxP50oTy7CYK9J7pp1grNjDtn1kaLgoeeXnEBZj_fVMjT647u4lsYC6r-xcUueMufiJvrTrkWzyLzm6L5dQ_&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Octubre Rosa: prevenir puede salvar vidas. Los centros de salud municipales impulsan una campaña de prevención contra el cáncer de mama, promoviendo la detección te… Ver más Octubre Rosa: prevenir puede salvar vidas. Los centros de salud municipales impulsan una campaña de prevención contra el cáncer de mama, promoviendo la detección te… Ver más Tenemos problemas para reproducir este video. Más in"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -913,13 +886,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZJMTJtp37fAQ7kNvwFmNu02&_nc_oc=Adpj7FYu6BMYX9N9ogUz8usAGDF3f9zjddbWCOlN3hBB003LBrxRxcivbYtxlWdXfOk&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=WFg9d5X4sadwIHo8XRgdug&_nc_ss=7f289&oh=00_AQOoTIhd1fPdQhDKu_qoTC0anByhmYLxe3QrVZQic_NrqQ&oe=6ADBE2A7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02it9C95Bccj9ywGWwZHPfx1dPxVVgwegft8qzNVwJaiLsQ3nsQiyNYYTWZqdfaCPCl?__cft__[0]=AZidWjdq_0mAHSyKKjOmFKzgziNieIyn5-GD7d-k1YNYpiw7xvsv-efrN6_eQfcazFY9t7r4JxqAwEnTwZ00j6Be_apmCDa0tnPFD9cBe06SrH48wEn82MXtYkOlEEICBYLKULzl0HbJbk1P5MFBizyyRZcOcShL4OvPtb7mw8Wcc1YU1Dvez9Iib2o&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#BecasPatiño | ¡𝐄𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐜𝐨𝐫𝐫𝐞! Faltan 𝟏𝟓 𝐝… Ver más #BecasPatiño | ¡𝐄𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐜𝐨𝐫𝐫𝐞! Faltan 𝟏𝟓 𝐝… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1032,13 +1014,30 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=as08LeYKrk0Q7kNvwEcFakT&_nc_oc=AdonH8eqmQz3hzzfGdWjLO2KWJkP_Z3x_qeIqaSXnSsGi_wy7pbGghO4cXCK7Sgbjb0&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=EPKerj9efyC3KmEk_siQSQ&_nc_ss=7f289&oh=00_AQNBlklDfGITN_oicN75qBXZgjMlRDkba8lL_5krTlw0ag&oe=6ADBDBF4",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02PviwSpGSioxD8n2bTNJ6FjYJVh1BBrJqiTKYjsyCWx3nksatKijLVbqHt7xxjbJnl?__cft__[0]=AZi6JBbPFDJov9CmV4AU2Acpg29sDh6OWIp7q2NrmIlb3so-fpK4Mvk_jOFb72YQEoU-Uj1IPWzyFc_qWixqT-rLsddencJ1iSBk3pXtBTfWF9SiB05M4WnWhSOKb9muGw-3FqjgLvSHqtkYcfLaZi29muzLWenq6xudCo09Pf_ZV-ZNJpuWtcuRN3o&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#BecasPatiño | ¡𝐄𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐜𝐨𝐫𝐫𝐞! Faltan 𝟏𝟓 𝐝… Ver más #BecasPatiño | ¡𝐄𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐜𝐨𝐫𝐫𝐞! Faltan 𝟏𝟓 𝐝… Ver más Cómo postulo gracias y buenas tardes Jhanet Espejo"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02PviwSpGSioxD8n2bTNJ6FjYJVh1BBrJqiTKYjsyCWx3nksatKijLVbqHt7xxjbJnl?comment_id=1704092418005922&__cft__[0]=AZi6JBbPFDJov9CmV4AU2Acpg29sDh6OWIp7q2NrmIlb3so-fpK4Mvk_jOFb72YQEoU-Uj1IPWzyFc_qWixqT-rLsddencJ1iSBk3pXtBTfWF9SiB05M4WnWhSOKb9muGw-3FqjgLvSHqtkYcfLaZi29muzLWenq6xudCo09Pf_ZV-ZNJpuWtcuRN3o&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Cómo postulo gracias y buenas tardes Jhanet Espejo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1423,7 +1422,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
+          "score": 34,
           "category": "gastronomia",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
