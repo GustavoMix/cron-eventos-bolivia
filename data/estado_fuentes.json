@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:15:21-04:00",
+  "generated_at": "2026-10-19T16:37:52-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 114.8,
-    "horas_maximo_sin_datos": 1446.1
+    "horas_promedio_sin_datos": 113.1,
+    "horas_maximo_sin_datos": 1453.5
   },
   "sources": [
     {
@@ -130,12 +130,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "ok",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_amun_lapaz",
@@ -231,22 +231,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4vCvz_-rQZ4Q7kNvwHEzoew&_nc_oc=AdqdzWAHWWLbRDVrA_71ubBhifHaCN2uraSt7tshMlHS_cSVm5dSQP5-J_qZVhRB6gc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Ah5pChXU_SQVyNxbEtvOOA&_nc_ss=7f289&oh=00_AQMQmdQtKmKZV3MmCkkkJk1ndnP8iWKsMerPQvZO20UW-A&oe=6ADBDD17",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1676387117379180/?__cft__[0]=AZhRhBXqwN5VeFAGy1WtAwpF9tk7zc_ORgQu3GhyOJUN5YBHL56_rfGdQ7MBcRrbk1MjKzg50_O-I9mLfOnu5B7RDLaJMpvANPlFjD7DOz-jijZ9JxP50oTy7CYK9J7pp1grNjDtn1kaLgoeeXnEBZj_fVMjT647u4lsYC6r-xcUueMufiJvrTrkWzyLzm6L5dQ_&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Octubre Rosa: prevenir puede salvar vidas. Los centros de salud municipales impulsan una campaña de prevención contra el cáncer de mama, promoviendo la detección te… Ver más Octubre Rosa: prevenir puede salvar vidas. Los centros de salud municipales impulsan una campaña de prevención contra el cáncer de mama, promoviendo la detección te… Ver más Tenemos problemas para reproducir este video. Más in"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_scz",
@@ -342,13 +333,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yXt2TkwAw5QQ7kNvwF_2JCf&_nc_oc=AdrAvgwg-b7-PldfcwJ6maXHdyivTlYEv94F7e1-CA-3zZlnCKrfFbrdhLUg-ocQnfw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=vEoYlEeEykiV4XV53F_Xig&_nc_ss=7f289&oh=00_AQPeEsbQDHo0IViYMQCcuhfZ2dMMJRyAT4WLdVgPMJYqvQ&oe=6ADC3FFF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid02KsV8KWCzrLEosdFZjqgsxGK6NxhZQPkNago5MGrB9MkS3Qs26hjySbPp8ftd3U74l?__cft__[0]=AZj_IeNh4TlrwzAg-ktOZ7qHNrGMaJx8eFXp69catXT7Y71KXKb3HgZv3mU7YNePbeIa0RwdKVsc4sY04FIKZ9VOxZP0hPMxabIYADj9Ez0nsKRjyPBU7Iw7MUUf-aLiz3chITMXQehUj24V8pw0OM7AJrEkpZUP_S5nzmOzH86isZYu5q57vn_gK98&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "UNITEL hace 55 minutos 55 min Más información en comentarios Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_atb",
@@ -886,22 +886,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZJMTJtp37fAQ7kNvwFmNu02&_nc_oc=Adpj7FYu6BMYX9N9ogUz8usAGDF3f9zjddbWCOlN3hBB003LBrxRxcivbYtxlWdXfOk&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=WFg9d5X4sadwIHo8XRgdug&_nc_ss=7f289&oh=00_AQOoTIhd1fPdQhDKu_qoTC0anByhmYLxe3QrVZQic_NrqQ&oe=6ADBE2A7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02it9C95Bccj9ywGWwZHPfx1dPxVVgwegft8qzNVwJaiLsQ3nsQiyNYYTWZqdfaCPCl?__cft__[0]=AZidWjdq_0mAHSyKKjOmFKzgziNieIyn5-GD7d-k1YNYpiw7xvsv-efrN6_eQfcazFY9t7r4JxqAwEnTwZ00j6Be_apmCDa0tnPFD9cBe06SrH48wEn82MXtYkOlEEICBYLKULzl0HbJbk1P5MFBizyyRZcOcShL4OvPtb7mw8Wcc1YU1Dvez9Iib2o&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#BecasPatiño | ¡𝐄𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐜𝐨𝐫𝐫𝐞! Faltan 𝟏𝟓 𝐝… Ver más #BecasPatiño | ¡𝐄𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐜𝐨𝐫𝐫𝐞! Faltan 𝟏𝟓 𝐝… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -963,13 +954,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HnW4vHOghcgQ7kNvwHRpM62&_nc_oc=AdqISYGkCjDNLxWR412X-x1kTbJi7tv27u_dO15DTbbNntB0xEqVWxBb5g80kAeFtIc&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=1z-KHvg23q_ioOR8Qt5B8A&_nc_ss=7f289&oh=00_AQOJb-hMdfJ7H5KMVSJUHrYDxnJQoWfXy_o00VauB01u5w&oe=6ADC5317",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 26,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0pW2Tu4DGJZD4BLpeBe9pRKfTzhg45KEiCAXHuARNxPNMmxniFNJWpd6aU3WmoABLl?__cft__[0]=AZhPymOd3f_jc8lezBA-_QvYfUKUVmHsUSVHuXF171mFXAIAPNuxtbmyY-7C1UFol4DH1Ocb-OawyZx62KWc8r7ojwvSuak5I4cJEHaNRZZTCYLBLlhgoyRTPQxcp5JAP-85h8W_U3QlmnCg5ixdKprZdbw14mtBYJ2xF8qpsYs7QME1By_b2qeKiYA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Manzana 1 Espacio de Arte felicita a la @fundacionsoly Fundación Solydes —Solidaridad y Desarrollo— por sus 40 años de vida y gestión en educación rural, salud, tecnolo… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1014,30 +1014,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=as08LeYKrk0Q7kNvwEcFakT&_nc_oc=AdonH8eqmQz3hzzfGdWjLO2KWJkP_Z3x_qeIqaSXnSsGi_wy7pbGghO4cXCK7Sgbjb0&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=EPKerj9efyC3KmEk_siQSQ&_nc_ss=7f289&oh=00_AQNBlklDfGITN_oicN75qBXZgjMlRDkba8lL_5krTlw0ag&oe=6ADBDBF4",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02PviwSpGSioxD8n2bTNJ6FjYJVh1BBrJqiTKYjsyCWx3nksatKijLVbqHt7xxjbJnl?__cft__[0]=AZi6JBbPFDJov9CmV4AU2Acpg29sDh6OWIp7q2NrmIlb3so-fpK4Mvk_jOFb72YQEoU-Uj1IPWzyFc_qWixqT-rLsddencJ1iSBk3pXtBTfWF9SiB05M4WnWhSOKb9muGw-3FqjgLvSHqtkYcfLaZi29muzLWenq6xudCo09Pf_ZV-ZNJpuWtcuRN3o&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#BecasPatiño | ¡𝐄𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐜𝐨𝐫𝐫𝐞! Faltan 𝟏𝟓 𝐝… Ver más #BecasPatiño | ¡𝐄𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐜𝐨𝐫𝐫𝐞! Faltan 𝟏𝟓 𝐝… Ver más Cómo postulo gracias y buenas tardes Jhanet Espejo"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid02PviwSpGSioxD8n2bTNJ6FjYJVh1BBrJqiTKYjsyCWx3nksatKijLVbqHt7xxjbJnl?comment_id=1704092418005922&__cft__[0]=AZi6JBbPFDJov9CmV4AU2Acpg29sDh6OWIp7q2NrmIlb3so-fpK4Mvk_jOFb72YQEoU-Uj1IPWzyFc_qWixqT-rLsddencJ1iSBk3pXtBTfWF9SiB05M4WnWhSOKb9muGw-3FqjgLvSHqtkYcfLaZi29muzLWenq6xudCo09Pf_ZV-ZNJpuWtcuRN3o&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Cómo postulo gracias y buenas tardes Jhanet Espejo"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1048,13 +1031,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=H-nA8GWrwJIQ7kNvwFpD6Cu&_nc_oc=AdolT2IBECNh-dv_ER5uvF_ooNBQ-KUZz0VxK0PCEy0dqZqfRNtfLi3gtkkIQB27sjs&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=UcAvyiyQma_yEmqgCI3dLw&_nc_ss=7f289&oh=00_AQM0STdgd-ci-orssgv8y6uTpjfkV9wlT4LIdBrhqR44EA&oe=6ADC55CF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid0dnQGyUG62UpT5zrgKshZnKCBr79ZgoRtqp15roZ5HdfqfxAUXJwDesfoLw7YKva7l?__cft__[0]=AZgrmahDet6OBAPQaAP8-fX1ACwpapqLEPxwHxKa6Zr3buBdsReXy40sD_7KJpx30GhCyuGvG4dvL1h_7s5AJrnlH0PNJJAn_Y03FwfywmvfXxqieSCNVMUU-QiaAtoqo_CXByYI2uLk7olOTZwH_3RzDCEOJx9jx-uXhy09Sf_6g437kw6tyjny-V8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Mesa Redonda “La lengua aymara” de Ernst W. Middendorf (1891) Con la participación de destacados especialistas de Bolivia y Europa, esta mesa redonda ofrecerá una valor… Ver más Mesa Redonda “La lengua aymara” de Ernst W. Middendorf (1891) Con la participación de destacados especialistas de Bolivia y Europa, esta mesa redonda ofrecerá una valor… Ver más Tenemos problemas para reproducir este video"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1184,13 +1176,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/611611123_892086103405617_7679383414559238851_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i3iwyNCPJjcQ7kNvwGSuasA&_nc_oc=AdrV9gff1uxeNlFQ5PsYSCfM4Fz1WVWXOBpVSxMurpZr3KGXCkL_lZ0YpZb9GL8uKpM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=qVzZeASDId3n5C8ZGC-jMg&_nc_ss=7f289&oh=00_AQPlB36J_6xg1nT09XsvnCw5In7r2YAz5qCEJipkRcZeKw&oe=6ADC4C48",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "feria",
+          "url": "https://www.facebook.com/OficialUAGRM/videos/te-invitamos-a-ser-parte-de-la-expo-ciencia-emprende-2026-la-uagrm-sale-de-las-a/1499550375317771/",
+          "has_image": true,
+          "text_preview": "Te invitamos a ser parte de la Expo Ciencia Emprende 2026. La UAGRM sale de las aulas y se traslada al centro de la ciudad para mostrar ciencia, innovación y tecnología. Te invitamos a ser parte de la Expo Ciencia Emprende 2026. La UAGRM sale de las aulas y se traslada al centro de la ciudad para mostrar ciencia,..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umss",
@@ -1254,8 +1255,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 10,
-      "events": 9,
+      "raw_items": 11,
+      "events": 10,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1381,13 +1382,38 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://www.turismoyculturas.gob.bo/wp-content/uploads/2025/11/Logo-Presidencia.png",
+      "status": "ok",
+      "raw_items": 9,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "timed out"
+      "rejected": 9,
+      "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 44,
+          "category": "festival",
+          "url": "https://www.turismoyculturas.gob.bo/",
+          "has_image": false,
+          "text_preview": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "turismo",
+          "url": "https://www.turismoyculturas.gob.bo/declaracion-de-la-mision-vision-valores-y-principios-de-la-entidad/",
+          "has_image": true,
+          "text_preview": "Misión y Visión de la Entidad Misión Diseñar, regular y ejecutar políticas públicas que promuevan el turismo sostenible, el folklore y la gastronomía como sectores estratégicos para el desarrollo integral del país y la conservación de nuestras culturas. Trabajar de manera coordinada con los niveles subnacionales, actores comunitarios y sectores productivos para transformar nuestra riqueza natural "
+        },
+        {
+          "reason": "tema_ajeno_a_eventos",
+          "score": 18,
+          "category": "turismo",
+          "url": "https://www.turismoyculturas.gob.bo/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/",
+          "has_image": true,
+          "text_preview": "Reseña Histórica Bolivia es uno de los países con mayor diversidad cultural, histórica y natural del mundo. Su identidad nacional se ha forjado a partir del legado de las civilizaciones precolombinas como Tiwanaku, los señoríos aymaras, las culturas amazónicas, chaqueñas y de los valles, así como la influencia del Tawantinsuyu incaico; del extraordinario aporte artístico, arquitectónico y religios"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_lostiempos_agenda",
@@ -1401,32 +1427,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 4,
-          "category": "gastronomia",
+          "score": 22,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 44,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "score": 52,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "18/10/2026 Cultura Ariel Muñoz, de Chakana Teatro: el teatro hace preguntas, debe hacerlas Chakana Teatro brilló con luces propias en el trigésimo quinto Premio Nacional de Teatro Peter Travesí, conquistando tres de los cinco galardones que... vista 15/10/2026 Cultura Quince grupos nacionales animarán la 42ª edición de la Feria y Festival del Charango Aiquile 2026 Bonanza lidera la lista de grupos"
+          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 34,
-          "category": "gastronomia",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1484,9 +1510,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 34,
+      "raw_items": 36,
       "events": 0,
-      "rejected": 34,
+      "rejected": 36,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1594,8 +1620,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 58,
-      "events": 58,
+      "raw_items": 55,
+      "events": 55,
       "rejected": 0,
       "rejected_samples": [],
       "error": null

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-19T09:15:21-04:00",
+  "generated_at": "2026-10-19T16:37:52-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 90,
+    "events_total": 92,
     "events_today": 13
   },
   "filters": {
@@ -65,7 +65,7 @@
       {
         "key": "concierto",
         "label": "Conciertos",
-        "count": 13
+        "count": 14
       },
       {
         "key": "feria",
@@ -93,6 +93,11 @@
         "count": 4
       },
       {
+        "key": "conferencia",
+        "label": "Conferencias",
+        "count": 4
+      },
+      {
         "key": "turismo",
         "label": "Turismo y patrimonio",
         "count": 3
@@ -100,11 +105,6 @@
       {
         "key": "otro",
         "label": "Otros",
-        "count": 3
-      },
-      {
-        "key": "conferencia",
-        "label": "Conferencias",
         "count": 3
       },
       {
@@ -137,7 +137,7 @@
       {
         "key": "Sucre",
         "label": "Sucre",
-        "count": 8
+        "count": 9
       },
       {
         "key": "Quillacollo",
@@ -184,12 +184,12 @@
       {
         "key": "Bolivia",
         "label": "Bolivia",
-        "count": 10
+        "count": 11
       },
       {
         "key": "Chuquisaca",
         "label": "Chuquisaca",
-        "count": 8
+        "count": 9
       },
       {
         "key": "Tarija",
@@ -216,17 +216,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 28
+        "count": 29
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 53
+        "count": 54
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 90
+        "count": 92
       }
     ],
     "price": [
@@ -238,19 +238,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 23
+        "count": 24
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 62
+        "count": 63
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 80
+        "count": 82
       },
       {
         "key": "con_video",
@@ -389,7 +389,7 @@
       {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
-        "count": 15
+        "count": 16
       },
       {
         "key": "venue",
@@ -404,7 +404,7 @@
       {
         "key": "ticketera",
         "label": "ticketera",
-        "count": 10
+        "count": 11
       },
       {
         "key": "eventos",
@@ -433,8 +433,8 @@
       "evt_8e3c9a8ec235c7",
       "evt_8a5a1dac1de3bd",
       "evt_3aadc965bc4a6e",
-      "evt_285d54fb1abeff",
-      "evt_9a8e1970b4bffb"
+      "evt_9a8e1970b4bffb",
+      "evt_285d54fb1abeff"
     ],
     "tomorrow": [
       "evt_3ee8f53e0179b4",
@@ -447,7 +447,8 @@
       "evt_3ee8f53e0179b4",
       "evt_53de2dbbf7724d",
       "evt_321501881559b7",
-      "evt_9186919862ca53"
+      "evt_9186919862ca53",
+      "evt_dc5f3b3bd431ba"
     ],
     "free": [
       "evt_3ee8f53e0179b4",
@@ -469,8 +470,8 @@
       "evt_8e3c9a8ec235c7",
       "evt_8a5a1dac1de3bd",
       "evt_3aadc965bc4a6e",
-      "evt_285d54fb1abeff",
       "evt_9a8e1970b4bffb",
+      "evt_285d54fb1abeff",
       "evt_8380ec54764421",
       "evt_9186919862ca53",
       "evt_83cda287e5f9ab",
@@ -485,6 +486,7 @@
       "evt_2206b324a8e060",
       "evt_5bea1930609bf3",
       "evt_37698ebe3e4318",
+      "evt_7098dbbaa03be7",
       "evt_2abbbc5da1b0ea",
       "evt_bb5cf19806c196",
       "evt_dea592c7788fb3",
@@ -497,33 +499,33 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 42,
+      "events_total": 38,
       "events_upcoming": 21,
       "events_with_image": 20,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 5
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 36,
+      "events_total": 35,
       "events_upcoming": 23,
       "events_with_image": 23,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 38,
+      "events_total": 35,
       "events_upcoming": 19,
       "events_with_image": 14,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 5
     },
     "Chuquisaca": {
       "events_total": 14,
-      "events_upcoming": 8,
-      "events_with_image": 8,
+      "events_upcoming": 9,
+      "events_with_image": 9,
       "events_with_video": 0,
       "sources_total": 8,
       "sources_ok": 2
@@ -545,7 +547,7 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 9,
+      "events_total": 8,
       "events_upcoming": 5,
       "events_with_image": 1,
       "events_with_video": 0,
@@ -572,23 +574,23 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 69,
+      "events_total": 59,
       "events_upcoming": 16,
       "events_with_image": 16,
       "events_with_video": 0
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 16,
-      "events_upcoming": 13,
-      "events_with_image": 13,
+      "events_total": 17,
+      "events_upcoming": 14,
+      "events_with_image": 14,
       "events_with_video": 1
     },
     "conferencia": {
       "label": "Conferencias",
-      "events_total": 3,
-      "events_upcoming": 3,
-      "events_with_image": 3,
+      "events_total": 4,
+      "events_upcoming": 4,
+      "events_with_image": 4,
       "events_with_video": 0
     },
     "danza": {
@@ -1774,130 +1776,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_285d54fb1abeff",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-10-19T14:00:00-04:00",
-      "starts_at_ms": 1792432800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Lunes 19 de octubre · 14:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "14:00",
-        "16:40",
-        "19:20",
-        "12:50",
-        "15:20",
-        "18:00",
-        "21:00",
-        "14:30",
-        "22:00",
-        "17:00",
-        "19:30",
-        "17:40",
-        "19:50",
-        "16:00",
-        "20:20",
-        "13:50",
-        "18:10",
-        "22:30",
-        "20:00",
-        "22:20",
-        "16:20",
-        "18:40",
-        "13:20",
-        "15:50",
-        "18:30",
-        "19:00",
-        "21:30",
-        "14:10",
-        "16:30",
-        "13:30",
-        "15:40",
-        "17:50"
-      ],
-      "formats": [
-        "2D - DBOX - Doblada",
-        "2D - Doblada",
-        "2D - PRE - Doblada",
-        "2D - PRE - Subtitulada",
-        "DBOX - 2D - Doblada",
-        "PRE - 2D - Doblada",
-        "PRE - 2D - Subtitulada",
-        "DBOX - XD - 2D - Doblada",
-        "XD - 2D - DBOX - Doblada",
-        "XD - DBOX - 2D - Doblada",
-        "2D - Subtitulada",
-        "XD - IV - DBOX - 2D - Doblada"
-      ],
-      "occurrences": [
-        "2026-10-19T14:00:00-04:00",
-        "2026-10-19T16:40:00-04:00",
-        "2026-10-19T19:20:00-04:00",
-        "2026-10-19T12:50:00-04:00",
-        "2026-10-19T15:20:00-04:00",
-        "2026-10-19T18:00:00-04:00",
-        "2026-10-19T21:00:00-04:00",
-        "2026-10-19T14:30:00-04:00",
-        "2026-10-19T22:00:00-04:00",
-        "2026-10-19T17:00:00-04:00",
-        "2026-10-19T19:30:00-04:00",
-        "2026-10-19T17:40:00-04:00",
-        "2026-10-19T19:50:00-04:00",
-        "2026-10-19T16:00:00-04:00",
-        "2026-10-19T20:20:00-04:00",
-        "2026-10-19T13:50:00-04:00",
-        "2026-10-19T18:10:00-04:00",
-        "2026-10-19T22:30:00-04:00",
-        "2026-10-19T20:00:00-04:00",
-        "2026-10-19T22:20:00-04:00",
-        "2026-10-19T16:20:00-04:00",
-        "2026-10-19T18:40:00-04:00",
-        "2026-10-19T13:20:00-04:00",
-        "2026-10-19T15:50:00-04:00",
-        "2026-10-19T18:30:00-04:00",
-        "2026-10-19T19:00:00-04:00",
-        "2026-10-19T21:30:00-04:00",
-        "2026-10-19T14:10:00-04:00",
-        "2026-10-19T16:30:00-04:00",
-        "2026-10-19T13:30:00-04:00",
-        "2026-10-19T15:40:00-04:00",
-        "2026-10-19T17:50:00-04:00",
-        "2026-10-19T22:10:00-04:00",
-        "2026-10-19T18:20:00-04:00",
-        "2026-10-19T16:10:00-04:00",
-        "2026-10-19T22:40:00-04:00",
-        "2026-10-19T20:30:00-04:00",
-        "2026-10-19T13:40:00-04:00",
-        "2026-10-19T14:40:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_9a8e1970b4bffb",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1981,6 +1859,108 @@
         "2026-10-19T16:05:00-04:00",
         "2026-10-19T18:10:00-04:00",
         "2026-10-19T20:10:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_285d54fb1abeff",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-10-19T16:40:00-04:00",
+      "starts_at_ms": 1792442400000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 19 de octubre · 16:40",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "16:40",
+        "18:00",
+        "21:00",
+        "19:20",
+        "22:00",
+        "17:00",
+        "19:30",
+        "17:40",
+        "20:00",
+        "22:20",
+        "18:40",
+        "16:20",
+        "19:50",
+        "18:10",
+        "22:30",
+        "20:20",
+        "21:30",
+        "16:30",
+        "19:00",
+        "18:20",
+        "20:30",
+        "17:50",
+        "22:10",
+        "16:10",
+        "22:40",
+        "18:30"
+      ],
+      "formats": [
+        "2D - DBOX - Doblada",
+        "2D - Doblada",
+        "DBOX - 2D - Doblada",
+        "PRE - 2D - Doblada",
+        "PRE - 2D - Subtitulada",
+        "2D - PRE - Subtitulada",
+        "2D - Subtitulada",
+        "DBOX - IV - 2D - XD - Doblada",
+        "2D - XD - DBOX - Doblada"
+      ],
+      "occurrences": [
+        "2026-10-19T16:40:00-04:00",
+        "2026-10-19T18:00:00-04:00",
+        "2026-10-19T21:00:00-04:00",
+        "2026-10-19T19:20:00-04:00",
+        "2026-10-19T22:00:00-04:00",
+        "2026-10-19T17:00:00-04:00",
+        "2026-10-19T19:30:00-04:00",
+        "2026-10-19T17:40:00-04:00",
+        "2026-10-19T20:00:00-04:00",
+        "2026-10-19T22:20:00-04:00",
+        "2026-10-19T18:40:00-04:00",
+        "2026-10-19T16:20:00-04:00",
+        "2026-10-19T19:50:00-04:00",
+        "2026-10-19T18:10:00-04:00",
+        "2026-10-19T22:30:00-04:00",
+        "2026-10-19T20:20:00-04:00",
+        "2026-10-19T21:30:00-04:00",
+        "2026-10-19T16:30:00-04:00",
+        "2026-10-19T19:00:00-04:00",
+        "2026-10-19T18:20:00-04:00",
+        "2026-10-19T20:30:00-04:00",
+        "2026-10-19T17:50:00-04:00",
+        "2026-10-19T22:10:00-04:00",
+        "2026-10-19T16:10:00-04:00",
+        "2026-10-19T22:40:00-04:00",
+        "2026-10-19T18:30:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2293,6 +2273,44 @@
       "cast": [],
       "quality_score": 72,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_dc5f3b3bd431ba",
+      "title": "GAMS Gobierno Autonomo Municipal de Sucre",
+      "category": "conferencia",
+      "category_label": "Conferencias",
+      "starts_at": "2026-10-25T20:00:00-04:00",
+      "starts_at_ms": 1792972800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 25 de octubre · 20:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 6,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": null,
+      "image_url": "https://sucre.bo/wp-content/uploads/2026/10/854850956_1680160560384057_4198747679701185839_n-310x165.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
@@ -3470,6 +3488,44 @@
       "director": null,
       "cast": [],
       "quality_score": 78,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_7098dbbaa03be7",
+      "title": "Chilajatun en Concierto",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-11-26T20:00:00-04:00",
+      "starts_at_ms": 1795737600000,
+      "ends_at_ms": 1795665600000,
+      "multi_day": false,
+      "display_date": "Jueves 26 de noviembre · 20:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 38,
+      "is_upcoming": true,
+      "city": null,
+      "department": "Bolivia",
+      "venue": "Teatro 16 de Julio",
+      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/10/Shop5_Cuadrado_AfWHPAE.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 140.0,
+      "currency": "None",
+      "price_label": "Bs 140",
+      "organizer": "SuperTicket.bo",
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 72,
       "is_featured": true,
       "status": "programado",
       "source_count": 1
@@ -4768,7 +4824,7 @@
     },
     {
       "event_id": "evt_6894512c9ff93f",
-      "title": "18/10/2026 Cultura Ariel Muñoz, de Chakana Teatro: el teatro hace preguntas, debe hacerlas Chakana Teatro brilló con…",
+      "title": "19/10/2026 Cultura Los vértigos de un egiptólogo en Egipto Querido amigo, pongo tu nombre al frente de este Prólogo,…",
       "category": "festival",
       "category_label": "Festivales",
       "starts_at": "2027-10-13T20:00:00-04:00",
@@ -4783,7 +4839,7 @@
       "city": "Cochabamba",
       "department": "Cochabamba",
       "venue": "mARTadero",
-      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/10/18/dc_cartelera_1.jpg?itok=RcqSLf5Y",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/10/19/10_ignacio_vera_2.jpg?itok=ZSlWH1OK",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
