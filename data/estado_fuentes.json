@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T16:37:52-04:00",
+  "generated_at": "2026-10-19T20:22:39-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,11 +11,12 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_musef_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 113.1,
-    "horas_maximo_sin_datos": 1453.5
+    "horas_promedio_sin_datos": 109.3,
+    "horas_maximo_sin_datos": 1457.2
   },
   "sources": [
     {
@@ -214,13 +215,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tO_dnbslD1AQ7kNvwHqz-0l&_nc_oc=AdoeXgHDStLAqkeTUMMAMRhsrIVpQYMRRpIr_uCrnCACk7sdi3dtdI3psC6RbyJ0664&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=1V6HV2SUFAEovY6xxIWZRA&_nc_ss=7f289&oh=00_AQNFRqFTHlIbG3i-DgiLbklfewUI2NO0qRCshOjRsIPUqg&oe=6ADC8E17",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid02yfzE52dJxexhupbm2NeJSDo8e8GwyZU6QwSK1kFU1SqNKP7yXWgNyz5iNqc7PmaSl?__cft__[0]=AZgkplvjKmHFf9tEguNhskwrlPPzuYEjql4rLPKcurgh7o8DT54wi0eXKet0SmKVrXFNDZlG7yazE66jTXcjYj-1CtdBH7BLmKIR8j1SBrtcFHCePDl_h88EU4iUMgYtdlXLOagxYpuhecwk0ZkhC-2V6TmxaCLVZTBaZr8sE-bnIha1cfNyi-2Ulmk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "El gobernador de Cochabamba, Leonardo Loza, destacó la producción de la Planta de Transformación de Cereales del municipio de #Totora, donde se elaboran galletas, pan d… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gamscs",
@@ -333,22 +343,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yXt2TkwAw5QQ7kNvwF_2JCf&_nc_oc=AdrAvgwg-b7-PldfcwJ6maXHdyivTlYEv94F7e1-CA-3zZlnCKrfFbrdhLUg-ocQnfw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=vEoYlEeEykiV4XV53F_Xig&_nc_ss=7f289&oh=00_AQPeEsbQDHo0IViYMQCcuhfZ2dMMJRyAT4WLdVgPMJYqvQ&oe=6ADC3FFF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid02KsV8KWCzrLEosdFZjqgsxGK6NxhZQPkNago5MGrB9MkS3Qs26hjySbPp8ftd3U74l?__cft__[0]=AZj_IeNh4TlrwzAg-ktOZ7qHNrGMaJx8eFXp69catXT7Y71KXKb3HgZv3mU7YNePbeIa0RwdKVsc4sY04FIKZ9VOxZP0hPMxabIYADj9Ez0nsKRjyPBU7Iw7MUUf-aLiz3chITMXQehUj24V8pw0OM7AJrEkpZUP_S5nzmOzH86isZYu5q57vn_gK98&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "UNITEL hace 55 minutos 55 min Más información en comentarios Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_atb",
@@ -478,13 +479,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1uZs4RZAz9UQ7kNvwHfAF_K&_nc_oc=AdrEJQtkevqOKdu46pLcJ4qXK7vZHSMQlTSZt6Qm-J4t-Ab7swrHWd3Yiz95usQhhmI&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=mtw2dC2XhY77lwgnawdZVw&_nc_ss=7f289&oh=00_AQNiPay3EOvMIuLCgvvoQHf2bITX0PrmKm7CBRd3cbTGag&oe=6ADC9502",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid0nVPaVqo4eSaJks9ykUAH1TFvyJeK94rE5HebDdb6aKR8MzAvA9CYQMjfKuu9SPVtl?__cft__[0]=AZjEKIyqRoc3h_2nKzsv1isSWyo4Jhfbgas1QmGIsMpDLwo0OTxknv-4VkGr1L29sMLlGSwmNBrE53_LuIuj9Ba9LSEBlJHQkGX0VByCKcGz52x6sOTrbyzRrx7nVHtZbDZYIjM4HOU33b2DhTpyoWrjmKdgcFsB8b28VKPITpKbqG3YCDYdhG0B3mg&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Potosí Dos hermanos de 9 y 15 años son asesinados a puñaladas mientras jugaban fútbol en Llallagua… Ver más #Potosí Dos hermanos de 9 y 15 años son asesinados a puñaladas mientras jugaban fútbol en Llallagua… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber_radio",
@@ -615,12 +625,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Etnografia y Folklore 40 mil seguidores • 171 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento P'"
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -954,22 +964,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HnW4vHOghcgQ7kNvwHRpM62&_nc_oc=AdqISYGkCjDNLxWR412X-x1kTbJi7tv27u_dO15DTbbNntB0xEqVWxBb5g80kAeFtIc&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=1z-KHvg23q_ioOR8Qt5B8A&_nc_ss=7f289&oh=00_AQOJb-hMdfJ7H5KMVSJUHrYDxnJQoWfXy_o00VauB01u5w&oe=6ADC5317",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 26,
-          "category": "otro",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid0pW2Tu4DGJZD4BLpeBe9pRKfTzhg45KEiCAXHuARNxPNMmxniFNJWpd6aU3WmoABLl?__cft__[0]=AZhPymOd3f_jc8lezBA-_QvYfUKUVmHsUSVHuXF171mFXAIAPNuxtbmyY-7C1UFol4DH1Ocb-OawyZx62KWc8r7ojwvSuak5I4cJEHaNRZZTCYLBLlhgoyRTPQxcp5JAP-85h8W_U3QlmnCg5ixdKprZdbw14mtBYJ2xF8qpsYs7QME1By_b2qeKiYA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Manzana 1 Espacio de Arte felicita a la @fundacionsoly Fundación Solydes —Solidaridad y Desarrollo— por sus 40 años de vida y gestión en educación rural, salud, tecnolo… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1031,22 +1032,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=H-nA8GWrwJIQ7kNvwFpD6Cu&_nc_oc=AdolT2IBECNh-dv_ER5uvF_ooNBQ-KUZz0VxK0PCEy0dqZqfRNtfLi3gtkkIQB27sjs&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=UcAvyiyQma_yEmqgCI3dLw&_nc_ss=7f289&oh=00_AQM0STdgd-ci-orssgv8y6uTpjfkV9wlT4LIdBrhqR44EA&oe=6ADC55CF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/goetheinstitut.lapaz/posts/pfbid0dnQGyUG62UpT5zrgKshZnKCBr79ZgoRtqp15roZ5HdfqfxAUXJwDesfoLw7YKva7l?__cft__[0]=AZgrmahDet6OBAPQaAP8-fX1ACwpapqLEPxwHxKa6Zr3buBdsReXy40sD_7KJpx30GhCyuGvG4dvL1h_7s5AJrnlH0PNJJAn_Y03FwfywmvfXxqieSCNVMUU-QiaAtoqo_CXByYI2uLk7olOTZwH_3RzDCEOJx9jx-uXhy09Sf_6g437kw6tyjny-V8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Mesa Redonda “La lengua aymara” de Ernst W. Middendorf (1891) Con la participación de destacados especialistas de Bolivia y Europa, esta mesa redonda ofrecerá una valor… Ver más Mesa Redonda “La lengua aymara” de Ernst W. Middendorf (1891) Con la participación de destacados especialistas de Bolivia y Europa, esta mesa redonda ofrecerá una valor… Ver más Tenemos problemas para reproducir este video"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1125,13 +1117,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=83KAJntzfXYQ7kNvwEWC5-w&_nc_oc=AdqPrwlje5ng5Ca5bjlVwwFMPMXUOIhFRMVMVzFTS8VGUIsF0zGEPQRor7UiXQMaH_o&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=KCflzAVB6TC8k2r0D9QENQ&_nc_ss=7f289&oh=00_AQMYrPsZvXjtyiRH_6w0vbybyfzlSzGtMNL0xIMgBRkx9Q&oe=6ADC9FA4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid0ayu2o8rYT9UWkEK8MzTp36GbcbdXaum7x4xZbWbvKSyZYmTsDLUYiQUE2r4fMq2il?__cft__[0]=AZhp9VvgmgHcNwyR_8NNGK9sXI0WqQyThHrAxw5nDoDoAKcm-h_iMfhsI4gKaONwjBAxWSZyXERSSEGmS_0WsNwXsvWm8hFroepSMCcXfwZSVERjQDwbbhA3awJPEiiQcA3MIsbhrVJxAFxSRqW7dalc2uGdHLFY7XCFDDuDBnfXJnkierX0LaBU84I&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#RAE2026 l 𝗟𝗮 𝗥𝗔𝗘 𝟮𝟬𝟮𝟲 𝘆𝗮 𝘁𝗶𝗲𝗻𝗲 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮 Dos jornadas de trabajo para encontrarnos alrededor de las expresiones que dan forma a nuestros conocimientos, memorias, prác… Ver más #RAE2026 l 𝗟𝗮 𝗥𝗔𝗘 𝟮𝟬𝟮𝟲 𝘆𝗮 𝘁𝗶𝗲𝗻𝗲 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮 Dos jornadas de trabajo para encontrarnos alrededor de las expresiones que dan forma a nuestros conocimientos, memorias, prác… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1176,22 +1177,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/611611123_892086103405617_7679383414559238851_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i3iwyNCPJjcQ7kNvwGSuasA&_nc_oc=AdrV9gff1uxeNlFQ5PsYSCfM4Fz1WVWXOBpVSxMurpZr3KGXCkL_lZ0YpZb9GL8uKpM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=qVzZeASDId3n5C8ZGC-jMg&_nc_ss=7f289&oh=00_AQPlB36J_6xg1nT09XsvnCw5In7r2YAz5qCEJipkRcZeKw&oe=6ADC4C48",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "feria",
-          "url": "https://www.facebook.com/OficialUAGRM/videos/te-invitamos-a-ser-parte-de-la-expo-ciencia-emprende-2026-la-uagrm-sale-de-las-a/1499550375317771/",
-          "has_image": true,
-          "text_preview": "Te invitamos a ser parte de la Expo Ciencia Emprende 2026. La UAGRM sale de las aulas y se traslada al centro de la ciudad para mostrar ciencia, innovación y tecnología. Te invitamos a ser parte de la Expo Ciencia Emprende 2026. La UAGRM sale de las aulas y se traslada al centro de la ciudad para mostrar ciencia,..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_umss",
@@ -1432,7 +1424,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
+          "score": 0,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1440,7 +1432,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
+          "score": 24,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1448,7 +1440,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
+          "score": 36,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
