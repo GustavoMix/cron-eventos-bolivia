@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T20:22:39-04:00",
+  "generated_at": "2026-10-20T04:34:16-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,12 +11,11 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_musef_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 109.3,
-    "horas_maximo_sin_datos": 1457.2
+    "horas_promedio_sin_datos": 111.1,
+    "horas_maximo_sin_datos": 1465.4
   },
   "sources": [
     {
@@ -28,13 +27,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eJDFMrOere0Q7kNvwGJABXt&_nc_oc=AdreUd5lRSm7RG_kUUbGvmYGBaNG58xzvnXZRXfsSQEQUWqZx-HcHkRMxLRTlfKZlSs&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=luKkClqTFMwSLp9h6SnPlg&_nc_ss=7f289&oh=00_AQMZ46C39t_ri6oVB9ITdWrUv637TVr0w4vK-7NlTN6grA&oe=6ADD119A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 36,
+          "category": "festival",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02ce7PaTspurfxxCCn7cqg3kUaRp73cevHHfZNQ6ZGfUaSLg2HAa8UdxVajQZJwVfZl?__cft__[0]=AZiomeSkSUfRQ-S3uJaNv3J4jOoaj-YLn1l1AEGyqlXR2stJAXsJg7tzj0k1oeH0giR25kFzEPAoJgHVHOpOWQ1hCsyiRpWvwJGiiGr3YLwT5oj_rFEqLPjCZn9OB_VEI2OW3ecWrpiW-8Jk17hqw_yS_YRezpnTcZn5C1vEuAFmozfRGGoMGyeTRIE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡ATENCIÓN, SOURS! LLEGA EL OLIVIA RODRIGO FAN FEST A LA PAZ! Si… Ver más ¡ATENCIÓN, SOURS! LLEGA EL OLIVIA RODRIGO FAN FEST A LA PAZ! Si… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -45,13 +53,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bx5MPbKw3lIQ7kNvwFWcD4b&_nc_oc=AdpYF9pyNM1hZjU9iso4MNmxIBFNhaizLaiac_gadVDUTXGDRaPbn39CRtegfyKMGFQ&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=zWclWNvL1k66wJl_eHTEbg&_nc_ss=7f289&oh=00_AQNYy7WFbdrLQSIS_j0DloDAiVuhsIYoYMqys3IXjJUXtw&oe=6ADD0335",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1372543994711372/?__cft__[0]=AZi4yNZwkEC8qQQNjABdqaPM75H4SRTexkfqUFHPfKCVV1CpmI6yO4ar_dXGcIxuUe8aft7J_izVVNKhpVlZPCzgnScj3Dx-_qWB0XwZeGXpT23g9Hk712UXV--UMmvGY_lgSMv00pV7gXSdxdunmBLTzofH6t_a0DBiDk_NC1lg2MpJwtPqKWK2oDJ54MY_vYH5&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La Bella Durmiente L… Ver más La Bella Durmiente L… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -215,22 +232,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tO_dnbslD1AQ7kNvwHqz-0l&_nc_oc=AdoeXgHDStLAqkeTUMMAMRhsrIVpQYMRRpIr_uCrnCACk7sdi3dtdI3psC6RbyJ0664&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=1V6HV2SUFAEovY6xxIWZRA&_nc_ss=7f289&oh=00_AQNFRqFTHlIbG3i-DgiLbklfewUI2NO0qRCshOjRsIPUqg&oe=6ADC8E17",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid02yfzE52dJxexhupbm2NeJSDo8e8GwyZU6QwSK1kFU1SqNKP7yXWgNyz5iNqc7PmaSl?__cft__[0]=AZgkplvjKmHFf9tEguNhskwrlPPzuYEjql4rLPKcurgh7o8DT54wi0eXKet0SmKVrXFNDZlG7yazE66jTXcjYj-1CtdBH7BLmKIR8j1SBrtcFHCePDl_h88EU4iUMgYtdlXLOagxYpuhecwk0ZkhC-2V6TmxaCLVZTBaZr8sE-bnIha1cfNyi-2Ulmk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El gobernador de Cochabamba, Leonardo Loza, destacó la producción de la Planta de Transformación de Cereales del municipio de #Totora, donde se elaboran galletas, pan d… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -479,22 +487,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1uZs4RZAz9UQ7kNvwHfAF_K&_nc_oc=AdrEJQtkevqOKdu46pLcJ4qXK7vZHSMQlTSZt6Qm-J4t-Ab7swrHWd3Yiz95usQhhmI&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=mtw2dC2XhY77lwgnawdZVw&_nc_ss=7f289&oh=00_AQNiPay3EOvMIuLCgvvoQHf2bITX0PrmKm7CBRd3cbTGag&oe=6ADC9502",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid0nVPaVqo4eSaJks9ykUAH1TFvyJeK94rE5HebDdb6aKR8MzAvA9CYQMjfKuu9SPVtl?__cft__[0]=AZjEKIyqRoc3h_2nKzsv1isSWyo4Jhfbgas1QmGIsMpDLwo0OTxknv-4VkGr1L29sMLlGSwmNBrE53_LuIuj9Ba9LSEBlJHQkGX0VByCKcGz52x6sOTrbyzRrx7nVHtZbDZYIjM4HOU33b2DhTpyoWrjmKdgcFsB8b28VKPITpKbqG3YCDYdhG0B3mg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Potosí Dos hermanos de 9 y 15 años son asesinados a puñaladas mientras jugaban fútbol en Llallagua… Ver más #Potosí Dos hermanos de 9 y 15 años son asesinados a puñaladas mientras jugaban fútbol en Llallagua… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber_radio",
@@ -624,13 +623,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=paV5scAbMJQQ7kNvwHpOUfS&_nc_oc=AdoeQiQdTMkd5PTU6ZZc_38z-AYsnZaTRt0KM7Z0jh3rEp485xZlyoX22fa0XVl6Whk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=7QwUq-TqY9eMbDO5jHAr0w&_nc_ss=7f289&oh=00_AQNfh90OL078CSO34ygufiHm2gs-HTiVuHgrI67bMh3rsQ&oe=6ADCEB33",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Etnografia y Folklore 40 mil seguidores • 171 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento P'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/posts/pfbid0SW1qD5tXEWD3968u3A4Er4BFrVpW3MkPHKnPhuX2vrzK75aPeugCtP25gfpUhdwNl?__cft__[0]=AZhB9sNDssENvEkP320brtSRE53tUKnw5LO2vdxOflMFT2oHFwvXtpVcbe1bIAfdZBYHWgtfA2Uo5MeIYlZC25QpUqMA4q3-GJVBCwUGqNOVQjTystwZHXZ_JcM2B4Rd5DoZC23qhOknHrdYj3gcChOAGQkHc4ZbXX7NlsXD67jQv-OFYR8WBj-fN4w&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#RAESucre l ¿𝗖𝗼́𝗺𝗼 𝘀𝗮𝗻𝗮𝗻 𝗲𝗹 𝗰𝘂𝗲𝗿𝗽𝗼 𝘆 𝗲𝗹 𝗮𝗹𝗺𝗮 𝗻𝘂𝗲𝘀𝘁𝗿𝗮𝘀 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱𝗲𝘀? La respuesta se teje este 𝗺𝗶𝗲́𝗿𝗰𝗼𝗹𝗲𝘀 𝟮𝟭 𝗱𝗲 𝗼… Ver más #RAESucre l ¿𝗖𝗼́𝗺𝗼 𝘀𝗮𝗻𝗮𝗻 𝗲𝗹 𝗰𝘂𝗲𝗿𝗽𝗼 𝘆 𝗲𝗹 𝗮𝗹𝗺𝗮 𝗻𝘂𝗲𝘀𝘁𝗿𝗮𝘀 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱𝗲𝘀? La respuesta se teje este 𝗺𝗶𝗲́𝗿𝗰𝗼𝗹𝗲𝘀 𝟮𝟭 𝗱𝗲 𝗼… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -1117,22 +1125,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=83KAJntzfXYQ7kNvwEWC5-w&_nc_oc=AdqPrwlje5ng5Ca5bjlVwwFMPMXUOIhFRMVMVzFTS8VGUIsF0zGEPQRor7UiXQMaH_o&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=KCflzAVB6TC8k2r0D9QENQ&_nc_ss=7f289&oh=00_AQMYrPsZvXjtyiRH_6w0vbybyfzlSzGtMNL0xIMgBRkx9Q&oe=6ADC9FA4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/musefsucre/posts/pfbid0ayu2o8rYT9UWkEK8MzTp36GbcbdXaum7x4xZbWbvKSyZYmTsDLUYiQUE2r4fMq2il?__cft__[0]=AZhp9VvgmgHcNwyR_8NNGK9sXI0WqQyThHrAxw5nDoDoAKcm-h_iMfhsI4gKaONwjBAxWSZyXERSSEGmS_0WsNwXsvWm8hFroepSMCcXfwZSVERjQDwbbhA3awJPEiiQcA3MIsbhrVJxAFxSRqW7dalc2uGdHLFY7XCFDDuDBnfXJnkierX0LaBU84I&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#RAE2026 l 𝗟𝗮 𝗥𝗔𝗘 𝟮𝟬𝟮𝟲 𝘆𝗮 𝘁𝗶𝗲𝗻𝗲 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮 Dos jornadas de trabajo para encontrarnos alrededor de las expresiones que dan forma a nuestros conocimientos, memorias, prác… Ver más #RAE2026 l 𝗟𝗮 𝗥𝗔𝗘 𝟮𝟬𝟮𝟲 𝘆𝗮 𝘁𝗶𝗲𝗻𝗲 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮 Dos jornadas de trabajo para encontrarnos alrededor de las expresiones que dan forma a nuestros conocimientos, memorias, prác… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1211,13 +1210,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9d6N_1VcVi8Q7kNvwGHsxG1&_nc_oc=AdrMit0Wza2dbZqQ_lpgVNmtg-CLCNwaec36YAjIx8WC_QxYB4mhi2hjcbBy79Toeaw&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=OEZnV-ixiQIzRr2v16HipQ&_nc_ss=7f289&oh=00_AQMT83cSmPh8d15xsdGpf7Ms9N044o583a3dFFdpQbfaWA&oe=6ADCE1F2",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid0FUhXhuJxQA9fn6ZgvEVEd2gUAhZpbL1w2XQCaiS2BDEQkF7tAk2tccsz64NG9Q2Kl?__cft__[0]=AZgx8ddn89YZOLkQX3qw2V1Fu1NZ4R6wd54E636aqb9fN4zhEKp6NE6ub7YA5H58-v9VW3JvS84duOwcEQG_RU1hIah8XOaeFS0iJmLS_yY2S7NDHHZ0JKEXppQ8BIb2rWQZqZG0iuzb6ERcgenJKDmSXZg8-ngJuT6ox2ygiIlQAZsxCx91hlVUZZA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "UCB - Sede La Paz hace 12 horas 12 h 90 años, 10 obras, Chaco … Ver más Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_upsa",
@@ -1424,7 +1432,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 12,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1432,7 +1440,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 24,
+          "score": 42,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1440,7 +1448,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 36,
+          "score": 47,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
@@ -1502,15 +1510,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 36,
+      "raw_items": 35,
       "events": 0,
-      "rejected": 36,
+      "rejected": 35,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/5bba6600-a572-4fb3-a41b-8674e5bc0b64",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/5213ffcd-87ed-449e-9b41-436b90955a9e",
           "has_image": true,
           "text_preview": ""
         },
@@ -1612,8 +1620,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 55,
-      "events": 55,
+      "raw_items": 59,
+      "events": 59,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
