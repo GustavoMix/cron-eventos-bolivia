@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:20:59-04:00",
+  "generated_at": "2026-10-20T15:18:58-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 105.7,
-    "horas_maximo_sin_datos": 1471.2
+    "horas_promedio_sin_datos": 101.9,
+    "horas_maximo_sin_datos": 1476.1
   },
   "sources": [
     {
@@ -248,22 +248,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i6VMYComyYkQ7kNvwECSLE4&_nc_oc=AdoUwI3u6_mY9aRaLPafHBwWbRWpcWVMMQhQtskqxX5zHHUwvEK82FMYdQjjSuo4MTI&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=NE3FC4tDRzVwahX0gEnlLw&_nc_ss=7f289&oh=00_AQPYRR135au_jzuSPSKypavdCa-ShT-Iuflb-wYQWOgnsA&oe=6ADD43FE",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/962377993118463/?__cft__[0]=AZiAli8C1lwQcrHCfuHcXM6eDiyY2RAL2KG-M_dw_QKcQWJ_fZmRyr75IZ7Us0WbUg5ONwL7KRutuZs6LWh5Gvqf-LbH_ek58qIRLOL7IcOrITgvRIO78Z6VOEGDQGgaVSgwP7TgXvqMpRjMQebMLHiUbsp5MovOwRnX6F7W3Y8Q452zuWMbBY_Eo-lP8zTICf6Z&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡VACUNÁ. PREVENÍ. PROTEGÉ! ¿Tu mascota está vacunada contra la rabia? Su vida y la de tu familia pueden depender de eso.… Ver más ¡VACUNÁ. PREVENÍ. PROTEGÉ! ¿Tu mascota está vacunada contra la rabia? Su vida y la de tu familia pueden depender de eso.… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_lostiempos",
@@ -359,13 +350,30 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Y5oecP3KTksQ7kNvwGtAuF9&_nc_oc=AdopbOP1kR6xThzoIJHa_mkIMJHv0JV8Svx4OOKV2hc8Oxe845n5z7j_pCj5Z5Fdr14&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=jvgESOd3zvYeaHAlE0FhCQ&_nc_ss=7f289&oh=00_AQNzw8tFPusssCRRJJ36BZx4K_3HOTagLGDUiIxobuY2SQ&oe=6ADD91C1",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "concierto",
+          "url": "https://www.facebook.com/61567518883240/videos/en-vivo-bol%C3%ADvar-visita-a-real-potos%C3%AD-always-ready-recibe-a-the-strongest-en-vill/2343694063071474/",
+          "has_image": true,
+          "text_preview": "EN VIVO Bolívar Visita a Real Potosí … Ver más EN VIVO Bolívar Visita a Real Potosí … Ver más Hora y fecha Tenemos problemas para reproducir este video. Más información Ver más comentarios Ruben Patzi"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ATBDigital/videos/1647987383674686/?comment_id=1659623805816215&__cft__[0]=AZg3XoGPilpFFEl0bMon607JKj99BBLxuBergFzTqRuCasMxscT13GLDCaRh0cwDIBj243u-vK0JBUerS3ytz--mY9eEYmmv3cYBGNczwP2tCHqcTcdAgSBdxUBmzcJUaYkBtHmBDp3OLEC3UTUMUT4L5fj2oboFPLOhmhOSbwpkarYt9pXcFSzkk-cpc4aMqUU&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Ruben Patzi Hora y fecha 5 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_bolivision",
@@ -410,22 +418,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GyHfQl5EESUQ7kNvwH1r_EV&_nc_oc=AdqqokQ5RxbVNSn3AAAQ0Dkf8PeQ-bpEUVFX40u7rlfSj-7iXyruFps105fnISXr_Fw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=aS-A-Ew18Bed6RdM7wcqEg&_nc_ss=7f289&oh=00_AQON1wGMqB2LAOx-AK21XbUZ9XR6ZsnxW8kJVu-R_-NgHQ&oe=6ADD5AA1",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid02ccuiNEaJhcD4fhoboFM3Jy9caavxZPyZGTpVp9btbnqveUWDoy2owLM2KUu1rTADl?__cft__[0]=AZgVDhWFd22TqUNRcsUJgowGGjnRa_DQ5VuhHSZIoV650LtDqF2tGr2eZbVRngcO6zd2k8CWS_gQHp6GwOcesZ5A_W5AY4lQP-8fJ92BP9G-y39M3nVAp4sNmezsWVAjC78aXvmDpTrSnM2pJY0jyK7X06Xo1QEfxJUmNdHCETxJavgkDpMvf8sAssw&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Achumani: alertan por daños a la vegetación y la fauna del Cerro Ticani (09:45) Mira la nota aquí: https://youtube.com/shorts/G6GT6eZqtls?feature=share… Ver más Achumani: alertan por daños a la vegetación y la fauna del Cerro Ticani (09:45) Mira la nota aquí: https://youtube.com/shorts/G6GT6eZqtls?feature=share… Ver más YOUTUBE.COM www.youtube.com"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_radio_fides",
@@ -453,22 +452,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LQGpjviZv1wQ7kNvwFh82CU&_nc_oc=AdqYlq4sCSkNUiMfJfnoT2V1wfFimx7hyx3ZUbIa-TNJINNdzPXkHvmduHtkIjW69TQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=jo6yx0CNpdJjOsvTYsiC6Q&_nc_ss=7f289&oh=00_AQONj5VYl8KSghKtbzRKnHAJ8oAoYKxQ8xHrieJyVJciyQ&oe=6ADD5D3A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1817315865973491/?__cft__[0]=AZi7FRWszadT3NNDf55jqIAh-cl-_5RJtcwKhwyAjbjcdUSCr0AKQ6B9ufsRWqkNBnaw-jwD5TRGk3NEaxJ5q5x_molkxBHlJISiObKIBwEAER1uzm19a3AQ6NjDBRtmMGfRoA5gFIkHdAC1EyrAHeQ5X2OZKhLsRrasCjjvubphDBiFFynKTT6xUI87-VnQuN45&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#GrupoFides | #ANF El gobernador de #LaPaz, Luis Revilla, informó desde Laja que participará de la sesión de honor de la Asamblea Legislativa Departamental por los 47… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_rtp",
@@ -921,13 +911,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZDqABJynlDYQ7kNvwHQS8eJ&_nc_oc=AdqUNcqKRJeUJc7jXKmfZwJ3nCwjZ55mhaZgZkW2KQvcaViU_IzMQTRW90Cslt5_WNo&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=ArweZLjn9JOR0i1coKrjpw&_nc_ss=7f289&oh=00_AQPb6mu53Ie88xLqLqDj2Yl9RHu00DOnRZnfX95lrW9W4Q&oe=6ADDA207",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/aflapaz/posts/pfbid0zen7U7GUpfDawTgArfSoi9FaguqSWfaXnkXwC1TYyw82hZyEZKhKpEtchpdTdktul?__cft__[0]=AZhvZkgjrG0znUmknGDBwsxhbNvxBJKuNdToXYj_YRkjBVy01ggUn1JGB_vVMMPeE0qLQE9HLtJpdXVjSyteVy3YdHLkkfHv5fhwTjP4BdZn21CXti33hQU_WBmMYsnCC_bSq2FRn3BwioLD3Pu-0YpqNbIL2fm2ZHLuohinpO94KM_nyIKFWI_tXWY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Feliz aniversario, La Paz! D… Ver más ¡Feliz aniversario, La Paz! D… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1006,13 +1005,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sXJM7FpRC6oQ7kNvwF5ZgQ3&_nc_oc=Adq4-uAcujYWioztdTZwtkq4A-uwjHGH8-kRfVQg6iMPyMh3Sb1Ar806NenVIV3BNc0&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=iXiI_lXHjaMZFmkVHJ3Wmw&_nc_ss=7f289&oh=00_AQOYYMjAI_GQpRh0mrBELn5LfmmaXl9-p4NQqV9ivnOmrw&oe=6ADD832A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "turismo",
+          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid0sz4jXE7RdLDgj8FiM5j3x6pY4xKXtzAixk4GLf7RL1aBZvVENYn8pmTY9wgmnH5pl?__cft__[0]=AZhOeHSB9heLayDjzk6Lev73PXt_4M5peSaW1xcCykx-T0bxSFosCwCKfI41ncffX_VL5U1IbMrDL59NgMeS8Er7AwHjLB4jvnMuo175idxNjUxQGiPCE20ER5IhCNs2efS4_rq9TG900yRhIT1VHjW63c-8OPuatPUKIckLp8XmGllFYwFSThBo5YgOsSBID5gE7cSgyQrHHxPMi0U&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La Mirada de una experta española que vivió la Experiencia Tarija… su cultura y gente !! BOLIVIA, MUCHO MÁS DE LO QUE CUENTAN LAS GUÍAS. Hace unos días, leí un artículo sobre el creciente atractivo turístico de Bolivia que me llevó a reflexionar y despertó… Ver más BOLIVIA, MUCHO MÁS DE LO QUE CUENTAN LAS GUÍAS. Hace unos días, leí un artículo sobre el creciente atractivo turístico de Bolivia que "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1057,22 +1065,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jAq2edj0ZU4Q7kNvwHI-62b&_nc_oc=AdrsOZafS6Ua0EM6KL09dJG_9XR9VifnMUV0pA-v-siTK6cGyU1JUzoTjIyQY2R2zTE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=T98ptwjnKmsJEpd_6f2esA&_nc_ss=7f289&oh=00_AQNi5WFzefc_330iMMkcu7aZQRDLz0tf5BgNwaC_xZUVXw&oe=6ADD4ED5",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/1152727030544743:1152727030544743?__cft__[0]=AZgl9HZT-h8huFHTVi4nGDZfOtMRL4vf6vjbmtp23ymIIix8T_GkvGIOfaCkcxQBQtG5O3pImhdbOKA0zlF3nhzb69-yqu7WeNfBCRY43z261TtD7ZHZWFodQq0ID0rueHbau25ycXf2inuSxVqqaEwcxMm14uBSK5HWjzyie2C3ZjCyXA6wm9yXB1l_sA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Alianza Francesa de Cochabamba actualizó su foto de portada. hace 4 días 4 días Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1168,13 +1167,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iaV4GAwTqH0Q7kNvwFf2Xdr&_nc_oc=AdrFOn69_s2yIJJ9W7BV2SoQcB10rbC_r7rZCzzvUlNaE206rA56je6ozKdEYSSxzjU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=p8mVaJoU4kBzsAktrrHrmQ&_nc_ss=7f289&oh=00_AQPjetg_ifdhqrT6mHB1TYgSy7TwQiWjk5H6pH5BeOHU4g&oe=6ADDAAA5",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/1545507394279359/",
+          "has_image": true,
+          "text_preview": "#Estudiantes | 🤝🏼🧑🏻‍🎓 El espacio Tawa K’iklluq Wasi de la Universidad Mayor de San Andrés (UMSA) cumplió 11 años de trabajo en favor de la inclusión de estudiantes con discapacidad, con el objetivo... #Estudiantes | El espacio Tawa K’iklluq Wasi de la Universidad Mayor de San Andrés (UMSA) cumplió 11 años de trabajo en favor de la inclusión de estudiantes con discapacidad, con el objetivo de contr"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/UMSAinformacion/posts/1545507394279359/",
+          "has_image": true,
+          "text_preview": "#Estudiantes | El espacio Tawa K’iklluq Wasi de la Universidad Mayor de San Andrés (UMSA) cumplió 11 años de trabajo en favor de la inclusión de estudiantes con discapacidad, con el objetivo de contribuir a una educación superior con mayores oportunidades para todos. Revisa más en https://estamosvivos.com.bo/tawa-cumple-11-anos.../ #UMSA #LaPaz #Estudiantes #Tawa #Octubre #RevistaEstamosVivos #Est"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1432,7 +1448,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 12,
+          "score": 36,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1442,9 +1458,9 @@
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 42,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
+          "text_preview": "20/10/2026 Cultura Adriano Lenaz y María Rilda Paco ganan los premios de Ensayo y Novela de 2026 El cochabambino Adriano Lenaz Zenteno y la paceña María Rilda Paco Alvarado ganaron la cuarta versión del Premio Departamental de Ensayo y Novela... vista 19/10/2026 Cultura Los vértigos de un egiptólogo en Egipto Querido amigo, pongo tu nombre al frente de este Prólogo, publicado ahora en la prensa a "
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1586,8 +1602,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,8 +1619,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
-      "events": 2,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1620,8 +1636,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 59,
-      "events": 59,
+      "raw_items": 49,
+      "events": 49,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1654,8 +1670,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 3,
-      "events": 3,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
