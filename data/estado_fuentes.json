@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T15:18:58-04:00",
+  "generated_at": "2026-10-20T19:55:09-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 101.9,
-    "horas_maximo_sin_datos": 1476.1
+    "horas_promedio_sin_datos": 99.8,
+    "horas_maximo_sin_datos": 1480.7
   },
   "sources": [
     {
@@ -180,13 +180,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KJMcIMmF6OQQ7kNvwFgHJ68&_nc_oc=Adp2uUTCe5OQ87u2TLQTZ9OWeeU9TOQEZe4lohnrP4mhpC_xFBaVqAdbP9ezQEOyHfs&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=RDEoo2XiKXYQMwRU-MiXfw&_nc_ss=7f289&oh=00_AQOahQuBGoV-WzcACyZCMz3KXLiuwM747Q9O10wU8Mkbtg&oe=6ADDE578",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid02Ay97rXTfMxro26Ly1E8wTifwP8Xy2bZRCyiSu8x981TegX3pGf58rryM6DziuifCl?__cft__[0]=AZgCnpnj9TN7Ttv6trKITWCo0zXXf-CUpxMunqTObyAHcvqEfFRWRqjFcL4QoxcJV1aqddsZmqHAzNYntq9e7oBKRGe3SVC11xsqU0NFzwPPTstbxVzJAmtTKU1wPDjK74Cggtcee6Dm9wQVVf61e3j00E_nD9sX6vQE0VHsqimOvCd8ywsighozDfk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐋𝐀 𝐏𝐀𝐙 𝐂𝐄𝐋𝐄𝐁𝐑𝐀 𝐒𝐔 𝐇𝐈𝐒𝐓𝐎𝐑𝐈𝐀 𝐂𝐎𝐍 𝐍𝐔𝐄𝐕𝐎𝐒 𝐂𝐎𝐌𝐏𝐑𝐎𝐌𝐈𝐒𝐎𝐒 𝐃𝐄 𝐃𝐄𝐒𝐀𝐑𝐑𝐎𝐋𝐋𝐎 En #Laja, cuna de la fundación de Nuestra Señora de La P… Ver más 𝐋𝐀 𝐏𝐀𝐙 𝐂𝐄𝐋𝐄𝐁𝐑𝐀 𝐒𝐔 𝐇𝐈𝐒𝐓𝐎𝐑𝐈𝐀 𝐂𝐎𝐍 𝐍𝐔𝐄𝐕𝐎𝐒 𝐂𝐎𝐌𝐏𝐑𝐎𝐌𝐈𝐒𝐎𝐒 𝐃𝐄 𝐃𝐄𝐒𝐀𝐑𝐑𝐎𝐋𝐋𝐎 En #Laja, cuna de la fundación de Nuestra Señora de La P… Ver más Step Abad"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -350,30 +359,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Y5oecP3KTksQ7kNvwGtAuF9&_nc_oc=AdopbOP1kR6xThzoIJHa_mkIMJHv0JV8Svx4OOKV2hc8Oxe845n5z7j_pCj5Z5Fdr14&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=jvgESOd3zvYeaHAlE0FhCQ&_nc_ss=7f289&oh=00_AQNzw8tFPusssCRRJJ36BZx4K_3HOTagLGDUiIxobuY2SQ&oe=6ADD91C1",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "concierto",
-          "url": "https://www.facebook.com/61567518883240/videos/en-vivo-bol%C3%ADvar-visita-a-real-potos%C3%AD-always-ready-recibe-a-the-strongest-en-vill/2343694063071474/",
-          "has_image": true,
-          "text_preview": "EN VIVO Bolívar Visita a Real Potosí … Ver más EN VIVO Bolívar Visita a Real Potosí … Ver más Hora y fecha Tenemos problemas para reproducir este video. Más información Ver más comentarios Ruben Patzi"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/ATBDigital/videos/1647987383674686/?comment_id=1659623805816215&__cft__[0]=AZg3XoGPilpFFEl0bMon607JKj99BBLxuBergFzTqRuCasMxscT13GLDCaRh0cwDIBj243u-vK0JBUerS3ytz--mY9eEYmmv3cYBGNczwP2tCHqcTcdAgSBdxUBmzcJUaYkBtHmBDp3OLEC3UTUMUT4L5fj2oboFPLOhmhOSbwpkarYt9pXcFSzkk-cpc4aMqUU&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Ruben Patzi Hora y fecha 5 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_bolivision",
@@ -877,13 +869,30 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/830236722_1578141747687371_3618972506924612207_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HnCWaiv27ckQ7kNvwFYCd5D&_nc_oc=AdpRxpeSlzyxnEb8VcQoEtvWDn4l9OcvaIo0U68JLYG_Mk7ViRwRiYsUd2qhoQqlZXQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=S38frVTQajmQEOHJI3K4bQ&_nc_ss=7f289&oh=00_AQN1ImjvVisraEpMRRFJDlJjlxMbc0HnTk1C-6_c0L9vog&oe=6ADDDE0F",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/feicobol/posts/pfbid024dKaZwWicRrqCJbbiEBiakULLMihjxiGTGAmUgaHGt6rJhbDvD2cwGdaznDTCZz9l?__cft__[0]=AZg01Hl3YsTypt2Y2Isj8uanDkIwsRGk58eJXIe8l_MOO4O4-k3-7yUmrOQcSNqYYG3lV-CrgzTBepdv1648RrfxZE4m2-QC-5iUl1Iz2-TgjgRmeb5PjBLMUOnWNU4dZnpcR1ysnRUD9Z1mH65OJYpA3T0CgCEyfWVsWI-O3P5BCowADb9gdqC70eM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡FALTAN SOLO 2 DÍAS PARA FEMIC 2026!… Ver más Que sea todo un éxito. Ver más comentarios Raquel Acha"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/feicobol/posts/pfbid024dKaZwWicRrqCJbbiEBiakULLMihjxiGTGAmUgaHGt6rJhbDvD2cwGdaznDTCZz9l?comment_id=1245504234457800&__cft__[0]=AZg01Hl3YsTypt2Y2Isj8uanDkIwsRGk58eJXIe8l_MOO4O4-k3-7yUmrOQcSNqYYG3lV-CrgzTBepdv1648RrfxZE4m2-QC-5iUl1Iz2-TgjgRmeb5PjBLMUOnWNU4dZnpcR1ysnRUD9Z1mH65OJYpA3T0CgCEyfWVsWI-O3P5BCowADb9gdqC70eM&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Raquel Acha Que sea todo un éxito. 6 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -911,22 +920,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZDqABJynlDYQ7kNvwHQS8eJ&_nc_oc=AdqUNcqKRJeUJc7jXKmfZwJ3nCwjZ55mhaZgZkW2KQvcaViU_IzMQTRW90Cslt5_WNo&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=ArweZLjn9JOR0i1coKrjpw&_nc_ss=7f289&oh=00_AQPb6mu53Ie88xLqLqDj2Yl9RHu00DOnRZnfX95lrW9W4Q&oe=6ADDA207",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid0zen7U7GUpfDawTgArfSoi9FaguqSWfaXnkXwC1TYyw82hZyEZKhKpEtchpdTdktul?__cft__[0]=AZhvZkgjrG0znUmknGDBwsxhbNvxBJKuNdToXYj_YRkjBVy01ggUn1JGB_vVMMPeE0qLQE9HLtJpdXVjSyteVy3YdHLkkfHv5fhwTjP4BdZn21CXti33hQU_WBmMYsnCC_bSq2FRn3BwioLD3Pu-0YpqNbIL2fm2ZHLuohinpO94KM_nyIKFWI_tXWY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Feliz aniversario, La Paz! D… Ver más ¡Feliz aniversario, La Paz! D… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -937,13 +937,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GJvFWJxTkngQ7kNvwGsI5_7&_nc_oc=AdrQbGL-eCBmnm-MaCq0OX_fXuKK_zh2vO0pP6j8hooqBrGvAihsaYVQN4VtjoXancM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=t55GdFd_V5TQ7-u9ArwfyQ&_nc_ss=7f289&oh=00_AQP1Y1ibVEJ7LNWC9RnkoQ3f9SQ4E4j30lpYuCLGTRiu1g&oe=6ADDE3B8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02p8qd2zB2SskirV94VEdHAkVVzD3GgCxyKGNSeKi4Ko6r7HHYYJX1wtRC8AhMQ3K5l?__cft__[0]=AZiPXbabj4AERYlf2Q6p8PDU5PgkTA6ldLDIj8vGWqc9PYTs4T0d99gjxfKvSuuCHfL9xNUKyCE7C1_U5N4oirqv93abwRilytG-pQS8TWyWp--YUVq-LOpYdzWxy81exElQbY3o7dpCeo21dpI0OFRDMUdHhgWTLWpoBLBBYao8kBKIrCNqakYllXo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡El arte y la cultura unen a nuestros pueblos! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1005,22 +1014,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sXJM7FpRC6oQ7kNvwF5ZgQ3&_nc_oc=Adq4-uAcujYWioztdTZwtkq4A-uwjHGH8-kRfVQg6iMPyMh3Sb1Ar806NenVIV3BNc0&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=iXiI_lXHjaMZFmkVHJ3Wmw&_nc_ss=7f289&oh=00_AQOYYMjAI_GQpRh0mrBELn5LfmmaXl9-p4NQqV9ivnOmrw&oe=6ADD832A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "turismo",
-          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid0sz4jXE7RdLDgj8FiM5j3x6pY4xKXtzAixk4GLf7RL1aBZvVENYn8pmTY9wgmnH5pl?__cft__[0]=AZhOeHSB9heLayDjzk6Lev73PXt_4M5peSaW1xcCykx-T0bxSFosCwCKfI41ncffX_VL5U1IbMrDL59NgMeS8Er7AwHjLB4jvnMuo175idxNjUxQGiPCE20ER5IhCNs2efS4_rq9TG900yRhIT1VHjW63c-8OPuatPUKIckLp8XmGllFYwFSThBo5YgOsSBID5gE7cSgyQrHHxPMi0U&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La Mirada de una experta española que vivió la Experiencia Tarija… su cultura y gente !! BOLIVIA, MUCHO MÁS DE LO QUE CUENTAN LAS GUÍAS. Hace unos días, leí un artículo sobre el creciente atractivo turístico de Bolivia que me llevó a reflexionar y despertó… Ver más BOLIVIA, MUCHO MÁS DE LO QUE CUENTAN LAS GUÍAS. Hace unos días, leí un artículo sobre el creciente atractivo turístico de Bolivia que "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1082,13 +1082,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0Yt5VKlbfpAQ7kNvwHQZSwa&_nc_oc=AdoBmKP_pK21W9z5T01mPtBeTCTTdwIPHz3md5pcWtTvLJlHFsELh6yRiSx-ahEE3vo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NQ8TBTPrFKo-62EdFRNEtQ&_nc_ss=7f289&oh=00_AQP_Yr46QArw3mN_iw4K7L_lk9UnSc27JqbmqX7xx3FJJg&oe=6ADDC1D2",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0FwnS5Q8AUPSeHW4yuVMu5EJtAuwkGJbrRVY3v31jeNwm52NEjjF8usSr4m3aByz7l?__cft__[0]=AZi4eUcN3XWDCklFdCcRC-UqCv8VBRfjiuBk37-1dVPaueQRJUs9bxtgS0hWrbrkaVh5GTRaJCZ2XC4a1QKh3rdAEnwyAqrf49qcah7QhMdcaMtj6halUZZAarkKSrAjonpIZYlikRljZ6T9YtWgBKIwN-32pJbNiRakmKilR1de5_-_RQdr-_b0XkY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Ellos ya están en Francia! ¿Y tú, qué esperas para dar el primer paso? … Ver más Ellos ya están en Francia! ¿Y tú, qué esperas para dar el primer paso? … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1167,30 +1176,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iaV4GAwTqH0Q7kNvwFf2Xdr&_nc_oc=AdrFOn69_s2yIJJ9W7BV2SoQcB10rbC_r7rZCzzvUlNaE206rA56je6ozKdEYSSxzjU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=p8mVaJoU4kBzsAktrrHrmQ&_nc_ss=7f289&oh=00_AQPjetg_ifdhqrT6mHB1TYgSy7TwQiWjk5H6pH5BeOHU4g&oe=6ADDAAA5",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/1545507394279359/",
-          "has_image": true,
-          "text_preview": "#Estudiantes | 🤝🏼🧑🏻‍🎓 El espacio Tawa K’iklluq Wasi de la Universidad Mayor de San Andrés (UMSA) cumplió 11 años de trabajo en favor de la inclusión de estudiantes con discapacidad, con el objetivo... #Estudiantes | El espacio Tawa K’iklluq Wasi de la Universidad Mayor de San Andrés (UMSA) cumplió 11 años de trabajo en favor de la inclusión de estudiantes con discapacidad, con el objetivo de contr"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/UMSAinformacion/posts/1545507394279359/",
-          "has_image": true,
-          "text_preview": "#Estudiantes | El espacio Tawa K’iklluq Wasi de la Universidad Mayor de San Andrés (UMSA) cumplió 11 años de trabajo en favor de la inclusión de estudiantes con discapacidad, con el objetivo de contribuir a una educación superior con mayores oportunidades para todos. Revisa más en https://estamosvivos.com.bo/tawa-cumple-11-anos.../ #UMSA #LaPaz #Estudiantes #Tawa #Octubre #RevistaEstamosVivos #Est"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1448,7 +1440,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 36,
+          "score": 18,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1456,7 +1448,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 42,
+          "score": 24,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1464,7 +1456,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 32,
+          "score": 28,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
@@ -1568,8 +1560,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
-      "events": 38,
+      "raw_items": 52,
+      "events": 52,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1602,8 +1594,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1619,8 +1611,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 7,
+      "events": 7,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1636,8 +1628,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 49,
-      "events": 49,
+      "raw_items": 55,
+      "events": 55,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1670,8 +1662,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
