@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:14:30-04:00",
+  "generated_at": "2026-10-21T17:45:00-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,8 +14,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 97.0,
-    "horas_maximo_sin_datos": 1498.1
+    "horas_promedio_sin_datos": 94.7,
+    "horas_maximo_sin_datos": 1502.6
   },
   "sources": [
     {
@@ -95,22 +95,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ywj3DZlK_mUQ7kNvwEzVhNN&_nc_oc=AdrkuByWAc7dKPVBUB6t9conYxoRIzUZgvjWRP8Yjpl1sCloZfPEWhhtv-fTQKf__1s&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=L5sCQ2Z1LRCL6rgVzjP9dA&_nc_ss=7f289&oh=00_AQNbj_LZJ-yD2xUEuCB1qB3alhk236HLNsMVCxCjmY__aQ&oe=6ADEBD50",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "feria",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": false,
-          "text_preview": "Esta vez, el reconocimiento se lo lleva el equipo que hace posible la feria. AGUA BAMBU"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -580,22 +571,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Gvv0eGjPlYwQ7kNvwEd4kmz&_nc_oc=Adpxszhg3A0XSimZvqYbei9VIh3bZ2XSlv72aY3p55Da7xWZr9pFBbq3yg1ZC4dkqX8&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=LM4EAyyyz7msXdXOeP6Kag&_nc_ss=7f289&oh=00_AQPHdJ5NxzdjkPMmIAFueLlzGKxRtZ8zlPLBqs7vRgu9qQ&oe=6ADEDBD6",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02EqEtodpJDMmNgpna7uirgsNDdHchvFjuC6JafhBzah6HHC2dXQaEdbpMWmLCsAuZl?__cft__[0]=AZiGg5DJI8p7XbBty5bo1YB1fB_zZV_l1WF3PIVDiCBpFnMDGu8d4Gu6P98XBQ1HMeXiDxnMyoOJ1kh6fdhz8uOimMjizMxMQKmgnFx3ICuWXULXuas-6y63RcLmFVH7P935-OSKo58psT7n8jYl4K2H0LJVSPH1Al1GilclXrPKL_oUgIYg3G57NSY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Inauguramos el Ciclo Internacional de Proyecciones Premios Goya en la Cinemateca Ano… Ver más Inauguramos el Ciclo Internacional de Proyecciones Premios Goya en la Cinemateca Ano… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -606,22 +588,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=x_JwQ2na0yoQ7kNvwFgeuCR&_nc_oc=AdoHUSB1ul9o-gmeLW7-4jFepUyEiaOBFvdbzouMUWYp9vOnzSPNbZ_2PZYbDYrOE_E&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=x3xt5Z8j8wmlreg1xN5JdQ&_nc_ss=7f289&oh=00_AQNAVOngJnCbA-avqOYwzUAm40GJmYu6mavszigIHRwePg&oe=6ADEA947",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid02rsdXdfZLJAur9rhr6UqhNwXzGiM7oYXX7D341D4iciXtPDHyMEgtjrA8JLeabYNpl?__cft__[0]=AZgjp7rKQbrt9Kdn3CdNTe9ncPIjVLLv8UTdAX8VQF8Lhk5Ks71ihno0f_US0QNl9SUq2M9zueRSw171-aPAgLs_-JIyoLYaAorXtjVmGz2mQ6RaZbyfMFUzGMDgPhGC4HH8k9aaTKeGYSfeXLyON0lbSlQys--OkaFujMyR9f5ycVD__Ebl4VNooNE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "hace 3 horas 3 h #MNA | Encuentros ParlArte… Ver más Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -649,13 +622,30 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lKxjXt0uCVIQ7kNvwHUj25C&_nc_oc=AdrqXoBwy7qMwV5AleJ_UZmFb-IF6xmqT9ucyLhQRyc7KXmgIWYFmba-eZM39sRsPIw&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=hdWEfelHo083tym6g2Aovw&_nc_ss=7f289&oh=00_AQNUv_iwvNyf2GD6AS5MfWS5QQfH9ebBNiL0C_F-vPbM5Q&oe=6ADEFD0F",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid02QmKj6i3TN9Yjw5Gc3MML6SWHKftkBzUmVWjC91uWrz7r7571Q3px4nacTb9aGQ5pl?__cft__[0]=AZhB4nuxx1Z0NeSdvcXj-__Oaw8_wRwjgB3DjGlN9krc0eIjgygOfTu2WteXYt7tqOOUKDDw36eiOmiDEa6Q04SeFOWp2s5Ym19bUlILj91feea-fBPhkd_aoHfbIq_eOOhHBYosT4CjYsDZ-xQ_4eNz980MnGVCpqn4t1PSyy9PVIGyNZ-RhbGc1sE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CNM | AVISO INSTITUCIONAL… Ver más Para un investigador tiempo cortado tiempo perdido … requiere continuidad para el manejo de documentos históricos … gracias Tenemos problemas para reproducir este video. Más información Ver más comentarios Guillermo Enrique Torres"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid02QmKj6i3TN9Yjw5Gc3MML6SWHKftkBzUmVWjC91uWrz7r7571Q3px4nacTb9aGQ5pl?comment_id=1154286830872130&__cft__[0]=AZhB4nuxx1Z0NeSdvcXj-__Oaw8_wRwjgB3DjGlN9krc0eIjgygOfTu2WteXYt7tqOOUKDDw36eiOmiDEa6Q04SeFOWp2s5Ym19bUlILj91feea-fBPhkd_aoHfbIq_eOOhHBYosT4CjYsDZ-xQ_4eNz980MnGVCpqn4t1PSyy9PVIGyNZ-RhbGc1sE&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Para un investigador tiempo cortado tiempo perdido … requiere continuidad para el manejo de documentos históricos … gracias Guillermo Enrique Torres"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -785,13 +775,30 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6NjQ2ISmAQgQ7kNvwFuI2ma&_nc_oc=Adq11fvTbzZAMC3LHxyBr5Akqcy7gb2gKGkHhhD6TKIq_ZVQ_XxkTIwo86XzeWKsTo0&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=Rnnk7NUZcmH5mQ8Pr-z1hw&_nc_ss=7f289&oh=00_AQMn9Qf9aaLThNF3SwMpJMy9iyuFiEK_q0i-QqzLwd4loQ&oe=6ADEFDEA",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid0TZwQzwP8yfETayARMbRPZv546QsoBnVSNgeod7bnvGsp8y6dpTCCAo1TKAf3UyG7l?__cft__[0]=AZjJ1jPGagwIEMJspCppcpdPly479WAI0M-HpfddSPFUR4VsH7LpEWcUUoYPStIPUXZBDu2nbq08dZTp9CO2wEokKQNCaUdvZs9ed0YlcmDjqYSktHYL-V5bDOha78k-F5eKHl0Bowkpz6Ayd4F3qZJUHKqhNMSowUgvlLqgQZ7ZqdZdP6crmLCEDNc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "UNA JORNADA DE ALEGRÍA Y CONFRATERNIZACIÓN PARA NUESTROS ADULTOS MAYORES… Ver más Excelente actividad SEDEGES Ver más comentarios Guillermo Hurtado Flores"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobChuquisaca/posts/pfbid0TZwQzwP8yfETayARMbRPZv546QsoBnVSNgeod7bnvGsp8y6dpTCCAo1TKAf3UyG7l?comment_id=1684981866528469&__cft__[0]=AZjJ1jPGagwIEMJspCppcpdPly479WAI0M-HpfddSPFUR4VsH7LpEWcUUoYPStIPUXZBDu2nbq08dZTp9CO2wEokKQNCaUdvZs9ed0YlcmDjqYSktHYL-V5bDOha78k-F5eKHl0Bowkpz6Ayd4F3qZJUHKqhNMSowUgvlLqgQZ7ZqdZdP6crmLCEDNc&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Excelente actividad SEDEGES Guillermo Hurtado Flores"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_oruro",
@@ -836,13 +843,30 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=fb7JU2OefbkQ7kNvwG01K0f&_nc_oc=AdoCxBNhwPCjDqj8t9cZfZKmr6Trudbn23_LsnqACSG_A-RdFNGUZx3N8M7x0UFtnIU&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=lHSVdZH4nli7AuRsqY0IDA&_nc_ss=7f289&oh=00_AQNQD3LEZLo2rWizRc9WXtOEMs5-RhVjLOPwV7JkFt80nA&oe=6ADEEF90",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02MZfcLAzb8u56xrB2hvWhCnMoTwnWrtn2K2aqsVHJCMoD3VmwnJxg1ykA5GQ7osegl?__cft__[0]=AZim4gjfkipZwymNJOK--44j-pP3D4nLwVQfHRR6lKZ8orkmCW6qSS-0k978uIk1LzSiAIcSDWzEH2VlHzIVj4SBi8CxTSzlh0gwL7hjy_EW4XfDTe6of4w41gEcgDTZKqrQBj1VFDHnHIt7oOZ5K1q_o5btPaKBbi1ixOV05BjkBckKfShFEvpAoTNOUEUDIlL1cCatXQ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02MZfcLAzb8u56xrB2hvWhCnMoTwnWrtn2K2aqsVHJCMoD3VmwnJxg1ykA5GQ7osegl?comment_id=584098196711804&__cft__[0]=AZim4gjfkipZwymNJOK--44j-pP3D4nLwVQfHRR6lKZ8orkmCW6qSS-0k978uIk1LzSiAIcSDWzEH2VlHzIVj4SBi8CxTSzlh0gwL7hjy_EW4XfDTe6of4w41gEcgDTZKqrQBj1VFDHnHIt7oOZ5K1q_o5btPaKBbi1ixOV05BjkBckKfShFEvpAoTNOUEUDIlL1cCatXQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_beni",
@@ -870,13 +894,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FPR0Lfav42EQ7kNvwGs_K2m&_nc_oc=AdptL3YFWBTk4acTo8710i5PY3CuF8BUzteo-iUDrs4gE9tSK8SrSB4ZGUiN2FzfZTw&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=E02Mqh3i1dHhAZ47vJ8bWw&_nc_ss=7f289&oh=00_AQMlgeAOFnQEZM13Taa4MRGDjjR6ug8xX2aKsbJmUE62sw&oe=6ADEF4E1",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2049005275803965/?__cft__[0]=AZjZ7Utp8CGXuCno6qHoGV4P5sIqQr0mypYBRohmJGEmETbxN9p13fhZJ0lHll7oFRJTDNqLjX9I2eieOXxOtV7QXPel2oPysKN1xRMO7vEIz6tmgcwR--W2jBMFHTkkk-wXn0NCA44262FLkcxh8-S4Xunu9jTk0JKeBuAuk2NVxf3ZYYNFCsK5dYc-nxi8VgKg&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Saludamos a El Alto TV, gracias por ser parte de esta edición épica y lengendaria de FIPAZ, el fuego que nunca se apaga B… Ver más Saludamos a El Alto TV, gracias por ser parte de esta edición épica y lengendaria de FIPAZ, el fuego que nunca se apaga B… Ver más @seguidores Tenemos problemas para reproducir este video. Más información Ver más comentarios El Alto TV"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2049005275803965/?comment_id=3033043443710066&__cft__[0]=AZjZ7Utp8CGXuCno6qHoGV4P5sIqQr0mypYBRohmJGEmETbxN9p13fhZJ0lHll7oFRJTDNqLjX9I2eieOXxOtV7QXPel2oPysKN1xRMO7vEIz6tmgcwR--W2jBMFHTkkk-wXn0NCA44262FLkcxh8-S4Xunu9jTk0JKeBuAuk2NVxf3ZYYNFCsK5dYc-nxi8VgKg&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "El Alto TV @seguidores 2 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -1108,13 +1149,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SCBT8exBs5kQ7kNvwEQgOMl&_nc_oc=Adq8Es2luHmm7UFc6U3b9051utXV84itcFdaZ3HEne3zpKCWFYserWMe8kf9oVFgUwQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=XJWCCFYf2lYmaEDKBoJNMw&_nc_ss=7f289&oh=00_AQMRPVbGr7fjTFsIBZC4mcQViZw1Vr1hqMuLaioHkm3XhQ&oe=6ADEE0B7",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
@@ -1418,32 +1459,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 6,
-      "rejected": 7,
+      "events": 10,
+      "rejected": 3,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 28,
+          "score": 38,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/tendencias",
+          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Gerente de BoA plantea convertir a la aerolínea en una empresa mixta 2 Gobierno denuncia desvío de garrafas de GLP en complicidad con YPFB, ANH y r"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 28,
+          "score": 52,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "url": "https://www.lostiempos.com/agenda-cultural/taller-teatro_639241",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "Agenda Cultural Las inscripciones para \"Taller de Teatro - Espacio de Formación Artística para Personas Adultas 50+\" Empezamos el miércoles 28 de agosto! *Duración: Agosto a Noviembre *Días y horarios: -Miércoles - 19:00 a 21:30 -Sábados - 14:00 a 17:00 (A partir del mes de octubre incrementaremos nuestras sesiones de ensayo). Tipo de Evento: Cultural Fecha del Evento: Miércoles, 28 Agosto, 2024 -"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 41,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/almas-heridas-obra-teatro-infancias_641678",
+          "score": 38,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/agenda-cultural/ciclo-cine-troje_638605",
           "has_image": true,
-          "text_preview": "Agenda Cultural Escena ViScERal presenta: \"Almas Heridas - Obra de Teatro para Infancias\" Sinopsis: “Angustias y profundos pesares nos hacen mirar para adentro, los niños generalmente miran para afuera, son muy valientes. Solo los niños que sufren miran para adentro” “Almas Heridas” propone una aproximación empática a las vivencias de 3 pequeños y valientes protagonistas que nos invitan a acompaña"
+          "text_preview": "Agenda Cultural Dentro del ciclo de cine dedicado a Álex de la Iglesia, se proyectará La Comunidad (2000). Esta película mezcla comedia negra y terror, revelando los oscuros secretos de una comunidad vecinal, en una trama tan intrigante como provocadora. Tipo de Evento: Cultural Fecha del Evento: Martes, 20 Agosto, 2024 (Todo el día) Dirección: La Troje (av. Capitán Victor Ustáriz km 3,5) Lo más l"
         }
       ],
       "error": null
@@ -1543,8 +1584,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 56,
-      "events": 56,
+      "raw_items": 52,
+      "events": 52,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1577,8 +1618,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1594,8 +1635,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 7,
+      "events": 7,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1611,8 +1652,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 61,
-      "events": 61,
+      "raw_items": 55,
+      "events": 55,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1645,8 +1686,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1795,38 +1836,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://sucre.bo/wp-content/uploads/2026/05/header_web_2026.png",
-      "status": "ok",
-      "raw_items": 4,
-      "events": 1,
-      "rejected": 3,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "deporte",
-          "url": "https://sucre.bo/espectaculos-publicos/",
-          "has_image": true,
-          "text_preview": "Inicio / ESPECTÁCULOS PÚBLICOS ESPECTÁCULOS PÚBLICOS La Unidad de Espectáculos Públicos del municipio de Sucre procedió a intervenir la fiesta de un matrimonio por exceder el número de invitados, no cumplir normas de biosefuridad y la presencia de niños en esta actividad social, habiendo incumplido las ultimas disposiciones del COEM asi lo afirmo Wilma Bejarano responsable de la unidad de Espectác"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "deporte",
-          "url": "https://sucre.bo/direccion-de-gestion-de-recursos-humanos/",
-          "has_image": false,
-          "text_preview": "Inicio / DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS xoso tin chelsea thông tin chuyển nhượng câu lạc bộ bóng đá arsenal bóng đá atalanta bundesliga cầu thủ haaland UEFA everton xoso futebol ao vivo futemax multicanais onbet https://bsport.fit https://onbet88.ooo https://i9bet.biz https://hi88.ooo https://okvip.at https://f8bet.at https://fb88.cash https://vn8"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "turismo",
-          "url": "https://sucre.bo/secretaria-municipal-turismo-cultura/",
-          "has_image": false,
-          "text_preview": "Inicio / SECRETARÍA MUNICIPAL DE TURISMO Y CULTURA SECRETARÍA MUNICIPAL DE TURISMO Y CULTURA DIRECCIÓN: Calle Argentina Nº 65 TELÉFONO: 64-69160 SECRETARIO : Lic. Oscar Alfaro Vega ￼ OBJETIVO GENERAL: Posicionar al Municipio de Sucre como el principal referente turístico y cultural del país en el marco de su riqueza patrimonial, histórica, arquitectónica, cultural, paleontológica, gastronómi"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "The read operation timed out"
     },
     {
       "id": "web_pando_oficial",
