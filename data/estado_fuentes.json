@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:50:33-04:00",
+  "generated_at": "2026-10-21T13:14:30-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,12 +11,11 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_museo_nacional_arte",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 97.2,
-    "horas_maximo_sin_datos": 1492.7
+    "horas_promedio_sin_datos": 97.0,
+    "horas_maximo_sin_datos": 1498.1
   },
   "sources": [
     {
@@ -96,13 +95,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ywj3DZlK_mUQ7kNvwEzVhNN&_nc_oc=AdrkuByWAc7dKPVBUB6t9conYxoRIzUZgvjWRP8Yjpl1sCloZfPEWhhtv-fTQKf__1s&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=L5sCQ2Z1LRCL6rgVzjP9dA&_nc_ss=7f289&oh=00_AQNbj_LZJ-yD2xUEuCB1qB3alhk236HLNsMVCxCjmY__aQ&oe=6ADEBD50",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "feria",
+          "url": "https://es-la.facebook.com/login",
+          "has_image": false,
+          "text_preview": "Esta vez, el reconocimiento se lo lleva el equipo que hace posible la feria. AGUA BAMBU"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -572,13 +580,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Gvv0eGjPlYwQ7kNvwEd4kmz&_nc_oc=Adpxszhg3A0XSimZvqYbei9VIh3bZ2XSlv72aY3p55Da7xWZr9pFBbq3yg1ZC4dkqX8&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=LM4EAyyyz7msXdXOeP6Kag&_nc_ss=7f289&oh=00_AQPHdJ5NxzdjkPMmIAFueLlzGKxRtZ8zlPLBqs7vRgu9qQ&oe=6ADEDBD6",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02EqEtodpJDMmNgpna7uirgsNDdHchvFjuC6JafhBzah6HHC2dXQaEdbpMWmLCsAuZl?__cft__[0]=AZiGg5DJI8p7XbBty5bo1YB1fB_zZV_l1WF3PIVDiCBpFnMDGu8d4Gu6P98XBQ1HMeXiDxnMyoOJ1kh6fdhz8uOimMjizMxMQKmgnFx3ICuWXULXuas-6y63RcLmFVH7P935-OSKo58psT7n8jYl4K2H0LJVSPH1Al1GilclXrPKL_oUgIYg3G57NSY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Inauguramos el Ciclo Internacional de Proyecciones Premios Goya en la Cinemateca Ano… Ver más Inauguramos el Ciclo Internacional de Proyecciones Premios Goya en la Cinemateca Ano… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -589,13 +606,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=x_JwQ2na0yoQ7kNvwFgeuCR&_nc_oc=AdoHUSB1ul9o-gmeLW7-4jFepUyEiaOBFvdbzouMUWYp9vOnzSPNbZ_2PZYbDYrOE_E&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=x3xt5Z8j8wmlreg1xN5JdQ&_nc_ss=7f289&oh=00_AQNAVOngJnCbA-avqOYwzUAm40GJmYu6mavszigIHRwePg&oe=6ADEA947",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Arte - MNA 38 mil seguidores • 137 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede debers'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/pfbid02rsdXdfZLJAur9rhr6UqhNwXzGiM7oYXX7D341D4iciXtPDHyMEgtjrA8JLeabYNpl?__cft__[0]=AZgjp7rKQbrt9Kdn3CdNTe9ncPIjVLLv8UTdAX8VQF8Lhk5Ks71ihno0f_US0QNl9SUq2M9zueRSw171-aPAgLs_-JIyoLYaAorXtjVmGz2mQ6RaZbyfMFUzGMDgPhGC4HH8k9aaTKeGYSfeXLyON0lbSlQys--OkaFujMyR9f5ycVD__Ebl4VNooNE&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "hace 3 horas 3 h #MNA | Encuentros ParlArte… Ver más Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -776,13 +802,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=f1PwYBGWIrYQ7kNvwHywqkf&_nc_oc=AdpBPNCHfs-GU4QTGCBcwkQUzgv96Hpaw_XfViloIlDblpRsokiOSXOtd98w-YgyhMc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=uPRScRq3KKTFtgrdILXWLg&_nc_ss=7f289&oh=00_AQPYHjU983iLZ18lMs1GC-FLgdWi_mI2p0IDf3XqM5WXag&oe=6ADE683A",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_tarija",
@@ -929,22 +955,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Hv4NeN7w2XEQ7kNvwHeADqm&_nc_oc=AdqVTbmzXU8-OD0bnasJwz9T0VICuo3rD18hZiBdh51LZHBR-mNPhi8ntRXcZuLu8Z4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=htAvQziR12hKFmqLyNEHCA&_nc_ss=7f289&oh=00_AQPSeF280saZEI7R5v5o7P0wQ3ImvHQ4h24-uchFzz0iRg&oe=6ADE7587",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid0vF7oku5BMNM4WCLFAYKzMkBb8LbFf95MvwX9G8x6C9yzAzff7UhAw7hB188PpWzXl?__cft__[0]=AZgm2lCnLGBElguiQbIQcMDlfhiGUNQ6A9uF8eK-3sYsm9qN_CbaXZtEsx-k2qzZ7mTTxqqnSq4psFG9Z7Jdt0OiBNxmyrVMcravsIxM6mtZVRLdxWTpqnPKNM4o0SWEA8XdkPBRPmKlNps6fry_-nXGD3c8MdAYbcliwIDMyYatSNa7h9YK3Ws84iY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Nuestro sentido pésame a la familia Mercado."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -972,30 +989,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Vn0fqmC9A7kQ7kNvwFZSAn_&_nc_oc=AdrWotkA3RAyR-X4dxWKXGcE7do99KK_FtwyHJ_Lbf0FM0iOrLTUXv012WCWpb7kQ1k&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Qxu7PKLYLsi8loeUKWOe0g&_nc_ss=7f289&oh=00_AQMjf2QDY0JTZPZC0Cqi_gU7j73Lcp2sVXIo1vWAdIig9w&oe=6ADE66FD",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid02qLxAo6iLTp4bRWWa5pxoX8et6qieqVSXtz7iWKTPD9jVqBGQFQi61MQA23dY8pW7l?__cft__[0]=AZi9XQi3w42eHmsI1Gn81Vn3DUtfnfpojJxms2F2_MFHnqM8XkUgtAyrRwSS0rQRh34MnpbxD8TaCDKd41T0O2DXgxjSmCRAknl3RLbAGr9PE4Vqg6bZXBfWdzyPLPhf8VmcNu6r9t7hpk0Z4P7i2RlqD0JHHzdDq8DJgLUKNS7FswRmuWyFTWV-Y2I&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "\"Trilogía del libre Albedrío\" Acrílico sobre lienzo… Ver más \"Trilogía del libre Albedrío\" Acrílico sobre lienzo… Ver más Tres miradas en un mismo rostro: de esas obras que invitan a detenerse un ratito y mirar de nuevo Tenemos problemas para reproducir este video. Más información AGUA BAMBU"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid02qLxAo6iLTp4bRWWa5pxoX8et6qieqVSXtz7iWKTPD9jVqBGQFQi61MQA23dY8pW7l?comment_id=967184952604215&__cft__[0]=AZi9XQi3w42eHmsI1Gn81Vn3DUtfnfpojJxms2F2_MFHnqM8XkUgtAyrRwSS0rQRh34MnpbxD8TaCDKd41T0O2DXgxjSmCRAknl3RLbAGr9PE4Vqg6bZXBfWdzyPLPhf8VmcNu6r9t7hpk0Z4P7i2RlqD0JHHzdDq8DJgLUKNS7FswRmuWyFTWV-Y2I&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Tres miradas en un mismo rostro: de esas obras que invitan a detenerse un ratito y mirar de nuevo AGUA BAMBU"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1108,13 +1108,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SCBT8exBs5kQ7kNvwEQgOMl&_nc_oc=Adq8Es2luHmm7UFc6U3b9051utXV84itcFdaZ3HEne3zpKCWFYserWMe8kf9oVFgUwQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=XJWCCFYf2lYmaEDKBoJNMw&_nc_ss=7f289&oh=00_AQMRPVbGr7fjTFsIBZC4mcQViZw1Vr1hqMuLaioHkm3XhQ&oe=6ADEE0B7",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1418,8 +1418,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 6,
+      "rejected": 7,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1432,18 +1432,18 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 28,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 28,
           "category": "deporte",
           "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
           "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 41,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/almas-heridas-obra-teatro-infancias_641678",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Escena ViScERal presenta: \"Almas Heridas - Obra de Teatro para Infancias\" Sinopsis: “Angustias y profundos pesares nos hacen mirar para adentro, los niños generalmente miran para afuera, son muy valientes. Solo los niños que sufren miran para adentro” “Almas Heridas” propone una aproximación empática a las vivencias de 3 pequeños y valientes protagonistas que nos invitan a acompaña"
         }
       ],
       "error": null
@@ -1501,9 +1501,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 34,
+      "raw_items": 40,
       "events": 0,
-      "rejected": 34,
+      "rejected": 40,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",

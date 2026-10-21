@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-21T07:50:33-04:00",
+  "generated_at": "2026-10-21T13:14:30-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 93,
-    "events_today": 15
+    "events_total": 95,
+    "events_today": 16
   },
   "filters": {
     "ui_groups": [
@@ -70,7 +70,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 9
+        "count": 10
       },
       {
         "key": "festival",
@@ -78,14 +78,14 @@
         "count": 6
       },
       {
-        "key": "teatro",
-        "label": "Teatro",
+        "key": "exposicion",
+        "label": "Exposiciones",
         "count": 5
       },
       {
-        "key": "exposicion",
-        "label": "Exposiciones",
-        "count": 4
+        "key": "teatro",
+        "label": "Teatro",
+        "count": 5
       },
       {
         "key": "taller",
@@ -125,19 +125,19 @@
         "count": 22
       },
       {
+        "key": "Santa Cruz de la Sierra",
+        "label": "Santa Cruz de la Sierra",
+        "count": 19
+      },
+      {
         "key": "Cochabamba",
         "label": "Cochabamba",
         "count": 19
       },
       {
-        "key": "Santa Cruz de la Sierra",
-        "label": "Santa Cruz de la Sierra",
-        "count": 18
-      },
-      {
         "key": "Sucre",
         "label": "Sucre",
-        "count": 9
+        "count": 10
       },
       {
         "key": "Quillacollo",
@@ -152,7 +152,7 @@
       {
         "key": "Oruro",
         "label": "Oruro",
-        "count": 4
+        "count": 5
       },
       {
         "key": "Potosí",
@@ -179,7 +179,7 @@
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 17
+        "count": 18
       },
       {
         "key": "Bolivia",
@@ -189,7 +189,7 @@
       {
         "key": "Chuquisaca",
         "label": "Chuquisaca",
-        "count": 9
+        "count": 10
       },
       {
         "key": "Tarija",
@@ -211,29 +211,29 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 18
+        "count": 19
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 28
+        "count": 29
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 54
+        "count": 55
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 93
+        "count": 95
       }
     ],
     "price": [
       {
         "key": "gratis",
         "label": "Gratis",
-        "count": 5
+        "count": 6
       },
       {
         "key": "pagado",
@@ -243,14 +243,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 64
+        "count": 65
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 83
+        "count": 85
       },
       {
         "key": "con_video",
@@ -259,6 +259,11 @@
       }
     ],
     "tags": [
+      {
+        "key": "CDL",
+        "label": "CDL",
+        "count": 2
+      },
       {
         "key": "UTO",
         "label": "UTO",
@@ -278,11 +283,6 @@
         "key": "FundaciónPatiño",
         "label": "FundaciónPatiño",
         "count": 2
-      },
-      {
-        "key": "CDL",
-        "label": "CDL",
-        "count": 1
       },
       {
         "key": "CCP",
@@ -389,7 +389,7 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 14
+        "count": 16
       },
       {
         "key": "cultura_oficial",
@@ -423,6 +423,7 @@
       "evt_3ee8f53e0179b4",
       "evt_d14c143d14c8aa",
       "evt_5bd3b8366630f2",
+      "evt_c856c5b6ecb858",
       "evt_e2751f6a232a4f",
       "evt_d1d3220e58b171",
       "evt_c54fe58abff9a2",
@@ -459,7 +460,8 @@
       "evt_5bd3b8366630f2",
       "evt_dea592c7788fb3",
       "evt_f00b6b3b9d40e1",
-      "evt_ba15d62df4cd50"
+      "evt_ba15d62df4cd50",
+      "evt_b97f0ee05c975b"
     ],
     "featured": [
       "evt_3ee8f53e0179b4",
@@ -498,41 +500,42 @@
       "evt_2821894c1d5322",
       "evt_ab2d744f1fbd8e",
       "evt_48c45c2c902fde",
-      "evt_9ea8741680468c"
+      "evt_9ea8741680468c",
+      "evt_b97f0ee05c975b"
     ]
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 43,
+      "events_total": 39,
       "events_upcoming": 21,
       "events_with_image": 20,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 3
+      "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 36,
+      "events_total": 39,
       "events_upcoming": 25,
       "events_with_image": 25,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
       "events_total": 37,
-      "events_upcoming": 17,
-      "events_with_image": 13,
+      "events_upcoming": 18,
+      "events_with_image": 14,
       "events_with_video": 1,
       "sources_total": 13,
       "sources_ok": 4
     },
     "Chuquisaca": {
       "events_total": 13,
-      "events_upcoming": 9,
-      "events_with_image": 9,
+      "events_upcoming": 10,
+      "events_with_image": 10,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Oruro": {
       "events_total": 4,
@@ -540,7 +543,7 @@
       "events_with_image": 3,
       "events_with_video": 1,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 1
     },
     "Potosí": {
       "events_total": 1,
@@ -578,7 +581,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 70,
+      "events_total": 64,
       "events_upcoming": 16,
       "events_with_image": 16,
       "events_with_video": 0
@@ -606,23 +609,23 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 26,
+      "events_total": 28,
       "events_upcoming": 22,
       "events_with_image": 19,
       "events_with_video": 1
     },
     "exposicion": {
       "label": "Exposiciones",
-      "events_total": 4,
-      "events_upcoming": 4,
-      "events_with_image": 4,
+      "events_total": 5,
+      "events_upcoming": 5,
+      "events_with_image": 5,
       "events_with_video": 0
     },
     "feria": {
       "label": "Ferias y expos",
-      "events_total": 10,
-      "events_upcoming": 9,
-      "events_with_image": 5,
+      "events_total": 11,
+      "events_upcoming": 10,
+      "events_with_image": 6,
       "events_with_video": 1
     },
     "festival": {
@@ -655,7 +658,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 5,
+      "events_total": 6,
       "events_upcoming": 5,
       "events_with_image": 4,
       "events_with_video": 0
@@ -779,6 +782,44 @@
       "director": null,
       "cast": [],
       "quality_score": 63,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_c856c5b6ecb858",
+      "title": "Hoy celebramos el Certification Nation Day! ... Ver más",
+      "category": "feria",
+      "category_label": "Ferias y expos",
+      "starts_at": "2026-10-21T00:00:00-04:00",
+      "starts_at_ms": 1792555200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 21 de octubre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": null,
+      "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/851548754_1555368029596414_1912868843251070077_n.png?stp=dst-jpg_tt6&cstp=mx1350x1350&ctp=p526x296&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kan3cUXo-9oQ7kNvwGd1Tzg&_nc_oc=AdpFxZMPzU3Us5mjFhLD5SJMCUlwKnbhxrwsbqIEgUaudu48pTPcWNfc70NmXocJaYI&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=NludWQZIha4dGuUqY3Vnqw&_nc_ss=7f289&oh=00_AQN_IyOPQvpLJX3A1xRHOd--8l8yaZY6CU7z_P4u0pjKag&oe=6ADED10F",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 55,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
@@ -2051,11 +2092,11 @@
       "title": "Película en cartelera de cine",
       "category": "cine",
       "category_label": "Cine",
-      "starts_at": "2026-10-21T19:20:00-04:00",
-      "starts_at_ms": 1792624800000,
+      "starts_at": "2026-10-21T14:00:00-04:00",
+      "starts_at_ms": 1792605600000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Miércoles 21 de octubre · 19:20",
+      "display_date": "Miércoles 21 de octubre · 14:00",
       "lifecycle": "hoy",
       "lifecycle_label": "Hoy",
       "days_until": 0,
@@ -2072,89 +2113,83 @@
       "price_label": null,
       "organizer": null,
       "showtimes": [
-        "19:20",
+        "14:00",
+        "22:00",
         "13:10",
         "15:30",
         "18:20",
         "21:00",
-        "12:00",
-        "17:00",
-        "14:00",
         "16:40",
-        "22:00",
+        "19:20",
         "14:30",
+        "17:00",
         "19:30",
         "17:40",
         "19:50",
-        "11:30",
         "13:50",
-        "18:10",
-        "16:00",
         "20:20",
         "22:30",
-        "15:50",
-        "18:00",
+        "16:00",
+        "18:10",
         "13:00",
-        "10:30",
         "15:20",
         "20:00",
         "22:20",
-        "11:40",
-        "16:20",
         "18:40",
+        "16:20",
+        "15:50",
+        "18:00",
+        "16:30",
         "19:00",
-        "21:30"
+        "14:10",
+        "21:30",
+        "20:30",
+        "16:10"
       ],
       "formats": [
         "2D - DBOX - Doblada",
         "2D - Doblada",
-        "2D - PRE - Doblada",
+        "2D - PRE - Subtitulada",
         "DBOX - 2D - Doblada",
         "PRE - 2D - Doblada",
         "PRE - 2D - Subtitulada",
-        "2D - PRE - Subtitulada",
+        "2D - PRE - Doblada",
         "2D - DBOX - XD - Doblada",
-        "DBOX - 2D - XD - Doblada",
         "DBOX - XD - 2D - Doblada",
-        "XD - DBOX - 2D - Doblada",
+        "XD - 2D - DBOX - Doblada",
         "2D - Subtitulada"
       ],
       "occurrences": [
-        "2026-10-21T19:20:00-04:00",
+        "2026-10-21T14:00:00-04:00",
+        "2026-10-21T22:00:00-04:00",
         "2026-10-21T13:10:00-04:00",
         "2026-10-21T15:30:00-04:00",
         "2026-10-21T18:20:00-04:00",
         "2026-10-21T21:00:00-04:00",
-        "2026-10-21T12:00:00-04:00",
-        "2026-10-21T17:00:00-04:00",
-        "2026-10-21T14:00:00-04:00",
         "2026-10-21T16:40:00-04:00",
-        "2026-10-21T22:00:00-04:00",
+        "2026-10-21T19:20:00-04:00",
         "2026-10-21T14:30:00-04:00",
+        "2026-10-21T17:00:00-04:00",
         "2026-10-21T19:30:00-04:00",
         "2026-10-21T17:40:00-04:00",
         "2026-10-21T19:50:00-04:00",
-        "2026-10-21T11:30:00-04:00",
         "2026-10-21T13:50:00-04:00",
-        "2026-10-21T18:10:00-04:00",
-        "2026-10-21T16:00:00-04:00",
         "2026-10-21T20:20:00-04:00",
         "2026-10-21T22:30:00-04:00",
-        "2026-10-21T15:50:00-04:00",
-        "2026-10-21T18:00:00-04:00",
+        "2026-10-21T16:00:00-04:00",
+        "2026-10-21T18:10:00-04:00",
         "2026-10-21T13:00:00-04:00",
-        "2026-10-21T10:30:00-04:00",
         "2026-10-21T15:20:00-04:00",
         "2026-10-21T20:00:00-04:00",
         "2026-10-21T22:20:00-04:00",
-        "2026-10-21T11:40:00-04:00",
-        "2026-10-21T16:20:00-04:00",
         "2026-10-21T18:40:00-04:00",
-        "2026-10-21T19:00:00-04:00",
-        "2026-10-21T21:30:00-04:00",
-        "2026-10-21T11:50:00-04:00",
-        "2026-10-21T14:10:00-04:00",
+        "2026-10-21T16:20:00-04:00",
+        "2026-10-21T15:50:00-04:00",
+        "2026-10-21T18:00:00-04:00",
         "2026-10-21T16:30:00-04:00",
+        "2026-10-21T19:00:00-04:00",
+        "2026-10-21T14:10:00-04:00",
+        "2026-10-21T21:30:00-04:00",
         "2026-10-21T20:30:00-04:00",
         "2026-10-21T16:10:00-04:00",
         "2026-10-21T22:40:00-04:00",
@@ -2379,7 +2414,7 @@
       "city": "Sucre",
       "department": "Chuquisaca",
       "venue": null,
-      "image_url": "https://sucre.bo/wp-content/uploads/2026/10/854850956_1680160560384057_4198747679701185839_n-310x165.jpg",
+      "image_url": "https://sucre.bo/wp-content/uploads/2026/10/855519817_2128127251125754_6137051328393741429_n-310x165.jpg",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
@@ -3554,9 +3589,9 @@
       "lifecycle_label": "Próximos",
       "days_until": 23,
       "is_upcoming": true,
-      "city": null,
+      "city": "Oruro",
       "department": "Bolivia",
-      "venue": "Super Multiteatro",
+      "venue": "Super Multiteatro de Oruro",
       "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/10/2_Mf1uDI2.jpg",
       "has_video": false,
       "video_thumbnail_url": null,
@@ -3573,7 +3608,7 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 72,
+      "quality_score": 78,
       "is_featured": true,
       "status": "programado",
       "source_count": 1
@@ -3670,7 +3705,7 @@
       "is_upcoming": true,
       "city": "Oruro",
       "department": "Bolivia",
-      "venue": "Super Multiteatro",
+      "venue": "Super Multiteatro de Oruro",
       "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/10/oruro.gif",
       "has_video": false,
       "video_thumbnail_url": null,
@@ -5095,6 +5130,44 @@
       "cast": [],
       "quality_score": 51,
       "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_b97f0ee05c975b",
+      "title": "Museo Casa de la Libertad",
+      "category": "exposicion",
+      "category_label": "Exposiciones",
+      "starts_at": "2027-10-15T00:00:00-04:00",
+      "starts_at_ms": 1823572800000,
+      "ends_at_ms": 1824436740000,
+      "multi_day": true,
+      "display_date": "Del 15 al 24 de octubre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 359,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": "Casa de la Libertad",
+      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/847952856_1705317224937221_2525004356486445501_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s600x600&_nc_cat=104&ccb=1-7&_nc_sid=cae128&_nc_ohc=-p8MiNIqj00Q7kNvwGWNYWK&_nc_oc=Adq-OJ_odA5Dem_D695o3Qs-ia_DpV92You_gqTGgTOTX1jPPo3aETxrfavnGascyoE&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1XAXhaLhH-4VLjwZ2PMtkQ&_nc_ss=7f289&oh=00_AQNs7DVNalUxuMX793I9q8wcEvE5r57LB8xbEUalGuoFjA&oe=6ADEB0E0",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": true,
+      "price_from": null,
+      "currency": null,
+      "price_label": "Entrada libre",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 73,
+      "is_featured": true,
       "status": "programado",
       "source_count": 1
     }
