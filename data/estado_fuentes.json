@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:04:32-04:00",
+  "generated_at": "2026-10-22T13:21:19-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_centro_cultura_scz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -15,8 +16,8 @@
       "fb_upsa"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 100.9,
-    "horas_maximo_sin_datos": 1516.9
+    "horas_promedio_sin_datos": 101.9,
+    "horas_maximo_sin_datos": 1522.2
   },
   "sources": [
     {
@@ -62,30 +63,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rWKakDA2tpUQ7kNvwEZR4AE&_nc_oc=Adp0eOEbAFkX0SuhgouIK4HWYJ_KKcK66VJcN7VnF2EgEn7y9mq5DOH0apqF5YRcBMA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=8kxg5QuwXz4268uRoiITGQ&_nc_ss=7f289&oh=00_AQOakgaWRjnfRwafhbCh9RccirKkqGT5zhgedqHlRKkqrQ&oe=6ADFCE36",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZgtMLzcQuY6Fnb1g6yfDG8pqDiROzfK0gizL2vQ8jp8-7Yd9wwGF-Uxw0er6RalfGiy0TAuEgQfGXABV5F8395TNiBHqVuarvI7Ct7wPSZ86muWsSy3FQ2ZFjpFQW3LFT9JSHDGf7mv_UkzebMQj-x1ZM4ANYikMPLcmKNtY_7GCojD1PbkAq7lUtH3_1V_FOSx&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZgtMLzcQuY6Fnb1g6yfDG8pqDiROzfK0gizL2vQ8jp8-7Yd9wwGF-Uxw0er6RalfGiy0TAuEgQfGXABV5F8395TNiBHqVuarvI7Ct7wPSZ86muWsSy3FQ2ZFjpFQW3LFT9JSHDGf7mv_UkzebMQj-x1ZM4ANYikMPLcmKNtY_7GCojD1PbkAq7lUtH3_1V_FOSx&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -317,13 +301,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=R4HnDHW0l5MQ7kNvwGJ3Byw&_nc_oc=Adr2gKdQs8dh3WNNQB6uKnaPOzcX8_1BHjPapIVkRjtHaRg28MlfjyILVLq9vGrokho&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=sl0qyvOeE5ux78SUYfrJ6Q&_nc_ss=7f289&oh=00_AQNR4313fkIoDDfnBbN8mbT78GVT3cZc7PLMYYOvO587Rg&oe=6AE024CC",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid02gcyw8cJh1AphHaYzPC33YZysSJqFUcshCD3Hm8M5z38TGfA7f2CoyMhz3j6deJs1l?__cft__[0]=AZj5xdxTZFm82B7PHfnxMPPZNtY2BWjbcrbgbDPe-wVuyE_61ktDYXzEulaFRdCT_-OliFG6xeCIkpP1rldjBsAD0qk8GPG5hI-thDdpdRVXsiP65qc-AFKwPr3YIu3bIUdZPGeHpfj1pLdsgMVVwKg5XwVoXqRh3V3SMUGz_c2T-e-1nX43Hu-_FRI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "El secretario municipal de Obras Públicas, Carlos Limpias, informó que uno de los contratos vigentes registra un avance del 85%, mientras que los otros dos alcanzan un … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_reduno",
@@ -572,13 +565,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SNsqAD43bdAQ7kNvwEoHObt&_nc_oc=Adoc7E6-Sf4AbgrGit_EJAXZvUh_7K0Sq_AevyP0K3hEiAzJCuQSqbydVvWcQ7AJSNU&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=CKMXjL_0AaGmI5htLiQf0g&_nc_ss=7f289&oh=00_AQNkILb63r3DZ6KtwEi4vBhgkYQy2fsVU7IM6YlJdbk9sw&oe=6AE023F3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1417022890595072/?__cft__[0]=AZj6iBTxgQy9sxY6wquciJcbmvnT8wGKy48K8YCz7qiXkd1VvUETgGKg_CdF45ocGC_u9VdzRXEpgEkbdZ5Ov-7Fod9nOcTWrq3tfgYAVge4FVpOVjfSMmINwDYnrHmpV-OPzmjsm0ONd64OTMn0pixafTeUCaJScE3FnQVo0VM7G6qokud3lTF9sYhFaU_nztbp&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "No te pierdas ENTREGA AL LIMITE, divertido thriller de acción protagonizado por Alan Ritchson y Owen Wilson, aquí en Cinemateca boliviana. ¡Los esperamos!… Ver más No te pierdas ENTREGA AL LIMITE, divertido thriller de acción protagonizado por Alan Ritchson y Owen Wilson, aquí en Cinemateca boliviana. ¡Los esperamos!… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -657,22 +659,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IY28Pfrj0bYQ7kNvwHgygEj&_nc_oc=Adpo_HvIYbvZhJFQ2xwFXfn3oXx3qQRdicFi-gmK2kPiV1c4OLsVE4Y7aHQrxuTUGC4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=sI4P5qNXZxf_woryQdZZkA&_nc_ss=7f289&oh=00_AQNElb_UsgTnz8miFhA7GxiMzWpSaC0WWPExyu_WRyx3HQ&oe=6ADFCC92",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/1798007189001476/",
-          "has_image": true,
-          "text_preview": "Centro de la Revolución Cultural, La Paz. 17.807 seguidores · 1.069 personas están hablando de esto · 170 personas estuvieron aquí. Centro cultural de fomento y estímulo a la producción cultural y..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -768,30 +761,13 @@
       "tier": 2,
       "region": "Pando",
       "city": "Cobija",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/688765140_1447781674049029_7571046060111378604_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jFWMDmOv5NgQ7kNvwHTD2Y2&_nc_oc=AdoYlOmgVddC-DV-YfpwSaUsRoQRGMthbpH_70UWzgikbMh98PgXxxJEKGCJyLvfvoU&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=ohgEoInZjtBcakrhR2slaA&_nc_ss=7f289&oh=00_AQOVPnrcFMnUAC5Ru3lFzqF9rW7r8b2BQs1TfiBf9SNsyg&oe=6ADFDDEA",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "taller",
-          "url": "https://www.facebook.com/cobija.gob/videos/%F0%9D%97%A0%F0%9D%97%A8%F0%9D%97%9D%F0%9D%97%98%F0%9D%97%A5%F0%9D%97%98%F0%9D%97%A6-%F0%9D%97%9C%F0%9D%97%A0%F0%9D%97%A3%F0%9D%97%A8%F0%9D%97%9F%F0%9D%97%A6%F0%9D%97%94%F0%9D%97%A1-%F0%9D%97%A6%F0%9D%97%A8-%F0%9D%97%96%F0%9D%97%A5%F0%9D%97%98%F0%9D%97%94%F0%9D%97%A7%F0%9D%97%9C%F0%9D%97%A9%F0%9D%97%9C%F0%9D%97%97%F0%9D%97%94%F0%9D%97%97-%F0%9D%97%AC-%F0%9D%97%98%F0%9D%97%A0%F0%9D%97%A3%F0%9D%97%A5%F0%9D%97%98%F0%9D%97%A1%F0%9D%97%97%F0%9D%97%9C%F0%9D%97%A0%F0%9D%97%9C%F0%9D%97%98%F0%9D%97%A1%F0%9D%97%A7%F0%9D%97%A2con-entusiasmo-se-dio-inicio-al-/1455134066535922/",
-          "has_image": true,
-          "text_preview": "𝗠𝗨𝗝𝗘𝗥𝗘𝗦 𝗜𝗠𝗣𝗨𝗟𝗦𝗔𝗡 𝗦𝗨 𝗖𝗥𝗘𝗔𝗧𝗜𝗩𝗜𝗗𝗔𝗗 𝗬 𝗘𝗠𝗣𝗥𝗘𝗡𝗗𝗜𝗠𝗜𝗘𝗡𝗧𝗢 Con entusiasmo, se dio inicio al curso nav… Ver más 𝗠𝗨𝗝𝗘𝗥𝗘𝗦 𝗜𝗠𝗣𝗨𝗟𝗦𝗔𝗡 𝗦𝗨 𝗖𝗥𝗘𝗔𝗧𝗜𝗩𝗜𝗗𝗔𝗗 𝗬 𝗘𝗠𝗣𝗥𝗘𝗡𝗗𝗜𝗠𝗜𝗘𝗡𝗧𝗢 Con entusiasmo, se dio inicio al curso nav… Ver más Mis sinceras felicitaciones al municipio de Cobija, a la cabeza del Dr. Diego Suárez, por el trabajo que viene realizando en beneficio de nuestra gente. Siempre es bueno ver acciones que buscan mejo"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1455134066535922/?comment_id=1428813449232386&__cft__[0]=AZhMpTJNlOeqvdHrLeLc1CqDGdg7uSs_UAZvfJQvTVX2QY9_t3Dwj-DO_cbH7uEutBTvyXkTcLNfo0_gTiy01-vOz_JHKDWzl9Hk-ZBrx41TSGYiuuhmtLGAXVjciiWrOovHd7HfQfiUwEOQseStH0r7QsBGbbRyQsMVqa8TJZqZNpb1FaZ_rOd6ZXZ4vQwlZL1Z&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mis sinceras felicitaciones al municipio de Cobija, a la cabeza del Dr. Diego Suárez, por el trabajo que viene realizando en beneficio de nuestra gente. Siempre es bueno ver acciones que buscan mejorar la vida de nuestra población. Que sigan adelante c… Ver más Fercho Vargas"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_chuquisaca",
@@ -1109,12 +1085,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Centro de la Cultura Plurinacional Santa Cruz 37 mil seguidores • 367 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este mom'"
     },
     {
       "id": "fb_casa_libertad",
@@ -1245,12 +1221,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "web_superticket",
@@ -1435,8 +1411,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 10,
-      "rejected": 3,
+      "events": 6,
+      "rejected": 7,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1448,19 +1424,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 24,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "score": 52,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 22h58m Intervienen la Aisem, hay dos arrestados 22h28m Lanzan la Fexco 2027, “Capital de oportunidades” 22h16m Bolivia logra ayuda internacional "
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 52,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/ciclo-cine-troje_638605",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
-          "text_preview": "Agenda Cultural Dentro del ciclo de cine dedicado a Álex de la Iglesia, se proyectará La Comunidad (2000). Esta película mezcla comedia negra y terror, revelando los oscuros secretos de una comunidad vecinal, en una trama tan intrigante como provocadora. Tipo de Evento: Cultural Fecha del Evento: Martes, 20 Agosto, 2024 (Todo el día) Dirección: La Troje (av. Capitán Victor Ustáriz km 3,5) Últimas "
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1560,8 +1536,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 52,
-      "events": 52,
+      "raw_items": 51,
+      "events": 51,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1677,13 +1653,38 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
+      "status": "ok",
+      "raw_items": 6,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Server error '500 Internal Server Error' for url 'https://beni.gob.bo/category/cultura/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+      "rejected": 6,
+      "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "turismo",
+          "url": "https://beni.gob.bo/category/cultura/",
+          "has_image": true,
+          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 08/10/2026 GOBERNADOR DEL BENI PARTICIPA DE LOS 86 AÑOS DE PERÚ RÍO APERE Y COMPARTE CON LA FAMILIA GANADERA El Gobernador del Beni, Jesús Egüez Rivero, llegó hasta la Comunidad de Perú Río Apere, en el munici... Leer más → Cultura - 01/10/2026 GOBERNACIÓN DEL BENI FORTALECE LA CONCIENCIA AMBIENTAL CON LA SIEMBRA DE PLANTINES POR "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "infantil",
+          "url": "https://beni.gob.bo/unidades-desconcentradas",
+          "has_image": true,
+          "text_preview": "Nivel Operativo Desconcentrado Unidades Desconcentradas Consulte los servicios descentralizados, centros de salud metropolitana y unidades operativas que ejecutan funciones especializadas en el departamento del Beni. Ver Todas Salud y Hospitales Desarrollo y Deporte Productivo y Campo SDA Servicio de Desarrollo Agrario Fomenta el desarrollo agropecuario integral en el departamento mediante transfe"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://beni.gob.bo/departamento/agricultura",
+          "has_image": true,
+          "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_potosi_municipio",
