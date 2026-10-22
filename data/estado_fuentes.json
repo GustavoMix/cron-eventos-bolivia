@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T13:21:19-04:00",
+  "generated_at": "2026-10-22T17:47:22-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,12 +12,11 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_teatro_aire_libre",
-      "fb_upsa"
+      "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 101.9,
-    "horas_maximo_sin_datos": 1522.2
+    "horas_promedio_sin_datos": 99.1,
+    "horas_maximo_sin_datos": 1526.6
   },
   "sources": [
     {
@@ -273,7 +272,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
     },
     {
       "id": "fb_opinion",
@@ -301,22 +300,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=R4HnDHW0l5MQ7kNvwGJ3Byw&_nc_oc=Adr2gKdQs8dh3WNNQB6uKnaPOzcX8_1BHjPapIVkRjtHaRg28MlfjyILVLq9vGrokho&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=sl0qyvOeE5ux78SUYfrJ6Q&_nc_ss=7f289&oh=00_AQNR4313fkIoDDfnBbN8mbT78GVT3cZc7PLMYYOvO587Rg&oe=6AE024CC",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid02gcyw8cJh1AphHaYzPC33YZysSJqFUcshCD3Hm8M5z38TGfA7f2CoyMhz3j6deJs1l?__cft__[0]=AZj5xdxTZFm82B7PHfnxMPPZNtY2BWjbcrbgbDPe-wVuyE_61ktDYXzEulaFRdCT_-OliFG6xeCIkpP1rldjBsAD0qk8GPG5hI-thDdpdRVXsiP65qc-AFKwPr3YIu3bIUdZPGeHpfj1pLdsgMVVwKg5XwVoXqRh3V3SMUGz_c2T-e-1nX43Hu-_FRI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "El secretario municipal de Obras Públicas, Carlos Limpias, informó que uno de los contratos vigentes registra un avance del 85%, mientras que los otros dos alcanzan un … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_reduno",
@@ -497,13 +487,22 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dAmEl1FNGFcQ7kNvwE9Wny4&_nc_oc=AdpGhwaZzEAh2ToPQvrE0WgQCX3vAaoclp5lU07WYnjhOAXKA52FjOVRYXbDDKepKlM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Zdw1turkWZ5bUrSrhQV3DQ&_nc_ss=7f289&oh=00_AQPEtLS46Uh_H12T-KFZZMbjWcU_gEDDrig2UxmjqJd88Q&oe=6AE062A9",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldeberradio/videos/1087680347369462/?__cft__[0]=AZhg57sojUdmyXYtF-xhzwwQMB2-Ypep8ZVLJumLB6gxSy02t_6unPvBQJ3Vao-tHqG_VdrLUCoeU2mNKstkLxlVpfgTqLUHGOzZvQfOmLLniraam62adrymRClToyUnTV3242t8-nofmQJGmNDM5YYHP20b0C6T_v3TH3gBIjt2NEmbly80EOBcEkM74HYFFBY&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#AvanceInformativo | JUEVES 22-10-26 Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fides_cbba",
@@ -565,22 +564,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SNsqAD43bdAQ7kNvwEoHObt&_nc_oc=Adoc7E6-Sf4AbgrGit_EJAXZvUh_7K0Sq_AevyP0K3hEiAzJCuQSqbydVvWcQ7AJSNU&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=CKMXjL_0AaGmI5htLiQf0g&_nc_ss=7f289&oh=00_AQNkILb63r3DZ6KtwEi4vBhgkYQy2fsVU7IM6YlJdbk9sw&oe=6AE023F3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1417022890595072/?__cft__[0]=AZj6iBTxgQy9sxY6wquciJcbmvnT8wGKy48K8YCz7qiXkd1VvUETgGKg_CdF45ocGC_u9VdzRXEpgEkbdZ5Ov-7Fod9nOcTWrq3tfgYAVge4FVpOVjfSMmINwDYnrHmpV-OPzmjsm0ONd64OTMn0pixafTeUCaJScE3FnQVo0VM7G6qokud3lTF9sYhFaU_nztbp&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "No te pierdas ENTREGA AL LIMITE, divertido thriller de acción protagonizado por Alan Ritchson y Owen Wilson, aquí en Cinemateca boliviana. ¡Los esperamos!… Ver más No te pierdas ENTREGA AL LIMITE, divertido thriller de acción protagonizado por Alan Ritchson y Owen Wilson, aquí en Cinemateca boliviana. ¡Los esperamos!… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -812,13 +802,30 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ivk8EyucefgQ7kNvwHLPfcR&_nc_oc=Adp23RLy3AQQTSv94MWd3-56EhyIg5rcosIP3X53l4mnUWDVMR067np3cKlkwUVmaUE&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=Xl5etU4UkvlocmZL5nL-VA&_nc_ss=7f289&oh=00_AQNP1i_fWdsgn8Fdgn6ZF-qOVYmi4-JRG5ANsu5a6zUKpg&oe=6AE05D27",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GADTarija/posts/pfbid0xAJ4Kgfx7NBhqTdLvdUixySWFLDqqvg2xMsuAg73FTngKNWXDRuGRvRSA4tjJREMl?__cft__[0]=AZjwgOl742nTGeuiqg7afEki3K_Y_lzQiAUhAKwocyHrgkD1ctlTTtfQH1Kzw-q5nGpUiYNyrO6aKvB0dutVfIYqXe0a9rqqln56su4zG5YASOlFbA0Gfoyn5Hj4nQGbGiPZ9Tdzdl8asiqcRKXhgNjkbqM0Y8U-NNEzQJ0ljkIfBPPCrzE3wzg4YkA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La Gobernación se suma al proceso de reforma electoral… Ver más BIEN EXPUESTO, DE FRENTE Y SIEMPRE CON LA VERDAD, SALUDOS VICE GOBERNADOR....!!! Tenemos problemas para reproducir este video. Más información Jahil Flores"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GADTarija/posts/pfbid0xAJ4Kgfx7NBhqTdLvdUixySWFLDqqvg2xMsuAg73FTngKNWXDRuGRvRSA4tjJREMl?comment_id=1761808824928261&__cft__[0]=AZjwgOl742nTGeuiqg7afEki3K_Y_lzQiAUhAKwocyHrgkD1ctlTTtfQH1Kzw-q5nGpUiYNyrO6aKvB0dutVfIYqXe0a9rqqln56su4zG5YASOlFbA0Gfoyn5Hj4nQGbGiPZ9Tdzdl8asiqcRKXhgNjkbqM0Y8U-NNEzQJ0ljkIfBPPCrzE3wzg4YkA&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "BIEN EXPUESTO, DE FRENTE Y SIEMPRE CON LA VERDAD, SALUDOS VICE GOBERNADOR....!!! Jahil Flores"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_pando",
@@ -1085,12 +1092,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Centro de la Cultura Plurinacional Santa Cruz 37 mil seguidores • 367 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este mom'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1220,13 +1227,30 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NqFUIi2Y1eoQ7kNvwFDHbB7&_nc_oc=AdoQYxSSX_k0YCWo7XjpxBFREs4HpecFfAsRyAO-EU0PWHdaNlEhkUvnpUWEgxNMX1U&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=02DXzAocMHKf2FxzX8zOVg&_nc_ss=7f289&oh=00_AQMxoUhUtvcLNQYihUwk1K0Axqd19orDMDdNICfgo4eLMw&oe=6AE04AB8",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid07rwr13xzW49Aq1gosheS2hBeuapajgA6BCYs42JmPAPda59jtx4V7GvK5Cq4ZXvEl?__cft__[0]=AZhX_AJg_BhioQIsj6rM0HBEfn1hSgs-imcdhw8QL6o8TgKoiFklS5bHxtgK8CKJByXjbrjKSwqH9johUQrk5Rpb5ufA1C3d15MKHbl69Suckb3j1nWKmJKphLme-FXShMgc2ZJvNi1FZnRGIaMECTjiYbuozQq4v-PyTZv17HC1uEB1siT5HKzeQuw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¿Qué le falta a Bolivia para construir su próximo unicornio tecnológico? Más de 150 personas llegaron a nuestro Centro de Convenciones para conversar sobre esta pregunt… Ver más Excelente Salvador Salazar Durán"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid07rwr13xzW49Aq1gosheS2hBeuapajgA6BCYs42JmPAPda59jtx4V7GvK5Cq4ZXvEl?comment_id=2045159086189597&__cft__[0]=AZhX_AJg_BhioQIsj6rM0HBEfn1hSgs-imcdhw8QL6o8TgKoiFklS5bHxtgK8CKJByXjbrjKSwqH9johUQrk5Rpb5ufA1C3d15MKHbl69Suckb3j1nWKmJKphLme-FXShMgc2ZJvNi1FZnRGIaMECTjiYbuozQq4v-PyTZv17HC1uEB1siT5HKzeQuw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Salvador Salazar Durán Excelente 6 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_superticket",
@@ -1411,8 +1435,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 6,
-      "rejected": 7,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1424,19 +1448,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 40,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 52,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
-          "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1494,9 +1518,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 34,
+      "raw_items": 33,
       "events": 0,
-      "rejected": 34,
+      "rejected": 33,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1570,8 +1594,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1587,8 +1611,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 8,
+      "events": 8,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1604,8 +1628,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 64,
-      "events": 64,
+      "raw_items": 46,
+      "events": 46,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1621,8 +1645,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 0,
-      "events": 0,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1638,8 +1662,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1714,9 +1738,9 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 7,
+      "raw_items": 6,
       "events": 0,
-      "rejected": 7,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
