@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-23T00:50:39-04:00",
+  "generated_at": "2026-10-23T07:40:51-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 100,
+    "events_total": 101,
     "events_today": 13
   },
   "filters": {
@@ -98,14 +98,14 @@
         "count": 3
       },
       {
-        "key": "taller",
-        "label": "Talleres y cursos",
+        "key": "otro",
+        "label": "Otros",
         "count": 3
       },
       {
-        "key": "otro",
-        "label": "Otros",
-        "count": 2
+        "key": "taller",
+        "label": "Talleres y cursos",
+        "count": 3
       },
       {
         "key": "danza",
@@ -127,7 +127,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 21
+        "count": 22
       },
       {
         "key": "Santa Cruz de la Sierra",
@@ -174,7 +174,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 20
+        "count": 21
       },
       {
         "key": "Santa Cruz",
@@ -216,17 +216,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 31
+        "count": 32
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 56
+        "count": 57
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 100
+        "count": 101
       }
     ],
     "price": [
@@ -243,14 +243,14 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 70
+        "count": 71
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 89
+        "count": 90
       },
       {
         "key": "con_video",
@@ -259,6 +259,11 @@
       }
     ],
     "tags": [
+      {
+        "key": "FundaciónPatiño",
+        "label": "FundaciónPatiño",
+        "count": 3
+      },
       {
         "key": "CDL",
         "label": "CDL",
@@ -277,11 +282,6 @@
       {
         "key": "Cultura",
         "label": "Cultura",
-        "count": 2
-      },
-      {
-        "key": "FundaciónPatiño",
-        "label": "FundaciónPatiño",
         "count": 2
       },
       {
@@ -317,6 +317,11 @@
       {
         "key": "ElParqueTemáticoMásGrandeDeBol",
         "label": "ElParqueTemáticoMásGrandeDeBol",
+        "count": 1
+      },
+      {
+        "key": "Educación",
+        "label": "Educación",
         "count": 1
       },
       {
@@ -373,11 +378,6 @@
         "key": "Vinculación",
         "label": "Vinculación",
         "count": 1
-      },
-      {
-        "key": "OrientaciónVocacional",
-        "label": "OrientaciónVocacional",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -387,14 +387,14 @@
         "count": 45
       },
       {
-        "key": "cultura_oficial",
-        "label": "cultura_oficial",
+        "key": "venue",
+        "label": "venue",
         "count": 14
       },
       {
-        "key": "venue",
-        "label": "venue",
-        "count": 13
+        "key": "cultura_oficial",
+        "label": "cultura_oficial",
+        "count": 14
       },
       {
         "key": "cartelera_cine",
@@ -520,12 +520,12 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 41,
-      "events_upcoming": 20,
-      "events_with_image": 19,
+      "events_total": 42,
+      "events_upcoming": 21,
+      "events_with_image": 20,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 5
     },
     "Cochabamba": {
       "events_total": 42,
@@ -533,7 +533,7 @@
       "events_with_image": 34,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
       "events_total": 38,
@@ -541,7 +541,7 @@
       "events_with_image": 12,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
       "events_total": 14,
@@ -557,7 +557,7 @@
       "events_with_image": 3,
       "events_with_video": 1,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 1
     },
     "Potosí": {
       "events_total": 1,
@@ -658,9 +658,9 @@
     },
     "otro": {
       "label": "Otros",
-      "events_total": 3,
-      "events_upcoming": 2,
-      "events_with_image": 2,
+      "events_total": 4,
+      "events_upcoming": 3,
+      "events_with_image": 3,
       "events_with_video": 2
     },
     "taller": {
@@ -2186,11 +2186,11 @@
       "title": "Película en cartelera de cine",
       "category": "cine",
       "category_label": "Cine",
-      "starts_at": "2026-10-23T19:30:00-04:00",
-      "starts_at_ms": 1792798200000,
+      "starts_at": "2026-10-23T16:00:00-04:00",
+      "starts_at_ms": 1792785600000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Viernes 23 de octubre · 19:30",
+      "display_date": "Viernes 23 de octubre · 16:00",
       "lifecycle": "hoy",
       "lifecycle_label": "Hoy",
       "days_until": 0,
@@ -2207,16 +2207,23 @@
       "price_label": null,
       "organizer": null,
       "showtimes": [
-        "19:30",
-        "15:00",
-        "13:30",
         "16:00",
-        "18:30",
         "21:00",
-        "14:30",
-        "22:00",
         "20:00",
         "17:00",
+        "13:30",
+        "18:30",
+        "15:00",
+        "14:30",
+        "19:30",
+        "22:00",
+        "13:50",
+        "16:30",
+        "19:10",
+        "21:50",
+        "16:10",
+        "18:50",
+        "21:30",
         "15:10",
         "17:30",
         "19:50",
@@ -2224,13 +2231,6 @@
         "14:00",
         "16:20",
         "18:40",
-        "13:50",
-        "16:30",
-        "19:10",
-        "21:50",
-        "18:50",
-        "21:30",
-        "16:10",
         "18:20",
         "20:30",
         "22:40",
@@ -2241,27 +2241,35 @@
         "18:00"
       ],
       "formats": [
-        "2D - DBOX - XD - Doblada",
+        "2D - DBOX - Doblada",
         "2D - PRE - Subtitulada",
+        "2D - XD - DBOX - Doblada",
         "DBOX - 2D - Doblada",
-        "DBOX - XD - 2D - Doblada",
         "PRE - 2D - Subtitulada",
         "XD - 2D - DBOX - Doblada",
+        "XD - DBOX - 2D - Doblada",
         "2D - Doblada",
-        "PRE - 2D - Doblada",
-        "2D - PRE - Doblada"
+        "2D - PRE - Doblada",
+        "PRE - 2D - Doblada"
       ],
       "occurrences": [
-        "2026-10-23T19:30:00-04:00",
-        "2026-10-23T15:00:00-04:00",
-        "2026-10-23T13:30:00-04:00",
         "2026-10-23T16:00:00-04:00",
-        "2026-10-23T18:30:00-04:00",
         "2026-10-23T21:00:00-04:00",
-        "2026-10-23T14:30:00-04:00",
-        "2026-10-23T22:00:00-04:00",
         "2026-10-23T20:00:00-04:00",
         "2026-10-23T17:00:00-04:00",
+        "2026-10-23T13:30:00-04:00",
+        "2026-10-23T18:30:00-04:00",
+        "2026-10-23T15:00:00-04:00",
+        "2026-10-23T14:30:00-04:00",
+        "2026-10-23T19:30:00-04:00",
+        "2026-10-23T22:00:00-04:00",
+        "2026-10-23T13:50:00-04:00",
+        "2026-10-23T16:30:00-04:00",
+        "2026-10-23T19:10:00-04:00",
+        "2026-10-23T21:50:00-04:00",
+        "2026-10-23T16:10:00-04:00",
+        "2026-10-23T18:50:00-04:00",
+        "2026-10-23T21:30:00-04:00",
         "2026-10-23T15:10:00-04:00",
         "2026-10-23T17:30:00-04:00",
         "2026-10-23T19:50:00-04:00",
@@ -2269,13 +2277,6 @@
         "2026-10-23T14:00:00-04:00",
         "2026-10-23T16:20:00-04:00",
         "2026-10-23T18:40:00-04:00",
-        "2026-10-23T13:50:00-04:00",
-        "2026-10-23T16:30:00-04:00",
-        "2026-10-23T19:10:00-04:00",
-        "2026-10-23T21:50:00-04:00",
-        "2026-10-23T18:50:00-04:00",
-        "2026-10-23T21:30:00-04:00",
-        "2026-10-23T16:10:00-04:00",
         "2026-10-23T18:20:00-04:00",
         "2026-10-23T20:30:00-04:00",
         "2026-10-23T22:40:00-04:00",
@@ -2604,6 +2605,44 @@
       "cast": [],
       "quality_score": 70,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_f5d3e6b18160ae",
+      "title": "Fundación Patiño La Paz",
+      "category": "otro",
+      "category_label": "Otros",
+      "starts_at": "2026-10-28T16:00:00-04:00",
+      "starts_at_ms": 1793217600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Miércoles 28 de octubre · 16:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 5,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/855466846_1573300364841537_4409713479845468781_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s600x600&_nc_cat=106&ccb=1-7&_nc_sid=cae128&_nc_ohc=xxRNBTAhr-UQ7kNvwF0xh5H&_nc_oc=AdohFALIQRvYlD8U_ftFCG_PgjjO85iiqKo1F2UAUTMs84IAxJNAAGGvt3yOFHdXm0E&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=ckn6SpizwLm15x2QdnC6MA&_nc_ss=7f289&oh=00_AQP1ZjXRxAD3OyZ-m0IPpFoaYWRECJ_SbEMx0Z9NHxMW7Q&oe=6AE115BF",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 55,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
