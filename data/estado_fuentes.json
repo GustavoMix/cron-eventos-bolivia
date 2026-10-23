@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:40:51-04:00",
+  "generated_at": "2026-10-23T13:09:41-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_conciertos_bolivia",
+      "fb_fides_cbba",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 101.3,
-    "horas_maximo_sin_datos": 1540.5
+    "horas_promedio_sin_datos": 102.9,
+    "horas_maximo_sin_datos": 1546.0
   },
   "sources": [
     {
@@ -45,13 +45,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AeoP0CPd80EQ7kNvwHjdtnZ&_nc_oc=AdpiXnLx25lB6SZH6IdxL1JnZCO4RjVqVVMmpcEaKOND107LQw2o-zuRCUO9WsRUJWQ&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=qpTxM5ZivDE5xlcIkUiiGA&_nc_ss=7f289&oh=00_AQO43JtB8lDrt-t1g4ab2uJDRUTnfMFBkmJbNH_v3dKxvg&oe=6AE16835",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Conciertos en Bolivia 55 mil seguidores • 2 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un er'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/ConciertosEnBolivia/videos/-no-es-una-fiesta-m%C3%A1s-es-armaged%C3%B3n-con-la-mejor-m%C3%BAsica-de-los-80s-90s-y-2000-dj-/1119975060474764/",
+          "has_image": true,
+          "text_preview": "🎶🚀⚡ NO ES UNA FIESTA MÁS, ES ARMAGEDÓN con la mejor música de los 80s - 90s y 2000 🔝 🔥 DJ Chaskas - Orlando Castedo Coimbra 🎧 Asbel Valenzuela - Asbel Valenzuela 💥 Gisela Vera - Gisela Vera... 🎶🚀⚡ NO ES UNA FIESTA MÁS, ES ARMAGEDÓN con la mejor música de los 80s - 90s y 2000 🔝 🔥 DJ Chaskas - Orlando Castedo Coimbra 🎧 Asbel Valenzuela - Asbel..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -505,12 +514,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_ministerio_culturas",
@@ -878,13 +887,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lOTJjE2IsDMQ7kNvwEkyx3U&_nc_oc=AdoK2ml_N3mv4F9VoZ6pjlpGB0LKpiZpeLSl7gyQHztq5l8IfpL6GkAJaxojf2TaZys&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=ppySlOpjRFwFFIlvYgHWUA&_nc_ss=7f289&oh=00_AQNBMRIPaOMxdZ_Y_xBU32edHDqUG5dQTvFyK2qmELn4qg&oe=6AE128A7",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -946,13 +955,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BbQPuraAo7kQ7kNvwFC2j62&_nc_oc=AdotX-WvoMp5YZVRvGgFLG7AUzCCQnfJ_M3CgQ6IxNDCmEmS-4Z-Ga08cXH5zc1qa1Q&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=-9B1O_FEhMCanVlW99u-mQ&_nc_ss=7f289&oh=00_AQNukNZH2FG0iApaKwc6UGG8-6Xd4O5lyHCR_DukgBSeLQ&oe=6AE160D7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 37,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/herminio-pedraza-r-bocetos-acuarelas-una-conmovedora-exposici%C3%B3n-que-conmemora-lo/1591856579649480/",
+          "has_image": true,
+          "text_preview": "Herminio Pedraza R. , BOCETOS & ACUARELAS, una conmovedora exposición que conmemora los 20 años del fallecimiento del célebre maestro cruceño. Obras inéditas, cuadros de su época temprana y objetos... Herminio Pedraza R. , BOCETOS & ACUARELAS, una conmovedora exposición que conmemora los 20 años del fallecimiento del célebre maestro cruceño. Obras... Herminio Pedraza R. , BOCETOS & ACUARELAS, una "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -997,22 +1015,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Zc0UTvdWwcsQ7kNvwENVDip&_nc_oc=AdpldIIHQ6h77UNYzzvtPzZlHFWIbb6wsuTOPY-90gJ-19z8p-CzAkIntVcvzeIlF3Y&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=qxwfRC6V-oRUC0ywzQgQfw&_nc_ss=7f289&oh=00_AQNzUc1KZ09150UUkNhWGNJZWvBE0AvJU61xlCSzb3KPzQ&oe=6AE121F4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "literatura",
-          "url": "https://www.facebook.com/reel/2201236907481884/?__cft__[0]=AZjQe7oY_uur4UhcbuvH1-_x3elkwFdNsOJxPc8Dtlz_zDPzOZUBzGjbexYg7_bmsvyXIl9Xs6xZRyCarBVG1LA_6rpXsfC3S42qKuUlNloJHE1FYDDzQ2VksSA_ed0Epj7bgjd1Ynzt5PfRMgOj1opAKSwZebqe4Bk7EdcFuFdJH8JLLHaRfVKTvGa8mGfaiR5Q&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#Educación | En San Benito, cada visita a la biblioteca representa una nueva oportunidad para aprender, crecer y descubrir capacidades.… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1023,22 +1032,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DOivTs3nYSIQ7kNvwFg3NRu&_nc_oc=AdrgZMksvCz8FD8Gb_bQ3CWag5oKTaF1MQ8emIT7yPTEeRolLe4MpXv6kJ5H5_ceE_k&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=m-woHedvIuNzsYmHXZ3Faw&_nc_ss=7f289&oh=00_AQMWsDGFFQ7AWOXj6Ay5m40gtslQyvgNRIPoLNb0Aqp7fQ&oe=6AE12B4F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "cine",
-          "url": "https://www.facebook.com/reel/1138744342048786/?__cft__[0]=AZhVTHG3TqvVIObW4vdqWaZPfCsghh6Mc0k-nXLhrynubB6d-p4kCVZbtnTi1TfqZ0CfrlUYPibL7qxbioGEFqOAD62ijdmQYtUEgo1rvZKqvX1ywXed8HDrWDdWuZnc-rG8FUlTKBIqbLXXXUBbvPC9GFrIYDDLZyZslgmyluXb5LoL4-Kf6tSKd2e9v_jTOsDy&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Viernes de Cine Alemán: Wilma quiere más… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1117,13 +1117,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=F4HHihNuJDoQ7kNvwFKcDqO&_nc_oc=AdpRWz1UC1ZEFj2lFTpCi_Lf8pxWj02JkXhE2VL2IGnDx1iwbXhgJC-UMc4KffCb8YM&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=cgF_dhDk_kG2OMy6sEMSOA&_nc_ss=7f289&oh=00_AQN-dH0pF8yBV0CVag_vlp-Am8bnWlnneF4sMtht4mmVYw&oe=6AE17524",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1410,28 +1410,28 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 12,
-          "category": "gastronomia",
+          "score": 9,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
-          "category": "festival",
+          "score": 43,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "22/10/2026 Cultura Dos obras literarias fueron las más requeridas por el público en la FILC Las obras Santa Cruz S.A: agronegocio y mito empresarial y Los Cuentos de los hermanos Grimm, fueron los libros más solicitados por los visitantes a la... vista 21/10/2026 Cultura Pintura: un centenar de artistas comparten su pasión por la acuarela Desde ayer, la pintura y el agua se constituyen en los prin"
+          "text_preview": "23/10/2026 Cultura Concierto: los coros municipales anuncian su quinta presentación Los Coros Municipales de Cochabamba vuelven al escenario este sábado (19:30) para protagonizar el Concierto Coral en el Centro Artístico Cultural Bicentenario. vista 22/10/2026 Cultura Dos obras literarias fueron las más requeridas por el público en la FILC Las obras Santa Cruz S.A: agronegocio y mito empresarial y"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 38,
+          "reason": "tema_ajeno_a_eventos",
+          "score": 43,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
