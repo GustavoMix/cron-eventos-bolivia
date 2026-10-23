@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:47:22-04:00",
+  "generated_at": "2026-10-23T00:50:39-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,14 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_centro_cultura_scz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 99.1,
-    "horas_maximo_sin_datos": 1526.6
+    "horas_promedio_sin_datos": 98.5,
+    "horas_maximo_sin_datos": 1533.7
   },
   "sources": [
     {
@@ -28,13 +27,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=h3U2dSmZgXYQ7kNvwEaSVlF&_nc_oc=AdrwoKujEwUeEWqZ5NhP_wLnaKznEJRpShkPHn0T-A7RggXxQVnfSfK4Gr20l3hj2Z4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=b49l2sVOXMPcpT9hWTg-0A&_nc_ss=7f289&oh=00_AQPP2iqhC_pBX00t6TctCbbnofUDXHqu572F8KQNw5ALBQ&oe=6AE0CDDA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid025ZZQfB7UfGuMXui83toVEmTve2PagVw8bLEW2aVdbuvYtieJVYYbsm164YyoaFLl?__cft__[0]=AZjX63GXP7Ygc_KjnV6zJMEdW11v5JN3FPvwiVQzO9Iys2q5276qbzKosO7NhwkmQxekaMAislzXYl1Hr50d24iy4ZQmeia5IbyN9maDheNIETDr_qzbrk52BL4fAATsHdEVYYYAPQhFpyb2NNjL4XG61VGYQgni8yF6eJLn8zQ3BbtfsOj5aLoRBvo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡MICHAEL REGRESA A LOS ESCENARIOS CON UNA SEGUNDA OPORTUNIDAD PARA VIVIRLO! ¡E… Ver más ¡MICHAEL REGRESA A LOS ESCENARIOS CON UNA SEGUNDA OPORTUNIDAD PARA VIVIRLO! ¡E… Ver más SuperTicket Producto/servicio Enviar mensaje"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -272,7 +280,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_opinion",
@@ -385,13 +393,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=P1Cta3AwoGwQ7kNvwE7bDIF&_nc_oc=AdppflXQhpCDRwc9AhfWfE_Eh84TE7G5RHTstOHjuujF08f-fPWSH9lxs09b7hjAEGI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=dSYTB6LitrpnsID1FilprA&_nc_ss=7f289&oh=00_AQOIJIT-PjrIU0ZMMnCYWjQab8cTq9Ozycn8uJEsUadP5A&oe=6AE0AE68",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid02jTXEz4ud7CwPyeDNd9BRKiGM3kU6bMv3irE1uEqkhdVa8dA9m627XCcokYTgCoXl?__cft__[0]=AZj09CBPTU4rsVBtIIwWjsNsRaOSFvaBj2ofp9xL2eXm6Hno68FMhkJpF1_s9OPbkcr79iIU_7Te7fKU52ijkBxrEuXCFHVrIj8nMbmGEIHaQau6tIsf1WumRS9rB2qzaGin5OlptoJPVRhCC2xheq1uX7yzyan3Fb203p9QteaYTosviZdhg4-TvBY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La iniciativa modifica el artículo 37 de la Ley de Seguros y establece que la venta del SOAT se rija por los principios de libre competencia, concurrencia y no exclusividad. ERBOL.COM.BO Senado aprueba proyecto para abrir la venta del SOAT a la libre competencia"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_el_diario",
@@ -487,22 +504,13 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dAmEl1FNGFcQ7kNvwE9Wny4&_nc_oc=AdpGhwaZzEAh2ToPQvrE0WgQCX3vAaoclp5lU07WYnjhOAXKA52FjOVRYXbDDKepKlM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Zdw1turkWZ5bUrSrhQV3DQ&_nc_ss=7f289&oh=00_AQPEtLS46Uh_H12T-KFZZMbjWcU_gEDDrig2UxmjqJd88Q&oe=6AE062A9",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1087680347369462/?__cft__[0]=AZhg57sojUdmyXYtF-xhzwwQMB2-Ypep8ZVLJumLB6gxSy02t_6unPvBQJ3Vao-tHqG_VdrLUCoeU2mNKstkLxlVpfgTqLUHGOzZvQfOmLLniraam62adrymRClToyUnTV3242t8-nofmQJGmNDM5YYHP20b0C6T_v3TH3gBIjt2NEmbly80EOBcEkM74HYFFBY&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#AvanceInformativo | JUEVES 22-10-26 Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fides_cbba",
@@ -683,13 +691,22 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/696282168_1306639911654685_7905006361365104235_n.avif?stp=dst-avif&cstp=mx1344x1344&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yObPv8eECiUQ7kNvwEiKAgx&_nc_oc=Adr9InPWFyDx8eXVu20ND20Gv1q0NgAhw8JPMyOaiqFCEaXApjdxsDN7_GX2crPAbrY&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=_BYJy2aZSf7jOvD8w_pdqw&_nc_ss=7f289&oh=00_AQM8McJF7BnCUUHhHU1cmrjfGIWUpJu4QW43docvnupKPw&oe=6AE0CC3A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlcaldiaDeOruro/posts/pfbid02p2ceX95B3rXbu4CS4ydpSwECHE5KVZgkcfSG3n4254XGWhqAWbwPLffKkc6KNmTxl?__cft__[0]=AZh-u22LasU-eN65BA7PquQSh4U6H6GUUEaNrEwqCi8_8e5FLK519aVl9PaubyWuTbgJp37PXJGvw_JJyTTaCvE9Atw-t7az9KKzRLzap_BuIMCCq65nvKEmm9XV7NPah50jAZG5UT9vjwp3FQTFwORl6g8_XwXAIgPLwfr2vMY-L7q-Kl3k3WSx1FM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡A PASO FIRME POR ORURO! ¡… Ver más ¡A PASO FIRME POR ORURO! ¡… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_tarija",
@@ -802,30 +819,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ivk8EyucefgQ7kNvwHLPfcR&_nc_oc=Adp23RLy3AQQTSv94MWd3-56EhyIg5rcosIP3X53l4mnUWDVMR067np3cKlkwUVmaUE&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=Xl5etU4UkvlocmZL5nL-VA&_nc_ss=7f289&oh=00_AQNP1i_fWdsgn8Fdgn6ZF-qOVYmi4-JRG5ANsu5a6zUKpg&oe=6AE05D27",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GADTarija/posts/pfbid0xAJ4Kgfx7NBhqTdLvdUixySWFLDqqvg2xMsuAg73FTngKNWXDRuGRvRSA4tjJREMl?__cft__[0]=AZjwgOl742nTGeuiqg7afEki3K_Y_lzQiAUhAKwocyHrgkD1ctlTTtfQH1Kzw-q5nGpUiYNyrO6aKvB0dutVfIYqXe0a9rqqln56su4zG5YASOlFbA0Gfoyn5Hj4nQGbGiPZ9Tdzdl8asiqcRKXhgNjkbqM0Y8U-NNEzQJ0ljkIfBPPCrzE3wzg4YkA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "La Gobernación se suma al proceso de reforma electoral… Ver más BIEN EXPUESTO, DE FRENTE Y SIEMPRE CON LA VERDAD, SALUDOS VICE GOBERNADOR....!!! Tenemos problemas para reproducir este video. Más información Jahil Flores"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GADTarija/posts/pfbid0xAJ4Kgfx7NBhqTdLvdUixySWFLDqqvg2xMsuAg73FTngKNWXDRuGRvRSA4tjJREMl?comment_id=1761808824928261&__cft__[0]=AZjwgOl742nTGeuiqg7afEki3K_Y_lzQiAUhAKwocyHrgkD1ctlTTtfQH1Kzw-q5nGpUiYNyrO6aKvB0dutVfIYqXe0a9rqqln56su4zG5YASOlFbA0Gfoyn5Hj4nQGbGiPZ9Tdzdl8asiqcRKXhgNjkbqM0Y8U-NNEzQJ0ljkIfBPPCrzE3wzg4YkA&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "BIEN EXPUESTO, DE FRENTE Y SIEMPRE CON LA VERDAD, SALUDOS VICE GOBERNADOR....!!! Jahil Flores"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_pando",
@@ -1091,13 +1091,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Gkk7ExTSIQsQ7kNvwGZYsII&_nc_oc=AdqObZ_TpxnXi9BxD8ZNNuiGRxjdlwzMX6wZQjmq5LVLbNZ6YikqAfJDityu33xoIPo&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=meaP9UsO1e89uQdwJJpYjA&_nc_ss=7f289&oh=00_AQM9D_K5JaHh2DYL1hA-RyQFaNjClkuywLZLES_i2qBdhw&oe=6AE0B66F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02dWgDZEst76qyrvKfchFUKeEu1qAiTs4ZxSxBv9PfC7DCaDLCzmXYyhMVTXBekhcPl?__cft__[0]=AZhajd5wecKrNAOgDVY6vpMtr1SxWVCe-XZ1c7Iy4ZnMQtcRuTxa8655WJs-5Er1FaHrPS7JEZMUYg87NGeSy_T31usuYFyYrgViWT92I6BSDjDladWjR-M6Rpswcb3yHHLjmShZ_VtO7RYIqV8vactrxtg4x0aIju47D6Cv4uiLdMH2gWJtM7GmQJQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CCP I ¡Feliz Día Internacional del Gestor Cultural!… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1227,30 +1236,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NqFUIi2Y1eoQ7kNvwFDHbB7&_nc_oc=AdoQYxSSX_k0YCWo7XjpxBFREs4HpecFfAsRyAO-EU0PWHdaNlEhkUvnpUWEgxNMX1U&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=02DXzAocMHKf2FxzX8zOVg&_nc_ss=7f289&oh=00_AQMxoUhUtvcLNQYihUwk1K0Axqd19orDMDdNICfgo4eLMw&oe=6AE04AB8",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid07rwr13xzW49Aq1gosheS2hBeuapajgA6BCYs42JmPAPda59jtx4V7GvK5Cq4ZXvEl?__cft__[0]=AZhX_AJg_BhioQIsj6rM0HBEfn1hSgs-imcdhw8QL6o8TgKoiFklS5bHxtgK8CKJByXjbrjKSwqH9johUQrk5Rpb5ufA1C3d15MKHbl69Suckb3j1nWKmJKphLme-FXShMgc2ZJvNi1FZnRGIaMECTjiYbuozQq4v-PyTZv17HC1uEB1siT5HKzeQuw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¿Qué le falta a Bolivia para construir su próximo unicornio tecnológico? Más de 150 personas llegaron a nuestro Centro de Convenciones para conversar sobre esta pregunt… Ver más Excelente Salvador Salazar Durán"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/boliviaupsa/posts/pfbid07rwr13xzW49Aq1gosheS2hBeuapajgA6BCYs42JmPAPda59jtx4V7GvK5Cq4ZXvEl?comment_id=2045159086189597&__cft__[0]=AZhX_AJg_BhioQIsj6rM0HBEfn1hSgs-imcdhw8QL6o8TgKoiFklS5bHxtgK8CKJByXjbrjKSwqH9johUQrk5Rpb5ufA1C3d15MKHbl69Suckb3j1nWKmJKphLme-FXShMgc2ZJvNi1FZnRGIaMECTjiYbuozQq4v-PyTZv17HC1uEB1siT5HKzeQuw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Salvador Salazar Durán Excelente 6 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "web_superticket",
@@ -1263,8 +1255,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 11,
-      "events": 10,
+      "raw_items": 10,
+      "events": 9,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1435,32 +1427,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
-          "category": "deporte",
+          "score": 12,
+          "category": "gastronomia",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
+          "score": 54,
+          "category": "festival",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "has_image": true,
+          "text_preview": "22/10/2026 Cultura Dos obras literarias fueron las más requeridas por el público en la FILC Las obras Santa Cruz S.A: agronegocio y mito empresarial y Los Cuentos de los hermanos Grimm, fueron los libros más solicitados por los visitantes a la... vista 21/10/2026 Cultura Pintura: un centenar de artistas comparten su pasión por la acuarela Desde ayer, la pintura y el agua se constituyen en los prin"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 38,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1560,8 +1552,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 51,
-      "events": 51,
+      "raw_items": 54,
+      "events": 54,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1594,8 +1586,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1611,8 +1603,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 8,
-      "events": 8,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1628,8 +1620,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 46,
-      "events": 46,
+      "raw_items": 52,
+      "events": 52,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1662,8 +1654,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
