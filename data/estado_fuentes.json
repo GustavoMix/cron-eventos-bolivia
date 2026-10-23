@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T13:09:41-04:00",
+  "generated_at": "2026-10-23T17:35:29-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,14 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_fides_cbba",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 102.9,
-    "horas_maximo_sin_datos": 1546.0
+    "horas_promedio_sin_datos": 98.5,
+    "horas_maximo_sin_datos": 1550.4
   },
   "sources": [
     {
@@ -45,22 +44,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AeoP0CPd80EQ7kNvwHjdtnZ&_nc_oc=AdpiXnLx25lB6SZH6IdxL1JnZCO4RjVqVVMmpcEaKOND107LQw2o-zuRCUO9WsRUJWQ&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=qpTxM5ZivDE5xlcIkUiiGA&_nc_ss=7f289&oh=00_AQO43JtB8lDrt-t1g4ab2uJDRUTnfMFBkmJbNH_v3dKxvg&oe=6AE16835",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/ConciertosEnBolivia/videos/-no-es-una-fiesta-m%C3%A1s-es-armaged%C3%B3n-con-la-mejor-m%C3%BAsica-de-los-80s-90s-y-2000-dj-/1119975060474764/",
-          "has_image": true,
-          "text_preview": "🎶🚀⚡ NO ES UNA FIESTA MÁS, ES ARMAGEDÓN con la mejor música de los 80s - 90s y 2000 🔝 🔥 DJ Chaskas - Orlando Castedo Coimbra 🎧 Asbel Valenzuela - Asbel Valenzuela 💥 Gisela Vera - Gisela Vera... 🎶🚀⚡ NO ES UNA FIESTA MÁS, ES ARMAGEDÓN con la mejor música de los 80s - 90s y 2000 🔝 🔥 DJ Chaskas - Orlando Castedo Coimbra 🎧 Asbel Valenzuela - Asbel..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -156,13 +146,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=N94dpbE1dA4Q7kNvwHaYzR4&_nc_oc=AdopkE1u_voe3BHXgGiZZn13jnmzMd6jdg4t923jDvWLsdU-FejrDAqO5rx8cQnlMTw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=jnND9RloDfIXzYDGQnbhbQ&_nc_ss=7f289&oh=00_AQMAjHod-elvlX2iGZODiILR0mNsutSkP1NuJiPntzTIDg&oe=6AE1A8C0",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02NsMGvKwi1nzuiDnm44YRyrne5fDaLYgRPjGep25NaiEVe92cKG7asnz89TtPBrkNl?__cft__[0]=AZgdSJOIHDq9Cuj_OrjxSFHup1t9hRFKCkpGVVqCgS6vH0BQFU385jCr8FcQpeWnfJZKJT--wWwIc-V3CH-Ioo0bAdzWhwu17FDcznfyEjYt9ln48o79jM4GOjC1b979sBIMxDOiB3-vi_SfGPRtgV8kkyn_REP3EBEBjzW75dgW5hsXTYmjuFDEpmQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Alcaldía de La Paz activa respuesta inmediata ante las intensas lluvias y atiende puntos críticos de la ciudad … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -292,13 +291,30 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uKDTcIXCFYoQ7kNvwFvG1BZ&_nc_oc=Adp4RtfMSBz2rM0pIESSeU-r80aQSIB_yPVem5xbRlxeCjuZBpficK632_co97cpxYk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=-Yktlm_4fTvYrY0Tjl3_5g&_nc_ss=7f289&oh=00_AQOogHu21kUyyy4FsmxfTC9iVYPWaLNn-0kDvwLPLtYfkw&oe=6AE1ACE6",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1690316396049244/?__cft__[0]=AZgEIFzoh_IHeJfcUvvVNiuVlqbpiq4hZo9QpOn9pZleozfAln4HMxdNl48A0aYpoxHNok9ZyNYRoWi1q46SoY7_n_axIfSf4wiq81m3H7gCxf5M8GhVy1DWQsTk15xHEUM4mampCEDSAqz7EmblzD_vTjyv4sPVAlt2j1B5erimCKKRbrHgGXW_ebeaS6fuaAVt&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#cisterneros se ausentan de #reunión convocada por la #Alcaldía de #Cochabamba. El secretario de Gobernabilidad, Walter Flores, informó que se llamó a una reunión para … Ver más Estamos en reunión cuál se ausentaron, hablé la verdad, quedamos para el lunes Tenemos problemas para reproducir este video. Más información Igna Ugalde"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 34,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1690316396049244/?comment_id=1634775181643933&__cft__[0]=AZgEIFzoh_IHeJfcUvvVNiuVlqbpiq4hZo9QpOn9pZleozfAln4HMxdNl48A0aYpoxHNok9ZyNYRoWi1q46SoY7_n_axIfSf4wiq81m3H7gCxf5M8GhVy1DWQsTk15xHEUM4mampCEDSAqz7EmblzD_vTjyv4sPVAlt2j1B5erimCKKRbrHgGXW_ebeaS6fuaAVt&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Estamos en reunión cuál se ausentaron, hablé la verdad, quedamos para el lunes Igna Ugalde"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber",
@@ -513,13 +529,22 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cNrYlYkJyCkQ7kNvwFTPrYl&_nc_oc=AdqgLFKlAiONhD2pt70X1hzVFtRlpwOl97PWBv7D_i_Y9-ygkozrACnkpr2zXt_XErw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=DGgPp4XrUdzf4LA6EPKZ-Q&_nc_ss=7f289&oh=00_AQP3cRYCkuM26rK7IQi3X73rnl2BohqfY24-7md_t0QYKg&oe=6AE1B637",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1459313779446146/?__cft__[0]=AZgjjqqVkpI4uE3IzDwGcQNghm-u60yqQBZjZeCnaa7jZEsdfALTirP1OKgxTmZjeE7J66E1xikG12zr-GHXG13ECqCKNpJG6fYrd9sEb-Q0mUW21Np3eWDyu2KMnQdiOzUW41Aj-1omBcVl3F8juckW4lJikJJ2W725LRc9vyOSBuQygGkHefpkgq2KCY-rjUg5&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "#publicidad Compra online desde Bolivia con Intermex S.A. Cotiza, compara, infórmate y reserva tus unidades desde cualquier lugar, con asesoría directa para importar… Ver más #publicidad Compra online desde Bolivia con Intermex S.A. Cotiza, compara, infórmate y reserva tus unidades desde cualquier lugar, con asesoría directa para importar… Ver más Tenemos problemas para reproducir este video. Más "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ministerio_culturas",
@@ -615,13 +640,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=u5uudoMg8CUQ7kNvwGFBFG_&_nc_oc=AdpxzQAg4Jv819TPYpn1dKfaezd13j6FWSZ-_R-6E6_2tcQFw-pSCInesUl3qK1Vml4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=xuyNks8N8eh62Q7SlDQQ9A&_nc_ss=7f289&oh=00_AQPgN3qbLsaVAPxvGFl7lU_HSwAciX-NKHAWhy3xC4nIzw&oe=6AE18873",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "tecnologia",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/videos/presentaci%C3%B3nlibro-l-%F0%9D%97%A3%F0%9D%98%82%F0%9D%97%B2%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B2%F0%9D%97%B9-%F0%9D%97%B3%F0%9D%98%82%F0%9D%97%B2%F0%9D%97%B4%F0%9D%97%BC-%F0%9D%98%80%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%BF%F0%9D%97%AE%F0%9D%97%B1%F0%9D%97%BC-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%BB%F0%9D%98%82%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%BC%F0%9D%98%80-%F0%9D%98%80%F0%9D%97%AE%F0%9D%97%AF%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B2%F0%9D%98%80-%F0%9D%97%B1%F0%9D%97%B6%F0%9D%97%AE%F0%9D%97%B9%F0%9D%97%BC%F0%9D%97%B4%F0%9D%97%AE%F0%9D%97%BF-%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%97%B6/1636000964634613/",
+          "has_image": true,
+          "text_preview": "#PresentaciónLibro l ¿𝗣𝘂𝗲𝗱𝗲 𝗲𝗹 𝗳𝘂𝗲𝗴𝗼 𝘀𝗮𝗴𝗿𝗮𝗱𝗼 𝗱𝗲 𝗻𝘂𝗲𝘀𝘁𝗿𝗼𝘀 𝘀𝗮𝗯𝗲𝗿𝗲𝘀 𝗱𝗶𝗮𝗹𝗼𝗴𝗮𝗿 𝗰𝗼𝗻 𝗹𝗮 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗮𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹? Descúbrelo en la presentación del libro \"El fuego sagrado y … Ver más #PresentaciónLibro l ¿𝗣𝘂𝗲𝗱𝗲 𝗲𝗹 𝗳𝘂𝗲𝗴𝗼 𝘀𝗮𝗴𝗿𝗮𝗱𝗼 𝗱𝗲 𝗻𝘂𝗲𝘀𝘁𝗿𝗼𝘀 𝘀𝗮𝗯𝗲𝗿𝗲𝘀 𝗱𝗶𝗮𝗹𝗼𝗴𝗮𝗿 𝗰𝗼𝗻 𝗹𝗮 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗮𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹? Descúbrelo en la presentación del libro \"El fuego sagrado y … Ver más Tenemos problemas para reproducir este video. Má"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -955,22 +989,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BbQPuraAo7kQ7kNvwFC2j62&_nc_oc=AdotX-WvoMp5YZVRvGgFLG7AUzCCQnfJ_M3CgQ6IxNDCmEmS-4Z-Ga08cXH5zc1qa1Q&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=-9B1O_FEhMCanVlW99u-mQ&_nc_ss=7f289&oh=00_AQNukNZH2FG0iApaKwc6UGG8-6Xd4O5lyHCR_DukgBSeLQ&oe=6AE160D7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 37,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/herminio-pedraza-r-bocetos-acuarelas-una-conmovedora-exposici%C3%B3n-que-conmemora-lo/1591856579649480/",
-          "has_image": true,
-          "text_preview": "Herminio Pedraza R. , BOCETOS & ACUARELAS, una conmovedora exposición que conmemora los 20 años del fallecimiento del célebre maestro cruceño. Obras inéditas, cuadros de su época temprana y objetos... Herminio Pedraza R. , BOCETOS & ACUARELAS, una conmovedora exposición que conmemora los 20 años del fallecimiento del célebre maestro cruceño. Obras... Herminio Pedraza R. , BOCETOS & ACUARELAS, una "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1117,13 +1142,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=F4HHihNuJDoQ7kNvwFKcDqO&_nc_oc=AdpRWz1UC1ZEFj2lFTpCi_Lf8pxWj02JkXhE2VL2IGnDx1iwbXhgJC-UMc4KffCb8YM&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=cgF_dhDk_kG2OMy6sEMSOA&_nc_ss=7f289&oh=00_AQN-dH0pF8yBV0CVag_vlp-Am8bnWlnneF4sMtht4mmVYw&oe=6AE17524",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_usfx",
@@ -1493,9 +1518,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 33,
+      "raw_items": 34,
       "events": 0,
-      "rejected": 33,
+      "rejected": 34,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1603,8 +1628,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 52,
-      "events": 52,
+      "raw_items": 50,
+      "events": 50,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
