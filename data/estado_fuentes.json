@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T11:59:35-04:00",
+  "generated_at": "2026-10-24T16:59:04-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,14 +9,16 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_alianza_francesa_lapaz",
+      "fb_fipaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_radio_fides",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 104.2,
-    "horas_maximo_sin_datos": 1568.8
+    "horas_promedio_sin_datos": 107.8,
+    "horas_maximo_sin_datos": 1573.8
   },
   "sources": [
     {
@@ -420,12 +422,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Radio Fides de Bolivia 591 mil seguidores • 255 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a u'"
     },
     {
       "id": "fb_anf",
@@ -657,22 +659,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HmD2vrQ_Ic8Q7kNvwFcDMz4&_nc_oc=AdqNxQfrlEJGB2VNpgefetS8yBOomIbnXp-1nNjYsZxteOXu4h8uoQOrnTCVgQQTnXA&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=Q3w-Mx8x8e4DD1W_HiUVag&_nc_ss=7f289&oh=00_AQOsn5s1AJKap6VgUpqJrVnKSC0nglqr1m-EUF1bNo-ClA&oe=6AE2C3F8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/MunicipiodeSucreBolivia/posts/pfbid02FsrU14FcpJv8jESYVYqpWXgj9VatzEMU7izGnz5veDksbszDfDjaMywdwx3Shc8sl?__cft__[0]=AZhPoLh1xCuv_W1N-O3soZwahtZIrlBdKU6WRFCf3ZyoSeS0j6xZYvWDNlNnKjAa-EcHqBNHWNy99pAmss4SiNaR5wnmuQg6FQHg-TM8s7XTmPK_gHjApbAp749Ca4YgOiHI27ZQ1tHxUHB_KLrhbMgdFh1EaM0agst8ddmFi8eo-Lf3tWU69MfvwAp2qmzT9_ZQY1QCvXbaGcqduFE&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "El Gobierno Autónomo Municipal de Sucre a través de las ocho Subalcaldías continúa trabajando sin parar por el desarrollo, la seguridad y el bienestar de todas nuest… Ver más Tenemos problemas para reproducir este video. Más información Distritos de Sucre - GAMS hace 4 horas 4 h ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_oruro",
@@ -700,30 +693,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/860022429_1591124346393630_4143973801356347298_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RCuOlS-f7G8Q7kNvwFYdD2D&_nc_oc=AdqdPZgt2HNxyHFuPbeWkb2ckFSsiB6zKeqf9GmRBhA3Qg8qtTw9MsXTML_hhJ4wuis&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Ga_HrG8aZABrmcd_dw1sgw&_nc_ss=7f289&oh=00_AQOtMQYLpbZeht1nMSjDOsZOiRiJhVk_4CcjvBvY4GeygQ&oe=6AE29A88",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1105768102292264/?__cft__[0]=AZhmMZajNs58oHvZtCSAMj4zNv-qL2R_JCY__5Ke938lwqKxQ51i54JP4Y7JXhop0N2cvCSsUo4zmLNZzA_YRdDfOi1YzqZaStyRMbrcsLeTjYK_9CLWVx-yLbFgpLYVCH2hUhLGCktTM2hX4ZJlLb83Zeijt76hZ067zVzqcI4Tn-t9tgwNeV_f1YNmuJXBO7jR&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Nos llena de orgullo invitarlos a descubrir Tarija, una tierra de paisajes encantadores, sabores únicos, tradiciones vivas y gente maravillosa.… Ver más Exelente Gestión Queriu Alcalde!!! Tenemos problemas para reproducir este video. Más información Ver más comentarios Leonardo Caliva"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1105768102292264/?comment_id=1422035283239959&__cft__[0]=AZhmMZajNs58oHvZtCSAMj4zNv-qL2R_JCY__5Ke938lwqKxQ51i54JP4Y7JXhop0N2cvCSsUo4zmLNZzA_YRdDfOi1YzqZaStyRMbrcsLeTjYK_9CLWVx-yLbFgpLYVCH2hUhLGCktTM2hX4ZJlLb83Zeijt76hZ067zVzqcI4Tn-t9tgwNeV_f1YNmuJXBO7jR&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Exelente Gestión Queriu Alcalde!!! Leonardo Caliva"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -871,12 +847,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? FIPAZ - Feria Internacional de La Paz 73 mil seguidores • 120 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pue'"
     },
     {
       "id": "fb_feicobol",
@@ -938,30 +914,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=W3rbGeP_0DUQ7kNvwERq-OC&_nc_oc=AdqwMErZATdrZSuZ2N2LrY-nQVJGhCBOUyEh6i0oyAYPtmCjPRa5PaGYeOH5JzpcoxQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=LTWvzZuuuJvyk6OHLRUHPQ&_nc_ss=7f289&oh=00_AQNBWXnmjcy-BKwFo4O4SaMieq8gPN84PnREHeTYzqf16A&oe=6AE2B938",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02VwYWAnNJp4uWp3C2Aom6bdtgtKyeAkmWg9V9Nf8DbSEtxXp9uvfuRjkfAvx5e9Hql?__cft__[0]=AZgTwFwbW8xZtP_IJeC17gTF1sk6TJzLV9Y15d8Wmel0_mi1YgScCgEUZ63XHMefn7RRlH7wDR8fM_qs89lsk7zs8QudRe5eEkvn1EmL2u1KsqijPbMM2ywHxO4m-x0qfQjpI5viYI_NjdEGtM--3o_w8iqo1tgQuaeKQMbIyw0e-m5p6NaVlz_ksjk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡LA NOCHE DEL CEMENTERIO: EL ÚLTIMO DÍA! Una experiencia única está por comenzar…… Ver más ¡LA NOCHE DEL CEMENTERIO: EL ÚLTIMO DÍA! Una experiencia única está por comenzar…… Ver más Bbs Nicolet Bitre Nataly Ximena Castro Nayra Vasquez Lobo"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02VwYWAnNJp4uWp3C2Aom6bdtgtKyeAkmWg9V9Nf8DbSEtxXp9uvfuRjkfAvx5e9Hql?comment_id=1084938144313600&__cft__[0]=AZgTwFwbW8xZtP_IJeC17gTF1sk6TJzLV9Y15d8Wmel0_mi1YgScCgEUZ63XHMefn7RRlH7wDR8fM_qs89lsk7zs8QudRe5eEkvn1EmL2u1KsqijPbMM2ywHxO4m-x0qfQjpI5viYI_NjdEGtM--3o_w8iqo1tgQuaeKQMbIyw0e-m5p6NaVlz_ksjk&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Bbs Nicolet Bitre Nataly Ximena Castro Nayra Vasquez Lobo"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1023,13 +982,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eDZGspV_o1IQ7kNvwFYXiJH&_nc_oc=AdpMOUTH8gZcOyZIzVwr6crcy_c0WQaHkGKKvcYnZoP7T2eDMaWLlmua72tGkysUvEc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=0qgowKu7sIEaFxYVx7smiA&_nc_ss=7f289&oh=00_AQM97UQK9iM-s1AGn1tjh2yIWoqvKrvS5JdiDTMI2kxeFg&oe=6AE3016A",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1435,28 +1394,28 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 15,
-          "category": "deporte",
+          "score": 43,
+          "category": "gastronomia",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, conocidos localmente como las sabanas del Beni, son uno de los puntos de parada más concurridos por las viajeras del cielo. vista 12/10/2026 Cocina El chef estrella Michelin Hans Lange reinventa el pique macho en Essen Hans Robert Lange Rodríguez hizo historia al"
+          "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 49,
-          "category": "deporte",
+          "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "23/10/2026 Cultura Concierto: los coros municipales anuncian su quinta presentación Los Coros Municipales de Cochabamba vuelven al escenario este sábado (19:30) para protagonizar el Concierto Coral en el Centro Artístico Cultural Bicentenario. vista 22/10/2026 Cultura Dos obras literarias fueron las más requeridas por el público en la FILC Las obras Santa Cruz S.A: agronegocio y mito empresarial y"
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 49,
+          "score": 36,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1560,8 +1519,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 41,
-      "events": 41,
+      "raw_items": 52,
+      "events": 52,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1594,8 +1553,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1611,8 +1570,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1628,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 53,
-      "events": 53,
+      "raw_items": 56,
+      "events": 56,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1662,8 +1621,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
