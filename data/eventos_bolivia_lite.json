@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-24T16:59:04-04:00",
+  "generated_at": "2026-10-24T19:17:44-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 106,
+    "events_total": 107,
     "events_today": 18
   },
   "filters": {
@@ -90,7 +90,7 @@
       {
         "key": "conferencia",
         "label": "Conferencias",
-        "count": 4
+        "count": 5
       },
       {
         "key": "turismo",
@@ -127,7 +127,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 22
+        "count": 23
       },
       {
         "key": "Santa Cruz de la Sierra",
@@ -174,7 +174,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 21
+        "count": 22
       },
       {
         "key": "Santa Cruz",
@@ -216,24 +216,24 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 37
+        "count": 38
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 62
+        "count": 63
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 106
+        "count": 107
       }
     ],
     "price": [
       {
         "key": "gratis",
         "label": "Gratis",
-        "count": 5
+        "count": 6
       },
       {
         "key": "pagado",
@@ -250,7 +250,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 95
+        "count": 96
       },
       {
         "key": "con_video",
@@ -287,6 +287,46 @@
       {
         "key": "1495",
         "label": "1495",
+        "count": 1
+      },
+      {
+        "key": "horizontescompartidos",
+        "label": "horizontescompartidos",
+        "count": 1
+      },
+      {
+        "key": "miciudadmañana",
+        "label": "miciudadmañana",
+        "count": 1
+      },
+      {
+        "key": "ciudadessostenibles",
+        "label": "ciudadessostenibles",
+        "count": 1
+      },
+      {
+        "key": "desarrollourbano",
+        "label": "desarrollourbano",
+        "count": 1
+      },
+      {
+        "key": "sostenibilidad",
+        "label": "sostenibilidad",
+        "count": 1
+      },
+      {
+        "key": "urbanismo",
+        "label": "urbanismo",
+        "count": 1
+      },
+      {
+        "key": "politicasclimaticas",
+        "label": "politicasclimaticas",
+        "count": 1
+      },
+      {
+        "key": "resilienciaurbana",
+        "label": "resilienciaurbana",
         "count": 1
       },
       {
@@ -338,46 +378,6 @@
         "key": "MUSEFSucre",
         "label": "MUSEFSucre",
         "count": 1
-      },
-      {
-        "key": "Xilografía",
-        "label": "Xilografía",
-        "count": 1
-      },
-      {
-        "key": "TallerDeArte",
-        "label": "TallerDeArte",
-        "count": 1
-      },
-      {
-        "key": "CulturaViva",
-        "label": "CulturaViva",
-        "count": 1
-      },
-      {
-        "key": "SucreCultural",
-        "label": "SucreCultural",
-        "count": 1
-      },
-      {
-        "key": "RTvU",
-        "label": "RTvU",
-        "count": 1
-      },
-      {
-        "key": "FeriaProfesiográfica",
-        "label": "FeriaProfesiográfica",
-        "count": 1
-      },
-      {
-        "key": "Carreras",
-        "label": "Carreras",
-        "count": 1
-      },
-      {
-        "key": "Vinculación",
-        "label": "Vinculación",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -387,14 +387,14 @@
         "count": 48
       },
       {
-        "key": "cultura_oficial",
-        "label": "cultura_oficial",
+        "key": "venue",
+        "label": "venue",
         "count": 15
       },
       {
-        "key": "venue",
-        "label": "venue",
-        "count": 14
+        "key": "cultura_oficial",
+        "label": "cultura_oficial",
+        "count": 15
       },
       {
         "key": "cartelera_cine",
@@ -491,6 +491,7 @@
     ],
     "free": [
       "evt_3ee8f53e0179b4",
+      "evt_b94197ac987d93",
       "evt_dea592c7788fb3",
       "evt_f00b6b3b9d40e1",
       "evt_ba15d62df4cd50",
@@ -542,15 +543,15 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 37,
-      "events_upcoming": 21,
-      "events_with_image": 20,
+      "events_total": 38,
+      "events_upcoming": 22,
+      "events_with_image": 21,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 3
+      "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 47,
+      "events_total": 46,
       "events_upcoming": 37,
       "events_with_image": 37,
       "events_with_video": 1,
@@ -558,7 +559,7 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 35,
+      "events_total": 33,
       "events_upcoming": 17,
       "events_with_image": 12,
       "events_with_video": 1,
@@ -595,7 +596,7 @@
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Beni": {
       "events_total": 0,
@@ -617,7 +618,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 57,
+      "events_total": 56,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0
@@ -631,9 +632,9 @@
     },
     "conferencia": {
       "label": "Conferencias",
-      "events_total": 4,
-      "events_upcoming": 4,
-      "events_with_image": 4,
+      "events_total": 5,
+      "events_upcoming": 5,
+      "events_with_image": 5,
       "events_with_video": 0
     },
     "danza": {
@@ -687,7 +688,7 @@
     },
     "taller": {
       "label": "Talleres y cursos",
-      "events_total": 6,
+      "events_total": 4,
       "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
@@ -2181,58 +2182,45 @@
       "showtimes": [
         "18:30",
         "21:00",
-        "17:00",
         "19:30",
         "22:00",
         "20:00",
-        "22:30",
-        "16:10",
-        "18:50",
-        "21:30",
-        "16:20",
         "19:50",
         "22:10",
         "18:40",
-        "16:30",
+        "22:30",
+        "18:50",
+        "21:30",
+        "18:45",
+        "22:20",
         "19:10",
         "22:50",
-        "18:45",
-        "17:30",
-        "22:20",
-        "22:40",
-        "17:40"
+        "22:40"
       ],
       "formats": [
         "2D - DBOX - Doblada",
         "2D - DBOX - XD - Doblada",
         "2D - PRE - Subtitulada",
         "2D - Doblada",
-        "2D - PRE - Doblada",
         "2D - Lenguaje Original"
       ],
       "occurrences": [
         "2026-10-24T18:30:00-04:00",
         "2026-10-24T21:00:00-04:00",
-        "2026-10-24T17:00:00-04:00",
         "2026-10-24T19:30:00-04:00",
         "2026-10-24T22:00:00-04:00",
         "2026-10-24T20:00:00-04:00",
-        "2026-10-24T22:30:00-04:00",
-        "2026-10-24T16:10:00-04:00",
-        "2026-10-24T18:50:00-04:00",
-        "2026-10-24T21:30:00-04:00",
-        "2026-10-24T16:20:00-04:00",
         "2026-10-24T19:50:00-04:00",
         "2026-10-24T22:10:00-04:00",
         "2026-10-24T18:40:00-04:00",
-        "2026-10-24T16:30:00-04:00",
+        "2026-10-24T22:30:00-04:00",
+        "2026-10-24T18:50:00-04:00",
+        "2026-10-24T21:30:00-04:00",
+        "2026-10-24T18:45:00-04:00",
+        "2026-10-24T22:20:00-04:00",
         "2026-10-24T19:10:00-04:00",
         "2026-10-24T22:50:00-04:00",
-        "2026-10-24T18:45:00-04:00",
-        "2026-10-24T17:30:00-04:00",
-        "2026-10-24T22:20:00-04:00",
-        "2026-10-24T22:40:00-04:00",
-        "2026-10-24T17:40:00-04:00"
+        "2026-10-24T22:40:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2621,6 +2609,44 @@
       "cast": [],
       "quality_score": 72,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_b94197ac987d93",
+      "title": "Alianza Francesa de La Paz",
+      "category": "conferencia",
+      "category_label": "Conferencias",
+      "starts_at": "2026-10-27T19:00:00-04:00",
+      "starts_at_ms": 1793142000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 27 de octubre · 19:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 3,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/861499312_2283316575858059_4723921972951844363_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=100&ccb=1-7&_nc_sid=b96d88&_nc_ohc=eK6JzM9faogQ7kNvwHemHU8&_nc_oc=AdpfzU4KyEk6oFPRcNEqyw5wH6lkGoyKWBN5OY8whXPObSDT2_oFKFpCQh4yZeR7wyw&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=tKKVi3iSl3RMV6e_3JKp1w&_nc_ss=7f289&oh=00_AQMR7dahR_fiJmrDxGb33oMlkC_Oi9QZBWj-ha7FeAd1dA&oe=6AE2FD52",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": true,
+      "price_from": null,
+      "currency": null,
+      "price_label": "Entrada libre",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 63,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },

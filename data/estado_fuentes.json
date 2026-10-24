@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T16:59:04-04:00",
+  "generated_at": "2026-10-24T19:17:44-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,17 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alianza_francesa_lapaz",
       "fb_fipaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_radio_fides",
-      "fb_teatro_aire_libre"
+      "fb_teatro_aire_libre",
+      "fb_uagrm"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 107.8,
-    "horas_maximo_sin_datos": 1573.8
+    "horas_promedio_sin_datos": 105.8,
+    "horas_maximo_sin_datos": 1576.1
   },
   "sources": [
     {
@@ -421,13 +420,30 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dR7WV2pfrwsQ7kNvwHJgaO6&_nc_oc=AdocE8PklxRihfSjhik3aGhL_ug3A9lSxk3d5q8kBrlIIOEBisnBA3NNYi6emyMR9-M&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=T3ipHPe0eWITqfdUaSKGCg&_nc_ss=7f289&oh=00_AQOJKg-zTrCc1lHM-F5nYyuI8MMH9a5UUzac3SRD7iQSdg&oe=6AE30548",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Radio Fides de Bolivia 591 mil seguidores • 255 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a u'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02Ld4cfnBgJrSWxieJ3j5s6ba7D2E5aEY4t7pFBW6cSQ27PQuHMkK1SfhPURhLwb2ol?__cft__[0]=AZg9pawRjk8Nieel-NusCLO1jcjjtHtyi9GsPydFymRTCXLcUoIgW7pI7dkuA57XoAlhrihLS1XhQ0EmC1ZB-CiNdhiXqIWZHoBB8l9xLKLUPTZHFhWhv8FFg0oDypKRA2tkxkhMT7VSNTY02dg1pqTbVJAloIaXNydfhFs4CK5SObIzGIPYDqRrZQ0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#GrupoFides | #RadioFidesTrinidad Se presume que uno de estos proyectos se encuentra dentro de la Reserva Nacional de Vida Silvestre Amazónica Manuripi. Lea la nota a… Ver más #GrupoFides | #RadioFidesTrinidad Se presume que uno de estos proyectos se encuentra dentro de la Reserva Nacional de Vida Silvestre Amazónica Manuripi. Lea la nota a… Ver más Sera? Ver más comentarios Ely Ayala Hurtado"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02Ld4cfnBgJrSWxieJ3j5s6ba7D2E5aEY4t7pFBW6cSQ27PQuHMkK1SfhPURhLwb2ol?comment_id=1775341700356384&__cft__[0]=AZg9pawRjk8Nieel-NusCLO1jcjjtHtyi9GsPydFymRTCXLcUoIgW7pI7dkuA57XoAlhrihLS1XhQ0EmC1ZB-CiNdhiXqIWZHoBB8l9xLKLUPTZHFhWhv8FFg0oDypKRA2tkxkhMT7VSNTY02dg1pqTbVJAloIaXNydfhFs4CK5SObIzGIPYDqRrZQ0&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Ely Ayala Hurtado Sera? 41 min"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_anf",
@@ -852,7 +868,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? FIPAZ - Feria Internacional de La Paz 73 mil seguidores • 120 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pue'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Indicador de estado activo FIPAZ - Feria Internacional de La Paz 73 mil seguidores • 120 seguidos Más Publicaciones Información Reels Fotos Esta página no está dis'"
     },
     {
       "id": "fb_feicobol",
@@ -897,13 +913,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q-Tw_E284xIQ7kNvwFgxZ7v&_nc_oc=AdrVBObRU0QgBpjTb2BeSzvhXyOB3VJcTUHcu6vs7ycxshbQwy8ufRIUK0Uu_9bGZoA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=8tiyBhgNBskgpLY6Jf3yIg&_nc_ss=7f289&oh=00_AQN1iUpAY_z_lF6IBAB_nzhzFBZhLJyY98nQFb8OeJXq1w&oe=6AE32047",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de La Paz 46 mil seguidores • 121 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -982,13 +998,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eDZGspV_o1IQ7kNvwFYXiJH&_nc_oc=AdpMOUTH8gZcOyZIzVwr6crcy_c0WQaHkGKKvcYnZoP7T2eDMaWLlmua72tGkysUvEc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=0qgowKu7sIEaFxYVx7smiA&_nc_ss=7f289&oh=00_AQM97UQK9iM-s1AGn1tjh2yIWoqvKrvS5JdiDTMI2kxeFg&oe=6AE3016A",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1153,12 +1169,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Indicador de estado activo Universidad Autónoma Gabriel René Moreno UAGRM 30 mil seguidores • 64 seguidos Más Publicaciones Información Reels Fotos Esta página no '"
     },
     {
       "id": "fb_umss",
@@ -1394,8 +1410,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1587,8 +1603,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 56,
-      "events": 56,
+      "raw_items": 54,
+      "events": 54,
       "rejected": 0,
       "rejected_samples": [],
       "error": null

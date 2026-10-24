@@ -1,20 +1,20 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-24T16:59:04-04:00",
+  "generated_at": "2026-10-24T19:17:44-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 159,
-    "events_upcoming": 106,
+    "events_total": 157,
+    "events_upcoming": 107,
     "events_today": 18,
-    "events_with_date": 159,
-    "events_free": 5,
-    "events_with_image": 146,
+    "events_with_date": 157,
+    "events_free": 6,
+    "events_with_image": 145,
     "events_with_video": 7,
     "events_corroborated": 1,
-    "events_seen_this_run": 34,
+    "events_seen_this_run": 32,
     "sources_total": 93,
-    "sources_ok": 21,
-    "sources_blocked": 7,
+    "sources_ok": 22,
+    "sources_blocked": 6,
     "sources_error": 3,
     "sources_skipped": 62
   },
@@ -102,7 +102,7 @@
       {
         "key": "conferencia",
         "label": "Conferencias",
-        "count": 4
+        "count": 5
       },
       {
         "key": "turismo",
@@ -139,7 +139,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 22
+        "count": 23
       },
       {
         "key": "Santa Cruz de la Sierra",
@@ -186,7 +186,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 21
+        "count": 22
       },
       {
         "key": "Santa Cruz",
@@ -228,24 +228,24 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 37
+        "count": 38
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 62
+        "count": 63
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 106
+        "count": 107
       }
     ],
     "price": [
       {
         "key": "gratis",
         "label": "Gratis",
-        "count": 5
+        "count": 6
       },
       {
         "key": "pagado",
@@ -262,7 +262,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 95
+        "count": 96
       },
       {
         "key": "con_video",
@@ -299,6 +299,46 @@
       {
         "key": "1495",
         "label": "1495",
+        "count": 1
+      },
+      {
+        "key": "horizontescompartidos",
+        "label": "horizontescompartidos",
+        "count": 1
+      },
+      {
+        "key": "miciudadmañana",
+        "label": "miciudadmañana",
+        "count": 1
+      },
+      {
+        "key": "ciudadessostenibles",
+        "label": "ciudadessostenibles",
+        "count": 1
+      },
+      {
+        "key": "desarrollourbano",
+        "label": "desarrollourbano",
+        "count": 1
+      },
+      {
+        "key": "sostenibilidad",
+        "label": "sostenibilidad",
+        "count": 1
+      },
+      {
+        "key": "urbanismo",
+        "label": "urbanismo",
+        "count": 1
+      },
+      {
+        "key": "politicasclimaticas",
+        "label": "politicasclimaticas",
+        "count": 1
+      },
+      {
+        "key": "resilienciaurbana",
+        "label": "resilienciaurbana",
         "count": 1
       },
       {
@@ -350,46 +390,6 @@
         "key": "MUSEFSucre",
         "label": "MUSEFSucre",
         "count": 1
-      },
-      {
-        "key": "Xilografía",
-        "label": "Xilografía",
-        "count": 1
-      },
-      {
-        "key": "TallerDeArte",
-        "label": "TallerDeArte",
-        "count": 1
-      },
-      {
-        "key": "CulturaViva",
-        "label": "CulturaViva",
-        "count": 1
-      },
-      {
-        "key": "SucreCultural",
-        "label": "SucreCultural",
-        "count": 1
-      },
-      {
-        "key": "RTvU",
-        "label": "RTvU",
-        "count": 1
-      },
-      {
-        "key": "FeriaProfesiográfica",
-        "label": "FeriaProfesiográfica",
-        "count": 1
-      },
-      {
-        "key": "Carreras",
-        "label": "Carreras",
-        "count": 1
-      },
-      {
-        "key": "Vinculación",
-        "label": "Vinculación",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -399,14 +399,14 @@
         "count": 48
       },
       {
-        "key": "cultura_oficial",
-        "label": "cultura_oficial",
+        "key": "venue",
+        "label": "venue",
         "count": 15
       },
       {
-        "key": "venue",
-        "label": "venue",
-        "count": 14
+        "key": "cultura_oficial",
+        "label": "cultura_oficial",
+        "count": 15
       },
       {
         "key": "cartelera_cine",
@@ -503,6 +503,7 @@
     ],
     "free": [
       "evt_3ee8f53e0179b4",
+      "evt_b94197ac987d93",
       "evt_dea592c7788fb3",
       "evt_f00b6b3b9d40e1",
       "evt_ba15d62df4cd50",
@@ -554,15 +555,15 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 37,
-      "events_upcoming": 21,
-      "events_with_image": 20,
+      "events_total": 38,
+      "events_upcoming": 22,
+      "events_with_image": 21,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 3
+      "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 47,
+      "events_total": 46,
       "events_upcoming": 37,
       "events_with_image": 37,
       "events_with_video": 1,
@@ -570,7 +571,7 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 35,
+      "events_total": 33,
       "events_upcoming": 17,
       "events_with_image": 12,
       "events_with_video": 1,
@@ -607,7 +608,7 @@
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Beni": {
       "events_total": 0,
@@ -629,7 +630,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 57,
+      "events_total": 56,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0
@@ -643,9 +644,9 @@
     },
     "conferencia": {
       "label": "Conferencias",
-      "events_total": 4,
-      "events_upcoming": 4,
-      "events_with_image": 4,
+      "events_total": 5,
+      "events_upcoming": 5,
+      "events_with_image": 5,
       "events_with_video": 0
     },
     "danza": {
@@ -699,7 +700,7 @@
     },
     "taller": {
       "label": "Talleres y cursos",
-      "events_total": 6,
+      "events_total": 4,
       "events_upcoming": 3,
       "events_with_image": 2,
       "events_with_video": 0
@@ -727,17 +728,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alianza_francesa_lapaz",
       "fb_fipaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_radio_fides",
-      "fb_teatro_aire_libre"
+      "fb_teatro_aire_libre",
+      "fb_uagrm"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 107.8,
-    "horas_maximo_sin_datos": 1573.8
+    "horas_promedio_sin_datos": 105.8,
+    "horas_maximo_sin_datos": 1576.1
   },
   "events": [
     {
@@ -1701,7 +1701,7 @@
       "url": "https://ticket.bo/eventos/el-var-la-gran-final",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "EL VAR La Gran Final | TicketBO",
       "description": "Deportes EL VAR La Gran Final 19 de julio de 2026 · 15:00 hrs Puertas: 12:00 Zu Av. Montenegro 954, La Paz, Bolivia Scroll Fecha 19 JUL domingo 2026 Hora 15:00 Puertas: 12:00 Venue Zu Av. Montenegro 954, La Paz, Bolivia Categoría DEPORTES Apto para todo público 1 Tipos de\nentrada Sobre el evento La final del Mundial en EL VAR El partido más esperado del mundo lo vives en EL VAR — la mejor experiencia para ver fútbol en La Paz. Pantalla gigante de 8x4 metros, ambiente de estadio y tu mesa reservada para que no te pierdas nada.\n\n19 de julio, 2026. La gran final del Mundial, donde el fútbol se ve diferente. Información CÓMO ACCEDER Ingreso desde medio día. Se requiere presentar tu entrada digital en puerta.\n\n🎟️ Las reservas tienen un costo fijo por mesa que garantiza tu lugar durante todo el partido.\n\n🚫 No se permite el ingreso con alimentos o bebidas externas. Evento para toda la familia Restricción de edad Apto para todo público Ubicación CÓMO LLEGAR ZU Av. Montenegro 954, La Paz, Bolivia Ver en Google Maps → El monto pagado corresponde al acceso al evento — NO es canjeable en consumo. Selecciona tus tickets ELIGE TU ENTRADA Mesa 29 disponibles Bs. 100 BOB Precio varía según capacidad de mesa Selección de asiento Seleccionar asiento → EL VAR La Gran Final Bs. 100 Comprar ahora → 🔥 ¡Mesas limitadas — asegura la tuya ahora! Comprar ahora →",
       "original_text": "Deportes EL VAR La Gran Final 19 de julio de 2026 · 15:00 hrs Puertas: 12:00 Zu Av. Montenegro 954, La Paz, Bolivia Scroll Fecha 19 JUL domingo 2026 Hora 15:00 Puertas: 12:00 Venue Zu Av. Montenegro 954, La Paz, Bolivia Categoría DEPORTES Apto para todo público 1 Tipos de\nentrada Sobre el evento La final del Mundial en EL VAR El partido más esperado del mundo lo vives en EL VAR — la mejor experiencia para ver fútbol en La Paz. Pantalla gigante de 8x4 metros, ambiente de estadio y tu mesa reservada para que no te pierdas nada.\n\n19 de julio, 2026. La gran final del Mundial, donde el fútbol se ve diferente. Información CÓMO ACCEDER Ingreso desde medio día. Se requiere presentar tu entrada digital en puerta.\n\n🎟️ Las reservas tienen un costo fijo por mesa que garantiza tu lugar durante todo el partido.\n\n🚫 No se permite el ingreso con alimentos o bebidas externas. Evento para toda la familia Restricción de edad Apto para todo público Ubicación CÓMO LLEGAR ZU Av. Montenegro 954, La Paz, Bolivia Ver en Google Maps → El monto pagado corresponde al acceso al evento — NO es canjeable en consumo. Selecciona tus tickets ELIGE TU ENTRADA Mesa 29 disponibles Bs. 100 BOB Precio varía según capacidad de mesa Selección de asiento Seleccionar asiento → EL VAR La Gran Final Bs. 100 Comprar ahora → 🔥 ¡Mesas limitadas — asegura la tuya ahora! Comprar ahora →",
@@ -1812,8 +1812,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": false,
@@ -1834,7 +1834,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/https-www-fexpocruz-com-bo-expocruz-2026",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Expocruz 2026",
       "description": "EN Feria Internacional de Santa Cruz Inicio Ferias Expocruz 2026 Sobre Expocruz 2026 🗓️ Del 18 al 27 de Septiembre de 2026 ⏰ HORARIOS: 17:00 a 00:00 hrs 📍 FEXPOCRUZ Es la feria multisectorial más completa de América Latina. Es el escenario donde convergen todos los sectores productivos del país y la región en 10 días de oportunidades, negocios y entretenimiento. En estas avenidas y pabellones se exhibe lo mejor del empresariado nacional e internacional. En este gran evento surgen alianzas y se fortalecen lazos internacionales, comerciales y sociales. Cada septiembre los ojos del mundo se sitúan en Santa Cruz, para un encuentro donde se dinamizan las diferentes actividades económicas a gran escala un ambiente de felicidad, oportunidades, negocios, familia y celebraciones. Expositores y visitantes son el motor de esta muestra ferial, que dimensiona la importancia del esfuerzo en conjunto de todos quienes trabajan por el desarrollo del país y la región. Esta feria trasciende generaciones y se constituye en un punto de convergencia donde se juntan sueños y se concretan nuevos proyectos. ‍ INSCRIPCIÓN DE ANIMALES Confirmá la presencia de tus ejemplares en el sector pecuario de Expocruz 2026. Descargá los formularios de inscripción y el reglamento de participación aquí ‍ Principales Atracciones Expositores Nacionales e Internacionales Oportunidades de Negocio e Inversión Shows y Entretenimiento Promociones y Descuentos dESCUBRÍ LAS Categorías Servicios y Emprendimientos Conocé iniciativas y servicios que impulsan la creatividad empresarial. Maquinaria y Equipos Industriales Descubrí soluciones en maquinaria y equipos que potencian la productividad industrial. Automotriz Explorá la innovación en vehículos y transporte que redefinen el sector automotriz. Consumo Masivo Conocé más del mercado de bienes que marcan tendencia en el consumo masivo. Agroindustria Encontrá prácticas y tecnología claves para optimizar el sector agropecuario. Desarrollo Inmobiliario Descubrí oportunidades en proyectos que están transformando el sector inmobiliario. Industria y Comercio Conocé las soluciones y productos que están revolucionando la industria y el comercio. Tecnologia e Innovación Descubrí las últimas tendencias que están transformando el mundo y los negocios. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Pr",
       "original_text": "EN Feria Internacional de Santa Cruz Inicio Ferias Expocruz 2026 Sobre Expocruz 2026 🗓️ Del 18 al 27 de Septiembre de 2026 ⏰ HORARIOS: 17:00 a 00:00 hrs 📍 FEXPOCRUZ Es la feria multisectorial más completa de América Latina. Es el escenario donde convergen todos los sectores productivos del país y la región en 10 días de oportunidades, negocios y entretenimiento. En estas avenidas y pabellones se exhibe lo mejor del empresariado nacional e internacional. En este gran evento surgen alianzas y se fortalecen lazos internacionales, comerciales y sociales. Cada septiembre los ojos del mundo se sitúan en Santa Cruz, para un encuentro donde se dinamizan las diferentes actividades económicas a gran escala un ambiente de felicidad, oportunidades, negocios, familia y celebraciones. Expositores y visitantes son el motor de esta muestra ferial, que dimensiona la importancia del esfuerzo en conjunto de todos quienes trabajan por el desarrollo del país y la región. Esta feria trasciende generaciones y se constituye en un punto de convergencia donde se juntan sueños y se concretan nuevos proyectos. ‍ INSCRIPCIÓN DE ANIMALES Confirmá la presencia de tus ejemplares en el sector pecuario de Expocruz 2026. Descargá los formularios de inscripción y el reglamento de participación aquí ‍ Principales Atracciones Expositores Nacionales e Internacionales Oportunidades de Negocio e Inversión Shows y Entretenimiento Promociones y Descuentos dESCUBRÍ LAS Categorías Servicios y Emprendimientos Conocé iniciativas y servicios que impulsan la creatividad empresarial. Maquinaria y Equipos Industriales Descubrí soluciones en maquinaria y equipos que potencian la productividad industrial. Automotriz Explorá la innovación en vehículos y transporte que redefinen el sector automotriz. Consumo Masivo Conocé más del mercado de bienes que marcan tendencia en el consumo masivo. Agroindustria Encontrá prácticas y tecnología claves para optimizar el sector agropecuario. Desarrollo Inmobiliario Descubrí oportunidades en proyectos que están transformando el sector inmobiliario. Industria y Comercio Conocé las soluciones y productos que están revolucionando la industria y el comercio. Tecnologia e Innovación Descubrí las últimas tendencias que están transformando el mundo y los negocios. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -1985,8 +1985,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 3,
       "is_upcoming": false,
@@ -2400,444 +2400,6 @@
       "quality_score": 63,
       "is_featured": false,
       "price_label": "Entrada libre"
-    },
-    {
-      "id": "bf425e32ace9017f",
-      "source_id": "web_cine_quillacollo",
-      "source_name": "Bolivia.com Cine - Quillacollo",
-      "source_url": "https://www.bolivia.com/cine/cartelera/quillacollo-c210",
-      "source_class": "cartelera_cine",
-      "source_tier": 2,
-      "source_icon_url": null,
-      "url": "https://www.bolivia.com/cine/quillacollo/entrega-al-limite-12317_210",
-      "facebook_event_url": null,
-      "published_at": null,
-      "scraped_at": "2026-10-20T19:55:09-04:00",
-      "title": "Película en cartelera de cine",
-      "description": "Película en cartelera de cine\n20/10/2026 17:40\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Kilómetro 12, al lado de la Terminal de Buses\nHorarios: 17:40, 19:50, 22:00\nFormatos: 2D - Doblada",
-      "original_text": "Película en cartelera de cine\n20/10/2026 17:40\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Kilómetro 12, al lado de la Terminal de Buses\nHorarios: 17:40, 19:50, 22:00\nFormatos: 2D - Doblada",
-      "category": "cine",
-      "subcategories": [],
-      "tags": [],
-      "artists": [],
-      "starts_at": "2026-10-20T17:40:00-04:00",
-      "ends_at": null,
-      "starts_at_ms": 1792532400000,
-      "ends_at_ms": null,
-      "date_confidence": "exacta",
-      "date_source_text": "2026-10-20T17:40:00-04:00",
-      "all_day": false,
-      "multi_day": false,
-      "doors_time": null,
-      "display_date": "Martes 20 de octubre · 17:40",
-      "days_until": -4,
-      "lifecycle": "finalizado",
-      "department": "Cochabamba",
-      "city": "Quillacollo",
-      "venue": "Cine Center",
-      "address": "Kilómetro 12, al lado de la Terminal de Buses",
-      "latitude": null,
-      "longitude": null,
-      "location_query": "Cine Center, Kilómetro 12, al lado de la Terminal de Buses, Quillacollo, Bolivia",
-      "is_free": false,
-      "price_from": null,
-      "price_to": null,
-      "currency": null,
-      "price_text": null,
-      "ticket_urls": [],
-      "ticket_outlets": [],
-      "organizer": null,
-      "audience": null,
-      "age_restriction": null,
-      "duration_minutes": null,
-      "showtimes": [
-        "17:40",
-        "19:50",
-        "22:00",
-        "18:05",
-        "20:10",
-        "22:15",
-        "16:40",
-        "19:00",
-        "21:20",
-        "17:00",
-        "19:30",
-        "19:20",
-        "21:35",
-        "18:00",
-        "22:20",
-        "16:00"
-      ],
-      "formats": [
-        "2D - Doblada",
-        "2D"
-      ],
-      "occurrences": [
-        "2026-10-20T17:40:00-04:00",
-        "2026-10-20T19:50:00-04:00",
-        "2026-10-20T22:00:00-04:00",
-        "2026-10-20T18:05:00-04:00",
-        "2026-10-20T20:10:00-04:00",
-        "2026-10-20T22:15:00-04:00",
-        "2026-10-20T16:40:00-04:00",
-        "2026-10-20T19:00:00-04:00",
-        "2026-10-20T21:20:00-04:00",
-        "2026-10-20T17:00:00-04:00",
-        "2026-10-20T19:30:00-04:00",
-        "2026-10-20T19:20:00-04:00",
-        "2026-10-20T21:35:00-04:00",
-        "2026-10-20T18:00:00-04:00",
-        "2026-10-20T22:20:00-04:00",
-        "2026-10-20T16:00:00-04:00"
-      ],
-      "content_genre": null,
-      "director": null,
-      "cast": [],
-      "phones": [],
-      "status": "programado",
-      "relevance_score": 90,
-      "confidence": 0.81,
-      "filter_reasons": [
-        "fecha_futura",
-        "hora_explicita",
-        "categoria_cine",
-        "sede_detectada",
-        "tiene_afiche",
-        "fuente_especializada"
-      ],
-      "is_official": false,
-      "image_urls": [
-        "https://cdn.bolivia.com/cine/2026/10/entrega-al-limite-47929.jpg",
-        "https://cdn.bolivia.com/cine/2026/10/grin-el-juego-de-la-ouija-47932.jpg",
-        "https://cdn.bolivia.com/cine/2026/10/la-caida-de-la-ballena-47925.jpg",
-        "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
-        "https://cdn.bolivia.com/cine/2026/10/madre-siniestra-47902.jpg",
-        "https://cdn.bolivia.com/cine/2026/8/ekeko-47706.jpg",
-        "https://cdn.bolivia.com/cine/2026/10/escuela-de-monstruos-47928.jpg"
-      ],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "image_url": "https://cdn.bolivia.com/cine/2026/10/entrega-al-limite-47929.jpg",
-      "has_image": true,
-      "videos": [],
-      "has_video": false,
-      "media": {
-        "images": [
-          "https://cdn.bolivia.com/cine/2026/10/entrega-al-limite-47929.jpg",
-          "https://cdn.bolivia.com/cine/2026/10/grin-el-juego-de-la-ouija-47932.jpg",
-          "https://cdn.bolivia.com/cine/2026/10/la-caida-de-la-ballena-47925.jpg",
-          "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
-          "https://cdn.bolivia.com/cine/2026/10/madre-siniestra-47902.jpg",
-          "https://cdn.bolivia.com/cine/2026/8/ekeko-47706.jpg",
-          "https://cdn.bolivia.com/cine/2026/10/escuela-de-monstruos-47928.jpg"
-        ],
-        "main_image_url": "https://cdn.bolivia.com/cine/2026/10/entrega-al-limite-47929.jpg",
-        "image_count": 7,
-        "videos": []
-      },
-      "sources": [
-        {
-          "id": "web_cine_quillacollo",
-          "name": "Bolivia.com Cine - Quillacollo",
-          "class": "cartelera_cine",
-          "tier": 2,
-          "page_url": "https://www.bolivia.com/cine/cartelera/quillacollo-c210",
-          "post_url": "https://www.bolivia.com/cine/quillacollo/entrega-al-limite-12317_210",
-          "icon_url": null,
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "all_urls": [
-        "https://www.bolivia.com/cine/quillacollo/entrega-al-limite-12317_210",
-        "https://www.bolivia.com/cine/quillacollo/grin-el-juego-de-la-ouija-12320_210",
-        "https://www.bolivia.com/cine/quillacollo/la-caida-de-la-ballena-12313_210",
-        "https://www.bolivia.com/cine/quillacollo/street-fighter-12302_210",
-        "https://www.bolivia.com/cine/quillacollo/madre-siniestra-12305_210",
-        "https://www.bolivia.com/cine/quillacollo/ekeko-12234_210",
-        "https://www.bolivia.com/cine/quillacollo/escuela-de-monstruos-12316_210"
-      ],
-      "corroborated": false,
-      "verification": "una_fuente",
-      "merged_count": 7,
-      "event_id": "evt_658bf9a33fca4e",
-      "first_seen_at": "2026-10-20T04:34:16-04:00",
-      "history": [
-        {
-          "at": "2026-10-20T04:34:16-04:00",
-          "reason": "primera_deteccion",
-          "status": "programado",
-          "lifecycle": "hoy",
-          "starts_at": "2026-10-20T12:00:00-04:00",
-          "price_from": null,
-          "source_count": 1
-        }
-      ],
-      "changed_this_run": [],
-      "last_seen_at": "2026-10-20T19:55:09-04:00",
-      "last_confirmed_at": "2026-10-20T19:55:09-04:00",
-      "seen_this_run": false,
-      "history_count": 1,
-      "is_upcoming": false,
-      "category_label": "Cine",
-      "lifecycle_label": "Finalizados",
-      "quality_score": 68,
-      "is_featured": false,
-      "price_label": null
-    },
-    {
-      "id": "47e22931ef09215e",
-      "source_id": "fb_upsa",
-      "source_name": "Universidad Privada de Santa Cruz de la Sierra - UPSA",
-      "source_url": "https://www.facebook.com/boliviaupsa/",
-      "source_class": "cultura_oficial",
-      "source_tier": 2,
-      "source_icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mACTTfWwn1oQ7kNvwFUcftn&_nc_oc=AdrR0_03BDrk33Q9C6-lakz7yzsRWLboCNJns31BjZgzUBRwR3MgEPIg_rMf-mFq1Os&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=DVBf0fV5LzUpgKuGyn8H7A&_nc_ss=7f289&oh=00_AQNbWWlkyGae-ytCXnEQTGho2zjI4kg2bRFBpZiADhtu2w&oe=6AD899F8",
-      "url": "https://www.facebook.com/boliviaupsa/posts/pfbid02nZY6Q9NqJ6CLH16p57xVw2XLo7GYqW4BR7AWFQhisx4SiTkWdYDs5zryrNShqBgDl?__cft__[0]=AZhQcH6F5g_7mvuimNd8Ug_zDipRjrPQPzxpWfUlHArqux-NnyGFXf32bebuxBagnDOTv1btouZ5b-AjklWXdrNOyqqvGV-aF6OWVmMH_EDHJSaJbYGr26qL65gMFfnuDBZwRTSguPto0XP3zrMUUJhd56MzzG8wKQZbboyAIqeYbyElcUREKZiL6bs&__tn__=%2CO%2CP-R",
-      "facebook_event_url": null,
-      "published_at": null,
-      "scraped_at": "2026-10-16T19:37:58-04:00",
-      "title": "¿Qué papel juega el compliance en el deporte y cómo influye en la reputación de sus instituciones?... Ver más",
-      "description": "¿Qué papel juega el compliance en el deporte y cómo influye en la reputación de sus instituciones?... Ver más\nFeliz inicio del UPSA Workshop Derecho Deportivo, me alegra mucho Estaré presente el martes 20/10/26 Hs. 18:45\nJorge Flores Aguilera",
-      "original_text": "¿Qué papel juega el compliance en el deporte y cómo influye en la reputación de sus instituciones?... Ver más\nFeliz inicio del UPSA Workshop Derecho Deportivo, me alegra mucho Estaré presente el martes 20/10/26 Hs. 18:45\nJorge Flores Aguilera",
-      "category": "taller",
-      "subcategories": [],
-      "tags": [],
-      "artists": [],
-      "starts_at": "2026-10-20T18:45:00-04:00",
-      "ends_at": null,
-      "starts_at_ms": 1792536300000,
-      "ends_at_ms": null,
-      "date_confidence": "exacta",
-      "date_source_text": "20/10/26",
-      "all_day": false,
-      "multi_day": false,
-      "doors_time": null,
-      "display_date": "Martes 20 de octubre · 18:45",
-      "days_until": -4,
-      "lifecycle": "finalizado",
-      "department": "Santa Cruz",
-      "city": "Santa Cruz de la Sierra",
-      "venue": null,
-      "address": null,
-      "latitude": null,
-      "longitude": null,
-      "location_query": "Santa Cruz de la Sierra, Santa Cruz, Bolivia",
-      "is_free": false,
-      "price_from": null,
-      "price_to": null,
-      "currency": null,
-      "price_text": null,
-      "ticket_urls": [],
-      "ticket_outlets": [],
-      "organizer": null,
-      "audience": null,
-      "age_restriction": null,
-      "duration_minutes": null,
-      "showtimes": [],
-      "formats": [],
-      "occurrences": [],
-      "content_genre": null,
-      "director": null,
-      "cast": [],
-      "phones": [],
-      "status": "programado",
-      "relevance_score": 78,
-      "confidence": 0.68,
-      "filter_reasons": [
-        "fecha_futura",
-        "hora_explicita",
-        "categoria_taller",
-        "tiene_afiche",
-        "fuente_especializada"
-      ],
-      "is_official": false,
-      "image_urls": [
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/853472527_1171249578791692_8991074289344166503_n.png?stp=dst-jpg_tt6&cstp=mx1050x1050&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pbDJKSLG6b4Q7kNvwEwmP5c&_nc_oc=AdqZ0xIrrsswXkCAtAqPLXXcK089qm8czYuYpyV_lC3nRvnGKQrWBdgE5nQNHn3waiw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=MqPZeJPYGm3X1tz7ZwWSZQ&_nc_ss=7f289&oh=00_AQOjluuBtCgjwRO4a0Z5EpsTKguNKDEHfuvh-NLP7n7X1g&oe=6AD880E0"
-      ],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/853472527_1171249578791692_8991074289344166503_n.png?stp=dst-jpg_tt6&cstp=mx1050x1050&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pbDJKSLG6b4Q7kNvwEwmP5c&_nc_oc=AdqZ0xIrrsswXkCAtAqPLXXcK089qm8czYuYpyV_lC3nRvnGKQrWBdgE5nQNHn3waiw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=MqPZeJPYGm3X1tz7ZwWSZQ&_nc_ss=7f289&oh=00_AQOjluuBtCgjwRO4a0Z5EpsTKguNKDEHfuvh-NLP7n7X1g&oe=6AD880E0",
-      "has_image": true,
-      "videos": [],
-      "has_video": false,
-      "media": {
-        "images": [
-          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/853472527_1171249578791692_8991074289344166503_n.png?stp=dst-jpg_tt6&cstp=mx1050x1050&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pbDJKSLG6b4Q7kNvwEwmP5c&_nc_oc=AdqZ0xIrrsswXkCAtAqPLXXcK089qm8czYuYpyV_lC3nRvnGKQrWBdgE5nQNHn3waiw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=MqPZeJPYGm3X1tz7ZwWSZQ&_nc_ss=7f289&oh=00_AQOjluuBtCgjwRO4a0Z5EpsTKguNKDEHfuvh-NLP7n7X1g&oe=6AD880E0"
-        ],
-        "main_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/853472527_1171249578791692_8991074289344166503_n.png?stp=dst-jpg_tt6&cstp=mx1050x1050&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pbDJKSLG6b4Q7kNvwEwmP5c&_nc_oc=AdqZ0xIrrsswXkCAtAqPLXXcK089qm8czYuYpyV_lC3nRvnGKQrWBdgE5nQNHn3waiw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=MqPZeJPYGm3X1tz7ZwWSZQ&_nc_ss=7f289&oh=00_AQOjluuBtCgjwRO4a0Z5EpsTKguNKDEHfuvh-NLP7n7X1g&oe=6AD880E0",
-        "image_count": 1,
-        "videos": []
-      },
-      "sources": [
-        {
-          "id": "fb_upsa",
-          "name": "Universidad Privada de Santa Cruz de la Sierra - UPSA",
-          "class": "cultura_oficial",
-          "tier": 2,
-          "page_url": "https://www.facebook.com/boliviaupsa/",
-          "post_url": "https://www.facebook.com/boliviaupsa/posts/pfbid02nZY6Q9NqJ6CLH16p57xVw2XLo7GYqW4BR7AWFQhisx4SiTkWdYDs5zryrNShqBgDl?__cft__[0]=AZhQcH6F5g_7mvuimNd8Ug_zDipRjrPQPzxpWfUlHArqux-NnyGFXf32bebuxBagnDOTv1btouZ5b-AjklWXdrNOyqqvGV-aF6OWVmMH_EDHJSaJbYGr26qL65gMFfnuDBZwRTSguPto0XP3zrMUUJhd56MzzG8wKQZbboyAIqeYbyElcUREKZiL6bs&__tn__=%2CO%2CP-R",
-          "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mACTTfWwn1oQ7kNvwFUcftn&_nc_oc=AdrR0_03BDrk33Q9C6-lakz7yzsRWLboCNJns31BjZgzUBRwR3MgEPIg_rMf-mFq1Os&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=DVBf0fV5LzUpgKuGyn8H7A&_nc_ss=7f289&oh=00_AQNbWWlkyGae-ytCXnEQTGho2zjI4kg2bRFBpZiADhtu2w&oe=6AD899F8",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "all_urls": [
-        "https://www.facebook.com/boliviaupsa/posts/pfbid02nZY6Q9NqJ6CLH16p57xVw2XLo7GYqW4BR7AWFQhisx4SiTkWdYDs5zryrNShqBgDl?__cft__[0]=AZhQcH6F5g_7mvuimNd8Ug_zDipRjrPQPzxpWfUlHArqux-NnyGFXf32bebuxBagnDOTv1btouZ5b-AjklWXdrNOyqqvGV-aF6OWVmMH_EDHJSaJbYGr26qL65gMFfnuDBZwRTSguPto0XP3zrMUUJhd56MzzG8wKQZbboyAIqeYbyElcUREKZiL6bs&__tn__=%2CO%2CP-R"
-      ],
-      "corroborated": false,
-      "verification": "una_fuente",
-      "merged_count": 1,
-      "event_id": "evt_1bcf703c1393f6",
-      "first_seen_at": "2026-10-16T19:37:58-04:00",
-      "history": [
-        {
-          "at": "2026-10-16T19:37:58-04:00",
-          "reason": "primera_deteccion",
-          "status": "programado",
-          "lifecycle": "proximo",
-          "starts_at": "2026-10-20T18:45:00-04:00",
-          "price_from": null,
-          "source_count": 1
-        }
-      ],
-      "changed_this_run": [],
-      "last_seen_at": "2026-10-16T19:37:58-04:00",
-      "last_confirmed_at": "2026-10-16T19:37:58-04:00",
-      "seen_this_run": false,
-      "history_count": 1,
-      "is_upcoming": false,
-      "category_label": "Talleres y cursos",
-      "lifecycle_label": "Finalizados",
-      "quality_score": 51,
-      "is_featured": false,
-      "price_label": null
-    },
-    {
-      "id": "c3dfe0710c1a8acc",
-      "source_id": "fb_upsa",
-      "source_name": "Universidad Privada de Santa Cruz de la Sierra - UPSA",
-      "source_url": "https://www.facebook.com/boliviaupsa/",
-      "source_class": "cultura_oficial",
-      "source_tier": 2,
-      "source_icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mACTTfWwn1oQ7kNvwFUcftn&_nc_oc=AdrR0_03BDrk33Q9C6-lakz7yzsRWLboCNJns31BjZgzUBRwR3MgEPIg_rMf-mFq1Os&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=DVBf0fV5LzUpgKuGyn8H7A&_nc_ss=7f289&oh=00_AQNbWWlkyGae-ytCXnEQTGho2zjI4kg2bRFBpZiADhtu2w&oe=6AD899F8",
-      "url": "https://www.facebook.com/boliviaupsa/posts/pfbid02nZY6Q9NqJ6CLH16p57xVw2XLo7GYqW4BR7AWFQhisx4SiTkWdYDs5zryrNShqBgDl?comment_id=1793910956077720&__cft__[0]=AZhQcH6F5g_7mvuimNd8Ug_zDipRjrPQPzxpWfUlHArqux-NnyGFXf32bebuxBagnDOTv1btouZ5b-AjklWXdrNOyqqvGV-aF6OWVmMH_EDHJSaJbYGr26qL65gMFfnuDBZwRTSguPto0XP3zrMUUJhd56MzzG8wKQZbboyAIqeYbyElcUREKZiL6bs&__tn__=R-R",
-      "facebook_event_url": null,
-      "published_at": null,
-      "scraped_at": "2026-10-16T19:37:58-04:00",
-      "title": "Feliz inicio del UPSA Workshop Derecho Deportivo, me alegra mucho Estaré presente el martes 20/10/26 Hs. 18:45",
-      "description": "Feliz inicio del UPSA Workshop Derecho Deportivo, me alegra mucho Estaré presente el martes 20/10/26 Hs. 18:45\nJorge Flores Aguilera",
-      "original_text": "Feliz inicio del UPSA Workshop Derecho Deportivo, me alegra mucho Estaré presente el martes 20/10/26 Hs. 18:45\nJorge Flores Aguilera",
-      "category": "taller",
-      "subcategories": [],
-      "tags": [],
-      "artists": [],
-      "starts_at": "2026-10-20T18:45:00-04:00",
-      "ends_at": null,
-      "starts_at_ms": 1792536300000,
-      "ends_at_ms": null,
-      "date_confidence": "exacta",
-      "date_source_text": "20/10/26",
-      "all_day": false,
-      "multi_day": false,
-      "doors_time": null,
-      "display_date": "Martes 20 de octubre · 18:45",
-      "days_until": -4,
-      "lifecycle": "finalizado",
-      "department": "Santa Cruz",
-      "city": "Santa Cruz de la Sierra",
-      "venue": null,
-      "address": null,
-      "latitude": null,
-      "longitude": null,
-      "location_query": "Santa Cruz de la Sierra, Santa Cruz, Bolivia",
-      "is_free": false,
-      "price_from": null,
-      "price_to": null,
-      "currency": null,
-      "price_text": null,
-      "ticket_urls": [],
-      "ticket_outlets": [],
-      "organizer": null,
-      "audience": null,
-      "age_restriction": null,
-      "duration_minutes": null,
-      "showtimes": [],
-      "formats": [],
-      "occurrences": [],
-      "content_genre": null,
-      "director": null,
-      "cast": [],
-      "phones": [],
-      "status": "programado",
-      "relevance_score": 72,
-      "confidence": 0.68,
-      "filter_reasons": [
-        "fecha_futura",
-        "hora_explicita",
-        "categoria_taller",
-        "fuente_especializada"
-      ],
-      "is_official": false,
-      "image_urls": [],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "image_url": null,
-      "has_image": false,
-      "videos": [],
-      "has_video": false,
-      "media": {
-        "images": [],
-        "main_image_url": null,
-        "image_count": 0,
-        "videos": []
-      },
-      "sources": [
-        {
-          "id": "fb_upsa",
-          "name": "Universidad Privada de Santa Cruz de la Sierra - UPSA",
-          "class": "cultura_oficial",
-          "tier": 2,
-          "page_url": "https://www.facebook.com/boliviaupsa/",
-          "post_url": "https://www.facebook.com/boliviaupsa/posts/pfbid02nZY6Q9NqJ6CLH16p57xVw2XLo7GYqW4BR7AWFQhisx4SiTkWdYDs5zryrNShqBgDl?comment_id=1793910956077720&__cft__[0]=AZhQcH6F5g_7mvuimNd8Ug_zDipRjrPQPzxpWfUlHArqux-NnyGFXf32bebuxBagnDOTv1btouZ5b-AjklWXdrNOyqqvGV-aF6OWVmMH_EDHJSaJbYGr26qL65gMFfnuDBZwRTSguPto0XP3zrMUUJhd56MzzG8wKQZbboyAIqeYbyElcUREKZiL6bs&__tn__=R-R",
-          "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mACTTfWwn1oQ7kNvwFUcftn&_nc_oc=AdrR0_03BDrk33Q9C6-lakz7yzsRWLboCNJns31BjZgzUBRwR3MgEPIg_rMf-mFq1Os&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=DVBf0fV5LzUpgKuGyn8H7A&_nc_ss=7f289&oh=00_AQNbWWlkyGae-ytCXnEQTGho2zjI4kg2bRFBpZiADhtu2w&oe=6AD899F8",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "all_urls": [
-        "https://www.facebook.com/boliviaupsa/posts/pfbid02nZY6Q9NqJ6CLH16p57xVw2XLo7GYqW4BR7AWFQhisx4SiTkWdYDs5zryrNShqBgDl?comment_id=1793910956077720&__cft__[0]=AZhQcH6F5g_7mvuimNd8Ug_zDipRjrPQPzxpWfUlHArqux-NnyGFXf32bebuxBagnDOTv1btouZ5b-AjklWXdrNOyqqvGV-aF6OWVmMH_EDHJSaJbYGr26qL65gMFfnuDBZwRTSguPto0XP3zrMUUJhd56MzzG8wKQZbboyAIqeYbyElcUREKZiL6bs&__tn__=R-R"
-      ],
-      "corroborated": false,
-      "verification": "una_fuente",
-      "merged_count": 1,
-      "event_id": "evt_aa608a5273e275",
-      "first_seen_at": "2026-10-16T19:37:58-04:00",
-      "history": [
-        {
-          "at": "2026-10-16T19:37:58-04:00",
-          "reason": "primera_deteccion",
-          "status": "programado",
-          "lifecycle": "proximo",
-          "starts_at": "2026-10-20T18:45:00-04:00",
-          "price_from": null,
-          "source_count": 1
-        }
-      ],
-      "changed_this_run": [],
-      "last_seen_at": "2026-10-16T19:37:58-04:00",
-      "last_confirmed_at": "2026-10-16T19:37:58-04:00",
-      "seen_this_run": false,
-      "history_count": 1,
-      "is_upcoming": false,
-      "category_label": "Talleres y cursos",
-      "lifecycle_label": "Finalizados",
-      "quality_score": 37,
-      "is_featured": false,
-      "price_label": null
     },
     {
       "id": "e1693073361e1a7c",
@@ -12781,7 +12343,7 @@
       "changed_this_run": [],
       "last_seen_at": "2026-10-24T16:59:04-04:00",
       "last_confirmed_at": "2026-10-24T16:59:04-04:00",
-      "seen_this_run": true,
+      "seen_this_run": false,
       "history_count": 1,
       "is_upcoming": true,
       "category_label": "Conciertos",
@@ -12801,7 +12363,7 @@
       "url": "https://www.bolivia.com/cine/sucre/clayface-12326_147",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 10:10\nSala: Cine SAS\nCiudad: Salas de Cine\nDirección: c. Juan Jose Perez No. 331\nHorarios: 10:10, 16:35, 19:00, 21:00\nFormatos: 2D DOBLADA",
       "original_text": "Película en cartelera de cine\n24/10/2026 10:10\nSala: Cine SAS\nCiudad: Salas de Cine\nDirección: c. Juan Jose Perez No. 331\nHorarios: 10:10, 16:35, 19:00, 21:00\nFormatos: 2D DOBLADA",
@@ -12975,8 +12537,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -12997,7 +12559,7 @@
       "url": "https://www.bolivia.com/cine/la-paz/street-fighter-12302_41",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 10:30\nSala: Monje Campero\nCiudad: Salas de Cine\nDirección: Av. 16 de Julio #1495\nHorarios: 10:30, 15:00, 17:15, 19:40\nFormatos: 2D",
       "original_text": "Película en cartelera de cine\n24/10/2026 10:30\nSala: Monje Campero\nCiudad: Salas de Cine\nDirección: Av. 16 de Julio #1495\nHorarios: 10:30, 15:00, 17:15, 19:40\nFormatos: 2D",
@@ -13142,8 +12704,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -13164,7 +12726,7 @@
       "url": "https://www.bolivia.com/cine/la-paz/clayface-12326_41",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 12:40\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Av. Arce 2631\nHorarios: 12:40, 15:00, 17:20, 18:45, 19:40, 22:00, 14:10, 16:30, 18:50, 17:00, 21:15, 12:00, 20:10\nFormatos: 2D, 2D PLUS, 2D PLUS SUB, 4D E-MOTION",
       "original_text": "Película en cartelera de cine\n24/10/2026 12:40\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Av. Arce 2631\nHorarios: 12:40, 15:00, 17:20, 18:45, 19:40, 22:00, 14:10, 16:30, 18:50, 17:00, 21:15, 12:00, 20:10\nFormatos: 2D, 2D PLUS, 2D PLUS SUB, 4D E-MOTION",
@@ -13408,8 +12970,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -13430,7 +12992,7 @@
       "url": "https://www.bolivia.com/cine/santa-cruz/clayface-12326_43",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 12:40\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Las Brisas Shopping Mall (4o anillo y Av. Banzer)\nHorarios: 12:40, 15:00, 17:20, 19:40, 22:00, 14:30, 19:10, 21:10\nFormatos: 2D, 2D SUB",
       "original_text": "Película en cartelera de cine\n24/10/2026 12:40\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Las Brisas Shopping Mall (4o anillo y Av. Banzer)\nHorarios: 12:40, 15:00, 17:20, 19:40, 22:00, 14:30, 19:10, 21:10\nFormatos: 2D, 2D SUB",
@@ -13657,8 +13219,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -13679,7 +13241,7 @@
       "url": "https://www.bolivia.com/cine/el-alto/resident-evil-noche-cero-12266_87",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 13:00\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Av. Juan Pablo II - Zona Rio Seco\nHorarios: 13:00, 17:10, 19:45, 21:45\nFormatos: 2D, 2D XL - 2D XL KRONOS",
       "original_text": "Película en cartelera de cine\n24/10/2026 13:00\nSala: Multicine\nCiudad: Salas de Cine\nDirección: Av. Juan Pablo II - Zona Rio Seco\nHorarios: 13:00, 17:10, 19:45, 21:45\nFormatos: 2D, 2D XL - 2D XL KRONOS",
@@ -13891,8 +13453,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -13913,7 +13475,7 @@
       "url": "https://www.bolivia.com/cine/la-paz/clayface-12326_41",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 14:20\nSala: Plaza 21 Mall - Multicine\nCiudad: Salas de Cine\nDirección: Calle 21 de Calacoto, Pasaje Cordero\nHorarios: 14:20, 17:30, 19:00, 20:50, 22:10, 12:00, 16:40, 21:20\nFormatos: 2D PLUS, 2D PLUS SUB",
       "original_text": "Película en cartelera de cine\n24/10/2026 14:20\nSala: Plaza 21 Mall - Multicine\nCiudad: Salas de Cine\nDirección: Calle 21 de Calacoto, Pasaje Cordero\nHorarios: 14:20, 17:30, 19:00, 20:50, 22:10, 12:00, 16:40, 21:20\nFormatos: 2D PLUS, 2D PLUS SUB",
@@ -14089,8 +13651,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -14111,7 +13673,7 @@
       "url": "https://www.bolivia.com/cine/cochabamba/clayface-12326_42",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 15:30\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Av. Ramón Rivero y puente de la Recoleta\nHorarios: 15:30, 18:00, 20:30, 16:00, 19:30, 22:00\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada, 4D E-Motion 2D - Doblada",
       "original_text": "Película en cartelera de cine\n24/10/2026 15:30\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Av. Ramón Rivero y puente de la Recoleta\nHorarios: 15:30, 18:00, 20:30, 16:00, 19:30, 22:00\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada, 4D E-Motion 2D - Doblada",
@@ -14302,8 +13864,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -14324,7 +13886,7 @@
       "url": "https://www.bolivia.com/cine/santa-cruz/clayface-12326_43",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 15:30\nSala: Trompillo - Cine Center\nCiudad: Salas de Cine\nDirección: Avenida El Trompillo Segundo Anillo\nHorarios: 15:30, 18:00, 20:30, 17:30, 20:00, 22:30, 19:30, 22:00\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada, 4D E-Motion 2D - Doblada",
       "original_text": "Película en cartelera de cine\n24/10/2026 15:30\nSala: Trompillo - Cine Center\nCiudad: Salas de Cine\nDirección: Avenida El Trompillo Segundo Anillo\nHorarios: 15:30, 18:00, 20:30, 17:30, 20:00, 22:30, 19:30, 22:00\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada, 4D E-Motion 2D - Doblada",
@@ -14526,8 +14088,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -14548,7 +14110,7 @@
       "url": "https://www.bolivia.com/cine/la-paz/clayface-12326_41",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 15:50\nSala: Cine Center (MegaCenter) - Cine Center\nCiudad: Salas de Cine\nDirección: Av. Rafael Pabon Zona Irpavi frente al colegio Militar (Zona Sur)\nHorarios: 15:50, 16:30, 19:00, 21:30, 15:40\nFormatos: 2D - Doblada, 2D Atmos - Doblada",
       "original_text": "Película en cartelera de cine\n24/10/2026 15:50\nSala: Cine Center (MegaCenter) - Cine Center\nCiudad: Salas de Cine\nDirección: Av. Rafael Pabon Zona Irpavi frente al colegio Militar (Zona Sur)\nHorarios: 15:50, 16:30, 19:00, 21:30, 15:40\nFormatos: 2D - Doblada, 2D Atmos - Doblada",
@@ -14759,8 +14321,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -14781,7 +14343,7 @@
       "url": "https://www.bolivia.com/cine/quillacollo/street-fighter-12302_210",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 16:00\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Kilómetro 12, al lado de la Terminal de Buses\nHorarios: 16:00, 18:30, 21:00\nFormatos: 2D - Doblada",
       "original_text": "Película en cartelera de cine\n24/10/2026 16:00\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Kilómetro 12, al lado de la Terminal de Buses\nHorarios: 16:00, 18:30, 21:00\nFormatos: 2D - Doblada",
@@ -14899,8 +14461,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -14921,7 +14483,7 @@
       "url": "https://www.bolivia.com/cine/tarija/grin-el-juego-de-la-ouija-12320_44",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 16:00\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Avenida Circunvalación s/n (barrio Guadalquivir)\nHorarios: 16:00, 18:05, 20:10, 22:15\nFormatos: 2D - Doblada",
       "original_text": "Película en cartelera de cine\n24/10/2026 16:00\nSala: Cine Center\nCiudad: Salas de Cine\nDirección: Avenida Circunvalación s/n (barrio Guadalquivir)\nHorarios: 16:00, 18:05, 20:10, 22:15\nFormatos: 2D - Doblada",
@@ -15109,8 +14671,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -15131,7 +14693,7 @@
       "url": "https://www.bolivia.com/cine/santa-cruz/clayface-12326_43",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
       "description": "Película en cartelera de cine\n24/10/2026 17:00\nSala: Brasil - Cine Center\nCiudad: Salas de Cine\nDirección: Tercer anillo, Avenida Brasil esquina entrada a la Feria de Barrio Lindo\nHorarios: 17:00, 19:30, 22:00, 16:15\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada",
       "original_text": "Película en cartelera de cine\n24/10/2026 17:00\nSala: Brasil - Cine Center\nCiudad: Salas de Cine\nDirección: Tercer anillo, Avenida Brasil esquina entrada a la Feria de Barrio Lindo\nHorarios: 17:00, 19:30, 22:00, 16:15\nFormatos: 2D - Doblada, 2D CXC Atmos - Doblada",
@@ -15318,8 +14880,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -15330,7 +14892,7 @@
       "price_label": null
     },
     {
-      "id": "c7792d3ad4116f29",
+      "id": "52b0c384408e2ac0",
       "source_id": "web_cine_santa_cruz",
       "source_name": "Bolivia.com Cine - Santa Cruz",
       "source_url": "https://www.bolivia.com/cine/cartelera/santa-cruz-c43",
@@ -15340,10 +14902,10 @@
       "url": "https://www.bolivia.com/cine/santa-cruz/clayface-12326_43",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Película en cartelera de cine",
-      "description": "Película en cartelera de cine\n24/10/2026 18:30\nSala: Cinemark - Ventura - Cinemark\nCiudad: Salas de Cine\nDirección: Ventura Mall - Av. San Martín esq. 4o anillo\nHorarios: 18:30, 21:00, 17:00, 19:30, 22:00, 20:00\nFormatos: 2D - DBOX - Doblada, 2D - DBOX - XD - Doblada, 2D - PRE - Subtitulada",
-      "original_text": "Película en cartelera de cine\n24/10/2026 18:30\nSala: Cinemark - Ventura - Cinemark\nCiudad: Salas de Cine\nDirección: Ventura Mall - Av. San Martín esq. 4o anillo\nHorarios: 18:30, 21:00, 17:00, 19:30, 22:00, 20:00\nFormatos: 2D - DBOX - Doblada, 2D - DBOX - XD - Doblada, 2D - PRE - Subtitulada",
+      "description": "Película en cartelera de cine\n24/10/2026 18:30\nSala: Cinemark - Ventura - Cinemark\nCiudad: Salas de Cine\nDirección: Ventura Mall - Av. San Martín esq. 4o anillo\nHorarios: 18:30, 21:00, 19:30, 22:00, 20:00\nFormatos: 2D - DBOX - Doblada, 2D - DBOX - XD - Doblada, 2D - PRE - Subtitulada",
+      "original_text": "Película en cartelera de cine\n24/10/2026 18:30\nSala: Cinemark - Ventura - Cinemark\nCiudad: Salas de Cine\nDirección: Ventura Mall - Av. San Martín esq. 4o anillo\nHorarios: 18:30, 21:00, 19:30, 22:00, 20:00\nFormatos: 2D - DBOX - Doblada, 2D - DBOX - XD - Doblada, 2D - PRE - Subtitulada",
       "category": "cine",
       "subcategories": [],
       "tags": [],
@@ -15381,58 +14943,45 @@
       "showtimes": [
         "18:30",
         "21:00",
-        "17:00",
         "19:30",
         "22:00",
         "20:00",
-        "22:30",
-        "16:10",
-        "18:50",
-        "21:30",
-        "16:20",
         "19:50",
         "22:10",
         "18:40",
-        "16:30",
+        "22:30",
+        "18:50",
+        "21:30",
+        "18:45",
+        "22:20",
         "19:10",
         "22:50",
-        "18:45",
-        "17:30",
-        "22:20",
-        "22:40",
-        "17:40"
+        "22:40"
       ],
       "formats": [
         "2D - DBOX - Doblada",
         "2D - DBOX - XD - Doblada",
         "2D - PRE - Subtitulada",
         "2D - Doblada",
-        "2D - PRE - Doblada",
         "2D - Lenguaje Original"
       ],
       "occurrences": [
         "2026-10-24T18:30:00-04:00",
         "2026-10-24T21:00:00-04:00",
-        "2026-10-24T17:00:00-04:00",
         "2026-10-24T19:30:00-04:00",
         "2026-10-24T22:00:00-04:00",
         "2026-10-24T20:00:00-04:00",
-        "2026-10-24T22:30:00-04:00",
-        "2026-10-24T16:10:00-04:00",
-        "2026-10-24T18:50:00-04:00",
-        "2026-10-24T21:30:00-04:00",
-        "2026-10-24T16:20:00-04:00",
         "2026-10-24T19:50:00-04:00",
         "2026-10-24T22:10:00-04:00",
         "2026-10-24T18:40:00-04:00",
-        "2026-10-24T16:30:00-04:00",
+        "2026-10-24T22:30:00-04:00",
+        "2026-10-24T18:50:00-04:00",
+        "2026-10-24T21:30:00-04:00",
+        "2026-10-24T18:45:00-04:00",
+        "2026-10-24T22:20:00-04:00",
         "2026-10-24T19:10:00-04:00",
         "2026-10-24T22:50:00-04:00",
-        "2026-10-24T18:45:00-04:00",
-        "2026-10-24T17:30:00-04:00",
-        "2026-10-24T22:20:00-04:00",
-        "2026-10-24T22:40:00-04:00",
-        "2026-10-24T17:40:00-04:00"
+        "2026-10-24T22:40:00-04:00"
       ],
       "content_genre": null,
       "director": null,
@@ -15452,17 +15001,15 @@
       "is_official": false,
       "image_urls": [
         "https://cdn.bolivia.com/cine/2026/10/clayface-47962.jpg",
-        "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
         "https://cdn.bolivia.com/cine/2026/8/en-el-corazon-de-la-bestia-47709.jpg",
-        "https://cdn.bolivia.com/cine/2026/10/el-poder-de-la-red-47969.jpg",
+        "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
         "https://cdn.bolivia.com/cine/2026/10/madre-siniestra-47902.jpg",
-        "https://cdn.bolivia.com/cine/2026/9/resident-evil-noche-cero-47798.jpg",
+        "https://cdn.bolivia.com/cine/2026/10/el-poder-de-la-red-47969.jpg",
         "https://cdn.bolivia.com/cine/2026/9/bts-world-tour-arirang-in-baires-live-viewing-47852.jpg",
-        "https://cdn.bolivia.com/cine/2026/9/verity-la-sombra-de-un-engano-47833.jpg",
         "https://cdn.bolivia.com/cine/2026/10/la-caida-de-la-ballena-47925.jpg",
-        "https://cdn.bolivia.com/cine/2026/10/terror-en-el-amazonas-47968.jpg",
-        "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
-        "https://cdn.bolivia.com/cine/2026/10/los-otros-47971.jpg"
+        "https://cdn.bolivia.com/cine/2026/9/resident-evil-noche-cero-47798.jpg",
+        "https://cdn.bolivia.com/cine/2026/10/los-otros-47971.jpg",
+        "https://cdn.bolivia.com/cine/2026/10/terror-en-el-amazonas-47968.jpg"
       ],
       "video_url": null,
       "video_thumbnail_url": null,
@@ -15474,20 +15021,18 @@
       "media": {
         "images": [
           "https://cdn.bolivia.com/cine/2026/10/clayface-47962.jpg",
-          "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
           "https://cdn.bolivia.com/cine/2026/8/en-el-corazon-de-la-bestia-47709.jpg",
-          "https://cdn.bolivia.com/cine/2026/10/el-poder-de-la-red-47969.jpg",
+          "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
           "https://cdn.bolivia.com/cine/2026/10/madre-siniestra-47902.jpg",
-          "https://cdn.bolivia.com/cine/2026/9/resident-evil-noche-cero-47798.jpg",
+          "https://cdn.bolivia.com/cine/2026/10/el-poder-de-la-red-47969.jpg",
           "https://cdn.bolivia.com/cine/2026/9/bts-world-tour-arirang-in-baires-live-viewing-47852.jpg",
-          "https://cdn.bolivia.com/cine/2026/9/verity-la-sombra-de-un-engano-47833.jpg",
           "https://cdn.bolivia.com/cine/2026/10/la-caida-de-la-ballena-47925.jpg",
-          "https://cdn.bolivia.com/cine/2026/10/terror-en-el-amazonas-47968.jpg",
-          "https://cdn.bolivia.com/cine/2026/8/coyote-vs-acme-47670.jpg",
-          "https://cdn.bolivia.com/cine/2026/10/los-otros-47971.jpg"
+          "https://cdn.bolivia.com/cine/2026/9/resident-evil-noche-cero-47798.jpg",
+          "https://cdn.bolivia.com/cine/2026/10/los-otros-47971.jpg",
+          "https://cdn.bolivia.com/cine/2026/10/terror-en-el-amazonas-47968.jpg"
         ],
         "main_image_url": "https://cdn.bolivia.com/cine/2026/10/clayface-47962.jpg",
-        "image_count": 12,
+        "image_count": 10,
         "videos": []
       },
       "sources": [
@@ -15505,21 +15050,19 @@
       "source_count": 1,
       "all_urls": [
         "https://www.bolivia.com/cine/santa-cruz/clayface-12326_43",
-        "https://www.bolivia.com/cine/santa-cruz/street-fighter-12302_43",
         "https://www.bolivia.com/cine/santa-cruz/el-corazon-de-la-bestia-12237_43",
-        "https://www.bolivia.com/cine/santa-cruz/el-poder-de-la-red-12333_43",
+        "https://www.bolivia.com/cine/santa-cruz/street-fighter-12302_43",
         "https://www.bolivia.com/cine/santa-cruz/madre-siniestra-12305_43",
-        "https://www.bolivia.com/cine/santa-cruz/resident-evil-noche-cero-12266_43",
+        "https://www.bolivia.com/cine/santa-cruz/el-poder-de-la-red-12333_43",
         "https://www.bolivia.com/cine/santa-cruz/bts-world-tour-arirang-in-baires-live-viewing-12277_43",
-        "https://www.bolivia.com/cine/santa-cruz/verity-la-sombra-de-un-engano-12282_43",
         "https://www.bolivia.com/cine/santa-cruz/la-caida-de-la-ballena-12313_43",
-        "https://www.bolivia.com/cine/santa-cruz/terror-en-el-amazonas-12332_43",
-        "https://www.bolivia.com/cine/santa-cruz/coyote-vs-acme-12215_43",
-        "https://www.bolivia.com/cine/santa-cruz/los-otros-12335_43"
+        "https://www.bolivia.com/cine/santa-cruz/resident-evil-noche-cero-12266_43",
+        "https://www.bolivia.com/cine/santa-cruz/los-otros-12335_43",
+        "https://www.bolivia.com/cine/santa-cruz/terror-en-el-amazonas-12332_43"
       ],
       "corroborated": false,
       "verification": "una_fuente",
-      "merged_count": 12,
+      "merged_count": 10,
       "event_id": "evt_023cc58d32f954",
       "first_seen_at": "2026-10-24T00:38:04-04:00",
       "history": [
@@ -15534,8 +15077,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -15853,7 +15396,7 @@
       "changed_this_run": [],
       "last_seen_at": "2026-10-24T16:59:04-04:00",
       "last_confirmed_at": "2026-10-24T16:59:04-04:00",
-      "seen_this_run": true,
+      "seen_this_run": false,
       "history_count": 1,
       "is_upcoming": true,
       "category_label": "Deportes",
@@ -16159,7 +15702,7 @@
       "changed_this_run": [],
       "last_seen_at": "2026-10-24T16:59:04-04:00",
       "last_confirmed_at": "2026-10-24T16:59:04-04:00",
-      "seen_this_run": true,
+      "seen_this_run": false,
       "history_count": 1,
       "is_upcoming": true,
       "category_label": "Deportes",
@@ -16169,7 +15712,7 @@
       "price_label": "Bs 28"
     },
     {
-      "id": "af3e686bafba8070",
+      "id": "2856fc1f300314eb",
       "source_id": "web_sucre_municipio",
       "source_name": "Gobierno Autónomo Municipal de Sucre",
       "source_url": "https://sucre.bo/noticias/",
@@ -16179,10 +15722,10 @@
       "url": "https://sucre.bo/noticias/",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "GAMS Gobierno Autonomo Municipal de Sucre",
-      "description": "SUCRE AL MUNDO: LA CAPITAL SE SUMA A LA EXCLUSIVA «ALIANZA IBEROAMÉRICA 500+» PARA IMPULSAR SU DESARROLLO Y PATRIMONIO hace 3 días Noticias 182 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarrollo de América Latina y el Caribe (CAF) que reúne a ... Leer más » Compartir Facebook SUCRE LIDERA EL FORO POLÍTICO DE GOBIERNOS LOCALES MÁS IMPORTANTE DE IBEROAMÉRICA hace 5 días Noticias 239 Sucre marca un hito internacional al participar por primera vez en el II Encuentro de Ciudades Iberoamericanas, el espacio de diálogo político y cooperación entre gobiernos locales más relevante de la región. El evento reúne a las principales ciudades capitales de América Latina, el Caribe, España y Portugal. La alcaldesa ... Leer más » Compartir Facebook LA ALCALDÍA DE SUCRE, ELAPAS Y FH BOLIVIA ENTREGAN RED DE AGUA POTABLE PARA EL DISTRITO 6 hace 1 semana Noticias 330 El Gobierno Autónomo Municipal de Sucre, en coordinación con la Empresa Local de Agua Potable y Alcantarillado Sucre (ELAPAS) y la Fundación Food for the Hungry (FH Bolivia), ejecutó el proyecto de construcción de la línea conductora y red de agua potable en las juntas vecinales Alto Kuchutambo y Puerto ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE Y SENASAG FIRMAN ACTA DE ENTENDIMIENTO PARA LA IMPLEMENTACIÓN DE UN COMPLEJO DE LABORATORIO SUR hace 1 semana Noticias 311 El acuerdo permitirá coordinar acciones y evaluar preliminarmente posibles terrenos para el proyecto, que busca fortalecer las capacidades técnicas del SENASAG en la ciudad de Sucre. El Gobierno Autónomo Municipal de Sucre y el Servicio Nacional de Sanidad Agropecuaria e Inocuidad Alimentaria (SENASAG) suscribieron un Acta de Entendimiento y Coordinación ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE VACUNARA A MÁS DE 102 MIL PERROS Y GATOS CONTRA LA RABIA hace 1 semana Noticias 238 La campaña masiva será el domingo 25 de octubre, de 08:00 a 16:00, en los ocho distritos del municipio. La vacunación será gratuita. El Gobierno Autónomo Municipal de Sucre se prepara para una jornada de vacunación masiva contra la rabia, con la meta de inmunizar a 102.528 perros y gatos. ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE INAUGURÓ LA AMPLIACION Y EL SERVICIO NOCTURNO DEL CENTRO INTEGRAL INFANTIL DEL MERCADO CAMPESINO hace 2 semanas Notic",
-      "original_text": "SUCRE AL MUNDO: LA CAPITAL SE SUMA A LA EXCLUSIVA «ALIANZA IBEROAMÉRICA 500+» PARA IMPULSAR SU DESARROLLO Y PATRIMONIO hace 3 días Noticias 182 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarrollo de América Latina y el Caribe (CAF) que reúne a ... Leer más » Compartir Facebook SUCRE LIDERA EL FORO POLÍTICO DE GOBIERNOS LOCALES MÁS IMPORTANTE DE IBEROAMÉRICA hace 5 días Noticias 239 Sucre marca un hito internacional al participar por primera vez en el II Encuentro de Ciudades Iberoamericanas, el espacio de diálogo político y cooperación entre gobiernos locales más relevante de la región. El evento reúne a las principales ciudades capitales de América Latina, el Caribe, España y Portugal. La alcaldesa ... Leer más » Compartir Facebook LA ALCALDÍA DE SUCRE, ELAPAS Y FH BOLIVIA ENTREGAN RED DE AGUA POTABLE PARA EL DISTRITO 6 hace 1 semana Noticias 330 El Gobierno Autónomo Municipal de Sucre, en coordinación con la Empresa Local de Agua Potable y Alcantarillado Sucre (ELAPAS) y la Fundación Food for the Hungry (FH Bolivia), ejecutó el proyecto de construcción de la línea conductora y red de agua potable en las juntas vecinales Alto Kuchutambo y Puerto ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE Y SENASAG FIRMAN ACTA DE ENTENDIMIENTO PARA LA IMPLEMENTACIÓN DE UN COMPLEJO DE LABORATORIO SUR hace 1 semana Noticias 311 El acuerdo permitirá coordinar acciones y evaluar preliminarmente posibles terrenos para el proyecto, que busca fortalecer las capacidades técnicas del SENASAG en la ciudad de Sucre. El Gobierno Autónomo Municipal de Sucre y el Servicio Nacional de Sanidad Agropecuaria e Inocuidad Alimentaria (SENASAG) suscribieron un Acta de Entendimiento y Coordinación ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE VACUNARA A MÁS DE 102 MIL PERROS Y GATOS CONTRA LA RABIA hace 1 semana Noticias 238 La campaña masiva será el domingo 25 de octubre, de 08:00 a 16:00, en los ocho distritos del municipio. La vacunación será gratuita. El Gobierno Autónomo Municipal de Sucre se prepara para una jornada de vacunación masiva contra la rabia, con la meta de inmunizar a 102.528 perros y gatos. ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE INAUGURÓ LA AMPLIACION Y EL SERVICIO NOCTURNO DEL CENTRO INTEGRAL INFANTIL DEL MERCADO CAMPESINO hace 2 semanas Noticias 444 El Gobierno Autónomo Municipal de Sucre realizó la entrega e inauguración de la ampliación del Centro Infantil Mercado Campesino, ubicado en la avenida Huata, zona Las Burbujas. Los trabajos fueron resultado de la recuperación de ambientes municipales gestionada por la Unidad de Activos Fijos del GAMS, con el objetivo de ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE Y CESSA PROYECTAN LA PRIMERA ELECTROLINERA PARA ELECTROMOVILIDAD EN SUCRE hace 2 semanas Noticias 239 El Gobierno Autónomo Municipal de Sucre (GAMS) y la Compañía Eléctrica Sucre S.A. (CESSA) formalizaron una alianza estratégica para proyectar la instalación de la primera electrolinera (ubicada en la ex estación Aniceto Arce) de acceso público en el municipio y sentar las bases para la incorporación de microbuses eléctricos en ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE IMPLEMENTA SISTEMA SITPRECO S2+ PARA FORTALECER UNIDADES DE TRANSPARENCIA hace 2 semanas Noticias 233 El Gobierno Autónomo Municipal de Sucre, la mañana de este viernes en coordinación con el Ministerio de Transparencia y la Asociación de Concejalas y Alcaldesas de Chuquisaca (ADECOCH) implementan sistema para la admisión, registro, seguimiento y gestión de denuncias relacionadas con actos de corrupción en la administración pública y del ... Leer más » Compartir Facebook SUCRE AVANZA HACIA LA ELECTROMOVILIDAD CON PROYECTOS DE ESTACIONES DE CARGA ELÉCTRICA hace 2 semanas Noticias 238 El Gobierno Autónomo Municipal de Sucre y la Compañía Eléctrica Sucre S.A. (CESSA) coordinan acciones para impulsar la electromovilidad en el municipio, con propuestas orientadas a garantizar el abastecimiento de energía para los futuros buses eléctricos del transporte público urbano y facilitar el acceso a estaciones de carga para la ... Leer más » Compartir Facebook ALCALDESA Y FELCV COORDINAN ACCIONES PARA CONSTRUIR ESPACIOS PÚBLICOS SEGUROS PARA MUJERES, NIÑAS Y NIÑOS hace 2 semanas Noticias 258 La alcaldesa de Sucre sostuvo una reunión con Rubén Moscoso, director departamental de la FELCV de Chuquisaca, para coordinar el inicio de la construcción del Plan de Ciudades y Espacios Públicos Seguros con y para Mujeres, Niñas y Niños, orientado a fortalecer la prevención de la violencia y generar entornos ... Leer más » Compartir Facebook Pagina 1 de 932 1 2 3 4 5 » 10 20 30 ... Ultimo »",
+      "description": "SUCRE AL MUNDO: LA CAPITAL SE SUMA A LA EXCLUSIVA «ALIANZA IBEROAMÉRICA 500+» PARA IMPULSAR SU DESARROLLO Y PATRIMONIO hace 3 días Noticias 184 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarrollo de América Latina y el Caribe (CAF) que reúne a ... Leer más » Compartir Facebook SUCRE LIDERA EL FORO POLÍTICO DE GOBIERNOS LOCALES MÁS IMPORTANTE DE IBEROAMÉRICA hace 5 días Noticias 240 Sucre marca un hito internacional al participar por primera vez en el II Encuentro de Ciudades Iberoamericanas, el espacio de diálogo político y cooperación entre gobiernos locales más relevante de la región. El evento reúne a las principales ciudades capitales de América Latina, el Caribe, España y Portugal. La alcaldesa ... Leer más » Compartir Facebook LA ALCALDÍA DE SUCRE, ELAPAS Y FH BOLIVIA ENTREGAN RED DE AGUA POTABLE PARA EL DISTRITO 6 hace 1 semana Noticias 330 El Gobierno Autónomo Municipal de Sucre, en coordinación con la Empresa Local de Agua Potable y Alcantarillado Sucre (ELAPAS) y la Fundación Food for the Hungry (FH Bolivia), ejecutó el proyecto de construcción de la línea conductora y red de agua potable en las juntas vecinales Alto Kuchutambo y Puerto ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE Y SENASAG FIRMAN ACTA DE ENTENDIMIENTO PARA LA IMPLEMENTACIÓN DE UN COMPLEJO DE LABORATORIO SUR hace 1 semana Noticias 312 El acuerdo permitirá coordinar acciones y evaluar preliminarmente posibles terrenos para el proyecto, que busca fortalecer las capacidades técnicas del SENASAG en la ciudad de Sucre. El Gobierno Autónomo Municipal de Sucre y el Servicio Nacional de Sanidad Agropecuaria e Inocuidad Alimentaria (SENASAG) suscribieron un Acta de Entendimiento y Coordinación ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE VACUNARA A MÁS DE 102 MIL PERROS Y GATOS CONTRA LA RABIA hace 1 semana Noticias 238 La campaña masiva será el domingo 25 de octubre, de 08:00 a 16:00, en los ocho distritos del municipio. La vacunación será gratuita. El Gobierno Autónomo Municipal de Sucre se prepara para una jornada de vacunación masiva contra la rabia, con la meta de inmunizar a 102.528 perros y gatos. ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE INAUGURÓ LA AMPLIACION Y EL SERVICIO NOCTURNO DEL CENTRO INTEGRAL INFANTIL DEL MERCADO CAMPESINO hace 2 semanas Notic",
+      "original_text": "SUCRE AL MUNDO: LA CAPITAL SE SUMA A LA EXCLUSIVA «ALIANZA IBEROAMÉRICA 500+» PARA IMPULSAR SU DESARROLLO Y PATRIMONIO hace 3 días Noticias 184 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarrollo de América Latina y el Caribe (CAF) que reúne a ... Leer más » Compartir Facebook SUCRE LIDERA EL FORO POLÍTICO DE GOBIERNOS LOCALES MÁS IMPORTANTE DE IBEROAMÉRICA hace 5 días Noticias 240 Sucre marca un hito internacional al participar por primera vez en el II Encuentro de Ciudades Iberoamericanas, el espacio de diálogo político y cooperación entre gobiernos locales más relevante de la región. El evento reúne a las principales ciudades capitales de América Latina, el Caribe, España y Portugal. La alcaldesa ... Leer más » Compartir Facebook LA ALCALDÍA DE SUCRE, ELAPAS Y FH BOLIVIA ENTREGAN RED DE AGUA POTABLE PARA EL DISTRITO 6 hace 1 semana Noticias 330 El Gobierno Autónomo Municipal de Sucre, en coordinación con la Empresa Local de Agua Potable y Alcantarillado Sucre (ELAPAS) y la Fundación Food for the Hungry (FH Bolivia), ejecutó el proyecto de construcción de la línea conductora y red de agua potable en las juntas vecinales Alto Kuchutambo y Puerto ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE Y SENASAG FIRMAN ACTA DE ENTENDIMIENTO PARA LA IMPLEMENTACIÓN DE UN COMPLEJO DE LABORATORIO SUR hace 1 semana Noticias 312 El acuerdo permitirá coordinar acciones y evaluar preliminarmente posibles terrenos para el proyecto, que busca fortalecer las capacidades técnicas del SENASAG en la ciudad de Sucre. El Gobierno Autónomo Municipal de Sucre y el Servicio Nacional de Sanidad Agropecuaria e Inocuidad Alimentaria (SENASAG) suscribieron un Acta de Entendimiento y Coordinación ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE VACUNARA A MÁS DE 102 MIL PERROS Y GATOS CONTRA LA RABIA hace 1 semana Noticias 238 La campaña masiva será el domingo 25 de octubre, de 08:00 a 16:00, en los ocho distritos del municipio. La vacunación será gratuita. El Gobierno Autónomo Municipal de Sucre se prepara para una jornada de vacunación masiva contra la rabia, con la meta de inmunizar a 102.528 perros y gatos. ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE INAUGURÓ LA AMPLIACION Y EL SERVICIO NOCTURNO DEL CENTRO INTEGRAL INFANTIL DEL MERCADO CAMPESINO hace 2 semanas Noticias 444 El Gobierno Autónomo Municipal de Sucre realizó la entrega e inauguración de la ampliación del Centro Infantil Mercado Campesino, ubicado en la avenida Huata, zona Las Burbujas. Los trabajos fueron resultado de la recuperación de ambientes municipales gestionada por la Unidad de Activos Fijos del GAMS, con el objetivo de ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE Y CESSA PROYECTAN LA PRIMERA ELECTROLINERA PARA ELECTROMOVILIDAD EN SUCRE hace 2 semanas Noticias 241 El Gobierno Autónomo Municipal de Sucre (GAMS) y la Compañía Eléctrica Sucre S.A. (CESSA) formalizaron una alianza estratégica para proyectar la instalación de la primera electrolinera (ubicada en la ex estación Aniceto Arce) de acceso público en el municipio y sentar las bases para la incorporación de microbuses eléctricos en ... Leer más » Compartir Facebook ALCALDÍA DE SUCRE IMPLEMENTA SISTEMA SITPRECO S2+ PARA FORTALECER UNIDADES DE TRANSPARENCIA hace 2 semanas Noticias 233 El Gobierno Autónomo Municipal de Sucre, la mañana de este viernes en coordinación con el Ministerio de Transparencia y la Asociación de Concejalas y Alcaldesas de Chuquisaca (ADECOCH) implementan sistema para la admisión, registro, seguimiento y gestión de denuncias relacionadas con actos de corrupción en la administración pública y del ... Leer más » Compartir Facebook SUCRE AVANZA HACIA LA ELECTROMOVILIDAD CON PROYECTOS DE ESTACIONES DE CARGA ELÉCTRICA hace 2 semanas Noticias 238 El Gobierno Autónomo Municipal de Sucre y la Compañía Eléctrica Sucre S.A. (CESSA) coordinan acciones para impulsar la electromovilidad en el municipio, con propuestas orientadas a garantizar el abastecimiento de energía para los futuros buses eléctricos del transporte público urbano y facilitar el acceso a estaciones de carga para la ... Leer más » Compartir Facebook ALCALDESA Y FELCV COORDINAN ACCIONES PARA CONSTRUIR ESPACIOS PÚBLICOS SEGUROS PARA MUJERES, NIÑAS Y NIÑOS hace 2 semanas Noticias 259 La alcaldesa de Sucre sostuvo una reunión con Rubén Moscoso, director departamental de la FELCV de Chuquisaca, para coordinar el inicio de la construcción del Plan de Ciudades y Espacios Públicos Seguros con y para Mujeres, Niñas y Niños, orientado a fortalecer la prevención de la violencia y generar entornos ... Leer más » Compartir Facebook Pagina 1 de 932 1 2 3 4 5 » 10 20 30 ... Ultimo »",
       "category": "conferencia",
       "subcategories": [
         "festival",
@@ -16309,8 +15852,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -16901,7 +16444,7 @@
       "url": "https://superticket.bo/Concurso-Intercolegial-Teatro/",
       "facebook_event_url": null,
       "published_at": "2026-10-26T15:00:00-04:00",
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Concurso Intercolegial Teatro",
       "description": "Concurso Intercolegial Teatro\n2026-10-26T15:00:00-04:00\n2026-10-26\nTeatro 16 de Julio\nAv. 16 de Julio (El Prado) y Batallón Colorados\nBs 40.00\nBusca y compra tus entradas a los mejores eventos de Concurso Intercolegial Teatro. Entradas a la venta en SuperTicket.bo desde el 26 Octubre",
       "original_text": "Concurso Intercolegial Teatro\n2026-10-26T15:00:00-04:00\n2026-10-26\nTeatro 16 de Julio\nAv. 16 de Julio (El Prado) y Batallón Colorados\nBs 40.00\nBusca y compra tus entradas a los mejores eventos de Concurso Intercolegial Teatro. Entradas a la venta en SuperTicket.bo desde el 26 Octubre",
@@ -17015,8 +16558,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -17025,6 +16568,148 @@
       "quality_score": 72,
       "is_featured": true,
       "price_label": "Bs 40"
+    },
+    {
+      "id": "dcbb4912308aebb9",
+      "source_id": "fb_alianza_francesa_lapaz",
+      "source_name": "Alianza Francesa de La Paz",
+      "source_url": "https://www.facebook.com/aflapaz/",
+      "source_class": "venue",
+      "source_tier": 1,
+      "source_icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q-Tw_E284xIQ7kNvwFgxZ7v&_nc_oc=AdrVBObRU0QgBpjTb2BeSzvhXyOB3VJcTUHcu6vs7ycxshbQwy8ufRIUK0Uu_9bGZoA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=8tiyBhgNBskgpLY6Jf3yIg&_nc_ss=7f289&oh=00_AQN1iUpAY_z_lF6IBAB_nzhzFBZhLJyY98nQFb8OeJXq1w&oe=6AE32047",
+      "url": "https://www.facebook.com/aflapaz/posts/c%C3%B3mo-te-imaginas-la-ciudad-del-ma%C3%B1ana-s%C3%BAmate-a-la-conferencia-horizontes-compart/1567517042083480/",
+      "facebook_event_url": null,
+      "published_at": null,
+      "scraped_at": "2026-10-24T19:17:44-04:00",
+      "title": "Alianza Francesa de La Paz",
+      "description": "Cómo te imaginas la ciudad del mañana? ​Súmate a la conferencia Horizontes Compartidos: «¿Mi ciudad mañana?», un espacio para debatir sobre sostenibilidad, gobernanza, movilidad y justicia social en...\nCómo te imaginas la ciudad del mañana? ​Súmate a la conferencia Horizontes Compartidos: «¿Mi ciudad mañana?», un espacio para debatir sobre...\nCómo te imaginas la ciudad del mañana? ​Súmate a la conferencia Horizontes Compartidos: «¿Mi ciudad mañana?», un espacio para debatir sobre sostenibilidad, gobernanza, movilidad y justicia social en nuestras urbes. Conectaremos la experiencia europea con la perspectiva latinoamericana junto a destacados panelistas. \n​\n Martes 27/10 | 19:00 h\n La Galerie, Alianza Francesa de Sopocachi \n​\nEntrada libre!!\n​Acompáñanos a pensar y construir juntos el futuro de nuestras ciudades!\n#horizontescompartidos #miciudadmañana #ciudadessostenibles #desarrollourbano #sostenibilidad #urbanismo #politicasclimaticas #resilienciaurbana\nCómo te imaginas la ciudad del mañana? ​Súmate a la conferencia Horizontes Compartidos: «¿Mi ciudad mañana?», un espacio para debatir sobre sostenibilidad, gobernanza, movilidad y justicia social en nuestras urbes. Conectaremos la experiencia europea con la perspectiva latinoamericana junto a destacados panelistas.\n​\n Martes 27/10 | 19:00 h\nLa Galerie, Alianza Francesa de Sopocachi\nEntrada libre!!\n​Acompáñanos a pensar y construir juntos el futuro de nuestras ciudades!\n#horizontescompartidos #miciudadmañana #ciudadessostenibles #desarrollourbano #sostenibilidad #urbanismo #politicasclimaticas #resilienciaurbana",
+      "original_text": "Cómo te imaginas la ciudad del mañana? ​Súmate a la conferencia Horizontes Compartidos: «¿Mi ciudad mañana?», un espacio para debatir sobre sostenibilidad, gobernanza, movilidad y justicia social en...\nCómo te imaginas la ciudad del mañana? ​Súmate a la conferencia Horizontes Compartidos: «¿Mi ciudad mañana?», un espacio para debatir sobre...\nCómo te imaginas la ciudad del mañana? ​Súmate a la conferencia Horizontes Compartidos: «¿Mi ciudad mañana?», un espacio para debatir sobre sostenibilidad, gobernanza, movilidad y justicia social en nuestras urbes. Conectaremos la experiencia europea con la perspectiva latinoamericana junto a destacados panelistas. \n​\n Martes 27/10 | 19:00 h\n La Galerie, Alianza Francesa de Sopocachi \n​\nEntrada libre!!\n​Acompáñanos a pensar y construir juntos el futuro de nuestras ciudades!\n#horizontescompartidos #miciudadmañana #ciudadessostenibles #desarrollourbano #sostenibilidad #urbanismo #politicasclimaticas #resilienciaurbana\nCómo te imaginas la ciudad del mañana? ​Súmate a la conferencia Horizontes Compartidos: «¿Mi ciudad mañana?», un espacio para debatir sobre sostenibilidad, gobernanza, movilidad y justicia social en nuestras urbes. Conectaremos la experiencia europea con la perspectiva latinoamericana junto a destacados panelistas.\n​\n Martes 27/10 | 19:00 h\nLa Galerie, Alianza Francesa de Sopocachi\nEntrada libre!!\n​Acompáñanos a pensar y construir juntos el futuro de nuestras ciudades!\n#horizontescompartidos #miciudadmañana #ciudadessostenibles #desarrollourbano #sostenibilidad #urbanismo #politicasclimaticas #resilienciaurbana",
+      "category": "conferencia",
+      "subcategories": [],
+      "tags": [
+        "horizontescompartidos",
+        "miciudadmañana",
+        "ciudadessostenibles",
+        "desarrollourbano",
+        "sostenibilidad",
+        "urbanismo",
+        "politicasclimaticas",
+        "resilienciaurbana"
+      ],
+      "artists": [],
+      "starts_at": "2026-10-27T19:00:00-04:00",
+      "ends_at": null,
+      "starts_at_ms": 1793142000000,
+      "ends_at_ms": null,
+      "date_confidence": "exacta",
+      "date_source_text": "27/10",
+      "all_day": false,
+      "multi_day": false,
+      "doors_time": null,
+      "display_date": "Martes 27 de octubre · 19:00",
+      "days_until": 3,
+      "lifecycle": "proximo",
+      "department": "La Paz",
+      "city": "La Paz",
+      "venue": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "location_query": "La Paz, Bolivia",
+      "is_free": true,
+      "price_from": null,
+      "price_to": null,
+      "currency": null,
+      "price_text": "Entrada libre",
+      "ticket_urls": [],
+      "ticket_outlets": [],
+      "organizer": null,
+      "audience": null,
+      "age_restriction": null,
+      "duration_minutes": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "director": null,
+      "cast": [],
+      "phones": [],
+      "status": "programado",
+      "relevance_score": 97,
+      "confidence": 0.86,
+      "filter_reasons": [
+        "fecha_futura",
+        "hora_explicita",
+        "categoria_conferencia",
+        "informacion_de_entradas",
+        "lenguaje_de_convocatoria",
+        "tiene_afiche",
+        "fuente_especializada"
+      ],
+      "is_official": true,
+      "image_urls": [
+        "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/861499312_2283316575858059_4723921972951844363_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=100&ccb=1-7&_nc_sid=b96d88&_nc_ohc=eK6JzM9faogQ7kNvwHemHU8&_nc_oc=AdpfzU4KyEk6oFPRcNEqyw5wH6lkGoyKWBN5OY8whXPObSDT2_oFKFpCQh4yZeR7wyw&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=tKKVi3iSl3RMV6e_3JKp1w&_nc_ss=7f289&oh=00_AQMR7dahR_fiJmrDxGb33oMlkC_Oi9QZBWj-ha7FeAd1dA&oe=6AE2FD52",
+        "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/861499312_2283316575858059_4723921972951844363_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=eK6JzM9faogQ7kNvwHemHU8&_nc_oc=AdpfzU4KyEk6oFPRcNEqyw5wH6lkGoyKWBN5OY8whXPObSDT2_oFKFpCQh4yZeR7wyw&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=wVLb4tPfkPYUTkUvjxmD8g&_nc_ss=7f289&oh=00_AQNAO_GqsWPMn5-z1R0hMuNfYII-J-CjgZjaG7Fa0jsxaw&oe=6AE2FD52"
+      ],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/861499312_2283316575858059_4723921972951844363_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=100&ccb=1-7&_nc_sid=b96d88&_nc_ohc=eK6JzM9faogQ7kNvwHemHU8&_nc_oc=AdpfzU4KyEk6oFPRcNEqyw5wH6lkGoyKWBN5OY8whXPObSDT2_oFKFpCQh4yZeR7wyw&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=tKKVi3iSl3RMV6e_3JKp1w&_nc_ss=7f289&oh=00_AQMR7dahR_fiJmrDxGb33oMlkC_Oi9QZBWj-ha7FeAd1dA&oe=6AE2FD52",
+      "has_image": true,
+      "videos": [],
+      "has_video": false,
+      "media": {
+        "images": [
+          "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/861499312_2283316575858059_4723921972951844363_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=100&ccb=1-7&_nc_sid=b96d88&_nc_ohc=eK6JzM9faogQ7kNvwHemHU8&_nc_oc=AdpfzU4KyEk6oFPRcNEqyw5wH6lkGoyKWBN5OY8whXPObSDT2_oFKFpCQh4yZeR7wyw&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=tKKVi3iSl3RMV6e_3JKp1w&_nc_ss=7f289&oh=00_AQMR7dahR_fiJmrDxGb33oMlkC_Oi9QZBWj-ha7FeAd1dA&oe=6AE2FD52",
+          "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/861499312_2283316575858059_4723921972951844363_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=eK6JzM9faogQ7kNvwHemHU8&_nc_oc=AdpfzU4KyEk6oFPRcNEqyw5wH6lkGoyKWBN5OY8whXPObSDT2_oFKFpCQh4yZeR7wyw&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=wVLb4tPfkPYUTkUvjxmD8g&_nc_ss=7f289&oh=00_AQNAO_GqsWPMn5-z1R0hMuNfYII-J-CjgZjaG7Fa0jsxaw&oe=6AE2FD52"
+        ],
+        "main_image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/861499312_2283316575858059_4723921972951844363_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=p600x600&_nc_cat=100&ccb=1-7&_nc_sid=b96d88&_nc_ohc=eK6JzM9faogQ7kNvwHemHU8&_nc_oc=AdpfzU4KyEk6oFPRcNEqyw5wH6lkGoyKWBN5OY8whXPObSDT2_oFKFpCQh4yZeR7wyw&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=tKKVi3iSl3RMV6e_3JKp1w&_nc_ss=7f289&oh=00_AQMR7dahR_fiJmrDxGb33oMlkC_Oi9QZBWj-ha7FeAd1dA&oe=6AE2FD52",
+        "image_count": 2,
+        "videos": []
+      },
+      "sources": [
+        {
+          "id": "fb_alianza_francesa_lapaz",
+          "name": "Alianza Francesa de La Paz",
+          "class": "venue",
+          "tier": 1,
+          "page_url": "https://www.facebook.com/aflapaz/",
+          "post_url": "https://www.facebook.com/aflapaz/posts/c%C3%B3mo-te-imaginas-la-ciudad-del-ma%C3%B1ana-s%C3%BAmate-a-la-conferencia-horizontes-compart/1567517042083480/",
+          "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q-Tw_E284xIQ7kNvwFgxZ7v&_nc_oc=AdrVBObRU0QgBpjTb2BeSzvhXyOB3VJcTUHcu6vs7ycxshbQwy8ufRIUK0Uu_9bGZoA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=8tiyBhgNBskgpLY6Jf3yIg&_nc_ss=7f289&oh=00_AQN1iUpAY_z_lF6IBAB_nzhzFBZhLJyY98nQFb8OeJXq1w&oe=6AE32047",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "all_urls": [
+        "https://www.facebook.com/aflapaz/posts/c%C3%B3mo-te-imaginas-la-ciudad-del-ma%C3%B1ana-s%C3%BAmate-a-la-conferencia-horizontes-compart/1567517042083480/"
+      ],
+      "corroborated": false,
+      "verification": "una_fuente",
+      "merged_count": 1,
+      "event_id": "evt_b94197ac987d93",
+      "first_seen_at": "2026-10-24T19:17:44-04:00",
+      "history": [
+        {
+          "at": "2026-10-24T19:17:44-04:00",
+          "reason": "primera_deteccion",
+          "status": "programado",
+          "lifecycle": "proximo",
+          "starts_at": "2026-10-27T19:00:00-04:00",
+          "price_from": null,
+          "source_count": 1
+        }
+      ],
+      "changed_this_run": [],
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
+      "seen_this_run": true,
+      "history_count": 1,
+      "is_upcoming": true,
+      "category_label": "Conferencias",
+      "lifecycle_label": "Próximos",
+      "quality_score": 63,
+      "is_featured": false,
+      "price_label": "Entrada libre"
     },
     {
       "id": "bd6897dfa0c75c1a",
@@ -18379,7 +18064,7 @@
       "url": "https://superticket.bo/100--Yara-en-Concierto---Potosi/",
       "facebook_event_url": null,
       "published_at": "2026-11-07T19:00:00-04:00",
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "100% Yara en Concierto - Potosí",
       "description": "100% Yara en Concierto - Potosí\n2026-11-07T19:00:00-04:00\n2026-11-07\nTeatro Victor Paz Estenssoro\nBs 50.00\nBusca y compra tus entradas a los mejores eventos de 100% Yara en Concierto - Potosí. Entradas a la venta en SuperTicket.bo desde el 07 Noviembre",
       "original_text": "100% Yara en Concierto - Potosí\n2026-11-07T19:00:00-04:00\n2026-11-07\nTeatro Victor Paz Estenssoro\nBs 50.00\nBusca y compra tus entradas a los mejores eventos de 100% Yara en Concierto - Potosí. Entradas a la venta en SuperTicket.bo desde el 07 Noviembre",
@@ -18497,8 +18182,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -20749,7 +20434,7 @@
       "url": "https://superticket.bo/Concierto-Benefico-Sinfonico-Musica-de-los-70---80/",
       "facebook_event_url": null,
       "published_at": "2026-11-11T18:45:00-04:00",
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Concierto Benéfico Sinfónico Música de los 70 - 80",
       "description": "Concierto Benéfico Sinfónico Música de los 70 - 80\n2026-11-11T18:45:00-04:00\n2026-11-11\nEspacio Kúu Inti\nEl Bosque Boulevard , Calle 15 de Calacoto\nBs 120.00\nBusca y compra tus entradas a los mejores eventos de Concierto Benéfico Sinfónico Música de los 70 - 80. Entradas a la venta en SuperTicket.bo desde el 11 Noviembre",
       "original_text": "Concierto Benéfico Sinfónico Música de los 70 - 80\n2026-11-11T18:45:00-04:00\n2026-11-11\nEspacio Kúu Inti\nEl Bosque Boulevard , Calle 15 de Calacoto\nBs 120.00\nBusca y compra tus entradas a los mejores eventos de Concierto Benéfico Sinfónico Música de los 70 - 80. Entradas a la venta en SuperTicket.bo desde el 11 Noviembre",
@@ -20863,8 +20548,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -20885,7 +20570,7 @@
       "url": "https://superticket.bo/Concierto-Tributo--Reik--Rebelde/",
       "facebook_event_url": null,
       "published_at": "2026-11-12T19:30:00-04:00",
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Concierto Tributo  Reik  Rebelde",
       "description": "Concierto Tributo Reik Rebelde\n2026-11-12T19:30:00-04:00\n2026-11-12\nEspacio Kúu Inti\nEl Bosque Boulevard , Calle 15 de Calacoto\nBs 70.00\nBusca y compra tus entradas a los mejores eventos de Concierto Tributo Reik Rebelde. Entradas a la venta en SuperTicket.bo desde el 12 Noviembre",
       "original_text": "Concierto Tributo Reik Rebelde\n2026-11-12T19:30:00-04:00\n2026-11-12\nEspacio Kúu Inti\nEl Bosque Boulevard , Calle 15 de Calacoto\nBs 70.00\nBusca y compra tus entradas a los mejores eventos de Concierto Tributo Reik Rebelde. Entradas a la venta en SuperTicket.bo desde el 12 Noviembre",
@@ -21011,8 +20696,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 2,
       "is_upcoming": true,
@@ -21033,7 +20718,7 @@
       "url": "https://superticket.bo/Festival---Axesso-25-anos/",
       "facebook_event_url": null,
       "published_at": "2026-11-13T20:00:00-04:00",
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Festival - Axesso 25 años",
       "description": "Festival - Axesso 25 años\n2026-11-13T20:00:00-04:00\n2026-11-13\nEspacio INNI\nBs 50.00\nBusca y compra tus entradas a los mejores eventos de Festival - Axesso 25 años. Entradas a la venta en SuperTicket.bo desde el 13 Noviembre",
       "original_text": "Festival - Axesso 25 años\n2026-11-13T20:00:00-04:00\n2026-11-13\nEspacio INNI\nBs 50.00\nBusca y compra tus entradas a los mejores eventos de Festival - Axesso 25 años. Entradas a la venta en SuperTicket.bo desde el 13 Noviembre",
@@ -21147,8 +20832,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -21169,7 +20854,7 @@
       "url": "https://superticket.bo/Chila-Jatun-en-Concierto/",
       "facebook_event_url": null,
       "published_at": "2026-11-13T20:00:00-04:00",
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Chila Jatun en Concierto",
       "description": "Chila Jatun en Concierto\n2026-11-13T20:00:00-04:00\n2026-11-13\nSuper Multiteatro de Oruro\nBs 120.00\nBusca y compra tus entradas a los mejores eventos de Chila Jatun en Concierto. Entradas a la venta en SuperTicket.bo desde el 13 Noviembre",
       "original_text": "Chila Jatun en Concierto\n2026-11-13T20:00:00-04:00\n2026-11-13\nSuper Multiteatro de Oruro\nBs 120.00\nBusca y compra tus entradas a los mejores eventos de Chila Jatun en Concierto. Entradas a la venta en SuperTicket.bo desde el 13 Noviembre",
@@ -21295,8 +20980,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 2,
       "is_upcoming": true,
@@ -21317,7 +21002,7 @@
       "url": "https://superticket.bo/100--Yara-en-Concierto--La-Paz-/",
       "facebook_event_url": null,
       "published_at": "2026-11-19T19:00:00-04:00",
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "100% Yara en Concierto (La Paz)",
       "description": "100% Yara en Concierto (La Paz)\n2026-11-19T19:00:00-04:00\n2026-11-19\nTeatro Municipal Alberto Saavedra Pérez\nGenaro Sanjinés e Indaburo\nBs 50.00\nBusca y compra tus entradas a los mejores eventos de 100% Yara en Concierto (La Paz). Entradas a la venta en SuperTicket.bo desde el 19 Noviembre",
       "original_text": "100% Yara en Concierto (La Paz)\n2026-11-19T19:00:00-04:00\n2026-11-19\nTeatro Municipal Alberto Saavedra Pérez\nGenaro Sanjinés e Indaburo\nBs 50.00\nBusca y compra tus entradas a los mejores eventos de 100% Yara en Concierto (La Paz). Entradas a la venta en SuperTicket.bo desde el 19 Noviembre",
@@ -21434,8 +21119,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -21456,7 +21141,7 @@
       "url": "https://superticket.bo/Chilajatun-en-Concierto/",
       "facebook_event_url": null,
       "published_at": "2026-11-26T20:00:00-04:00",
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Chilajatun en Concierto",
       "description": "Chilajatun en Concierto\n2026-11-26T20:00:00-04:00\n2026-11-26\nTeatro 16 de Julio\nAv. 16 de Julio (El Prado) y Batallón Colorados\nBs 140.00\nBusca y compra tus entradas a los mejores eventos de Chilajatun en Concierto. Entradas a la venta en SuperTicket.bo desde el 26 Noviembre",
       "original_text": "Chilajatun en Concierto\n2026-11-26T20:00:00-04:00\n2026-11-26\nTeatro 16 de Julio\nAv. 16 de Julio (El Prado) y Batallón Colorados\nBs 140.00\nBusca y compra tus entradas a los mejores eventos de Chilajatun en Concierto. Entradas a la venta en SuperTicket.bo desde el 26 Noviembre",
@@ -21572,8 +21257,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -21594,7 +21279,7 @@
       "url": "https://superticket.bo/100--Yara-en-Concierto--Oruro-/",
       "facebook_event_url": null,
       "published_at": "2026-12-04T19:00:00-04:00",
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "100% Yara en Concierto (Oruro)",
       "description": "100% Yara en Concierto (Oruro)\n2026-12-04T19:00:00-04:00\n2026-11-04\nSuper Multiteatro de Oruro\nBs 70.00\nBusca y compra tus entradas a los mejores eventos de 100% Yara en Concierto (Oruro). Entradas a la venta en SuperTicket.bo desde el 04 Diciembre",
       "original_text": "100% Yara en Concierto (Oruro)\n2026-12-04T19:00:00-04:00\n2026-11-04\nSuper Multiteatro de Oruro\nBs 70.00\nBusca y compra tus entradas a los mejores eventos de 100% Yara en Concierto (Oruro). Entradas a la venta en SuperTicket.bo desde el 04 Diciembre",
@@ -21720,8 +21405,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 2,
       "is_upcoming": true,
@@ -23001,7 +22686,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/expoauto",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto Del 3 al 7 de marzo de 2027 De 17:00 a 23:30…",
       "description": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto 🗓 Del 3 al 7 de marzo de 2027 ⏰ De 17:00 a 23:30 📍 FEXPOCRUZ Del 3 al 7 de marzo las principales concesionarias del país estarán exhibiendo lo mejor de la industria automotriz a 35 mil visitantes. Son nueve pabellones y áreas externas que van a exhibir modelos de todas las gamas además de maquinaria pesada, accesorios y repuestos automotrices. Habrá una importante presencia de diferentes entidades bancarias, que ofertarán créditos especiales para esta exhibición. El visitante encontrará el vehículo que desee, adecuado a sus requerimientos. El apoyo de la Cámara Automotor Boliviana permite que año a año Santa Cruz se convierta en el centro del sector automotriz del país. Principales Atracciones Tendencias del Sector Automotriz Encuentro de Negocios Lanzamiento de Nuevos Vehículos Promociones y Descuentos dESCUBRÍ LAS Categorías Sistemas de Seguridad Conocé los últimos sistemas de seguridad para proteger y optimizar tu experiencia automotriz. Servicios Técnicos Accedé a servicios técnicos especializados que garantizan el mejor rendimiento para tu automóvil. Lubricantes y Combustibles Descubrí productos de calidad para el cuidado y rendimiento óptimo de tus vehículos. Motocicletas y UTVs Descubrí motocicletas y UTVs innovadores que ofrecen rendimiento y aventura. Herramientas y Accesorios Encontrá herramientas y accesorios esenciales para el mantenimiento y personalización de vehículos. Vehículos Pesados y Livianos Explorá la variedad de vehículos pesados y livianos diseñados para satisfacer tus necesidades. Industria y Maquinaria Conocé las soluciones y productos que están revolucionando la industria y el comercio. Asociaciones Automotrices Conectate con asociaciones clave del sector y fortalecé tu red en la industria automotriz. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sob",
       "original_text": "EN Feria Automotriz de Santa Cruz Inicio Ferias Expoauto Sobre Expoauto 🗓 Del 3 al 7 de marzo de 2027 ⏰ De 17:00 a 23:30 📍 FEXPOCRUZ Del 3 al 7 de marzo las principales concesionarias del país estarán exhibiendo lo mejor de la industria automotriz a 35 mil visitantes. Son nueve pabellones y áreas externas que van a exhibir modelos de todas las gamas además de maquinaria pesada, accesorios y repuestos automotrices. Habrá una importante presencia de diferentes entidades bancarias, que ofertarán créditos especiales para esta exhibición. El visitante encontrará el vehículo que desee, adecuado a sus requerimientos. El apoyo de la Cámara Automotor Boliviana permite que año a año Santa Cruz se convierta en el centro del sector automotriz del país. Principales Atracciones Tendencias del Sector Automotriz Encuentro de Negocios Lanzamiento de Nuevos Vehículos Promociones y Descuentos dESCUBRÍ LAS Categorías Sistemas de Seguridad Conocé los últimos sistemas de seguridad para proteger y optimizar tu experiencia automotriz. Servicios Técnicos Accedé a servicios técnicos especializados que garantizan el mejor rendimiento para tu automóvil. Lubricantes y Combustibles Descubrí productos de calidad para el cuidado y rendimiento óptimo de tus vehículos. Motocicletas y UTVs Descubrí motocicletas y UTVs innovadores que ofrecen rendimiento y aventura. Herramientas y Accesorios Encontrá herramientas y accesorios esenciales para el mantenimiento y personalización de vehículos. Vehículos Pesados y Livianos Explorá la variedad de vehículos pesados y livianos diseñados para satisfacer tus necesidades. Industria y Maquinaria Conocé las soluciones y productos que están revolucionando la industria y el comercio. Asociaciones Automotrices Conectate con asociaciones clave del sector y fortalecé tu red en la industria automotriz. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -23128,8 +22813,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -23314,7 +22999,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/ficad",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad Del 17 al 21 de marzo de 2027 De…",
       "description": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad 🗓 Del 17 al 21 de marzo de 2027 ⏰ De 17:00 a 23:00 📍 FEXPOCRUZ ‍ Ficad reúne en un solo lugar a empresas constructoras, de arquitectura, diseño y mucho más. Este es el espacio para personas que desean construir y remodelar su hogar y para profesionales del rubro que buscan innovadores productos y servicios de primer nivel. En el marco de este evento se llevan a cabo seminarios, foros y simposios referentes al sector. Todos los visitantes de esta feria pueden participar de estas actividades y aprovechar los grandes descuentos. Principales Atracciones Novedades y Tendencias Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Encuentro de Negocios Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Talleres y capacitaciones Mejora tus habilidades con talleres y sesiones educativas clave. Promociones y Descuentos Aprovecha promociones exclusivas y ofertas especiales durante la feria. dESCUBRÍ LAS Categorías Decoración y Paisajismo Inspírate con ideas innovadoras para decorar y transformar espacios interiores y exteriores. Equipamiento para el Hogar Todo lo que necesitás para modernizar y equipar tu hogar con lo último en tecnología y confort. Diseño de Interiores Transformá cualquier espacio con soluciones creativas de diseño interior. Acabados Arquitectónicos Detalles que realzan la estética y la calidad de cualquier proyecto arquitectónico. Sistemas de Iluminación Iluminá tus proyectos con sistemas que combinan eficiencia y estilo. Revestimientos Soluciones en revestimientos que combinan estilo, durabilidad y funcionalidad. Automatización Controlá tu hogar con sistemas de automatización que simplifican tu vida diaria. Materiales e Insumos Materiales de construcción de alta calidad para proyectos duraderos y eficientes. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoa",
       "original_text": "EN Feria de la Construcción, Arquitectura y Diseño Inicio Ferias Ficad Sobre Ficad 🗓 Del 17 al 21 de marzo de 2027 ⏰ De 17:00 a 23:00 📍 FEXPOCRUZ ‍ Ficad reúne en un solo lugar a empresas constructoras, de arquitectura, diseño y mucho más. Este es el espacio para personas que desean construir y remodelar su hogar y para profesionales del rubro que buscan innovadores productos y servicios de primer nivel. En el marco de este evento se llevan a cabo seminarios, foros y simposios referentes al sector. Todos los visitantes de esta feria pueden participar de estas actividades y aprovechar los grandes descuentos. Principales Atracciones Novedades y Tendencias Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Encuentro de Negocios Conéctate con líderes del sector y explora nuevas oportunidades de negocio. Talleres y capacitaciones Mejora tus habilidades con talleres y sesiones educativas clave. Promociones y Descuentos Aprovecha promociones exclusivas y ofertas especiales durante la feria. dESCUBRÍ LAS Categorías Decoración y Paisajismo Inspírate con ideas innovadoras para decorar y transformar espacios interiores y exteriores. Equipamiento para el Hogar Todo lo que necesitás para modernizar y equipar tu hogar con lo último en tecnología y confort. Diseño de Interiores Transformá cualquier espacio con soluciones creativas de diseño interior. Acabados Arquitectónicos Detalles que realzan la estética y la calidad de cualquier proyecto arquitectónico. Sistemas de Iluminación Iluminá tus proyectos con sistemas que combinan eficiencia y estilo. Revestimientos Soluciones en revestimientos que combinan estilo, durabilidad y funcionalidad. Automatización Controlá tu hogar con sistemas de automatización que simplifican tu vida diaria. Materiales e Insumos Materiales de construcción de alta calidad para proyectos duraderos y eficientes. Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -23424,8 +23109,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -23446,7 +23131,7 @@
       "url": "https://www.fexpocruz.com.bo/ferias",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Nuestras Ferias | Fexpocruz",
       "description": "EN Conocé Nuestras Ferias No items found. Agropecruz 7 al 11 de Abril de 2027 Conocé más Expoleche 7 al 11 de Abril de 2027 ExpoPet 7 al 11 de Abril de 2027 Expoagro 6 al 8 de Mayo de 2027 Conocé más Specialty Coffee Expo 1 al 4 de Julio de 2027 Conocé más Exporunning 15 al 17 de Julio de 2027 Expocruz 2026 17 al 26 de septiembre de 2027 Conocé más Expoauto 3 al 7 de Marzo de 2027 Conocé más Ficad 17 al 21 de Marzo de 2027 Conocé más Expoforest 17 al 21 de Marzo de 2027 Ferias Asociadas Feria del Libro Junio de 2027 Expo Bebé & Kids Mayo de 2027 Finergy Mayo de 2027 Expologistica Junio de 2027 42K 19 de Julio de 2026 Feria Minera 29 al 31 de Julio Outlet de Viajes 31 de julio al 2 de agosto de 2026 ExpoTeleinfo 2 al 4 de septiembre de 2026 Expo Bebé & Kids (Oct) 3 y 4 de Octubre Seminario Alimenta 22 y 23 de Octubre Street Project Noviembre de 2026 Expográfica 13 al 15 de Noviembre de 2026 Bolivia Textil 13 al 15 de Noviembre de 2026 Festival de Vinos y Quesos 20 y 21 de Noviembre NOTA: Las fechas de las ferias están sujetas a modificaciones sin previo aviso. FEXPOCRUZ no forma parte de la relación de consumo que surja entre el visitante y expositor de la feria, al no ser dueño ni responsable de los productos y/o servicios ofertados, deslindándose de cualquier negociación que éstos mantengan. Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
       "original_text": "EN Conocé Nuestras Ferias No items found. Agropecruz 7 al 11 de Abril de 2027 Conocé más Expoleche 7 al 11 de Abril de 2027 ExpoPet 7 al 11 de Abril de 2027 Expoagro 6 al 8 de Mayo de 2027 Conocé más Specialty Coffee Expo 1 al 4 de Julio de 2027 Conocé más Exporunning 15 al 17 de Julio de 2027 Expocruz 2026 17 al 26 de septiembre de 2027 Conocé más Expoauto 3 al 7 de Marzo de 2027 Conocé más Ficad 17 al 21 de Marzo de 2027 Conocé más Expoforest 17 al 21 de Marzo de 2027 Ferias Asociadas Feria del Libro Junio de 2027 Expo Bebé & Kids Mayo de 2027 Finergy Mayo de 2027 Expologistica Junio de 2027 42K 19 de Julio de 2026 Feria Minera 29 al 31 de Julio Outlet de Viajes 31 de julio al 2 de agosto de 2026 ExpoTeleinfo 2 al 4 de septiembre de 2026 Expo Bebé & Kids (Oct) 3 y 4 de Octubre Seminario Alimenta 22 y 23 de Octubre Street Project Noviembre de 2026 Expográfica 13 al 15 de Noviembre de 2026 Bolivia Textil 13 al 15 de Noviembre de 2026 Festival de Vinos y Quesos 20 y 21 de Noviembre NOTA: Las fechas de las ferias están sujetas a modificaciones sin previo aviso. FEXPOCRUZ no forma parte de la relación de consumo que surja entre el visitante y expositor de la feria, al no ser dueño ni responsable de los productos y/o servicios ofertados, deslindándose de cualquier negociación que éstos mantengan. Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -23555,8 +23240,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -23577,7 +23262,7 @@
       "url": "https://superticket.bo/LIVE-SOUND-ROCK-FESTIVAL/",
       "facebook_event_url": null,
       "published_at": "2027-04-24T16:00:00-04:00",
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Live Sound Rock Festival",
       "description": "Live Sound Rock Festival\n2027-04-24T16:00:00-04:00\n2027-04-24\nCancha Tenis Real Santa Cruz\nAvenida San Aurelio y 3er Anillo Externo, Santa Cruz de la Sierra, Bolivia.\nBs None\n&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_t&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIAxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;QUIET RIOT POR PRIMERA VEZ EN BOLIVIA&lt;/span&gt;&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_y&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La banda responsable de himnos inmortales como Metal Health (Bang Your Head), Cum On Feel The Noize y Mama Weer All Crazee Now llegará al país en el marco de su esperado Metal Health Latin American Tour 2027 para ser parte del Festival LIVE SOUND ROCK FEST&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_13&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weigh",
       "original_text": "Live Sound Rock Festival\n2027-04-24T16:00:00-04:00\n2027-04-24\nCancha Tenis Real Santa Cruz\nAvenida San Aurelio y 3er Anillo Externo, Santa Cruz de la Sierra, Bolivia.\nBs None\n&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_t&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIAxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;QUIET RIOT POR PRIMERA VEZ EN BOLIVIA&lt;/span&gt;&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_y&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La banda responsable de himnos inmortales como Metal Health (Bang Your Head), Cum On Feel The Noize y Mama Weer All Crazee Now llegará al país en el marco de su esperado Metal Health Latin American Tour 2027 para ser parte del Festival LIVE SOUND ROCK FEST&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_13&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;La formación actual reúne a Rudy Sarzo, Jizzy Pearl, Alex Grossi y Johnny Kelly, manteniendo vivo el legado de una de las bandas más importantes de la historia del Hard Rock y el Heavy Metal.&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_18&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBhAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;El festival LIVE SOUND ROCK FEST 2027 se realizará los días Sabado 24 y Domingo 25 de Abril en las ex-Canchas de Tenis de Real Santa Cruz reuniendo a las bandas nacionales más importantes del género, teniendo como invitado especial y cabeza de cartel la presencia de QUIET RIOT.&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1d&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIBxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;24 y 25 de Abril de 2027&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1i&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICBAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;Festival Live Sound Rock Fest - Ex- Canchas de Tenis Real Santa Cruz (Avenida San Aurelio y Tercer Anillo Interno)&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1n&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICRAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;VENTA DE ENTRADAS EN: https://superticket.bo/LIVE-SOUND-ROCK-FESTIVAL A PARTIR DEL MIERCOLES 17 DE JUNIO&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1s&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAIChAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(230, 232, 240);&quot;&gt;&lt;b&gt;QUIET RIOT EN BOLIVIA&lt;!--TgQPHd|[]--&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;n6owBd awi2gc&quot; data-sfc-cp=&quot;&quot; jsaction=&quot;&quot; jscontroller=&quot;TDBkbc#Ml18Xb&quot; data-sfc-root=&quot;c&quot; jsuid=&quot;UPcdAd_1x&quot; data-sfc-cb=&quot;&quot; data-hveid=&quot;CAAICxAA&quot; data-complete=&quot;true&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; margin: 12px 0px 16px; text-decoration: none; border-bottom: 0px rgb(230, 232, 240);&quot; style=&quot;text-align: justify; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; margin: 12px 0px 16px; border-bottom: 0px rgb(2",
@@ -23706,8 +23391,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 2,
       "is_upcoming": true,
@@ -24648,7 +24333,7 @@
       "url": "https://www.fexpocruz.com.bo/feria/specialty-coffee-expo",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Specialty Coffee Expo",
       "description": "EN Specialty Coffee Expo Bolivia Inicio Ferias Specialty Coffee Expo Sobre Specialty Coffee Expo 🗓️ Del 1 al 4 de julio de 2027 ⏰ HORARIOS: Jueves y viernes: 17:00 A 23:00 HRS. Sábado y domingo: 15:30 A 23:00 HRS 📍 FEXPOCRUZ, Pabellones USA y Brasil Specialty Coffee Expo Bolivia, organizada junto a Bolivian Coffee Alliance, es el punto de encuentro del café de especialidad. Una feria donde productores, marcas, baristas, emprendedores, expertos y amantes del café se reúnen a través de degustaciones, workshops con expertos nacionales e internacionales, demostraciones, catas de café y competencias. Cuatro días para compartir tu pasión por el café con amigos y familia. ‍ Principales Atracciones Activaciones de Marcas Campeonatos Nacionales Capacitaciones y Conferencias Catas de Café Públicas dESCUBRÍ LAS Categorías Objetos de Colección Indumentaria y Accesorios Maquinarias profesionales para cafeterías Productores de café de especialidad Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
       "original_text": "EN Specialty Coffee Expo Bolivia Inicio Ferias Specialty Coffee Expo Sobre Specialty Coffee Expo 🗓️ Del 1 al 4 de julio de 2027 ⏰ HORARIOS: Jueves y viernes: 17:00 A 23:00 HRS. Sábado y domingo: 15:30 A 23:00 HRS 📍 FEXPOCRUZ, Pabellones USA y Brasil Specialty Coffee Expo Bolivia, organizada junto a Bolivian Coffee Alliance, es el punto de encuentro del café de especialidad. Una feria donde productores, marcas, baristas, emprendedores, expertos y amantes del café se reúnen a través de degustaciones, workshops con expertos nacionales e internacionales, demostraciones, catas de café y competencias. Cuatro días para compartir tu pasión por el café con amigos y familia. ‍ Principales Atracciones Activaciones de Marcas Campeonatos Nacionales Capacitaciones y Conferencias Catas de Café Públicas dESCUBRÍ LAS Categorías Objetos de Colección Indumentaria y Accesorios Maquinarias profesionales para cafeterías Productores de café de especialidad Reviví lo mejor de Expocruz 2025 Una feria para todos, donde la magia, la pasión y los negocios se vivieron en cada calle y pabellón. Ver más Ver resumen Más InformaciÓN 01 Mapas y Recorridos 04 Contacto Fexpocruz 05 Preguntas Frecuentes Exponé con nosotros FEXPOCRUZ recibe los encuentros sociales, económicos y protocolares más importantes del país. Nombre Email Teléfono Empresa Sector Seleccionar Agropecuario Alimentos Automotriz Comercio Comunicación Construcción Educación Electrónicos Energía y Minería Metalúrgico Petroquímica Servicios Textil Turismo y Hotelería Otro Evento Seleccionar Agropecruz Expoagro Expoauto Expocruz Expoforest Ficad Otro Cuéntanos sobre tu proyecto Mensaje enviado Gracias por contactarnos Te responderemos en breve! Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente más tarde o entra en contacto con nosotros. Nuestras Ferias Agropecruz Expoagro Expoauto Expocruz 2026 Ficad Specialty Coffee Expo Todas las ferias Institucional Sobre Nosotros Centro de Convenciones Santa Cruz de la Sierra Preguntas Frecuentes Oportunidades de Trabajo Contacto Avenida Roca y Coronado, Santa Cruz de la Sierra +591 75385666 info@fexpocruz.com.bo Seguínos © 2026 Feria Exposición de Santa Cruz de la Sierra",
@@ -24756,8 +24441,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 1,
       "is_upcoming": true,
@@ -27018,7 +26703,7 @@
       "url": "https://www.lostiempos.com/servicios/agenda-cultural",
       "facebook_event_url": null,
       "published_at": null,
-      "scraped_at": "2026-10-24T16:59:04-04:00",
+      "scraped_at": "2026-10-24T19:17:44-04:00",
       "title": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de…",
       "description": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Lo más leído 1 Mensaje del Secretario General con motivo del día de las Naciones Unidas 2 El exministro Rada, Aguilera y Raúl García Linera, entre los más de 20 citados a declarar por el caso Hotel Las Américas 3 Lista de desvisados: Rada ve \"frustrante que venga un país de afuera a sacar cosas que nosotros no podemos\" 4 Irma Villavicencio asume la presidencia del Tribunal Departamental de Justicia de Santa Cruz 5 Familias se suman a la cruzada contra la rabia y llevan a sus mascotas a vacunar Últimas noticias 12h41m UMOPAR secuestra más de media tonelada de marihuana en Puerto Quijarro 12h33m La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad 12h26m Francia vive una nueva ola de violencia y disturbios este sábado; desplegaron 70.000 policías 12h14m Rescatan a Mufasa y Aurelio, un puma y ocelote que eran retenidos como mascotas 11h48m Familias se suman a la cruzada contra la rabia y llevan a sus mascotas a vacunar Lo más compartido 1 Melania Trump logra un alto al fuego en ciudad ucraniana 2 La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad 3 Las regiones con electores indefinidos que serán claves en el balotaje en Brasil 4 Tiroteos en la periferia de París se investigan como acto terrorista 5 UMOPAR secuestra más de media tonelada de marihuana en Puerto Quijarro",
       "original_text": "Agenda Dramaturgia Boliviana - Dramaturgia de la Percepción 15/10/2024 - 09:15 Cultural Ver más Balau: Taller de cajón peruano 09/10/2024 - 09:30 Cultural Ver más \"Almas Heridas - Obra de Teatro para Infancias\" Proyecto mARTadero 29/09/2024 - 17:00 Cultural Ver más Festividad Religiosa del Niño Sik'imira Villa Gualberto Villarroel 02/09/2024 (Todo el día) Ver más Taller de Teatro Proyecto mARTadero 28/08/2024 - 19:00 Cultural Ver más Concierto para piano Ramón Rivero esquina Oquendo 25/08/2024 - 19:00 Cultural Ver más Espectáculo de danza: Negra Calle España y Heroínas 20/08/2024 - 19:00 Ver más Ciclo de cine en La Troje La Troje (av. Capitán Victor Ustáriz km 3,5) 20/08/2024 (Todo el día) Cultural Ver más Inauguración de exposición artística Salón Gíldaro Antezana (plaza 14 de Septiembre) 19/08/2024 - 19:00 Cultural Ver más Festival \"mARTadero 20 Años de Metal\" Proyecto mARTadero 07/08/2024 - 11:00 Cultural Ver más Página 1 ›› Lo más leído 1 Mensaje del Secretario General con motivo del día de las Naciones Unidas 2 El exministro Rada, Aguilera y Raúl García Linera, entre los más de 20 citados a declarar por el caso Hotel Las Américas 3 Lista de desvisados: Rada ve \"frustrante que venga un país de afuera a sacar cosas que nosotros no podemos\" 4 Irma Villavicencio asume la presidencia del Tribunal Departamental de Justicia de Santa Cruz 5 Familias se suman a la cruzada contra la rabia y llevan a sus mascotas a vacunar Últimas noticias 12h41m UMOPAR secuestra más de media tonelada de marihuana en Puerto Quijarro 12h33m La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad 12h26m Francia vive una nueva ola de violencia y disturbios este sábado; desplegaron 70.000 policías 12h14m Rescatan a Mufasa y Aurelio, un puma y ocelote que eran retenidos como mascotas 11h48m Familias se suman a la cruzada contra la rabia y llevan a sus mascotas a vacunar Lo más compartido 1 Melania Trump logra un alto al fuego en ciudad ucraniana 2 La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad 3 Las regiones con electores indefinidos que serán claves en el balotaje en Brasil 4 Tiroteos en la periferia de París se investigan como acto terrorista 5 UMOPAR secuestra más de media tonelada de marihuana en Puerto Quijarro",
@@ -27377,8 +27062,8 @@
         }
       ],
       "changed_this_run": [],
-      "last_seen_at": "2026-10-24T16:59:04-04:00",
-      "last_confirmed_at": "2026-10-24T16:59:04-04:00",
+      "last_seen_at": "2026-10-24T19:17:44-04:00",
+      "last_confirmed_at": "2026-10-24T19:17:44-04:00",
       "seen_this_run": true,
       "history_count": 20,
       "is_upcoming": true,
@@ -28826,13 +28511,30 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dR7WV2pfrwsQ7kNvwHJgaO6&_nc_oc=AdocE8PklxRihfSjhik3aGhL_ug3A9lSxk3d5q8kBrlIIOEBisnBA3NNYi6emyMR9-M&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=T3ipHPe0eWITqfdUaSKGCg&_nc_ss=7f289&oh=00_AQOJKg-zTrCc1lHM-F5nYyuI8MMH9a5UUzac3SRD7iQSdg&oe=6AE30548",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Radio Fides de Bolivia 591 mil seguidores • 255 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a u'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02Ld4cfnBgJrSWxieJ3j5s6ba7D2E5aEY4t7pFBW6cSQ27PQuHMkK1SfhPURhLwb2ol?__cft__[0]=AZg9pawRjk8Nieel-NusCLO1jcjjtHtyi9GsPydFymRTCXLcUoIgW7pI7dkuA57XoAlhrihLS1XhQ0EmC1ZB-CiNdhiXqIWZHoBB8l9xLKLUPTZHFhWhv8FFg0oDypKRA2tkxkhMT7VSNTY02dg1pqTbVJAloIaXNydfhFs4CK5SObIzGIPYDqRrZQ0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#GrupoFides | #RadioFidesTrinidad Se presume que uno de estos proyectos se encuentra dentro de la Reserva Nacional de Vida Silvestre Amazónica Manuripi. Lea la nota a… Ver más #GrupoFides | #RadioFidesTrinidad Se presume que uno de estos proyectos se encuentra dentro de la Reserva Nacional de Vida Silvestre Amazónica Manuripi. Lea la nota a… Ver más Sera? Ver más comentarios Ely Ayala Hurtado"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02Ld4cfnBgJrSWxieJ3j5s6ba7D2E5aEY4t7pFBW6cSQ27PQuHMkK1SfhPURhLwb2ol?comment_id=1775341700356384&__cft__[0]=AZg9pawRjk8Nieel-NusCLO1jcjjtHtyi9GsPydFymRTCXLcUoIgW7pI7dkuA57XoAlhrihLS1XhQ0EmC1ZB-CiNdhiXqIWZHoBB8l9xLKLUPTZHFhWhv8FFg0oDypKRA2tkxkhMT7VSNTY02dg1pqTbVJAloIaXNydfhFs4CK5SObIzGIPYDqRrZQ0&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Ely Ayala Hurtado Sera? 41 min"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_anf",
@@ -29257,7 +28959,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? FIPAZ - Feria Internacional de La Paz 73 mil seguidores • 120 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pue'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Indicador de estado activo FIPAZ - Feria Internacional de La Paz 73 mil seguidores • 120 seguidos Más Publicaciones Información Reels Fotos Esta página no está dis'"
     },
     {
       "id": "fb_feicobol",
@@ -29302,13 +29004,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q-Tw_E284xIQ7kNvwFgxZ7v&_nc_oc=AdrVBObRU0QgBpjTb2BeSzvhXyOB3VJcTUHcu6vs7ycxshbQwy8ufRIUK0Uu_9bGZoA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=8tiyBhgNBskgpLY6Jf3yIg&_nc_ss=7f289&oh=00_AQN1iUpAY_z_lF6IBAB_nzhzFBZhLJyY98nQFb8OeJXq1w&oe=6AE32047",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de La Paz 46 mil seguidores • 121 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -29387,13 +29089,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eDZGspV_o1IQ7kNvwFYXiJH&_nc_oc=AdpMOUTH8gZcOyZIzVwr6crcy_c0WQaHkGKKvcYnZoP7T2eDMaWLlmua72tGkysUvEc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=0qgowKu7sIEaFxYVx7smiA&_nc_ss=7f289&oh=00_AQM97UQK9iM-s1AGn1tjh2yIWoqvKrvS5JdiDTMI2kxeFg&oe=6AE3016A",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -29558,12 +29260,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Indicador de estado activo Universidad Autónoma Gabriel René Moreno UAGRM 30 mil seguidores • 64 seguidos Más Publicaciones Información Reels Fotos Esta página no '"
     },
     {
       "id": "fb_umss",
@@ -29799,8 +29501,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -29992,8 +29694,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 56,
-      "events": 56,
+      "raw_items": 54,
+      "events": 54,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
