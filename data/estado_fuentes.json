@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:35:29-04:00",
+  "generated_at": "2026-10-24T00:38:04-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,14 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_feicobol",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 98.5,
-    "horas_maximo_sin_datos": 1550.4
+    "horas_promedio_sin_datos": 101.0,
+    "horas_maximo_sin_datos": 1557.5
   },
   "sources": [
     {
@@ -78,13 +79,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DHmNdlgc-GQQ7kNvwE-ZNrG&_nc_oc=Ado1EHyegc3pnWWIEt9pUzvQQMhL5XJOWsR_14C-posN88jUFure2fas78elIq4oBKk&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=kvIwaAOAOU4V3hCNKwRGpw&_nc_ss=7f289&oh=00_AQNuTPMRRkDTL5X1Np_mFbOce8PkQyP9v5-3tsnnD_3yeg&oe=6AE21983",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid02xwwiJQtgaJydNxUVvWA3CumeF25GYeaBcTSSvbwyB4o5FwRyGDu2vF3EbzkCDjNEl?__cft__[0]=AZhU6LbVH61ArMCKmhEMcozemlZ3nAqJERxsNuUj6XdckEJAWeuNcetMfH8656Lq-pzbaLlJU-HcBpDK6NaFT7eC5TDV6aQcVPQ0Keur9VgVES8gHQqs-NdvS8z8UnOGiNFiq0hEtJKLHcVx2-ZhWrFHXy_SZUXlTnPqvJ3eTsRy5b0UvLr2dzLaUOQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Atención| #DeLaGhetto llega a Bolivia E… Ver más Atención| #DeLaGhetto llega a Bolivia E… Ver más La Paz Bolivia por favor Ver más comentarios Benito Bunny Ocasio"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid02xwwiJQtgaJydNxUVvWA3CumeF25GYeaBcTSSvbwyB4o5FwRyGDu2vF3EbzkCDjNEl?comment_id=2365953477118262&__cft__[0]=AZhU6LbVH61ArMCKmhEMcozemlZ3nAqJERxsNuUj6XdckEJAWeuNcetMfH8656Lq-pzbaLlJU-HcBpDK6NaFT7eC5TDV6aQcVPQ0Keur9VgVES8gHQqs-NdvS8z8UnOGiNFiq0hEtJKLHcVx2-ZhWrFHXy_SZUXlTnPqvJ3eTsRy5b0UvLr2dzLaUOQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "La Paz Bolivia por favor Benito Bunny Ocasio"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -146,22 +164,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=N94dpbE1dA4Q7kNvwHaYzR4&_nc_oc=AdopkE1u_voe3BHXgGiZZn13jnmzMd6jdg4t923jDvWLsdU-FejrDAqO5rx8cQnlMTw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=jnND9RloDfIXzYDGQnbhbQ&_nc_ss=7f289&oh=00_AQMAjHod-elvlX2iGZODiILR0mNsutSkP1NuJiPntzTIDg&oe=6AE1A8C0",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02NsMGvKwi1nzuiDnm44YRyrne5fDaLYgRPjGep25NaiEVe92cKG7asnz89TtPBrkNl?__cft__[0]=AZgdSJOIHDq9Cuj_OrjxSFHup1t9hRFKCkpGVVqCgS6vH0BQFU385jCr8FcQpeWnfJZKJT--wWwIc-V3CH-Ioo0bAdzWhwu17FDcznfyEjYt9ln48o79jM4GOjC1b979sBIMxDOiB3-vi_SfGPRtgV8kkyn_REP3EBEBjzW75dgW5hsXTYmjuFDEpmQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Alcaldía de La Paz activa respuesta inmediata ante las intensas lluvias y atiende puntos críticos de la ciudad … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -291,30 +300,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uKDTcIXCFYoQ7kNvwFvG1BZ&_nc_oc=Adp4RtfMSBz2rM0pIESSeU-r80aQSIB_yPVem5xbRlxeCjuZBpficK632_co97cpxYk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=-Yktlm_4fTvYrY0Tjl3_5g&_nc_ss=7f289&oh=00_AQOogHu21kUyyy4FsmxfTC9iVYPWaLNn-0kDvwLPLtYfkw&oe=6AE1ACE6",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1690316396049244/?__cft__[0]=AZgEIFzoh_IHeJfcUvvVNiuVlqbpiq4hZo9QpOn9pZleozfAln4HMxdNl48A0aYpoxHNok9ZyNYRoWi1q46SoY7_n_axIfSf4wiq81m3H7gCxf5M8GhVy1DWQsTk15xHEUM4mampCEDSAqz7EmblzD_vTjyv4sPVAlt2j1B5erimCKKRbrHgGXW_ebeaS6fuaAVt&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#cisterneros se ausentan de #reunión convocada por la #Alcaldía de #Cochabamba. El secretario de Gobernabilidad, Walter Flores, informó que se llamó a una reunión para … Ver más Estamos en reunión cuál se ausentaron, hablé la verdad, quedamos para el lunes Tenemos problemas para reproducir este video. Más información Igna Ugalde"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1690316396049244/?comment_id=1634775181643933&__cft__[0]=AZgEIFzoh_IHeJfcUvvVNiuVlqbpiq4hZo9QpOn9pZleozfAln4HMxdNl48A0aYpoxHNok9ZyNYRoWi1q46SoY7_n_axIfSf4wiq81m3H7gCxf5M8GhVy1DWQsTk15xHEUM4mampCEDSAqz7EmblzD_vTjyv4sPVAlt2j1B5erimCKKRbrHgGXW_ebeaS6fuaAVt&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Estamos en reunión cuál se ausentaron, hablé la verdad, quedamos para el lunes Igna Ugalde"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber",
@@ -529,22 +521,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cNrYlYkJyCkQ7kNvwFTPrYl&_nc_oc=AdqgLFKlAiONhD2pt70X1hzVFtRlpwOl97PWBv7D_i_Y9-ygkozrACnkpr2zXt_XErw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=DGgPp4XrUdzf4LA6EPKZ-Q&_nc_ss=7f289&oh=00_AQP3cRYCkuM26rK7IQi3X73rnl2BohqfY24-7md_t0QYKg&oe=6AE1B637",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1459313779446146/?__cft__[0]=AZgjjqqVkpI4uE3IzDwGcQNghm-u60yqQBZjZeCnaa7jZEsdfALTirP1OKgxTmZjeE7J66E1xikG12zr-GHXG13ECqCKNpJG6fYrd9sEb-Q0mUW21Np3eWDyu2KMnQdiOzUW41Aj-1omBcVl3F8juckW4lJikJJ2W725LRc9vyOSBuQygGkHefpkgq2KCY-rjUg5&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "#publicidad Compra online desde Bolivia con Intermex S.A. Cotiza, compara, infórmate y reserva tus unidades desde cualquier lugar, con asesoría directa para importar… Ver más #publicidad Compra online desde Bolivia con Intermex S.A. Cotiza, compara, infórmate y reserva tus unidades desde cualquier lugar, con asesoría directa para importar… Ver más Tenemos problemas para reproducir este video. Más "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ministerio_culturas",
@@ -640,22 +623,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=u5uudoMg8CUQ7kNvwGFBFG_&_nc_oc=AdpxzQAg4Jv819TPYpn1dKfaezd13j6FWSZ-_R-6E6_2tcQFw-pSCInesUl3qK1Vml4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=xuyNks8N8eh62Q7SlDQQ9A&_nc_ss=7f289&oh=00_AQPgN3qbLsaVAPxvGFl7lU_HSwAciX-NKHAWhy3xC4nIzw&oe=6AE18873",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "tecnologia",
-          "url": "https://www.facebook.com/musef.lapaz.bolivia/videos/presentaci%C3%B3nlibro-l-%F0%9D%97%A3%F0%9D%98%82%F0%9D%97%B2%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B2%F0%9D%97%B9-%F0%9D%97%B3%F0%9D%98%82%F0%9D%97%B2%F0%9D%97%B4%F0%9D%97%BC-%F0%9D%98%80%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%BF%F0%9D%97%AE%F0%9D%97%B1%F0%9D%97%BC-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%BB%F0%9D%98%82%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%BC%F0%9D%98%80-%F0%9D%98%80%F0%9D%97%AE%F0%9D%97%AF%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B2%F0%9D%98%80-%F0%9D%97%B1%F0%9D%97%B6%F0%9D%97%AE%F0%9D%97%B9%F0%9D%97%BC%F0%9D%97%B4%F0%9D%97%AE%F0%9D%97%BF-%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%97%B6/1636000964634613/",
-          "has_image": true,
-          "text_preview": "#PresentaciónLibro l ¿𝗣𝘂𝗲𝗱𝗲 𝗲𝗹 𝗳𝘂𝗲𝗴𝗼 𝘀𝗮𝗴𝗿𝗮𝗱𝗼 𝗱𝗲 𝗻𝘂𝗲𝘀𝘁𝗿𝗼𝘀 𝘀𝗮𝗯𝗲𝗿𝗲𝘀 𝗱𝗶𝗮𝗹𝗼𝗴𝗮𝗿 𝗰𝗼𝗻 𝗹𝗮 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗮𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹? Descúbrelo en la presentación del libro \"El fuego sagrado y … Ver más #PresentaciónLibro l ¿𝗣𝘂𝗲𝗱𝗲 𝗲𝗹 𝗳𝘂𝗲𝗴𝗼 𝘀𝗮𝗴𝗿𝗮𝗱𝗼 𝗱𝗲 𝗻𝘂𝗲𝘀𝘁𝗿𝗼𝘀 𝘀𝗮𝗯𝗲𝗿𝗲𝘀 𝗱𝗶𝗮𝗹𝗼𝗴𝗮𝗿 𝗰𝗼𝗻 𝗹𝗮 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗮𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹? Descúbrelo en la presentación del libro \"El fuego sagrado y … Ver más Tenemos problemas para reproducir este video. Má"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -751,13 +725,22 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=egnVmE64qhQQ7kNvwEUnXrG&_nc_oc=AdowPxyNY38QjrbfNdKIXsdou5VgHqp6T0uQHVo9k-Jt6M2MtgxVn2UpfrR49g7DOBI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=IDutzVxQP0rDoqOVpuSC2g&_nc_ss=7f289&oh=00_AQORjF9pHqqH76fGOyGMPuEcjdj0HKGLatv8aZN_YXy11w&oe=6AE1F728",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/3972522523054885/?__cft__[0]=AZhz-gQdecPC51vKyF214-7uPyuFnZO4uG0trx-hWzY5fmViirXVkCL-nwkUk244ligtnpEoMq79s062SKIDctx1re9YCkB_uXVSZffQlHDA7zDrNbwMoFBdSny1mRe8KMRqCE5ORlq2t-9J2r9tCms5YIYqQ7GZ1VmEwviyQbYTF9v3acxiO8xiC0U2AGBmJGC1&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Sisrema móvil de registro de vacunación. Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_trinidad",
@@ -905,12 +888,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Feicobol 165 mil seguidores • 233 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técnic'"
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1074,13 +1057,30 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=17mD8Y4RiQcQ7kNvwErEe7L&_nc_oc=Adp52UZWUG3DSfDsfACWNMtCGC9Tv4cL1xm_tHj8a2POPQJqFabO0l6K4sSHZI0BGlk&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gk9zQstZhsxwyPT4L5UajA&_nc_ss=7f289&oh=00_AQMcvSfvvJP3SwiJWlXTnzI2jyxs7EZs_FWAbSMwxZO14Q&oe=6AE22455",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/ATiTeCuento/posts/pfbid02XZ2YR2nHetBYxkG6zyftmYuRdVN3gSVYVRCuAS2A1rCVmGnzXpGdxLdRGURE6mH8l?__cft__[0]=AZj2pvnu0Q2jTnSGQPDz3irz2BdebV-qPumfxVt4PP_c4Dh7-GGh0JBqTcloiu7G45NnYvj2YReQuZmzB8XraysSlbW2UsaEqBc09TQa2AcHddRsO0a_Dn4RWnVXxry9VMhC9Qwy02-PpeC9SVMxFbp9qNSnaP4-mQYBWJT6XK6EjXtMzybCjMR1Ot4&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "HASTA SIEMPRE, IVÁN TORREZ GARECA.… Ver más Abrazos fuertes, queridos amigos... Lo siento mucho. Ver más comentarios Silvina Barroso"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/ATiTeCuento/posts/pfbid02XZ2YR2nHetBYxkG6zyftmYuRdVN3gSVYVRCuAS2A1rCVmGnzXpGdxLdRGURE6mH8l?comment_id=2260988974474436&__cft__[0]=AZj2pvnu0Q2jTnSGQPDz3irz2BdebV-qPumfxVt4PP_c4Dh7-GGh0JBqTcloiu7G45NnYvj2YReQuZmzB8XraysSlbW2UsaEqBc09TQa2AcHddRsO0a_Dn4RWnVXxry9VMhC9Qwy02-PpeC9SVMxFbp9qNSnaP4-mQYBWJT6XK6EjXtMzybCjMR1Ot4&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Abrazos fuertes, queridos amigos... Lo siento mucho. Silvina Barroso"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1263,8 +1263,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 10,
-      "events": 9,
+      "raw_items": 11,
+      "events": 10,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1435,12 +1435,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 4,
-      "rejected": 9,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 9,
+          "score": 0,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1448,15 +1448,15 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 43,
-          "category": "deporte",
+          "score": 27,
+          "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "23/10/2026 Cultura Concierto: los coros municipales anuncian su quinta presentación Los Coros Municipales de Cochabamba vuelven al escenario este sábado (19:30) para protagonizar el Concierto Coral en el Centro Artístico Cultural Bicentenario. vista 22/10/2026 Cultura Dos obras literarias fueron las más requeridas por el público en la FILC Las obras Santa Cruz S.A: agronegocio y mito empresarial y"
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 43,
+          "score": 27,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1518,9 +1518,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 34,
+      "raw_items": 36,
       "events": 0,
-      "rejected": 34,
+      "rejected": 36,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1577,8 +1577,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 17,
-      "events": 17,
+      "raw_items": 16,
+      "events": 16,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1594,8 +1594,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 15,
+      "events": 15,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1628,8 +1628,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 50,
-      "events": 50,
+      "raw_items": 53,
+      "events": 53,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
