@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T00:38:04-04:00",
+  "generated_at": "2026-10-24T07:02:07-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,15 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_feicobol",
+      "fb_alianza_francesa_lapaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_municipio_sucre",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 101.0,
-    "horas_maximo_sin_datos": 1557.5
+    "horas_promedio_sin_datos": 105.0,
+    "horas_maximo_sin_datos": 1563.9
   },
   "sources": [
     {
@@ -79,30 +80,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DHmNdlgc-GQQ7kNvwE-ZNrG&_nc_oc=Ado1EHyegc3pnWWIEt9pUzvQQMhL5XJOWsR_14C-posN88jUFure2fas78elIq4oBKk&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=kvIwaAOAOU4V3hCNKwRGpw&_nc_ss=7f289&oh=00_AQNuTPMRRkDTL5X1Np_mFbOce8PkQyP9v5-3tsnnD_3yeg&oe=6AE21983",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid02xwwiJQtgaJydNxUVvWA3CumeF25GYeaBcTSSvbwyB4o5FwRyGDu2vF3EbzkCDjNEl?__cft__[0]=AZhU6LbVH61ArMCKmhEMcozemlZ3nAqJERxsNuUj6XdckEJAWeuNcetMfH8656Lq-pzbaLlJU-HcBpDK6NaFT7eC5TDV6aQcVPQ0Keur9VgVES8gHQqs-NdvS8z8UnOGiNFiq0hEtJKLHcVx2-ZhWrFHXy_SZUXlTnPqvJ3eTsRy5b0UvLr2dzLaUOQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Atención| #DeLaGhetto llega a Bolivia E… Ver más Atención| #DeLaGhetto llega a Bolivia E… Ver más La Paz Bolivia por favor Ver más comentarios Benito Bunny Ocasio"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/FestivalesEventosBolivia/posts/pfbid02xwwiJQtgaJydNxUVvWA3CumeF25GYeaBcTSSvbwyB4o5FwRyGDu2vF3EbzkCDjNEl?comment_id=2365953477118262&__cft__[0]=AZhU6LbVH61ArMCKmhEMcozemlZ3nAqJERxsNuUj6XdckEJAWeuNcetMfH8656Lq-pzbaLlJU-HcBpDK6NaFT7eC5TDV6aQcVPQ0Keur9VgVES8gHQqs-NdvS8z8UnOGiNFiq0hEtJKLHcVx2-ZhWrFHXy_SZUXlTnPqvJ3eTsRy5b0UvLr2dzLaUOQ&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "La Paz Bolivia por favor Benito Bunny Ocasio"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -675,12 +659,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Sucre 159 mil seguidores • 21 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pued'"
     },
     {
       "id": "fb_municipio_oruro",
@@ -725,22 +709,13 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/725291706_1456811033151960_2509324855682155232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=egnVmE64qhQQ7kNvwEUnXrG&_nc_oc=AdowPxyNY38QjrbfNdKIXsdou5VgHqp6T0uQHVo9k-Jt6M2MtgxVn2UpfrR49g7DOBI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=IDutzVxQP0rDoqOVpuSC2g&_nc_ss=7f289&oh=00_AQORjF9pHqqH76fGOyGMPuEcjdj0HKGLatv8aZN_YXy11w&oe=6AE1F728",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/3972522523054885/?__cft__[0]=AZhz-gQdecPC51vKyF214-7uPyuFnZO4uG0trx-hWzY5fmViirXVkCL-nwkUk244ligtnpEoMq79s062SKIDctx1re9YCkB_uXVSZffQlHDA7zDrNbwMoFBdSny1mRe8KMRqCE5ORlq2t-9J2r9tCms5YIYqQ7GZ1VmEwviyQbYTF9v3acxiO8xiC0U2AGBmJGC1&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Sisrema móvil de registro de vacunación. Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_trinidad",
@@ -887,13 +862,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/830236722_1578141747687371_3618972506924612207_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dBWQD7Ik7mYQ7kNvwGVbyHs&_nc_oc=Adp3obC8uWBasJt1mIpqrTT7m6RVo_qWMW4IXL0IIOhsM3VDbEX0UFZMnaVkwWaif3k&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=B9h2L-n-XU72hMnwP1fmpg&_nc_ss=7f289&oh=00_AQMJYcFU3S2IgfpsMAdzpnbJq8VZKGpbHUHpbEw0PkUEyg&oe=6AE27B4F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Feicobol 165 mil seguidores • 233 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técnic'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "feria",
+          "url": "https://www.facebook.com/feicobol/videos/%EF%B8%8F-qui%C3%A9nes-est%C3%A1n-detr%C3%A1s-de-femic-2026-conozcamos-a-sus-expositores-empresas-espec/1841486140368823/",
+          "has_image": true,
+          "text_preview": "⛏️ ¿Quiénes están detrás de FEMIC 2026? ¡Conozcamos a sus expositores! 🤝 Empresas, especialistas y proveedores se reúnen en la Feria Minera Industrial de Cochabamba para compartir sus productos,... ⛏️ ¿Quiénes están detrás de FEMIC 2026? ¡Conozcamos a sus expositores! 🤝 Empresas, especialistas y proveedores se reúnen en la Feria Minera Industrial..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -922,12 +906,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de La Paz 46 mil seguidores • 121 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1057,30 +1041,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=17mD8Y4RiQcQ7kNvwErEe7L&_nc_oc=Adp52UZWUG3DSfDsfACWNMtCGC9Tv4cL1xm_tHj8a2POPQJqFabO0l6K4sSHZI0BGlk&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=gk9zQstZhsxwyPT4L5UajA&_nc_ss=7f289&oh=00_AQMcvSfvvJP3SwiJWlXTnzI2jyxs7EZs_FWAbSMwxZO14Q&oe=6AE22455",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/ATiTeCuento/posts/pfbid02XZ2YR2nHetBYxkG6zyftmYuRdVN3gSVYVRCuAS2A1rCVmGnzXpGdxLdRGURE6mH8l?__cft__[0]=AZj2pvnu0Q2jTnSGQPDz3irz2BdebV-qPumfxVt4PP_c4Dh7-GGh0JBqTcloiu7G45NnYvj2YReQuZmzB8XraysSlbW2UsaEqBc09TQa2AcHddRsO0a_Dn4RWnVXxry9VMhC9Qwy02-PpeC9SVMxFbp9qNSnaP4-mQYBWJT6XK6EjXtMzybCjMR1Ot4&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "HASTA SIEMPRE, IVÁN TORREZ GARECA.… Ver más Abrazos fuertes, queridos amigos... Lo siento mucho. Ver más comentarios Silvina Barroso"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/ATiTeCuento/posts/pfbid02XZ2YR2nHetBYxkG6zyftmYuRdVN3gSVYVRCuAS2A1rCVmGnzXpGdxLdRGURE6mH8l?comment_id=2260988974474436&__cft__[0]=AZj2pvnu0Q2jTnSGQPDz3irz2BdebV-qPumfxVt4PP_c4Dh7-GGh0JBqTcloiu7G45NnYvj2YReQuZmzB8XraysSlbW2UsaEqBc09TQa2AcHddRsO0a_Dn4RWnVXxry9VMhC9Qwy02-PpeC9SVMxFbp9qNSnaP4-mQYBWJT6XK6EjXtMzybCjMR1Ot4&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Abrazos fuertes, queridos amigos... Lo siento mucho. Silvina Barroso"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1091,13 +1058,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=fai4QJ7euhMQ7kNvwFwUR69&_nc_oc=AdojeHxTUQeMR3G_xjHpH_3TGl7z3bAjL1ORtZcFizd3IJFnsq2Fg0LAYrFUbi5UY84&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=_yxFumLnFJP5ZUIdeSUVLg&_nc_ss=7f289&oh=00_AQNjZh6A3cCDcMZPhGexxuzOh6CoNaKEnlUi0EpTUHu_Hw&oe=6AE25F12",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/pfbid0G5Rx3m9tf6sMekgk5spjDoHrKvfz3bXJ4rz97AsbBkkPPoECgvEmAZs6kon36YVvl?__cft__[0]=AZiy1p2y6fqCt6dcOKm8TXMYNL7xsqY91hd72_OrntIyWSFjP7fqjDN1uM_0A2WED0xBW1HxEp4MXELqkFrAcxs10Otgiuk1797h8CL5Y98BLu0qjWXUSTeSb9mzsDUGeqAZ9QtfcVBexQgzDBMwaDCcYozpZ89UP7bSAKSiTcT_KENlVsoezfV0Zmc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Ellos ya están en Francia! ¿Y tú, qué esperas para dar el primer paso? … Ver más Ellos ya están en Francia! ¿Y tú, qué esperas para dar el primer paso? … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1440,7 +1416,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 15,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1448,15 +1424,15 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 27,
-          "category": "festival",
+          "score": 49,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "23/10/2026 Cultura Concierto: los coros municipales anuncian su quinta presentación Los Coros Municipales de Cochabamba vuelven al escenario este sábado (19:30) para protagonizar el Concierto Coral en el Centro Artístico Cultural Bicentenario. vista 22/10/2026 Cultura Dos obras literarias fueron las más requeridas por el público en la FILC Las obras Santa Cruz S.A: agronegocio y mito empresarial y"
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 27,
+          "score": 49,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1577,8 +1553,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 16,
-      "events": 16,
+      "raw_items": 15,
+      "events": 15,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
