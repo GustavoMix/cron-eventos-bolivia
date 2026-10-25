@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T07:30:42-04:00",
+  "generated_at": "2026-10-25T12:21:03-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_casa_melchor_pinto",
       "fb_ccelp",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
+      "fb_museo_nacional_arte",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 110.0,
-    "horas_maximo_sin_datos": 1588.3
+    "horas_promedio_sin_datos": 112.0,
+    "horas_maximo_sin_datos": 1593.2
   },
   "sources": [
     {
@@ -97,13 +97,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UMUHsmLQ1DsQ7kNvwHs5Z94&_nc_oc=AdoVkWZVDEIEna8vcxH-k9K-t9DKzdbo4M4YlfSWHJZkx9JoaF_gIkzuboiSMPsRZl4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Xx5DP6BkbNIZra-zIqlWtw&_nc_ss=7f289&oh=00_AQOgb92QZXsxhNyR0O7HEFVq-3VH1hyVGEFo0zUb0PQzPQ&oe=6AE40350",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 48,
+          "category": "feria",
+          "url": "https://www.facebook.com/Fexpocruz/posts/hoy-celebramos-el-certification-nation-day-una-iniciativa-que-reconoce-a-las-emp/1506678104827352/",
+          "has_image": true,
+          "text_preview": "Hoy celebramos el Certification Nation Day! Una iniciativa que reconoce a las empresas e instituciones que promueven una cultura laboral basada en la confianza, el respeto y el bienestar de sus... Hoy celebramos el Certification Nation Day! Una iniciativa que reconoce a las empresas e instituciones que promueven una cultura laboral basada en la... Hoy celebramos el Certification Nation Day! Una in"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -273,7 +282,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. OKU-JVH-KXXP Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_opinion",
@@ -591,12 +600,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Arte - MNA 38 mil seguidores • 137 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede debers'"
     },
     {
       "id": "fb_musef_lapaz",
@@ -726,22 +735,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/689842304_1316129220697918_6002957536151856903_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jAhaZ3wyWcYQ7kNvwFD_SYK&_nc_oc=AdpHIrG-arE4ulA-A7X5xq9LAkP9b1HkP65LZEdZJ01MwJaviWH_HNq7sZfigv1OFjE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=8Q8oZmxVFM7bzNzJAboasA&_nc_ss=7f289&oh=00_AQM7gwv2z1Cl9oiZyB9MRH3r9YDddSvIwX07-koDTq-pGQ&oe=6AE3B9BD",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GAMTDD/posts/pfbid02W73buefoRH1X5hn5rsoTg4zQHZvCCFnnnqJ3y4FZ36jRM3cU36zdVRczUNNJ9KNql?__cft__[0]=AZjQKsFqe_hIdoT5roptkgHPFU6Ez_CXeDDhkQjIMblykd0pjSY0hUwy774h8anY24zlTayLLJc5mFmJAHKQq7unIgyVjh3QIiObfqmOtp9b2EmKTxnDCq-3t3CrPymLcQHfxe5VY_QIlW28YbUHK_vkiSMG-cQgYdPRMr76ZBZeeP2nZIeZtS5RhT0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "hace 11 horas 11 h COMUNICADO IMPORTANTE … Ver más Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_cobija",
@@ -973,13 +973,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OZ4WS_3SGkQQ7kNvwGDI-0e&_nc_oc=AdoQcBb4MmLwmzskbirXVLOmYUA0YlUKHdjCwho-HBCciRsciIcZwvBPUguiIoQ8hOc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=zX1KgOSy2zL7YTLPwGjSqw&_nc_ss=7f289&oh=00_AQOxTXFX_xOATIm75Z5x-OLSD9FbvlcMPCqYq-bXoaJYiQ&oe=6AE3E53D",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Casa Melchor Pinto 19 mil seguidores • 349 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un err'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid0AH4gSnD97jhRTHDRRy7QPdhdNDnaBc8pwCyavWzYseneQoDfwLTMgtrD4feXqiKtl?__cft__[0]=AZhg9SgjE0V85dlahHTSu3NqWqdhhH-YtheQYldgsS8C4_xNqSMx0H9D3txGqvlbWLjTnGaXp8o9HUfHwEVEORyEQ6mSXsrS6AasdF_WLlWKUI-1mayIHGVytkol1olHdgqvRVenVfu8T-tSz3HCT5q6gHQPZTHHfuHrbWES_i9cK06YL6U2OAIdhJ8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Álbum 40 AÑOS FUNDACIÓN SOLYDES Casa Melchor Pinto agregó 13 fotos nuevas — en Casa Melchor Pinto. hace un día 1 día Santa Cruz de la Sierra, Departamento de Santa Cruz, Bolivia Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1092,22 +1101,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=h4S0vOTdaJkQ7kNvwFC4ole&_nc_oc=Adq3XDX8QH5JyBmTkunPstfrw8W7dInF4mamNiFZ3l4p-znVCdUI_WxltGK-AaJ7jN4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=10DPo4lPF1jE0DAyj_vIBQ&_nc_ss=7f289&oh=00_AQPrctz4F_H8cArtEFm3VGLTHaVwigwyjh6Gdb6ZLhnMOg&oe=6AE3B637",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 28,
-          "category": "otro",
-          "url": "https://www.facebook.com/museocasadelalibertad/posts/cdl-la-fundaci%C3%B3n-cultural-del-banco-central-de-bolivia-cunple-31-a%C3%B1os-y-presenta/1714468864022057/",
-          "has_image": true,
-          "text_preview": "#CDL | La Fundación Cultural del Banco Central de Bolivia cunple 31 años y presenta su agenda de actividades para conmemorar este importante aniversario. ¡Felicidades, Fundación Cultural BCB! #CDL | La Fundación Cultural del Banco Central de Bolivia cunple 31 años y presenta su agenda de actividades para conmemorar este importante aniversario.... #CDL | La Fundación Cultural del Banco Central de B"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
@@ -1321,7 +1321,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1411,8 +1411,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1831,12 +1831,12 @@
       "region": "Pando",
       "city": "Cobija",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[Errno 101] Network is unreachable"
+      "error": null
     }
   ]
 }
