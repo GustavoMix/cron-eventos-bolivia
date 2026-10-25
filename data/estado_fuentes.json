@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:21:03-04:00",
+  "generated_at": "2026-10-25T16:53:26-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,8 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_ccelp",
+      "fb_casa_moneda_potosi",
+      "fb_eventos_bolivia",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -16,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 112.0,
-    "horas_maximo_sin_datos": 1593.2
+    "horas_promedio_sin_datos": 115.1,
+    "horas_maximo_sin_datos": 1597.7
   },
   "sources": [
     {
@@ -64,12 +65,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Eventos Bolivia 426 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
     },
     {
       "id": "fb_festivales_eventos",
@@ -97,22 +98,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UMUHsmLQ1DsQ7kNvwHs5Z94&_nc_oc=AdoVkWZVDEIEna8vcxH-k9K-t9DKzdbo4M4YlfSWHJZkx9JoaF_gIkzuboiSMPsRZl4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Xx5DP6BkbNIZra-zIqlWtw&_nc_ss=7f289&oh=00_AQOgb92QZXsxhNyR0O7HEFVq-3VH1hyVGEFo0zUb0PQzPQ&oe=6AE40350",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 48,
-          "category": "feria",
-          "url": "https://www.facebook.com/Fexpocruz/posts/hoy-celebramos-el-certification-nation-day-una-iniciativa-que-reconoce-a-las-emp/1506678104827352/",
-          "has_image": true,
-          "text_preview": "Hoy celebramos el Certification Nation Day! Una iniciativa que reconoce a las empresas e instituciones que promueven una cultura laboral basada en la confianza, el respeto y el bienestar de sus... Hoy celebramos el Certification Nation Day! Una iniciativa que reconoce a las empresas e instituciones que promueven una cultura laboral basada en la... Hoy celebramos el Certification Nation Day! Una in"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -582,13 +574,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=J0UlqdH1v80Q7kNvwHETutL&_nc_oc=AdpKRwg2--llWuuCLurfMNrE17MzrofckXeg_m6LtHzw82EzA9yxhmh9DsLyHVSoqNQ&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=YJig6OCjpv3UNyIJ2FGxAA&_nc_ss=7f289&oh=00_AQPTQm3-2Gyo0b0hkVwz7RNnXqk_Qq7dgEoGJEqe2R5IFA&oe=6AE45A16",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Centro Cultural de España en La Paz 31 mil seguidores • 426 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid036kjJH9JVGqtW5MqRh3iCmyQ9qcEZ2jYCRVtMbom3JSrj9dsQmasuaZdpK1xfz16Ql?__cft__[0]=AZi4MhcP_BS4h77wMWRU2ZJ1tvE2Lz1zbYSv0k2yZ27UldZXy2P04elMwXRcHg9l5_LlALcmVLiJjzBcR1vYW_cTXkklenzqHpw3S7B3W1Kn6mGjEqSmfrV77ne9G1evbsy8wPviD5U_QtQVvZ3HslhqpIzNQFnVxCQL-tNhUQbOxgXqDj2vGv4ANdU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Continuamos nuestro Ciclo Internacional de Proyecciones Premios Goya con Ciudad sin sueño Ano… Ver más Continuamos nuestro Ciclo Internacional de Proyecciones Premios Goya con Ciudad sin sueño Ano… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -634,12 +635,12 @@
       "region": "Potosí",
       "city": "Potosí",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia 14 mil seguidores • 0 seguidos Más Publicaciones Información Reels Fotos Esta página no e'"
     },
     {
       "id": "fb_crc_lapaz",
@@ -973,22 +974,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OZ4WS_3SGkQQ7kNvwGDI-0e&_nc_oc=AdoQcBb4MmLwmzskbirXVLOmYUA0YlUKHdjCwho-HBCciRsciIcZwvBPUguiIoQ8hOc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=zX1KgOSy2zL7YTLPwGjSqw&_nc_ss=7f289&oh=00_AQOxTXFX_xOATIm75Z5x-OLSD9FbvlcMPCqYq-bXoaJYiQ&oe=6AE3E53D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid0AH4gSnD97jhRTHDRRy7QPdhdNDnaBc8pwCyavWzYseneQoDfwLTMgtrD4feXqiKtl?__cft__[0]=AZhg9SgjE0V85dlahHTSu3NqWqdhhH-YtheQYldgsS8C4_xNqSMx0H9D3txGqvlbWLjTnGaXp8o9HUfHwEVEORyEQ6mSXsrS6AasdF_WLlWKUI-1mayIHGVytkol1olHdgqvRVenVfu8T-tSz3HCT5q6gHQPZTHHfuHrbWES_i9cK06YL6U2OAIdhJ8&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Álbum 40 AÑOS FUNDACIÓN SOLYDES Casa Melchor Pinto agregó 13 fotos nuevas — en Casa Melchor Pinto. hace un día 1 día Santa Cruz de la Sierra, Departamento de Santa Cruz, Bolivia Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1411,32 +1403,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 7,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
-          "category": "gastronomia",
+          "score": 44,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
+          "score": 36,
           "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "23/10/2026 Cultura Concierto: los coros municipales anuncian su quinta presentación Los Coros Municipales de Cochabamba vuelven al escenario este sábado (19:30) para protagonizar el Concierto Coral en el Centro Artístico Cultural Bicentenario. vista 22/10/2026 Cultura Dos obras literarias fueron las más requeridas por el público en la FILC Las obras Santa Cruz S.A: agronegocio y mito empresarial y"
+          "text_preview": "25/10/2026 Cultura Entre pánicos y espejos: el reguetón desde sus actores El nuevo libro del investigador y comunicador boliviano Marcelo Guardia Crespo se titula “Entre pánicos y espejos: el reguetón desde sus actores” vista 25/10/2026 Cultura Aiquile palpita con la 42° Feria y Festival Internacional del Charango 2026 Más de un centenar de intérpretes se reunirán en la población de Aiquile para t"
         },
         {
           "reason": "relevancia_insuficiente",
           "score": 54,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
-          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1536,8 +1528,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 53,
-      "events": 53,
+      "raw_items": 40,
+      "events": 40,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1570,8 +1562,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 15,
-      "events": 15,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1604,8 +1596,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 65,
-      "events": 65,
+      "raw_items": 56,
+      "events": 56,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1638,8 +1630,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
