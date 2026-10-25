@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:53:26-04:00",
+  "generated_at": "2026-10-25T19:23:28-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,7 +9,6 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_casa_moneda_potosi",
-      "fb_eventos_bolivia",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -17,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 115.1,
-    "horas_maximo_sin_datos": 1597.7
+    "horas_promedio_sin_datos": 113.9,
+    "horas_maximo_sin_datos": 1600.2
   },
   "sources": [
     {
@@ -64,13 +63,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vF5xphYw9bQQ7kNvwGa-86n&_nc_oc=AdpEh1hR8mAGtqdqD5yPqdTR58nuJtPR9LkAp7PHsgM0s1ikc3xnrcQ8RruT7j2gbDQ&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=snuXb3A-76QuhP32HQVIIQ&_nc_ss=7f289&oh=00_AQPG9j9EkkfxCvzpHOcbfTaMws_0irmEEoESSm1B-2CaDg&oe=6AE46B76",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Eventos Bolivia 426 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZiEAUuM2ObqrB4TK64CSMCPHUtcJamhbn8J9ZL-MTlnjZ6JdDG9gI_ZxvxWed6dVixHu9AUQVUiFfl4OfCa4g0HEPUMiFB-d9P82vBWcxi_7AQ9IviJMfNqSLWAWYt3Mt9fYZUvqQwKwdH5B3vTh-_l9MdVUUIdom4eXQCLc99jjjl2Bss_ZjK_96jUn4fQIWGk&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZiEAUuM2ObqrB4TK64CSMCPHUtcJamhbn8J9ZL-MTlnjZ6JdDG9gI_ZxvxWed6dVixHu9AUQVUiFfl4OfCa4g0HEPUMiFB-d9P82vBWcxi_7AQ9IviJMfNqSLWAWYt3Mt9fYZUvqQwKwdH5B3vTh-_l9MdVUUIdom4eXQCLc99jjjl2Bss_ZjK_96jUn4fQIWGk&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_festivales_eventos",
@@ -166,13 +182,30 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=y8uLlzotlsUQ7kNvwFnRAi2&_nc_oc=AdrXsnNzND7G1tddndaoW0PC0Jyy_ME0kjvdaMADau0hlUt0L_vF3FeQ66S9FpLrxfk&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=lTRBa3zXuTGu2SvIXa7rpw&_nc_ss=7f289&oh=00_AQO7DvDjCtykshLZM1WM9dl790Hx4PWC-UTliwmU-1l48w&oe=6AE45840",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02EZxEPSMMSTrWG39BbyYnM2YAHsYgpq3EXiqZkX4L466n24YmJq9sJrwd6rPxbMkwl?__cft__[0]=AZjbLy1ZPxzPA7NeSTswkRVqiOIQHNyhwrloxrBCakcEJh2aNEOCY7ZfputdpJvAD6WWrxKABYWxm6oStA4Q-z1A2Zj9ZczzLWc15J3a9MLa-tQaLnEkdzLWc5-_marsVc7GCPdIj-bnr6j3IMEDFqC5DjKr-8Hhyu8poUjccSBH4ZmxeT7NhQGhjiA&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡𝗖𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗺𝗼𝘀 𝗺𝗮́𝘀 𝗼𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝗱𝗮𝗱𝗲𝘀 𝗮 𝘁𝗿𝗮𝘃𝗲́𝘀 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗼𝗽𝗲𝗿𝗮𝗰𝗶𝗼́𝗻 𝗶𝗻𝘀𝘁𝗶𝘁𝘂𝗰𝗶𝗼𝗻𝗮𝗹 La Secretaría Municipal de Administración y Finanzas (SMAF) invi… Ver más ¡𝗖𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗺𝗼𝘀 𝗺𝗮́𝘀 𝗼𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝗱𝗮𝗱𝗲𝘀 𝗮 𝘁𝗿𝗮𝘃𝗲́𝘀 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗼𝗽𝗲𝗿𝗮𝗰𝗶𝗼́𝗻 𝗶𝗻𝘀𝘁𝗶𝘁𝘂𝗰𝗶𝗼𝗻𝗮𝗹 La Secretaría Municipal de Administración y Finanzas (SMAF) invi… Ver más Excelente noticia Ver más comentarios Belen Quisbert"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02EZxEPSMMSTrWG39BbyYnM2YAHsYgpq3EXiqZkX4L466n24YmJq9sJrwd6rPxbMkwl?comment_id=2254694365374221&__cft__[0]=AZjbLy1ZPxzPA7NeSTswkRVqiOIQHNyhwrloxrBCakcEJh2aNEOCY7ZfputdpJvAD6WWrxKABYWxm6oStA4Q-z1A2Zj9ZczzLWc15J3a9MLa-tQaLnEkdzLWc5-_marsVc7GCPdIj-bnr6j3IMEDFqC5DjKr-8Hhyu8poUjccSBH4ZmxeT7NhQGhjiA&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Belen Quisbert Excelente noticia 2 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -574,22 +607,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/518446212_1180709270767721_4557760270210743379_n.jpg?stp=dst-jpg_tt6&cstp=mx960x953&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=J0UlqdH1v80Q7kNvwHETutL&_nc_oc=AdpKRwg2--llWuuCLurfMNrE17MzrofckXeg_m6LtHzw82EzA9yxhmh9DsLyHVSoqNQ&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=YJig6OCjpv3UNyIJ2FGxAA&_nc_ss=7f289&oh=00_AQPTQm3-2Gyo0b0hkVwz7RNnXqk_Qq7dgEoGJEqe2R5IFA&oe=6AE45A16",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid036kjJH9JVGqtW5MqRh3iCmyQ9qcEZ2jYCRVtMbom3JSrj9dsQmasuaZdpK1xfz16Ql?__cft__[0]=AZi4MhcP_BS4h77wMWRU2ZJ1tvE2Lz1zbYSv0k2yZ27UldZXy2P04elMwXRcHg9l5_LlALcmVLiJjzBcR1vYW_cTXkklenzqHpw3S7B3W1Kn6mGjEqSmfrV77ne9G1evbsy8wPviD5U_QtQVvZ3HslhqpIzNQFnVxCQL-tNhUQbOxgXqDj2vGv4ANdU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Continuamos nuestro Ciclo Internacional de Proyecciones Premios Goya con Ciudad sin sueño Ano… Ver más Continuamos nuestro Ciclo Internacional de Proyecciones Premios Goya con Ciudad sin sueño Ano… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -1596,8 +1620,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 56,
-      "events": 56,
+      "raw_items": 53,
+      "events": 53,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
