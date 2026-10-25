@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T19:17:44-04:00",
+  "generated_at": "2026-10-25T00:43:16-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,15 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_fipaz",
+      "fb_casa_melchor_pinto",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_teatro_aire_libre",
-      "fb_uagrm"
+      "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 105.8,
-    "horas_maximo_sin_datos": 1576.1
+    "horas_promedio_sin_datos": 106.9,
+    "horas_maximo_sin_datos": 1581.5
   },
   "sources": [
     {
@@ -205,7 +204,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. WXG-OTA-XTDO Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
     },
     {
       "id": "fb_gob_cbba",
@@ -420,30 +419,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dR7WV2pfrwsQ7kNvwHJgaO6&_nc_oc=AdocE8PklxRihfSjhik3aGhL_ug3A9lSxk3d5q8kBrlIIOEBisnBA3NNYi6emyMR9-M&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=T3ipHPe0eWITqfdUaSKGCg&_nc_ss=7f289&oh=00_AQOJKg-zTrCc1lHM-F5nYyuI8MMH9a5UUzac3SRD7iQSdg&oe=6AE30548",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02Ld4cfnBgJrSWxieJ3j5s6ba7D2E5aEY4t7pFBW6cSQ27PQuHMkK1SfhPURhLwb2ol?__cft__[0]=AZg9pawRjk8Nieel-NusCLO1jcjjtHtyi9GsPydFymRTCXLcUoIgW7pI7dkuA57XoAlhrihLS1XhQ0EmC1ZB-CiNdhiXqIWZHoBB8l9xLKLUPTZHFhWhv8FFg0oDypKRA2tkxkhMT7VSNTY02dg1pqTbVJAloIaXNydfhFs4CK5SObIzGIPYDqRrZQ0&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#GrupoFides | #RadioFidesTrinidad Se presume que uno de estos proyectos se encuentra dentro de la Reserva Nacional de Vida Silvestre Amazónica Manuripi. Lea la nota a… Ver más #GrupoFides | #RadioFidesTrinidad Se presume que uno de estos proyectos se encuentra dentro de la Reserva Nacional de Vida Silvestre Amazónica Manuripi. Lea la nota a… Ver más Sera? Ver más comentarios Ely Ayala Hurtado"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02Ld4cfnBgJrSWxieJ3j5s6ba7D2E5aEY4t7pFBW6cSQ27PQuHMkK1SfhPURhLwb2ol?comment_id=1775341700356384&__cft__[0]=AZg9pawRjk8Nieel-NusCLO1jcjjtHtyi9GsPydFymRTCXLcUoIgW7pI7dkuA57XoAlhrihLS1XhQ0EmC1ZB-CiNdhiXqIWZHoBB8l9xLKLUPTZHFhWhv8FFg0oDypKRA2tkxkhMT7VSNTY02dg1pqTbVJAloIaXNydfhFs4CK5SObIzGIPYDqRrZQ0&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Ely Ayala Hurtado Sera? 41 min"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_anf",
@@ -862,13 +844,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5PX6iYDG6XoQ7kNvwFvr-z8&_nc_oc=AdoGFP_nKdGiVk4MBLz-Ze_YyMVLwszLKcV0qmK2E58fP5RZLRu_PwbgmCN50D7ICoU&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=_1xsGHRU6ambM0PLeZOAAQ&_nc_ss=7f289&oh=00_AQMD8pRWghzkHOK0sb4uNqIUsn4NUzuBnDUqpnpSJHCQyA&oe=6AE359E1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Indicador de estado activo FIPAZ - Feria Internacional de La Paz 73 mil seguidores • 120 seguidos Más Publicaciones Información Reels Fotos Esta página no está dis'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/CampoFerialChuquiagoMarka/videos/-detr%C3%A1s-de-cada-evento-hay-oportunidades-de-trabajodon-damasco-agradece-a-el-chu/2596714960753460/",
+          "has_image": true,
+          "text_preview": "🔧 Detrás de cada evento, hay oportunidades de trabajo. Don Damasco agradece a El Chuquiago y a la FIPAZ, espacios que le permiten generar empleo y seguir adelante con su oficio. 🙌 #ElChuquiago... 🔧 Detrás de cada evento, hay oportunidades de trabajo. Don Damasco agradece a El Chuquiago y a la FIPAZ, espacios que le permiten generar empleo y..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -913,13 +904,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q-Tw_E284xIQ7kNvwFgxZ7v&_nc_oc=AdrVBObRU0QgBpjTb2BeSzvhXyOB3VJcTUHcu6vs7ycxshbQwy8ufRIUK0Uu_9bGZoA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=8tiyBhgNBskgpLY6Jf3yIg&_nc_ss=7f289&oh=00_AQN1iUpAY_z_lF6IBAB_nzhzFBZhLJyY98nQFb8OeJXq1w&oe=6AE32047",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -947,13 +938,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=k3SrDm4UZ_4Q7kNvwHqkpwY&_nc_oc=AdqlExAizo9mI63f7BUul70p-utnmI1GKz_McBVfjumlG6X8onHoVi8qvDK3LQOUbQk&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=g83gOtcLFBdbvaF0m4QQwg&_nc_ss=7f289&oh=00_AQPC1aBcKm-VLR94HnC4BMlKou0ACyMrffferUuqpEJsGg&oe=6AE34B07",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "feria",
+          "url": "https://www.facebook.com/CasaDeLaCulturaCochabamba/posts/pfbid037T8wv8Z6mf7bthkP5pqzBBQZSeBJG9sSgYva3nFuntioTXMZ4TAASoogPZBdV4BMl?__cft__[0]=AZj-ZinhfRN17aGdzQ7o4d-zbsve-tJU0bOhIDU-BwQmd9Wgb9gOHZZEvhTCdW-OeWksPiM5vnsJVUJtcyzt-MUK2bb6LDsqJBt6x5ZhJ2Y9-Ez2UkUJdlLrYiyDu0PdX3iCEe7kHj_UFLym2OFrM9wLF3jEqoHQZIOFpFP6Dv1EcAFHWImtQ1uQu64&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡𝐏𝐥𝐚𝐧𝐢𝐟𝐢𝐜𝐚 𝐭𝐮 𝐯𝐢𝐬𝐢𝐭𝐚 𝐚 𝐥𝐚 𝐅𝐞𝐫𝐢𝐚 𝐝𝐞 𝐥𝐚𝐬 𝐀𝐥𝐚𝐬𝐢𝐭𝐚𝐬! Una tradición llena de 𝐬𝐮𝐞𝐧̃𝐨𝐬, 𝐝𝐞𝐬𝐞𝐨… Ver más ¡𝐏𝐥𝐚𝐧𝐢𝐟𝐢𝐜𝐚 𝐭𝐮 𝐯𝐢𝐬𝐢𝐭𝐚 𝐚 𝐥𝐚 𝐅𝐞𝐫𝐢𝐚 𝐝𝐞 𝐥𝐚𝐬 𝐀𝐥𝐚𝐬𝐢𝐭𝐚𝐬! Una tradición llena de 𝐬𝐮𝐞𝐧̃𝐨𝐬, 𝐝𝐞𝐬𝐞𝐨… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -982,12 +982,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Casa Melchor Pinto 19 mil seguidores • 349 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un err'"
     },
     {
       "id": "fb_tarija_cultura",
@@ -1168,13 +1168,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/611611123_892086103405617_7679383414559238851_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oqb07h4ToyoQ7kNvwHy9Mve&_nc_oc=AdqLC09lRDYiBcjmy4pVGElPnnUbuyLrp8ecNj-f3MYOUmDQ8i69wVkYyVP03bczLRw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=KrM1mGssGaOdF8FLjM3FFQ&_nc_ss=7f289&oh=00_AQM50CWEUVkhnHHvkCtYgwWuD4ng8YGDvMWS0mZ07dO33Q&oe=6AE35448",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Indicador de estado activo Universidad Autónoma Gabriel René Moreno UAGRM 30 mil seguidores • 64 seguidos Más Publicaciones Información Reels Fotos Esta página no '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "deporte",
+          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid022WTmXMGsEaPvdXpatM67ABgZ7Ar6VBgvbthix2HHabYbc1f2pB1oDCP4ntBecW6hl?__cft__[0]=AZgTJpx3vNhc8Fmi2JsW51lp_lbdV_l-P5WN2-PNUwLYeMCJIgwqb94rLIpTLICUQOR-hYfBTfhI3DHmO5hL46948cG26XbyiEMTY86risXypDHqDDoDaZrqrmFPnM84RCfRtRBXJOOyspYove-d66_9oZy9pUsyv2igkas61Fu-9m1J6eCPLCvI72k&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡𝟏𝟗 𝐚𝐧̃𝐨𝐬 𝐩𝐫𝐨𝐦𝐨𝐯𝐢𝐞𝐧𝐝𝐨 𝐦𝐨𝐯𝐢𝐦𝐢𝐞𝐧𝐭𝐨, 𝐬𝐚𝐥𝐮𝐝 𝐲 𝐛𝐢𝐞𝐧𝐞𝐬𝐭𝐚𝐫! La carrera de Actividad Física de la Facu… Ver más ¡𝟏𝟗 𝐚𝐧̃𝐨𝐬 𝐩𝐫𝐨𝐦𝐨𝐯𝐢𝐞𝐧𝐝𝐨 𝐦𝐨𝐯𝐢𝐦𝐢𝐞𝐧𝐭𝐨, 𝐬𝐚𝐥𝐮𝐝 𝐲 𝐛𝐢𝐞𝐧𝐞𝐬𝐭𝐚𝐫! La carrera de Actividad Física de la Facu… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umss",
@@ -1410,12 +1419,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 43,
+          "score": 20,
           "category": "gastronomia",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1423,15 +1432,15 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 49,
+          "score": 54,
           "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "23/10/2026 Cultura Concierto: los coros municipales anuncian su quinta presentación Los Coros Municipales de Cochabamba vuelven al escenario este sábado (19:30) para protagonizar el Concierto Coral en el Centro Artístico Cultural Bicentenario. vista 22/10/2026 Cultura Dos obras literarias fueron las más requeridas por el público en la FILC Las obras Santa Cruz S.A: agronegocio y mito empresarial y"
         },
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 36,
+          "reason": "relevancia_insuficiente",
+          "score": 54,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1535,8 +1544,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 52,
-      "events": 52,
+      "raw_items": 53,
+      "events": 53,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1569,8 +1578,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 15,
+      "events": 15,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,8 +1612,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 54,
-      "events": 54,
+      "raw_items": 65,
+      "events": 65,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1637,8 +1646,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
