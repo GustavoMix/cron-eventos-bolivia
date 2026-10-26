@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T09:08:35-04:00",
+  "generated_at": "2026-10-26T16:41:38-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_cinemateca_boliviana",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -16,8 +17,8 @@
       "fb_umsa"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 117.6,
-    "horas_maximo_sin_datos": 1614.0
+    "horas_promedio_sin_datos": 121.9,
+    "horas_maximo_sin_datos": 1621.5
   },
   "sources": [
     {
@@ -233,30 +234,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Y1NaEjYZhqYQ7kNvwFBheaO&_nc_oc=Adq6DEYpokWkaPY7It_G_Fvo51zBvQaXskSnF6oEre_b8o1spG3sLcAJE5r3VzK2x_Y&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=v1MlS8eM8aTeDGfi-Zgmfw&_nc_ss=7f289&oh=00_AQPHwaQnbh9lmqTgzPtC6-vGw5chaxAsZqfHlA-hnsiskg&oe=6AE51797",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/gamscs/posts/pfbid02HogkJJ28z7eEV2Hq8s896UXpJBN9bh5KDte5qdWPavPn6knx7vLaEhDisQBU1gCFl?__cft__[0]=AZj_D7X9y9WZRPhYANnlHh_kdjb66aCeqnzg7mZD-vdmsh1RmNaObvbez_Fozb7bD6JJUzv-owfVsAX9APU3H1mY0xwFy7LOq3pN1zede-W-NI11IBs8MRB7VMSuc5fPmmUuCzpKXKGTT_FseZxh55mmrZD9TSCHTKbwmVSCeeJkLUci_nQqLKyldyo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Buscá el punto de vacunación mas cercano a tu casa y llevá a tus mascotas a vacunar. Estamos en Centros de Salud, Mercados, Plazas y Parques de los 15 Distritos Municip… Ver más Buscá el punto de vacunación mas cercano a tu casa y llevá a tus mascotas a vacunar. Estamos en Centros de Salud, Mercados, Plazas y Parques de los 15 Distritos Municip… Ver más Excelente Ver más comentarios Natalie Ana"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gamscs/posts/pfbid02HogkJJ28z7eEV2Hq8s896UXpJBN9bh5KDte5qdWPavPn6knx7vLaEhDisQBU1gCFl?comment_id=1639909101001687&__cft__[0]=AZj_D7X9y9WZRPhYANnlHh_kdjb66aCeqnzg7mZD-vdmsh1RmNaObvbez_Fozb7bD6JJUzv-owfVsAX9APU3H1mY0xwFy7LOq3pN1zede-W-NI11IBs8MRB7VMSuc5fPmmUuCzpKXKGTT_FseZxh55mmrZD9TSCHTKbwmVSCeeJkLUci_nQqLKyldyo&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Natalie Ana Excelente 1 día"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_scz",
@@ -335,13 +319,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=hOkuw0ufa6AQ7kNvwEfdVD_&_nc_oc=AdoA52BT7mt6c2VfOs3RJB7tL3TC4UScrdvLwPaIggg1HZJfkO_GtgGbpdWVyw26Y80&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_ss=7f289&oh=00_AQPHCx5LRQRc1xzCE58tbQJS6UGhG0PsbYTX6-DuZ14q5g&oe=6B0712BA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/RedUnotv/posts/pfbid02Q1rtnh8rkTANgNCr626mw3pTwmRj53gxSHpTmRLzsawHM8TJJ5AnDoKhH1UL7fTFl?__cft__[0]=AZjL9JmOBWJqeutC0qlwTmryOP6uQuW2nKXfzd4C2f7ccN48mhR3Clw_m-CFRUCVteexLycjCY4Ntbnx-27IbebGw8UzwT-t-ASZBMEJ4CHAHyD2QMN3rrnDPJFAXEcst0X26UJ-lNCvMdy_OHISSgTSGr1nImK_6g43TwIqPhgH1neGgewY7eHXxYw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "https://r-1.tv/d35019 Según los primeros reportes y los testimonios de testigos, el hombre caminaba solo cerca de una distribuidora de gas cuando fue interceptado … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_unitel",
@@ -574,12 +567,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_ccelp",
@@ -658,22 +651,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZaShG9qQsOUQ7kNvwGUUo9D&_nc_oc=AdppiP-rwdsz5UO4jYpDD80P8RXcKeXDr2heBsP8tdTMN3Mx9Sgb0ZCGTXAlHjimMxE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=eSEiY6KloHLZZsHwWtYcrQ&_nc_ss=7f289&oh=00_AQMzCx_vvEhxqNHaLjAZNXplpcnqUyTjyImtwyCDvgkwSA&oe=6AE51292",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid0A1mvHeBnzE1kFqxVX2oANowphmWFhPUKXGSVh765Lh9ANKf9wuVRWcnh227mWVwel?__cft__[0]=AZj5wZ7DpUd-UA6JFTGav3IqEaMFqEpuxJhbb2Da_-w6MWQM11U4GbB5U7G6lacmmiq49SlcvWtHvXHWDBKaPGj87RBcEYVC9sHK0q6wH1GNJv4Qb7SyGOVn3No_M8APAeHKhjNZdEYy_PGgWsC07huKX61HM2qqey5QZ1m_4qDzuCCbWf16PglfbdFXSG9iJnDF7x-gIX4qf0KARjc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Sembrada la 4ta Ruta del Libro El Alto cosechó lectores con éxito total… Ver más El Alto Corazón de la Metrópoli hace un día 1 día ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -1161,12 +1145,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Universidad Mayor de San Andrés - UMSA 223 mil seguidores • 236 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento P'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1419,12 +1403,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 6,
-      "rejected": 7,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
+          "score": 23,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1432,15 +1416,15 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
+          "score": 49,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "25/10/2026 Cultura Entre pánicos y espejos: el reguetón desde sus actores El nuevo libro del investigador y comunicador boliviano Marcelo Guardia Crespo se titula “Entre pánicos y espejos: el reguetón desde sus actores” vista 25/10/2026 Cultura Aiquile palpita con la 42° Feria y Festival Internacional del Charango 2026 Más de un centenar de intérpretes se reunirán en la población de Aiquile para t"
+          "text_preview": "26/10/2026 Cultura Halloween, la milenaria fiesta del terror que no asusta, se apodera de Cochabamba La tradicional fiesta de Halloween se impone en la semana 44 del año con diferentes actividades y para todas las edades. vista 25/10/2026 Cultura Entre pánicos y espejos: el reguetón desde sus actores El nuevo libro del investigador y comunicador boliviano Marcelo Guardia Crespo se titula “Entre pá"
         },
         {
-          "reason": "relevancia_insuficiente",
-          "score": 54,
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 22,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1502,9 +1486,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 35,
+      "raw_items": 36,
       "events": 0,
-      "rejected": 35,
+      "rejected": 36,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1612,8 +1596,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 66,
-      "events": 66,
+      "raw_items": 63,
+      "events": 63,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1646,8 +1630,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1808,7 +1792,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗔𝗟 𝗠𝗨𝗡𝗗𝗢: 𝗟𝗔 𝗖𝗔𝗣𝗜𝗧𝗔𝗟 𝗦𝗘 𝗦𝗨𝗠𝗔 𝗔 𝗟𝗔 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗔 «𝗔𝗟𝗜𝗔𝗡𝗭𝗔 𝗜𝗕𝗘𝗥𝗢𝗔𝗠𝗘́𝗥𝗜𝗖𝗔 𝟱𝟬𝟬+» 𝗣𝗔𝗥𝗔 𝗜𝗠𝗣𝗨𝗟𝗦𝗔𝗥 𝗦𝗨 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗬 𝗣𝗔𝗧𝗥𝗜𝗠𝗢𝗡𝗜𝗢 hace 5 días Noticias 246 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarr"
+          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗔𝗟 𝗠𝗨𝗡𝗗𝗢: 𝗟𝗔 𝗖𝗔𝗣𝗜𝗧𝗔𝗟 𝗦𝗘 𝗦𝗨𝗠𝗔 𝗔 𝗟𝗔 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗔 «𝗔𝗟𝗜𝗔𝗡𝗭𝗔 𝗜𝗕𝗘𝗥𝗢𝗔𝗠𝗘́𝗥𝗜𝗖𝗔 𝟱𝟬𝟬+» 𝗣𝗔𝗥𝗔 𝗜𝗠𝗣𝗨𝗟𝗦𝗔𝗥 𝗦𝗨 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗬 𝗣𝗔𝗧𝗥𝗜𝗠𝗢𝗡𝗜𝗢 hace 5 días Noticias 267 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarr"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
