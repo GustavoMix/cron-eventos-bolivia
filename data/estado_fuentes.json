@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T00:48:28-04:00",
+  "generated_at": "2026-10-26T09:08:35-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,11 +11,13 @@
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
-      "fb_teatro_aire_libre"
+      "fb_municipio_lapaz",
+      "fb_teatro_aire_libre",
+      "fb_umsa"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 113.1,
-    "horas_maximo_sin_datos": 1605.6
+    "horas_promedio_sin_datos": 117.6,
+    "horas_maximo_sin_datos": 1614.0
   },
   "sources": [
     {
@@ -27,13 +29,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4ka23q7O4rUQ7kNvwGQYXXn&_nc_oc=Adp6JA9YZIwQhekRmtd_obtbpFd2Ops9_XF_ZNo5dkYA4nEKhYFZCqN-E_zDSRqbKec&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=sN_Al10cjfihsv7ALdVrAA&_nc_ss=7f289&oh=00_AQPHY3XJ7zawINhG0ZAQeUcj6v7qJujsFZ-YFiBNzMofcw&oe=6AE4C25A",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -130,12 +132,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -231,13 +233,30 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Y1NaEjYZhqYQ7kNvwFBheaO&_nc_oc=Adq6DEYpokWkaPY7It_G_Fvo51zBvQaXskSnF6oEre_b8o1spG3sLcAJE5r3VzK2x_Y&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=v1MlS8eM8aTeDGfi-Zgmfw&_nc_ss=7f289&oh=00_AQPHwaQnbh9lmqTgzPtC6-vGw5chaxAsZqfHlA-hnsiskg&oe=6AE51797",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/gamscs/posts/pfbid02HogkJJ28z7eEV2Hq8s896UXpJBN9bh5KDte5qdWPavPn6knx7vLaEhDisQBU1gCFl?__cft__[0]=AZj_D7X9y9WZRPhYANnlHh_kdjb66aCeqnzg7mZD-vdmsh1RmNaObvbez_Fozb7bD6JJUzv-owfVsAX9APU3H1mY0xwFy7LOq3pN1zede-W-NI11IBs8MRB7VMSuc5fPmmUuCzpKXKGTT_FseZxh55mmrZD9TSCHTKbwmVSCeeJkLUci_nQqLKyldyo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Buscá el punto de vacunación mas cercano a tu casa y llevá a tus mascotas a vacunar. Estamos en Centros de Salud, Mercados, Plazas y Parques de los 15 Distritos Municip… Ver más Buscá el punto de vacunación mas cercano a tu casa y llevá a tus mascotas a vacunar. Estamos en Centros de Salud, Mercados, Plazas y Parques de los 15 Distritos Municip… Ver más Excelente Ver más comentarios Natalie Ana"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/gamscs/posts/pfbid02HogkJJ28z7eEV2Hq8s896UXpJBN9bh5KDte5qdWPavPn6knx7vLaEhDisQBU1gCFl?comment_id=1639909101001687&__cft__[0]=AZj_D7X9y9WZRPhYANnlHh_kdjb66aCeqnzg7mZD-vdmsh1RmNaObvbez_Fozb7bD6JJUzv-owfVsAX9APU3H1mY0xwFy7LOq3pN1zede-W-NI11IBs8MRB7VMSuc5fPmmUuCzpKXKGTT_FseZxh55mmrZD9TSCHTKbwmVSCeeJkLUci_nQqLKyldyo&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Natalie Ana Excelente 1 día"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -588,22 +607,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=N4tmW6vm7aYQ7kNvwH6ABBU&_nc_oc=AdrGuXY6WGDdEpj8l2DwXiSPZlHgOKtfwFLtlTf3yGQ8MVMP77AyBHYny8e3Djk1eY0&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=hvXpCvAgX5WnfZTjVIAQ1g&_nc_ss=7f289&oh=00_AQP8jOmrF53-QIXJ19fQwsHwP-pnocYKFC9CEGAtwvfeHg&oe=6AE49807",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 40,
-          "category": "otro",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/posts/mna-agenda-31%C2%BA-aniversariocompartimos-la-agenda-especial-de-actividades-de-la-fu/1557602316393359/",
-          "has_image": true,
-          "text_preview": "#MNA | Agenda 31.º aniversario Compartimos la agenda especial de actividades de la Fundación Cultural del Banco Central de Bolivia, en el marco de sus 31 años de trayectoria. Los esperamos en el... #MNA | Agenda 31.º aniversario Compartimos la agenda especial de actividades de la Fundación Cultural del Banco Central de Bolivia, en el marco de sus... #MNA | Agenda 31.º aniversario Compartimos la ag"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -631,30 +641,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UibvsCG9xFAQ7kNvwGnr8lH&_nc_oc=AdqjmIinjJWVzuUppZXRPEQtCrSmnLdXe1pPCrINzUsklCngoyVBvj-SLAjWYUtx85w&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=27XNGhv-ckEjMH-poWQbnw&_nc_ss=7f289&oh=00_AQPpK1JGK0tcIB5lqRUU86AHLOezJTyM_DfvkgDYVHucxg&oe=6AE4B38F",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid02BaJuARxoAwmyGv8zz5rApRGSdspaeMPadYF4bTjSuTH6zYN8qq7VZPpdAHrRqeHTl?__cft__[0]=AZiteDXPhd17zTb2ai9aVYlsLTgbfNQoeV_tN1O0Xm0WUr7M4V9k5lXZoCiZhmuWXKuSW4yc6F82Vujw5yLMU0ANkx_YClqr5DRalQxlQKKEfAPRj5iIQnArTl5pWh-BnQQcDfus4cdPriehsje6cF8R71T_z56nb3r7H3kr2vWepTHX-gVAIy5oQ1Y&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CNM | Conmemoración Patrimonial 24 de octubre | Día de la Bandera Potosina… Ver más #CNM | Conmemoración Patrimonial 24 de octubre | Día de la Bandera Potosina… Ver más POTOSI DIO DE COMER AL MUNDO EN LOS SIGLOS XVII XVIII DIO EL NOMBRE ALA ARGENTINA EL MAL LLAMADO VIRREINATO DEL PERU DEVIO SER EL VIRREINATO DE POTOSI Tenemos problemas para reproducir este video. Más información Ver más comentari"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/cnmptsfcbcb/posts/pfbid02BaJuARxoAwmyGv8zz5rApRGSdspaeMPadYF4bTjSuTH6zYN8qq7VZPpdAHrRqeHTl?comment_id=1103409132402021&__cft__[0]=AZiteDXPhd17zTb2ai9aVYlsLTgbfNQoeV_tN1O0Xm0WUr7M4V9k5lXZoCiZhmuWXKuSW4yc6F82Vujw5yLMU0ANkx_YClqr5DRalQxlQKKEfAPRj5iIQnArTl5pWh-BnQQcDfus4cdPriehsje6cF8R71T_z56nb3r7H3kr2vWepTHX-gVAIy5oQ1Y&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "POTOSI DIO DE COMER AL MUNDO EN LOS SIGLOS XVII XVIII DIO EL NOMBRE ALA ARGENTINA EL MAL LLAMADO VIRREINATO DEL PERU DEVIO SER EL VIRREINATO DE POTOSI Julio Cesar Cespedes Garcia"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -665,13 +658,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZaShG9qQsOUQ7kNvwGUUo9D&_nc_oc=AdppiP-rwdsz5UO4jYpDD80P8RXcKeXDr2heBsP8tdTMN3Mx9Sgb0ZCGTXAlHjimMxE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=eSEiY6KloHLZZsHwWtYcrQ&_nc_ss=7f289&oh=00_AQMzCx_vvEhxqNHaLjAZNXplpcnqUyTjyImtwyCDvgkwSA&oe=6AE51292",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/centrodelarevolucioncultural/posts/pfbid0A1mvHeBnzE1kFqxVX2oANowphmWFhPUKXGSVh765Lh9ANKf9wuVRWcnh227mWVwel?__cft__[0]=AZj5wZ7DpUd-UA6JFTGav3IqEaMFqEpuxJhbb2Da_-w6MWQM11U4GbB5U7G6lacmmiq49SlcvWtHvXHWDBKaPGj87RBcEYVC9sHK0q6wH1GNJv4Qb7SyGOVn3No_M8APAeHKhjNZdEYy_PGgWsC07huKX61HM2qqey5QZ1m_4qDzuCCbWf16PglfbdFXSG9iJnDF7x-gIX4qf0KARjc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Sembrada la 4ta Ruta del Libro El Alto cosechó lectores con éxito total… Ver más El Alto Corazón de la Metrópoli hace un día 1 día ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -1159,12 +1161,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Universidad Mayor de San Andrés - UMSA 223 mil seguidores • 236 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento P'"
     },
     {
       "id": "fb_uagrm",
@@ -1209,22 +1211,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CDU7OpeCteIQ7kNvwF8hah4&_nc_oc=Adq60uHNF1VI6FMwXWfsVaC_D1XUdYvAcSCXqrxGGebisbFu8UdF0E99NU7VcsaRqLo&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=03E_qqG85-GsH-IeePcpEA&_nc_ss=7f289&oh=00_AQN6ca5sdKNlwdSyaprt6KU2EL6c4epBsULnldLVcSoKeQ&oe=6AE492B2",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid036p1MCTapy2a84YKNH3vcz6phhznDBH5WudLXEcYK9niyqhduSFp2kZwKyZrTN6Afl?__cft__[0]=AZhsF4g2l_fUjkTFGu5SwKtPfnPglTUU0qdniW8fuNEb9wshoMJLA_Dhkk9QHW0C9Mih-PAB-v0l31WzmFmLmNEiP8z04ZZg87YgoiNS4oE-qZ4HAzqbZ2lks9klKLIHhxMcs0HGHMYsFDSC8eihgAWM84PGY6PPZI7bwzZ5oVC0BFBfPKqJvkmMbqA&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Cuidar de ellos también es proteger a tu familia! Es… Ver más ¡Cuidar de ellos también es proteger a tu familia! Es… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_upsa",
@@ -1440,7 +1433,7 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 54,
-          "category": "festival",
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "25/10/2026 Cultura Entre pánicos y espejos: el reguetón desde sus actores El nuevo libro del investigador y comunicador boliviano Marcelo Guardia Crespo se titula “Entre pánicos y espejos: el reguetón desde sus actores” vista 25/10/2026 Cultura Aiquile palpita con la 42° Feria y Festival Internacional del Charango 2026 Más de un centenar de intérpretes se reunirán en la población de Aiquile para t"
@@ -1815,7 +1808,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗔𝗟 𝗠𝗨𝗡𝗗𝗢: 𝗟𝗔 𝗖𝗔𝗣𝗜𝗧𝗔𝗟 𝗦𝗘 𝗦𝗨𝗠𝗔 𝗔 𝗟𝗔 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗔 «𝗔𝗟𝗜𝗔𝗡𝗭𝗔 𝗜𝗕𝗘𝗥𝗢𝗔𝗠𝗘́𝗥𝗜𝗖𝗔 𝟱𝟬𝟬+» 𝗣𝗔𝗥𝗔 𝗜𝗠𝗣𝗨𝗟𝗦𝗔𝗥 𝗦𝗨 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗬 𝗣𝗔𝗧𝗥𝗜𝗠𝗢𝗡𝗜𝗢 hace 5 días Noticias 235 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarr"
+          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗔𝗟 𝗠𝗨𝗡𝗗𝗢: 𝗟𝗔 𝗖𝗔𝗣𝗜𝗧𝗔𝗟 𝗦𝗘 𝗦𝗨𝗠𝗔 𝗔 𝗟𝗔 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗔 «𝗔𝗟𝗜𝗔𝗡𝗭𝗔 𝗜𝗕𝗘𝗥𝗢𝗔𝗠𝗘́𝗥𝗜𝗖𝗔 𝟱𝟬𝟬+» 𝗣𝗔𝗥𝗔 𝗜𝗠𝗣𝗨𝗟𝗦𝗔𝗥 𝗦𝗨 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗬 𝗣𝗔𝗧𝗥𝗜𝗠𝗢𝗡𝗜𝗢 hace 5 días Noticias 246 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarr"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
