@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T05:10:10-04:00",
+  "generated_at": "2026-10-27T11:36:49-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,8 +8,8 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_conciertos_bolivia",
       "fb_gam_cbba",
+      "fb_gob_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
@@ -17,8 +17,8 @@
       "fb_umsa"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 131.0,
-    "horas_maximo_sin_datos": 1634.0
+    "horas_promedio_sin_datos": 136.1,
+    "horas_maximo_sin_datos": 1640.4
   },
   "sources": [
     {
@@ -47,13 +47,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SpAZjNJfMNoQ7kNvwEGZHiQ&_nc_oc=AdoH74kYPDZgCmsR5wkVDUgTZN2jGN8IGl6pyXUEud55wOUdZHX30tNCeQrZ9NcpUI8&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=l1ZFi_Q3V9c1Y-xFVX__uQ&_nc_ss=7f289&oh=00_AQPxCWV8lN-Ioyyr3ZUbT6P3YvNEsMUG9gWa6ZxaN6-NiQ&oe=6AE6AE35",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Conciertos en Bolivia 55 mil seguidores • 2 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un er'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1835398720801162/?__cft__[0]=AZgbIEgEPbUIqaWtIKG1hq6tK1RZDaYLxeKh71m971mHLCijMzftODNZWADDRirlaHURCKvxr4kKURoa87Pl0lGc1ESmsMX2aCItBqNQQE_GUcgFG9LKIBaEOHm5AWVn-TdHMqdXyNtK13WlbrOq6LKLOXnK7P_l1KTY2Wf9ZhmQeWgXacCZh6uu_IVCJeivgCGw&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡LA PAZ… PREPÁRATE PARA REÍR COMO NUNCA! … Ver más ¡LA PAZ… PREPÁRATE PARA REÍR COMO NUNCA! … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -218,12 +227,12 @@
       "region": "Cochabamba",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobernación de Cochabamba 105 mil seguidores • 234 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
     },
     {
       "id": "fb_gamscs",
@@ -557,22 +566,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_JIMqH62r8MQ7kNvwF5FWUb&_nc_oc=Adp23vAJbITTHZ-HhXiKTan7FuCJTW0osJeroKQu7NOX2hdn4lWOYVBAROqsVV5oJIM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=J_wsfOA5QN6MtRAstVhOmg&_nc_ss=7f289&oh=00_AQNjESMgBvGANrnWWblP9hEv8PH0-xoQ2lPnadWHmUVN2A&oe=6AE64AF3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/4020889334883864/?__cft__[0]=AZhH-mFLovQFDXrwDOn4jwWihZ98TmlYFVWoUz3aC8oz60MwEaEE9zu2s_0lNqgg5c4jleV6Ycu16zbWs0jBSvDTfN-PpmBGaY1Vpw8s1dvVe68yAxe13-oW6WYontb5tQ37WS7UYnQvfgP9iXZj0BhqoWJtU1h-fKcp_byipnYTS3UupJ7ivZGkif1y5lJWRy9Q&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "AJAYU regresa aquí a Cinemateca Boliviana. Del 29 de octubre al 1 de noviembre ven y forma parte de esta maravillosa historia dirigida por Francisco Ormachea. ¡Los espe… Ver más AJAYU regresa aquí a Cinemateca Boliviana. Del 29 de octubre al 1 de noviembre ven y forma parte de esta maravillosa historia dirigida por Francisco Ormachea. ¡Los espe… Ver más Tenemos problemas para reproducir este video"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -1358,38 +1358,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://www.turismoyculturas.gob.bo/wp-content/uploads/2025/11/Logo-Presidencia.png",
-      "status": "ok",
-      "raw_items": 9,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 9,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 44,
-          "category": "festival",
-          "url": "https://www.turismoyculturas.gob.bo/",
-          "has_image": false,
-          "text_preview": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "turismo",
-          "url": "https://www.turismoyculturas.gob.bo/declaracion-de-la-mision-vision-valores-y-principios-de-la-entidad/",
-          "has_image": true,
-          "text_preview": "Misión y Visión de la Entidad Misión Diseñar, regular y ejecutar políticas públicas que promuevan el turismo sostenible, el folklore y la gastronomía como sectores estratégicos para el desarrollo integral del país y la conservación de nuestras culturas. Trabajar de manera coordinada con los niveles subnacionales, actores comunitarios y sectores productivos para transformar nuestra riqueza natural "
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 18,
-          "category": "turismo",
-          "url": "https://www.turismoyculturas.gob.bo/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/",
-          "has_image": true,
-          "text_preview": "Reseña Histórica Bolivia es uno de los países con mayor diversidad cultural, histórica y natural del mundo. Su identidad nacional se ha forjado a partir del legado de las civilizaciones precolombinas como Tiwanaku, los señoríos aymaras, las culturas amazónicas, chaqueñas y de los valles, así como la influencia del Tawantinsuyu incaico; del extraordinario aporte artístico, arquitectónico y religios"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
     },
     {
       "id": "web_lostiempos_agenda",
@@ -1403,8 +1378,8 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 10,
-      "rejected": 3,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1415,20 +1390,20 @@
           "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
         },
         {
-          "reason": "relevancia_insuficiente",
-          "score": 47,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 33,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 23h24m Militares bolivianos reciben entrenamiento especializado en EEUU 23h12m Arce destaca el triunfo de Lula en Brasil 22h49m Detectan indicios"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         },
         {
-          "reason": "relevancia_insuficiente",
-          "score": 47,
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 21,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/ciclo-cine-troje_638605",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
-          "text_preview": "Agenda Cultural Dentro del ciclo de cine dedicado a Álex de la Iglesia, se proyectará La Comunidad (2000). Esta película mezcla comedia negra y terror, revelando los oscuros secretos de una comunidad vecinal, en una trama tan intrigante como provocadora. Tipo de Evento: Cultural Fecha del Evento: Martes, 20 Agosto, 2024 (Todo el día) Dirección: La Troje (av. Capitán Victor Ustáriz km 3,5) Últimas "
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1748,25 +1723,17 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 2,
-      "events": 0,
-      "rejected": 2,
+      "raw_items": 3,
+      "events": 2,
+      "rejected": 1,
       "rejected_samples": [
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 24,
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 4,
           "category": "concierto",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "Becas Google Career Launchpad 2026 pago qr Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitid"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
-          "category": "tecnologia",
-          "url": "https://www.uto.edu.bo/la-uto-y-oruro-inauguran-expoteco-2026-la-feria-tecnica-tecnologica-y-comercial-mas-importante-del-occidente-boliviano/",
-          "has_image": true,
-          "text_preview": "Oruro, 16 de octubre de 2026. — En una jornada festiva y de alto impacto para la reactivación productiva y la integración económica regional, se llevó a cabo el acto formal de inauguración de Expoteco 2026 , la feria de exposición técnica, tecnológica, comercial e industrial más representativa del occidente del país, organizada bajo el liderazgo de la Universidad Técnica de Oruro (UTO) a través de"
         }
       ],
       "error": null
@@ -1792,7 +1759,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗔𝗟 𝗠𝗨𝗡𝗗𝗢: 𝗟𝗔 𝗖𝗔𝗣𝗜𝗧𝗔𝗟 𝗦𝗘 𝗦𝗨𝗠𝗔 𝗔 𝗟𝗔 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗔 «𝗔𝗟𝗜𝗔𝗡𝗭𝗔 𝗜𝗕𝗘𝗥𝗢𝗔𝗠𝗘́𝗥𝗜𝗖𝗔 𝟱𝟬𝟬+» 𝗣𝗔𝗥𝗔 𝗜𝗠𝗣𝗨𝗟𝗦𝗔𝗥 𝗦𝗨 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗬 𝗣𝗔𝗧𝗥𝗜𝗠𝗢𝗡𝗜𝗢 hace 6 días Noticias 284 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarr"
+          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗔𝗟 𝗠𝗨𝗡𝗗𝗢: 𝗟𝗔 𝗖𝗔𝗣𝗜𝗧𝗔𝗟 𝗦𝗘 𝗦𝗨𝗠𝗔 𝗔 𝗟𝗔 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗔 «𝗔𝗟𝗜𝗔𝗡𝗭𝗔 𝗜𝗕𝗘𝗥𝗢𝗔𝗠𝗘́𝗥𝗜𝗖𝗔 𝟱𝟬𝟬+» 𝗣𝗔𝗥𝗔 𝗜𝗠𝗣𝗨𝗟𝗦𝗔𝗥 𝗦𝗨 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗬 𝗣𝗔𝗧𝗥𝗜𝗠𝗢𝗡𝗜𝗢 hace 6 días Noticias 292 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarr"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
