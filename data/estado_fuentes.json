@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:41:38-04:00",
+  "generated_at": "2026-10-26T20:33:19-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -17,8 +17,8 @@
       "fb_umsa"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 121.9,
-    "horas_maximo_sin_datos": 1621.5
+    "horas_promedio_sin_datos": 124.0,
+    "horas_maximo_sin_datos": 1625.4
   },
   "sources": [
     {
@@ -319,22 +319,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=hOkuw0ufa6AQ7kNvwEfdVD_&_nc_oc=AdoA52BT7mt6c2VfOs3RJB7tL3TC4UScrdvLwPaIggg1HZJfkO_GtgGbpdWVyw26Y80&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_ss=7f289&oh=00_AQPHCx5LRQRc1xzCE58tbQJS6UGhG0PsbYTX6-DuZ14q5g&oe=6B0712BA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/RedUnotv/posts/pfbid02Q1rtnh8rkTANgNCr626mw3pTwmRj53gxSHpTmRLzsawHM8TJJ5AnDoKhH1UL7fTFl?__cft__[0]=AZjL9JmOBWJqeutC0qlwTmryOP6uQuW2nKXfzd4C2f7ccN48mhR3Clw_m-CFRUCVteexLycjCY4Ntbnx-27IbebGw8UzwT-t-ASZBMEJ4CHAHyD2QMN3rrnDPJFAXEcst0X26UJ-lNCvMdy_OHISSgTSGr1nImK_6g43TwIqPhgH1neGgewY7eHXxYw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "https://r-1.tv/d35019 Según los primeros reportes y los testimonios de testigos, el hombre caminaba solo cerca de una distribuidora de gas cuando fue interceptado … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_unitel",
@@ -538,7 +529,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Português (Br'"
     },
     {
       "id": "fb_fundacion_cultural_bcb",
@@ -549,13 +540,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YvqfHw2LUxwQ7kNvwEOyIzl&_nc_oc=AdqsmYbQd9QNX8vT2IJzjSEiTsu9Q-N5-6TzSb-PFDYHVGcy3FxGbbInWkZB7khbLdU&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=G0AqnPM5KFtja2f9Z-vNuw&_nc_ss=7f289&oh=00_AQOcTsF2hDDwD1fMu-X8Ht_kd-4uDKMg1RKxbIIRJt5rSQ&oe=6AE5C273",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/posts/pfbid0267VReVUbyLtWaz7KCzJk2DmH3RbgEhyJg1yv6XnqWPKmpovQaFNU8vcuaq8Mbnfkl?__cft__[0]=AZi3lkA4KP7HOPFxkoosT9aONjTPjTW9lpF-B1aGCPAm-qww0M8LSdaduo1wz-zpBx5Td4cFg905Krt_U-lLYHXpBBV0NLyzjijr5ueywLxOyHtq0WYJs1fTHEm83tQeL5Wv-vihJzUp39W47sprAqbOxTbljFOR1rhXNDvv55hpQiblXn3fr82nexRoxDZ1IIxvBKnycKjmthACEqA&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "SAN ISIDRO 7mo. capítulo.… Ver más SAN ISIDRO 7mo. capítulo.… Ver más Tenemos problemas para reproducir este video. Más información Centro Cultural Museo Marina Núñez del Prado hace 10 horas 10 h ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -572,7 +572,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Cinemateca Boliviana 144 mil seguidores • 199 seguidos Más Publicaciones Información Reels Fotos Seguidos Esta página no está disponible en este momento Puede debe'"
     },
     {
       "id": "fb_ccelp",
@@ -1145,12 +1145,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Universidad Mayor de San Andrés - UMSA 223 mil seguidores • 237 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento P'"
     },
     {
       "id": "fb_uagrm",
@@ -1403,12 +1403,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 8,
+      "rejected": 5,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 23,
+          "score": 0,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1416,15 +1416,15 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 49,
-          "category": "deporte",
+          "score": 36,
+          "category": "literatura",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "26/10/2026 Cultura Halloween, la milenaria fiesta del terror que no asusta, se apodera de Cochabamba La tradicional fiesta de Halloween se impone en la semana 44 del año con diferentes actividades y para todas las edades. vista 25/10/2026 Cultura Entre pánicos y espejos: el reguetón desde sus actores El nuevo libro del investigador y comunicador boliviano Marcelo Guardia Crespo se titula “Entre pá"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
+          "reason": "tema_ajeno_a_eventos",
+          "score": 36,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1596,8 +1596,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 63,
-      "events": 63,
+      "raw_items": 61,
+      "events": 61,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1792,7 +1792,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗔𝗟 𝗠𝗨𝗡𝗗𝗢: 𝗟𝗔 𝗖𝗔𝗣𝗜𝗧𝗔𝗟 𝗦𝗘 𝗦𝗨𝗠𝗔 𝗔 𝗟𝗔 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗔 «𝗔𝗟𝗜𝗔𝗡𝗭𝗔 𝗜𝗕𝗘𝗥𝗢𝗔𝗠𝗘́𝗥𝗜𝗖𝗔 𝟱𝟬𝟬+» 𝗣𝗔𝗥𝗔 𝗜𝗠𝗣𝗨𝗟𝗦𝗔𝗥 𝗦𝗨 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗬 𝗣𝗔𝗧𝗥𝗜𝗠𝗢𝗡𝗜𝗢 hace 5 días Noticias 267 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarr"
+          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗔𝗟 𝗠𝗨𝗡𝗗𝗢: 𝗟𝗔 𝗖𝗔𝗣𝗜𝗧𝗔𝗟 𝗦𝗘 𝗦𝗨𝗠𝗔 𝗔 𝗟𝗔 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗔 «𝗔𝗟𝗜𝗔𝗡𝗭𝗔 𝗜𝗕𝗘𝗥𝗢𝗔𝗠𝗘́𝗥𝗜𝗖𝗔 𝟱𝟬𝟬+» 𝗣𝗔𝗥𝗔 𝗜𝗠𝗣𝗨𝗟𝗦𝗔𝗥 𝗦𝗨 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗬 𝗣𝗔𝗧𝗥𝗜𝗠𝗢𝗡𝗜𝗢 hace 6 días Noticias 274 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarr"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",

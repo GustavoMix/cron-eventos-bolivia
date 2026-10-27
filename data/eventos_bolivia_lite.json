@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-26T16:41:38-04:00",
+  "generated_at": "2026-10-26T20:33:19-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 103,
-    "events_today": 18
+    "events_total": 107,
+    "events_today": 21
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 32
+        "count": 35
       },
       {
         "key": "cine",
@@ -73,14 +73,14 @@
         "count": 10
       },
       {
-        "key": "festival",
-        "label": "Festivales",
+        "key": "teatro",
+        "label": "Teatro",
         "count": 7
       },
       {
-        "key": "teatro",
-        "label": "Teatro",
-        "count": 6
+        "key": "festival",
+        "label": "Festivales",
+        "count": 7
       },
       {
         "key": "conferencia",
@@ -122,7 +122,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 28
+        "count": 31
       },
       {
         "key": "La Paz",
@@ -169,7 +169,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 34
+        "count": 37
       },
       {
         "key": "La Paz",
@@ -184,7 +184,7 @@
       {
         "key": "Bolivia",
         "label": "Bolivia",
-        "count": 11
+        "count": 12
       },
       {
         "key": "Chuquisaca",
@@ -211,22 +211,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 28
+        "count": 31
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 33
+        "count": 37
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 59
+        "count": 63
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 103
+        "count": 107
       }
     ],
     "price": [
@@ -238,7 +238,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 29
+        "count": 33
       },
       {
         "key": "por_confirmar",
@@ -250,7 +250,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 92
+        "count": 96
       },
       {
         "key": "con_video",
@@ -384,7 +384,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 47
+        "count": 50
       },
       {
         "key": "cultura_oficial",
@@ -397,14 +397,14 @@
         "count": 13
       },
       {
-        "key": "venue",
-        "label": "venue",
+        "key": "ticketera",
+        "label": "ticketera",
         "count": 13
       },
       {
-        "key": "ticketera",
-        "label": "ticketera",
-        "count": 12
+        "key": "venue",
+        "label": "venue",
+        "count": 13
       },
       {
         "key": "eventos",
@@ -439,6 +439,7 @@
       "evt_8b8dae3e563e67",
       "evt_46e1011ac9b243",
       "evt_d44ca01a2c7a32",
+      "evt_569d2369e3a6b2",
       "evt_066f1326cbd664",
       "evt_65f7bbe585180c",
       "evt_1a28d2ba966ce8",
@@ -446,7 +447,9 @@
       "evt_03284b934c0a5e",
       "evt_0da62ea7f39eb8",
       "evt_b2a0bfa8f33d60",
+      "evt_567a4a352d4b83",
       "evt_5c1a32ca969308",
+      "evt_f889ebaf0f28d4",
       "evt_eb4b8322c73f90"
     ],
     "tomorrow": [
@@ -460,6 +463,7 @@
       "evt_321501881559b7",
       "evt_77cc0681748a48",
       "evt_fb58b03cef676b",
+      "evt_4e4d0172cbb6b4",
       "evt_b94197ac987d93"
     ],
     "this_weekend": [
@@ -498,6 +502,7 @@
       "evt_03284b934c0a5e",
       "evt_0da62ea7f39eb8",
       "evt_b2a0bfa8f33d60",
+      "evt_4e4d0172cbb6b4",
       "evt_df4f89b374404b",
       "evt_b738d5075ee0af",
       "evt_272425b1fcd388",
@@ -533,15 +538,15 @@
       "sources_ok": 3
     },
     "Cochabamba": {
-      "events_total": 48,
-      "events_upcoming": 34,
-      "events_with_image": 34,
+      "events_total": 53,
+      "events_upcoming": 37,
+      "events_with_image": 37,
       "events_with_video": 1,
       "sources_total": 13,
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 34,
+      "events_total": 33,
       "events_upcoming": 17,
       "events_with_image": 12,
       "events_with_video": 1,
@@ -600,7 +605,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 59,
+      "events_total": 56,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0
@@ -628,9 +633,9 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 39,
-      "events_upcoming": 32,
-      "events_with_image": 29,
+      "events_total": 44,
+      "events_upcoming": 35,
+      "events_with_image": 32,
       "events_with_video": 1
     },
     "exposicion": {
@@ -677,9 +682,9 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 6,
-      "events_upcoming": 6,
-      "events_with_image": 5,
+      "events_total": 9,
+      "events_upcoming": 7,
+      "events_with_image": 6,
       "events_with_video": 0
     },
     "turismo": {
@@ -1863,6 +1868,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_569d2369e3a6b2",
+      "title": "Ciclo de cine en La Troje",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-10-26T13:00:00-04:00",
+      "starts_at_ms": 1793034000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 26 de octubre · 13:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/454762420_898299412339032_8402557399451655097_n.jpg?itok=0Ginj61K",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 300.0,
+      "currency": "BOB",
+      "price_label": "Bs 300",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_066f1326cbd664",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -2260,69 +2303,54 @@
       "showtimes": [
         "18:30",
         "21:00",
-        "17:00",
         "19:30",
         "22:00",
         "20:00",
-        "16:30",
-        "19:10",
-        "21:50",
-        "16:10",
-        "18:50",
-        "21:30",
-        "17:30",
         "19:50",
         "22:10",
-        "16:20",
         "18:40",
         "18:20",
         "20:30",
         "22:40",
         "22:30",
-        "18:00",
+        "19:10",
+        "21:50",
+        "18:50",
+        "21:30",
         "20:10",
         "22:20",
         "18:10",
-        "20:40",
-        "17:50"
+        "20:40"
       ],
       "formats": [
         "2D - DBOX - Doblada",
         "2D - DBOX - XD - Doblada",
         "2D - PRE - Subtitulada",
         "2D - Doblada",
-        "2D - PRE - Doblada",
         "2D - Subtitulada",
         "3D - Subtitulada"
       ],
       "occurrences": [
         "2026-10-26T18:30:00-04:00",
         "2026-10-26T21:00:00-04:00",
-        "2026-10-26T17:00:00-04:00",
         "2026-10-26T19:30:00-04:00",
         "2026-10-26T22:00:00-04:00",
         "2026-10-26T20:00:00-04:00",
-        "2026-10-26T16:30:00-04:00",
-        "2026-10-26T19:10:00-04:00",
-        "2026-10-26T21:50:00-04:00",
-        "2026-10-26T16:10:00-04:00",
-        "2026-10-26T18:50:00-04:00",
-        "2026-10-26T21:30:00-04:00",
-        "2026-10-26T17:30:00-04:00",
         "2026-10-26T19:50:00-04:00",
         "2026-10-26T22:10:00-04:00",
-        "2026-10-26T16:20:00-04:00",
         "2026-10-26T18:40:00-04:00",
         "2026-10-26T18:20:00-04:00",
         "2026-10-26T20:30:00-04:00",
         "2026-10-26T22:40:00-04:00",
         "2026-10-26T22:30:00-04:00",
-        "2026-10-26T18:00:00-04:00",
+        "2026-10-26T19:10:00-04:00",
+        "2026-10-26T21:50:00-04:00",
+        "2026-10-26T18:50:00-04:00",
+        "2026-10-26T21:30:00-04:00",
         "2026-10-26T20:10:00-04:00",
         "2026-10-26T22:20:00-04:00",
         "2026-10-26T18:10:00-04:00",
-        "2026-10-26T20:40:00-04:00",
-        "2026-10-26T17:50:00-04:00"
+        "2026-10-26T20:40:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2331,6 +2359,44 @@
       "cast": [],
       "quality_score": 68,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_567a4a352d4b83",
+      "title": "Espectáculo de danza: Negra",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-10-26T19:00:00-04:00",
+      "starts_at_ms": 1793055600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 26 de octubre · 19:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 300.0,
+      "currency": "BOB",
+      "price_label": "Bs 300",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
@@ -2352,6 +2418,44 @@
       "department": "Oruro",
       "venue": null,
       "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/455327697_507250335140342_3153981228297889411_n.jpg?itok=xiYw38Bf",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 300.0,
+      "currency": "BOB",
+      "price_label": "Bs 300",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_f889ebaf0f28d4",
+      "title": "Balau: Taller de cajón peruano",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-10-26T21:30:00-04:00",
+      "starts_at_ms": 1793064600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 26 de octubre · 21:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/large/public/agenda_cultural/imagen/whatsapp_image_2024-10-09_at_09.07.38_1.jpeg?itok=yMidTIp2",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
@@ -2407,6 +2511,44 @@
       "cast": [],
       "quality_score": 59,
       "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_4e4d0172cbb6b4",
+      "title": "Concurso Intercolegial Teatro",
+      "category": "teatro",
+      "category_label": "Teatro",
+      "starts_at": "2026-10-27T15:00:00-04:00",
+      "starts_at_ms": 1793127600000,
+      "ends_at_ms": 1793073600000,
+      "multi_day": false,
+      "display_date": "Martes 27 de octubre · 15:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 1,
+      "is_upcoming": true,
+      "city": null,
+      "department": "Bolivia",
+      "venue": "Teatro 16 de Julio",
+      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/10/asdsadsasdsad.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 40.0,
+      "currency": "None",
+      "price_label": "Bs 40",
+      "organizer": "SuperTicket.bo",
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 72,
+      "is_featured": true,
       "status": "programado",
       "source_count": 1
     },
