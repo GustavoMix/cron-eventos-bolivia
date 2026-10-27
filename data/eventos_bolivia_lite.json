@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-27T11:36:49-04:00",
+  "generated_at": "2026-10-27T18:16:44-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 101,
+    "events_total": 102,
     "events_today": 17
   },
   "filters": {
@@ -80,7 +80,7 @@
       {
         "key": "teatro",
         "label": "Teatro",
-        "count": 5
+        "count": 6
       },
       {
         "key": "conferencia",
@@ -184,7 +184,7 @@
       {
         "key": "Bolivia",
         "label": "Bolivia",
-        "count": 11
+        "count": 12
       },
       {
         "key": "Chuquisaca",
@@ -216,17 +216,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 31
+        "count": 32
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 58
+        "count": 59
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 101
+        "count": 102
       }
     ],
     "price": [
@@ -238,7 +238,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 26
+        "count": 27
       },
       {
         "key": "por_confirmar",
@@ -250,7 +250,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 90
+        "count": 91
       },
       {
         "key": "con_video",
@@ -397,14 +397,14 @@
         "count": 13
       },
       {
-        "key": "venue",
-        "label": "venue",
+        "key": "ticketera",
+        "label": "ticketera",
         "count": 13
       },
       {
-        "key": "ticketera",
-        "label": "ticketera",
-        "count": 12
+        "key": "venue",
+        "label": "venue",
+        "count": 13
       },
       {
         "key": "eventos",
@@ -436,16 +436,16 @@
       "evt_2b9181929ec42d",
       "evt_3cd169cf28a1f9",
       "evt_0a30f63c60ff63",
-      "evt_58ee7736bf93ab",
       "evt_4234f1c1c055d0",
       "evt_5f433b917fdc86",
       "evt_bb1327ac6972a3",
       "evt_86efd30e695ab6",
       "evt_3044ebc0f34016",
-      "evt_4ef968cc9bc00d",
       "evt_dd8844ffd7bb62",
       "evt_d3eed4ff001c46",
       "evt_4e4d0172cbb6b4",
+      "evt_58ee7736bf93ab",
+      "evt_4ef968cc9bc00d",
       "evt_b94197ac987d93"
     ],
     "tomorrow": [
@@ -460,6 +460,7 @@
       "evt_77cc0681748a48",
       "evt_fb58b03cef676b",
       "evt_df4f89b374404b",
+      "evt_79fd7f67b193af",
       "evt_f5d3e6b18160ae"
     ],
     "this_weekend": [
@@ -487,17 +488,18 @@
       "evt_2b9181929ec42d",
       "evt_3cd169cf28a1f9",
       "evt_0a30f63c60ff63",
-      "evt_58ee7736bf93ab",
       "evt_4234f1c1c055d0",
       "evt_5f433b917fdc86",
       "evt_bb1327ac6972a3",
       "evt_86efd30e695ab6",
       "evt_3044ebc0f34016",
-      "evt_4ef968cc9bc00d",
       "evt_dd8844ffd7bb62",
       "evt_d3eed4ff001c46",
       "evt_4e4d0172cbb6b4",
+      "evt_58ee7736bf93ab",
+      "evt_4ef968cc9bc00d",
       "evt_df4f89b374404b",
+      "evt_79fd7f67b193af",
       "evt_b738d5075ee0af",
       "evt_272425b1fcd388",
       "evt_cdbfbc6ca41a2d",
@@ -524,15 +526,15 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 42,
+      "events_total": 39,
       "events_upcoming": 20,
       "events_with_image": 19,
       "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 51,
+      "events_total": 49,
       "events_upcoming": 34,
       "events_with_image": 34,
       "events_with_video": 1,
@@ -540,7 +542,7 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 34,
+      "events_total": 32,
       "events_upcoming": 17,
       "events_with_image": 12,
       "events_with_video": 1,
@@ -572,7 +574,7 @@
       "sources_ok": 0
     },
     "Tarija": {
-      "events_total": 10,
+      "events_total": 9,
       "events_upcoming": 5,
       "events_with_image": 1,
       "events_with_video": 0,
@@ -599,7 +601,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 63,
+      "events_total": 56,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0
@@ -627,7 +629,7 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 43,
+      "events_total": 42,
       "events_upcoming": 29,
       "events_with_image": 26,
       "events_with_video": 1
@@ -676,9 +678,9 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 7,
-      "events_upcoming": 5,
-      "events_with_image": 4,
+      "events_total": 8,
+      "events_upcoming": 6,
+      "events_with_image": 5,
       "events_with_video": 0
     },
     "turismo": {
@@ -1522,58 +1524,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_58ee7736bf93ab",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-10-27T12:00:00-04:00",
-      "starts_at_ms": 1793116800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Martes 27 de octubre · 12:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Tarija",
-      "department": "Tarija",
-      "venue": "Cine Center",
-      "image_url": "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "12:00",
-        "14:30",
-        "17:00",
-        "19:30",
-        "22:00"
-      ],
-      "formats": [
-        "2D - Doblada"
-      ],
-      "occurrences": [
-        "2026-10-27T12:00:00-04:00",
-        "2026-10-27T14:30:00-04:00",
-        "2026-10-27T17:00:00-04:00",
-        "2026-10-27T19:30:00-04:00",
-        "2026-10-27T22:00:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_4234f1c1c055d0",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -1609,12 +1559,11 @@
         "16:50",
         "19:30",
         "22:10",
-        "11:00",
-        "13:30",
         "16:00"
       ],
       "formats": [
-        "2D - Doblada"
+        "2D - Doblada",
+        "2D - Subtitulada"
       ],
       "occurrences": [
         "2026-10-27T12:30:00-04:00",
@@ -1627,8 +1576,6 @@
         "2026-10-27T16:50:00-04:00",
         "2026-10-27T19:30:00-04:00",
         "2026-10-27T22:10:00-04:00",
-        "2026-10-27T11:00:00-04:00",
-        "2026-10-27T13:30:00-04:00",
         "2026-10-27T16:00:00-04:00"
       ],
       "content_genre": null,
@@ -1915,12 +1862,11 @@
         "22:20",
         "12:30",
         "16:10",
-        "14:50",
-        "17:15",
         "12:00",
         "14:30",
         "19:00",
         "22:10",
+        "17:15",
         "14:10",
         "18:30",
         "20:35",
@@ -1931,7 +1877,8 @@
         "22:40",
         "13:20",
         "15:10",
-        "17:00"
+        "17:00",
+        "21:40"
       ],
       "formats": [
         "2D",
@@ -1955,12 +1902,11 @@
         "2026-10-27T22:20:00-04:00",
         "2026-10-27T12:30:00-04:00",
         "2026-10-27T16:10:00-04:00",
-        "2026-10-27T14:50:00-04:00",
-        "2026-10-27T17:15:00-04:00",
         "2026-10-27T12:00:00-04:00",
         "2026-10-27T14:30:00-04:00",
         "2026-10-27T19:00:00-04:00",
         "2026-10-27T22:10:00-04:00",
+        "2026-10-27T17:15:00-04:00",
         "2026-10-27T14:10:00-04:00",
         "2026-10-27T18:30:00-04:00",
         "2026-10-27T20:35:00-04:00",
@@ -2023,124 +1969,6 @@
         "2026-10-27T16:00:00-04:00",
         "2026-10-27T18:30:00-04:00",
         "2026-10-27T21:00:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_4ef968cc9bc00d",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-10-27T13:30:00-04:00",
-      "starts_at_ms": 1793122200000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Martes 27 de octubre · 13:30",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/10/clayface-47962.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "13:30",
-        "16:00",
-        "18:30",
-        "21:00",
-        "14:30",
-        "17:00",
-        "19:30",
-        "22:00",
-        "15:00",
-        "20:10",
-        "13:50",
-        "16:30",
-        "19:10",
-        "21:50",
-        "16:10",
-        "18:50",
-        "21:30",
-        "14:00",
-        "18:20",
-        "20:30",
-        "22:40",
-        "13:00",
-        "22:30",
-        "12:50",
-        "15:10",
-        "17:30",
-        "19:50",
-        "22:10",
-        "16:20",
-        "18:40",
-        "13:40",
-        "15:50"
-      ],
-      "formats": [
-        "2D - DBOX - Doblada",
-        "2D - DBOX - XD - Doblada",
-        "2D - PRE - Subtitulada",
-        "2D - Doblada",
-        "2D - PRE - Doblada",
-        "2D - Subtitulada",
-        "3D - Subtitulada"
-      ],
-      "occurrences": [
-        "2026-10-27T13:30:00-04:00",
-        "2026-10-27T16:00:00-04:00",
-        "2026-10-27T18:30:00-04:00",
-        "2026-10-27T21:00:00-04:00",
-        "2026-10-27T14:30:00-04:00",
-        "2026-10-27T17:00:00-04:00",
-        "2026-10-27T19:30:00-04:00",
-        "2026-10-27T22:00:00-04:00",
-        "2026-10-27T15:00:00-04:00",
-        "2026-10-27T20:10:00-04:00",
-        "2026-10-27T13:50:00-04:00",
-        "2026-10-27T16:30:00-04:00",
-        "2026-10-27T19:10:00-04:00",
-        "2026-10-27T21:50:00-04:00",
-        "2026-10-27T16:10:00-04:00",
-        "2026-10-27T18:50:00-04:00",
-        "2026-10-27T21:30:00-04:00",
-        "2026-10-27T14:00:00-04:00",
-        "2026-10-27T18:20:00-04:00",
-        "2026-10-27T20:30:00-04:00",
-        "2026-10-27T22:40:00-04:00",
-        "2026-10-27T13:00:00-04:00",
-        "2026-10-27T22:30:00-04:00",
-        "2026-10-27T12:50:00-04:00",
-        "2026-10-27T15:10:00-04:00",
-        "2026-10-27T17:30:00-04:00",
-        "2026-10-27T19:50:00-04:00",
-        "2026-10-27T22:10:00-04:00",
-        "2026-10-27T16:20:00-04:00",
-        "2026-10-27T18:40:00-04:00",
-        "2026-10-27T13:40:00-04:00",
-        "2026-10-27T15:50:00-04:00",
-        "2026-10-27T18:00:00-04:00",
-        "2026-10-27T22:20:00-04:00",
-        "2026-10-27T13:10:00-04:00",
-        "2026-10-27T20:40:00-04:00",
-        "2026-10-27T15:30:00-04:00",
-        "2026-10-27T17:50:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2369,6 +2197,137 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_58ee7736bf93ab",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-10-27T17:00:00-04:00",
+      "starts_at_ms": 1793134800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 27 de octubre · 17:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": "Cine Center",
+      "image_url": "https://cdn.bolivia.com/cine/2026/10/street-fighter-47899.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "17:00",
+        "19:30",
+        "22:00"
+      ],
+      "formats": [
+        "2D - Doblada"
+      ],
+      "occurrences": [
+        "2026-10-27T17:00:00-04:00",
+        "2026-10-27T19:30:00-04:00",
+        "2026-10-27T22:00:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_4ef968cc9bc00d",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-10-27T18:30:00-04:00",
+      "starts_at_ms": 1793140200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 27 de octubre · 18:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/10/clayface-47962.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "18:30",
+        "21:00",
+        "19:30",
+        "22:00",
+        "20:10",
+        "19:50",
+        "22:10",
+        "18:40",
+        "18:20",
+        "20:30",
+        "22:40",
+        "22:30",
+        "19:10",
+        "21:50",
+        "18:50",
+        "21:30",
+        "22:20",
+        "20:40"
+      ],
+      "formats": [
+        "2D - DBOX - Doblada",
+        "2D - DBOX - XD - Doblada",
+        "2D - PRE - Subtitulada",
+        "2D - Doblada",
+        "3D - Subtitulada",
+        "2D - Subtitulada"
+      ],
+      "occurrences": [
+        "2026-10-27T18:30:00-04:00",
+        "2026-10-27T21:00:00-04:00",
+        "2026-10-27T19:30:00-04:00",
+        "2026-10-27T22:00:00-04:00",
+        "2026-10-27T20:10:00-04:00",
+        "2026-10-27T19:50:00-04:00",
+        "2026-10-27T22:10:00-04:00",
+        "2026-10-27T18:40:00-04:00",
+        "2026-10-27T18:20:00-04:00",
+        "2026-10-27T20:30:00-04:00",
+        "2026-10-27T22:40:00-04:00",
+        "2026-10-27T22:30:00-04:00",
+        "2026-10-27T19:10:00-04:00",
+        "2026-10-27T21:50:00-04:00",
+        "2026-10-27T18:50:00-04:00",
+        "2026-10-27T21:30:00-04:00",
+        "2026-10-27T22:20:00-04:00",
+        "2026-10-27T20:40:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_b94197ac987d93",
       "title": "Alianza Francesa de La Paz",
       "category": "conferencia",
@@ -2440,6 +2399,44 @@
       "director": null,
       "cast": [],
       "quality_score": 70,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_79fd7f67b193af",
+      "title": "Concurso Intercolegial Teatro",
+      "category": "teatro",
+      "category_label": "Teatro",
+      "starts_at": "2026-10-28T15:00:00-04:00",
+      "starts_at_ms": 1793214000000,
+      "ends_at_ms": 1793160000000,
+      "multi_day": false,
+      "display_date": "Miércoles 28 de octubre · 15:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 1,
+      "is_upcoming": true,
+      "city": null,
+      "department": "Bolivia",
+      "venue": "Teatro 16 de Julio",
+      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/10/asdsadsasdsad.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 40.0,
+      "currency": "None",
+      "price_label": "Bs 40",
+      "organizer": "SuperTicket.bo",
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 72,
       "is_featured": true,
       "status": "programado",
       "source_count": 1

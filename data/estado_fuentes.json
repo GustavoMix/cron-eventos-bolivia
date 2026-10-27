@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:36:49-04:00",
+  "generated_at": "2026-10-27T18:16:44-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,17 +8,18 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_centro_cultura_scz",
       "fb_gam_cbba",
       "fb_gob_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_teatro_aire_libre",
-      "fb_umsa"
+      "fb_umss"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 136.1,
-    "horas_maximo_sin_datos": 1640.4
+    "horas_promedio_sin_datos": 140.2,
+    "horas_maximo_sin_datos": 1647.1
   },
   "sources": [
     {
@@ -47,22 +48,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SpAZjNJfMNoQ7kNvwEGZHiQ&_nc_oc=AdoH74kYPDZgCmsR5wkVDUgTZN2jGN8IGl6pyXUEud55wOUdZHX30tNCeQrZ9NcpUI8&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=l1ZFi_Q3V9c1Y-xFVX__uQ&_nc_ss=7f289&oh=00_AQPxCWV8lN-Ioyyr3ZUbT6P3YvNEsMUG9gWa6ZxaN6-NiQ&oe=6AE6AE35",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1835398720801162/?__cft__[0]=AZgbIEgEPbUIqaWtIKG1hq6tK1RZDaYLxeKh71m971mHLCijMzftODNZWADDRirlaHURCKvxr4kKURoa87Pl0lGc1ESmsMX2aCItBqNQQE_GUcgFG9LKIBaEOHm5AWVn-TdHMqdXyNtK13WlbrOq6LKLOXnK7P_l1KTY2Wf9ZhmQeWgXacCZh6uu_IVCJeivgCGw&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡LA PAZ… PREPÁRATE PARA REÍR COMO NUNCA! … Ver más ¡LA PAZ… PREPÁRATE PARA REÍR COMO NUNCA! … Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -227,12 +219,12 @@
       "region": "Cochabamba",
       "city": null,
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobernación de Cochabamba 105 mil seguidores • 234 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -1077,12 +1069,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Centro de la Cultura Plurinacional Santa Cruz 37 mil seguidores • 366 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este mom'"
     },
     {
       "id": "fb_casa_libertad",
@@ -1144,13 +1136,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=K29KmZZ1QisQ7kNvwHekAQI&_nc_oc=AdqUFyxz2UZkc0MF0Y7NAI8oknAhJSOyVPvhOx_Hk7D5SMKu8lspYFOnJKZ421ouHPc&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=cRCEb1a1KoGC2-e8y-8lLg&_nc_ss=7f289&oh=00_AQRS9v8sPEKpnyy3uKhT9y7ow69mallAegLpp0Lb-qbBTw&oe=6AE6E525",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Universidad Mayor de San Andrés - UMSA 223 mil seguidores • 237 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento P'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "taller",
+          "url": "https://es-la.facebook.com/login",
+          "has_image": true,
+          "text_preview": "¡POTENCIA TU INVESTIGACIÓN CON HERRAMIENTAS DIGITALES! ¿Quieres investigar de forma más ágil, organizada e innovadora? Participa en el curso “Herramientas digita… Ver más ¡POTENCIA TU INVESTIGACIÓN CON HERRAMIENTAS DIGITALES! ¿Quieres investigar de forma más ágil, organizada e innovadora? Participa en el curso “Herramientas digita… Ver más ipicom.umsa Contenido de IA · hace 3 días 3 días ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1179,12 +1180,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? UMSS - Universidad Mayor de San Simón 133 mil seguidores • 271 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pu'"
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1378,32 +1379,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 27,
-          "category": "deporte",
+          "score": 0,
+          "category": "gastronomia",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 33,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 43,
+          "category": "festival",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "27/10/2026 Cultura Womex 2026 reconoce la trayectoria de la cantante boliviana Luzmila Carpio “Mi madre me enseñó que la naturaleza habla, que debemos aprender a escucharla y así nació mi canto”. vista 26/10/2026 Cultura Halloween, la milenaria fiesta del terror que no asusta, se apodera de Cochabamba La tradicional fiesta de Halloween se impone en la semana 44 del año con diferentes actividades y"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 21,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
         }
       ],
       "error": null
@@ -1503,8 +1504,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
-      "events": 39,
+      "raw_items": 40,
+      "events": 40,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1571,8 +1572,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 65,
-      "events": 65,
+      "raw_items": 60,
+      "events": 60,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1723,8 +1724,8 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 3,
-      "events": 2,
+      "raw_items": 2,
+      "events": 1,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1759,7 +1760,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "𝗦𝗨𝗖𝗥𝗘 𝗔𝗟 𝗠𝗨𝗡𝗗𝗢: 𝗟𝗔 𝗖𝗔𝗣𝗜𝗧𝗔𝗟 𝗦𝗘 𝗦𝗨𝗠𝗔 𝗔 𝗟𝗔 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗔 «𝗔𝗟𝗜𝗔𝗡𝗭𝗔 𝗜𝗕𝗘𝗥𝗢𝗔𝗠𝗘́𝗥𝗜𝗖𝗔 𝟱𝟬𝟬+» 𝗣𝗔𝗥𝗔 𝗜𝗠𝗣𝗨𝗟𝗦𝗔𝗥 𝗦𝗨 𝗗𝗘𝗦𝗔𝗥𝗥𝗢𝗟𝗟𝗢 𝗬 𝗣𝗔𝗧𝗥𝗜𝗠𝗢𝗡𝗜𝗢 hace 6 días Noticias 292 En el marco del II Encuentro de Ciudades Iberoamericanas, Sucre consolida un paso decisivo en su proyección internacional al adherirse oficialmente a la «Alianza Iberoamérica 500+», una red estratégica respaldada por la SEGIB, la UCCI y el Banco de Desarr"
+          "text_preview": "ALCALDIA DE SUCRE SE ADHIERE AL MOVIMIENTO DE MUNICIPIOS SALUDABLES DE LAS AMÉRICAS hace 5 horas Noticias 95 La alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, sostuvo una reunión de coordinación con el presidente del Concejo Municipal, Juan Pablo Cervantes; el concejal Alex Ayllón y la concejal Sixta Flores, para evaluar las posibilidades de cooperación técnica de la Organización Panamericana de "
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
