@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-28T01:44:49-04:00",
+  "generated_at": "2026-10-28T08:56:35-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 98,
@@ -238,12 +238,12 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 26
+        "count": 25
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 68
+        "count": 69
       }
     ],
     "media": [
@@ -514,7 +514,6 @@
       "evt_ab2d744f1fbd8e",
       "evt_48c45c2c902fde",
       "evt_9ea8741680468c",
-      "evt_cab71456af6bc1",
       "evt_b97f0ee05c975b"
     ]
   },
@@ -533,7 +532,7 @@
       "events_with_image": 34,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
       "events_total": 35,
@@ -541,7 +540,7 @@
       "events_with_image": 12,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Chuquisaca": {
       "events_total": 13,
@@ -581,7 +580,7 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 0
     },
     "Pando": {
       "events_total": 0,
@@ -4832,9 +4831,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 300.0,
-      "currency": "BOB",
-      "price_label": "Bs 300",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -4844,8 +4843,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },

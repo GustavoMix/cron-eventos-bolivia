@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T01:44:49-04:00",
+  "generated_at": "2026-10-28T08:56:35-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_centro_cultura_scz",
+      "fb_espacio_patino_lapaz",
       "fb_festivales_eventos",
       "fb_gam_cbba",
       "fb_gob_cbba",
@@ -18,8 +18,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 145.2,
-    "horas_maximo_sin_datos": 1654.6
+    "horas_promedio_sin_datos": 150.5,
+    "horas_maximo_sin_datos": 1661.8
   },
   "sources": [
     {
@@ -88,7 +88,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Festivales & Eventos Bolivia 120 mil seguidores • 248 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deber'"
     },
     {
       "id": "fb_fexpocruz",
@@ -882,12 +882,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Patiño La Paz 41 mil seguidores • 55 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un'"
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1068,13 +1068,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6OEwQof34e4Q7kNvwF7DUDY&_nc_oc=Adrnbd1xKz84anKd2m-R1wFtSdAPzPkO-EuLlz4G97Cnj-V76mxOdQUGQQ-WdQmIToo&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=GKFbCoOiSsql7p6dqlHanw&_nc_ss=7f289&oh=00_AQQRzVYOX5ZBUQJHVClyfnHRBIJ0YLrexkBjLSZISVAMnA&oe=6AE7BE6F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Centro de la Cultura Plurinacional Santa Cruz 37 mil seguidores • 366 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este mom'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02DAGMnnNLNuZ9xhWRy8qchH9J9zGsnvQZgCukov9AZfUgPnitETGM5xqHduVxqYU7l?__cft__[0]=AZgb353vQNuQFOvFmSWjxTiXUOcKRabpGC9qFKOvLdA_87OxvYW8WRVZyJtynejVVqkYmSpcqtbj6EB4mu9z-Dt9rqEkalj0JMNH1IiGyDWTXBOk5YdBL4uZlcxR93EfDmZmHcAZaZWbcTjwISaS47CP8Srntxx8KFDKO_WIGIoABfrrGziH6PMRfzk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CCP I ¡Feliz Día Internacional de las Bibliotecas!… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1170,30 +1179,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/802121447_1509917531172107_3755553418203842592_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S9aPeAM3Q0IQ7kNvwFfMwFA&_nc_oc=AdounGVvj5CNMxiuWLs0M7B-WrIPC_9LHQRvB2MHxxMrwPtaIOPq-hiJXtJjs8leM68&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=2N8qmM9872whi8KCm5wGKg&_nc_ss=7f289&oh=00_AQSsnDb4xjJVdujBclDeITKpCSDOgxNWwLlM7QIrZn1UbA&oe=6AE7741C",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid036qD5HAAYrZvMUar7KC9nv5oq4GjchELFhY9BEKiySZ74UyWkBtoPUbtyYDrEL8hMl?__cft__[0]=AZilNUWpujhVLQF3hybH_dlXvkTrjuKz6iKz5MDvw8X9YhoBOkTi7HNno8qxswufjRiv1Y1hp5_RZlP9rbJnSgB_wjzpCSqpasQSjzYNwuGd0UShcFWRV2zxeaLo5q63Umf3-vNOAlQe6rc2Fpw9Pa6PkE4K_LMKKNu9GZ2D_74bmGUyqz063_KBEPo&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝐂𝐎𝐍𝐒𝐓𝐑𝐔𝐘𝐄𝐍𝐃𝐎 𝐅𝐔𝐓𝐔𝐑𝐎 𝐘 𝐔𝐍𝐈𝐃𝐎𝐒 𝐏𝐎𝐑 𝐍𝐔𝐄𝐒𝐓𝐑𝐀 𝐒𝐎𝐂𝐈𝐄𝐃𝐀𝐃 Hoy, el Rector de la Universidad Mayor de … Ver más 𝐂𝐎𝐍𝐒𝐓𝐑𝐔𝐘𝐄𝐍𝐃𝐎 𝐅𝐔𝐓𝐔𝐑𝐎 𝐘 𝐔𝐍𝐈𝐃𝐎𝐒 𝐏𝐎𝐑 𝐍𝐔𝐄𝐒𝐓𝐑𝐀 𝐒𝐎𝐂𝐈𝐄𝐃𝐀𝐃 Hoy, el Rector de la Universidad Mayor de … Ver más Excelente gestión del Rector Boris Calancha Navia. Este tipo de alianzas demuestran el compromiso de la UMSS con el desarrollo de Cochabamba y el bienestar de sus estudiantes. Ver más comentarios "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid036qD5HAAYrZvMUar7KC9nv5oq4GjchELFhY9BEKiySZ74UyWkBtoPUbtyYDrEL8hMl?comment_id=2666372660484657&__cft__[0]=AZilNUWpujhVLQF3hybH_dlXvkTrjuKz6iKz5MDvw8X9YhoBOkTi7HNno8qxswufjRiv1Y1hp5_RZlP9rbJnSgB_wjzpCSqpasQSjzYNwuGd0UShcFWRV2zxeaLo5q63Umf3-vNOAlQe6rc2Fpw9Pa6PkE4K_LMKKNu9GZ2D_74bmGUyqz063_KBEPo&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Excelente gestión del Rector Boris Calancha Navia. Este tipo de alianzas demuestran el compromiso de la UMSS con el desarrollo de Cochabamba y el bienestar de sus estudiantes. Rodrigo G. Mostacedo"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1393,14 +1385,14 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 0,
-          "category": "deporte",
+          "category": "gastronomia",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 2,
+          "score": 0,
           "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1408,7 +1400,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 8,
+          "score": 5,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1629,38 +1621,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
-      "status": "ok",
-      "raw_items": 6,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 6,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 36,
-          "category": "turismo",
-          "url": "https://beni.gob.bo/category/cultura/",
-          "has_image": true,
-          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 08/10/2026 GOBERNADOR DEL BENI PARTICIPA DE LOS 86 AÑOS DE PERÚ RÍO APERE Y COMPARTE CON LA FAMILIA GANADERA El Gobernador del Beni, Jesús Egüez Rivero, llegó hasta la Comunidad de Perú Río Apere, en el munici... Leer más → Cultura - 01/10/2026 GOBERNACIÓN DEL BENI FORTALECE LA CONCIENCIA AMBIENTAL CON LA SIEMBRA DE PLANTINES POR "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "infantil",
-          "url": "https://beni.gob.bo/unidades-desconcentradas",
-          "has_image": true,
-          "text_preview": "Nivel Operativo Desconcentrado Unidades Desconcentradas Consulte los servicios descentralizados, centros de salud metropolitana y unidades operativas que ejecutan funciones especializadas en el departamento del Beni. Ver Todas Salud y Hospitales Desarrollo y Deporte Productivo y Campo SDA Servicio de Desarrollo Agrario Fomenta el desarrollo agropecuario integral en el departamento mediante transfe"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://beni.gob.bo/departamento/agricultura",
-          "has_image": true,
-          "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Server error '522 <none>' for url 'https://beni.gob.bo/category/cultura/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/522"
     },
     {
       "id": "web_potosi_municipio",
@@ -1776,7 +1743,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDIA DE SUCRE SE ADHIERE AL MOVIMIENTO DE MUNICIPIOS SALUDABLES DE LAS AMÉRICAS hace 12 horas Noticias 169 La alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, sostuvo una reunión de coordinación con el presidente del Concejo Municipal, Juan Pablo Cervantes; el concejal Alex Ayllón y la concejal Sixta Flores, para evaluar las posibilidades de cooperación técnica de la Organización Panamericana d"
+          "text_preview": "ALCALDIA DE SUCRE SE ADHIERE AL MOVIMIENTO DE MUNICIPIOS SALUDABLES DE LAS AMÉRICAS hace 20 horas Noticias 190 La alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, sostuvo una reunión de coordinación con el presidente del Concejo Municipal, Juan Pablo Cervantes; el concejal Alex Ayllón y la concejal Sixta Flores, para evaluar las posibilidades de cooperación técnica de la Organización Panamericana d"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
