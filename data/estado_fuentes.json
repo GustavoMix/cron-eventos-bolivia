@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:16:44-04:00",
+  "generated_at": "2026-10-28T01:44:49-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,17 +9,17 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_centro_cultura_scz",
+      "fb_festivales_eventos",
       "fb_gam_cbba",
       "fb_gob_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_teatro_aire_libre",
-      "fb_umss"
+      "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 140.2,
-    "horas_maximo_sin_datos": 1647.1
+    "horas_promedio_sin_datos": 145.2,
+    "horas_maximo_sin_datos": 1654.6
   },
   "sources": [
     {
@@ -83,12 +83,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_fexpocruz",
@@ -1136,22 +1136,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=K29KmZZ1QisQ7kNvwHekAQI&_nc_oc=AdqUFyxz2UZkc0MF0Y7NAI8oknAhJSOyVPvhOx_Hk7D5SMKu8lspYFOnJKZ421ouHPc&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=cRCEb1a1KoGC2-e8y-8lLg&_nc_ss=7f289&oh=00_AQRS9v8sPEKpnyy3uKhT9y7ow69mallAegLpp0Lb-qbBTw&oe=6AE6E525",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "taller",
-          "url": "https://es-la.facebook.com/login",
-          "has_image": true,
-          "text_preview": "¡POTENCIA TU INVESTIGACIÓN CON HERRAMIENTAS DIGITALES! ¿Quieres investigar de forma más ágil, organizada e innovadora? Participa en el curso “Herramientas digita… Ver más ¡POTENCIA TU INVESTIGACIÓN CON HERRAMIENTAS DIGITALES! ¿Quieres investigar de forma más ágil, organizada e innovadora? Participa en el curso “Herramientas digita… Ver más ipicom.umsa Contenido de IA · hace 3 días 3 días ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1179,13 +1170,30 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/802121447_1509917531172107_3755553418203842592_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S9aPeAM3Q0IQ7kNvwFfMwFA&_nc_oc=AdounGVvj5CNMxiuWLs0M7B-WrIPC_9LHQRvB2MHxxMrwPtaIOPq-hiJXtJjs8leM68&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=2N8qmM9872whi8KCm5wGKg&_nc_ss=7f289&oh=00_AQSsnDb4xjJVdujBclDeITKpCSDOgxNWwLlM7QIrZn1UbA&oe=6AE7741C",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? UMSS - Universidad Mayor de San Simón 133 mil seguidores • 271 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pu'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid036qD5HAAYrZvMUar7KC9nv5oq4GjchELFhY9BEKiySZ74UyWkBtoPUbtyYDrEL8hMl?__cft__[0]=AZilNUWpujhVLQF3hybH_dlXvkTrjuKz6iKz5MDvw8X9YhoBOkTi7HNno8qxswufjRiv1Y1hp5_RZlP9rbJnSgB_wjzpCSqpasQSjzYNwuGd0UShcFWRV2zxeaLo5q63Umf3-vNOAlQe6rc2Fpw9Pa6PkE4K_LMKKNu9GZ2D_74bmGUyqz063_KBEPo&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐂𝐎𝐍𝐒𝐓𝐑𝐔𝐘𝐄𝐍𝐃𝐎 𝐅𝐔𝐓𝐔𝐑𝐎 𝐘 𝐔𝐍𝐈𝐃𝐎𝐒 𝐏𝐎𝐑 𝐍𝐔𝐄𝐒𝐓𝐑𝐀 𝐒𝐎𝐂𝐈𝐄𝐃𝐀𝐃 Hoy, el Rector de la Universidad Mayor de … Ver más 𝐂𝐎𝐍𝐒𝐓𝐑𝐔𝐘𝐄𝐍𝐃𝐎 𝐅𝐔𝐓𝐔𝐑𝐎 𝐘 𝐔𝐍𝐈𝐃𝐎𝐒 𝐏𝐎𝐑 𝐍𝐔𝐄𝐒𝐓𝐑𝐀 𝐒𝐎𝐂𝐈𝐄𝐃𝐀𝐃 Hoy, el Rector de la Universidad Mayor de … Ver más Excelente gestión del Rector Boris Calancha Navia. Este tipo de alianzas demuestran el compromiso de la UMSS con el desarrollo de Cochabamba y el bienestar de sus estudiantes. Ver más comentarios "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid036qD5HAAYrZvMUar7KC9nv5oq4GjchELFhY9BEKiySZ74UyWkBtoPUbtyYDrEL8hMl?comment_id=2666372660484657&__cft__[0]=AZilNUWpujhVLQF3hybH_dlXvkTrjuKz6iKz5MDvw8X9YhoBOkTi7HNno8qxswufjRiv1Y1hp5_RZlP9rbJnSgB_wjzpCSqpasQSjzYNwuGd0UShcFWRV2zxeaLo5q63Umf3-vNOAlQe6rc2Fpw9Pa6PkE4K_LMKKNu9GZ2D_74bmGUyqz063_KBEPo&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Excelente gestión del Rector Boris Calancha Navia. Este tipo de alianzas demuestran el compromiso de la UMSS con el desarrollo de Cochabamba y el bienestar de sus estudiantes. Rodrigo G. Mostacedo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1385,14 +1393,14 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 0,
-          "category": "gastronomia",
+          "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 43,
+          "score": 2,
           "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1400,7 +1408,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 21,
+          "score": 8,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1462,9 +1470,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 35,
+      "raw_items": 34,
       "events": 0,
-      "rejected": 35,
+      "rejected": 34,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1478,7 +1486,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/1871c4ca-1b46-4dcd-a00c-bbdb732db18e",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/e910ff34-fa86-4b4e-82a8-a362cad41d5d",
           "has_image": true,
           "text_preview": ""
         },
@@ -1572,8 +1580,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 60,
-      "events": 60,
+      "raw_items": 67,
+      "events": 67,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1725,8 +1733,8 @@
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
       "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
+      "events": 0,
+      "rejected": 2,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1735,6 +1743,14 @@
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
           "text_preview": "Becas Google Career Launchpad 2026 pago qr Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitid"
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "feria",
+          "url": "https://www.uto.edu.bo/la-carrera-de-derecho-san-agustin-orienta-a-la-ciudadania-sobre-contratacion-civil-en-una-feria-academica-especializada/",
+          "has_image": true,
+          "text_preview": "Estudiantes de Derecho Civil III socializaron normativas, garantías y tipos de contratos vigentes en el ordenamiento jurídico boliviano Oruro, 27 de octubre de 2026. — Con el objetivo de articular la enseñanza dogmática con la orientación directa a la sociedad, la Carrera de Derecho “San Agustín” , dependiente de la Facultad de Derecho, Ciencias Políticas y Sociales (FDCPS) de la Universidad Técni"
         }
       ],
       "error": null
@@ -1760,7 +1776,7 @@
           "category": "conferencia",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDIA DE SUCRE SE ADHIERE AL MOVIMIENTO DE MUNICIPIOS SALUDABLES DE LAS AMÉRICAS hace 5 horas Noticias 95 La alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, sostuvo una reunión de coordinación con el presidente del Concejo Municipal, Juan Pablo Cervantes; el concejal Alex Ayllón y la concejal Sixta Flores, para evaluar las posibilidades de cooperación técnica de la Organización Panamericana de "
+          "text_preview": "ALCALDIA DE SUCRE SE ADHIERE AL MOVIMIENTO DE MUNICIPIOS SALUDABLES DE LAS AMÉRICAS hace 12 horas Noticias 169 La alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, sostuvo una reunión de coordinación con el presidente del Concejo Municipal, Juan Pablo Cervantes; el concejal Alex Ayllón y la concejal Sixta Flores, para evaluar las posibilidades de cooperación técnica de la Organización Panamericana d"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
