@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:56:35-04:00",
+  "generated_at": "2026-10-28T16:19:17-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,6 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_espacio_patino_lapaz",
       "fb_festivales_eventos",
       "fb_gam_cbba",
       "fb_gob_cbba",
@@ -18,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 150.5,
-    "horas_maximo_sin_datos": 1661.8
+    "horas_promedio_sin_datos": 154.1,
+    "horas_maximo_sin_datos": 1669.1
   },
   "sources": [
     {
@@ -881,13 +880,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eXRIzx0E2k0Q7kNvwFxlh6x&_nc_oc=AdpoqnqMcBnXlPgw2NxKOgp6J-sugREUDbhcBg7LgftqKVPpfElbkv-REgITbBY8pcY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=iqUrrBKWVKFNQzLR9NAwZw&_nc_ss=7f289&oh=00_AQSQPZUVwtgtE02v0C7hvXg8-OGGPFzGKAMPsFKMBoQH9g&oe=6AE830A7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Patiño La Paz 41 mil seguidores • 55 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02cc3LXSDKM5bwmMUirNHGuoP4NQHCxPhd646mfBKDRHn2QdUMUUJPsfaAYCft6kkml?__cft__[0]=AZjT1JEyhVm76Z1vhSi86TETo_nSeAOKcGcPo_hYcVuEwo5zlxvCQJeVaKCCh7efwKo8qlvgoGvi0fIMZJaKNSxTkCkJXROiOpD_qf1H4xiG4IsPrHA1zW3NnRWgPI9NwxbAv6HG9hcURXpzYFeP2itiBk4NH2CKoWt2PeT27gpAhEY1lLLFTcAh-JI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Educación | ¡Más tiempo para dar el primer paso hacia tu futuro profesional!… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1000,13 +1008,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SzUOLqH4MvgQ7kNvwFmgOvB&_nc_oc=AdoBnSFmzMOhm-T9M6mzuicHkDd8-5k82RHh4WEL3q8L7-kXcW3HBfpt0i1I33WhySc&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=HGwWydTgbI-YG1K_AnI_bA&_nc_ss=7f289&oh=00_AQSuEGM3DWCZyNTYx8Z2UA4nFa1hCQ1NzqBVYhVGLXijKw&oe=6AE829F4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid06mPXFkBs4ptHkMKPCouNbuSfCgyqcYeb7FC41vt8CvBGfTmhRcTiHmAvkwBAoE2Wl?__cft__[0]=AZj0dtF1oVtQk__ZrmiOfA3T3rTS5pQosE8qwQxArC1vhMqnAtPLnVRyzyheuFu-QH4dFu9o9QnGbWG6clELhsiVN24P0kMLwQzYl3y1cZY4TdF-WY8QMu7X_5r53wwBtTxuRVnxqO-wX_cO7y0kvWw88DdpOG7UJbqqzKpcCJl8FPYN_2z8tZcfZZM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Educación | ¡Más tiempo para dar el primer paso hacia tu futuro profesional!… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1068,22 +1085,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6OEwQof34e4Q7kNvwF7DUDY&_nc_oc=Adrnbd1xKz84anKd2m-R1wFtSdAPzPkO-EuLlz4G97Cnj-V76mxOdQUGQQ-WdQmIToo&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=GKFbCoOiSsql7p6dqlHanw&_nc_ss=7f289&oh=00_AQQRzVYOX5ZBUQJHVClyfnHRBIJ0YLrexkBjLSZISVAMnA&oe=6AE7BE6F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02DAGMnnNLNuZ9xhWRy8qchH9J9zGsnvQZgCukov9AZfUgPnitETGM5xqHduVxqYU7l?__cft__[0]=AZgb353vQNuQFOvFmSWjxTiXUOcKRabpGC9qFKOvLdA_87OxvYW8WRVZyJtynejVVqkYmSpcqtbj6EB4mu9z-Dt9rqEkalj0JMNH1IiGyDWTXBOk5YdBL4uZlcxR93EfDmZmHcAZaZWbcTjwISaS47CP8Srntxx8KFDKO_WIGIoABfrrGziH6PMRfzk&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CCP I ¡Feliz Día Internacional de las Bibliotecas!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1385,14 +1393,14 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 0,
-          "category": "gastronomia",
+          "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 12,
           "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1400,7 +1408,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 5,
+          "score": 18,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1462,9 +1470,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 34,
+      "raw_items": 32,
       "events": 0,
-      "rejected": 34,
+      "rejected": 32,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1572,8 +1580,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 67,
-      "events": 67,
+      "raw_items": 65,
+      "events": 65,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1621,13 +1629,38 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
+      "status": "ok",
+      "raw_items": 6,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Server error '522 <none>' for url 'https://beni.gob.bo/category/cultura/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/522"
+      "rejected": 6,
+      "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 36,
+          "category": "turismo",
+          "url": "https://beni.gob.bo/category/cultura/",
+          "has_image": true,
+          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 08/10/2026 GOBERNADOR DEL BENI PARTICIPA DE LOS 86 AÑOS DE PERÚ RÍO APERE Y COMPARTE CON LA FAMILIA GANADERA El Gobernador del Beni, Jesús Egüez Rivero, llegó hasta la Comunidad de Perú Río Apere, en el munici... Leer más → Cultura - 01/10/2026 GOBERNACIÓN DEL BENI FORTALECE LA CONCIENCIA AMBIENTAL CON LA SIEMBRA DE PLANTINES POR "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "infantil",
+          "url": "https://beni.gob.bo/unidades-desconcentradas",
+          "has_image": true,
+          "text_preview": "Nivel Operativo Desconcentrado Unidades Desconcentradas Consulte los servicios descentralizados, centros de salud metropolitana y unidades operativas que ejecutan funciones especializadas en el departamento del Beni. Ver Todas Salud y Hospitales Desarrollo y Deporte Productivo y Campo SDA Servicio de Desarrollo Agrario Fomenta el desarrollo agropecuario integral en el departamento mediante transfe"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://beni.gob.bo/departamento/agricultura",
+          "has_image": true,
+          "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_potosi_municipio",
@@ -1740,10 +1773,10 @@
         {
           "reason": "relevancia_insuficiente",
           "score": 50,
-          "category": "conferencia",
+          "category": "festival",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDIA DE SUCRE SE ADHIERE AL MOVIMIENTO DE MUNICIPIOS SALUDABLES DE LAS AMÉRICAS hace 20 horas Noticias 190 La alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, sostuvo una reunión de coordinación con el presidente del Concejo Municipal, Juan Pablo Cervantes; el concejal Alex Ayllón y la concejal Sixta Flores, para evaluar las posibilidades de cooperación técnica de la Organización Panamericana d"
+          "text_preview": "ALCALDÍA DE SUCRE INSPECCIONA AVANCES FINALES PARA LA FESTIVIDAD DE TODOS SANTOS hace 3 horas Noticias 96 El operativo de control, seguridad y prevención contempla puntos de control, protección de menores, videovigilancia y mejoras en la infraestructura del Cementerio General para garantizar una visita segura y ordenada. La alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, realizó una inspección al "
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
