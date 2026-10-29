@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:19:17-04:00",
+  "generated_at": "2026-10-28T20:58:41-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,17 +8,17 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_festivales_eventos",
       "fb_gam_cbba",
       "fb_gob_cbba",
+      "fb_goethe_lapaz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 154.1,
-    "horas_maximo_sin_datos": 1669.1
+    "horas_promedio_sin_datos": 155.4,
+    "horas_maximo_sin_datos": 1673.8
   },
   "sources": [
     {
@@ -81,13 +81,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_53k1T0BqfoQ7kNvwF67_3G&_nc_oc=AdqFg4VF31s9o0Tt_i-DmnYtqDHjuFhBjC7FEQjfgsN857S1BVp2T4OnGwsgvLaI8NI&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=qOovXqS8YYwz8X0-I-80AA&_nc_ss=7f289&oh=00_AQStwE001xn5j0CE08yOasEJXoZsE5cTlUSPGzDIzknm-Q&oe=6AE878C3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Festivales & Eventos Bolivia 120 mil seguidores • 248 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deber'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/videos/desde-argentina-marioluis-llegar%C3%A1-en-concierto2026informaciones-798-56-469-cocha/1436355061207045/",
+          "has_image": true,
+          "text_preview": "Desde Argentina🇦🇷 #MarioLuis 😍llegará en Concierto🇧🇴2026💃🏻🕺🏻🎶 Informaciones 798-56-469 📲 #cochabamba #lapaz_bolivia🇧🇴 #oruro_bolivia🇧🇴 #santacruzdelasierra🇳🇬 #reel #fyp #videoviral #argentina Desde Argentina🇦🇷 #MarioLuis 😍llegará en Concierto🇧🇴2026💃🏻🕺🏻🎶 Informaciones 798-56-469 📲 #cochabamba #lapaz_bolivia🇧🇴 #oruro_bolivia🇧🇴..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -138,7 +147,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Can'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -274,7 +283,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. ODQ-VRS-ITEG Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
     },
     {
       "id": "fb_opinion",
@@ -863,13 +872,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/791246068_1549468440554702_4752739097434063911_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LUxsFZERsOkQ7kNvwEhJaBL&_nc_oc=AdqA2B-Wm9HdGByputo8lQl9-2M6BFPotdmvg9IbvInANIISoL6S7x_8-8nTOaWoChc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=FWzdrl357UYwc_0Af5hpTg&_nc_ss=7f289&oh=00_AQStOxtC1T2NvOV0VyyRtTrik3dsk_B7IUXWP-fn8rCuMA&oe=6AE855DD",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/feicobol/posts/pfbid02CfYU7UscDWWiS8vgWNS1QopfQRYNdePmpEttwDouKJ7cdJAjoaQBFhKHPUv6LMWUl?__cft__[0]=AZg4szOzDKIixZhK9C0OvmIme6GSIeyki6VzTiyQcVIaFpd1mPS9jYRsZR0a9AG1DdHZo31wCHwotUrYtlzz4enDfwZwg11alX2BfljTUWIhTp6oWbbX8zZo7jpNGfL5laOoCQu0dSzCCFxHrNke49Ut3KgisKKYr2nja45E25wQAYL3nW3K2f5yCYc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡@caffinos se une a MISKI 2026! L… Ver más ¡@caffinos se une a MISKI 2026! L… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -880,22 +898,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eXRIzx0E2k0Q7kNvwFxlh6x&_nc_oc=AdpoqnqMcBnXlPgw2NxKOgp6J-sugREUDbhcBg7LgftqKVPpfElbkv-REgITbBY8pcY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=iqUrrBKWVKFNQzLR9NAwZw&_nc_ss=7f289&oh=00_AQSQPZUVwtgtE02v0C7hvXg8-OGGPFzGKAMPsFKMBoQH9g&oe=6AE830A7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02cc3LXSDKM5bwmMUirNHGuoP4NQHCxPhd646mfBKDRHn2QdUMUUJPsfaAYCft6kkml?__cft__[0]=AZjT1JEyhVm76Z1vhSi86TETo_nSeAOKcGcPo_hYcVuEwo5zlxvCQJeVaKCCh7efwKo8qlvgoGvi0fIMZJaKNSxTkCkJXROiOpD_qf1H4xiG4IsPrHA1zW3NnRWgPI9NwxbAv6HG9hcURXpzYFeP2itiBk4NH2CKoWt2PeT27gpAhEY1lLLFTcAh-JI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Educación | ¡Más tiempo para dar el primer paso hacia tu futuro profesional!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1008,22 +1017,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SzUOLqH4MvgQ7kNvwFmgOvB&_nc_oc=AdoBnSFmzMOhm-T9M6mzuicHkDd8-5k82RHh4WEL3q8L7-kXcW3HBfpt0i1I33WhySc&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=HGwWydTgbI-YG1K_AnI_bA&_nc_ss=7f289&oh=00_AQSuEGM3DWCZyNTYx8Z2UA4nFa1hCQ1NzqBVYhVGLXijKw&oe=6AE829F4",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid06mPXFkBs4ptHkMKPCouNbuSfCgyqcYeb7FC41vt8CvBGfTmhRcTiHmAvkwBAoE2Wl?__cft__[0]=AZj0dtF1oVtQk__ZrmiOfA3T3rTS5pQosE8qwQxArC1vhMqnAtPLnVRyzyheuFu-QH4dFu9o9QnGbWG6clELhsiVN24P0kMLwQzYl3y1cZY4TdF-WY8QMu7X_5r53wwBtTxuRVnxqO-wX_cO7y0kvWw88DdpOG7UJbqqzKpcCJl8FPYN_2z8tZcfZZM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Educación | ¡Más tiempo para dar el primer paso hacia tu futuro profesional!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1035,12 +1035,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Goethe-Institut La Paz 31 mil seguidores • 185 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un'"
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1580,8 +1580,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 65,
-      "events": 65,
+      "raw_items": 61,
+      "events": 61,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1690,13 +1690,13 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 6,
+      "raw_items": 7,
       "events": 0,
-      "rejected": 6,
+      "rejected": 7,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
+          "score": 36,
           "category": "turismo",
           "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
           "has_image": false,
@@ -1776,7 +1776,7 @@
           "category": "festival",
           "url": "https://sucre.bo/noticias/",
           "has_image": true,
-          "text_preview": "ALCALDÍA DE SUCRE INSPECCIONA AVANCES FINALES PARA LA FESTIVIDAD DE TODOS SANTOS hace 3 horas Noticias 96 El operativo de control, seguridad y prevención contempla puntos de control, protección de menores, videovigilancia y mejoras en la infraestructura del Cementerio General para garantizar una visita segura y ordenada. La alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, realizó una inspección al "
+          "text_preview": "ALCALDÍA DE SUCRE INSPECCIONA AVANCES FINALES PARA LA FESTIVIDAD DE TODOS SANTOS hace 8 horas Noticias 162 El operativo de control, seguridad y prevención contempla puntos de control, protección de menores, videovigilancia y mejoras en la infraestructura del Cementerio General para garantizar una visita segura y ordenada. La alcaldesa de Sucre, Dra. Fátima Tardío Quiroga, realizó una inspección al"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
