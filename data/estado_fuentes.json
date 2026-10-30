@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:31:18-04:00",
+  "generated_at": "2026-10-29T21:02:28-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -18,8 +18,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 168.9,
-    "horas_maximo_sin_datos": 1691.3
+    "horas_promedio_sin_datos": 175.4,
+    "horas_maximo_sin_datos": 1697.9
   },
   "sources": [
     {
@@ -219,12 +219,12 @@
       "region": "Cochabamba",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobernación de Cochabamba 105 mil seguidores • 234 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
     },
     {
       "id": "fb_gamscs",
@@ -609,22 +609,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4_nYkaLs21QQ7kNvwEvFcTM&_nc_oc=AdqQFmzEy82Xfxi3CmaDpFTnyOufiyZUeWjy8_1JGjJYrzd79aJNHYUtTJm9iCvcmMc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=TA8AVurulfPDzk_De-Vi_A&_nc_ss=7f289&oh=00_AQRHqLeWM9YsiKICFmjrcD14cn8PeZ-KMUydCDw7-89jKQ&oe=6AE97173",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 36,
-          "category": "concierto",
-          "url": "https://www.facebook.com/reel/2338707233597939/",
-          "has_image": true,
-          "text_preview": "🔴 EN VIVO | Las dos caras de la moneda Acompáñanos en la inauguración de “Las dos caras de la moneda. Cuando el dinero se convierte en cultura”, una exposición del Museo Nacional de Etnografía y... 🔴 EN VIVO | Las dos caras de la moneda Acompáñanos en la inauguración de “Las dos caras de la moneda. Cuando el dinero se convierte en cultura”, una... EN VIVO | Las dos caras de la moneda… ¡Estamos en "
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -1379,12 +1370,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
+          "score": 0,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1392,19 +1383,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
-          "category": "festival",
+          "score": 30,
+          "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "27/10/2026 Cultura Womex 2026 reconoce la trayectoria de la cantante boliviana Luzmila Carpio “Mi madre me enseñó que la naturaleza habla, que debemos aprender a escucharla y así nació mi canto”. vista 26/10/2026 Cultura Halloween, la milenaria fiesta del terror que no asusta, se apodera de Cochabamba La tradicional fiesta de Halloween se impone en la semana 44 del año con diferentes actividades y"
+          "text_preview": "29/10/2026 Cultura Desfile de carrozas fúnebres y el paseo de las almas avivan Todos los Santos y Halloween La Alcaldía de Cochabamba se pone a tono con la festividad de Todos Santos y Halloween organizando un par de actividades alusivas a la fecha. vista 27/10/2026 Cultura Womex 2026 reconoce la trayectoria de la cantante boliviana Luzmila Carpio “Mi madre me enseñó que la naturaleza habla, que d"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 10,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "score": 24,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
         }
       ],
       "error": null
@@ -1462,9 +1453,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 31,
+      "raw_items": 32,
       "events": 0,
-      "rejected": 31,
+      "rejected": 32,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1504,8 +1495,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 30,
-      "events": 30,
+      "raw_items": 29,
+      "events": 29,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1538,8 +1529,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1572,8 +1563,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 52,
-      "events": 52,
+      "raw_items": 44,
+      "events": 44,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1606,8 +1597,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
