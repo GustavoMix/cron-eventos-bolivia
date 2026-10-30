@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T06:03:02-04:00",
+  "generated_at": "2026-10-30T14:03:41-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,16 +10,14 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_gam_cbba",
       "fb_gob_cbba",
-      "fb_goethe_lapaz",
       "fb_lostiempos",
-      "fb_manzana1",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 182.6,
-    "horas_maximo_sin_datos": 1706.9
+    "horas_promedio_sin_datos": 183.2,
+    "horas_maximo_sin_datos": 1714.9
   },
   "sources": [
     {
@@ -847,22 +845,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Kw8xrCU2p5cQ7kNvwGtXddF&_nc_oc=Adooey_zGvJUYHvcpi0mkfS7ty_O9AWuP_sl4-beH2rScioWqZANVjQsW0G-llFJz_s&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=nIRtmxegYIcxYpo9vlJmmA&_nc_ss=7f289&oh=00_AQTM7uFJk02T554kig9ZQAi2Rz_uFcRgGMdq6mkX73IVXw&oe=6AEA29A1",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/feriafipaz/posts/inauguraci%C3%B3n-fipaz-25-a%C3%B1os-/1560747516085767/",
-          "has_image": true,
-          "text_preview": "INAUGURACIÓN FIPAZ 25 AÑOS ¡FIPAZ EMPIEZA CON TODO! ¡La espera terminó! Ven y descubre todas las sorpresas, experiencias y novedades que tenemos preparadas para ti en esta legendaria edici… Ver más Tenemos problemas para reproducir este video. Más información FIPAZ transmitió en vivo. hace 9 horas 9 h ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -958,13 +947,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=fuqbyE-4j4kQ7kNvwFBURW9&_nc_oc=AdqPoiJCUYw-S70dfyUl5WCPx3BDzEVXfHm7gId_qLU0lxjrkHOEf0yvLAd1IQqf_a4&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=UCRgujVla6ZD47sm3S0a5w&_nc_ss=7f289&oh=00_AQTjGPXY45Z7DuakC07s4xmkrxk_n-l5m5z2GF29zzqEaw&oe=6AEA9B57",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Manzana 1 Espacio de Arte 24 mil seguidores • 77 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a '"
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1026,13 +1015,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vpBpQ5vMsCcQ7kNvwENmPI5&_nc_oc=AdojW5WOleVCVSqyv4NFYX3uFnSLBIha7NqAGgvkNyApjVFhfmkDqL-2RkBf8qvgBfE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=zWQ-Tvk9eSKsNsOI-U_KFA&_nc_ss=7f289&oh=00_AQRVHn1rkLIN7mNkEqRmmd25i53qNBZlmmmxK7gFDnQlZg&oe=6AEA9E0F",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Goethe-Institut La Paz 31 mil seguidores • 185 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/videos/2690989638023218/?__cft__[0]=AZikN0M9dY_tUAoATzEaBHqaQO9TITyVy5u1NKjsvdOryQAyWVsmYqF9KuITgYjINA6dq1Uwuq1r2T0BzNJFoWLNf-4_tSTfIRN9vB4tcJmNrLLuIXZRu83jJf9ZzysbdzxCOSPCjxhqJl2EdxRwQkoAGhn41I8JFurZ4wu3ZNxnH2v09D3qfC6xRJ5bsZraoOQ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Mesa redonda La lengua aymara de Ernst W. Middendorf Ya, bueno. Tenemos problemas para reproducir este video. Más información Ver más comentarios Mauricio Molina Montes"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/goetheinstitut.lapaz/videos/2690989638023218/?comment_id=1801585154230860&__cft__[0]=AZikN0M9dY_tUAoATzEaBHqaQO9TITyVy5u1NKjsvdOryQAyWVsmYqF9KuITgYjINA6dq1Uwuq1r2T0BzNJFoWLNf-4_tSTfIRN9vB4tcJmNrLLuIXZRu83jJf9ZzysbdzxCOSPCjxhqJl2EdxRwQkoAGhn41I8JFurZ4wu3ZNxnH2v09D3qfC6xRJ5bsZraoOQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Mauricio Molina Montes Ya, bueno. 2 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1043,13 +1049,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6NuNOKasQ5gQ7kNvwGQiSR6&_nc_oc=Adog4N1wVulZ5fARIaW0POXSJnwCdGYkfhQp4uej48RAWYiexqFvcQfQFt4pCn1yLVI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=6Z5a-QF6BQTzwRORCauneQ&_nc_ss=7f289&oh=00_AQQVqJ00Ta9UXOubQXVGd_kHXFTMoUV4FPMod-7lt6c1RA&oe=6AEAB615",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02WgaM3HDDTu31bf35EQSF11TduRtm25t2W73v9JmGUYueDNWKpKnxR9pH1kVAqY7ml?__cft__[0]=AZhMnkH7spEOvF6pr3bap2wtff-6Xg8uaUFiTj7UoqNZ9LfbKMmGgqV1pap52hF3zNsW-bbThfeXybjvxBl3cBFTCL_K5-l-NFV0AxL4bqdx5grFmGaHHh_Izh6_BhxQ-gOAgXZez5affRPd0tRIrjnlvBh_nlfNBcJamHDMrooXaXQwUPoZFB0Atsc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Certifica tu nivel de francés con los diplomas oficiales DELF y DALF! Los diplomas DELF y DALF son certificaciones oficiales del Ministerio de Educación de Francia,… Ver más ¡Certifica tu nivel de francés con los diplomas oficiales DELF y DALF! Los diplomas DELF y DALF son certificaciones oficiales del Ministerio de Educación de Francia,… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1392,16 +1407,16 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 2,
-          "category": "festival",
+          "score": 12,
+          "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "29/10/2026 Cultura Desfile de carrozas fúnebres y el paseo de las almas avivan Todos los Santos y Halloween La Alcaldía de Cochabamba se pone a tono con la festividad de Todos Santos y Halloween organizando un par de actividades alusivas a la fecha. vista 27/10/2026 Cultura Womex 2026 reconoce la trayectoria de la cantante boliviana Luzmila Carpio “Mi madre me enseñó que la naturaleza habla, que d"
+          "text_preview": "30/10/2026 Cultura Traslado de escultura Diversidad y equilibrio genera debate Pese que existe resistencia en el autor y los artistas plásticos de Cochabamba, la decisión de trasladar la escultura Diversidad en equilibrio a otro sector de... vista 29/10/2026 Cultura Desfile de carrozas fúnebres y el paseo de las almas avivan Todos los Santos y Halloween La Alcaldía de Cochabamba se pone a tono con"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
-          "category": "deporte",
+          "score": 4,
+          "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
@@ -1462,9 +1477,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 29,
+      "raw_items": 40,
       "events": 0,
-      "rejected": 29,
+      "rejected": 40,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",

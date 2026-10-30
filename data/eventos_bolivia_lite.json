@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-30T06:03:02-04:00",
+  "generated_at": "2026-10-30T14:03:41-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 96,
+    "events_total": 97,
     "events_today": 13
   },
   "filters": {
@@ -98,6 +98,11 @@
         "count": 3
       },
       {
+        "key": "otro",
+        "label": "Otros",
+        "count": 2
+      },
+      {
         "key": "danza",
         "label": "Danza",
         "count": 2
@@ -105,11 +110,6 @@
       {
         "key": "turismo",
         "label": "Turismo y patrimonio",
-        "count": 1
-      },
-      {
-        "key": "otro",
-        "label": "Otros",
         "count": 1
       },
       {
@@ -132,7 +132,7 @@
       {
         "key": "Santa Cruz de la Sierra",
         "label": "Santa Cruz de la Sierra",
-        "count": 17
+        "count": 18
       },
       {
         "key": "Sucre",
@@ -179,7 +179,7 @@
       {
         "key": "Santa Cruz",
         "label": "Santa Cruz",
-        "count": 16
+        "count": 17
       },
       {
         "key": "Bolivia",
@@ -211,22 +211,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 23
+        "count": 24
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 29
+        "count": 30
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 52
+        "count": 53
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 96
+        "count": 97
       }
     ],
     "price": [
@@ -238,7 +238,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 26
+        "count": 27
       },
       {
         "key": "por_confirmar",
@@ -250,7 +250,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 85
+        "count": 86
       },
       {
         "key": "con_video",
@@ -397,14 +397,14 @@
         "count": 12
       },
       {
-        "key": "ticketera",
-        "label": "ticketera",
+        "key": "venue",
+        "label": "venue",
         "count": 12
       },
       {
-        "key": "venue",
-        "label": "venue",
-        "count": 11
+        "key": "ticketera",
+        "label": "ticketera",
+        "count": 12
       },
       {
         "key": "eventos",
@@ -429,6 +429,7 @@
       "evt_77cc0681748a48",
       "evt_fb58b03cef676b",
       "evt_df4f89b374404b",
+      "evt_54ca32f78efb54",
       "evt_2ddadd90fbe0c4",
       "evt_ec382d2a72628d",
       "evt_06f9545c681acc",
@@ -441,8 +442,8 @@
       "evt_c7b7f6741313e8",
       "evt_73b9858c7926b4",
       "evt_6c3b3ecf0a682c",
-      "evt_873466446efe28",
-      "evt_7adfeee5e307cd"
+      "evt_7adfeee5e307cd",
+      "evt_873466446efe28"
     ],
     "tomorrow": [
       "evt_68b15845a2ebee",
@@ -452,6 +453,7 @@
       "evt_cc3201c5166840",
       "evt_ee388f4aeedf66",
       "evt_df4f89b374404b",
+      "evt_54ca32f78efb54",
       "evt_2ddadd90fbe0c4",
       "evt_70e174b70f5ad2"
     ],
@@ -463,6 +465,7 @@
       "evt_cc3201c5166840",
       "evt_ee388f4aeedf66",
       "evt_df4f89b374404b",
+      "evt_54ca32f78efb54",
       "evt_2ddadd90fbe0c4",
       "evt_70e174b70f5ad2",
       "evt_c1533799224cf9"
@@ -477,6 +480,7 @@
       "evt_68b15845a2ebee",
       "evt_9ea09f34547f1b",
       "evt_df4f89b374404b",
+      "evt_54ca32f78efb54",
       "evt_ec382d2a72628d",
       "evt_06f9545c681acc",
       "evt_4996cf0e5ff61f",
@@ -488,8 +492,8 @@
       "evt_c7b7f6741313e8",
       "evt_73b9858c7926b4",
       "evt_6c3b3ecf0a682c",
-      "evt_873466446efe28",
       "evt_7adfeee5e307cd",
+      "evt_873466446efe28",
       "evt_c1533799224cf9",
       "evt_b738d5075ee0af",
       "evt_272425b1fcd388",
@@ -517,7 +521,7 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 42,
+      "events_total": 37,
       "events_upcoming": 18,
       "events_with_image": 17,
       "events_with_video": 2,
@@ -525,23 +529,23 @@
       "sources_ok": 4
     },
     "Cochabamba": {
-      "events_total": 45,
+      "events_total": 42,
       "events_upcoming": 34,
       "events_with_image": 34,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
-      "events_total": 34,
-      "events_upcoming": 16,
-      "events_with_image": 11,
+      "events_total": 33,
+      "events_upcoming": 17,
+      "events_with_image": 12,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Chuquisaca": {
-      "events_total": 13,
+      "events_total": 12,
       "events_upcoming": 7,
       "events_with_image": 7,
       "events_with_video": 0,
@@ -592,7 +596,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 67,
+      "events_total": 59,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0
@@ -620,7 +624,7 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 36,
+      "events_total": 34,
       "events_upcoming": 29,
       "events_with_image": 26,
       "events_with_video": 1
@@ -655,9 +659,9 @@
     },
     "otro": {
       "label": "Otros",
-      "events_total": 2,
-      "events_upcoming": 1,
-      "events_with_image": 1,
+      "events_total": 3,
+      "events_upcoming": 2,
+      "events_with_image": 2,
       "events_with_video": 1
     },
     "taller": {
@@ -669,7 +673,7 @@
     },
     "teatro": {
       "label": "Teatro",
-      "events_total": 8,
+      "events_total": 7,
       "events_upcoming": 5,
       "events_with_image": 4,
       "events_with_video": 0
@@ -1021,6 +1025,44 @@
       "director": null,
       "cast": [],
       "quality_score": 70,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_54ca32f78efb54",
+      "title": "LA PUJA SUBE DE Bs 100 EN Bs 100 O MÚLTIPLOS DE 100. El remate de Manzana 1 Espacio es una oportunidad para elegir…",
+      "category": "otro",
+      "category_label": "Otros",
+      "starts_at": "2026-10-29T00:00:00-04:00",
+      "starts_at_ms": 1793246400000,
+      "ends_at_ms": 1793678340000,
+      "multi_day": true,
+      "display_date": "Del 29 de octubre al 2 de noviembre",
+      "lifecycle": "en_curso",
+      "lifecycle_label": "En curso",
+      "days_until": -1,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Manzana Uno Espacio de Arte",
+      "image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/863872933_1123342137154778_6140297439796746240_n.png?stp=dst-jpg_tt6&cstp=mx1282x968&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=f727a1&_nc_ohc=HjhJNM5q8y4Q7kNvwEqPUlH&_nc_oc=Ado6E50r5JwMd8eYKwi6dh1hI8njWotYfhuOmeZhIRT5u84dLXH32dMDtEcEFQ7lgMc&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=LwNf4Eyh65ulnuJec5uong&_nc_ss=7f289&oh=00_AQRdYMeX1by2NTP_6C1DFuwbSnvibl4UFdk7lIZV3GFP4Q&oe=6AEA9C65",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 100.0,
+      "currency": "BOB",
+      "price_label": "Bs 100",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 73,
       "is_featured": true,
       "status": "programado",
       "source_count": 1
@@ -1984,6 +2026,125 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_7adfeee5e307cd",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-10-30T13:50:00-04:00",
+      "starts_at_ms": 1793382600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Viernes 30 de octubre · 13:50",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/10/clayface-47962.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "13:50",
+        "16:20",
+        "18:40",
+        "21:00",
+        "22:00",
+        "19:10",
+        "21:40",
+        "18:10",
+        "20:30",
+        "14:00",
+        "22:40",
+        "13:40",
+        "16:10",
+        "18:30",
+        "13:30",
+        "15:30",
+        "12:30",
+        "15:20",
+        "15:00",
+        "14:10",
+        "19:20",
+        "13:00",
+        "15:50",
+        "21:30",
+        "17:00",
+        "22:30",
+        "14:20",
+        "16:30",
+        "22:50",
+        "18:45",
+        "13:10",
+        "14:30"
+      ],
+      "formats": [
+        "2D - DBOX - Doblada",
+        "2D - DBOX - XD - Subtitulada",
+        "2D - Doblada",
+        "2D - PRE - Doblada",
+        "2D - PRE - Subtitulada",
+        "2D - DBOX - XD - Doblada",
+        "2D - Lenguaje Original",
+        "3D - Subtitulada",
+        "2D - Subtitulada"
+      ],
+      "occurrences": [
+        "2026-10-30T13:50:00-04:00",
+        "2026-10-30T16:20:00-04:00",
+        "2026-10-30T18:40:00-04:00",
+        "2026-10-30T21:00:00-04:00",
+        "2026-10-30T22:00:00-04:00",
+        "2026-10-30T19:10:00-04:00",
+        "2026-10-30T21:40:00-04:00",
+        "2026-10-30T18:10:00-04:00",
+        "2026-10-30T20:30:00-04:00",
+        "2026-10-30T14:00:00-04:00",
+        "2026-10-30T22:40:00-04:00",
+        "2026-10-30T13:40:00-04:00",
+        "2026-10-30T16:10:00-04:00",
+        "2026-10-30T18:30:00-04:00",
+        "2026-10-30T13:30:00-04:00",
+        "2026-10-30T15:30:00-04:00",
+        "2026-10-30T12:30:00-04:00",
+        "2026-10-30T15:20:00-04:00",
+        "2026-10-30T15:00:00-04:00",
+        "2026-10-30T14:10:00-04:00",
+        "2026-10-30T19:20:00-04:00",
+        "2026-10-30T13:00:00-04:00",
+        "2026-10-30T15:50:00-04:00",
+        "2026-10-30T21:30:00-04:00",
+        "2026-10-30T17:00:00-04:00",
+        "2026-10-30T22:30:00-04:00",
+        "2026-10-30T14:20:00-04:00",
+        "2026-10-30T16:30:00-04:00",
+        "2026-10-30T22:50:00-04:00",
+        "2026-10-30T18:45:00-04:00",
+        "2026-10-30T13:10:00-04:00",
+        "2026-10-30T14:30:00-04:00",
+        "2026-10-30T16:50:00-04:00",
+        "2026-10-30T13:20:00-04:00",
+        "2026-10-30T17:50:00-04:00",
+        "2026-10-30T17:40:00-04:00",
+        "2026-10-30T20:00:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_873466446efe28",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -2073,122 +2234,6 @@
         "2026-10-30T20:40:00-04:00",
         "2026-10-30T12:00:00-04:00",
         "2026-10-30T21:15:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_7adfeee5e307cd",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-10-30T15:00:00-04:00",
-      "starts_at_ms": 1793386800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Viernes 30 de octubre · 15:00",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/10/wildwood-el-bosque-salvaje-48024.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "15:00",
-        "18:00",
-        "21:00",
-        "13:30",
-        "16:20",
-        "19:10",
-        "14:20",
-        "17:10",
-        "20:00",
-        "14:00",
-        "22:40",
-        "13:40",
-        "16:10",
-        "18:30",
-        "21:40",
-        "22:00",
-        "14:10",
-        "19:20",
-        "13:00",
-        "15:50",
-        "18:40",
-        "21:30",
-        "20:30",
-        "22:30",
-        "16:30",
-        "22:50",
-        "18:45",
-        "13:10",
-        "15:30",
-        "14:30",
-        "17:00",
-        "16:50"
-      ],
-      "formats": [
-        "2D - DBOX - Doblada",
-        "2D - DBOX - XD - Doblada",
-        "2D - PRE - Doblada",
-        "2D - PRE - Subtitulada",
-        "2D - Doblada",
-        "2D - Lenguaje Original",
-        "3D - Subtitulada",
-        "2D - Subtitulada"
-      ],
-      "occurrences": [
-        "2026-10-30T15:00:00-04:00",
-        "2026-10-30T18:00:00-04:00",
-        "2026-10-30T21:00:00-04:00",
-        "2026-10-30T13:30:00-04:00",
-        "2026-10-30T16:20:00-04:00",
-        "2026-10-30T19:10:00-04:00",
-        "2026-10-30T14:20:00-04:00",
-        "2026-10-30T17:10:00-04:00",
-        "2026-10-30T20:00:00-04:00",
-        "2026-10-30T14:00:00-04:00",
-        "2026-10-30T22:40:00-04:00",
-        "2026-10-30T13:40:00-04:00",
-        "2026-10-30T16:10:00-04:00",
-        "2026-10-30T18:30:00-04:00",
-        "2026-10-30T21:40:00-04:00",
-        "2026-10-30T22:00:00-04:00",
-        "2026-10-30T14:10:00-04:00",
-        "2026-10-30T19:20:00-04:00",
-        "2026-10-30T13:00:00-04:00",
-        "2026-10-30T15:50:00-04:00",
-        "2026-10-30T18:40:00-04:00",
-        "2026-10-30T21:30:00-04:00",
-        "2026-10-30T20:30:00-04:00",
-        "2026-10-30T22:30:00-04:00",
-        "2026-10-30T16:30:00-04:00",
-        "2026-10-30T22:50:00-04:00",
-        "2026-10-30T18:45:00-04:00",
-        "2026-10-30T13:10:00-04:00",
-        "2026-10-30T15:30:00-04:00",
-        "2026-10-30T14:30:00-04:00",
-        "2026-10-30T17:00:00-04:00",
-        "2026-10-30T16:50:00-04:00",
-        "2026-10-30T13:20:00-04:00",
-        "2026-10-30T17:50:00-04:00",
-        "2026-10-30T17:40:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
