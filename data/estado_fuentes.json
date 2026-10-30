@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T21:02:28-04:00",
+  "generated_at": "2026-10-30T06:03:02-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -18,8 +18,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 175.4,
-    "horas_maximo_sin_datos": 1697.9
+    "horas_promedio_sin_datos": 182.6,
+    "horas_maximo_sin_datos": 1706.9
   },
   "sources": [
     {
@@ -219,12 +219,12 @@
       "region": "Cochabamba",
       "city": null,
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobernación de Cochabamba 105 mil seguidores • 234 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -847,13 +847,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Kw8xrCU2p5cQ7kNvwGtXddF&_nc_oc=Adooey_zGvJUYHvcpi0mkfS7ty_O9AWuP_sl4-beH2rScioWqZANVjQsW0G-llFJz_s&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=nIRtmxegYIcxYpo9vlJmmA&_nc_ss=7f289&oh=00_AQTM7uFJk02T554kig9ZQAi2Rz_uFcRgGMdq6mkX73IVXw&oe=6AEA29A1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/feriafipaz/posts/inauguraci%C3%B3n-fipaz-25-a%C3%B1os-/1560747516085767/",
+          "has_image": true,
+          "text_preview": "INAUGURACIÓN FIPAZ 25 AÑOS ¡FIPAZ EMPIEZA CON TODO! ¡La espera terminó! Ven y descubre todas las sorpresas, experiencias y novedades que tenemos preparadas para ti en esta legendaria edici… Ver más Tenemos problemas para reproducir este video. Más información FIPAZ transmitió en vivo. hace 9 horas 9 h ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -1376,22 +1385,22 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 0,
-          "category": "deporte",
+          "category": "gastronomia",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 30,
-          "category": "concierto",
+          "score": 2,
+          "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "29/10/2026 Cultura Desfile de carrozas fúnebres y el paseo de las almas avivan Todos los Santos y Halloween La Alcaldía de Cochabamba se pone a tono con la festividad de Todos Santos y Halloween organizando un par de actividades alusivas a la fecha. vista 27/10/2026 Cultura Womex 2026 reconoce la trayectoria de la cantante boliviana Luzmila Carpio “Mi madre me enseñó que la naturaleza habla, que d"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 24,
+          "score": 22,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1453,9 +1462,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 32,
+      "raw_items": 29,
       "events": 0,
-      "rejected": 32,
+      "rejected": 29,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1469,7 +1478,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/3d394939-5da5-4b87-abad-d9daa2e48fe9",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/f47e9bec-cb5d-4e11-af50-d60cd68a6b66",
           "has_image": true,
           "text_preview": ""
         },
@@ -1477,7 +1486,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/278f414d-2caf-45d2-8a6c-cf842b2ea39e",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/5ae5aaa4-a050-4ec0-a99f-921b4b75307f",
           "has_image": true,
           "text_preview": ""
         }
@@ -1495,8 +1504,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 29,
-      "events": 29,
+      "raw_items": 30,
+      "events": 30,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1529,8 +1538,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1563,8 +1572,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 44,
-      "events": 44,
+      "raw_items": 51,
+      "events": 51,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
