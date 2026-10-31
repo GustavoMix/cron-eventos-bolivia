@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-10-31T01:42:00-04:00",
+  "generated_at": "2026-10-31T08:29:58-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "events_total": 96,
@@ -233,12 +233,12 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 28
+        "count": 27
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 64
+        "count": 65
       }
     ],
     "media": [
@@ -523,7 +523,6 @@
       "evt_ab2d744f1fbd8e",
       "evt_48c45c2c902fde",
       "evt_9ea8741680468c",
-      "evt_cab71456af6bc1",
       "evt_b97f0ee05c975b"
     ]
   },
@@ -534,7 +533,7 @@
       "events_with_image": 17,
       "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Cochabamba": {
       "events_total": 46,
@@ -558,7 +557,7 @@
       "events_with_image": 7,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Oruro": {
       "events_total": 4,
@@ -4732,9 +4731,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 3.0,
-      "currency": "BOB",
-      "price_label": "Bs 3",
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -4744,8 +4743,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 69,
-      "is_featured": true,
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
