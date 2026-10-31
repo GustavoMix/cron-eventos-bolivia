@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T08:29:58-04:00",
+  "generated_at": "2026-10-31T15:20:18-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,15 +10,15 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_alianza_francesa_lapaz",
       "fb_gam_cbba",
-      "fb_gob_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_teatro_aire_libre"
+      "fb_teatro_aire_libre",
+      "fb_usfx"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 193.3,
-    "horas_maximo_sin_datos": 1733.3
+    "horas_promedio_sin_datos": 196.0,
+    "horas_maximo_sin_datos": 1740.2
   },
   "sources": [
     {
@@ -64,30 +64,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/326302764_1301891790661238_494645145659689936_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1946&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IEPazg0A6vQQ7kNvwGP6YW8&_nc_oc=AdptfG5Z676Z00UBC2Hpb_lv2lBbKHpzChPYuQTtsxrIHUgMiaX7he9H-qjyiMU5U1U&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=3VPebXgAXmLg7-yXQlZf-w&_nc_ss=7f289&oh=00_AQTHmiuypXIBINUnOrJ3R5Du7d4Se2tdrACeqTG8fuI5Fg&oe=6AEBABB6",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?__cft__[0]=AZgE_qYZ42u0wwX7sXPNEucPhudi4G-e4HvGI5IowOXpAMjI2FMs1XhCIRYWiolwVo-UPcWZSYR4PBm7VYfSfgRAZlq-fNCqV0LP3sQKnD7nHUR2e1muiXMN0T8-XTtwHQAeOWwVpb6p8zrMI8UKmtb0VGrnDCtzoca0nl4k8u5Y04WFrH7xlDpL9W97F51kIFQs&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Que noche la que vivimos con la 8va Maravilla en #SantaCruz… Ver más Mie más se mueve un gusano envenenado creo Tenemos problemas para reproducir este video. Más información Ver más comentarios Jose Manuel Vaca Cuellar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1382278630737436/?comment_id=1579320380532985&__cft__[0]=AZgE_qYZ42u0wwX7sXPNEucPhudi4G-e4HvGI5IowOXpAMjI2FMs1XhCIRYWiolwVo-UPcWZSYR4PBm7VYfSfgRAZlq-fNCqV0LP3sQKnD7nHUR2e1muiXMN0T8-XTtwHQAeOWwVpb6p8zrMI8UKmtb0VGrnDCtzoca0nl4k8u5Y04WFrH7xlDpL9W97F51kIFQs&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Mie más se mueve un gusano envenenado creo Jose Manuel Vaca Cuellar"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_festivales_eventos",
@@ -223,7 +206,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. DXB-GAQ-TYRD Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
     },
     {
       "id": "fb_gob_cbba",
@@ -234,13 +217,22 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I2jVYQx1i8oQ7kNvwGJivYp&_nc_oc=AdoGYh6e9qsYpzgDdw5PYM_Ff-FjcDeEuJoV84q4411Rnq1ZnxdniyVHp55LGThJvZA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=c-_QPc7PobOei3LhYyX2gg&_nc_ss=7f289&oh=00_AQRXimXBKwa93uryFa6MZXa1my_5gQ_vn_6cp592gTrLzQ&oe=6AEC27D7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobernación de Cochabamba 105 mil seguidores • 234 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 16,
+          "category": "turismo",
+          "url": "https://www.facebook.com/reel/1600017007913099/?__cft__[0]=AZhAarH4MT-fJ0tk7kDNk3yqsEd3IuTO6WYKM63cuBK7XKg3YkOHm5_vWJumz2HoOfQQ8fm04pg7592RJJJ_6rs3iQVAzalDQTJYcO85yu47Fz9ovjvZm1ZHixIWhbucstpqlwmfuGbejD-eVTFmywmzO0EB2AcvuuqDjK1xSrFV0PXEnx8wSnCbiDc2n2Xw82mh&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "SEDEPOS continua con la Inspección a los Centros de Acogida en Coordinación con la Secretaría Departamental de Desarrollo Humano, Culturas y Turismo.… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gamscs",
@@ -1136,12 +1128,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Universidad San Francisco Xavier de Chuquisaca 75 mil seguidores • 87 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este mom'"
     },
     {
       "id": "fb_umsa",
@@ -1386,12 +1378,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 5,
+          "score": 23,
           "category": "gastronomia",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1399,7 +1391,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 3,
+          "score": 21,
           "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1407,7 +1399,7 @@
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 31,
+          "score": 49,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1579,8 +1571,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 67,
-      "events": 67,
+      "raw_items": 66,
+      "events": 66,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
