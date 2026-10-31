@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:21:05-04:00",
+  "generated_at": "2026-10-31T01:42:00-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,6 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alianza_francesa_sucre",
       "fb_gam_cbba",
       "fb_gob_cbba",
       "fb_lostiempos",
@@ -17,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 185.9,
-    "horas_maximo_sin_datos": 1719.2
+    "horas_promedio_sin_datos": 188.5,
+    "horas_maximo_sin_datos": 1726.5
   },
   "sources": [
     {
@@ -30,22 +29,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lT1HXr6Mm_QQ7kNvwHfPm1j&_nc_oc=AdrEbTX5B0TNc6hJypdzAOmGVln8Y2-6gHA9euexSYscRVKsQjRvu5Vep5cTQjOcICg&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=bvDtfQ92Pq3fTeOukVmvkw&_nc_ss=7f289&oh=00_AQRTKL-427uFe8RcFqr6nmf_388MTtP7BLnvQDXDeGgg4A&oe=6AEAE95A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid0yQGZNq5Y97tncAWi5pseJx34bcReMLMrRBxVn6gYPsfsA7DnvifuQJSeLv8Bko8ml?__cft__[0]=AZgybixsGWbCTWjkvm4sfI8C5Lo2o4PXttz77ITEdHOtjOeMhBdf1NMltPKvPXSy-_p9_iNRfSA3lmArYtrSWztc-QCbzMWcUKoBgVgWLu7gLNisvOdy6bCMZyUdB6slK-frxLuMaVPAVaGswhFb_0ymzV41ExvEJJWRRiXX_wxrsWyrjPFdxkL6fcE&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡HOY EL MIEDO TIENE UNA NUEVA DIRECCIÓN! ¿Te… Ver más ¡HOY EL MIEDO TIENE UNA NUEVA DIRECCIÓN! ¿Te… Ver más SuperTicket Producto/servicio Enviar mensaje"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -232,7 +222,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Indicador de estado activo Gobernación de Cochabamba 105 mil seguidores • 234 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en '"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobernación de Cochabamba 105 mil seguidores • 234 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
     },
     {
       "id": "fb_gamscs",
@@ -923,13 +913,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eAAPGwf2eK0Q7kNvwEORHXX&_nc_oc=Adr7T4fH04h6ZH8Kg6ObaMcqMdYAkAd1y8-HSdUU01PSAs72Sp7dLCp2puVW9faYDiw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=DeZEaOSLfNRDKvKEuOzk9A&_nc_ss=7f289&oh=00_AQQJj_Ok_OeVNFQ10JakKxsxjjagwxdNEPBHEw_HTuzmSw&oe=6AEB4AF8",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "teatro",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/%EF%B8%8F-la-historia-cobr%C3%B3-vida-en-una-noche-en-el-cementerioentre-personajes-emblem%C3%A1ti/1150999107293583/",
+          "has_image": true,
+          "text_preview": "🕯️💀 LA HISTORIA COBRÓ VIDA EN UNA NOCHE EN EL CEMENTERIO Entre personajes emblemáticos, relatos que estremecen y expresiones de música, teatro y arte, vivimos un recorrido lleno de historia y... 🕯️💀 LA HISTORIA COBRÓ VIDA EN UNA NOCHE EN EL CEMENTERIO Entre personajes emblemáticos, relatos que estremecen y expresiones de música, teatro y arte,... LA HISTORIA COBRÓ VIDA EN UNA NOCHE EN EL CEMENTERI"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/posts/pfbid02f7wtFuTXAdkQEe42TtVMEmg9G8bgJjiyHBzhk6wDbkVbrLCwSUxNSQDhaBoVvJhCl?comment_id=1481182343904483&__cft__[0]=AZhIVV3KfBWvWhlIObKuPlUZtoWyNu8Q-ugMsAEwIDwSsMIIfoNTlYeB2v0CzssV1g3NKZMwhNUn-ZIXxUr4b2EFca79VWsYYmTn5FTU9RE6Rgqm_1wJT1R04o2I__X1u68uz91AaUfLD_28LMRi8TqX50OvcxUeqyRoA5MOgx-a3JHrsWfhjXBARhU&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Estubo muy bonito y a la brujita q nos guiaba en el camino gracias al tacón punta salimos ilesos muchas felicidades un bonito recuerdo! Prins Diana"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1059,13 +1066,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=c0uzHnZL9PkQ7kNvwFTmYeI&_nc_oc=AdpBvEJcNk-xwTZ1k_--79iVkOArnX9no5yiCkLvn1RbjDokRnUZbUpdP-Xy-P0P_mg&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Zr3Wh8a9xRWc1v9MB7D7pQ&_nc_ss=7f289&oh=00_AQTELovNotT921JOiwAPk-Mozcux9iFXbKSyxaEyHk3gaQ&oe=6AEB6152",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de Sucre 9,3 mil seguidores • 48 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/1839601217220117:1839601217220117?__cft__[0]=AZgU9AinacsNAN1Qxane8yqu8ZGHoIMoCLhFgFWnXCXNTk_PjVPqgoUKINfpzciwrDdctC6HTTtDdCcfHc85K5KcLz11j-BqSbfMqgWMtP10xCQGqySpZDxhIKovsrmm4Z7__3fKWK5icy-e8PEWkvq8GajWJQyjnlAQvTsfv2tBRe70rQPnaWgqj0uacQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Alianza Francesa de Sucre actualizó su foto de portada. hace 3 días 3 días Todas las reacciones:"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1378,12 +1394,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 12,
+          "score": 29,
           "category": "gastronomia",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1391,7 +1407,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
+          "score": 23,
           "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1399,7 +1415,7 @@
         },
         {
           "reason": "tema_ajeno_a_eventos",
-          "score": 46,
+          "score": 49,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1477,7 +1493,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/f47e9bec-cb5d-4e11-af50-d60cd68a6b66",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/b480b9b0-ff9c-4869-9daa-a1246960356c",
           "has_image": true,
           "text_preview": ""
         },
@@ -1485,7 +1501,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/5ae5aaa4-a050-4ec0-a99f-921b4b75307f",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/3e3ef7f7-6c35-454c-868e-0864ac3bc1a2",
           "has_image": true,
           "text_preview": ""
         }
@@ -1537,8 +1553,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1571,8 +1587,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 54,
-      "events": 54,
+      "raw_items": 67,
+      "events": 67,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
