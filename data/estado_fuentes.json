@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T20:21:54-04:00",
+  "generated_at": "2026-11-01T02:04:33-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,17 +9,15 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_alianza_francesa_lapaz",
-      "fb_casa_cultura_cbba",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_teatro_aire_libre",
-      "fb_usfx"
+      "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 201.0,
-    "horas_maximo_sin_datos": 1745.2
+    "horas_promedio_sin_datos": 200.7,
+    "horas_maximo_sin_datos": 1750.9
   },
   "sources": [
     {
@@ -134,12 +132,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -525,12 +523,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_fundacion_cultural_bcb",
@@ -904,7 +902,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de La Paz 46 mil seguidores • 120 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse '"
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -932,13 +930,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WTBDfhAqq08Q7kNvwFsoblc&_nc_oc=AdpV6u93wFJm3c1cYD0oe91LYLQEKkMizn3zFLmjI19w5ZNqybqaOtSTsfbNPa5_90Y&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=YJlzf6JYc3j_0Ch7KUoaYA&_nc_ss=7f289&oh=00_AQSgelkE1a6gp0r8C9XOefjrDQ1G4qq1ByuIpdZsiNpc8A&oe=6AECBDC7",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Casa de la Cultura Cochabamba 73 mil seguidores • 61 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede debers'"
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -1119,13 +1117,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/431784403_833483395481162_5657651688689256803_n.jpg?stp=dst-jpg_tt6&cstp=mx696x696&ctp=s696x696&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Yp0fjTWgSLwQ7kNvwENTamo&_nc_oc=AdqO4TxgVnCGrxEefi8TvqvTqIActzy1oxFxnK9i0LDwWXCuL6P7-7R6b4lx12rE1fY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=dwsdw58FHrB69ga5rwCNdw&_nc_ss=7f289&oh=00_AQQuL13auBoZLmNZEIHNImZoUAn_ief7zcbz8E5y-HW1nw&oe=6AECB3E0",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "conferencia",
+          "url": "https://www.facebook.com/reel/1668612528267188/?__cft__[0]=AZjIoiDuXYHHnUIjp_ZH_drGlHQLtPjPEOS5-FIX3hTZMtWW_vBtUzFnp9D1xOOYVNb-UzxnzzcciCRXYq-7Ho0DTZou8cUq-Z-RftWxXlQCG74smBxQJ4-2k98JNdFaHAiOa97LS1xiJ-FT-tATYXS2TYCsoDvMgWv55hSG3wIq1FZ8vNW4aTjxckr2g7TvpZcZ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La USFX celebró la Misa de Todos los Santos en la capilla universitaria, en memoria de los fieles difuntos, en una jornada de fe, oración y recogimiento.… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umsa",
@@ -1375,27 +1382,27 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
+          "score": 42,
+          "category": "gastronomia",
+          "url": "https://www.lostiempos.com/tendencias",
+          "has_image": true,
+          "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 54,
+          "category": "festival",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "has_image": true,
+          "text_preview": "30/10/2026 Cultura Traslado de escultura Diversidad y equilibrio genera debate Pese que existe resistencia en el autor y los artistas plásticos de Cochabamba, la decisión de trasladar la escultura Diversidad en equilibrio a otro sector de... vista 29/10/2026 Cultura Desfile de carrozas fúnebres y el paseo de las almas avivan Todos los Santos y Halloween La Alcaldía de Cochabamba se pone a tono con"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 54,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 34,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
-          "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Vocero: el Gobierno rendirá cuentas a Bolivia, pero también buscará financiamiento 2 Miski 2026 proyecta la gastronomía de Cochabamba 3 Enfrentamie"
         }
       ],
       "error": null
@@ -1453,23 +1460,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 40,
+      "raw_items": 39,
       "events": 0,
-      "rejected": 40,
+      "rejected": 39,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/e75fb545-287a-4495-b496-8f383f7ed690",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/b480b9b0-ff9c-4869-9daa-a1246960356c",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/41a92834-2148-4297-b7b6-cc0a75949f16",
           "has_image": true,
           "text_preview": ""
         },
@@ -1478,6 +1477,14 @@
           "score": 0,
           "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/3e3ef7f7-6c35-454c-868e-0864ac3bc1a2",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
           "has_image": true,
           "text_preview": ""
         }
@@ -1529,8 +1536,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1563,8 +1570,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 47,
-      "events": 47,
+      "raw_items": 56,
+      "events": 56,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
