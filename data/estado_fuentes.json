@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:06:15-04:00",
+  "generated_at": "2026-11-02T17:46:17-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -17,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 211.4,
-    "horas_maximo_sin_datos": 1779.9
+    "horas_promedio_sin_datos": 219.3,
+    "horas_maximo_sin_datos": 1790.6
   },
   "sources": [
     {
@@ -138,7 +138,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. WEB-NHP-HSSS Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -625,13 +625,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_tHWrkufSqcQ7kNvwG741Pg&_nc_oc=AdoQuviw5yjSZtRMfUp-LZCFZqo18PlrdX0JELauZGsQWrjQGe3EfgzTeoqbEMFs5F0&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=6qbv6IjZ9L8n1WE_aT84uA&_nc_ss=7f289&oh=00_AQSYHadoNs6Fvd6nofKW9KKzsPuheOMJEULJ4pYPlDLHoQ&oe=6AEECF0F",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -1203,22 +1203,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4QhWa3YRLbUQ7kNvwH7vWQ6&_nc_oc=Adrua1MolH4Q5ugDqpS7YvhAVtdvLvp-wnd8gDBtHLWhXJdtkczWbTa_0G9ZnbE3xjo&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=qRh9_PIF62SjiJXC7Ar5Pw&_nc_ss=7f289&oh=00_AQRT5ydgQauwEFFhKUvFZ7e04GKkGPxAkax_ltvnVpFpTg&oe=6AEE5AB8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 20,
-          "category": "otro",
-          "url": "https://www.facebook.com/boliviaupsa/posts/agendasemanalupsa-te-invitamos-a-revisar-la-agenda-semanal-de-nuestra-universida/1148466437574020/",
-          "has_image": true,
-          "text_preview": "#AgendaSemanalUPSA | Te invitamos a revisar la agenda semanal de nuestra Universidad para que podás programar tu participación en las actividades que te interesen:... #AgendaSemanalUPSA | Te invitamos a revisar la agenda semanal de nuestra Universidad para que podás programar tu participación en las actividades que te... #AgendaSemanalUPSA | Te invitamos a revisar la agenda semanal de nuestra Univ"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "web_superticket",
@@ -1378,32 +1369,24 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 5,
-      "rejected": 8,
+      "events": 11,
+      "rejected": 2,
       "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
-        },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 40,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 26,
+          "score": 20,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 21h36m Lucas Careaga logra un destacadísimo Top-15 en el Rok Vegas 2026 tras cuatro días de carrera 21h26m Hugo Dellien supera un complicado encu"
+          "text_preview": "01/11/2026 Cultura Carmen Mola retrata el lado oscuro de Marbella en Los huérfanos Por años, Marbella ha sido vista como la meca del lujo. La imagen más inmediata de la ciudad andaluza es la de las playas mediterráneas, los yates y coches... vista 01/11/2026 Cultura Tigo abre una nueva edición del Programa Internacional de Periodismo y suma a creadores de contenido a su programa de formación digit"
         }
       ],
       "error": null
@@ -1503,8 +1486,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 51,
-      "events": 51,
+      "raw_items": 47,
+      "events": 47,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1571,8 +1554,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 66,
-      "events": 66,
+      "raw_items": 61,
+      "events": 61,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1605,8 +1588,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
