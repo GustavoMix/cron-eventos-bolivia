@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T20:47:13-04:00",
+  "generated_at": "2026-11-02T07:06:15-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -13,11 +13,12 @@
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
+      "fb_tarija_cultura",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 204.8,
-    "horas_maximo_sin_datos": 1769.6
+    "horas_promedio_sin_datos": 211.4,
+    "horas_maximo_sin_datos": 1779.9
   },
   "sources": [
     {
@@ -97,13 +98,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3IXJoYDV1woQ7kNvwEzS4Lp&_nc_oc=Adp7sWq9cjW5NBkTkoHA9AFnN11Ii31qSGCNhiyYgmdxXEceASMJdnJakxHNpHnhthk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=qFDUbZIKTnDDF8IJAiPGPg&_nc_ss=7f289&oh=00_AQSk82ot68Pl8T0QW5aE3d8FTTpdZcKdwHu2xLfsgFvqHg&oe=6AEDAE50",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -573,22 +574,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/871150651_1599365415568769_3066105728872781309_n.jpg?stp=dst-jpg_tt6&cstp=mx400x400&ctp=s400x400&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FJSErwjU1fAQ7kNvwGgVK_U&_nc_oc=Adr5qIr1CqN9Kc46nKTdz03otES4ef4gamQDRWiwD5PV4UcjP0BuYeOiBDdnhAzFek0&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=esEqxJMSnmS0GnpcdIV82w&_nc_ss=7f289&oh=00_AQS1tNMt4feXdDTDq6N5KCtcoxw1YqSztysYt9GrMZgLTg&oe=6AED9A06",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "cine",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid0oGwL67khD8eCCMiEYGsWCLSezrYivq847Lwa9syHAJ1YCERTXNx47o5qKFxHMhZpl?__cft__[0]=AZgaWxAGY7z99vyXqybkkPRgCBP5Ij_M5KWWUewZEBWPEBRm7k6qIm_rFYuIFG_-2-kzaKNICROu_6NekuQMkHEeu0zImjbmdMH88l2O_2dZxV0q-vtx4x6NbhbsQ1z9-ErpsPMrQuJVVg45HFqm61wCzeRAyftUH_4geru9qvmL8Mj6c1UPwwiuGMc&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Martes de Cine - Vida, muerte y memoria Est… Ver más Martes de Cine - Vida, muerte y memoria Est… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -979,7 +971,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Casa Melchor Pinto 19 mil seguidores • 352 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un err'"
     },
     {
       "id": "fb_tarija_cultura",
@@ -991,12 +983,12 @@
       "region": "Tarija",
       "city": "Tarija",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Dirección de Cultura y Patrimonio Gobierno Autónomo Departamental de Tarija 14 mil seguidores • 298 seguidos Más Publicaciones Información Reels Fotos Esta página '"
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1211,13 +1203,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/472795644_624819906605345_617801337581690068_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4QhWa3YRLbUQ7kNvwH7vWQ6&_nc_oc=Adrua1MolH4Q5ugDqpS7YvhAVtdvLvp-wnd8gDBtHLWhXJdtkczWbTa_0G9ZnbE3xjo&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=qRh9_PIF62SjiJXC7Ar5Pw&_nc_ss=7f289&oh=00_AQRT5ydgQauwEFFhKUvFZ7e04GKkGPxAkax_ltvnVpFpTg&oe=6AEE5AB8",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 20,
+          "category": "otro",
+          "url": "https://www.facebook.com/boliviaupsa/posts/agendasemanalupsa-te-invitamos-a-revisar-la-agenda-semanal-de-nuestra-universida/1148466437574020/",
+          "has_image": true,
+          "text_preview": "#AgendaSemanalUPSA | Te invitamos a revisar la agenda semanal de nuestra Universidad para que podás programar tu participación en las actividades que te interesen:... #AgendaSemanalUPSA | Te invitamos a revisar la agenda semanal de nuestra Universidad para que podás programar tu participación en las actividades que te... #AgendaSemanalUPSA | Te invitamos a revisar la agenda semanal de nuestra Univ"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_superticket",
@@ -1230,8 +1231,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 12,
-      "events": 11,
+      "raw_items": 11,
+      "events": 10,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1377,12 +1378,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 6,
-      "rejected": 7,
+      "events": 5,
+      "rejected": 8,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
+          "score": 52,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
@@ -1390,7 +1391,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 42,
+          "score": 40,
           "category": "deporte",
           "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
@@ -1398,11 +1399,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 28,
+          "score": 26,
           "category": "deporte",
           "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Bolivia y Chile se dan la mano y miran al futuro 2 Lara descarta renuncia: “Sería una cobardía y, sobre todo, traicionar la confianza de millones d"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 21h36m Lucas Careaga logra un destacadísimo Top-15 en el Rok Vegas 2026 tras cuatro días de carrera 21h26m Hugo Dellien supera un complicado encu"
         }
       ],
       "error": null
@@ -1460,18 +1461,10 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
+      "raw_items": 38,
       "events": 0,
-      "rejected": 39,
+      "rejected": 38,
       "rejected_samples": [
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/41a92834-2148-4297-b7b6-cc0a75949f16",
-          "has_image": true,
-          "text_preview": ""
-        },
         {
           "reason": "texto_muy_corto",
           "score": 0,
@@ -1485,6 +1478,14 @@
           "score": 0,
           "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a9a1b7a3-9ca7-48e5-a296-ea5f12a94d2a",
           "has_image": true,
           "text_preview": ""
         }
@@ -1502,8 +1503,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 49,
-      "events": 49,
+      "raw_items": 51,
+      "events": 51,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1536,8 +1537,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1553,8 +1554,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 7,
-      "events": 7,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1570,8 +1571,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 55,
-      "events": 55,
+      "raw_items": 66,
+      "events": 66,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1604,8 +1605,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
