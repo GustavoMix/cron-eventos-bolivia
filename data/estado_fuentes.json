@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T15:42:48-04:00",
+  "generated_at": "2026-11-01T20:47:13-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -9,7 +9,6 @@
     ],
     "bloqueadas_en_la_ultima_corrida": [
       "fb_casa_melchor_pinto",
-      "fb_fexpocruz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -17,8 +16,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 204.9,
-    "horas_maximo_sin_datos": 1764.5
+    "horas_promedio_sin_datos": 204.8,
+    "horas_maximo_sin_datos": 1769.6
   },
   "sources": [
     {
@@ -98,13 +97,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/338229643_1211163509516371_2419743537821606186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3IXJoYDV1woQ7kNvwEzS4Lp&_nc_oc=Adp7sWq9cjW5NBkTkoHA9AFnN11Ii31qSGCNhiyYgmdxXEceASMJdnJakxHNpHnhthk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=qFDUbZIKTnDDF8IJAiPGPg&_nc_ss=7f289&oh=00_AQSk82ot68Pl8T0QW5aE3d8FTTpdZcKdwHu2xLfsgFvqHg&oe=6AEDAE50",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fexpocruz 293 mil seguidores • 225 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técni'"
+      "error": null
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -251,22 +250,13 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MiuwbjcW_98Q7kNvwEgS1oS&_nc_oc=AdqgE2fBjTZCk144jtGLpNuLmWpdH1QWqawV4NjmrUkBc6zY2HgQFGeyySF4-DYsKGg&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=49-w5zHcgshkPANzJYqs6g&_nc_ss=7f289&oh=00_AQTBbdNOoDNRi-Lb6KoF9X3JWHet5ZPzOVmjUNPUYIUEEQ&oe=6AED4E3E",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobSantaCruz/posts/28773814538977370:28773814538977370?__cft__[0]=AZjtGrssnSVPyKJOGwnGOfD9uQfowsxoEau9sK8u5mjFhhGFMDv349XvYnJhDQy1-1_3lzOd5YkhegYWoes7fUrd7j5kIx7DTxi-sdaSSgFuEVMvWwArXoIaFGU-uGtxuZXYbGBdSU7SDU-mstaH5iVRXgeeVfQRfOt_3yRhZkHjJCJJL49sd-8ZaUKAQqs&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Gobernación de Santa Cruz actualizó su foto de portada. hace 10 horas 10 h Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_lostiempos",
@@ -583,13 +573,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/871150651_1599365415568769_3066105728872781309_n.jpg?stp=dst-jpg_tt6&cstp=mx400x400&ctp=s400x400&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FJSErwjU1fAQ7kNvwGgVK_U&_nc_oc=Adr5qIr1CqN9Kc46nKTdz03otES4ef4gamQDRWiwD5PV4UcjP0BuYeOiBDdnhAzFek0&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=esEqxJMSnmS0GnpcdIV82w&_nc_ss=7f289&oh=00_AQS1tNMt4feXdDTDq6N5KCtcoxw1YqSztysYt9GrMZgLTg&oe=6AED9A06",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "cine",
+          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid0oGwL67khD8eCCMiEYGsWCLSezrYivq847Lwa9syHAJ1YCERTXNx47o5qKFxHMhZpl?__cft__[0]=AZgaWxAGY7z99vyXqybkkPRgCBP5Ij_M5KWWUewZEBWPEBRm7k6qIm_rFYuIFG_-2-kzaKNICROu_6NekuQMkHEeu0zImjbmdMH88l2O_2dZxV0q-vtx4x6NbhbsQ1z9-ErpsPMrQuJVVg45HFqm61wCzeRAyftUH_4geru9qvmL8Mj6c1UPwwiuGMc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Martes de Cine - Vida, muerte y memoria Est… Ver más Martes de Cine - Vida, muerte y memoria Est… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -1378,20 +1377,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 6,
+      "rejected": 7,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 49,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/tendencias",
-          "has_image": true,
-          "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
+          "score": 54,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
@@ -1404,6 +1395,14 @@
           "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
           "has_image": true,
           "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 28,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Bolivia y Chile se dan la mano y miran al futuro 2 Lara descarta renuncia: “Sería una cobardía y, sobre todo, traicionar la confianza de millones d"
         }
       ],
       "error": null
@@ -1503,8 +1502,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 36,
-      "events": 36,
+      "raw_items": 49,
+      "events": 49,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1537,8 +1536,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1554,8 +1553,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 7,
+      "events": 7,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1605,8 +1604,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
