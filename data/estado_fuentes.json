@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T02:49:05-04:00",
+  "generated_at": "2026-11-03T13:05:08-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,13 +12,11 @@
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_museo_nacional_arte",
-      "fb_tarija_cultura",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 225.4,
-    "horas_maximo_sin_datos": 1799.6
+    "horas_promedio_sin_datos": 226.7,
+    "horas_maximo_sin_datos": 1809.9
   },
   "sources": [
     {
@@ -47,13 +45,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YsMdnwz2FIUQ7kNvwF1Dcb2&_nc_oc=Adq9bhof2u4wW6OLTdKYuqgvnBeFD3o2NLMTFr6ZvP_0InnR6uFXol7RnzSO_DUtPgk&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=e6mNJzJ_hOmW_b9GfLNNpA&_nc_ss=7f289&oh=00_AQRuoawQixnii7qkCOgZ1y9DmGc56JBwqPlOzIryHCuxQw&oe=6AEFE8B5",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -591,13 +589,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=E9kbDY_Pm0IQ7kNvwGiLZN7&_nc_oc=AdrUgDWjUL7SnwFs5u-AILCLEy-OcHzAiR63TkQOxcd1VMa8egg0WX2XbbkcMlsgAA4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=9MJ0Vs1OGkhGsVERpYG7xw&_nc_ss=7f289&oh=00_AQTeMHi4ZCRsnxvcYKfw9AhKKbVA8ocrMgHVtQNNhmMiZg&oe=6AEFCCC7",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Arte - MNA 38 mil seguidores • 136 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede debers'"
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -965,22 +963,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cKrB1tTtQUMQ7kNvwHFgvGF&_nc_oc=Adq4yJA8HPPVh7xqN2MT6xA2WSHtbZ6h0SZ_EXDDQZx4yaZ2cHGmLv3_cBiVb3Ng1vQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=d-9qfzLz1LLS_CUs_VhQ_w&_nc_ss=7f289&oh=00_AQRymHi_3IszSK4SXXx1TjS4ofjnqU8tkduc6rZ0M5t04A&oe=6AEF523D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 28,
-          "category": "otro",
-          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid0a3r493mv27ZDtye2Kn2LDy86FLXqdLM8VH5UWQ2WKY1gPysfM8NQGAEKerHXcUP5l?__cft__[0]=AZjeXst-tKes00T1V0HI2CYTqi5Hy6KGKknm_HORLqr19aJaLBK8Zqu8GUbDxu25HOJC0oMh_oW92LOHWy-RlSthbzOdbHsROIIO9S2I7WH8w3txI-1K6b95iAKeG3O8enmikEUd6VuICE5kGFba_7OeGDYKdOx-wush93NqHcEeNx19_g6_Cj68btzpGsqgg_w5QGRHkvQ8Diqjp9I&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Muchas gracias por mostrar la Casa Si sos de Santa Cruz tenés que ver este vídeo Tenemos problemas para reproducir este video. Más información Constelación FM una radio que se ve domingo, 13 de septiembre de 2026 a las 11:31 am 13 de septiembre ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -991,13 +980,22 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1ySbl8hp3cQQ7kNvwEfhVgH&_nc_oc=AdrApVFMWcc3Xf7bcla2OI4dzSObCh_aXPUAT8Qq3G5RBFBrIWpuCMQChOy6Xssv6cM&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=zwdgfrlv60Eu_41JVVBs6Q&_nc_ss=7f289&oh=00_AQR2Fm4jssfZvN6DcNfPyfxToMpSibd11g7H3Ner8urN8A&oe=6AEFF82A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Dirección de Cultura y Patrimonio Gobierno Autónomo Departamental de Tarija 14 mil seguidores • 298 seguidos Más Publicaciones Información Reels Fotos Esta página '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 50,
+          "category": "turismo",
+          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid0246y6Yba5o8UU5yf5pNaXvZG6MDrhp1wPm8o3g798EKaAQemiyy3HaJNiaQUujaJvl?__cft__[0]=AZh658h2J3TxculxesqheR0GyCvx4BkY_kl2FFSZrmr1LXMzG2im67KlBA_sTJTPXIWLzL7WTBkXc9x4LM0DBvTl41XkS-78GHYC1OSeYI98y2fP-yiWHmUPjQlC4XDjK8hI51RlYKfailC-AjieCe9ky5oJUSANHPhttHuTj_JzMiwmesSVVqxz98dElyK9VDBusxwXXqj9RFVP8-Q&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Prepararse para crear experiencias inolvidables en Etnoturismo, es parte del camino a recorrer para la Tarija Turística de excelencia que buscamos! … Ver más Participa en la Sesión Informativa del #Diplomado en Neuro Diseño Vitivinícola y conoce el enfoque académico, la inversión y los beneficios de este programa. … Ver más Postgrado UCB Tarija hace 4 días viernes, 30 de octubre de 2026 a las 9:28"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1383,7 +1381,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
+          "score": 24,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1391,19 +1389,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 2,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "01/11/2026 Cultura Carmen Mola retrata el lado oscuro de Marbella en Los huérfanos Por años, Marbella ha sido vista como la meca del lujo. La imagen más inmediata de la ciudad andaluza es la de las playas mediterráneas, los yates y coches... vista 01/11/2026 Cultura Tigo abre una nueva edición del Programa Internacional de Periodismo y suma a creadores de contenido a su programa de formación digit"
-        },
-        {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 38,
+          "score": 54,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 46,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1461,9 +1459,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 36,
+      "raw_items": 39,
       "events": 0,
-      "rejected": 36,
+      "rejected": 39,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1485,7 +1483,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/a9a1b7a3-9ca7-48e5-a296-ea5f12a94d2a",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
           "has_image": true,
           "text_preview": ""
         }
@@ -1627,12 +1625,12 @@
       "rejected": 6,
       "rejected_samples": [
         {
-          "reason": "relevancia_insuficiente",
-          "score": 36,
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 50,
           "category": "turismo",
           "url": "https://beni.gob.bo/category/cultura/",
           "has_image": true,
-          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 08/10/2026 GOBERNADOR DEL BENI PARTICIPA DE LOS 86 AÑOS DE PERÚ RÍO APERE Y COMPARTE CON LA FAMILIA GANADERA El Gobernador del Beni, Jesús Egüez Rivero, llegó hasta la Comunidad de Perú Río Apere, en el munici... Leer más → Cultura - 01/10/2026 GOBERNACIÓN DEL BENI FORTALECE LA CONCIENCIA AMBIENTAL CON LA SIEMBRA DE PLANTINES POR "
+          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 03/11/2026 BENI INICIA SU MES ANIVERSARIO CON LA IZA DE LA ENSEÑA PATRIA POR SUS 184 AÑOS DE CREACIÓN En el primer día hábil del mes aniversario del Beni, se realizó el acto cívico de iza de la Enseña P... Leer más → Cultura - 08/10/2026 GOBERNADOR DEL BENI PARTICIPA DE LOS 86 AÑOS DE PERÚ RÍO APERE Y COMPARTE CON LA FAMILIA GANAD"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",

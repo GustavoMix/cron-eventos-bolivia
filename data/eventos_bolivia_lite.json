@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-11-03T02:49:05-04:00",
+  "generated_at": "2026-11-03T13:05:08-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 102,
-    "events_today": 14
+    "events_total": 105,
+    "events_today": 16
   },
   "filters": {
     "ui_groups": [
@@ -55,7 +55,7 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 33
+        "count": 34
       },
       {
         "key": "concierto",
@@ -80,12 +80,17 @@
       {
         "key": "teatro",
         "label": "Teatro",
-        "count": 4
+        "count": 5
       },
       {
         "key": "exposicion",
         "label": "Exposiciones",
         "count": 4
+      },
+      {
+        "key": "otro",
+        "label": "Otros",
+        "count": 3
       },
       {
         "key": "danza",
@@ -96,11 +101,6 @@
         "key": "conferencia",
         "label": "Conferencias",
         "count": 3
-      },
-      {
-        "key": "otro",
-        "label": "Otros",
-        "count": 2
       },
       {
         "key": "taller",
@@ -117,12 +117,12 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 32
+        "count": 33
       },
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 20
+        "count": 22
       },
       {
         "key": "Santa Cruz de la Sierra",
@@ -164,12 +164,12 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 40
+        "count": 41
       },
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 18
+        "count": 20
       },
       {
         "key": "Santa Cruz",
@@ -206,22 +206,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 21
+        "count": 23
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 46
+        "count": 48
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 56
+        "count": 59
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 102
+        "count": 105
       }
     ],
     "price": [
@@ -238,19 +238,19 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 65
+        "count": 68
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 93
+        "count": 96
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 4
+        "count": 5
       }
     ],
     "tags": [
@@ -379,16 +379,16 @@
       {
         "key": "media",
         "label": "media",
-        "count": 49
-      },
-      {
-        "key": "cartelera_cine",
-        "label": "cartelera_cine",
-        "count": 13
+        "count": 50
       },
       {
         "key": "venue",
         "label": "venue",
+        "count": 14
+      },
+      {
+        "key": "cartelera_cine",
+        "label": "cartelera_cine",
         "count": 13
       },
       {
@@ -404,7 +404,7 @@
       {
         "key": "eventos",
         "label": "eventos",
-        "count": 2
+        "count": 3
       },
       {
         "key": "municipio",
@@ -429,13 +429,15 @@
       "evt_12b9eacb9a5fc6",
       "evt_399bc4c399da76",
       "evt_e12e5c83174f63",
+      "evt_2f3e44ae7a21b1",
       "evt_fbd71d6eda30af",
       "evt_7c6d55312ca249",
       "evt_de0ad19a6d7bd2",
       "evt_e89d14a6326658",
       "evt_91e13fc0a21f4e",
       "evt_8d4591c7deed1d",
-      "evt_5373bf0ae95e99"
+      "evt_5373bf0ae95e99",
+      "evt_429539c4c889aa"
     ],
     "tomorrow": [
       "evt_68b15845a2ebee",
@@ -480,6 +482,7 @@
       "evt_12b9eacb9a5fc6",
       "evt_399bc4c399da76",
       "evt_e12e5c83174f63",
+      "evt_2f3e44ae7a21b1",
       "evt_fbd71d6eda30af",
       "evt_7c6d55312ca249",
       "evt_de0ad19a6d7bd2",
@@ -501,6 +504,7 @@
       "evt_37698ebe3e4318",
       "evt_ab27709f6e1c55",
       "evt_7098dbbaa03be7",
+      "evt_f6374b65ec2e82",
       "evt_2abbbc5da1b0ea",
       "evt_bb5cf19806c196",
       "evt_dea592c7788fb3",
@@ -515,31 +519,31 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 39,
-      "events_upcoming": 18,
-      "events_with_image": 17,
-      "events_with_video": 2,
+      "events_total": 38,
+      "events_upcoming": 20,
+      "events_with_image": 19,
+      "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Cochabamba": {
       "events_total": 53,
-      "events_upcoming": 40,
-      "events_with_image": 40,
+      "events_upcoming": 41,
+      "events_with_image": 41,
       "events_with_video": 0,
       "sources_total": 13,
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 35,
+      "events_total": 34,
       "events_upcoming": 16,
       "events_with_image": 11,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
-      "events_total": 11,
+      "events_total": 10,
       "events_upcoming": 7,
       "events_with_image": 7,
       "events_with_video": 0,
@@ -568,7 +572,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Beni": {
       "events_total": 0,
@@ -590,7 +594,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 67,
+      "events_total": 62,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0
@@ -618,9 +622,9 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 37,
-      "events_upcoming": 33,
-      "events_with_image": 30,
+      "events_total": 38,
+      "events_upcoming": 34,
+      "events_with_image": 31,
       "events_with_video": 1
     },
     "exposicion": {
@@ -653,9 +657,9 @@
     },
     "otro": {
       "label": "Otros",
-      "events_total": 3,
-      "events_upcoming": 2,
-      "events_with_image": 2,
+      "events_total": 4,
+      "events_upcoming": 3,
+      "events_with_image": 3,
       "events_with_video": 1
     },
     "taller": {
@@ -668,9 +672,9 @@
     "teatro": {
       "label": "Teatro",
       "events_total": 6,
-      "events_upcoming": 4,
-      "events_with_image": 3,
-      "events_with_video": 0
+      "events_upcoming": 5,
+      "events_with_image": 4,
+      "events_with_video": 1
     },
     "turismo": {
       "label": "Turismo y patrimonio",
@@ -1689,6 +1693,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_2f3e44ae7a21b1",
+      "title": "Museo Nacional de Arte - MNA actualizó su foto de portada",
+      "category": "otro",
+      "category_label": "Otros",
+      "starts_at": "2026-11-03T12:14:00-04:00",
+      "starts_at_ms": 1793722440000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 3 de noviembre · 12:14",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Museo Nacional de Arte",
+      "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/790806666_1104842569150090_508979211702955294_n.png?stp=dst-jpg_tt6&cstp=mx1600x676&ctp=p180x540&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=PegB11PTHigQ7kNvwGgTskC&_nc_oc=AdqhioSVLjqLgXg5j982XMcPN111DABYNAZA-uVOZgnuvf2jdh1IffSDW7WrKohai24&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=68nTDg5ZLYXYmt9RIeV0GA&_nc_ss=7f289&oh=00_AQR2EniWV-zPCqiKDa3oMPvNJCFRy-3jokrpiauyY4GHGA&oe=6AF002C5",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 65,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_fbd71d6eda30af",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -2311,6 +2353,44 @@
       "cast": [],
       "quality_score": 68,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_429539c4c889aa",
+      "title": "03/11/2026 Cultura Javier Terán: el papel de la juventud es fundamental en la obra ELeNos ELeNos es una obra que…",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-11-03T19:30:00-04:00",
+      "starts_at_ms": 1793748600000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Martes 3 de noviembre · 19:30",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Cochabamba",
+      "department": "Cochabamba",
+      "venue": "club Olympic y",
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/11/3/dc_cartelera_5.jpg?itok=0RxOwrr7",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 61,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
@@ -3593,6 +3673,44 @@
       "currency": "None",
       "price_label": "Bs 140",
       "organizer": "SuperTicket.bo",
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 72,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_f6374b65ec2e82",
+      "title": "El Adiós de CAMILA 🇲🇽 en la única y última presentación en La Paz 🏔️ Bolivia 🇧🇴 \n\n🗓️ 29 de noviembre 2026 \n📍Teatro…",
+      "category": "teatro",
+      "category_label": "Teatro",
+      "starts_at": "2026-11-29T00:00:00-04:00",
+      "starts_at_ms": 1795924800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 29 de noviembre",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 26,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": "Teatro al Aire Libre Jaime Laredo",
+      "image_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t51.82787-15/886551725_18138385417644452_8815367243874995976_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a27664&_nc_ohc=pzaysZPRu7UQ7kNvwE4JDmf&_nc_oc=AdoAaDimDbrriCmRqc-M_7eNtRYRLVbNThwryLYUcFK5DPaGJwB8CL8MZK2Hv_a7mC0&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=6eOaTi7fA8EIsws6J1TUCQ&_nc_ss=7f289&oh=00_AQS8MHvABNvOq_gSIKBATlAckePbLWl28c6vWrZjC_rl-g&oe=6AEFDDE2",
+      "has_video": true,
+      "video_thumbnail_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t51.82787-15/886551725_18138385417644452_8815367243874995976_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a27664&_nc_ohc=pzaysZPRu7UQ7kNvwE4JDmf&_nc_oc=AdoAaDimDbrriCmRqc-M_7eNtRYRLVbNThwryLYUcFK5DPaGJwB8CL8MZK2Hv_a7mC0&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=6eOaTi7fA8EIsws6J1TUCQ&_nc_ss=7f289&oh=00_AQS8MHvABNvOq_gSIKBATlAckePbLWl28c6vWrZjC_rl-g&oe=6AEFDDE2",
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
       "showtimes": [],
       "formats": [],
       "occurrences": [],
