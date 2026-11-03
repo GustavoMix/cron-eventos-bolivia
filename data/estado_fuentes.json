@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:46:17-04:00",
+  "generated_at": "2026-11-03T02:49:05-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,17 +8,17 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_casa_melchor_pinto",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
+      "fb_museo_nacional_arte",
       "fb_tarija_cultura",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 219.3,
-    "horas_maximo_sin_datos": 1790.6
+    "horas_promedio_sin_datos": 225.4,
+    "horas_maximo_sin_datos": 1799.6
   },
   "sources": [
     {
@@ -138,7 +138,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. WEB-NHP-HSSS Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -592,12 +592,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Arte - MNA 38 mil seguidores • 136 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede debers'"
     },
     {
       "id": "fb_musef_lapaz",
@@ -625,13 +625,13 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_tHWrkufSqcQ7kNvwG741Pg&_nc_oc=AdoQuviw5yjSZtRMfUp-LZCFZqo18PlrdX0JELauZGsQWrjQGe3EfgzTeoqbEMFs5F0&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=6qbv6IjZ9L8n1WE_aT84uA&_nc_ss=7f289&oh=00_AQSYHadoNs6Fvd6nofKW9KKzsPuheOMJEULJ4pYPlDLHoQ&oe=6AEECF0F",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_crc_lapaz",
@@ -965,13 +965,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cKrB1tTtQUMQ7kNvwHFgvGF&_nc_oc=Adq4yJA8HPPVh7xqN2MT6xA2WSHtbZ6h0SZ_EXDDQZx4yaZ2cHGmLv3_cBiVb3Ng1vQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=d-9qfzLz1LLS_CUs_VhQ_w&_nc_ss=7f289&oh=00_AQRymHi_3IszSK4SXXx1TjS4ofjnqU8tkduc6rZ0M5t04A&oe=6AEF523D",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Casa Melchor Pinto 19 mil seguidores • 352 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un err'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 28,
+          "category": "otro",
+          "url": "https://www.facebook.com/CasaMelchorPinto/posts/pfbid0a3r493mv27ZDtye2Kn2LDy86FLXqdLM8VH5UWQ2WKY1gPysfM8NQGAEKerHXcUP5l?__cft__[0]=AZjeXst-tKes00T1V0HI2CYTqi5Hy6KGKknm_HORLqr19aJaLBK8Zqu8GUbDxu25HOJC0oMh_oW92LOHWy-RlSthbzOdbHsROIIO9S2I7WH8w3txI-1K6b95iAKeG3O8enmikEUd6VuICE5kGFba_7OeGDYKdOx-wush93NqHcEeNx19_g6_Cj68btzpGsqgg_w5QGRHkvQ8Diqjp9I&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Muchas gracias por mostrar la Casa Si sos de Santa Cruz tenés que ver este vídeo Tenemos problemas para reproducir este video. Más información Constelación FM una radio que se ve domingo, 13 de septiembre de 2026 a las 11:31 am 13 de septiembre ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1369,12 +1378,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 11,
-      "rejected": 2,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 40,
+          "score": 22,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1382,11 +1391,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 20,
+          "score": 2,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "01/11/2026 Cultura Carmen Mola retrata el lado oscuro de Marbella en Los huérfanos Por años, Marbella ha sido vista como la meca del lujo. La imagen más inmediata de la ciudad andaluza es la de las playas mediterráneas, los yates y coches... vista 01/11/2026 Cultura Tigo abre una nueva edición del Programa Internacional de Periodismo y suma a creadores de contenido a su programa de formación digit"
+        },
+        {
+          "reason": "tema_ajeno_a_eventos",
+          "score": 38,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "has_image": true,
+          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
         }
       ],
       "error": null
@@ -1444,15 +1461,15 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
+      "raw_items": 36,
       "events": 0,
-      "rejected": 38,
+      "rejected": 36,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/3e3ef7f7-6c35-454c-868e-0864ac3bc1a2",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/b6ad27fc-0993-4eb4-8b4e-bb2c08783ebe",
           "has_image": true,
           "text_preview": ""
         },
@@ -1460,7 +1477,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/2900f5c9-2e9a-4bb8-87ea-436394bb8c81",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/3e3ef7f7-6c35-454c-868e-0864ac3bc1a2",
           "has_image": true,
           "text_preview": ""
         },
@@ -1486,8 +1503,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 47,
-      "events": 47,
+      "raw_items": 48,
+      "events": 48,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1503,8 +1520,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 17,
-      "events": 17,
+      "raw_items": 18,
+      "events": 18,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1520,8 +1537,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1537,8 +1554,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1554,8 +1571,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 61,
-      "events": 61,
+      "raw_items": 64,
+      "events": 64,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1588,8 +1605,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
