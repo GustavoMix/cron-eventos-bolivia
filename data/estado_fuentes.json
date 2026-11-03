@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:05:08-04:00",
+  "generated_at": "2026-11-03T19:25:22-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 226.7,
-    "horas_maximo_sin_datos": 1809.9
+    "horas_promedio_sin_datos": 220.2,
+    "horas_maximo_sin_datos": 1816.2
   },
   "sources": [
     {
@@ -45,13 +45,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YsMdnwz2FIUQ7kNvwF1Dcb2&_nc_oc=Adq9bhof2u4wW6OLTdKYuqgvnBeFD3o2NLMTFr6ZvP_0InnR6uFXol7RnzSO_DUtPgk&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=e6mNJzJ_hOmW_b9GfLNNpA&_nc_ss=7f289&oh=00_AQRuoawQixnii7qkCOgZ1y9DmGc56JBwqPlOzIryHCuxQw&oe=6AEFE8B5",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -181,13 +181,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2U_xJN1718oQ7kNvwHP44Uu&_nc_oc=AdrquWmDDNtEB6MGeQlwElJVsY-b4AU4sncnqvGUPZKrPAjB4UjCZ2sD3m0XGv8lzSM&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=tA63V8deOhH9F2_CoZgcqw&_nc_ss=7f289&oh=00_AQRdwFdBaCqMn3eRQYqyjwfQkDHE-J9-VUiYGAUQLG4hzw&oe=6AF05A78",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 22,
+          "category": "teatro",
+          "url": "https://www.facebook.com/gobernaciondelapaz/videos/fipaz2026-experiencia-maravillosa-teatro-para-ni%C3%B1os-en-la-fipaz/1839987453689814/",
+          "has_image": true,
+          "text_preview": "#Fipaz2026 | Experiencia Maravillosa: Teatro para niños en la FIPAZ. Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -589,13 +598,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=E9kbDY_Pm0IQ7kNvwGiLZN7&_nc_oc=AdrUgDWjUL7SnwFs5u-AILCLEy-OcHzAiR63TkQOxcd1VMa8egg0WX2XbbkcMlsgAA4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=9MJ0Vs1OGkhGsVERpYG7xw&_nc_ss=7f289&oh=00_AQTeMHi4ZCRsnxvcYKfw9AhKKbVA8ocrMgHVtQNNhmMiZg&oe=6AEFCCC7",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -640,13 +649,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KUF1VSjHhtMQ7kNvwFf4WIg&_nc_oc=AdqioFbVRy-aBMJJKbyxlkZginmFU_y_-51PZY2BWaueE9hLqMLK8gs1QcV756qn9mk&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=wJuoVPoHQC8npNictDIdLw&_nc_ss=7f289&oh=00_AQSsw74uYbaqWfXtC65n5W60ocya43ejxyH-gQ8wwgTMjQ&oe=6AF04752",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -827,13 +836,30 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=o9T-5xliuEwQ7kNvwF-bE-g&_nc_oc=AdrMF0aG4SZTqyzLctWqAuOgmHOZb6n_epgKadxGVPezPFkDGLIKDuz3-5Q1x2OI4Ws&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=Rkn7iwpWtPVovBEjD6xIRw&_nc_ss=7f289&oh=00_AQROy6BnssKXUoGhnR-UpLK-CQL1Zt-buhvZwjGcjId4yA&oe=6AF045E9",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?__cft__[0]=AZgENqKCQ01tA7yiEhm2V1NrAnFR_nyXoaTrU2MLkT-TMteMXeQS5EneyKqP5JhVJDCLGhnvFiYMwlT2_bpdh1dtdCEnI2QTJFaREhnocGLaw97F_yQcNsQ5OzRoC1OroQ6ciC4fVIi9Dr3MoW7_RjJmgvEkf2vJto_V0MEw4NehffeDbEtUrjaixKnFyJPGjisZ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Tenemos problemas para reproducir este video. Más información Ver más comentarios Fabiola Franco Soria"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?comment_id=1696931752442171&__cft__[0]=AZgENqKCQ01tA7yiEhm2V1NrAnFR_nyXoaTrU2MLkT-TMteMXeQS5EneyKqP5JhVJDCLGhnvFiYMwlT2_bpdh1dtdCEnI2QTJFaREhnocGLaw97F_yQcNsQ5OzRoC1OroQ6ciC4fVIi9Dr3MoW7_RjJmgvEkf2vJto_V0MEw4NehffeDbEtUrjaixKnFyJPGjisZ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Fabiola Franco Soria"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fipaz",
@@ -980,22 +1006,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1ySbl8hp3cQQ7kNvwEfhVgH&_nc_oc=AdrApVFMWcc3Xf7bcla2OI4dzSObCh_aXPUAT8Qq3G5RBFBrIWpuCMQChOy6Xssv6cM&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=zwdgfrlv60Eu_41JVVBs6Q&_nc_ss=7f289&oh=00_AQR2Fm4jssfZvN6DcNfPyfxToMpSibd11g7H3Ner8urN8A&oe=6AEFF82A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 50,
-          "category": "turismo",
-          "url": "https://www.facebook.com/TarijaCultura/posts/pfbid0246y6Yba5o8UU5yf5pNaXvZG6MDrhp1wPm8o3g798EKaAQemiyy3HaJNiaQUujaJvl?__cft__[0]=AZh658h2J3TxculxesqheR0GyCvx4BkY_kl2FFSZrmr1LXMzG2im67KlBA_sTJTPXIWLzL7WTBkXc9x4LM0DBvTl41XkS-78GHYC1OSeYI98y2fP-yiWHmUPjQlC4XDjK8hI51RlYKfailC-AjieCe9ky5oJUSANHPhttHuTj_JzMiwmesSVVqxz98dElyK9VDBusxwXXqj9RFVP8-Q&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Prepararse para crear experiencias inolvidables en Etnoturismo, es parte del camino a recorrer para la Tarija Turística de excelencia que buscamos! … Ver más Participa en la Sesión Informativa del #Diplomado en Neuro Diseño Vitivinícola y conoce el enfoque académico, la inversión y los beneficios de este programa. … Ver más Postgrado UCB Tarija hace 4 días viernes, 30 de octubre de 2026 a las 9:28"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1376,28 +1393,28 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 24,
-          "category": "deporte",
+          "score": 48,
+          "category": "concierto",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 54,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 42,
+          "category": "festival",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
+          "text_preview": "03/11/2026 Cultura Javier Terán: el papel de la juventud es fundamental en la obra ELeNos ELeNos es una obra que retrata la tensión entre el miedo y la dignidad en tiempos de opresión, destacando el papel de la juventud y la conciencia crítica... vista 01/11/2026 Cultura Carmen Mola retrata el lado oscuro de Marbella en Los huérfanos Por años, Marbella ha sido vista como la meca del lujo. La image"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 46,
+          "reason": "tema_ajeno_a_eventos",
+          "score": 42,
           "category": "teatro",
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
@@ -1459,9 +1476,9 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
+      "raw_items": 40,
       "events": 0,
-      "rejected": 39,
+      "rejected": 40,
       "rejected_samples": [
         {
           "reason": "texto_muy_corto",
@@ -1569,8 +1586,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 64,
-      "events": 64,
+      "raw_items": 59,
+      "events": 59,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
