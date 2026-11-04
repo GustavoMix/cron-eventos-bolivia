@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T13:24:53-04:00",
+  "generated_at": "2026-11-04T19:42:58-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,6 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_amun_lapaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -16,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 225.5,
-    "horas_maximo_sin_datos": 1834.2
+    "horas_promedio_sin_datos": 222.7,
+    "horas_maximo_sin_datos": 1840.5
   },
   "sources": [
     {
@@ -80,13 +79,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jUNaro5V474Q7kNvwFXmsDd&_nc_oc=AdqQbyLwmddxI6hLAPhIStTQKhB6dTT6GzguwxiYsJ4uXVJBpcen3ChC3V55ukWNElo&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=sqq82u6RnSd7TvRg8DQtLA&_nc_ss=7f289&oh=00_AQQCdTgIE9yaaRRT9Pa_xuoP6JcaKtmCFp6efaeOf5uMBA&oe=6AF17B03",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/FestivalesEventosBolivia/videos/desde-argentina-marioluis-llegar%C3%A1-en-concierto2026informaciones-798-56-469-cocha/1436355061207045/",
+          "has_image": true,
+          "text_preview": "Desde Argentina🇦🇷 #MarioLuis 😍llegará en Concierto🇧🇴2026💃🏻🕺🏻🎶 Informaciones 798-56-469 📲 #cochabamba #lapaz_bolivia🇧🇴 #oruro_bolivia🇧🇴 #santacruzdelasierra🇳🇬 #reel #fyp #videoviral #argentina Desde Argentina🇦🇷 #MarioLuis 😍llegará en Concierto🇧🇴2026💃🏻🕺🏻🎶 Informaciones 798-56-469 📲 #cochabamba #lapaz_bolivia🇧🇴 #oruro_bolivia🇧🇴..."
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -148,13 +156,38 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XlWKJhR_UcwQ7kNvwFz0GJr&_nc_oc=Adrw3u9tOp9SCDuXsYJpZgKBWoNqU_OCcBzpbZ_UuvsvE1iHfJ_K3qIamE2MrO8tc24&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=FGPirqFeFv726GXMSD8Z3A&_nc_ss=7f289&oh=00_AQSpI8MluvkIMKr1tfqn7RAc52qmpxTiWi8egz9ky1ZHTw&oe=6AF17AC0",
+      "status": "ok",
+      "raw_items": 3,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Agencia Municipal de Noticias 42 mil seguidores • 101 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deber'"
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "feria",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02URdrYAQF4mx8g7ZRL6HQLsnZF9Dd8Wmqn5k1qNVgY73BchPjjxf6UpDs1zEsi3i6l?__cft__[0]=AZgpSRLc8y6LvQ2AtwwOzwWlIJd-0znfY0RlcroaA5BXGsZue6ETPwIdKNFzsZFB9MY_FzX2Qmlx2dGd3h2cdLPm9vcYNplHeWG0aeDAdw5zzr7rWKfaaPqMR1ul0pZZTZ42ijDIAKSu3BajBwGlodRIH2tG-39Jdifxx6lY0_dCJF2aCWgidMRT4BQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Dockweiler plantea acabar con el “mercado de la injusticia” y exige unidad de poderes para impulsar una revolución judicial en Bolivia … Ver más Primero responde por el sobre precio en los teleféricos Manuel Gutierrez Bedregal ... si tiene pruebas o algún conocimiento ya debería ir a denunciar qué espera.. ... o es que esta especulando no más... Ver más comentarios Manuel Gutierrez Bedregal Milton"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02URdrYAQF4mx8g7ZRL6HQLsnZF9Dd8Wmqn5k1qNVgY73BchPjjxf6UpDs1zEsi3i6l?comment_id=1662698022008330&__cft__[0]=AZgpSRLc8y6LvQ2AtwwOzwWlIJd-0znfY0RlcroaA5BXGsZue6ETPwIdKNFzsZFB9MY_FzX2Qmlx2dGd3h2cdLPm9vcYNplHeWG0aeDAdw5zzr7rWKfaaPqMR1ul0pZZTZ42ijDIAKSu3BajBwGlodRIH2tG-39Jdifxx6lY0_dCJF2aCWgidMRT4BQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Primero responde por el sobre precio en los teleféricos Manuel Gutierrez Bedregal"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02URdrYAQF4mx8g7ZRL6HQLsnZF9Dd8Wmqn5k1qNVgY73BchPjjxf6UpDs1zEsi3i6l?comment_id=1662698022008330&reply_comment_id=3616459038519399&__cft__[0]=AZgpSRLc8y6LvQ2AtwwOzwWlIJd-0znfY0RlcroaA5BXGsZue6ETPwIdKNFzsZFB9MY_FzX2Qmlx2dGd3h2cdLPm9vcYNplHeWG0aeDAdw5zzr7rWKfaaPqMR1ul0pZZTZ42ijDIAKSu3BajBwGlodRIH2tG-39Jdifxx6lY0_dCJF2aCWgidMRT4BQ&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Manuel Gutierrez Bedregal ... si tiene pruebas o algún conocimiento ya debería ir a denunciar qué espera.. ... o es que esta especulando no más... Milton HM"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -205,7 +238,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. BJK-LZX-ZAKA Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
     },
     {
       "id": "fb_gob_cbba",
@@ -528,7 +561,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Can'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_fundacion_cultural_bcb",
@@ -760,22 +793,13 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=u5iKQ6FM5QIQ7kNvwFowqAY&_nc_oc=Adq96knSWcZB8hP5oGyr3FI60t7Y8mXZVmplA6iFm4o5cNPhktzUogUaV7Ib6DhAJQE&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=8oaky--DDqB3-8Qpy-VFZg&_nc_ss=7f289&oh=00_AQSrMsXezbdB-_UatACC669GJxvkixIxVmp_j7dkcpD1WQ&oe=6AF13AAA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobChuquisaca/videos/1175326294829385/?__cft__[0]=AZhk0rXBRYRmxMUX-UXohVPVo4E59NiSUvq7QgKb56g5GZelKRhN3qVpuAskLZO2a1uPVqVQzu_rN3xybKROSzX3BevOBrG3yghWLe1wFDfhOth_IeMDuDGIVhczlXVENxsUY0Nv1VHet0DvdH-BxabwpHhbzX7Wa1ISiJ4tdXxgpuIZ7bBE0qB_r4pSuWiG3wk&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "ENTREGA DE INSUMOS Al INTERNADO SAN JOSE @Seguidores Tenemos problemas para reproducir este video. Más información Ver más comentarios"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_oruro",
@@ -786,22 +810,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=9gYH8zar-TIQ7kNvwFty3MS&_nc_oc=AdpMbS-LKIpp_d6QY7Ehn4uQdmSwfxDM1PAZrm3nbFsZp2PkPV7Z3KMIEq04FZ3-3jE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=2fBcYkTfEv4kKob9oOsHXw&_nc_ss=7f289&oh=00_AQQxGYSBasu6TWtrANZeJq4UsYy2H8O0BWKg9O7SfmOJPg&oe=6AF14DBA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/GobernacionDeOruro/posts/pfbid0GUbAjFkd4fu5uVsEJzAd8ZuSYf4uSs4kP9Vbr8kfJcNtk6eEZyBxgN7rSR8xakFcl?__cft__[0]=AZgDMMn2IYy-kVQUqpQn0TfgZuPv_g9nBo2A0bAjzOkI4sozd1ilP93E-BOXJv9qENzqs8CtEKmKf8GP_27cT2Tr57Oc211xAsSg5ECBdvoC7uFl8gGeOnAQjR8MxvtnvOplZn8R8kAyB2gzyE6HlO5HthbtnfESvZPygkuwyvTVQIOt9vj4jdLngHQ&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#OruroConDignidad | El cambio que exigen nuestros hermanos en el sistema de salud es de tratamiento urgente, manifestó el gobernador, Edgar Sánchez Aguirre, a momento d… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_tarija",
@@ -880,13 +895,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/791246068_1549468440554702_4752739097434063911_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mjhKRKHF_AoQ7kNvwH7w99P&_nc_oc=AdrFftNEbMJZsecTPgp7tjrJLLbkxWp7tPymS5pG9biwSyrgta4fKZVn10sN9YpdCzk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=LxR9MDKPjXaZcgorDbqWDQ&_nc_ss=7f289&oh=00_AQQEzXP6Z8N2nWatEroXmdGl9SCtTjDxAmPsXWq0DAXTZw&oe=6AF1905D",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/feicobol/posts/pfbid029dPfzvt99mfMV4pnJ49E8AwioH243dSRb8hut1mZRna4iPuRRNP6dBNvZ8VvZ3Drl?__cft__[0]=AZjg-muQiFVK5hR_9uQyopxKYyfN3bi0NpH86UNWJOCrt5IhV_GEeHUG4UHSf6uE99r6S9L7sAYNNQWjUNPrYrZOlo1dSg7JBytXbLbhrLx8R5WCOvaGXYnoa7jEUYgQr1WlEWi43-lwRwzm6KGewgr1HCoJyE0RIjCQyM9LluwZ15g4ybV0EP_vmXs&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Todo lo que necesitas para construir, invertir y transformar tus espacios está en un solo lugar! E… Ver más ¡Todo lo que necesitas para construir, invertir y transformar tus espacios está en un solo lugar! E… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1386,12 +1410,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 3,
-      "rejected": 10,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 2,
           "category": "concierto",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1406,9 +1430,9 @@
           "text_preview": "03/11/2026 Cultura Javier Terán: el papel de la juventud es fundamental en la obra ELeNos ELeNos es una obra que retrata la tensión entre el miedo y la dignidad en tiempos de opresión, destacando el papel de la juventud y la conciencia crítica... vista 01/11/2026 Cultura Carmen Mola retrata el lado oscuro de Marbella en Los huérfanos Por años, Marbella ha sido vista como la meca del lujo. La image"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
-          "category": "deporte",
+          "reason": "tema_ajeno_a_eventos",
+          "score": 36,
+          "category": "teatro",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
@@ -1511,8 +1535,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 36,
-      "events": 36,
+      "raw_items": 35,
+      "events": 35,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1545,8 +1569,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1579,8 +1603,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 54,
-      "events": 54,
+      "raw_items": 46,
+      "events": 46,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
