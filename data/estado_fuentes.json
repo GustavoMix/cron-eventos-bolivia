@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T02:23:22-04:00",
+  "generated_at": "2026-11-04T13:24:53-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -10,15 +10,14 @@
     "bloqueadas_en_la_ultima_corrida": [
       "fb_amun_lapaz",
       "fb_gam_cbba",
-      "fb_gob_oruro",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 224.4,
-    "horas_maximo_sin_datos": 1823.2
+    "horas_promedio_sin_datos": 225.5,
+    "horas_maximo_sin_datos": 1834.2
   },
   "sources": [
     {
@@ -529,7 +528,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Can'"
     },
     {
       "id": "fb_fundacion_cultural_bcb",
@@ -557,22 +556,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zt_4Kxloa5oQ7kNvwH4BUz6&_nc_oc=AdqB4Cdfb0vq1Hm9ZHjs9DuIUBf0IFOAhhfbLlWTLvxztKuFxOFuMdlR2rolVoNi0Y0&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=h_GFly3j9P_wpUf9zffbQg&_nc_ss=7f289&oh=00_AQTfPbD6ztBCN0xoCCNphQw9SPfNTNvxr0N1KeoLWIjwLg&oe=6AF09EB3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "cine",
-          "url": "https://www.facebook.com/cinemateca.bo/posts/pfbid02NRoSsRvxNTVHchayFh6zsfzp7yPtS6mZFa3vSMfm4btAEaf3sgVqmiQyPhgwGfVZl?__cft__[0]=AZi1VVCQ0YRqrR3S9XQXxDvuewbMdNg-fb80p4hhBcwd8PKKsM-RgrhUMMLV3e5jWLx1_h7r6ERaBbyXr_rVDQV_JWSlabHAcn0ibhfwMUR-zBmnNF7quikfmE_etVdcqtpPFuOmnJFOLyRkvzVCZNOWMP3sk-TkMykdZz_ZPBaPxAtJfTyUCRRHkRI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "En el marco de su 50 Aniversario, la Cinemateca Boliviana, invita al Miniciclo “Derechos humanos y cine boliviano del siglo XXI”… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -770,13 +760,22 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/688543748_1529092835442672_6050917350946150639_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=u5iKQ6FM5QIQ7kNvwFowqAY&_nc_oc=Adq96knSWcZB8hP5oGyr3FI60t7Y8mXZVmplA6iFm4o5cNPhktzUogUaV7Ib6DhAJQE&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=8oaky--DDqB3-8Qpy-VFZg&_nc_ss=7f289&oh=00_AQSrMsXezbdB-_UatACC669GJxvkixIxVmp_j7dkcpD1WQ&oe=6AF13AAA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobChuquisaca/videos/1175326294829385/?__cft__[0]=AZhk0rXBRYRmxMUX-UXohVPVo4E59NiSUvq7QgKb56g5GZelKRhN3qVpuAskLZO2a1uPVqVQzu_rN3xybKROSzX3BevOBrG3yghWLe1wFDfhOth_IeMDuDGIVhczlXVENxsUY0Nv1VHet0DvdH-BxabwpHhbzX7Wa1ISiJ4tdXxgpuIZ7bBE0qB_r4pSuWiG3wk&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "ENTREGA DE INSUMOS Al INTERNADO SAN JOSE @Seguidores Tenemos problemas para reproducir este video. Más información Ver más comentarios"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_oruro",
@@ -787,13 +786,22 @@
       "tier": 2,
       "region": "Oruro",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/778591269_1072985949000809_2565901179950577949_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=9gYH8zar-TIQ7kNvwFty3MS&_nc_oc=AdpMbS-LKIpp_d6QY7Ehn4uQdmSwfxDM1PAZrm3nbFsZp2PkPV7Z3KMIEq04FZ3-3jE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=2fBcYkTfEv4kKob9oOsHXw&_nc_ss=7f289&oh=00_AQQxGYSBasu6TWtrANZeJq4UsYy2H8O0BWKg9O7SfmOJPg&oe=6AF14DBA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Departamental de Oruro - Bolivia 31 mil seguidores • 1 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobernacionDeOruro/posts/pfbid0GUbAjFkd4fu5uVsEJzAd8ZuSYf4uSs4kP9Vbr8kfJcNtk6eEZyBxgN7rSR8xakFcl?__cft__[0]=AZgDMMn2IYy-kVQUqpQn0TfgZuPv_g9nBo2A0bAjzOkI4sozd1ilP93E-BOXJv9qENzqs8CtEKmKf8GP_27cT2Tr57Oc211xAsSg5ECBdvoC7uFl8gGeOnAQjR8MxvtnvOplZn8R8kAyB2gzyE6HlO5HthbtnfESvZPygkuwyvTVQIOt9vj4jdLngHQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#OruroConDignidad | El cambio que exigen nuestros hermanos en el sistema de salud es de tratamiento urgente, manifestó el gobernador, Edgar Sánchez Aguirre, a momento d… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_tarija",
@@ -1378,12 +1386,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 3,
+      "rejected": 10,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 28,
+          "score": 0,
           "category": "concierto",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1391,16 +1399,16 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 14,
-          "category": "concierto",
+          "score": 2,
+          "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "03/11/2026 Cultura Javier Terán: el papel de la juventud es fundamental en la obra ELeNos ELeNos es una obra que retrata la tensión entre el miedo y la dignidad en tiempos de opresión, destacando el papel de la juventud y la conciencia crítica... vista 01/11/2026 Cultura Carmen Mola retrata el lado oscuro de Marbella en Los huérfanos Por años, Marbella ha sido vista como la meca del lujo. La image"
         },
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 48,
-          "category": "concierto",
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 22,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
@@ -1477,7 +1485,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/15d2c918-192e-4f8f-822a-6d2094d503a7",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/b6ad27fc-0993-4eb4-8b4e-bb2c08783ebe",
           "has_image": true,
           "text_preview": ""
         },
@@ -1485,7 +1493,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/b6ad27fc-0993-4eb4-8b4e-bb2c08783ebe",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/63791c04-e14e-4a01-8842-c022530afa05",
           "has_image": true,
           "text_preview": ""
         }
@@ -1503,8 +1511,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 48,
-      "events": 48,
+      "raw_items": 36,
+      "events": 36,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1554,8 +1562,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1571,8 +1579,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 65,
-      "events": 65,
+      "raw_items": 54,
+      "events": 54,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1605,8 +1613,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
