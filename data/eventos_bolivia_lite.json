@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-11-05T13:30:35-04:00",
+  "generated_at": "2026-11-05T19:50:08-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 102,
-    "events_today": 13
+    "events_total": 103,
+    "events_today": 14
   },
   "filters": {
     "ui_groups": [
@@ -70,7 +70,7 @@
       {
         "key": "feria",
         "label": "Ferias y expos",
-        "count": 10
+        "count": 11
       },
       {
         "key": "festival",
@@ -147,7 +147,7 @@
       {
         "key": "Tarija",
         "label": "Tarija",
-        "count": 3
+        "count": 4
       },
       {
         "key": "Potosí",
@@ -187,14 +187,14 @@
         "count": 7
       },
       {
-        "key": "Oruro",
-        "label": "Oruro",
+        "key": "Tarija",
+        "label": "Tarija",
         "count": 4
       },
       {
-        "key": "Tarija",
-        "label": "Tarija",
-        "count": 3
+        "key": "Oruro",
+        "label": "Oruro",
+        "count": 4
       },
       {
         "key": "Potosí",
@@ -206,22 +206,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 20
+        "count": 21
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 46
+        "count": 47
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 55
+        "count": 56
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 102
+        "count": 103
       }
     ],
     "price": [
@@ -238,19 +238,19 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 64
+        "count": 65
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 93
+        "count": 94
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 5
+        "count": 6
       }
     ],
     "tags": [
@@ -399,7 +399,7 @@
       {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
-        "count": 10
+        "count": 11
       },
       {
         "key": "eventos",
@@ -422,6 +422,7 @@
       "evt_cc3201c5166840",
       "evt_ee388f4aeedf66",
       "evt_df4f89b374404b",
+      "evt_259884c2dbd6ce",
       "evt_518c084d9052e6",
       "evt_8e034548ae9183",
       "evt_54d58a56a42fa9",
@@ -431,10 +432,10 @@
       "evt_35d7bc7c0d211d",
       "evt_9ba01b7cb3fc79",
       "evt_f232f0355f0bca",
-      "evt_cd1fb233c81bdd",
       "evt_1aa188a8d7d419",
       "evt_9eaa27fff3145e",
-      "evt_3d6cb3fbea3e93"
+      "evt_3d6cb3fbea3e93",
+      "evt_cd1fb233c81bdd"
     ],
     "tomorrow": [
       "evt_68b15845a2ebee",
@@ -488,9 +489,9 @@
       "evt_35d7bc7c0d211d",
       "evt_9ba01b7cb3fc79",
       "evt_f232f0355f0bca",
-      "evt_cd1fb233c81bdd",
       "evt_1aa188a8d7d419",
       "evt_9eaa27fff3145e",
+      "evt_cd1fb233c81bdd",
       "evt_b738d5075ee0af",
       "evt_272425b1fcd388",
       "evt_9c7c067fa47454",
@@ -520,7 +521,7 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 37,
+      "events_total": 36,
       "events_upcoming": 18,
       "events_with_image": 17,
       "events_with_video": 3,
@@ -528,7 +529,7 @@
       "sources_ok": 3
     },
     "Cochabamba": {
-      "events_total": 54,
+      "events_total": 52,
       "events_upcoming": 41,
       "events_with_image": 41,
       "events_with_video": 0,
@@ -536,7 +537,7 @@
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 32,
+      "events_total": 30,
       "events_upcoming": 16,
       "events_with_image": 11,
       "events_with_video": 1,
@@ -569,11 +570,11 @@
     },
     "Tarija": {
       "events_total": 7,
-      "events_upcoming": 3,
-      "events_with_image": 1,
-      "events_with_video": 0,
+      "events_upcoming": 4,
+      "events_with_image": 2,
+      "events_with_video": 1,
       "sources_total": 5,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Beni": {
       "events_total": 0,
@@ -581,7 +582,7 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 1
     },
     "Pando": {
       "events_total": 0,
@@ -589,13 +590,13 @@
       "events_with_image": 0,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 2
+      "sources_ok": 1
     }
   },
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 59,
+      "events_total": 53,
       "events_upcoming": 14,
       "events_with_image": 14,
       "events_with_video": 0
@@ -637,10 +638,10 @@
     },
     "feria": {
       "label": "Ferias y expos",
-      "events_total": 11,
-      "events_upcoming": 10,
-      "events_with_image": 5,
-      "events_with_video": 1
+      "events_total": 12,
+      "events_upcoming": 11,
+      "events_with_image": 6,
+      "events_with_video": 2
     },
     "festival": {
       "label": "Festivales",
@@ -942,6 +943,44 @@
       "cast": [],
       "quality_score": 70,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_259884c2dbd6ce",
+      "title": "Gobierno Autónomo Departamental de Tarija",
+      "category": "feria",
+      "category_label": "Ferias y expos",
+      "starts_at": "2026-11-05T00:00:00-04:00",
+      "starts_at_ms": 1793851200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 5 de noviembre",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Tarija",
+      "department": "Tarija",
+      "venue": null,
+      "image_url": "https://www.tarija.gob.bo/images/logos/logo-gobernacion-2021.png",
+      "has_video": true,
+      "video_thumbnail_url": "https://www.tarija.gob.bo/images/logos/logo-gobernacion-2021.png",
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 58,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
@@ -1574,12 +1613,12 @@
         "16:00",
         "18:30",
         "21:00",
-        "12:00",
         "14:40",
         "12:50",
         "17:35",
         "19:50",
         "22:10",
+        "12:00",
         "16:40",
         "21:30",
         "17:45",
@@ -1618,12 +1657,12 @@
         "2026-11-05T16:00:00-04:00",
         "2026-11-05T18:30:00-04:00",
         "2026-11-05T21:00:00-04:00",
-        "2026-11-05T12:00:00-04:00",
         "2026-11-05T14:40:00-04:00",
         "2026-11-05T12:50:00-04:00",
         "2026-11-05T17:35:00-04:00",
         "2026-11-05T19:50:00-04:00",
         "2026-11-05T22:10:00-04:00",
+        "2026-11-05T12:00:00-04:00",
         "2026-11-05T16:40:00-04:00",
         "2026-11-05T21:30:00-04:00",
         "2026-11-05T17:45:00-04:00",
@@ -1760,120 +1799,6 @@
         "2026-11-05T17:00:00-04:00",
         "2026-11-05T21:10:00-04:00",
         "2026-11-05T22:00:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
-      "event_id": "evt_cd1fb233c81bdd",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-11-05T14:20:00-04:00",
-      "starts_at_ms": 1793902800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Jueves 5 de noviembre · 14:20",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/10/godzilla-minus-zero-47908.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "14:20",
-        "17:10",
-        "20:00",
-        "12:30",
-        "15:20",
-        "18:10",
-        "21:00",
-        "14:50",
-        "17:40",
-        "20:30",
-        "15:50",
-        "18:20",
-        "20:40",
-        "12:50",
-        "12:40",
-        "15:10",
-        "16:40",
-        "19:10",
-        "13:00",
-        "15:40",
-        "13:30",
-        "16:00",
-        "18:30",
-        "21:30",
-        "15:30",
-        "18:00",
-        "13:10",
-        "15:00",
-        "17:20",
-        "20:10",
-        "19:00",
-        "19:30"
-      ],
-      "formats": [
-        "2D - DBOX - Doblada",
-        "2D - DBOX - XD - Doblada",
-        "2D - PRE - Doblada",
-        "2D - PRE - Subtitulada",
-        "2D - Doblada",
-        "2D - Subtitulada"
-      ],
-      "occurrences": [
-        "2026-11-05T14:20:00-04:00",
-        "2026-11-05T17:10:00-04:00",
-        "2026-11-05T20:00:00-04:00",
-        "2026-11-05T12:30:00-04:00",
-        "2026-11-05T15:20:00-04:00",
-        "2026-11-05T18:10:00-04:00",
-        "2026-11-05T21:00:00-04:00",
-        "2026-11-05T14:50:00-04:00",
-        "2026-11-05T17:40:00-04:00",
-        "2026-11-05T20:30:00-04:00",
-        "2026-11-05T15:50:00-04:00",
-        "2026-11-05T18:20:00-04:00",
-        "2026-11-05T20:40:00-04:00",
-        "2026-11-05T12:50:00-04:00",
-        "2026-11-05T12:40:00-04:00",
-        "2026-11-05T15:10:00-04:00",
-        "2026-11-05T16:40:00-04:00",
-        "2026-11-05T19:10:00-04:00",
-        "2026-11-05T13:00:00-04:00",
-        "2026-11-05T15:40:00-04:00",
-        "2026-11-05T13:30:00-04:00",
-        "2026-11-05T16:00:00-04:00",
-        "2026-11-05T18:30:00-04:00",
-        "2026-11-05T21:30:00-04:00",
-        "2026-11-05T15:30:00-04:00",
-        "2026-11-05T18:00:00-04:00",
-        "2026-11-05T13:10:00-04:00",
-        "2026-11-05T15:00:00-04:00",
-        "2026-11-05T17:20:00-04:00",
-        "2026-11-05T20:10:00-04:00",
-        "2026-11-05T19:00:00-04:00",
-        "2026-11-05T19:30:00-04:00",
-        "2026-11-05T21:40:00-04:00",
-        "2026-11-05T14:00:00-04:00",
-        "2026-11-05T13:50:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2031,6 +1956,78 @@
       "cast": [],
       "quality_score": 51,
       "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_cd1fb233c81bdd",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-11-05T20:00:00-04:00",
+      "starts_at_ms": 1793923200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 5 de noviembre · 20:00",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/10/godzilla-minus-zero-47908.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "20:00",
+        "18:10",
+        "21:00",
+        "20:30",
+        "18:30",
+        "21:30",
+        "18:20",
+        "20:40",
+        "19:00",
+        "19:30",
+        "21:40",
+        "19:10",
+        "20:10"
+      ],
+      "formats": [
+        "2D - DBOX - Doblada",
+        "2D - DBOX - XD - Doblada",
+        "2D - PRE - Subtitulada",
+        "2D - Doblada",
+        "2D - Subtitulada"
+      ],
+      "occurrences": [
+        "2026-11-05T20:00:00-04:00",
+        "2026-11-05T18:10:00-04:00",
+        "2026-11-05T21:00:00-04:00",
+        "2026-11-05T20:30:00-04:00",
+        "2026-11-05T18:30:00-04:00",
+        "2026-11-05T21:30:00-04:00",
+        "2026-11-05T18:20:00-04:00",
+        "2026-11-05T20:40:00-04:00",
+        "2026-11-05T19:00:00-04:00",
+        "2026-11-05T19:30:00-04:00",
+        "2026-11-05T21:40:00-04:00",
+        "2026-11-05T19:10:00-04:00",
+        "2026-11-05T20:10:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
       "status": "programado",
       "source_count": 1
     },

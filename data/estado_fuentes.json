@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:30:35-04:00",
+  "generated_at": "2026-11-05T19:50:08-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,16 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_espacio_patino_lapaz",
       "fb_gam_cbba",
-      "fb_gob_tarija",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 224.2,
-    "horas_maximo_sin_datos": 1858.3
+    "horas_promedio_sin_datos": 221.4,
+    "horas_maximo_sin_datos": 1864.7
   },
   "sources": [
     {
@@ -794,13 +794,22 @@
       "tier": 2,
       "region": "Tarija",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/731983808_1441149184717130_4007396620923000011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KEzHKGPcRxkQ7kNvwFJ7pk5&_nc_oc=Adq-mjZ-WnkPTHiU1YA-r_EhBMon_PyEwzjrtdqav_VJNEAGf6NRFWZzqnaFVZ0odkU&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=e3pvIqk2dXVkwE98Lxsgdg&_nc_ss=7f289&oh=00_AQT_D6USK3BsFwFPRXCRK1K5bdHcWR8BUeZW9zOTJRxiaQ&oe=6AF2D227",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Departamental de Tarija 91 mil seguidores • 25 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2227769594821331/?__cft__[0]=AZi1lZlCEXvudq-hv1Aj1m3Q-kqNeOl_XaE3KuFWvDUhLgrZh_iqc7GVdRZvEMtdP2v7Rn86NkTQFmNKEopxx38-sdhwp5luNCO4JsgGJEBLJmGq-ydCqzWYohxk-9w4guL-EOPeYJBwL8ZAmeUhSsghkRUmNewAEB1ntkSodM5SbVa6XkjPWqYoosVe33s-VGHk&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Reunión de socialización del informe análisis y determinación de brechas de rrhh del sistema de salud en Tarija. #Salud #GobernaciónDeTarija #TarijaEsSuGente Reunión de socialización del informe análisis y determinación de brechas de rrhh del sistema de salud en Tarija. #Salud #GobernaciónDeTarija #TarijaEsSuGente Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_pando",
@@ -811,30 +820,13 @@
       "tier": 2,
       "region": "Pando",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/242124722_220577533445391_7310450614985204680_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qiSX6aO2rNAQ7kNvwGTKPRq&_nc_oc=Adq3pPvLk5WTg3DtULwF0DsZIEAAqDKvuB7_AZ15s9bcq_jxL6UCx_GAUR1gwyjIy6Y&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=3o6l8W3sxtA7tBW9YYuNbg&_nc_ss=7f289&oh=00_AQT6CbRJ_0byj63FSk_peBR22grsHqDgPiSfGJqR7ncehQ&oe=6AF27DD0",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02MJVdPUEq3U7mt69edkMn2Ntwfvd4XhfN3ddWsjp6GU2bpMokPELTeW1n6jrnv2Wgl?__cft__[0]=AZiSFy37h-GRqOX4airAmY1_UuM8NyQtDxkgdn5Wc4QKBSIKaY2Sh7v8z-3dQG8EhsPjZrlIgdagbZAtbQ6-nmu_3gfsJm_o_byorBqmwH9rjzkUYWUwRZCDwIGFuV8v1GKmNDAolY5Kicf0RtIxXra3xsOXQw2ApLU7VUkxLUxyeNCdC2kqXGU5K3Ur8Mz0BVwPftYMWw&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica El contenido no está disponible en este momento Por lo general, esto sucede porque el propietario solo compartió el contenido con un grupo reducido de personas, cambió quién puede verlo o este se eliminó. Mari Choque"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/gobiernodepartamentaldepando/posts/pfbid02MJVdPUEq3U7mt69edkMn2Ntwfvd4XhfN3ddWsjp6GU2bpMokPELTeW1n6jrnv2Wgl?comment_id=584098196711804&__cft__[0]=AZiSFy37h-GRqOX4airAmY1_UuM8NyQtDxkgdn5Wc4QKBSIKaY2Sh7v8z-3dQG8EhsPjZrlIgdagbZAtbQ6-nmu_3gfsJm_o_byorBqmwH9rjzkUYWUwRZCDwIGFuV8v1GKmNDAolY5Kicf0RtIxXra3xsOXQw2ApLU7VUkxLUxyeNCdC2kqXGU5K3Ur8Mz0BVwPftYMWw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "La AGETIC busca infraestructura para centros de innovación tecnológica Mari Choque"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_beni",
@@ -897,12 +889,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Patiño La Paz 41 mil seguidores • 55 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un'"
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1083,22 +1075,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_xPhdYqpHrEQ7kNvwHCqLDf&_nc_oc=Adqmw-V3T_T1OS_Lp_cgKYHMRi_YQr3LM3JAJXe6hpzI2ko7XvpxM365XMJuU83cFIU&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=gMGI_dmARWdHb684HjyImQ&_nc_ss=7f289&oh=00_AQSRzFaEE8ODmgWyCM15JM5kC79K4BRLB5rfldjDholRjg&oe=6AF282AF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid02SuWC3qyDiBn2w5taE4YSUoUVgS1gvNV7ZHgd45BCodSZZhQEP7kyFRH4rgNRPfmEl?__cft__[0]=AZjPxVYCb46FYaRBAx4MunZE1-AbrdtEUQd72jnNrrOI7oCOnnmPM7HrLLMgeqnyyeI1yHJ_RmHKKYUrxMrW3jRPIALEt3BXnBhMGnxTujtguzVHqbbGJ2MtkoZXn1XfrRXiIVrOslC-e9WArK0ezcZr5bQQDhb9LqnaQkVGIcNtXrjpq_Zfrluo_Ds&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "hace 13 horas miércoles, 4 de noviembre de 2026 a las 11:33 pm 13 h #CCP l GRÁFICA POÉTICA… Ver más Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1177,13 +1160,30 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/611611123_892086103405617_7679383414559238851_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Bh_LsX3S5dcQ7kNvwEl4B4s&_nc_oc=AdouSraIIsYPTIR_xmXAgpN2-D4wLZyVxGEWTkCFGpLZf1ZBVG6z_4L6NOXOIuhqR_4&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=SNjD3-V9asSIrADF1aC89A&_nc_ss=7f289&oh=00_AQSJ3O2-JDNotWHgo8fXeLHeeMMRH6I3tdBm2aVt9_CPbQ&oe=6AF2EE08",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid02fWSuAJQoHpYfL73EDfyPBjMgDJ6LUDfhMNmrMV4GbfKhiGhs2sAfmhCrGSbAeMBxl?__cft__[0]=AZgpgbE6k7n1YCqcMmPaHVJVUlzold-dS99I9oGIdYMv6A1EKVNaEiqUiZYfQiYzJaZIwDyvG7lKhJum_igP_viVOifnjrV-r554p4j6WpHwGoBlq1uJZUS0ME_Iasv2jlvLb73Zp3HzGho59YnPK6VtnvnGal35UKph-i3w_obojYbwClnAs5SQjmY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "𝐈𝐍𝐓𝐄𝐑𝐌𝐔𝐍 𝐔𝐀𝐆𝐑𝐌 𝐢𝐦𝐩𝐮𝐥𝐬𝐚 𝐞𝐥 𝐥𝐢𝐝𝐞𝐫𝐚𝐳𝐠𝐨 𝐲 𝐥𝐚 𝐝𝐢𝐩𝐥𝐨𝐦𝐚𝐜𝐢𝐚 𝐞𝐧 𝐥𝐨𝐬 𝐮𝐧𝐢𝐯𝐞𝐫𝐬𝐢𝐭𝐚𝐫𝐢𝐨𝐬 La UAGRM inauguró el Modelo de Naciones Unidas Interuniversita… Ver más 𝐈𝐍𝐓𝐄𝐑𝐌𝐔𝐍 𝐔𝐀𝐆𝐑𝐌 𝐢𝐦𝐩𝐮𝐥𝐬𝐚 𝐞𝐥 𝐥𝐢𝐝𝐞𝐫𝐚𝐳𝐠𝐨 𝐲 𝐥𝐚 𝐝𝐢𝐩𝐥𝐨𝐦𝐚𝐜𝐢𝐚 𝐞𝐧 𝐥𝐨𝐬 𝐮𝐧𝐢𝐯𝐞𝐫𝐬𝐢𝐭𝐚𝐫𝐢𝐨𝐬 La UAGRM inauguró el Modelo de Naciones Unidas Interuniversita… Ver más Excelente iniciativa …. Felicidades ..!! Julio Guzmán Gutiérrez Excelente iniciativa …. Felicidades ..!!"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/OficialUAGRM/posts/pfbid02fWSuAJQoHpYfL73EDfyPBjMgDJ6LUDfhMNmrMV4GbfKhiGhs2sAfmhCrGSbAeMBxl?comment_id=2595709900913435&__cft__[0]=AZgpgbE6k7n1YCqcMmPaHVJVUlzold-dS99I9oGIdYMv6A1EKVNaEiqUiZYfQiYzJaZIwDyvG7lKhJum_igP_viVOifnjrV-r554p4j6WpHwGoBlq1uJZUS0ME_Iasv2jlvLb73Zp3HzGho59YnPK6VtnvnGal35UKph-i3w_obojYbwClnAs5SQjmY&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Excelente iniciativa …. Felicidades ..!! Julio Guzmán Gutiérrez Excelente iniciativa …. Felicidades ..!!"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_umss",
@@ -1416,7 +1416,7 @@
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
           "score": 30,
-          "category": "deporte",
+          "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "05/11/2026 Cultura Intérpretes potosinos imponen su talento en el Festival del Charango Los charanguistas potosinos no desentonaron en la cuadragésima segunda versión del Festival y Feria del Charango 2026 que se celebró en Aiquile, porque su... vista 03/11/2026 Cultura Javier Terán: el papel de la juventud es fundamental en la obra ELeNos ELeNos es una obra que retrata la tensión entre el miedo y"
@@ -1595,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 48,
-      "events": 48,
+      "raw_items": 45,
+      "events": 45,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1644,13 +1644,38 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
+      "status": "ok",
+      "raw_items": 6,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Server error '522 <none>' for url 'https://beni.gob.bo/category/cultura/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/522"
+      "rejected": 6,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 22,
+          "category": "turismo",
+          "url": "https://beni.gob.bo/category/cultura/",
+          "has_image": true,
+          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 03/11/2026 BENI INICIA SU MES ANIVERSARIO CON LA IZA DE LA ENSEÑA PATRIA POR SUS 184 AÑOS DE CREACIÓN En el primer día hábil del mes aniversario del Beni, se realizó el acto cívico de iza de la Enseña P... Leer más → Cultura - 08/10/2026 GOBERNADOR DEL BENI PARTICIPA DE LOS 86 AÑOS DE PERÚ RÍO APERE Y COMPARTE CON LA FAMILIA GANAD"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "infantil",
+          "url": "https://beni.gob.bo/unidades-desconcentradas",
+          "has_image": true,
+          "text_preview": "Nivel Operativo Desconcentrado Unidades Desconcentradas Consulte los servicios descentralizados, centros de salud metropolitana y unidades operativas que ejecutan funciones especializadas en el departamento del Beni. Ver Todas Salud y Hospitales Desarrollo y Deporte Productivo y Campo SDA Servicio de Desarrollo Agrario Fomenta el desarrollo agropecuario integral en el departamento mediante transfe"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://beni.gob.bo/departamento/agricultura",
+          "has_image": true,
+          "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_potosi_municipio",
@@ -1680,14 +1705,14 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 8,
-      "events": 0,
+      "raw_items": 9,
+      "events": 1,
       "rejected": 8,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "feria",
+          "score": 10,
+          "category": "turismo",
           "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
           "has_image": false,
           "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
