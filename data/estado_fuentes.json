@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:48:34-04:00",
+  "generated_at": "2026-11-06T19:16:34-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,11 +12,13 @@
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
+      "fb_musef_lapaz",
+      "fb_musef_sucre",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 222.3,
-    "horas_maximo_sin_datos": 1881.6
+    "horas_promedio_sin_datos": 222.1,
+    "horas_maximo_sin_datos": 1888.1
   },
   "sources": [
     {
@@ -453,13 +455,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nec1cG_52YgQ7kNvwFEBwaS&_nc_oc=AdrRCkVC9O6hIxMh-KdUoU9aSch6TzOkmu1bOpjL9f3hAnPro-_SCxa7TGUEHuLnB5A&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=TIcA59Dw6W9FXw1K1UWICA&_nc_ss=7f289&oh=00_AQTldoayWFU1b4V4njI6B-DSBaDuHQcAi7MaYJtcsgS6jg&oe=6AF448C5",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1671664247907222/?__cft__[0]=AZg7fa10yehb2n7Up7vim43YtcJZCWycu0PQ0gYCDjsMo4uHmH55lUuCzohy6n-jUONkMgDwX1VSPRbSjA9dlL5pWXT69Dl3UiKXa616PUbAxBgYLZc7yUIFtkgy3gClBPRurE9rMS-cNx0y9AdH6fTgKWZr5AndOhR0MKm2m-vX4bbd5LHTOnznU-acufrTM_yY&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "El exfiscal Julio César Porras aseguró que durante el allanamiento a su domicilio, en el marco de las investigaciones por el caso Mariaca, no se encontró dinero ni el… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_abya_yala",
@@ -607,12 +618,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Etnografia y Folklore 40 mil seguidores • 172 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento P'"
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -674,22 +685,13 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/696282168_1306639911654685_7905006361365104235_n.avif?stp=dst-avif&cstp=mx1344x1344&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S7dpwdINmxUQ7kNvwFNb4H3&_nc_oc=AdqjfHZdjv7x5RuB0tIhhDIMWppFyNi9Fhj7O0OujCp9SVG70gB2dE9M7M_62BucXJ4&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=BfSqYVm8mXGpIystZtd2Yw&_nc_ss=7f289&oh=00_AQSqjnkWb2ZgENm9PZDOveKihPkxEkUPUAJp0OCv1GbdZQ&oe=6AF3E9FA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlcaldiaDeOruro/videos/1123714000359878/?__cft__[0]=AZhTESO-Ej25vidmFriFZIE08GrxVMtY3MJz6Hu62mlAIiEefxqG4qO4tJNkvCNKfsFJMzgawVCZGvLDPKdResD-jOppMwRzQQvdKiP4-l_KLlcFN6FOvrWm7w6JWgcAD5Mweky5-88jywf_AtgmWyugFYc-WhZVfCX_sdrvB8dhEg1sxTZMUBtrTUEQ1NHfBxM&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "ACTO DE ENTREGA DE MOBILIARIO MESAS Y SILLAS PARA LAS DIFERENTES UNIDADES EDUCATIVAS DEL MUNICIPIC DE ORURO GESTIÓN 2026 Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_tarija",
@@ -853,22 +855,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HjcM8vjLCrYQ7kNvwE8sGEj&_nc_oc=Adp8puvfSNhcGiVVsmKUXRM7ofP73pvUQ04qmnxIiRsDpf8GR7eLtLPgrZDFQToND5A&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=o1PlIp44kiHUIYFDGFjJFA&_nc_ss=7f289&oh=00_AQRY1GZ56ZhoDFP_dcl3sxfi2WSLNf58VuIn2GbayAyUcw&oe=6AF3D4A1",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/feriafipaz/posts/pfbid0j9Yy2WrR6jA28dxmzfhDxbiQkbACL1CzMmCABUCr1tsgqdgTggEjyqoGpLHrJdvul?__cft__[0]=AZiykFuy2laso2ywh3_GoD4pJwGOaNn-7KKpPacyKP6IpqryRNp1NDkwlro7HOCkcPzTzcVZmUVsRBUDVRrPSud-rW4FthawUpR5l0rKAMZTQDDHa6uKqNCPvzhCXbAY8yOnTtYeLHqLuPXHxhk-yuag-sArFnuQs56Xwl8qVHUJkcdL_8ylanBnHew&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡ÚLTIMOS DÍAS DE FIPAZ 2026 | EL FUEGO QUE NUNCA SE APAGA! … Ver más ¡ÚLTIMOS DÍAS DE FIPAZ 2026 | EL FUEGO QUE NUNCA SE APAGA! … Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -896,22 +889,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JyiZtFm9_JMQ7kNvwH5HUV3&_nc_oc=AdrX0egj28WjqhkSgssfu6haU-c3vNKIZrT418kywbCBszyqh98yxbFTAP8WxYXewVI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Su6n7r7GaaRDqMKRzlr3rA&_nc_ss=7f289&oh=00_AQSpc7pcBQx6Gcts5XPTknw4IsIYISNwvBpBTkbH7hjVgw&oe=6AF3D5E7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02eE5LuX5Nukmq97rkT2ZzvZ2m11G4F2V4g7oSEgoGSEiBjYKwmpC6W1CV7EYJCDbcl?__cft__[0]=AZgwWx6WWQOC0oBZQxBlPAX9Qt29_bMYNA9X7CC6UcT7FgZ_C8Sl1qHXEEmqqxBtD8_R81mHApty1hmh4i9daDtQoYl0SmAVNFXPSedsg7Wj3YkV8CCSQCuMGuHmdQgarm0TfmA1OrLBFSjSJC5gOliuDYF8etvHnDwwmCLx7YBmM9Qkzg8dZudPXQY&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Educación | ¡Quedan solo 10 días para postular a las Subvenciones Educativas 2027!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -1127,12 +1111,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? MUSEF Regional Sucre 4,2 mil seguidores • 17 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un e'"
     },
     {
       "id": "fb_usfx",
@@ -1407,7 +1391,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 36,
+          "score": 2,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1415,7 +1399,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 36,
+          "score": 30,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1423,7 +1407,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 52,
+          "score": 24,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1595,8 +1579,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 48,
-      "events": 48,
+      "raw_items": 44,
+      "events": 44,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1705,21 +1689,13 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 9,
+      "raw_items": 7,
       "events": 0,
-      "rejected": 9,
+      "rejected": 7,
       "rejected_samples": [
         {
-          "reason": "relevancia_insuficiente",
-          "score": 48,
-          "category": "feria",
-          "url": "https://www.tarija.gob.bo/",
-          "has_image": true,
-          "text_preview": "0 % Noticias Tarija exige al Gobierno Nacional el cumplimiento de los ítems de salud 05/11/2026 Noticias Bermejo fortalece su producción cañera con apoyo de la Gobernación 04/11/2026 Noticias Gobernación y bomberos voluntarios avanzan en el control de incendios en Tarija 04/11/2026 Noticias Tarija muestra su potencial productivo e innovador en la feria de formación productiva 2026 30/10/2026 Notic"
-        },
-        {
           "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 10,
+          "score": 24,
           "category": "turismo",
           "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
           "has_image": false,
@@ -1732,6 +1708,14 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones",
           "has_image": false,
           "text_preview": "0 % Manuales de organizacion y funciones Ordering Órden Ascendente Órden Descendente Título Ascendente Título Descendente Fecha Ascendente Fecha Descendente Filename Ascending Filename Descending Rating Count Ascending Rating Count Descending Rating Ascending Rating Descending Downloads Ascending Downloads Descending Cantidad de ítems por página 5 10 15 20 50 Todo Powered by Phoca Download"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
+          "has_image": false,
+          "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
         }
       ],
       "error": null
