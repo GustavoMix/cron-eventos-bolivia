@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T02:50:15-04:00",
+  "generated_at": "2026-11-06T12:48:34-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,7 +8,6 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_espacio_patino_lapaz",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -16,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 223.2,
-    "horas_maximo_sin_datos": 1871.7
+    "horas_promedio_sin_datos": 222.3,
+    "horas_maximo_sin_datos": 1881.6
   },
   "sources": [
     {
@@ -29,13 +28,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lNUztUWqyOgQ7kNvwE1OIH9&_nc_oc=Adr8BZul8wF0wqZcuGRrCh3AyWzqRjV-B5-p6Z8Y9BPmMzRfy01e0ImE0XWKL2b3O8w&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=tLxNHlHSsO30gXMfshYY3A&_nc_ss=7f289&oh=00_AQSkVOW5VdQLM0suaV_FrPxlaaRUWxS-uETb5Yi5gShMsg&oe=6AF342DA",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -675,13 +674,22 @@
       "tier": 2,
       "region": "Oruro",
       "city": "Oruro",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/696282168_1306639911654685_7905006361365104235_n.avif?stp=dst-avif&cstp=mx1344x1344&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S7dpwdINmxUQ7kNvwFNb4H3&_nc_oc=AdqjfHZdjv7x5RuB0tIhhDIMWppFyNi9Fhj7O0OujCp9SVG70gB2dE9M7M_62BucXJ4&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=BfSqYVm8mXGpIystZtd2Yw&_nc_ss=7f289&oh=00_AQSqjnkWb2ZgENm9PZDOveKihPkxEkUPUAJp0OCv1GbdZQ&oe=6AF3E9FA",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlcaldiaDeOruro/videos/1123714000359878/?__cft__[0]=AZhTESO-Ej25vidmFriFZIE08GrxVMtY3MJz6Hu62mlAIiEefxqG4qO4tJNkvCNKfsFJMzgawVCZGvLDPKdResD-jOppMwRzQQvdKiP4-l_KLlcFN6FOvrWm7w6JWgcAD5Mweky5-88jywf_AtgmWyugFYc-WhZVfCX_sdrvB8dhEg1sxTZMUBtrTUEQ1NHfBxM&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "ACTO DE ENTREGA DE MOBILIARIO MESAS Y SILLAS PARA LAS DIFERENTES UNIDADES EDUCATIVAS DEL MUNICIPIC DE ORURO GESTIÓN 2026 Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_tarija",
@@ -845,13 +853,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HjcM8vjLCrYQ7kNvwE8sGEj&_nc_oc=Adp8puvfSNhcGiVVsmKUXRM7ofP73pvUQ04qmnxIiRsDpf8GR7eLtLPgrZDFQToND5A&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=o1PlIp44kiHUIYFDGFjJFA&_nc_ss=7f289&oh=00_AQRY1GZ56ZhoDFP_dcl3sxfi2WSLNf58VuIn2GbayAyUcw&oe=6AF3D4A1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/feriafipaz/posts/pfbid0j9Yy2WrR6jA28dxmzfhDxbiQkbACL1CzMmCABUCr1tsgqdgTggEjyqoGpLHrJdvul?__cft__[0]=AZiykFuy2laso2ywh3_GoD4pJwGOaNn-7KKpPacyKP6IpqryRNp1NDkwlro7HOCkcPzTzcVZmUVsRBUDVRrPSud-rW4FthawUpR5l0rKAMZTQDDHa6uKqNCPvzhCXbAY8yOnTtYeLHqLuPXHxhk-yuag-sArFnuQs56Xwl8qVHUJkcdL_8ylanBnHew&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡ÚLTIMOS DÍAS DE FIPAZ 2026 | EL FUEGO QUE NUNCA SE APAGA! … Ver más ¡ÚLTIMOS DÍAS DE FIPAZ 2026 | EL FUEGO QUE NUNCA SE APAGA! … Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -879,13 +896,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JyiZtFm9_JMQ7kNvwH5HUV3&_nc_oc=AdrX0egj28WjqhkSgssfu6haU-c3vNKIZrT418kywbCBszyqh98yxbFTAP8WxYXewVI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Su6n7r7GaaRDqMKRzlr3rA&_nc_ss=7f289&oh=00_AQSpc7pcBQx6Gcts5XPTknw4IsIYISNwvBpBTkbH7hjVgw&oe=6AF3D5E7",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Patiño La Paz 41 mil seguidores • 55 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid02eE5LuX5Nukmq97rkT2ZzvZ2m11G4F2V4g7oSEgoGSEiBjYKwmpC6W1CV7EYJCDbcl?__cft__[0]=AZgwWx6WWQOC0oBZQxBlPAX9Qt29_bMYNA9X7CC6UcT7FgZ_C8Sl1qHXEEmqqxBtD8_R81mHApty1hmh4i9daDtQoYl0SmAVNFXPSedsg7Wj3YkV8CCSQCuMGuHmdQgarm0TfmA1OrLBFSjSJC5gOliuDYF8etvHnDwwmCLx7YBmM9Qkzg8dZudPXQY&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Educación | ¡Quedan solo 10 días para postular a las Subvenciones Educativas 2027!… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -998,30 +1024,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QPFEURazotoQ7kNvwE8qJZf&_nc_oc=Ado4VZ3H8hQ0B7r8xMCdDhx6rMem1q1kOJSb7pxJrH60BBwTNO1msriaYDETY-2x3g0&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=amN97GRBsg3BK4qdMDPXZg&_nc_ss=7f289&oh=00_AQQCSrUszqEjwwF9WaPs3ExiD1c4Mj3jqq3ZuUkoO9qn5g&oe=6AF35EB4",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid0TiTx8DQULozgGYhHGux7ioJxTHqU3R543TkcofhGeKP784VvkRgHG4j8WKbNgiJZl?__cft__[0]=AZiB_Bzx__8BBlivrl2uqbrCAh9nBFlqXBtf6EhAZfBxgULeLl23LbQI5HviNs9GYd-Mv54sEW1eDTTgLugKhdktRTfyMdUngxq_3etYQBQS5gPpJ3WgJWCp3_fhpBXy8LJ39rPT0nkM0NkGMpwfs_gsTVXwjgHO54X4asg7C5xwhdLudvW7L80wD88&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#Educación | ¡Quedan solo 10 días para postular a las Subvenciones Educativas 2027!… Ver más Como puedo conseguir mas informacion porfavor Roxana Sandoval"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/FundacionPatinoCochabamba/posts/pfbid0TiTx8DQULozgGYhHGux7ioJxTHqU3R543TkcofhGeKP784VvkRgHG4j8WKbNgiJZl?comment_id=1134507495646919&__cft__[0]=AZiB_Bzx__8BBlivrl2uqbrCAh9nBFlqXBtf6EhAZfBxgULeLl23LbQI5HviNs9GYd-Mv54sEW1eDTTgLugKhdktRTfyMdUngxq_3etYQBQS5gPpJ3WgJWCp3_fhpBXy8LJ39rPT0nkM0NkGMpwfs_gsTVXwjgHO54X4asg7C5xwhdLudvW7L80wD88&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Como puedo conseguir mas informacion porfavor Roxana Sandoval"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1340,12 +1349,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": null
     },
     {
       "id": "web_lapaz_cultura",
@@ -1362,7 +1371,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "Client error '404 Not Found' for url 'https://lapaz.bo/eventos-culturales/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "id": "web_turismo_culturas",
@@ -1398,7 +1407,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 10,
+          "score": 36,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1406,15 +1415,15 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 2,
-          "category": "festival",
+          "score": 36,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "05/11/2026 Cultura Intérpretes potosinos imponen su talento en el Festival del Charango Los charanguistas potosinos no desentonaron en la cuadragésima segunda versión del Festival y Feria del Charango 2026 que se celebró en Aiquile, porque su... vista 03/11/2026 Cultura Javier Terán: el papel de la juventud es fundamental en la obra ELeNos ELeNos es una obra que retrata la tensión entre el miedo y"
+          "text_preview": "06/11/2026 Cultura Carvalho y Pereira triunfan en el 53º Concurso de Literatura Franz Tamayo Los escritores nacionales Carmen Lucía Carvalho Sandoval (Santa Cruz) y Yuvinscka Jhannirha Pereira Hurtado (La Paz) ganaron la quincuagésima edición del... vista 05/11/2026 Cultura Intérpretes potosinos imponen su talento en el Festival del Charango Los charanguistas potosinos no desentonaron en la cuadra"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 24,
+          "score": 52,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1772,9 +1781,9 @@
       "city": "Sucre",
       "icon_url": "https://sucre.bo/wp-content/uploads/2026/05/header_web_2026.png",
       "status": "ok",
-      "raw_items": 4,
+      "raw_items": 5,
       "events": 1,
-      "rejected": 3,
+      "rejected": 4,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",

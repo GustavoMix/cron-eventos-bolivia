@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-11-06T02:50:15-04:00",
+  "generated_at": "2026-11-06T12:48:34-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 103,
+    "events_total": 104,
     "events_today": 20
   },
   "filters": {
@@ -75,7 +75,7 @@
       {
         "key": "festival",
         "label": "Festivales",
-        "count": 9
+        "count": 10
       },
       {
         "key": "teatro",
@@ -132,7 +132,7 @@
       {
         "key": "Sucre",
         "label": "Sucre",
-        "count": 7
+        "count": 8
       },
       {
         "key": "Quillacollo",
@@ -184,7 +184,7 @@
       {
         "key": "Chuquisaca",
         "label": "Chuquisaca",
-        "count": 7
+        "count": 8
       },
       {
         "key": "Oruro",
@@ -211,17 +211,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 49
+        "count": 50
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 56
+        "count": 57
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 103
+        "count": 104
       }
     ],
     "price": [
@@ -233,7 +233,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 34
+        "count": 35
       },
       {
         "key": "por_confirmar",
@@ -245,7 +245,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 94
+        "count": 95
       },
       {
         "key": "con_video",
@@ -399,7 +399,7 @@
       {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
-        "count": 10
+        "count": 11
       },
       {
         "key": "eventos",
@@ -527,23 +527,23 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 42,
+      "events_total": 39,
       "events_upcoming": 20,
       "events_with_image": 19,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 2
+      "sources_ok": 5
     },
     "Cochabamba": {
-      "events_total": 53,
+      "events_total": 51,
       "events_upcoming": 40,
       "events_with_image": 40,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 34,
+      "events_total": 32,
       "events_upcoming": 16,
       "events_with_image": 11,
       "events_with_video": 1,
@@ -552,8 +552,8 @@
     },
     "Chuquisaca": {
       "events_total": 11,
-      "events_upcoming": 7,
-      "events_with_image": 7,
+      "events_upcoming": 8,
+      "events_with_image": 8,
       "events_with_video": 0,
       "sources_total": 8,
       "sources_ok": 2
@@ -564,7 +564,7 @@
       "events_with_image": 3,
       "events_with_video": 1,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 2
     },
     "Potosí": {
       "events_total": 2,
@@ -602,7 +602,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 66,
+      "events_total": 58,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0
@@ -651,9 +651,9 @@
     },
     "festival": {
       "label": "Festivales",
-      "events_total": 9,
-      "events_upcoming": 9,
-      "events_with_image": 9,
+      "events_total": 10,
+      "events_upcoming": 10,
+      "events_with_image": 10,
       "events_with_video": 0
     },
     "gastronomia": {
@@ -3033,6 +3033,44 @@
       "cast": [],
       "quality_score": 72,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_0d8b7896d449f9",
+      "title": "GAMS Gobierno Autonomo Municipal de Sucre",
+      "category": "festival",
+      "category_label": "Festivales",
+      "starts_at": "2026-11-12T02:00:00-04:00",
+      "starts_at_ms": 1794463200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 12 de noviembre · 02:00",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 6,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": null,
+      "image_url": "https://sucre.bo/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-12.28.41-310x165.jpeg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 7.5,
+      "currency": "BOB",
+      "price_label": "Bs 7.5 - 172.21",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },
