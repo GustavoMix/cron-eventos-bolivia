@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:16:34-04:00",
+  "generated_at": "2026-11-07T01:59:44-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,13 +12,11 @@
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_musef_lapaz",
-      "fb_musef_sucre",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 222.1,
-    "horas_maximo_sin_datos": 1888.1
+    "horas_promedio_sin_datos": 218.4,
+    "horas_maximo_sin_datos": 1894.8
   },
   "sources": [
     {
@@ -206,7 +204,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. WKP-JBD-DSNS Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
     },
     {
       "id": "fb_gob_cbba",
@@ -455,22 +453,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nec1cG_52YgQ7kNvwFEBwaS&_nc_oc=AdrRCkVC9O6hIxMh-KdUoU9aSch6TzOkmu1bOpjL9f3hAnPro-_SCxa7TGUEHuLnB5A&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=TIcA59Dw6W9FXw1K1UWICA&_nc_ss=7f289&oh=00_AQTldoayWFU1b4V4njI6B-DSBaDuHQcAi7MaYJtcsgS6jg&oe=6AF448C5",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1671664247907222/?__cft__[0]=AZg7fa10yehb2n7Up7vim43YtcJZCWycu0PQ0gYCDjsMo4uHmH55lUuCzohy6n-jUONkMgDwX1VSPRbSjA9dlL5pWXT69Dl3UiKXa616PUbAxBgYLZc7yUIFtkgy3gClBPRurE9rMS-cNx0y9AdH6fTgKWZr5AndOhR0MKm2m-vX4bbd5LHTOnznU-acufrTM_yY&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "El exfiscal Julio César Porras aseguró que durante el allanamiento a su domicilio, en el marco de las investigaciones por el caso Mariaca, no se encontró dinero ni el… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_abya_yala",
@@ -617,13 +606,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=m4TN9MAt-tMQ7kNvwGzJdS_&_nc_oc=AdqqykAn9DWeZT2yQmnJJYC-vT5RRdHr2-aD3ImN9HL6fy2xP5CX-V8jy1oR300UlOA&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=rHM7N8MQdWbkqc1PWFr5jA&_nc_ss=7f289&oh=00_AQSKvwdXJ_h1cVRf_-AXz1rxczhbp1y5_a28_OA_evDYFQ&oe=6AF4A633",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Etnografia y Folklore 40 mil seguidores • 172 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento P'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 36,
+          "category": "concierto",
+          "url": "https://www.facebook.com/musef.lapaz.bolivia/videos/-%F0%9D%97%A6%F0%9D%97%A2%F0%9D%97%A1%F0%9D%97%A2%F0%9D%97%A5%F0%9D%97%9C%F0%9D%97%97%F0%9D%97%94%F0%9D%97%97%F0%9D%97%98%F0%9D%97%A6-%F0%9D%97%98%F0%9D%97%A0%F0%9D%97%98%F0%9D%97%A5%F0%9D%97%9A%F0%9D%97%98%F0%9D%97%A1%F0%9D%97%A7%F0%9D%97%98%F0%9D%97%A6-%F0%9D%97%97%F0%9D%97%98-%F0%9D%97%A1%F0%9D%97%A8%F0%9D%97%98%F0%9D%97%A6%F0%9D%97%A7%F0%9D%97%A5%F0%9D%97%A2%F0%9D%97%A6-%F0%9D%97%A7%F0%9D%97%98%F0%9D%97%A5%F0%9D%97%A5%F0%9D%97%9C%F0%9D%97%A7%F0%9D%97%A2%F0%9D%97%A5%F0%9D%97%9C%F0%9D%97%A2%F0%9D%97%A6-%F0%9D%97%98%F0%9D%97%A1-%F0%9D%97%A9%F0%9D%97%9C%F0%9D%97%A9%F0%9D%97%A2/1144255424767852/",
+          "has_image": true,
+          "text_preview": "🎶 𝗦𝗢𝗡𝗢𝗥𝗜𝗗𝗔𝗗𝗘𝗦 𝗘𝗠𝗘𝗥𝗚𝗘𝗡𝗧𝗘𝗦 𝗗𝗘 𝗡𝗨𝗘𝗦𝗧𝗥𝗢𝗦 𝗧𝗘𝗥𝗥𝗜𝗧𝗢𝗥𝗜𝗢𝗦 | 𝗘𝗡 𝗩𝗜𝗩𝗢🔴 ¡La música andina toma el escenario del MUSEF! Acompáñanos en esta transmisión en vivo de 𝗘𝘀𝗰𝗮𝗿𝗰𝗵𝗮, un concierto que nos acerca a los... 🎶 𝗦𝗢𝗡𝗢𝗥𝗜𝗗𝗔𝗗𝗘𝗦 𝗘𝗠𝗘𝗥𝗚𝗘𝗡𝗧𝗘𝗦 𝗗𝗘 𝗡𝗨𝗘𝗦𝗧𝗥𝗢𝗦 𝗧𝗘𝗥𝗥𝗜𝗧𝗢𝗥𝗜𝗢𝗦 | 𝗘𝗡 𝗩𝗜𝗩𝗢🔴 ¡La música andina toma el escenario del MUSEF! Acompáñanos en esta transmisión en vivo de... 𝗦𝗢𝗡𝗢𝗥𝗜𝗗𝗔𝗗𝗘𝗦 𝗘𝗠𝗘𝗥𝗚𝗘𝗡𝗧𝗘𝗦 𝗗𝗘 𝗡𝗨𝗘𝗦𝗧𝗥𝗢𝗦 𝗧𝗘𝗥𝗥𝗜𝗧𝗢𝗥𝗜𝗢𝗦 | 𝗘"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -1110,13 +1108,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mhVGJSxGYXAQ7kNvwGV0NUF&_nc_oc=AdrYex3nyaB6pxBg4w4ISrVYXStcSSlsYjBkWHFnscdqro74XXoUANMM_Si3zPjtcQA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=jWf6sMy4Bb51pWgq39r5HQ&_nc_ss=7f289&oh=00_AQQXMRHXwYk5JDwEA4yFPSs7mze-_aotJjZwEHp3OcRZJg&oe=6AF492E4",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? MUSEF Regional Sucre 4,2 mil seguidores • 17 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un e'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 42,
+          "category": "infantil",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid02iuTpcPERkDhCYeHHMPjMtrQFZUEnNdXScT2tn7GsrgFubFAMZFZggCeaSBkHM8njl?__cft__[0]=AZhYmkg5EUr-9QftL-m4DKRHPl4U3zTqXXTU7Wv6oZhGgGRSrBju9nXENO65iPOFehZXr_w9Hb81K-xYNxIvXkRcaZ-obAajc4j7JotyHQh4FP0PogrniRzA4M4fIoDmmvPJhBkrtiKMaB4KBUArbfy141fAw6ssDmhqCZzo96aiFt3ATzdvO4IBxyk&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#MUSEFSucre | ¡Recibimos la visita de niños y niñas! Con mucha alegría recibimos la visita de la Unidad Educativa \"Don Bosco\" de la ciudad de Sucre para conocer y de… Ver más #MUSEFSucre | ¡Recibimos la visita de niños y niñas! Con mucha alegría recibimos la visita de la Unidad Educativa \"Don Bosco\" de la ciudad de Sucre para conocer y de… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1195,13 +1202,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/617019717_1330584559113506_6635883657143889082_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-BhC7WFoGmEQ7kNvwHtY6vX&_nc_oc=AdpYWV4XYWYBBb3rt-6CJtsmklQHs2B-V_RMfhnRM5iVcc5HCKAUJrF1Wit6o3dMQsg&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=8r17CrV6FS93thPm_MK2BA&_nc_ss=7f289&oh=00_AQTBv6oSEUlSM17GK356a3uW0VjPEbmWZJqwn8PenYDbWw&oe=6AF49CF2",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "deporte",
+          "url": "https://www.facebook.com/UCB.BOLIVIA/posts/pfbid0XaZj5Km7CG4DWK87qfRra8TbFBA1CyY1hS1akCFh9KscDmp2nQDqGcDz8LfvsdoWl?__cft__[0]=AZgWHmtU10I6qzepBlSAB4yJzei8zjml2uU0pDqotpLX8DquUA1801pGC7QXIvntZCJfzJqsyUjjpWoC6kmZv7pgfTsZh9QFNn7DcPIssAyy30d7JrXEsJMSEzFBInKVJLX9co_HZKuo9-OdOKYKg3SSaaPJnF_7HtDqcG4Eh4qDtZgeKwtKjZfgVe0&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¿Listo para dar el siguiente paso hacia tu futuro? Conoce nuestra 𝐨𝐟𝐞𝐫𝐭𝐚 𝐚𝐜𝐚𝐝𝐞́𝐦𝐢𝐜𝐚 y encuentra la carrera ideal para ti. Escríbenos p… Ver más ¿Listo para dar el siguiente paso hacia tu futuro? Conoce nuestra 𝐨𝐟𝐞𝐫𝐭𝐚 𝐚𝐜𝐚𝐝𝐞́𝐦𝐢𝐜𝐚 y encuentra la carrera ideal para ti. Escríbenos p… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_upsa",
@@ -1333,12 +1349,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "_ssl.c:994: The handshake operation timed out"
     },
     {
       "id": "web_lapaz_cultura",
@@ -1355,7 +1371,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Client error '404 Not Found' for url 'https://lapaz.bo/eventos-culturales/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      "error": "_ssl.c:994: The handshake operation timed out"
     },
     {
       "id": "web_turismo_culturas",
@@ -1391,7 +1407,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 2,
+          "score": 0,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1399,7 +1415,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 30,
+          "score": 0,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1407,7 +1423,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 24,
+          "score": 6,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
@@ -1493,7 +1509,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c70789a6-8a17-4aa5-91c3-e2bcf5609065",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/e02fe5fd-6719-44d6-974f-600d1ea90020",
           "has_image": true,
           "text_preview": ""
         }
@@ -1511,8 +1527,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
-      "events": 39,
+      "raw_items": 38,
+      "events": 38,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1545,8 +1561,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1579,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 44,
-      "events": 44,
+      "raw_items": 49,
+      "events": 49,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1689,9 +1705,9 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 7,
+      "raw_items": 6,
       "events": 0,
-      "rejected": 7,
+      "rejected": 6,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
