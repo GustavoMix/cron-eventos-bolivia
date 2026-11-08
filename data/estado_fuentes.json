@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T20:38:17-04:00",
+  "generated_at": "2026-11-08T06:23:07-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_alianza_francesa_cbba",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -17,8 +18,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 216.1,
-    "horas_maximo_sin_datos": 1913.5
+    "horas_promedio_sin_datos": 219.7,
+    "horas_maximo_sin_datos": 1923.2
   },
   "sources": [
     {
@@ -660,12 +661,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Sucre 159 mil seguidores • 25 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pued'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_oruro",
@@ -694,12 +695,12 @@
       "region": "Tarija",
       "city": "Tarija",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Tarija 85 mil seguidores • 24 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pued'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -710,22 +711,13 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/886725976_1588388863327509_6348012705909866111_n.jpg?stp=dst-jpg_tt6&cstp=mx591x591&ctp=s591x591&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=G8PpCRVLdYwQ7kNvwGj9a3d&_nc_oc=AdqcT-iFGmpbMAwYOvxHv6GOxIbegeCStXYgSxPGgnDV8FFnXkFWr9NdW__QabC6jso&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=eojPd-KAUWOWy_UDXhSNJw&_nc_ss=7f289&oh=00_AQSKoZKQNPoKB6N0DrqajR1vj46S5UhwYA8JTXef_zEqdQ&oe=6AF5B21B",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2195650237687929/?__cft__[0]=AZiTpjz59v-P5x2Bo60INDSLvJAIMMMsVx2WO1gSOD4pBpiZliz84q5oo1PObHnM9llPwHLcZR773q9Vk9pur_wH4TPLy3_tI0_UCQ0fX39efNmKzWTh0Iw5aHilbI1cRO51_JM7XP50QX1f2iVF7UTW8fw5jjLMnSCN7SFnQyWUUabBR5PaDalEA5-zBAGJPFw_&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "POTOSÍ MI CIUDAD LIMPIA… Ver más Tenemos problemas para reproducir este video. Más información Ver más comentarios Maritza FC"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_trinidad",
@@ -957,13 +949,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iFKkuVL03ngQ7kNvwHaIHhn&_nc_oc=AdpijMjIcYNtiamxuHYdu910Eh5p4Lc_FMRIFL3EtafvoaTdWjavzg2tgqKC2i64Rts&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=anzcUm-AYtsD82qSSTyzOw&_nc_ss=7f289&oh=00_AQRcGZ7av21AUIP3PmbYqQhWsYBv-GwCouc72pqdmxMouw&oe=6AF60857",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 40,
+          "category": "otro",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid02r3UkFw5936YyGme2JWmKwhGqjeWwoyMoWVD8rskPjjm1zUYNR89QaBWovseBmqevl?__cft__[0]=AZgL2yzGckussxr-X--eE1yJp3spz1Tn7ONGwspBnXFZaUrT_bMFNC0bGXEmYAP0vbg5o7GK1IWSBdj7G3JuOMy2PPlsimzVyQ0eMb3R59WE1vOJ5K5KDYswJHcIQhJRnJ9whbBcme2ngRypSPYSl3UBPRjWlvI9V1BN8lLHWJRCP-wTaEV55XtxSvflGdDaCVa24TdeUYc8C5gf5FE&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Manzana 1 Espacio de Arte recibió la grata visita de representantes de @repsol , empresa que desde hace aproximadamente 20 años respalda y acompaña nuestro proyecto cul… Ver más Tenemos problemas para reproducir este video. Más información Tienda Manzana 1 está en Manzana 1 Espacio de Arte. hace un día viernes, 6 de noviembre de 2026 a las 6:11 pm 1 día · Santa Cruz de la Sierra, Departamento de S"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1025,13 +1026,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AUAshATaOd8Q7kNvwG48N-i&_nc_oc=AdpB0g4hPCbIzrR3w0towmzvbMg-aeYwNfqWWYYSMqrsgXGRvWGggLD9i4oaT4DwSJ0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=9TRbSHtepyjtqOWQpReoxA&_nc_ss=7f289&oh=00_AQQf86cwuwu_CE2d8pyysA-3WCyq3eKOsKm-THOagbJk1Q&oe=6AF60B0F",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1132278572990371/?__cft__[0]=AZjIFfG3tgtL7SQI9vY0bOyvazgZMdbW7pP7EBNsHjcgD0V-VB92FbtTzO2wAdbR-iJNXbMQjkSCAfHsb5PEy2qXORfIbSmQ3vePQEIs26T8OZmZ5g9nixE7Gog5u5KOGG1tc4pfqrnKfchORKik_-mRaRwjC5ct71xCbiwEOsN5d6VxZD2cm4LHBPY2c9iK72I0&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Confiesa: ¿Eres de los que hacen todo a último momento o de los que hacen la tarea la noche anterior con mucho café al lado? ​En Bolivia amamos el peligro, pero pag… Ver más Confiesa: ¿Eres de los que hacen todo a último momento o de los que hacen la tarea la noche anterior con mucho café al lado? ​En Bolivia amamos el peligro, pero pag… Ver más Tenemos problemas para reproducir este video. Más in"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1043,12 +1053,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de Cochabamba 28 mil seguidores • 233 seguidos Más Publicaciones Información Reels Fotos Seguidos Esta página no está disponible en este momento P'"
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1231,8 +1241,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 11,
-      "events": 9,
+      "raw_items": 10,
+      "events": 8,
       "rejected": 2,
       "rejected_samples": [
         {
@@ -1477,14 +1487,6 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c2f58777-9401-4120-8d0a-9af00f3249d8",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
           "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/b6ad27fc-0993-4eb4-8b4e-bb2c08783ebe",
           "has_image": true,
           "text_preview": ""
@@ -1493,7 +1495,15 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/e02fe5fd-6719-44d6-974f-600d1ea90020",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c61fa519-18dd-4be8-a1d0-e1180ae28d06",
+          "has_image": true,
+          "text_preview": ""
+        },
+        {
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/fe358727-3157-4095-8fbb-b53b48095fcc",
           "has_image": true,
           "text_preview": ""
         }
@@ -1511,8 +1521,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
-      "events": 38,
+      "raw_items": 37,
+      "events": 37,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1579,8 +1589,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 43,
-      "events": 43,
+      "raw_items": 48,
+      "events": 48,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
