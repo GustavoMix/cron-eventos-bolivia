@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-11-08T06:23:07-04:00",
+  "generated_at": "2026-11-08T13:59:25-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 99,
+    "events_total": 100,
     "events_today": 15
   },
   "filters": {
@@ -55,7 +55,7 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 29
+        "count": 30
       },
       {
         "key": "cine",
@@ -132,7 +132,7 @@
       {
         "key": "Quillacollo",
         "label": "Quillacollo",
-        "count": 8
+        "count": 9
       },
       {
         "key": "Sucre",
@@ -164,7 +164,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 38
+        "count": 39
       },
       {
         "key": "La Paz",
@@ -211,17 +211,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 47
+        "count": 48
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 53
+        "count": 54
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 99
+        "count": 100
       }
     ],
     "price": [
@@ -233,7 +233,7 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 32
+        "count": 33
       },
       {
         "key": "por_confirmar",
@@ -245,7 +245,7 @@
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 91
+        "count": 92
       },
       {
         "key": "con_video",
@@ -379,7 +379,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 47
+        "count": 48
       },
       {
         "key": "cartelera_cine",
@@ -432,12 +432,12 @@
       "evt_6a95b4bd173125",
       "evt_8859370ab6d525",
       "evt_05a0e0b39dba8a",
-      "evt_51aa548ca6f5b8",
       "evt_a90819dc279aba",
       "evt_11d5e2654f9ba3",
       "evt_d445489a5b9abb",
       "evt_b30ae754aca5c9",
       "evt_5349eead4fc94a",
+      "evt_51aa548ca6f5b8",
       "evt_0fb886da20a1fc",
       "evt_c6d49174b0f08e",
       "evt_9c7c067fa47454"
@@ -483,12 +483,12 @@
       "evt_6a95b4bd173125",
       "evt_8859370ab6d525",
       "evt_05a0e0b39dba8a",
-      "evt_51aa548ca6f5b8",
       "evt_a90819dc279aba",
       "evt_11d5e2654f9ba3",
       "evt_d445489a5b9abb",
       "evt_b30ae754aca5c9",
       "evt_5349eead4fc94a",
+      "evt_51aa548ca6f5b8",
       "evt_0fb886da20a1fc",
       "evt_c6d49174b0f08e",
       "evt_9c7c067fa47454"
@@ -509,12 +509,12 @@
       "evt_6a95b4bd173125",
       "evt_8859370ab6d525",
       "evt_05a0e0b39dba8a",
-      "evt_51aa548ca6f5b8",
       "evt_a90819dc279aba",
       "evt_11d5e2654f9ba3",
       "evt_d445489a5b9abb",
       "evt_b30ae754aca5c9",
       "evt_5349eead4fc94a",
+      "evt_51aa548ca6f5b8",
       "evt_0fb886da20a1fc",
       "evt_c6d49174b0f08e",
       "evt_9c7c067fa47454",
@@ -544,20 +544,20 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 40,
+      "events_total": 37,
       "events_upcoming": 20,
       "events_with_image": 19,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Cochabamba": {
-      "events_total": 50,
-      "events_upcoming": 38,
-      "events_with_image": 38,
+      "events_total": 51,
+      "events_upcoming": 39,
+      "events_with_image": 39,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 3
+      "sources_ok": 4
     },
     "Santa Cruz": {
       "events_total": 33,
@@ -565,15 +565,15 @@
       "events_with_image": 11,
       "events_with_video": 1,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Chuquisaca": {
-      "events_total": 12,
+      "events_total": 11,
       "events_upcoming": 8,
       "events_with_image": 8,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 2
+      "sources_ok": 3
     },
     "Oruro": {
       "events_total": 4,
@@ -619,7 +619,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 66,
+      "events_total": 61,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0
@@ -647,9 +647,9 @@
     },
     "deporte": {
       "label": "Deportes",
-      "events_total": 35,
-      "events_upcoming": 29,
-      "events_with_image": 27,
+      "events_total": 37,
+      "events_upcoming": 30,
+      "events_with_image": 28,
       "events_with_video": 0
     },
     "exposicion": {
@@ -1692,129 +1692,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_51aa548ca6f5b8",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-11-08T11:30:00-04:00",
-      "starts_at_ms": 1794151800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Domingo 8 de noviembre · 11:30",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/10/godzilla-minus-zero-47908.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "11:30",
-        "14:20",
-        "17:10",
-        "20:00",
-        "12:30",
-        "15:20",
-        "18:10",
-        "21:00",
-        "09:30",
-        "12:00",
-        "14:50",
-        "17:40",
-        "20:30",
-        "10:40",
-        "11:40",
-        "13:20",
-        "14:10",
-        "16:40",
-        "19:10",
-        "10:30",
-        "13:00",
-        "15:40",
-        "18:20",
-        "15:50",
-        "20:40",
-        "12:50",
-        "13:30",
-        "16:00",
-        "18:30",
-        "19:00",
-        "21:30",
-        "15:30"
-      ],
-      "formats": [
-        "2D - DBOX - Doblada",
-        "2D - DBOX - XD - Doblada",
-        "2D - PRE - Doblada",
-        "2D - PRE - Subtitulada",
-        "2D - Doblada",
-        "2D - Subtitulada",
-        "2D - Lenguaje Original"
-      ],
-      "occurrences": [
-        "2026-11-08T11:30:00-04:00",
-        "2026-11-08T14:20:00-04:00",
-        "2026-11-08T17:10:00-04:00",
-        "2026-11-08T20:00:00-04:00",
-        "2026-11-08T12:30:00-04:00",
-        "2026-11-08T15:20:00-04:00",
-        "2026-11-08T18:10:00-04:00",
-        "2026-11-08T21:00:00-04:00",
-        "2026-11-08T09:30:00-04:00",
-        "2026-11-08T12:00:00-04:00",
-        "2026-11-08T14:50:00-04:00",
-        "2026-11-08T17:40:00-04:00",
-        "2026-11-08T20:30:00-04:00",
-        "2026-11-08T10:40:00-04:00",
-        "2026-11-08T11:40:00-04:00",
-        "2026-11-08T13:20:00-04:00",
-        "2026-11-08T14:10:00-04:00",
-        "2026-11-08T16:40:00-04:00",
-        "2026-11-08T19:10:00-04:00",
-        "2026-11-08T10:30:00-04:00",
-        "2026-11-08T13:00:00-04:00",
-        "2026-11-08T15:40:00-04:00",
-        "2026-11-08T18:20:00-04:00",
-        "2026-11-08T15:50:00-04:00",
-        "2026-11-08T20:40:00-04:00",
-        "2026-11-08T12:50:00-04:00",
-        "2026-11-08T13:30:00-04:00",
-        "2026-11-08T16:00:00-04:00",
-        "2026-11-08T18:30:00-04:00",
-        "2026-11-08T19:00:00-04:00",
-        "2026-11-08T21:30:00-04:00",
-        "2026-11-08T15:30:00-04:00",
-        "2026-11-08T18:00:00-04:00",
-        "2026-11-08T10:20:00-04:00",
-        "2026-11-08T19:30:00-04:00",
-        "2026-11-08T13:10:00-04:00",
-        "2026-11-08T11:20:00-04:00",
-        "2026-11-08T14:00:00-04:00",
-        "2026-11-08T16:50:00-04:00",
-        "2026-11-08T21:40:00-04:00",
-        "2026-11-08T13:50:00-04:00",
-        "2026-11-08T20:10:00-04:00",
-        "2026-11-08T11:10:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_a90819dc279aba",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -2180,6 +2057,120 @@
         "2026-11-08T13:45:00-04:00",
         "2026-11-08T16:00:00-04:00",
         "2026-11-08T14:15:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_51aa548ca6f5b8",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-11-08T14:20:00-04:00",
+      "starts_at_ms": 1794162000000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Domingo 8 de noviembre · 14:20",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/10/godzilla-minus-zero-47908.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "14:20",
+        "17:10",
+        "20:00",
+        "12:30",
+        "15:20",
+        "18:10",
+        "21:00",
+        "14:50",
+        "17:40",
+        "20:30",
+        "15:50",
+        "18:20",
+        "20:40",
+        "12:50",
+        "13:20",
+        "14:10",
+        "16:40",
+        "19:10",
+        "13:00",
+        "15:40",
+        "13:30",
+        "16:00",
+        "18:30",
+        "19:00",
+        "21:30",
+        "15:30",
+        "18:00",
+        "19:30",
+        "13:10",
+        "21:40",
+        "13:50",
+        "20:10"
+      ],
+      "formats": [
+        "2D - DBOX - Doblada",
+        "2D - DBOX - XD - Doblada",
+        "2D - PRE - Doblada",
+        "2D - PRE - Subtitulada",
+        "2D - Doblada",
+        "2D - Subtitulada",
+        "2D - Lenguaje Original"
+      ],
+      "occurrences": [
+        "2026-11-08T14:20:00-04:00",
+        "2026-11-08T17:10:00-04:00",
+        "2026-11-08T20:00:00-04:00",
+        "2026-11-08T12:30:00-04:00",
+        "2026-11-08T15:20:00-04:00",
+        "2026-11-08T18:10:00-04:00",
+        "2026-11-08T21:00:00-04:00",
+        "2026-11-08T14:50:00-04:00",
+        "2026-11-08T17:40:00-04:00",
+        "2026-11-08T20:30:00-04:00",
+        "2026-11-08T15:50:00-04:00",
+        "2026-11-08T18:20:00-04:00",
+        "2026-11-08T20:40:00-04:00",
+        "2026-11-08T12:50:00-04:00",
+        "2026-11-08T13:20:00-04:00",
+        "2026-11-08T14:10:00-04:00",
+        "2026-11-08T16:40:00-04:00",
+        "2026-11-08T19:10:00-04:00",
+        "2026-11-08T13:00:00-04:00",
+        "2026-11-08T15:40:00-04:00",
+        "2026-11-08T13:30:00-04:00",
+        "2026-11-08T16:00:00-04:00",
+        "2026-11-08T18:30:00-04:00",
+        "2026-11-08T19:00:00-04:00",
+        "2026-11-08T21:30:00-04:00",
+        "2026-11-08T15:30:00-04:00",
+        "2026-11-08T18:00:00-04:00",
+        "2026-11-08T19:30:00-04:00",
+        "2026-11-08T13:10:00-04:00",
+        "2026-11-08T21:40:00-04:00",
+        "2026-11-08T13:50:00-04:00",
+        "2026-11-08T20:10:00-04:00",
+        "2026-11-08T14:00:00-04:00",
+        "2026-11-08T16:50:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2983,6 +2974,44 @@
       "cast": [],
       "quality_score": 72,
       "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_3581362e1bf904",
+      "title": "Espectáculos",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-11-13T18:10:00-04:00",
+      "starts_at_ms": 1794607800000,
+      "ends_at_ms": 1794801540000,
+      "multi_day": true,
+      "display_date": "Del 13 al 15 de noviembre · 18:10",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 5,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/11/8/dc_cartelera_1.jpg?itok=s1CJKecL",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 1.0,
+      "currency": "BOB",
+      "price_label": "Bs 1",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
+      "is_featured": false,
       "status": "programado",
       "source_count": 1
     },

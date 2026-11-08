@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T06:23:07-04:00",
+  "generated_at": "2026-11-08T13:59:25-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,18 +8,16 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_alianza_francesa_cbba",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_municipio_sucre",
       "fb_municipio_tarija",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 219.7,
-    "horas_maximo_sin_datos": 1923.2
+    "horas_promedio_sin_datos": 218.8,
+    "horas_maximo_sin_datos": 1930.8
   },
   "sources": [
     {
@@ -660,13 +658,30 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/694281563_1411344157689364_143477987278375610_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZNF7FDkt7P0Q7kNvwH9a3q4&_nc_oc=AdrWChfNuzz-seGEIE9P7jRcDdqaGznXDp7WUD02Wt8RuAB-s5p9pUIhXxxlD2KtJjs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=tOFwwWf-00p98MSunH9X4Q&_nc_ss=7f289&oh=00_AQSjd6c7tOmbCYGVGZGOn9FKsW8czUXt3GlWGMJcrLhYJA&oe=6AF68A78",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1154746870380040/?__cft__[0]=AZhO4zmbTrFsATWpJC8ztxdX9V-vKAcrENWz-XFVpKTFmjJsULv1FyLj5TbgKPd5J5JXt-1APUVvtUFkjngbTgLr52FktBfPmij1biFs2U2M19X_5k7JwEm3hpUQpUbt_yEJ-Rx-s9HjKFhUHlnQy8ztMI-GBhMCf6dANQUEWMTb-lq6ZZiOfKap2FlBH1MqZd5l&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "𝐋𝐀𝐒 𝐎𝐁𝐑𝐀𝐒 𝐐𝐔𝐄 𝐄𝐍𝐓𝐑𝐄𝐆𝐀𝐌𝐎𝐒 𝐀 𝐋𝐎𝐒 𝐕𝐄𝐂𝐈𝐍𝐎𝐒, 𝐒𝐎𝐍 𝐎𝐁𝐑𝐀𝐒 𝐐𝐔𝐄 𝐂𝐀𝐌𝐁𝐈𝐀𝐍 𝐕𝐈𝐃𝐀𝐒 Ahora el barrio Jerusalén Alto ya tiene calles más seg… Ver más 𝐋𝐀𝐒 𝐎𝐁𝐑𝐀𝐒 𝐐𝐔𝐄 𝐄𝐍𝐓𝐑𝐄𝐆𝐀𝐌𝐎𝐒 𝐀 𝐋𝐎𝐒 𝐕𝐄𝐂𝐈𝐍𝐎𝐒, 𝐒𝐎𝐍 𝐎𝐁𝐑𝐀𝐒 𝐐𝐔𝐄 𝐂𝐀𝐌𝐁𝐈𝐀𝐍 𝐕𝐈𝐃𝐀𝐒 Ahora el barrio Jerusalén Alto ya tiene calles más seg… Ver más Excelente así poco a poco se irán atendiendo a los barrios felicidades y que siga el trabajo, añno importa q la gente q desconoce diga l"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1154746870380040/?comment_id=1672022491377787&__cft__[0]=AZhO4zmbTrFsATWpJC8ztxdX9V-vKAcrENWz-XFVpKTFmjJsULv1FyLj5TbgKPd5J5JXt-1APUVvtUFkjngbTgLr52FktBfPmij1biFs2U2M19X_5k7JwEm3hpUQpUbt_yEJ-Rx-s9HjKFhUHlnQy8ztMI-GBhMCf6dANQUEWMTb-lq6ZZiOfKap2FlBH1MqZd5l&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Excelente así poco a poco se irán atendiendo a los barrios felicidades y que siga el trabajo, añno importa q la gente q desconoce diga lento, las cosa es dar pasos seguro y bien hechos!!! Sucre esta cambiando!! Andy Delataguer"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_oruro",
@@ -695,12 +710,12 @@
       "region": "Tarija",
       "city": "Tarija",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Tarija 85 mil seguidores • 24 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pued'"
     },
     {
       "id": "fb_municipio_potosi",
@@ -949,22 +964,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iFKkuVL03ngQ7kNvwHaIHhn&_nc_oc=AdpijMjIcYNtiamxuHYdu910Eh5p4Lc_FMRIFL3EtafvoaTdWjavzg2tgqKC2i64Rts&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=anzcUm-AYtsD82qSSTyzOw&_nc_ss=7f289&oh=00_AQRcGZ7av21AUIP3PmbYqQhWsYBv-GwCouc72pqdmxMouw&oe=6AF60857",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 40,
-          "category": "otro",
-          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/pfbid02r3UkFw5936YyGme2JWmKwhGqjeWwoyMoWVD8rskPjjm1zUYNR89QaBWovseBmqevl?__cft__[0]=AZgL2yzGckussxr-X--eE1yJp3spz1Tn7ONGwspBnXFZaUrT_bMFNC0bGXEmYAP0vbg5o7GK1IWSBdj7G3JuOMy2PPlsimzVyQ0eMb3R59WE1vOJ5K5KDYswJHcIQhJRnJ9whbBcme2ngRypSPYSl3UBPRjWlvI9V1BN8lLHWJRCP-wTaEV55XtxSvflGdDaCVa24TdeUYc8C5gf5FE&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Manzana 1 Espacio de Arte recibió la grata visita de representantes de @repsol , empresa que desde hace aproximadamente 20 años respalda y acompaña nuestro proyecto cul… Ver más Tenemos problemas para reproducir este video. Más información Tienda Manzana 1 está en Manzana 1 Espacio de Arte. hace un día viernes, 6 de noviembre de 2026 a las 6:11 pm 1 día · Santa Cruz de la Sierra, Departamento de S"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1026,22 +1032,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/276160641_339726664859951_5618027138302895216_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AUAshATaOd8Q7kNvwG48N-i&_nc_oc=AdpB0g4hPCbIzrR3w0towmzvbMg-aeYwNfqWWYYSMqrsgXGRvWGggLD9i4oaT4DwSJ0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=9TRbSHtepyjtqOWQpReoxA&_nc_ss=7f289&oh=00_AQQf86cwuwu_CE2d8pyysA-3WCyq3eKOsKm-THOagbJk1Q&oe=6AF60B0F",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1132278572990371/?__cft__[0]=AZjIFfG3tgtL7SQI9vY0bOyvazgZMdbW7pP7EBNsHjcgD0V-VB92FbtTzO2wAdbR-iJNXbMQjkSCAfHsb5PEy2qXORfIbSmQ3vePQEIs26T8OZmZ5g9nixE7Gog5u5KOGG1tc4pfqrnKfchORKik_-mRaRwjC5ct71xCbiwEOsN5d6VxZD2cm4LHBPY2c9iK72I0&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Confiesa: ¿Eres de los que hacen todo a último momento o de los que hacen la tarea la noche anterior con mucho café al lado? ​En Bolivia amamos el peligro, pero pag… Ver más Confiesa: ¿Eres de los que hacen todo a último momento o de los que hacen la tarea la noche anterior con mucho café al lado? ​En Bolivia amamos el peligro, pero pag… Ver más Tenemos problemas para reproducir este video. Más in"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1052,13 +1049,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/313401095_516538477179260_6328994341939727928_n.png?stp=dst-png&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I8ShkilB8QIQ7kNvwG0e1-c&_nc_oc=Adr9i31jRhdlt8Cy-ZGHBvbvR6DYmm1GG2g_3niWmchpSmo6oiUlmXtLjbjjKyN8XJE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=ESZV3O_hfkTegmBGkJPiPA&_nc_ss=7f289&oh=00_AQSPaaCNp-RERY57JQrDfhb45T_TVuIy5TNJ79JvBHtcFw&oe=6AF69395",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Alianza Francesa de Cochabamba 28 mil seguidores • 233 seguidos Más Publicaciones Información Reels Fotos Seguidos Esta página no está disponible en este momento P'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid02fRCxXWk262GuwVn3wLKrarGpo2HwuqgSbbT2GcvK7jg1YAS1K48pZydVFunYnpCHl?__cft__[0]=AZjyNx1RnZKwCIiKVNbZjeglyDOQGBNeizg-XzrHUNKvc7t5uF2FEwYTBIVARTmKcmxQEAMjOcz7EUvvBVS4OsBH4fdKsXjBD-fr3O-peCwrjTBfiRco-KsviBChnvDQ1_Te0hCz2HJ8PqQsu6Z0MxiK3bn23W_Cd6KVSI58T23QlINOJGK1aKJ3RH8&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Postulación y entrevistas laborales Preparar tu candidatura, destacar tu trayectoria y desenvolverte con éxito en una entrevista.… Ver más Postulación y entrevistas laborales Preparar tu candidatura, destacar tu trayectoria y desenvolverte con éxito en una entrevista.… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1396,24 +1402,16 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 4,
+      "rejected": 9,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 43,
+          "score": 47,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad El canto de una pequeña ave amarilla, propia de los bosques del norte de Apolo, en La Paz, cruzó fronteras sin abandonar su entorno natural. vista 12/10/2026 Medio Ambiente Llanos de Moxos. Más del 40% de los playeros acanelados del mundo pasan cada año por allí Los Llanos de Moxos, co"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 43,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "06/11/2026 Cultura Carvalho y Pereira triunfan en el 53º Concurso de Literatura Franz Tamayo Los escritores nacionales Carmen Lucía Carvalho Sandoval (Santa Cruz) y Yuvinscka Jhannirha Pereira Hurtado (La Paz) ganaron la quincuagésima edición del... vista 05/11/2026 Cultura Intérpretes potosinos imponen su talento en el Festival del Charango Los charanguistas potosinos no desentonaron en la cuadra"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
@@ -1422,6 +1420,14 @@
           "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
           "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 53,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "has_image": true,
+          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
         }
       ],
       "error": null
@@ -1589,8 +1595,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 48,
-      "events": 48,
+      "raw_items": 46,
+      "events": 46,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
