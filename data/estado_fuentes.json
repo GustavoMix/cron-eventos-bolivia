@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T15:28:22-04:00",
+  "generated_at": "2026-11-07T20:38:17-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,12 +12,13 @@
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_municipio_potosi",
+      "fb_municipio_sucre",
+      "fb_municipio_tarija",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
     "horas_promedio_sin_datos": 216.1,
-    "horas_maximo_sin_datos": 1908.3
+    "horas_maximo_sin_datos": 1913.5
   },
   "sources": [
     {
@@ -137,7 +138,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. ZWC-FEF-WCUA Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -205,7 +206,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. UIV-QXS-ERFJ Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gob_cbba",
@@ -335,22 +336,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/723118216_1489874823173298_1844608982376631622_n.avif?stp=dst-avif&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YP1tPZeid2AQ7kNvwEzmSBT&_nc_oc=AdpthIAEI8jXUpeJldMSspPLFukDX2ubWh0lskC3gN6vVOwJY4iJpcS6KyHEZPJsb4w&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=-iiqlB6FXCWDrvgzLGw_IQ&_nc_ss=7f289&oh=00_AQTb_DgQ0B2dFBxQZ-F12wHitwy_WQP6PEXdQNTeGafZ4A&oe=6AF5358D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 54,
-          "category": "otro",
-          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid02mKgwZqx9cT5JXvQdMthvQZsoZbcskh3o9AZhWc8tag6EXB7xppCxyduu1Egt3aGRl?__cft__[0]=AZjde6sDxy7Y2lHif6T_ZnJFjU0bqTyqW_gywS3y8MfwFpy-bgXuvSuxEmWq5fX7akHstXWba2x6A0Abrdiv9tcmjQzWRGB5T94CW-7dosFAeUyXnRpeX5Rro5jbi894wFmdktC2Cm5mR_Xx5wt0UdqAb9q-LJgUOJkxtgwtaQC1y9UAQwIqLxgmWbI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "UNITEL hace 7 minutos sábado, 7 de noviembre de 2026 a las 3:20 pm 7 min Info completa en los comentarios Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_atb",
@@ -480,22 +472,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/871000228_1760278452768967_5369085719919323129_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=p720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZGDklVmwWAEQ7kNvwELaGUS&_nc_oc=AdqLt9N2er1E-5oRzsYjTbOiYfXmiHM93e5_tnYKT6sfxFQL-G6ZuKpYPs92DyTpp8M&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=TLXts8dKsp3lzhsonkrKBw&_nc_ss=7f289&oh=00_AQRAz419pgB8AMYYUddEqdJ1zBzjd-1UoyIflD5st_AWvA&oe=6AF552F0",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "concierto",
-          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid02ktu4EbzD2pzQVzw5bdQE14aaCpqJxRBjvqLhDAh8YWw9PAfKoyQ3yLRm7FQuHEJZl?__cft__[0]=AZhqlhiCN1Zf84SM7k2_XXXGnMrorh4gSz_qK4ng25toIVZb1V_Mz5pVikThgRCB87Xyxiy3lUmpKDq7YdS4tJQJ4krYqVIBVRXWPeiu_G2CFY1LjHB6mKb9x0Yy3w_Xji9ql8iEnmHm7brCwXX2VLzhpagZsOrpQrjETEYjp4KzdF0cYW60NpZHX2g&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#LaPaz Banda Horeb se apodera del escenario principal en la FIPAZ 2026.… Ver más #LaPaz Banda Horeb se apodera del escenario principal en la FIPAZ 2026.… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eldeber_radio",
@@ -677,12 +660,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Sucre 159 mil seguidores • 25 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pued'"
     },
     {
       "id": "fb_municipio_oruro",
@@ -711,12 +694,12 @@
       "region": "Tarija",
       "city": "Tarija",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Tarija 85 mil seguidores • 24 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pued'"
     },
     {
       "id": "fb_municipio_potosi",
@@ -727,13 +710,22 @@
       "tier": 2,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/886725976_1588388863327509_6348012705909866111_n.jpg?stp=dst-jpg_tt6&cstp=mx591x591&ctp=s591x591&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=G8PpCRVLdYwQ7kNvwGj9a3d&_nc_oc=AdqcT-iFGmpbMAwYOvxHv6GOxIbegeCStXYgSxPGgnDV8FFnXkFWr9NdW__QabC6jso&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=eojPd-KAUWOWy_UDXhSNJw&_nc_ss=7f289&oh=00_AQSKoZKQNPoKB6N0DrqajR1vj46S5UhwYA8JTXef_zEqdQ&oe=6AF5B21B",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Potosí 97 mil seguidores • 51 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Pued'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2195650237687929/?__cft__[0]=AZiTpjz59v-P5x2Bo60INDSLvJAIMMMsVx2WO1gSOD4pBpiZliz84q5oo1PObHnM9llPwHLcZR773q9Vk9pur_wH4TPLy3_tI0_UCQ0fX39efNmKzWTh0Iw5aHilbI1cRO51_JM7XP50QX1f2iVF7UTW8fw5jjLMnSCN7SFnQyWUUabBR5PaDalEA5-zBAGJPFw_&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "POTOSÍ MI CIUDAD LIMPIA… Ver más Tenemos problemas para reproducir este video. Más información Ver más comentarios Maritza FC"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_trinidad",
@@ -1394,12 +1386,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 43,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1407,7 +1399,7 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
+          "score": 43,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
@@ -1415,11 +1407,11 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 6,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 47,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
           "has_image": true,
-          "text_preview": "16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas nacionales animarán el Llajta Rock 2026, cuya decimosexta edición se pone en marcha hoy, a las 18:10, en el Proyecto... vista 21/09/2026 Espectáculos Semana 39: Jesse & Joy encienden la cartelera semanal cochabambina Una agenda cultural de lujo presenta Cochabamba en"
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1587,8 +1579,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 47,
-      "events": 47,
+      "raw_items": 43,
+      "events": 43,
       "rejected": 0,
       "rejected_samples": [],
       "error": null

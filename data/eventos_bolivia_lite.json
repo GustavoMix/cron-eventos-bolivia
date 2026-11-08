@@ -1,9 +1,9 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-11-07T15:28:22-04:00",
+  "generated_at": "2026-11-07T20:38:17-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 101,
+    "events_total": 102,
     "events_today": 15
   },
   "filters": {
@@ -55,7 +55,7 @@
       {
         "key": "deporte",
         "label": "Deportes",
-        "count": 29
+        "count": 30
       },
       {
         "key": "concierto",
@@ -130,14 +130,14 @@
         "count": 17
       },
       {
-        "key": "Sucre",
-        "label": "Sucre",
+        "key": "Quillacollo",
+        "label": "Quillacollo",
         "count": 8
       },
       {
-        "key": "Quillacollo",
-        "label": "Quillacollo",
-        "count": 7
+        "key": "Sucre",
+        "label": "Sucre",
+        "count": 8
       },
       {
         "key": "Oruro",
@@ -164,7 +164,7 @@
       {
         "key": "Cochabamba",
         "label": "Cochabamba",
-        "count": 37
+        "count": 38
       },
       {
         "key": "La Paz",
@@ -211,17 +211,17 @@
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 47
+        "count": 48
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 54
+        "count": 55
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 101
+        "count": 102
       }
     ],
     "price": [
@@ -233,19 +233,19 @@
       {
         "key": "pagado",
         "label": "Con entrada",
-        "count": 32
+        "count": 34
       },
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 65
+        "count": 64
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 92
+        "count": 93
       },
       {
         "key": "con_video",
@@ -379,7 +379,7 @@
       {
         "key": "media",
         "label": "media",
-        "count": 46
+        "count": 47
       },
       {
         "key": "ticketera",
@@ -534,28 +534,29 @@
       "evt_ab2d744f1fbd8e",
       "evt_48c45c2c902fde",
       "evt_9ea8741680468c",
+      "evt_cab71456af6bc1",
       "evt_b97f0ee05c975b"
     ]
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 36,
+      "events_total": 35,
       "events_upcoming": 20,
       "events_with_image": 19,
       "events_with_video": 3,
       "sources_total": 26,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Cochabamba": {
       "events_total": 48,
-      "events_upcoming": 37,
-      "events_with_image": 37,
+      "events_upcoming": 38,
+      "events_with_image": 38,
       "events_with_video": 0,
       "sources_total": 13,
       "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 31,
+      "events_total": 29,
       "events_upcoming": 16,
       "events_with_image": 11,
       "events_with_video": 1,
@@ -584,7 +585,7 @@
       "events_with_image": 1,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 0
+      "sources_ok": 1
     },
     "Tarija": {
       "events_total": 7,
@@ -614,7 +615,7 @@
   "coverage_by_category": {
     "cine": {
       "label": "Cine",
-      "events_total": 55,
+      "events_total": 53,
       "events_upcoming": 15,
       "events_with_image": 15,
       "events_with_video": 0
@@ -643,8 +644,8 @@
     "deporte": {
       "label": "Deportes",
       "events_total": 35,
-      "events_upcoming": 29,
-      "events_with_image": 26,
+      "events_upcoming": 30,
+      "events_with_image": 27,
       "events_with_video": 1
     },
     "exposicion": {
@@ -677,7 +678,7 @@
     },
     "otro": {
       "label": "Otros",
-      "events_total": 2,
+      "events_total": 1,
       "events_upcoming": 1,
       "events_with_image": 1,
       "events_with_video": 1
@@ -2180,11 +2181,11 @@
       "title": "Película en cartelera de cine",
       "category": "cine",
       "category_label": "Cine",
-      "starts_at": "2026-11-07T15:20:00-04:00",
-      "starts_at_ms": 1794079200000,
+      "starts_at": "2026-11-07T18:10:00-04:00",
+      "starts_at_ms": 1794089400000,
       "ends_at_ms": null,
       "multi_day": false,
-      "display_date": "Sábado 7 de noviembre · 15:20",
+      "display_date": "Sábado 7 de noviembre · 18:10",
       "lifecycle": "hoy",
       "lifecycle_label": "Hoy",
       "days_until": 0,
@@ -2201,67 +2202,42 @@
       "price_label": null,
       "organizer": null,
       "showtimes": [
-        "15:20",
         "18:10",
         "21:00",
-        "16:30",
         "19:30",
         "20:10",
-        "14:50",
-        "17:40",
         "20:30",
-        "16:00",
         "18:30",
         "19:00",
         "21:30",
-        "16:10",
-        "17:00",
         "18:40",
-        "15:40",
         "18:20",
         "20:00",
-        "15:30",
-        "18:00",
-        "17:15",
         "21:40",
-        "21:10",
-        "16:40"
+        "21:10"
       ],
       "formats": [
         "2D - DBOX - XD - Doblada",
         "2D - Doblada",
-        "2D - PRE - Doblada",
         "2D - PRE - Subtitulada",
-        "2D - Subtitulada",
-        "2D - Lenguaje Original",
-        "2D - DBOX - Doblada"
+        "2D - PRE - Doblada",
+        "2D - DBOX - Doblada",
+        "2D - Subtitulada"
       ],
       "occurrences": [
-        "2026-11-07T15:20:00-04:00",
         "2026-11-07T18:10:00-04:00",
         "2026-11-07T21:00:00-04:00",
-        "2026-11-07T16:30:00-04:00",
         "2026-11-07T19:30:00-04:00",
         "2026-11-07T20:10:00-04:00",
-        "2026-11-07T14:50:00-04:00",
-        "2026-11-07T17:40:00-04:00",
         "2026-11-07T20:30:00-04:00",
-        "2026-11-07T16:00:00-04:00",
         "2026-11-07T18:30:00-04:00",
         "2026-11-07T19:00:00-04:00",
         "2026-11-07T21:30:00-04:00",
-        "2026-11-07T16:10:00-04:00",
-        "2026-11-07T17:00:00-04:00",
         "2026-11-07T18:40:00-04:00",
-        "2026-11-07T15:40:00-04:00",
         "2026-11-07T18:20:00-04:00",
         "2026-11-07T20:00:00-04:00",
-        "2026-11-07T15:30:00-04:00",
-        "2026-11-07T18:00:00-04:00",
-        "2026-11-07T17:15:00-04:00",
         "2026-11-07T21:40:00-04:00",
-        "2026-11-07T21:10:00-04:00",
-        "2026-11-07T16:40:00-04:00"
+        "2026-11-07T21:10:00-04:00"
       ],
       "content_genre": null,
       "duration_minutes": null,
@@ -2294,9 +2270,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 50.0,
+      "price_from": 0.0,
       "currency": "None",
-      "price_label": "Bs 50",
+      "price_label": "Bs 0",
       "organizer": "SuperTicket.bo",
       "showtimes": [],
       "formats": [],
@@ -2459,6 +2435,44 @@
       "director": null,
       "cast": [],
       "quality_score": 61,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_5aeeca3f493733",
+      "title": "Espectáculos",
+      "category": "deporte",
+      "category_label": "Deportes",
+      "starts_at": "2026-11-09T18:10:00-04:00",
+      "starts_at_ms": 1794262200000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Lunes 9 de noviembre · 18:10",
+      "lifecycle": "proximo",
+      "lifecycle_label": "Próximos",
+      "days_until": 2,
+      "is_upcoming": true,
+      "city": "Quillacollo",
+      "department": "Cochabamba",
+      "venue": null,
+      "image_url": "https://www.lostiempos.com/sites/default/files/styles/noticia_home_apertura/public/media_imagen/2026/10/16/16-10-2026_edwin_-_llajta_rock_vale_web.jpg.jpeg?itok=BqNkLd-t",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": 1.0,
+      "currency": "BOB",
+      "price_label": "Bs 1",
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 59,
       "is_featured": false,
       "status": "programado",
       "source_count": 1
@@ -4840,9 +4854,9 @@
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
+      "price_from": 1.0,
+      "currency": "BOB",
+      "price_label": "Bs 1",
       "organizer": null,
       "showtimes": [],
       "formats": [],
@@ -4852,8 +4866,8 @@
       "age_restriction": null,
       "director": null,
       "cast": [],
-      "quality_score": 61,
-      "is_featured": false,
+      "quality_score": 69,
+      "is_featured": true,
       "status": "programado",
       "source_count": 1
     },
