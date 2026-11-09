@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T18:06:01-04:00",
+  "generated_at": "2026-11-09T02:26:52-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -15,8 +15,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 211.4,
-    "horas_maximo_sin_datos": 1934.9
+    "horas_promedio_sin_datos": 200.6,
+    "horas_maximo_sin_datos": 1943.3
   },
   "sources": [
     {
@@ -402,13 +402,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Hq8V99F7_J4Q7kNvwFlS-i8&_nc_oc=AdonH3gs3mHjHohkJNHzSryBB_x8AyixEH0B_3mNtBy-xOBJd40_uZsiyMiBtod0P2Q&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=LTZsLpCi6xCiBwOSL7HkPw&_nc_ss=7f289&oh=00_AQShfnmE_26gC23vGwSzPE1kT7hVcPI6yVXi1szkLdXBWQ&oe=6AF74821",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/eldiario.bolivia/posts/pfbid033j263kj8KSD5q4iqaVrcdiBxDa3ZiKzaZcvw5AjTYSgX7yVKKw6czpMJSjC5yxRdl?__cft__[0]=AZhzqHrzXhbmoY_3nexs4TQxG_56eTGzPvBjNZy94tR60WokIsOPc8RWg0mxFNmdV3ioJT0XbtR9RnfCSkeA9oyS-anh-ncbe0DwgWv3tqrO0YNTpFHXao6o6G9zAKEQpFmAt5Qzqg9_hCo4W2wVkVwpFSMmP9BwWfVFrpswm0zUjmpyKPdwdLKg8vs&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#Nacional #ElDiarioBo… Ver más #Nacional #ElDiarioBo… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_radio_fides",
@@ -436,13 +445,30 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ugKJww5glXUQ7kNvwHlXg4-&_nc_oc=Ado9ZBTKEwrrYdrD5ljKN9gQvVf-TxaCSc2PqRzTv5vUpLMkRbBkslxYNOm4zVzTwdc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Oblq_6PuSQa0JdLxjnOinw&_nc_ss=7f289&oh=00_AQSH2uB8Afrl8mGJjUa1tIDzDBMsJhLvZ4XN-Q60XEcvjQ&oe=6AF74ABA",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 52,
+          "category": "otro",
+          "url": "https://www.facebook.com/ANFidesBolivia/posts/pfbid0PMkmVR9VHuuGc6hHsxJwHUB57GyFqcn6PS9hufgkvrbPXKAi8PfmYAPfkeAzYGGMl?__cft__[0]=AZgwDKeVdWeCPJkl9KRZdN7h-rTEKG9MiFSiNa3FiZm7cLiIX1JDClsHLHsFxcjK1_V4iw2SHBCgWy2BKyAwIDsWtoQGiMgpsJT8VDRg1Nzw3oOHwqdWrO04bbU_U1AjOXuXNUh7f-WQR-3xWlAlgbA6oAnu4u7lOGRpkmbCSlcARzLHDa7U3nVSEYU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#GrupoFides | #ANF #Política 𝐏𝐚𝐳 𝐞𝐧𝐭𝐫𝐞𝐠ó 𝐬𝐮 𝐢𝐧𝐟𝐨𝐫𝐦𝐞 𝐚 𝐥𝐚 𝐀𝐬𝐚𝐦𝐛𝐥𝐞𝐚 𝐲 𝐚𝐧𝐮𝐧𝐜𝐢𝐚 𝐫𝐞𝐧𝐝𝐢𝐜𝐢ó𝐧 𝐝𝐞 𝐜𝐮𝐞𝐧𝐭𝐚𝐬 𝐝𝐞 𝐥𝐨𝐬 𝐦𝐢𝐧𝐢𝐬𝐭𝐞𝐫𝐢𝐨𝐬 𝐝𝐞𝐬𝐝𝐞 𝐞𝐥 𝐥𝐮𝐧𝐞𝐬 Lea la nota aquí https://acortar.link/V5ZM1K #GrupoFides | #ANF #Política 𝐏𝐚𝐳 𝐞𝐧𝐭𝐫𝐞𝐠ó 𝐬𝐮 𝐢𝐧𝐟𝐨𝐫𝐦𝐞 𝐚 𝐥𝐚 𝐀𝐬𝐚𝐦𝐛𝐥𝐞𝐚 𝐲 𝐚𝐧𝐮𝐧𝐜𝐢𝐚 𝐫𝐞𝐧𝐝𝐢𝐜𝐢ó𝐧 𝐝𝐞 𝐜𝐮𝐞𝐧𝐭𝐚𝐬 𝐝𝐞 𝐥𝐨𝐬 𝐦𝐢𝐧𝐢𝐬𝐭𝐞𝐫𝐢𝐨𝐬 𝐝𝐞𝐬𝐝𝐞 𝐞𝐥 𝐥𝐮𝐧𝐞𝐬 Lea la nota aquí https://acortar.link/V5ZM1K https://www.facebook.com/noveo777/ El Gobierno d"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ANFidesBolivia/posts/pfbid0PMkmVR9VHuuGc6hHsxJwHUB57GyFqcn6PS9hufgkvrbPXKAi8PfmYAPfkeAzYGGMl?comment_id=1602854184372813&__cft__[0]=AZgwDKeVdWeCPJkl9KRZdN7h-rTEKG9MiFSiNa3FiZm7cLiIX1JDClsHLHsFxcjK1_V4iw2SHBCgWy2BKyAwIDsWtoQGiMgpsJT8VDRg1Nzw3oOHwqdWrO04bbU_U1AjOXuXNUh7f-WQR-3xWlAlgbA6oAnu4u7lOGRpkmbCSlcARzLHDa7U3nVSEYU&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "https://www.facebook.com/noveo777/ El Gobierno de Rodrigo Paz ha conseguido avances importantes en materia de estabilización económica y reinserción internacional, sin confundir esos resultados con una recuperación económica que todavía no llega a lo… Ver más Norah Velasco Orellanos Lluvia de Ideas"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_rtp",
@@ -691,22 +717,13 @@
       "tier": 2,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/860022429_1591124346393630_4143973801356347298_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Wow7wLZrDoAQ7kNvwG-iROB&_nc_oc=AdqprbIW0JsxwzUEAb7shDnwcSWEskLuDCRpKTY-jMfFRXVjvS9tU2YJmcgJECCtbYM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zbA45_DpVFBg2hY4CGGt4A&_nc_ss=7f289&oh=00_AQS6MvLvQQLvERml8XnMj7NJVPmePgMc6HX-pcj6O68SMw&oe=6AF6D188",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/Gobierno.Autonomo.Municipal.Tarija/posts/pfbid0aGQgeEgoVtbWUy91raJR3VznohNQqy4FuhrqvMfD5yw7GUMGDxfxBbBhpFan6Q1al?__cft__[0]=AZjZzdgWCyuuBL6NweoN8nDiaGzYTkOtDLU7JTtu_yhufbxxAP8Cxd-BUG1dn81fQjxEMyeKx4Uzc_q_-wGx1cQYCa3zA2d5MVkSwFyCrKPGJRTDQFLPsV54YspHGFK9ahupHKsp1yPRzRpFUBxRp2LRV0Q63In6BICOad7DsNkq6vrAfY6DhOC_PQg&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡ALERTA NARANJA POR DESCENSO BRUSCO DE TEMPERATURAS EN TARIJA! E… Ver más ¡ALERTA NARANJA POR DESCENSO BRUSCO DE TEMPERATURAS EN TARIJA! E… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_potosi",
@@ -734,13 +751,22 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/881719771_1470316895279149_3162028472502376132_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=p9yphcWegr8Q7kNvwH2hEo4&_nc_oc=AdpkpkoTaBbSgHTG0ECr9kap-rCleWWavUgfU2y88LOzVc6-d-ve8_o9Wsl9zcdoE1E&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=IMZCTA0FcZjFI-NVq_u8xQ&_nc_ss=7f289&oh=00_AQRj__FzBVSjIQ2iZmG45dEq0XWBE0FeUBRXRDMC0STFsg&oe=6AF72ED1",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 12,
+          "category": "otro",
+          "url": "https://www.facebook.com/GAMTDD/posts/pfbid02DwhkZcw6B7MBt1XdTk41YYoz2R2RD5RoT3FzT2mFSLm58jqR4dbFMeNjRKWcXzPnl?__cft__[0]=AZiE2In_wXbaY9bfHmvZbUcDRpil_07fpSViECKcV_stlHczMYJpwttyXzTDaB8SqY7T6wdGOK0I8yNOy3ljelMLX-npFA0NieGPQdbzJdVMpuGwosZoRqBpjayEI2biSz5ooITIhxMZnetPudpfq2m21eH9xrdeKkJI1X3pLDkP1VIpwQkIG7wjo4A&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "8 DE NOVIEMBRE | DÍA DEL RADIÓLOGO… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_municipio_cobija",
@@ -921,22 +947,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/686903396_997169129343249_1066565813315243755_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8nTfaqKWHhEQ7kNvwG7hU_9&_nc_oc=AdpcebXNm1wIv1lqKxUhYsfDpFz2_RcmlLErMM-3HS4lqNaX1PrVHNafOJbIkHCPzVA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=den--KiLTqZdWgi3vYodOQ&_nc_ss=7f289&oh=00_AQRkolvAV_jPdnbZ5AxiRf1ig7mLV1NihCe9856332DPVQ&oe=6AF6B7F8",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/teatrosmunicipaleslapaz/videos/1782026559722382/?__cft__[0]=AZjZCqM6OVYVLIBSey8TUBJcmr31iX0sVzmI4SueEOEGX1q3rS770uykTsD8P6bgFsiHKP-v4z7JsKvzjcyUTCEzqglZoSsysfr8buSjaA8AAiCurTsajGnXFGaG_rgDudeElNCjY8ozXCQng_rGUsfM16mFebUGf6-fzzmmFCvtx3iTpBr-ZGKCMPsfZzXx8kM&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_cultura_cbba",
@@ -1066,22 +1083,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JqZf7ueEIAoQ7kNvwFgSU4i&_nc_oc=AdoIveF_lQgqh6DfDaabpFwaTwyoXKPCyUgHswUnBIbjxlqv9rl0TCS70fnvs-K-orU&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=dX_dmVkzdxtDQMTduqoD_g&_nc_ss=7f289&oh=00_AQQ5_k3yAJuPYdpBohmwyLZGpr5QGPwe_vLpTjoDVGb23g&oe=6AF6CE52",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 34,
-          "category": "otro",
-          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/1839601217220117:1839601217220117?__cft__[0]=AZizukwew2XUShaFWa7oU8vB1oNYh-OCZod2mqKWi7DoFr7njVEV-Y7PLaUy6ENR2HvMzhz6EA0Y9kFqkVJOKZKRTFTNwvicbahk-L2lM5XnazD7pblbqHwYXNNWWWD0PkkKA0vtykzo5Mgf41Ny4rlRYhdINgf2e01LbFGJtEPRX2bRnmcsqq_Vydcn2w&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Alianza Francesa de Sucre actualizó su foto de portada. martes, 27 de octubre de 2026 a las 8:19 pm 27 de octubre a las 8:19 pm Todas las reacciones:"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1349,12 +1357,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "timed out"
     },
     {
       "id": "web_lapaz_cultura",
@@ -1371,7 +1379,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Client error '404 Not Found' for url 'https://lapaz.bo/eventos-culturales/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      "error": "timed out"
     },
     {
       "id": "web_turismo_culturas",
@@ -1402,12 +1410,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 7,
-      "rejected": 6,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 47,
+          "score": 0,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1415,19 +1423,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
+          "score": 16,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/balau-taller-cajon-peruano_642476",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "Agenda Cultural ¿Qué es Balau Percusión? Balau Percusión es un proyecto educativo y musical, donde a través de un método sencillo, práctico y divertido, las y alumnos hallan un espacio de encuentro y pertenencia altamente significativo. Ven y aprende junto al maestro Sergio Velasco este maravilloso instrumento y descubre tu pasión. Pide más información al 70516406. Tipo de Evento: Cultural Fecha d"
+          "text_preview": "08/11/2026 Cultura El Ensamble de Moxos cautiva a Europa Raquel Maldonado, directora del Ensamble de Moxos, relata el éxito que replicó el grupo musical en su gira por Europa, donde fueron ovacionados por la calidad... vista 06/11/2026 Cultura Carvalho y Pereira triunfan en el 53º Concurso de Literatura Franz Tamayo Los escritores nacionales Carmen Lucía Carvalho Sandoval (Santa Cruz) y Yuvinscka "
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 39,
+          "score": 22,
           "category": "deporte",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Lo más leído 1 Los Tiempos participa de la VII Cumbre Mundial de Medios en Beijing (China) 2 Lara y presidentes de Cámaras se reúnen hoy 3 Insatisfacción en Europ"
+          "text_preview": "08/11/2026 Espectáculos El Festival de Teatro Bertol Brecht reúne a cuatro compañías de jerarquía Cuatro propuestas escénicas de primer nivel, interpretadas por reconocidos elencos nacionales, animarán la vigesimoctava edición del Festival de Teatro Bertol... vista 16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas n"
         }
       ],
       "error": null
@@ -1561,8 +1569,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1595,8 +1603,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 44,
-      "events": 44,
+      "raw_items": 47,
+      "events": 47,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1711,7 +1719,7 @@
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
+          "score": 37,
           "category": "turismo",
           "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
           "has_image": false,
