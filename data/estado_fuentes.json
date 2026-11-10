@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T23:38:49-04:00",
+  "generated_at": "2026-11-10T10:55:55-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,6 +8,8 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_bolivision",
+      "fb_casa_libertad",
       "fb_gam_cbba",
       "fb_lostiempos",
       "fb_ministerio_culturas",
@@ -15,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 197.1,
-    "horas_maximo_sin_datos": 1964.5
+    "horas_promedio_sin_datos": 205.2,
+    "horas_maximo_sin_datos": 1975.8
   },
   "sources": [
     {
@@ -136,7 +138,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. DGY-NWA-HTTJ Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -164,22 +166,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KiN9_mkk-CMQ7kNvwEsel6m&_nc_oc=Adp99YkkSKjIRCMw0o679yCmQ1sjmOBVQ3tzvlZCjMt6xMMPtlGX9aZl4xQnPP74Swk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=agmUtROBiVLZrZjiH5tHYw&_nc_ss=7f289&oh=00_AQRIgxLPj_Wmzu_SyFts6-mxgTbSD-H4pr82XLvIxL1Mww&oe=6AF85700",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02gBYfP2ocqt21q3ToapgLNnxjqy8P6RM4mwnqUAAQqnBDMKtKh3pwDMBoU29JYjFWl?__cft__[0]=AZjTr2Qt1r5YhSJx3FsRUZ5fNw-Ro5YcC0GrB8z6JpJZpIHykLJb3c_j-4Wxq1CCzozTfQxmMXDKOMwRTI6fE-O23FZC-3zCjH07veUoJtrIz6LhVjjTuSvC8iSVgV6vGolTsY-ssNnv9IGsOynUxX4ZopoazBzj3MGCCRqS5DflRJS4L9a-zAoWzBw&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Se inicia la semana intensiva de bacheo y recuperación vial en El Alto E… Ver más Se inicia la semana intensiva de bacheo y recuperación vial en El Alto E… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -378,12 +371,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Noticias Bolivisión 1,2 mill. seguidores • 30 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un '"
     },
     {
       "id": "fb_erbol",
@@ -536,7 +529,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. QMG-ZCS-VXTN Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_fundacion_cultural_bcb",
@@ -904,13 +897,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ke6pMSoSO_MQ7kNvwFfawLF&_nc_oc=AdogGTQeDwBNiQLnJGtqm5XSEnLpKBsQ1pMncdW_5w32B1UL9Hp68QHqrXZ8CnXHhSs&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=W9MeqeLLlrLQjK4MCxD7Wg&_nc_ss=7f289&oh=00_AQRFZWMNYFjuR8oe0UqwKnKhH5iuK2JUPiCPgyfa5N7bWQ&oe=6AF91947",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1833269681258197/?__cft__[0]=AZgt-yNDUEDIDWMA4DiNUiVWgyoYiWaxa-WItmOGbTBDKXAEMTkrwJ90fbOfRX1T1X99bkhxut0ySStXuUAo3j5x3B6WqGD1P3zhwIyBpQscX5c1HThteSS_QYbW3CG3zOzQHeF3xd5xMvIbrJDMGZUaLDuo4nX-OIUSmiZG49ZW5nBzJjvUpSvZ8nIuwCIrQRzQ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Los conocimientos se comparten. Los talentos se multiplican. D… Ver más Los conocimientos se comparten. Los talentos se multiplican. D… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -938,13 +940,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=azrUl34vcDgQ7kNvwGnq6zR&_nc_oc=AdpiH_rJgIDioO8vLDYJD4rbgvGYEipZXMNuiNsvJnoJpSWJcbTkpJpM7rhwSDQJIdA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=pJWVRtwSjKmIgrSVQGy38w&_nc_ss=7f289&oh=00_AQTWdfXkIiQdWQZv2y06VUE7M7ZAKjtxDhZEMQ5st_MhbQ&oe=6AF86307",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_manzana1",
@@ -1092,12 +1094,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Casa de la Libertad 16 mil seguidores • 45 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a '"
     },
     {
       "id": "fb_musef_sucre",
@@ -1142,13 +1144,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_b0SbgGCos4Q7kNvwH7JRb7&_nc_oc=Adp4Sn0wu-COMoGvwWkLrvtjwuI4ccyD3DD9x54d5l5SGhoDLeMhyz7qJjdzXSQzuGc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=4KsQTDODlsBoewUGlN7QTQ&_nc_ss=7f289&oh=00_AQQ0RLytDERsbPur6hvog5lH6C055Nd3qhp_2Kyqw8CmtA&oe=6AF87925",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_uagrm",
@@ -1331,12 +1333,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": null
     },
     {
       "id": "web_lapaz_cultura",
@@ -1353,7 +1355,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "timed out"
+      "error": "Client error '404 Not Found' for url 'https://lapaz.bo/eventos-culturales/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "id": "web_turismo_culturas",
@@ -1389,7 +1391,7 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 1,
+          "score": 0,
           "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1397,16 +1399,16 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 21,
-          "category": "concierto",
+          "score": 24,
+          "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "09/11/2026 Cultura Agenda: El Festival de Teatro Bertol Brecht genera expectativa El arte escénico se apodera de Cochabamba con el desarrollo del Festival de Teatro Bertol Brecht, cuyo comienzo está previsto para el miércoles 11 en la... vista 08/11/2026 Cultura El Ensamble de Moxos cautiva a Europa Raquel Maldonado, directora del Ensamble de Moxos, relata el éxito que replicó el grupo musical en "
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 21,
-          "category": "deporte",
+          "score": 22,
+          "category": "festival",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "08/11/2026 Espectáculos El Festival de Teatro Bertol Brecht reúne a cuatro compañías de jerarquía Cuatro propuestas escénicas de primer nivel, interpretadas por reconocidos elencos nacionales, animarán la vigesimoctava edición del Festival de Teatro Bertol... vista 16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas n"
@@ -1483,7 +1485,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c61fa519-18dd-4be8-a1d0-e1180ae28d06",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c2f58777-9401-4120-8d0a-9af00f3249d8",
           "has_image": true,
           "text_preview": ""
         },
@@ -1491,7 +1493,7 @@
           "reason": "texto_muy_corto",
           "score": 0,
           "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/fe358727-3157-4095-8fbb-b53b48095fcc",
+          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c61fa519-18dd-4be8-a1d0-e1180ae28d06",
           "has_image": true,
           "text_preview": ""
         }
@@ -1509,8 +1511,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 38,
-      "events": 38,
+      "raw_items": 39,
+      "events": 39,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1543,8 +1545,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1577,8 +1579,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 41,
-      "events": 41,
+      "raw_items": 47,
+      "events": 47,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1632,7 +1634,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Server error '523 <none>' for url 'https://beni.gob.bo/category/cultura/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/523"
+      "error": "Server error '522 <none>' for url 'https://beni.gob.bo/category/cultura/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/522"
     },
     {
       "id": "web_potosi_municipio",
@@ -1663,17 +1665,9 @@
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
       "raw_items": 7,
-      "events": 0,
-      "rejected": 7,
+      "events": 3,
+      "rejected": 4,
       "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "turismo",
-          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
-          "has_image": false,
-          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
-        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 8,
@@ -1689,6 +1683,14 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
           "has_image": false,
           "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/desconcentradas",
+          "has_image": false,
+          "text_preview": "0 % Normativa - Desconcentradas MANUAL DE ORGANIZACION Y FUNCIONES - PROCEDIMIENTOS PROSOL MANUAL - PROSOL - RESOLUCION 371.pdf Descarga Detalles Manual de Organización y Funciones - Programa GNV - 2023 MOF - PROGRAMA - GNV - 2023.pdf Descarga Detalles Manual de Organización y Funciones - Servicio Departamental de Agropecuario MOF - SEDAG 2023.pdf Descarga Detalles Manual de Organización y Funcion"
         }
       ],
       "error": null
@@ -1739,8 +1741,8 @@
       "icon_url": "https://sucre.bo/wp-content/uploads/2026/05/header_web_2026.png",
       "status": "ok",
       "raw_items": 5,
-      "events": 1,
-      "rejected": 4,
+      "events": 2,
+      "rejected": 3,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
