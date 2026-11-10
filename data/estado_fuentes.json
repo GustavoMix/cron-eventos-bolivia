@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T10:55:55-04:00",
+  "generated_at": "2026-11-10T17:21:52-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,14 +11,15 @@
       "fb_bolivision",
       "fb_casa_libertad",
       "fb_gam_cbba",
+      "fb_gamscs",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 205.2,
-    "horas_maximo_sin_datos": 1975.8
+    "horas_promedio_sin_datos": 211.7,
+    "horas_maximo_sin_datos": 1982.2
   },
   "sources": [
     {
@@ -138,7 +139,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. DGY-NWA-HTTJ Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -235,12 +236,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Santa Cruz de la Sierra 216 mil seguidores • 43 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en'"
     },
     {
       "id": "fb_gob_scz",
@@ -897,22 +898,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/472134457_1014714004030456_5991599592624630572_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ke6pMSoSO_MQ7kNvwFfawLF&_nc_oc=AdogGTQeDwBNiQLnJGtqm5XSEnLpKBsQ1pMncdW_5w32B1UL9Hp68QHqrXZ8CnXHhSs&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=W9MeqeLLlrLQjK4MCxD7Wg&_nc_ss=7f289&oh=00_AQRFZWMNYFjuR8oe0UqwKnKhH5iuK2JUPiCPgyfa5N7bWQ&oe=6AF91947",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1833269681258197/?__cft__[0]=AZgt-yNDUEDIDWMA4DiNUiVWgyoYiWaxa-WItmOGbTBDKXAEMTkrwJ90fbOfRX1T1X99bkhxut0ySStXuUAo3j5x3B6WqGD1P3zhwIyBpQscX5c1HThteSS_QYbW3CG3zOzQHeF3xd5xMvIbrJDMGZUaLDuo4nX-OIUSmiZG49ZW5nBzJjvUpSvZ8nIuwCIrQRzQ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Los conocimientos se comparten. Los talentos se multiplican. D… Ver más Los conocimientos se comparten. Los talentos se multiplican. D… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1386,32 +1378,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 2,
+      "rejected": 11,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
-          "category": "cine",
+          "score": 53,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "09/11/2026 Medio Ambiente Las poblaciones de fauna silvestre cayeron un 95 % en América Latina y el Caribe en últimos 50 años América Latina y el Caribe reportan el descenso más pronunciado entre todas las regiones evaluadas por el Índice Planeta Vivo (IPV), elaborado por el... vista 24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad E"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 24,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
-          "has_image": true,
-          "text_preview": "09/11/2026 Cultura Agenda: El Festival de Teatro Bertol Brecht genera expectativa El arte escénico se apodera de Cochabamba con el desarrollo del Festival de Teatro Bertol Brecht, cuyo comienzo está previsto para el miércoles 11 en la... vista 08/11/2026 Cultura El Ensamble de Moxos cautiva a Europa Raquel Maldonado, directora del Ensamble de Moxos, relata el éxito que replicó el grupo musical en "
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
-          "category": "festival",
+          "score": 53,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "08/11/2026 Espectáculos El Festival de Teatro Bertol Brecht reúne a cuatro compañías de jerarquía Cuatro propuestas escénicas de primer nivel, interpretadas por reconocidos elencos nacionales, animarán la vigesimoctava edición del Festival de Teatro Bertol... vista 16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas n"
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 47,
+          "category": "teatro",
+          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
+          "has_image": true,
+          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1468,37 +1460,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "ok",
-      "raw_items": 40,
+      "status": "error",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 40,
-      "rejected_samples": [
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/b6ad27fc-0993-4eb4-8b4e-bb2c08783ebe",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c2f58777-9401-4120-8d0a-9af00f3249d8",
-          "has_image": true,
-          "text_preview": ""
-        },
-        {
-          "reason": "texto_muy_corto",
-          "score": 0,
-          "category": "otro",
-          "url": "https://culturayturismo.gmsantacruz.gob.bo/eventos/c61fa519-18dd-4be8-a1d0-e1180ae28d06",
-          "has_image": true,
-          "text_preview": ""
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Client error '402 Payment Required' for url 'https://culturayturismo.gmsantacruz.gob.bo/eventos?vista=calendario' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402"
     },
     {
       "id": "web_cine_lapaz",
@@ -1511,8 +1478,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 39,
-      "events": 39,
+      "raw_items": 49,
+      "events": 49,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1545,8 +1512,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1562,8 +1529,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 6,
+      "events": 6,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1579,8 +1546,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 47,
-      "events": 47,
+      "raw_items": 51,
+      "events": 51,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1613,8 +1580,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1634,7 +1601,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Server error '522 <none>' for url 'https://beni.gob.bo/category/cultura/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/522"
+      "error": "Server error '523 <none>' for url 'https://beni.gob.bo/category/cultura/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/523"
     },
     {
       "id": "web_potosi_municipio",
