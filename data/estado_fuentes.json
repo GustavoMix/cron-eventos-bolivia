@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T15:50:55-04:00",
+  "generated_at": "2026-11-09T23:38:49-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,12 +12,11 @@
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_teatro_aire_libre",
-      "fb_umsa"
+      "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 202.5,
-    "horas_maximo_sin_datos": 1956.7
+    "horas_promedio_sin_datos": 197.1,
+    "horas_maximo_sin_datos": 1964.5
   },
   "sources": [
     {
@@ -165,13 +164,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KiN9_mkk-CMQ7kNvwEsel6m&_nc_oc=Adp99YkkSKjIRCMw0o679yCmQ1sjmOBVQ3tzvlZCjMt6xMMPtlGX9aZl4xQnPP74Swk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=agmUtROBiVLZrZjiH5tHYw&_nc_ss=7f289&oh=00_AQRIgxLPj_Wmzu_SyFts6-mxgTbSD-H4pr82XLvIxL1Mww&oe=6AF85700",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02gBYfP2ocqt21q3ToapgLNnxjqy8P6RM4mwnqUAAQqnBDMKtKh3pwDMBoU29JYjFWl?__cft__[0]=AZjTr2Qt1r5YhSJx3FsRUZ5fNw-Ro5YcC0GrB8z6JpJZpIHykLJb3c_j-4Wxq1CCzozTfQxmMXDKOMwRTI6fE-O23FZC-3zCjH07veUoJtrIz6LhVjjTuSvC8iSVgV6vGolTsY-ssNnv9IGsOynUxX4ZopoazBzj3MGCCRqS5DflRJS4L9a-zAoWzBw&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "Se inicia la semana intensiva de bacheo y recuperación vial en El Alto E… Ver más Se inicia la semana intensiva de bacheo y recuperación vial en El Alto E… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -352,30 +360,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AyaV8XqAEuEQ7kNvwE7PRqs&_nc_oc=AdptPDNvflCP8pHX0XS3SD-G20akEubiMRJ5vjOp9tx881aY-hCXTAHNNGHaow3E6GA&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=jg69lWDSplroX9NRkJAFlA&_nc_ss=7f289&oh=00_AQTU8mzqu6XTemDXC67mw4fd8nm-E-XJBpcf8GpolOetDQ&oe=6AF7EFC1",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "concierto",
-          "url": "https://www.facebook.com/61567518883240/videos/en-vivo-bol%C3%ADvar-derroto-a-the-strongest-y-conserva-la-punta-oriente-petrolero-le/1658097299278508/",
-          "has_image": true,
-          "text_preview": "🔴EN VIVO🔴 ➡Bolívar Derroto a The Strongest y Conserva la Punta ➡Oriente Petrolero le Gano a Blooming ➡Lista de la Selección Boliviana EN VIVO Bolívar Derroto a The Strongest y Conserva la Punta Oriente Petrolero le Gano a Blooming … Para eso escuchare pues programas argentinos Quieren que Villamil sea convocado?pero todo este año está en la banca o ni eso ,no merece convocatoria"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/ATBDigital/videos/3081756878842152/?comment_id=1007075441823112&__cft__[0]=AZg2pgUsHEHYX5AlInYsKASNhT0dl3eDBccmbIQmvEmEUdYOC0zeY8I6Mc9Vd3j5d2MMXE0WsXsVqqM3z6ecf6kxB3qI_1hFAL9oupgtgDGw9f0j-DLWVVzA4aHcet52vKSXcqPfRFHclW-gmEElEdmOOkYhfFQ3K5WLYw5_kyuuhixYevMq62VfAqHz7c0FElc&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Para eso escuchare pues programas argentinos Carlos Mayta Colque"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_bolivision",
@@ -545,7 +536,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. QMG-ZCS-VXTN Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
     },
     {
       "id": "fb_fundacion_cultural_bcb",
@@ -947,13 +938,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/327353662_741137784235064_8318577951319875007_n.png?stp=dst-png&cstp=mx626x626&ctp=s626x626&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=azrUl34vcDgQ7kNvwGnq6zR&_nc_oc=AdpiH_rJgIDioO8vLDYJD4rbgvGYEipZXMNuiNsvJnoJpSWJcbTkpJpM7rhwSDQJIdA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=pJWVRtwSjKmIgrSVQGy38w&_nc_ss=7f289&oh=00_AQTWdfXkIiQdWQZv2y06VUE7M7ZAKjtxDhZEMQ5st_MhbQ&oe=6AF86307",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_manzana1",
@@ -1151,13 +1142,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608556295_1294356196061148_8241773975244145547_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1500&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_b0SbgGCos4Q7kNvwH7JRb7&_nc_oc=Adp4Sn0wu-COMoGvwWkLrvtjwuI4ccyD3DD9x54d5l5SGhoDLeMhyz7qJjdzXSQzuGc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=4KsQTDODlsBoewUGlN7QTQ&_nc_ss=7f289&oh=00_AQQ0RLytDERsbPur6hvog5lH6C055Nd3qhp_2Kyqw8CmtA&oe=6AF87925",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Universidad Mayor de San Andrés - UMSA 223 mil seguidores • 244 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento P'"
+      "error": null
     },
     {
       "id": "fb_uagrm",
@@ -1185,30 +1176,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/885227792_1563452192485307_8056232867437949415_n.jpg?stp=dst-jpg_tt6&cstp=mx1772x1772&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7pNFmHgFieoQ7kNvwHT0msB&_nc_oc=AdpOMXNDWcBC3Lc8k3mu8TxsRZBMg-Hu-nFp3PtOnZOgwUMlKQRi_j6p5i5S9Y8XS7Q&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=3NqVIDLvUdE03VzTsGUeTA&_nc_ss=7f289&oh=00_AQQcr2G2-gNpsVyxv3p9q7GJqSo_WqpEU-CFMsUCrIa_IQ&oe=6AF7DE74",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid0phcaf88CDdufodY6uFj28TmRAyqREJEfDirdnens72amcNnKAHUQoNMFyozgaSdUl?__cft__[0]=AZgycAgIhVWtJdk2RsKALti9yWNayU4PwF5cCAi-IE7YJmPb_5txWD-UMu1IhejPnUwdzBny7qDtGIY-v-aRxkQeDPS8Qq3Wg9KX45LvsZQFTBAlbwY56lzVuYoGtBzJZznDhUni7ggNIgI1Q6tHveZs0a-qnJpdV666qmykuwCKmqiacbgXZkRJMKI&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "𝐔𝐌𝐒𝐒 𝐅𝐎𝐑𝐓𝐀𝐋𝐄𝐂𝐄 𝐋𝐀 𝐂𝐎𝐎𝐏𝐄𝐑𝐀𝐂𝐈𝐎́𝐍 𝐀𝐂𝐀𝐃𝐄́𝐌𝐈𝐂𝐀 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐂𝐎𝐍 𝐏𝐀𝐑𝐀𝐆𝐔𝐀𝐘 La Universidad Mayor de San Simón (UMSS), a través de la D… Ver más 𝐔𝐌𝐒𝐒 𝐅𝐎𝐑𝐓𝐀𝐋𝐄𝐂𝐄 𝐋𝐀 𝐂𝐎𝐎𝐏𝐄𝐑𝐀𝐂𝐈𝐎́𝐍 𝐀𝐂𝐀𝐃𝐄́𝐌𝐈𝐂𝐀 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐂𝐈𝐎𝐍𝐀𝐋 𝐂𝐎𝐍 𝐏𝐀𝐑𝐀𝐆𝐔𝐀𝐘 La Universidad Mayor de San Simón (UMSS), a través de la D… Ver más éxitos Ver más comentarios Marivel Diaz de Vivar"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/UmssBolOficial/posts/pfbid0phcaf88CDdufodY6uFj28TmRAyqREJEfDirdnens72amcNnKAHUQoNMFyozgaSdUl?comment_id=1346484824137605&__cft__[0]=AZgycAgIhVWtJdk2RsKALti9yWNayU4PwF5cCAi-IE7YJmPb_5txWD-UMu1IhejPnUwdzBny7qDtGIY-v-aRxkQeDPS8Qq3Wg9KX45LvsZQFTBAlbwY56lzVuYoGtBzJZznDhUni7ggNIgI1Q6tHveZs0a-qnJpdV666qmykuwCKmqiacbgXZkRJMKI&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Marivel Diaz de Vivar éxitos 1 h"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ucb_lapaz",
@@ -1357,12 +1331,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "timed out"
     },
     {
       "id": "web_lapaz_cultura",
@@ -1379,7 +1353,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Client error '404 Not Found' for url 'https://lapaz.bo/eventos-culturales/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      "error": "timed out"
     },
     {
       "id": "web_turismo_culturas",
@@ -1415,24 +1389,24 @@
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 0,
-          "category": "festival",
+          "score": 1,
+          "category": "cine",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
           "text_preview": "09/11/2026 Medio Ambiente Las poblaciones de fauna silvestre cayeron un 95 % en América Latina y el Caribe en últimos 50 años América Latina y el Caribe reportan el descenso más pronunciado entre todas las regiones evaluadas por el Índice Planeta Vivo (IPV), elaborado por el... vista 24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad E"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 17,
-          "category": "festival",
+          "score": 21,
+          "category": "concierto",
           "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
           "text_preview": "09/11/2026 Cultura Agenda: El Festival de Teatro Bertol Brecht genera expectativa El arte escénico se apodera de Cochabamba con el desarrollo del Festival de Teatro Bertol Brecht, cuyo comienzo está previsto para el miércoles 11 en la... vista 08/11/2026 Cultura El Ensamble de Moxos cautiva a Europa Raquel Maldonado, directora del Ensamble de Moxos, relata el éxito que replicó el grupo musical en "
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 17,
-          "category": "festival",
+          "score": 21,
+          "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "08/11/2026 Espectáculos El Festival de Teatro Bertol Brecht reúne a cuatro compañías de jerarquía Cuatro propuestas escénicas de primer nivel, interpretadas por reconocidos elencos nacionales, animarán la vigesimoctava edición del Festival de Teatro Bertol... vista 16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas n"
@@ -1535,8 +1509,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 37,
-      "events": 37,
+      "raw_items": 38,
+      "events": 38,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1569,8 +1543,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,8 +1577,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 46,
-      "events": 46,
+      "raw_items": 41,
+      "events": 41,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1652,38 +1626,13 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
-      "status": "ok",
-      "raw_items": 6,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 6,
-      "rejected_samples": [
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 22,
-          "category": "turismo",
-          "url": "https://beni.gob.bo/category/cultura/",
-          "has_image": true,
-          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 03/11/2026 BENI INICIA SU MES ANIVERSARIO CON LA IZA DE LA ENSEÑA PATRIA POR SUS 184 AÑOS DE CREACIÓN En el primer día hábil del mes aniversario del Beni, se realizó el acto cívico de iza de la Enseña P... Leer más → Cultura - 08/10/2026 GOBERNADOR DEL BENI PARTICIPA DE LOS 86 AÑOS DE PERÚ RÍO APERE Y COMPARTE CON LA FAMILIA GANAD"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "infantil",
-          "url": "https://beni.gob.bo/unidades-desconcentradas",
-          "has_image": true,
-          "text_preview": "Nivel Operativo Desconcentrado Unidades Desconcentradas Consulte los servicios descentralizados, centros de salud metropolitana y unidades operativas que ejecutan funciones especializadas en el departamento del Beni. Ver Todas Salud y Hospitales Desarrollo y Deporte Productivo y Campo SDA Servicio de Desarrollo Agrario Fomenta el desarrollo agropecuario integral en el departamento mediante transfe"
-        },
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 48,
-          "category": "otro",
-          "url": "https://beni.gob.bo/departamento/agricultura",
-          "has_image": true,
-          "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Server error '523 <none>' for url 'https://beni.gob.bo/category/cultura/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/523"
     },
     {
       "id": "web_potosi_municipio",
@@ -1787,13 +1736,38 @@
       "tier": 2,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "The read operation timed out"
+      "icon_url": "https://sucre.bo/wp-content/uploads/2026/05/header_web_2026.png",
+      "status": "ok",
+      "raw_items": 5,
+      "events": 1,
+      "rejected": 4,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "deporte",
+          "url": "https://sucre.bo/espectaculos-publicos/",
+          "has_image": true,
+          "text_preview": "Inicio / ESPECTÁCULOS PÚBLICOS ESPECTÁCULOS PÚBLICOS La Unidad de Espectáculos Públicos del municipio de Sucre procedió a intervenir la fiesta de un matrimonio por exceder el número de invitados, no cumplir normas de biosefuridad y la presencia de niños en esta actividad social, habiendo incumplido las ultimas disposiciones del COEM asi lo afirmo Wilma Bejarano responsable de la unidad de Espectác"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "deporte",
+          "url": "https://sucre.bo/direccion-de-gestion-de-recursos-humanos/",
+          "has_image": false,
+          "text_preview": "Inicio / DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS DIRECCIÓN DE GESTIÓN DE RECURSOS HUMANOS xoso tin chelsea thông tin chuyển nhượng câu lạc bộ bóng đá arsenal bóng đá atalanta bundesliga cầu thủ haaland UEFA everton xoso futebol ao vivo futemax multicanais onbet https://bsport.fit https://onbet88.ooo https://i9bet.biz https://hi88.ooo https://okvip.at https://f8bet.at https://fb88.cash https://vn8"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "turismo",
+          "url": "https://sucre.bo/secretaria-municipal-turismo-cultura/",
+          "has_image": false,
+          "text_preview": "Inicio / SECRETARÍA MUNICIPAL DE TURISMO Y CULTURA SECRETARÍA MUNICIPAL DE TURISMO Y CULTURA DIRECCIÓN: Calle Argentina Nº 65 TELÉFONO: 64-69160 SECRETARIO : Lic. Oscar Alfaro Vega ￼ OBJETIVO GENERAL: Posicionar al Municipio de Sucre como el principal referente turístico y cultural del país en el marco de su riqueza patrimonial, histórica, arquitectónica, cultural, paleontológica, gastronómi"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_pando_oficial",
