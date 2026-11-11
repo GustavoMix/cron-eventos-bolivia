@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:21:52-04:00",
+  "generated_at": "2026-11-11T02:19:17-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,8 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_bolivision",
-      "fb_casa_libertad",
+      "fb_ccelp",
       "fb_gam_cbba",
       "fb_gamscs",
       "fb_lostiempos",
@@ -18,8 +17,8 @@
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 211.7,
-    "horas_maximo_sin_datos": 1982.2
+    "horas_promedio_sin_datos": 209.8,
+    "horas_maximo_sin_datos": 1991.1
   },
   "sources": [
     {
@@ -236,12 +235,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Santa Cruz de la Sierra 216 mil seguidores • 43 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gob_scz",
@@ -371,13 +370,22 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oSjh6h3jHGgQ7kNvwGVAcui&_nc_oc=AdqeQVs5Rv8fyRAY1sp3gZeAko7r33BTDVXAnCbFuO_dNr6u1DAC30QfEauHEi1bdDQ&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=s_-KZQfqfwGZJ0NdQXE8uQ&_nc_ss=7f289&oh=00_AQR8PGKZjQgegc1xrjKWu29blmtgDzW93n03f4MC3nmxGw&oe=6AF9E4CC",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Noticias Bolivisión 1,2 mill. seguidores • 30 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1785838562686494/?__cft__[0]=AZhQycdCFX9agxKzRYNf5oBf82i58yOXCBBpkjacAHSm4LHiSwQP3pDwDSH0lNejfmkpm_CvZu5q8zx9bedNtO8K8tIN9SvRpvd9_KTxI7g69Hr2RrIJkckLgYmSq-SKKbR-SPdp8H8EhMFXAwMqDFgZMVOODWIqZj-r4R6SfPtsX6uEeCjeTHIrspt9r4lMhasr&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "El aeropuerto Nicolás Rojas de Potosí realiza su segundo aterrizaje de prueba.… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_erbol",
@@ -576,12 +584,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Centro Cultural de España en La Paz 31 mil seguidores • 426 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede'"
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -1085,13 +1093,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TeW7x9dyoE0Q7kNvwF3DTlP&_nc_oc=AdqEA7wmZT4n2wNlVwxoFQLq3Z2ZYmTiSERLXu6Z0pMs-v-FFEeKqLaku-BxUYe4-cE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=1y372cX4uUAZystsD5TJxQ&_nc_ss=7f289&oh=00_AQSh4m__y-6FGY4ph64024o-mrAl1dCq5DAG3eO_D57RCw&oe=6AF9E777",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Casa de la Libertad 16 mil seguidores • 45 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a '"
+      "error": null
     },
     {
       "id": "fb_musef_sucre",
@@ -1325,12 +1333,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "_ssl.c:994: The handshake operation timed out"
     },
     {
       "id": "web_lapaz_cultura",
@@ -1347,7 +1355,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Client error '404 Not Found' for url 'https://lapaz.bo/eventos-culturales/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      "error": "_ssl.c:994: The handshake operation timed out"
     },
     {
       "id": "web_turismo_culturas",
@@ -1378,12 +1386,12 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 2,
-      "rejected": 11,
+      "events": 1,
+      "rejected": 12,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
+          "score": 35,
           "category": "deporte",
           "url": "https://www.lostiempos.com/tendencias",
           "has_image": true,
@@ -1391,19 +1399,19 @@
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
+          "score": 15,
+          "category": "deporte",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "has_image": true,
+          "text_preview": "10/11/2026 Cultura Los Awatiñas llegan a Cochabamba para reencontrarse con su público El reencuentro del legendario grupo boliviano Awatiñas con el público cochabambino, después de 15 años, se producirá este jueves 12 y viernes 13 en el icónico... vista 09/11/2026 Cultura Agenda: El Festival de Teatro Bertol Brecht genera expectativa El arte escénico se apodera de Cochabamba con el desarrollo del "
+        },
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 35,
           "category": "deporte",
           "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
           "text_preview": "08/11/2026 Espectáculos El Festival de Teatro Bertol Brecht reúne a cuatro compañías de jerarquía Cuatro propuestas escénicas de primer nivel, interpretadas por reconocidos elencos nacionales, animarán la vigesimoctava edición del Festival de Teatro Bertol... vista 16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas n"
-        },
-        {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 47,
-          "category": "teatro",
-          "url": "https://www.lostiempos.com/agenda-cultural/dramaturgia-boliviana-dramaturgia-percepcion_642922",
-          "has_image": true,
-          "text_preview": "Agenda Cultural Abigail Villafán Ramírez, en colaboración con la Embajada de España en Bolivia, la AECID y la Cooperación Española, presenta la cuarta sesión del Taller de Dramaturgia, del 18 al 24 de noviembre en Proyecto mARTadero. ¡No pierdas la oportunidad de aprender y crear en este espacio único para el teatro! La temática a trabajar es la \"Dramaturgia de la Percepción\" Dirigido a: actores/a"
         }
       ],
       "error": null
@@ -1478,8 +1486,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 49,
-      "events": 49,
+      "raw_items": 55,
+      "events": 55,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1495,8 +1503,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 15,
-      "events": 15,
+      "raw_items": 16,
+      "events": 16,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1512,8 +1520,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 13,
+      "events": 13,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1529,8 +1537,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 6,
-      "events": 6,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1546,8 +1554,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 51,
-      "events": 51,
+      "raw_items": 62,
+      "events": 62,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1580,8 +1588,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
