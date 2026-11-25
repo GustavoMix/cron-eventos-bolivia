@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T10:21:52-04:00",
+  "generated_at": "2026-11-25T15:21:07-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,24 +8,23 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_casa_melchor_pinto",
       "fb_casa_moneda_potosi",
       "fb_ccelp",
-      "fb_centro_cultura_scz",
       "fb_eventos_bolivia",
       "fb_fexpocruz",
+      "fb_fundacion_patino_cbba",
       "fb_gam_cbba",
       "fb_gamscs",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_museo_nacional_arte",
-      "fb_superticket",
+      "fb_tarija_cultura",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 509.7,
-    "horas_maximo_sin_datos": 2335.2
+    "horas_promedio_sin_datos": 486.1,
+    "horas_maximo_sin_datos": 2340.2
   },
   "sources": [
     {
@@ -37,13 +36,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=v5q23tKbc1cQ7kNvwGs5NF-&_nc_oc=Adpo_sVUtbXBlh3R0W3j413oQ0Yq69sPhhbfQ6GEJoXexKAQvU4M_J6O2yudjxoZlNs&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=0Fmh-3KsAMt7reed3RswPw&_nc_ss=7f389&oh=00_AQQs4SNXUrNNTnhnX-tzL9_aqfIwEfAgJRxl6Okelh4KzA&oe=6B0CF81A",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02uqmNPSwe4zGmeMVKPyr2Mrpi7uAdyVLqvnNUpMHnwGqr6xgqHyeqs7KC6YE3UHC6l?__cft__[0]=AZjRYqSN98vv-8_BW1YusTl1qXEPGbAAU0bIOIahR8ov5239KM8SxkpYYoBrfqj0x9QPqWhTTOKZS2EROzN6zT5_U7E04PMXCFU_UrkYy6v-OpkoE60wh6rxGtepr1rnEFGhsrPFfkHAkoCOFCjXm3VAGNGM7m3aTJqEiQy5F2uoLBEcxuzWxKLF6lM&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Faltan pocos días para entrar en un mundo donde los cuentos se convierten en magia!… Ver más SuperTicket Producto/servicio Enviar mensaje"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -77,7 +85,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Eventos Bolivia 425 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
     },
     {
       "id": "fb_festivales_eventos",
@@ -281,7 +289,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. QFT-GCY-QFYO Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
     },
     {
       "id": "fb_opinion",
@@ -564,22 +572,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nnIlxJnSL7AQ7kNvwHsGtOd&_nc_oc=Adq9Z3ydi4CxQYgQkzquMiN3h1v8wEUT-wUeq9aBTlQfcZrP4LZcE4tykLUGZ_uxHx4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=eoTdDfehJz66Nmh2fETc5g&_nc_ss=7f389&oh=00_AQSgL6_O5svy-g3Jg4RCRYR7pvOEdmkaCslC3HhXFKhOHg&oe=6B0CBEB3",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 42,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1627259408723818/?__cft__[0]=AZhs49luA_uMq3jonZTaO5KyKUgN0c-pNMgt3j_UO0Co18BtCrswNZ9rV7o9Jg5ORaoRMmpp2kxqoOXSIOkEOTB9tJkiRMaMgEf4JmqtWAlH54U1lXUzUwt4ZntjF49zhqRzRY873o4nAaizaxzdspKnx_uiLtdyCHM8CVWmydMSkycuctDJifmaQ-y2Q9YjLdWZ&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Antes de convertirse en una leyenda, tuvo que demostrar que merecía una oportunidad. Hoy miércoles 2x1 no te pierdas YO SOY ROCKY aquí en Cinemateca Boliviana. ¡… Ver más Antes de convertirse en una leyenda, tuvo que demostrar que merecía una oportunidad. Hoy miércoles 2x1 no te pierdas YO SOY ROCKY aquí en Cinemateca Boliviana. ¡… Ver más Tenemos problemas para reproducir este video. Más informac"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ccelp",
@@ -613,7 +612,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Arte - MNA 38 mil seguidores • 136 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede debers'"
     },
     {
       "id": "fb_musef_lapaz",
@@ -647,7 +646,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia 15 mil seguidores • 0 seguidos Más Publicaciones Información Reels Fotos Esta página no e'"
     },
     {
       "id": "fb_crc_lapaz",
@@ -658,13 +657,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qPSFGDzkMO8Q7kNvwGABPdp&_nc_oc=AdoPevMKmGLL7OMTyIzB_9oxviUkwZJWuipNtDLfv3FWJ7v6k0lpWw4eePK8-f2kNl0&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=qb5l9-CPwJZTS4b_pXViOw&_nc_ss=7f389&oh=00_AQQ7CfToy3uk7Ods7XYBIgUQIp8mtmjKPoKk4EtxeoJx8g&oe=6B0CD7D2",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_municipio_sucre",
@@ -862,30 +861,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MNULwBUkm00Q7kNvwH9ObQa&_nc_oc=AdoqGSqy-SSXnaDk9xHS6w6boAMQj0GOIGkQ2JidJSlYdmsphAh3gPG8ifxkNWBskOk&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=KAJ_UOa1DeYGOLH6qcHjww&_nc_ss=7f389&oh=00_AQS1UH_U7uLhiC9AwHvxjsv9OjgC2H1Zx7dlCI0SCzmrdw&oe=6B0CA8E1",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "feria",
-          "url": "https://www.facebook.com/feriafipaz/videos/fipaz-25-a%C3%B1os-celebramos-el-cumplea%C3%B1os-del-sr-gerardo-william-dick-mealla-presid/2123960168213192/",
-          "has_image": true,
-          "text_preview": "#FIPAZ 25 AÑOS | Celebramos el cumpleaños del Sr. Gerardo William Dick Mealla, Presidente Ejecutivo y Fundador de la Feria Internacional de La Paz - FIPAZ, destacando su trayectoria de más de tres... #FIPAZ 25 AÑOS | Celebramos el cumpleaños del Sr. Gerardo William Dick Mealla, Presidente Ejecutivo y Fundador de la Feria Internacional de La Paz -..."
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2123960168213192/?comment_id=1016043374236538&__cft__[0]=AZiHQLPiQj36azZv4YYjCpIUlnt1xeyQbMQcD5vzIOYSCs0fk_HvjRDXnKNCeL6P-15gvdlbbhdho4wqsfAhyyalrf1vQ_T0k2j8Eri7uTjTdSzHPflNUvoJcYMSUoOHCeMOuRfGSSLge_yCh2oh1k4vEpYAfFtvG9ukrZS_ztxEX2zDrfE4qfDpiWvZz477SoDE&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Lizz Jhosy Larico Coronel 4 días"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_feicobol",
@@ -913,13 +895,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vqEp3HeGbD8Q7kNvwHlIknd&_nc_oc=Adr9ozv4D0oQTNtfSa8A_1RgZDr-RNloFAJ8QR-6CZu8iXCtPyD2q8WRaQvs2hhCLdU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=WGnFPqfPMiGoH6b4DnOw3Q&_nc_ss=7f389&oh=00_AQTMiYWmSTpYXsjJun8o1L5ioSFc9L8k6980A_B8VMCRqw&oe=6B0D1AA7",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid0XTNHh9oG7e2cYz8g1jMH69XGbsKaREJhBMfvtYYJCoLJ76pughhkbQfUp9K4gKR9l?comment_id=1649999980253666&__cft__[0]=AZhF1CayWwF2EGuBYcI0n3VktnVP7rdQP_Y91JdF9Xs1jjR89hZc1ubbg63tFGjXx4d5nRCSxBWFLH3j8CzCoha8q8vByWBUiqKito-FRV7mgqL4yfE3k43MePE7ZcN7Y-en2hQLIDETLI4ZCIT27ABZ30UUCQ38Yq25WfDPRNZBdk315-ZjOY0ySEw&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Essi Loza es a las 18:30 o a las 16:00? 17 h"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -998,13 +989,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YFHDpJJy3o4Q7kNvwH7wHh8&_nc_oc=AdqPWy23Z2QPmy-SQh9dRfQd_XMGfFzoBJ0GGmeFmwqLPbKRUoGHkZudVpScLwyXa3k&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=CNGC1TeEToUJBXAwxc6zoQ&_nc_ss=7f389&oh=00_AQT4c9FUu7I9dKVaobYYQQyY8YhAXcgyjDu8Hrlq1bpywQ&oe=6B0CFBFD",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": null
     },
     {
       "id": "fb_tarija_cultura",
@@ -1016,12 +1007,12 @@
       "region": "Tarija",
       "city": "Tarija",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1033,12 +1024,12 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Patiño Cochabamba 67 mil seguidores • 223 seguidos Más Publicaciones Información Reels Fotos Seguidos Esta página no está disponible en este momento Pued'"
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1100,13 +1091,22 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6P70MgQ_BwgQ7kNvwFC2GYZ&_nc_oc=Adrzyae1gMga-jTwJayNVwL2lFPW_dpLvuU5eL_doVkF2ZDzEH-o-t_pBZpnvGCQa74&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=GNRa_lYTgqgVt9jqPkyD7Q&_nc_ss=7f389&oh=00_AQQ4DdGvKf2kFLNuBFPCixor16j7PezT4qu8zCBarB07AQ&oe=6B0D18EF",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid0JL4gAMYLT5WKWUiLHjd32EGgcqyPAiLLDzRf3dmj86peniqcBtVuWkia91ddUSXml?__cft__[0]=AZjA5xJ7UcUkuv747TRpbpXlqn2CiFx4I2A5fYLQJ7cNalFL9HbT400oWuJqJd36UFwSme85aPW1LONpekMqFZI5IeMHbV6u8zfGn_3CzwPPCXMde3znkwAq7Ns4noq0-usqk_PlbALJkdR4ZgqoZITlX3U-LG5TMf15hgSpx9FLOLl1y4FTVwygxGU&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#CCP I ¡Porongo se llena de arte y cultura!… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_libertad",
@@ -1255,8 +1255,8 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 5,
-      "events": 4,
+      "raw_items": 6,
+      "events": 5,
       "rejected": 1,
       "rejected_samples": [
         {
@@ -1282,8 +1282,8 @@
       "icon_url": "https://ticket.bo/apple-icon.png?apple-icon.0jzg6hgv0mw3e.png",
       "status": "ok",
       "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
+      "events": 0,
+      "rejected": 2,
       "rejected_samples": [
         {
           "reason": "relevancia_insuficiente",
@@ -1292,6 +1292,14 @@
           "url": "https://ticket.bo/",
           "has_image": false,
           "text_preview": "Bolivia en modo evento VIVE BOLIVIA SIN LÍMITES BUSCAR Conciertos Teatro Folklore Arte Deportes EVENTO ★ Evento destacado EL VAR La Gran Final 19 de julio 2026 Zu Desde Bs. 100 Ver evento → La Paz ✦ Santa Cruz ✦ Cochabamba ✦ Conciertos ✦ Folklore ✦ Teatro ✦ Experiencias ✦ Arte ✦ Deportes ✦ La Paz ✦ Santa Cruz ✦ Cochabamba ✦ Conciertos ✦ Folklore ✦ Teatro ✦ Experiencias ✦ Arte ✦ Deportes ✦ EVENTOS "
+        },
+        {
+          "reason": "relevancia_insuficiente",
+          "score": 50,
+          "category": "deporte",
+          "url": "https://ticket.bo/eventos/el-var-la-gran-final",
+          "has_image": true,
+          "text_preview": "Deportes EL VAR La Gran Final 19 de julio de 2026 · 15:00 hrs Puertas: 12:00 Zu Av. Montenegro 954, La Paz, Bolivia Scroll Fecha 19 JUL domingo 2026 Hora 15:00 Puertas: 12:00 Venue Zu Av. Montenegro 954, La Paz, Bolivia Categoría DEPORTES Apto para todo público 1 Tipos de entrada Sobre el evento La final del Mundial en EL VAR El partido más esperado del mundo lo vives en EL VAR — la mejor experien"
         }
       ],
       "error": null
@@ -1401,33 +1409,33 @@
       "city": "Cochabamba",
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
-      "raw_items": 13,
-      "events": 10,
-      "rejected": 3,
+      "raw_items": 9,
+      "events": 0,
+      "rejected": 9,
       "rejected_samples": [
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
-          "category": "festival",
-          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.lostiempos.com/servicios/agenda-cultural",
           "has_image": true,
-          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 23h12m Empresarios de Cochabamba e Impuestos abordan el alcance de las últimas medidas tributarias 23h03m Sacaba fortalece el monitoreo hídrico p"
+          "text_preview": "Agenda | Los Tiempos"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
-          "category": "concierto",
-          "url": "https://www.lostiempos.com/agenda-cultural/espectaculo-danza-negra_638606",
+          "reason": "texto_muy_corto",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.lostiempos.com/doble-click/cultura",
           "has_image": true,
-          "text_preview": "Agenda Cultural Negra es una obra de danza que busca reflejar la esperanza y la paz a través del movimiento y la expresión corporal. Creada por el estudio de arte El Escenario, esta pieza es tanto una celebración de la vida como una invitación a la reflexión. Fecha del Evento: Martes, 20 Agosto, 2024 - 19:00 Dirección: Calle España y Heroínas Últimas noticias 23h12m Empresarios de Cochabamba e Imp"
+          "text_preview": "Cultura | Los Tiempos"
         },
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 53,
-          "category": "cine",
-          "url": "https://www.lostiempos.com/agenda-cultural/ciclo-cine-troje_638605",
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.lostiempos.com/doble-click/espectaculos",
           "has_image": true,
-          "text_preview": "Agenda Cultural Dentro del ciclo de cine dedicado a Álex de la Iglesia, se proyectará La Comunidad (2000). Esta película mezcla comedia negra y terror, revelando los oscuros secretos de una comunidad vecinal, en una trama tan intrigante como provocadora. Tipo de Evento: Cultural Fecha del Evento: Martes, 20 Agosto, 2024 (Todo el día) Dirección: La Troje (av. Capitán Victor Ustáriz km 3,5) Últimas "
+          "text_preview": "Espectáculos | Los Tiempos"
         }
       ],
       "error": null
@@ -1461,7 +1469,7 @@
           "category": "feria",
           "url": "https://www.fexpocruz.com.bo/feria/agropecruz",
           "has_image": false,
-          "text_preview": "EN Feria Agropecuaria Internacional de Santa Cruz Inicio Ferias Agropecruz Sobre Agropecruz 🗓️ Abril 2027 ⏰ De 17:00 a 23:00. 📍FEXPOCRUZ. Agropecruz es un espacio de intercambio donde referentes del sector agropecuario exhiben ganadería de élite y diferentes proveedores de insumos resaltan las cualidades de sus productos. Los principales productores de proteína animal del país esperan esta activid"
+          "text_preview": "EN Feria Agropecuaria Internacional de Santa Cruz Sobre Agropecruz 🗓️ Abril 2027 ⏰ De 17:00 a 23:00. 📍FEXPOCRUZ. Agropecruz es un espacio de intercambio donde referentes del sector agropecuario exhiben ganadería de élite y diferentes proveedores de insumos resaltan las cualidades de sus productos. Los principales productores de proteína animal del país esperan esta actividad ferial para exponer su"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
@@ -1469,7 +1477,7 @@
           "category": "feria",
           "url": "https://www.fexpocruz.com.bo/feria/expoagro",
           "has_image": false,
-          "text_preview": "EN Feria Agrícola de Santa Cruz Inicio Ferias Expoagro Sobre Expoagro 🗓️ Mayo de 2027 ⏰ De 09:00 a 16:00 📍FEXPOCRUZ NORTE ‍ Es una feria realizada en FEXPOCRUZ NORTE, dedicada a exhibir lo mejor del mundo del Agro con tendencias, tecnología e innovación junto a expertos del campo. Son 3 días en el que la Feria Agrícola de Santa Cruz reúne a referentes del sector en un evento de networking, confere"
+          "text_preview": "EN Feria Agrícola de Santa Cruz Sobre Expoagro 🗓️ Mayo de 2027 ⏰ De 09:00 a 16:00 📍FEXPOCRUZ NORTE ‍ Es una feria realizada en FEXPOCRUZ NORTE, dedicada a exhibir lo mejor del mundo del Agro con tendencias, tecnología e innovación junto a expertos del campo. Son 3 días en el que la Feria Agrícola de Santa Cruz reúne a referentes del sector en un evento de networking, conferencias magistrales, demo"
         }
       ],
       "error": null
@@ -1570,8 +1578,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 49,
-      "events": 49,
+      "raw_items": 47,
+      "events": 47,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1686,11 +1694,11 @@
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
+          "score": 24,
           "category": "turismo",
           "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
           "has_image": false,
-          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
+          "text_preview": "Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos departame"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
@@ -1698,7 +1706,7 @@
           "category": "otro",
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones",
           "has_image": false,
-          "text_preview": "0 % Manuales de organizacion y funciones Ordering Órden Ascendente Órden Descendente Título Ascendente Título Descendente Fecha Ascendente Fecha Descendente Filename Ascending Filename Descending Rating Count Ascending Rating Count Descending Rating Ascending Rating Descending Downloads Ascending Downloads Descending Cantidad de ítems por página 5 10 15 20 50 Todo Powered by Phoca Download"
+          "text_preview": "Manuales de organizacion y funciones Powered by Phoca Download"
         },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
@@ -1706,7 +1714,7 @@
           "category": "otro",
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
           "has_image": false,
-          "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
+          "text_preview": "Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de Plan"
         }
       ],
       "error": null
@@ -1727,20 +1735,20 @@
       "rejected": 2,
       "rejected_samples": [
         {
-          "reason": "tema_ajeno_a_eventos",
-          "score": 24,
-          "category": "concierto",
-          "url": "https://www.uto.edu.bo/",
-          "has_image": true,
-          "text_preview": "Banner UTO informa Promo feria profesiografica pago qr Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudia"
-        },
-        {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 14,
           "category": "otro",
           "url": "https://www.uto.edu.bo/eventos-proximos/",
           "has_image": true,
-          "text_preview": "Close Ir al contenido Revisa los próximos eventos, talleres, actividades, etc. Leer más Leer más Leer más Leer más Leer más Scroll al inicio"
+          "text_preview": "Eventos Proximos – UNIVERSIDAD TECNICA DE ORURO"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.uto.edu.bo/arranca-campana-de-forestacion-de-la-uto/",
+          "has_image": true,
+          "text_preview": "Con entrega de Proyectos conmemoran XLIII Aniversario Departamento de Ingeniería Agrícola, Recursos Naturales y Medio Ambiente – UNIVERSIDAD TECNICA DE ORURO"
         }
       ],
       "error": null
