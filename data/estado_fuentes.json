@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T09:33:42-04:00",
+  "generated_at": "2026-11-25T10:21:52-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,18 +8,24 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
+      "fb_casa_melchor_pinto",
+      "fb_casa_moneda_potosi",
       "fb_ccelp",
+      "fb_centro_cultura_scz",
+      "fb_eventos_bolivia",
+      "fb_fexpocruz",
       "fb_gam_cbba",
       "fb_gamscs",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
+      "fb_museo_nacional_arte",
       "fb_superticket",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 530.8,
-    "horas_maximo_sin_datos": 2334.4
+    "horas_promedio_sin_datos": 509.7,
+    "horas_maximo_sin_datos": 2335.2
   },
   "sources": [
     {
@@ -37,7 +43,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? SuperTicket 140 mil seguidores • 213 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error téc'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -48,13 +54,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sfHetZ2ZBKMQ7kNvwEOkKPF&_nc_oc=AdqSQmYZ55Rz-D9Dyvw5PsRvWlJmsd4viJvGMpte0k01RwEXlUxsnRVPOiA602TiJQM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=LT1zBRjcdr55fH05S1dKvw&_nc_ss=7f389&oh=00_AQQqdojHtrQo9nGSqyhLtLWEYXPhJJqROW23byfJS5TBgw&oe=6B0CB175",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_eventos_bolivia",
@@ -66,12 +72,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_festivales_eventos",
@@ -82,22 +88,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8CkqAi3X3U0Q7kNvwEdVjlS&_nc_oc=AdpD2eb8tmsz6EVGmJuTBMLElNm8IP6c1aZ4Glo2UOVbmWFdTUB1UfVJQlzeNL4-dKc&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=mnglcwgW5SAwnDbA9-NdXw&_nc_ss=7f389&oh=00_AQSS8vOORo2d49qJDQkKcXRCX42j8RpTtr6PHlvwvca5Cw&oe=6B0CBA03",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1736404487425826/?__cft__[0]=AZiMA9_buEL7IwuIPuRHGk5ZMfoiI9U7oeeRFvChqjZ_c7T1hgEDb1ta0k22kzuQOC8HedFWkUN0J8aym2PB5IFyF2DxXBA_AxVzVWZSWxtDcuJ-z4TlxqtHzgb-Njp6ZcNDh9tYfwRczxEtqUMB8l1zcSEmZ-kya-4zT2Vsv61MizUJZNwYnUfLu4I6GQ7jvZfE&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "Cuánto vacío hay en esta habitación tanta pasión colgada en la pared Ricardo Montaner #b… Ver más Cuánto vacío hay en esta habitación tanta pasión colgada en la pared Ricardo Montaner #b… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_fexpocruz",
@@ -109,12 +106,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fexpocruz 293 mil seguidores • 225 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técni'"
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -143,12 +140,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_amun_lapaz",
@@ -567,13 +564,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/806073055_1515367603964978_7446835923590785498_n.jpg?stp=dst-jpg_tt6&cstp=mx719x703&ctp=s719x703&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nnIlxJnSL7AQ7kNvwHsGtOd&_nc_oc=Adq9Z3ydi4CxQYgQkzquMiN3h1v8wEUT-wUeq9aBTlQfcZrP4LZcE4tykLUGZ_uxHx4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=eoTdDfehJz66Nmh2fETc5g&_nc_ss=7f389&oh=00_AQSgL6_O5svy-g3Jg4RCRYR7pvOEdmkaCslC3HhXFKhOHg&oe=6B0CBEB3",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 42,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1627259408723818/?__cft__[0]=AZhs49luA_uMq3jonZTaO5KyKUgN0c-pNMgt3j_UO0Co18BtCrswNZ9rV7o9Jg5ORaoRMmpp2kxqoOXSIOkEOTB9tJkiRMaMgEf4JmqtWAlH54U1lXUzUwt4ZntjF49zhqRzRY873o4nAaizaxzdspKnx_uiLtdyCHM8CVWmydMSkycuctDJifmaQ-y2Q9YjLdWZ&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Antes de convertirse en una leyenda, tuvo que demostrar que merecía una oportunidad. Hoy miércoles 2x1 no te pierdas YO SOY ROCKY aquí en Cinemateca Boliviana. ¡… Ver más Antes de convertirse en una leyenda, tuvo que demostrar que merecía una oportunidad. Hoy miércoles 2x1 no te pierdas YO SOY ROCKY aquí en Cinemateca Boliviana. ¡… Ver más Tenemos problemas para reproducir este video. Más informac"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_ccelp",
@@ -585,12 +591,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -602,12 +608,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_musef_lapaz",
@@ -636,12 +642,12 @@
       "region": "Potosí",
       "city": "Potosí",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_crc_lapaz",
@@ -652,13 +658,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/489903616_1266244638844403_1058528984042186093_n.jpg?stp=dst-jpg_tt6&cstp=mx930x930&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qPSFGDzkMO8Q7kNvwGABPdp&_nc_oc=AdoPevMKmGLL7OMTyIzB_9oxviUkwZJWuipNtDLfv3FWJ7v6k0lpWw4eePK8-f2kNl0&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=qb5l9-CPwJZTS4b_pXViOw&_nc_ss=7f389&oh=00_AQQ7CfToy3uk7Ods7XYBIgUQIp8mtmjKPoKk4EtxeoJx8g&oe=6B0CD7D2",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_municipio_sucre",
@@ -856,13 +862,30 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/736008010_1451722183654968_5533458099503975142_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MNULwBUkm00Q7kNvwH9ObQa&_nc_oc=AdoqGSqy-SSXnaDk9xHS6w6boAMQj0GOIGkQ2JidJSlYdmsphAh3gPG8ifxkNWBskOk&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=KAJ_UOa1DeYGOLH6qcHjww&_nc_ss=7f389&oh=00_AQS1UH_U7uLhiC9AwHvxjsv9OjgC2H1Zx7dlCI0SCzmrdw&oe=6B0CA8E1",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "feria",
+          "url": "https://www.facebook.com/feriafipaz/videos/fipaz-25-a%C3%B1os-celebramos-el-cumplea%C3%B1os-del-sr-gerardo-william-dick-mealla-presid/2123960168213192/",
+          "has_image": true,
+          "text_preview": "#FIPAZ 25 AÑOS | Celebramos el cumpleaños del Sr. Gerardo William Dick Mealla, Presidente Ejecutivo y Fundador de la Feria Internacional de La Paz - FIPAZ, destacando su trayectoria de más de tres... #FIPAZ 25 AÑOS | Celebramos el cumpleaños del Sr. Gerardo William Dick Mealla, Presidente Ejecutivo y Fundador de la Feria Internacional de La Paz -..."
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2123960168213192/?comment_id=1016043374236538&__cft__[0]=AZiHQLPiQj36azZv4YYjCpIUlnt1xeyQbMQcD5vzIOYSCs0fk_HvjRDXnKNCeL6P-15gvdlbbhdho4wqsfAhyyalrf1vQ_T0k2j8Eri7uTjTdSzHPflNUvoJcYMSUoOHCeMOuRfGSSLge_yCh2oh1k4vEpYAfFtvG9ukrZS_ztxEX2zDrfE4qfDpiWvZz477SoDE&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Lizz Jhosy Larico Coronel 4 días"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_feicobol",
@@ -873,22 +896,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/791246068_1549468440554702_4752739097434063911_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=D5vVsum7DAUQ7kNvwHT74vh&_nc_oc=AdqTx3xvT3yCpu-Fc_c2z2H2XyDhU64qQ1SjP-xdna8UDBAoum3t05y8Ser1qQ0ZAvc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=AC4itMzkIctOl4Ksq35SkA&_nc_ss=7f389&oh=00_AQRhMjbf_C6G9LkqbL125zsX6X3f48eH_kKe0KV45T_U7g&oe=6B0CCF5D",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_de_evento_en_el_texto",
-          "score": 28,
-          "category": "otro",
-          "url": "https://www.facebook.com/feicobol/posts/pfbid037hu5STXZj5ZSSFL3yHepDNmcyWduXn5Ra33h9tjd366gz4JQRzy8wvf1fxyxVLH8l?__cft__[0]=AZiMIqeeyfDEJ7S1MHS-h0Mt_isxNNerlNmNwCcusFQ6Psln9cSQfGwrthYhqOpc6fkbp3bfXqSXQ_qqOxt89idk4tmkq8WychNal5vPFivpIcLB1pDKWskhrroEBJa2HHUNbIVm4aiMtTfN_6_uk_6mF9O1DmRP2QG03zfU9DArVfGEzdJ4_XsoC12-rrBAP-onyvohoINan7DAcx4&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡La fuerza de Hilux ahora es 100% eléctrica!… Ver más Tenemos problemas para reproducir este video. Más información Toyota Bolivia Las cuentas que tienen una insignia de verificación se autenticaron y pueden pertenecer a suscriptores de Meta Verified o a personas o marcas destacadas. hace 16 horas martes, 24 de noviembre de 2026 a las 5:27 pm 16 h ·"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -985,12 +999,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_tarija_cultura",
@@ -1087,12 +1101,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_casa_libertad",
@@ -1318,12 +1332,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "ok",
+      "status": "error",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)"
     },
     {
       "id": "web_agenda_jiwaki",
