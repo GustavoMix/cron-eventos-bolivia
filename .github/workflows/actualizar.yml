@@ -6,7 +6,7 @@ on:
       max_grupos:
         description: "Máximo de fuentes Facebook por ola"
         required: false
-        default: "8"
+        default: "16"
       tamano_grupo:
         description: "Fuentes por job (recomendado 1)"
         required: false
@@ -14,7 +14,7 @@ on:
       grupos_solos:
         description: "Fuentes prioritarias aisladas en su propio job"
         required: false
-        default: "8"
+        default: "10"
   schedule:
     # Cada 3 horas, en un minuto que no sea el 0. GitHub interpreta cron en UTC.
     #
@@ -62,8 +62,8 @@ jobs:
         run: |
           python main.py --planificar-facebook \
             --tamano-grupo "${{ github.event.inputs.tamano_grupo || '1' }}" \
-            --max-grupos "${{ github.event.inputs.max_grupos || '8' }}" \
-            --grupos-solos "${{ github.event.inputs.grupos_solos || '8' }}" \
+            --max-grupos "${{ github.event.inputs.max_grupos || '16' }}" \
+            --grupos-solos "${{ github.event.inputs.grupos_solos || '10' }}" \
             >> "$GITHUB_OUTPUT"
 
   # ---------------------------------------------------------------------
@@ -75,7 +75,7 @@ jobs:
     needs: planificar
     strategy:
       fail-fast: false
-      max-parallel: 6
+      max-parallel: 8
       matrix: ${{ fromJSON(needs.planificar.outputs.matriz) }}
     runs-on: ubuntu-24.04
     timeout-minutes: 12

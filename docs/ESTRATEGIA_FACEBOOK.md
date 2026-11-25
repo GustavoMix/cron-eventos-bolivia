@@ -79,14 +79,16 @@ permalink oficial del reel/video y abrirlo o embeberlo según corresponda.
 
 ```bash
 python main.py --planificar-facebook \
-  --max-grupos 8 \
+  --max-grupos 16 \
   --tamano-grupo 1 \
-  --grupos-solos 8
+  --grupos-solos 10
 ```
 
-Con esos valores entran hasta 8 fuentes de Facebook por ola. El cron de GitHub
+Con esos valores entran hasta 16 fuentes de Facebook por ola. El cron de GitHub
 Actions corre cada 3 horas, por lo que el catálogo rota gradualmente sin una
-ráfaga de 70 páginas.
+ráfaga de 70 páginas (cada fuente sigue siendo un job propio con su propia
+pausa, así que subir el número de olas no cambia qué tan agresivo es cada job
+individual contra Facebook, solo cuántas páginas distintas se tocan por corrida).
 
 ## Diagnóstico
 
