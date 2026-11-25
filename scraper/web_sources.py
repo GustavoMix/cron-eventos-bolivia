@@ -307,10 +307,35 @@ def _fecha_meta(soup: BeautifulSoup) -> Optional[str]:
     return None
 
 
+# Bloques de "más contenido del sitio" que no son el artículo/evento en sí:
+# noticias relacionadas, lo más leído, redes, comentarios. Si se dejan, su
+# texto (con sus propias fechas) se mezcla con el del evento y el lector de
+# fechas puede terminar tomando la fecha de una noticia que no tiene nada que
+# ver. Selectores genéricos a propósito: no se puede conocer de antemano el
+# markup de cada sitio que se agregue como fuente.
+_RUIDO_SELECTORES = [
+    "aside",
+    "[class*=sidebar]", "[id*=sidebar]",
+    "[class*=widget]",
+    "[class*=related]", "[class*=relacionad]",
+    "[class*=mas-leid]", "[class*=mas-compartid]", "[class*=most-read]",
+    "[class*=popular]", "[class*=trending]",
+    "[class*=tag]", "[class*=etiqueta]",
+    "[class*=share]", "[class*=compartir]", "[class*=social]",
+    "[class*=comment]", "[class*=comentario]",
+    "[class*=newsletter]", "[class*=boletin]",
+    "[class*=breadcrumb]", "[class*=pagination]", "[class*=paginacion]",
+    "[class*=advertisement]", "[class*=publicidad]", "[class*=cookie]",
+]
+
+
 def _cuerpo(html: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup(["script", "style", "noscript", "svg", "header", "footer", "nav"]):
         tag.decompose()
+    for selector in _RUIDO_SELECTORES:
+        for nodo in soup.select(selector):
+            nodo.decompose()
     candidatos = []
     for selector in ["article", "main", ".entry-content", ".post-content",
                      ".content", "#content", ".event", ".evento"]:
