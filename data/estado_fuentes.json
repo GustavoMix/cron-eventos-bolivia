@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:19:17-04:00",
+  "generated_at": "2026-11-25T09:33:42-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -14,11 +14,12 @@
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
+      "fb_superticket",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 209.8,
-    "horas_maximo_sin_datos": 1991.1
+    "horas_promedio_sin_datos": 530.8,
+    "horas_maximo_sin_datos": 2334.4
   },
   "sources": [
     {
@@ -31,12 +32,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? SuperTicket 140 mil seguidores • 213 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error téc'"
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -47,13 +48,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462457642_859804826294020_4814248148126480600_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sfHetZ2ZBKMQ7kNvwEOkKPF&_nc_oc=AdqSQmYZ55Rz-D9Dyvw5PsRvWlJmsd4viJvGMpte0k01RwEXlUxsnRVPOiA602TiJQM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=LT1zBRjcdr55fH05S1dKvw&_nc_ss=7f389&oh=00_AQQqdojHtrQo9nGSqyhLtLWEYXPhJJqROW23byfJS5TBgw&oe=6B0CB175",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_eventos_bolivia",
@@ -81,13 +82,22 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/456708984_923624456475497_4741253631361604860_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8CkqAi3X3U0Q7kNvwEdVjlS&_nc_oc=AdpD2eb8tmsz6EVGmJuTBMLElNm8IP6c1aZ4Glo2UOVbmWFdTUB1UfVJQlzeNL4-dKc&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=mnglcwgW5SAwnDbA9-NdXw&_nc_ss=7f389&oh=00_AQSS8vOORo2d49qJDQkKcXRCX42j8RpTtr6PHlvwvca5Cw&oe=6B0CBA03",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1736404487425826/?__cft__[0]=AZiMA9_buEL7IwuIPuRHGk5ZMfoiI9U7oeeRFvChqjZ_c7T1hgEDb1ta0k22kzuQOC8HedFWkUN0J8aym2PB5IFyF2DxXBA_AxVzVWZSWxtDcuJ-z4TlxqtHzgb-Njp6ZcNDh9tYfwRczxEtqUMB8l1zcSEmZ-kya-4zT2Vsv61MizUJZNwYnUfLu4I6GQ7jvZfE&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Cuánto vacío hay en esta habitación tanta pasión colgada en la pared Ricardo Montaner #b… Ver más Cuánto vacío hay en esta habitación tanta pasión colgada en la pared Ricardo Montaner #b… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fexpocruz",
@@ -133,12 +143,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_amun_lapaz",
@@ -370,22 +380,13 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oSjh6h3jHGgQ7kNvwGVAcui&_nc_oc=AdqeQVs5Rv8fyRAY1sp3gZeAko7r33BTDVXAnCbFuO_dNr6u1DAC30QfEauHEi1bdDQ&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=s_-KZQfqfwGZJ0NdQXE8uQ&_nc_ss=7f289&oh=00_AQR8PGKZjQgegc1xrjKWu29blmtgDzW93n03f4MC3nmxGw&oe=6AF9E4CC",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1785838562686494/?__cft__[0]=AZhQycdCFX9agxKzRYNf5oBf82i58yOXCBBpkjacAHSm4LHiSwQP3pDwDSH0lNejfmkpm_CvZu5q8zx9bedNtO8K8tIN9SvRpvd9_KTxI7g69Hr2RrIJkckLgYmSq-SKKbR-SPdp8H8EhMFXAwMqDFgZMVOODWIqZj-r4R6SfPtsX6uEeCjeTHIrspt9r4lMhasr&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "El aeropuerto Nicolás Rojas de Potosí realiza su segundo aterrizaje de prueba.… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_erbol",
@@ -584,12 +585,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "blocked",
+      "status": "skipped",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Centro Cultural de España en La Paz 31 mil seguidores • 426 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede'"
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -872,13 +873,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/791246068_1549468440554702_4752739097434063911_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=D5vVsum7DAUQ7kNvwHT74vh&_nc_oc=AdqTx3xvT3yCpu-Fc_c2z2H2XyDhU64qQ1SjP-xdna8UDBAoum3t05y8Ser1qQ0ZAvc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=AC4itMzkIctOl4Ksq35SkA&_nc_ss=7f389&oh=00_AQRhMjbf_C6G9LkqbL125zsX6X3f48eH_kKe0KV45T_U7g&oe=6B0CCF5D",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 28,
+          "category": "otro",
+          "url": "https://www.facebook.com/feicobol/posts/pfbid037hu5STXZj5ZSSFL3yHepDNmcyWduXn5Ra33h9tjd366gz4JQRzy8wvf1fxyxVLH8l?__cft__[0]=AZiMIqeeyfDEJ7S1MHS-h0Mt_isxNNerlNmNwCcusFQ6Psln9cSQfGwrthYhqOpc6fkbp3bfXqSXQ_qqOxt89idk4tmkq8WychNal5vPFivpIcLB1pDKWskhrroEBJa2HHUNbIVm4aiMtTfN_6_uk_6mF9O1DmRP2QG03zfU9DArVfGEzdJ4_XsoC12-rrBAP-onyvohoINan7DAcx4&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡La fuerza de Hilux ahora es 100% eléctrica!… Ver más Tenemos problemas para reproducir este video. Más información Toyota Bolivia Las cuentas que tienen una insignia de verificación se autenticaron y pueden pertenecer a suscriptores de Meta Verified o a personas o marcas destacadas. hace 16 horas martes, 24 de noviembre de 2026 a las 5:27 pm 16 h ·"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_espacio_patino_lapaz",
@@ -1093,13 +1103,13 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/582058306_1391603512975262_5999329598034278471_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TeW7x9dyoE0Q7kNvwF3DTlP&_nc_oc=AdqEA7wmZT4n2wNlVwxoFQLq3Z2ZYmTiSERLXu6Z0pMs-v-FFEeKqLaku-BxUYe4-cE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=1y372cX4uUAZystsD5TJxQ&_nc_ss=7f289&oh=00_AQSh4m__y-6FGY4ph64024o-mrAl1dCq5DAG3eO_D57RCw&oe=6AF9E777",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_sucre",
@@ -1231,23 +1241,15 @@
       "city": null,
       "icon_url": "https://superticket.bo/media/configuracion/favicon.ico",
       "status": "ok",
-      "raw_items": 10,
-      "events": 8,
-      "rejected": 2,
+      "raw_items": 5,
+      "events": 4,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 0,
           "category": "otro",
           "url": "https://superticket.bo/",
-          "has_image": true,
-          "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "concierto",
-          "url": "https://superticket.bo/100--Yara-en-Concierto--Oruro-/",
           "has_image": true,
           "text_preview": "sobre Nosotros × Cerrar Preguntas Frecuentes × No encuentro mis entradas ¿Cómo puedo recuperarlas? Haz click en el menú Atención al Cliente y sigue las instrucciones. ¡Gracias por visitar Superticket.bo! Aquí te presentamos algunas preguntas y respuestas frecuentes relacionadas con la compra de entradas en nuestro sitio web: 1. ¿Cómo puedo comprar entradas en Superticket.bo? Para comprar entradas "
         }
@@ -1316,12 +1318,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "error",
+      "status": "ok",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)"
+      "error": null
     },
     {
       "id": "web_agenda_jiwaki",
@@ -1338,7 +1340,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "_ssl.c:994: The handshake operation timed out"
+      "error": "timed out"
     },
     {
       "id": "web_lapaz_cultura",
@@ -1355,7 +1357,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "_ssl.c:994: The handshake operation timed out"
+      "error": "timed out"
     },
     {
       "id": "web_turismo_culturas",
@@ -1386,32 +1388,32 @@
       "icon_url": "https://www.lostiempos.com/sites/default/files/ok_2.png",
       "status": "ok",
       "raw_items": 13,
-      "events": 1,
-      "rejected": 12,
+      "events": 10,
+      "rejected": 3,
       "rejected_samples": [
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 35,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/tendencias",
+          "score": 53,
+          "category": "festival",
+          "url": "https://www.lostiempos.com/agenda-cultural/festividad-religiosa-del-nino-sikimira_639243",
           "has_image": true,
-          "text_preview": "09/11/2026 Medio Ambiente Las poblaciones de fauna silvestre cayeron un 95 % en América Latina y el Caribe en últimos 50 años América Latina y el Caribe reportan el descenso más pronunciado entre todas las regiones evaluadas por el Índice Planeta Vivo (IPV), elaborado por el... vista 24/10/2026 Medio Ambiente La voz de una pequeña ave de Bolivia se suma a una canción mundial por la biodiversidad E"
+          "text_preview": "Agenda Cultural Villa Gualberto Villarroel nos invita a la Festividad Religiosa del Niño Sik'imira 2024 del 30 de agosto al 02 de septiembre. Fecha del Evento: Lunes, 2 Septiembre, 2024 (Todo el día) Dirección: Villa Gualberto Villarroel Últimas noticias 23h12m Empresarios de Cochabamba e Impuestos abordan el alcance de las últimas medidas tributarias 23h03m Sacaba fortalece el monitoreo hídrico p"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 15,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/cultura",
+          "score": 53,
+          "category": "concierto",
+          "url": "https://www.lostiempos.com/agenda-cultural/espectaculo-danza-negra_638606",
           "has_image": true,
-          "text_preview": "10/11/2026 Cultura Los Awatiñas llegan a Cochabamba para reencontrarse con su público El reencuentro del legendario grupo boliviano Awatiñas con el público cochabambino, después de 15 años, se producirá este jueves 12 y viernes 13 en el icónico... vista 09/11/2026 Cultura Agenda: El Festival de Teatro Bertol Brecht genera expectativa El arte escénico se apodera de Cochabamba con el desarrollo del "
+          "text_preview": "Agenda Cultural Negra es una obra de danza que busca reflejar la esperanza y la paz a través del movimiento y la expresión corporal. Creada por el estudio de arte El Escenario, esta pieza es tanto una celebración de la vida como una invitación a la reflexión. Fecha del Evento: Martes, 20 Agosto, 2024 - 19:00 Dirección: Calle España y Heroínas Últimas noticias 23h12m Empresarios de Cochabamba e Imp"
         },
         {
           "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 35,
-          "category": "deporte",
-          "url": "https://www.lostiempos.com/doble-click/espectaculos",
+          "score": 53,
+          "category": "cine",
+          "url": "https://www.lostiempos.com/agenda-cultural/ciclo-cine-troje_638605",
           "has_image": true,
-          "text_preview": "08/11/2026 Espectáculos El Festival de Teatro Bertol Brecht reúne a cuatro compañías de jerarquía Cuatro propuestas escénicas de primer nivel, interpretadas por reconocidos elencos nacionales, animarán la vigesimoctava edición del Festival de Teatro Bertol... vista 16/10/2026 Espectáculos El Llajta Rock 2026 llega renovado y con mucha fuerza a Cochabamba Como nunca, más de una veintena de bandas n"
+          "text_preview": "Agenda Cultural Dentro del ciclo de cine dedicado a Álex de la Iglesia, se proyectará La Comunidad (2000). Esta película mezcla comedia negra y terror, revelando los oscuros secretos de una comunidad vecinal, en una trama tan intrigante como provocadora. Tipo de Evento: Cultural Fecha del Evento: Martes, 20 Agosto, 2024 (Todo el día) Dirección: La Troje (av. Capitán Victor Ustáriz km 3,5) Últimas "
         }
       ],
       "error": null
@@ -1473,7 +1475,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Client error '402 Payment Required' for url 'https://culturayturismo.gmsantacruz.gob.bo/eventos?vista=calendario' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402"
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)"
     },
     {
       "id": "web_cine_lapaz",
@@ -1486,8 +1488,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 55,
-      "events": 55,
+      "raw_items": 43,
+      "events": 43,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1503,8 +1505,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 16,
-      "events": 16,
+      "raw_items": 14,
+      "events": 14,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1520,8 +1522,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 13,
-      "events": 13,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1537,8 +1539,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 10,
+      "events": 10,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1554,8 +1556,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 62,
-      "events": 62,
+      "raw_items": 49,
+      "events": 49,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1571,8 +1573,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 7,
+      "events": 7,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1588,8 +1590,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1603,13 +1605,38 @@
       "tier": 2,
       "region": "Beni",
       "city": "Trinidad",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://beni.gob.bo/storage/rWsT07E5tW12EJQPbj2oEGxie2p2xyfCv4Qay2Tc.jpg",
+      "status": "ok",
+      "raw_items": 7,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Server error '523 <none>' for url 'https://beni.gob.bo/category/cultura/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/523"
+      "rejected": 7,
+      "rejected_samples": [
+        {
+          "reason": "parece_cronica_de_algo_que_ya_paso",
+          "score": 22,
+          "category": "turismo",
+          "url": "https://beni.gob.bo/category/cultura/",
+          "has_image": true,
+          "text_preview": "Cultura Actividades culturales y eventos del departamento Cultura - 20/11/2026 BENI CONMEMORA SUS 184 AÑOS CON UN TE DEUM QUE REUNIÓ A LAS PRINCIPALES AUTORIDADES DEL PAÍS Y DEL DEPARTAMENTO En el marco de los actos conmemorativos por los 184 años de creación del Departamento del Beni, se c... Leer más → Cultura - 20/11/2026 BENI CONMEMORA SUS 184 AÑOS CON SOLEMNE SESIÓN DE HONOR DE LA ASAMBLEA LE"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "infantil",
+          "url": "https://beni.gob.bo/unidades-desconcentradas",
+          "has_image": true,
+          "text_preview": "Nivel Operativo Desconcentrado Unidades Desconcentradas Consulte los servicios descentralizados, centros de salud metropolitana y unidades operativas que ejecutan funciones especializadas en el departamento del Beni. Ver Todas Salud y Hospitales Desarrollo y Deporte Productivo y Campo SDA Servicio de Desarrollo Agrario Fomenta el desarrollo agropecuario integral en el departamento mediante transfe"
+        },
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://beni.gob.bo/departamento/agricultura",
+          "has_image": true,
+          "text_preview": "Innovación Tecnológica Agricultura de Precisión: Arroz y Soya Estamos transformando las pampas benianas en el nuevo granero del país. Con el uso de sensores, mapeo satelital y biotecnología, los proyectos de arroz y soya en Marbán e Iténez alcanzan rendimientos históricos. Eficiencia Hídrica Sistemas de riego automatizados para cultivos de alto valor. Zonificación Agroecológica Protección de suelo"
+        }
+      ],
+      "error": null
     },
     {
       "id": "web_potosi_municipio",
@@ -1639,10 +1666,18 @@
       "city": "Tarija",
       "icon_url": "https://www.tarija.gob.bo/templates/tarija/images/nuevo.png",
       "status": "ok",
-      "raw_items": 7,
-      "events": 3,
-      "rejected": 4,
+      "raw_items": 6,
+      "events": 0,
+      "rejected": 6,
       "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "turismo",
+          "url": "https://www.tarija.gob.bo/gobierno/desarrollo-productivo-recursos-naturales",
+          "has_image": false,
+          "text_preview": "0 % Información turística del Departamento de Tarija, encuentra lo que buscas aquí...noticias, eventos, lugares.... Descubre los diferentes sectores conformados por las unidades productivas del Departamento de Tarija :) El Programa Solidario Comunal (PROSOL), es un programa dependiente del Gobierno Autónomo Departamental que administra y transfiere de manera eficiente y transparente recursos depar"
+        },
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
           "score": 8,
@@ -1658,14 +1693,6 @@
           "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/ejecutivo",
           "has_image": false,
           "text_preview": "0 % Normativa - Ejecutivo Manual de Organización y Funciones - Unidad Departamental de Auditoría Interna (0) Manual de Organización y Funciones - MOFs Cercado MOF - SUB GOBERNACIN CERCADO.pdf Descarga Detalles Manual de Organización y Funciones - SECRETARIA ECONOMIA Y FINANZAS MOF - SECRETARIA_ECONOMIA Y FINANZAS.pdf Descarga Detalles Manual de Organización y Funciones Secretaria Departamental de "
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.tarija.gob.bo/normativa/manual-de-organizacion-y-funciones/desconcentradas",
-          "has_image": false,
-          "text_preview": "0 % Normativa - Desconcentradas MANUAL DE ORGANIZACION Y FUNCIONES - PROCEDIMIENTOS PROSOL MANUAL - PROSOL - RESOLUCION 371.pdf Descarga Detalles Manual de Organización y Funciones - Programa GNV - 2023 MOF - PROGRAMA - GNV - 2023.pdf Descarga Detalles Manual de Organización y Funciones - Servicio Departamental de Agropecuario MOF - SEDAG 2023.pdf Descarga Detalles Manual de Organización y Funcion"
         }
       ],
       "error": null
@@ -1686,20 +1713,20 @@
       "rejected": 2,
       "rejected_samples": [
         {
-          "reason": "parece_cronica_de_algo_que_ya_paso",
-          "score": 4,
+          "reason": "tema_ajeno_a_eventos",
+          "score": 24,
           "category": "concierto",
           "url": "https://www.uto.edu.bo/",
           "has_image": true,
-          "text_preview": "Becas Google Career Launchpad 2026 pago qr Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudiantes admitid"
+          "text_preview": "Banner UTO informa Promo feria profesiografica pago qr Captura de pantalla 2025-12-19 130701 baner2 Build & Design BANNER ADMITIDOS Información Académica Convocatorias Infórmate sobre los procesos de admisión vigentes para este periodo: Examen de Ingreso FNI 2/2026. Convocatorias a exámenes de suficiencia. Ver Convocatorias Gestión 2026 Listas de Admitidos 2/2026 Revisa la lista oficial de estudia"
         },
         {
-          "reason": "relevancia_insuficiente",
-          "score": 36,
-          "category": "feria",
-          "url": "https://www.uto.edu.bo/la-carrera-de-derecho-san-agustin-orienta-a-la-ciudadania-sobre-contratacion-civil-en-una-feria-academica-especializada/",
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 14,
+          "category": "otro",
+          "url": "https://www.uto.edu.bo/eventos-proximos/",
           "has_image": true,
-          "text_preview": "Estudiantes de Derecho Civil III socializaron normativas, garantías y tipos de contratos vigentes en el ordenamiento jurídico boliviano Oruro, 27 de octubre de 2026. — Con el objetivo de articular la enseñanza dogmática con la orientación directa a la sociedad, la Carrera de Derecho “San Agustín” , dependiente de la Facultad de Derecho, Ciencias Políticas y Sociales (FDCPS) de la Universidad Técni"
+          "text_preview": "Close Ir al contenido Revisa los próximos eventos, talleres, actividades, etc. Leer más Leer más Leer más Leer más Leer más Scroll al inicio"
         }
       ],
       "error": null
@@ -1715,8 +1742,8 @@
       "city": "Sucre",
       "icon_url": "https://sucre.bo/wp-content/uploads/2026/05/header_web_2026.png",
       "status": "ok",
-      "raw_items": 5,
-      "events": 2,
+      "raw_items": 4,
+      "events": 1,
       "rejected": 3,
       "rejected_samples": [
         {
