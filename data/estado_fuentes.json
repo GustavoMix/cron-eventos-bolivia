@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:21:07-04:00",
+  "generated_at": "2026-11-25T23:39:08-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -12,19 +12,18 @@
       "fb_ccelp",
       "fb_eventos_bolivia",
       "fb_fexpocruz",
-      "fb_fundacion_patino_cbba",
       "fb_gam_cbba",
       "fb_gamscs",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_museo_nacional_arte",
+      "fb_musef_sucre",
       "fb_tarija_cultura",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 486.1,
-    "horas_maximo_sin_datos": 2340.2
+    "horas_promedio_sin_datos": 465.4,
+    "horas_maximo_sin_datos": 2348.5
   },
   "sources": [
     {
@@ -36,22 +35,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/649265397_1361213112701626_279211760252970058_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=v5q23tKbc1cQ7kNvwGs5NF-&_nc_oc=Adpo_sVUtbXBlh3R0W3j413oQ0Yq69sPhhbfQ6GEJoXexKAQvU4M_J6O2yudjxoZlNs&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=0Fmh-3KsAMt7reed3RswPw&_nc_ss=7f389&oh=00_AQQs4SNXUrNNTnhnX-tzL9_aqfIwEfAgJRxl6Okelh4KzA&oe=6B0CF81A",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/SuperTicketBol/posts/pfbid02uqmNPSwe4zGmeMVKPyr2Mrpi7uAdyVLqvnNUpMHnwGqr6xgqHyeqs7KC6YE3UHC6l?__cft__[0]=AZjRYqSN98vv-8_BW1YusTl1qXEPGbAAU0bIOIahR8ov5239KM8SxkpYYoBrfqj0x9QPqWhTTOKZS2EROzN6zT5_U7E04PMXCFU_UrkYy6v-OpkoE60wh6rxGtepr1rnEFGhsrPFfkHAkoCOFCjXm3VAGNGM7m3aTJqEiQy5F2uoLBEcxuzWxKLF6lM&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡Faltan pocos días para entrar en un mundo donde los cuentos se convierten en magia!… Ver más SuperTicket Producto/servicio Enviar mensaje"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_conciertos_bolivia",
@@ -85,7 +75,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Eventos Bolivia 425 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_festivales_eventos",
@@ -119,7 +109,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fexpocruz 293 mil seguidores • 225 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técni'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -250,12 +240,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Santa Cruz de la Sierra 216 mil seguidores • 43 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en'"
     },
     {
       "id": "fb_gob_scz",
@@ -289,7 +279,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. QFT-GCY-QFYO Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_opinion",
@@ -555,13 +545,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AfD0EdNPsvYQ7kNvwEgS96n&_nc_oc=AdpMnqYgvG4_H8vhkqH8dEDDbdzvHHcbzz9kKwJ6TSUDsDQUa0QKs2pTb45fhK_Mcf4&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=uxyJxXKV1y0Lgo6J9Fkb3Q&_nc_ss=7f389&oh=00_AQSBUW4h_oHP3WgLNhsOBh8Njylu0oJggfZxlOsddeNDdw&oe=6B0D87B3",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "concierto",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/videos/homenaje-teresa-quisbert-y-jos%C3%A9-de-mesa/1118561857748604/",
+          "has_image": true,
+          "text_preview": "🔴 EN VIVO | Homenaje a Teresa Gisbert y José de Mesa Desde la Fundación Cultural del Banco Central de Bolivia (FCBCB), rendimos homenaje a la vida, obra y legado de Teresa Gisbert y José de Mesa,... 🔴 EN VIVO | Homenaje a Teresa Gisbert y José de Mesa Desde la Fundación Cultural del Banco Central de Bolivia (FCBCB), rendimos homenaje a la vida, obra... EN VIVO | Homenaje a Teresa Gisbert y José de"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "turismo",
+          "url": "https://www.facebook.com/fundacion.cultural.BCB/videos/1118561857748604/?comment_id=1673331590865621&__cft__[0]=AZgQt6kuqd01OfZdX0e9umTnJpkQKHRKoxGReC9owA5LMcKHfe0PT-B3qh0_3On8RCVr8sXuDJ5GRJhkJNyRjQLt5RN5VLNeBvMXcRWppFiWKefjQLOhDWa7RzvbY094ORaG0XBmK_MSszL9SGH3JMDeBdi6pf0hnjDp4jes8CwsOOY8x7kqy9fqZVN6Cmg8TUc&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Compartimos con valiosos maestros que nos enseñaron a valorar el patrimonio cultural. Lidia Cuevas"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -606,13 +613,22 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-gru1-2.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZlhfZV1nPpcQ7kNvwFt_cAc&_nc_oc=AdrHsznaVhdKQ7u9Dsa4QowHcnzzNR3clyfZvgeZtvd3ojRBmWIi7dfPqy1bVUAQNfw&_nc_zt=24&_nc_ht=scontent-gru1-2.xx&_nc_gid=YUzylOfBzLvDpjJu6tLX1w&_nc_ss=7f389&oh=00_AQRxJ1YK5QTMCB0mJ1q1btteq43eZ2uUA_tsDy7Or_jQDw&oe=6B0D7687",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Nacional de Arte - MNA 38 mil seguidores • 136 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede debers'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 24,
+          "category": "exposicion",
+          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1526315285982271/?__cft__[0]=AZjP-Ctl3RsXzWyQ9wMtwPi2GDuQIIEPj2kJkMPoimZnAUam9COd2-zn3VZYF0ePwavXFoRqh7Ue21sUIvrkP7fgmiavpAzzKtf7aeI10oEeP-EN-Xrh5n5heeN0mjTMPYW9SHlFIrIZhf0qauCUu5bMiiQFURmVRRmyNvGOQ7S5BOA9k0JzRAIN7ojFhZxHPL0&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "La Mirada Sacra en la Escultura Virreinal Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_musef_lapaz",
@@ -623,13 +639,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YGEP0cuRUo4Q7kNvwH_zFFr&_nc_oc=Adrl_OC-GHVom7wmF1MhIeKNjDDxla9Qp22BuDnLIHOETxDwGl0x2psenWUX7ykHK8c&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=D1LLNt6vjk4t16ai2KGsdQ&_nc_ss=7f389&oh=00_AQTtS25MrD-eBuKU48q1Mxxb71INF1wmvA0eK6j4vREdHg&oe=6B0D7A73",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": null
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -646,7 +662,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Casa Nacional de Moneda - Fundación Cultural del Banco Central de Bolivia 15 mil seguidores • 0 seguidos Más Publicaciones Información Reels Fotos Esta página no e'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_crc_lapaz",
@@ -895,22 +911,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/559625957_1245844747587102_4138356808050275640_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vqEp3HeGbD8Q7kNvwHlIknd&_nc_oc=Adr9ozv4D0oQTNtfSa8A_1RgZDr-RNloFAJ8QR-6CZu8iXCtPyD2q8WRaQvs2hhCLdU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=WGnFPqfPMiGoH6b4DnOw3Q&_nc_ss=7f389&oh=00_AQTMiYWmSTpYXsjJun8o1L5ioSFc9L8k6980A_B8VMCRqw&oe=6B0D1AA7",
-      "status": "ok",
-      "raw_items": 2,
-      "events": 1,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/EspacioPatinoLaPaz/posts/pfbid0XTNHh9oG7e2cYz8g1jMH69XGbsKaREJhBMfvtYYJCoLJ76pughhkbQfUp9K4gKR9l?comment_id=1649999980253666&__cft__[0]=AZhF1CayWwF2EGuBYcI0n3VktnVP7rdQP_Y91JdF9Xs1jjR89hZc1ubbg63tFGjXx4d5nRCSxBWFLH3j8CzCoha8q8vByWBUiqKito-FRV7mgqL4yfE3k43MePE7ZcN7Y-en2hQLIDETLI4ZCIT27ABZ30UUCQ38Yq25WfDPRNZBdk315-ZjOY0ySEw&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Essi Loza es a las 18:30 o a las 16:00? 17 h"
-        }
-      ],
-      "error": null
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alianza_francesa_lapaz",
@@ -989,13 +996,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/703702250_1332132799015180_3440511312183933984_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YFHDpJJy3o4Q7kNvwH7wHh8&_nc_oc=AdqPWy23Z2QPmy-SQh9dRfQd_XMGfFzoBJ0GGmeFmwqLPbKRUoGHkZudVpScLwyXa3k&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=CNGC1TeEToUJBXAwxc6zoQ&_nc_ss=7f389&oh=00_AQT4c9FUu7I9dKVaobYYQQyY8YhAXcgyjDu8Hrlq1bpywQ&oe=6B0CFBFD",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_tarija_cultura",
@@ -1012,7 +1019,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Dirección de Cultura y Patrimonio Gobierno Autónomo Departamental de Tarija 14 mil seguidores • 299 seguidos Más Publicaciones Información Reels Fotos Esta página '"
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1023,13 +1030,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S4mpkJDD3kQQ7kNvwG4xncf&_nc_oc=AdosZH7aTbdCZwKSfbJQ_8g1kG3mzKgiazEcQY1yXxq8s46Zc0piEYn1bEUE0-MFKZY&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Cp4fETCkN-sWxkLDeX3M5Q&_nc_ss=7f389&oh=00_AQSHYA17PVk-u9o5A29bsilGSyt_oJ0T74BTyKOpP6jkdQ&oe=6B0D8474",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fundación Patiño Cochabamba 67 mil seguidores • 223 seguidos Más Publicaciones Información Reels Fotos Seguidos Esta página no está disponible en este momento Pued'"
+      "error": null
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1091,22 +1098,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/586261146_1305637234935722_8736594978086822173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6P70MgQ_BwgQ7kNvwFC2GYZ&_nc_oc=Adrzyae1gMga-jTwJayNVwL2lFPW_dpLvuU5eL_doVkF2ZDzEH-o-t_pBZpnvGCQa74&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=GNRa_lYTgqgVt9jqPkyD7Q&_nc_ss=7f389&oh=00_AQQ4DdGvKf2kFLNuBFPCixor16j7PezT4qu8zCBarB07AQ&oe=6B0D18EF",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/CCPSCZ/posts/pfbid0JL4gAMYLT5WKWUiLHjd32EGgcqyPAiLLDzRf3dmj86peniqcBtVuWkia91ddUSXml?__cft__[0]=AZjA5xJ7UcUkuv747TRpbpXlqn2CiFx4I2A5fYLQJ7cNalFL9HbT400oWuJqJd36UFwSme85aPW1LONpekMqFZI5IeMHbV6u8zfGn_3CzwPPCXMde3znkwAq7Ns4noq0-usqk_PlbALJkdR4ZgqoZITlX3U-LG5TMf15hgSpx9FLOLl1y4FTVwygxGU&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "#CCP I ¡Porongo se llena de arte y cultura!… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_libertad",
@@ -1135,12 +1133,12 @@
       "region": "Chuquisaca",
       "city": "Sucre",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? MUSEF Regional Sucre 4,2 mil seguidores • 17 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un e'"
     },
     {
       "id": "fb_usfx",
@@ -1510,8 +1508,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 43,
-      "events": 43,
+      "raw_items": 30,
+      "events": 30,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1544,8 +1542,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 11,
-      "events": 11,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1561,8 +1559,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 9,
+      "events": 9,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1578,8 +1576,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 47,
-      "events": 47,
+      "raw_items": 44,
+      "events": 44,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1612,8 +1610,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 12,
-      "events": 12,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1730,9 +1728,9 @@
       "city": "Oruro",
       "icon_url": "https://www.uto.edu.bo/wp-content/uploads/2025/09/uto_big-3-90x90.png",
       "status": "ok",
-      "raw_items": 2,
+      "raw_items": 1,
       "events": 0,
-      "rejected": 2,
+      "rejected": 1,
       "rejected_samples": [
         {
           "reason": "sin_fecha_ni_enlace_de_evento",
@@ -1741,14 +1739,6 @@
           "url": "https://www.uto.edu.bo/eventos-proximos/",
           "has_image": true,
           "text_preview": "Eventos Proximos – UNIVERSIDAD TECNICA DE ORURO"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.uto.edu.bo/arranca-campana-de-forestacion-de-la-uto/",
-          "has_image": true,
-          "text_preview": "Con entrega de Proyectos conmemoran XLIII Aniversario Departamento de Ingeniería Agrícola, Recursos Naturales y Medio Ambiente – UNIVERSIDAD TECNICA DE ORURO"
         }
       ],
       "error": null
