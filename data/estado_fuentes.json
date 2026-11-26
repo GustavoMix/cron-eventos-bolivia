@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T23:39:08-04:00",
+  "generated_at": "2026-11-26T12:58:00-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,22 +8,19 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_casa_moneda_potosi",
       "fb_ccelp",
       "fb_eventos_bolivia",
       "fb_fexpocruz",
       "fb_gam_cbba",
-      "fb_gamscs",
+      "fb_goethe_lapaz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_musef_sucre",
-      "fb_tarija_cultura",
       "fb_teatro_aire_libre"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 465.4,
-    "horas_maximo_sin_datos": 2348.5
+    "horas_promedio_sin_datos": 425.3,
+    "horas_maximo_sin_datos": 2361.8
   },
   "sources": [
     {
@@ -109,7 +106,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Fexpocruz 293 mil seguidores • 225 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técni'"
     },
     {
       "id": "fb_teatro_aire_libre",
@@ -211,7 +208,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. HUP-VHO-GGAI Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
     },
     {
       "id": "fb_gob_cbba",
@@ -239,13 +236,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q_F918lhDAcQ7kNvwH4vBIM&_nc_oc=AdplUENfz4kqwK-JBIsGp54bKKmBagroaDnCzgkRtDlMnt3HSdpLxew4BH0Wym9VtX8&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=PV5A_slJ3Yxarbsj_28pHQ&_nc_ss=7f389&oh=00_AQTsxNJiVUT7CifFy8bo-DubyN-O3VJ9n0yKU41NAAov3Q&oe=6B0E2E57",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Municipal de Santa Cruz de la Sierra 216 mil seguidores • 43 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1685150002976823/?__cft__[0]=AZjU5hOBPDdTDWzpsYgrEwrqmjbbg9olklIs6cxLeR_1MiJxFqvJnuRSKyFfDeK6Av7l3DzKP2vh-_l8l_P21-yF1cs0TROuRKYVm7XQxgmL3FnI8dYlS90z73Hsk71_VayWtaAQWXp3EJ4X1hCTSJdJhTfzmRpfrCGQC94fXJOMrk0zOBG2Gza8Xi8oshFYBDmH&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡Tu perdonazo tributario también se paga desde el celular! … Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gob_scz",
@@ -545,30 +551,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/666952555_1699663907919438_5157846579137550612_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1060x1062&ctp=s720x720&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AfD0EdNPsvYQ7kNvwEgS96n&_nc_oc=AdpMnqYgvG4_H8vhkqH8dEDDbdzvHHcbzz9kKwJ6TSUDsDQUa0QKs2pTb45fhK_Mcf4&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=uxyJxXKV1y0Lgo6J9Fkb3Q&_nc_ss=7f389&oh=00_AQSBUW4h_oHP3WgLNhsOBh8Njylu0oJggfZxlOsddeNDdw&oe=6B0D87B3",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 30,
-          "category": "concierto",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/videos/homenaje-teresa-quisbert-y-jos%C3%A9-de-mesa/1118561857748604/",
-          "has_image": true,
-          "text_preview": "🔴 EN VIVO | Homenaje a Teresa Gisbert y José de Mesa Desde la Fundación Cultural del Banco Central de Bolivia (FCBCB), rendimos homenaje a la vida, obra y legado de Teresa Gisbert y José de Mesa,... 🔴 EN VIVO | Homenaje a Teresa Gisbert y José de Mesa Desde la Fundación Cultural del Banco Central de Bolivia (FCBCB), rendimos homenaje a la vida, obra... EN VIVO | Homenaje a Teresa Gisbert y José de"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "turismo",
-          "url": "https://www.facebook.com/fundacion.cultural.BCB/videos/1118561857748604/?comment_id=1673331590865621&__cft__[0]=AZgQt6kuqd01OfZdX0e9umTnJpkQKHRKoxGReC9owA5LMcKHfe0PT-B3qh0_3On8RCVr8sXuDJ5GRJhkJNyRjQLt5RN5VLNeBvMXcRWppFiWKefjQLOhDWa7RzvbY094ORaG0XBmK_MSszL9SGH3JMDeBdi6pf0hnjDp4jes8CwsOOY8x7kqy9fqZVN6Cmg8TUc&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Compartimos con valiosos maestros que nos enseñaron a valorar el patrimonio cultural. Lidia Cuevas"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_cinemateca_boliviana",
@@ -602,7 +591,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Centro Cultural de España en La Paz 31 mil seguidores • 426 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede'"
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -613,22 +602,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-gru1-2.xx.fbcdn.net/v/t39.30808-1/799590604_1527283889425202_2868687306375857369_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZlhfZV1nPpcQ7kNvwFt_cAc&_nc_oc=AdrHsznaVhdKQ7u9Dsa4QowHcnzzNR3clyfZvgeZtvd3ojRBmWIi7dfPqy1bVUAQNfw&_nc_zt=24&_nc_ht=scontent-gru1-2.xx&_nc_gid=YUzylOfBzLvDpjJu6tLX1w&_nc_ss=7f389&oh=00_AQRxJ1YK5QTMCB0mJ1q1btteq43eZ2uUA_tsDy7Or_jQDw&oe=6B0D7687",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 24,
-          "category": "exposicion",
-          "url": "https://www.facebook.com/museonacionaldeartebolivia/videos/1526315285982271/?__cft__[0]=AZjP-Ctl3RsXzWyQ9wMtwPi2GDuQIIEPj2kJkMPoimZnAUam9COd2-zn3VZYF0ePwavXFoRqh7Ue21sUIvrkP7fgmiavpAzzKtf7aeI10oEeP-EN-Xrh5n5heeN0mjTMPYW9SHlFIrIZhf0qauCUu5bMiiQFURmVRRmyNvGOQ7S5BOA9k0JzRAIN7ojFhZxHPL0&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "La Mirada Sacra en la Escultura Virreinal Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_musef_lapaz",
@@ -639,13 +619,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/611473287_1348509667320096_817152790620105899_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YGEP0cuRUo4Q7kNvwH_zFFr&_nc_oc=Adrl_OC-GHVom7wmF1MhIeKNjDDxla9Qp22BuDnLIHOETxDwGl0x2psenWUX7ykHK8c&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=D1LLNt6vjk4t16ai2KGsdQ&_nc_ss=7f389&oh=00_AQTtS25MrD-eBuKU48q1Mxxb71INF1wmvA0eK6j4vREdHg&oe=6B0D7A73",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_casa_moneda_potosi",
@@ -656,13 +636,30 @@
       "tier": 1,
       "region": "Potosí",
       "city": "Potosí",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/748745859_1475576784610073_3589186367146427662_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4FMh6hyqQlAQ7kNvwF_VCB1&_nc_oc=AdqABtYy7N8LqI7IcqiT1ckP6HiLeFec9bs9UxWw1zdZR30gjvP3HGUnVPpgy92pdKM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=lM5HP8WLjl4-Lpml6oFUAw&_nc_ss=7f389&oh=00_AQTBJfIxMVQgGPhI1by23SdNsImanaN8_9a0_1ow-XZXdg&oe=6B0E3ACF",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 10,
+          "category": "festival",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/cnm-necrol%C3%B3gicola-casa-nacional-de-moneda-expresa-su-profundo-pesar-por-el-falle/1606260498208367/",
+          "has_image": true,
+          "text_preview": "#CNM | NECROLÓGICO La Casa Nacional de Moneda expresa su profundo pesar por el fallecimiento del P. Piotr Nawrot, SVD, sacerdote, musicólogo e incansable gestor del patrimonio musical boliviano. Su... #CNM | NECROLÓGICO La Casa Nacional de Moneda expresa su profundo pesar por el fallecimiento del P. Piotr Nawrot, SVD, sacerdote, musicólogo e... #CNM | NECROLÓGICO La Casa Nacional de Moneda expresa"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 10,
+          "category": "festival",
+          "url": "https://www.facebook.com/cnmptsfcbcb/posts/cnm-necrol%C3%B3gicola-casa-nacional-de-moneda-expresa-su-profundo-pesar-por-el-falle/1606260498208367/",
+          "has_image": true,
+          "text_preview": "#CNM | NECROLÓGICO La Casa Nacional de Moneda expresa su profundo pesar por el fallecimiento del P. Piotr Nawrot, SVD, sacerdote, musicólogo e... #CNM | NECROLÓGICO La Casa Nacional de Moneda expresa su profundo pesar por el fallecimiento del P. Piotr Nawrot, SVD, sacerdote, musicólogo e incansable gestor del patrimonio musical boliviano. Su invaluable labor permitió rescatar, investigar y difundi"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_crc_lapaz",
@@ -979,13 +976,30 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/657628652_1405689151599558_7132455753012962389_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=F4FxbV9z0wEQ7kNvwHFFqeP&_nc_oc=Ado03h623dSi1B992tmKQ_NXBWri1UXQWStRKixjivaC9DGmmIAP6EekOl8-8kF-av0&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=E-AyTuF8w5ZikhSmqc6WWQ&_nc_ss=7f389&oh=00_AQT74hcKsYxAe7s-flbgGEtOYl-JEwcIPtzI-T9tnmpQCQ&oe=6B0E33D7",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 28,
+          "category": "festival",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/homenaje-en-memoria-de-piotr-nawrot-piotr-2002-acr%C3%ADlico-sobre-lienzo-110-x-50-cm/1629279849240486/",
+          "has_image": true,
+          "text_preview": "HOMENAJE EN MEMORIA DE PIOTR NAWROT † Piotr / 2002 / Acrílico sobre lienzo / 110 x 50 cm La artista Ejti Stih retrata al musicólogo polaco Piotr Nawrot con una túnica sacerdotal estampada con... HOMENAJE EN MEMORIA DE PIOTR NAWROT † Piotr / 2002 / Acrílico sobre lienzo / 110 x 50 cm La artista Ejti Stih retrata al musicólogo polaco Piotr Nawrot... HOMENAJE EN MEMORIA DE PIOTR NAWROT † Piotr / 2002"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 28,
+          "category": "festival",
+          "url": "https://www.facebook.com/Manzana1espaciodearte/posts/homenaje-en-memoria-de-piotr-nawrot-piotr-2002-acr%C3%ADlico-sobre-lienzo-110-x-50-cm/1629279849240486/",
+          "has_image": true,
+          "text_preview": "HOMENAJE EN MEMORIA DE PIOTR NAWROT † Piotr / 2002 / Acrílico sobre lienzo / 110 x 50 cm La artista Ejti Stih retrata al musicólogo polaco Piotr Nawrot... HOMENAJE EN MEMORIA DE PIOTR NAWROT † Piotr / 2002 / Acrílico sobre lienzo / 110 x 50 cm La artista Ejti Stih retrata al musicólogo polaco Piotr Nawrot con una túnica sacerdotal estampada con reproducciones de partituras originales, procedentes "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_casa_melchor_pinto",
@@ -1013,13 +1027,13 @@
       "tier": 1,
       "region": "Tarija",
       "city": "Tarija",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/798489092_1355294500088623_9185179381364929842_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RmBrrRshcPoQ7kNvwHwwGsy&_nc_oc=Adra8UVe0fscaug1AKfk82snly1KIXI76P1GGBrX_fCtgC_wGPTLcNsFTX-4EFTZqBc&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=Serg5A89Wm3HpGZ67fFpAw&_nc_ss=7f389&oh=00_AQTwSmIQtsnAcHtwoI2avx9f1-t5x-KNo02jVGtLpx1CUQ&oe=6B0E4AAA",
+      "status": "ok",
+      "raw_items": 1,
+      "events": 1,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Dirección de Cultura y Patrimonio Gobierno Autónomo Departamental de Tarija 14 mil seguidores • 299 seguidos Más Publicaciones Información Reels Fotos Esta página '"
+      "error": null
     },
     {
       "id": "fb_fundacion_patino_cbba",
@@ -1030,13 +1044,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/559274116_1251698593663065_6378498009903483997_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S4mpkJDD3kQQ7kNvwG4xncf&_nc_oc=AdosZH7aTbdCZwKSfbJQ_8g1kG3mzKgiazEcQY1yXxq8s46Zc0piEYn1bEUE0-MFKZY&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Cp4fETCkN-sWxkLDeX3M5Q&_nc_ss=7f389&oh=00_AQSHYA17PVk-u9o5A29bsilGSyt_oJ0T74BTyKOpP6jkdQ&oe=6B0D8474",
-      "status": "ok",
-      "raw_items": 1,
-      "events": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
+      "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": null
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_goethe_lapaz",
@@ -1048,12 +1062,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Goethe-Institut La Paz 31 mil seguidores • 188 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un'"
     },
     {
       "id": "fb_alianza_francesa_cbba",
@@ -1064,13 +1078,22 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/904315556_1680727687426994_3153973809522275662_n.avif?stp=dst-jpg_tt6&cstp=mx400x400&ctp=s400x400&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ijoKR9UTMqgQ7kNvwFxwJF4&_nc_oc=AdrFOG7EubwNut6KkN8xfmGRuBC6wWLN69RANu7eZ4HI7rIlJTP3yEcxcM5tm4yKu_o&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=e9REE6ZFcPWSP8lvdzClXg&_nc_ss=7f389&oh=00_AQQyTnQieW96wBICXoWo3Zy2p7rSmfGuwPx_nvtk2GSRkA&oe=6B0E3813",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 30,
+          "category": "teatro",
+          "url": "https://www.facebook.com/alianza.f.decochabamba/posts/pfbid0ZSuua3b21bneBTdLgnQeKhRCRoT8V1jR1ZbrSLJdffmKt9YyGHVVB4PpjSVWh68al?__cft__[0]=AZj3XdCV-JLVMLrw8yYhZm_vheQhf21T9zn_toAOtVqBYf8X1uX1_DYAPCPy76s8a7zah5cXq02Bx-20NHAQJHamgQzs8oGwmehUK-hNM7wRBWStgEzsGAYIOqtkb7h5oPeL-pKAf17jyGK66tZy-fgwFfxf5wm7NvbP21X3Z6HFOdDLD4ptqLuuzyc&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "(Director: Laurent Cantet. País: Francia. Año: 2021. Subtitulado en español. Género: Comedia, Drama. Duración: 1h27mm)… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alianza_francesa_sucre",
@@ -1081,13 +1104,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/341351281_688004476432014_2289124810583481295_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1638&ctp=p720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XNHNyf0_7GgQ7kNvwGKVyEg&_nc_oc=Adp0O4I22GqIM3oPDYWakIOhQcZ7T6KwD4ezejV6EU-hfQOf6y1Im1yg0f9PdMoGYu0&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=QpcDRhkXTGI9PYMNte0cpQ&_nc_ss=7f389&oh=00_AQSMwLmue-mJgGCGwkOoYaenWssNB9Z2-QYwmPv5jFQLhA&oe=6B0E5112",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_de_evento_en_el_texto",
+          "score": 48,
+          "category": "otro",
+          "url": "https://www.facebook.com/AlianzaFrancesaSucre/posts/-%C3%BAltima-semana-de-inscripcionesest%C3%A1s-pensando-en-certificar-tu-nivel-de-franc%C3%A9s-/1567182288776740/",
+          "has_image": true,
+          "text_preview": "🇫🇷✨ ¡ÚLTIMA SEMANA DE INSCRIPCIONES! ¿Estás pensando en certificar tu nivel de francés? ¡Esta es tu oportunidad! 📚 Demuestra todo lo que sabes y alcanza nuevas metas con los exámenes internacionales... 🇫🇷✨ ¡ÚLTIMA SEMANA DE INSCRIPCIONES! ¿Estás pensando en certificar tu nivel de francés? ¡Esta es tu oportunidad! 📚 Demuestra todo lo que sabes y alcanza... ¡ÚLTIMA SEMANA DE INSCRIPCIONES! ¿Estás pe"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_centro_cultura_scz",
@@ -1132,13 +1164,22 @@
       "tier": 1,
       "region": "Chuquisaca",
       "city": "Sucre",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
-      "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? MUSEF Regional Sucre 4,2 mil seguidores • 17 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un e'"
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/612029655_1396428305605672_5825903729373284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=x-UsQMHrZZ8Q7kNvwG0xvvF&_nc_oc=AdqegsQDLswy0xMsdKGCJ_0XygCaxdcV0D-q3k9nYExtK9xtr7Ty-Ke_Z8Y5ZIkfdfM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=fVea7aWz1R6EW7_j-vh7lA&_nc_ss=7f389&oh=00_AQSyhOmWSMQuwKs298cryQHM5Vhl8QaTn5wmjVQEW-Pe3Q&oe=6B0E4824",
+      "status": "ok",
+      "raw_items": 2,
+      "events": 1,
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/musefsucre/posts/pfbid02uxs7hre6Fgp2TPi9zHSC8SwtJc1YCaztJ2mTiUm5GeZgk2tTquhh4gHGETx8SiP7l?comment_id=927525680326122&__cft__[0]=AZjNG1CEaQ3Z2nLG5wsf8BepAmWJGm91b6cieRKJP5qeV7tcaC1HqDHZ9XqbDXKjrRZS-gNVFEDTkvO8EPmtigBrMTUZJ3w2SDsSas6HVjil6nxJvp_1Eyqcf9YpysH75TYo3W2c5NGiDYzKGrSaZk3-I5x1cYU6X9tijnekuGsDzaKnAxi0um_uVEo&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Muchas gracias MUSEF Regional Sucre Maryy Ríos"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_usfx",
@@ -1277,30 +1318,13 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://ticket.bo/apple-icon.png?apple-icon.0jzg6hgv0mw3e.png",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 2,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 43,
-          "category": "teatro",
-          "url": "https://ticket.bo/",
-          "has_image": false,
-          "text_preview": "Bolivia en modo evento VIVE BOLIVIA SIN LÍMITES BUSCAR Conciertos Teatro Folklore Arte Deportes EVENTO ★ Evento destacado EL VAR La Gran Final 19 de julio 2026 Zu Desde Bs. 100 Ver evento → La Paz ✦ Santa Cruz ✦ Cochabamba ✦ Conciertos ✦ Folklore ✦ Teatro ✦ Experiencias ✦ Arte ✦ Deportes ✦ La Paz ✦ Santa Cruz ✦ Cochabamba ✦ Conciertos ✦ Folklore ✦ Teatro ✦ Experiencias ✦ Arte ✦ Deportes ✦ EVENTOS "
-        },
-        {
-          "reason": "relevancia_insuficiente",
-          "score": 50,
-          "category": "deporte",
-          "url": "https://ticket.bo/eventos/el-var-la-gran-final",
-          "has_image": true,
-          "text_preview": "Deportes EL VAR La Gran Final 19 de julio de 2026 · 15:00 hrs Puertas: 12:00 Zu Av. Montenegro 954, La Paz, Bolivia Scroll Fecha 19 JUL domingo 2026 Hora 15:00 Puertas: 12:00 Venue Zu Av. Montenegro 954, La Paz, Bolivia Categoría DEPORTES Apto para todo público 1 Tipos de entrada Sobre el evento La final del Mundial en EL VAR El partido más esperado del mundo lo vives en EL VAR — la mejor experien"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Client error '404 Not Found' for url 'https://ticket.bo/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "id": "web_tuentrada",
@@ -1508,8 +1532,8 @@
       "city": "La Paz",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 30,
-      "events": 30,
+      "raw_items": 31,
+      "events": 31,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1525,8 +1549,8 @@
       "city": "El Alto",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 14,
-      "events": 14,
+      "raw_items": 12,
+      "events": 12,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1542,8 +1566,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1559,8 +1583,8 @@
       "city": "Quillacollo",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 8,
+      "events": 8,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1576,8 +1600,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 44,
-      "events": 44,
+      "raw_items": 47,
+      "events": 47,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1593,8 +1617,8 @@
       "city": "Sucre",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 7,
-      "events": 7,
+      "raw_items": 8,
+      "events": 8,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
