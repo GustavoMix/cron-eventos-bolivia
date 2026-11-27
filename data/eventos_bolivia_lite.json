@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-11-26T12:58:00-04:00",
+  "generated_at": "2026-11-26T21:49:47-04:00",
   "timezone": "America/La_Paz",
   "summary": {
-    "events_total": 77,
-    "events_today": 15
+    "events_total": 79,
+    "events_today": 17
   },
   "filters": {
     "ui_groups": [
@@ -68,14 +68,14 @@
         "count": 9
       },
       {
-        "key": "festival",
-        "label": "Festivales",
+        "key": "concierto",
+        "label": "Conciertos",
         "count": 8
       },
       {
-        "key": "concierto",
-        "label": "Conciertos",
-        "count": 7
+        "key": "festival",
+        "label": "Festivales",
+        "count": 8
       },
       {
         "key": "conferencia",
@@ -100,7 +100,7 @@
       {
         "key": "otro",
         "label": "Otros",
-        "count": 1
+        "count": 2
       },
       {
         "key": "danza",
@@ -125,14 +125,14 @@
     ],
     "cities": [
       {
-        "key": "Cochabamba",
-        "label": "Cochabamba",
+        "key": "La Paz",
+        "label": "La Paz",
         "count": 18
       },
       {
-        "key": "La Paz",
-        "label": "La Paz",
-        "count": 17
+        "key": "Cochabamba",
+        "label": "Cochabamba",
+        "count": 18
       },
       {
         "key": "Santa Cruz de la Sierra",
@@ -140,13 +140,13 @@
         "count": 13
       },
       {
-        "key": "Tarija",
-        "label": "Tarija",
-        "count": 6
-      },
-      {
         "key": "Sucre",
         "label": "Sucre",
+        "count": 7
+      },
+      {
+        "key": "Tarija",
+        "label": "Tarija",
         "count": 6
       },
       {
@@ -179,7 +179,7 @@
       {
         "key": "La Paz",
         "label": "La Paz",
-        "count": 16
+        "count": 17
       },
       {
         "key": "Santa Cruz",
@@ -187,13 +187,13 @@
         "count": 12
       },
       {
-        "key": "Tarija",
-        "label": "Tarija",
-        "count": 6
-      },
-      {
         "key": "Chuquisaca",
         "label": "Chuquisaca",
+        "count": 7
+      },
+      {
+        "key": "Tarija",
+        "label": "Tarija",
         "count": 6
       },
       {
@@ -216,22 +216,22 @@
       {
         "key": "hoy",
         "label": "Hoy",
-        "count": 19
+        "count": 21
       },
       {
         "key": "esta_semana",
         "label": "Esta semana",
-        "count": 22
+        "count": 24
       },
       {
         "key": "este_mes",
         "label": "Este mes",
-        "count": 27
+        "count": 29
       },
       {
         "key": "todos",
         "label": "Todos",
-        "count": 77
+        "count": 79
       }
     ],
     "price": [
@@ -248,19 +248,19 @@
       {
         "key": "por_confirmar",
         "label": "Precio por confirmar",
-        "count": 54
+        "count": 56
       }
     ],
     "media": [
       {
         "key": "con_foto",
         "label": "Con foto",
-        "count": 67
+        "count": 69
       },
       {
         "key": "con_video",
         "label": "Con video",
-        "count": 1
+        "count": 2
       }
     ],
     "tags": [
@@ -312,6 +312,11 @@
       {
         "key": "LosBolivianos",
         "label": "LosBolivianos",
+        "count": 1
+      },
+      {
+        "key": "ENVIVO",
+        "label": "ENVIVO",
         "count": 1
       },
       {
@@ -378,11 +383,6 @@
         "key": "Vinculación",
         "label": "Vinculación",
         "count": 1
-      },
-      {
-        "key": "OrientaciónVocacional",
-        "label": "OrientaciónVocacional",
-        "count": 1
       }
     ],
     "source_classes": [
@@ -394,12 +394,12 @@
       {
         "key": "venue",
         "label": "venue",
-        "count": 14
+        "count": 15
       },
       {
         "key": "cultura_oficial",
         "label": "cultura_oficial",
-        "count": 14
+        "count": 15
       },
       {
         "key": "cartelera_cine",
@@ -438,12 +438,14 @@
       "evt_dcc3791d7b19c2",
       "evt_70eac48384df0c",
       "evt_868b2991f4a64e",
-      "evt_41ce78239034de",
       "evt_51f8a1f10b83d9",
       "evt_ecd7f36e3daa7e",
+      "evt_06c5d2233f5816",
       "evt_a392a45f2b1c52",
       "evt_c8ba3a6521ccf0",
-      "evt_7098dbbaa03be7"
+      "evt_8fae0d10ea59d7",
+      "evt_7098dbbaa03be7",
+      "evt_41ce78239034de"
     ],
     "tomorrow": [
       "evt_361d77fbc77d09",
@@ -477,11 +479,11 @@
       "evt_dcc3791d7b19c2",
       "evt_70eac48384df0c",
       "evt_868b2991f4a64e",
-      "evt_41ce78239034de",
       "evt_51f8a1f10b83d9",
       "evt_ecd7f36e3daa7e",
       "evt_a392a45f2b1c52",
       "evt_7098dbbaa03be7",
+      "evt_41ce78239034de",
       "evt_f6374b65ec2e82",
       "evt_87be3ea0369300",
       "evt_b470206d5b6e85",
@@ -500,12 +502,12 @@
   },
   "coverage_by_department": {
     "La Paz": {
-      "events_total": 21,
-      "events_upcoming": 16,
-      "events_with_image": 15,
-      "events_with_video": 1,
+      "events_total": 22,
+      "events_upcoming": 17,
+      "events_with_image": 16,
+      "events_with_video": 2,
       "sources_total": 26,
-      "sources_ok": 2
+      "sources_ok": 4
     },
     "Cochabamba": {
       "events_total": 27,
@@ -513,23 +515,23 @@
       "events_with_image": 24,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Santa Cruz": {
-      "events_total": 19,
+      "events_total": 18,
       "events_upcoming": 12,
       "events_with_image": 7,
       "events_with_video": 0,
       "sources_total": 13,
-      "sources_ok": 4
+      "sources_ok": 2
     },
     "Chuquisaca": {
-      "events_total": 7,
-      "events_upcoming": 6,
-      "events_with_image": 6,
+      "events_total": 8,
+      "events_upcoming": 7,
+      "events_with_image": 7,
       "events_with_video": 0,
       "sources_total": 8,
-      "sources_ok": 4
+      "sources_ok": 3
     },
     "Oruro": {
       "events_total": 4,
@@ -545,7 +547,7 @@
       "events_with_image": 3,
       "events_with_video": 0,
       "sources_total": 3,
-      "sources_ok": 1
+      "sources_ok": 0
     },
     "Tarija": {
       "events_total": 7,
@@ -553,7 +555,7 @@
       "events_with_image": 2,
       "events_with_video": 0,
       "sources_total": 5,
-      "sources_ok": 3
+      "sources_ok": 2
     },
     "Beni": {
       "events_total": 0,
@@ -582,10 +584,10 @@
     },
     "concierto": {
       "label": "Conciertos",
-      "events_total": 8,
-      "events_upcoming": 7,
-      "events_with_image": 7,
-      "events_with_video": 0
+      "events_total": 9,
+      "events_upcoming": 8,
+      "events_with_image": 8,
+      "events_with_video": 1
     },
     "conferencia": {
       "label": "Conferencias",
@@ -610,7 +612,7 @@
     },
     "exposicion": {
       "label": "Exposiciones",
-      "events_total": 6,
+      "events_total": 5,
       "events_upcoming": 4,
       "events_with_image": 4,
       "events_with_video": 0
@@ -645,9 +647,9 @@
     },
     "otro": {
       "label": "Otros",
-      "events_total": 1,
-      "events_upcoming": 1,
-      "events_with_image": 1,
+      "events_total": 2,
+      "events_upcoming": 2,
+      "events_with_image": 2,
       "events_with_video": 0
     },
     "taller": {
@@ -1737,127 +1739,6 @@
       "source_count": 1
     },
     {
-      "event_id": "evt_41ce78239034de",
-      "title": "Película en cartelera de cine",
-      "category": "cine",
-      "category_label": "Cine",
-      "starts_at": "2026-11-26T13:40:00-04:00",
-      "starts_at_ms": 1795714800000,
-      "ends_at_ms": null,
-      "multi_day": false,
-      "display_date": "Jueves 26 de noviembre · 13:40",
-      "lifecycle": "hoy",
-      "lifecycle_label": "Hoy",
-      "days_until": 0,
-      "is_upcoming": true,
-      "city": "Santa Cruz de la Sierra",
-      "department": "Santa Cruz",
-      "venue": "Cinemark - Ventura - Cinemark",
-      "image_url": "https://cdn.bolivia.com/cine/2026/9/los-juegos-del-hambre-amanecer-en-la-cosecha-47834.jpg",
-      "has_video": false,
-      "video_thumbnail_url": null,
-      "is_free": false,
-      "price_from": null,
-      "currency": null,
-      "price_label": null,
-      "organizer": null,
-      "showtimes": [
-        "13:40",
-        "17:00",
-        "20:20",
-        "12:40",
-        "16:00",
-        "19:20",
-        "11:30",
-        "14:40",
-        "18:00",
-        "18:40",
-        "21:20",
-        "12:30",
-        "14:10",
-        "15:50",
-        "20:00",
-        "17:30",
-        "19:00",
-        "20:50",
-        "11:10",
-        "12:20",
-        "13:30",
-        "14:50",
-        "17:20",
-        "18:20",
-        "13:00",
-        "15:20",
-        "11:50",
-        "16:30",
-        "18:50",
-        "21:30",
-        "11:40",
-        "14:00"
-      ],
-      "formats": [
-        "2D - DBOX - Doblada",
-        "2D - DBOX - XD - Doblada",
-        "2D - Doblada",
-        "2D - PRE - Doblada",
-        "2D - PRE - Subtitulada",
-        "3D - Doblada"
-      ],
-      "occurrences": [
-        "2026-11-26T13:40:00-04:00",
-        "2026-11-26T17:00:00-04:00",
-        "2026-11-26T20:20:00-04:00",
-        "2026-11-26T12:40:00-04:00",
-        "2026-11-26T16:00:00-04:00",
-        "2026-11-26T19:20:00-04:00",
-        "2026-11-26T11:30:00-04:00",
-        "2026-11-26T14:40:00-04:00",
-        "2026-11-26T18:00:00-04:00",
-        "2026-11-26T18:40:00-04:00",
-        "2026-11-26T21:20:00-04:00",
-        "2026-11-26T12:30:00-04:00",
-        "2026-11-26T14:10:00-04:00",
-        "2026-11-26T15:50:00-04:00",
-        "2026-11-26T20:00:00-04:00",
-        "2026-11-26T17:30:00-04:00",
-        "2026-11-26T19:00:00-04:00",
-        "2026-11-26T20:50:00-04:00",
-        "2026-11-26T11:10:00-04:00",
-        "2026-11-26T12:20:00-04:00",
-        "2026-11-26T13:30:00-04:00",
-        "2026-11-26T14:50:00-04:00",
-        "2026-11-26T17:20:00-04:00",
-        "2026-11-26T18:20:00-04:00",
-        "2026-11-26T13:00:00-04:00",
-        "2026-11-26T15:20:00-04:00",
-        "2026-11-26T11:50:00-04:00",
-        "2026-11-26T16:30:00-04:00",
-        "2026-11-26T18:50:00-04:00",
-        "2026-11-26T21:30:00-04:00",
-        "2026-11-26T11:40:00-04:00",
-        "2026-11-26T14:00:00-04:00",
-        "2026-11-26T16:20:00-04:00",
-        "2026-11-26T21:00:00-04:00",
-        "2026-11-26T17:40:00-04:00",
-        "2026-11-26T19:50:00-04:00",
-        "2026-11-26T13:20:00-04:00",
-        "2026-11-26T16:10:00-04:00",
-        "2026-11-26T12:50:00-04:00",
-        "2026-11-26T15:40:00-04:00",
-        "2026-11-26T21:40:00-04:00",
-        "2026-11-26T21:50:00-04:00"
-      ],
-      "content_genre": null,
-      "duration_minutes": null,
-      "age_restriction": null,
-      "director": null,
-      "cast": [],
-      "quality_score": 68,
-      "is_featured": true,
-      "status": "programado",
-      "source_count": 1
-    },
-    {
       "event_id": "evt_51f8a1f10b83d9",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -2065,6 +1946,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_06c5d2233f5816",
+      "title": "LO MEJOR DE NOSOTROS, PARA NUESTRA GENTE",
+      "category": "otro",
+      "category_label": "Otros",
+      "starts_at": "2026-11-26T15:39:00-04:00",
+      "starts_at_ms": 1795721940000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 26 de noviembre · 15:39",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Sucre",
+      "department": "Chuquisaca",
+      "venue": null,
+      "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-6/925066396_1468430172080734_578586027529973629_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eRbMTF5l7JwQ7kNvwHRc_K5&_nc_oc=AdqTWIbiKVygU7-GeJ0IHodLStw0TyMfzn9msH6n0Wjzie-bdUP1zdcfan_XLFiehvA&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&_nc_gid=OtrwU2M56ZPWo0jYfk4dUw&_nc_ss=7f389&oh=00_AQV5lp0UqwrWOEsgmFXtH4aB_q9LII5mYAc9CS94FsiAAw&oe=6B0EB733",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 51,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_a392a45f2b1c52",
       "title": "Película en cartelera de cine",
       "category": "cine",
@@ -2180,6 +2099,44 @@
       "source_count": 1
     },
     {
+      "event_id": "evt_8fae0d10ea59d7",
+      "title": "Ciudad Cultural, Turismo de Altura y Economía Naranja",
+      "category": "concierto",
+      "category_label": "Conciertos",
+      "starts_at": "2026-11-26T18:56:00-04:00",
+      "starts_at_ms": 1795733760000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 26 de noviembre · 18:56",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "La Paz",
+      "department": "La Paz",
+      "venue": null,
+      "image_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t15.5256-10/885488371_4493446740930052_7629258986095730484_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=596eb7&_nc_ohc=r8TJoU3rFmcQ7kNvwG0mO4u&_nc_oc=Adr0MiIWETLMg1TdV09VOqoa7yjwHu1eclO-IhhkRaVZhDtfLaSzHAl8glvG05oeOKE&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=R0dQ0_ad0FJqOISMLzjlkg&_nc_ss=7f389&oh=00_AQVUxXxQ3Y8cJqcVfJj6X4Iti4BA6cF7sbn8T9FiuRKAZQ&oe=6B0EC59E",
+      "has_video": true,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [],
+      "formats": [],
+      "occurrences": [],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 62,
+      "is_featured": false,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
       "event_id": "evt_7098dbbaa03be7",
       "title": "Chilajatun en Concierto",
       "category": "concierto",
@@ -2213,6 +2170,80 @@
       "director": null,
       "cast": [],
       "quality_score": 72,
+      "is_featured": true,
+      "status": "programado",
+      "source_count": 1
+    },
+    {
+      "event_id": "evt_41ce78239034de",
+      "title": "Película en cartelera de cine",
+      "category": "cine",
+      "category_label": "Cine",
+      "starts_at": "2026-11-26T20:20:00-04:00",
+      "starts_at_ms": 1795738800000,
+      "ends_at_ms": null,
+      "multi_day": false,
+      "display_date": "Jueves 26 de noviembre · 20:20",
+      "lifecycle": "hoy",
+      "lifecycle_label": "Hoy",
+      "days_until": 0,
+      "is_upcoming": true,
+      "city": "Santa Cruz de la Sierra",
+      "department": "Santa Cruz",
+      "venue": "Cinemark - Ventura - Cinemark",
+      "image_url": "https://cdn.bolivia.com/cine/2026/9/los-juegos-del-hambre-amanecer-en-la-cosecha-47834.jpg",
+      "has_video": false,
+      "video_thumbnail_url": null,
+      "is_free": false,
+      "price_from": null,
+      "currency": null,
+      "price_label": null,
+      "organizer": null,
+      "showtimes": [
+        "20:20",
+        "19:20",
+        "18:40",
+        "21:20",
+        "20:00",
+        "19:00",
+        "20:50",
+        "18:50",
+        "21:30",
+        "18:20",
+        "21:00",
+        "19:50",
+        "21:40",
+        "21:50"
+      ],
+      "formats": [
+        "2D - DBOX - Doblada",
+        "2D - DBOX - XD - Doblada",
+        "2D - Doblada",
+        "2D - PRE - Doblada",
+        "2D - PRE - Subtitulada"
+      ],
+      "occurrences": [
+        "2026-11-26T20:20:00-04:00",
+        "2026-11-26T19:20:00-04:00",
+        "2026-11-26T18:40:00-04:00",
+        "2026-11-26T21:20:00-04:00",
+        "2026-11-26T20:00:00-04:00",
+        "2026-11-26T19:00:00-04:00",
+        "2026-11-26T20:50:00-04:00",
+        "2026-11-26T18:50:00-04:00",
+        "2026-11-26T21:30:00-04:00",
+        "2026-11-26T18:20:00-04:00",
+        "2026-11-26T21:00:00-04:00",
+        "2026-11-26T19:50:00-04:00",
+        "2026-11-26T21:40:00-04:00",
+        "2026-11-26T21:50:00-04:00"
+      ],
+      "content_genre": null,
+      "duration_minutes": null,
+      "age_restriction": null,
+      "director": null,
+      "cast": [],
+      "quality_score": 68,
       "is_featured": true,
       "status": "programado",
       "source_count": 1
@@ -2462,13 +2493,13 @@
       "city": "La Paz",
       "department": "Bolivia",
       "venue": "Teatro Municipal Alberto Saavedra Pérez",
-      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/11/sdfdsfd.jpeg",
+      "image_url": "https://superticket.bo/media/imagenes_eventos/home/2026/11/Shop5_Cuadrado_MbRX9KB.jpg",
       "has_video": false,
       "video_thumbnail_url": null,
       "is_free": false,
-      "price_from": 30.0,
-      "currency": "BOB",
-      "price_label": "Bs 30",
+      "price_from": 0.0,
+      "currency": null,
+      "price_label": "Bs 0",
       "organizer": "SuperTicket.bo",
       "showtimes": [],
       "formats": [],
