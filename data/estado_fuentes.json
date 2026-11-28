@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T17:30:33-04:00",
+  "generated_at": "2026-11-28T03:52:33-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -8,9 +8,7 @@
       "fb_ministerio_culturas"
     ],
     "bloqueadas_en_la_ultima_corrida": [
-      "fb_amun_lapaz",
       "fb_casa_libertad",
-      "fb_erbol",
       "fb_eventos_bolivia",
       "fb_gam_cbba",
       "fb_gob_scz",
@@ -18,12 +16,16 @@
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
       "fb_opinion",
+      "fb_radio_fides",
+      "fb_reduno",
       "fb_teatro_aire_libre",
+      "fb_uagrm",
+      "fb_ucb_lapaz",
       "fb_upsa"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 354.2,
-    "horas_maximo_sin_datos": 2390.3
+    "horas_promedio_sin_datos": 343.6,
+    "horas_maximo_sin_datos": 2400.7
   },
   "sources": [
     {
@@ -75,7 +77,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Eventos Bolivia 425 mil seguidores • 10 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
     },
     {
       "id": "fb_festivales_eventos",
@@ -154,13 +156,22 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5TAANLughKoQ7kNvwGbd7Bf&_nc_oc=AdqL5fp2xTerer5SX2dFm6jJBmLUohWl2mJxqAXEj8oCbBc8AIZsVx5e6m0UBo5jZMI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=yT-u2B-1o0SPmgSr6JHxwg&_nc_ss=7f389&oh=00_AQWcD3Lh1qHjTWTQ6oMFvflMcs3KOpZXyR1r9mdcMdABuw&oe=6B107600",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 8,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/1441805169021903/?__cft__[0]=AZj3XQn8TBqB7gZf8Wt1rhyppuiJWtpcDeJ7BrQ7rwoIRcrc14H8U0oUvQJPush2XCa73PrOCpjC0fB73YGMFwSKnbjash_Kya2KdmqNS_h4fnRXaEABjbf11PIQ6AOoP1BTzB7ZReghN3e38HtamzZiE1cInrbkSWNAnZp25xL9sYcgQtYGOJarU53VSVUVELjY&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "¡El GAMLP reconoce a quienes enseñan a salvar vidas! 1… Ver más ¡El GAMLP reconoce a quienes enseñan a salvar vidas! 1… Ver más Tenemos problemas para reproducir este video. Más información"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -211,7 +222,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. NAJ-YGZ-QECL Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
     },
     {
       "id": "fb_gob_cbba",
@@ -222,22 +233,13 @@
       "tier": 2,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=khLtdVk1mSwQ7kNvwFN-vmH&_nc_oc=Adq7nt1-DxIttbthtanAdY3_iw0sCP9j_AC7SvqCzWZvHIJADi_8ERCcMHko2WXymhw&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=C8YvPZvMZEo_ddlHR7HiZw&_nc_ss=7f389&oh=00_AQXYHwM7-tgSutbuU6-n0gLl8hf9dIbocm66Z09nBJ9KLQ&oe=6B0FC057",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 22,
-          "category": "taller",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/la-gobernaci%C3%B3n-de-cochabamba-a-trav%C3%A9s-de-la-secretar%C3%ADa-departamental-de-desarrol/1685037337001312/",
-          "has_image": true,
-          "text_preview": "La Gobernación de Cochabamba a través de la Secretaría Departamental de Desarrollo Productivo, llevó a cabo el Taller de Elaboración de Lavavajillas. Durante la capacitación, el equipo técnico de la... La Gobernación de Cochabamba a través de la Secretaría Departamental de Desarrollo Productivo, llevó a cabo el Taller de Elaboración de Lavavajillas.... La Gobernación de Cochabamba a través de la S"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_gamscs",
@@ -305,7 +307,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Opinión Bolivia 975 mil seguidores • 60 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
     },
     {
       "id": "fb_eldeber",
@@ -334,12 +336,12 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_unitel",
@@ -401,13 +403,38 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=w99eollYTjAQ7kNvwEfg3fJ&_nc_oc=AdpiFRmE-2UHy24lw5XUKBufJwqcKbD_KJ3BuAkWyX7Bx_BT1z-RZjXsm2NrzO8bHwo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_sZmC2gXkDxEoVnnBkfgbw&_nc_ss=7f389&oh=00_AQVZ06Z0T3rVXhVPpMpGvJc0-Uwo6Pj7q9-84cZNvxvHtQ&oe=6B105CA8",
+      "status": "ok",
+      "raw_items": 3,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 3,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/videos/ante-las-denuncias-la-polic%C3%ADa-neg%C3%B3-que-sus-efectivos-hayan-atropellado-a-una-per/2039353593688212/",
+          "has_image": true,
+          "text_preview": "Ante las denuncias, la Policía negó que sus efectivos hayan atropellado a una persona durante las movilizaciones en Cochabamba y difundió un video en el que se observa … Ver más Típico profesor.... Sería bueno mostrar ese showsito a sus estudiantes.. Elvis Jhon Huanca Quispe ya lo debieron ver solo la vergüenza que deben sentir de tener semejante profesor Tenemos problemas para reproducir este vid"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/ErbolDigital/videos/ante-las-denuncias-la-polic%C3%ADa-neg%C3%B3-que-sus-efectivos-hayan-atropellado-a-una-per/2039353593688212/",
+          "has_image": true,
+          "text_preview": "Ante las denuncias, la Policía negó que sus efectivos hayan atropellado a una persona durante las movilizaciones en Cochabamba y difundió un video en el que se observa que un hombre se lanza al paso... Ante las denuncias, la Policía negó que sus efectivos hayan atropellado a una persona durante las movilizaciones en Cochabamba y difundió un video en el..."
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/2039353593688212/?comment_id=1169599942265159&reply_comment_id=2668512453572228&__cft__[0]=AZiStcfUa1wDP86q7U-ZKtbrl8r9Dek759SGWiWkZCHrlxcVfhGnbq3ghrwRLK4OqchO-e7XeLLWCss-_6EuofNzoRm6VQvK4ObcX3Vg6i7B4KMmnLJIK9KFq_DJnj2dXSgn3_fg-UTAo9KDc3vLc3ivYCvXN_5MIQ6uQc01qhHZ7e5Nf9KCtkOAg3cebhsUYQLT&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Elvis Jhon Huanca Quispe ya lo debieron ver solo la vergüenza que deben sentir de tener semejante profesor Fernando Salas"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_el_diario",
@@ -436,12 +463,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_anf",
@@ -520,22 +547,13 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6YQTtuL6p_cQ7kNvwGOrIz8&_nc_oc=AdrSG43bfhw1lHbhJPyuaFbK_3JQaFN96QE6glmc-pPPPl_XCRuG2tR47-3rVRp2PRk&_nc_zt=24&_nc_ht=scontent-gru1-1.xx&_nc_gid=xhD6iPJLPtb0HXPMRZd8Vw&_nc_ss=7f389&oh=00_AQV4eBzkwCg0ghZ4E8K3han0gJ6DRhFTVQBKtb-Z29OtYg&oe=6B0FDAB7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/radiofidescb/posts/-noticias-r%C3%A1pidas-en-el-revent%C3%B3n-/2069563377629925/",
-          "has_image": true,
-          "text_preview": "🌐 NOTICIAS RÁPIDAS EN EL REVENTÓN 🦆 NOTICIAS RÁPIDAS EN EL REVENTÓN INFÓRMATE CON LAS RÁPIDAS DE FIDES en \"EL REVENTÓN\" Sintonízanos de lunes a viernes de 15:00 a 18:00 por 94.9 FM o por nuestras redes sociales Dale Me gusta, comparte y suscríbete Instagram: instagram.com/radiofidescboficial/ Tik tok: www.tiktok.com/@fidescochabamba94.9 You Tube: youtube.com/channel/UC8K-9gXD-Oih5X8o1k5hkrg #Fides"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_ministerio_culturas",
@@ -597,22 +615,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/886552896_1605269878311656_9122383736169227369_n.jpg?stp=dst-jpg_tt6&cstp=mx954x953&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nbqMcMH-J34Q7kNvwGgiZSd&_nc_oc=Adr4cHTVHupgSPOiah5FyGJodeQkyBasXDQkcb43twNsJL5CfdeZoxtAu_IpZDIryMQ&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=DoK-Oouvp5lkwuKFBEaM9g&_nc_ss=7f389&oh=00_AQUKwKRSJ7LtoJvmp5y5joqbssXBM85tCj5zngYVQ6aUMw&oe=6B0FBBAA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/ccelp.bo/posts/pfbid02SmyrG1JTCkosDzfCUcTbXRB1cff259u2ui8Gn4eKg2w1vhc1a5cw4dDLZFtAWspCl?__cft__[0]=AZiPbp0KmSmnDrhVoLEv6zt_EGOekMfosYVo0jJoy83OQ5hu093zlOKvWWfTxgd7EjvzPZkpJ5VMMesD_AGCJcKaRZAfy_RZD4HXpiy-P96yg8XZ2LE6PeXSBBtF5vawpJ0oN1BTgr9OJ0sw48A_81ddl-d2GkKM2YX1i2HugLYCuS2FMKfcN79tM4k&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "Ilustrando Feminismos. Lápices para resistir Aye… Ver más Ilustrando Feminismos. Lápices para resistir Aye… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_museo_nacional_arte",
@@ -929,22 +938,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/915373855_1599379295563921_2184512463287305677_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pNRqObUfsIYQ7kNvwHuwNXk&_nc_oc=AdoAhQFKmGl9B29LlFK_5ES633TcN-cUspHg0WzSbbrtOLIkb6Vvecj9vpQKfkNBVWs&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=ivR42Qzs-rSutFnT-EBRZA&_nc_ss=7f389&oh=00_AQXR8B3cZwWa3ly0WwfHA0iktVJ9Bmz7BdNb6zTu6H4xtQ&oe=6B0FC1FD",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 14,
-          "category": "otro",
-          "url": "https://www.facebook.com/aflapaz/posts/pfbid02QoRGGAwmWAgCERTQ9cSnyPSjKhvq2yF9SzKhyh5V4yfNTMx3cPJqWKfhdYEEbgE7l?__cft__[0]=AZjlnte6OvNfPMIkPbEajleR2hD6lkGOP7nAiNqdaEV4bsgyl8F2twlRvDffdPPuSmthDIvoDZklY9blIm6P7ACcCtz3-jTAhvexSGeS_Ufx45XPnG-Bab9byd4erl1Shc9UWw9rezRiO8rlXl1Ouyo2bzJmu296Xl15I968fz7Y4fWb-ynpXZRPk_E&__tn__=%2CO%2CP-R",
-          "has_image": true,
-          "text_preview": "¡El talento también se escucha en otros idiomas! La… Ver más ¡El talento también se escucha en otros idiomas! La… Ver más"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_teatros_municipales_lapaz",
@@ -1194,12 +1194,12 @@
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_umss",
@@ -1228,12 +1228,12 @@
       "region": "La Paz",
       "city": "La Paz",
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_upsa",
@@ -1560,8 +1560,8 @@
       "city": "Cochabamba",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 9,
-      "events": 9,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1594,8 +1594,8 @@
       "city": "Santa Cruz de la Sierra",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 35,
-      "events": 35,
+      "raw_items": 38,
+      "events": 38,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
@@ -1628,8 +1628,8 @@
       "city": "Tarija",
       "icon_url": null,
       "status": "ok",
-      "raw_items": 10,
-      "events": 10,
+      "raw_items": 11,
+      "events": 11,
       "rejected": 0,
       "rejected_samples": [],
       "error": null
