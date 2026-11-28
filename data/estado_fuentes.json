@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T03:52:33-04:00",
+  "generated_at": "2026-11-28T13:37:42-04:00",
   "coverage": {
     "fuentes_totales": 70,
     "con_datos_alguna_vez": 68,
@@ -11,12 +11,10 @@
       "fb_casa_libertad",
       "fb_eventos_bolivia",
       "fb_gam_cbba",
-      "fb_gob_scz",
+      "fb_gobernacion_lapaz",
       "fb_lostiempos",
       "fb_ministerio_culturas",
       "fb_municipio_lapaz",
-      "fb_opinion",
-      "fb_radio_fides",
       "fb_reduno",
       "fb_teatro_aire_libre",
       "fb_uagrm",
@@ -24,8 +22,8 @@
       "fb_upsa"
     ],
     "con_fallos_persistentes": [],
-    "horas_promedio_sin_datos": 343.6,
-    "horas_maximo_sin_datos": 2400.7
+    "horas_promedio_sin_datos": 310.2,
+    "horas_maximo_sin_datos": 2410.5
   },
   "sources": [
     {
@@ -156,22 +154,13 @@
       "tier": 2,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5TAANLughKoQ7kNvwGbd7Bf&_nc_oc=AdqL5fp2xTerer5SX2dFm6jJBmLUohWl2mJxqAXEj8oCbBc8AIZsVx5e6m0UBo5jZMI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=yT-u2B-1o0SPmgSr6JHxwg&_nc_ss=7f389&oh=00_AQWcD3Lh1qHjTWTQ6oMFvflMcs3KOpZXyR1r9mdcMdABuw&oe=6B107600",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 8,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/1441805169021903/?__cft__[0]=AZj3XQn8TBqB7gZf8Wt1rhyppuiJWtpcDeJ7BrQ7rwoIRcrc14H8U0oUvQJPush2XCa73PrOCpjC0fB73YGMFwSKnbjash_Kya2KdmqNS_h4fnRXaEABjbf11PIQ6AOoP1BTzB7ZReghN3e38HtamzZiE1cInrbkSWNAnZp25xL9sYcgQtYGOJarU53VSVUVELjY&__tn__=%2CO%2CP-R",
-          "has_image": false,
-          "text_preview": "¡El GAMLP reconoce a quienes enseñan a salvar vidas! 1… Ver más ¡El GAMLP reconoce a quienes enseñan a salvar vidas! 1… Ver más Tenemos problemas para reproducir este video. Más información"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_alcaldia_el_alto",
@@ -200,12 +189,12 @@
       "region": "La Paz",
       "city": null,
       "icon_url": null,
-      "status": "skipped",
+      "status": "blocked",
       "raw_items": 0,
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gam_cbba",
@@ -222,7 +211,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: '¿Iniciaste sesión en tu teléfono? Escanea el código QR con la cámara del teléfono e ingresa este código. NAJ-YGZ-QECL Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Inici'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
     },
     {
       "id": "fb_gob_cbba",
@@ -267,13 +256,22 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bGKQKrmRCxIQ7kNvwEmHjDh&_nc_oc=Ado1C8IVSMUIJyD8bL18mcMzqTrTbEZcoJPI8sn4gwsXORt1bq1FAe1_nwAzSsPdZxU&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=53icp7ZaR2sawzHZzLUV5A&_nc_ss=7f389&oh=00_AQXHH9MXcN3cCvGIJ_-p3cKBIiasmjE8jCxaiAlBUdTwOg&oe=6B10E6BE",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/GobSantaCruz/posts/pfbid0D3WiNQZMsiZHpPFsjmfLokmWYaa3bB3ZT2ZxCAHWZKQGSGnpczCaSR3hgeh7hBUZl?__cft__[0]=AZgce-euYo9hc-lRoa0C6RmJhpuunvepml-NfgByq1oTKY75TOy5aG3r7gOM7fHMrVHn6sICUDa4tyP5QtrgvA5pOu7NaL3FmEL__C-CiHc1mzwvkLFaLyvgUBmhh8LTWiLfzl3xYiuTj6HWUfBct2GAf-RjePt8dxWMIEO8qtNoRcIDA0h6EVaEJMQ&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "¡Santa Cruz apuesta por el futuro y la innovación!… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_lostiempos",
@@ -301,13 +299,22 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GrNjYQiuT6MQ7kNvwFl_cr8&_nc_oc=AdoXb-QVMGhFvyhNstn6-RZM_z74NSA_WJOb3WGC6VhhXE2Fi8v0LADI9taZqKAi6mw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=sZ24_QNUAwsKsjI50EGhxg&_nc_ss=7f389&oh=00_AQWlTNsXiGnRy-cSZubxRoLNNzOpQfWENzEYkEEchOzx2w&oe=6B10EAA6",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Opinión Bolivia 975 mil seguidores • 60 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error '"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid037D4x7tqTzjmKgZMs7X4u5hW6pdPdP5AdCcEx4JvqzcLNVipiRvWrvR57mJrHRehUl?__cft__[0]=AZhSkjMYJVRxwXZ3x9eVQD2-vdrj-fez_XZ0zkYopfIsMRmpKtcRG6ZKU4UBMYloYHVIDfKwCJzJuvNJraazO6DMAwQudn6dj_TWACLYjORahx3iwflfV0P0X33FbJcFWDiykKTTtgvDVScb32HrDG4KxK7YxEjLFAjx9OwYgvBnVVnk0Hr7rVKHWXI&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "La explicación fue realizada en el marco del Encuentro Presidencial y VII Gabinete #Binacional Bolivia–Perú. OPINION.COM.BO Bolivia y Perú acuerdan reforzar la cooperación en seguridad y fijan cuatro prioridades"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_eldeber",
@@ -341,7 +348,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Red Uno de Bolivia 6 mill. seguidores • 33 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un err'"
     },
     {
       "id": "fb_unitel",
@@ -403,38 +410,13 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=w99eollYTjAQ7kNvwEfg3fJ&_nc_oc=AdpiFRmE-2UHy24lw5XUKBufJwqcKbD_KJ3BuAkWyX7Bx_BT1z-RZjXsm2NrzO8bHwo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_sZmC2gXkDxEoVnnBkfgbw&_nc_ss=7f389&oh=00_AQVZ06Z0T3rVXhVPpMpGvJc0-Uwo6Pj7q9-84cZNvxvHtQ&oe=6B105CA8",
-      "status": "ok",
-      "raw_items": 3,
+      "icon_url": null,
+      "status": "skipped",
+      "raw_items": 0,
       "events": 0,
-      "rejected": 3,
-      "rejected_samples": [
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/ErbolDigital/videos/ante-las-denuncias-la-polic%C3%ADa-neg%C3%B3-que-sus-efectivos-hayan-atropellado-a-una-per/2039353593688212/",
-          "has_image": true,
-          "text_preview": "Ante las denuncias, la Policía negó que sus efectivos hayan atropellado a una persona durante las movilizaciones en Cochabamba y difundió un video en el que se observa … Ver más Típico profesor.... Sería bueno mostrar ese showsito a sus estudiantes.. Elvis Jhon Huanca Quispe ya lo debieron ver solo la vergüenza que deben sentir de tener semejante profesor Tenemos problemas para reproducir este vid"
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 6,
-          "category": "otro",
-          "url": "https://www.facebook.com/ErbolDigital/videos/ante-las-denuncias-la-polic%C3%ADa-neg%C3%B3-que-sus-efectivos-hayan-atropellado-a-una-per/2039353593688212/",
-          "has_image": true,
-          "text_preview": "Ante las denuncias, la Policía negó que sus efectivos hayan atropellado a una persona durante las movilizaciones en Cochabamba y difundió un video en el que se observa que un hombre se lanza al paso... Ante las denuncias, la Policía negó que sus efectivos hayan atropellado a una persona durante las movilizaciones en Cochabamba y difundió un video en el..."
-        },
-        {
-          "reason": "sin_fecha_ni_enlace_de_evento",
-          "score": 0,
-          "category": "otro",
-          "url": "https://www.facebook.com/reel/2039353593688212/?comment_id=1169599942265159&reply_comment_id=2668512453572228&__cft__[0]=AZiStcfUa1wDP86q7U-ZKtbrl8r9Dek759SGWiWkZCHrlxcVfhGnbq3ghrwRLK4OqchO-e7XeLLWCss-_6EuofNzoRm6VQvK4ObcX3Vg6i7B4KMmnLJIK9KFq_DJnj2dXSgn3_fg-UTAo9KDc3vLc3ivYCvXN_5MIQ6uQc01qhHZ7e5Nf9KCtkOAg3cebhsUYQLT&__tn__=R-R",
-          "has_image": false,
-          "text_preview": "Elvis Jhon Huanca Quispe ya lo debieron ver solo la vergüenza que deben sentir de tener semejante profesor Fernando Salas"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: no le tocó turno en esta ola de rotación."
     },
     {
       "id": "fb_el_diario",
@@ -462,13 +444,22 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "blocked",
-      "raw_items": 0,
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=j9GCUy4_LqYQ7kNvwHMqfYC&_nc_oc=AdphB8fBBHdwEIVf2IuCnpx7m6vc8gBv2hd8tA26q5gAVeWFlMJiekDOpNpZ8NclyxM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=iP2JaUYlTYh1x00HUIwsTQ&_nc_ss=7f389&oh=00_AQVgASDVNC8ihIFmU4GtQRMomQ3y6aewsqWZWdFKKzm0Ow&oe=6B10F188",
+      "status": "ok",
+      "raw_items": 1,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "rejected": 1,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 6,
+          "category": "otro",
+          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02pTKMvZCqN4ThvykrRsrP6MWceYmxk2SBQU2PEYQ4mqYYvEPnBBGgrCaqSDuK3sRKl?__cft__[0]=AZj6fufSCi9WP0Q1qx0jkF28TkBE_bFaFoJiTaLi_nOSVjLUritIqdF_oL5Ehwc1pEYDAHCg1ouD7zTFwWOz6NU36tZEYIS6eWiBpHSBHo3JRrFU0rlMLDERCxuDLfruB4VQRKjdSPaZC4iMoXJqGohPTBsSkL6r2i0KYzK0RnZfXOClPGh1VzY0q9s&__tn__=%2CO%2CP-R",
+          "has_image": true,
+          "text_preview": "#GrupoFides | #RadioFidesSantaCruz A este escenario se suma la preocupación por los incendios forestales en tierras bajas, con afectaciones en áreas naturales protegi… Ver más"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_anf",
@@ -870,13 +861,30 @@
       "tier": 2,
       "region": "Beni",
       "city": null,
-      "icon_url": null,
-      "status": "skipped",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/701636457_1015000024522833_2512050596104306509_n.jpg?stp=dst-jpg_tt6&cstp=mx516x509&ctp=s516x509&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lKOewSNBTIsQ7kNvwGxVFq0&_nc_oc=AdpU1nGDnXZJPV3KAPcRx6eCq234tPg9hcNlZh4zH7yfEXl0FBvDKuXibvl-H0TsG8k&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=6rjfBunMVoAqiYbqhI-Siw&_nc_ss=7f389&oh=00_AQUgeVPy1WR9x9bQG6W4V5oE-HnxPiH2xiQfGqxUls8JjQ&oe=6B10CAE9",
+      "status": "ok",
+      "raw_items": 2,
       "events": 0,
-      "rejected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: no le tocó turno en esta ola de rotación."
+      "rejected": 2,
+      "rejected_samples": [
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?__cft__[0]=AZisstH3W_Bs4a9EFl6nW0IF8vv34GzjMWeqjXmk7a7FEv9bDyI9efC9qZ41oAxgagzdnvEwibudeUOUv6APQrIGZ7G9N3suphAcTdcqXbT8hnLVZ39Tp1RkJL7RdfsiO5jC8AFMyS9FK8OPJLh6DJF-97mwn6UuVZNeuyzdC-9H-DFwKrxJQb054c4EduSpDG-t&__tn__=%2CO%2CP-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Tenemos problemas para reproducir este video. Más información Ver más comentarios Fabiola Franco Soria"
+        },
+        {
+          "reason": "sin_fecha_ni_enlace_de_evento",
+          "score": 0,
+          "category": "otro",
+          "url": "https://www.facebook.com/reel/4573438102927735/?comment_id=1696931752442171&__cft__[0]=AZisstH3W_Bs4a9EFl6nW0IF8vv34GzjMWeqjXmk7a7FEv9bDyI9efC9qZ41oAxgagzdnvEwibudeUOUv6APQrIGZ7G9N3suphAcTdcqXbT8hnLVZ39Tp1RkJL7RdfsiO5jC8AFMyS9FK8OPJLh6DJF-97mwn6UuVZNeuyzdC-9H-DFwKrxJQb054c4EduSpDG-t&__tn__=R-R",
+          "has_image": false,
+          "text_preview": "Feliz cumpleaños a su princesa y Dios la cuide mucho! Fabiola Franco Soria"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_fipaz",
@@ -1131,7 +1139,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Museo Casa de la Libertad 16 mil seguidores • 45 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a '"
     },
     {
       "id": "fb_musef_sucre",
@@ -1199,7 +1207,7 @@
       "events": 0,
       "rejected": 0,
       "rejected_samples": [],
-      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (Fra'"
+      "error": "Facebook ocultó el contenido público en esta corrida. Vista previa: 'Iniciar sesión ¿Olvidaste la cuenta? Indicador de estado activo Universidad Autónoma Gabriel René Moreno UAGRM 31 mil seguidores • 65 seguidos Más Publicaciones Información Reels Fotos Esta página no '"
     },
     {
       "id": "fb_umss",
